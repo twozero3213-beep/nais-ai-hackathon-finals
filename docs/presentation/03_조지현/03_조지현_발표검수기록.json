@@ -1,0 +1,185 @@
+{
+  "recorded_at_kst": "2026-10-01T06:36:12+09:00",
+  "change_reason": "사용자 명시 요청에 따라 첨부 프롬프트와 기존 6장 자료를 통합하고 GitHub 폴더에 반영",
+  "source_main_sha": "43cfa467a32e1105f04757f13f783aee825feb4c",
+  "slide_count": 7,
+  "planned_speaking_seconds": 300,
+  "rehearsal_measured": false,
+  "pdf_page_size_pt": [
+    960,
+    540
+  ],
+  "pdf_view_layout": "SinglePage",
+  "pdf_open_fit": "Fit",
+  "pdf_text_handling": "검수한 2560x1440 화면 고정. 글꼴 의존성 없음. 텍스트 검색·선택 없음.",
+  "chart_values": [
+    [
+      17,
+      16
+    ],
+    [
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "quantitative_sources": {
+    "checked_at_kst": "2026-10-01T06:26:21+09:00",
+    "source_execution_at": "2026-09-30T22:11:35+09:00",
+    "local_cases": 8,
+    "registered_expectations_matched": 8,
+    "human_approval_complete": 0,
+    "category_counts": {
+      "ARITHMETIC_MATCH": 2,
+      "ARITHMETIC_MISMATCH": 2,
+      "BLOCK": 2,
+      "STALE_BLOCK": 2
+    },
+    "ppt_chart_values": [
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "model_comparison_not_run": 16,
+    "separate_normal_ai_case": 1,
+    "bat_arithmetic": {
+      "original_data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+      "source_registry_sha256": "c6079c84018bcd9b71ef86371c08ddf373c18c05a396ab2180ee71745ee8f58a",
+      "selected_n": 53,
+      "mean": 49.320754716981135,
+      "reported_value": 49.32,
+      "scope": "등록 조건의 수치 재대조. 새로운 제품 실행·AI 호출·독립 임상 검증 아님"
+    },
+    "source_results_sha256": "14dd943413202fd537f9e6c8d7c81d6fef27b9f8d35dede4f89f1de569d16a13",
+    "pptx_sha256": "c258aef8669647860d4888a1a68c4f65ab33c56c2b9c988391a3985f5df0f9fa",
+    "pdf_sha256": "392d3fdb08fe01afc9b1171e3898a95a649a4e26659b9eb99285de9c4a336cd5",
+    "scope": "원기록 및 산식 대조. 새 제품 시험·새 AI 호출 아님."
+  },
+  "paper_data_recheck": {
+    "checked_at_kst": "2026-10-01T06:28:31+09:00",
+    "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+    "original_data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+    "filter": "Readout.bat == 1",
+    "total_rows": 1060,
+    "positive_rows": 53,
+    "positive_unique_ids": 53,
+    "male": 16,
+    "female": 37,
+    "mean_age": 49.320754716981135,
+    "paper_reported": {
+      "positive": 53,
+      "male": 17,
+      "female": 37,
+      "mean_age": 49.32
+    },
+    "scope": "출판사 본문 대조와 공개 자료의 등록 조건 집계. 논문 결론 오류·원인 확정·AI 우위가 아님."
+  },
+  "package_validation": {
+    "packageIntegrity": {
+      "chart_count": 2,
+      "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+      "finding_count": 0,
+      "findings": [],
+      "notes_parts_skipped": 7,
+      "relationship_part_count": 21,
+      "slide_count": 7,
+      "status": "pass",
+      "exitCode": 0,
+      "findingCount": 0,
+      "warnings": []
+    },
+    "presentationLayout": {
+      "finding_count": 0,
+      "findings": [],
+      "font_policy": {
+        "checked_text_script_count": 160,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Pretendard"
+        ],
+        "observed_font_use_counts": {
+          "Pretendard": 160
+        },
+        "passed": true,
+        "performed": true
+      },
+      "slide_count": 7,
+      "slide_size_in": [
+        13.3333,
+        7.5
+      ],
+      "warning_count": 0,
+      "warnings": [],
+      "exitCode": 0,
+      "findingCount": 0,
+      "fontPolicy": {
+        "checked_text_script_count": 160,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Pretendard"
+        ],
+        "observed_font_use_counts": {
+          "Pretendard": 160
+        },
+        "passed": true,
+        "performed": true
+      }
+    }
+  },
+  "unexecuted": [
+    "새 유료 AI 호출",
+    "동일 조건 일반 AI 비교 16건",
+    "사용자 시간 절감 실험",
+    "이번 작업의 제품 회귀 시험",
+    "실제 발표 리허설"
+  ],
+  "input_prompt_sha256": "e19b917b11a8d8a0ad285b44d8c0c000c2f6aaa1e092db75d07831d4c5ba04d9",
+  "final_quantitative_chart_cache": [
+    [
+      17.0,
+      16.0
+    ],
+    [
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ]
+  ],
+  "final_embedded_workbook_values": [
+    [
+      17.0,
+      16.0
+    ],
+    [
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ]
+  ],
+  "final_artifact_sha256": {
+    "7장통합PDF": "57591a779d8b2aea43479623137c0a8c00225f6cba3a041743bb92083f5a644d",
+    "7장편집용PPT": "960fabe9fde385d6459cbfca00b8eb917b29974f11d17eda8bdebc27e197a5ea"
+  },
+  "unresolved_product_boundaries": "최신 팀 근거 경계 검증에 수치·승인 경계 보완이 남아 있으며 마지막 장에 표시. 이번 작업은 제품 결함을 수정하지 않음.",
+  "pdf_visual_review": {
+    "reviewed_at_kst": "2026-10-01T06:37:51+09:00",
+    "pages_reviewed": 7,
+    "rendered_page_pixels": [
+      1280,
+      720
+    ],
+    "korean_glyphs": "PASS",
+    "clipping_or_overlap": "없음",
+    "chart_and_actual_ui_review": "PASS"
+  },
+  "metadata_guard": {
+    "status": "PASS",
+    "checked_at_kst": "2026-10-01T06:37:00+09:00",
+    "json_files_checked": 148,
+    "scope": "담당 번호·형식·문서 링크. 제품 성능 아님"
+  }
+}
