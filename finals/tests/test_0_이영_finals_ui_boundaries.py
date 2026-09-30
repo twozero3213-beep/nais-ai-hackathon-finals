@@ -51,6 +51,8 @@ def test_only_pass_displays_success_icon(status, caption):
 def test_labeled_credential_reason_disables_approval_without_reflecting_value(app_factory):
     app = app_factory()
     compute(app)
+    # [수정: 0 이영] 2026-10-01 07:51 KST — 새 단계 화면의 사람 검토로 이동한 뒤 인증값 차단과 정상 사유 허용을 검증한다.
+    app.button(key="fin_result_next").click().run()
     app.checkbox(key="fin_human_confirm").set_value(True).run()
     synthetic = "password=" + "SYNTHETIC_NOT_A_REAL_CREDENTIAL"
     app.text_area(key="fin_reason").set_value(synthetic).run()
