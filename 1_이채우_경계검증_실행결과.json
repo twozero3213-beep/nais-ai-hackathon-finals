@@ -1,0 +1,267 @@
+{
+  "contributor_version": 1,
+  "recorded_at_kst": "2026-09-30T22:54:03+09:00",
+  "python": "3.12.14",
+  "status": "OBSERVATIONS_NOT_RELEASE_CERTIFICATION",
+  "scope": "Local arithmetic and boundary observations; no model calls or external requests",
+  "engine_file_sha256": {
+    "evidence_gate/__init__.py": "be7eac87d32deb73ebd965864a7b91af1061614075e3d64c3d1831fa505398ba",
+    "evidence_gate/__main__.py": "284c73c15266d8fbbab2787aff5a36119bfd5de03d631ff17524517843c1fe1a",
+    "evidence_gate/align.py": "19a0dd2e5dd93d2df108530467bbfde5ab33050f3406e86c16bd4f89774a144d",
+    "evidence_gate/canonical_spec_v2.schema.json": "ee17ff2597f193705656e78f704283c39604c835f7fa4c096ce8b642f557cc58",
+    "evidence_gate/compute.py": "0457de62d6c57b246f4e07d90aa5a94e507afe68ca565c227e4d82b01d506674",
+    "evidence_gate/convert.py": "c21bdd2874a6752aa82ba24cfb3c6ca20edcc8b510407ca25cd550248e3b2439",
+    "evidence_gate/demo_a2.py": "031d22e4f71e8fafa89ea764fe6f4a8941b239bb70b8870ae1e4c70e599d08c6",
+    "evidence_gate/examples/a2_primate_alignment.spec.json": "ef450dd342264ec67d1f86315ddeb2ae6b433a262e3d130f73b1e5f93c90f1b6",
+    "evidence_gate/examples/penguins_raw_rows.spec.json": "6cf68a73eca117e197d33087b420fea0a817639a83366c811e84aa3489c7c337",
+    "evidence_gate/fixtures/penguins_raw.csv": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+    "evidence_gate/fixtures/SOURCES.json": "40d64da9f395e2ca7ce1fa2db694b11626ab31c216c2d6004226046325334433",
+    "evidence_gate/gate.py": "fd314d831df057b6aece077ed5e72c68cfd0525d48ebe339c2c8803d261346dc",
+    "evidence_gate/nexus.py": "636eda102a6669e46d0432d40cb3c9f0ca93008b2d87466c89cca7ba6d19c53d",
+    "evidence_gate/record.py": "b27df456b3fad9054ff15acdda3e72c4ea9f9fdb1e4a445b67318f59ac1b2977",
+    "evidence_gate/spec.py": "87857910b9d8451055af399c3d232abc5ae8fc12ad03ba8cd4252035a9f24c80"
+  },
+  "observations": {
+    "penguin_rows": {
+      "returned": {
+        "claim_id": "PENG-RAW-ROWS",
+        "method": "row_count",
+        "verdict": "MATCH",
+        "reason_code": "COMPUTED",
+        "spec_sha256": "c965bcb4491009d221dfbc3bd69140cc311a854593513791f2a7f5035f953eff",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "computed": 344,
+        "reported": 344,
+        "tolerance": 0,
+        "details": {
+          "rows_selected": 344
+        }
+      }
+    },
+    "changed_csv": {
+      "returned": {
+        "claim_id": "PENG-RAW-ROWS",
+        "method": "row_count",
+        "verdict": "BLOCK",
+        "reason_code": "STALE_DATA",
+        "spec_sha256": "c965bcb4491009d221dfbc3bd69140cc311a854593513791f2a7f5035f953eff",
+        "data_sha256": "b5c1aa1f4f62f84059c51501a003fbe96e710d61ad6d4cd3de230fe33714ebac",
+        "message": "명세에 등록된 자료 지문과 현재 자료 바이트가 다름. 이전 결과를 쓰지 말고 다시 확인해야 함",
+        "registered_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+      }
+    },
+    "quote_without_count": {
+      "returned": {
+        "claim_id": "PENG-RAW-ROWS",
+        "method": "row_count",
+        "verdict": "MATCH",
+        "reason_code": "COMPUTED",
+        "spec_sha256": "a790cdbeb766fe6a59c775e08d7177b610ea84fa9b538a33862158bce5fc901f",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "computed": 344,
+        "reported": 344,
+        "tolerance": 0,
+        "details": {
+          "rows_selected": 344
+        }
+      }
+    },
+    "method_array": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'list'"
+    },
+    "nonfinite_report": {
+      "exception": "ValueError",
+      "message": "Out of range float values are not JSON compliant: nan"
+    },
+    "unconfirmed_scope": {
+      "returned": {
+        "claim_id": "BOUNDARY-SYNTHETIC",
+        "method": "mean",
+        "verdict": "MATCH",
+        "reason_code": "COMPUTED",
+        "spec_sha256": "7f03ae46c93f516d858fb912084ccf90bf827f6e5e8631d09046ad08c10fa71f",
+        "data_sha256": "1ec3bd2b550b618a75cf90f95b2523e9b2662d823ececa9bb49e9181f203d206",
+        "computed": 2.0,
+        "reported": 2,
+        "tolerance": 1e-09,
+        "details": {
+          "rows_selected": 2,
+          "rows_used": 2,
+          "rows_dropped_missing": 0,
+          "dropped_data_rows": []
+        }
+      }
+    },
+    "finite_mean_overflow": {
+      "exception": "OverflowError",
+      "message": "intermediate overflow in fsum"
+    },
+    "reference_order_1": {
+      "returned": {
+        "claim_id": "BOUNDARY-SYNTHETIC",
+        "method": "row_alignment",
+        "verdict": "MATCH",
+        "reason_code": "ROWS_REORDERED_WITH_APPROVAL",
+        "spec_sha256": "0ecbbe474fb765e073537484fd5fd2926c0fcc20cb676b0f868627069c788bf0",
+        "data_sha256": "339f260df2aa497b517c0f141d4aea60891d8face2c3596fbd062fa7947c1527",
+        "reorder_indices": [
+          1,
+          0,
+          2
+        ],
+        "alignment_table": [
+          {
+            "reference_position": 1,
+            "id": "A",
+            "data_row": 2
+          },
+          {
+            "reference_position": 2,
+            "id": "B",
+            "data_row": 1
+          },
+          {
+            "reference_position": 3,
+            "id": "C",
+            "data_row": 3
+          }
+        ],
+        "details": {
+          "data_count": 3,
+          "reference_count": 3,
+          "empty_data_positions": [],
+          "duplicates_data": [],
+          "duplicates_reference": [],
+          "missing_in_data": [],
+          "missing_in_reference": [],
+          "normalization_candidates": [],
+          "order_differs": true,
+          "order_differences_count": 2,
+          "order_differences": [
+            {
+              "position": 1,
+              "data_id": "B",
+              "reference_id": "A"
+            },
+            {
+              "position": 2,
+              "data_id": "A",
+              "reference_id": "B"
+            }
+          ],
+          "status": "ORDER_DIFFERS"
+        },
+        "reference_ids_sha256": "2e70d7238a20934f7a8a145e8750ee44d6e043a7a8c9b3a1a0979d640e62af8c",
+        "approvals": [
+          {
+            "type": "reorder",
+            "approver": "SYNTHETIC_REVIEWER",
+            "basis": "first synthetic reference order",
+            "approved_at_kst": null,
+            "bound_data_sha256": "339f260df2aa497b517c0f141d4aea60891d8face2c3596fbd062fa7947c1527",
+            "bound_reference_sha256": "2e70d7238a20934f7a8a145e8750ee44d6e043a7a8c9b3a1a0979d640e62af8c"
+          }
+        ]
+      }
+    },
+    "changed_reference_same_approval": {
+      "returned": {
+        "claim_id": "BOUNDARY-SYNTHETIC",
+        "method": "row_alignment",
+        "verdict": "MATCH",
+        "reason_code": "ROWS_REORDERED_WITH_APPROVAL",
+        "spec_sha256": "0ecbbe474fb765e073537484fd5fd2926c0fcc20cb676b0f868627069c788bf0",
+        "data_sha256": "339f260df2aa497b517c0f141d4aea60891d8face2c3596fbd062fa7947c1527",
+        "reorder_indices": [
+          2,
+          1,
+          0
+        ],
+        "alignment_table": [
+          {
+            "reference_position": 1,
+            "id": "C",
+            "data_row": 3
+          },
+          {
+            "reference_position": 2,
+            "id": "A",
+            "data_row": 2
+          },
+          {
+            "reference_position": 3,
+            "id": "B",
+            "data_row": 1
+          }
+        ],
+        "details": {
+          "data_count": 3,
+          "reference_count": 3,
+          "empty_data_positions": [],
+          "duplicates_data": [],
+          "duplicates_reference": [],
+          "missing_in_data": [],
+          "missing_in_reference": [],
+          "normalization_candidates": [],
+          "order_differs": true,
+          "order_differences_count": 2,
+          "order_differences": [
+            {
+              "position": 1,
+              "data_id": "B",
+              "reference_id": "C"
+            },
+            {
+              "position": 3,
+              "data_id": "C",
+              "reference_id": "B"
+            }
+          ],
+          "status": "ORDER_DIFFERS"
+        },
+        "reference_ids_sha256": "a81167312f4dc9a05e11d395f0730390776665a94bdd9b52b0a81d283c340b84",
+        "approvals": [
+          {
+            "type": "reorder",
+            "approver": "SYNTHETIC_REVIEWER",
+            "basis": "first synthetic reference order",
+            "approved_at_kst": null,
+            "bound_data_sha256": "339f260df2aa497b517c0f141d4aea60891d8face2c3596fbd062fa7947c1527",
+            "bound_reference_sha256": "a81167312f4dc9a05e11d395f0730390776665a94bdd9b52b0a81d283c340b84"
+          }
+        ]
+      }
+    },
+    "ols_offset_1000000": {
+      "reference_slope": 1,
+      "reference_intercept": -1000000,
+      "observation": {
+        "returned": {
+          "terms": {
+            "(Intercept)": {
+              "b": -999942.8223549896,
+              "se": 33.010587835470375,
+              "t": -30291.578790988264
+            },
+            "x": {
+              "b": 0.9999428225265221,
+              "se": 3.301048880397095e-05,
+              "t": 30291.669670951236
+            }
+          },
+          "df": 3,
+          "n": 5
+        }
+      }
+    },
+    "ols_offset_100000000": {
+      "reference_slope": 1,
+      "reference_intercept": -100000000,
+      "observation": {
+        "exception": "GateError",
+        "message": "설계행렬이 특이함(예측변수 공선성 등)"
+      }
+    }
+  }
+}

@@ -1,0 +1,595 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Commun</journal-id><journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id><journal-id journal-id-type="pmc-domain-id">2873</journal-id><journal-id journal-id-type="pmc-domain">ncomms</journal-id><journal-id journal-id-type="nlm-id">101528555</journal-id><journal-title-group><journal-title>Nature Communications</journal-title></journal-title-group><issn pub-type="epub">2041-1723</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7672107</article-id><article-id pub-id-type="pmcid-ver">PMC7672107.1</article-id><article-id pub-id-type="pmcaid">7672107</article-id><article-id pub-id-type="pmcaiid">7672107</article-id><article-id pub-id-type="pmid">33203848</article-id><article-id pub-id-type="doi">10.1038/s41467-020-19723-8</article-id><article-id pub-id-type="publisher-id">19723</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>The association between early career informal mentorship in academic
+                    collaborations and junior author performance</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1775-5162</contrib-id><name name-style="western"><surname>AlShebli</surname><given-names initials="B">Bedoor</given-names></name><address></address><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4849-0606</contrib-id><name name-style="western"><surname>Makovi</surname><given-names initials="K">Kinga</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0070-0667</contrib-id><name name-style="western"><surname>Rahwan</surname><given-names initials="T">Talal</given-names></name><address></address><xref ref-type="aff" rid="Aff1">1</xref></contrib><aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.440573.1</institution-id><institution>Department of Computer Science, Science Division, </institution><institution>New York University Abu Dhabi, </institution></institution-wrap>Abu Dhabi, UAE </aff><aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.440573.1</institution-id><institution>Computational Social Science Lab, Social Science Division, </institution><institution>New York University Abu Dhabi, </institution></institution-wrap>Abu Dhabi, UAE </aff><aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.440573.1</institution-id><institution>Social Research and Public Policy, Social Science Division, </institution><institution>New York University Abu Dhabi, </institution></institution-wrap>Abu Dhabi, UAE </aff></contrib-group><pub-date pub-type="epub"><day>17</day><month>11</month><year>2020</year></pub-date><pub-date pub-type="collection"><year>2020</year></pub-date><volume>11</volume><issue-id pub-id-type="pmc-issue-id">348897</issue-id><elocation-id>5855</elocation-id><history><date date-type="received"><day>4</day><month>11</month><year>2019</year></date><date date-type="accepted"><day>14</day><month>10</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>17</day><month>11</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>24</day><month>11</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-08-01 15:25:15.060"><day>01</day><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2020</copyright-statement><license license-type="OpenAccess"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative
+                        Commons Attribution 4.0 International License, which permits use, sharing,
+                        adaptation, distribution and reproduction in any medium or format, as long
+                        as you give appropriate credit to the original author(s) and the source,
+                        provide a link to the Creative Commons license, and indicate if changes were
+                        made. The images or other third party material in this article are included
+                        in the article’s Creative Commons license, unless indicated
+                        otherwise in a credit line to the material. If material is not included in
+                        the article’s Creative Commons license and your intended use is not
+                        permitted by statutory regulation or exceeds the permitted use, you will
+                        need to obtain permission directly from the copyright holder. To view a copy
+                        of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2020_Article_19723.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" journal-id="Nat Commun" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC7752908"><article-title>Retraction Note: The association between early career informal mentorship in academic collaborations and junior author performance</article-title><volume>11</volume><date><day>21</day><month>12</month><year>2020</year></date><elocation-id>6446</elocation-id><source>Nature Communications</source><pub-id pub-id-type="doi">10.1038/s41467-020-20617-y</pub-id><pub-id pub-id-type="pmcid">PMC7752908</pub-id><pub-id pub-id-type="pmid">33349637</pub-id></related-article><abstract id="Abs1"><p id="Par1">We study mentorship in scientific collaborations, where a junior
+                    scientist is supported by potentially multiple senior collaborators, without
+                    them necessarily having formal supervisory roles. We identify 3 million
+                    mentor–protégé pairs and survey a random sample,
+                    verifying that their relationship involved some form of mentorship. We find that
+                    mentorship quality predicts the scientific impact of the papers written by
+                    protégés post mentorship without their mentors. We also find
+                    that increasing the proportion of female mentors is associated not only with a
+                    reduction in post-mentorship impact of female protégés, but also
+                    a reduction in the gain of female mentors. While current diversity policies
+                    encourage same-gender mentorships to retain women in academia, our findings
+                    raise the possibility that opposite-gender mentorship may actually increase the
+                    impact of women who pursue a scientific career. These findings add a new
+                    perspective to the policy debate on how to best elevate the status of women in
+                    science.</p></abstract><abstract id="Abs2" abstract-type="web-summary"><p id="Par2">Here, the authors study mentorship in scientific collaborations, and
+                    find that mentorship quality predicts the scientific impact of
+                    protégés post mentorship. Moreover, female
+                    protégés collaborating with male mentors become more impactful
+                    post mentorship than those who collaborate with female mentors.</p></abstract><kwd-group kwd-group-type="npg-subject"><title>Subject terms</title><kwd>Scientific community</kwd><kwd>Careers</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>© The Author(s) 2020</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="version-changes"><title>Change history</title><p>11/19/2020</p><p>Editor’s Note: Readers are alerted that this paper is subject to
+                    criticisms that are being considered by the editors. Those criticisms were
+                    targeted to the authors’ interpretation of their data that gender plays
+                    a role in the success of mentoring relationships between junior and senior
+                    researchers, in a way that undermines the role of female mentors and mentees. We
+                    are investigating the concerns raised and an editorial response will follow the
+                    resolution of these issues.</p></notes></front><body><sec id="Sec1" sec-type="introduction"><title>Introduction</title><p id="Par3">Mentorship contributes to the advancement of individual careers<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR3">3</xref></sup> and provides continuity in organizations<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>. By mentoring novices, senior members pass on the organizational
+                culture, best practices, and the inner workings of a profession. In this way, the
+                mentor–protégé relationship provides the social glue that
+                links generations within a field. Mentorship can also alleviate the barriers of
+                entry for underrepresented minorities, such as women and people of color by
+                providing role models, access to informal networks and cultural capital, thereby
+                acting as an equalizing force<sup><xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR10">10</xref></sup>. Most
+                workplaces have shifted from the classic master-apprentice model towards a
+                team-based model, where the mentorship of juniors is distributed amongst the senior
+                members of the team. As a result, it has become commonplace for juniors to be
+                mentored by senior colleagues, without them necessarily being their formal
+                        supervisors<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>. In the context of academic
+                collaboration, the role of mentorship in supporting early-career scientists is
+                widely recognized<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. We analyze
+                mentorship in this context, where a less experienced scientist is mentored by more
+                experienced collaborators, without restricting our analysis to only the thesis
+                advisor.</p><p id="Par4">Academic publications provide a documented record of millions of
+                collaborations spread over decades, and have already proven to be a fertile ground
+                for exploring a wide variety of topics, including innovation<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>, diversity<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, productivity<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, team assembly<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>, and individual success<sup><xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR21">21</xref></sup>, thereby giving rise to the field of Science of
+                        Science<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. We harness the
+                potential of this rich dataset to study mentorship by analyzing academic
+                collaborations between junior and senior scientists, since such collaborations play
+                an important role in shaping the junior scientist’s persona, both in terms
+                of their research focus<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>,
+                professional ethics, and work culture<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Furthermore, we build on the expanding literature on gender
+                equity and diversity in science<sup><xref ref-type="bibr" rid="CR25">25</xref>–<xref ref-type="bibr" rid="CR30">30</xref></sup> and
+                analyze the mentorship experiences from the perspective of both female and male
+                scientists.</p><p id="Par5">Compared to previous studies on mentorship in academia<sup><xref ref-type="bibr" rid="CR31">31</xref>–<xref ref-type="bibr" rid="CR38">38</xref></sup>, ours has the following advantages. First,
+                instead of restricting our analysis to the thesis advisor, we study mentorship in
+                its broader sense, which may involve multiple senior collaborators who may or may
+                not hold a formal supervisory role. Second, we avoid sample selectivity as well as
+                recall and recency biases, since we analyze the actual scientific impact of
+                collaborations rather than self-reported information. Third, we analyze thousands of
+                journals spanning multiple scientific disciplines, rather than restricting our focus
+                to just a single one of them. Fourth, we construct careful comparisons between
+                millions of mentor–protégé pairs, allowing us to better
+                understand the association between mentorship quality and scientific careers.
+                Finally, our study complements the literature on the relationship between mentorship
+                and attrition from science<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>, as
+                we consider protégés who remain scientifically active after the
+                completion of their mentorship period.</p><p id="Par6">It should be noted that we are not the first to study how the impact of
+                junior scientists is related to the impact of their past collaborators. A recent
+                study by Li et al.<sup><xref ref-type="bibr" rid="CR40">40</xref></sup> found that
+                juniors who publish with top scientists enjoy a persistent competitive advantage
+                throughout the rest of their careers. More specifically, they focus on collaborators
+                who are among the 5% most impactful scientists in any given year, regardless of
+                whether they are senior or junior. In contrast, as we will show, our study focuses
+                on collaborators who are likely to have served as mentors, regardless of whether
+                they are among the top 5%. In other words, Li et al. study coauthorship with top
+                scientists, while we study coauthorship with mentors. Another difference between
+                their study and ours is that they do not address the fundamental question of whether
+                the social capital of collaborators matters more than their impact; we address this
+                question by analyzing not only the mentors’ impact but also their
+                collaboration network. Finally, unlike their paper, our study complements existing
+                literature on women in science, by analyzing the gender of both the
+                protégés and their mentors, and how these shape mentorship
+                experiences.</p><p id="Par7">Another recent paper that is closely related to ours is the one by Ma et
+                        al.<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>, who study how the
+                success of junior scientists is related to the ability of their mentors to create
+                and communicate prizewinning research. As such, their work resembles ours in the
+                sense that they also study some form of academic success and how it is related to
+                mentorship. However, they study formal mentorship, where the mentor is the official
+                PhD advisor of the protégé. In contrast, our study covers informal
+                mentorship whereby juniors are mentored by multiple senior colleagues without them
+                necessarily having formal supervisory roles. Furthermore, their analysis of the
+                protégé’s performance post mentorship includes papers
+                written with the mentors, leading to their finding that coauthoring with
+                one’s advisor is inversely correlated with one’s success. In
+                contrast, our analysis excludes papers written with any of the scientists who served
+                as mentors during the mentorship experience; this ensures that the observed impact
+                is not attributed to the mentors but rather to the protégés.</p></sec><sec id="Sec2" sec-type="results"><title>Results</title><sec id="Sec3"><title>Identifying mentor–protégé pairs</title><p id="Par8">We analyze 215 million scientists and 222 million papers taken from the
+                    Microsoft Academic Graph (MAG) dataset<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, which contains detailed records of scientific
+                    publications and their citation network. We address the name disambiguation
+                    problem (see Supplementary Note <xref rid="MOESM1" ref-type="media">1</xref>), and we use other external data-generating techniques and sources
+                    to establish the gender of scientists and the rank of their affiliations (see
+                    “Methods” section and Supplementary Note <xref rid="MOESM1" ref-type="media">2</xref>). We distinguish between junior and
+                    senior scientists based on their academic age, measured by the number of years
+                    since their first publication. The junior years are those during which a
+                    scientist participates in graduate and postdoctoral training, and possibly the
+                    first few years of being a faculty member or researcher. In contrast, the senior
+                    years are those during which a scientist typically accumulates experience as a
+                    PI and transitions into a supervisory role. For any given scientist, we consider
+                    the first 7 years of their career to be their junior years, and the ones after
+                    that to be their senior years. Whenever a junior scientist publishes a paper
+                    with a senior scientist, we consider the former to be a protégé,
+                    and the latter to be a mentor, as long as they coauthored at least one paper
+                    with 20 or less co-authors and share the same discipline and US-based
+                    affiliation; see Supplementary Note <xref rid="MOESM1" ref-type="media">3</xref> for more details. Our use sample consists of 3 million unique
+                    mentor–protégé pairs, spanning ten disciplines (Biology,
+                    Chemistry, Computer Science, Economics, Engineering, Geology, Materials Science,
+                    Medicine, Physics, and Psychology) and over a century of research; these
+                    disciplines contain over 97% of all pairs identified as per the criteria
+                    above.</p></sec><sec id="Sec4"><title>Survey results</title><p id="Par9">While we acknowledge that it is possible for juniors to receive support
+                    from their junior collaborators, we interpret mentorship as the support that
+                    juniors receive from their senior collaborators, following the standard
+                    definition of mentorship as “the activity of giving a younger or less
+                    experienced person help and advice over a period of time” <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://dictionary.cambridge.org/dictionary/english/mentorship">https://dictionary.cambridge.org/dictionary/english/mentorship</ext-link>.
+                    Based on this definition, the difference in experience between the
+                    protégé and their mentor seems to be a necessary, albeit not
+                    sufficient, condition for the relationship to be considered mentorship. In
+                    addition to the difference in experience, the relationship also needs to involve
+                    some form of support from the mentor to the protégé. Arguably,
+                    the fact that the mentor has coauthored a paper with the protégé
+                    provides evidence that the former indeed supported the latter. Nevertheless, it
+                    would be desirable to provide further evidence that the mentor supported the
+                    protégé in ways related not only to the paper on which they are
+                    collaborating, but also to career development in general. To verify whether this
+                    is the case, we sampled 2000 scientists whom we identified as
+                    protégés, to ask them about their relationship with their
+                    mentors. We manually extracted their emails from publicly available sources,
+                    such as their personal web pages, and invited them to fill out a survey about
+                    scientific collaborations. Out of those 2000 scientists, 167 completed the
+                    survey; see Supplementary Note <xref rid="MOESM1" ref-type="media">4</xref> for more details. A summary of the survey results is provided in
+                        Fig. <xref rid="Fig1" ref-type="fig">1</xref>. More specifically,
+                        Fig. <xref rid="Fig1" ref-type="fig">1</xref>a presents the
+                    distribution of the responses to five questions, each asking whether the
+                    protégé has received advice from the mentor about a different
+                    career-building skill. As can be seen, for each skill, a high percentage of
+                    protégés agreed (strongly or otherwise) that they have received
+                    advice from the senior collaborator about that skill, with the percentage
+                    ranging from 72 to 85% depending on the skill.<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Survey outcome.</title><p>Responses of 167 randomly-chosen scientists who were identified as
+                                protégés and asked about their relationship to a
+                                scientist who was identified as one of their mentors. <bold>a</bold>
+                                Distributions of the responses to each of five statements regarding
+                                their senior collaborator, where the statements take the form
+                                “I received advice from him/her about...” followed
+                                by five different skills: (i) writing; (ii) research study/design;
+                                (iii) data analysis/modeling; (iv) addressing reviewer comments; (v)
+                                selecting a venue for publication. <bold>b</bold> A different way of
+                                summarizing the responses in <bold>a</bold>, showing the proportion
+                                of participants who either agree or strongly agree to at least
+                                    <italic toggle="yes">x</italic> out of the five statements regarding their
+                                senior collaborator, where
+                                <italic toggle="yes">x</italic> ∈ {1, …, 5}.
+                                    <bold>c</bold> The percentage of protégés who
+                                selected true for each of the following four statements regarding
+                                their senior collaborator: (i) I received grant writing advice from
+                                him/her; (ii) I received a letter of recommendation from him/her for
+                                a fellowship/award or job application; (iii) I received career
+                                planning advice from him/her; (iv) He/she put me in touch with an
+                                important person in my field. <bold>d</bold> A different way of
+                                summarizing the responses in <bold>c</bold>, showing the proportion
+                                of participants who have selected true to at least
+                                    <italic toggle="yes">x</italic> out of the four statements regarding their
+                                senior collaborator, where
+                                <italic toggle="yes">x</italic> ∈ {1, …, 4}.
+                                Source data are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e425" position="float" orientation="portrait" xlink:href="41467_2020_19723_Fig1_HTML.jpg"/></fig></p><p id="Par10">Figure <xref rid="Fig1" ref-type="fig">1</xref>b summarizes
+                    the responses differently, by presenting the percentage of
+                    protégés who agreed (strongly or otherwise) to at least
+                        <italic toggle="yes">x</italic> out of the five skills, where <italic toggle="yes">x</italic> ranges
+                    from 1 to 5. As can be seen, 95% agreed (strongly or otherwise) that they have
+                    received advice from their senior collaborator regarding at least one skill.
+                        Figure <xref rid="Fig1" ref-type="fig">1</xref>c, d summarize the
+                    responses to a different set of questions, focusing on the support that the
+                    protégé has received from the senior collaborator regarding
+                    different aspects of career development, outside the context of their joint
+                    publication. We find that almost 80% have stated that they have received advice
+                    from their senior collaborator regarding at least one of those aspects. Similar
+                    trends were observed when considering only the protégés who
+                    stated that the identified mentor was not their thesis advisor nor a member of
+                    their thesis committee; see Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>. Broadly similar trends were also observed when
+                    considering each discipline in isolation; see Supplementary Figs. <xref rid="MOESM1" ref-type="media">2</xref>–<xref rid="MOESM1" ref-type="media">5</xref>. Altogether, these findings indicate that the
+                    relationship between our identified protégés and mentors indeed
+                    involved some form of mentorship.</p></sec><sec id="Sec5"><title>Analyzing mentor–protégé pairs</title><p id="Par11">When analyzing all our mentor–protégé pairs,
+                    we consider two alternative measures of mentorship quality. The first is the
+                    average impact of the mentors prior to mentorship, where the prior impact of
+                    each mentor is computed as their average number of citations per annum up to the
+                    year of their first publication with the protégé. This reflects
+                    the success of mentors and their standing and reputation in their respective
+                    scientific communities. We refer to this measure as the big-shot experience, as
+                    it captures how much of a “big-shot” the mentors of the
+                    protégé are. The second measure of mentorship quality that we
+                    consider is the average degree of the mentors prior to mentorship, where the
+                    degree of each mentor is calculated in the network of scientific collaborations
+                    up to the year of their first publication with the
+                            protégé<sup><xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR44">44</xref></sup>. We refer to
+                    this measure as the hub experience, as it reflects how much of a
+                    “hub” each mentor is in the collaboration network. These two
+                    measures of mentorship experience take the role of independent variables in our
+                    study.</p><p id="Par12">Having discussed our measures of mentorship quality, we now discuss
+                    the mentorship outcome, which we conceptualize as the scientific impact of the
+                    protégé during their senior years without their mentors. We
+                    measure this outcome by calculating the average impact of all the papers that
+                    satisfy the following two conditions: (i) they were published when the academic
+                    age of the protégé was greater than 7 years; (ii) the authors
+                    include the protégé but none of the scientists who were
+                    identified as their mentors. The impact of each such paper is calculated as the
+                    number of citations that it accumulated 5 years post publication, denoted by
+                        <italic toggle="yes">c</italic><sub>5</sub><sup><xref ref-type="bibr" rid="CR15">15</xref></sup>; this is the measure of scientific impact that will be
+                    used throughout the article. Such an outcome measure allows us to assess the
+                    quality of the scholar that the protégé has become after the
+                    mentorship period has concluded.</p><p id="Par13">We aim to establish whether mentorship quality (measured by big-shot
+                    experience or network experience) is associated with the post-mentorship
+                    outcome. To this end, we use coarsened exact matching (CEM)<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. While this technique does
+                    not establish the existence of a causal effect, it is commonly used to infer
+                    causality from observational data. Intuitively, CEM allows us to select a group
+                    of protégés who received a certain level of mentorship quality
+                    (treatment group), and match it to another group of protégés who
+                    received a lower level of mentorship quality (control group). Comparing the
+                    outcome of the two groups allows us to determine whether an increase in
+                    mentorship quality is indeed associated with an increase in the impact of the
+                    protégé post mentorship. In more detail, for each measure of
+                    mentorship quality, we create a separate CEM where the treatment and control
+                    groups differ in terms of that measure, but resemble each other in terms of an
+                    array of characteristics of the protégés, in particular, the
+                    number of mentors they have, the year in which they published their first
+                    mentored paper, their scientific discipline, their gender, the rank of the
+                    affiliation listed on their first mentored publication (which is likely to be
+                    their PhD granting institution), the number of years active post mentorship, and
+                    the average academic age of their mentors, which is measured by first computing
+                    the academic age of each mentor in the year of their first publication with the
+                    protégé, and then averaging these numbers over all the mentors.
+                    Importantly, when studying the big-shot experience, we make sure that the two
+                    groups are also similar in terms of the hub experience, and vice versa.</p><p id="Par14">For every independent variable, be it big-shot experience or hub
+                    experience, let <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic></sub> denote the
+                        <italic toggle="yes">i</italic>th quintile of the distribution of that variable. Then,
+                    for
+                    <italic toggle="yes">i</italic> ∈ {1, 2, 3, 4},
+                    we build a separate CEM where the treatment and control groups are
+                        <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic>+1</sub> and
+                            <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic></sub>, respectively. The CEM
+                    results are depicted in Fig. <xref rid="Fig2" ref-type="fig">2</xref>.
+                    These results indicate that an increase in big-shot experience is significantly
+                    associated with an increase in the post-mentorship impact of
+                    protégés by up to 35%. Similarly, the hub experience is
+                    associated with an increase the post-mentorship impact of
+                    protégés, although the increase never exceeds 13%. Furthermore,
+                    our analysis in Supplementary Note <xref rid="MOESM1" ref-type="media">5.3</xref> and Supplementary Figs. <xref rid="MOESM1" ref-type="media">6</xref>, <xref rid="MOESM1" ref-type="media">7</xref>
+                    suggests that these observations are not driven by differences in the
+                    protégés’ innate ability.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>The big-shot experience and hub experience of 3 million
+                                mentor–protégé pairs.</title><p>For every independent variable, be it big-shot experience or hub
+                                experience, <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic></sub> denotes
+                                the <italic toggle="yes">i</italic>th quintile of the distribution of that
+                                variable. For
+                                <italic toggle="yes">i</italic> ∈ {1, 2, 3, 4},
+                                we consider <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic>+1</sub> and
+                                    <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic></sub> to be the
+                                treatment and control groups, respectively, and write
+                                    <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic>+1</sub> vs.
+                                    <italic toggle="yes">Q</italic><sub><italic toggle="yes">i</italic></sub> when referring
+                                to the CEM used to compare these two groups. The color of the bar
+                                indicates whether the independent variable is the big-shot
+                                experience (purple) or the hub experience (yellow), whereas the
+                                height of the bar equals <italic toggle="yes">δ</italic>, which is the
+                                increase in the average post-mentorship impact of the treatment
+                                group relative to that of the control group. A
+                                <italic toggle="yes">t</italic>-test shows that the values of
+                                    <italic toggle="yes">δ</italic> are all statistically significant;
+                                see the corresponding <italic toggle="yes">p</italic>-values in Supplementary
+                                    Tables <xref rid="MOESM1" ref-type="media">2</xref> and
+                                    <xref rid="MOESM1" ref-type="media">3</xref>. Since scientific
+                                impact is sensitive to external values, we bootstrap a 95%
+                                confidence interval. The error bars represent the 95% confidence
+                                interval. ***<italic toggle="yes">p</italic> &lt; 0.001,
+                                    **<italic toggle="yes">p</italic> &lt; 0.01,
+                                    *<italic toggle="yes">p</italic> &lt; 0.05. Source data
+                                are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e597" position="float" orientation="portrait" xlink:href="41467_2020_19723_Fig2_HTML.jpg"/></fig></p><p id="Par15">Next, we compare the big-shot experience to the hub experience. As can
+                    be seen in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, the mentorship
+                    outcome seems to be much more strongly associated with big-shot experience than
+                    with the hub experience. Supplementary Figs. <xref rid="MOESM1" ref-type="media">8</xref>–<xref rid="MOESM1" ref-type="media">12</xref> as well as Supplementary Tables <xref rid="MOESM1" ref-type="media">8</xref>–<xref rid="MOESM1" ref-type="media">17</xref> show similar trends when (i) replacing
+                        <italic toggle="yes">c</italic><sub>5</sub> with <italic toggle="yes">c</italic><sub>10</sub> as per
+                    Sinatra et al.<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>; (ii)
+                    computing our measures of mentorship quality using the maximum and median values
+                    instead of the average value; (iii) considering juniors and seniors to be those
+                    whose academic age is at most 6 and at least 9, respectively; and (iv)
+                    considering juniors and seniors to be those whose academic age is at most 5 and
+                    at least 10, respectively. Similar trends would also be observed if we replace
+                    the average with the sum in our measures of mentorship quality, since we are
+                    controlling for the number of mentors; see Supplementary Note <xref rid="MOESM1" ref-type="media">5.1</xref> for more details. These findings
+                    imply that the scientific impact of the mentors matters more than their number
+                    of collaborators. Consequently, we restrict our attention to the big-shot
+                    experience throughout the remainder of our study. Supplementary
+                        Figs. <xref rid="MOESM1" ref-type="media">13</xref>–<xref rid="MOESM1" ref-type="media">18</xref> as well as Supplementary
+                        Tables <xref rid="MOESM1" ref-type="media">18</xref>–<xref rid="MOESM1" ref-type="media">23</xref> suggest that the association between
+                    big-shot experience and mentorship outcome persists regardless of the
+                    discipline, the affiliation rank, the number of mentors, the average age of the
+                    mentors, the protégé’s gender, and the
+                    protégé’s first year of publication.</p></sec><sec id="Sec6"><title>The relationship between gender and mentorship</title><p id="Par16">Next, we turn to a different exploratory analysis where we investigate
+                    the post-mentorship impact of protégés while taking into
+                    consideration their gender as well as the gender of their mentors. To this end,
+                    let <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> denote the set of
+                    protégés that have exactly <italic toggle="yes">i</italic> female mentors. We
+                    take the protégés in <italic toggle="yes">F</italic><sub>0</sub> as our
+                    baseline, and match them to those in
+                        <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> for
+                    <italic toggle="yes">i</italic> ∈ {1, 2, 3, 4, 5},
+                    while controlling for the protégé’s average big-shot
+                    experience, number of mentors, gender, discipline, affiliation rank, and the
+                    year in which they published their first mentored paper. Then, we vary the
+                    fraction of female mentors to understand how this affects the
+                    protégé. More specifically, for any given
+                    <italic toggle="yes">i</italic> &gt; 0, we compute the change in the
+                    post-mentorship impact of the protégés in
+                            <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> relative to the
+                    post-mentorship impact of those in <italic toggle="yes">F</italic><sub>0</sub>, which we
+                    refer to by writing <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> vs.
+                        <italic toggle="yes">F</italic><sub>0</sub>. The outcomes of these comparisons are
+                    depicted for male protégés in Fig. <xref rid="Fig3" ref-type="fig">3</xref>a, and for female protégés in
+                        Fig. <xref rid="Fig3" ref-type="fig">3</xref>b. As shown in this
+                    figure, having more female mentors is associated with a decrease in the
+                    mentorship outcome, and this decrease can reach as high as 35%, depending on the
+                    number of mentors and the proportion of female mentors.<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>The relationship between gender and the gain from
+                                mentorship.</title><p><bold>a</bold>
+                                <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> denotes the set of
+                                protégés from our 3 million pairs that have exactly
+                                    <italic toggle="yes">i</italic> female mentors. Focusing on male
+                                protégés,
+                                    <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> vs.
+                                    <italic toggle="yes">F</italic><sub>0</sub>: <italic toggle="yes">i</italic> = 1, …, 5
+                                refers to the change in the average post-mentorship impact of
+                                protégés in
+                                        <italic toggle="yes">F</italic><sub><italic toggle="yes">i</italic></sub> relative to
+                                the average post-mentorship impact of those in
+                                    <italic toggle="yes">F</italic><sub>0</sub> while controlling for the
+                                protégé’s big-shot experience, number of
+                                mentors, discipline, affiliation rank, and the year in which they
+                                published their first mentored paper. A t-test is used to show the
+                                that values are all satistically significant; see the corresponding
+                                    <italic toggle="yes">p</italic>-values in Supplementary Table <xref rid="MOESM1" ref-type="media">24</xref>. <bold>b</bold> The same
+                                as <bold>a</bold> but for female protégés instead of
+                                male protégés. <bold>c</bold> The gain of a mentor
+                                when mentoring a particular protégé is measured as
+                                the average impact
+                                (〈<italic toggle="yes">c</italic><sub>5</sub>〉) of the papers
+                                they authored with that protégé during the
+                                mentorship period. While controlling for the
+                                protégé’s discipline, affiliation rank,
+                                number of mentors, and the year in which they published their first
+                                mentored paper, the figure depicts the change in the
+                                mentor’s average gain when mentoring a female
+                                protégé relative to that when mentoring a male
+                                protégé; results are presented for female mentors
+                                and male mentors separately. A <italic toggle="yes">t</italic>-test shows that
+                                the values are all statistically significant. Since scientific
+                                impact is sensitive to external values, we bootstrap a 95%
+                                confidence interval. The error bars represent the 95% confidence
+                                interval. *<italic toggle="yes">p</italic> &lt; 0.05,
+                                    **<italic toggle="yes">p</italic> &lt; 0.01,
+                                    ***<italic toggle="yes">p</italic> &lt; 0.001. Source
+                                data are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e788" position="float" orientation="portrait" xlink:href="41467_2020_19723_Fig3_HTML.jpg"/></fig></p><p id="Par17">So far in our analysis, we only considered the outcome of the
+                    protégés. However, mentors have also been shown to benefit from
+                    the mentorship experience<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>.
+                    With this in mind, we measure the gain of a mentor from a particular
+                    protégé as the average impact,
+                        〈<italic toggle="yes">c</italic><sub>5</sub>〉, of the papers they
+                    authored with that protégé during the mentorship period. We
+                    compare the average gain of a female mentor, <italic toggle="yes">F</italic>, against that of
+                    a male mentor, <italic toggle="yes">M</italic>, when mentoring either a female
+                    protégé, <italic toggle="yes">f</italic>, or a male protégé,
+                        <italic toggle="yes">m</italic>. More specifically, we compare
+                    mentor–protégé relationships of the type
+                        (<italic toggle="yes">f</italic>, <italic toggle="yes">F</italic>) to those of the type
+                        (<italic toggle="yes">m</italic>, <italic toggle="yes">F</italic>), where <italic toggle="yes">f</italic>
+                    and <italic toggle="yes">m</italic> are matched based on their discipline, affiliation rank,
+                    number of mentors, and the year in which they published their first mentored
+                    paper. Similarly, we compare relationships of the type
+                        (<italic toggle="yes">f</italic>, <italic toggle="yes">M</italic>) to those of the type
+                        (<italic toggle="yes">m</italic>, <italic toggle="yes">M</italic>), where <italic toggle="yes">f</italic>
+                    and <italic toggle="yes">m</italic> are matched as above. The results of these comparisons
+                    are presented in Fig. <xref rid="Fig3" ref-type="fig">3</xref>c. In
+                    particular, the figure depicts the gain from mentoring a female
+                    protégé relative to that of mentoring a male
+                    protégé; the results are presented for female mentors and male
+                    mentors, separately. These results suggest that, by mentoring female instead of
+                    male protégés, the female mentors compromise their gain from
+                    mentorship, and suffer on average a loss of 18% in citations on their mentored
+                    papers. As for male mentors, their gain does not appear to be significantly
+                    affected by taking female instead of male protégés.</p></sec></sec><sec id="Sec7" sec-type="discussion"><title>Discussion</title><p id="Par18">In this paper, we studied mentorship in academic collaborations, where
+                junior scientists receive support from potentially multiple senior collaborators
+                without necessarily having a formal supervisory role. We identified 3 million
+                mentor–protégé pairs, and conducted a survey with a random
+                sample of protégés, the outcome of which provided evidence that the
+                relationship between them and their identified mentors involved some form of
+                mentorship. Furthermore, having conceptualized mentorship quality in two
+                ways—the big-shot experience and the hub experience—we found that
+                both have an independent association with the protégé’s
+                impact post mentorship without their mentors. Interestingly, the big-shot experience
+                seems to matter more than the hub experience, implying that the scientific impact of
+                mentors matters more than the number of their collaborators. Our analysis also
+                suggests that the association between the big-shot experience and the
+                post-mentorship outcome persists regardless of the discipline, the affiliation rank,
+                the number of mentors, the average age of the mentors, the
+                protégé’s gender, and the protégé’s
+                first year of publication. Finally, we studied the possibility that the gender of
+                both the mentors and their protégé could predict not only the impact
+                of the protégé, but also the gain of the mentors, which we measure
+                by the citations of the papers they published with the protégé
+                during the mentorship period. Future research could investigate the mechanisms that
+                underlie our findings, e.g., (i) by comparing mentors who are newcomers to those who
+                are incumbents<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, (ii) by
+                analyzing the papers that cite the protégés to see how many of those
+                are authored by the mentors’ collaborators, and (iii) by studying the topics
+                that the protégés work on during, and after, the mentorship to
+                understand the skills that are transferred from the mentors to their
+                protégés. These would be welcome extensions to the study, but remain
+                outside of its current scope.</p><p id="Par19">While it has been shown that having female mentors increases the
+                likelihood of female protégés staying in academia<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> and provides them with better
+                career outcomes<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>, such studies
+                often compare protégés that have a female mentor to those who do not
+                have a mentor at all, rather than to those who have a male mentor. Our study fills
+                this gap, and suggests that female protégés who remain in academia
+                reap more benefits when mentored by males rather than equally-impactful females. The
+                specific drivers underlying this empirical fact could be multifold, such as female
+                mentors serving on more committees, thereby reducing the time they are able to
+                invest in their protégés<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>, or women taking on less recognized topics that their
+                protégés emulate<sup><xref ref-type="bibr" rid="CR48">48</xref>–<xref ref-type="bibr" rid="CR50">50</xref></sup>, but
+                these potential drivers are out of the scope of current study. Our findings also
+                suggest that mentors benefit more when working with male protégés
+                rather than working with comparable female protégés, especially if
+                the mentor is female. These conclusions are all deduced from careful comparisons
+                between protégés who published their first mentored paper in the
+                same discipline, in the same cohort, and at the very same institution. Having said
+                that, it should be noted that there are societal aspects that are not captured by
+                our observational data, and the specific mechanisms behind these findings are yet to
+                be uncovered. One potential explanation could be that, historically, male scientists
+                had enjoyed more privileges and access to resources than their female counterparts,
+                and thus were able to provide more support to their protégés.
+                Alternatively, these findings may be attributed to sorting mechanisms within
+                programs based on the quality of protégés and the gender of
+                mentors.</p><p id="Par20">Our gender-related findings suggest that current diversity policies
+                promoting female–female mentorships, as well-intended as they may be, could
+                hinder the careers of women who remain in academia in unexpected ways. Female
+                scientists, in fact, may benefit from opposite-gender mentorships in terms of their
+                publication potential and impact throughout their post-mentorship careers. Policy
+                makers should thus revisit first and second order consequences of diversity policies
+                while focusing not only on retaining women in science, but also on maximizing their
+                long-term scientific impact. More broadly, the goal of gender equity in science,
+                regardless of the objective targeted, cannot, and should not be shouldered by senior
+                female scientists alone, rather, it should be embraced by the scientific community
+                as a whole.</p></sec><sec id="Sec8"><title>Methods</title><sec id="Sec9"><title>Data description</title><p id="Par21">The data used for this study consists of all the papers included in
+                    the Microsoft Academic Graph (MAG) dataset up to December 31st, 2019<sup><xref ref-type="bibr" rid="CR42">42</xref>,<xref ref-type="bibr" rid="CR51">51</xref></sup>. This dataset includes records of scientific
+                    publications specifying the date of the publication, the authors’ names
+                    and affiliations, and the publication venue. It also contains a citation network
+                    in which every node represents a paper and every directed edge represents a
+                    citation. While the number of citations of any given paper is not provided
+                    explicitly, it can be calculated from the citation network in any given year.
+                    Additionally, every paper is positioned in a field-of-study hierarchy, the
+                    highest level of which is comprised of 19 scientific disciplines.</p><p id="Par22">Using the information provided in the MAG dataset, we derive two key
+                    measures: the discipline of scientists and their impact. In particular, to
+                    determine the discipline of any given scientist, we consider his or her
+                    publications, which are themselves classified into disciplines by MAG. If 50% or
+                    more of those papers were from the same discipline,
+                        <italic toggle="yes">d</italic><sub>i</sub>, then the scientist’s discipline is
+                    considered to be <italic toggle="yes">d</italic><sub>i</sub>; otherwise it is considered to
+                    be unclassified. As for the impact of each scientist in any given year, it was
+                    derived from the citation network provided by MAG. In addition to the
+                    scientists’ discipline and impact, we derive additional measures such as
+                    the scientists’ gender, which is determined using Genderize.io<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> (see Supplementary
+                        Note <xref rid="MOESM1" ref-type="media">2</xref>), and the rank of
+                    each university, which is determined based on the Academic Ranking of World
+                    Universities, also known as the Shanghai ranking <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.shanghairanking.com/ARWU2018.html">http://www.shanghairanking.com/ARWU2018.html</ext-link>.</p><p id="Par23">Whenever a junior scientist (with academic age ≤ 7) publishes
+                    a paper with a senior scientist (academic age  &gt; 7), we consider
+                    the former to be a protégé, and the latter to be a mentor. We
+                    consider the start of the mentorship period to be the year of the first
+                    publication of the protégé, and consider the end of the
+                    mentorship period to be the year in which the protégé became a
+                    senior scientist. We analyze every mentor–protégé dyad
+                    that satisfies all of the following conditions: (i) the protégé
+                    has at least one publication during their senior years without a mentor; (ii)
+                    the affiliation of the protégé is in the US throughout their
+                    mentorship years; (iii) the main discipline of the mentor is the same as that of
+                    the protégé; (iv) the mentor and the protégé
+                    share an affiliation on at least one publication; (v) during the mentorship
+                    period, the mentor and the protégé worked together on a paper
+                    whose number of authors is 20 or less; and (vi) the protégé does
+                    not have a gap of 5-years or more in their publication history. As a
+                    consequence, our analysis excludes all scientists: (i) who never published any
+                    papers without their mentors post-mentorship, as we cannot analyze their
+                    scientific impact in their senior years independent of their mentors; (ii) who
+                    only had solo-authored papers or collaborations with their junior peers or with
+                    seniors from other universities, as we cannot clearly establish who their
+                    mentors were; (iii) who had a gap longer than 5-years without any publications;
+                    and (iv) who only collaborated with senior scientists outside of their main
+                    discipline.</p><p id="Par24">As our use sample we consider the ten disciplines in MAG that have the
+                    largest number of mentor–protégé pairs, namely Biology,
+                    Chemistry, Computer Science, Economics, Engineering, Geology, Materials Science,
+                    Medicine, Physics, and Psychology. These disciplines contain over 97% of all
+                    pairs identified as per the criteria above; see Supplementary
+                        Table <xref rid="MOESM1" ref-type="media">1</xref>.</p><p id="Par25">A total of 204 different Coarsened Exact Matchings (CEMs) were used to
+                    produce the results depicted in Fig. <xref rid="Fig2" ref-type="fig">2</xref> and Supplementary Figs. <xref rid="MOESM1" ref-type="media">6</xref>–<xref rid="MOESM1" ref-type="media">18</xref>. Additionally, a total of 32 different matchings were used to
+                    produce the results depicted in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. More details about the confounding factors used therein, as well
+                    as the binning decisions, can all be found in the Supplementary
+                        Note <xref rid="MOESM1" ref-type="media">5.1</xref>.</p></sec><sec id="Sec10"><title>Ethics statement</title><p id="Par26">The survey portion of the study was approved by the NYUAD
+                    Institutional Review Board, #HRPP-2020-8. Informed consent was obtained from all
+                    of the participants, who also received incentives.</p></sec><sec id="Sec11"><title>Reporting summary</title><p id="Par27">Further information on research design is available in
+                        the <xref rid="MOESM3" ref-type="media">Nature Research Reporting
+                        Summary</xref> linked to this article.</p></sec></sec><sec sec-type="supplementary-material"><title>Supplementary information</title><sec id="Sec12"><p>
+                    <supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2020_19723_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2020_19723_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Peer Review File</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2020_19723_MOESM3_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material></p></sec></sec></body><back><app-group><app id="App1"><sec id="Sec13"><title>Source data</title><p id="Par30">
+                        <media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41467_2020_19723_MOESM4_ESM.zip" id="MOESM4" orientation="portrait"><caption><p>Source Data</p></caption></media></p></sec></app></app-group><fn-group><fn><p><bold>Peer review information</bold> <italic toggle="yes">Nature
+                        Communications</italic> thanks Daniel Acuna and the other,
+                    anonymous, reviewer(s) for their contribution to the peer review of this work.
+                    Peer reviewer reports are available.</p></fn><fn><p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard
+                    to jurisdictional claims in published maps and institutional affiliations.</p></fn></fn-group><sec><title>Supplementary information</title><p><bold>Supplementary information</bold> is available for this paper at
+                10.1038/s41467-020-19723-8.</p></sec><ack><title>Acknowledgements</title><p>We would like to thank Peter Bearman, Paula England, and Jean Philippe Cointet for
+                their feedback and comments that helped improve the paper.</p></ack><notes notes-type="author-contribution"><title>Author contributions</title><p>B.S., K.M., and T.R. conceived the study and designed the experiments. K.M. created
+                and ran survey. B.S. performed the coding and data analysis of the experiments. B.S.
+                and T.R. produced the figures and tables. B.S., K.M., and T.R. discussed the results
+                and wrote the manuscript.</p></notes><notes notes-type="data-availability"><title>Data availability</title><p>Microsoft Academic Graph (MAG) can be downloaded from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://bit.ly/3kPaUqe">https://bit.ly/3kPaUqe</ext-link>. All data
+                generated from MAG for the purpose of this study is made available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://bit.ly/3cHJJuC">https://bit.ly/3cHJJuC</ext-link>. A reporting summary for this Article is
+                available as a Supplementary Information file. <xref rid="Sec13" ref-type="sec">Source data</xref> are provided with this paper.</p></notes><notes id="FPar1" notes-type="COI-statement"><title>Competing interests</title><p id="Par28">The authors declare no competing interests.</p></notes><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Kram</surname><given-names>KE</given-names></name></person-group><source>Mentoring at Work: Developmental Relationships in Organizational
+                        Life</source><year>1988</year><publisher-loc>Lanham, MD</publisher-loc><publisher-name>University Press of America</publisher-name></element-citation></ref><ref id="CR2"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Allen</surname><given-names>TD</given-names></name><name name-style="western"><surname>Eby</surname><given-names>LT</given-names></name><name name-style="western"><surname>Poteet</surname><given-names>ML</given-names></name><name name-style="western"><surname>Lentz</surname><given-names>E</given-names></name></person-group><article-title>Career benefits associated with mentoring for
+                        protégé: a meta-analysis</article-title><source>J. Appl. Psychol.</source><year>2004</year><volume>89</volume><fpage>127</fpage><lpage>136</lpage><pub-id pub-id-type="pmid">14769125</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1037/0021-9010.89.1.127</pub-id></element-citation></ref><ref id="CR3"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Scandura</surname><given-names>TA</given-names></name></person-group><article-title>Mentorship and career mobility: an empirical
+                        investigation</article-title><source>J. Organ. Behav.</source><year>1992</year><volume>13</volume><fpage>169</fpage><lpage>174</lpage></element-citation></ref><ref id="CR4"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Singh</surname><given-names>V</given-names></name><name name-style="western"><surname>Bains</surname><given-names>D</given-names></name><name name-style="western"><surname>Vinnicombe</surname><given-names>S</given-names></name></person-group><article-title>Informal mentoring as an organisational resource</article-title><source>Long Range Plan.</source><year>2002</year><volume>35</volume><fpage>389</fpage><lpage>405</lpage></element-citation></ref><ref id="CR5"><label>5.</label><mixed-citation publication-type="other">Kram, C. T. K. E. in <italic toggle="yes">The
+                        Wiley-Blackwell Handbook of the Psychology of Coaching and
+                        Mentoring,</italic> 1st edn (eds Passmore, J. et al.) Ch. 12,
+                    217–242 (Wiley, Hoboken, 2013).</mixed-citation></ref><ref id="CR6"><label>6.</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Kanter</surname><given-names>RM</given-names></name></person-group><source>Men and Women of the Corporation</source><year>1977</year><publisher-loc>New York</publisher-loc><publisher-name>Basic Books</publisher-name></element-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Noe</surname><given-names>RA</given-names></name></person-group><article-title>Women and mentoring: a review and research agenda</article-title><source>Acad. Manage. Rev.</source><year>1988</year><volume>13</volume><fpage>65</fpage><lpage>78</lpage></element-citation></ref><ref id="CR8"><label>8.</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Levine</surname><given-names>A</given-names></name><name name-style="western"><surname>Nidiffer</surname><given-names>J</given-names></name></person-group><source>Beating the Odds: How the Poor Get into College</source><year>1996</year><publisher-loc>San Francisco</publisher-loc><publisher-name>Jossey-Bass</publisher-name></element-citation></ref><ref id="CR9"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Stephens</surname><given-names>NM</given-names></name><name name-style="western"><surname>Hamedani</surname><given-names>MG</given-names></name><name name-style="western"><surname>Destin</surname><given-names>M</given-names></name></person-group><article-title>Closing the social-class achievement gap: a difference-education
+                        intervention improves first-generation students’ academic
+                        performance and all students’ college transition</article-title><source>Psychol. Sci.</source><year>2014</year><volume>25</volume><fpage>943</fpage><lpage>953</lpage><pub-id pub-id-type="pmid">24553359</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0956797613518349</pub-id></element-citation></ref><ref id="CR10"><label>10.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gaule</surname><given-names>P</given-names></name><name name-style="western"><surname>Piacentinic</surname><given-names>M</given-names></name></person-group><article-title>An advisor like me? advisor gender and post-graduate careers in
+                        science</article-title><source>Res. Policy</source><year>2018</year><volume>47</volume><fpage>805</fpage><lpage>813</lpage></element-citation></ref><ref id="CR11"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Higgins</surname><given-names>MC</given-names></name><name name-style="western"><surname>Kram</surname><given-names>KE</given-names></name></person-group><article-title>Reconceptualizing mentoring at work: a developmental network
+                        perspective</article-title><source>Acad. Manage. Rev.</source><year>2001</year><volume>26</volume><fpage>264</fpage><lpage>288</lpage></element-citation></ref><ref id="CR12"><label>12.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Higgins</surname><given-names>MC</given-names></name><name name-style="western"><surname>Thomas</surname><given-names>DA</given-names></name></person-group><article-title>Constellations and career: toward understanding the effects of
+                        multiple developmental relationships</article-title><source>Organ. Behav.</source><year>2001</year><volume>22</volume><fpage>223</fpage><lpage>247</lpage></element-citation></ref><ref id="CR13"><label>13.</label><mixed-citation publication-type="other">Editorial. Science needs mentors.
+                        <italic toggle="yes">Nature</italic><bold>573</bold>, 5 10.1038/d41586-019-02617-1
+                    (2019).</mixed-citation></ref><ref id="CR14"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Uzzi</surname><given-names>B</given-names></name><name name-style="western"><surname>Mukherjee</surname><given-names>S</given-names></name><name name-style="western"><surname>Stringer</surname><given-names>M</given-names></name><name name-style="western"><surname>Jones</surname><given-names>B</given-names></name></person-group><article-title>Atypical combinations and scientific impact</article-title><source>Science</source><year>2013</year><volume>342</volume><fpage>468</fpage><lpage>472</lpage><pub-id pub-id-type="pmid">24159044</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1240474</pub-id></element-citation></ref><ref id="CR15"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>AlShebli</surname><given-names>BK</given-names></name><name name-style="western"><surname>Rahwan</surname><given-names>T</given-names></name><name name-style="western"><surname>Woon</surname><given-names>LW</given-names></name></person-group><article-title>The preeminence of ethnic diversity in scientific
+                        collaboration</article-title><source>Nat. Commun.</source><year>2018</year><volume>9</volume><fpage>5163</fpage><pub-id pub-id-type="pmid">30514841</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-07634-8</pub-id><pub-id pub-id-type="pmcid">PMC6279741</pub-id></element-citation></ref><ref id="CR16"><label>16.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sekara</surname><given-names>V</given-names></name><etal/></person-group><article-title>The chaperone effect in scientific publishing</article-title><source>Proc. Natl Acad. Sci.</source><year>2018</year><volume>115</volume><fpage>12603</fpage><lpage>12607</lpage><pub-id pub-id-type="pmid">30530676</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1800471115</pub-id><pub-id pub-id-type="pmcid">PMC6294962</pub-id></element-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Guimerà</surname><given-names>R</given-names></name><name name-style="western"><surname>Uzzi</surname><given-names>B</given-names></name><name name-style="western"><surname>Spiro</surname><given-names>J</given-names></name><name name-style="western"><surname>Amaral</surname><given-names>LAN</given-names></name></person-group><article-title>Team assembly mechanisms determine collaboration network
+                        structure and team performance</article-title><source>Science</source><year>2005</year><volume>308</volume><fpage>697</fpage><lpage>702</lpage><pub-id pub-id-type="pmid">15860629</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1106340</pub-id><pub-id pub-id-type="pmcid">PMC2128751</pub-id></element-citation></ref><ref id="CR18"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wuchty</surname><given-names>S</given-names></name><name name-style="western"><surname>Jones</surname><given-names>BF</given-names></name><name name-style="western"><surname>Uzzi</surname><given-names>B</given-names></name></person-group><article-title>The increasing dominance of teams in production of
+                        knowledge</article-title><source>Science</source><year>2007</year><volume>316</volume><fpage>1036</fpage><lpage>1039</lpage><pub-id pub-id-type="pmid">17431139</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1136099</pub-id></element-citation></ref><ref id="CR19"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Acuna</surname><given-names>DE</given-names></name><name name-style="western"><surname>Allesina</surname><given-names>S</given-names></name><name name-style="western"><surname>Kording</surname><given-names>KP</given-names></name></person-group><article-title>Predicting scientific success</article-title><source>Nature</source><year>2012</year><volume>489</volume><fpage>201</fpage><lpage>202</lpage><pub-id pub-id-type="pmid">22972278</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/489201a</pub-id><pub-id pub-id-type="pmcid">PMC3770471</pub-id></element-citation></ref><ref id="CR20"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sugimoto</surname><given-names>CR</given-names></name><name name-style="western"><surname>Robinson-Garcia</surname><given-names>N</given-names></name><name name-style="western"><surname>Murray</surname><given-names>DS</given-names></name><name name-style="western"><surname>Yegros-Yegros</surname><given-names>A</given-names></name><name name-style="western"><surname>Lariviere</surname><given-names>RCV</given-names></name></person-group><article-title>Scientists have most impact when they’re free to
+                        move</article-title><source>Nature</source><year>2017</year><volume>550</volume><fpage>29</fpage><lpage>31</lpage><pub-id pub-id-type="pmid">28980663</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/550029a</pub-id></element-citation></ref><ref id="CR21"><label>21.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Liu</surname><given-names>L</given-names></name><etal/></person-group><article-title>Hot streaks in artistic, cultural, and scientific
+                        careers</article-title><source>Nature</source><year>2018</year><volume>559</volume><fpage>396</fpage><lpage>399</lpage><pub-id pub-id-type="pmid">29995850</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0315-8</pub-id></element-citation></ref><ref id="CR22"><label>22.</label><mixed-citation publication-type="other">Fortunato, S. et al. Hot streaks in
+                    artistic, cultural, and scientific careers.
+                        <italic toggle="yes">Science</italic><bold>359</bold> (2018).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0315-8</pub-id><pub-id pub-id-type="pmid">29995850</pub-id></mixed-citation></ref><ref id="CR23"><label>23.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hirshman</surname><given-names>BR</given-names></name><etal/></person-group><article-title>Impact of medical academic genealogy on publication patterns: an
+                        analysis of the literature for surgical resection in brain tumor
+                        patients</article-title><source>Ann. Neurol.</source><year>2016</year><volume>79</volume><fpage>169</fpage><lpage>177</lpage><pub-id pub-id-type="pmid">26727354</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.24569</pub-id></element-citation></ref><ref id="CR24"><label>24.</label><mixed-citation publication-type="other">Johnson, W. B. in (eds) <italic toggle="yes">The
+                        Blackwell handbook of Mentoring: A Multiple Perspectives Approach</italic>,
+                    (eds Allen, T. D. &amp; Eby, L. T.) Ch. 12, 189–210 (Blackwell
+                    Publishing, Malden, 2007).</mixed-citation></ref><ref id="CR25"><label>25.</label><mixed-citation publication-type="other">Bear, J. &amp; Woolley, A. The role of
+                    gender in team collaboration and performance. <italic toggle="yes">Interdiscip. Sci.
+                        Rev.</italic><bold>36</bold>, 146–153 (2011).</mixed-citation></ref><ref id="CR26"><label>26.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Larivière</surname><given-names>V</given-names></name><name name-style="western"><surname>Ni</surname><given-names>C</given-names></name><name name-style="western"><surname>Gingras</surname><given-names>Y</given-names></name><name name-style="western"><surname>Cronin</surname><given-names>B</given-names></name><name name-style="western"><surname>Sugimoto</surname><given-names>CR</given-names></name></person-group><article-title>Bibliometrics: global gender disparities in
+                        science</article-title><source>Nature</source><year>2013</year><volume>504</volume><fpage>211</fpage><lpage>213</lpage><pub-id pub-id-type="pmid">24350369</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/504211a</pub-id></element-citation></ref><ref id="CR27"><label>27.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Handley</surname><given-names>IM</given-names></name><name name-style="western"><surname>Brown</surname><given-names>ER</given-names></name><name name-style="western"><surname>Moss-Racusin</surname><given-names>CA</given-names></name><name name-style="western"><surname>Smith</surname><given-names>JL</given-names></name></person-group><article-title>Quality of evidence revealing subtle gender biases in science is
+                        in the eye of the beholder</article-title><source>PNAS</source><year>2015</year><volume>112</volume><fpage>13201</fpage><lpage>13206</lpage><pub-id pub-id-type="pmid">26460001</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1510649112</pub-id><pub-id pub-id-type="pmcid">PMC4629390</pub-id></element-citation></ref><ref id="CR28"><label>28.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nielsen</surname><given-names>MW</given-names></name><etal/></person-group><article-title>Opinion: gender diversity leads to better science</article-title><source>Proc. Natl Acad. Sci.</source><year>2017</year><volume>114</volume><fpage>1740</fpage><lpage>1742</lpage><pub-id pub-id-type="pmid">28228604</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1700616114</pub-id><pub-id pub-id-type="pmcid">PMC5338420</pub-id></element-citation></ref><ref id="CR29"><label>29.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Berenbaum</surname><given-names>MR</given-names></name></person-group><article-title>Speaking of gender bias</article-title><source>PNAS</source><year>2019</year><volume>116</volume><fpage>8086</fpage><lpage>8088</lpage><pub-id pub-id-type="pmid">30967503</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1904750116</pub-id><pub-id pub-id-type="pmcid">PMC6486706</pub-id></element-citation></ref><ref id="CR30"><label>30.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>J</given-names></name><name name-style="western"><surname>Gates</surname><given-names>AJ</given-names></name><name name-style="western"><surname>Sinatra</surname><given-names>R</given-names></name><name name-style="western"><surname>Barabási</surname><given-names>A-L</given-names></name></person-group><article-title>Historical comparison of gender inequality in scientific careers
+                        across countries and disciplines</article-title><source>Proc. Natl Acad. Sci.</source><year>2020</year><volume>117</volume><fpage>4609</fpage><lpage>4616</lpage><pub-id pub-id-type="pmid">32071248</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1914221117</pub-id><pub-id pub-id-type="pmcid">PMC7060730</pub-id></element-citation></ref><ref id="CR31"><label>31.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Reskin</surname><given-names>BF</given-names></name></person-group><article-title>Academic sponsorship and scientists’
+                        careers</article-title><source>Sociol. Educ.</source><year>1979</year><volume>52</volume><fpage>129</fpage><lpage>146</lpage></element-citation></ref><ref id="CR32"><label>32.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kirchmeyer</surname><given-names>C</given-names></name></person-group><article-title>The effects of mentoring on academic careers over time: testing
+                        performance and political perspectives</article-title><source>Hum. Relat.</source><year>2005</year><volume>58</volume><fpage>637</fpage><lpage>660</lpage></element-citation></ref><ref id="CR33"><label>33.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Paglis</surname><given-names>LL</given-names></name><name name-style="western"><surname>Green</surname><given-names>SG</given-names></name><name name-style="western"><surname>Bauer</surname><given-names>TN</given-names></name></person-group><article-title>Does adviser mentoring add value? a longitudinal study of
+                        mentoring and doctoral student outcomes</article-title><source>Res. High. Educ.</source><year>2006</year><volume>47</volume><fpage>451</fpage><lpage>476</lpage></element-citation></ref><ref id="CR34"><label>34.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Malmgren</surname><given-names>RD</given-names></name><name name-style="western"><surname>Ottino</surname><given-names>JM</given-names></name><name name-style="western"><surname>Amaral</surname><given-names>LAN</given-names></name></person-group><article-title>The role of mentorship in protégé
+                        performance</article-title><source>Nature</source><year>2010</year><volume>465</volume><fpage>622</fpage><lpage>626</lpage><pub-id pub-id-type="pmid">20520715</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09040</pub-id><pub-id pub-id-type="pmcid">PMC6697046</pub-id></element-citation></ref><ref id="CR35"><label>35.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chariker</surname><given-names>JH</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name><name name-style="western"><surname>Pani</surname><given-names>JR</given-names></name><name name-style="western"><surname>Rouchka</surname><given-names>EC</given-names></name></person-group><article-title>Identification of successful mentoring communities using
+                        network-based analysis of mentor-mentee relationships across nobel
+                        laureates</article-title><source>Scientometrics</source><year>2017</year><volume>111</volume><fpage>1733</fpage><lpage>1749</lpage><pub-id pub-id-type="pmid">28596628</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11192-017-2364-4</pub-id><pub-id pub-id-type="pmcid">PMC5438421</pub-id></element-citation></ref><ref id="CR36"><label>36.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rossi</surname><given-names>L</given-names></name><name name-style="western"><surname>Freire</surname><given-names>IL</given-names></name><name name-style="western"><surname>Mena-Chalco</surname><given-names>JP</given-names></name></person-group><article-title>Genealogical index: a metric to analyze advisor-advisee
+                        relationships</article-title><source>J. Inform.</source><year>2017</year><volume>11</volume><fpage>564</fpage><lpage>582</lpage></element-citation></ref><ref id="CR37"><label>37.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Linèard</surname><given-names>JF</given-names></name><name name-style="western"><surname>Achakulvisut</surname><given-names>T</given-names></name><name name-style="western"><surname>Acuna</surname><given-names>DE</given-names></name><name name-style="western"><surname>David</surname><given-names>SV</given-names></name></person-group><article-title>Intellectual synthesis in mentorship determines success in
+                        academic careers</article-title><source>Nat. Commun.</source><year>2018</year><volume>9</volume><fpage>1733</fpage><lpage>1749</lpage><pub-id pub-id-type="pmid">30482900</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-07034-y</pub-id><pub-id pub-id-type="pmcid">PMC6258699</pub-id></element-citation></ref><ref id="CR38"><label>38.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Liu</surname><given-names>J</given-names></name><etal/></person-group><article-title>Understanding the advisor-advisee relationship via scholarly data
+                        analysis</article-title><source>Scientometrics</source><year>2018</year><volume>116</volume><fpage>161</fpage><lpage>180</lpage></element-citation></ref><ref id="CR39"><label>39.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Blau</surname><given-names>FD</given-names></name><name name-style="western"><surname>Currie</surname><given-names>JM</given-names></name><name name-style="western"><surname>Croson</surname><given-names>RTA</given-names></name><name name-style="western"><surname>Ginther</surname><given-names>DK</given-names></name></person-group><article-title>Can mentoring help female assistant professors? interim results
+                        from a randomized trial</article-title><source>Am. Econ. Rev.</source><year>2010</year><volume>100</volume><fpage>348</fpage><lpage>354</lpage></element-citation></ref><ref id="CR40"><label>40.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>W</given-names></name><name name-style="western"><surname>Aste</surname><given-names>T</given-names></name><name name-style="western"><surname>Caccioli</surname><given-names>F</given-names></name><name name-style="western"><surname>Livan</surname><given-names>G</given-names></name></person-group><article-title>Early coauthorship with top scientists predicts success in
+                        academic careers</article-title><source>Nat. Commun.</source><year>2019</year><volume>10</volume><fpage>1</fpage><lpage>9</lpage><pub-id pub-id-type="pmid">31729362</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-019-13130-4</pub-id><pub-id pub-id-type="pmcid">PMC6858367</pub-id></element-citation></ref><ref id="CR41"><label>41.</label><mixed-citation publication-type="other">Ma, Y., Mukherjee, S. &amp; Uzzi, B.
+                    Mentorship and protégé success in STEM fields. <italic toggle="yes">Proc.
+                        Natl Acad. Sci.</italic><bold>117</bold>, 14077–14083
+                    (2020).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1915516117</pub-id><pub-id pub-id-type="pmcid">PMC7322065</pub-id><pub-id pub-id-type="pmid">32522881</pub-id></mixed-citation></ref><ref id="CR42"><label>42.</label><mixed-citation publication-type="other">Sinha, A. et al. An overview of microsoft
+                    academic service (mas) and applications. In <italic toggle="yes">Proceedings of the 24th
+                        International Conference on World Wide Web</italic>, 243–246 (ACM,
+                    New York, 2015).</mixed-citation></ref><ref id="CR43"><label>43.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Newman</surname><given-names>ME</given-names></name></person-group><article-title>The structure of scientific collaboration
+                        networks</article-title><source>Proc. Natl Acad. Sci.</source><year>2001</year><volume>98</volume><fpage>404</fpage><lpage>409</lpage><pub-id pub-id-type="pmid">11149952</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.021544898</pub-id><pub-id pub-id-type="pmcid">PMC14598</pub-id></element-citation></ref><ref id="CR44"><label>44.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Newman</surname><given-names>ME</given-names></name></person-group><article-title>Scientific collaboration networks. i. network construction and
+                        fundamental results</article-title><source>Phys. Rev. E</source><year>2001</year><volume>64</volume><fpage>016131</fpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1103/PhysRevE.64.016131</pub-id><pub-id pub-id-type="pmid">11461355</pub-id></element-citation></ref><ref id="CR45"><label>45.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Iacus</surname><given-names>SM</given-names></name><name name-style="western"><surname>King</surname><given-names>G</given-names></name><name name-style="western"><surname>Porro</surname><given-names>G</given-names></name></person-group><article-title>Causal inference without balance checking: coarsened exact
+                        matching</article-title><source>Polit. Anal.</source><year>2012</year><volume>20</volume><fpage>1</fpage><lpage>24</lpage></element-citation></ref><ref id="CR46"><label>46.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sinatra</surname><given-names>R</given-names></name><name name-style="western"><surname>Wang</surname><given-names>D</given-names></name><name name-style="western"><surname>Deville</surname><given-names>P</given-names></name><name name-style="western"><surname>Song</surname><given-names>C</given-names></name><name name-style="western"><surname>Barabási</surname><given-names>A-L</given-names></name></person-group><article-title>Quantifying the evolution of individual scientific
+                        impact</article-title><source>Science</source><year>2016</year><volume>354</volume><fpage>aaf5239</fpage><pub-id pub-id-type="pmid">27811240</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aaf5239</pub-id></element-citation></ref><ref id="CR47"><label>47.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Babcock</surname><given-names>L</given-names></name><name name-style="western"><surname>Recalde</surname><given-names>MP</given-names></name><name name-style="western"><surname>Vesterlund</surname><given-names>L</given-names></name><name name-style="western"><surname>Weingart</surname><given-names>L</given-names></name></person-group><article-title>Gender differences in accepting and receiving requests for tasks
+                        with low promotability</article-title><source>Am. Econ. Rev.</source><year>2017</year><volume>107</volume><fpage>714</fpage><lpage>747</lpage></element-citation></ref><ref id="CR48"><label>48.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>England</surname><given-names>P</given-names></name></person-group><article-title>The gender revolution: uneven and stalled</article-title><source>Gender Soc.</source><year>2010</year><volume>24</volume><fpage>149</fpage><lpage>166</lpage></element-citation></ref><ref id="CR49"><label>49.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Knobloch-Westerwick</surname><given-names>S</given-names></name><name name-style="western"><surname>Glynn</surname><given-names>CJ</given-names></name><name name-style="western"><surname>Huge</surname><given-names>M</given-names></name></person-group><article-title>The matilda effect in science communication: an experiment on
+                        gender bias in publication quality perceptions and collaboration
+                        interest</article-title><source>Sci. Commun.</source><year>2013</year><volume>35</volume><fpage>603</fpage><lpage>625</lpage></element-citation></ref><ref id="CR50"><label>50.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Krawczyk</surname><given-names>M</given-names></name><name name-style="western"><surname>Smyk</surname><given-names>M</given-names></name></person-group><article-title>Author’s gender affects rating of academic articles:
+                        Evidence from an incentivized, deception-free laboratory
+                        experiment</article-title><source>Eur. Econ. Rev.</source><year>2016</year><volume>90</volume><fpage>326</fpage><lpage>335</lpage></element-citation></ref><ref id="CR51"><label>51.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wang</surname><given-names>K</given-names></name><etal/></person-group><article-title>A review of microsoft academic services for science of science
+                        studies</article-title><source>Front. Big Data</source><year>2019</year><volume>2</volume><fpage>45</fpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fdata.2019.00045</pub-id><pub-id pub-id-type="pmcid">PMC7931949</pub-id><pub-id pub-id-type="pmid">33693368</pub-id></element-citation></ref><ref id="CR52"><label>52.</label><mixed-citation publication-type="other">Wais, K. Gender prediction methods based on
+                    first names with genderizer. R <italic toggle="yes">R. J.</italic><bold>8</bold>, 17
+                    (2016).</mixed-citation></ref></ref-list></back></article></pmc-articleset>

@@ -1,0 +1,519 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="fsn33681" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Food Sci Nutr</journal-id><journal-id journal-id-type="iso-abbrev">Food Sci Nutr</journal-id><journal-id journal-id-type="pmc-domain-id">2357</journal-id><journal-id journal-id-type="pmc-domain">fsn</journal-id><journal-id journal-id-type="nlm-id">101605473</journal-id><journal-id journal-id-type="publisher-id">FSN3</journal-id><journal-title-group><journal-title>Food Science &amp; Nutrition</journal-title></journal-title-group><issn pub-type="epub">2048-7177</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10724588</article-id><article-id pub-id-type="pmcid-ver">PMC10724588.1</article-id><article-id pub-id-type="pmcaid">10724588</article-id><article-id pub-id-type="pmcaiid">10724588</article-id><article-id pub-id-type="pmid">38107098</article-id><article-id pub-id-type="doi">10.1002/fsn3.3681</article-id><article-id pub-id-type="publisher-id">FSN33681</article-id><article-id pub-id-type="other">FSN3-2023-05-0870.R2</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Protective effects of fruit extract of <italic toggle="no">Rosa canina</italic> and quercetin on human umbilical vein endothelial cell injury induced by hydrogen peroxide</article-title><alt-title alt-title-type="left-running-head">Forouzanfar et al.</alt-title></title-group><contrib-group><contrib id="fsn33681-cr-0001" contrib-type="author"><name name-style="western"><surname>Forouzanfar</surname><given-names initials="F">Fatemeh</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0023-6470</contrib-id><xref rid="fsn33681-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn33681-cr-0002" contrib-type="author"><name name-style="western"><surname>Tabatabaei</surname><given-names initials="Z">Zeynab</given-names></name><xref rid="fsn33681-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="fsn33681-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="fsn33681-cr-0003" contrib-type="author"><name name-style="western"><surname>Emami</surname><given-names initials="SA">Seyed Ahmad</given-names></name><xref rid="fsn33681-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="fsn33681-cr-0004" contrib-type="author"><name name-style="western"><surname>Ayati</surname><given-names initials="Z">Zahra</given-names></name><xref rid="fsn33681-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="fsn33681-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="fsn33681-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Tayarani‐Najaran</surname><given-names initials="Z">Zahra</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8899-0886</contrib-id><xref rid="fsn33681-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address></address></contrib></contrib-group><aff id="fsn33681-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neuroscience, Faculty of Medicine</named-content>
+<institution>Mashhad University of Medical Sciences</institution>
+<city>Mashhad</city>
+<country country="IR">Iran</country>
+</aff><aff id="fsn33681-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Traditional Pharmacy, School of Pharmacy</named-content>
+<institution>Mashhad University of Medical Sciences</institution>
+<city>Mashhad</city>
+<country country="IR">Iran</country>
+</aff><aff id="fsn33681-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Western Sydney University</institution>
+<city>Penrith</city>
+<country country="AU">Australia</country>
+</aff><aff id="fsn33681-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Targeted Drug Delivery Research Center, Pharmaceutical Technology Institute</named-content>
+<institution>Mashhad University of Medical Sciences</institution>
+<city>Mashhad</city>
+<country country="IR">Iran</country>
+</aff><aff id="fsn33681-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Medical Toxicology Research Center</named-content>
+<institution>Mashhad University of Medical Sciences</institution>
+<city>Mashhad</city>
+<country country="IR">Iran</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Zahra Tayarani‐Najaran, Targeted Drug Delivery Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, P.O. Box: 9188617871, Mashhad, Iran.<break/>
+Email: 
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>9</month><year>2023</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2023</year></pub-date><volume>11</volume><issue seq="160">12</issue><issue-id pub-id-type="pmc-issue-id">451161</issue-id><issue-id pub-id-type="doi">10.1002/fsn3.v11.12</issue-id><fpage>7618</fpage><lpage>7625</lpage><history><date date-type="rev-recd"><day>26</day><month>8</month><year>2023</year></date><date date-type="received"><day>12</day><month>5</month><year>2023</year></date><date date-type="accepted"><day>28</day><month>8</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>28</day><month>09</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>17</day><month>12</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-04-15 00:25:13.907"><day>15</day><month>04</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2023 The Authors. <italic toggle="yes">Food Science &amp; Nutrition</italic> published by Wiley Periodicals LLC.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="FSN3-11-7618.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:FSN3-11-7618.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" vol="13" journal-id="Food Sci Nutr" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC11982178"><article-title>
+<styled-content style="fixed-case" toggle="no">RETRACTION</styled-content>: Protective Effects of Fruit Extract of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Rosa canina</italic>
+</styled-content> and Quercetin on Human Umbilical Vein Endothelial Cell Injury Induced by Hydrogen Peroxide</article-title><volume>13</volume><issue seq="630">4</issue><date><day>9</day><month>4</month><year>2025</year></date><elocation-id>e70126</elocation-id><source>Food Science &amp; Nutrition</source><pub-id pub-id-type="doi">10.1002/fsn3.70126</pub-id><pub-id pub-id-type="pmcid">PMC11982178</pub-id><pub-id pub-id-type="pmid">40212475</pub-id></related-article><abstract><title>Abstract</title><p>The Nastaran plant, with the scientific name of <italic toggle="no">Rosa canina</italic>, has been used since ancient times as a plant with medicinal properties. In the present study, human umbilical vein endothelial cells (HUVECs) were used to examine the protective effects of <italic toggle="no">R. canina</italic> fruit extract (RCFE) and its flavonoid ingredient (quercetin) against H<sub>2</sub>O<sub>2</sub>‐induced cell injury. RCFE (1.25–20 μg/mL) and quercetin (1.25–20 μM) were exposed to H<sub>2</sub>O<sub>2</sub>‐oxidizing agent (1 and 2 mM) and the protective effect was examined on HUVEC cells by Alamar Blue test. The amount of intracellular reactive oxygen species (ROS) was measured by using DCFDA reagent by fluorimetric method. The effects of RCFE and quercetin on cell apoptosis were studied by staining with hypotonic PI solution and flow cytometry. The amount of PARP and survivin involved in the apoptotic process was measured using the western blot analysis. The results of the Alamar Blue test showed that RCFE and quercetin could reduce the toxicity of H<sub>2</sub>O<sub>2</sub>. RCFE and quercetin were able to significantly increase cell viability against H<sub>2</sub>O<sub>2</sub>. Also, it was found that RCFE and quercetin reduced the production of ROS by H<sub>2</sub>O<sub>2</sub>. It was found that RCFE and quercetin reduced the apoptosis and sub‐G1 peak area in flow histogram after exposure of cells to H<sub>2</sub>O<sub>2</sub>. Based on western blot results, pretreatment with RCFE and quercetin could significantly increase survivin protein after exposure of cells to H<sub>2</sub>O<sub>2</sub>. Also, RCFE and quercetin could significantly reduce the amount of cleaved PARP after exposure of cells to H<sub>2</sub>O<sub>2</sub>. RCFE and its ingredient (quercetin) can be considered a promising source of phytochemicals in the prevention of cardiovascular diseases.</p></abstract><abstract abstract-type="graphical"><p>
+<italic toggle="no">Rosa canina</italic> extract and quercetin have protective effect against oxidative stress and subsequent apoptosis in HUVEC cells.<boxed-text position="anchor" content-type="graphic" id="fsn33681-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="FSN3-11-7618-g001.jpg"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="fsn33681-kwd-0001">apoptosis</kwd><kwd id="fsn33681-kwd-0002">cardiovascular diseases</kwd><kwd id="fsn33681-kwd-0003">cytoprotection</kwd><kwd id="fsn33681-kwd-0004">oxidative damage</kwd><kwd id="fsn33681-kwd-0005">quercetin</kwd><kwd id="fsn33681-kwd-0006"><italic toggle="no">Rosa canina</italic></kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Mashhad University of Medical Sciences
+</institution><institution-id institution-id-type="doi">10.13039/501100004748</institution-id></institution-wrap></funding-source><award-id>971030</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="8"/><word-count count="4889"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2023</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.3.6 mode:remove_FC converted:16.12.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="FSN33681-cit-2001">
+<string-name name-style="western">
+<surname>Forouzanfar</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tabatabaei</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Emami</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ayati</surname>, <given-names>Z.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Tayarani‐Najaran</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2023</year>). <article-title>Protective effects of fruit extract of <italic toggle="no">Rosa canina</italic> and quercetin on human umbilical vein endothelial cell injury induced by hydrogen peroxide</article-title>. <source>Food Science &amp; Nutrition</source>, <volume>11</volume>, <fpage>7618</fpage>–<lpage>7625</lpage>. <pub-id pub-id-type="doi">10.1002/fsn3.3681</pub-id>
+<pub-id pub-id-type="pmcid">PMC10724588</pub-id><pub-id pub-id-type="pmid">38107098</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC11982178"/></mixed-citation>
+</p><fn-group id="fsn33681-ntgp-0001"><fn id="fsn33681-note-0001"><p>Fatemeh Forouzanfar and Zeynab Tabatabaei have equal contribution as first author.</p></fn></fn-group></notes></front><body id="fsn33681-body-0001"><sec id="fsn33681-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Cardiovascular diseases are known as the leading cause of global mortality (Mensah et al., <xref rid="fsn33681-bib-0018" ref-type="bibr">2019</xref>). Risk factors for cardiovascular diseases include hypertension, diabetes, low education, ambient air pollution, obesity, unhealthy diet, non‐high‐density lipoprotein (HDL) cholesterol, excess alcohol, and low physical activity (Yusuf et al., <xref rid="fsn33681-bib-0034" ref-type="bibr">2020</xref>). Oxidative stress plays a pivotal role in various human diseases and is a common feature in cardiovascular disease risk factors (Cammisotto et al., <xref rid="fsn33681-bib-0002" ref-type="bibr">2021</xref>). Oxidative stress refers to an imbalance between the production of oxygen‐reactive species (ROS) and the antioxidant defenses (Forouzanfar &amp; Hosseinzadeh, <xref rid="fsn33681-bib-0010" ref-type="bibr">2020</xref>). Lipids, proteins, and DNA are the cellular biomolecules that can be harmed by oxidative stress (Siti et al., <xref rid="fsn33681-bib-0025" ref-type="bibr">2015</xref>). It is well established that oxidation of low‐density lipoprotein (LDL) particles contributes to the formation of oxidized LDL, which can be cytotoxic and cause the initial disruption of endothelial cells and subsequent injury to vascular walls (Siti et al., <xref rid="fsn33681-bib-0025" ref-type="bibr">2015</xref>; Tesfamariam &amp; DeFelice, <xref rid="fsn33681-bib-0030" ref-type="bibr">2007</xref>). Previous studies showed several natural active substances had protective effect on vascular endothelial cells (Farshori et al., <xref rid="fsn33681-bib-0008" ref-type="bibr">2021</xref>; Guo et al., <xref rid="fsn33681-bib-0011" ref-type="bibr">2021</xref>; Liao et al., <xref rid="fsn33681-bib-0016" ref-type="bibr">2021</xref>). Numerous studies have shown that antioxidants originating from plants, such as vitamins E and C, tocopherols, β‐carotene, and polyphenols, may be protective against cardiovascular disorders (Siti et al., <xref rid="fsn33681-bib-0025" ref-type="bibr">2015</xref>; Wang et al., <xref rid="fsn33681-bib-0031" ref-type="bibr">2013</xref>). <italic toggle="yes">Rosa canina</italic> L., (<italic toggle="yes">Nastaran</italic> or <italic toggle="yes">Nasrin</italic> in Persian) a member of the Rosaceae family, is a thorny shrub with white flowers and bright red hips that has spread to several areas of the world. <italic toggle="yes">R. canina</italic> has been used in traditional medicine for hepatic illnesses, various neurological and gastrointestinal diseases, headaches, and as a tonic for the heart and brain (Taghizadeh et al., <xref rid="fsn33681-bib-0026" ref-type="bibr">2016</xref>). Phytochemical screening revealed that <italic toggle="yes">R. canina</italic> extracts contain active ingredients such as tannins, proanthocyanidins, flavonoids, phenolic acids, unsaturated and galactolipids, phospholipids, minerals, polyunsaturated fatty acids, and carotenoids (Chrubasik et al., <xref rid="fsn33681-bib-0005" ref-type="bibr">2008</xref>; Lattanzio et al., <xref rid="fsn33681-bib-0013" ref-type="bibr">2011</xref>). Studies show that the fruits of <italic toggle="yes">R. canina</italic> have antioxidant properties and inhibit free radicals (Orhan et al., <xref rid="fsn33681-bib-0021" ref-type="bibr">2009</xref>). A number of animal pharmacological studies confirm the effects of <italic toggle="yes">R. canina</italic> in reducing triglycerides and fasting sugar (Medina‐Leyte et al., <xref rid="fsn33681-bib-0017" ref-type="bibr">2020</xref>; Tang et al., <xref rid="fsn33681-bib-0027" ref-type="bibr">2020</xref>) and generally improving the risk factors of cardiovascular diseases (Taghizadeh et al., <xref rid="fsn33681-bib-0026" ref-type="bibr">2016</xref>). Quercetin (3,3′,4′,5,7‐pentahydroxyflavone) is a plant pigment compound that belongs to the flavonoids family. It has unique biological qualities such as an antioxidant, anticarcinogenic, anti‐inflammatory, neuroprotective, and antiviral; it can also suppress platelet aggregation, capillary permeability, and lipid peroxidation (Li et al., <xref rid="fsn33681-bib-0015" ref-type="bibr">2016</xref>; Tang et al., <xref rid="fsn33681-bib-0027" ref-type="bibr">2020</xref>). Quercetin is present in large amounts in <italic toggle="yes">R. canina</italic> (Chrubasik et al., <xref rid="fsn33681-bib-0005" ref-type="bibr">2008</xref>). According to the antioxidant effects of <italic toggle="yes">R. canina</italic> fruit and its components, the putative protective effects on oxidative damage to blood vessels are assumable. This investigation aims to examine the role of <italic toggle="yes">R. canina</italic> fruit extract (RCFE) and quercetin in preventing cell damage caused by H<sub>2</sub>O<sub>2</sub> and to study the role of apoptosis. In this method, human umbilical vein endothelial cells (HUVEC) were used, which is an excellent model for investigating various aspects of cardiovascular and vascular function (Medina‐Leyte et al., <xref rid="fsn33681-bib-0017" ref-type="bibr">2020</xref>).</p></sec><sec sec-type="materials-and-methods" id="fsn33681-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="fsn33681-sec-0003"><label>2.1</label><title>Reagents</title><p>Propidium iodide (PI), 2′,7<italic toggle="yes">′‐</italic>dichlorofluorescein diacetate (DCF‐DA), complete protease inhibitor cocktail, resazurin, RPMI 1640, Tris‐buffered saline with Tween 20 (TBST), and H<sub>2</sub>O<sub>2</sub> were purchased from Sigma; Ammonium persulfate (APS), PVDF membranes, dimethylsulfoxide (DMSO), tetramethylethylenediamine (TEMED), and other materials were purchased from Merck Millipore; and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.google.com/search?biw=1164%26bih=635%26q=penicillin%2Bstreptomycin%26spell=1%26sa=X%26ved=0ahUKEwiJjZqLlrLOAhUHPRoKHdtBBrQQvwUIFygA" ext-link-type="uri">penicillin/streptomycin</ext-link> 100× and fetal bovine serum (FBS) were bought from Gibco. Anti‐β‐actin (13E5), PARP (9542), survivin (71G4B7), and horseradish peroxidase‐conjugated goat anti‐rabbit IgG (7074) antibodies were bought from Cell Signaling Technology.</p></sec><sec id="fsn33681-sec-0004"><label>2.2</label><title>Plant material and extraction method</title><p>Fruits of <italic toggle="yes">R. canina</italic> were collected from around Ardabil city in early autumn. Extraction was done by percolation method with 70% ethanol as follows. Three hundred grams of <italic toggle="yes">R. canina</italic> fruit powder was moistened with half a liter of solvent, and after one night, it was transferred to a suitable percolator and covered with an additional amount of solvent. After 24 h. The resulting extract was solvent removed by a rotary evaporator. After removing the solvent, the extract was transferred to a round flask and placed in the freezer for several days. Then, the balloon was connected to the freeze dryer and after about 14 days, it was separated and the extract was taken out.</p></sec><sec id="fsn33681-sec-0005"><label>2.3</label><title>Cell culture</title><p>HUVEC was purchased from the Cell Bank of the Pasteur Institute of Iran. HUVEC cells were cultured using a T75 cm<sup>2</sup> flask in RPMI 1640 medium supplemented with 10% FBS, and 1% penicillin/streptomycin at a humidified 5% CO<sub>2</sub> atmosphere at 37°C.</p></sec><sec id="fsn33681-sec-0006"><label>2.4</label><title>Cell viability</title><p>HUVECs were seeded at a density of 1 × 10<sup>4</sup> cells/well per 96‐well plate. After 24 h, the medium was changed to medium containing the RCFE (1.25, 2.5, 5, 10, and 20 μg/mL) and quercetin (1.25, 2.5, 5, 10, and 20 μM). After 24 h of incubation, the HUVECs were exposed to H<sub>2</sub>O<sub>2</sub> (1 and 2 mM for 60 min). After that AlamarBlue® was added to each well to each well, and the cells were incubated for an additional 4 h at 37°C. Next, the cell viability was determined by measuring the absorbance at 570 and 600 nm (background) using an ELISA microplate reader (Awareness; Tayarani‐Najaran et al., <xref rid="fsn33681-bib-0029" ref-type="bibr">2017</xref>).</p></sec><sec id="fsn33681-sec-0007"><label>2.5</label><title>Measurement of reactive oxygen species</title><p>HUVEC cells (10<sup>4</sup> cell/well) were treated with the RCFE (1.25, 2.5, 5, 10, and 20 μg/mL) and quercetin (1.25, 2.5, 5, 10, and 20 μM) for 24 h. After 30 min exposure to different concentrations of H<sub>2</sub>O<sub>2</sub> (1 and 2 mM), the cells were washed and loaded with 10 mM DCFH‐DA for 30 min at 37°C. The fluorescence intensity was measured at excitation wavelength: 485 nm and emission: 530 nm by microplate reader (Tayarani‐Najaran et al., <xref rid="fsn33681-bib-0028" ref-type="bibr">2021</xref>).</p></sec><sec id="fsn33681-sec-0008"><label>2.6</label><title>Determination of apoptosis</title><p>Apoptosis detection was performed with the PI staining. HUVEC cells (10<sup>5</sup>) were treated with the RCFE (2.5, 5 μg/mL) and quercetin (2.5, 5 μM). After 24 h treatment, cells were exposed to H<sub>2</sub>O<sub>2</sub> (2 mM) for 60 min, and then, 400 μL of a hypotonic buffer containing 50 μg/mL PI in 0.1% triton X‐100 and 0.1% sodium citrate were added to each well after the cells had been harvested. Prior to flow cytometry analysis, the cells were cultured in the dark at 4°C for 30 min (FACS Scan, BD Biosciences; Tayarani‐Najaran et al., <xref rid="fsn33681-bib-0028" ref-type="bibr">2021</xref>).</p></sec><sec id="fsn33681-sec-0009"><label>2.7</label><title>Western blot analysis</title><p>After treating cells (10<sup>6</sup>) with 0, 2.5, and 5 μM quercetin and 0, 2.5, and 5 μg/mL RCFE for 24 h, the cells were centrifuged at 1500 rpm twice with cold PBS buffer, and the cell pellet was lysed in lysis buffer containing Tris 50 mM pH 7.4, complete protease inhibitor cocktail, 2 mM EDTA, 10 mM β‐glycerol‐phosphate, 10 mM NaF, 1 mM Na3VO4, 0.2% w/v sodium deoxycholate, and 1 mM PMSF. Cell lysate was collected after centrifugation at 10,000 rpm at 4°C for 20 min. Each protein sample that had been adjusted was loaded onto a 10% SDS‐PAGE before being transferred to a PVDF membrane. The membranes were incubated with the primary antibodies against surviving, PARP, and β‐actin for 2 h at 4°C after being blocked with 5% skimmed milk in 0.1% Tween 20 in PBS. The blots were washed three times for 10 min each with TBST, then incubated for 2 h at 37°C with the appropriate secondary antibodies (1:3000, v/v), and again washed with TBST (Rahiman et al., <xref rid="fsn33681-bib-0022" ref-type="bibr">2018</xref>). Enhanced chemiluminescence kit (ECL, Amersham Biosciences) was used to visualize the target proteins. Utilizing the Gel‐pro Analyzer V.6.0 Gel Analysis software, images were quantified (Media Cybernetics, Inc).</p></sec><sec id="fsn33681-sec-0010"><label>2.8</label><title>Statistical analysis</title><p>One‐way ANOVA followed by Tukey post hoc was performed to determine statistical significance test. All data are presented as mean ± SEM. <italic toggle="yes">p</italic> values less than .05 were considered statistically significant.</p></sec></sec><sec sec-type="results" id="fsn33681-sec-0011"><label>3</label><title>RESULTS</title><sec id="fsn33681-sec-0012"><label>3.1</label><title>Effects of <italic toggle="no">R. canina</italic> extract and quercetin on the viability of <styled-content style="fixed-case" toggle="no">HUVECs</styled-content>
+</title><p>From 300 g of fruits, 90 g of extract was obtained. The percentage of the obtained extract was 30%. The 2 h exposure of HUVECs to H<sub>2</sub>O<sub>2</sub> (1–2 mM) resulted in severe HUVEC loss compared to control group (Figure <xref rid="fsn33681-fig-0001" ref-type="fig">1a,b</xref>). As illustrated in Figure <xref rid="fsn33681-fig-0001" ref-type="fig">1a</xref>, RCFE (2.5, 5, 10, and 20 μg/mL) significantly attenuated HUVEC death induced by H<sub>2</sub>O<sub>2</sub> (1 mM). Quercetin (1.25, 2.5, 5, 10, and 20 μM) significantly attenuated HUVEC death induced by H<sub>2</sub>O<sub>2</sub> (1 mM). Concentrations of 2.5, 5, 10, and 20 μg/mL RCFE and concentrations of 5, 10, and 20 μM quercetin were able to significantly increase cell viability against 2 mM H<sub>2</sub>O<sub>2</sub> (Figure <xref rid="fsn33681-fig-0001" ref-type="fig">1b</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn33681-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(a, b) Effects of the <italic toggle="yes">Rosa canina</italic> extract and quercetin on H<sub>2</sub>O<sub>2</sub>‐induced HUVEC cells' toxicity. The HUVECs pretreated with <italic toggle="yes">R. canina</italic> extract and quercetin for 24 h were exposed to 1 and 2 mM H<sub>2</sub>O<sub>2</sub> for 30 min. *<italic toggle="yes">p</italic> &lt; .05, ** <italic toggle="yes">p</italic> &lt; .01, and *** <italic toggle="yes">p</italic> &lt; .001 compared to H<sub>2</sub>O<sub>2</sub>. Values are the means ± SEM of three independent experiments.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="FSN3-11-7618-g002.jpg"/></fig></sec><sec id="fsn33681-sec-0013"><label>3.2</label><title>Effects of <italic toggle="no">R. canina</italic> extract and quercetin on <styled-content style="fixed-case" toggle="no">H<sub>2</sub>O<sub>2</sub>
+</styled-content>‐induced <styled-content style="fixed-case" toggle="no">ROS</styled-content> production in <styled-content style="fixed-case" toggle="no">HUVECs</styled-content>
+</title><p>As shown in Figure <xref rid="fsn33681-fig-0002" ref-type="fig">2a,b</xref>, a ROS burst was observed when cells were exposed to H<sub>2</sub>O<sub>2</sub> (1–2 mM).</p><fig position="float" fig-type="FIGURE" id="fsn33681-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>(a, b) Effects of the <italic toggle="yes">Rosa canina</italic> extract and quercetin on H<sub>2</sub>O<sub>2</sub>‐induced ROS generation in HUVEC cells. The HUVECs pretreated with <italic toggle="yes">R. canina</italic> extract and quercetin for 24 h were exposed to 1 and 2 mM H<sub>2</sub>O<sub>2</sub> for 30 min. * <italic toggle="yes">p</italic> &lt; .05, ** <italic toggle="yes">p</italic> &lt; .01, and *** <italic toggle="yes">p</italic> &lt; .001 compared to H<sub>2</sub>O<sub>2</sub>. Values are the means ± SEM of three independent experiments. R: <italic toggle="yes">R. canina</italic> extract, Q: quercetin.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="FSN3-11-7618-g004.jpg"/></fig><p>Pretreatment of the cells with RCFE (5, 10, and 20 μg/mL) and quercetin (5, 10, and 20 μM) for 24 h significantly attenuated the elevation of ROS levels induced by H<sub>2</sub>O<sub>2</sub> (1 mM).</p><p>Also, it was found that concentrations of 10 and 20 μg/mL of RCFE and 5, 10, and 20 μM of quercetin reduced the production of ROS by H<sub>2</sub>O<sub>2</sub> in concentration of 2 mM.</p></sec><sec id="fsn33681-sec-0014"><label>3.3</label><title>Effects of <italic toggle="no">R. canina</italic> extract and quercetin on <styled-content style="fixed-case" toggle="no">H<sub>2</sub>O<sub>2</sub>
+</styled-content>‐induced apoptosis in <styled-content style="fixed-case" toggle="no">HUVECs</styled-content>
+</title><p>As illustrated in Figure <xref rid="fsn33681-fig-0003" ref-type="fig">3</xref>, the sub‐G1 peak (one of the reliable biochemical markers of apoptosis) in the flow cytometry histogram of H<sub>2</sub>O<sub>2</sub>‐exposed cells was greater than control cells (Figure <xref rid="fsn33681-fig-0003" ref-type="fig">3</xref>). Treatment with RCFE (2.5 and 5 μg/mL) and quercetin (2.5 and 5 μM) could reduce the apoptosis rate.</p><fig position="float" fig-type="FIGURE" id="fsn33681-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Effects of the <italic toggle="yes">Rosa canina</italic> extract and quercetin on H<sub>2</sub>O<sub>2</sub>‐induced apoptosis in HUVEC cells. The HUVECs pretreated with <italic toggle="yes">R. canina</italic> extract and quercetin for 24 h were exposed to 2 mM H<sub>2</sub>O<sub>2</sub> for 30 min. The test was performed in triplicate (<italic toggle="yes">n</italic> = 3). R: <italic toggle="yes">R. canina</italic> extract, Q: quercetin. 0.0: control.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="FSN3-11-7618-g005.jpg"/></fig></sec><sec id="fsn33681-sec-0015"><label>3.4</label><title>Effects of <italic toggle="no">R. canina</italic> extract and quercetin on the expression of apoptotic‐associated proteins</title><p>A significant reduction in the survivin level in H<sub>2</sub>O<sub>2</sub>‐exposed cells was observed, while RCFE (2.5 and 5 μg/mL) and quercetin (2.5 μM) protected against H<sub>2</sub>O<sub>2</sub>‐induced apoptosis in HUVEC cells (Figure <xref rid="fsn33681-fig-0004" ref-type="fig">4a</xref>). Also, as shown in Figure <xref rid="fsn33681-fig-0004" ref-type="fig">4b</xref>, the PARP level which is actually the first protein known as the substrate of caspases, increased significantly in H<sub>2</sub>O<sub>2</sub>‐exposed cells, while in the cells treated with RCFE (2.5 and 5 μg/mL) and quercetin (2.5 and 5 μM), the amount of PARP protein breakage significantly decreased against to the H<sub>2</sub>O<sub>2</sub> group.</p><fig position="float" fig-type="FIGURE" id="fsn33681-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>(a, b) Effects of the <italic toggle="yes">Rosa canina</italic> extract and quercetin on the amount of survivin and PARP proteins in H<sub>2</sub>O<sub>2</sub>‐treated HUVEC cells. β‐Actin was used as a protein‐loading control. The HUVECs pretreated with <italic toggle="yes">R. canina</italic> extract and quercetin for 24 h were exposed to 2 mM H<sub>2</sub>O<sub>2</sub> for 30 min. ** <italic toggle="yes">p</italic> &lt; .01, *** <italic toggle="yes">p</italic> &lt; .001 compared to H<sub>2</sub>O<sub>2</sub>. Values are the means ± SEM of three independent experiments.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="FSN3-11-7618-g003.jpg"/></fig></sec></sec><sec sec-type="discussion" id="fsn33681-sec-0016"><label>4</label><title>DISCUSSION</title><p>In the present study, we examined the protective effects of RCFE and quercetin, a flavonoid that exists in <italic toggle="yes">R. canina</italic> on HUVEC cells in the oxidative stress model induced by H<sub>2</sub>O<sub>2</sub>. The results showed that treating HUVEC cells with high concentrations of RCFE (5, 10, and 20 μg/mL) and quercetin (5, 10, and 20 μM) decreased H<sub>2</sub>O<sub>2</sub>‐induced cell damage and ROS production. The concentrations of 20 μg/mL of <italic toggle="yes">R. canina</italic> and 10 and 20 μM of quercetin showed better results in neutralizing free radicals. Given that the endothelium, which forms the inner cell lining of blood vessels and lymphatics, acts as an interface between components of the bloodstream such as monocytes and platelets and other components of the arterial wall, it is therefore vital in the development of cardiovascular diseases (Favero et al., <xref rid="fsn33681-bib-0009" ref-type="bibr">2014</xref>; Medina‐Leyte et al., <xref rid="fsn33681-bib-0017" ref-type="bibr">2020</xref>). HUVECs were first isolated from the umbilical cord and cultured successfully in 1973. To date, this model is still widely used because it is relatively easy to isolate, and HUVECs are useful to study a wide variety of diseases, including cardiovascular and metabolic diseases (Medina‐Leyte et al., <xref rid="fsn33681-bib-0017" ref-type="bibr">2020</xref>).</p><p>Another finding of this study was increase in the cell viability by inhibiting apoptosis following exposure to RCFE and quercetin. The protective properties were associated with changes in the survivin and PARP levels. Our study revealed that H<sub>2</sub>O<sub>2</sub> could decrease survivin, while pretreatment with RCFE and quercetin increased survivin. Survivin, the smallest member of the inhibitor of apoptosis family of proteins, acts as a component of the chromosomal passenger complex, which plays an imperative role in the control of cell division (Li et al., <xref rid="fsn33681-bib-0014" ref-type="bibr">2018</xref>). Survivin is expressed during development and in proliferating adult cells (Wheatley &amp; Altieri, <xref rid="fsn33681-bib-0032" ref-type="bibr">2019</xref>). PARP is a critical enzyme regulating a broad array of cellular functions, including modulation of chromatin structure, transcription, replication, recombination, and DNA damage repair. PARP binds to single‐stranded DNA and is important for repairing frequently occurring single‐strand breaks. The first protein to be inactivated by caspase 3 by enzymatic cleavage during the DNA damage process is PARP (Morales et al., <xref rid="fsn33681-bib-0019" ref-type="bibr">2014</xref>).</p><p>As expected from the previous reports, we here showed RCFE and quercetin protect both against the death induced by increase in ROS and apoptosis in HUVEC cells. The phenolic compounds and high‐vitamin C concentration in <italic toggle="yes">R. canina</italic> may be partially responsible for the plant's beneficial characteristics (Chrubasik et al., <xref rid="fsn33681-bib-0005" ref-type="bibr">2008</xref>). It has been confirmed in various researches that <italic toggle="yes">R. canina</italic> is able to reduce cardiovascular diseases by reducing blood pressure and LDL (Andersson et al., <xref rid="fsn33681-bib-0001" ref-type="bibr">2012</xref>; Selahvarzian et al., <xref rid="fsn33681-bib-0024" ref-type="bibr">2018</xref>). In addition to vitamin C, the fruit of the <italic toggle="yes">R. canina</italic> plant contains phytochemicals such as carotenoids, amino acids, tocopherol, tannins, pectin, sugars, bioflavonoids, organic acids, and essential oils. Also, <italic toggle="yes">R. canina</italic> fruit contains long‐chain unsaturated fatty acids, which are considered essential fatty acids, because the body cannot synthesize them. Linoleic and α‐linolenic acids are essential fatty acids whose health benefits include roles in the regulation of blood pressure, nerve function, membrane fluidity, blood viscosity, immune responses, inflammatory responses, and several other responses. The analysis of fatty acids showed that the main fatty acids in <italic toggle="yes">R. canina</italic> are composed of linoleic acid and α‐linolenic acid (Winther et al., <xref rid="fsn33681-bib-0033" ref-type="bibr">2016</xref>). In one study, by comparing the ability of <italic toggle="yes">R. canina</italic> fruit and five other fruits from the Rosaceae family to reduce hydroxyl radicals (OH) and hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>), the total antioxidant activity of <italic toggle="yes">R. canina</italic> fruit was examined. The fruit's total phenol, ascorbic acid, and carotenoid concentrations were also evaluated. The phenolic and carotenoid content of <italic toggle="yes">R. canina</italic> was much higher than that of other analyzed fruits. The ascorbic acid level of <italic toggle="yes">R. canina</italic> fruit was also higher, which indicates its greater activity against H<sub>2</sub>O<sub>2</sub> species (Egea et al., <xref rid="fsn33681-bib-0007" ref-type="bibr">2010</xref>). Also, aqueous extract of <italic toggle="yes">R. canina</italic> inhibits the chemotaxis of human peripheral blood leukocytes in laboratory conditions. These laboratory studies show that <italic toggle="yes">R. canina</italic> powder has anti‐inflammatory as well as antioxidant properties. Healthy and osteoarthritis individuals who consumed <italic toggle="yes">R. canina</italic> fruit powder every day for 4 weeks had reductions in polymorphonuclear leukocytes chemotaxis and levels of the inflammatory marker acute‐phase C‐reactive protein (CRP) (Kharazmi, <xref rid="fsn33681-bib-0012" ref-type="bibr">2008</xref>).</p><p>In humans, daily use of a <italic toggle="yes">R. canina</italic> fruit drink for 6 weeks (40 g/day), compared to the control drink, caused a significant decrease in systolic blood pressure, total plasma cholesterol, LDL, and LDL/HDL ratio. The Reynolds index for cardiovascular diseases was also reduced in osteoarthritis volunteers who received <italic toggle="yes">R. canina</italic> fruit compared to the control group. However, body weight, glucose tolerance, diastolic blood pressure, plasma levels of HDL, triglycerides, incretins, and inflammatory indices were not different between the two groups (Andersson et al., <xref rid="fsn33681-bib-0001" ref-type="bibr">2012</xref>).</p><p>In animals, blood pressure and oxidized LDL, atherosclerotic plaques, total cholesterol, and fibrinogen levels were significantly reduced in rats that received <italic toggle="yes">R. canina</italic> fruit, but it could not prevent weight gain or decreases in plasma glucose and insulin in ApoE‐null mice (Cavalera et al., <xref rid="fsn33681-bib-0003" ref-type="bibr">2017</xref>). In addition, administration of <italic toggle="yes">R. canina</italic> reduced the excessive production of ROS and inhibited the activity of caspase 8 caused by heat stress in the heart of male Wistar rats. Moreover, <italic toggle="yes">R. canina</italic> extract decreased the expression of p‐PERK, p‐eIF2α, and CHOP protein as heat stress‐related markers in endoplasmic reticulum of the heart (Nasrolahi et al., <xref rid="fsn33681-bib-0020" ref-type="bibr">2020</xref>). Quercetin, a potent antioxidant flavonoid that exists in <italic toggle="yes">R. canina</italic>, plays an imperative function in the prevention and treatment of atherosclerosis (Deng et al., <xref rid="fsn33681-bib-0006" ref-type="bibr">2020</xref>) (Chrubasik et al., <xref rid="fsn33681-bib-0005" ref-type="bibr">2008</xref>). Quercetin also effectively eliminates ROS and protects vascular endothelial function (Saw et al., <xref rid="fsn33681-bib-0023" ref-type="bibr">2014</xref>). One study showed that quercetin can protect endothelial function from oxidative stress induced by homocysteine by increasing the glutathione level, inhibiting protein oxidation, lipid peroxidation, and enzymatic reactions, and decreasing the malondialdehyde level in ‐homoc rats (Çelik et al., <xref rid="fsn33681-bib-0004" ref-type="bibr">2017</xref>). The results of the present study are in accordance with the antioxidant and anti‐apoptotic activity which were suggested in previous experimental and in vivo research.</p></sec><sec sec-type="conclusions" id="fsn33681-sec-0017"><label>5</label><title>CONCLUSION</title><p>This study shows that RCFE and quercetin protect HUVEC cells from H<sub>2</sub>O<sub>2</sub>‐induced cellular oxidative stress and apoptosis. Our findings demonstrate the therapeutic potential role of <italic toggle="yes">R. canina</italic> and quercetin in the treatment of cardiovascular illnesses. Consequently, further analytical and clinical research is warranted in order to strengthen the present findings.</p></sec><sec id="fsn33681-sec-0022"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Fatemeh Forouzanfar:</bold> Supervision (equal); writing – original draft (equal). <bold>Zeynab Tabatabaei:</bold> Investigation (equal). <bold>Seyed Ahmad Emami:</bold> Supervision (equal). <bold>Zahra Ayati:</bold> Investigation (equal). <bold>Zahra Tayarani‐Najaran:</bold> Data curation (equal); supervision (equal).</p></sec><sec id="fsn33681-sec-0018"><title>FUNDING INFORMATION</title><p>The work was supported by the Research Affairs of Mashhad University of Medical Sciences (Grant No. 971030).</p></sec><sec sec-type="COI-statement" id="fsn33681-sec-0019"><title>CONFLICT OF INTEREST STATEMENT</title><p>None.</p></sec></body><back><ack id="fsn33681-sec-0222"><title>ACKNOWLEDGMENTS</title><p>The authors are thankful to Mr. Malaekeh for reading flow cytometry test samples and Dr. Hashemi‐Kalat for his assistance in lab techniques.</p></ack><sec sec-type="data-availability" id="fsn33681-sec-0021"><title>DATA AVAILABILITY STATEMENT</title><p>The data that support the findings of this study are available on request from the corresponding author.</p></sec><ref-list content-type="cited-references" id="fsn33681-bibl-0001"><title>REFERENCES</title><ref id="fsn33681-bib-0001"><mixed-citation publication-type="journal" id="fsn33681-cit-0001">
+<string-name name-style="western">
+<surname>Andersson</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berger</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Högberg</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landin‐Olsson</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Holm</surname>, <given-names>C.</given-names>
+</string-name> (<year>2012</year>). <article-title>Effects of rose hip intake on risk markers of type 2 diabetes and cardiovascular disease: A randomized, double‐blind, cross‐over investigation in obese persons</article-title>. <source>European Journal of Clinical Nutrition</source>, <volume>66</volume>(<issue>5</issue>), <fpage>585</fpage>–<lpage>590</lpage>.<pub-id pub-id-type="pmid">22166897</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ejcn.2011.203</pub-id><pub-id pub-id-type="pmcid">PMC3343291</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0002"><mixed-citation publication-type="journal" id="fsn33681-cit-0002">
+<string-name name-style="western">
+<surname>Cammisotto</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nocella</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bartimoccia</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sanguigni</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Francomano</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sciarretta</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pastori</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peruzzi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavarretta</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D'Amico</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Castellani</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frati</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carnevale</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <collab collab-type="authors">Group SML</collab>
+. (<year>2021</year>). <article-title>The role of antioxidants supplementation in clinical practice: Focus on cardiovascular risk factors</article-title>. <source>Antioxidants</source>, <volume>10</volume>(<issue>2</issue>), <fpage>146</fpage>.<pub-id pub-id-type="pmid">33498338</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/antiox10020146</pub-id><pub-id pub-id-type="pmcid">PMC7909411</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0003"><mixed-citation publication-type="journal" id="fsn33681-cit-0003">
+<string-name name-style="western">
+<surname>Cavalera</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Axling</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rippe</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swärd</surname>, <given-names>K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Holm</surname>, <given-names>C.</given-names>
+</string-name> (<year>2017</year>). <article-title>Dietary rose hip exerts antiatherosclerotic effects and increases nitric oxide‐mediated dilation in ApoE‐null mice</article-title>. <source>The Journal of Nutritional Biochemistry</source>, <volume>44</volume>, <fpage>52</fpage>–<lpage>59</lpage>.<pub-id pub-id-type="pmid">28399420</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jnutbio.2017.02.017</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0004"><mixed-citation publication-type="journal" id="fsn33681-cit-0004">
+<string-name name-style="western">
+<surname>Çelik</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vurmaz</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kahraman</surname>, <given-names>A.</given-names>
+</string-name> (<year>2017</year>). <article-title>Protective effect of quercetin on homocysteine‐induced oxidative stress</article-title>. <source>Nutrition</source>, <volume>33</volume>, <fpage>291</fpage>–<lpage>296</lpage>.<pub-id pub-id-type="pmid">27717661</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.nut.2016.07.014</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0005"><mixed-citation publication-type="journal" id="fsn33681-cit-0005">
+<string-name name-style="western">
+<surname>Chrubasik</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roufogalis</surname>, <given-names>B. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Müller‐Ladner</surname>, <given-names>U.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Chrubasik</surname>, <given-names>S.</given-names>
+</string-name> (<year>2008</year>). <article-title>A systematic review on the <italic toggle="yes">Rosa canina</italic> effect and efficacy profiles</article-title>. <source>Phytotherapy Research: An International Journal Devoted to Pharmacological and Toxicological Evaluation of Natural Product Derivatives.</source>, <volume>22</volume>(<issue>6</issue>), <fpage>725</fpage>–<lpage>733</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ptr.2400</pub-id><pub-id pub-id-type="pmid">18384191</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0006"><mixed-citation publication-type="journal" id="fsn33681-cit-0006">
+<string-name name-style="western">
+<surname>Deng</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>X. X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>X.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Xue</surname>, <given-names>J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Therapeutic potential of quercetin as an antiatherosclerotic agent in atherosclerotic cardiovascular disease: A review</article-title>. <source>Evidence‐Based Complementary and Alternative Medicine</source>, <volume>2020</volume>, <fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2020/5926381</pub-id><pub-id pub-id-type="pmcid">PMC7292974</pub-id><pub-id pub-id-type="pmid">32565865</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0007"><mixed-citation publication-type="journal" id="fsn33681-cit-0007">
+<string-name name-style="western">
+<surname>Egea</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sánchez‐Bel</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Romojaro</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pretel</surname>, <given-names>M. T.</given-names>
+</string-name> (<year>2010</year>). <article-title>Six edible wild fruits as potential antioxidant additives or nutritional supplements</article-title>. <source>Plant Foods for Human Nutrition</source>, <volume>65</volume>(<issue>2</issue>), <fpage>121</fpage>–<lpage>129</lpage>.<pub-id pub-id-type="pmid">20198440</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11130-010-0159-3</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0008"><mixed-citation publication-type="journal" id="fsn33681-cit-0008">
+<string-name name-style="western">
+<surname>Farshori</surname>, <given-names>N. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saquib</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siddiqui</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Oqail</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Sheddi</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Massarani</surname>, <given-names>S. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Al‐Khedhairy</surname>, <given-names>A. A.</given-names>
+</string-name> (<year>2021</year>). <article-title>Protective effects of Nigella sativa extract against H2O2‐induced cell death through the inhibition of DNA damage and cell cycle arrest in human umbilical vein endothelial cells (HUVECs)</article-title>. <source>Journal of Applied Toxicology</source>, <volume>41</volume>(<issue>5</issue>), <fpage>820</fpage>–<lpage>831</lpage>.<pub-id pub-id-type="pmid">33305432</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jat.4126</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0009"><mixed-citation publication-type="journal" id="fsn33681-cit-0009">
+<string-name name-style="western">
+<surname>Favero</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paganelli</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buffoli</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodella</surname>, <given-names>L. F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rezzani</surname>, <given-names>R.</given-names>
+</string-name> (<year>2014</year>). <article-title>Endothelium and its alterations in cardiovascular diseases: Life style intervention</article-title>. <source>BioMed Research International</source>, <volume>2014</volume>, <fpage>1</fpage>–<lpage>28</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2014/801896</pub-id><pub-id pub-id-type="pmcid">PMC3955677</pub-id><pub-id pub-id-type="pmid">24719887</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0010"><mixed-citation publication-type="book" id="fsn33681-cit-0010">
+<string-name name-style="western">
+<surname>Forouzanfar</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hosseinzadeh</surname>, <given-names>H.</given-names>
+</string-name> (<year>2020</year>). <part-title>Chapter 11 ‐ Protective role of nigella sativa and thymoquinone in oxidative stress: A Review</part-title>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>V. R.</given-names>
+<surname>Preedy</surname>
+</string-name>
+</person-group> &amp; <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Watson</surname>
+</string-name>
+</person-group>, (eds.), <source>Nuts and seeds in health and disease prevention</source> (2nd ed., pp. <fpage>127</fpage>–<lpage>146</lpage>). <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="fsn33681-bib-0011"><mixed-citation publication-type="journal" id="fsn33681-cit-0011">
+<string-name name-style="western">
+<surname>Guo</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bao</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pan</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>M.</given-names>
+</string-name> (<year>2021</year>). <article-title>Protective effect of berberine against LPS‐induced endothelial cell injury via the JNK signaling pathway and autophagic mechanisms</article-title>. <source>Bioengineered</source>, <volume>12</volume>(<issue>1</issue>), <fpage>1324</fpage>–<lpage>1337</lpage>.<pub-id pub-id-type="pmid">33896366</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/21655979.2021.1915671</pub-id><pub-id pub-id-type="pmcid">PMC8806223</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0012"><mixed-citation publication-type="journal" id="fsn33681-cit-0012">
+<string-name name-style="western">
+<surname>Kharazmi</surname>, <given-names>A.</given-names>
+</string-name> (<year>2008</year>). <article-title>Laboratory and preclinical studies on the anti‐inflammatory and anti‐oxidant properties of rosehip powder–identification and characterization of the active component GOPO®</article-title>. <source>Osteoarthritis and Cartilage</source>, <volume>16</volume>, <fpage>S5</fpage>–<lpage>S7</lpage>.</mixed-citation></ref><ref id="fsn33681-bib-0013"><mixed-citation publication-type="journal" id="fsn33681-cit-0013">
+<string-name name-style="western">
+<surname>Lattanzio</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greco</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carretta</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cervellati</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Govoni</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Speroni</surname>, <given-names>E.</given-names>
+</string-name> (<year>2011</year>). <article-title>In vivo anti‐inflammatory effect of <italic toggle="yes">Rosa canina</italic> L. extract</article-title>. <source>Journal of Ethnopharmacology</source>, <volume>137</volume>(<issue>1</issue>), <fpage>880</fpage>–<lpage>885</lpage>.<pub-id pub-id-type="pmid">21771653</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jep.2011.07.006</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0014"><mixed-citation publication-type="journal" id="fsn33681-cit-0014">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018</year>). <article-title>Survivin as a novel target protein for reducing the proliferation of cancer cells</article-title>. <source>Biomedical Reports</source>, <volume>8</volume>(<issue>5</issue>), <fpage>399</fpage>–<lpage>406</lpage>.<pub-id pub-id-type="pmid">29725522</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/br.2018.1077</pub-id><pub-id pub-id-type="pmcid">PMC5920485</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0015"><mixed-citation publication-type="journal" id="fsn33681-cit-0015">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yao</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Han</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chaudhry</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Yin</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2016</year>). <article-title>Quercetin, inflammation and immunity</article-title>. <source>Nutrients</source>, <volume>8</volume>(<issue>3</issue>), <fpage>167</fpage>.<pub-id pub-id-type="pmid">26999194</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/nu8030167</pub-id><pub-id pub-id-type="pmcid">PMC4808895</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0016"><mixed-citation publication-type="journal" id="fsn33681-cit-0016">
+<string-name name-style="western">
+<surname>Liao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gong</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xue</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Peng</surname>, <given-names>C.</given-names>
+</string-name> (<year>2021</year>). <article-title>Leonurine ameliorates oxidative stress and insufficient angiogenesis by regulating the PI3K/Akt‐eNOS signaling pathway in H2O2‐induced HUVECs</article-title>. <source>Oxidative Medicine and Cellular Longevity</source>, <volume>2021</volume>, <fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2021/9919466</pub-id><pub-id pub-id-type="pmcid">PMC8357476</pub-id><pub-id pub-id-type="pmid">34394836</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0017"><mixed-citation publication-type="journal" id="fsn33681-cit-0017">
+<string-name name-style="western">
+<surname>Medina‐Leyte</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Domínguez‐Pérez</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mercado</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Villarreal‐Molina</surname>, <given-names>M. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jacobo‐Albavera</surname>, <given-names>L.</given-names>
+</string-name> (<year>2020</year>). <article-title>Use of human umbilical vein endothelial cells (HUVEC) as a model to study cardiovascular disease: A review</article-title>. <source>Applied Sciences</source>, <volume>10</volume>(<issue>3</issue>), <fpage>938</fpage>.</mixed-citation></ref><ref id="fsn33681-bib-0018"><mixed-citation publication-type="book" id="fsn33681-cit-0018">
+<string-name name-style="western">
+<surname>Mensah</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roth</surname>, <given-names>G. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fuster</surname>, <given-names>V.</given-names>
+</string-name> (<year>2019</year>). <source>The global burden of cardiovascular diseases and risk factors: 2020 and beyond</source> (pp. <fpage>2529</fpage>–<lpage>2532</lpage>). <publisher-name>American College of Cardiology Foundation</publisher-name>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jacc.2019.10.009</pub-id><pub-id pub-id-type="pmid">31727292</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0019"><mixed-citation publication-type="journal" id="fsn33681-cit-0019">
+<string-name name-style="western">
+<surname>Morales</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fattah</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dong</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bey</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patel</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Boothman</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Review of poly (ADP‐ribose) polymerase (PARP) mechanisms of action and rationale for targeting in cancer and other diseases. Critical reviews™ in eukaryotic</article-title>. <source>Gene Expression</source>, <volume>24</volume>(<issue>1</issue>), <fpage>15</fpage>–<lpage>28</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1615/critreveukaryotgeneexpr.2013006875</pub-id><pub-id pub-id-type="pmcid">PMC4806654</pub-id><pub-id pub-id-type="pmid">24579667</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0020"><mixed-citation publication-type="journal" id="fsn33681-cit-0020">
+<string-name name-style="western">
+<surname>Nasrolahi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hosseini</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farokhi‐Sisakht</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mahmoudi</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karimi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Badalzadeh</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Erfani</surname>, <given-names>M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Cardioprotective effect of Rosa canina L. methanolic extract on heat shock induced cardiomyocyte injury: An experimental study</article-title>. <source>Journal of Cardiovascular and Thoracic Research</source>, <volume>12</volume>(<issue>4</issue>), <fpage>286</fpage>.<pub-id pub-id-type="pmid">33510877</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.34172/jcvtr.2020.47</pub-id><pub-id pub-id-type="pmcid">PMC7828751</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0021"><mixed-citation publication-type="journal" id="fsn33681-cit-0021">
+<string-name name-style="western">
+<surname>Orhan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aslan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hosbas</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Deliorman</surname>, <given-names>O. D.</given-names>
+</string-name> (<year>2009</year>). <article-title>Antidiabetic effect and antioxidant potential of <italic toggle="yes">Rosa canina</italic> fruits</article-title>. <source>Pharmacognosy Magazine</source>, <volume>5</volume>(<issue>20</issue>), <fpage>309</fpage>.</mixed-citation></ref><ref id="fsn33681-bib-0022"><mixed-citation publication-type="journal" id="fsn33681-cit-0022">
+<string-name name-style="western">
+<surname>Rahiman</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akaberi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sahebkar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Emami</surname>, <given-names>S. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Tayarani‐Najaran</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2018</year>). <article-title>Protective effects of saffron and its active components against oxidative stress and apoptosis in endothelial cells</article-title>. <source>Microvascular Research</source>, <volume>118</volume>, <fpage>82</fpage>–<lpage>89</lpage>.<pub-id pub-id-type="pmid">29524452</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mvr.2018.03.003</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0023"><mixed-citation publication-type="journal" id="fsn33681-cit-0023">
+<string-name name-style="western">
+<surname>Saw</surname>, <given-names>C. L. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>, <given-names>A. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paredes‐Gonzalez</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramirez</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pung</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kong</surname>, <given-names>A. N. T.</given-names>
+</string-name> (<year>2014</year>). <article-title>The berry constituents quercetin, kaempferol, and pterostilbene synergistically attenuate reactive oxygen species: Involvement of the Nrf2‐ARE signaling pathway</article-title>. <source>Food and Chemical Toxicology</source>, <volume>72</volume>, <fpage>303</fpage>–<lpage>311</lpage>.<pub-id pub-id-type="pmid">25111660</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fct.2014.07.038</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0024"><mixed-citation publication-type="journal" id="fsn33681-cit-0024">
+<string-name name-style="western">
+<surname>Selahvarzian</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alizadeh</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baharvand</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eldahshan</surname>, <given-names>O. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rasoulian</surname>, <given-names>B.</given-names>
+</string-name> (<year>2018</year>). <article-title>Medicinal properties of Rosa canina L</article-title>. <source>Herbal Medicines Journal</source>, <volume>3</volume>(<issue>2</issue>), <fpage>77</fpage>–<lpage>84</lpage>.</mixed-citation></ref><ref id="fsn33681-bib-0025"><mixed-citation publication-type="journal" id="fsn33681-cit-0025">
+<string-name name-style="western">
+<surname>Siti</surname>, <given-names>H. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kamisah</surname>, <given-names>Y.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kamsiah</surname>, <given-names>J.</given-names>
+</string-name> (<year>2015</year>). <article-title>The role of oxidative stress, antioxidants and vascular inflammation in cardiovascular disease (a review)</article-title>. <source>Vascular Pharmacology</source>, <volume>71</volume>, <fpage>40</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">25869516</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.vph.2015.03.005</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0026"><mixed-citation publication-type="journal" id="fsn33681-cit-0026">
+<string-name name-style="western">
+<surname>Taghizadeh</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rashidi</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taherian</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vakili</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sajad Sajadian</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ghardashi</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Antidiabetic and antihyperlipidemic effects of ethanol extract of <italic toggle="yes">Rosa canina</italic> L. fruit on diabetic rats: An experimental study with histopathological evaluations</article-title>. <source>Journal of Evidence‐Based Complementary and Alternative Medicine</source>, <volume>21</volume>(<issue>4</issue>), <fpage>NP25</fpage>–<lpage>NP30</lpage>.<pub-id pub-id-type="pmid">26498488</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/2156587215612626</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0027"><mixed-citation publication-type="journal" id="fsn33681-cit-0027">
+<string-name name-style="western">
+<surname>Tang</surname>, <given-names>S.‐M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deng</surname>, <given-names>X.‐T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>Q.‐P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ge</surname>, <given-names>X.‐X.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Miao</surname>, <given-names>L.</given-names>
+</string-name> (<year>2020</year>). <article-title>Pharmacological basis and new insights of quercetin action in respect to its anti‐cancer effects</article-title>. <source>Biomedicine and Pharmacotherapy</source>, <volume>121</volume>, <elocation-id>109604</elocation-id>.<pub-id pub-id-type="pmid">31733570</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.biopha.2019.109604</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0028"><mixed-citation publication-type="journal" id="fsn33681-cit-0028">
+<string-name name-style="western">
+<surname>Tayarani‐Najaran</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hadipour</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mousavi</surname>, <given-names>S. M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Emami</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mohtashami</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Javadi</surname>, <given-names>B.</given-names>
+</string-name> (<year>2021</year>). <article-title>Protective effects of <italic toggle="yes">Lavandula stoechas</italic> L. methanol extract against 6‐OHDA‐induced apoptosis in PC12 cells</article-title>. <source>Journal of Ethnopharmacology</source>, <volume>273</volume>, <elocation-id>114023</elocation-id>.<pub-id pub-id-type="pmid">33716081</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jep.2021.114023</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0029"><mixed-citation publication-type="journal" id="fsn33681-cit-0029">
+<string-name name-style="western">
+<surname>Tayarani‐Najaran</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Makki</surname>, <given-names>F. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alamolhodaei</surname>, <given-names>N. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mojarrab</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Emami</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2017</year>). <article-title>Cytotoxic and apoptotic effects of different extracts of Artemisia biennis Willd. On K562 and HL‐60 cell lines</article-title>. <source>Iranian Journal of Basic Medical Sciences</source>, <volume>20</volume>(<issue>2</issue>), <fpage>166</fpage>–<lpage>171</lpage>.<pub-id pub-id-type="pmid">28293393</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.22038/ijbms.2017.8242</pub-id><pub-id pub-id-type="pmcid">PMC5339657</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0030"><mixed-citation publication-type="journal" id="fsn33681-cit-0030">
+<string-name name-style="western">
+<surname>Tesfamariam</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>DeFelice</surname>, <given-names>A. F.</given-names>
+</string-name> (<year>2007</year>). <article-title>Endothelial injury in the initiation and progression of vascular disorders</article-title>. <source>Vascular Pharmacology</source>, <volume>46</volume>(<issue>4</issue>), <fpage>229</fpage>–<lpage>237</lpage>.<pub-id pub-id-type="pmid">17218160</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.vph.2006.11.005</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0031"><mixed-citation publication-type="journal" id="fsn33681-cit-0031">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chun</surname>, <given-names>O. K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Song</surname>, <given-names>W. O.</given-names>
+</string-name> (<year>2013</year>). <article-title>Plasma and dietary antioxidant status as cardiovascular disease risk factors: A review of human studies</article-title>. <source>Nutrients</source>, <volume>5</volume>(<issue>8</issue>), <fpage>2969</fpage>–<lpage>3004</lpage>.<pub-id pub-id-type="pmid">23912327</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/nu5082969</pub-id><pub-id pub-id-type="pmcid">PMC3775238</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0032"><mixed-citation publication-type="journal" id="fsn33681-cit-0032">
+<string-name name-style="western">
+<surname>Wheatley</surname>, <given-names>S. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Altieri</surname>, <given-names>D. C.</given-names>
+</string-name> (<year>2019</year>). <article-title>Survivin at a glance</article-title>. <source>Journal of Cell Science</source>, <volume>132</volume>(<issue>7</issue>), <elocation-id>jcs223826</elocation-id>.<pub-id pub-id-type="pmid">30948431</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/jcs.223826</pub-id><pub-id pub-id-type="pmcid">PMC6467487</pub-id></mixed-citation></ref><ref id="fsn33681-bib-0033"><mixed-citation publication-type="journal" id="fsn33681-cit-0033">
+<string-name name-style="western">
+<surname>Winther</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hansen</surname>, <given-names>A. S. V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Campbell‐Tofte</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Bioactive ingredients of rose hips (<italic toggle="yes">Rosa canina</italic> L) with special reference to antioxidative and anti‐inflammatory properties: in vitro studies</article-title>. <source>Botanics: Targets and Therapy</source>, <volume>6</volume>, <fpage>11</fpage>–<lpage>23</lpage>.</mixed-citation></ref><ref id="fsn33681-bib-0034"><mixed-citation publication-type="journal" id="fsn33681-cit-0034">
+<string-name name-style="western">
+<surname>Yusuf</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joseph</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rangarajan</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Islam</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mente</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hystad</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brauer</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kutty</surname>, <given-names>V. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gupta</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wielgosz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>AlHabib</surname>, <given-names>K. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dans</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopez‐Jaramillo</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Avezum</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lanas</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oguz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kruger</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yusoff</surname>, <given-names>K.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Dagenais</surname>, <given-names>G.</given-names>
+</string-name> (<year>2020</year>). <article-title>Modifiable risk factors, cardiovascular disease, and mortality in 155 722 individuals from 21 high‐income, middle‐income, and low‐income countries (PURE): A prospective cohort study</article-title>. <source>The Lancet</source>, <volume>395</volume>(<issue>10226</issue>), <fpage>795</fpage>–<lpage>808</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(19)32008-2</pub-id><pub-id pub-id-type="pmcid">PMC8006904</pub-id><pub-id pub-id-type="pmid">31492503</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

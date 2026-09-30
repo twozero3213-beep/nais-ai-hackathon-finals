@@ -1,0 +1,13 @@
+{
+  "contributor_version": 3,
+  "recorded_at_kst": "2026-09-30T20:00:57+09:00",
+  "scope": "계획 산출물 지문이며 실험 입력 봉인이 아님",
+  "files": {
+    "comparison-protocol.json": "3264197a340b7a76d7f0af9c70679ba75dcbe519cff301959ddcc930702fc7de",
+    "extraction.schema.json": "772306091d8d1dfbd211cfbaecd96ab490c4a22ce809c10330862e8d9871e5a7",
+    "observations-template.csv": "f15f97679c9a6777345197c7587ddd6483c5bb8e073aff253530d39bad439300",
+    "3_조지현_실행전략.md": "eac2c781a83b5a5022e4672e1d34da46dfc3c23814b749ec02b9e06c61eb83da"
+  },
+  "document_updated_at_kst": "2026-09-30T21:45:55+09:00",
+  "hash_basis": "Git 저장 바이트(LF). .gitattributes의 -text로 체크아웃도 같은 바이트"
+}

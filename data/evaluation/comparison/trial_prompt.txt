@@ -1,0 +1,26 @@
+You are the general-purpose AI comparator. This is a frozen exploratory exercise, not independently labeled gold. Use only the files in this directory. Do not search elsewhere or alter files. Read paper_excerpt.txt and each specified CSV. For every case, apply the exact pre-specified method and dataset scope from its prompt. If paper claim refers to a different data scope than the supplied CSV, return BLOCK even if row count happens to equal the claim. Do not use other product source or a scoring key. Return only a JSON object with one results array of exactly four objects, each with claim_id, action (BLOCK or EXECUTE), reason, and value when EXECUTE.
+
+RAW-ROWS
+Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.
+Claim: penguins_raw contains 17 variables and 344 individuals
+CSV: raw.csv
+Method: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 17-variable penguins_raw table.
+
+CURATED-ROWS
+Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.
+Claim: penguins contains 8 variables and 344 observations
+CSV: curated.csv
+Method: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 8-variable curated penguins table.
+
+RAW-WITH-CURATED
+Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.
+Claim: penguins_raw contains 17 variables and 344 individuals
+CSV: curated.csv
+Method: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 8-variable curated penguins table.
+
+CURATED-WITH-RAW
+Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.
+Claim: penguins contains 8 variables and 344 observations
+CSV: raw.csv
+Method: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 17-variable penguins_raw table.
+

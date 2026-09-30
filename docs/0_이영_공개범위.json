@@ -1,0 +1,23 @@
+{
+  "created_at_kst": "2026-09-30T22:59:00+09:00",
+  "contributor_version": 0,
+  "scope": "집중 시연 공개 배포. 전체 자료 검색 앱과 원본 실험 입력은 로컬 작업트리에 보존.",
+  "private_sealed_bundle": "0_이영_비공개_봉인입력.zip",
+  "private_bundle_sha256": "1df554fe780917067e5880d46668e7ae15e15dce111911f3b52dbd491b8212f5",
+  "excluded_private_inputs": [
+    "finals/evidence/inputs/C01-source.txt",
+    "finals/evidence/inputs/C02-source.txt",
+    "finals/evidence/inputs/C05-source.txt",
+    "finals/evidence/inputs/C07-source.txt",
+    "finals/evidence/inputs/C08-source.txt",
+    "finals/evidence/packets/C01.json",
+    "finals/evidence/packets/C02.json",
+    "finals/evidence/packets/C05.json",
+    "finals/evidence/packets/C07.json",
+    "finals/evidence/packets/C08.json"
+  ],
+  "sealed_inputs_changed": false,
+  "source_zip_sha256": "a3ee95b59a3a3026670f846eba6166cc9a12939e87a6d7ff16ceeb0674a7709f",
+  "public_source_transform": "선택 HTML 연락처만 치환; 수치 CSV 바이트 보존; 원문/파생 SHA 분리",
+  "model_execution_status": "NOT_RUN_CREDIT_BALANCE_EXHAUSTED"
+}

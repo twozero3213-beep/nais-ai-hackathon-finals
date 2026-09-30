@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "paper": {
+    "title": "Horse behavior and facial movements in relation to food rewards",
+    "authors": "Carmo LG, Werner LC, Michelotto PV Jr, Daros RR",
+    "year": 2023,
+    "doi": "10.1371/journal.pone.0286045",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0286045",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0286045&type=printable",
+    "author_data_doi": "10.6084/m9.figshare.21714233.v1",
+    "verified_on": "2026-09-25"
+  },
+  "claims": [
+    {
+      "claim_id": "HORSE-LOWERED-NECK-OR",
+      "source_location": "Abstract p.1; Results 3.2 Behavior in the chute p.9; methods 2.6 pp.7-8",
+      "claim_paraphrase": "Lowered-neck odds in the positively reinforced phase relative to baseline: OR 0.05, printed 95% CI 0.00-0.56, P=0.05.",
+      "raw_file": "Dados_Laize_ISAE2021.csv",
+      "columns": {
+        "NECK_ABAIXO": "Binary outcome: lowered neck (1) versus not observed (0); NA is missing.",
+        "GRUPO": "Fixed phase effect: Baseline reference, Experimental contrast; Controle excluded.",
+        "NOME": "Horse identifier for random intercept and repeated measurements.",
+        "EXP_DAY": "Experimental day used for filtering.",
+        "EXP_ORDEM": "Treatment sequence exists in raw data; not in final author formula."
+      },
+      "filters": ["EXP_DAY not in [4,5,7,8]", "GRUPO != Controle"],
+      "missing_policy": "Model frame complete cases on NECK_ABAIXO, GRUPO, NOME; assumes normal R na.omit and must be recorded at execution.",
+      "formula": "NECK_ABAIXO ~ GRUPO + (1|NOME)",
+      "method": "lme4::glmer, binomial family, default logit link",
+      "rmd_locations": {"filter_lines": [128,134], "fit_lines": [225,230], "or_ci_helper_lines": [80,90]},
+      "effect": "exp(fixef(model)[GRUPOExperimental])",
+      "ci": "Exponentiate profile likelihood confint(model); author helper rounds to 2 decimals.",
+      "p": "summary(glmer) Wald z test for GRUPOExperimental; retain full precision and check printed rounding.",
+      "design": "All three baseline days and final PR day (day 6 or 9 by crossover assignment), random intercept by horse. Final formula omits treatment order/age; do not describe it as period-adjusted crossover inference.",
+      "rounding_note": "Printed CI lower bound 0.00 is rounded, not evidence of a mathematically zero lower bound.",
+      "status": "BLOCK_MODEL_NOT_EXECUTED",
+      "human_approved_label": false
+    },
+    {
+      "claim_id": "HORSE-TABLE3-ELEVATED-NECK",
+      "source_location": "Table 3, p.8, Elevated neck column",
+      "reported": {"Experimental": 1, "Controle": 4},
+      "raw_file": "Dados_Laize_ISAE2021.csv",
+      "columns": ["GRUPO", "NECK_SUPERELEVADO"],
+      "filters": ["GRUPO in [Experimental, Controle]", "All three days of each phase; no final-day filter"],
+      "method": "Sum observed binary NECK_SUPERELEVADO values separately by GRUPO; record missing counts separately.",
+      "interpretation": "Match of the recorded elevated-neck totals only. Not complete-case proof of absence on missing sessions and not verification of lowered-neck mixed-model inference.",
+      "human_approved_label": false
+    }
+  ]
+}

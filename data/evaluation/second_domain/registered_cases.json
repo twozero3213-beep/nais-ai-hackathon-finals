@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "registration_scope": "One agricultural paper, two pre-mapped sample-size cells. Raw Dryad CC0 data; article excerpt CC BY 4.0. Only row-count arithmetic, not ANOVA or full-paper reproduction. No human approval.",
+  "cases": [
+    {
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198928",
+      "source_file": "data/evaluation/second_domain/plos_0198928_methods_excerpt.txt",
+      "source_sha256": "1f29b5afe9c63cc7121744f495617e61cf66dae74d5088129661eebd432ac790",
+      "source_quote": "sample size (n) was 4 except for the anthesis destructive harvest, where n = 3.",
+      "source_kind": "article_extract",
+      "scope_status": "EVALUATION_MAPPING",
+      "method": "count_rows",
+      "column": "",
+      "filters": {
+        "CO2": "a[CO2]",
+        "WT": "DW"
+      },
+      "delimiter": ",",
+      "tolerance": 0,
+      "missing_policy": "error",
+      "claim_id": "AGR2-ANTHESIS-AC02-DW-N",
+      "unit": "실험 칼럼(반복 단위)",
+      "license": "CC0 1.0 (Dryad data); CC BY 4.0 (article excerpt)",
+      "license_url": "https://datadryad.org/dataset/doi:10.5061/dryad.h78n6s3",
+      "claim_text": "Anthesis destructive harvest: 3 replicate columns per ambient CO2 and top-layer-dry/bottom-layer-wet treatment",
+      "source_location": "Methods / Growth, grain yield and morphological parameters; Statistical analysis; Dryad file anthesis.csv",
+      "data_file": "data/evaluation/second_domain/anthesis.csv",
+      "data_sha256": "9edc1d5deef62e22b1ab50257ea0ca33ac8b9f6a4e5a3d6dd2db97a55a55712c",
+      "reported_value": 3
+    },
+    {
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198928",
+      "source_file": "data/evaluation/second_domain/plos_0198928_methods_excerpt.txt",
+      "source_sha256": "1f29b5afe9c63cc7121744f495617e61cf66dae74d5088129661eebd432ac790",
+      "source_quote": "sample size (n) was 4 except for the anthesis destructive harvest, where n = 3.",
+      "source_kind": "article_extract",
+      "scope_status": "EVALUATION_MAPPING",
+      "method": "count_rows",
+      "column": "",
+      "filters": {
+        "CO2": "a[CO2]",
+        "WT": "DW"
+      },
+      "delimiter": ",",
+      "tolerance": 0,
+      "missing_policy": "error",
+      "claim_id": "AGR2-MATURITY-AC02-DW-N",
+      "unit": "실험 칼럼(반복 단위)",
+      "license": "CC0 1.0 (Dryad data); CC BY 4.0 (article excerpt)",
+      "license_url": "https://datadryad.org/dataset/doi:10.5061/dryad.h78n6s3",
+      "claim_text": "Maturity harvest: 4 replicate columns per ambient CO2 and top-layer-dry/bottom-layer-wet treatment",
+      "source_location": "Methods / Growth, grain yield and morphological parameters; Statistical analysis; Dryad file maturity.csv",
+      "data_file": "data/evaluation/second_domain/maturity.csv",
+      "data_sha256": "65eb8a4743c4f104adcd774e22e32c309c0b092e81c7c9f510204badbbe37cb7",
+      "reported_value": 4
+    }
+  ]
+}

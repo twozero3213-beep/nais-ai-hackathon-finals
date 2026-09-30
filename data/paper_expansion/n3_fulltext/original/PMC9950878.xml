@@ -1,0 +1,427 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="iid3789" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Immun Inflamm Dis</journal-id><journal-id journal-id-type="iso-abbrev">Immun Inflamm Dis</journal-id><journal-id journal-id-type="pmc-domain-id">2617</journal-id><journal-id journal-id-type="pmc-domain">iid</journal-id><journal-id journal-id-type="nlm-id">101635460</journal-id><journal-id journal-id-type="publisher-id">IID3</journal-id><journal-title-group><journal-title>Immunity, Inflammation and Disease</journal-title></journal-title-group><issn pub-type="epub">2050-4527</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9950878</article-id><article-id pub-id-type="pmcid-ver">PMC9950878.1</article-id><article-id pub-id-type="pmcaid">9950878</article-id><article-id pub-id-type="pmcaiid">9950878</article-id><article-id pub-id-type="pmid">36840486</article-id><article-id pub-id-type="doi">10.1002/iid3.789</article-id><article-id pub-id-type="publisher-id">IID3789</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>METTL3 enhances the effect of YTHDF1 on <italic toggle="yes">NEDD1</italic> mRNA stability by m6A modification in diffuse large B‐cell lymphoma cells</article-title><alt-title alt-title-type="left-running-head">FENG <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="iid3789-cr-0001" contrib-type="author"><name name-style="western"><surname>Feng</surname><given-names initials="L">Lili</given-names></name><xref rid="iid3789-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="iid3789-cr-0002" contrib-type="author"><name name-style="western"><surname>Yan</surname><given-names initials="Q">Qinying</given-names></name><xref rid="iid3789-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="iid3789-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Pan</surname><given-names initials="H">Hui</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2023-9372</contrib-id><xref rid="iid3789-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="iid3789-cr-0004" contrib-type="author" corresp="yes"><name name-style="western"><surname>Shi</surname><given-names initials="W">Wodong</given-names></name><xref rid="iid3789-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib></contrib-group><aff id="iid3789-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ophthalmology, Shanghai Ninth People's Hospital</named-content>
+<institution>Shanghai Jiao Tong University School of Medicine</institution>
+<city>Shanghai</city>
+<country country="CN">China</country>
+</aff><aff id="iid3789-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">College of Pharmaceutical Sciences</named-content>
+<institution>Zhejiang University of Technology</institution>
+<city>Hangzhou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Hui Pan and Wodong Shi, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, No. 639, Zhizaoju Rd, Huangpu District, Shanghai 200011, P.R. China.<break/>
+Email:  and 
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>2</month><year>2023</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2023</year></pub-date><volume>11</volume><issue seq="10">2</issue><issue-id pub-id-type="pmc-issue-id">428112</issue-id><issue-id pub-id-type="doi">10.1002/iid3.v11.2</issue-id><elocation-id>e789</elocation-id><history><date date-type="rev-recd"><day>02</day><month>2</month><year>2023</year></date><date date-type="received"><day>04</day><month>11</month><year>2022</year></date><date date-type="accepted"><day>03</day><month>2</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>24</day><month>02</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>25</day><month>02</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-10-02 17:25:25.297"><day>02</day><month>10</month><year>2023</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2023 The Authors. <italic toggle="yes">Immunity, Inflammation and Disease</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IID3-11-e789.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IID3-11-e789.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" vol="11" journal-id="Immun Inflamm Dis" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10228287"><article-title>Retraction Statement</article-title><volume>11</volume><issue seq="20">5</issue><date><day>30</day><month>5</month><year>2023</year></date><elocation-id>e884</elocation-id><source>Immunity, Inflammation and Disease</source><pub-id pub-id-type="doi">10.1002/iid3.884</pub-id><pub-id pub-id-type="pmcid">PMC10228287</pub-id><pub-id pub-id-type="pmid">37249302</pub-id></related-article><abstract><title>Abstract</title><sec id="iid3789-sec-0010"><title>Aim</title><p>Diffuse large B‐cell lymphoma (DLBCL) remains the most frequent subpopulation of lymphoma, and N6‐methyladenosine (m6A) was implicated in the DLBCL progression. Herein, we sought to decipher the m6A‐asociated mechanism of <italic toggle="yes">NEDD1</italic> in DLBCL development.</p></sec><sec id="iid3789-sec-0020"><title>Methods</title><p>The NEDD1 expression profile in DLBCL was assessed by quantitative real‐time polymerase chain reaction (RT‐qPCR) and Western blot. NEDD1 was artificially downregulated or upregulated in DLBCL cells, followed by EdU, Transwell assays and flow cytometry. The Hedgehog pathway activity was assayed by a dual‐luciferase assay. The m6A methylation of <italic toggle="yes">NEDD1</italic> in DLBCL was assessed by meRIP‐qPCR, and the regulatory mechanism of METTL3 on <italic toggle="yes">NEDD1</italic> was validated. The LDH assay was conducted to examine the impact of CD8<sup>+</sup> T cells on DLBCL cells. The DLBCL cells were administrated into mice to evaluate the tumorigenic activity and ki‐67 activity in tumor tissues.</p></sec><sec id="iid3789-sec-0030"><title>Results</title><p>NEDD1 was overexpressed in DLBCL. Depletion of <italic toggle="yes">NEDD1</italic> inhibited the aggressiveness of SU‐DHL‐8 and OCI‐LY1 cells, whereas overexpression of <italic toggle="yes">NEDD1</italic> expedited the aggressiveness of SU‐DHL‐8 and OCI‐LY1 cells. METTL3 promoted <italic toggle="yes">NEDD1</italic> translation in an m6A‐dependent manner via YTHDF1. Depletion of <italic toggle="yes">METTL3</italic> inhibited SU‐DHL‐8 and OCI‐LY1 cell activity through regulation of <italic toggle="yes">NEDD1</italic>. <italic toggle="yes">NEDD1</italic> reversed the repressive effect of <italic toggle="yes">METTL3</italic> loss on the aggressiveness of SU‐DHL‐8 and OCI‐LY1 cells. <italic toggle="yes">NEDD1</italic> activated the Hedgehog signaling to promote immune escape of DLBCL.</p></sec><sec id="iid3789-sec-0040"><title>Conclusions</title><p>METTL3 promotes translation of <italic toggle="yes">NEDD1</italic> via YTHDF1‐depedndent m6A modification, thereby activating the Hedgehog signaling pathway to promote immune escape of DLBCL cells.</p></sec></abstract><abstract abstract-type="graphical"><p>Our study collectively uncovered that NEDD1 promoted proliferation, invasion, and tumor growth of diffuse large B‐cell lymphoma (DLBCL) in vitro and in vivo.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IID3-11-e789-g006.jpg"/></boxed-text>
+</p></abstract><kwd-group><kwd id="iid3789-kwd-0001">diffuse large B‐cell lymphoma</kwd><kwd id="iid3789-kwd-0002">METTL3</kwd><kwd id="iid3789-kwd-0003">NEDD1</kwd><kwd id="iid3789-kwd-0004">the Hedgehog signaling</kwd><kwd id="iid3789-kwd-0005">YTHDF1</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Natural Science Foundation of China
+</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>81900876</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="14"/><word-count count="5497"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2023</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.5 mode:remove_FC converted:24.02.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="iid3789-cit-0031">
+<string-name name-style="western">
+<surname>Feng</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yan</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pan</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>METTL3 enhances the effect of YTHDF1 on <italic toggle="yes">NEDD1</italic> mRNA stability by m6A modification in diffuse large B‐cell lymphoma cells</article-title>. <source>Immun Inflamm Dis</source>. <year>2023</year>;<volume>11</volume>:<elocation-id>e789</elocation-id>. <pub-id pub-id-type="doi">10.1002/iid3.789</pub-id>
+<pub-id pub-id-type="pmcid">PMC9950878</pub-id><pub-id pub-id-type="pmid">36840486</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC10228287"/></mixed-citation>
+</p></notes></front><body><sec id="iid3789-sec-0050"><label>1</label><title>INTRODUCTION</title><p>Large B‐cell lymphomas, with a projected 150,000 new diagnoses annually worldwide, represent near 30% of non‐Hodgkin's lymphoma cases.<xref rid="iid3789-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Most patients with diffuse large B‐cell lymphoma (DLBCL) can be cured with standard rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone, while patients who fail this front‐line therapy have a dismal outcome.<xref rid="iid3789-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Targeting cancer cells via the modulation of the immune system has become a new therapeutic option in many different malignancies, including lymphoma.<xref rid="iid3789-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="iid3789-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="iid3789-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Among them, chimeric antigen receptor T cells, bispecific T cell engagers, immunomodulatory drugs, and epigenetic‑modifying drugs might offer new opportunities for those relapsed/refractory patients.<xref rid="iid3789-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> The presence of CD8<sup>+</sup> T cells has been associated with the immune inhibitory mechanism‐mediated immune suppression.<xref rid="iid3789-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> Therefore, further research on CD8<sup>+</sup> T cell function is necessary for generating new therapeutic strategies in DLBCL.</p><p>Neural precursor cell expressed developmentally downregulated protein 1 (NEDD1) localizes to the centrosome and mitotic spindle, and the localization of key centrosomal proteins is imperative in preventing cells against uncontrolled growth and the development of cancers, suggesting that NEDD1 might be a possible candidate for anticancer treatment.<xref rid="iid3789-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> Moreover, NEDD9 overexpression was related to genetic abnormalities and prognosis and might serve as a possible biomarker guiding the choice between hematopoietic stem cell transplantation and chemotherapy in patients with acute myeloid leukemia after achieving complete remission.<xref rid="iid3789-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> However, there is little evidence showing the direct linkage between NEDD1 overexpression and the development of DLBCL. Critically, the N6‐methyladenosine (m6A)‐based prognostic signature has been reported to be a prognostic predictor for DLBCL, and immune microenvironment governed by m6A might be a part of the mechanism.<xref rid="iid3789-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> The significance of m6A, the most abundant mRNA modification, has emerged in the field of biology science for the discovery of its “writers,” “erasers,” and “readers” that can add, remove, or bind to the m6A site, thus manipulating imperative biological function.<xref rid="iid3789-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="iid3789-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="iid3789-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> For instance, methyltransferase 3 (METTL3), a well‐known writer, modulated the expression of <italic toggle="yes">Epstein‐Barr nuclear antigen 2</italic> during Epstein–Barr virus infection.<xref rid="iid3789-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> Under the context of DLBCL, METTL3 deletion abated the m6A methylation modification and mRNA expression of <italic toggle="yes">pigment epithelium‐derived factor</italic>.<xref rid="iid3789-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> The importance of the sonic hedgehog signaling to DLBCL has been described in a previous study.<xref rid="iid3789-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> On the basis of these findings, we postulated here that the NEDD1 expression in DLBCL was also regulated by the METTL3‐mediated m6A modification. This research aimed at probing the regulation of METTL3 on NEDD1 expression and DLBCL cell immune escape via Hedgehog signaling.</p></sec><sec sec-type="materials-and-methods" id="iid3789-sec-0060"><label>2</label><title>MATERIALS AND METHODS</title><sec id="iid3789-sec-0070"><label>2.1</label><title>Tissues</title><p>Lymph node tissues were obtained from 24 patients with DLBCL diagnosed at Shanghai Ninth People's Hospital from January 2018 to August 2019. Tumor‐infiltrating tissues and nonneoplastic tissues were separated in an ultra‐clean bench. All samples were histologically examined before the experiment and confirmed to be tumor‐infiltrating tissues and nonneoplastic tissues, respectively. There were 15 male patients and nine female patients, aged 40–80 years, with a median age of 58 years. Seven patients were of the germinal center B‐cell‐like (GCB) type and 17 patients were of the non‐GCB type. A proportion of specimens was rapidly placed in a −80°C refrigerator for subsequent testing. All these patients had not received radiotherapy or chemotherapy before the tissue collection. This study was approved by the Institutional Review Board of Shanghai Ninth People's Hospital (approval number: 2017‐379‐T277). All patients enrolled in the study signed informed consent.</p></sec><sec id="iid3789-sec-0080"><label>2.2</label><title>Cell culture</title><p>DLBCL cells SU‐DHL‐8 and OCI‐LY1 were purchased from the ATCC and Shanghai Jingkang Bioengineering Co., Ltd., respectively. A human lymphoblastoid cell line AHH‐1 was acquired from Mingzhoubio. CD8<sup>+</sup> T cells were purchased from BlueFBio.</p><p>SU‐DHL‐8, OCI‐LY1, and AHH‐1 cells were cultured in RPMI‐1640 medium plus 10% fetal bovine serum (FBS), 2 mmol/L <sc>l</sc>‐glutamine and 100 U/mL penicillin/streptomycin at 37°C in a 5% CO<sub>2</sub> incubator. CD8<sup>+</sup> T cells were grown in Dulbecco's modified Eagle's medium plus 10% FBS and 100 units/mL penicillin/streptomycin at 37°C in a 5% CO<sub>2</sub> incubator. All reagents for cell culture were acquired from Thermo Fisher Scientific Inc.</p></sec><sec id="iid3789-sec-0090"><label>2.3</label><title>Cell infection</title><p>Lentiviral harboring small interfering RNA (siRNA) plasmids targeting NEDD1 (si‐NEDD1), METTL3 (si‐METTL3), and YTHDF1 (si‐YTHDF1), NEDD1‐overexpression (NEDD1‐OE), an overexpression fragment targeting NEDD1, and the negative controls (NC) were synthesized by Sangon. Lipofectamine 2000 (Thermo Fisher Scientific) was applied for lentivirus packaging. When the cells had grown to an 80%–90% confluence, the Lipo 2000‐DNA mixture was prepared in a certain ratio (1 µg of transfected plasmid: 2.5 µL of Lipo 2000 transfection reagent). In brief, the Lipo 2000 transfection reagent was mixed with 100 µL OPTI‐MEM (Thermo Fisher Scientific) and allowed to stand for 5 min in one tube. In another tube, the total volume of plasmids was mixed with 100 µL OPTI‐MEM. The samples in the two tubes were mixed, centrifuged, and left for 15 min at room temperature. Finally, the total Lipo 2000‐DNA mixture was supplemented to the HEK293T cell culture medium, and the medium was gently shaken and mixed to continue incubation. After 6–8 h, the medium was refreshed with the complete medium containing serum. Cell supernatant was collected 24 h after lentivirus packaging for lentivirus infection of DLBCL cells. The collected lentivirus solution and DLBCL cells were co‐incubated for 48 h, and then the corresponding antibiotics were added for the screening of stable infected cell lines.</p></sec><sec id="iid3789-sec-0100"><label>2.4</label><title>RT‐qPCR</title><p>The TRIzol kit (Thermo Fisher) was used for total RNA extraction. A Nano‐drop 2000 spectrophotometer (Thermo Fisher Scientific) was applied to determine the RNA concentration, and 100 ng of RNA was reverse‐transcribed to cDNA using the iScript cDNA Synthesis Kit (Bio‐Rad Laboratories), followed by RT‐qPCR on a 7900HT system (Applied Biosystems) using the SYBR™ GreenER™ qPCR Supermix (Thermo Fisher Scientific). The mRNA expression was normalized to GAPDH and measured using the 2<sup>−ΔΔCt</sup> method. PCR primers (synthesized by Sangon) were presented below: METTL3 forward 5′‐TTTCCGGTTAGCCTTCGGG‐3′ and reverse 5′‐ATGGACACAGCATCAGTGGG‐3′; YTHDF1 forward 5′‐CGCCAGCTTCAGGGAGATAAA‐3′ and reverse 5′‐TCCCCAATCTTCAGGCCAAC‐3′; NEDD1 forward 5′‐TTGCCTCGTCTCCACAAGTC‐3′ and reverse 5′‐CCCGGGAAGATCCAATAGCC‐3′; GAPDH forward 5′‐AATGGGCAGCCGTTAGGAAA‐3′ and reverse 5′‐GCGCCCAATACGACCAAATC‐3′.</p></sec><sec id="iid3789-sec-0110"><label>2.5</label><title>Me‐RIP assay</title><p>Extracted total RNA was chemically fragmented and incubated with m6A antibody according to the standard method using the Me‐RIP Kit (Guangzhou RiboBio Co., Ltd.), and immunoprecipitation was performed. RNA was subsequently extracted by proteinase K (Thermo Fisher) for RT‐qPCR analysis.</p></sec><sec id="iid3789-sec-0120"><label>2.6</label><title>Western blot analysis</title><p>Cells and tissues were lysed with lysis buffer, followed by protein concentration determination using the bicinchoninic acid (BCA) protein assay kit (Thermo Fisher Scientific). After that, 30 µg protein was separated on 10% sodium dodecyl sulfate‐polyacrylamide gel electrophoresis and transferred to polyvinylidene difluoride membranes (Sigma‐Aldrich Chemical Company). After being sealed with 5% nonfat milk, the membranes were probed with primary antibodies including NEDD1 (1:2000, PHN5820, Abmart Shanghai Co., Ltd.), transforming growth factor‐β (TGF‐β 1:1000, #3709, Cell Signaling Technologies (CST)), interleukin (IL)‐10 (1:1000, #12163, CST), METTL3 (1:1000, ab195352) and GAPDH (1:1000, #2118, CST), followed by 1 h of incubation with secondary horseradish peroxidase (HRP)‐labeled goat anti‐rabbit IgG (1:3000, ab205718, Abcam). Blots were visualized using enhanced chemiluminescent detection.</p></sec><sec id="iid3789-sec-0130"><label>2.7</label><title>Enzyme‐linked immunosorbent assay (ELISA)</title><p>The levels of TGF‐β and IL‐10 in DLBCL cell culture supernatants and mouse tumor tissues were measured with TGF‐β (ml022522‐2, MLBio, Shanghai, China) and IL‐10 (K4167, BioVision, Inc.) kits. Briefly, the OD values at 450 nm of the samples to be tested, and the standards were assessed. Finally, the standard curve was plotted, and the contents of TGF‐β and IL‐10 were calculated according to the standard curve.</p></sec><sec id="iid3789-sec-0140"><label>2.8</label><title>Cell proliferation assay</title><p>The cell proliferation assay was performed using Click‐iT™ EdU Cell Proliferation Imaging Kit (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="C10340">C10340</ext-link>, Thermo Fisher). The cells were plated in 96‐well plates at 7 × 10<sup>3</sup> cells, treated for 2 h at 37°C with 50 mol/L EdU solution, fixed for 30 min using 4% paraformaldehyde, and treated with Triton X‐100 (Thermo Fisher) for 10 min. The cells were reacted for 30 min with Click‐iT reaction solution in the dark before nuclear staining using Hoechst33342 solution (Beyotime). The cell proliferation rate was assessed using the images taken under a fluorescent microscope (Keyence).</p></sec><sec id="iid3789-sec-0150"><label>2.9</label><title>Transwell migration and invasion assays</title><p>Transwell chambers (Unique) with 8 µm polycarbonate nucleopore filter membranes were used to perform Transwell assays to detect cell migration and invasion. A total of 2.0 × 10<sup>4</sup> cells in serum‐free medium were loaded into the apical chamber with or without Matrigel (Unique) attached, and a complete medium containing 10% FBS was loaded onto the basolateral chamber. After a 24‐h incubation at 37°C in a 5% CO<sub>2</sub> incubator, the cells migrated or invaded through the Matrigel underwent fixation using 4% paraformaldehyde, staining with 0.1% crystal violet (Merck Millipore) and observation in five fields of view using a microscope (Leica Microsystems GmbH).</p></sec><sec id="iid3789-sec-0160"><label>2.10</label><title>Cell apoptosis assay</title><p>The Annexin V‐FITC/PI Apoptosis Detection Kit (Phygene) was utilized to evaluate cell apoptosis. The cells were washed twice with cold phosphate‐buffered saline. After the resuspension of 5.0 × 10<sup>5</sup> cells in 1x binding buffer, 5 µL Annexin V‐FITC and 10 µL PI were supplemented to 100 µL cells for a 0.5‐h incubation at room temperature in darkness, and the apoptosis rate was determined by FACScan (Bio‐Rad Laboratories).</p></sec><sec id="iid3789-sec-0170"><label>2.11</label><title>Dual‐luciferase reporter assay</title><p>GLi‐Luc fluorophore enzyme reporter gene plasmid (Yeasen) was introduced into cells treated with si‐NEDD1 or si‐NEDD1 + smoothened agonist (SAG, 59 nM, Sigma‐Aldrich). The dual‐luciferase reporter assay system was used to determine the Hedgehog signaling pathway activity. According to the protocol of the Dual‐Luciferase Reporter Gene Assay Kit (Yeasen), 1X passive lysis buffer was supplemented to the culture plate and lysed on a micro shaker at room temperature for 15 min to fully lyse the cells. The lysate after sufficient lysis was centrifuged at 1000 rpm for 5 min, and the supernatant was transferred into a fresh EP tube. The firefly luciferase activity was normalized to that of Renilla luciferase.</p></sec><sec id="iid3789-sec-0180"><label>2.12</label><title>RNA stability analysis</title><p>To determine the stability of RNA, 5 g/mL actinomycin D (Sigma‐Aldrich) was supplemented to the cells and incubated to the designated time points. Total RNA was extracted at each time point and subjected to RT‐qPCR.</p></sec><sec id="iid3789-sec-0190"><label>2.13</label><title>Lactate dehydrogenase (LDH) release assay</title><p>CD8<sup>+</sup> T cells after stimulation with CD3/CD28 magnetic beads were cocultured with SU‐DHL‐8 and OCI‐LY1 cells at 2:1, 3:1, or 5:1 ratio. After 24 h, the LDH cytotoxicity kit (Beyotime) was utilized. The OD490 value was read using an iMark microplate reader (Bio‐Rad). CD8<sup>+</sup> T cell killing effect (%) = (The experimental group − spontaneous LDH release from the effector cells − spontaneous LDH release from the target cells)/(maximum LDH release from the target cells − spontaneous LDH release from the target cells) × 100%.</p></sec><sec id="iid3789-sec-0200"><label>2.14</label><title>Mouse xenograft model</title><p>Twenty 3–4‐week‐old male C57BL/6 N mice (weighing 14 ± 2 g, Vital River) were housed at 25°C and 45% humidity with food and water ad libitum. All mouse experiments were performed according to National Institutes of Health guidelines. Experimental protocols were approved by the Animal Ethics Committee of Shanghai Ninth People's Hospital (approval number: 20220223). The SU‐DHL‐8 cells at the logarithmic growth were adjusted to 1 × 10<sup>7</sup> cells/mL. Mice were subcutaneously injected with the mixture of 100 μL cell suspension and 100 μL Matrigel in the axilla. The tumor growth was observed. After 4 weeks, 1% pentobarbital sodium was injected for euthanasia at 150 mg/kg, and the tumors were dissected, photographed, and weighed.</p></sec><sec id="iid3789-sec-0210"><label>2.15</label><title>Immunohistochemical labeling</title><p>The tissue sections were subjected to a 2‐h incubation at 60°C, dewaxing, and dehydration. The sections were treated with 3% hydrogen peroxide for 10 min, heated with 0.01 M citrate buffer in a microwave oven for 15 min at 98°C, and then cooled at room temperature for 20 min. The sections were incubated with normal serum for 0.5 h, followed by incubation with ki‐67 antibody (1:200, ab16667, Abcam) overnight at 4°C and with HRP‐labeled goat anti‐rabbit IgG (1:3000, ab205718, Abcam) for 60 min at room temperature. The sections were stained with diaminobenzidine (#ZLI‐9017, ZSGB‐Bio) and observed under a microscope (Leica).</p></sec><sec id="iid3789-sec-0220"><label>2.16</label><title>Statistics</title><p>All experiments were performed in triplicates, and results are displayed as mean ± SD where applicable. SPSS 22.0 software (IBM Corp.) and GraphPad Prism 8 (GraphPad Software) were used for statistical analysis. Comparisons were carried out by paired <italic toggle="yes">t</italic>‐test, one‐way or two‐way ANOVA (with Tukey's post hoc test). A <italic toggle="yes">p</italic> value &lt; .05 was adopted for significance.</p></sec></sec><sec sec-type="results" id="iid3789-sec-0230"><label>3</label><title>RESULTS</title><sec id="iid3789-sec-0240"><label>3.1</label><title>High expression of NEDD1 is identified in DLBCL</title><p>NEDD1 showed significantly high expression in DLBC by GEPIA database analysis (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://gepia.cancer-pku.cn/detail.php?gene=NEDD1" ext-link-type="uri">http://gepia.cancer-pku.cn/detail.php?gene=NEDD1</ext-link>) (Figure <xref rid="iid3789-fig-0001" ref-type="fig">1A</xref>). Based on RT‐qPCR, we found elevated mRNA levels of <italic toggle="yes">NEDD1</italic> in DLBCL tissues (<italic toggle="yes">n</italic> = 24) of our cohort relative to the nonneoplastic tissues (Figure <xref rid="iid3789-fig-0001" ref-type="fig">1B</xref>). Furthermore, the increased protein expression of NEDD1 in DLBCL tissues was confirmed by western blot (Figure <xref rid="iid3789-fig-0001" ref-type="fig">1C</xref>).</p><fig position="float" fig-type="Figure" id="iid3789-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>NEDD1 is overexpressed in DLBCL. (A) Expression of NEDD1 in DLBCL (<italic toggle="yes">n</italic> = 47) and normal tissues (<italic toggle="yes">n</italic> = 337) analyzed in the GEPIA database. (B) The mRNA expression of <italic toggle="yes">NEDD1</italic> in DLBCL and nonneoplastic tissues by RT‐qPCR (<italic toggle="yes">n</italic> = 24). (C) The protein expression of NEDD1 in DLBCL and nonneoplastic tissues by western blot. Mean ± SD (paired <italic toggle="yes">t</italic>‐test). *<italic toggle="yes">p</italic> &lt; .05 versus nonneoplastic or normal group. DLBCL, diffuse large B‐cell lymphoma; mRNA, messenger RNA; RT‐qPCR, quantitative real‐time polymerase chain reaction; SD, standard deviation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IID3-11-e789-g003.jpg"/></fig></sec><sec id="iid3789-sec-0250"><label>3.2</label><title>NEDD1 knockdown suppresses DLBCL cell proliferation and mobility</title><p>Subsequently, we downregulated or upregulated NEDD1 expression in SU‐DHL‐8 and OCI‐LY1 cells and tested whether alteration of NEDD1 expression affected the proliferation and aggressiveness of DLBCL cells. First, we infected cells with si‐NEDD1 or NEDD1‐OE and verified the infection efficiency using RT‐qPCR and western blot (Figure <xref rid="iid3789-fig-0002" ref-type="fig">2A</xref>). Deletion of NEDD1 inhibited the proliferation of SU‐DHL‐8 and OCI‐LY1 cells (Figure <xref rid="iid3789-fig-0002" ref-type="fig">2B</xref>). Transwell assays were performed to count migrated, and invasive cells, and silencing of NEDD1 diminished migration and invasion of DLBCL cells (Figure <xref rid="iid3789-fig-0002" ref-type="fig">2C,D</xref>). The apoptosis rate of SU‐DHL‐8 and OCI‐LY1 cells infected with si‐NEDD1 was higher than that of the cells infected with si‐NC (Figure <xref rid="iid3789-fig-0002" ref-type="fig">2E</xref>). By contrast, overexpression of NEDD1 potentiated the growth, motility, and apoptosis resistance of SU‐DHL‐8 and OCI‐LY1 cells (Figure <xref rid="iid3789-fig-0002" ref-type="fig">2B–E</xref>).</p><fig position="float" fig-type="Figure" id="iid3789-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>NEDD1 loss impairs the proliferation of DLBCL cells. (A) NEDD1 expression in DLBCL cells in response to si‐NEDD1 or NEDD1‐OE using RT‐qPCR and western blot. (B) DLBCL cell proliferation examined using EdU assay. (C) DLBCL cell migration measured using Transwell migration assay. (D) DLBCL cell invasion measured using Transwell invasion assay. (E) DLBCL cell apoptosis measured using flow cytometry. Mean ± SD (two‐way ANOVA). *<italic toggle="yes">p</italic> &lt; .05 versus si‐NC group, #<italic toggle="yes">p</italic> &lt; .05 versus NC‐OE group. ANOVA, analysis of variance; DLBCL, diffuse large B‐cell lymphoma; EdU, 5‐ethynyl‐2′‐deoxyuridine; RT‐qPCR, quantitative real‐time polymerase chain reaction; SD, standard deviation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IID3-11-e789-g007.jpg"/></fig></sec><sec id="iid3789-sec-0260"><label>3.3</label><title>NEDD1 induces the Hedgehog signaling to expedite DLBCL cell immune escape</title><p>The impact of NEDD1 on the Hedgehog signaling was examined by a dual‐luciferase reporter system. It was found that silencing of NEDD1 inhibited the luciferase activity of GLi‐Luc and suppressed the activation of luciferase activity of GLi‐Luc by SAG (Figure <xref rid="iid3789-fig-0003" ref-type="fig">3A</xref>). Moreover, it was observed that silencing of NEDD1 decreased the protein expression of TGF‐β and IL‐10 in SU‐DHL‐8 and OCI‐LY1 cells (Figure <xref rid="iid3789-fig-0003" ref-type="fig">3B</xref>). It was also revealed by ELISA that silencing of NEDD1 led to a decline in TGF‐β and IL‐10 levels in the cell supernatant (Figure <xref rid="iid3789-fig-0003" ref-type="fig">3C</xref>).</p><fig position="float" fig-type="Figure" id="iid3789-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>NEDD1 activates the Hedgehog pathway to promote DLBCL immune escape. (A) The activity of GLi‐Luc in DLBCL cells in response to si‐NEDD1 alone or with SAG using a dual‐luciferase reporter system. (B) The protein expression of immunosuppressive factors TGF‐β and IL‐10 in DLBCL cells in response to si‐NEDD1 using western blot. (C) The levels of TGF‐β and IL‐10 in DLBCL cells in response to si‐NEDD1 using ELISA. (D) The killing effect of CD8<sup>+</sup> T cells on DLBCL cells in response to si‐NEDD1 using LDH assay. Mean ± SD (two‐way ANOVA). *<italic toggle="yes">p</italic> &lt; .05 versus si‐NC or coculture + si‐NC group; #<italic toggle="yes">p</italic> &lt; .05 versus si‐NC + SAG group. ANOVA, analysis of variance; DLBCL, diffuse large B‐cell lymphoma; IL, interleukin; LDH, lactate dehydrogenase; SD, standard deviation; TGF‐transforming growth factor.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IID3-11-e789-g004.jpg"/></fig><p>To further understand whether NEDD1 affects immune escape, we used an LDH cytotoxicity kit. The results showed that depletion of NEDD1 potentiated the killing effect of CD8<sup>+</sup> T cells on SU‐DHL‐8 and OCI‐LY1 cells, and the promotion was more pronounced with the increase in the proportion of CD8<sup>+</sup> T cells in the coculture system (Figure <xref rid="iid3789-fig-0003" ref-type="fig">3D</xref>).</p></sec><sec id="iid3789-sec-0270"><label>3.4</label><title>METTL3 regulates <italic toggle="yes">NEDD1</italic> expression through m6A modification</title><p>We analyzed the m6A methylation of <italic toggle="yes">NEDD1</italic> mRNA in DLBCL tissues. The m6A methylation level of <italic toggle="yes">NEDD1</italic> was remarkably increased in DLBCL tissues relative to nonneoplastic tissues (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4A</xref>). DLBCL cells displayed higher levels of m6A modification than AHH‐1 cells (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4B</xref>), suggesting that <italic toggle="yes">NEDD1</italic> m6A modification might be involved in the pathogenesis of DLBCL. In the GEPIA database, Pearson's correlation analysis showed that <italic toggle="yes">NEDD1</italic> was significantly correlated with a common m6A modifiers writer, METTL3 (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4C</xref>).</p><fig position="float" fig-type="Figure" id="iid3789-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>METTL3 regulates <italic toggle="yes">NEDD1</italic> through m6A modification. (A) Detection of <italic toggle="yes">NEDD1</italic> m6A methylation levels in DLBCL and nonneoplastic tissues by MeRIP‐qPCR. (B) Detection of <italic toggle="yes">NEDD1</italic> m6A methylation levels in AHH‐1, SU‐DHL‐8, and OCI‐LY1 cells. (C) Pearson's correlation analysis of <italic toggle="yes">METTL3</italic> and <italic toggle="yes">NEDD1</italic> in DLBCL cells analyzed in GEPIA. (D) The mRNA expression of <italic toggle="yes">METTL3</italic> and <italic toggle="yes">NEDD1</italic> in AHH‐1, SU‐DHL‐8, and OCI‐LY1 cells by RT‐qPCR. (E) The mRNA and protein expression of METTL3 and NEDD1 in DLBCL cells in response to si‐NC, si‐METTL3, si‐METTL3 + NC‐OE, and si‐METTL3 + NEDD1‐OE by RT‐qPCR and western blot. (F) Detection of <italic toggle="yes">NEDD1</italic> m6A methylation levels in SU‐DHL‐8 and OCI‐LY1 cells in response to si‐NC or si‐METTL3 by MeRIP‐qPCR. (G) Pearson's correlation of analysis <italic toggle="yes">YTHDF1</italic> and <italic toggle="yes">NEDD1</italic> in DLBCL cells analyzed in GEPIA. (H) The effectiveness of <italic toggle="yes">YTHDF1</italic> silencing in DLBCL cells using RT‐qPCR. (I) The protein expression of NEDD1 in DLBCL cells in response to silencing of YTHDF1 using western blot. (J) Stability of <italic toggle="yes">NEDD1</italic> mRNA in DLBCL cells infected with si‐YTHDF1. Mean ± SD (paired <italic toggle="yes">t</italic>‐test, one‐way or two‐way ANOVA). *<italic toggle="yes">p</italic> &lt; .05 versus nonneoplastic tissues, AHH‐1 cells, or si‐NC group; #<italic toggle="yes">p</italic> &lt; .05 versus si‐METTL3 + NC‐OE. DLBCL, diffuse large B‐cell lymphoma; m6A, N6‐methyladenosine; RT‐qPCR, quantitative real‐time polymerase chain reaction; SD, standard deviation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="IID3-11-e789-g002.jpg"/></fig><p>To investigate whether METTL3 partook in the pathogenesis of DLBCL by regulating <italic toggle="yes">NEDD1</italic> m6A methylation, the <italic toggle="yes">METTL3</italic> and <italic toggle="yes">NEDD1</italic> expression in DLBCL and AHH‐1 cells were measured using RT‐qPCR. <italic toggle="yes">METTL3</italic> and <italic toggle="yes">NEDD1</italic> were found to be overexpressed in both DLBCL cells relative to AHH‐1 cells (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4D</xref>). DLBCL cells were then infected using si‐NC, si‐METTL3, si‐METTL3 + NC‐OE, or si‐METTL3 + NEDD1‐OE and validated for transfection efficiency. RT‐qPCR and western blot assays demonstrated that silencing of METTL3 downregulated the expression of METTL3 and NEDD1 in SU‐DHL‐8 and OCI‐LY1 cells, whereas NEDD1‐OE enhanced the expression of NEDD1 in the presence of si‐METTL3 (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4E</xref>). MeRIP qPCR assay showed that depletion of METTL3 decreased the level of m6A methylation in <italic toggle="yes">NEDD1</italic> mRNA (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4F</xref>). It was thus presumed that silencing of METTL3 in SU‐DHL‐8 and OCI‐LY1 cells downregulated <italic toggle="yes">NEDD1</italic> expression via m6A modification.</p><p>Pearson's correlation analysis in GEPIA revealed that <italic toggle="yes">YTHDF1</italic>, an m6A reader, had a high correlation with <italic toggle="yes">NEDD1</italic> in DLBCL (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4G</xref>). The DLBCL cells were then infected with si‐YTHDF1, and the efficiency was verified using RT‐qPCR (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4H</xref>). Reduced protein expression of NEDD1 was found in SU‐DHL‐8 and OCI‐LY1 cells with YTHDF1 knockdown (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4I</xref>). To determine whether YTHDF1 governed the mRNA stability of <italic toggle="yes">NEDD1</italic> in cells, we performed RNA stability analysis. The half‐life of <italic toggle="yes">NEDD1</italic> was shortened in SU‐DHL‐8 and OCI‐LY1 cells in response to YTHDF1 knockdown (Figure <xref rid="iid3789-fig-0004" ref-type="fig">4J</xref>).</p></sec><sec id="iid3789-sec-0280"><label>3.5</label><title>NEDD1 abolishes the repressive effects of si‐METTL3 on DLBCL cell aggressiveness</title><p>The results of EdU assays presented that depletion of METTL3 inhibited the proliferation of SU‐DHL‐8 and OCI‐LY1 cells and that NEDD1 overexpression mitigated the repressive effect of si‐METTL3 on cell proliferation (Figure <xref rid="iid3789-fig-0005" ref-type="fig">5A</xref>). Silencing of METTL3 weakened the mobility of DLBCL cells, whereas ectopic expression of NEDD1 reversed the effect of si‐METTL3 to elevate cell migration and invasion (Figure <xref rid="iid3789-fig-0005" ref-type="fig">5B,C</xref>). The apoptosis rate of SU‐DHL‐8 and OCI‐LY1 was induced by knockdown of METTL3, while NEDD1 ectopic expression mitigated the proapoptotic effect of METTL3 silencing on SU‐DHL‐8 and OCI‐LY1 cells (Figure <xref rid="iid3789-fig-0005" ref-type="fig">5D</xref>).</p><fig position="float" fig-type="Figure" id="iid3789-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Ectopic expression of NEDD1 reverses the repressive effects of METTL3 loss on DLBCL cell proliferation. (A) DLBCL cell proliferation examined using EdU assay. (B) DLBCL cell migration was measured using Transwell migration assay. (C) DLBCL cell invasion measured using Transwell invasion assay. (D) DLBCL cell apoptosis was measured using flow cytometry. Mean ± SD (two‐way ANOVA). *<italic toggle="yes">p</italic> &lt; .05 versus si‐NC group, #<italic toggle="yes">p</italic> &lt; .05 versus si‐METTL3 + NC‐OE group. ANOVA, analysis of variance; DLBCL, diffuse large B‐cell lymphoma; EdU, 5‐ethynyl‐2′‐deoxyuridine; SD, standard deviation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="IID3-11-e789-g001.jpg"/></fig></sec><sec id="iid3789-sec-0290"><label>3.6</label><title>
+<italic toggle="yes">NEDD1</italic> promotes DLBCL tumor growth and immune evasion in vivo</title><p>The impact of METTL3 and NEDD1 on DLBCL tumorigenesis was examined in vivo (only SU‐DHL‐8 cells were used for in vivo experiments to reduce unnecessary sacrifices). Silencing of METTL3 significantly reduced tumor weight, while NEDD1‐OE elevated tumor weight (Figure <xref rid="iid3789-fig-0006" ref-type="fig">6A,B</xref>). The expression of ki‐67 was examined in tumor tissues, and it was observed that depletion of METTL3 resulted in the inhibition of the proliferative activity of tumor tissues, whereas ectopic expression of NEDD1 reversed the impact of silencing of METTL3 to increase the growth of tumors (Figure <xref rid="iid3789-fig-0006" ref-type="fig">6C</xref>). Finally, the expression of TGF‐β and IL‐10 immunosuppressive factors were detected in tumor tissues. Si‐METTL3 inhibited the levels of TGF‐β and IL‐10, while si‐METTL3 + NEDD1‐OE increased their release in tumor tissues (Figure <xref rid="iid3789-fig-0006" ref-type="fig">6D,E</xref>), indicating that METTL3 promoted immune escape in DLBCL by upregulating <italic toggle="yes">NEDD1</italic>.</p><fig position="float" fig-type="Figure" id="iid3789-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Ectopic expression of NEDD1 reverses the repressive effects of METTL3 loss on tumor growth in vivo. (A) Representative tumor images. (B) The tumor weight. (C) Immunohistochemical detection of proliferative activity in tumor tissues. (D) The protein expression of TGF‐β and IL‐10 in tumor tissues examined using western blot. (E) The levels of TGF‐β and IL‐10 in mouse tumor tissues using ELISA. Mean ± SD (one‐way or two‐way ANOVA). *<italic toggle="yes">p</italic> &lt; .05 versus si‐NC group, #<italic toggle="yes">p</italic> &lt; .05 versus si‐METTL3 + NC‐OE group. ANOVA, analysis of variance; DLBCL, diffuse large B‐cell lymphoma; ELISA, enzyme‐linked immunosorbent assay; IL, interleukin; SD, standard deviation; TGF‐transforming growth factor.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="IID3-11-e789-g005.jpg"/></fig></sec></sec><sec sec-type="discussion" id="iid3789-sec-0300"><label>4</label><title>DISCUSSION</title><p>Over the past decade, outstanding progress has been achieved in the understanding of the DLBCL pathogenesis, and the alterations involve epigenetic remodeling, block of differentiation, as well as immune escape.<xref rid="iid3789-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> However, the molecular mechanism through which several elements of tumor microenvironment conferring aggressiveness remains poorly understood.<xref rid="iid3789-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> We revealed here that NEDD1 was promoted in DLBCL tissues and cells. We then conducted functional experiments to examine the involvement of NEDD1 in DLBCL. NEDD1 was revealed to be an oncogene in DLBCL, and its depletion contributed to decreased cell proliferation and mobility, and enhanced T cell function via the impairment of the Hedgehog pathway. NEDD1 was found to be regulated by the m6A writer METTL3 and the reader YTHDF1 in DLBCL. Lastly, the in vitro findings were substantiated in vivo: the injection of DLBCL cells with METTL3 knockdown resulted in smaller tumors in mice, which was reversed by NEDD1 overexpression.</p><p>Fujita et al.<xref rid="iid3789-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> have reported that intraperitoneal delivery of a siRNA targeting NEDD1 prolonged the survival of scirrhous gastric cancer model mice. Here, by using siRNA targeting NEDD1, we found that the viability, migration, and invasion of DLBCL were remarkably reduced, whereas the apoptosis rate was significantly restored. Hedgehog signaling proteins have been documented to commonly expressed in DLBCL.<xref rid="iid3789-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="iid3789-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> Intriguingly, Cascio et al. found that in patient samples, cancer‐associated mesenchymal stem cells inversely correlated with the presence of intratumoral CD8<sup>+</sup> T cells, while the Hedgehog inhibitor therapy reduced myeloid cell presence and expression of TGF‐β and restored the response to immune checkpoint inhibitor therapy.<xref rid="iid3789-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> The regulatory mechanism of NEDD1 on the Hedgehog signaling was then validated in the present study. Here, we also found that depletion of NEDD1 successfully lowered the levels of TGF‐β and IL‐10 in DLBCL cells and elevated the killing effects of T cells on the DLBCL cells. We believed that the effects of si‐NEDD1 on DLBCL cells were elicited through the disruption of the Hedgehog signaling.</p><p>In addition to the downstream mechanism of NEDD1, we deciphered the upstream mechanism leading to NEDD1 overexpression in DLBCL as well. Our MeRIP‐qPCR analyses substantiated the m6A modification of <italic toggle="yes">NEDD1</italic> in DLBCL tissues and cells, which indicated that the dysregulation of NEDD1 was related to the m6A modification. METTL3 was revealed as a potential oncogene for hematologic system tumors.<xref rid="iid3789-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> We observed here the positive correlation between <italic toggle="yes">NEDD1</italic> and <italic toggle="yes">METTL3</italic> in the bioinformatics website. Moreover, loss of METTL3 using a siRNA contributed to the downregulation of <italic toggle="yes">NEDD1</italic> mRNA expression and m6A modification level in DLBCL cells. YTHDF1 is the most versatile and powerful reader protein of m6A‐modified RNA and manipulates the expression of its targets by encouraging translation or modulating the stability of mRNA, thereby involving in tumor biology and nontumor lesions.<xref rid="iid3789-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> Here, we also found that YTHDF1 downregulation repressed the <italic toggle="yes">NEDD1</italic> mRNA stability. Consistently, overexpression of METTL3 induced cell proliferation in vitro and enhanced tumorigenicity in vivo by accelerating the translation of <italic toggle="yes">CDC25B</italic> mRNA through YTHDF1‐dependent m6A modification in cervical cancer as well.<xref rid="iid3789-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+</p><p>In leukemia cell lines, METTL3 enhanced cell proliferation and cell cycle, and the knockdown of METTL3 induced apoptosis and differentiation of acute myeloid leukemia cells.<xref rid="iid3789-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> Also, METTL3 modulated the secretion of TGF‐β1, thus suppressing TGF‐β‐induced epithelial‐mesenchymal transition.<xref rid="iid3789-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> As the first discovered methyltransferase, METTL3 has been documented to methylate its target transcripts and participate in various physiological processes, including T cell homeostasis.<xref rid="iid3789-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> Additionally, METTL3‐driven m6A modification of RNA promoted immunosuppression of tumor‐infiltrating myeloid cells.<xref rid="iid3789-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> METTL3 mediated the m6A modification of hsa_circ_0079587 and promoted its circularization, while hsa_circ_0079587 attenuated CD8<sup>+</sup> T cell‐mediated antitumor immunity in non‐small‐cell lung carcinoma, as evidenced by the compromised secretion of IFN‐γ and TNF‐α.<xref rid="iid3789-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> Nevertheless, the mechanism of METTL3 on the T cell function has not been clearly established. It is notable from our rescue experiments that the tumor inhibiting effects of si‐METTL3 on DLBCL cells were reversed by NEDD1 in vitro and in vivo, further supporting that METTL3 is an upstream m6A modifier of NEDD1.</p></sec><sec sec-type="conclusions" id="iid3789-sec-0310"><label>5</label><title>CONCLUSION</title><p>Our study collectively revealed that NEDD1 expedited DLBCL cell proliferation and invasion in vitro, and tumor growth in vivo. From the perspective of mechanism, we elucidated that METTL3 coordinated with YTHDF1 to regulate NEDD1 m6A modification in DLBCL cells to activate the Hedgehog signaling, leading to the immune evasion of DLBCL cells. These observations further suggested that NEDD1 might serve an attractive target for immunotherapy in DLBCL.</p></sec><sec id="iid3789-sec-0320"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Lili Feng</bold>: Conceptualization; data curation; project administration; software; writing—original draft. <bold>Qinying Yan</bold>: Data curation; formal analysis; methodology; supervision; writing—review &amp; editing. <bold>Hui Pan</bold>: Data curation; investigation; software; validation; writing—review &amp; editing. <bold>Wodong Shi</bold>: Formal analysis; methodology; supervision; visualization; writing—original draft.</p></sec><sec sec-type="COI-statement" id="iid3789-sec-0340"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflict of interest.</p></sec></body><back><ack id="iid3789-sec-0330"><title>ACKNOWLEDGMENTS</title><p>The research was funded by the National Natural Science Foundation of China (No. 81900876).</p></ack><sec sec-type="data-availability" id="iid3789-sec-0360"><title>DATA AVAILABILITY STATEMENT</title><p>Data are available on request due to privacy/ethical restrictions.</p></sec><ref-list content-type="cited-references" id="iid3789-bibl-0001"><title>REFERENCES</title><ref id="iid3789-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="iid3789-cit-0001">
+<string-name name-style="western">
+<surname>Sehn</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salles</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Diffuse large B‐cell lymphoma</article-title>. <source>N Engl J Med</source>. <year>2021</year>;<volume>384</volume>:<fpage>842</fpage>‐<lpage>858</lpage>.<pub-id pub-id-type="pmid">33657296</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMra2027612</pub-id><pub-id pub-id-type="pmcid">PMC8377611</pub-id></mixed-citation></ref><ref id="iid3789-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="iid3789-cit-0002">
+<string-name name-style="western">
+<surname>Sehn</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gascoyne</surname>
+<given-names>RD</given-names>
+</string-name>. <article-title>Diffuse large B‐cell lymphoma: optimizing outcome in the context of clinical and biologic heterogeneity</article-title>. <source>Blood</source>. <year>2015</year>;<volume>125</volume>:<fpage>22</fpage>‐<lpage>32</lpage>.<pub-id pub-id-type="pmid">25499448</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2014-05-577189</pub-id></mixed-citation></ref><ref id="iid3789-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="iid3789-cit-0003">
+<string-name name-style="western">
+<surname>Carreras</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roncador</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamoudi</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Artificial intelligence predicted overall survival and classified mature B‐cell neoplasms based on immuno‐oncology and immune checkpoint panels</article-title>. <source>Cancers (Basel)</source>. <year>2022</year>:<fpage>14</fpage>.<pub-id pub-id-type="pmid">36358737</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers14215318</pub-id><pub-id pub-id-type="pmcid">PMC9657332</pub-id></mixed-citation></ref><ref id="iid3789-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="iid3789-cit-0004">
+<string-name name-style="western">
+<surname>Menter</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tzankov</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Mechanisms of immune evasion and immune modulation by lymphoma cells</article-title>. <source>Front Oncol</source>. <year>2018</year>;<volume>8</volume>:<fpage>54</fpage>.<pub-id pub-id-type="pmid">29564225</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fonc.2018.00054</pub-id><pub-id pub-id-type="pmcid">PMC5845888</pub-id></mixed-citation></ref><ref id="iid3789-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="iid3789-cit-0005">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tao</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pan</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Stress‐induced premature senescence activated by the SENEX gene mediates apoptosis resistance of diffuse large B‐cell lymphoma via promoting immunosuppressive cells and cytokines</article-title>. <source>Immun Inflamm Dis</source>. <year>2020</year>;<volume>8</volume>:<fpage>672</fpage>‐<lpage>683</lpage>.<pub-id pub-id-type="pmid">33015970</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/iid3.356</pub-id><pub-id pub-id-type="pmcid">PMC7654415</pub-id></mixed-citation></ref><ref id="iid3789-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="iid3789-cit-0006">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>
+<given-names>KH</given-names>
+</string-name>. <article-title>New agents and regimens for diffuse large B cell lymphoma</article-title>. <source>J Hematol Oncol</source>. <year>2020</year>;<volume>13</volume>:<fpage>175</fpage>.<pub-id pub-id-type="pmid">33317571</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13045-020-01011-z</pub-id><pub-id pub-id-type="pmcid">PMC7734862</pub-id></mixed-citation></ref><ref id="iid3789-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="iid3789-cit-0007">
+<string-name name-style="western">
+<surname>Spranger</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Mechanisms of tumor escape in the context of the T‐cell‐inflamed and the non‐T‐cell‐inflamed tumor microenvironment</article-title>. <source>Int Immunol</source>. <year>2016</year>;<volume>28</volume>:<fpage>383</fpage>‐<lpage>391</lpage>.<pub-id pub-id-type="pmid">26989092</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/intimm/dxw014</pub-id><pub-id pub-id-type="pmcid">PMC4986232</pub-id></mixed-citation></ref><ref id="iid3789-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="iid3789-cit-0008">
+<string-name name-style="western">
+<surname>Manning</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kumar</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>NEDD1: function in microtubule nucleation, spindle assembly and beyond</article-title>. <source>Int J Biochem Cell Biol</source>. <year>2007</year>;<volume>39</volume>:<fpage>7</fpage>‐<lpage>11</lpage>.<pub-id pub-id-type="pmid">17005434</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.biocel.2006.08.012</pub-id></mixed-citation></ref><ref id="iid3789-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="iid3789-cit-0009">
+<string-name name-style="western">
+<surname>Hua</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feng</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>NEDD9 overexpression: prognostic and guidance value in acute myeloid leukaemia</article-title>. <source>J Cell Mol Med</source>. <year>2021</year>;<volume>25</volume>:<fpage>9331</fpage>‐<lpage>9339</lpage>.<pub-id pub-id-type="pmid">34432355</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jcmm.16870</pub-id><pub-id pub-id-type="pmcid">PMC8500976</pub-id></mixed-citation></ref><ref id="iid3789-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="iid3789-cit-0010">
+<string-name name-style="western">
+<surname>Xie</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hong</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peng</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>Expression of N(6)‐methyladenosine (m(6)A) regulators correlates with immune microenvironment characteristics and predicts prognosis in diffuse large cell lymphoma (DLBCL)</article-title>. <source>Bioengineered</source>. <year>2021</year>;<volume>12</volume>:<fpage>6115</fpage>‐<lpage>6133</lpage>.<pub-id pub-id-type="pmid">34482808</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/21655979.2021.1972644</pub-id><pub-id pub-id-type="pmcid">PMC8806613</pub-id></mixed-citation></ref><ref id="iid3789-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="iid3789-cit-0011">
+<string-name name-style="western">
+<surname>Dai</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jin</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>N6‐methyladenosine links RNA metabolism to cancer progression</article-title>. <source>Cell Death Dis</source>. <year>2018</year>;<volume>9</volume>:<fpage>124</fpage>.<pub-id pub-id-type="pmid">29374143</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41419-017-0129-x</pub-id><pub-id pub-id-type="pmcid">PMC5833385</pub-id></mixed-citation></ref><ref id="iid3789-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="iid3789-cit-0012">
+<string-name name-style="western">
+<surname>Qiu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Integrated analysis on the N6‐methyladenosine‐related long noncoding RNAs prognostic signature, immune checkpoints, and immune cell infiltration in clear cell renal cell carcinoma</article-title>. <source>Immun Inflamm Dis</source>. <year>2021</year>;<volume>9</volume>:<fpage>1596</fpage>‐<lpage>1612</lpage>.<pub-id pub-id-type="pmid">34432955</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/iid3.513</pub-id><pub-id pub-id-type="pmcid">PMC8589390</pub-id></mixed-citation></ref><ref id="iid3789-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="iid3789-cit-0013">
+<string-name name-style="western">
+<surname>Zaccara</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ries</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jaffrey</surname>
+<given-names>SR</given-names>
+</string-name>. <article-title>Reading, writing and erasing mRNA methylation</article-title>. <source>Nat Rev Mol Cell Biol</source>. <year>2019</year>;<volume>20</volume>:<fpage>608</fpage>‐<lpage>624</lpage>.<pub-id pub-id-type="pmid">31520073</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41580-019-0168-5</pub-id></mixed-citation></ref><ref id="iid3789-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="iid3789-cit-0014">
+<string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>RNA m(6) A methylation regulates virus‐host interaction and EBNA2 expression during Epstein‐Barr virus infection</article-title>. <source>Immun Inflamm Dis</source>. <year>2021</year>;<volume>9</volume>:<fpage>351</fpage>‐<lpage>362</lpage>.<pub-id pub-id-type="pmid">33434416</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/iid3.396</pub-id><pub-id pub-id-type="pmcid">PMC8127537</pub-id></mixed-citation></ref><ref id="iid3789-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="iid3789-cit-0015">
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>The m6A methyltransferase METTL3 is functionally implicated in DLBCL development by regulating m6A modification in PEDF</article-title>. <source>Front Genet</source>. <year>2020</year>;<volume>11</volume>:<fpage>955</fpage>.<pub-id pub-id-type="pmid">33061938</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fgene.2020.00955</pub-id><pub-id pub-id-type="pmcid">PMC7481464</pub-id></mixed-citation></ref><ref id="iid3789-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="iid3789-cit-0016">
+<string-name name-style="western">
+<surname>Xin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ding</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Protease nexin‐1 prevents growth of human B cell lymphoma via inhibition of sonic hedgehog signaling</article-title>. <source>Blood Cancer J</source>. <year>2018</year>;<volume>8</volume>:<fpage>24</fpage>.<pub-id pub-id-type="pmid">29483508</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41408-018-0063-x</pub-id><pub-id pub-id-type="pmcid">PMC5827524</pub-id></mixed-citation></ref><ref id="iid3789-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="iid3789-cit-0017">
+<string-name name-style="western">
+<surname>Pasqualucci</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dalla‐Favera</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Genetics of diffuse large B‐cell lymphoma</article-title>. <source>Blood</source>. <year>2018</year>;<volume>131</volume>:<fpage>2307</fpage>‐<lpage>2319</lpage>.<pub-id pub-id-type="pmid">29666115</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2017-11-764332</pub-id><pub-id pub-id-type="pmcid">PMC5969374</pub-id></mixed-citation></ref><ref id="iid3789-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="iid3789-cit-0018">
+<string-name name-style="western">
+<surname>Cioroianu</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stinga</surname>
+<given-names>PI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sticlaru</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Tumor microenvironment in diffuse large B‐Cell lymphoma: role and prognosis</article-title>. <source>Anal Cell Pathol</source>. <year>2019</year>;<volume>2019</volume>:<fpage>1</fpage>‐<lpage>9</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2019/8586354</pub-id><pub-id pub-id-type="pmcid">PMC6942707</pub-id><pub-id pub-id-type="pmid">31934533</pub-id></mixed-citation></ref><ref id="iid3789-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="iid3789-cit-0019">
+<string-name name-style="western">
+<surname>Fujita</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yanagihara</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takeshita</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Intraperitoneal delivery of a small interfering RNA targeting NEDD1 prolongs the survival of scirrhous gastric cancer model mice</article-title>. <source>Cancer Sci</source>. <year>2013</year>;<volume>104</volume>:<fpage>214</fpage>‐<lpage>222</lpage>.<pub-id pub-id-type="pmid">23106787</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cas.12054</pub-id><pub-id pub-id-type="pmcid">PMC7657175</pub-id></mixed-citation></ref><ref id="iid3789-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="iid3789-cit-0020">
+<string-name name-style="western">
+<surname>Perrot</surname>
+<given-names>CY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Javelaud</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mauviel</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Overlapping activities of TGF‐β and Hedgehog signaling in cancer: therapeutic targets for cancer treatment</article-title>. <source>Pharmacol Ther</source>. <year>2013</year>;<volume>137</volume>:<fpage>183</fpage>‐<lpage>199</lpage>.<pub-id pub-id-type="pmid">23063491</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pharmthera.2012.10.002</pub-id></mixed-citation></ref><ref id="iid3789-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="iid3789-cit-0021">
+<string-name name-style="western">
+<surname>Singh</surname>
+<given-names>RR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davuluri</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Hedgehog signaling pathway is activated in diffuse large B‐cell lymphoma and contributes to tumor cell survival and proliferation</article-title>. <source>Leukemia</source>. <year>2010</year>;<volume>24</volume>:<fpage>1025</fpage>‐<lpage>1036</lpage>.<pub-id pub-id-type="pmid">20200556</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/leu.2010.35</pub-id></mixed-citation></ref><ref id="iid3789-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="iid3789-cit-0022">
+<string-name name-style="western">
+<surname>Cascio</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chandler</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Cancer‐associated MSC drive tumor immune exclusion and resistance to immunotherapy, which can be overcome by Hedgehog inhibition</article-title>. <source>Sci Adv</source>. <year>2021</year>;<volume>7</volume>:<elocation-id>eabi5790</elocation-id>.<pub-id pub-id-type="pmid">34767446</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.abi5790</pub-id><pub-id pub-id-type="pmcid">PMC8589308</pub-id></mixed-citation></ref><ref id="iid3789-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="iid3789-cit-0023">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zou</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Clinical and prognostic pan‐cancer analysis of N6‐methyladenosine regulators in two types of hematological malignancies: a retrospective study based on TCGA and GTEx databases</article-title>. <source>Front Oncol</source>. <year>2021</year>;<volume>11</volume>:<elocation-id>623170</elocation-id>.<pub-id pub-id-type="pmid">33816257</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fonc.2021.623170</pub-id><pub-id pub-id-type="pmcid">PMC8015800</pub-id></mixed-citation></ref><ref id="iid3789-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="iid3789-cit-0024">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>The roles and mechanisms of the m6A reader protein YTHDF1 in tumor biology and human diseases</article-title>. <source>Mol Ther ‐ Nucleic Acids</source>. <year>2021</year>;<volume>26</volume>:<fpage>1270</fpage>‐<lpage>1279</lpage>.<pub-id pub-id-type="pmid">34853726</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.omtn.2021.10.023</pub-id><pub-id pub-id-type="pmcid">PMC8609105</pub-id></mixed-citation></ref><ref id="iid3789-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="iid3789-cit-0025">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>METTL3 promotes cell cycle progression via m(6)A/YTHDF1‐dependent regulation of CDC25B translation</article-title>. <source>Int J Biol Sci</source>. <year>2022</year>;<volume>18</volume>:<fpage>3223</fpage>‐<lpage>3236</lpage>.<pub-id pub-id-type="pmid">35637959</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/ijbs.70335</pub-id><pub-id pub-id-type="pmcid">PMC9134919</pub-id></mixed-citation></ref><ref id="iid3789-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="iid3789-cit-0026">
+<string-name name-style="western">
+<surname>Sang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yan</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>The m(6)A RNA methyltransferase METTL3/METTL14 promotes leukemogenesis through the mdm2/p53 pathway in acute myeloid leukemia</article-title>. <source>J Cancer</source>. <year>2022</year>;<volume>13</volume>:<fpage>1019</fpage>‐<lpage>1030</lpage>.<pub-id pub-id-type="pmid">35154467</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/jca.60381</pub-id><pub-id pub-id-type="pmcid">PMC8824895</pub-id></mixed-citation></ref><ref id="iid3789-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="iid3789-cit-0027">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peng</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>N6‐Methyladenosine regulates the expression and secretion of TGFbeta1 to affect the epithelial‐mesenchymal transition of cancer cells</article-title>. <source>Cells</source>. <year>2020</year>;<volume>9</volume>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cells9020296</pub-id><pub-id pub-id-type="pmcid">PMC7072279</pub-id><pub-id pub-id-type="pmid">31991845</pub-id></mixed-citation></ref><ref id="iid3789-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="iid3789-cit-0028">
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nie</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>The role of m6A modification in the biological functions and diseases</article-title>. <source>Signal Transduct Target Ther</source>. <year>2021</year>;<volume>6</volume>:<fpage>74</fpage>.<pub-id pub-id-type="pmid">33611339</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41392-020-00450-x</pub-id><pub-id pub-id-type="pmcid">PMC7897327</pub-id></mixed-citation></ref><ref id="iid3789-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="iid3789-cit-0029">
+<string-name name-style="western">
+<surname>Xiong</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Lactylation‐driven METTL3‐mediated RNA m(6)A modification promotes immunosuppression of tumor‐infiltrating myeloid cells</article-title>. <source>Mol Cell</source>. <year>2022</year>;<volume>82</volume>:<fpage>1660</fpage>‐<lpage>1677</lpage>.<pub-id pub-id-type="pmid">35320754</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2022.02.033</pub-id></mixed-citation></ref><ref id="iid3789-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="iid3789-cit-0030">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>She</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>N(6)‐methyladenosine‐modified circIGF2BP3 inhibits CD8(+) T‐cell responses to facilitate tumor immune evasion by promoting the deubiquitination of PD‐L1 in non‐small cell lung cancer</article-title>. <source>Mol Cancer</source>. <year>2021</year>;<volume>20</volume>:<fpage>105</fpage>.<pub-id pub-id-type="pmid">34416901</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12943-021-01398-4</pub-id><pub-id pub-id-type="pmcid">PMC8377850</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

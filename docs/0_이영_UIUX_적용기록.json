@@ -1,0 +1,39 @@
+{
+  "_change_note": "사용자 HTML의 UI·UX를 실제 연구 탐색·검산·인증 페이지로 연결. 참고의 고정 예상 결과와 실행 데이터를 구분한다.",
+  "document_updated_at_kst": "2026-10-01T00:31:25.001703+09:00",
+  "contributor_version": 0,
+  "reference_sha256": "dbb0e38c49071e3e8bf71881d93928ae3b3331c91ae4e138209669d1eb32e0fc",
+  "reference_bytes": 172701,
+  "tokens": {
+    "canvas": "#F9FAFB",
+    "surface": "#FFFFFF",
+    "ink": "#191F28",
+    "accent": "#3182F6",
+    "line": "#E5E8EB",
+    "font": "IBM Plex Sans KR",
+    "max_width_px": 760,
+    "card_radius_px": 24,
+    "primary_height_px": 56
+  },
+  "accessibility_adjustment": "작은 회색 안내와 파란 버튼의 읽기 대비·포커스를 높임",
+  "source_scopes": [
+    "공개 서지 검색",
+    "공개 자료 조회",
+    "세션 과제",
+    "시간 표시된 대학 소식 보관본",
+    "트렌드 표본",
+    "검증된 공개 전달"
+  ],
+  "execution": "finals의 실제 조건·검산·사람 승인·변경 차단·보고서 재열기 유지",
+  "deployed": false,
+  "verification": {
+    "public_regression": {
+      "passed": 425,
+      "skipped": 1,
+      "warnings": 1,
+      "seconds": 198.63
+    },
+    "page_navigation": "DESK_VERIFY_TEAM_CONFIG_BLOCK_PASS",
+    "private_secrets_in_source": false
+  }
+}

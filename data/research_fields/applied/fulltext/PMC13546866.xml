@@ -1,0 +1,765 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece374306" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13546866</article-id><article-id pub-id-type="pmcid-ver">PMC13546866.1</article-id><article-id pub-id-type="pmcaid">13546866</article-id><article-id pub-id-type="pmcaiid">13546866</article-id><article-id pub-id-type="pmid">42707113</article-id><article-id pub-id-type="doi">10.1002/ece3.74306</article-id><article-id pub-id-type="publisher-id">ECE374306</article-id><article-id pub-id-type="other">ECE-2026-04-01114.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Biodiversity Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Spatial Distribution and Ecological Assessment of Vegetation–Climate Zone Ecotones in the Temperate Forests of South Korea</article-title></title-group><contrib-group><contrib id="ece374306-cr-0001" contrib-type="author"><name name-style="western"><surname>Park</surname><given-names initials="BJ">Byeong‐Joo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2060-2044</contrib-id><xref rid="ece374306-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374306-cr-0002" contrib-type="author"><name name-style="western"><surname>Lee</surname><given-names initials="ES">Eun‐Seo</given-names></name><xref rid="ece374306-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece374306-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Cheon</surname><given-names initials="K">Kwangil</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6768-8071</contrib-id><xref rid="ece374306-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="ece374306-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Baekdudaegan National Arboretum</institution>
+<city>Bonghwa</city>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="ece374306-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Carbon Sequestration Research Team</named-content>
+<institution>National Institute of Ecology</institution>
+<city>Seocheon</city>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="ece374306-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Ecosystem Service Team</named-content>
+<institution>National Institute of Ecology</institution>
+<city>Seocheon</city>
+<country country="KR">Republic of Korea</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Kwangil Cheon ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>06</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="1962">9</issue><issue-id pub-id-type="pmc-issue-id">520317</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v16.9</issue-id><elocation-id>e74306</elocation-id><history>
+<date date-type="rev-recd"><day>27</day><month>7</month><year>2026</year></date>
+<date date-type="received"><day>24</day><month>4</month><year>2026</year></date>
+<date date-type="accepted"><day>26</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>06</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>08</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-08 15:11:30.810"><day>08</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-16-e74306.pdf"><?pdf-name ECE3-16-e74306.pdf?><?pdf-size 3081383?><?pdf-md5 08a70cf75476b667388ae11b9fb9d55a?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:133f/13546866/08a70cf75476/ECE3-16-e74306.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-16-e74306.pdf"/><abstract><title>ABSTRACT</title><p>Ecotones are transition zones that integrate environmental gradients and play an important role in biodiversity conservation; however, within the context of South Korea, their ecological functions and spatial characteristics remain insufficiently quantified at the national scale. Scientific evidence is needed to support their inclusion in protected area planning. In this study, we quantified the spatial distribution and ecological characteristics of ecotone zones (EZs) across vegetation–climate zones in the temperate forests of South Korea and examined their associated biodiversity patterns and species turnover. Entropy‐based spatial classification was conducted to delineate the EZs. Environmental and compositional differences among zones were tested using ANOVA and multivariate ordination (CCA, MRPP), while species turnover and community‐assembly processes were examined through zeta‐diversity–based model comparisons (RMSE, AIC). The EZs exhibited mixed characteristics of multiple vegetation–climate zones, showing intermediate environmental conditions and transitional species composition consistent with a buffering role. EZs showed high species richness (607.8 ± 9.6 species per grid) that did not differ significantly from the Northern Temperate Zone (NTZ) (<italic toggle="no">p</italic> = 0.069), and CCA explained the compositional gradient, with the first two axes accounting for 86.5% of the constrained variance (CCA1 = 57.2%, CCA2 = 29.3%). MRPP results indicated the greatest compositional overlap between EZ and the Central Temperate Zone (A = 0.0317), the lowest agreement value among all pairwise comparisons. The zeta‐diversity analysis revealed unimodal patterns with intermediate turnover and partial stability dominated by stochastic processes. These patterns indicate that EZs are transition zones associated with high species richness and intermediate turnover. Overall, our findings suggest that EZs may warrant consideration in protected‐area prioritization and provide a quantitative basis for identifying them at the national scale.</p></abstract><abstract abstract-type="graphical"><p>Using a national 800‐grid framework, we classified vegetation–climate zones in South Korea into ecotone and core areas based on threshold values derived from zonal statistics. We then integrated species occurrence, climate, topography, and ecosystem service variables to compare biodiversity and ecological characteristics among these zones.<boxed-text position="anchor" content-type="graphic" id="ece374306-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-16-e74306-g005.webp"><?image-name ECE3-16-e74306-g005.webp?><?image-size 19282?><?image-md5 2794eb485cc72c49adac00fc3db80bbd?><?image-image-server-status NEVER_LOAD?><?image-original-height 245?><?image-original-width 331?><?image-scaled-height 245?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/133f/13546866/2794eb485cc7/ECE3-16-e74306-g005.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece374306-kwd-0001">ecotone</kwd><kwd id="ece374306-kwd-0002">protected area</kwd><kwd id="ece374306-kwd-0003">South Korea</kwd><kwd id="ece374306-kwd-0004">species turnover</kwd><kwd id="ece374306-kwd-0005">vegetation–climate zone</kwd><kwd id="ece374306-kwd-0006">zeta‐diversity</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Institute of Ecology</institution><institution-id institution-id-type="doi">10.13039/100016214</institution-id></institution-wrap>
+</funding-source><award-id>NIE‐B‐2026‐03</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Korea Environmental Industry and Technology Institute</institution><institution-id institution-id-type="doi">10.13039/501100003654</institution-id></institution-wrap>
+</funding-source><award-id>RS‐2022‐KE002369</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="4"/><page-count count="14"/><word-count count="9900"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:06.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ece374306-body-0001"><sec id="ece374306-sec-0001"><label>1</label><title>Introduction</title><p>Global biodiversity policy increasingly emphasizes not only the quantitative expansion of protected areas but also their ecologically informed selection. The Kunming–Montreal Global Biodiversity Framework (KMGBF) sets a target of protecting at least 30% of land and sea area (Convention on Biological Diversity <xref rid="ece374306-bib-0009" ref-type="bibr">2024</xref>), which highlights the need for scientific evidence to guide where new protected areas should be located (Park et al. <xref rid="ece374306-bib-0050" ref-type="bibr">2024</xref>). In South Korea, protected areas are typically designated based on habitats of endangered species or specific ecosystem types. Biodiversity‐related criteria include regions containing rare or endemic plants, representative ecosystems, or forest genetic resources. As of 2023, protected areas accounted for approximately 19.1% of South Korea's land area. To achieve KMGBF Target 3, the government is increasing the designation of new protected areas, particularly in regions with outstanding biodiversity (Ministry of Environment <xref rid="ece374306-bib-0042" ref-type="bibr">2023</xref>). However, beyond quantitative expansion, a new paradigm for selecting protected areas based on ecological evidence is needed. This expansion also necessitates a shift toward ecologically evidence‐based selection criteria, including the systematic consideration of ecotone zones (Choe et al. <xref rid="ece374306-bib-0005" ref-type="bibr">2018</xref>).</p><p>In this context, ecotone zones (EZ) are an ecological concept worthy of attention. EZ are defined as transition zones formed between two adjacent ecosystems or vegetation zones (Odum <xref rid="ece374306-bib-0046" ref-type="bibr">1971</xref>). These areas are characterized by overlaps in habitats or vegetation–climate zones, where diverse species and functional traits coexist. As a result, EZ serve as repositories of biodiversity and genetic diversity and are considered key ecological areas for native species (Odum <xref rid="ece374306-bib-0046" ref-type="bibr">1971</xref>). More recently, Hufkens et al. (<xref rid="ece374306-bib-0019" ref-type="bibr">2009</xref>) redefined ecotones as “a multi‐dimensional environmentally stochastic interaction zone between ecological systems with characteristics defined in space and time, and by the strength of the interaction,” emphasizing their dynamic and spatially heterogeneous nature. This definition aligns with the entropy‐based spatial delineation approach employed in the present study. In the mid‐latitude context of East Asia, ecotones at vegetation–climate boundaries represent particularly dynamic and understudied systems (Moon et al. <xref rid="ece374306-bib-0043" ref-type="bibr">2017</xref>).</p><p>The mid‐domain effect (MDE) predicts that species richness peaks at intermediate positions within a bounded geographic domain due to geometric constraints on species ranges (Colwell and Lees <xref rid="ece374306-bib-0007" ref-type="bibr">2000</xref>). In the context of vegetation–climate ecotones, this theoretical framework predicts that transition zones occupying intermediate positions along climatic gradients may exhibit elevated species richness, independent of environmental productivity. Rahbek (<xref rid="ece374306-bib-0055" ref-type="bibr">1995</xref>) and Grytnes (<xref rid="ece374306-bib-0017" ref-type="bibr">2003</xref>) observed similar hump‐shaped richness patterns along altitudinal gradients, lending empirical support to the MDE. Testing MDE predictions in the context of national‐scale EZ classification is therefore of both theoretical and applied significance.</p><p>EZ should be understood not merely as spatial boundaries but as dynamic ecosystem elements reflecting organisms' responses to environmental change (Risser <xref rid="ece374306-bib-0058" ref-type="bibr">1995</xref>), with soil characteristics often differing from surrounding ecosystems and influencing vegetation structure and diversity patterns (Marfo et al. <xref rid="ece374306-bib-0036" ref-type="bibr">2018</xref>). Across diverse ecosystems, previous studies have constructed EZ databases through ecogeographic analyses incorporating species diversity, climate‐driven migration, soil environments, vegetation changes, and vegetation–climate zone transitions (Veblen and Lorenz <xref rid="ece374306-bib-0067" ref-type="bibr">1988</xref>; Gottfried et al. <xref rid="ece374306-bib-0016" ref-type="bibr">1998</xref>; Marimon et al. <xref rid="ece374306-bib-0037" ref-type="bibr">2006</xref>; Zeng et al. <xref rid="ece374306-bib-0073" ref-type="bibr">2007</xref>; Virtanen et al. <xref rid="ece374306-bib-0069" ref-type="bibr">2010</xref>; D'Odorico et al. <xref rid="ece374306-bib-0013" ref-type="bibr">2013</xref>). However, EZ responses are not always dynamic or unidirectional: some studies report relatively stable EZ locations and structures rather than directional shifts (Tölgyesi et al. <xref rid="ece374306-bib-0066" ref-type="bibr">2016</xref>), while dispersal limitation and stochastic processes near restoration sites can produce uncertain species compositions (Peringer and Rosenthal <xref rid="ece374306-bib-0054" ref-type="bibr">2011</xref>). These contrasting findings indicate that EZ dynamics vary with spatial constraints and stochastic factors, underscoring the need for quantitative analyses supported by long‐term monitoring (De Klerk et al. <xref rid="ece374306-bib-0011" ref-type="bibr">2018</xref>).</p><p>Classical treatments of ecotones (Odum <xref rid="ece374306-bib-0046" ref-type="bibr">1971</xref>; Risser <xref rid="ece374306-bib-0058" ref-type="bibr">1995</xref>) conceptualize them at the scale of individual ecosystems, where a boundary is drawn between two adjacent, relatively homogeneous communities. In this study, we adopt a landscape‐ecological perspective, in which the unit of analysis is not a single boundary line but a landscape mosaic—the standard national survey grid—within which the co‐occurrence of multiple vegetation–climate zone patches indicate a higher probability of ecotone formation (Collinge <xref rid="ece374306-bib-0006" ref-type="bibr">2009</xref>). By linking this landscape‐scale framework to a nationwide survey grid, we identify cells with a high likelihood of harboring ecotonal structure, rather than delineating the precise spatial extent of individual ecotone boundaries. This distinction matters ecologically: landscapes with a greater diversity of co‐occurring vegetation–climate patches have been argued to support elevated biodiversity through habitat heterogeneity and connectivity among patch types (Ries et al. <xref rid="ece374306-bib-0057" ref-type="bibr">2004</xref>; Kark <xref rid="ece374306-bib-0025" ref-type="bibr">2012</xref>), consistent with the elevated species richness we observe in EZ (Section <xref rid="ece374306-sec-0010" ref-type="sec">3.3</xref>). Framing EZ as high‐probability ecotone landscapes therefore allows the national‐scale screening of areas where landscape heterogeneity—and its associated biodiversity value—is likely to be concentrated, providing a practical tool for conservation prioritization rather than a fine‐grained ecotone map.</p><p>In this study, plant distribution data from the Korean Nationwide Survey on Natural Environments were combined with vegetation–climate zone data from the Korea National Arboretum to quantitatively analyze biodiversity relationships between overlapping vegetation–climate zones and core vegetation–climate zones.</p><p>South Korea has a monsoon climate (Park, Kim, et al. <xref rid="ece374306-bib-0051" ref-type="bibr">2019</xref>), and seasonal rainfall variability can enhance biodiversity by creating environmental heterogeneity that supports diverse vegetation types and species (Veblen and Lorenz <xref rid="ece374306-bib-0067" ref-type="bibr">1988</xref>; Marimon et al. <xref rid="ece374306-bib-0037" ref-type="bibr">2006</xref>). Based on this climatic context, this study assumes that EZ exhibit dynamic biodiversity patterns. The following hypotheses were tested:<statement content-type="H1" id="ece374306-mthst-0001"><p>
+<italic toggle="yes">EZ will show significantly different distributions of environmental variables compared to core vegetation–climate zones</italic>.</p></statement>
+<statement content-type="H2" id="ece374306-mthst-0002"><p>
+<italic toggle="yes">Species composition in EZ will overlap with species composition in each core vegetation–climate zone</italic>.</p></statement>
+<statement content-type="H3" id="ece374306-mthst-0003"><p>
+<italic toggle="yes">EZ will show intermediate species turnover patterns most similar to CTZ, reflecting their transitional position between NTZ and CTZ along the temperature‐altitude gradient, with stochastic processes partially governing community assembly</italic> (Chase and Myers <xref rid="ece374306-bib-0004" ref-type="bibr">2011</xref>; Vellend <xref rid="ece374306-bib-0068" ref-type="bibr">2010</xref>). <italic toggle="yes">Despite growing recognition of ecotones' ecological importance, no consistent, quantitative method exists for identifying landscape‐scale vegetation–climate transition zones across a national territory. Addressing this gap, we aimed to</italic> (<italic toggle="yes">i</italic>) <italic toggle="yes">delineate EZ objectively at the national scale using an entropy‐based classification, (ii) characterize their environmental conditions, species composition, and turnover relative to core zones, and (iii) thereby provide a quantitative, evidence‐based foundation for considering EZ in protected‐area planning</italic>.</p></statement>
+</p></sec><sec sec-type="materials-and-methods" id="ece374306-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece374306-sec-0003"><label>2.1</label><title>Threshold Setting and <styled-content style="fixed-case" toggle="no">EZ</styled-content> Categorization</title><p>To categorize EZ, raster data (pixel size = 30 m × 30 m) for five vegetation–climate zones designated by the Korean National Arboretum were used: northern temperate mixed coniferous–deciduous forest, northern temperate deciduous broadleaf forest, central temperate deciduous broadleaf forest, southern temperate deciduous broadleaf forest, and southern temperate mixed evergreen–deciduous broadleaf forest. These data were combined with vector data dividing South Korea into 800 grid cells (11 km × 13 km each) (Korea National Arboretum <xref rid="ece374306-bib-0028" ref-type="bibr">2020</xref>).</p><p>The grid system was derived from a 1:25,000 digital topographic map and served as the standard spatial unit for the Ministry of Environment's Nationwide Survey on Natural Environments (National Institute of Ecology <xref rid="ece374306-bib-0044" ref-type="bibr">2019</xref>).</p><p>The two GIS datasets were overlaid, and the Zonal Statistics as Table tool in ArcGIS Pro (v3.5, ESRI, Redlands, CA) was used to calculate the relative area (pixel proportion) of each vegetation–climate zone within each grid cell. Cells were classified as core vegetation–climate zones when the pixel proportion of a single zone exceeded a predefined threshold. Cells in which no vegetation–climate zone exceeded the threshold were defined as EZ.</p><p>Thresholds from 50% to 70% were tested, and 70% was selected as the final threshold. At this threshold, a cell was classified as a core zone when a single vegetation–climate zone occupied ≥ 70% of its area, and as an EZ otherwise. The 70% threshold was selected because it maximized the entropy difference between EZ and core zones (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S1</xref>) while representing homogeneous core regions (Hufkens et al. <xref rid="ece374306-bib-0019" ref-type="bibr">2009</xref>; Rocchini et al. <xref rid="ece374306-bib-0059" ref-type="bibr">2013</xref>). The Shannon and Simpson entropy indices were calculated from the proportional coverage of vegetation–climate zones within each cell to characterize compositional heterogeneity. Because these indices are derived from the same proportions used to delineate EZ, we did not treat them as independent validation; instead, we assessed the robustness and ecological validity of the classification through three additional analyses: a threshold‐sensitivity analysis (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S1</xref>), a grid‐size sensitivity analysis (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S2</xref>), and validation against independent species‐distribution data not used in the delineation (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S3</xref>). Shannon entropy was normalized by its maximum value to represent heterogeneity or mixing within the cell (Shannon <xref rid="ece374306-bib-0062" ref-type="bibr">1948</xref>). The normalized Simpson index (Simpson <xref rid="ece374306-bib-0063" ref-type="bibr">1949</xref>) estimates the likelihood that two randomly selected pixels belong to different vegetation–climate zones, thereby quantifying compositional diversity (Jost <xref rid="ece374306-bib-0023" ref-type="bibr">2006</xref>; Rocchini et al. <xref rid="ece374306-bib-0059" ref-type="bibr">2013</xref>; Feilhauer et al. <xref rid="ece374306-bib-0014" ref-type="bibr">2021</xref>). Both indices are widely used in ecology to assess diversity.</p><p>Although originally developed to measure species diversity, these indices were applied here to quantify heterogeneity in vegetation–climate zone composition within grid cells (Ricotta <xref rid="ece374306-bib-0056" ref-type="bibr">2005</xref>; Rocchini and Ricotta <xref rid="ece374306-bib-0060" ref-type="bibr">2007</xref>). This approach represents a generalized application of “ecological entropy” and is useful for evaluating compositional heterogeneity (Paz‐Kagan et al. <xref rid="ece374306-bib-0053" ref-type="bibr">2017</xref>).</p><p>When the proportional pixel count for each vegetation–climate zone within a grid cell is defined as <italic toggle="yes">pi</italic>, the Shannon entropy (H') and Simpson indices(D) are calculated as follows:<disp-formula id="ece374306-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msup><mml:mi>H</mml:mi><mml:mo>′</mml:mo></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mo linebreak="goodbreak">−</mml:mo><mml:mo>∑</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mi mathvariant="italic">ln</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:mo>,</mml:mo><mml:mi>D</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mn>1</mml:mn><mml:mo linebreak="goodbreak">−</mml:mo><mml:mo>∑</mml:mo><mml:msubsup><mml:mi>p</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where the Shannon entropy reflects the degree of heterogeneity, while the Simpson index reflects dominance within a grid cell. The interpretation of index values varies according to the magnitude of entropy.</p><p>The threshold that maximized differences in entropy between EZ and core vegetation–climate zones was selected as the optimal boundary. This approach is consistent with the ecological concept of defining EZ as “transition zones that maximize heterogeneity between adjacent ecosystems” (Odum <xref rid="ece374306-bib-0046" ref-type="bibr">1971</xref>; Risser <xref rid="ece374306-bib-0058" ref-type="bibr">1995</xref>; Hufkens et al. <xref rid="ece374306-bib-0019" ref-type="bibr">2009</xref>). The optimal boundary is the threshold at which differences between the two indices are maximized and, in ecological terms, represents a distinct classification boundary (Collinge <xref rid="ece374306-bib-0006" ref-type="bibr">2009</xref>; Hufkens et al. <xref rid="ece374306-bib-0019" ref-type="bibr">2009</xref>).</p><p>To evaluate whether EZ delineation was sensitive to methodological choices, we conducted two sensitivity analyses. First, we varied the classification threshold from 50% to 70% and compared the resulting entropy separation between EZ and core zones (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S1</xref>). Second, we re‐aggregated the vegetation–climate zone raster at grid sizes from 0.25× to 4× the original survey unit and repeated the classification (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S2</xref>). To address the potential circularity between the entropy‐based delineation and entropy‐based description, we further validated the classification using independent species‐distribution data—endemic, endangered, alien, and total species richness—that were not used in the entropy calculation (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S3</xref>). Differences among zones were tested using Kruskal–Wallis tests.</p><p>In this study, the Northern temperate mixed coniferous–deciduous forest occupied a very narrow area and was therefore combined with the Northern temperate deciduous forest for analysis. Thus, a total of five groups were classified: four vegetation‐climate zones and EZ.</p></sec><sec id="ece374306-sec-0004"><label>2.2</label><title>Comparison of Environmental and Ecological Factors</title><p>Each grid cell was treated as an individual survey plot, and plant species presence/absence data were extracted from the Nationwide Survey on Natural Environments. Species distributions were organized by grid cell using the Spatial Join function of ArcGIS Pro. The survey period spanned 2006–2023.</p><p>Environmental variables extracted for the 800 grid cells included temperature, precipitation, altitude, slope, habitat quality (HQ), bird diversity, water yield (WY), and sediment delivery ratio (SDR) (Figure <xref rid="ece374306-fig-0001" ref-type="fig">1</xref>). These variables have been identified in previous studies as major climate and topographic factors influencing plant distribution and ecological characteristics (Oliver and Larson <xref rid="ece374306-bib-0047" ref-type="bibr">1990</xref>; Wilson <xref rid="ece374306-bib-0071" ref-type="bibr">1992</xref>; Kimmins <xref rid="ece374306-bib-0027" ref-type="bibr">1997</xref>; Thuiller et al. <xref rid="ece374306-bib-0065" ref-type="bibr">2005</xref>; Sekercioglu <xref rid="ece374306-bib-0061" ref-type="bibr">2006</xref>; Körner <xref rid="ece374306-bib-0029" ref-type="bibr">2007</xref>; Lavorel et al. <xref rid="ece374306-bib-0031" ref-type="bibr">2008</xref>; Maestre et al. <xref rid="ece374306-bib-0034" ref-type="bibr">2012</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374306-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Overall workflow of the study. Biotic and abiotic data were spatially joined to an 800‐grid system. Vegetation–climate zones were classified using an entropy‐based threshold to delineate ecotone zones (EZ) and produce the base map. From the integrated dataset, three hypothesis‐specific analyses were performed—environmental differentiation among zones (H1, one‐way ANOVA), species composition (H2, CCA and MRPP test), and species turnover (H3, zeta‐diversity)—which together informed the ecological assessment of EZ.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-16-e74306-g004.webp"><?image-name ECE3-16-e74306-g004.webp?><?image-size 95986?><?image-md5 e5d9e98c25bf022f38f7802d347e8e82?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1027?><?image-original-width 1064?><?image-scaled-height 1027?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/133f/13546866/e5d9e98c25bf/ECE3-16-e74306-g004.webp?><?thumb-name ECE3-16-e74306-g004.gif?><?thumb-size 12628?><?thumb-md5 6d2e8148d6dd40e0f6cd826e1cbeb617?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 193?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/133f/13546866/6d2e8148d6dd/ECE3-16-e74306-g004.gif?></graphic></fig><p>WorldClim Bioclim data (v2.1; 30 arc‐s resolution; mean values for 1970–2000) were used for temperature and precipitation. These 30‐year climatic normals were used to represent the long‐term spatial climatic gradient to which vegetation–climate zones and plant community distributions respond, rather than the weather conditions of any specific survey year. The offset between this reference period and the survey period (2006–2023) is addressed in the Discussion. A digital elevation model from NASA's Shuttle Radar Topography Mission (SRTM; 30 m resolution) was used to derive altitude and slope.</p><p>Three ecosystem service indices (HQ, WY, and SDR) were applied based on plant species distributions across ecological niches following National Institute of Ecology (<xref rid="ece374306-bib-0045" ref-type="bibr">2022</xref>). These indices were calculated using InVEST (v3.14.1; Stanford University, CA, USA) (National Institute of Ecology <xref rid="ece374306-bib-0045" ref-type="bibr">2022</xref>). The input datasets (with their sources and reference periods) and all model parameter settings—including LULC classification, threat layers, sensitivity scores, and biophysical coefficients—are provided in Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S4</xref>. Applying ecosystem service indices to species composition analysis enables multifaceted socio‐ecological interpretations (Park and Cheon <xref rid="ece374306-bib-0049" ref-type="bibr">2025</xref>).</p><p>HQ was calculated by considering habitat type, habitat sensitivity, and threat level. Habitat type was determined using Land Use and Land Cover (LULC) data. HQ serves as a supporting index for qualitative assessment of biodiversity (Xu et al. <xref rid="ece374306-bib-0072" ref-type="bibr">2019</xref>) and is expressed on a scale from 0 and 1, with values closer to 1 indicating conditions more favorable for ecosystem conservation. It was calculated using the equation provided by the National Institute of Ecology (<xref rid="ece374306-bib-0045" ref-type="bibr">2022</xref>).<disp-formula id="ece374306-disp-0002">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>HQ</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi mathvariant="normal">H</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo linebreak="goodbreak">−</mml:mo><mml:mfenced close=")" open="("><mml:mfrac><mml:msup><mml:mi mathvariant="normal">D</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mrow><mml:msup><mml:mi mathvariant="normal">D</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mi mathvariant="normal">K</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>HQ: Habitat quality.</p><p>H: Habitat suitability based on land use type.</p><p>D: Threat level per habitat type.</p><p>K: Half‐saturation constant.</p><p>Bird diversity was estimated using a maximum‐entropy (MaxEnt) species‐distribution model based on bird occurrence data from the Third Nationwide Survey on Natural Environments (87 species), following the standard protocol of the National Institute of Ecology (<xref rid="ece374306-bib-0045" ref-type="bibr">2022</xref>). It was therefore treated as a survey‐based biodiversity variable derived from a species‐distribution model, distinct from the InVEST‐derived ecosystem‐service indices (HQ, WY, and SDR). WY was calculated by subtracting mean annual actual evapotranspiration (AET) from mean annual precipitation for each grid cell, according to the following equation (National Institute of Ecology <xref rid="ece374306-bib-0045" ref-type="bibr">2022</xref>).<disp-formula id="ece374306-disp-0003">
+<label>(2)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>WY</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo linebreak="goodbreak">−</mml:mo><mml:mfrac><mml:mi mathvariant="normal">AET</mml:mi><mml:mi mathvariant="normal">PRE</mml:mi></mml:mfrac></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi>P</mml:mi></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where WY is water yield, AET is annual actual evapotranspiration, and PRE is annual precipitation.</p><p>SDR was calculated based on precipitation‐ and erosion‐related factors and slope variables, according to the following equation (National Institute of Ecology <xref rid="ece374306-bib-0045" ref-type="bibr">2022</xref>).<disp-formula id="ece374306-disp-0004">
+<label>(3)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>SDR</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi mathvariant="normal">R</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi>Ks</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi>LS</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi mathvariant="normal">C</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi>P</mml:mi></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where SDR is sediment delivery ratio, R is rainfall erosivity factor, K<sub>s</sub> is the soil erodibility factor, LS is the slope length and steepness factor, C is the cover management factor, and P is the support practice factor.</p><p>One‐way analysis of variance (ANOVA) was used to compare mean values among each group. Results are presented as mean ± standard error (SE), and significant differences among vegetation–climate zones were identified using Tukey's HSD post hoc test (<italic toggle="yes">p</italic> &lt; 0.05).</p></sec><sec id="ece374306-sec-0005"><label>2.3</label><title>Species Composition Analysis</title><p>To compare alpha diversity among groups, species richness was calculated as the number of species recorded in each grid cell (Magurran <xref rid="ece374306-bib-0035" ref-type="bibr">2004</xref>). One‐way ANOVA followed by Tukey's HSD post hoc test was used to compare species richness among groups (<italic toggle="yes">p</italic> &lt; 0.05).</p><p>To analyze relationships between vegetation–climate zones and environmental variables, canonical correspondence analysis (CCA) and multi‐response permutation procedures (MRPP) were performed using PC‐ORD (v7.0, MjM Software Design, Gleneden Beach, OR, USA). CCA is a multivariate method used to visualize and interpret the effects of environmental variables on differences in species composition among vegetation–climate zones and to compare species composition and distribution between groups (McCune et al. <xref rid="ece374306-bib-0038" ref-type="bibr">2002</xref>). A presence–absence matrix was used as the primary matrix, and a second matrix was constructed from the eight environmental variables (temperature, precipitation, slope, elevation, HQ, bird diversity, WY, and SDR). We report total and constrained inertia, the proportion of variance explained by each axis relative to both total and constrained inertia, the adjusted <italic toggle="yes">R</italic>
+<sup>2</sup>, and species–environment correlations. Statistical significance of the full model and of each axis was assessed using 998 permutations, with significance determined at <italic toggle="yes">p</italic> &lt; 0.001 (McCune et al. <xref rid="ece374306-bib-0038" ref-type="bibr">2002</xref>). Multicollinearity among the environmental variables was evaluated using variance inflation factors (VIF) prior to interpreting individual environmental vectors. The MRPP test evaluates the statistical significance of differences between predefined groups by comparing within‐group agreement to that expected by chance, based on distance matrices (McCune et al. <xref rid="ece374306-bib-0038" ref-type="bibr">2002</xref>). T‐statistics were used for pairwise comparison among groups. T‐values of −10 or lower were interpreted as indicating ecologically significant heterogeneity in species composition (McCune et al. <xref rid="ece374306-bib-0038" ref-type="bibr">2002</xref>). The agreement statistic (A) is a measure of within‐group homogeneity ranging from 0 to 1. Values ≥ 0.1 indicate clear separation and heterogeneity in species composition between groups, whereas values approaching 1 indicate complete separation (McCune et al. <xref rid="ece374306-bib-0038" ref-type="bibr">2002</xref>; Mielke and Berry <xref rid="ece374306-bib-0041" ref-type="bibr">2001</xref>).</p></sec><sec id="ece374306-sec-0006"><label>2.4</label><title>Zeta‐Diversity and Species Turnover</title><p>To quantify species turnover among vegetation–climate zones, the zetadiv package in R (v4.3.2) was used to analyze zeta diversity (Hui and McGeoch <xref rid="ece374306-bib-0020" ref-type="bibr">2014</xref>; McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>). Multi‐site species turnover and shared‐species patterns were interpreted from zeta‐diversity decline curves diversity (Hui and McGeoch <xref rid="ece374306-bib-0020" ref-type="bibr">2014</xref>; McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>). After deriving zeta‐diversity declines for each vegetation–climate zone, root mean square error (RMSE) was calculated to quantify the similarity among curve shapes.</p><p>RMSE measures the difference between two curve models and is widely used to evaluate ecological or climate models and compare spatiotemporal patterns (Willmott and Matsuura <xref rid="ece374306-bib-0070" ref-type="bibr">2005</xref>). Lower RMSE values indicate greater similarity in curve shape, reflecting similar species turnover structure and community composition patterns between zone. In this study, EZ were compared with each core vegetation–climate zone.</p><p>Zeta‐diversity was calculated up to a zeta order of 50 for each vegetation–climate zone diversity (McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>). Limiting the analyses to ≤ 50 prevents instability at higher orders, where zeta diversity approaches zero, and enables reliable interpretation of species turnover structure (Hui and McGeoch <xref rid="ece374306-bib-0020" ref-type="bibr">2014</xref>; McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>). Statistical significance of RMSE values was assessed using 2000 bootstrap iterations. The RMSE calculation method is presented below.<disp-formula id="ece374306-disp-0005">
+<label>(4)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext mathvariant="italic">RMSE</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mn>50</mml:mn></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>50</mml:mn></mml:munderover><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">x</italic>
+<sub>
+<italic toggle="yes">i</italic>
+</sub> and <italic toggle="yes">yi</italic> represent the zeta‐diversity values of the two curves at the same zeta order.</p><p>The zeta‐ratio was analyzed to evaluate species persistence and regional similarity diversity (Hui and McGeoch <xref rid="ece374306-bib-0020" ref-type="bibr">2014</xref>; McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>). The zeta‐ratio represents the probability that a species appearing in the (<italic toggle="yes">n</italic>–1)th survey plot will also occur in the nth survey plot and is calculated using the following equation (Hui and McGeoch <xref rid="ece374306-bib-0020" ref-type="bibr">2014</xref>; McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>).<disp-formula id="ece374306-disp-0006">
+<label>(5)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="normal">ζ</mml:mi><mml:mtext mathvariant="italic">ratio</mml:mtext></mml:msub><mml:mfenced close=")" open="("><mml:mi>i</mml:mi></mml:mfenced><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:msub><mml:mi mathvariant="normal">ζ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mi mathvariant="normal">ζ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>ζi: the ith zeta‐diversity (the mean number of shared species among i survey plots). ζi + 1: the (i + 1)th zeta diversity.</p><p>To infer ecological assembly processes in EZ and vegetation–climate zones, power‐law and exponential models were compared. The exponential model interprets species turnover as a stochastic process based on neutral theory, whereas the power‐law model interprets it as a deterministic process driven by niche‐ and environment‐based filtering (Hui and McGeoch <xref rid="ece374306-bib-0020" ref-type="bibr">2014</xref>; McGeoch et al. <xref rid="ece374306-bib-0039" ref-type="bibr">2019</xref>). Model fit was assessed using the Akaike information criterion (AIC). AIC evaluates the fit of statistical models while accounting for predictive performance and model complexity, thereby reducing the risk of overfitting. AIC values may be positive or negative, and smaller values indicate a better‐fitting model (Akaike <xref rid="ece374306-bib-0001" ref-type="bibr">1974</xref>).</p></sec></sec><sec sec-type="results" id="ece374306-sec-0007"><label>3</label><title>Results</title><sec id="ece374306-sec-0008"><label>3.1</label><title>Spatial Classification of Ecotones Based on Entropy Thresholds</title><p>The Shannon and Simpson entropy indices were used to quantify the heterogeneity of vegetation–climate zone compositions within the 11 × 13 km grid (Figure <xref rid="ece374306-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374306-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Spatial variation of Shannon entropy across vegetation–climate zones.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-16-e74306-g001.webp"><?image-name ECE3-16-e74306-g001.webp?><?image-size 21984?><?image-md5 8cbaaa0ae066bc8ccca5856830ccceb6?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 392?><?image-original-width 1064?><?image-scaled-height 392?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/133f/13546866/8cbaaa0ae066/ECE3-16-e74306-g001.webp?><?thumb-name ECE3-16-e74306-g001.gif?><?thumb-size 4589?><?thumb-md5 32e62aa61d8af1365fc16a7e843777b5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 74?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/133f/13546866/32e62aa61d8a/ECE3-16-e74306-g001.gif?></graphic></fig><p>Cells classified as EZ consistently showed the highest Shannon and Simpson index values across all thresholds. In particular, Shannon entropy in EZ increased from 0.441 to 0.497 as the threshold increased from 50% to 70%. In contrast, the Simpson index decreased slightly from 0.809 to 0.704, reflecting a slight reduction in homogeneity in vegetation–climate zone composition while certain vegetation–climate types became increasingly dominant.</p><p>The core vegetation–climate zones (CTZ, NTZ, STZ, WTZ) showed lower entropy values than EZ, and the differences increased as the threshold increased. At a 70% threshold, the Shannon index for EZ (0.497) was approximately 1.5–6 times higher than those of CTZ (0.286), NTZ (0.212), STZ (0.275), and WTZ (0.085).</p><p>At the 70% threshold, EZ accounted for approximately 29% of the total analyzed area and were primarily distributed in the central and northern regions of South Korea. The entropy separation between EZ and core zones remained stable across thresholds (ΔShannon = 0.468–0.510; Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S1</xref>) and across grid sizes (ΔShannon = 0.446–0.462; Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S2</xref>), indicating that EZ identification was robust to both threshold choice and spatial resolution. Validation against independent species data showed that EZ occupied intermediate positions in endemic, endangered, and total species richness relative to neighboring vegetation–climate zones (Kruskal–Wallis, all <italic toggle="yes">p</italic> &lt; 0.001; Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S3</xref>). Alien species richness was the sole exception, peaking in EZ (see Discussion).</p></sec><sec id="ece374306-sec-0009"><label>3.2</label><title>Comparison of Environmental and Ecological Factors</title><p>Table <xref rid="ece374306-tbl-0001" ref-type="table">1</xref> presents the comparison of environmental and ecological variables among vegetation–climate zones. EZ showed intermediate values for all variables (Table <xref rid="ece374306-tbl-0001" ref-type="table">1</xref>). Statistically significant differences were observed for eight variables, indicating clear environmental and ecological differentiation among vegetation–climate zones (<italic toggle="yes">p</italic> &lt; 0.01).</p><table-wrap position="float" id="ece374306-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Results of one‐way ANOVA comparing environmental and ecological indices among vegetation–climate zones.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Index</th><th align="center" valign="bottom" rowspan="1" colspan="1">EZ</th><th align="center" valign="bottom" rowspan="1" colspan="1">NTZ</th><th align="center" valign="bottom" rowspan="1" colspan="1">CTZ</th><th align="center" valign="bottom" rowspan="1" colspan="1">STZ</th><th align="center" valign="bottom" rowspan="1" colspan="1">WTZ</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Temperature (°C)**</td><td align="center" valign="top" rowspan="1" colspan="1">11.21 ± 0.07<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.44 ± 0.08<sup>e</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">10.82 ± 0.05<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">11.97 ± 0.04<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">13.45 ± 0.04<sup>a</sup>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Precipitation (mm)**</td><td align="center" valign="top" rowspan="1" colspan="1">1263.21 ± 7.21<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1316.76 ± 7.76<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1262.61 ± 4.45<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1216.16 ± 6.24<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1376.25 ± 10.70<sup>a</sup>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Slope (°)**</td><td align="center" valign="top" rowspan="1" colspan="1">14.90 ± 0.35<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">21.59 ± 0.29<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">12.96 ± 0.36<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">5.35 ± 0.37<sup>e</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">7.17 ± 0.36<sup>d</sup>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Altitude (m)**</td><td align="center" valign="top" rowspan="1" colspan="1">270.41 ± 10.64<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">688.69 ± 16.43<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">203.70 ± 8.13<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">42.70 ± 4.37<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">73.38 ± 5.52<sup>d</sup>
+</td></tr><tr><td align="left" colspan="6" valign="top" rowspan="1">Ecosystem service index</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">HQ**</td><td align="center" valign="top" rowspan="1" colspan="1">0.696 ± 0.009<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.841 ± 0.005<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.630 ± 0.013<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.430 ± 0.017<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.584 ± 0.011<sup>c</sup>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">WY (Mm<sup>3</sup>/grid/year)**</td><td align="center" valign="top" rowspan="1" colspan="1">352.98 ± 5.85<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">444.49 ± 7.17a<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">340.44 ± 5.84<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">285.02 ± 10.77<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">391.87 ± 9.41<sup>b</sup>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">SDR (ton/grid/year)**</td><td align="center" valign="top" rowspan="1" colspan="1">45.74 ± 1.43<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">68.34 ± 2.25<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">35.60 ± 1.33<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">12.09 ± 0.81<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">33.65 ± 1.44<sup>c</sup>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bird diversity **</td><td align="center" valign="top" rowspan="1" colspan="1">19.77 ± 0.27<sup>c</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">16.05 ± 0.26<sup>d</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">20.67 ± 0.22<sup>bc</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">25.12 ± 0.79<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">22.21 ± 0.34<sup>b</sup>
+</td></tr></tbody></table><table-wrap-foot id="ece374306-ntgp-0001"><fn id="ece374306-note-0001"><p>
+<italic toggle="yes">Note:</italic> Different letters indicate significant differences among vegetation–climate zones based on Tukey's post hoc test (<italic toggle="yes">p</italic> &lt; 0.05). Values are presented as mean ± SE (**<italic toggle="yes">p</italic> &lt; 0.01).</p></fn></table-wrap-foot></table-wrap><p>Temperature and altitude were intermediate between NTZ and WTZ, while SDR was relatively high. HQ in EZ (0.696) was second only to NTZ (0.841).</p></sec><sec id="ece374306-sec-0010"><label>3.3</label><title>Species Composition Analysis</title><p>To investigate differences in biodiversity among vegetation–climate zones, grid‐based mean species richness analysis (Figure <xref rid="ece374306-fig-0003" ref-type="fig">3</xref>) and CCA were performed. Mean species richness in EZ was 607.8 ± 9.6, the second highest among all groups. The highest species richness was observed in NTZ (665.7 ± 18.5), and followed by CTZ (544.1 ± 13.5), WTZ (524.8 ± 12.8), and STZ (466.9 ± 18.9).</p><fig position="float" fig-type="FIGURE" id="ece374306-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Comparison of mean species richness across five vegetation–climate zones (F = 20.443, <italic toggle="yes">p</italic> &lt; 0.001). Different letters above the bars indicate significant differences based on Tukey's post hoc (<italic toggle="yes">p</italic> &lt; 0.05). Error bars represent standard errors (± SE).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-16-e74306-g006.webp"><?image-name ECE3-16-e74306-g006.webp?><?image-size 16246?><?image-md5 44afda173061ee40c5620e4ce76e0221?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 548?><?image-original-width 998?><?image-scaled-height 548?><?image-scaled-width 998?><?image-cloudpmc-urn urn:cdn:blobs/133f/13546866/44afda173061/ECE3-16-e74306-g006.webp?><?thumb-name ECE3-16-e74306-g006.gif?><?thumb-size 5680?><?thumb-md5 e5c8cb257c7a754ccddbb82858dc4a2e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 110?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/133f/13546866/e5c8cb257c7a/ECE3-16-e74306-g006.gif?></graphic></fig><p>Statistical analysis showed no significant difference between EZ and NTZ (<italic toggle="yes">p</italic> = 0.069), whereas EZ exhibited significantly higher species richness than CTZ and STZ (<italic toggle="yes">p</italic> &lt; 0.01).</p><p>The total inertia of the species data was 7.60, of which the eight environmental variables explained 0.49 (constrained inertia; 6.4% of the total; adjusted R<sup>2</sup> = 0.055). Of this constrained variation, the first two axes accounted for 86.5% (CCA1 = 57.2%, CCA2 = 29.3%), corresponding to 4.2% of the total inertia (Figure <xref rid="ece374306-fig-0004" ref-type="fig">4</xref>; Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S5</xref>). The relatively low proportion of total inertia explained is expected for a species matrix of this size (4712 species) and does not indicate a weak model, as the species–environment Pearson correlations were high (0.966 for CCA1 and 0.887 for CCA2) and the full model and first axis were statistically significant (998 permutations, <italic toggle="yes">p</italic> = 0.001). Multicollinearity among the environmental variables was acceptable (all VIF &lt; 10; maximum elevation = 7.10; Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S6</xref>), although elevation and slope were interpreted with caution owing to their moderate intercorrelation (<italic toggle="yes">r</italic> = 0.84). The four core vegetation–climate zones were clearly differentiated along CCA1 and CCA2, while EZ were located near the center of the CCA plane. In a contour overlay, species composition distributions of all vegetation–climate zones overlapped with EZ.</p><fig position="float" fig-type="FIGURE" id="ece374306-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Canonical correspondence analysis (CCA) ordination diagram of species composition across five vegetation–climate zones. The first two canonical axes accounted for 86.5% of the constrained variance (CCA1 = 57.2%, CCA2 = 29.3%). Permutation tests (998 runs) confirmed that the two axes were highly significant (<italic toggle="yes">p</italic> = 0.001). Black arrows (cut off = 0.2) indicate significant environmental variables correlated with species composition: Temperature (Temp.), precipitation (Prep.), water yield (WY), habitat quality (HQ), sediment delivery ratio (SDR), altitude (Alt.), and slope (Slo.).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-16-e74306-g002.webp"><?image-name ECE3-16-e74306-g002.webp?><?image-size 61100?><?image-md5 1bd444eef4f38908928a1216d939cdb0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 937?><?image-original-width 998?><?image-scaled-height 937?><?image-scaled-width 998?><?image-cloudpmc-urn urn:cdn:blobs/133f/13546866/1bd444eef4f3/ECE3-16-e74306-g002.webp?><?thumb-name ECE3-16-e74306-g002.gif?><?thumb-size 13796?><?thumb-md5 f65cef5650d2fdacf80a84e4e88c8209?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 188?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/133f/13546866/f65cef5650d2/ECE3-16-e74306-g002.gif?></graphic></fig><p>Analysis of correlations among environmental variables showed that temperature was strongly correlated with precipitation, slope, altitude, SDR, HQ, and WY (cut‐off = 0.2).</p><p>Overall, the analysis shows that differences in species composition among vegetation–climate zones are strongly associated with environmental factors and ecosystem service indices. In particular, EZ were visually identified as ecological transition zones characterized by complex interactions among these factors.</p><p>MRPP analysis was performed to test statistical differences in species composition among vegetation–climate zones (Table <xref rid="ece374306-tbl-0002" ref-type="table">2</xref>). The results showed significant differences in species composition between groups (<italic toggle="yes">p</italic> &lt; 0.001), indicating that each vegetation–climate zone retained a distinct species composition structure.</p><table-wrap position="float" id="ece374306-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Results of multi‐response permutation procedure (MRPP) comparing species composition among vegetation–climate zones.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Compared groups</th><th align="center" valign="bottom" rowspan="1" colspan="1">T</th><th align="center" valign="bottom" rowspan="1" colspan="1">A</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−96.827</td><td align="center" valign="top" rowspan="1" colspan="1">0.1626</td><td align="center" rowspan="10" valign="top" colspan="1">All pairwise comparisons &lt; 0.001</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−27.714</td><td align="center" valign="top" rowspan="1" colspan="1">0.0317</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. STZ</td><td align="center" valign="top" rowspan="1" colspan="1">−56.526</td><td align="center" valign="top" rowspan="1" colspan="1">0.0759</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. WTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−146.684</td><td align="center" valign="top" rowspan="1" colspan="1">0.1264</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ vs. STZ</td><td align="center" valign="top" rowspan="1" colspan="1">−57.197</td><td align="center" valign="top" rowspan="1" colspan="1">0.0643</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ vs. CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−147.401</td><td align="center" valign="top" rowspan="1" colspan="1">0.1648</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−162.703</td><td align="center" valign="top" rowspan="1" colspan="1">0.2353</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">STZ vs. CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−52.648</td><td align="center" valign="top" rowspan="1" colspan="1">0.0949</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">STZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−96.916</td><td align="center" valign="top" rowspan="1" colspan="1">0.3258</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CTZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−93.009</td><td align="center" valign="top" rowspan="1" colspan="1">0.2308</td></tr></tbody></table><table-wrap-foot id="ece374306-ntgp-0002"><fn id="ece374306-note-0002"><p>
+<italic toggle="yes">Note:</italic> T statistics indicate greater heterogeneity between groups, and higher A statistics represent stronger within‐group agreement. Significant differences among groups were confirmed at <italic toggle="yes">p</italic> &lt; 0.001.</p></fn></table-wrap-foot></table-wrap><p>The key contrast relevant to our hypotheses was that EZ showed the lowest A‐value with CTZ (A = 0.0317), the greatest compositional overlap among all pairwise comparisons, whereas EZ–NTZ and EZ–WTZ showed higher A‐values, indicating clearer compositional separation (Table <xref rid="ece374306-tbl-0002" ref-type="table">2</xref>). Although the EZ–CTZ value falls below the A ≥ 0.1 threshold for strong differentiation (McCune et al. <xref rid="ece374306-bib-0038" ref-type="bibr">2002</xref>), the comparison remained statistically significant (<italic toggle="yes">p</italic> &lt; 0.001). Full pairwise T‐ and A‐values are provided in Table <xref rid="ece374306-tbl-0002" ref-type="table">2</xref>.</p></sec><sec id="ece374306-sec-0011"><label>3.4</label><title>Zeta‐Diversity and Species Turnover</title><p>To quantify differences in shared species structure among vegetation–climate zones, zeta‐diversity was analyzed (Figure <xref rid="ece374306-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374306-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Zeta‐diversity decline (left) and zeta ratio (right) across five vegetation–climate zones (EZ, NTZ, CTZ, STZ, WTZ). EZ‐CTZ showed highly similar decline patterns, with the lowest RMSE value (11.96), indicating compositional similarity. In contrast, STZ, WTZ, and EZ exhibited unimodal zeta‐ratio curves, reflecting localized compositional turnover followed by partial stabilization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ECE3-16-e74306-g003.webp"><?image-name ECE3-16-e74306-g003.webp?><?image-size 27386?><?image-md5 9c0d0a6c90da0e3aec31a6d5cce396a3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 407?><?image-original-width 1064?><?image-scaled-height 407?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/133f/13546866/9c0d0a6c90da/ECE3-16-e74306-g003.webp?><?thumb-name ECE3-16-e74306-g003.gif?><?thumb-size 4810?><?thumb-md5 ead43f8936cd5ec15a7d0c0411a2b4ab?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 77?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/133f/13546866/ead43f8936cd/ECE3-16-e74306-g003.gif?></graphic></fig><p>Across all vegetation–climate zones, increasing zeta order was accompanied with an exponential decrease in zeta diversity, reflecting typical species turnover patterns in which the number of shared species declines sharply as the order increases.</p><p>The decline curve for EZ was intermediate relative to those of NTZ, STZ, and WTZ, indicating species turnover characteristics that were neither highly dynamic (high turnover) nor highly stable (low turnover).</p><p>NTZ showed the shallowest decline among all groups. The zeta ratio tended to converge toward 1 as zeta order increased in most zones, whereas STZ, WTZ, and EZ showed unimodal patterns.</p><p>RMSE analysis of the zeta‐diversity decline curves (Table <xref rid="ece374306-tbl-0003" ref-type="table">3</xref>) confirmed that EZ and CTZ had the most similar turnover patterns (lowest RMSE among EZ comparisons), consistent with their overlapping decline curves. Detailed RMSE values for all comparisons are provided in Table <xref rid="ece374306-tbl-0003" ref-type="table">3</xref>. In all comparisons, bootstrap‐based <italic toggle="yes">p</italic>‐values were ≥ 0.5, indicating no statistical significance. Nevertheless, RMSE was interpreted as a supporting metric for evaluating relative similarity among curves rather than as a formal statistical test.</p><table-wrap position="float" id="ece374306-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Root mean square error (RMSE) values comparing zeta‐diversity decline curves among vegetation–climate zones.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Compared groups</th><th align="center" valign="bottom" rowspan="1" colspan="1">RMSE</th><th align="center" valign="bottom" rowspan="1" colspan="1">95% CI (min–max)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">28.18</td><td align="center" valign="top" rowspan="1" colspan="1">24.66–31.69</td><td align="center" valign="top" rowspan="1" colspan="1">0.532</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">11.96</td><td align="center" valign="top" rowspan="1" colspan="1">5.29–18.35</td><td align="center" valign="top" rowspan="1" colspan="1">0.563</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. STZ</td><td align="center" valign="top" rowspan="1" colspan="1">41.36</td><td align="center" valign="top" rowspan="1" colspan="1">31.13–51.94</td><td align="center" valign="top" rowspan="1" colspan="1">0.546</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ vs. WTZ</td><td align="center" valign="top" rowspan="1" colspan="1">42.09</td><td align="center" valign="top" rowspan="1" colspan="1">34.82–48.93</td><td align="center" valign="top" rowspan="1" colspan="1">0.517</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ vs. STZ</td><td align="center" valign="top" rowspan="1" colspan="1">9.97</td><td align="center" valign="top" rowspan="1" colspan="1">4.76–15.42</td><td align="center" valign="top" rowspan="1" colspan="1">0.563</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ vs. CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">36.32</td><td align="center" valign="top" rowspan="1" colspan="1">31.75–40.88</td><td align="center" valign="top" rowspan="1" colspan="1">0.513</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">69.96</td><td align="center" valign="top" rowspan="1" colspan="1">59.28–80.24</td><td align="center" valign="top" rowspan="1" colspan="1">0.522</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">STZ vs. CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">33.70</td><td align="center" valign="top" rowspan="1" colspan="1">29.29–38.30</td><td align="center" valign="top" rowspan="1" colspan="1">0.530</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">STZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">68.91</td><td align="center" valign="top" rowspan="1" colspan="1">55.58–82.83</td><td align="center" valign="top" rowspan="1" colspan="1">0.544</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CTZ vs. NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">35.83</td><td align="center" valign="top" rowspan="1" colspan="1">26.46–45.22</td><td align="center" valign="top" rowspan="1" colspan="1">0.545</td></tr></tbody></table></table-wrap><p>To ascertain the ecological mechanisms underlying zeta‐diversity declines, AIC values of exponential and power‐law models were compared (Table <xref rid="ece374306-tbl-0004" ref-type="table">4</xref>).</p><table-wrap position="float" id="ece374306-tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>AIC values of exponential (Exp.) and power‐law (PL) models fitted to zeta‐diversity decline curves for each vegetation–climate zone.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Index</th><th align="center" valign="bottom" rowspan="1" colspan="1">Exp.</th><th align="center" valign="bottom" rowspan="1" colspan="1">Pl.</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">EZ</td><td align="center" valign="top" rowspan="1" colspan="1">31.0623*</td><td align="center" valign="top" rowspan="1" colspan="1">373.8543</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">NTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−87.9591</td><td align="center" valign="top" rowspan="1" colspan="1">−286.7744*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CTZ</td><td align="center" valign="top" rowspan="1" colspan="1">−91.7867</td><td align="center" valign="top" rowspan="1" colspan="1">−720.51775*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">STZ</td><td align="center" valign="top" rowspan="1" colspan="1">88.8223*</td><td align="center" valign="top" rowspan="1" colspan="1">232.5401</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WTZ</td><td align="center" valign="top" rowspan="1" colspan="1">1026.1650*</td><td align="center" valign="top" rowspan="1" colspan="1">1359.9460</td></tr></tbody></table><table-wrap-foot id="ece374306-ntgp-0003"><fn id="ece374306-note-0003"><p>
+<italic toggle="yes">Note:</italic> Asterisks (*) indicate the model supported for each vegetation–climate zone (i.e., the lower AIC value).</p></fn></table-wrap-foot></table-wrap><p>In EZ, the exponential model showed a lower AIC value (31.06) than the power‐law model (373.85), indicating the dominance of stochastic processes. This indicates that species turnover in EZ is influenced less by deterministic environmental factors and more by random spatial distribution and intermediate disturbance.</p><p>However, this stochastic turnover does not indicate ecological instability. Instead, it indicates that EZ maintain relative stability while sharing species composition with multiple climate zones, providing quantitative evidence for their role as ecological buffer zones.</p><p>In contrast, in CTZ, the power‐law model showed a lower AIC value (−720.52) than the exponential model (−91.79), indicating a stronger influence of deterministic assembly mechanisms. This indicates that CTZ is more directly affected by environmental gradients (particularly temperature and precipitation) and that species composition is structured by environmental filtering.</p><p>Although EZ and CTZ showed the highest similarity in species turnover in the zeta‐diversity decline and RMSE analyses, different ecological assembly models were supported for each zone. This indicates that these two zones form a transitional complex where, despite spatial adjacency, different ecological processes operate.</p><p>The coexistence of these mechanisms may drive long‐term dynamic turnover in EZ and contribute to their sensitivity to biodiversity changes under climate change. For NTZ, the power‐law model showed a lower AIC value (−286.77) than the exponential model (−87.96), indicating the dominance of deterministic assembly mechanisms. This reflects the strong climatic and topographic constraints of this high‐latitude, high‐altitude environment, where species composition is structured by environmental filtering. As such, NTZ contains species adapted to extreme conditions and is ecogeographically important as a potential refugium under climate change.</p><p>Meanwhile, STZ and WTZ showed positive AIC values for both models, but the exponential model (AIC = 88.82 and 1026.17) showed a better fit, indicating the relative dominance of stochastic processes. This indicates ongoing species dispersal under relatively stable climatic conditions and facilitated exchange between regions. In other words, these zones function as open ecosystems with gradual spatial turnover due to weaker environmental constrictions.</p><p>In summary, our results show that EZ follow a stochastic turnover process while also being influenced by deterministic processes from the adjacent CTZ. Therefore, EZ function as ecological junctions where two mechanisms for ecological change coexist and interact. This complexity contributes to the high heterogeneity and ecological sensitivity of EZ.</p></sec></sec><sec sec-type="discussion" id="ece374306-sec-0012"><label>4</label><title>Discussion</title><sec id="ece374306-sec-0013"><label>4.1</label><title>Environmental Characteristics and Buffering Role of Ecotone Zones</title><p>The consistently higher Shannon and Simpson entropy values in EZ relative to all core zones (Section <xref rid="ece374306-sec-0008" ref-type="sec">3.1</xref>) indicate that EZ function as transition zones characterized by a high diversity of vegetation types, consistent with their landscape‐scale definition as ecotone‐probable grids (Section <xref rid="ece374306-sec-0003" ref-type="sec">2.1</xref>). Across environmental and ecosystem‐service variables, EZ exhibited intermediate values (Section <xref rid="ece374306-sec-0009" ref-type="sec">3.2</xref>), and this transitional positioning suggests that EZ do not simply average the conditions of adjacent zones but instead integrate distinct thermal, topographic, and hydrological gradients into a single spatial unit, functioning as structural buffers (Jiang et al. <xref rid="ece374306-bib-0022" ref-type="bibr">2012</xref>). This structural diversity has been linked to temperate forest productivity and improved ecosystem functioning (Park, Park, et al. <xref rid="ece374306-bib-0052" ref-type="bibr">2019</xref>).</p><p>Consistent with this interpretation, the relatively high SDR observed in EZ (Section <xref rid="ece374306-sec-0009" ref-type="sec">3.2</xref>) may reflect active soil material circulation associated with their transitional topographic position, while the elevated HQ (0.696, second only to NTZ) suggests generally favorable habitat conditions within these zones.</p><p>The coexistence of multiple vegetation–climate zones within a limited area indicates that EZ increase environmental heterogeneity and may enhance resilience to climate change or disturbance through various feedback mechanisms (Ries et al. <xref rid="ece374306-bib-0057" ref-type="bibr">2004</xref>; Hufkens et al. <xref rid="ece374306-bib-0019" ref-type="bibr">2009</xref>). Such transition zones are generally understood to improve ecosystem stability by dispersing ecological stress spatially and maintaining biological connectivity between neighboring habitats (Kark <xref rid="ece374306-bib-0025" ref-type="bibr">2012</xref>). In the monsoon climate and complex topography of South Korea (Moon et al. <xref rid="ece374306-bib-0043" ref-type="bibr">2017</xref>), this buffering function may be particularly relevant: Mid‐latitude EZ at the boundaries of deciduous broadleaf and mixed coniferous–broadleaf forests can function as corridors for species migration and help maintain biodiversity under rapid changes in temperature or moisture (Lee et al. <xref rid="ece374306-bib-0032" ref-type="bibr">2025</xref>).</p><p>Maintaining the structural and environmental integrity of EZ may therefore contribute to the climate‐change resilience and adaptability of forest ecosystems.</p></sec><sec id="ece374306-sec-0014"><label>4.2</label><title>Species Richness and Compositional Overlap With Adjacent Zones</title><p>The near‐parity in species richness between EZ and NTZ—two zones with markedly different environmental templates—points to distinct underlying mechanisms converging on a similar richness outcome: environmental filtering in the climatically extreme NTZ versus species‐pool mixing in the environmentally intermediate EZ. This pattern is consistent with the mid‐domain effect, in which biodiversity peaks in the intermediate portions of environmental gradients as a result of overlapping species ranges (Colwell and Lees <xref rid="ece374306-bib-0007" ref-type="bibr">2000</xref>). EZ represent areas where climatic and topographic conditions overlap, creating habitat conditions that facilitate the coexistence of diverse plant species, as reported for mountainous and temperate forest transition zones where species composition and structural diversity are maximized in mid‐altitude or transitional environments (Rahbek <xref rid="ece374306-bib-0055" ref-type="bibr">1995</xref>; Grytnes <xref rid="ece374306-bib-0017" ref-type="bibr">2003</xref>).</p><p>However, elevated richness in transitional zones does not intrinsically indicate ecological stability. EZ contain diverse habitat patches and maintain high biodiversity but remain in a state of dynamic equilibrium that habitat fragmentation or boundary expansion from human activity could easily disrupt (Jetz and Fine <xref rid="ece374306-bib-0021" ref-type="bibr">2012</xref>; Haddad et al. <xref rid="ece374306-bib-0018" ref-type="bibr">2015</xref>). Consistent with this, our independent validation showed that alien species richness peaked in EZ rather than in any core zone (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S2</xref>), indicating that the same edge conditions that elevate native and endemic richness also render EZ susceptible to invasion by disturbance‐tolerant and alien species. EZ therefore combine high conservation value with heightened invasion risk, and species composition—particularly the influx of ecologically disruptive alien species—should be prioritized for biodiversity monitoring.</p><p>By contrast, the southern temperate mixed evergreen–deciduous broadleaf forest zone (WTZ) showed relatively low species abundance despite occupying the largest area (32.9%) of the analyzed grid, contrary to the species–area hypothesis, which predicts that richness typically increases with area (Connor and McCoy <xref rid="ece374306-bib-0008" ref-type="bibr">1979</xref>; McGuinness <xref rid="ece374306-bib-0040" ref-type="bibr">1984</xref>). Climatically stable and homogeneous environments have been reported to maintain lower richness (Currie <xref rid="ece374306-bib-0010" ref-type="bibr">1991</xref>); as WTZ has a relatively stable climate and simple topographic structure, it provides fewer ecological niches and exhibits high homogeneity in species composition.</p><p>These patterns were also evident in the CCA, where EZ were located near the center of the environmental vectors and reflected factors from several neighboring zones simultaneously, indicating that species composition in EZ is strongly influenced by environmental gradients. Although this may appear to contrast with the stochastic turnover observed in the zeta‐diversity analyses, the difference likely arises from scale effects: Stochastic assembly may dominate at broader spatial scales among zones, whereas environmental filtering remains influential at intra‐zonal scales (Leibold et al. <xref rid="ece374306-bib-0033" ref-type="bibr">2004</xref>; Chase and Myers <xref rid="ece374306-bib-0004" ref-type="bibr">2011</xref>). This filtering signal is reflected in the strong correlation of temperature with precipitation, slope, altitude, SDR, HQ, and WY, pointing to temperature as a key factor representing topographic stability and ecological condition across zones, while the combination of intermediate altitude and SDR with relatively high HQ in EZ indicates that these areas are both physically and ecologically heterogeneous, consistent with their central position in the CCA ordination space.</p><p>The compositional continuity between EZ and CTZ, contrasted with the sharper separation from NTZ and WTZ (Section <xref rid="ece374306-sec-0010" ref-type="sec">3.3</xref>), suggests that EZ assembly is shaped less by uniform mixing of all neighboring pools and more by asymmetric dispersal from the climatically and topographically closer CTZ, consistent with a source–sink framework in which propagule pressure from the nearest, most similar zone disproportionately structures the transitional community (Kark <xref rid="ece374306-bib-0025" ref-type="bibr">2012</xref>). The elevated richness in EZ (607.8 ± 9.6) may thus reflect the mixing of species pools from adjacent zones rather than the presence of unique ecotone‐specialist species, consistent with the species‐mixing hypothesis (Kark <xref rid="ece374306-bib-0025" ref-type="bibr">2012</xref>) and the intermediate position of EZ in the CCA ordination space. Under future disturbance or intensified climate change, turnover between EZ and CTZ may either stabilize or accelerate (Allen and Breshears <xref rid="ece374306-bib-0002" ref-type="bibr">1998</xref>), and increased sensitivity to disturbance may in the long term accelerate species reassembly or ecotone shifts (Gosz <xref rid="ece374306-bib-0015" ref-type="bibr">1993</xref>). Overall, EZ function as mediation zones where continuity and heterogeneity of species composition coexist, so that their compositional similarity with neighboring zones can be read both as an indicator of ecosystem stability and as an early signal of ecological change—reinforcing the rationale for prioritizing EZ in protected‐area management and biodiversity monitoring.</p></sec><sec id="ece374306-sec-0015"><label>4.3</label><title>Species Turnover and Community Assembly Processes</title><p>In the zeta‐diversity analyses, all vegetation–climate zones showed the typical exponential decrease in shared species with increasing zeta order. In EZ, however, rapid turnover in localized composition at low zeta orders (ζ<sub>1</sub>–ζ<sub>10</sub>) gave way to a unimodal pattern at higher orders (≥ζ<sub>24</sub>), indicating that EZ initially contain mixtures of species from multiple zones but become dominated by specific assemblages as spatial scale increases—functioning both as compositional buffers and as habitats characterized by turnover and partial stability (Gosz <xref rid="ece374306-bib-0015" ref-type="bibr">1993</xref>; Risser <xref rid="ece374306-bib-0058" ref-type="bibr">1995</xref>). Consistent with this, the intermediate zeta‐diversity decline of EZ relative to NTZ, STZ, and WTZ (Section <xref rid="ece374306-sec-0011" ref-type="sec">3.4</xref>) indicates a transitional (ecotonal) structure that partially shares composition with surrounding zones while retaining a degree of compositional independence. The unimodal zeta‐ratio patterns shared by EZ, STZ, and WTZ further suggest partial compositional stability at intermediate zeta orders, consistent with the “ecotone resilience” concept of Jiang et al. (<xref rid="ece374306-bib-0022" ref-type="bibr">2012</xref>); this contrasts with the expectation of highly dynamic boundaries (D'Odorico et al. <xref rid="ece374306-bib-0013" ref-type="bibr">2013</xref>) and aligns more closely with the “static ecotone” hypothesis of Tölgyesi et al. (<xref rid="ece374306-bib-0066" ref-type="bibr">2016</xref>) and Peringer and Rosenthal (<xref rid="ece374306-bib-0054" ref-type="bibr">2011</xref>), in which dispersal limitation and stochastic processes can maintain stable ecotone positions despite environmental change.</p><p>Although EZ and CTZ showed similar zeta‐diversity decline curves, their zeta‐ratio patterns differed, indicating that—despite comparable turnover rates—the two zones differ in species persistence and habitat selectivity: EZ exhibited dynamically balanced structures influenced by complex environmental conditions, whereas CTZ were shaped more strongly by deterministic environmental gradients, as supported by the AIC‐based model comparisons (Leibold et al. <xref rid="ece374306-bib-0033" ref-type="bibr">2004</xref>; Chase and Myers <xref rid="ece374306-bib-0004" ref-type="bibr">2011</xref>). The dominance of the exponential model in EZ suggests that stochastic processes—ecological drift, dispersal limitation, and random colonization—play a primary role in community assembly within these transition zones, consistent with metacommunity theory (Leibold et al. <xref rid="ece374306-bib-0033" ref-type="bibr">2004</xref>) and the finding that stochastic processes become increasingly important under high environmental heterogeneity or intermediate disturbance (Chase and Myers <xref rid="ece374306-bib-0004" ref-type="bibr">2011</xref>).</p><p>By contrast, NTZ showed a shallow zeta‐diversity decline and supported a power‐law model, indicating strong structuring by environmental filtering under cold, high‐altitude conditions (Vellend <xref rid="ece374306-bib-0068" ref-type="bibr">2010</xref>; Kraft et al. <xref rid="ece374306-bib-0030" ref-type="bibr">2015</xref>). Strong climatic constraints in this northern zone limit species turnover with neighboring zones and lead to specialized plant communities, so that NTZ maintains a heterogeneous species composition and may function as a refugium under climate change (Dobrowski <xref rid="ece374306-bib-0012" ref-type="bibr">2011</xref>). The STZ, in turn, showed the lowest species abundance and may represent a region where environmental warming and stabilization are simplifying community structure through dominance by certain species.</p><p>Finally, rising temperatures have been associated with gradual northward shifts of EZ in temperate forest vegetation (Song et al. <xref rid="ece374306-bib-0064" ref-type="bibr">2014</xref>). Our results indicate that species composition in South Korean temperate forests is not static but changes spatiotemporally in response to climate and disturbance, consistent with long‐term monitoring studies reporting continuous variation in turnover rates driven by interactions among climate, soil, and topographic factors (Jung et al. <xref rid="ece374306-bib-0024" ref-type="bibr">2021</xref>; Park and Cheon <xref rid="ece374306-bib-0049" ref-type="bibr">2025</xref>). EZ in South Korea should therefore be regarded as dynamic habitat boundaries under changing climatic conditions.</p></sec><sec id="ece374306-sec-0016"><label>4.4</label><title>Study Limitation</title><p>Several limitations should be noted. First, the 11 × 13 km grid resolution may obscure fine‐scale ecotone boundaries, which can range from meters to kilometers (Brownstein et al. <xref rid="ece374306-bib-0003" ref-type="bibr">2015</xref>). This resolution was adopted from the national survey's standard unit and reflects our landscape‐scale focus on identifying grid cells with a high probability of ecotonal structure rather than delineating individual boundaries; a grid‐size sensitivity analysis confirmed that EZ classification is robust across resolutions (Table <xref rid="ece374306-supitem-0001" ref-type="supplementary-material">S2</xref>). Second, the Nationwide Survey data may carry spatial sampling biases toward accessible areas, which could underrepresent species richness in remote high‐altitude NTZ cells. Third, the vegetation‐climate zone boundaries used as input data carry inherent classification uncertainty (Rocchini et al. <xref rid="ece374306-bib-0059" ref-type="bibr">2013</xref>; Feilhauer et al. <xref rid="ece374306-bib-0014" ref-type="bibr">2021</xref>). Fourth, the climate data (WorldClim 1970–2000 normals) and the vegetation survey (2006–2023) differ in their reference periods. We used 30‐year climatic normals to represent the long‐term spatial climatic gradient to which vegetation–climate zones respond; because the south–north spatial gradient in annual mean temperature across South Korea (approximately 6.4°C, from 16.6°C in the far south to 10.2°C in the far north; Park, Kim, et al. <xref rid="ece374306-bib-0051" ref-type="bibr">2019</xref>) is roughly an order of magnitude larger than the warming over the intervening period (approximately 0.3°C, at a non‐urban station rate of 0.11°C decade<sup>−1</sup>; Kim et al. <xref rid="ece374306-bib-0026" ref-type="bibr">2016</xref>), the choice of reference period does not materially alter the spatial gradient structure. Nevertheless, our climate–vegetation relationships should be interpreted as correlative associations along a long‐term spatial gradient rather than as temporally matched climate effects. Finally, our analysis is cross‐sectional and cannot capture temporal shifts in EZ position in response to climate change, which is a critical dimension for conservation planning (Virtanen et al. <xref rid="ece374306-bib-0069" ref-type="bibr">2010</xref>).</p></sec></sec><sec sec-type="conclusions" id="ece374306-sec-0017"><label>5</label><title>Conclusion</title><p>In this study, the spatial distribution and ecological characteristics of EZ were quantitatively assessed across temperate forest vegetation–climate zones in South Korea. EZ exhibited intermediate environmental conditions and transitional species composition relative to adjacent regions, together with high entropy and intermediate levels of species turnover—patterns consistent with a transitional, buffering character. These patterns suggest that EZ may contribute to biodiversity maintenance, although their functional roles and responses to climate change were not directly tested here and warrant dedicated investigation.</p><p>In the future, more precise identification of indicator species and ecotone delineation could be achieved by integrating population counts or cover‐based quantitative data.</p><p>Long‐term ecological monitoring of EZ is also important for the early detection of habitat changes that are particularly sensitive to climate change and could serve a core indicator for proactive conservation and the development of national‐level management strategies.</p><p>As a central biodiversity conservation framework, the aim of KMGBF was to protect or restore at least 30% of land and sea areas by 2030 (Target 3). Achieving this international goal requires both quantitative expansion of protected areas and scientifically credible studies of diverse habitat environments. The EZ identified in this study occur at the intersection of climatic and vegetation gradients and are characterized by high species diversity and turnover. These patterns suggest that EZs may merit consideration as candidate areas in protected‐area planning, though translating these spatial patterns into specific management decisions will require further assessment of their conservation outcomes.</p></sec><sec id="ece374306-sec-0023"><title>Author Contributions</title><p>
+<bold>Byeong‐Joo Park:</bold> conceptualization (lead), data curation (lead), formal analysis (lead), investigation (lead), methodology (lead), supervision (supporting), visualization (lead), writing – original draft (lead), writing – review and editing (supporting). <bold>Eun‐Seo Lee:</bold> funding acquisition (supporting), investigation (supporting), writing – review and editing (supporting). <bold>Kwangil Cheon:</bold> funding acquisition (lead), investigation (supporting), project administration (lead), writing – review and editing (lead).</p></sec><sec id="ece374306-sec-0018"><title>Funding</title><p>This research was conducted as part of the National Institute of Ecology's “Study on the Thematic and Demand Assessment of Ecosystem Services” research project (Project No. NIE‐B‐2026‐03) and the Korea Environment Industry &amp; Technology Institute (KEITI) under the Climate Change R&amp;D Project for the New Climate Regime (RS‐2022‐KE002369).</p></sec><sec sec-type="COI-statement" id="ece374306-sec-0020"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece374306-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> Threshold‐sensitivity analysis for ecotone zone (EZ) classification.</p><p>
+<bold>Table S2:</bold> Grid‐size sensitivity analysis for EZ classification.</p><p>
+<bold>Table S3:</bold> Independent ecological validation of EZ classification using species data not used in the entropy‐based delineation.</p><p>
+<bold>Table S4:</bold> InVEST model input data, sources, and parameter settings for the ecosystem‐service indices (HQ, WY, SDR).</p><p>
+<bold>Table S5:</bold> Canonical correspondence analysis (CCA): partitioning of total and constrained inertia. Total inertia in species data: 7.6046. Constrained inertia (species–environment): 0.4884. Adjusted <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.0548. Global permutation <italic toggle="yes">p</italic> = 0.001.</p><p>
+<bold>Table S6:</bold> Variance inflation factors (VIF) for the environmental variables used in CCA.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-16-e74306-s001.docx" position="float" orientation="portrait"><?suppdata-name ECE3-16-e74306-s001.docx?><?suppdata-size 32326?><?suppdata-md5 c2e098fbce0b511390c1312b3499a067?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:133f/13546866/c2e098fbce0b/ECE3-16-e74306-s001.docx?></media></supplementary-material><supplementary-material id="ece374306-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Data S1:</bold> ece374306‐sup‐0002‐supinfo.xlsx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-16-e74306-s002.xlsx" position="float" orientation="portrait"><?suppdata-name ECE3-16-e74306-s002.xlsx?><?suppdata-size 201227?><?suppdata-md5 7b2fa03f4a768e3810dac4990dca6539?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:133f/13546866/7b2fa03f4a76/ECE3-16-e74306-s002.xlsx?></media></supplementary-material></sec></body><back><ack id="ece374306-sec-0019"><title>Acknowledgements</title><p>We thank all the participants involved in the National Ecosystem Survey for their contributions.</p></ack><sec sec-type="data-availability" id="ece374306-sec-0022"><title>Data Availability Statement</title><p>All the required data are uploaded as <xref rid="ece374306-supitem-0002" ref-type="supplementary-material">Supporting Information</xref>.</p></sec><ref-list content-type="cited-references" id="ece374306-bibl-0001"><title>References</title><ref id="ece374306-bib-0001"><mixed-citation publication-type="journal" id="ece374306-cit-0001">
+<string-name name-style="western">
+<surname>Akaike</surname>, <given-names>H.</given-names>
+</string-name>
+<year>1974</year>. “<article-title>A New Look at the Statistical Model Identification</article-title>.” <source>IEEE Transactions on Automatic Control</source>
+<volume>19</volume>: <fpage>716</fpage>–<lpage>723</lpage>. <pub-id pub-id-type="doi">10.1109/TAC.1974.1100705</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0002"><mixed-citation publication-type="journal" id="ece374306-cit-0002">
+<string-name name-style="western">
+<surname>Allen</surname>, <given-names>C. D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Breshears</surname>
+</string-name>. <year>1998</year>. “<article-title>Drought‐Induced Shift of a Forest–Woodland Ecotone: Rapid Landscape Response to Climate Variation</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>95</volume>, no. <issue>25</issue>: <fpage>14839</fpage>–<lpage>14842</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.95.25.14839</pub-id>.<pub-id pub-id-type="pmid">9843976</pub-id>
+<pub-id pub-id-type="pmcid">PMC24536</pub-id></mixed-citation></ref><ref id="ece374306-bib-0003"><mixed-citation publication-type="journal" id="ece374306-cit-0003">
+<string-name name-style="western">
+<surname>Brownstein</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Johns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Fletcher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Pritchard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. D.</given-names>
+<surname>Erskine</surname>
+</string-name>. <year>2015</year>. “<article-title>Ecotones as Indicators: Boundary Properties in Wetland‐Woodland Transition Zones</article-title>.” <source>Community Ecology</source>
+<volume>16</volume>, no. <issue>2</issue>: <fpage>235</fpage>–<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1556/168.2015.16.2.11</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0004"><mixed-citation publication-type="journal" id="ece374306-cit-0004">
+<string-name name-style="western">
+<surname>Chase</surname>, <given-names>J. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Myers</surname>
+</string-name>. <year>2011</year>. “<article-title>Disentangling the Importance of Ecological Niches From Stochastic Processes Across Scales</article-title>.” <source>Philosophical Transactions. Series B, Biological Sciences</source>
+<volume>366</volume>, no. <issue>1576</issue>: <fpage>2351</fpage>–<lpage>2363</lpage>. <pub-id pub-id-type="doi">10.1098/rstb.2011.0063</pub-id>.<pub-id pub-id-type="pmcid">PMC3130433</pub-id><pub-id pub-id-type="pmid">21768151</pub-id></mixed-citation></ref><ref id="ece374306-bib-0005"><mixed-citation publication-type="journal" id="ece374306-cit-0005">
+<string-name name-style="western">
+<surname>Choe</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Thorne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. R.</given-names>
+<surname>Huber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lee</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Quinn</surname>
+</string-name>. <year>2018</year>. “<article-title>Assessing Shortfalls and Complementary Conservation Areas for Plant Biodiversity in South Korea</article-title>.” <source>PLoS One</source>
+<volume>13</volume>, no. <issue>2</issue>: <elocation-id>e0190754</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0190754</pub-id>.<pub-id pub-id-type="pmid">29474355</pub-id>
+<pub-id pub-id-type="pmcid">PMC5825007</pub-id></mixed-citation></ref><ref id="ece374306-bib-0006"><mixed-citation publication-type="book" id="ece374306-cit-0006">
+<string-name name-style="western">
+<surname>Collinge</surname>, <given-names>S. K.</given-names>
+</string-name>
+<year>2009</year>. <source>Ecology of Fragmented Landscapes</source>. <publisher-name>Johns Hopkins University Press</publisher-name> Baltimore.</mixed-citation></ref><ref id="ece374306-bib-0007"><mixed-citation publication-type="journal" id="ece374306-cit-0007">
+<string-name name-style="western">
+<surname>Colwell</surname>, <given-names>R. K.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Lees</surname>
+</string-name>. <year>2000</year>. “<article-title>The Mid‐Domain Effect: Geometric Constraints on the Geography of Species Richness</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>15</volume>, no. <issue>2</issue>: <fpage>70</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1016/S0169-5347(99)01767-X</pub-id>.<pub-id pub-id-type="pmid">10652559</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0008"><mixed-citation publication-type="journal" id="ece374306-cit-0008">
+<string-name name-style="western">
+<surname>Connor</surname>, <given-names>E. F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>E. D.</given-names>
+<surname>McCoy</surname>
+</string-name>. <year>1979</year>. “<article-title>The Statistics and Biology of the Species‐Area Relationship</article-title>.” <source>American Naturalist</source>
+<volume>113</volume>, no. <issue>6</issue>: <fpage>791</fpage>–<lpage>833</lpage>. <pub-id pub-id-type="doi">10.1086/283438</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0009"><mixed-citation publication-type="miscellaneous" id="ece374306-cit-0009">
+<collab collab-type="authors">Convention on Biological Diversity</collab>
+. <year>2024</year>. <article-title>“Kunming–Montreal Global Biodiversity Framework.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cbd.int/gbf" ext-link-type="uri">https://www.cbd.int/gbf</ext-link>.</mixed-citation></ref><ref id="ece374306-bib-0010"><mixed-citation publication-type="journal" id="ece374306-cit-0010">
+<string-name name-style="western">
+<surname>Currie</surname>, <given-names>D. J.</given-names>
+</string-name>
+<year>1991</year>. “<article-title>Energy and Large‐Scale Patterns of Animal‐ and Plant‐Species Richness</article-title>.” <source>American Naturalist</source>
+<volume>137</volume>, no. <issue>1</issue>: <fpage>27</fpage>–<lpage>49</lpage>. <pub-id pub-id-type="doi">10.1086/285144</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0011"><mixed-citation publication-type="journal" id="ece374306-cit-0011">
+<string-name name-style="western">
+<surname>De Klerk</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. D.</given-names>
+<surname>Burgess</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Visser</surname>
+</string-name>. <year>2018</year>. “<article-title>Probabilistic Description of Vegetation Ecotones Using Remote Sensing</article-title>.” <source>Ecological Informatics</source>
+<volume>46</volume>: <fpage>125</fpage>–<lpage>132</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecoinf.2018.06.001</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0012"><mixed-citation publication-type="journal" id="ece374306-cit-0012">
+<string-name name-style="western">
+<surname>Dobrowski</surname>, <given-names>S. Z.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>A Climatic Basis for Microrefugia: The Influence of Terrain on Climate</article-title>.” <source>Global Change Biology</source>
+<volume>17</volume>, no. <issue>2</issue>: <fpage>1022</fpage>–<lpage>1035</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2010.02263.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0013"><mixed-citation publication-type="journal" id="ece374306-cit-0013">
+<string-name name-style="western">
+<surname>D'Odorico</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Collins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. F. J.</given-names>
+<surname>de Wekker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Engel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Fuentes</surname>
+</string-name>. <year>2013</year>. “<article-title>Vegetation–Microclimate Feedbacks in Woodland–Grassland Ecotones</article-title>.” <source>Global Ecology and Biogeography</source>
+<volume>22</volume>, no. <issue>4</issue>: <fpage>364</fpage>–<lpage>379</lpage>. <pub-id pub-id-type="doi">10.1111/geb.12000</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0014"><mixed-citation publication-type="journal" id="ece374306-cit-0014">
+<string-name name-style="western">
+<surname>Feilhauer</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zlinszky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kania</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Let Your Maps be Fuzzy!—Class Probabilities and Floristic Gradients as Alternatives to Crisp Mapping for Remote Sensing of Vegetation</article-title>.” <source>Remote Sensing in Ecological and Conservation</source>
+<volume>7</volume>, no. <issue>2</issue>: <fpage>292</fpage>–<lpage>305</lpage>. <pub-id pub-id-type="doi">10.1002/rse2.188</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0015"><mixed-citation publication-type="journal" id="ece374306-cit-0015">
+<string-name name-style="western">
+<surname>Gosz</surname>, <given-names>J. R.</given-names>
+</string-name>
+<year>1993</year>. “<article-title>Ecotone Hierarchies</article-title>.” <source>Ecological Applications</source>
+<volume>3</volume>, no. <issue>3</issue>: <fpage>369</fpage>–<lpage>376</lpage>. <pub-id pub-id-type="doi">10.2307/1941905</pub-id>.<pub-id pub-id-type="pmid">27759251</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0016"><mixed-citation publication-type="journal" id="ece374306-cit-0016">
+<string-name name-style="western">
+<surname>Gottfried</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Pauli</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Grabherr</surname>
+</string-name>. <year>1998</year>. “<article-title>Prediction of Vegetation Patterns at the Limits of Plant Life: A New View of the Alpine‐Nival Ecotone</article-title>.” <source>Arctic and Alpine Research</source>
+<volume>30</volume>, no. <issue>3</issue>: <fpage>207</fpage>–<lpage>221</lpage>. <pub-id pub-id-type="doi">10.1080/00040851.1998.12002894</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0017"><mixed-citation publication-type="journal" id="ece374306-cit-0017">
+<string-name name-style="western">
+<surname>Grytnes</surname>, <given-names>J. A.</given-names>
+</string-name>
+<year>2003</year>. “<article-title>Species–Richness Patterns of Vascular Plants Along Seven Altitudinal Transects in Norway</article-title>.” <source>Ecography</source>
+<volume>26</volume>, no. <issue>3</issue>: <fpage>291</fpage>–<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0587.2003.03358.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0018"><mixed-citation publication-type="journal" id="ece374306-cit-0018">
+<string-name name-style="western">
+<surname>Haddad</surname>, <given-names>N. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Brudvig</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Clobert</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Habitat Fragmentation and Its Lasting Impact on Earth's Ecosystems</article-title>.” <source>Science Advances</source>
+<volume>1</volume>, no. <issue>2</issue>: <elocation-id>e1500052</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.1500052</pub-id>.<pub-id pub-id-type="pmid">26601154</pub-id>
+<pub-id pub-id-type="pmcid">PMC4643828</pub-id></mixed-citation></ref><ref id="ece374306-bib-0019"><mixed-citation publication-type="journal" id="ece374306-cit-0019">
+<string-name name-style="western">
+<surname>Hufkens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Scheunders</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ceulemans</surname>
+</string-name>. <year>2009</year>. “<article-title>Ecotones in Vegetation Ecology: Methodologies and Definitions Revisited</article-title>.” <source>Ecological Research</source>
+<volume>24</volume>, no. <issue>5</issue>: <fpage>977</fpage>–<lpage>986</lpage>. <pub-id pub-id-type="doi">10.1007/s11284-009-0584-7</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0020"><mixed-citation publication-type="journal" id="ece374306-cit-0020">
+<string-name name-style="western">
+<surname>Hui</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>McGeoch</surname>
+</string-name>. <year>2014</year>. “<article-title>Zeta Diversity as a Concept and Metric That Unifies Incidence‐Based Biodiversity Patterns</article-title>.” <source>American Naturalist</source>
+<volume>184</volume>, no. <issue>5</issue>: <fpage>684</fpage>–<lpage>694</lpage>. <pub-id pub-id-type="doi">10.1086/678125</pub-id>.<pub-id pub-id-type="pmid">25325751</pub-id></mixed-citation></ref><ref id="ece374306-bib-0021"><mixed-citation publication-type="journal" id="ece374306-cit-0021">
+<string-name name-style="western">
+<surname>Jetz</surname>, <given-names>W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. V. A.</given-names>
+<surname>Fine</surname>
+</string-name>. <year>2012</year>. “<article-title>Global Gradients in Vertebrate Diversity Predicted by Historical Area‐Productivity Dynamics and Contemporary Environment</article-title>.” <source>PLoS Biology</source>
+<volume>10</volume>, no. <issue>3</issue>: <elocation-id>e1001292</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pbio.1001292</pub-id>.<pub-id pub-id-type="pmid">22479151</pub-id>
+<pub-id pub-id-type="pmcid">PMC3313913</pub-id></mixed-citation></ref><ref id="ece374306-bib-0022"><mixed-citation publication-type="journal" id="ece374306-cit-0022">
+<string-name name-style="western">
+<surname>Jiang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Gao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>DeAngelis</surname>
+</string-name>. <year>2012</year>. “<article-title>Towards a Theory of Ecotone Resilience: Coastal Vegetation on a Salinity Gradient</article-title>.” <source>Theoretical Population Biology</source>
+<volume>82</volume>, no. <issue>1</issue>: <fpage>29</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1016/j.tpb.2012.02.007</pub-id>.<pub-id pub-id-type="pmid">22441163</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0023"><mixed-citation publication-type="journal" id="ece374306-cit-0023">
+<string-name name-style="western">
+<surname>Jost</surname>, <given-names>L.</given-names>
+</string-name>
+<year>2006</year>. “<article-title>Entropy and Diversity</article-title>.” <source>Oikos</source>
+<volume>113</volume>, no. <issue>2</issue>: <fpage>363</fpage>–<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1111/j.2006.0030-1299.14714.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0024"><mixed-citation publication-type="journal" id="ece374306-cit-0024">
+<string-name name-style="western">
+<surname>Jung</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Sim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Bae</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y. C.</given-names>
+<surname>Cho</surname>
+</string-name>. <year>2021</year>. “<article-title>Processes Driving Understory Community Dynamics in Ulleungdo Island Broadleaved Forest, South Korea</article-title>.” <source>Ecological Research</source>
+<volume>36</volume>, no. <issue>4</issue>: <fpage>686</fpage>–<lpage>700</lpage>. <pub-id pub-id-type="doi">10.1111/1440-1703.12231</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0025"><mixed-citation publication-type="book" id="ece374306-cit-0025">
+<string-name name-style="western">
+<surname>Kark</surname>, <given-names>S.</given-names>
+</string-name>
+<year>2012</year>. “<part-title>Ecotones and Ecological Gradients</part-title>.” In <source>Ecological Systems</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Meyers</surname>
+</string-name>
+</person-group>, <fpage>147</fpage>–<lpage>160</lpage>. <publisher-name>Springer</publisher-name> New York.</mixed-citation></ref><ref id="ece374306-bib-0026"><mixed-citation publication-type="journal" id="ece374306-cit-0026">
+<string-name name-style="western">
+<surname>Kim</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y. S.</given-names>
+<surname>Chung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. P.</given-names>
+<surname>Tans</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Yoon</surname>
+</string-name>. <year>2016</year>. “<article-title>Climatological Variability of Air Temperature and Precipitation Observed in South Korea for the Last 50 Years</article-title>.” <source>Air Quality, Atmosphere &amp; Health</source>
+<volume>9</volume>, no. <issue>6</issue>: <fpage>645</fpage>–<lpage>651</lpage>. <pub-id pub-id-type="doi">10.1007/s11869-015-0366-z</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0027"><mixed-citation publication-type="book" id="ece374306-cit-0027">
+<string-name name-style="western">
+<surname>Kimmins</surname>, <given-names>J. P.</given-names>
+</string-name>
+<year>1997</year>. <source>Forest Ecology: A Foundation for Sustainable Management</source>. <publisher-name>Prentice Hall</publisher-name> Saddle River, NJ.</mixed-citation></ref><ref id="ece374306-bib-0028"><mixed-citation publication-type="book" id="ece374306-cit-0028">
+<collab collab-type="authors">Korea National Arboretum</collab>
+. <year>2020</year>. <source>Forest of Korea (IV) Biogeography of Korea: Flora and Vegetation</source>, <fpage>42</fpage>–<lpage>79</lpage>. <publisher-name>Sumeungil</publisher-name>, Seoul, Republic of Korea.</mixed-citation></ref><ref id="ece374306-bib-0029"><mixed-citation publication-type="journal" id="ece374306-cit-0029">
+<string-name name-style="western">
+<surname>Körner</surname>, <given-names>C.</given-names>
+</string-name>
+<year>2007</year>. “<article-title>The Use of ‘Altitude’ in Ecological Research</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>22</volume>, no. <issue>11</issue>: <fpage>569</fpage>–<lpage>574</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2007.09.006</pub-id>.<pub-id pub-id-type="pmid">17988759</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0030"><mixed-citation publication-type="journal" id="ece374306-cit-0030">
+<string-name name-style="western">
+<surname>Kraft</surname>, <given-names>N. J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Adler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Godoy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>James</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Fuller</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Levine</surname>
+</string-name>. <year>2015</year>. “<article-title>Community Assembly, Coexistence and the Environmental Filtering Metaphor</article-title>.” <source>Functional Ecology</source>
+<volume>29</volume>, no. <issue>5</issue>: <fpage>592</fpage>–<lpage>599</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2435.12345</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0031"><mixed-citation publication-type="journal" id="ece374306-cit-0031">
+<string-name name-style="western">
+<surname>Lavorel</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Grigulis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>McIntyre</surname>
+</string-name>, et al. <year>2008</year>. “<article-title>Assessing Functional Diversity in the Field–Methodology Matters!</article-title>” <source>Functional Ecology</source>
+<volume>22</volume>, no. <issue>1</issue>: <fpage>134</fpage>–<lpage>147</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2435.2007.01339.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0032"><mixed-citation publication-type="journal" id="ece374306-cit-0032">
+<string-name name-style="western">
+<surname>Lee</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y. J.</given-names>
+<surname>Yoo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. O.</given-names>
+<surname>Lim</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Impact Factor and the Range of Ecological Connectivity Change due to Development</article-title>.” <source>Environmental Research Communications</source>
+<volume>7</volume>: <elocation-id>e041007</elocation-id>. <pub-id pub-id-type="doi">10.1088/2515-7620/adc906</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0033"><mixed-citation publication-type="journal" id="ece374306-cit-0033">
+<string-name name-style="western">
+<surname>Leibold</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Holyoak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mouquet</surname>
+</string-name>, et al. <year>2004</year>. “<article-title>The Metacommunity Concept: A Framework for Multi‐Scale Community Ecology</article-title>.” <source>Ecology Letters</source>
+<volume>7</volume>: <fpage>601</fpage>–<lpage>613</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2004.00608.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0034"><mixed-citation publication-type="journal" id="ece374306-cit-0034">
+<string-name name-style="western">
+<surname>Maestre</surname>, <given-names>F. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Quero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Gotelli</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Plant Species Richness and Ecosystem Multifunctionality in Global Drylands</article-title>.” <source>Science</source>
+<volume>335</volume>: <fpage>214</fpage>–<lpage>218</lpage>. <pub-id pub-id-type="doi">10.1126/science.1215442</pub-id>.<pub-id pub-id-type="pmid">22246775</pub-id>
+<pub-id pub-id-type="pmcid">PMC3558739</pub-id></mixed-citation></ref><ref id="ece374306-bib-0035"><mixed-citation publication-type="book" id="ece374306-cit-0035">
+<string-name name-style="western">
+<surname>Magurran</surname>, <given-names>A. E.</given-names>
+</string-name>
+<year>2004</year>. <source>Measuring Biological Diversity</source>. <publisher-name>Blackwell Publishing</publisher-name> Oxford.</mixed-citation></ref><ref id="ece374306-bib-0036"><mixed-citation publication-type="journal" id="ece374306-cit-0036">
+<string-name name-style="western">
+<surname>Marfo</surname>, <given-names>T. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Resjek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Vranova</surname>
+</string-name>. <year>2018</year>. “<article-title>Spatial Variations in Soil Properties Across Ecotones: A Short Review</article-title>.” <source>Bulletin of Geography Physical Geography Series</source>
+<volume>14</volume>: <fpage>71</fpage>–<lpage>77</lpage>. <pub-id pub-id-type="doi">10.2478/bgeo-2018-0006</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0037"><mixed-citation publication-type="journal" id="ece374306-cit-0037">
+<string-name name-style="western">
+<surname>Marimon</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. D. S.</given-names>
+<surname>Lima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. G.</given-names>
+<surname>Duarte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. C.</given-names>
+<surname>Chieregatto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Ratter</surname>
+</string-name>. <year>2006</year>. “<article-title>Observations on the Vegetation of Northeastern Mato Grosso, Brazil. IV. An Analysis of the Cerrado–Amazonian Forest Ecotone</article-title>.” <source>Edinburgh Journal of Botany</source>
+<volume>63</volume>, no. <issue>2–3</issue>: <fpage>323</fpage>–<lpage>341</lpage>. <pub-id pub-id-type="doi">10.1017/S0960428606000576</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0038"><mixed-citation publication-type="book" id="ece374306-cit-0038">
+<string-name name-style="western">
+<surname>McCune</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Grace</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Urban</surname>
+</string-name>. <year>2002</year>. <source>Analysis of Ecological Communities</source>. <publisher-name>MjM Software Design</publisher-name> Gleneden Beach, OR.</mixed-citation></ref><ref id="ece374306-bib-0039"><mixed-citation publication-type="journal" id="ece374306-cit-0039">
+<string-name name-style="western">
+<surname>McGeoch</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Latombe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. R.</given-names>
+<surname>Andrew</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Measuring Continuous Compositional Change Using Decline and Decay in Zeta Diversity</article-title>.” <source>Ecology</source>
+<volume>100</volume>, no. <issue>11</issue>: <elocation-id>e02832</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.2832</pub-id>.<pub-id pub-id-type="pmid">31323117</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0040"><mixed-citation publication-type="journal" id="ece374306-cit-0040">
+<string-name name-style="western">
+<surname>McGuinness</surname>, <given-names>K. A.</given-names>
+</string-name>
+<year>1984</year>. “<article-title>Species–Area Curves</article-title>.” <source>Biological Reviews</source>
+<volume>59</volume>, no. <issue>3</issue>: <fpage>423</fpage>–<lpage>440</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-185X.1984.tb00711.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0041"><mixed-citation publication-type="book" id="ece374306-cit-0041">
+<string-name name-style="western">
+<surname>Mielke</surname>, <given-names>P. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Berry</surname>
+</string-name>. <year>2001</year>. <source>Permutation Methods: A Distance Function Approach</source>. <publisher-name>Springer</publisher-name>, New York. <pub-id pub-id-type="doi">10.1007/978-1-4757-3449-2</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0042"><mixed-citation publication-type="book" id="ece374306-cit-0042">
+<collab collab-type="authors">Ministry of Environment</collab>
+. <year>2023</year>. <source>The Fifth National Biodiversity Strategy (2024–2028)</source>. <publisher-name>Ministry of Environment</publisher-name> Sejong, Republic of Korea.</mixed-citation></ref><ref id="ece374306-bib-0043"><mixed-citation publication-type="journal" id="ece374306-cit-0043">
+<string-name name-style="western">
+<surname>Moon</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. K.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Song</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>An Introduction to Mid‐Latitude Ecotone: Sustainability and Environmental Challenges</article-title>.” <source>Siberian Journal of Forest Science</source>
+<volume>6</volume>: <fpage>41</fpage>–<lpage>51</lpage>. <pub-id pub-id-type="doi">10.15372/SJFS20170603</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0044"><mixed-citation publication-type="book" id="ece374306-cit-0044">
+<collab collab-type="authors">National Institute of Ecology</collab>
+. <year>2019</year>. <source>Manual of the 5th National Survey of Natural Environment</source>, <fpage>11</fpage>–<lpage>50</lpage>. <publisher-name>National Institute of Ecology</publisher-name>, Seocheon, Republic of Korea.</mixed-citation></ref><ref id="ece374306-bib-0045"><mixed-citation publication-type="book" id="ece374306-cit-0045">
+<collab collab-type="authors">National Institute of Ecology</collab>
+. <year>2022</year>. <source>The Manual of Assessment Map of Ecosystem Service</source>, <fpage>54</fpage>–<lpage>61</lpage>. <publisher-name>Design Crepas</publisher-name>, Seoul, Republic of Korea.</mixed-citation></ref><ref id="ece374306-bib-0046"><mixed-citation publication-type="book" id="ece374306-cit-0046">
+<string-name name-style="western">
+<surname>Odum</surname>, <given-names>E. P.</given-names>
+</string-name>
+<year>1971</year>. <source>Fundamentals of Ecology</source>. <publisher-name>W.B. Saunders</publisher-name>.</mixed-citation></ref><ref id="ece374306-bib-0047"><mixed-citation publication-type="book" id="ece374306-cit-0047">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>C. D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Larson</surname>
+</string-name>. <year>1990</year>. <source>Forest Stand Dynamics</source>. <publisher-name>McGraw‐Hill</publisher-name>.</mixed-citation></ref><ref id="ece374306-bib-0049"><mixed-citation publication-type="journal" id="ece374306-cit-0049">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>B. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Cheon</surname>
+</string-name>. <year>2025</year>. “<article-title>Species Composition and Ecological Niche Overlap of Alien and Endemic Plants in South Korea: Insights From the National Ecosystem Survey</article-title>.” <source>Forests</source>
+<volume>16</volume>: <elocation-id>1485</elocation-id>. <pub-id pub-id-type="doi">10.3390/f16091485</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0050"><mixed-citation publication-type="journal" id="ece374306-cit-0050">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Cheon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Che</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. I.</given-names>
+<surname>Heo</surname>
+</string-name>. <year>2024</year>. “<article-title>Correlation Between Vegetation Structure and Environmental Factors of <italic toggle="yes">Dracocephalum argunense</italic> Habitats in South Korea</article-title>.” <source>Journal of Korean Society of Forest Science</source>
+<volume>113</volume>, no. <issue>3</issue>: <fpage>271</fpage>–<lpage>281</lpage>. <pub-id pub-id-type="doi">10.14578/jkfs.2024.113.3.271</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0051"><mixed-citation publication-type="journal" id="ece374306-cit-0051">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. K.</given-names>
+<surname>Jo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I. B.</given-names>
+<surname>Jung</surname>
+</string-name>. <year>2019</year>. “<article-title>The Influence of Tree Structural and Species Diversity on Temperate Forest Productivity and Stability in Korea</article-title>.” <source>Forests</source>
+<volume>10</volume>, no. <issue>12</issue>: <elocation-id>1113</elocation-id>. <pub-id pub-id-type="doi">10.3390/f10121113</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0052"><mixed-citation publication-type="journal" id="ece374306-cit-0052">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Im</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Delineation of High Resolution Climate Regions Over the Korean Peninsula Using Machine Learning Approaches</article-title>.” <source>PLoS One</source>
+<volume>14</volume>: <elocation-id>e0223362</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0223362</pub-id>.<pub-id pub-id-type="pmid">31600268</pub-id>
+<pub-id pub-id-type="pmcid">PMC6786637</pub-id></mixed-citation></ref><ref id="ece374306-bib-0053"><mixed-citation publication-type="journal" id="ece374306-cit-0053">
+<string-name name-style="western">
+<surname>Paz‐Kagan</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Caras</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Herrmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Shachak</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Karnieli</surname>
+</string-name>. <year>2017</year>. “<article-title>Multiscale Mapping of Species Diversity Under Changed Land Use Using Imaging Spectroscopy</article-title>.” <source>Ecological Applications</source>
+<volume>27</volume>, no. <issue>5</issue>: <fpage>1466</fpage>–<lpage>1484</lpage>. <pub-id pub-id-type="doi">10.1002/eap.1540</pub-id>.<pub-id pub-id-type="pmid">28370671</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0054"><mixed-citation publication-type="journal" id="ece374306-cit-0054">
+<string-name name-style="western">
+<surname>Peringer</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Rosenthal</surname>
+</string-name>. <year>2011</year>. “<article-title>Establishment Patterns in a Secondary Tree Line Ecotone</article-title>.” <source>Ecological Modelling</source>
+<volume>222</volume>, no. <issue>17</issue>: <fpage>3120</fpage>–<lpage>3131</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2011.05.025</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0055"><mixed-citation publication-type="journal" id="ece374306-cit-0055">
+<string-name name-style="western">
+<surname>Rahbek</surname>, <given-names>C.</given-names>
+</string-name>
+<year>1995</year>. “<article-title>The Elevational Gradient of Species Richness: A Uniform Pattern?</article-title>” <source>Ecography</source>
+<volume>18</volume>, no. <issue>2</issue>: <fpage>200</fpage>–<lpage>205</lpage>.</mixed-citation></ref><ref id="ece374306-bib-0056"><mixed-citation publication-type="journal" id="ece374306-cit-0056">
+<string-name name-style="western">
+<surname>Ricotta</surname>, <given-names>C.</given-names>
+</string-name>
+<year>2005</year>. “<article-title>Biodiversity Concepts</article-title>.” <source>Acta Biotheoretica</source>
+<volume>53</volume>: <fpage>29</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1007/s10441-005-2539-5</pub-id>.<pub-id pub-id-type="pmid">15906141</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0057"><mixed-citation publication-type="journal" id="ece374306-cit-0057">
+<string-name name-style="western">
+<surname>Ries</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Fletcher</surname>
+<suffix>Jr.</suffix>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Battin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Sisk</surname>
+</string-name>. <year>2004</year>. “<article-title>Ecological Responses to Habitat Edges: Mechanisms, Models, and Variability Explained</article-title>.” <source>Annual Review of Ecology, Evolution, and Systematics</source>
+<volume>35</volume>: <fpage>491</fpage>–<lpage>522</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.ecolsys.35.112202.130148</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0058"><mixed-citation publication-type="journal" id="ece374306-cit-0058">
+<string-name name-style="western">
+<surname>Risser</surname>, <given-names>P. G.</given-names>
+</string-name>
+<year>1995</year>. “<article-title>The Status of the Science Examining Ecotones: A Dynamic Aspect of Landscape Is the Area of Steep Gradients Between More Homogeneous Vegetation Associations</article-title>.” <source>Bioscience</source>
+<volume>45</volume>, no. <issue>5</issue>: <fpage>318</fpage>–<lpage>325</lpage>. <pub-id pub-id-type="doi">10.2307/1312492</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0059"><mixed-citation publication-type="journal" id="ece374306-cit-0059">
+<string-name name-style="western">
+<surname>Rocchini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>Foody</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Nagendra</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Uncertainty in Ecosystem Mapping by Remote Sensing</article-title>.” <source>Computers &amp; Geosciences</source>
+<volume>50</volume>: <fpage>128</fpage>–<lpage>135</lpage>. <pub-id pub-id-type="doi">10.1016/j.cageo.2012.05.022</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0060"><mixed-citation publication-type="journal" id="ece374306-cit-0060">
+<string-name name-style="western">
+<surname>Rocchini</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ricotta</surname>
+</string-name>. <year>2007</year>. “<article-title>Are Landscapes as Crisp as We May Think?</article-title>” <source>Ecological Modelling</source>
+<volume>204</volume>: <fpage>535</fpage>–<lpage>539</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2006.12.028</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0061"><mixed-citation publication-type="journal" id="ece374306-cit-0061">
+<string-name name-style="western">
+<surname>Sekercioglu</surname>, <given-names>C. H.</given-names>
+</string-name>
+<year>2006</year>. “<article-title>Increasing Awareness of Avian Ecological Function</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>21</volume>: <fpage>464</fpage>–<lpage>471</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2006.05.007</pub-id>.<pub-id pub-id-type="pmid">16762448</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0062"><mixed-citation publication-type="journal" id="ece374306-cit-0062">
+<string-name name-style="western">
+<surname>Shannon</surname>, <given-names>C. E.</given-names>
+</string-name>
+<year>1948</year>. “<article-title>A Mathematical Theory of Communication</article-title>.” <source>Bell System Technical Journal</source>
+<volume>27</volume>, no. <issue>3</issue>: <fpage>379</fpage>–<lpage>423</lpage>. <pub-id pub-id-type="doi">10.1002/j.1538-7305.1948.tb01338.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0063"><mixed-citation publication-type="journal" id="ece374306-cit-0063">
+<string-name name-style="western">
+<surname>Simpson</surname>, <given-names>E. H.</given-names>
+</string-name>
+<year>1949</year>. “<article-title>Measurement of Diversity</article-title>.” <source>Nature</source>
+<volume>163</volume>: <fpage>688</fpage>. <pub-id pub-id-type="doi">10.1038/163688a0</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0064"><mixed-citation publication-type="journal" id="ece374306-cit-0064">
+<string-name name-style="western">
+<surname>Song</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. S.</given-names>
+<surname>Kohyama</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Da</surname>
+</string-name>. <year>2014</year>. “<article-title>Transition Patterns Across an Evergreen–Deciduous Broad‐Leaved Forest Ecotone: The Effect of Topographies</article-title>.” <source>Journal of Vegetation Science</source>
+<volume>25</volume>, no. <issue>5</issue>: <fpage>1257</fpage>–<lpage>1266</lpage>. <pub-id pub-id-type="doi">10.1111/jvs.12156</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0065"><mixed-citation publication-type="journal" id="ece374306-cit-0065">
+<string-name name-style="western">
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lavorel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Araújo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I. C.</given-names>
+<surname>Prentice</surname>
+</string-name>. <year>2005</year>. “<article-title>Climate Threats to Plant Diversity in Europe</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>102</volume>, no. <issue>23</issue>: <fpage>8245</fpage>–<lpage>8250</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0409902102</pub-id>.<pub-id pub-id-type="pmid">15919825</pub-id>
+<pub-id pub-id-type="pmcid">PMC1140480</pub-id></mixed-citation></ref><ref id="ece374306-bib-0066"><mixed-citation publication-type="journal" id="ece374306-cit-0066">
+<string-name name-style="western">
+<surname>Tölgyesi</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zalatnai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Erdős</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Bátori</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. R.</given-names>
+<surname>Hupp</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Körmöczi</surname>
+</string-name>. <year>2016</year>. “<article-title>Unexpected Ecotone Dynamics of a Sand Dune Vegetation Complex Following Water Table Decline</article-title>.” <source>Journal of Plant Ecology</source>
+<volume>9</volume>, no. <issue>1</issue>: <fpage>40</fpage>–<lpage>50</lpage>. <pub-id pub-id-type="doi">10.1093/jpe/rtv032</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0067"><mixed-citation publication-type="journal" id="ece374306-cit-0067">
+<string-name name-style="western">
+<surname>Veblen</surname>, <given-names>T. T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Lorenz</surname>
+</string-name>. <year>1988</year>. “<article-title>Recent Vegetation Changes Along the Forest/Steppe Ecotone of Northern Patagonia</article-title>.” <source>Annals of the Association of American Geographers</source>
+<volume>78</volume>, no. <issue>1</issue>: <fpage>93</fpage>–<lpage>111</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-8306.1988.tb00193.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0068"><mixed-citation publication-type="journal" id="ece374306-cit-0068">
+<string-name name-style="western">
+<surname>Vellend</surname>, <given-names>M.</given-names>
+</string-name>
+<year>2010</year>. “<article-title>Conceptual Synthesis in Community Ecology</article-title>.” <source>Quarterly Review of Biology</source>
+<volume>85</volume>, no. <issue>2</issue>: <fpage>183</fpage>–<lpage>206</lpage>. <pub-id pub-id-type="doi">10.1086/652373</pub-id>.<pub-id pub-id-type="pmid">20565040</pub-id>
+</mixed-citation></ref><ref id="ece374306-bib-0069"><mixed-citation publication-type="journal" id="ece374306-cit-0069">
+<string-name name-style="western">
+<surname>Virtanen</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Luoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rämä</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Recent Vegetation Changes at the High‐Latitude Tree Line Ecotone Are Controlled by Geomorphological Disturbance, Productivity and Diversity</article-title>.” <source>Global Ecology and Biogeography</source>
+<volume>19</volume>, no. <issue>6</issue>: <fpage>810</fpage>–<lpage>821</lpage>. <pub-id pub-id-type="doi">10.1111/j.1466-8238.2010.00570.x</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0070"><mixed-citation publication-type="journal" id="ece374306-cit-0070">
+<string-name name-style="western">
+<surname>Willmott</surname>, <given-names>C. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Matsuura</surname>
+</string-name>. <year>2005</year>. “<article-title>Advantages of the Mean Absolute Error (MAE) Over the Root Mean Square Error (RMSE) in Assessing Average Model Performance</article-title>.” <source>Climate Research</source>
+<volume>30</volume>, no. <issue>1</issue>: <fpage>79</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.3354/cr030079</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0071"><mixed-citation publication-type="book" id="ece374306-cit-0071">
+<string-name name-style="western">
+<surname>Wilson</surname>, <given-names>E. O.</given-names>
+</string-name>
+<year>1992</year>. <source>The Diversity of Life</source>. <publisher-name>Harvard University Press</publisher-name>.</mixed-citation></ref><ref id="ece374306-bib-0072"><mixed-citation publication-type="journal" id="ece374306-cit-0072">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Su</surname>
+</string-name>. <year>2019</year>. “<article-title>Impacts of Land‐Use Change on Habitat Quality During 1985–2015 in the Taihu Lake Basin</article-title>.” <source>Sustainability</source>
+<volume>11</volume>, no. <issue>13</issue>: <elocation-id>3513</elocation-id>. <pub-id pub-id-type="doi">10.3390/su11133513</pub-id>.</mixed-citation></ref><ref id="ece374306-bib-0073"><mixed-citation publication-type="journal" id="ece374306-cit-0073">
+<string-name name-style="western">
+<surname>Zeng</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. P.</given-names>
+<surname>Malanson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Butler</surname>
+</string-name>. <year>2007</year>. “<article-title>Geomorphological Limits to Self‐Organization of Alpine Forest–Tundra Ecotone Vegetation</article-title>.” <source>Geomorphology</source>
+<volume>91</volume>, no. <issue>3–4</issue>: <fpage>378</fpage>–<lpage>392</lpage>. <pub-id pub-id-type="doi">10.1016/j.geomorph.2007.04.019</pub-id>.</mixed-citation></ref></ref-list></back></article>

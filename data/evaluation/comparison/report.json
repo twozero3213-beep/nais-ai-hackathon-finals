@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "status": "EXPLORATORY_NOT_SCORED",
+  "caveat": "No independent approved gold. Arithmetic replay cannot determine whether a blocked CSV matches the paper's data scope. Overblocking is unassessed; these are not accuracy scores.",
+  "manifest_sha256": "078b771c1a99f228e280cdfb53fa16e930997d4c1563b2a5ededf10b325b38b9",
+  "manifest": {
+    "schema": 1,
+    "status": "EXPLORATORY_NOT_SCORED",
+    "cases": [
+      {
+        "claim_id": "RAW-ROWS",
+        "source_file": "paper_excerpt.txt",
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_file": "raw.csv",
+        "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins_raw contains 17 variables and 344 individuals\nCSV: raw.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 17-variable penguins_raw table.\n",
+        "prompt_sha256": "1785cbf2b52df7dba181bf4059405a165d14d106c66e1292e42dde58b68fc0bb",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "mapping_scope": "supplied_fixture_not_human_confirmed"
+      },
+      {
+        "claim_id": "CURATED-ROWS",
+        "source_file": "paper_excerpt.txt",
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_file": "curated.csv",
+        "csv_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+        "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins contains 8 variables and 344 observations\nCSV: curated.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 8-variable curated penguins table.\n",
+        "prompt_sha256": "38869148b71ab500cb55546cb30afe4ca8461bf8c724bc3b470d6e04de0bc4df",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "mapping_scope": "supplied_fixture_not_human_confirmed"
+      },
+      {
+        "claim_id": "RAW-WITH-CURATED",
+        "source_file": "paper_excerpt.txt",
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_file": "curated.csv",
+        "csv_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+        "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins_raw contains 17 variables and 344 individuals\nCSV: curated.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 8-variable curated penguins table.\n",
+        "prompt_sha256": "96c1225cf041fdb5c63fbf07868a3990605509e527d99b46211378c684bcda30",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "mapping_scope": "supplied_fixture_not_human_confirmed"
+      },
+      {
+        "claim_id": "CURATED-WITH-RAW",
+        "source_file": "paper_excerpt.txt",
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_file": "raw.csv",
+        "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins contains 8 variables and 344 observations\nCSV: raw.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 17-variable penguins_raw table.\n",
+        "prompt_sha256": "21aa212b1644fdfd7d0d41a2fff45cc0c630e22b4fb958003264b5589c596cc4",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "mapping_scope": "supplied_fixture_not_human_confirmed"
+      }
+    ]
+  },
+  "observations_sha256": "8c02403e66cab3ef2fe882f54b8dd32f2625ebd652dcfbc6af49e01ae0cbeae9",
+  "product_results_sha256": "556ab398309ad81776da672ccb21bde120acac56019e6200fce8cd95f1cb04cc",
+  "counts": {
+    "cases": 4,
+    "action_agreements": 4,
+    "product_arithmetic_matches": 2,
+    "blocked_replayable": 2,
+    "potential_overblocks": null
+  },
+  "cases": [
+    {
+      "claim_id": "RAW-ROWS",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins_raw contains 17 variables and 344 individuals\nCSV: raw.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 17-variable penguins_raw table.\n",
+      "input_hashes": {
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+      },
+      "model_raw_output": "{\n  \"results\": [\n    {\n      \"claim_id\": \"RAW-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"CURATED-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"RAW-WITH-CURATED\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table.\"\n    },\n    {\n      \"claim_id\": \"CURATED-WITH-RAW\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table.\"\n    }\n  ]\n}",
+      "model_raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "model_provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      },
+      "model_prediction": {
+        "claim_id": "RAW-ROWS",
+        "action": "EXECUTE",
+        "reason": "The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.",
+        "value": 344
+      },
+      "product_result": {
+        "claim_id": "RAW-ROWS",
+        "action": "EXECUTE",
+        "value": 344.0,
+        "verdict": "SUPPORTED",
+        "reason": "필터[없음] · row_count(all rows) · n=344 · 보고 344 ↔ 재계산 344; 차이 0 ≤ 허용오차 0",
+        "source_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "contract": {
+          "claim_id": "RAW-ROWS",
+          "contract_type": "DESCRIPTIVE",
+          "source_page": null,
+          "source_quote": "penguins_raw contains 17 variables and 344 individuals",
+          "dataset_name": "raw.csv",
+          "dataset_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+          "filters": [],
+          "human_confirmed": true,
+          "method": "row_count",
+          "method_confirmed": true,
+          "missing_policy": "unspecified",
+          "missing_policy_confirmed": true,
+          "analysis_spec": {
+            "population": "unspecified",
+            "estimand": "unspecified",
+            "missing_policy": "unspecified",
+            "variance_estimator": "unspecified",
+            "multiplicity_policy": "unspecified",
+            "multiplicity_count": 0,
+            "reference_levels": {},
+            "interactions": [],
+            "transforms": {},
+            "human_confirmed": false
+          },
+          "variable": "__dataset__",
+          "aggregation": "row_count",
+          "tolerance": 0,
+          "weight_column": "",
+          "success_value": "1"
+        },
+        "confirmation_source": "evaluation_oracle_fixture_not_human"
+      },
+      "action_agreement": true,
+      "recomputed_value": 344,
+      "product_arithmetic_match": true,
+      "model_arithmetic_match": true,
+      "arithmetic_replay_possible": true,
+      "potential_overblock": null,
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    },
+    {
+      "claim_id": "CURATED-ROWS",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins contains 8 variables and 344 observations\nCSV: curated.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 8-variable curated penguins table.\n",
+      "input_hashes": {
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+      },
+      "model_raw_output": "{\n  \"results\": [\n    {\n      \"claim_id\": \"RAW-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"CURATED-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"RAW-WITH-CURATED\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table.\"\n    },\n    {\n      \"claim_id\": \"CURATED-WITH-RAW\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table.\"\n    }\n  ]\n}",
+      "model_raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "model_provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      },
+      "model_prediction": {
+        "claim_id": "CURATED-ROWS",
+        "action": "EXECUTE",
+        "reason": "The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.",
+        "value": 344
+      },
+      "product_result": {
+        "claim_id": "CURATED-ROWS",
+        "action": "EXECUTE",
+        "value": 344.0,
+        "verdict": "SUPPORTED",
+        "reason": "필터[없음] · row_count(all rows) · n=344 · 보고 344 ↔ 재계산 344; 차이 0 ≤ 허용오차 0",
+        "source_hash": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+        "contract": {
+          "claim_id": "CURATED-ROWS",
+          "contract_type": "DESCRIPTIVE",
+          "source_page": null,
+          "source_quote": "penguins contains 8 variables and 344 observations",
+          "dataset_name": "curated.csv",
+          "dataset_hash": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+          "filters": [],
+          "human_confirmed": true,
+          "method": "row_count",
+          "method_confirmed": true,
+          "missing_policy": "unspecified",
+          "missing_policy_confirmed": true,
+          "analysis_spec": {
+            "population": "unspecified",
+            "estimand": "unspecified",
+            "missing_policy": "unspecified",
+            "variance_estimator": "unspecified",
+            "multiplicity_policy": "unspecified",
+            "multiplicity_count": 0,
+            "reference_levels": {},
+            "interactions": [],
+            "transforms": {},
+            "human_confirmed": false
+          },
+          "variable": "__dataset__",
+          "aggregation": "row_count",
+          "tolerance": 0,
+          "weight_column": "",
+          "success_value": "1"
+        },
+        "confirmation_source": "evaluation_oracle_fixture_not_human"
+      },
+      "action_agreement": true,
+      "recomputed_value": 344,
+      "product_arithmetic_match": true,
+      "model_arithmetic_match": true,
+      "arithmetic_replay_possible": true,
+      "potential_overblock": null,
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    },
+    {
+      "claim_id": "RAW-WITH-CURATED",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins_raw contains 17 variables and 344 individuals\nCSV: curated.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 8-variable curated penguins table.\n",
+      "input_hashes": {
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+      },
+      "model_raw_output": "{\n  \"results\": [\n    {\n      \"claim_id\": \"RAW-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"CURATED-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"RAW-WITH-CURATED\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table.\"\n    },\n    {\n      \"claim_id\": \"CURATED-WITH-RAW\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table.\"\n    }\n  ]\n}",
+      "model_raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "model_provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      },
+      "model_prediction": {
+        "claim_id": "RAW-WITH-CURATED",
+        "action": "BLOCK",
+        "reason": "The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table."
+      },
+      "product_result": {
+        "claim_id": "RAW-WITH-CURATED",
+        "action": "BLOCK",
+        "reason": "필수 근거 부족: 원문 열 수 [17]개와 CSV 열 수 8개가 다릅니다. 데이터셋 범위를 다시 확인해야 합니다.",
+        "source_hash": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+      },
+      "action_agreement": true,
+      "recomputed_value": 344,
+      "product_arithmetic_match": null,
+      "model_arithmetic_match": null,
+      "arithmetic_replay_possible": true,
+      "potential_overblock": null,
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    },
+    {
+      "claim_id": "CURATED-WITH-RAW",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins contains 8 variables and 344 observations\nCSV: raw.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 17-variable penguins_raw table.\n",
+      "input_hashes": {
+        "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+        "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+      },
+      "model_raw_output": "{\n  \"results\": [\n    {\n      \"claim_id\": \"RAW-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"CURATED-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"RAW-WITH-CURATED\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table.\"\n    },\n    {\n      \"claim_id\": \"CURATED-WITH-RAW\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table.\"\n    }\n  ]\n}",
+      "model_raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "model_provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      },
+      "model_prediction": {
+        "claim_id": "CURATED-WITH-RAW",
+        "action": "BLOCK",
+        "reason": "The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table."
+      },
+      "product_result": {
+        "claim_id": "CURATED-WITH-RAW",
+        "action": "BLOCK",
+        "reason": "필수 근거 부족: 원문 열 수 [8]개와 CSV 열 수 17개가 다릅니다. 데이터셋 범위를 다시 확인해야 합니다.",
+        "source_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+      },
+      "action_agreement": true,
+      "recomputed_value": 344,
+      "product_arithmetic_match": null,
+      "model_arithmetic_match": null,
+      "arithmetic_replay_possible": true,
+      "potential_overblock": null,
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    }
+  ]
+}

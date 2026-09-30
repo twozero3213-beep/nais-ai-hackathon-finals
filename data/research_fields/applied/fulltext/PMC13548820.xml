@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">2002</journal-id><journal-id journal-id-type="pmc-domain">clpt</journal-id><journal-title-group><journal-title>Clinical Pharmacology and Therapeutics</journal-title><abbrev-journal-title>Clin Pharmacol Ther</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13548820</article-id><article-id pub-id-type="pmcaid">13548820</article-id><article-id pub-id-type="pmcaiid">13548820</article-id><article-id pub-id-type="pmid">42704204</article-id><article-id pub-id-type="doi">10.1002/cpt.70470</article-id><title-group><article-title>Constructing an External Control Arm Using the French REALYSA Cohort to Replicate Outcomes of a Randomized Trial Arm in Advanced Hodgkin Lymphoma</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Febvey‐Combes</surname><given-names initials="O">Olivia</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0001">1</xref><xref ref-type="aff" rid="cpt70470-aff-0002">2</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib><contrib><name name-style="western"><surname>Rossi</surname><given-names initials="C">Cédric</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0003">3</xref></contrib><contrib><name name-style="western"><surname>Kassai</surname><given-names initials="B">Behrouz</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0002">2</xref><xref ref-type="aff" rid="cpt70470-aff-0004">4</xref><xref ref-type="aff" rid="cpt70470-aff-0005">5</xref></contrib><contrib><name name-style="western"><surname>Murairi Mirimo</surname><given-names initials="T">Tesla</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0006">6</xref></contrib><contrib><name name-style="western"><surname>Chartier</surname><given-names initials="L">Loïc</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0006">6</xref></contrib><contrib><name name-style="western"><surname>Cherblanc</surname><given-names initials="F">Fanny</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0006">6</xref></contrib><contrib><name name-style="western"><surname>Cugnod</surname><given-names initials="E">Emeline</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0006">6</xref></contrib><contrib><name name-style="western"><surname>Ghesquières</surname><given-names initials="H">Hervé</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0007">7</xref></contrib><contrib><name name-style="western"><surname>Belot</surname><given-names initials="A">Aurélien</given-names></name><xref ref-type="aff" rid="cpt70470-aff-0006">6</xref></contrib></contrib-group><aff id="cpt70470-aff-0001"><label>
+<sup>1</sup>
+</label>Hospices Civils de Lyon, Pôle de Santé Publique, Service Recherche et Epidémiologie Cliniques, Lyon, France</aff><aff id="cpt70470-aff-0002"><label>
+<sup>2</sup>
+</label>Laboratoire de Biométrie et Biologie Evolutive, Université Lyon 1, UMR CNRS 5558, Lyon, France</aff><aff id="cpt70470-aff-0003"><label>
+<sup>3</sup>
+</label>Université Bourgogne Europe, CHU Dijon Bourgogne, Hématologie, INSERM1231 CTM Equipe Epi2THM, Dijon, France</aff><aff id="cpt70470-aff-0004"><label>
+<sup>4</sup>
+</label>Hospices Civils de Lyon, Pôle de Santé Publique, Service Hospitalo‐Universitaire de Pharmaco‐Toxicologie, Lyon, France</aff><aff id="cpt70470-aff-0005"><label>
+<sup>5</sup>
+</label>Centre d'investigation Clinique, INSERM CIC 1407, Groupement Hospitalier Est, Hospices Civils de Lyon, Lyon, France</aff><aff id="cpt70470-aff-0006"><label>
+<sup>6</sup>
+</label>Lymphoma Academic Research Organisation (LYSARC), Centre Hospitalier Lyon‐Sud, Pierre‐Bénite, France</aff><aff id="cpt70470-aff-0007"><label>
+<sup>7</sup>
+</label>Département d'hématologie, Hospices Civils de Lyon, Centre Hospitalier Lyon‐Sud, Pierre‐Bénite, France</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+Correspondence: Olivia Febvey‐Combes ()
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>7</day><month>9</month><year>2026</year></pub-date><fpage>10.1002/cpt.70470</fpage><page-range>10.1002/cpt.70470</page-range><pub-history><event event-type="pmc-release"><date><day>8</day><month>9</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Author(s). <italic>Clinical Pharmacology &amp; Therapeutics</italic> published by Wiley Periodicals LLC on behalf of American Society for Clinical Pharmacology and Therapeutics.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CPT-9999-0.pdf" content-type="pmc-pdf"><?cloudpmc-path a98d/13548820/e5f6e2c5ddfc/CPT-9999-0.pdf?><?cloudpmc-bucket app?><?size 820684?></self-uri><abstract id="abstract1"><title>Abstract</title><p>External control (EC) arms using routine data can be used as comparators in clinical trials under certain conditions. The objective of this study was to assess the ability of an EC arm to replicate outcomes of a randomized controlled trial (RCT) arm receiving the same treatment strategy in advanced stage classical Hodgkin lymphoma and serve as comparator in future trials. Using the prospective real‐world data in lymphoma and survival in adults (REALYSA) cohort, we constructed an EC arm by applying eligibility criteria of the AHL2011 phase III RCT. Propensity score (PS) weighting was used to balance baseline characteristics between the EC arm and the RCT arm that received the same treatment. Progression‐free survival (PFS) and overall response rate (ORR) at the end of first‐line treatment were estimated in both arms. Hazard ratio (HR) for PFS and odds ratio (OR) for ORR were estimated using the EC arm as reference. A sensitivity analysis evaluated PS matching. Four hundred and ten RCT patients and 191 EC patients were analyzed. After PS weighting, patients' characteristics were well‐balanced between arms. PFS estimates were similar in RCT and EC arms with an HR close to 1 (HR, 0.98; 95% CI, 0.59–1.62). ORR estimates were comparable in both arms. Weighting performed better than matching. Using PS weighting gave similar outcomes in the EC arm compared with the RCT arm. Our results suggest that EC studies using routine care data could be considered in the development of strategies for advanced Hodgkin lymphoma.</p></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2026 Apr 4; Accepted 2026 Aug 18.</p></sec></notes></front><body>
+<boxed-text id="cpt70470-blkfxd-0001" position="anchor"><?disp-level 1?><caption><title>Study Highlights</title></caption><list list-type="simple" id="cpt70470-list-0001"><list-item id="cpt70470-li-0001"><p>
+<bold>WHAT IS THE CURRENT KNOWLEDGE ON THE TOPIC?</bold>
+</p></list-item></list><p>Studies based on external controls (EC) are expanding and may be particularly interesting in rare cancers using methodological precautions. This study assessed for the first time whether an EC arm derived from a cohort of patients treated in clinical practice could be a reliable control group for future trials assessing new strategies in advanced Hodgkin lymphoma.
+</p><list list-type="simple" id="cpt70470-list-0002"><list-item id="cpt70470-li-0002"><p>
+<bold>WHAT QUESTION DID THIS STUDY ADDRESS?</bold>
+</p></list-item></list><p>This study compared an EC arm derived from the real‐world data in lymphoma and survival in adults (REALYSA) cohort to the experimental arm of the AHL2011 randomized controlled trial (RCT) that received the same treatment strategy. The study focused on two common outcomes in oncology research, that is, progression‐free survival (PFS) and overall response rate (ORR). Different methods were examined to determine whether the EC arm could replicate outcomes of the RCT arm.
+</p><list list-type="simple" id="cpt70470-list-0003"><list-item id="cpt70470-li-0003"><p>
+<bold>WHAT DOES THIS STUDY ADD TO OUR KNOWLEDGE?</bold>
+</p></list-item></list><p>After applying both trial's eligibility criteria to REALYSA and propensity score (PS)‐based methods to balance RCT and EC arms, similar PFS and ORR outcomes were obtained in the EC arm and in the RCT arm. PS matching was less performant than PS weighting in this context.
+</p><list list-type="simple" id="cpt70470-list-0004"><list-item id="cpt70470-li-0004"><p>
+<bold>HOW MIGHT THIS CHANGE CLINICAL PHARMACOLOGY OR TRANSLATIONAL SCIENCE?</bold>
+</p></list-item></list><p>This study suggests that EC studies using routine care data and an adapted methodology could be considered in the development of therapeutic strategies for advanced Hodgkin lymphoma.</p></boxed-text>
+<sec id="cpt70470-sec-0003" disp-level="1"><p>To assess the efficacy of a new treatment, the randomized controlled trial (RCT) remains the gold standard. In rare diseases involving few patients, conducting an RCT is often a challenge, and single‐arm trials without a randomized control group are frequently performed. This trend is important in oncology when assessing immunotherapies or targeted therapies.<xref rid="cpt70470-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="cpt70470-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> However, single‐arm trials have several methodological limitations and are less reliable than RCTs. Moreover, these trials do not estimate the treatment effect because of the absence of an internal control group.<xref rid="cpt70470-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+</p><p>External control (EC) arms may provide useful information in the absence of randomized control arms, enabling a comparison between an experimental arm and a relevant control group.<xref rid="cpt70470-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="cpt70470-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="cpt70470-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> These external arms often use routine clinical care data from various sources such as electronic health records, registries, or cohorts. Access to such detailed patient data offers the possibility to construct appropriate comparison arms for patients receiving experimental treatments in single‐arm trials while minimizing costs. These approaches have already been used to support accelerated approvals, especially in rare diseases or in specific sub‐populations, although they raise challenges related to the analysis techniques and the potential relevance of controls (treatment received, time period, etc.).<xref rid="cpt70470-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="cpt70470-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="cpt70470-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="cpt70470-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>
+</p><p>Before using an EC arm as comparator in clinical trial, it must be determined whether this EC arm is a reliable control arm.<xref rid="cpt70470-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> For this purpose, this EC arm can be compared with an RCT arm receiving the same treatment strategy. In the field of oncology, EC arms using routine clinical care data seem in some instances to correctly reproduce the results of RCT arms in non‐small cell lung cancer,<xref rid="cpt70470-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="cpt70470-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> but also in other conditions such as metastatic colorectal cancer<xref rid="cpt70470-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> or metastatic breast cancer.<xref rid="cpt70470-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+</p><p>Classic Hodgkin lymphoma (cHL) is a rare malignancy, with an incidence of about 1 case per 40,000 people in North America and Europe with a bimodal incidence, which generally develops in young adults (15–35 years old) and in older patients near 70 years old.<xref rid="cpt70470-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> For younger patients, HL is a highly curable disease. In this context, it is still crucial to develop new therapeutic strategies that optimize the benefit–risk treatment ratio by maintaining efficacy and reducing toxicity. Moreover, previously prospective trials in advanced cHL required the inclusion of a large number of patients over several years to demonstrate the benefit of one treatment strategy compared with another.<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="cpt70470-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="cpt70470-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="cpt70470-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="cpt70470-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> The most recent phase III trials such as S1826<xref rid="cpt70470-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> and HD21<xref rid="cpt70470-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> prospectively included 994 and 1,500 pts, respectively, with long time of recruitment (3 and 4 years, respectively) with an inherent period of follow‐up. Studies using EC arms could allow for early evaluation and identification of promising treatment strategies before moving to phase III.</p><p>In the current study, we constructed an EC arm using the cohort named “real‐world data in lymphoma and survival in adults” (REALYSA),<xref rid="cpt70470-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> and compared this EC arm to the experimental arm of the AHL2011 trial receiving the same treatment strategy to assess reproducibility.<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> The AHL2011 trial was a phase III RCT that included 823 cHL patients and evaluated a new strategy guided by the positron emission tomography (PET), which became one of the standards of care especially at the polychemotherapy era to reduce dose intensities without impairing disease control.<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p></sec><sec id="cpt70470-sec-0004" disp-level="1"><title>METHODS</title><sec id="cpt70470-sec-0005" disp-level="2"><title>Data sources</title><sec id="cpt70470-sec-0006" disp-level="3"><title>Clinical trial AHL2011
+</title><p>AHL2011 was a randomized, open‐label, multicenter, non‐inferiority phase III trial in adults with advanced cHL. AHL2011 compared the classical approach (6 cycles of escalated BEACOPP [increased Bleomycin, Etoposide, Doxorubicin, Cyclophosphamide, Vincristine, Procarbazine, Prednisone]) to a de‐escalated approach guided by PET after 2 cycles of eBEACOPP, with patients having a negative PET receiving less intense treatment with 4 cycles of ABVD (Doxorubicin, Bleomycin, Vinblastine, Dacarbazine).<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> The AHL2011 trial was approved by the relevant authorities and ethics committees in France and Belgium, and all patients provided informed consent. Patients were recruited from May 2011 to April 2014. The study showed that the PET‐guided strategy, with less intense treatment in early responding patients, allowed for similar control of the lymphoma and reduced toxicity.<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="cpt70470-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> This PET‐guided strategy has become a standard of care for advanced cHL, so it allows comparing this experimental arm to routine recent data of patients treated with the standard of care. In the present work, only data from patients of the experimental arm receiving the PET‐guided strategy were used. We referred to this arm as the RCT arm.</p></sec><sec id="cpt70470-sec-0007" disp-level="3"><title>
+REALYSA study</title><p>REALYSA was a prospective, multicenter, observational study in patients with lymphoma treated in real clinical practice conditions, conducted across France (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://clinicaltrials.gov/ct2/show/NCT03869619" ext-link-type="uri">NCT03869619</ext-link>).<xref rid="cpt70470-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> The REALYSA study was approved by a French ethics committee, and written informed consent was obtained from all patients before data collection. Patients were included between November 2018 and October 2023 with a planned 9‐year follow‐up. REALYSA data export for the present analysis was done in August 2025.</p></sec></sec><sec id="cpt70470-sec-0008" disp-level="2"><title>Study population</title><p>Details on the eligibility criteria for AHL2011 have been published.<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> Briefly, patients aged 16–60 years diagnosed with advanced cHL (Ann Arbor stage III, IV, or IIB at risk with a mediastinum/thorax ratio ≥0.33 or an extra nodal location), who had not been previously treated for their lymphoma, and who underwent a PET scan before the initiation of treatment showing at least one hypermetabolic lesion were included.</p></sec><sec id="cpt70470-sec-0009" disp-level="2"><title>Construction of the external control (EC) arm</title><p>A control arm was created using cHL patients who participated in REALYSA to mimic the PET‐guided arm in the AHL2011 trial. First, cHL patients from the REALYSA cohort were selected according to the eligibility criteria of the AHL2011 trial (see <bold>Table</bold>
+<xref rid="cpt70470-supitem-0001" ref-type="supplementary-material">
+<bold>S1</bold>
+</xref>). Additionally, patients in REALYSA must have received first‐line treatment with eBEACOPP and a PET exam after 2 cycles to be consistent with the PET‐guided strategy of AHL2011.</p></sec><sec id="cpt70470-sec-0010" disp-level="2"><title>Follow‐up period</title><p>In the RCT arm, time zero of follow‐up was defined as the date of randomization in the AHL2011 trial.</p><p>In the EC arm, time zero was defined as the date of first‐line treatment initiation (i.e., eBEACOPP). Moreover, PET exam after 2 cycles of eBEACOPP (PET2) was used as a proxy for PET‐guided strategy initiation at time zero, which may lead to immortal time bias unless the following assumptions are met: (1) once assigned to the PET‐guided strategy, there are no reasons for a patient not to initiate eBEACOPP other than death, which is unlikely to have occurred in the short time between assignment and start of eBEACOPP; (2) once assigned to the PET‐guided strategy, there are no reasons for a patient not to receive PET2 other than death, disease progression, or toxicity of eBEACOPP. Actually, early deaths and progressions are rare and treatment discontinuations prior to PET2 are exceptional, and none of those were observed in our data used to build the EC arm. Nevertheless, to assess the robustness of these assumptions and a potential immortal time bias (due to selecting patients who had a PET2), a sensitivity analysis was conducted including only patients who underwent the PET2 in both arms, with follow‐up starting at the date of the PET exam.</p></sec><sec id="cpt70470-sec-0011" disp-level="2"><title>Outcomes and assessments</title><p>Two major outcomes of the AHL2011 trial were analyzed, that is, progression‐free survival (PFS) (the primary endpoint) and response to treatment (a key secondary endpoint).<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p><p>PFS was defined as the time from the date of randomization (AHL2011) or the date of initiation of treatment (REALYSA) until the first progression, relapse, or death from any cause. Patients alive and free of progression or relapse were censored at their last follow‐up date.</p><p>The overall response rate (ORR) at the end of first‐line treatment was defined as the proportion of patients who achieved a partial response or a complete response. As in the AHL2011 trial, patients without response assessment were considered as nonresponders.</p><p>In AHL2011, the following exams were performed: PET scan at baseline, and after two and four cycles of induction chemotherapy; CT after four cycles of induction chemotherapy, at the end of treatment, and every 6 months thereafter until the end of follow‐up.<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> Moreover, response to treatment was determined as per Cheson 2007 criteria,<xref rid="cpt70470-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> based on the investigator's assessment. In REALYSA, response to treatment was based on the hematologist's prescription, in accordance with national and international guidelines for evaluating treatment response by PET‐CT scan.</p></sec><sec id="cpt70470-sec-0012" disp-level="2"><title>Propensity score (PS) weighting</title><p>Approaches using PS weighting are based on two steps: (i) estimation of the individual PS, and (ii) estimation of the treatment effect by applying weights defined for our estimand of interest (i.e., the effect of interest in a specific population).</p><p>For each patient, PS was calculated patient using multivariable logistic regression. The PS corresponded to the probability of a patient being in the PET‐guided arm from the AHL2011 trial (i.e., RCT arm, thus corresponding to trial participation) given the baseline predetermined covariates. We used 10 covariates and among them those integrated in cHL prognostic score such as International Prognostic Score (IPS)<xref rid="cpt70470-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> and more recently in the Advanced‐Stage Hodgkin Lymphoma International Prognostic Index (A‐HIPI).<xref rid="cpt70470-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> Baseline covariates included: male sex (Yes/No), age at diagnosis (years), Ann Arbor stage (three levels: I/II, III, IV), Eastern Cooperative Oncology Group Performance Status (ECOG PS) score (three levels: 0, 1, 2), extra nodal sites involved ≥2 (Yes/No), B symptoms (Yes/No), leukocyte count (G/L), lymphocyte count (G/L), hemoglobin level (g/dL), and serum albumin level (g/L).</p><p>The PS model was further evaluated by examining key modeling assumptions, including the positivity assumption through the overlap of PS and covariate distributions, the adequacy of the functional form of continuous covariates (i.e., linearity), and the potential presence of clinically relevant interactions between baseline covariates. These diagnostic assessments revealed no evidence of a lack of common support, with 95% of patients falling within the region of PS overlap. In addition, a simple linear specification for continuous covariates was preferred over more complex functional forms (e.g., quadratic terms or splines), and no clinically meaningful interactions between baseline covariates were identified. Collectively, these findings support the adequacy of the final PS model.</p><p>The estimand was the average treatment effect on the treated (ATT), where the target population was defined by the population of the AHL2011 clinical trial (i.e., RCT arm). Inverse probability weighting (IPW) was used for estimating the ATT.<xref rid="cpt70470-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> In the RCT arm (i.e., patients treated with the PET‐guided strategy in the clinical trial), weights were set to 1 for all patients. In the EC arm (i.e., patients treated with the PET‐guided strategy in clinical practice), weights were computed using the following formula (PS/(1 − PS)) so that the EC arm had the same covariate distribution as the RCT arm.</p></sec><sec id="cpt70470-sec-0013" disp-level="2"><title>Statistical methods</title><p>For each outcome, we sought to replicate the estimates obtained from the AHL2011 trial but only for the arm receiving the experimental strategy at that time, which is now a standard of care (i.e., PET‐guided treatment).</p><p>First, multiple imputation of missing baseline covariates was implemented using the multiple imputation by chained equations (MICE) method to preserve the number of participants in both RCT and EC arms.<xref rid="cpt70470-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> This method assumes that the missing values are missing at random. One imputation model was performed for each outcome, using the R package “mice” with 20 imputations.</p><p>Weighting was then performed within each imputed dataset using the function “weightthem” of R package “MatchThem”.<xref rid="cpt70470-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> In all datasets, standardized mean differences (SMD) were calculated to assess covariate balance between arms before and after weighting, using the function “bal.tab” of the R package “cobalt.” An absolute SMD &lt;0.1 for a covariate indicated that adequate balance was achieved.<xref rid="cpt70470-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> The effective sample size (ESS), which quantifies the loss in precision after weighting, was also examined.<xref rid="cpt70470-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+</p><p>PFS was the first outcome of interest. PFS estimates were obtained using the Kaplan–Meier method, and differences between arms were assessed using the adjusted log‐rank test. Cox proportional hazards model estimated hazard ratio (HR) accounting for IPW‐ATT weights. Estimates in each imputed dataset were pooled using Rubin's rules.<xref rid="cpt70470-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> Log‐rank and <italic>P</italic>‐values were pooled according to Li <italic>et al</italic>.<xref rid="cpt70470-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> For the Cox model using the EC arm as the reference arm, HR = 1 indicated comparable outcomes in RCT and EC arms, HR &lt; 1 indicated that the hazard of outcome was lower in RCT arm compared with EC arm, and HR &gt; 1 indicated that the hazard of outcome was higher in RCT arm compared with EC arm.</p><p>Our primary criterion for establishing reproducibility were balance achievement on baseline covariates and HR not significantly different from 1. Moreover, in an exploratory way, the 95% CI (two‐sided) for the estimated HR was compared with the non‐inferiority margin of the AHL2011 trial (i.e., HR of 1.77).<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> The upper limit of HR should be lower than 1.77 (and lower limit of HR upper than 0.56 for equivalence) to judge that the difference between our RCT and EC arms was clinically negligible.</p><p>Our secondary objective was to replicate ORR of the RCT arm with the EC arm. For comparison of ORR using IPW‐ATT weights, a logistic regression model estimated odds ratio (OR).</p><p>In addition to the aforementioned analyses, analyses were also performed before weighting without any adjustment.</p></sec><sec id="cpt70470-sec-0014" disp-level="2"><title>Sensitivity analyses</title><p>We performed a sensitivity analysis using PS matching. RCT subjects (corresponding to the “treated”) were matched to EC subjects (corresponding to the “controls”). Since the pool of controls was smaller than treated, common matching without replacement could not match all treated subjects and the estimate may no longer correspond to the ATT.<xref rid="cpt70470-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="cpt70470-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> Conversely, matching with replacement permits the same control subject to be matched to multiple treated subjects and that few treated subjects are not matched, and was more suitable in this context.<xref rid="cpt70470-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Two matching algorithms were used: greedy nearest neighbor matching with replacement (ratio 2:1, i.e., 2 controls for 1 treated), (1) without a caliper and (2) with a caliper of width equal to 0.2 of the standard deviation of the logit of the PS as recommended by Austin <italic>et al</italic>.<xref rid="cpt70470-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> As for weighting, matching was performed within each imputed dataset using the R package “MatchThem”.<xref rid="cpt70470-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> The treatment effects were estimated in each matched dataset accounting for the clustering in the standard error estimation<xref rid="cpt70470-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> and pooled according to Rubin's rules.</p></sec></sec><sec id="cpt70470-sec-0015" disp-level="1"><title>RESULTS</title><sec id="cpt70470-sec-0016" disp-level="2"><title>Study population</title><p>All 410 patients randomized in the PET‐guided arm of the AHL2011 trial were included in the RCT arm. Of 282 patients from REALYSA meeting the eligibility criteria of AHL2011, 191 received a treatment strategy compatible with the PET‐guided arm of AHL2011 and, so, they were included in the EC arm (see Flow chart, <bold>Figure</bold>
+<xref rid="cpt70470-fig-0001" ref-type="fig">
+<bold>1</bold>
+</xref>).</p><fig id="cpt70470-fig-0001" position="float"><?disp-level 3?><label>Figure 1</label><caption><p>Flow chart for selection of external control (EC) arm of patients with Hodgkin lymphoma (HL). eBEACOPP, escalated Bleomycin, Etoposide, Doxorubicin, Cyclophosphamide, Vincristine, Procarbazine, Prednisone; ECOG PS, Eastern Cooperative Oncology Group Performance Status; HL, Hodgkin Lymphoma; PET, positron emission tomography.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="CPT-9999-0-g003.webp"><?cloudpmc-path blobs/a98d/13548820/85bf8cc31355/CPT-9999-0-g003.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 735?><?original-width 1064?><?scaled-height 735?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="CPT-9999-0-g003.gif"><?cloudpmc-path blobs/a98d/13548820/336a6566a721/CPT-9999-0-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="cpt70470-sec-0017" disp-level="2"><title>Baseline characteristics</title><p>Baseline covariates of the RCT and EC arm are presented in <bold>Table</bold>
+<xref rid="cpt70470-tbl-0001" ref-type="table">
+<bold>1</bold>
+</xref>. In the RCT arm, 399 of 410 patients (97%) had complete data for the studied baseline characteristics (i.e., no missing data for covariates included in the PS). In the EC arm, 164 of 191 patients (86%) had complete data, and albumin was missing for 12% of EC patients. The majority of participants (61%) were men, the mean age at diagnosis was 32.7 years (SD, 10.7), 532 (89%) had Ann Arbor stage III or IV, and 565 (94%) had ECOG score of 0 or 1 (indicating no or low functional impairment).</p><table-wrap id="cpt70470-tbl-0001" position="float"><?disp-level 3?><label>Table 1</label><caption><p>Baseline characteristics</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Characteristics</th><th align="center" rowspan="1" colspan="1">EC arm <italic>N</italic> = 191<xref rid="cpt70470-note-0002" ref-type="table-fn"><sup>a</sup></xref>
+</th><th align="center" rowspan="1" colspan="1">RCT arm <italic>N</italic> = 410<xref rid="cpt70470-note-0002" ref-type="table-fn"><sup>a</sup></xref>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Sex</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Female</td><td align="left" rowspan="1" colspan="1">79 (41%)</td><td align="left" rowspan="1" colspan="1">157 (38%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Male</td><td align="left" rowspan="1" colspan="1">112 (59%)</td><td align="left" rowspan="1" colspan="1">253 (62%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Age (years)</td><td align="left" rowspan="1" colspan="1">33.24 (9.34)</td><td align="left" rowspan="1" colspan="1">32.46 (11.28)</td></tr><tr><td align="left" rowspan="1" colspan="1">Ann Arbor stage</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">I/II</td><td align="left" rowspan="1" colspan="1">13 (6.8%)</td><td align="left" rowspan="1" colspan="1">54 (13%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">III</td><td align="left" rowspan="1" colspan="1">57 (30%)</td><td align="left" rowspan="1" colspan="1">114 (28%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">IV</td><td align="left" rowspan="1" colspan="1">121 (63%)</td><td align="left" rowspan="1" colspan="1">240 (59%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Missing</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">ECOG PS score</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">106 (55%)</td><td align="left" rowspan="1" colspan="1">193 (47%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">82 (43%)</td><td align="left" rowspan="1" colspan="1">184 (45%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">3 (1.6%)</td><td align="left" rowspan="1" colspan="1">31 (7.6%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Missing</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">Extra nodal sites ≥2, Yes</td><td align="left" rowspan="1" colspan="1">76 (40%)</td><td align="left" rowspan="1" colspan="1">119 (29%)</td></tr><tr><td align="left" rowspan="1" colspan="1">B symptoms, Yes</td><td align="left" rowspan="1" colspan="1">129 (68%)</td><td align="left" rowspan="1" colspan="1">277 (68%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Missing</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">Leukocytes (G/L)</td><td align="left" rowspan="1" colspan="1">12.19 (6.31)</td><td align="left" rowspan="1" colspan="1">12.27 (5.65)</td></tr><tr><td align="left" rowspan="1" colspan="1">Lymphocytes (G/L)</td><td align="left" rowspan="1" colspan="1">1.38 (0.85)</td><td align="left" rowspan="1" colspan="1">1.41 (0.89)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Missing</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1">Hemoglobin (g/dL)</td><td align="left" rowspan="1" colspan="1">11.75 (2.05)</td><td align="left" rowspan="1" colspan="1">11.91 (1.85)</td></tr><tr><td align="left" rowspan="1" colspan="1">Albumin (g/L)</td><td align="left" rowspan="1" colspan="1">34.59 (6.33)</td><td align="left" rowspan="1" colspan="1">35.70 (6.26)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Missing</td><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">8</td></tr></tbody></table><table-wrap-foot><fn id="cpt70470-note-0001"><p>EC, External Control; ECOG PS, Eastern Cooperative Oncology Group Performance Status; RCT, Randomized Controlled Trial.</p></fn><fn id="cpt70470-note-0002"><label>
+<sup>a</sup>
+</label><p>
+<italic>n</italic> (%); Mean (SD).</p></fn></table-wrap-foot></table-wrap><p>After multiple imputation to handle missing data and prior to weighting, several covariates were unbalanced between arms (average unadjusted SMD &gt;0.1) (<bold>Table</bold>
+<xref rid="cpt70470-tbl-0002" ref-type="table">
+<bold>2</bold>
+</xref>, <bold>Figure</bold>
+<xref rid="cpt70470-fig-0002" ref-type="fig">
+<bold>2</bold>
+</xref>). In particular, patients from the EC arm were less likely to have an ECOG PS of 2, had more often disease with two or more extra nodal sites involved, and had a lower albumin level.</p><table-wrap id="cpt70470-tbl-0002" position="float"><?disp-level 3?><label>Table 2</label><caption><p>Covariate balance before and after adjustment</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" colspan="1">Covariates</th><th align="center" rowspan="2" colspan="1">Before adjustment</th><th align="center" rowspan="2" colspan="1">Weighting (IPW‐ATT)</th><th align="center" colspan="2" rowspan="1">Matching with replacement</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" rowspan="1" colspan="1">Without caliper</th><th align="center" rowspan="1" colspan="1">With caliper</th></tr><tr><th align="left" rowspan="2" colspan="1"/><th align="left" rowspan="1" colspan="1">RCT patients (<italic>n</italic> = 410) vs. EC patients (<italic>n</italic> = 191)</th><th align="left" rowspan="1" colspan="1">RCT patients (<italic>n</italic> = 410) vs. weighted EC patients (<italic>n</italic> = 191)</th><th align="left" rowspan="1" colspan="1">Matched RCT (<italic>n</italic> = 410) vs. matched EC (<italic>n</italic> = 186)</th><th align="left" rowspan="1" colspan="1">Matched RCT (<italic>n</italic> = 388) vs. matched EC (<italic>n</italic> = 180)</th></tr><tr><th align="left" rowspan="1" colspan="1">SMD (min–max)<xref rid="cpt70470-note-0004" ref-type="table-fn"><sup>a</sup></xref>
+</th><th align="left" rowspan="1" colspan="1">SMD (min–max)<xref rid="cpt70470-note-0004" ref-type="table-fn"><sup>a</sup></xref>
+</th><th align="left" rowspan="1" colspan="1">SMD (min–max)<xref rid="cpt70470-note-0004" ref-type="table-fn"><sup>a</sup></xref>
+</th><th align="left" rowspan="1" colspan="1">SMD (min–max)<xref rid="cpt70470-note-0004" ref-type="table-fn"><sup>a</sup></xref>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Sex (male)</td><td align="left" rowspan="1" colspan="1">0.06 (0.06–0.06)</td><td align="left" rowspan="1" colspan="1">0.04 (0.03–0.04)</td><td align="left" rowspan="1" colspan="1">0.07 (0.06–0.09)</td><td align="left" rowspan="1" colspan="1">0.05 (0.00–0.11)</td></tr><tr><td align="left" rowspan="1" colspan="1">Age (years)</td><td align="left" rowspan="1" colspan="1">0.07 (0.07–0.07)</td><td align="left" rowspan="1" colspan="1">0.04 (0.04–0.05)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.04)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.07)</td></tr><tr><td align="left" rowspan="1" colspan="1">Ann Arbor I/II</td><td align="left" rowspan="1" colspan="1">0.19 (0.19–0.20)</td><td align="left" rowspan="1" colspan="1">0.05 (0.04– 0.05)</td><td align="left" rowspan="1" colspan="1">0.16 (0.16–0.17)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.05)</td></tr><tr><td align="left" rowspan="1" colspan="1">Ann Arbor III</td><td align="left" rowspan="1" colspan="1">0.04 (0.03–0.05)</td><td align="left" rowspan="1" colspan="1">0.00 (0.00–0.01)</td><td align="left" rowspan="1" colspan="1">0.07 (0.05–0.10)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.05)</td></tr><tr><td align="left" rowspan="1" colspan="1">Ann Arbor IV</td><td align="left" rowspan="1" colspan="1">0.09 (0.09–0.10)</td><td align="left" rowspan="1" colspan="1">0.04 (0.03–0.04)</td><td align="left" rowspan="1" colspan="1">0.04 (0.02–0.07)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.05)</td></tr><tr><td align="left" rowspan="1" colspan="1">ECOG PS 0</td><td align="left" rowspan="1" colspan="1">0.16 (0.16–0.17)</td><td align="left" rowspan="1" colspan="1">0.06 (0.06–0.07)</td><td align="left" rowspan="1" colspan="1">0.15 (0.12–0.17)</td><td align="left" rowspan="1" colspan="1">0.05 (0.00–0.11)</td></tr><tr><td align="left" rowspan="1" colspan="1">ECOG PS 1</td><td align="left" rowspan="1" colspan="1">0.04 (0.04–0.05)</td><td align="left" rowspan="1" colspan="1">0.01 (0.01–0.02)</td><td align="left" rowspan="1" colspan="1">0.03 (0.00–0.06)</td><td align="left" rowspan="1" colspan="1">0.07 (0.02–0.13)</td></tr><tr><td align="left" rowspan="1" colspan="1">ECOG PS 2</td><td align="left" rowspan="1" colspan="1">0.23 (0.23–0.24)</td><td align="left" rowspan="1" colspan="1">0.10 (0.09–0.11)</td><td align="left" rowspan="1" colspan="1">0.22 (0.22–0.23)</td><td align="left" rowspan="1" colspan="1">0.03 (0.01–0.04)</td></tr><tr><td align="left" rowspan="1" colspan="1">Extra nodal sites ≥2</td><td align="left" rowspan="1" colspan="1">0.24 (0.24–0.24)</td><td align="left" rowspan="1" colspan="1">0.07 (0.06–0.08)</td><td align="left" rowspan="1" colspan="1">0.11 (0.06–0.13)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.05)</td></tr><tr><td align="left" rowspan="1" colspan="1">B symptoms</td><td align="left" rowspan="1" colspan="1">0.01 (0.01–0.01)</td><td align="left" rowspan="1" colspan="1">0.03 (0.03–0.04)</td><td align="left" rowspan="1" colspan="1">0.04 (0.02–0.08)</td><td align="left" rowspan="1" colspan="1">0.04 (0.00–0.08)</td></tr><tr><td align="left" rowspan="1" colspan="1">Leukocytes (G/L)</td><td align="left" rowspan="1" colspan="1">0.01 (0.01–0.01)</td><td align="left" rowspan="1" colspan="1">0.04 (0.03–0.05)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.07)</td><td align="left" rowspan="1" colspan="1">0.05 (0.00–0.10)</td></tr><tr><td align="left" rowspan="1" colspan="1">Lymphocytes (G/L)</td><td align="left" rowspan="1" colspan="1">0.05 (0.02–0.06)</td><td align="left" rowspan="1" colspan="1">0.01 (0.00–0.03)</td><td align="left" rowspan="1" colspan="1">0.01 (0.00–0.03)</td><td align="left" rowspan="1" colspan="1">0.02 (0.00–0.08)</td></tr><tr><td align="left" rowspan="1" colspan="1">Hemoglobin (g/dL)</td><td align="left" rowspan="1" colspan="1">0.08 (0.08–0.08)</td><td align="left" rowspan="1" colspan="1">0.01 (0.00–0.02)</td><td align="left" rowspan="1" colspan="1">0.04 (0.01–0.07)</td><td align="left" rowspan="1" colspan="1">0.03 (0.00–0.08)</td></tr><tr><td align="left" rowspan="1" colspan="1">Albumin (g/L)</td><td align="left" rowspan="1" colspan="1">0.17 (0.12–0.20)</td><td align="left" rowspan="1" colspan="1">0.01 (0.00–0.02)</td><td align="left" rowspan="1" colspan="1">0.09 (0.05–0.13)</td><td align="left" rowspan="1" colspan="1">0.05 (0.01–0.08)</td></tr></tbody></table><table-wrap-foot><fn id="cpt70470-note-0003"><p>EC, External Control; ECOG PS, Eastern Cooperative Oncology Group Performance Status; IPW‐ATT, Inverse Probability Weighting‐Average Treatment effect on the Treated; RCT, Randomized Controlled Trial; SMD, Standardized Mean Difference.</p></fn><fn id="cpt70470-note-0004"><label>
+<sup>a</sup>
+</label><p>Average SMD are presented with min–max across all imputed datasets (<italic>m</italic> = 20); SMD &lt;0.1 indicates negligible imbalance between RCT and EC arms.</p></fn></table-wrap-foot></table-wrap><fig id="cpt70470-fig-0002" position="float"><?disp-level 3?><label>Figure 2</label><caption><p>Covariate balance in unadjusted (unweighted) and adjusted (IPW‐ATT) samples. ECOG PS, Eastern Cooperative Oncology Group Performance Status; IPW‐ATT, Inverse Probability Weighting‐Average Treatment effect on the Treated. For each covariate, absolute standardized mean difference (SMD) is averaged (represented by points) and presented with min–max across all imputed datasets (<italic>m</italic> = 20); SMD &lt; 0.1 indicates negligible imbalance between RCT and EC arms.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="CPT-9999-0-g002.webp"><?cloudpmc-path blobs/a98d/13548820/46f511359835/CPT-9999-0-g002.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 757?><?original-width 1064?><?scaled-height 757?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="CPT-9999-0-g002.gif"><?cloudpmc-path blobs/a98d/13548820/2d13b1f86b98/CPT-9999-0-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>After weighting, the ESS of the EC arm was 156 on average across imputations, and characteristics were well‐balanced between the RCT and EC arms (average SMD &lt;0.1 for all covariates) (<bold>Table</bold>
+<xref rid="cpt70470-tbl-0002" ref-type="table">
+<bold>2</bold>
+</xref>, <bold>Figure</bold>
+<xref rid="cpt70470-fig-0002" ref-type="fig">
+<bold>2</bold>
+</xref>).</p></sec><sec id="cpt70470-sec-0018" disp-level="2"><title>
+PFS outcome</title><p>Overall median follow‐up for PFS was 45 months (IQR: 35, 54), with a maximum follow‐up duration of 74 months and 72 months in the RCT and EC arms, respectively. Beyond 60 months of follow‐up, the number of patients that remained at risk of the PFS event dropped in both arms, which limits the interpretation of late survival.</p><p>PFS events (i.e., progression, relapse or death) occurred in 53 of 410 patients (13%) in the RCT arm and 24 of 191 patients (13%) in the EC arm (median PFS not reached in both arms, <bold>Figure</bold>
+<xref rid="cpt70470-fig-0003" ref-type="fig">
+<bold>3</bold>
+<bold>a</bold>
+</xref>). The estimated 2‐year PFS was 89.1% in the RCT arm and 88.8% in the EC arm (<bold>Table</bold>
+<xref rid="cpt70470-tbl-0003" ref-type="table">
+<bold>3</bold>
+</xref>). The estimated HR for PFS using EC as reference was 0.89 (95% CI: 0.55–1.47).</p><fig id="cpt70470-fig-0003" position="float"><?disp-level 3?><label>Figure 3</label><caption><p>Kaplan–Meier curves comparing progression‐free survival (PFS) for the randomized controlled trial (RCT) arm vs. the external control (EC) arm (pooled data), before weighting <bold>(a)</bold> and after IPW‐ATT weighting <bold>(b)</bold>. IPW‐ATT, Inverse Probability Weighting – Average Treatment effect on the Treated. Sample sizes (pseudo‐population after weighting) are averaged across all imputed datasets (<italic>m</italic> = 20).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-5" xlink:href="CPT-9999-0-g001.webp"><?cloudpmc-path blobs/a98d/13548820/c10fb943bb63/CPT-9999-0-g001.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 738?><?original-width 1064?><?scaled-height 738?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="CPT-9999-0-g001.gif"><?cloudpmc-path blobs/a98d/13548820/db9b3438e56b/CPT-9999-0-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="cpt70470-tbl-0003" position="float"><?disp-level 3?><label>Table 3</label><caption><p>Progression‐free survival (PFS) outcomes before and after weighting (IPW‐ATT)</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" colspan="1"/><th align="center" colspan="2" rowspan="1">Before weighting</th><th align="center" colspan="2" rowspan="1">After weighting (IPW‐ATT)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" rowspan="1" colspan="1">2‐y PFS (95% CI)</th><th align="center" rowspan="1" colspan="1">HR (95% CI)<xref rid="cpt70470-note-0007" ref-type="table-fn"><sup>a</sup></xref>
+</th><th align="center" rowspan="1" colspan="1">2‐y PFS (95% CI)</th><th align="center" rowspan="1" colspan="1">HR (95% CI)<xref rid="cpt70470-note-0007" ref-type="table-fn"><sup>a</sup></xref>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">RCT arm</td><td align="center" rowspan="1" colspan="1">89.1 (85.6–91.8)</td><td align="left" rowspan="1" colspan="1">0.89 (0.55–1.47)</td><td align="center" rowspan="1" colspan="1">89.1 (85.6–91.8)</td><td align="left" rowspan="1" colspan="1">0.98 (0.59–1.62)</td></tr><tr><td align="left" rowspan="1" colspan="1">EC arm</td><td align="center" rowspan="1" colspan="1">88.8 (83.4–92.6)</td><td align="left" rowspan="1" colspan="1">–</td><td align="center" rowspan="1" colspan="1">89.2 (83.4–93.1)</td><td align="left" rowspan="1" colspan="1">–</td></tr></tbody></table><table-wrap-foot><fn id="cpt70470-note-0005"><p>Estimates and 95% CI are pooled according to Rubin's rules.</p></fn><fn id="cpt70470-note-0006"><p>CI, Confidence Interval; EC, External Control; HR, Hazard Ratio; IPW‐ATT, Inverse Probability Weighting‐Average Treatment effect on the Treated; RCT, Randomized Controlled Trial.</p></fn><fn id="cpt70470-note-0007"><label>
+<sup>a</sup>
+</label><p>Reference arm is the EC arm.</p></fn></table-wrap-foot></table-wrap><p>After weighting, PFS curves of the RCT and the EC arms were not statistically different (adjusted log‐rank <italic>P</italic>‐value = 0.94, <bold>Figure</bold>
+<xref rid="cpt70470-fig-0003" ref-type="fig">
+<bold>3</bold>
+<bold>b</bold>
+</xref>). The estimated 2‐year PFS was 89.1% in the RCT arm and 89.2% in the EC arm. The estimated HR for PFS was close to 1 (HR, 0.98; 95% CI: 0.59–1.62) (<bold>Table</bold>
+<xref rid="cpt70470-tbl-0003" ref-type="table">
+<bold>3</bold>
+</xref>).</p></sec><sec id="cpt70470-sec-0019" disp-level="2"><title>
+ORR outcome after the end of first‐line treatment</title><p>After a second imputation process including the ORR and application of IPW‐ATT weights, baseline characteristics were well‐balanced between arms (data not shown).</p><p>Before weighting, the ORR was similar in the RCT arm (91.0%) and in the EC arm (91.1%) (<bold>Table</bold>
+<xref rid="cpt70470-supitem-0001" ref-type="supplementary-material">
+<bold>S2</bold>
+</xref>). OR for ORR using EC as reference was 0.98 (95% CI: 0.54–1.80). After weighting, ORR was 91.7% in the EC arm, and OR was 0.91 (95% CI: 0.49–1.70). Again, as expected, the estimated OR was not significantly different from 1.</p></sec><sec id="cpt70470-sec-0020" disp-level="2"><title>Sensitivity analysis</title><p>When using matching with replacement (without a caliper restriction), all 410 RCT patients were matched. Of the 191 EC patients, an average of 186 patients (97%) were matched to at least one RCT patient across imputations. Effective sample size was 173 in the EC arm. Some covariates were unbalanced between arms (<bold>Table</bold>
+<xref rid="cpt70470-tbl-0002" ref-type="table">
+<bold>2</bold>
+</xref>, <bold>Figure</bold>
+<xref rid="cpt70470-supitem-0001" ref-type="supplementary-material">
+<bold>S1</bold>
+</xref>). Therefore, no valid estimation of treatment effect could be performed using this method.</p><p>After matching with replacement with a caliper, an average of 388 of 410 RCT patients (95%) and 180 out of 191 EC patients (94%) were matched. Effective sample size was 145 in the EC arm. RCT and EC arms were well‐balanced on average, although there was residual imbalance in some imputations (SMD max slightly above 0.10 for some covariates) (<bold>Table</bold>
+<xref rid="cpt70470-tbl-0002" ref-type="table">
+<bold>2</bold>
+</xref>, <bold>Figure</bold>
+<xref rid="cpt70470-supitem-0001" ref-type="supplementary-material">
+<bold>S1</bold>
+</xref>). The estimated HR for PFS was 0.86 (95% CI: 0.50–1.50).</p></sec></sec><sec id="cpt70470-sec-0021" disp-level="1"><title>DISCUSSION</title><p>Our study explored whether a cohort that included cHL patients treated in routine practice could be useful for the construction of an EC arm. For this purpose, we compared outcomes of an RCT arm of cHL patients receiving the PET‐guided strategy and similar patients receiving the PET‐guided strategy as part of routine clinical care in the REALYSA cohort.</p><p>After application of eligibility criteria of the AHL2011 trial, 15% of the HL patients in the REALYSA cohort were eligible for the EC arm. Data on the studied baseline characteristics were missing for 14% of EC patients vs. 3% of RCT patients. Before any adjustment, RCT and EC arms were not balanced for some covariates.</p><p>Using PS weighting, balance between RCT and EC arms was improved. Estimates of 2‐year PFS were similar in RCT and EC arms. The HR was very close to 1 (HR, 0.98; 95% CI: 0.59–1.62), indicating that PFS outcomes were comparable in RCT and EC arms. The confidence interval of the HR was quite large due to the low number of events. However, the upper limit of the 95% CI of the HR fell below 1.77 (i.e., the non‐inferiority margin in the AHL2011 trial), suggesting that the difference between the RCT and EC arms could be clinically acceptable. The sensitivity analysis restricted to patients who received PET after cycle 2 yielded effect estimates of similar magnitude and direction to the primary analysis (HR, 0.90; 95% CI: 0.54–1.51). Response rates were also similar in RCT and EC arms with overlapping confidence intervals, but the wide confidence interval of OR prevented formal conclusion on this outcome.</p><p>The sensitivity analysis allowed us to compare results obtained using weighting with those obtained using matching, both of which target the ATT estimand. PS matching is a widely used and easy to understand method that aims to balance covariates between groups in non‐randomized studies. Without a caliper, all RCT patients could be matched to EC patients but covariate balance was not achieved and, therefore, no valid estimation was possible. With a caliper restriction, covariate balance was improved although some residual imbalance persisted compared with weighting. In addition, the HR for PFS was lower than with weighting. This result can be partly explained by the reduced sample after the matching procedure that discarded patients in both arms, and the repeated use of some EC patients due to matching with replacement.<xref rid="cpt70470-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>
+</p><p>A recent literature review reported the results of six studies that directly compared an EC arm to an RCT arm (control or interventional) receiving the same treatment in the field of oncology.<xref rid="cpt70470-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> Consistent with our study, EC constructed from different routine care data sources gave similar outcomes to the RCT arm in most cases, although no formal similarity criteria were defined to assess reproducibility. When results were not comparable, the reason was mainly that important data such as eligibility criteria and confounders were not available in the data source used for the EC arm.<xref rid="cpt70470-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> In any case, sensitivity analyses testing different methodological approaches appeared essential to strengthen the conclusions of studies based on EC arms, as discussed by Lin <italic>et al</italic>.<xref rid="cpt70470-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+</p><p>PS weighting and matching are two frequently used methods for analyses involving EC arms, which yielded similar results in previous studies with EC.<xref rid="cpt70470-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="cpt70470-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> In our study, we observed some discrepancies between the two methods, with weighting performing better than matching, which is consistent with observations from simulation studies.<xref rid="cpt70470-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>, <xref rid="cpt70470-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> With IPW‐ATT weights, RCT and EC arms were well‐balanced and all patients were part of the analysis. However, effective sample was reduced after weighting, which may have impacted the accuracy of the estimations. In some instances, other estimands may be of interest.<xref rid="cpt70470-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> In particular, methods estimating the average treatment effect in the overlap population (ATO), where the target population is an equipoise population (i.e., with very similar characteristics), might have better performances than those targeting other estimands.<xref rid="cpt70470-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>
+</p><p>The main strength of our study was the use of data from a large randomized phase III study that established a standard of care at time of polychemotherapy era and a prospective national cohort applying a specific data validation process.<xref rid="cpt70470-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> In particular, our EC arm was derived from the REALYSA cohort, which demonstrated high‐quality routine data for cHL patients with rare missing data for key variables.<xref rid="cpt70470-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Moreover, in addition to the application of trial's eligibility criteria to construct the EC arm, two adapted PS‐based methods (i.e., weighting and matching) were used to balance baseline characteristics between RCT and EC arms. We also addressed the missing data on the studied covariates using multiple imputation, which is a recommended approach to preserve the number of patients in both arms while accounting for the uncertainty in the missing values.<xref rid="cpt70470-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>
+</p><p>Our study also has some limitations. First, some eligibility criteria of the AHL2011 trial could not be applied to the REALYSA cohort owing to differences in the examinations in the two contexts, though main prognostic factors were balanced after weighting. Second, we analyzed both survival (PFS) and binary (ORR) outcomes, which are of major interest in the oncology setting. However, methods of measuring these outcomes and the frequency of examinations during follow‐up differed in the two contexts.<xref rid="cpt70470-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> Ascertainment of disease progression relied on the clinician's judgment in real clinical practice, whereas the AHL2011 trial used the standardized Cheson criteria,<xref rid="cpt70470-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> leading to potential misclassification of outcomes in the EC arm impacting the results.<xref rid="cpt70470-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> In addition, unlike the AHL2011 trial, data on interim PET were collected but no formal review of imaging was done in REALYSA, and switching regimens with de‐escalation (eBEACOPP to ABVD) were decided by physicians in each center. Third, the relatively short follow‐up period in our study prevented to reliably estimating long‐term PFS as well as overall survival (OS). However, in a recent study based on nine first‐line trials in cHL, there was a strong correlation between PFS and OS and between treatment effects on PFS and OS, suggesting that PFS outcome is relevant in this indication.<xref rid="cpt70470-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> Fourth, the sample size was fixed by design and the study was not powered to answer an equivalence objective. Therefore, the absence of statistically significant differences between RCT and EC arms can be the consequence of an insufficient statistical power, and it does not mean evidence of absence. Moreover, one of our success criteria for establishing reproducibility used the non‐inferiority margin of the AHL2011 trial whose clinical relevance can be disputed in the present work. Finally, due to the absence of randomization and non‐overlap between inclusion periods in the RCT and EC arms, we cannot rule out potential residual confounding that may have affected the results. In particular, we believe that PET interpretation methods have improved between the two periods, but other medical practices have not changed much so this should have a limited impact on our results.</p><p>In conclusion, this study explored the possibility of building an EC arm derived from a cohort of patients treated in routine care for advanced Hodgkin lymphoma. Balance and variance are crucial issues in EC studies and must be carefully examined. After applying trial eligibility criteria and PS approach, our findings support the reproducibility of RCT outcomes using the EC arm, that is, our work supports compatibility (rather than validation). Weighting performed better than matching and should be preferred in this context. Trials with EC arms using REALYSA data and an adapted methodology could be considered in the development of new therapeutic strategies in advanced Hodgkin lymphoma.</p></sec><sec id="cpt70470-sec-0023" disp-level="1"><title>FUNDING</title><p>This work was supported by the call for projects for young researchers (Year 2024) from the Hospices Civils de Lyon, Lyon, France.</p></sec><sec id="cpt70470-sec-0024" disp-level="1"><title>CONFLICT OF INTEREST</title><p>The authors declared no competing interests for this work.</p></sec><sec id="cpt70470-sec-0025" disp-level="1"><title>AUTHOR CONTRIBUTIONS</title><p>All authors wrote the manuscript. All authors designed the research. O.F.C., A.B., T.M.M., L.C., and E.C. performed the research and analyzed the data.</p></sec><sec id="sec23" disp-level="1"><title>Supporting information</title><supplementary-material id="cpt70470-supitem-0001" position="float"><caption><p>
+Table S1.
+</p><p>
+Table S2.
+</p><p>
+Figure S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CPT-9999-0-s001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path a98d/13548820/55f68fd84397/CPT-9999-0-s001.pdf?><?cloudpmc-bucket app?><?size 268336?></media></supplementary-material></sec><sec id="cpt70470-sec-0022" sec-type="ack" disp-level="1"><title>ACKNOWLEDGMENTS</title><p>The authors would like to thank patients, families, caregivers, and investigators who participated in the AHL clinical study and in the REALYSA cohort study. They also thank the Hospices Civils de Lyon and the Lymphoma Academic Research Organization (LYSARC), who sponsored the REALYSA and AHL studies, respectively, as well as the Lymphoma Study Association (LYSA) for the significant contribution to patient recruitment. The following partners provided financial support for the implementation of the REALYSA cohort: Roche, Takeda, Janssen, Amgen, Celgene‐Bristol Myers Squibb, AstraZeneca, Abbvie. Open access publication funding provided by COUPERIN CY26.</p></sec><sec id="cpt70470-sec-0027" disp-level="1"><title>DATA AVAILABILITY STATEMENT</title><p>Data of the current study are available from the corresponding author on reasonable request.</p></sec><sec id="cpt70470-bibl-0001" sec-type="ref-list" disp-level="1"><title>References</title><sec id="cpt70470-bibl-0001_sec2" disp-level="2"><ref-list><ref id="cpt70470-bib-0001"><label>1.</label><mixed-citation id="cpt70470-cit-0001"><named-content content-type="citation-string">
+
+Hatswell, A.J.
+, 
+Baio, G.
+, 
+Berlin, J.A.
+, 
+Irs, A.
+ &amp; 
+Freemantle, N.
+
+Regulatory approval of pharmaceuticals without a randomised controlled study: analysis of EMA and FDA approvals 1999‐2014. BMJ Open
+6, e011666 (2016).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1136/bmjopen-2016-011666"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4932294"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27363818"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMJ Open&amp;title=Regulatory approval of pharmaceuticals without a randomised controlled study: analysis of EMA and FDA approvals 1999‐2014&amp;author=A.J. Hatswell&amp;author=G. Baio&amp;author=J.A. Berlin&amp;author=A. Irs&amp;author=N. Freemantle&amp;volume=6&amp;publication_year=2016&amp;pages=e011666&amp;pmid=27363818&amp;doi=10.1136/bmjopen-2016-011666&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0002"><label>2.</label><mixed-citation id="cpt70470-cit-0002"><named-content content-type="citation-string">
+
+Anderson, M.
+, 
+Naci, H.
+, 
+Morrison, D.
+, 
+Osipenko, L.
+ &amp; 
+Mossialos, E.
+
+A review of NICE appraisals of pharmaceuticals 2000‐2016 found variation in establishing comparative clinical effectiveness. J. Clin. Epidemiol.
+105, 50–59 (2019).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jclinepi.2018.09.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30236484"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Epidemiol.&amp;title=A review of NICE appraisals of pharmaceuticals 2000‐2016 found variation in establishing comparative clinical effectiveness&amp;author=M. Anderson&amp;author=H. Naci&amp;author=D. Morrison&amp;author=L. Osipenko&amp;author=E. Mossialos&amp;volume=105&amp;publication_year=2019&amp;pages=50-59&amp;pmid=30236484&amp;doi=10.1016/j.jclinepi.2018.09.003&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0003"><label>3.</label><mixed-citation id="cpt70470-cit-0003"><named-content content-type="citation-string">
+
+Cucherat, M.
+
+<italic>et al</italic>. Des études mono‐bras aux études de comparaison externe. Considérations méthodologiques et recommandations. Therapie
+75, 13–19 (2020).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.therap.2019.12.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32063401"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Therapie&amp;title=Des études mono‐bras aux études de comparaison externe. Considérations méthodologiques et recommandations&amp;author=M. Cucherat&amp;volume=75&amp;publication_year=2020&amp;pages=13-19&amp;pmid=32063401&amp;doi=10.1016/j.therap.2019.12.002&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0004"><label>4.</label><mixed-citation id="cpt70470-cit-0004"><named-content content-type="citation-string">
+
+Thorlund, K.
+, 
+Dron, L.
+, 
+Park, J.J.H.
+ &amp; 
+Mills, E.J.
+
+Synthetic and external controls in clinical trials ‐ a primer for researchers. Clin. Epidemiol.
+12, 457–467 (2020).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2147/CLEP.S242097"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7218288"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32440224"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Epidemiol.&amp;title=Synthetic and external controls in clinical trials ‐ a primer for researchers&amp;author=K. Thorlund&amp;author=L. Dron&amp;author=J.J.H. Park&amp;author=E.J. Mills&amp;volume=12&amp;publication_year=2020&amp;pages=457-467&amp;pmid=32440224&amp;doi=10.2147/CLEP.S242097&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0005"><label>5.</label><mixed-citation id="cpt70470-cit-0005"><named-content content-type="citation-string">
+
+Mishra‐Kalyani, P.S.
+
+<italic>et al</italic>. External control arms in oncology: current use and future directions. Ann. Oncol.
+33, 376–383 (2022).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.annonc.2021.12.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35026413"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ann. Oncol.&amp;title=External control arms in oncology: current use and future directions&amp;author=P.S. Mishra‐Kalyani&amp;volume=33&amp;publication_year=2022&amp;pages=376-383&amp;pmid=35026413&amp;doi=10.1016/j.annonc.2021.12.015&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0006"><label>6.</label><mixed-citation id="cpt70470-cit-0006"><named-content content-type="citation-string">
+US Food and Drug Administration
+. Guidance for industry. Considerations for the design and conduct of externally controlled trials for drug and biological products (2023).</named-content></mixed-citation></ref><ref id="cpt70470-bib-0007"><label>7.</label><mixed-citation id="cpt70470-cit-0007"><named-content content-type="citation-string">
+
+Patel, D.
+
+<italic>et al</italic>. Use of external comparators for health technology assessment submissions based on single‐arm trials. Value Health
+24, 1118–1125 (2021).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jval.2021.01.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34372977"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Value Health&amp;title=Use of external comparators for health technology assessment submissions based on single‐arm trials&amp;author=D. Patel&amp;volume=24&amp;publication_year=2021&amp;pages=1118-1125&amp;pmid=34372977&amp;doi=10.1016/j.jval.2021.01.015&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0008"><label>8.</label><mixed-citation id="cpt70470-cit-0008"><named-content content-type="citation-string">
+US Food and Drug Administration
+. Clinical Trial Considerations to Support Accelerated Approval of Oncology Therapeutics (Food and Drug Administration, Rockville, MD, 2023).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Clinical Trial Considerations to Support Accelerated Approval of Oncology Therapeutics&amp;publication_year=2023&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0009"><label>9.</label><mixed-citation id="cpt70470-cit-0009"><named-content content-type="citation-string">
+
+Lin, L.
+, 
+Lucassen, M.J.J.
+, 
+van der Noort, V.
+, 
+Egberts, T.C.G.
+, 
+Beijnen, J.H.
+ &amp; 
+Huitema, A.D.R.
+
+The feasibility of using real world data as external control arms in oncology trials. Drug Discov. Today
+30, 104324 (2025).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.drudis.2025.104324"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40054765"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Drug Discov. Today&amp;title=The feasibility of using real world data as external control arms in oncology trials&amp;author=L. Lin&amp;author=M.J.J. Lucassen&amp;author=V. van der Noort&amp;author=T.C.G. Egberts&amp;author=J.H. Beijnen&amp;volume=30&amp;publication_year=2025&amp;pages=104324&amp;pmid=40054765&amp;doi=10.1016/j.drudis.2025.104324&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0010"><label>10.</label><mixed-citation id="cpt70470-cit-0010"><named-content content-type="citation-string">
+
+Carrigan, G.
+
+<italic>et al</italic>. Using electronic health records to derive control arms for early phase single‐arm lung cancer trials: proof‐of‐concept in randomized controlled trials. Clin. Pharmacol. Ther.
+107, 369–377 (2020).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cpt.1586"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7006884"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31350853"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Pharmacol. Ther.&amp;title=Using electronic health records to derive control arms for early phase single‐arm lung cancer trials: proof‐of‐concept in randomized controlled trials&amp;author=G. Carrigan&amp;volume=107&amp;publication_year=2020&amp;pages=369-377&amp;pmid=31350853&amp;doi=10.1002/cpt.1586&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0011"><label>11.</label><mixed-citation id="cpt70470-cit-0011"><named-content content-type="citation-string">
+
+Ton, T.G.N.
+
+<italic>et al</italic>. Replication of overall survival, progression‐free survival, and overall response in chemotherapy arms of non‐small cell lung cancer trials using real‐world data. Clin. Cancer Res.
+28, 2844–2853 (2022).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/1078-0432.CCR-22-0471"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9355621"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35511917"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Cancer Res.&amp;title=Replication of overall survival, progression‐free survival, and overall response in chemotherapy arms of non‐small cell lung cancer trials using real‐world data&amp;author=T.G.N. Ton&amp;volume=28&amp;publication_year=2022&amp;pages=2844-2853&amp;pmid=35511917&amp;doi=10.1158/1078-0432.CCR-22-0471&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0012"><label>12.</label><mixed-citation id="cpt70470-cit-0012"><named-content content-type="citation-string">
+
+Schroder, C.
+
+<italic>et al</italic>. Building external control arms from patient‐level electronic health record data to replicate the randomized IMblaze370 control arm in metastatic colorectal cancer. JCO Clin. Cancer Inform.
+5, 450–458 (2021).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1200/CCI.20.00149"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8140779"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33891473"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=JCO Clin. Cancer Inform.&amp;title=Building external control arms from patient‐level electronic health record data to replicate the randomized IMblaze370 control arm in metastatic colorectal cancer&amp;author=C. Schroder&amp;volume=5&amp;publication_year=2021&amp;pages=450-458&amp;pmid=33891473&amp;doi=10.1200/CCI.20.00149&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0013"><label>13.</label><mixed-citation id="cpt70470-cit-0013"><named-content content-type="citation-string">
+
+Huang Bartlett, C.
+
+<italic>et al</italic>. Concordance of real‐world versus conventional progression‐free survival from a phase 3 trial of endocrine therapy as first‐line treatment for metastatic breast cancer. PLoS One
+15, e0227256 (2020).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0227256"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7173855"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32315295"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Concordance of real‐world versus conventional progression‐free survival from a phase 3 trial of endocrine therapy as first‐line treatment for metastatic breast cancer&amp;author=C. Huang Bartlett&amp;volume=15&amp;publication_year=2020&amp;pages=e0227256&amp;pmid=32315295&amp;doi=10.1371/journal.pone.0227256&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0014"><label>14.</label><mixed-citation id="cpt70470-cit-0014"><named-content content-type="citation-string">
+
+Kaseb, H.
+ &amp; 
+Babiker, H.M.
+
+Hodgkin lymphoma. In StatPearls (StatPearls, Treasure Island (FL), 2025).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=StatPearls&amp;author=H. Kaseb&amp;author=H.M. Babiker&amp;publication_year=2025&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0015"><label>15.</label><mixed-citation id="cpt70470-cit-0015"><named-content content-type="citation-string">
+
+Casasnovas, R.O.
+
+<italic>et al</italic>. PET‐adapted treatment for newly diagnosed advanced Hodgkin lymphoma (AHL2011): a randomised, multicentre, non‐inferiority, phase 3 study. Lancet Oncol.
+20, 202–215 (2019).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S1470-2045(18)30784-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30658935"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet Oncol.&amp;title=PET‐adapted treatment for newly diagnosed advanced Hodgkin lymphoma (AHL2011): a randomised, multicentre, non‐inferiority, phase 3 study&amp;author=R.O. Casasnovas&amp;volume=20&amp;publication_year=2019&amp;pages=202-215&amp;pmid=30658935&amp;doi=10.1016/S1470-2045(18)30784-8&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0016"><label>16.</label><mixed-citation id="cpt70470-cit-0016"><named-content content-type="citation-string">
+
+Borchmann, P.
+
+<italic>et al</italic>. PET‐guided treatment in patients with advanced‐stage Hodgkin's lymphoma (HD18): final results of an open‐label, international, randomised phase 3 trial by the German Hodgkin study group. Lancet
+390, 2790–2802 (2017).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0140-6736(17)32134-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29061295"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet&amp;title=PET‐guided treatment in patients with advanced‐stage Hodgkin's lymphoma (HD18): final results of an open‐label, international, randomised phase 3 trial by the German Hodgkin study group&amp;author=P. Borchmann&amp;volume=390&amp;publication_year=2017&amp;pages=2790-2802&amp;pmid=29061295&amp;doi=10.1016/S0140-6736(17)32134-7&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0017"><label>17.</label><mixed-citation id="cpt70470-cit-0017"><named-content content-type="citation-string">
+
+Johnson, P.
+
+<italic>et al</italic>. Adapted treatment guided by interim PET‐CT scan in advanced Hodgkin's lymphoma. N. Engl. J. Med.
+374, 2419–2429 (2016).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJMoa1510093"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4961236"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27332902"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=Adapted treatment guided by interim PET‐CT scan in advanced Hodgkin's lymphoma&amp;author=P. Johnson&amp;volume=374&amp;publication_year=2016&amp;pages=2419-2429&amp;pmid=27332902&amp;doi=10.1056/NEJMoa1510093&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0018"><label>18.</label><mixed-citation id="cpt70470-cit-0018"><named-content content-type="citation-string">
+
+Borchmann, P.
+
+<italic>et al</italic>. Assessing the efficacy and tolerability of PET‐guided BrECADD versus eBEACOPP in advanced‐stage, classical Hodgkin lymphoma (HD21): a randomised, multicentre, parallel, open‐label, phase 3 trial. Lancet
+404, 341–352 (2024).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0140-6736(24)01315-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38971175"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet&amp;title=Assessing the efficacy and tolerability of PET‐guided BrECADD versus eBEACOPP in advanced‐stage, classical Hodgkin lymphoma (HD21): a randomised, multicentre, parallel, open‐label, phase 3 trial&amp;author=P. Borchmann&amp;volume=404&amp;publication_year=2024&amp;pages=341-352&amp;pmid=38971175&amp;doi=10.1016/S0140-6736(24)01315-1&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0019"><label>19.</label><mixed-citation id="cpt70470-cit-0019"><named-content content-type="citation-string">
+
+Herrera, A.F.
+
+<italic>et al</italic>. Nivolumab+AVD in advanced‐stage classic Hodgkin's lymphoma. N. Engl. J. Med.
+391, 1379–1389 (2024).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJMoa2405888"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11488644"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39413375"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=Nivolumab+AVD in advanced‐stage classic Hodgkin's lymphoma&amp;author=A.F. Herrera&amp;volume=391&amp;publication_year=2024&amp;pages=1379-1389&amp;pmid=39413375&amp;doi=10.1056/NEJMoa2405888&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0020"><label>20.</label><mixed-citation id="cpt70470-cit-0020"><named-content content-type="citation-string">
+
+Ghesquieres, H.
+
+<italic>et al</italic>. A French multicentric prospective prognostic cohort with epidemiological, clinical, biological and treatment information to improve knowledge on lymphoma patients: study protocol of the “REal world dAta in LYmphoma and survival in adults” (REALYSA) cohort. BMC Public Health
+21, 432 (2021).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12889-021-10433-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7927409"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33653294"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Public Health&amp;title=A French multicentric prospective prognostic cohort with epidemiological, clinical, biological and treatment information to improve knowledge on lymphoma patients: study protocol of the “REal world dAta in LYmphoma and survival in adults” (REALYSA) cohort&amp;author=H. Ghesquieres&amp;volume=21&amp;publication_year=2021&amp;pages=432&amp;pmid=33653294&amp;doi=10.1186/s12889-021-10433-4&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0021"><label>21.</label><mixed-citation id="cpt70470-cit-0021"><named-content content-type="citation-string">
+
+Casasnovas, R.O.
+
+<italic>et al</italic>. Positron emission tomography‐driven strategy in advanced Hodgkin lymphoma: prolonged follow‐up of the AHL2011 phase III lymphoma study association study. J. Clin. Oncol.
+40, 1091–1101 (2022).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1200/JCO.21.01777"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34990281"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Oncol.&amp;title=Positron emission tomography‐driven strategy in advanced Hodgkin lymphoma: prolonged follow‐up of the AHL2011 phase III lymphoma study association study&amp;author=R.O. Casasnovas&amp;volume=40&amp;publication_year=2022&amp;pages=1091-1101&amp;pmid=34990281&amp;doi=10.1200/JCO.21.01777&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0022"><label>22.</label><mixed-citation id="cpt70470-cit-0022"><named-content content-type="citation-string">
+
+Cheson, B.D.
+
+<italic>et al</italic>. Revised response criteria for malignant lymphoma. J. Clin. Oncol.
+25, 579–586 (2007).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1200/JCO.2006.09.2403"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17242396"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Oncol.&amp;title=Revised response criteria for malignant lymphoma&amp;author=B.D. Cheson&amp;volume=25&amp;publication_year=2007&amp;pages=579-586&amp;pmid=17242396&amp;doi=10.1200/JCO.2006.09.2403&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0023"><label>23.</label><mixed-citation id="cpt70470-cit-0023"><named-content content-type="citation-string">
+
+Hasenclever, D.
+ &amp; 
+Diehl, V.
+
+A prognostic score for advanced Hodgkin's disease. International prognostic factors project on advanced Hodgkin's disease. N. Engl. J. Med.
+339, 1506–1514 (1998).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJM199811193392104"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9819449"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=A prognostic score for advanced Hodgkin's disease. International prognostic factors project on advanced Hodgkin's disease&amp;author=D. Hasenclever&amp;author=V. Diehl&amp;volume=339&amp;publication_year=1998&amp;pages=1506-1514&amp;pmid=9819449&amp;doi=10.1056/NEJM199811193392104&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0024"><label>24.</label><mixed-citation id="cpt70470-cit-0024"><named-content content-type="citation-string">
+
+Rodday, A.M.
+
+<italic>et al</italic>. The advanced‐stage Hodgkin lymphoma international prognostic index: development and validation of a clinical prediction model from the HoLISTIC consortium. J. Clin. Oncol.
+41, 2076–2086 (2023).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1200/JCO.22.02473"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10082254"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36495588"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Oncol.&amp;title=The advanced‐stage Hodgkin lymphoma international prognostic index: development and validation of a clinical prediction model from the HoLISTIC consortium&amp;author=A.M. Rodday&amp;volume=41&amp;publication_year=2023&amp;pages=2076-2086&amp;pmid=36495588&amp;doi=10.1200/JCO.22.02473&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0025"><label>25.</label><mixed-citation id="cpt70470-cit-0025"><named-content content-type="citation-string">
+
+Desai, R.J.
+ &amp; 
+Franklin, J.M.
+
+Alternative approaches for confounding adjustment in observational studies using weighting based on the propensity score: a primer for practitioners. BMJ
+367, l5657 (2019).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1136/bmj.l5657"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31645336"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMJ&amp;title=Alternative approaches for confounding adjustment in observational studies using weighting based on the propensity score: a primer for practitioners&amp;author=R.J. Desai&amp;author=J.M. Franklin&amp;volume=367&amp;publication_year=2019&amp;pages=l5657&amp;pmid=31645336&amp;doi=10.1136/bmj.l5657&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0026"><label>26.</label><mixed-citation id="cpt70470-cit-0026"><named-content content-type="citation-string">
+
+Cham, H.
+ &amp; 
+West, S.G.
+
+Propensity score analysis with missing data. Psychol. Methods
+21, 427–445 (2016).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1037/met0000076"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26962757"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Psychol. Methods&amp;title=Propensity score analysis with missing data&amp;author=H. Cham&amp;author=S.G. West&amp;volume=21&amp;publication_year=2016&amp;pages=427-445&amp;pmid=26962757&amp;doi=10.1037/met0000076&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0027"><label>27.</label><mixed-citation id="cpt70470-cit-0027"><named-content content-type="citation-string">
+
+Pishgar, F.
+, 
+Greifer, N.
+, 
+Leyrat, C.
+ &amp; 
+Stuart, E.
+
+MatchThem: matching and weighting after multiple imputation. <italic>arXiv</italic>
+ (2020).</named-content></mixed-citation></ref><ref id="cpt70470-bib-0028"><label>28.</label><mixed-citation id="cpt70470-cit-0028"><named-content content-type="citation-string">
+
+Austin, P.C.
+
+Using the standardized difference to compare the prevalence of a binary variable between two groups in observational research. Commun. Stat. Simul. Comput.
+38, 1228–1234 (2009).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Commun. Stat. Simul. Comput.&amp;title=Using the standardized difference to compare the prevalence of a binary variable between two groups in observational research&amp;author=P.C. Austin&amp;volume=38&amp;publication_year=2009&amp;pages=1228-1234&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0029"><label>29.</label><mixed-citation id="cpt70470-cit-0029"><named-content content-type="citation-string">
+
+Zhang, L.
+, 
+Bujkiewicz, S.
+ &amp; 
+Jackson, D.
+
+Three new methodologies for calculating the effective sample size when performing population adjustment. BMC Med. Res. Methodol.
+24, 287 (2024).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12874-024-02412-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11577712"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39567920"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Med. Res. Methodol.&amp;title=Three new methodologies for calculating the effective sample size when performing population adjustment&amp;author=L. Zhang&amp;author=S. Bujkiewicz&amp;author=D. Jackson&amp;volume=24&amp;publication_year=2024&amp;pages=287&amp;pmid=39567920&amp;doi=10.1186/s12874-024-02412-1&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0030"><label>30.</label><mixed-citation id="cpt70470-cit-0030"><named-content content-type="citation-string">
+
+Rubin, D.B.
+
+Multiple Imputation for Nonresponse in Surveys (John Wiley &amp; Sons, Inc, Hoboken, New Jersey: 
+2004).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Multiple Imputation for Nonresponse in Surveys&amp;author=D.B. Rubin&amp;publication_year=2004&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0031"><label>31.</label><mixed-citation id="cpt70470-cit-0031"><named-content content-type="citation-string">
+
+Li, K.H.
+, 
+Meng, X.‐L.
+, 
+Raghunathan, T.E.
+ &amp; 
+Rubin, D.B.
+
+Significance levels from repeated p‐values with multiply imputed data. Stat. Sin.
+1, 65–92 (1991).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stat. Sin.&amp;title=Significance levels from repeated p‐values with multiply imputed data&amp;author=K.H. Li&amp;author=X.‐L. Meng&amp;author=T.E. Raghunathan&amp;author=D.B. Rubin&amp;volume=1&amp;publication_year=1991&amp;pages=65-92&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0032"><label>32.</label><mixed-citation id="cpt70470-cit-0032"><named-content content-type="citation-string">
+
+Greifer, N.
+ &amp; 
+Stuart, E.A.
+
+Choosing the Causal Estimand for Propensity Score Analysis of Observational Studies (2021).</named-content></mixed-citation></ref><ref id="cpt70470-bib-0033"><label>33.</label><mixed-citation id="cpt70470-cit-0033"><named-content content-type="citation-string">
+
+Brookhart, M.A.
+, 
+Wyss, R.
+, 
+Layton, J.B.
+ &amp; 
+Sturmer, T.
+
+Propensity score methods for confounding control in nonexperimental research. Circ. Cardiovasc. Qual. Outcomes
+6, 604–611 (2013).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1161/CIRCOUTCOMES.113.000359"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4032088"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24021692"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Circ. Cardiovasc. Qual. Outcomes&amp;title=Propensity score methods for confounding control in nonexperimental research&amp;author=M.A. Brookhart&amp;author=R. Wyss&amp;author=J.B. Layton&amp;author=T. Sturmer&amp;volume=6&amp;publication_year=2013&amp;pages=604-611&amp;pmid=24021692&amp;doi=10.1161/CIRCOUTCOMES.113.000359&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0034"><label>34.</label><mixed-citation id="cpt70470-cit-0034"><named-content content-type="citation-string">
+
+Austin, P.C.
+ &amp; 
+Cafri, G.
+
+Variance estimation when using propensity‐score matching with replacement with survival or time‐to‐event outcomes. Stat. Med.
+39, 1623–1640 (2020).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.8502"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7217182"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32109319"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stat. Med.&amp;title=Variance estimation when using propensity‐score matching with replacement with survival or time‐to‐event outcomes&amp;author=P.C. Austin&amp;author=G. Cafri&amp;volume=39&amp;publication_year=2020&amp;pages=1623-1640&amp;pmid=32109319&amp;doi=10.1002/sim.8502&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0035"><label>35.</label><mixed-citation id="cpt70470-cit-0035"><named-content content-type="citation-string">
+
+Austin, P.C.
+
+A comparison of 12 algorithms for matching on the propensity score. Stat. Med.
+33, 1057–1069 (2014).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.6004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4285163"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24123228"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stat. Med.&amp;title=A comparison of 12 algorithms for matching on the propensity score&amp;author=P.C. Austin&amp;volume=33&amp;publication_year=2014&amp;pages=1057-1069&amp;pmid=24123228&amp;doi=10.1002/sim.6004&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0036"><label>36.</label><mixed-citation id="cpt70470-cit-0036"><named-content content-type="citation-string">
+
+Jemielita, T.
+, 
+Widman, L.
+, 
+Fox, C.
+, 
+Salomonsson, S.
+, 
+Liaw, K.L.
+ &amp; 
+Pettersson, A.
+
+Replication of oncology randomized trial results using Swedish registry real world‐data: a feasibility study. Clin. Pharmacol. Ther.
+110, 1613–1621 (2021).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cpt.2424"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34549809"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Pharmacol. Ther.&amp;title=Replication of oncology randomized trial results using Swedish registry real world‐data: a feasibility study&amp;author=T. Jemielita&amp;author=L. Widman&amp;author=C. Fox&amp;author=S. Salomonsson&amp;author=K.L. Liaw&amp;volume=110&amp;publication_year=2021&amp;pages=1613-1621&amp;pmid=34549809&amp;doi=10.1002/cpt.2424&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0037"><label>37.</label><mixed-citation id="cpt70470-cit-0037"><named-content content-type="citation-string">
+
+Costa, L.J.
+
+<italic>et al</italic>. Comparison of Cilta‐cel, an anti‐BCMA CAR‐T cell therapy, versus conventional treatment in patients with relapsed/refractory multiple myeloma. Clin. Lymphoma Myeloma Leuk.
+22, 326–335 (2022).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.clml.2021.10.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34840088"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Lymphoma Myeloma Leuk.&amp;title=Comparison of Cilta‐cel, an anti‐BCMA CAR‐T cell therapy, versus conventional treatment in patients with relapsed/refractory multiple myeloma&amp;author=L.J. Costa&amp;volume=22&amp;publication_year=2022&amp;pages=326-335&amp;pmid=34840088&amp;doi=10.1016/j.clml.2021.10.013&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0038"><label>38.</label><mixed-citation id="cpt70470-cit-0038"><named-content content-type="citation-string">
+
+Austin, P.C.
+
+The performance of different propensity score methods for estimating marginal hazard ratios. Stat. Med.
+32, 2837–2849 (2013).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.5705"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3747460"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23239115"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stat. Med.&amp;title=The performance of different propensity score methods for estimating marginal hazard ratios&amp;author=P.C. Austin&amp;volume=32&amp;publication_year=2013&amp;pages=2837-2849&amp;pmid=23239115&amp;doi=10.1002/sim.5705&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0039"><label>39.</label><mixed-citation id="cpt70470-cit-0039"><named-content content-type="citation-string">
+
+Forbes, A.
+ &amp; 
+Shortreed, S.
+
+Inverse probability weighted estimation of the marginal odds ratio: correspondence regarding ‘the performance of different propensity score methods for estimating marginal odds ratios’. Stat. Med.
+27, 5556–5559 (2008).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.3362"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18613263"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stat. Med.&amp;title=Inverse probability weighted estimation of the marginal odds ratio: correspondence regarding ‘the performance of different propensity score methods for estimating marginal odds ratios’&amp;author=A. Forbes&amp;author=S. Shortreed&amp;volume=27&amp;publication_year=2008&amp;pages=5556-5559&amp;pmid=18613263&amp;doi=10.1002/sim.3362&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0040"><label>40.</label><mixed-citation id="cpt70470-cit-0040"><named-content content-type="citation-string">
+
+Matsouaka, R.A.
+, 
+Liu, Y.
+ &amp; 
+Zhou, Y.
+
+Overlap, matching, or entropy weights: what are we weighting for? <italic>arXiv</italic>
+ (2022).</named-content></mixed-citation></ref><ref id="cpt70470-bib-0041"><label>41.</label><mixed-citation id="cpt70470-cit-0041"><named-content content-type="citation-string">
+
+Ghesquieres, H.
+
+<italic>et al</italic>. Challenges for quality and utilization of real‐world data for diffuse large B‐cell lymphoma in REALYSA, a LYSA cohort. Blood Adv.
+8, 296–308 (2024).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/bloodadvances.2023010798"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10824688"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37874913"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood Adv.&amp;title=Challenges for quality and utilization of real‐world data for diffuse large B‐cell lymphoma in REALYSA, a LYSA cohort&amp;author=H. Ghesquieres&amp;volume=8&amp;publication_year=2024&amp;pages=296-308&amp;pmid=37874913&amp;doi=10.1182/bloodadvances.2023010798&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0042"><label>42.</label><mixed-citation id="cpt70470-cit-0042"><named-content content-type="citation-string">
+
+Ghesquieres, H.
+
+<italic>et al</italic>. Treatment options, responses and outcome of 1220 classic Hodgkin lymphoma patients included in realysa, a prospective multicentric lysa cohort. Blood
+146, 1853 (2025).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood&amp;title=Treatment options, responses and outcome of 1220 classic Hodgkin lymphoma patients included in realysa, a prospective multicentric lysa cohort&amp;author=H. Ghesquieres&amp;volume=146&amp;publication_year=2025&amp;pages=1853&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0043"><label>43.</label><mixed-citation id="cpt70470-cit-0043"><named-content content-type="citation-string">
+
+Nourredine, M.
+, 
+Gavoille, A.
+, 
+Lepage, C.
+, 
+Kassai‐Koupai, B.
+, 
+Cucherat, M.
+ &amp; 
+Subtil, F.
+
+Accounting for misclassification of binary outcomes in external control arm studies for unanchored indirect comparisons: simulations and applied example. Stat. Med.
+44, e70236 (2025).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.70236"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12422847"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40930536"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stat. Med.&amp;title=Accounting for misclassification of binary outcomes in external control arm studies for unanchored indirect comparisons: simulations and applied example&amp;author=M. Nourredine&amp;author=A. Gavoille&amp;author=C. Lepage&amp;author=B. Kassai‐Koupai&amp;author=M. Cucherat&amp;volume=44&amp;publication_year=2025&amp;pages=e70236&amp;pmid=40930536&amp;doi=10.1002/sim.70236&amp;"/></mixed-citation></ref><ref id="cpt70470-bib-0044"><label>44.</label><mixed-citation id="cpt70470-cit-0044"><named-content content-type="citation-string">
+
+Brockelmann, P.J.
+
+<italic>et al</italic>. Correlation between progression‐free and overall survival in patients with Hodgkin lymphoma: a comprehensive analysis of individual patient data from randomized German Hodgkin study group (GHSG) trials. Ann. Oncol.
+36, 393–402 (2025).
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.annonc.2024.12.009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39706337"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ann. Oncol.&amp;title=Correlation between progression‐free and overall survival in patients with Hodgkin lymphoma: a comprehensive analysis of individual patient data from randomized German Hodgkin study group (GHSG) trials&amp;author=P.J. Brockelmann&amp;volume=36&amp;publication_year=2025&amp;pages=393-402&amp;pmid=39706337&amp;doi=10.1016/j.annonc.2024.12.009&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>
+Table S1.
+</p><p>
+Table S2.
+</p><p>
+Figure S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CPT-9999-0-s001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path a98d/13548820/55f68fd84397/CPT-9999-0-s001.pdf?><?cloudpmc-bucket app?><?size 268336?></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>Data of the current study are available from the corresponding author on reasonable request.</p></sec></sec></body></article>

@@ -1,0 +1,996 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece374313" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13561636</article-id><article-id pub-id-type="pmcid-ver">PMC13561636.1</article-id><article-id pub-id-type="pmcaid">13561636</article-id><article-id pub-id-type="pmcaiid">13561636</article-id><article-id pub-id-type="pmid">42724985</article-id><article-id pub-id-type="doi">10.1002/ece3.74313</article-id><article-id pub-id-type="publisher-id">ECE374313</article-id><article-id pub-id-type="other">ECE-2026-05-01356.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Behavioural Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Conservation Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Fin Whale (<italic toggle="no">Balaenoptera physalus</italic>) Diel Dive Patterns in a Shallow Fragmented Foraging Habitat</article-title></title-group><contrib-group><contrib id="ece374313-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Adcock</surname><given-names initials="DL">Dana L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9107-8222</contrib-id><xref rid="ece374313-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="ece374313-cr-0002" contrib-type="author"><name name-style="western"><surname>Nowacek</surname><given-names initials="DP">Douglas P.</given-names></name><xref rid="ece374313-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece374313-cr-0003" contrib-type="author"><name name-style="western"><surname>Parks</surname><given-names initials="SE">Susan E.</given-names></name><xref rid="ece374313-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ece374313-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>Syracuse University</institution>
+<city>Syracuse</city>
+<named-content content-type="country-part">New York</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece374313-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Nicholas School of the Environment &amp; Pratt School of Engineering, Duke University Marine Lab</institution>
+<city>Beaufort</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Dana L. Adcock ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="1975">9</issue><issue-id pub-id-type="pmc-issue-id">520317</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v16.9</issue-id><elocation-id>e74313</elocation-id><history>
+<date date-type="rev-recd"><day>13</day><month>8</month><year>2026</year></date>
+<date date-type="received"><day>15</day><month>5</month><year>2026</year></date>
+<date date-type="accepted"><day>26</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>10</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>11</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-16 14:41:06.370"><day>16</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-16-e74313.pdf"><?pdf-name ECE3-16-e74313.pdf?><?pdf-size 2451538?><?pdf-md5 750379f786bf16cef52a2cf7a19fcfe9?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:c37d/13561636/750379f786bf/ECE3-16-e74313.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-16-e74313.pdf"/><abstract><title>ABSTRACT</title><p>Predators select foraging habitats to maximise energetic gains. However, habitat fragmentation can lead to increased costs from disturbances in high traffic urban environments. Understanding behavioural drivers of movement ecology is crucial for minimising conflict between evolutionarily selected foraging behaviours and novel anthropogenic stressors. In this study, 27 high‐resolution biologging tags were deployed on fin whales in a shallow inner‐shelf habitat south of the US east coast, where water depth can be less than the body length of the animal. The vertical movement patterns of the whales from diving overlapped with major shipping traffic. The whales spent &gt; 67% of their time at depths shallower than the drafts of large ships (~10 m). The whales fed primarily during the day and remained very shallow at night (mean 5 m) while resting and travelling, possibly due to diel changes in vertical prey distribution. This natural behavioural pattern has become maladaptive with the introduction of anthropogenic traffic and puts them at extreme risk of injury and mortality in commercial shipping lanes at night, when mariners have limited visibility to detect them. These results underscore the importance of understanding baseline vertical movement patterns and behavioural trends to inform conservation efforts in fragmented environments.</p></abstract><abstract abstract-type="graphical"><p>Using 27 high‐resolution biologging tags deployed on fin whales in a shallow inner‐shelf habitat along the US east coast, this study found that the whales spent more than 67% of their time within the draft depths of large commercial vessels. Feeding occurred primarily during the day, while whales remained very shallow at night during resting and travelling, likely tracking diel shifts in prey distribution. These results suggest that an evolutionarily selected foraging strategy in a productive habitat has become maladaptive in the presence of heavy shipping traffic.<boxed-text position="anchor" content-type="graphic" id="ece374313-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-16-e74313-g003.webp"><?image-name ECE3-16-e74313-g003.webp?><?image-size 6900?><?image-md5 bccb12ec026ad874062d8589f09dc2b7?><?image-image-server-status NEVER_LOAD?><?image-original-height 195?><?image-original-width 331?><?image-scaled-height 195?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/c37d/13561636/bccb12ec026a/ECE3-16-e74313-g003.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece374313-kwd-0001">behavioural ecology</kwd><kwd id="ece374313-kwd-0002">conservation</kwd><kwd id="ece374313-kwd-0003">fin whale</kwd><kwd id="ece374313-kwd-0004">foraging ecology</kwd><kwd id="ece374313-kwd-0005">habitat fragmentation</kwd><kwd id="ece374313-kwd-0006">traffic</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Wind Energy Technologies Office</institution><institution-id institution-id-type="doi">10.13039/100011030</institution-id></institution-wrap>
+</funding-source><award-id>DE‐EE0010287</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Air Force Office of Scientific Research</institution><institution-id institution-id-type="doi">10.13039/100000181</institution-id></institution-wrap>
+</funding-source><award-id>FA9550‐23‐F‐0014</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="0"/><page-count count="10"/><word-count count="7900"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:10.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ece374313-body-0001"><sec id="ece374313-sec-0001"><label>1</label><title>Introduction</title><p>Advantageous foraging behaviour develops from both heritable transgenerational effects and individual experiences (Des Roches et al. <xref rid="ece374313-bib-0016" ref-type="bibr">2022</xref>). Foraging strategies are predicted to maximise energetic gains and limit costs during the pursuit and acquisition of prey, as defined by the optimal foraging theory (Pyke <xref rid="ece374313-bib-0058" ref-type="bibr">1984</xref>, <xref rid="ece374313-bib-0059" ref-type="bibr">2010</xref>). Predators maximise gains by targeting spatial and temporal peaks of high‐value prey (Krebs et al. <xref rid="ece374313-bib-0043" ref-type="bibr">1977</xref>; Iwasa et al. <xref rid="ece374313-bib-0038" ref-type="bibr">1981</xref>). Foraging costs are determined primarily by prey abundance and distribution, nutritional richness and handling time (Emlen <xref rid="ece374313-bib-0018" ref-type="bibr">1966</xref>; Goldbogen et al. <xref rid="ece374313-bib-0031" ref-type="bibr">2023</xref>). These costs may be higher for predators that invest energy chasing and handling prey, for example, ambush predators (deVries et al. <xref rid="ece374313-bib-0017" ref-type="bibr">2012</xref>; Hubel et al. <xref rid="ece374313-bib-0036" ref-type="bibr">2016</xref>; Goldbogen et al. <xref rid="ece374313-bib-0031" ref-type="bibr">2023</xref>), particularly if there are risks of injury (Brown and Kotler <xref rid="ece374313-bib-0011" ref-type="bibr">2004</xref>). Evolutionary pressures select for foraging behaviour that maximises intake and minimises costs, resulting in optimal net energetic gain.</p><p>While foraging behaviours evolved through natural selection, novel urbanisation pressures may reduce foraging success. Highway noise can reduce a predator's ability to acoustically detect mobile prey (Siemers and Schaub <xref rid="ece374313-bib-0066" ref-type="bibr">2010</xref>; Passarotto et al. <xref rid="ece374313-bib-0055" ref-type="bibr">2025</xref>), leading to increased time spent hunting, even if foraging success is not significantly impacted (Ruiz‐Villar et al. <xref rid="ece374313-bib-0063" ref-type="bibr">2024</xref>). In generalists, higher levels of urbanisation may reduce the diversity of foraging sites and gut microbiota, such as in the seabird <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Larus argentatus</italic>
+</styled-content> (Fuirst et al. <xref rid="ece374313-bib-0023" ref-type="bibr">2018</xref>). Anthropogenic sounds have been shown to disrupt foraging behaviour in some cetacean species (Tyack et al. <xref rid="ece374313-bib-0071" ref-type="bibr">2011</xref>; Madsen et al. <xref rid="ece374313-bib-0048" ref-type="bibr">2015</xref>; Blair et al. <xref rid="ece374313-bib-0008" ref-type="bibr">2016</xref>; Wisniewska et al. <xref rid="ece374313-bib-0075" ref-type="bibr">2018</xref>; Miller et al. <xref rid="ece374313-bib-0050" ref-type="bibr">2022</xref>).</p><p>Foraging behaviour can increase mortality in urbanised habitats. Habitat fragmentation breaks up suitable habitat into smaller areas (Yeager et al. <xref rid="ece374313-bib-0076" ref-type="bibr">2020</xref>), quantified frequently through patch size changes, connectivity loss and increased edge effects, and has been studied in marine systems (Harishchandra et al. <xref rid="ece374313-bib-0077" ref-type="bibr">2022</xref>; Yeager et al. <xref rid="ece374313-bib-0076" ref-type="bibr">2020</xref>) and high‐traffic terrestrial systems (Santos et al. <xref rid="ece374313-bib-0064" ref-type="bibr">2016</xref>; Poulin et al. <xref rid="ece374313-bib-0057" ref-type="bibr">2023</xref>). Despite the ocean's three‐dimensional environment, changing risk conditions can alter suitable habitat. Habitat fragmentation from traffic in urbanised areas can lead to increased mortality risk while evolutionary responses remain the same (Bennett <xref rid="ece374313-bib-0007" ref-type="bibr">2017</xref>; Denneboom et al. <xref rid="ece374313-bib-0015" ref-type="bibr">2024</xref>). Mortality of passerine bird species near roads is strongly related to foraging behaviour (Santos et al. <xref rid="ece374313-bib-0064" ref-type="bibr">2016</xref>). Woodchucks in urban areas foraged at similar distances from burrows as rural areas, despite high mortality risks from vehicle collisions, demonstrating a lack of habituation and instead tolerance due to the need to forage (Lehrer et al. <xref rid="ece374313-bib-0046" ref-type="bibr">2012</xref>). In contrast, female elk (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Cervus canadensis</italic>
+</styled-content>) can balance rewards of greater foraging biomass and the risk of crossing high‐volume highways (Poulin et al. <xref rid="ece374313-bib-0057" ref-type="bibr">2023</xref>). Shallow subsurface feeding of North Atlantic right whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Eubalaena glacialis</italic>
+</styled-content>) tracking concentrations of prey in Cape Cod Bay increases vessel collision risk (Parks, Warren, et al. <xref rid="ece374313-bib-0054" ref-type="bibr">2011</xref>).</p><p>Foraging grounds are vital for the survival and successful reproduction of baleen whales, which are capital breeders, in the marine environment. Highly efficient filter feeding in baleen whales (<italic toggle="yes">Mysticeti</italic>) allows for exploitation of body size extremes (Goldbogen et al. <xref rid="ece374313-bib-0028" ref-type="bibr">2019</xref>). Oxygen storage increases with their body size, allowing them to perform longer dives to engulf prey at depth (Goldbogen and Madsen <xref rid="ece374313-bib-0030" ref-type="bibr">2018</xref>). Adult baleen whales maximise blubber volume, a measure of energy stores, through enormous energy inputs gathered on the foraging grounds (Brodie <xref rid="ece374313-bib-0010" ref-type="bibr">1975</xref>; Christiansen et al. <xref rid="ece374313-bib-0013" ref-type="bibr">2013</xref>). Large energy stores are crucial to support fasting during the breeding season and for thermoregulation (Brodie <xref rid="ece374313-bib-0010" ref-type="bibr">1975</xref>). As important marine consumers (Jory et al. <xref rid="ece374313-bib-0040" ref-type="bibr">2021</xref>), the largest adult baleen whales evolved highly productive behavioural activity budgets on foraging grounds with limited predation risk due to their large size (Branch <xref rid="ece374313-bib-0009" ref-type="bibr">2025</xref>).</p><p>However, in the present day, whales are at high risk of injury and mortality from ship collisions, as 92% of their habitat overlaps with maritime traffic (Schoeman et al. <xref rid="ece374313-bib-0065" ref-type="bibr">2020</xref>; Nisi et al. <xref rid="ece374313-bib-0052" ref-type="bibr">2024</xref>). The most severe injuries to marine mammals from collisions result from large ships, &gt; 80 m in length (Laist et al. <xref rid="ece374313-bib-0045" ref-type="bibr">2001</xref>). The waters of Southern New England and the New York Bight are an important shallow coastal habitat (&lt; 100 m maximum depth) on the continental shelf in the Western North Atlantic (Whitehead and Carlson <xref rid="ece374313-bib-0073" ref-type="bibr">1988</xref>), where fin whales feed on schooling fish during the summer (Staudinger et al. <xref rid="ece374313-bib-0069" ref-type="bibr">2020</xref>) but are detected acoustically year‐round (Estabrook et al. <xref rid="ece374313-bib-0019" ref-type="bibr">2025</xref>). Risk for injuries from shipping in this region are driven by the high levels of coastal traffic associated with the port of New York &amp; New Jersey, which consistently ranks as the largest U.S. trading port on the US east coast (Thorne and Wiley <xref rid="ece374313-bib-0070" ref-type="bibr">2024</xref>; Port Authority of New York and New Jersey, <xref rid="ece374313-bib-0056" ref-type="bibr">n.d.</xref>; International Transport Forum <xref rid="ece374313-bib-0082" ref-type="bibr">2019</xref>). The drafts of cargo vessels occupy more of the water column space (draft ca. 10 m) than smaller vessels, which raises concern for risk to protected species (Barkaszi et al. <xref rid="ece374313-bib-0081" ref-type="bibr">2021</xref>; Indeck et al. <xref rid="ece374313-bib-0037" ref-type="bibr">2025</xref>; Garrison et al. <xref rid="ece374313-bib-0024" ref-type="bibr">2022</xref>). Ship collision studies largely focus on two‐dimensional or course data for modelling (Aschettino et al. <xref rid="ece374313-bib-0002" ref-type="bibr">2020</xref>; Nisi et al. <xref rid="ece374313-bib-0052" ref-type="bibr">2024</xref>). Few studies (Parks, Warren, et al. <xref rid="ece374313-bib-0054" ref-type="bibr">2011</xref>; Calambokidis et al. <xref rid="ece374313-bib-0012" ref-type="bibr">2019</xref>; Keen et al. <xref rid="ece374313-bib-0042" ref-type="bibr">2019</xref>) have examined how three‐dimensional behaviour increases human–wildlife conflict with large baleen whales, particularly in shallow foraging habitats.</p><p>This study examines the behavioural drivers of dive depth in fin whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Balaenoptera physalus</italic>
+</styled-content>) during their summer feeding season in Southern New England and the New York Bight, a shallow foraging habitat with dense maritime traffic, where vertical space for safe manoeuvrability is limited when co‐located with vessels. We hypothesise that foraging states will dictate overall and diel trends in water column usage. The results will provide a better understanding of evolutionary advantageous three‐dimensional foraging behaviour to inform mortality risk modelling of biologically important areas, particularly for threatened species.</p></sec><sec sec-type="methods" id="ece374313-sec-0002"><label>2</label><title>Methods</title><sec id="ece374313-sec-0003"><label>2.1</label><title>Data Collection</title><p>North Atlantic fin whales were tagged south of Massachusetts and offshore of New York (39.83 to 41.11 latitude, −73.15 to −70.74 longitude) between July 22 and August 3 of 2023 and 2024 from the 21 m research vessel <italic toggle="yes">R/V Song of the Whale</italic> (Figure <xref rid="ece374313-fig-0001" ref-type="fig">1</xref>). Fin whale tagging and biological samples were collected under the National Marine Fisheries Service Permits 27272‐01, 23644‐03 and 22156‐04 and IACUC approval. Whales were located through visual surveys and tagged with digital acoustic recording tags (DTAGs) and Customised Animal Tracking Solutions (CATS) tags (Johnson and Tyack <xref rid="ece374313-bib-0039" ref-type="bibr">2003</xref>; Goldbogen et al. <xref rid="ece374313-bib-0027" ref-type="bibr">2017</xref>) that were deployed via an unmanned aerial vehicle (UAV) (Wiley et al. <xref rid="ece374313-bib-0074" ref-type="bibr">2023</xref>) and attached with sterilised suction cups. The DTAGs recorded sound (sampled at 64 kHz, 120 kHz and 192 kHz with frequency ranges of 0–32 kHz, 0–60 kHz and 0–96 kHz), depth (sampled at 50 Hz) and body orientation (sampled at 250 Hz for version 3 and 500 Hz for version 4) and GPS data. GPS locations were obtained from a snapshot GPS receiver during surfacings, ARGOS satellite GPS positions, and the internal GPS from DTAG v4, depending on the tag type and deployment circumstances. GPS positions were obtained for all tags; however, the number of points available varied by deployment due to tag position on the whale affecting how long the tag was above the water's surface. The CATS tags recorded acoustic (sampled at 48 kHz), depth (sampled at 50 Hz) and body orientation (sampled at 400 Hz), and video (4 k and 1080p resolution) data. After tags were deployed, focal follows were performed from an A‐frame 5 m above the water's surface for a subset of deployments. Observers recorded behaviour, group composition and nearby vessels for at least one hour after attachment. After tags detached from the whale and were recovered, skin samples were collected from the suction cups for sex identification (Adcock et al. <xref rid="ece374313-bib-0001" ref-type="bibr">2026</xref>). UAV footage of the central chevron pattern and blaze, which are stable identifying marks for this species, was used to identify tagged individuals (Adcock et al. <xref rid="ece374313-bib-0001" ref-type="bibr">2026</xref>). Acoustic behaviour of the tagged whales was assessed in a separate study (Adcock et al. <xref rid="ece374313-bib-0001" ref-type="bibr">2026</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374313-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Study area map. Bathymetry contours in New York Bight and Southern New England waters displaying shallow depths in the area from the NOAA NCEI GEBCO Contours dataset (GEBCO Compilation Group <xref rid="ece374313-bib-0025" ref-type="bibr">2025</xref>). Tag deployment locations are plotted as points. Figure includes a photo example of a tagged fin whale from this study. Photographer: Chris Zadra, Ocean Alliance under NMFS Permit #27272‐01. Base map ‘Ocean’ is the intellectual property of Esri and is used herein under licence. Copyright 2026 Esri and its licensors. All rights reserved.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-16-e74313-g004.webp"><?image-name ECE3-16-e74313-g004.webp?><?image-size 89302?><?image-md5 b214ecb119d097eae6349927d1d604b7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 761?><?image-original-width 1064?><?image-scaled-height 761?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/c37d/13561636/b214ecb119d0/ECE3-16-e74313-g004.webp?><?thumb-name ECE3-16-e74313-g004.gif?><?thumb-size 20124?><?thumb-md5 ace3d0c4095b6a1adb7464235728a105?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 143?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/c37d/13561636/ace3d0c4095b/ECE3-16-e74313-g004.gif?></graphic></fig></sec><sec id="ece374313-sec-0004"><label>2.2</label><title>Trends in Dive Depth</title><p>The study took place on the continental shelf and the mean depth in the habitat was 43 m in Southern New England and 49 m in the New York Bight (Figure <xref rid="ece374313-fig-0001" ref-type="fig">1</xref>) (GEBCO Compilation Group <xref rid="ece374313-bib-0025" ref-type="bibr">2025</xref>). The tag files were processed in MATLAB to produce the dive profile, pitch, roll, heading, and jerk or overall dynamic body acceleration (Johnson and Tyack <xref rid="ece374313-bib-0039" ref-type="bibr">2003</xref>; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://animaltags.org" ext-link-type="uri">animaltags.org</ext-link>). Dives were extracted using the find_dives function (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://animaltags.org" ext-link-type="uri">animaltags.org</ext-link>) and those less than 30 s in duration were removed. The first two dives were excluded from the analysis to account for any potential reactions to the tagging event (Hooker et al. <xref rid="ece374313-bib-0035" ref-type="bibr">2001</xref>).</p><p>The proportion of time the tag on the back of the fin whales spent at various depths was measured to assess the potential for ship strike risk. The pressure sensor data were used to measure the amount of time each fin whale spent in 5 m bins, from 0 m to 100 m. The proportion of time each fin whale spent in each bin was calculated. These times were summed together to calculate the proportions for all sampled whales.</p><p>Behavioural states (from vertical and horizontal movement and body orientation) were categorised into six categories (feeding, exploratory foraging, travel, rest, surface and unknown) based on focal follows of surface behaviour, underwater CATS video and existing literature (Goldbogen et al. <xref rid="ece374313-bib-0029" ref-type="bibr">2006</xref>; Parks, Searby, et al. <xref rid="ece374313-bib-0053" ref-type="bibr">2011</xref>; Friedlaender et al. <xref rid="ece374313-bib-0022" ref-type="bibr">2013</xref>; Heide‐Jørgensen et al. <xref rid="ece374313-bib-0033" ref-type="bibr">2013</xref>; Fonseca et al. <xref rid="ece374313-bib-0020" ref-type="bibr">2022</xref>; Colson et al. <xref rid="ece374313-bib-0014" ref-type="bibr">2025</xref>). CATS tag data provided information on foraging behaviour, prey type and the presence of other whales. Due to the shallow environment, a dive was defined as a submergence greater than 1 m and longer than 30 s, with this ‘dive’ as the unit of analysis (Colson et al. <xref rid="ece374313-bib-0014" ref-type="bibr">2025</xref>). Any periods at depths less than 1 m and greater than 30 s (i.e., extended surface intervals) were categorised as surface behaviour. Behavioural states were categorised using kinematic signatures during the dive. Foraging was characterised by accelerometer and jerk signatures for lunge feeding, large changes in pitch, deep dives, spikes in roll for side‐lunges and V‐shaped exploratory dives for food‐finding near lunges (Figure <xref rid="ece374313-fig-0002" ref-type="fig">2</xref>) (Goldbogen et al. <xref rid="ece374313-bib-0029" ref-type="bibr">2006</xref>; Friedlaender et al. <xref rid="ece374313-bib-0022" ref-type="bibr">2013</xref>; Heide‐Jørgensen et al. <xref rid="ece374313-bib-0033" ref-type="bibr">2013</xref>; Fonseca et al. <xref rid="ece374313-bib-0020" ref-type="bibr">2022</xref>). These were split into two states: feeding (lunge present) and exploratory foraging (no lunge present) (Figure <xref rid="ece374313-fig-0002" ref-type="fig">2</xref>). Since fin whales accelerate in bursts to reach their prey (Goldbogen et al. <xref rid="ece374313-bib-0029" ref-type="bibr">2006</xref>), a lunge was defined as the period between a relative velocity maximum and the average velocity. Travelling states had relatively consistent headings, fluke signatures before the dive, and no feeding events (Figure <xref rid="ece374313-fig-0002" ref-type="fig">2</xref>). Small amplitude oscillations in the <italic toggle="yes">x</italic>‐axis of the accelerometer correspond to fluke strokes (Goldbogen et al. <xref rid="ece374313-bib-0029" ref-type="bibr">2006</xref>). In contrast, resting periods were characterised by gradual changes in heading, shallow dives and low activity (Figure <xref rid="ece374313-fig-0002" ref-type="fig">2</xref>). Longer periods of this were validated with GPS tracks and overall displacement (Figure <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S1</xref>). Other periods characterised by diverse non‐foraging activity (Parks, Searby, et al. <xref rid="ece374313-bib-0053" ref-type="bibr">2011</xref>) may represent social behaviour but were marked as unknown (Figure <xref rid="ece374313-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374313-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Kinematic examples of behavioural states. Sensor data calibrated to whale frame for classification of five different behavioural states (feeding, exploratory foraging, travel, rest and unknown). Sensor data from top to bottom are as follows: Depth (m), pitch (degrees), roll (degrees), heading (degrees) and jerk. Jerk refers to the rate of change of acceleration over time. All sensor data measurements across time in minutes for about one dive.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-16-e74313-g006.webp"><?image-name ECE3-16-e74313-g006.webp?><?image-size 46380?><?image-md5 69585e35cd1bbd85a763e646bce98e3a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 993?><?image-original-width 1064?><?image-scaled-height 993?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/c37d/13561636/69585e35cd1b/ECE3-16-e74313-g006.webp?><?thumb-name ECE3-16-e74313-g006.gif?><?thumb-size 12522?><?thumb-md5 908c048a6bd5b8de72b1942e582eed9f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 187?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/c37d/13561636/908c048a6bd5/ECE3-16-e74313-g006.gif?></graphic></fig><p>Mixed models (Gaussian with identity link) were used to test whether the behavioural state impacted maximum dive depth using the lme4 and lmerTest packages in R 4.3.2 (Kuznetsova et al. <xref rid="ece374313-bib-0044" ref-type="bibr">2020</xref>; Bates et al. <xref rid="ece374313-bib-0005" ref-type="bibr">2025</xref>). Paired fin whales appeared to display moderate dive synchrony, so pairs where both were tagged were included as a random effect in modelling (Adcock et al. <xref rid="ece374313-bib-0001" ref-type="bibr">2026</xref>). Maximum dive depth was set as the response variable, behavioural state as a fixed effect and individual and group association as random effects to help account for autocorrelation of data (model selection in Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S1</xref>). State levels were feeding, exploratory foraging, travel, rest and unknown. The surface state was excluded as it is correlated with depth (&lt; 1 m). A log(y + 1) transformation was applied to improve the right skewed homogeneity of variance and normality. Using the R package afex, model‐predicted means and confidence intervals of maximum depth were extracted for each predictor to account for pseudoreplication among individuals and groups (Singmann et al. <xref rid="ece374313-bib-0068" ref-type="bibr">2024</xref>). Therefore, our summary statistics estimates are presented to account for our random effects. These outputs were back‐transformed to reflect original data scales. These means are used to report estimated average maximum dive depth for each fixed predictor.</p><p>Using data specific to the tagging locations and dates, diel periods were split into day (time between sunrise and sunset) and night (time between civil twilights), omitting twilight periods between them (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.weather.gov/box/sunmoon" ext-link-type="uri">https://www.weather.gov/box/sunmoon</ext-link>). Twilight was excluded due to the diel migration of their prey, sand lance, during this period (Baker et al. <xref rid="ece374313-bib-0003" ref-type="bibr">2023</xref>), which may influence dive behaviour, and there was not sufficient data to analyse this short period alone. The modelling methods above (including transformations) were applied for diel period (levels: day or night) and maximum dive depth.</p></sec><sec id="ece374313-sec-0005"><label>2.3</label><title>Behavioural State Diel Trends</title><p>The duration of each dive and the time spent in each behavioural state was calculated for all individuals during the day and at night, and then they were transformed into proportions (out of 100% for each diel period). Trends were examined with Pearson's Chi‐Squared Test and pairwise comparisons in R. Associations were calculated using Cramer's V and applied bootstrapping to calculate confidence intervals (Bauer et al. <xref rid="ece374313-bib-0006" ref-type="bibr">2015</xref>; Rendell and Whitehead <xref rid="ece374313-bib-0060" ref-type="bibr">2003</xref>).</p></sec></sec><sec sec-type="results" id="ece374313-sec-0006"><label>3</label><title>Results</title><sec id="ece374313-sec-0007"><label>3.1</label><title>Data Collection</title><p>A total of 131 h of acoustic, depth, orientation and GPS data from 27 deployments were collected. Attachment duration mean was 6 h ± 10.2 h with 64.5 h of data recorded during the day and 59.6 h recorded at night. A total of 10.9 h of behavioural visual observations and 19.3 h of CATS tag video were recorded. On video, the whales were observed to feed only on sand lance (<italic toggle="yes">Ammodytes sps</italic>). One individual foraged with a closely associated conspecific from late afternoon into the evening but was alone at dawn when the video resumed. There were 21 unique individuals tagged, 4 of which were tagged two times, and 1 three times across the 2 years. Of these 21 individuals, 20 were male and 1 was female (Adcock et al. <xref rid="ece374313-bib-0001" ref-type="bibr">2026</xref>). GPS locations overlapped with major shipping lanes offshore of New York and Rhode Island (Figure <xref rid="ece374313-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374313-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Locations of tagged whales near cargo and tanker traffic. GPS positions and deployment locations for 2023 and 2024 tagged whales (points and lines, southern New England in blue and New York Bight in yellow) mapped alongside 2023 cargo and tanker traffic (density pixels; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://northeastoceandata.org" ext-link-type="uri">northeastoceandata.org</ext-link>). Base map ‘Light Gray Canvas Base’ is the intellectual property of Esri and is used herein under licence. Copyright 2026 Esri and its licensors. All rights reserved.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-16-e74313-g005.webp"><?image-name ECE3-16-e74313-g005.webp?><?image-size 114210?><?image-md5 48c9751ad57090902d55aef17776a136?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 627?><?image-original-width 1064?><?image-scaled-height 627?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/c37d/13561636/48c9751ad570/ECE3-16-e74313-g005.webp?><?thumb-name ECE3-16-e74313-g005.gif?><?thumb-size 17084?><?thumb-md5 62963aeec311562895917b9d2a0314d3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 118?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/c37d/13561636/62963aeec311/ECE3-16-e74313-g005.gif?></graphic></fig></sec><sec id="ece374313-sec-0008"><label>3.2</label><title>Trends in Dive Depth</title><p>Overall, fin whales spend 47.4% of their time with their backs at less than 5 m depth (Figure <xref rid="ece374313-fig-0004" ref-type="fig">4</xref>). A total of 19.8% of time was spent in 5 to 10 m depth; 7.0% is spent in 10 to 15 m depth; 4.2% in 15 to 20 m; 3.5% in 20 to 25 m; 2.8% in 25 to 30 m; 2.8% in 30 to 35 m; 2.6% in 35 to 40 m; 2.5% in 40 to 45 m; 2.3% in 45 to 50 m; 1.4% in 50 to 55 m; and 1% or less in each remaining 5 m bin (Figure <xref rid="ece374313-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374313-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Proportion of time at depth. Proportion of time spent in 5 m depth bins from 0 to 100 m. Lighter yellow represents a larger proportion of time, while darker purple represents a smaller proportion. All time summed together is represented as ‘overall’ and is boxed in black. Most time (74.2%) is spent in less than 15 m of water.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-16-e74313-g002.webp"><?image-name ECE3-16-e74313-g002.webp?><?image-size 33944?><?image-md5 287495f693a01b0fe135c0ccde77eb08?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 475?><?image-original-width 1064?><?image-scaled-height 475?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/c37d/13561636/287495f693a0/ECE3-16-e74313-g002.webp?><?thumb-name ECE3-16-e74313-g002.gif?><?thumb-size 11094?><?thumb-md5 0a64f1b2c9527e8846e89b5331dfea44?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 89?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/c37d/13561636/0a64f1b2c952/ECE3-16-e74313-g002.gif?></graphic></fig><p>Diel period was a significant predictor of maximum dive depth in our first linear mixed model and had a small model effect size (<italic toggle="yes">ω</italic>
+<sup>2</sup>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 0.02). Both diel periods were significant in the model (df 1, <italic toggle="yes">p</italic> &lt; 0.01), where maximum depth of dive decreases at night (model estimate mean 5 m, 95% confidence interval 4 to 7) compared to daytime (mean 8 m, 95% CI 6 to 11) (Figure <xref rid="ece374313-fig-0005" ref-type="fig">5</xref>; Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S2</xref>). This model only moderately explained depth variance (<italic toggle="yes">R</italic>
+<sup>2</sup>
+<sub>
+<italic toggle="yes">c</italic>
+</sub> = 0.26).</p><fig position="float" fig-type="FIGURE" id="ece374313-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Trends in maximum dive depth. Top panel: Depth over time for an overnight deployment, with night shaded in grey and dives colour‐coded by different behaviours. Bottom left: Model predicted means of maximum dive depth (log(depth) + 1) in each behavioural state. Fin whales have the deepest maximum depth in a feeding state and shallowest in a resting state. Bottom right: Model predicted means of maximum dive depth (log(depth) + 1) during each diel period. They dive deeper during the day than at night. Error bars represent 95% confidence intervals for estimated means.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ECE3-16-e74313-g001.webp"><?image-name ECE3-16-e74313-g001.webp?><?image-size 34196?><?image-md5 f37eb9e537dfd62da9ef9d7b4a42e6ac?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 626?><?image-original-width 1064?><?image-scaled-height 626?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/c37d/13561636/f37eb9e537df/ECE3-16-e74313-g001.webp?><?thumb-name ECE3-16-e74313-g001.gif?><?thumb-size 7486?><?thumb-md5 d15e36186953141657361c9011755243?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 118?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/c37d/13561636/d15e36186953/ECE3-16-e74313-g001.gif?></graphic></fig><p>All behavioural states were significant predictors of maximum dive depth (df 4, <italic toggle="yes">p</italic> &lt; 0.01, <italic toggle="yes">R</italic>
+<sup>2</sup>
+<sub>c</sub> = 0.74) with a large model effect size (<italic toggle="yes">ω</italic>
+<sup>2</sup>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 0.6). Feeding correlated to the deepest dive depth (model estimate mean 39 m, 95% CI 30 to 49), getting relatively shallower across exploratory foraging (mean 26 m, 95% CI 21 to 34), unknown (mean 12 m, 95% CI 9 to 18), travel (mean 7 m, 95% CI 6 to 10) and rest (mean 7 m, 95% CI 5 to 9) (Figure <xref rid="ece374313-fig-0005" ref-type="fig">5</xref>; Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S2</xref>).</p></sec><sec id="ece374313-sec-0009"><label>3.3</label><title>Behavioural State Diel Trends</title><p>Proportions of time spent in behavioural states were significantly different during the day compared to at night (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 371.73, df = 5, <italic toggle="yes">p</italic> &lt; 0.01, 95% CI = 29.2%, 34.5%). The proportion of time spent feeding was significantly different between day and night, decreasing from 31.6% to 8.9% (<italic toggle="yes">χ<sup>2</sup>
+</italic> = 193.6, <italic toggle="yes">p</italic> &lt; 0.01, Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S3</xref>) and rest significantly increased from 11.8% to 38.1% (<italic toggle="yes">χ<sup>2</sup>
+</italic> = 199.5, <italic toggle="yes">p</italic> &lt; 0.01, Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S3</xref>). Exploratory foraging moderately decreased from day to night, from 18.2% to 12.3% (<italic toggle="yes">χ<sup>2</sup>
+</italic> = 33.0, <italic toggle="yes">p</italic> &lt; 0.01, Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S3</xref>). Travelling decreased from 24.2% during the day to 21.8% at night (<italic toggle="yes">χ<sup>2</sup>
+</italic> = 7.6, <italic toggle="yes">p</italic> &lt; 0.01, Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S3</xref>). Surface time increased from 13.7% during the day to 18.2% at night (<italic toggle="yes">χ<sup>2</sup>
+</italic> = 8.1, <italic toggle="yes">p</italic> &lt; 0.01, Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S3</xref>). Unknown states did not differ significantly between day and night.</p></sec></sec><sec sec-type="discussion" id="ece374313-sec-0010"><label>4</label><title>Discussion</title><p>In this study, locations of the tagged western North Atlantic fin whales overlapped with major shipping lanes (Figure <xref rid="ece374313-fig-0003" ref-type="fig">3</xref>), which creates a fragmented foraging habitat. Habitat fragmentation alters predator–prey dynamics, although to what degree is dependent on the species (Kareiva <xref rid="ece374313-bib-0041" ref-type="bibr">1987</xref>) and risk tolerance of individuals (Rohwäder and Jeltsch <xref rid="ece374313-bib-0061" ref-type="bibr">2022</xref>). The whales must cross these shipping lanes during midsummer to target habitat with high spatial and temporal density of prey (Staudinger et al. <xref rid="ece374313-bib-0069" ref-type="bibr">2020</xref>), a high energetic gain that is necessary for energy stores (Brodie <xref rid="ece374313-bib-0010" ref-type="bibr">1975</xref>; Christiansen et al. <xref rid="ece374313-bib-0013" ref-type="bibr">2013</xref>). Body size is thought to be advantageous in fragmented habitat due to increased gap crossing ability (Hillaert et al. <xref rid="ece374313-bib-0034" ref-type="bibr">2018</xref>), and these whales have exploited the most extreme size on the planet (Goldbogen et al. <xref rid="ece374313-bib-0028" ref-type="bibr">2019</xref>). However, fragmentation in this shallow area is driven by traffic, in which case manoeuvrability is crucial for reducing mortality risk. Body size for these large whales may be disadvantageous since they face reduced three‐dimensional movement space which increases the likelihood of collisions with vessels, as the whales' maximum length exceeds the water depth in many areas (Lomac‐MacNair et al. <xref rid="ece374313-bib-0047" ref-type="bibr">2022</xref>). These vertical movement patterns highlight the potential risk for these whales to interact with large ships.</p><p>Habitat use evolved through natural selection can become maladaptive with novel anthropogenic threats, as demonstrated by these tagged fin whales on urbanised foraging grounds. Overall, the whales spent 67.2% of their time at shallow depths (&lt; 10 m) that put them at increased risk for collisions with vessels, as most large container ships' drafts are ca. 10 m (Garrison et al. <xref rid="ece374313-bib-0024" ref-type="bibr">2022</xref>). At night, the mean maximum dive depth observed in this sample of fin whales was only 5 m, so they are at the greatest risk of ship strike at night when mariners have the greatest limitation for visual detection of whales (Gende et al. <xref rid="ece374313-bib-0026" ref-type="bibr">2019</xref>). This is much shallower than the recorded nighttime 30 m median depth in the deeper Southern California Bight habitat (Keen et al. <xref rid="ece374313-bib-0042" ref-type="bibr">2019</xref>). The whales also have a high risk of ship strike during the day (mean max depth 8 m) compared to 96 m in the Southern California Bight (Keen et al. <xref rid="ece374313-bib-0042" ref-type="bibr">2019</xref>), though there is more variability in the distribution of dive depths than at night. These are likely conservative estimates of vertical body position in the water, as tags are placed in the middle of the ~20 m long body (NOAA <xref rid="ece374313-bib-0051" ref-type="bibr">2024</xref>) and the head or tail of the whale will extend shallower than the tag depth during descent and ascent of a dive. Management strategies in the eastern United States do not currently account for these diving behaviour patterns, which can inform current models for ship strike risk. However, these may also be better informed by fine‐scale spatial overlap with oncoming ships, which is an avenue for future study.</p><p>Foraging ecology likely drives observed diel dive patterns. Activity of mobile prey can influence predator movement, particularly if prey have access to spatial refuge (Sih <xref rid="ece374313-bib-0067" ref-type="bibr">1984</xref>). In particular, strong diel behaviour of prey can result in diel patterns in the foraging behaviour of predators (Romero and Harwood <xref rid="ece374313-bib-0062" ref-type="bibr">2010</xref>; Bartes et al. <xref rid="ece374313-bib-0004" ref-type="bibr">2025</xref>). Tagged fin whales were observed feeding only on sand lance in CATS tag video and field behavioural observations. Sand lance are a lipid rich, high value prey migrate through the water column during the day and often burrow in the sand overnight (Staudinger et al. <xref rid="ece374313-bib-0069" ref-type="bibr">2020</xref>). While humpback whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Megaptera novaeangliae</italic>
+</styled-content>) near this region have strategies for driving the prey out of the sand (Hain et al. <xref rid="ece374313-bib-0032" ref-type="bibr">1995</xref>; Friedlaender et al. <xref rid="ece374313-bib-0021" ref-type="bibr">2009</xref>), similar behavioural strategies have not been observed in fin whales and they may rest instead. Resting fin whales often moved in a large circle before returning to within 4–16 km of their starting point the next day possibly due to drifting during tidal movements of the water (Figure <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S1</xref>; Table <xref rid="ece374313-supitem-0001" ref-type="supplementary-material">S4</xref>). Therefore, the substrate may act as an effective spatial refuge for sand lance against fin whale predation at night. Under these circumstances, prey habitat usage and spatial distributions would drive predator foraging behaviour and vertical water column use (Sih <xref rid="ece374313-bib-0067" ref-type="bibr">1984</xref>). Therefore, sand lance may be driving the observed differences in maximum depth of dives for these fin whales.</p><p>Diving behaviour in other feeding areas may also be driven by prey behaviour. Fin whales in the Southern California Bight and Azores, which feed primarily on euphausiids, also display diel dive trends (Keen et al. <xref rid="ece374313-bib-0042" ref-type="bibr">2019</xref>; Fonseca et al. <xref rid="ece374313-bib-0020" ref-type="bibr">2022</xref>). This behaviour may be related to how euphausiids vertically migrate to the ocean surface at night, although three‐dimensional movement was not concurrently analysed (Youngbluth <xref rid="ece374313-bib-0083" ref-type="bibr">1976</xref>; Fonseca et al. <xref rid="ece374313-bib-0020" ref-type="bibr">2022</xref>). Even the deepest behaviours in this study had similar mean depths (26 and 39 m) to the shallowest behaviours in the Azores (20–40 m) (Fonseca et al. <xref rid="ece374313-bib-0020" ref-type="bibr">2022</xref>), demonstrating the vertical movement limitations of the ~50 m continental shelf depth (GEBCO Compilation Group <xref rid="ece374313-bib-0025" ref-type="bibr">2025</xref>). Further studies on fin whale diving behaviour while consuming different prey types, and more broadly prey behaviour, are warranted.</p><p>These data must be considered in the context which they were collected. Time spent foraging during the day may be impacted by seasonality (Víkingsson <xref rid="ece374313-bib-0072" ref-type="bibr">1997</xref>), so the activity budget described here represents a snapshot of behaviour during the mid‐summer in this shallow‐water habitat. The data are heavily skewed towards males, with only a single tag deployed on a female, so studies exploring whether there is a population level sex‐bias in this habitat during the mid‐summer are necessary to determine if our data are representative of the demographics for this season. Males in other mammalian taxa display greater risk‐taking behaviour than females (Jolles et al. <xref rid="ece374313-bib-0078" ref-type="bibr">2015</xref>; Akinrinade et al. <xref rid="ece374313-bib-0079" ref-type="bibr">2023</xref>). It is possible that males are continuing to forage in this area despite increased mortality risk from ships. However, the one tagged female in this study did not display marked differences in behavioural states compared to its paired male. More tag data from females are needed to assess potential sex differences in the activity budget and risk tolerance in this population on the foraging grounds. Additionally, analysing dive behaviours over a longer period of days to weeks could provide better insight into ship strike risk in this habitat, as our tags were limited to less than 1 day of data for each individual sampled.</p><p>This work provides critical data on the behaviours of a massive diel predator in a shallow water habitat, including some of the first details of the fine‐scale behaviour of endangered fin whales on the continental shelf in southern New England. In these habitats, some predators must cross dynamic mortality threats (i.e., heavy traffic) to reach foraging ranges with aggregations of high‐value prey, in which case site fidelity has become maladaptive in the Anthropocene (Merkle et al. <xref rid="ece374313-bib-0049" ref-type="bibr">2022</xref>). Fine‐scale data such as these should be considered in risk assessment models, such as ship injury and fatality predictions, and reduced vessel speed zones.</p></sec><sec id="ece374313-sec-0017"><title>Author Contributions</title><p>
+<bold>Dana L. Adcock:</bold> conceptualization (supporting), data curation (lead), formal analysis (lead), investigation (supporting), methodology (equal), validation (equal), visualization (lead), writing – original draft (lead). <bold>Douglas P. Nowacek:</bold> conceptualization (lead), data curation (supporting), funding acquisition (lead), investigation (lead), project administration (lead), resources (equal), supervision (supporting), writing – review and editing (equal). <bold>Susan E. Parks:</bold> conceptualization (lead), data curation (supporting), funding acquisition (supporting), investigation (lead), methodology (equal), project administration (supporting), resources (equal), supervision (lead), validation (equal), writing – review and editing (equal).</p></sec><sec id="ece374313-sec-0015"><title>Funding</title><p>This material is based upon work supported by the U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE) and the Bureau of Ocean Energy Management (BOEM) under the Wind Energy Technologies Office (WETO) Award Number DE‐EE0010287. Dana Adcock was supported by a Air Force Office of Scientific Research (FA9550‐23‐F‐0014).</p></sec><sec id="ece374313-sec-0016"><title>Ethics Statement</title><p>Fin whale tagging and biological samples were collected under the National Marine Fisheries Service Permits 27272‐01, 23644‐03 and 22156‐04 and IACUC approval from Syracuse University.</p></sec><sec sec-type="COI-statement" id="ece374313-sec-0012"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece374313-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1:</bold> Comparison of overnight rest and travel.</p><p>
+<bold>Table S1:</bold> Model selection. For each full model, we compared a set of nested effects models using the Akaike Information Criterion (AIC). (A) The model including State as a fixed effect and random intercepts for Individual and GroupID (AIC = 3722) had the lowest AIC value (ΔAIC &gt; 30) compared to alternative models, indicating that these fixed and random effects contribute significantly to explaining variation in log‐transformed maximum dive depth. Additionally, the Akaike weight is 1, indicating it is likely the best model of those four. (B) The model including Period as a fixed effect and random intercepts for Individual and GroupID (AIC = 11,153) had the lowest AIC value (ΔAIC &gt; 6) compared to alternative models, indicating that Period also contributes to explaining variation in log‐transformed maximum dive depth. Models in part B do not include twilight periods as data is split into night and day. The Akaike weight is 0.95, indicating it is likely the best model of those four.</p><p>
+<bold>Table S2:</bold> Coefficients of fixed effects in mixed models. Predictors are statistically significant in both models (<italic toggle="yes">p</italic> &lt; 0.01). State model is lmer(log_Dive_Max ~ State + (1 | Individual) + (1 | GroupID), data = data). Period model is lmer(log_Dive_Max ~ Period + (1 | Individual) + (1 | GroupID), data = data). *Model intercept.</p><p>
+<bold>Table S3:</bold> Pairwise chi‐squared comparison of behavioural state proportions during the day versus night. The 95% CI represents the difference between day and night.</p><p>
+<bold>Table S4:</bold> Overnight displacement of tagged whales. All whales included in the table had tags with suction cups attached overnight. Starting and ending locations reflect closest GPS positions before sunset and after sunrise. Displacement measures the distance (km) between these two points. The known resting whale with high GPS sampling had a displacement of 8 km, while the travelling pair had a displacement of 46 km.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-16-e74313-s001.docx" position="float" orientation="portrait"><?suppdata-name ECE3-16-e74313-s001.docx?><?suppdata-size 467734?><?suppdata-md5 e5cd65466ee70e1c87f6bfbe986d4862?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:c37d/13561636/e5cd65466ee7/ECE3-16-e74313-s001.docx?></media></supplementary-material></sec></body><back><ack id="ece374313-sec-0011"><title>Acknowledgements</title><p>We would like to thank fieldwork scientists Elizabeth Burgess, Dana Cusano, Taylor Machette, Megan Ryder and Amy Warren. We thank Ocean Alliance (Chris Zadra, Alicia Pensarosa, Carmella Re) for UAV data collection, Marine Conservation Research International for vessel and crew support, and Scott Landry from the Center for Coastal Studies for cross‐referencing individuals with their database.</p></ack><sec sec-type="data-availability" id="ece374313-sec-0014"><title>Data Availability Statement</title><p>Relevant code and data are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5061/dryad.n2z34tnd3" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.n2z34tnd3</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece374313-bibl-0001"><title>References</title><ref id="ece374313-bib-0001"><mixed-citation publication-type="journal" id="ece374313-cit-0001">
+<string-name name-style="western">
+<surname>Adcock</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Nowacek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Parks</surname>
+</string-name>. <year>2026</year>. “<article-title>Behavioral Context of Male Fin Whale <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Balaenoptera physalus</italic>
+</styled-content> Call Production on a Western North Atlantic Summer Foraging Ground</article-title>.” <source>Endangered Species Research</source>
+<volume>59</volume>: <fpage>1</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.3354/esr01487</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0079"><mixed-citation publication-type="journal" id="ece374313-cit-0079">
+<string-name name-style="western">
+<surname>Akinrinade</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. A. M.</given-names>
+<surname>Varela</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. F.</given-names>
+<surname>Oliveira</surname>
+</string-name>. <year>2023</year>. “<article-title>Sex Differences in Social Buffering and Social Contagion of Alarm Responses in Zebrafish</article-title>.” <source>Animal Cognition</source>
+<volume>26</volume>, no. <issue>4</issue>: <fpage>1307</fpage>–<lpage>1318</lpage>. <pub-id pub-id-type="doi">10.1007/s10071-023-01779-w</pub-id>.<pub-id pub-id-type="pmid">37184741</pub-id>
+<pub-id pub-id-type="pmcid">PMC10345065</pub-id></mixed-citation></ref><ref id="ece374313-bib-0002"><mixed-citation publication-type="journal" id="ece374313-cit-0002">
+<string-name name-style="western">
+<surname>Aschettino</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Engelhaupt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Engelhaupt</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Satellite Telemetry Reveals Spatial Overlap Between Vessel High‐Traffic Areas and Humpback Whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Megaptera novaeangliae</italic>
+</styled-content>) Near the Mouth of the Chesapeake Bay</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>7</volume>: <fpage>121</fpage>. <pub-id pub-id-type="doi">10.3389/fmars.2020.00121</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0003"><mixed-citation publication-type="journal" id="ece374313-cit-0003">
+<string-name name-style="western">
+<surname>Baker</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. S.</given-names>
+<surname>Smeltz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Williams</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Diel Vertical Migration in Pacific Sand Lance (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ammodytes personatus</italic>
+</styled-content>)—A Pelagic Forage Fish Associated With Benthic Substrates</article-title>.” <source>ICES Journal of Marine Science</source>
+<volume>80</volume>, no. <issue>6</issue>: <fpage>1758</fpage>–<lpage>1772</lpage>. <pub-id pub-id-type="doi">10.1093/icesjms/fsad106</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0081"><mixed-citation publication-type="miscellaneous" id="ece374313-cit-0081">
+<string-name name-style="western">
+<surname>Barkaszi</surname>, <given-names>M. . J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fonseca</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Foster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Malhotra</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Olsen</surname>
+</string-name>. <year>2021</year>. <article-title>
+<italic toggle="yes">Risk Assessment to Model Encounter Rates Between Large Whales and Vessel Traffic From Offshore Wind Energy on the Atlantic OCS (OCS Study BOEM 2021‑034)</italic> [PDF]</article-title>. U.S. Department of the Interior, Bureau of Ocean Energy Management. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://espis.boem.gov/Final%20Reports/BOEM_2021-034.pdf" ext-link-type="uri">https://espis.boem.gov/Final%20Reports/BOEM_2021‐034.pdf</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0004"><mixed-citation publication-type="journal" id="ece374313-cit-0004">
+<string-name name-style="western">
+<surname>Bartes</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Monk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Dorville</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Seafloor Habitat, Depth and Diel Patterns Influencing Prey Encounter and Hunting Success in a Large Marine Predator, the Australian Fur Seal</article-title>.” <source>Global Ecology and Conservation</source>
+<volume>62</volume>: <elocation-id>e03712</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.gecco.2025.e03712</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0005"><mixed-citation publication-type="miscellaneous" id="ece374313-cit-0005">
+<string-name name-style="western">
+<surname>Bates</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Maechler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bolker</surname>
+</string-name>, et al. <year>2025</year>. <article-title>lme4: Linear Mixed‐Effects Models Using “Eigen” and S4 (Version 1.1‐37) [Computer Software]</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html" ext-link-type="uri">https://cran.r‐project.org/web/packages/lme4/index.html</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0006"><mixed-citation publication-type="journal" id="ece374313-cit-0006">
+<string-name name-style="western">
+<surname>Bauer</surname>, <given-names>R. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐M.</given-names>
+<surname>Fromentin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Demarcq</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Brisset</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bonhommeau</surname>
+</string-name>. <year>2015</year>. “<article-title>Co‐Occurrence and Habitat Use of Fin Whales, Striped Dolphins and Atlantic Bluefin Tuna in the Northwestern Mediterranean Sea</article-title>.” <source>PLoS One</source>
+<volume>10</volume>, no. <issue>10</issue>: <elocation-id>e0139218</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0139218</pub-id>.<pub-id pub-id-type="pmid">26458254</pub-id>
+<pub-id pub-id-type="pmcid">PMC4601798</pub-id></mixed-citation></ref><ref id="ece374313-bib-0007"><mixed-citation publication-type="journal" id="ece374313-cit-0007">
+<string-name name-style="western">
+<surname>Bennett</surname>, <given-names>V. J.</given-names>
+</string-name>
+<year>2017</year>. “<article-title>Effects of Road Density and Pattern on the Conservation of Species and Biodiversity</article-title>.” <source>Current Landscape Ecology Reports</source>
+<volume>2</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1007/s40823-017-0020-6</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0008"><mixed-citation publication-type="journal" id="ece374313-cit-0008">
+<string-name name-style="western">
+<surname>Blair</surname>, <given-names>H. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. D.</given-names>
+<surname>Merchant</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Friedlaender</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. N.</given-names>
+<surname>Wiley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Parks</surname>
+</string-name>. <year>2016</year>. “<article-title>Evidence for Ship Noise Impacts on Humpback Whale Foraging Behaviour</article-title>.” <source>Biology Letters</source>
+<volume>12</volume>, no. <issue>8</issue>: <elocation-id>20160005</elocation-id>. <pub-id pub-id-type="doi">10.1098/rsbl.2016.0005</pub-id>.<pub-id pub-id-type="pmid">27512131</pub-id>
+<pub-id pub-id-type="pmcid">PMC5014013</pub-id></mixed-citation></ref><ref id="ece374313-bib-0009"><mixed-citation publication-type="journal" id="ece374313-cit-0009">
+<string-name name-style="western">
+<surname>Branch</surname>, <given-names>T. A.</given-names>
+</string-name>
+<year>2025</year>. “<article-title>Most “Flight” Baleen Whale Species Are Acoustically Cryptic to Killer Whales, Unlike “Fight” Species</article-title>.” <source>Marine Mammal Science</source>
+<volume>41</volume>, no. <issue>3</issue>: <elocation-id>e13228</elocation-id>. <pub-id pub-id-type="doi">10.1111/mms.13228</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0010"><mixed-citation publication-type="journal" id="ece374313-cit-0010">
+<string-name name-style="western">
+<surname>Brodie</surname>, <given-names>P. F.</given-names>
+</string-name>
+<year>1975</year>. “<article-title>Cetacean Energetics, an Overview of Intraspecific Size Variation</article-title>.” <source>Ecology</source>
+<volume>56</volume>, no. <issue>1</issue>: <fpage>152</fpage>–<lpage>161</lpage>. <pub-id pub-id-type="doi">10.2307/1935307</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0011"><mixed-citation publication-type="journal" id="ece374313-cit-0011">
+<string-name name-style="western">
+<surname>Brown</surname>, <given-names>J. S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B. P.</given-names>
+<surname>Kotler</surname>
+</string-name>. <year>2004</year>. “<article-title>Hazardous Duty Pay and the Foraging Cost of Predation</article-title>.” <source>Ecology Letters</source>
+<volume>7</volume>, no. <issue>10</issue>: <fpage>999</fpage>–<lpage>1014</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2004.00661.x</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0012"><mixed-citation publication-type="journal" id="ece374313-cit-0012">
+<string-name name-style="western">
+<surname>Calambokidis</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Fahlbusch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Szesciorka</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Differential Vulnerability to Ship Strikes Between Day and Night for Blue, Fin, and Humpback Whales Based on Dive and Movement Data From Medium Duration Archival Tags</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>6</volume>: <fpage>543</fpage>. <pub-id pub-id-type="doi">10.3389/fmars.2019.00543</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0013"><mixed-citation publication-type="journal" id="ece374313-cit-0013">
+<string-name name-style="western">
+<surname>Christiansen</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. A.</given-names>
+<surname>Víkingsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Rasmussen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lusseau</surname>
+</string-name>. <year>2013</year>. “<article-title>Minke Whales Maximise Energy Storage on Their Feeding Grounds</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>216</volume>, no. <issue>3</issue>: <fpage>427</fpage>–<lpage>436</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.074518</pub-id>.<pub-id pub-id-type="pmid">23325860</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0014"><mixed-citation publication-type="journal" id="ece374313-cit-0014">
+<string-name name-style="western">
+<surname>Colson</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Pirotta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>New</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Using Accelerometry Tags to Quantify Gray Whale Foraging Behavior</article-title>.” <source>Marine Mammal Science</source>
+<volume>41</volume>, no. <issue>2</issue>: <elocation-id>e13210</elocation-id>. <pub-id pub-id-type="doi">10.1111/mms.13210</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0015"><mixed-citation publication-type="journal" id="ece374313-cit-0015">
+<string-name name-style="western">
+<surname>Denneboom</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bar‐Massada</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Shwartz</surname>
+</string-name>. <year>2024</year>. “<article-title>Wildlife Mortality Risk Posed by High and Low Traffic Roads</article-title>.” <source>Conservation Biology</source>
+<volume>38</volume>, no. <issue>2</issue>: <elocation-id>e14159</elocation-id>. <pub-id pub-id-type="doi">10.1111/cobi.14159</pub-id>.<pub-id pub-id-type="pmid">37551769</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0016"><mixed-citation publication-type="journal" id="ece374313-cit-0016">
+<string-name name-style="western">
+<surname>Des Roches</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Robinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Kinnison</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. P.</given-names>
+<surname>Palkovacs</surname>
+</string-name>. <year>2022</year>. “<article-title>The Legacy of Predator Threat Shapes Prey Foraging Behaviour</article-title>.” <source>Oecologia</source>
+<volume>198</volume>, no. <issue>1</issue>: <fpage>79</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-021-05073-9</pub-id>.<pub-id pub-id-type="pmid">34817645</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0017"><mixed-citation publication-type="journal" id="ece374313-cit-0017">
+<string-name name-style="western">
+<surname>deVries</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. A. K.</given-names>
+<surname>Murphy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. N.</given-names>
+<surname>Patek</surname>
+</string-name>. <year>2012</year>. “<article-title>Strike Mechanics of an Ambush Predator: The Spearing Mantis Shrimp</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>215</volume>, no. <issue>24</issue>: <fpage>4374</fpage>–<lpage>4384</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.075317</pub-id>.<pub-id pub-id-type="pmid">23175528</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0018"><mixed-citation publication-type="journal" id="ece374313-cit-0018">
+<string-name name-style="western">
+<surname>Emlen</surname>, <given-names>J. M.</given-names>
+</string-name>
+<year>1966</year>. “<article-title>The Role of Time and Energy in Food Preference</article-title>.” <source>American Naturalist</source>
+<volume>100</volume>, no. <issue>916</issue>: <fpage>611</fpage>–<lpage>617</lpage>. <pub-id pub-id-type="doi">10.1086/282455</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0019"><mixed-citation publication-type="journal" id="ece374313-cit-0019">
+<string-name name-style="western">
+<surname>Estabrook</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Bonacci‐Sullivan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. V.</given-names>
+<surname>Harris</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Passive Acoustic Monitoring of Baleen Whale Seasonal Presence Across the New York Bight</article-title>.” <source>PLoS One</source>
+<volume>20</volume>, no. <issue>2</issue>: <elocation-id>e0314857</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0314857</pub-id>.<pub-id pub-id-type="pmid">39946324</pub-id>
+<pub-id pub-id-type="pmcid">PMC11825016</pub-id></mixed-citation></ref><ref id="ece374313-bib-0020"><mixed-citation publication-type="journal" id="ece374313-cit-0020">
+<string-name name-style="western">
+<surname>Fonseca</surname>, <given-names>C. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pérez‐Jorge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Prieto</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Dive Behavior and Activity Patterns of Fin Whales in a Migratory Habitat</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>9</volume>: <elocation-id>875731</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2022.875731</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0021"><mixed-citation publication-type="journal" id="ece374313-cit-0021">
+<string-name name-style="western">
+<surname>Friedlaender</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Hazen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Nowacek</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>Diel Changes in Humpback Whale <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Megaptera novaeangliae</italic>
+</styled-content> Feeding Behavior in Response to Sand Lance <italic toggle="yes">Ammodytes spp</italic>. Behavior and Distribution</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>395</volume>: <fpage>91</fpage>–<lpage>100</lpage>. <pub-id pub-id-type="doi">10.3354/meps08003</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0022"><mixed-citation publication-type="journal" id="ece374313-cit-0022">
+<string-name name-style="western">
+<surname>Friedlaender</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. B.</given-names>
+<surname>Tyson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Stimpert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Read</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Nowacek</surname>
+</string-name>. <year>2013</year>. “<article-title>Extreme Diel Variation in the Feeding Behavior of Humpback Whales Along the Western Antarctic Peninsula During Autumn</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>494</volume>: <fpage>281</fpage>–<lpage>289</lpage>. <pub-id pub-id-type="doi">10.3354/meps10541</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0023"><mixed-citation publication-type="journal" id="ece374313-cit-0023">
+<string-name name-style="western">
+<surname>Fuirst</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Veit</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hahn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Dheilly</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. H.</given-names>
+<surname>Thorne</surname>
+</string-name>. <year>2018</year>. “<article-title>Effects of Urbanization on the Foraging Ecology and Microbiota of the Generalist Seabird <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Larus argentatus</italic>
+</styled-content>
+</article-title>.” <source>PLoS One</source>
+<volume>13</volume>, no. <issue>12</issue>: <elocation-id>e0209200</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0209200</pub-id>.<pub-id pub-id-type="pmid">30562368</pub-id>
+<pub-id pub-id-type="pmcid">PMC6298667</pub-id></mixed-citation></ref><ref id="ece374313-bib-0024"><mixed-citation publication-type="miscellaneous" id="ece374313-cit-0024">
+<string-name name-style="western">
+<surname>Garrison</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Adams</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Patterson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. P.</given-names>
+<surname>Good</surname>
+</string-name>. <year>2022</year>. <article-title>Assessing the Risk of Vessel Strike Mortality in North Atlantic Right Whales Along the U.S East Coast</article-title>. Accessed May 5, 2025. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://repository.library.noaa.gov/view/noaa/44637" ext-link-type="uri">https://repository.library.noaa.gov/view/noaa/44637</ext-link>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-024-84886-z</pub-id><pub-id pub-id-type="pmcid">PMC11699073</pub-id><pub-id pub-id-type="pmid">39753742</pub-id></mixed-citation></ref><ref id="ece374313-bib-0025"><mixed-citation publication-type="book" id="ece374313-cit-0025">
+<collab collab-type="authors">GEBCO Compilation Group</collab>
+. <year>2025</year>. <source>GEBCO 2025 Grid</source>. <publisher-name>GEBCO</publisher-name>. Accessed May 9, 2025. <pub-id pub-id-type="doi">10.5285/37c52e96-24ea-67ce-e063-7086abc05f29</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0026"><mixed-citation publication-type="journal" id="ece374313-cit-0026">
+<string-name name-style="western">
+<surname>Gende</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Vose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Baken</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Gabriele</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Preston</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. N.</given-names>
+<surname>Hendrix</surname>
+</string-name>. <year>2019</year>. “<article-title>Active Whale Avoidance by Large Ships: Components and Constraints of a Complementary Approach to Reducing Ship Strike Risk</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>6</volume>: <fpage>592</fpage>. <pub-id pub-id-type="doi">10.3389/fmars.2019.00592</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0027"><mixed-citation publication-type="journal" id="ece374313-cit-0027">
+<string-name name-style="western">
+<surname>Goldbogen</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Cade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. T.</given-names>
+<surname>Boersma</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Using Digital Tags With Integrated Video and Inertial Sensors to Study Moving Morphology and Associated Function in Large Aquatic Vertebrates</article-title>.” <source>Anatomical Record</source>
+<volume>300</volume>, no. <issue>11</issue>: <fpage>1935</fpage>–<lpage>1941</lpage>. <pub-id pub-id-type="doi">10.1002/ar.23650</pub-id>.<pub-id pub-id-type="pmid">28971623</pub-id></mixed-citation></ref><ref id="ece374313-bib-0028"><mixed-citation publication-type="journal" id="ece374313-cit-0028">
+<string-name name-style="western">
+<surname>Goldbogen</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Cade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Wisniewska</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Why Whales Are Big but Not Bigger: Physiological Drivers and Ecological Limits in the Age of Ocean Giants</article-title>.” <source>Science</source>
+<volume>366</volume>, no. <issue>6471</issue>: <fpage>1367</fpage>–<lpage>1372</lpage>. <pub-id pub-id-type="doi">10.1126/science.aax9044</pub-id>.<pub-id pub-id-type="pmid">31831666</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0029"><mixed-citation publication-type="journal" id="ece374313-cit-0029">
+<string-name name-style="western">
+<surname>Goldbogen</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Calambokidis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Shadwick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Oleson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>McDonald</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Hildebrand</surname>
+</string-name>. <year>2006</year>. “<article-title>Kinematics of Foraging Dives and Lunge‐Feeding in Fin Whales</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>209</volume>, no. <issue>7</issue>: <fpage>1231</fpage>–<lpage>1244</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.02135</pub-id>.<pub-id pub-id-type="pmid">16547295</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0030"><mixed-citation publication-type="journal" id="ece374313-cit-0030">
+<string-name name-style="western">
+<surname>Goldbogen</surname>, <given-names>J. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Madsen</surname>
+</string-name>. <year>2018</year>. “<article-title>The Evolution of Foraging Capacity and Gigantism in Cetaceans</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>221</volume>, no. <issue>11</issue>: <elocation-id>jeb166033</elocation-id>. <pub-id pub-id-type="doi">10.1242/jeb.166033</pub-id>.<pub-id pub-id-type="pmid">29895582</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0031"><mixed-citation publication-type="journal" id="ece374313-cit-0031">
+<string-name name-style="western">
+<surname>Goldbogen</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. D.</given-names>
+<surname>Pyenson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Madsen</surname>
+</string-name>. <year>2023</year>. “<article-title>How Whales Dive, Feast, and Fast: The Ecophysiological Drivers and Limits of Foraging in the Evolution of Cetaceans</article-title>.” <source>Annual Review of Ecology, Evolution, and Systematics</source>
+<volume>54</volume>: <fpage>307</fpage>–<lpage>325</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-ecolsys-102220-025458</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0032"><mixed-citation publication-type="journal" id="ece374313-cit-0032">
+<string-name name-style="western">
+<surname>Hain</surname>, <given-names>J. H. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Ellis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Kenney</surname>
+</string-name>, et al. <year>1995</year>. “<article-title>Apparent Bottom Feeding by Humpback Whales on Stellwagen Bank</article-title>.” <source>Marine Mammal Science</source>
+<volume>11</volume>, no. <issue>4</issue>: <fpage>464</fpage>–<lpage>479</lpage>. <pub-id pub-id-type="doi">10.1111/j.1748-7692.1995.tb00670.x</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0077"><mixed-citation publication-type="journal" id="ece374313-cit-0077">
+<string-name name-style="western">
+<surname>Harishchandra</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xue</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Salinas</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Jayasundara</surname>
+</string-name>. <year>2022</year>. “<article-title>Thermal Physiology Integrated Species Distribution Model Predicts Profound Habitat Fragmentation for Estuarine Fish With Ocean Warming</article-title>.” <source>Scientific Reports</source>
+<volume>12</volume>, no. <issue>1</issue>: <elocation-id>21781</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-022-25419-4</pub-id>.<pub-id pub-id-type="pmid">36526639</pub-id>
+<pub-id pub-id-type="pmcid">PMC9758224</pub-id></mixed-citation></ref><ref id="ece374313-bib-0033"><mixed-citation publication-type="journal" id="ece374313-cit-0033">
+<string-name name-style="western">
+<surname>Heide‐Jørgensen</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Laidre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. H.</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Hansen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Røstad</surname>
+</string-name>. <year>2013</year>. “<article-title>Winter and Spring Diving Behavior of Bowhead Whales Relative to Prey</article-title>.” <source>Animal Biotelemetry</source>
+<volume>1</volume>, no. <issue>1</issue>: <elocation-id>Article 1</elocation-id>. <pub-id pub-id-type="doi">10.1186/2050-3385-1-15</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0034"><mixed-citation publication-type="journal" id="ece374313-cit-0034">
+<string-name name-style="western">
+<surname>Hillaert</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Vandegehuchte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Hovestadt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Bonte</surname>
+</string-name>. <year>2018</year>. “<article-title>Information Use During Movement Regulates How Fragmentation and Loss of Habitat Affect Body Size</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>285</volume>, no. <issue>1884</issue>: <elocation-id>20180953</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2018.0953</pub-id>.<pub-id pub-id-type="pmcid">PMC6111160</pub-id><pub-id pub-id-type="pmid">30111596</pub-id></mixed-citation></ref><ref id="ece374313-bib-0035"><mixed-citation publication-type="journal" id="ece374313-cit-0035">
+<string-name name-style="western">
+<surname>Hooker</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. W.</given-names>
+<surname>Baird</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Al‐Omari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gowans</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Whitehead</surname>
+</string-name>. <year>2001</year>. “<article-title>Behavioral Reactions of Northern Bottlenose Whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Hyperoodon ampullatus</italic>
+</styled-content>) to Biopsy Darting and Tag Attachment Procedures</article-title>.” <source>Fishery Bulletin</source>
+<volume>99</volume>, no. <issue>2</issue>: <elocation-id>303</elocation-id>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://go.gale.com/ps/i.do?p=AONE&amp;sw=w&amp;issn=00900656&amp;v=2.1&amp;it=r&amp;id=GALE%7CA75434045&amp;sid=googleScholar&amp;linkaccess=abs" ext-link-type="uri">https://go.gale.com/ps/i.do?p=AONE&amp;sw=w&amp;issn=00900656&amp;v=2.1&amp;it=r&amp;id=GALE%7CA75434045&amp;sid=googleScholar&amp;linkaccess=abs</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0036"><mixed-citation publication-type="journal" id="ece374313-cit-0036">
+<string-name name-style="western">
+<surname>Hubel</surname>, <given-names>T. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Myatt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. R.</given-names>
+<surname>Jordan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O. P.</given-names>
+<surname>Dewhirst</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. W.</given-names>
+<surname>McNutt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Wilson</surname>
+</string-name>. <year>2016</year>. “<article-title>Energy Cost and Return for Hunting in African Wild Dogs and Cheetahs</article-title>.” <source>Nature Communications</source>
+<volume>7</volume>, no. <issue>1</issue>: <elocation-id>11034</elocation-id>. <pub-id pub-id-type="doi">10.1038/ncomms11034</pub-id>.<pub-id pub-id-type="pmcid">PMC4820543</pub-id><pub-id pub-id-type="pmid">27023457</pub-id></mixed-citation></ref><ref id="ece374313-bib-0037"><mixed-citation publication-type="journal" id="ece374313-cit-0037">
+<string-name name-style="western">
+<surname>Indeck</surname>, <given-names>K. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Baumgartner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Lecavalier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Whoriskey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. T. A.</given-names>
+<surname>Davies</surname>
+</string-name>. <year>2025</year>. “<article-title>Passive Acoustic Gliders Are Effective Monitoring Tools for Dynamic Management Plans Aimed at Mitigating Whale‐Vessel Strikes</article-title>.” <source>Conservation Letters</source>
+<volume>18</volume>, no. <issue>2</issue>: <elocation-id>e13102</elocation-id>. <pub-id pub-id-type="doi">10.1111/conl.13102</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0082"><mixed-citation publication-type="book" id="ece374313-cit-0082">
+<collab collab-type="authors">International Transport Forum</collab>
+. <year>2019</year>. <source>ITF Transport Outlook 2019</source>. <publisher-name>OECD Publishing</publisher-name>. <pub-id pub-id-type="doi">10.1787/transp_outlook-en-2019-en</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0038"><mixed-citation publication-type="journal" id="ece374313-cit-0038">
+<string-name name-style="western">
+<surname>Iwasa</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Higashi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Yamamura</surname>
+</string-name>. <year>1981</year>. “<article-title>Prey Distribution as a Factor Determining the Choice of Optimal Foraging Strategy</article-title>.” <source>American Naturalist</source>
+<volume>117</volume>, no. <issue>5</issue>: <fpage>710</fpage>–<lpage>723</lpage>. <pub-id pub-id-type="doi">10.1086/283754</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0039"><mixed-citation publication-type="journal" id="ece374313-cit-0039">
+<string-name name-style="western">
+<surname>Johnson</surname>, <given-names>M. P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Tyack</surname>
+</string-name>. <year>2003</year>. “<article-title>A Digital Acoustic Recording Tag for Measuring the Response of Wild Marine Mammals to Sound</article-title>.” <source>IEEE Journal of Oceanic Engineering</source>
+<volume>28</volume>, no. <issue>1</issue>: <fpage>3</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1109/JOE.2002.808212</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0078"><mixed-citation publication-type="journal" id="ece374313-cit-0078">
+<string-name name-style="western">
+<surname>Jolles</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Boogert</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>van den Bos</surname>
+</string-name>. <year>2015</year>. “<article-title>Sex Differences in Risk‐Taking and Associative Learning in Rats</article-title>.” <source>Royal Society Open Science</source>
+<volume>2</volume>, no. <issue>11</issue>: <elocation-id>150485</elocation-id>. <pub-id pub-id-type="doi">10.1098/rsos.150485</pub-id>.<pub-id pub-id-type="pmid">26716004</pub-id>
+<pub-id pub-id-type="pmcid">PMC4680619</pub-id></mixed-citation></ref><ref id="ece374313-bib-0040"><mixed-citation publication-type="journal" id="ece374313-cit-0040">
+<string-name name-style="western">
+<surname>Jory</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Lesage</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Leclerc</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Individual and Population Dietary Specialization Decline in Fin Whales During a Period of Ecosystem Shift</article-title>.” <source>Scientific Reports</source>
+<volume>11</volume>, no. <issue>Article 1</issue>: <elocation-id>1</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-021-96283-x</pub-id>.<pub-id pub-id-type="pmid">34433851</pub-id>
+<pub-id pub-id-type="pmcid">PMC8387503</pub-id></mixed-citation></ref><ref id="ece374313-bib-0041"><mixed-citation publication-type="journal" id="ece374313-cit-0041">
+<string-name name-style="western">
+<surname>Kareiva</surname>, <given-names>P.</given-names>
+</string-name>
+<year>1987</year>. “<article-title>Habitat Fragmentation and the Stability of Predator–Prey Interactions</article-title>.” <source>Nature</source>
+<volume>326</volume>, no. <issue>6111</issue>: <fpage>388</fpage>–<lpage>390</lpage>. <pub-id pub-id-type="doi">10.1038/326388a0</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0042"><mixed-citation publication-type="journal" id="ece374313-cit-0042">
+<string-name name-style="western">
+<surname>Keen</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Falcone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Andrews</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. S.</given-names>
+<surname>Schorr</surname>
+</string-name>. <year>2019</year>. “<article-title>Diel Dive Behavior of Fin Whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Balaenoptera physalus</italic>
+</styled-content>) in the Southern California Bight</article-title>.” <source>Aquatic Mammals</source>
+<volume>45</volume>, no. <issue>2</issue>: <fpage>233</fpage>–<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1578/AM.45.2.2019.233</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0043"><mixed-citation publication-type="journal" id="ece374313-cit-0043">
+<string-name name-style="western">
+<surname>Krebs</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Erichsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. I.</given-names>
+<surname>Webber</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Charnov</surname>
+</string-name>. <year>1977</year>. “<article-title>Optimal Prey Selection in the Great Tit (<italic toggle="yes">
+<styled-content style="fixed-case" toggle="no">Parus major</styled-content>)</italic>
+</article-title>.” <source>Animal Behaviour</source>
+<volume>25</volume>: <fpage>30</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1016/0003-3472(77)90064-1</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0044"><mixed-citation publication-type="miscellaneous" id="ece374313-cit-0044">
+<string-name name-style="western">
+<surname>Kuznetsova</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Brockhoff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. H. B.</given-names>
+<surname>Christensen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Jensen</surname>
+</string-name>. <year>2020</year>. <article-title>lmerTest: Tests in Linear Mixed Effects Models (Version 3.1‐3) [Computer software]</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/web/packages/lmerTest/index.html" ext-link-type="uri">https://cran.r‐project.org/web/packages/lmerTest/index.html</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0045"><mixed-citation publication-type="journal" id="ece374313-cit-0045">
+<string-name name-style="western">
+<surname>Laist</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Knowlton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Mead</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Avenue</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Collet</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Podestà</surname>
+</string-name>. <year>2001</year>. “<article-title>Collisions Between Ships and Whales</article-title>.” <source>Marine Mammal Science</source>
+<volume>17</volume>: <fpage>35</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1111/j.1748-7692.2001.tb00980.x</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0046"><mixed-citation publication-type="journal" id="ece374313-cit-0046">
+<string-name name-style="western">
+<surname>Lehrer</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Schooley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Whittington</surname>
+</string-name>. <year>2012</year>. “<article-title>Survival and Antipredator Behavior of Woodchucks (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Marmota monax</italic>
+</styled-content>) Along an Urban–Agricultural Gradient</article-title>.” <source>Canadian Journal of Zoology</source>
+<volume>90</volume>, no. <issue>1</issue>: <fpage>12</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1139/z11-107</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0047"><mixed-citation publication-type="journal" id="ece374313-cit-0047">
+<string-name name-style="western">
+<surname>Lomac‐MacNair</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Zoidis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Ireland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Rickard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>McKown</surname>
+</string-name>. <year>2022</year>. “<article-title>Fin, Humpback, and Minke Whale Foraging Events in the New York Bight as Observed From Aerial Surveys, 2017‐2020</article-title>.” <source>Aquatic Mammals</source>
+<volume>48</volume>, no. <issue>2</issue>: <fpage>142</fpage>–<lpage>158</lpage>. <pub-id pub-id-type="doi">10.1578/am.48.2.2022.142</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0048"><mixed-citation publication-type="journal" id="ece374313-cit-0048">
+<string-name name-style="western">
+<surname>Madsen</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Møhl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Nielsen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wahlberg</surname>
+</string-name>. <year>2015</year>. “<article-title>Male Sperm Whale Behavior During Exposure to Distant Seismic Survey Pulses</article-title>.” <source>Aquatic Mammals</source>
+<volume>28</volume>: <fpage>231</fpage>–<lpage>240</lpage>.</mixed-citation></ref><ref id="ece374313-bib-0049"><mixed-citation publication-type="journal" id="ece374313-cit-0049">
+<string-name name-style="western">
+<surname>Merkle</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Abrahms</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Armstrong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Sawyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Costa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Chalfoun</surname>
+</string-name>. <year>2022</year>. “<article-title>Site Fidelity as a Maladaptive Behavior in the Anthropocene</article-title>.” <source>Frontiers in Ecology and the Environment</source>
+<volume>20</volume>, no. <issue>3</issue>: <fpage>187</fpage>–<lpage>194</lpage>. <pub-id pub-id-type="doi">10.1002/fee.2456</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0050"><mixed-citation publication-type="journal" id="ece374313-cit-0050">
+<string-name name-style="western">
+<surname>Miller</surname>, <given-names>P. J. O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Isojunno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Siegal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.‐P. A.</given-names>
+<surname>Lam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. H.</given-names>
+<surname>Kvadsheim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Curé</surname>
+</string-name>. <year>2022</year>. “<article-title>Behavioral Responses to Predatory Sounds Predict Sensitivity of Cetaceans to Anthropogenic Noise Within a Soundscape of Fear</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>119</volume>, no. <issue>13</issue>: <elocation-id>e2114932119</elocation-id>. <pub-id pub-id-type="doi">10.1073/pnas.2114932119</pub-id>.<pub-id pub-id-type="pmcid">PMC9060435</pub-id><pub-id pub-id-type="pmid">35312354</pub-id></mixed-citation></ref><ref id="ece374313-bib-0051"><mixed-citation publication-type="book" id="ece374313-cit-0051">
+<collab collab-type="authors">National Oceanic and Atmospheric Administration (NOAA)</collab>
+. <year>2024</year>. <source>Fin Whale | NOAA Fisheries</source>. <publisher-name>NOAA</publisher-name>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.fisheries.noaa.gov/species/fin-whale" ext-link-type="uri">https://www.fisheries.noaa.gov/species/fin‐whale</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0052"><mixed-citation publication-type="journal" id="ece374313-cit-0052">
+<string-name name-style="western">
+<surname>Nisi</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Welch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Brodie</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Ship Collision Risk Threatens Whales Across the World's Oceans</article-title>.” <source>Science</source>
+<volume>386</volume>, no. <issue>6724</issue>: <fpage>870</fpage>–<lpage>875</lpage>. <pub-id pub-id-type="doi">10.1126/science.adp1950</pub-id>.<pub-id pub-id-type="pmid">39571007</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0053"><mixed-citation publication-type="journal" id="ece374313-cit-0053">
+<string-name name-style="western">
+<surname>Parks</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Searby</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Célérier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Nowacek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Tyack</surname>
+</string-name>. <year>2011</year>. “<article-title>Sound Production Behavior of Individual North Atlantic Right Whales: Implications for Passive Acoustic Monitoring</article-title>.” <source>Endangered Species Research</source>
+<volume>15</volume>, no. <issue>1</issue>: <fpage>63</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.3354/esr00368</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0054"><mixed-citation publication-type="journal" id="ece374313-cit-0054">
+<string-name name-style="western">
+<surname>Parks</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Warren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Stamieszkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Mayo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wiley</surname>
+</string-name>. <year>2011</year>. “<article-title>Dangerous Dining: Surface Foraging of North Atlantic Right Whales Increases Risk of Vessel Collisions</article-title>.” <source>Biology Letters</source>
+<volume>8</volume>, no. <issue>1</issue>: <fpage>57</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1098/rsbl.2011.0578</pub-id>.<pub-id pub-id-type="pmid">21813549</pub-id>
+<pub-id pub-id-type="pmcid">PMC3259960</pub-id></mixed-citation></ref><ref id="ece374313-bib-0055"><mixed-citation publication-type="journal" id="ece374313-cit-0055">
+<string-name name-style="western">
+<surname>Passarotto</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Morosinotto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Karell</surname>
+</string-name>. <year>2025</year>. “<article-title>Experimental Noise and Light Pollution Alter Prey Detection in a Nocturnal Bird of Prey</article-title>.” <source>Journal of Animal Ecology</source>
+<volume>94</volume>, no. <issue>7</issue>: <fpage>1398</fpage>–<lpage>1409</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.70062</pub-id>.<pub-id pub-id-type="pmid">40396451</pub-id>
+<pub-id pub-id-type="pmcid">PMC12214444</pub-id></mixed-citation></ref><ref id="ece374313-bib-0056"><mixed-citation publication-type="miscellaneous" id="ece374313-cit-0056">
+<collab collab-type="authors">Port Authority of New York and New Jersey</collab>
+. n.d. Accessed April 10, 2026. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.panynj.gov/content/port/en/our-port/facts-and-figures.html" ext-link-type="uri">https://www.panynj.gov/content/port/en/our‐port/facts‐and‐figures.html</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0057"><mixed-citation publication-type="journal" id="ece374313-cit-0057">
+<string-name name-style="western">
+<surname>Poulin</surname>, <given-names>M.‐P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>Cherry</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Merkle</surname>
+</string-name>. <year>2023</year>. “<article-title>Dynamic Balancing of Risks and Rewards in a Large Herbivore: Further Extending Predator–Prey Concepts to Road Ecology</article-title>.” <source>Journal of Animal Ecology</source>
+<volume>92</volume>, no. <issue>10</issue>: <fpage>1954</fpage>–<lpage>1965</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.13985</pub-id>.<pub-id pub-id-type="pmid">37462330</pub-id>
+</mixed-citation></ref><ref id="ece374313-bib-0058"><mixed-citation publication-type="journal" id="ece374313-cit-0058">
+<string-name name-style="western">
+<surname>Pyke</surname>, <given-names>G.</given-names>
+</string-name>
+<year>1984</year>. “<article-title>Optimal Foraging Theory: A Critical Review</article-title>.” <source>Annual Review of Ecology, Evolution, and Systematics</source>
+<volume>15</volume>: <fpage>523</fpage>–<lpage>575</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.ecolsys.15.1.523</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0059"><mixed-citation publication-type="book" id="ece374313-cit-0059">
+<string-name name-style="western">
+<surname>Pyke</surname>, <given-names>G.</given-names>
+</string-name>
+<year>2010</year>. “<part-title>Optimal Foraging Theory: Introduction</part-title>.” In <source>Encyclopedia of Animal Behavior</source>, <fpage>601</fpage>–<lpage>603</lpage>. <publisher-name>Academic Press</publisher-name>. <pub-id pub-id-type="doi">10.1016/B978-0-08-045337-8.00210-2</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0060"><mixed-citation publication-type="journal" id="ece374313-cit-0060">
+<string-name name-style="western">
+<surname>Rendell</surname>, <given-names>L. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Whitehead</surname>
+</string-name>. <year>2003</year>. “<article-title>Comparing Repertoires of Sperm Whale Codas: A Multiple Methods Approach</article-title>.” <source>Bioacoustics</source>
+<volume>14</volume>, no. <issue>1</issue>: <fpage>61</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1080/09524622.2003.9753513</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0061"><mixed-citation publication-type="journal" id="ece374313-cit-0061">
+<string-name name-style="western">
+<surname>Rohwäder</surname>, <given-names>M.‐S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jeltsch</surname>
+</string-name>. <year>2022</year>. “<article-title>Foraging Personalities Modify Effects of Habitat Fragmentation on Biodiversity</article-title>.” <source>Oikos</source>
+<volume>2022</volume>, no. <issue>12</issue>: <elocation-id>e09056</elocation-id>. <pub-id pub-id-type="doi">10.1111/oik.09056</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0062"><mixed-citation publication-type="journal" id="ece374313-cit-0062">
+<string-name name-style="western">
+<surname>Romero</surname>, <given-names>S. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Harwood</surname>
+</string-name>. <year>2010</year>. “<article-title>Diel and Seasonal Patterns of Prey Available to Epigeal Predators: Evidence for Food Limitation in a Linyphiid Spider Community</article-title>.” <source>Biological Control</source>
+<volume>52</volume>, no. <issue>1</issue>: <fpage>84</fpage>–<lpage>90</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocontrol.2009.09.013</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0063"><mixed-citation publication-type="journal" id="ece374313-cit-0063">
+<string-name name-style="western">
+<surname>Ruiz‐Villar</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Morales‐González</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. V.</given-names>
+<surname>López‐Bao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Palomares</surname>
+</string-name>. <year>2024</year>. “<article-title>Humans and Traffic Influence European Wildcat Behaviour in Pastoral Landscapes</article-title>.” <source>Animal Behaviour</source>
+<volume>207</volume>: <fpage>131</fpage>–<lpage>146</lpage>. <pub-id pub-id-type="doi">10.1016/j.anbehav.2023.11.004</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0064"><mixed-citation publication-type="journal" id="ece374313-cit-0064">
+<string-name name-style="western">
+<surname>Santos</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Salgueiro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Costa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Medinas</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Beja</surname>
+</string-name>. <year>2016</year>. “<article-title>Avian Trait‐Mediated Vulnerability to Road Traffic Collisions</article-title>.” <source>Biological Conservation</source>
+<volume>200</volume>: <fpage>122</fpage>–<lpage>130</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2016.06.004</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0065"><mixed-citation publication-type="journal" id="ece374313-cit-0065">
+<string-name name-style="western">
+<surname>Schoeman</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Patterson‐Abrolat</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Plön</surname>
+</string-name>. <year>2020</year>. “<article-title>A Global Review of Vessel Collisions With Marine Animals</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>7</volume>: <fpage>292</fpage>. <pub-id pub-id-type="doi">10.3389/fmars.2020.00292</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0066"><mixed-citation publication-type="journal" id="ece374313-cit-0066">
+<string-name name-style="western">
+<surname>Siemers</surname>, <given-names>B. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Schaub</surname>
+</string-name>. <year>2010</year>. “<article-title>Hunting at the Highway: Traffic Noise Reduces Foraging Efficiency in Acoustic Predators</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>278</volume>, no. <issue>1712</issue>: <fpage>1646</fpage>–<lpage>1652</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2010.2262</pub-id>.<pub-id pub-id-type="pmcid">PMC3081776</pub-id><pub-id pub-id-type="pmid">21084347</pub-id></mixed-citation></ref><ref id="ece374313-bib-0067"><mixed-citation publication-type="journal" id="ece374313-cit-0067">
+<string-name name-style="western">
+<surname>Sih</surname>, <given-names>A.</given-names>
+</string-name>
+<year>1984</year>. “<article-title>The Behavioral Response Race Between Predator and Prey</article-title>.” <source>American Naturalist</source>
+<volume>123</volume>, no. <issue>1</issue>: <fpage>143</fpage>–<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1086/284193</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0068"><mixed-citation publication-type="miscellaneous" id="ece374313-cit-0068">
+<string-name name-style="western">
+<surname>Singmann</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bolker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Westfall</surname>
+</string-name>, et al. <year>2024</year>. <article-title>afex: Analysis of Factorial Experiments (Version 1.4‐1) [Computer Software]</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/web/packages/afex/index.html" ext-link-type="uri">https://cran.r‐project.org/web/packages/afex/index.html</ext-link>.</mixed-citation></ref><ref id="ece374313-bib-0069"><mixed-citation publication-type="journal" id="ece374313-cit-0069">
+<string-name name-style="western">
+<surname>Staudinger</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Goyert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Suca</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>The Role of Sand Lances (<italic toggle="yes">Ammodytes</italic> sp.) in the Northwest Atlantic Ecosystem: A Synthesis of Current Knowledge With Implications for Conservation and Management</article-title>.” <source>Fish and Fisheries</source>
+<volume>21</volume>, no. <issue>3</issue>: <fpage>522</fpage>–<lpage>556</lpage>. <pub-id pub-id-type="doi">10.1111/faf.12445</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0070"><mixed-citation publication-type="journal" id="ece374313-cit-0070">
+<string-name name-style="western">
+<surname>Thorne</surname>, <given-names>L. H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. N.</given-names>
+<surname>Wiley</surname>
+</string-name>. <year>2024</year>. “<article-title>Evaluating Drivers of Recent Large Whale Strandings on the East Coast of the United States</article-title>.” <source>Conservation Biology</source>
+<volume>38</volume>, no. <issue>6</issue>: <elocation-id>e14302</elocation-id>. <pub-id pub-id-type="doi">10.1111/cobi.14302</pub-id>.<pub-id pub-id-type="pmid">38808391</pub-id>
+<pub-id pub-id-type="pmcid">PMC11588986</pub-id></mixed-citation></ref><ref id="ece374313-bib-0071"><mixed-citation publication-type="journal" id="ece374313-cit-0071">
+<string-name name-style="western">
+<surname>Tyack</surname>, <given-names>P. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. M. X.</given-names>
+<surname>Zimmer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Moretti</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Beaked Whales Respond to Simulated and Actual Navy Sonar</article-title>.” <source>PLoS One</source>
+<volume>6</volume>, no. <issue>3</issue>: <elocation-id>e17009</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0017009</pub-id>.<pub-id pub-id-type="pmid">21423729</pub-id>
+<pub-id pub-id-type="pmcid">PMC3056662</pub-id></mixed-citation></ref><ref id="ece374313-bib-0072"><mixed-citation publication-type="journal" id="ece374313-cit-0072">
+<string-name name-style="western">
+<surname>Víkingsson</surname>, <given-names>G. A.</given-names>
+</string-name>
+<year>1997</year>. “<article-title>Feeding of Fin Whales (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Balaenoptera physalus</italic>
+</styled-content>) Off Iceland—Diurnal and Seasonal Variation and Possible Rates</article-title>.” <source>Journal of Northwest Atlantic Fishery Science</source>
+<volume>22</volume>: <fpage>77</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.2960/J.v22.a7</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0073"><mixed-citation publication-type="journal" id="ece374313-cit-0073">
+<string-name name-style="western">
+<surname>Whitehead</surname>, <given-names>H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Carlson</surname>
+</string-name>. <year>1988</year>. “<article-title>Social Behaviour of Feeding Finback Whales Off Newfoundland: Comparisons With the Sympatric Humpback Whale</article-title>.” <source>Canadian Journal of Zoology</source>
+<volume>66</volume>, no. <issue>1</issue>: <fpage>217</fpage>–<lpage>221</lpage>. <pub-id pub-id-type="doi">10.1139/z88-031</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0074"><mixed-citation publication-type="journal" id="ece374313-cit-0074">
+<string-name name-style="western">
+<surname>Wiley</surname>, <given-names>D. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Zadra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Friedlaender</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Deployment of Biologging Tags on Free Swimming Large Whales Using Uncrewed Aerial Systems</article-title>.” <source>Royal Society Open Science</source>
+<volume>10</volume>, no. <issue>4</issue>: <elocation-id>221376</elocation-id>. <pub-id pub-id-type="doi">10.1098/rsos.221376</pub-id>.<pub-id pub-id-type="pmid">37090967</pub-id>
+<pub-id pub-id-type="pmcid">PMC10113809</pub-id></mixed-citation></ref><ref id="ece374313-bib-0075"><mixed-citation publication-type="journal" id="ece374313-cit-0075">
+<string-name name-style="western">
+<surname>Wisniewska</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Teilmann</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>High Rates of Vessel Noise Disrupt Foraging in Wild Harbour Porpoises (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Phocoena phocoena</italic>
+</styled-content>)</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>285</volume>, no. <issue>1872</issue>: <elocation-id>20172314</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2017.2314</pub-id>.<pub-id pub-id-type="pmcid">PMC5829196</pub-id><pub-id pub-id-type="pmid">29445018</pub-id></mixed-citation></ref><ref id="ece374313-bib-0076"><mixed-citation publication-type="journal" id="ece374313-cit-0076">
+<string-name name-style="western">
+<surname>Yeager</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Estrada</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Holt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Keyser</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Oke</surname>
+</string-name>. <year>2020</year>. “<article-title>Are Habitat Fragmentation Effects Stronger in Marine Systems? A Review and Meta‐Analysis</article-title>.” <source>Current Landscape Ecology Reports</source>
+<volume>5</volume>, no. <issue>3</issue>: <fpage>58</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1007/s40823-020-00053-w</pub-id>.</mixed-citation></ref><ref id="ece374313-bib-0083"><mixed-citation publication-type="journal" id="ece374313-cit-0083">
+<string-name name-style="western">
+<surname>Youngbluth</surname>, <given-names>M. J.</given-names>
+</string-name>
+<year>1976</year>. “<article-title>Vertical Distribution and Diel Migration of Euphausiids in the Central Region of the California Current</article-title>.” <source>Fishery Bulletin</source>
+<volume>74</volume>, no. <issue>4</issue>: <fpage>925</fpage>–<lpage>936</lpage>.</mixed-citation></ref></ref-list></back></article>

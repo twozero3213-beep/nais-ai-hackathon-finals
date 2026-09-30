@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "recorded_at_kst": "2026-09-30T21:59:06+09:00",
+  "finals_started_at_kst": "2026-09-30T17:55:37+09:00",
+  "version_meaning": "담당자별 고정 작업 번호; 기능 릴리스나 의존성 버전과 별개",
+  "contributors": [
+    {
+      "name": "이영",
+      "version": 0
+    },
+    {
+      "name": "이채우",
+      "version": 1
+    },
+    {
+      "name": "임도윤",
+      "version": 2
+    },
+    {
+      "name": "조지현",
+      "version": 3
+    }
+  ],
+  "this_chat": {
+    "name": "이영",
+    "version": 0,
+    "commit_prefix": "[0 이영]"
+  },
+  "timestamp_meaning": {
+    "finals_started_at_kst": "본선 작업 기준 시각",
+    "recorded_at_kst": "이 규칙을 실제 기록한 시각",
+    "source_created_at": "확인 가능한 자료 작성 시각",
+    "executed_at": "실제 실행 시각",
+    "imported_at": "자료를 작업에 실제 반영한 시각"
+  },
+  "upload_not_before_kst": "2026-09-30T17:00:00+09:00",
+  "_change_note": "2026-10-01T00:40:01+09:00 — 담당 0 이영의 웹사이트 통합 업로드. 팀원 번호·원 작성 시각·기록 유지."
+}

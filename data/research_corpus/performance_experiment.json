@@ -1,0 +1,99 @@
+{
+  "adopted": false,
+  "reason": "Four parallel JSON snapshots peak working set1.63GiB; superseded by serialized snapshot/search",
+  "measurement": {
+    "version": "V69 local retrieval",
+    "single": [
+      {
+        "query": "research data",
+        "split": "development",
+        "seconds": 9.627882899949327,
+        "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "count": 10
+      },
+      {
+        "query": "research data",
+        "split": "development",
+        "seconds": 5.541158800013363,
+        "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "count": 10
+      }
+    ],
+    "sequential_seconds": 15.170730900019407,
+    "four_concurrent": [
+      {
+        "query": "research data",
+        "split": "development",
+        "seconds": 10.419199799885973,
+        "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "count": 10
+      },
+      {
+        "query": "climate model",
+        "split": "validation",
+        "seconds": 7.323300000047311,
+        "result_digest": "838fb078cb2ac53cb265364300fb26fa8840802c0943a797a6bd437d2cc952d9",
+        "count": 10
+      },
+      {
+        "query": "statistical inference",
+        "split": "development",
+        "seconds": 12.138373600086197,
+        "result_digest": "d367640e45074f4d82825ac0b1625d1d350648aa1a7f005ca390d63345a7dd20",
+        "count": 10
+      },
+      {
+        "query": "metadata",
+        "split": "validation",
+        "seconds": 12.915766099933535,
+        "result_digest": "42e5e7db86a3b5a39984740eb7b5b556169f9067d268ca0cc7ccbeea97323ba7",
+        "count": 10
+      }
+    ],
+    "four_wall_seconds": 14.64692569989711,
+    "request_source_checks": [
+      {
+        "source_files_hashed": 644,
+        "source_bytes_hashed": 98035492,
+        "reconstruction_cache_hit": false
+      },
+      {
+        "source_files_hashed": 644,
+        "source_bytes_hashed": 98035492,
+        "reconstruction_cache_hit": true
+      },
+      {
+        "source_files_hashed": 644,
+        "source_bytes_hashed": 98035492,
+        "reconstruction_cache_hit": true
+      },
+      {
+        "source_files_hashed": 644,
+        "source_bytes_hashed": 98035492,
+        "reconstruction_cache_hit": true
+      },
+      {
+        "source_files_hashed": 644,
+        "source_bytes_hashed": 98035492,
+        "reconstruction_cache_hit": true
+      },
+      {
+        "source_files_hashed": 644,
+        "source_bytes_hashed": 98035492,
+        "reconstruction_cache_hit": true
+      }
+    ],
+    "same_default_results_as_v68": true,
+    "warm_speedup": 1.6609865069954624,
+    "four_wall_speedup": 2.1553403114660146,
+    "memory_measurement": {
+      "api_success": true,
+      "peak_working_set_bytes": 1748336640,
+      "working_set_bytes": 211587072,
+      "scope": "This V69 process including JSON snapshots and four threads; no matched V68 memory sample"
+    },
+    "corpus_file_bytes": 62034858,
+    "corpus_sha256": "fb8de6c5112709069f42ba2b7e34ed5fc6267d0a2750cc0759334b4cc31e157c",
+    "conditions": "Same interpreter/root/queries and unchanged source XML as baseline; V69 corpus additionally contains optional table candidates. Filesystem cache uncontrolled. Global reconstruction/source-check lock serializes verification; not linear parallel throughput, upload, team-write or authentication measurement."
+  }
+}

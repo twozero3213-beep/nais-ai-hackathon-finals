@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "evidence_class": "DEVELOPER_EVALUATION",
+  "engine": "Python stdlib declarative cohort arithmetic; author R not executed",
+  "asset_sha256": {
+    "data": "e618366fcbea120581bc107a6d4a8580e3c8dfdba001d1739e90908b83ea83b2",
+    "author_code": "f5382570b1c5dca6e4001b06679a9e4bc24f6a191133c6257b230e7fb51c2e9e",
+    "source": "b78f02c1f756951e1d0602fea2ed5de5c85d7bfb77539418ca7c9f1f515618b9"
+  },
+  "manifest_sha256": "93682cd9709bd0517b5ba8d1941253d24853699c05f08696aa0a6ff5edc5abbe",
+  "stages": [
+    {
+      "name": "raw_rows",
+      "input_rows": 383,
+      "excluded_rows": 0,
+      "remaining_rows": 383
+    },
+    {
+      "name": "complete_cases_all_columns",
+      "input_rows": 383,
+      "excluded_rows": 16,
+      "remaining_rows": 367
+    },
+    {
+      "name": "sss_sum_equals_1",
+      "input_rows": 367,
+      "excluded_rows": 38,
+      "remaining_rows": 329
+    },
+    {
+      "name": "duplicate_equals_0",
+      "input_rows": 329,
+      "excluded_rows": 18,
+      "remaining_rows": 311
+    },
+    {
+      "name": "age_18_through_100",
+      "input_rows": 311,
+      "excluded_rows": 0,
+      "remaining_rows": 311
+    },
+    {
+      "name": "attention_ENV_5_equals_2",
+      "input_rows": 311,
+      "excluded_rows": 3,
+      "remaining_rows": 308
+    }
+  ],
+  "final_rows": 308,
+  "reported_value": 308,
+  "arithmetic_difference": 0,
+  "arithmetic_match": true,
+  "source_scope_verified": false,
+  "full_paper_reproduced": false,
+  "human_verified": false,
+  "registration_status": "PENDING",
+  "production_gate_approved": false
+}

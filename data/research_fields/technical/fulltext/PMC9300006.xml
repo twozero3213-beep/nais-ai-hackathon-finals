@@ -1,0 +1,1365 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="cobi13835" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Conserv Biol</journal-id><journal-id journal-id-type="iso-abbrev">Conserv Biol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9882301</journal-id><journal-id journal-id-type="publisher-id">COBI</journal-id><journal-title-group><journal-title>Conservation Biology</journal-title></journal-title-group><issn pub-type="ppub">0888-8892</issn><issn pub-type="epub">1523-1739</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9300006</article-id><article-id pub-id-type="pmcid-ver">PMC9300006.1</article-id><article-id pub-id-type="pmcaid">9300006</article-id><article-id pub-id-type="pmcaiid">9300006</article-id><article-id pub-id-type="pmid">34476839</article-id><article-id pub-id-type="doi">10.1111/cobi.13835</article-id><article-id pub-id-type="publisher-id">COBI13835</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Essay</subject></subj-group><subj-group subj-group-type="heading"><subject>Essays</subject></subj-group></article-categories><title-group><article-title>Closing the knowledge‐action gap in conservation with open science</article-title><alt-title alt-title-type="left-running-head">ROCHE et al.</alt-title></title-group><contrib-group><contrib id="cobi13835-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Roche</surname><given-names initials="DG">Dominique G.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3326-864X</contrib-id><xref rid="cobi13835-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cobi13835-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address></address></contrib><contrib id="cobi13835-cr-0002" contrib-type="author"><name name-style="western"><surname>O'Dea</surname><given-names initials="RE">Rose E.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8177-5075</contrib-id><xref rid="cobi13835-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cobi13835-cr-0003" contrib-type="author"><name name-style="western"><surname>Kerr</surname><given-names initials="KA">Kecia A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9764-3827</contrib-id><xref rid="cobi13835-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cobi13835-cr-0004" contrib-type="author"><name name-style="western"><surname>Rytwinski</surname><given-names initials="T">Trina</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6764-7309</contrib-id><xref rid="cobi13835-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cobi13835-cr-0005" contrib-type="author"><name name-style="western"><surname>Schuster</surname><given-names initials="R">Richard</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3191-7869</contrib-id><xref rid="cobi13835-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="cobi13835-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="cobi13835-cr-0006" contrib-type="author"><name name-style="western"><surname>Nguyen</surname><given-names initials="VM">Vivian M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8666-8137</contrib-id><xref rid="cobi13835-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cobi13835-cr-0007" contrib-type="author"><name name-style="western"><surname>Young</surname><given-names initials="N">Nathan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2927-7025</contrib-id><xref rid="cobi13835-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="cobi13835-cr-0008" contrib-type="author"><name name-style="western"><surname>Bennett</surname><given-names initials="JR">Joseph R.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3901-9513</contrib-id><xref rid="cobi13835-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cobi13835-cr-0009" contrib-type="author"><name name-style="western"><surname>Cooke</surname><given-names initials="SJ">Steven J.</given-names></name><xref rid="cobi13835-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="cobi13835-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Canadian Centre for Evidence‐Based Conservation, Department of Biology and Institute of Environmental and Interdisciplinary Science</named-content>
+<institution>Carleton University</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="cobi13835-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Institut de Biologie</institution>
+<institution>Université de Neuchâtel</institution>
+<city>Neuchâtel</city>
+<country country="CH">Switzerland</country>
+</aff><aff id="cobi13835-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Evolution &amp; Ecology Research Centre and School of Biological and Environmental Sciences</named-content>
+<institution>University of New South Wales</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="cobi13835-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>Canadian Parks and Wilderness Society (CPAWS) ‐ Northern Alberta, Edmonton, Alberta</institution>
+<country country="CA">Canada</country>
+</aff><aff id="cobi13835-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Nature Conservancy of Canada</institution>
+<city>Vancouver</city>
+<named-content content-type="country-part">British Columbia</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="cobi13835-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">School of Sociological and Anthropological Studies, Faculty of Social Sciences</named-content>
+<institution>University of Ottawa</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="cobi13835-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>Carleton University</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Dominique G. Roche, Canadian Centre for Evidence‐Based Conservation, Department of Biology and Institute of Environmental and Interdisciplinary Science, Carleton University, K1S 5B6, Ottawa, ON, Canada.<break/>Email 
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>11</month><year>2021</year></pub-date><pub-date pub-type="ppub"><month>6</month><year>2022</year></pub-date><volume>36</volume><issue seq="70">3</issue><issue-id pub-id-type="pmc-issue-id">412791</issue-id><issue-id pub-id-type="doi">10.1111/cobi.v36.3</issue-id><elocation-id>e13835</elocation-id><history>
+<date date-type="rev-recd"><day>23</day><month>7</month><year>2021</year></date>
+<date date-type="received"><day>04</day><month>8</month><year>2021</year></date>
+<date date-type="accepted"><day>27</day><month>8</month><year>2021</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>20</day><month>07</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>21</day><month>07</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-08-04 23:25:19.510"><day>04</day><month>08</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2021 The Authors. <italic toggle="yes">Conservation Biology</italic> published by Wiley Periodicals LLC on behalf of Society for Conservation Biology.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="COBI-36-0.pdf"><?pdf-name COBI-36-0.pdf?><?pdf-size 773662?><?pdf-md5 acbdcbb506415087dbba70509c5168e7?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:0169/9300006/acbdcbb50641/COBI-36-0.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:COBI-36-0.pdf"/><abstract><title>Abstract</title><p>The knowledge‐action gap in conservation science and practice occurs when research outputs do not result in actions to protect or restore biodiversity. Among the diverse and complex reasons for this gap, three barriers are fundamental: knowledge is often unavailable to practitioners and challenging to interpret or difficult to use or both. Problems of availability, interpretability, and useability are solvable with open science practices. We considered the benefits and challenges of three open science practices for use by conservation scientists and practitioners. First, open access publishing makes the scientific literature available to all. Second, open materials (detailed methods, data, code, and software) increase the transparency and use of research findings. Third, open education resources allow conservation scientists and practitioners to acquire the skills needed to use research outputs. The long‐term adoption of open science practices would help researchers and practitioners achieve conservation goals more quickly and efficiently and reduce inequities in information sharing. However, short‐term costs for individual researchers (insufficient institutional incentives to engage in open science and knowledge mobilization) remain a challenge. We caution against a passive approach to sharing that simply involves making information available. We advocate a proactive stance toward transparency, communication, collaboration, and capacity building that involves seeking out and engaging with potential users to maximize the environmental and societal impact of conservation science.</p></abstract><trans-abstract xml:lang="es"><p>Cierre de la Brecha entre el Conocimiento y la Acción en la Conservación con Ciencia Abierta 21–311</p><sec id="cobi13835-sec-0020"><title>Resumen</title><p>La brecha entre el conocimiento y la acción en las ciencias de la conservación y en su práctica ocurre cuando los resultados de las investigaciones no derivan en acciones para proteger o restaurar la biodiversidad. Entre las razones complejas y diversas de esta brecha, existen tres barreras que son fundamentales: con frecuencia el conocimiento no está disponible para los practicantes, es difícil de interpretar o difícil de usar, o ambas. Los problemas con la disponibilidad, interpretabilidad y utilidad son solucionables mediante las prácticas de ciencia abierta. Consideramos los beneficios y los obstáculos de tres prácticas de ciencia abierta para su uso por parte de los científicos y practicantes de la conservación. Primero, las publicaciones de acceso abierto hacen que la literatura científica esté disponible para todos. Segundo, los materiales abiertos (métodos detallados, datos, códigos y software) incrementan la transparencia y el uso de los hallazgos de las investigaciones. Tercero, los recursos educativos abiertos permiten que los científicos y practicantes de la conservación adquieran las habilidades necesarias para utilizar los productos de las investigaciones. La adopción a largo plazo de las prácticas de ciencia abierta ayudaría a los investigadores y a los practicantes a lograr los objetivos de conservación mucho más rápido y de manera eficiente y a reducir las desigualdades que existen en la divulgación de información. Sin embargo, los costos a corto plazo para los investigadores individuales (incentivos institucionales insuficientes para participar en la ciencia abierta y en la movilización del conocimiento) todavía son un reto. Advertimos sobre las estrategias pasivas de divulgación que simplemente hacen que la información esté disponible. Abogamos por una postura proactiva hacia la transparencia, la comunicación, la colaboración y la construcción de las capacidades que incluyen la búsqueda de y la interacción con los usuarios potenciales para maximizar el impacto ambiental y social de las ciencias de la conservación.</p></sec></trans-abstract><trans-abstract xml:lang="zh"><title>用开放科学填补保护中的知识‐行动缺口</title><p>
+<bold>【摘要】</bold> 在保护科学和实践中, 当研究成果不能转化为保护或恢复生物多样性的行动时, 就会出现知识‐行动缺口。在造成这种缺口的各种复杂原因中, 有三个基本的障碍:保护实践者往往无法获得知识, 或难以理解, 或难以应用, 又或者两者都有。然而, 可获得性、可解释性和可用性的问题可以通过开放科学实践来解决。我们考虑了三种开放科学实践对保护科学家和实践者的好处和挑战。第一, 开放获取出版使所有人都能获得科学文献。第二, 开放材料(详细的方法、数据、代码和软件)增加了研究结果的透明度和可用性。第三, 开放的教育资源使保护科学家和实践者能够获得使用研究成果所需的技能。长期采用开放科学实践将帮助研究者和实践者更快、更有效地实现保护目标, 并减少信息共享中的不公平现象。然而, 研究者个人的短期成本(参与开放科学和知识动员的制度激励不足)仍然是一项挑战。我们告诫大家不要采取仅提供信息的被动分享方式, 而应对透明度、沟通、合作和能力建设采取积极主动的态度, 包括寻找潜在使用者并与之接触, 从而充分发挥保护科学的环境和社会影响力。<bold>【翻译:胡怡思;审校:聂永刚】</bold>
+</p></trans-abstract><kwd-group kwd-group-type="author-generated"><kwd id="cobi13835-kwd-0001">critical appraisal</kwd><kwd id="cobi13835-kwd-0002">evidence‐based decision‐making</kwd><kwd id="cobi13835-kwd-0003">knowledge mobilization</kwd><kwd id="cobi13835-kwd-0004">open access</kwd><kwd id="cobi13835-kwd-0005">open code</kwd><kwd id="cobi13835-kwd-0006">open data</kwd><kwd id="cobi13835-kwd-0007">open education resources</kwd><kwd id="cobi13835-kwd-0008">transparency</kwd><kwd id="cobi13835-kwd-0009">acceso abierto</kwd><kwd id="cobi13835-kwd-0010">código abierto</kwd><kwd id="cobi13835-kwd-0011">datos abiertos</kwd><kwd id="cobi13835-kwd-0012">movilización del conocimiento</kwd><kwd id="cobi13835-kwd-0013">recursos educativos abiertos</kwd><kwd id="cobi13835-kwd-0014">toma de decisiones basada en evidencias</kwd><kwd id="cobi13835-kwd-0015">transparencia</kwd><kwd id="cobi13835-kwd-0016">valuación crítica</kwd><kwd id="cobi13835-kwd-0017">严格评价</kwd><kwd id="cobi13835-kwd-0018">循证决策</kwd><kwd id="cobi13835-kwd-0019">知识动员</kwd><kwd id="cobi13835-kwd-0020">开放存取</kwd><kwd id="cobi13835-kwd-0021">开放代码</kwd><kwd id="cobi13835-kwd-0022">开放数据</kwd><kwd id="cobi13835-kwd-0023">开放教育资源</kwd><kwd id="cobi13835-kwd-0024">透明度</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Natural Sciences and Engineering Research Council of Canada
+</institution><institution-id institution-id-type="doi">10.13039/501100000038</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>H2020 Marie Skłodowska‐Curie Actions
+</institution><institution-id institution-id-type="doi">10.13039/100010665</institution-id></institution-wrap></funding-source><award-id>838237‐OPTIMISE</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Environment and Climate Change Canada
+</institution><institution-id institution-id-type="doi">10.13039/501100008638</institution-id></institution-wrap></funding-source><award-id>GCXE19S058</award-id></award-group></funding-group><counts><fig-count count="1"/><table-count count="2"/><page-count count="11"/><word-count count="8642"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.1.7 mode:remove_FC converted:20.07.2022</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="cobi13835-cit-0094">
+<string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Dea</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kerr</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rytwinski</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schuster</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>, <given-names>V. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2022</year>). <article-title>Closing the knowledge‐action gap in conservation with open science</article-title>. <source>Conservation Biology</source>, <volume>36</volume>, <elocation-id>e13835</elocation-id>. <pub-id pub-id-type="doi">10.1111/cobi.13835</pub-id>
+<pub-id pub-id-type="pmid">34476839</pub-id><pub-id pub-id-type="pmcid">PMC9300006</pub-id></mixed-citation>
+</p><fn-group><fn id="cobi13835-note-0001"><p>
+<bold>Article Impact Statement</bold>: Open science promotes evidence‐based policy and practice by making conservation science broadly available, interpretable, and usable.</p></fn></fn-group></notes></front><body><sec id="cobi13835-sec-0030"><title>INTRODUCTION</title><p>Conservation science focuses on understanding environmental problems to inform management and policy actions that protect or restore biodiversity (Soulé, <xref rid="cobi13835-bib-0076" ref-type="bibr">1985</xref>). As such, conservation science falls short when research results are not integrated into policy or practice––the so‐called “knowledge‐action gap” (e.g., Knight et al., <xref rid="cobi13835-bib-0041" ref-type="bibr">2008</xref>; Cook et al., <xref rid="cobi13835-bib-0015" ref-type="bibr">2013</xref>; Fabian et al., <xref rid="cobi13835-bib-0026" ref-type="bibr">2019</xref>). Although the largest barrier to putting conservation science into practice remains a lack of political will to implement evidence‐based policies (Young et al., <xref rid="cobi13835-bib-0092" ref-type="bibr">2016</xref>; Bertuol‐Garcia et al., <xref rid="cobi13835-bib-0009" ref-type="bibr">2018</xref>), political and social inertia are not the only obstacles. The inability of policy makers and practitioners to access, interpret, and use knowledge generated by conservation scientists is a key contributor to the knowledge‐action gap (Fuller et al., <xref rid="cobi13835-bib-0027" ref-type="bibr">2014</xref>; Alston, <xref rid="cobi13835-bib-0003" ref-type="bibr">2019</xref>; Walsh et al., <xref rid="cobi13835-bib-0085" ref-type="bibr">2019</xref>; Buxton et al., <xref rid="cobi13835-bib-0012" ref-type="bibr">2021</xref>). It increases the likelihood of practitioners and policy makers basing their decisions on personal experience, anecdotal evidence, or political beliefs rather than scientific evidence (Cook et al., <xref rid="cobi13835-bib-0014" ref-type="bibr">2010</xref>; Fabian et al., <xref rid="cobi13835-bib-0026" ref-type="bibr">2019</xref>). One means for improving how conservation knowledge is accessed, interpreted, and put into practice is to engage in open science (Figure <xref rid="cobi13835-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="cobi13835-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>How open science practices can help bridge the knowledge‐action gap in conservation. Artwork by Elise Gagnon, Canadian Parks and Wilderness Society (CPAWS) ‐ Northern Alberta</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="COBI-36-0-g001.jpg"><?image-name COBI-36-0-g001.jpg?><?image-size 43821?><?image-md5 3253553c1c84263579a2f383ba9c3d37?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 493?><?image-original-width 840?><?image-scaled-height 329?><?image-scaled-width 560?><?image-cloudpmc-urn urn:cdn:blobs/0169/9300006/3253553c1c84/COBI-36-0-g001.jpg?><?thumb-name COBI-36-0-g001.gif?><?thumb-size 4264?><?thumb-md5 8761b3a225f5ba2e5183ba6d212e3210?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 136?><?thumb-cloudpmc-urn urn:cdn:blobs/0169/9300006/8761b3a225f5/COBI-36-0-g001.gif?></graphic></fig><p>Open science promotes transparency and reproducibility and aims to strengthen the credibility and usability of research results (McKiernan, <xref rid="cobi13835-bib-0046" ref-type="bibr">2017</xref>; Munafò et al., <xref rid="cobi13835-bib-0050" ref-type="bibr">2017</xref>) and maximize the efficiency and impact of scientific research (and teaching and capacity building) by mobilizing research products beyond the traditional, often opaque, scientific article (O'Dea et al., <xref rid="cobi13835-bib-0055" ref-type="bibr">2021</xref>). Open science practices are spreading across the natural and social sciences through initiatives that increase public access to the scientific literature, encourage comprehensive disclosure of methods, data, and analyses, and promote free access to educational resources. Enhancing transparency should make knowledge more consumable and trusted by a wider variety of audiences and therefore, more useable, narrowing the knowledge‐action gap.</p><p>Closing the knowledge‐action gap is insufficient on its own to solve complex policy problems that require political action and negotiation (Sarewitz, <xref rid="cobi13835-bib-0072" ref-type="bibr">2015</xref>). Being able to access and interpret scientific research findings is important for responsible decision‐making, but must be paired with strategies for engaging stakeholders and rights holders who may hold different forms of knowledge (including local, experiential, and Indigenous knowledge) and should be considered in decision‐making (Reid et al., <xref rid="cobi13835-bib-0066" ref-type="bibr">2021</xref>). In this regard, open science is grounded in principles of inclusivity and can foster multidirectional approaches to research (i.e., coproduction).</p><p>Support for open science is growing among academic institutions, publishers, funding agencies, and governments (e.g., Moher et al., <xref rid="cobi13835-bib-0047" ref-type="bibr">2018</xref>; Roche et al., <xref rid="cobi13835-bib-0070" ref-type="bibr">2020</xref>; Jarrad et al., <xref rid="cobi13835-bib-0038" ref-type="bibr">2021</xref>). However, motivating researchers to engage actively and meaningfully in open science remains a challenge because of insufficient institutional incentives for researchers to change their behavior (O'Dea et al., <xref rid="cobi13835-bib-0055" ref-type="bibr">2021</xref>). Some academics are reluctant to publicly share their data for fear of receiving insufficient credit or data being misused (Tenopir et al., <xref rid="cobi13835-bib-0082" ref-type="bibr">2011</xref>; Roche et al., <xref rid="cobi13835-bib-0071" ref-type="bibr">2014</xref>). Fortunately, surveys indicate that academics are progressively embracing initiatives to improve transparency (Tenopir et al., <xref rid="cobi13835-bib-0083" ref-type="bibr">2015</xref>; Soeharjono &amp; Roche, <xref rid="cobi13835-bib-0075" ref-type="bibr">2021</xref>). Adopting open science principles is critical for the conservation science community to increase the impact of scientific research on conservation policy and practice and to increase return on conservation investments. We considered three key aspects of open science that will help narrow the knowledge‐action gap––open access publishing, open materials (detailed methods, data, code, and software), and open educational resources––and challenges and opportunities to bolster their uptake.</p></sec><sec id="cobi13835-sec-0040"><title>OPEN ACCESS PUBLISHING</title><p>For conservation knowledge to result in action, it must be available to practitioners and policy makers (Gossa et al., <xref rid="cobi13835-bib-0031" ref-type="bibr">2015</xref>). Currently, institutions pay hefty fees for their employees to access traditional subscription‐only journals. Under this pay‐to‐read model, authors can often publish free of charge, but fiscally challenged institutions and the general public are locked out of academic research unless they pay high fees to access individual articles. Such barriers create disincentives for nonacademic groups and institutions to use new scientific knowledge. Furthermore, by allowing free access online only to the abstract of published articles, paywalls may lead to misinterpretations or misrepresentations of scientific studies.</p><p>Demand to democratize scientific knowledge is exemplified by the surge in the use of Sci‐Hub, a shadow library from which tens of millions of scientific articles are illegally downloaded every year (Himmelstein et al., <xref rid="cobi13835-bib-0037" ref-type="bibr">2018</xref>). Sci‐Hub is a workaround to the paywall problem, but it does not solve access issues for lawful institutions and their employees. For example, public servants charged with monitoring and protecting biodiversity often cannot access the conservation literature that was funded by government grants (Larios et al., <xref rid="cobi13835-bib-0202" ref-type="bibr">2020</xref>). Fortunately, the scientific publishing industry is in the midst of a transition to open access publishing, in which reading scientific journal articles and books is free for all (Fuller et al., <xref rid="cobi13835-bib-0027" ref-type="bibr">2014</xref>; Alston, <xref rid="cobi13835-bib-0003" ref-type="bibr">2019</xref>).</p><p>Positive outcomes of open access publishing directly align with the fundamental objective of conservation science: to translate research into effective, evidence‐based environmental management and policy (Bolick et al., <xref rid="cobi13835-bib-0011" ref-type="bibr">2017</xref>). When access barriers are broken down, research findings can be taken up by a diversity of stakeholders more readily, including managers, policy makers, citizen scientists, grassroots conservation coalitions, and researchers without institutional subscriptions to scientific journals (Tennant et al., <xref rid="cobi13835-bib-0081" ref-type="bibr">2016</xref>; Piwowar et al., <xref rid="cobi13835-bib-0063" ref-type="bibr">2018</xref>). For this reason, many conservation journals are now fully open access or offer open access options (Alston, <xref rid="cobi13835-bib-0003" ref-type="bibr">2019</xref>). However, making knowledge available does not necessarily make it interpretable (see “Open Materials” and “Open Educational Resources” below).</p><p>Because open access publishing facilitates communication among scientists and with the public, a growing number of governments and philanthropic organizations that fund conservation science have mandatory open access policies. For example, the U.S. National Science Foundation (nsf.gov) and the Gordon and Betty Moore Foundation (moore.org) now require that all publications from funded projects be openly accessible. These initiatives make a lot of sense for national funding bodies because sustainable open access models prevent the public from paying for the same research twice: once when funding the research and a second time to access the publication (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="cobi13835-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Open‐access (OA) publishing options available to authors</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><tbody><tr><td align="left" rowspan="1" colspan="1">
+<p>APC‐based open access</p>
+<p>Pay to publish, free to read, typesetting done by the publisher or journal</p>
+<p>Under this model, open‐access journals typically shift the cost of publication from readers to authors via article processing charges or article publication costs (APCs), creating “authorship barriers out of readership barriers” (Bolick et al., <xref rid="cobi13835-bib-0011" ref-type="bibr">2017</xref>). Publishing costs affect where many authors choose to publish their work because APCs can be prohibitively expensive (often ranging from US$1000 to $5000). Under this publishing model, authors pay instead of the readers so that access to scientific articles is unrestricted. Some publishers offer APC discounts or waivers––for example, to authors from lower income countries––yet the pay‐to‐publish open access model is fundamentally inequitable and unsustainable because of funding disparities among research groups, institutions, and regions of the world (Peterson et al., <xref rid="cobi13835-bib-0062" ref-type="bibr">2019</xref>).</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<p>Green open access</p>
+<p>Free to publish, free to read, no typesetting</p>
+<p>Green open access is achieved by self‐archiving a preprint (e.g., on osf.io and ecoevorxiv.com), making a manuscript free to read even if it is ultimately published in a subscription‐based journal. It is also self‐archiving of the peer‐reviewed, revised, accepted version of a manuscript before editing and typesetting in a public repository (i.e., a postprint). The SHERPA RoMEO database provides information on which journals authorize self‐archiving and under what circumstances (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://sherpa.ac.uk/romeo" ext-link-type="uri">http://sherpa.ac.uk/romeo</ext-link>). In opting for green OA, conservation scientists ensure that their results can reach end‐users at no direct cost to their lab or research program.</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<p>Diamond or platinum open access</p>
+<p>Free to publish, free to read, typesetting done by the publisher or journal</p>
+<p>Diamond (a.k.a. platinum) open access journals rely on funding sources, such as funder or society subsidies, consortium funding from libraries, lifetime author subscriptions (e.g., PeerJ), or some creative combination of these options, to cover publishing costs (Bolick et al. <xref rid="cobi13835-bib-0011" ref-type="bibr">2017</xref>; Willinsky &amp; Rusk, <xref rid="cobi13835-bib-0090" ref-type="bibr">2019</xref>). Diamond OA embraces a social mission that is compatible with not‐for‐profit publishers. A notable example of a successful diamond open access initiative is Redalyc (https://www.redalyc.org), which has existed since 2003 and supports &gt;1400 journals in Latin America. In total, an estimated 29,000 diamond open access journals exist (Science Europe, <xref rid="cobi13835-bib-0073" ref-type="bibr">2021</xref>).</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<p>Overlay journal</p>
+<p>Free to publish or low‐cost pay to publish, free to read, typesetting done by authors or journal</p>
+<p>Overlay journals rely on free‐to‐use preprint servers (e.g., Arχiv and bioRχiv). They have a website, an editorial board, and rely on volunteer reviewers. Authors upload their manuscript to a preprint server and submit the link to an overlay journal of their choice (typically discipline specific). The journal sends the preprint for conventional peer review. When a paper is accepted, the overlay journal website publishes a link to the final version of the paper on the preprint server at no cost to authors or readers. To keep production costs down, overlay journals ask authors to do their own typesetting or use a free or low‐cost journal management platform to do so. For example, <italic toggle="yes">Discrete Analysis</italic>, an overlay journal in mathematics, uses Scholastica for typesetting (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://scholasticahq.com" ext-link-type="uri">https://scholasticahq.com</ext-link>). Production costs are US$10 per article and are covered by a small grant from the University of Cambridge (Ball, <xref rid="cobi13835-bib-0006" ref-type="bibr">2015</xref>). For a list of existing overlay journals, see Mounce (<xref rid="cobi13835-bib-0049" ref-type="bibr">2021</xref>).</p>
+</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Beyond societal benefits, open access benefits authors by increasing the reach and impact of their work: open access studies tend to be cited more often in the scientific literature, communicated more frequently in traditional and social media, and referenced more often in policy documents (e.g., Eysenbach, <xref rid="cobi13835-bib-0025" ref-type="bibr">2006</xref>; Gargouri et al., <xref rid="cobi13835-bib-0028" ref-type="bibr">2010</xref>; Tai &amp; Robinson, <xref rid="cobi13835-bib-0080" ref-type="bibr">2018</xref>). Despite these advantages and considerable growth in open access publishing (Piwowar et al., <xref rid="cobi13835-bib-0063" ref-type="bibr">2018</xref>), broader adoption is hindered by perceptions of lower status and the financial cost to authors.</p><p>The belief among authors and academic institutions that open access journals are of lower status than their subscription‐only counterparts stymies the adoption of open access. To cover their publication costs––and in some cases generate profits––open access journals typically charge authors an article processing charge (APC) (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>). Perceptions that these pay‐to‐publish journals have lower standards have been exacerbated by innovations, such as rapid review turnaround times and online‐only publication (Ware &amp; Mabe, <xref rid="cobi13835-bib-0086" ref-type="bibr">2015</xref>), and predatory open access journals (outlets that publish articles for a fee with virtually no reviewer or editorial oversight) (Grudniewicz et al., <xref rid="cobi13835-bib-0032" ref-type="bibr">2019</xref>; Siler, <xref rid="cobi13835-bib-0074" ref-type="bibr">2020</xref>). Although predatory journals represent a small fraction of regularly cited open access outlets (Olijhoek &amp; Tennant, <xref rid="cobi13835-bib-0056" ref-type="bibr">2018</xref>) and tools exist to identify trustworthy open access journals (DOAJ, <xref rid="cobi13835-bib-0023" ref-type="bibr">2019</xref>; Grudniewicz et al., <xref rid="cobi13835-bib-0032" ref-type="bibr">2019</xref>), predatory journals cast a shadow over open access publishing. For example, in the United States and Canada, <italic toggle="yes">open access</italic> was mentioned in only 5% of review, promotion, and tenure documents from across 129 universities in 2017, and most of these mentions discouraged authors from publishing in such outlets (Alperin et al., <xref rid="cobi13835-bib-0002" ref-type="bibr">2019</xref>). Still, perceptions of open access journals continue to improve as publishing features introduced by online‐only journals become normalized and as established publishers offer high‐status open access journals (e.g., <italic toggle="yes">Nature Communications</italic>, <italic toggle="yes">Science Advances</italic>, and <italic toggle="yes">PLOS Biology</italic>).</p><p>Once open access journals overcome negative perceptions, cost is still a problem (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>). An alternative to APCs is the green OA option of self‐archiving a pre‐ or postprint in a public repository (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>). Other models are also emerging that aim to radically change open access publishing and make research free to read and free to publish (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>). With the increasing number of open access journals and emergence of new publication styles, the goal of making research available for all is within reach. The next step in closing conservation's knowledge‐action gap is to make published research interpretable.</p></sec><sec id="cobi13835-sec-0050"><title>OPEN MATERIALS</title><p>To close the knowledge‐action gap, conservation science should be reported in sufficient detail for scientists and practitioners to assess the quality of the research and its relevance to their goals (Roche et al., <xref rid="cobi13835-bib-0069" ref-type="bibr">2019</xref>; Bocking, <xref rid="cobi13835-bib-0010" ref-type="bibr">2020</xref>). Evaluating research for its reliability and relevance (i.e., critical appraisal) helps one determine whether a study has internal validity (e.g., representative sampling, appropriate methods of measurement, and robust statistical analyses) (Josefsson et al., <xref rid="cobi13835-bib-0039" ref-type="bibr">2020</xref>). Assessments of study relevance (i.e., external validity) require descriptions of methods that are sufficient for one to determine whether study results are likely generalizable and pertinent to a particular question (Cooke et al., <xref rid="cobi13835-bib-0016" ref-type="bibr">2017a</xref>). For example, one should be able to determine how similar the population or environmental conditions are to those in the system of interest. Critical appraisal is an essential component of evidence‐based decision‐making, but it is technically and practically challenging, and methods are still being refined (see Collaboration for Environmental Evidence [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.environmentalevidence.org/cee-critical-appraisal-tool" ext-link-type="uri">www.environmentalevidence.org/cee‐critical‐appraisal‐tool</ext-link>]). Incomplete and opaque reporting is a fundamental barrier to critical appraisal (Josefsson et al., <xref rid="cobi13835-bib-0039" ref-type="bibr">2020</xref>) that contributes to the knowledge‐action gap.</p><p>Critical appraisal relies on researchers providing open detailed methods, data, and code, that is, the materials necessary to reproduce and/or replicate a study. Open methods means the methods are comprehensively and transparently reported, such that readers know what was done and can replicate or extend the methods (Munafò et al., <xref rid="cobi13835-bib-0050" ref-type="bibr">2017</xref>). Open data allow readers to verify whether conclusions are backed by the data, support long‐term monitoring and comparative studies, and facilitate evidence synthesis (Costello &amp; Wieczorek, <xref rid="cobi13835-bib-0019" ref-type="bibr">2014</xref>; Haddaway, <xref rid="cobi13835-bib-0033" ref-type="bibr">2015</xref>; Culina et al., <xref rid="cobi13835-bib-0021" ref-type="bibr">2018b</xref>). Open data also allow researchers to consider new questions, often at a broader scale, to build knowledge and understanding (Tenopir et al., <xref rid="cobi13835-bib-0082" ref-type="bibr">2011</xref>; Poisot et al., <xref rid="cobi13835-bib-0065" ref-type="bibr">2013</xref>) (Appendix <xref rid="cobi13835-supitem-0001" ref-type="supplementary-material">S1</xref>). Ideally, open data are provided in an unprocessed and user‐friendly format alongside informative metadata (complete descriptions, including the meaning of variable names and units) and contain all examined variables because potential users may be interested in data that were not the primary focus of a study (White et al., <xref rid="cobi13835-bib-0087" ref-type="bibr">2013</xref>; Costello &amp; Wieczorek, <xref rid="cobi13835-bib-0019" ref-type="bibr">2014</xref>). Open code allows readers to check whether the results reported can be reproduced with the software used by the authors. Open code includes the code or script used to process raw data, conduct statistical analyses, and execute simulation or computational‐based models (Barnes, <xref rid="cobi13835-bib-0007" ref-type="bibr">2010</xref>; Stodden et al., <xref rid="cobi13835-bib-0078" ref-type="bibr">2016</xref>; Culina et al., <xref rid="cobi13835-bib-0022" ref-type="bibr">2020</xref>).</p><p>Open materials also help generate conservation knowledge more quickly, efficiently, and equitably (Buxton et al., <xref rid="cobi13835-bib-0012" ref-type="bibr">2021</xref>). Openly sharing information allows conservation scientists and practitioners to build on each other's work, learn about new tools and techniques more quickly, and avoid repeating others’ mistakes (Molloy, <xref rid="cobi13835-bib-0048" ref-type="bibr">2011</xref>; Lowndes et al., <xref rid="cobi13835-bib-0045" ref-type="bibr">2017</xref>). Additionally, open materials help improve citizen science initiatives, which contribute invaluable data to conservation science (e.g., Sullivan et al., <xref rid="cobi13835-bib-0079" ref-type="bibr">2017</xref>; Robinson et al., <xref rid="cobi13835-bib-0068" ref-type="bibr">2020</xref>). Open data also ensure maximum benefits from the costs of data collection (Costello et al., <xref rid="cobi13835-bib-0018" ref-type="bibr">2013</xref>; Hampton et al., <xref rid="cobi13835-bib-0035" ref-type="bibr">2013</xref>; Turner et al., <xref rid="cobi13835-bib-0084" ref-type="bibr">2015</xref>). For example, open data make it easier to find information on a target species or ecosystem (Culina et al., <xref rid="cobi13835-bib-0020" ref-type="bibr">2018a</xref>); they facilitate evidence synthesis (especially meta‐analysis), particularly for species that are less‐well studied (Culina et al., <xref rid="cobi13835-bib-0021" ref-type="bibr">2018b</xref>); and they allow better‐designed and hence more informative studies (e.g., by facilitating power analyses to avoid errors of statistical significance and effect sign or magnitude) (Gelman &amp; Carlin, <xref rid="cobi13835-bib-0029" ref-type="bibr">2014</xref>) (Appendix <xref rid="cobi13835-supitem-0001" ref-type="supplementary-material">S1</xref>). Overall, open materials help convert conservation knowledge into action by reducing inequalities among research groups and nations and preventing knowledge from being lost in institutional ivory towers (Stodden, <xref rid="cobi13835-bib-0077" ref-type="bibr">2010</xref>; Carillo &amp; Papagni, <xref rid="cobi13835-bib-0013" ref-type="bibr">2014</xref>; Rey, <xref rid="cobi13835-bib-0067" ref-type="bibr">2014</xref>). In addition to open materials, other open resources focus on addressing the challenge of synthesizing complex information to inform environmental decision‐making (Appendix <xref rid="cobi13835-supitem-0001" ref-type="supplementary-material">S2</xref>).</p><p>Open materials is a seemingly simple concept that is nonetheless challenging for researchers to implement (Gewin, <xref rid="cobi13835-bib-0030" ref-type="bibr">2016</xref>; Perkel, <xref rid="cobi13835-bib-0061" ref-type="bibr">2018</xref>) and difficult for practitioners to engage with. Although researchers may try their best to provide open methods, data, and code, their records may not provide adequate details (Haddaway &amp; Verhoeven, <xref rid="cobi13835-bib-0034" ref-type="bibr">2015</xref>), files might not be stored in a location or format that will be usable in the long‐term (Poisot et al., <xref rid="cobi13835-bib-0064" ref-type="bibr">2019</xref>), and analysis scripts may fail to run after software updates (Perkel, <xref rid="cobi13835-bib-0060" ref-type="bibr">2019</xref>). Ensuring long‐term benefits of open data and code requires that researchers be taught how to adhere to FAIR principles: data and code are findable (readily found with a keyword search), accessible (accessible by the public), interoperable (data can be imported and understood; code can be run on another computer with nonproprietary software), and usable (information can be understood and results reproduced) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.go-fair.org" ext-link-type="uri">www.go‐fair.org</ext-link>; Wilkinson et al., <xref rid="cobi13835-bib-0089" ref-type="bibr">2016</xref>). For long‐term benefits, funders and end‐users of conservation science should require funded projects to produce FAIR outputs.</p><p>The process of preparing and publicly sharing materials typically occurs only after a study is completed, but it is easier to produce these materials if the entire research project is conducted transparently from the onset. Alston and Rick (<xref rid="cobi13835-bib-0004" ref-type="bibr">2020</xref>), Buxton et al. (<xref rid="cobi13835-bib-0012" ref-type="bibr">2021</xref>), and Kathawalla et al. (<xref rid="cobi13835-bib-0040" ref-type="bibr">2021</xref>) provide practical guidance on how to engage in these practices. Preregistrations and registered reports encourage “process transparency” (rather than post hoc transparency) because they provide records of research plans (Parker et al., <xref rid="cobi13835-bib-0058" ref-type="bibr">2019</xref>). In a registered report, the plan is submitted to a journal for peer review and can be provisionally accepted prior to knowing the results (Nosek &amp; Lakens, <xref rid="cobi13835-bib-0054" ref-type="bibr">2014</xref>; Parker et al., <xref rid="cobi13835-bib-0058" ref-type="bibr">2019</xref>). For conservation practitioners, process transparency provides the opportunity to suggest changes to a plan that could improve the study's value for conservation (i.e., a multidirectional approach to research) and to request styles of research output tailored to their needs (e.g., open software tools), in addition to interpretable and useable scientific articles (Stodden, <xref rid="cobi13835-bib-0077" ref-type="bibr">2010</xref>).</p><p>Beyond open materials, conservation scientists can actively engage practitioners with open software (Appendix <xref rid="cobi13835-supitem-0001" ref-type="supplementary-material">S3</xref>) and communication tools. The time and training required to work with open data and code can be prohibitive, but website and desktop applications (e.g., R Shiny and Code Ocean) allow practitioners to reap many benefits from this shared information (Whitehead &amp; Booker, <xref rid="cobi13835-bib-0088" ref-type="bibr">2019</xref>). Because open software tools are more engaging and user friendly than static files, they can facilitate communication between conservation researchers, practitioners, stakeholders, and advocacy groups, thereby helping to close the knowledge‐action gap. For example, in Canada, the Pacific Salmon Foundation harvests data from various sources to assess the status of unique salmon populations and risks to their habitat from human and environmental threats. The Foundation's Pacific Salmon Explorer tool (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://salmonexplorer.ca" ext-link-type="uri">http://salmonexplorer.ca</ext-link>), which allows visualization of these data, has played a key role in shaping Canada's Department of Fisheries and Oceans’ Wild Salmon Policy Implementation Plan (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.pac.dfo-mpo.gc.ca/consultation/wsp-pss/index-eng.html" ext-link-type="uri">www.pac.dfo‐mpo.gc.ca/consultation/wsp‐pss/index‐eng.html</ext-link>). Infographics, other engaging and educational visuals, and research summaries written for the general public are also outputs that researchers can use to engage with a wider audience. Beyond the traditional academic paper, conservation research could reach a much wider audience if scientists were incentivized to produce practical outputs and share them with the general public and practitioners. These outputs can receive permanent identifiers (e.g., a DOI) that allow them to be cited and the authors credited (Nosek et al., <xref rid="cobi13835-bib-0053" ref-type="bibr">2015</xref> [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cos.io/initiatives/top-guidelines" ext-link-type="uri">https://www.cos.io/initiatives/top‐guidelines</ext-link>]).</p><p>Aside from the practical challenges of producing open and useable materials in conservation science, there are issues of ethics, confidentiality, and ownership (e.g., Nguyen et al., <xref rid="cobi13835-bib-0052" ref-type="bibr">2017</xref>). Ethically, some information needs to be withheld if it could be exploited for nefarious purposes, such as the illegal wildlife trade (Cooke et al., <xref rid="cobi13835-bib-0017" ref-type="bibr">2017b</xref>). Confidentiality issues arise when conservation science intersects with human communities and the identity of human subjects needs to be anonymized (Pérignon et al., <xref rid="cobi13835-bib-0059" ref-type="bibr">2019</xref>). In the case of Indigenous knowledges, at a minimum researchers must comply with the OCAP (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fnigc.ca" ext-link-type="uri">https://fnigc.ca</ext-link>) and CARE (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gida-global.org/care" ext-link-type="uri">https://www.gida‐global.org/care</ext-link>) principles. Every Indigenous community and government is different, so researchers must consult with communities to determine how Indigenous knowledge or data collected from their territories are archived and shared (Wong et al., <xref rid="cobi13835-bib-0091" ref-type="bibr">2020</xref>). Moreover, conflicts over data sharing could arise when conservation scientists collaborate with private entities. For these reasons and others, it may not always be possible or beneficial for all methods or data from conservation research to be open. In these cases, access control or partially open materials is the next best option (Lowe et al., <xref rid="cobi13835-bib-0044" ref-type="bibr">2017</xref>; Lennox et al., <xref rid="cobi13835-bib-0043" ref-type="bibr">2020</xref>).</p></sec><sec id="cobi13835-sec-0060"><title>OPEN EDUCATION RESOURCES</title><p>Opening access to conservation research outputs, whether scientific articles or research materials, has limited benefits for protecting biodiversity if practitioners are unable to use these resources or the results are not relevant. Adequately interpreting and using research outputs requires diverse skill sets, including familiarity with experimental design, data acquisition methods, and literacy in statistical analysis, computer programing, software use, and science communication. Much like scientists who receive little training in knowledge mobilization and stakeholder engagement, conservation practitioners may lack the skills to implement the findings and use the tools produced through conservation research. Fortunately, information technology provides conservation professionals (scientists, practitioners, and policy makers) the opportunity to acquire relevant skills freely and flexibly through open education resources (OERs).</p><p>The term <italic toggle="yes">OER</italic> refers to digital materials released under an open license, which allows them to be freely accessed, retained, remixed, revised, reused, and redistributed (the five Rs) for teaching, learning, and research (UNESCO, <xref rid="cobi13835-bib-0201" ref-type="bibr">2019</xref>). Examples include presentation slides, textbooks, audio and video lectures, course syllabi, protocols, data sets, and scripts on a wide range of topics, such as data, computer, and environmental science. For instance, conservation professionals wanting to learn about artificial intelligence (AI) can access open textbooks and online classes offered on several OER platforms (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>). Open education resources can help developers of conservation tools train end users and save time through reuse or remixing of existing materials.</p><p>Technology is often celebrated for bringing new methods of measurement and data analysis to conservation science and practice (Berger‐Tal &amp; Lahoz‐Monfort, <xref rid="cobi13835-bib-0008" ref-type="bibr">2018</xref>). Common examples are biologging, image recognition (computer vision and AI), remote sensing, aerial monitoring, and platforms enabling community science (e.g., iNaturalist and eBird). However, conservation professionals often overlook the potential for new technologies to democratize education and training that would allow broader and more efficient implementation of conservation tools and solutions.</p><p>Few OERs exist that specifically focus on conservation (but see Downey et al., <xref rid="cobi13835-bib-0024" ref-type="bibr">2021</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ncep.amnh.org" ext-link-type="uri">https://ncep.amnh.org</ext-link>), yet existing OERs can help conservation practitioners interpret and implement research outputs in conservation science (e.g., OERs on computer science, data science, economics, engineering, and communication). Finding these resources through centralized databases and search engines is straightforward (Table <xref rid="cobi13835-tbl-0001" ref-type="table">1</xref>). For example, the Open Courseware Consortium (oeconsortium.org), an international network of open education organizations, builds capacity for finding, reusing, creating, and sharing OERs. The consortium uses the MERLOT system (merlot.org), which allows users to search a curated database of OERs from across &gt;4000 member institutions. In addition to these courses, massive open online courses (MOOCs) (mooc.org) allow one to earn credits toward academic degrees––MOOCs are free but some fees apply for earning credits. The Open Science MOOC (Table <xref rid="cobi13835-tbl-0002" ref-type="table">2</xref>) is notable for allowing conservation students and researchers gain knowledge in transparent and reproducible research practices.</p><table-wrap position="float" id="cobi13835-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Platforms for accessing open education resources (OERs)</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Platform</th><th align="left" rowspan="1" colspan="1">URL</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">American Museum of Natural History ‐ Network of Conservation Educators and Practitioners</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ncep.amnh.org" ext-link-type="uri">https://ncep.amnh.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">British Columbia Open Education</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://open.bccampus.ca" ext-link-type="uri">https://open.bccampus.ca</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">CC Open Education Platform</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://network.creativecommons.org/cc-open-education-platform" ext-link-type="uri">https://network.creativecommons.org/cc‐open‐education‐platform</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Chromebook Data Science</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://jhudatascience.org/chromebookdatascience" ext-link-type="uri">https://jhudatascience.org/chromebookdatascience</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Coursera</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.coursera.org" ext-link-type="uri">https://www.coursera.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Coursera</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.coursera.org" ext-link-type="uri">https://www.coursera.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">eCampusOntario</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://openlibrary.ecampusontario.ca" ext-link-type="uri">https://openlibrary.ecampusontario.ca</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">edX</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.edx.org/" ext-link-type="uri">https://www.edx.org/</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Evidence in Conservation Teaching</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://bit.ly/Evidence-in-Conservation-Teaching" ext-link-type="uri">http://bit.ly/Evidence‐in‐Conservation‐Teaching</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Massive Open Online Courses</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mooc.org" ext-link-type="uri">https://www.mooc.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">MIT OpenCourseWare</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ocw.mit.edu" ext-link-type="uri">http://ocw.mit.edu</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">OER Africa</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.oerafrica.org" ext-link-type="uri">http://www.oerafrica.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">OER Commons</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.oercommons.org" ext-link-type="uri">https://www.oercommons.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">OER University</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://oeru.org" ext-link-type="uri">https://oeru.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Open Oregon Educational Resources</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://openoregon.org" ext-link-type="uri">https://openoregon.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Open Science MOOC</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://opensciencemooc.eu" ext-link-type="uri">https://opensciencemooc.eu</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Open Textbook Library</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://open.umn.edu/opentextbooks" ext-link-type="uri">https://open.umn.edu/opentextbooks</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Open Yale Courses</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://oyc.yale.edu/" ext-link-type="uri">https://oyc.yale.edu/</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">OpenLearn initiative</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://openlearn.open.ac.uk" ext-link-type="uri">http://openlearn.open.ac.uk</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Openlearn of OUUK</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.open.edu/openlearn" ext-link-type="uri">https://www.open.edu/openlearn</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">OpenStax (Rice University)</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://openstax.org" ext-link-type="uri">https://openstax.org</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Stanford on iTunes</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/stanford-itunes-u" ext-link-type="uri">https://cardinalatwork.stanford.edu/benefits‐rewards/sweeteners/stanford‐itunes‐u</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">WISElearn Resources</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://wlresources.dpi.wi.gov" ext-link-type="uri">https://wlresources.dpi.wi.gov</ext-link>
+</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>The OERs will be most effective at closing the knowledge‐action gap in conservation science when they are broadly accessible, reusable, and require a range of time commitments. As with the primary scientific literature in conservation (Amano et al., <xref rid="cobi13835-bib-0005" ref-type="bibr">2016</xref>), OERs are typically published in English, reducing their accessibility to conservation professionals in non‐English‐speaking countries (Krelja Kurelovic, <xref rid="cobi13835-bib-0042" ref-type="bibr">2016</xref>). Ironically, many of these countries contain the world's richest biodiversity hotspots (Myers et al., <xref rid="cobi13835-bib-0051" ref-type="bibr">2000</xref>). Some institutions offer OERs in languages other than English––for example, several OERs on Massachusetts Institute of Technology's (MIT) OpenCourseWare are translated in traditional Chinese, Korean, or Turkish, but accessibility in other languages remains limited. In terms of reusability, OERs should have as few legal permission barriers as possible so that users can readily engage in the five Rs provided the original authors are credited. There has been much progress in this area with the uptake of open license systems (e.g., the Creative Commons, GNU Free Documentation, and MIT licenses), not just for OERs, but also for open materials (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://choosealicense.com" ext-link-type="uri">https://choosealicense.com</ext-link>). For conservation practitioners who work in small nonprofit organizations, time availability can be a major barrier to accessing conservation science. Encouraging the development of OERs that require a range of time investments, from short summary videos to multiday courses, can increase the use of these resources.</p><p>The OERs are attractive to users who can study on their own time and at no cost, but incentives are lacking for those who create them, particularly academics. With little recognition by funders or universities, faculty members already struggling for time might lack the motivation to develop and maintain OER content (Yuan et al., <xref rid="cobi13835-bib-0093" ref-type="bibr">2008</xref>). Ultimately, evidence that OERs can reduce teaching demands on academics and increase the international standing of universities will be key in promoting their broader adoption. In conservation science and practice, an encouraging and important step in this direction is the recent launch of the Evidence in Conservation Teaching Initiative (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://bit.ly/Evidence-in-Conservation-Teaching" ext-link-type="uri">http://bit.ly/Evidence‐in‐Conservation‐Teaching</ext-link>). This joint effort by over 100 educators across 23 countries provides OER courses focused on the principles and practice of evidence‐based conservation (Downey et al., <xref rid="cobi13835-bib-0024" ref-type="bibr">2021</xref>). In‐depth materials on conservation‐related topics, such as meta‐analysis, how to design management interventions as experiments, and how to use the Conservation Evidence database are also provided.</p><p>Finally, direct outreach by researchers to practitioners who are likely to use the results, preferably with engaging summaries or visuals that can be shared, increases awareness of the research among time‐strapped practitioners. These relationships also increase dialogue among researchers and practitioners that will ultimately increase the relevance of research and make it more likely to be incorporated into policy.</p></sec><sec id="cobi13835-sec-0070"><title>CONCLUSION</title><p>Open science can help bridge the knowledge‐action gap in conservation by making scientific information readily available, interpretable, and useable. Importantly, however, open science remains a passive approach to information sharing and therefore, must be coupled with active communication, engagement, and outreach. For example, openly sharing data from conservation research facilitates data scrutiny and reuse, but it might fail to engage relevant end users who could be unaware of the data or lack the capacity to use them. Post hoc transparency (sharing as an afterthought) does not bring about the same credibility as process transparency (planning for transparency from the onset of a project), which is best achieved through early collaboration and knowledge coproduction (Buxton et al., <xref rid="cobi13835-bib-0012" ref-type="bibr">2021</xref>). Conservation practitioners and policy makers use knowledge they trust, and trust is built through confidence and familiarity with both research and researchers (Young et al., <xref rid="cobi13835-bib-0092" ref-type="bibr">2016</xref>). When used in concert, transparency and engagement help build the interpersonal relationships that encourage a multidirectional dialogue between researchers and end users of conservation science to close the knowledge‐action gap by combining forces to solve important conservation problems. Open science is an important step toward increasing that transparency and trust and thus promoting the credibility and legitimacy of one's research and expertise.</p><p>Most conservation science is carried out by researchers from high‐income countries, yet the world's greatest conservation needs tend to occur in countries with comparatively fewer resources (Hickisch et al., <xref rid="cobi13835-bib-0036" ref-type="bibr">2019</xref>). Open science can help bridge the knowledge‐action gap through equitable information sharing among the world's regions and thus facilitate conservation action where it is most needed. Adopting open science practices requires effort but it can be done in a stepwise fashion, as opposed to an all or nothing approach (Kathawalla et al., <xref rid="cobi13835-bib-0040" ref-type="bibr">2021</xref>). Incremental steps, such as publishing open access, sharing research materials, visual research summaries, and teaching materials, can go a long way toward improving how conservation science translates into practice (see Tai &amp; Robinson, <xref rid="cobi13835-bib-0080" ref-type="bibr">2018</xref>). Open education resources hold enormous potential to boost capacity building and facilitate knowledge mobilization to enable effective conservation action. Finally, assisting conservation scientists in making their research outputs and teaching materials openly accessible requires adequate institutional incentives (Allen &amp; Mehler, <xref rid="cobi13835-bib-0001" ref-type="bibr">2019</xref>; O'Dea et al., <xref rid="cobi13835-bib-0055" ref-type="bibr">2021</xref>). Current reward structures in academia focus overwhelmingly on journal prestige and high publication counts, with key performance indicators failing to capture the long‐term goals of conservation science (Buxton et al., <xref rid="cobi13835-bib-0012" ref-type="bibr">2021</xref>). Given the enormity of the problem of biodiversity loss, a minimum expectation of those trying to address this problem should be research that is accessible, interpretable, and useable. To ensure evidence‐based decision‐making in protecting biodiversity, closing the knowledge‐action gap requires opening science.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="cobi13835-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p><p>Additional information is available online in the Supporting Information section at the end of the online article. The authors are solely responsible for the content and functionality of these materials. Queries (other than absence of the material) should be directed to the corresponding author.</p><p>Appendix S1. Example of open data for conservation science and practice: the TEAM Network</p><p>Appendix S2. Open resources to help with evidence synthesis in conservation science and practice</p><p>Appendix S3. Example of open software for conservation science and practice: Marxan Connect</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="COBI-36-0-s001.pdf" position="float" orientation="portrait"><?suppdata-name COBI-36-0-s001.pdf?><?suppdata-size 100157?><?suppdata-md5 49fc9ec6e99771ece8cde0a08e648b75?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:0169/9300006/49fc9ec6e997/COBI-36-0-s001.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="cobi13835-sec-0080"><title>ACKNOWLEDGMENTS</title><p>We acknowledge funding from the European Union's Horizon 2020 research and innovation program under the Marie Skłodowska‐Curie grant agreement 838237‐OPTIMISE (D.G.R.), Environment and Climate Change Canada (D.G.R., J.R.B., and S.J.C.; GCXE19S058), and the Natural Sciences and Engineering Research Council of Canada (J.R.B. and S.J.C.). We thank E. Gagnon from the Canadian Parks and Wilderness Society ‐ Northern Alberta for creating Figure <xref rid="cobi13835-fig-0001" ref-type="fig">1</xref>. Barbara Spellman and an anonymous reviewer provided helpful comments on the manuscript.</p><p>Open Access Funding provided by Universite de Neuchatel.</p></ack><ref-list id="cobi13835-bibl-0001"><title>LITERATURE CITED</title><ref id="cobi13835-bib-0001"><mixed-citation publication-type="journal" id="cobi13835-cit-0001">
+<string-name name-style="western">
+<surname>Allen</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mehler</surname>, <given-names>D. M. A.</given-names>
+</string-name> (<year>2019</year>). <article-title>Open science challenges, benefits and tips in early career and beyond</article-title>. <source>PLoS Biology</source>, <volume>17</volume>, <elocation-id>e3000246</elocation-id>.<pub-id pub-id-type="pmid">31042704</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.3000246</pub-id><pub-id pub-id-type="pmcid">PMC6513108</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0002"><mixed-citation publication-type="journal" id="cobi13835-cit-0002">
+<string-name name-style="western">
+<surname>Alperin</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muñoz Nieves</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schimanski</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fischman</surname>, <given-names>G. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Niles</surname>, <given-names>M. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mckiernan</surname>, <given-names>E. C.</given-names>
+</string-name> (<year>2019</year>). <article-title>Meta‐research: How significant are the public dimensions of faculty work in review, promotion and tenure documents?</article-title>
+<source>eLife</source>, <volume>8</volume>, <elocation-id>e42254</elocation-id>.<pub-id pub-id-type="pmid">30747708</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.42254</pub-id><pub-id pub-id-type="pmcid">PMC6391063</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0003"><mixed-citation publication-type="journal" id="cobi13835-cit-0003">
+<string-name name-style="western">
+<surname>Alston</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Open access principles and practices benefit conservation</article-title>. <source>Conservation Letters</source>, <volume>12</volume>, <elocation-id>e12672</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0004"><mixed-citation publication-type="journal" id="cobi13835-cit-0004">
+<string-name name-style="western">
+<surname>Alston</surname>, <given-names>J. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rick</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2020</year>). <article-title>A beginner's guide to conducting reproducible research</article-title>. <source>Bulletin of the Ecological Society of America</source>, <volume>102</volume>(<issue>2</issue>), <elocation-id>e01801</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0005"><mixed-citation publication-type="journal" id="cobi13835-cit-0005">
+<string-name name-style="western">
+<surname>Amano</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>González‐Varo</surname>, <given-names>J. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sutherland</surname>, <given-names>W. J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Languages are still a major barrier to global science</article-title>. <source>PLoS Biology</source>, <volume>14</volume>, <elocation-id>e2000933</elocation-id>.<pub-id pub-id-type="pmid">28033326</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.2000933</pub-id><pub-id pub-id-type="pmcid">PMC5199034</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0006"><mixed-citation publication-type="journal" id="cobi13835-cit-0006">
+<string-name name-style="western">
+<surname>Ball</surname>, <given-names>P.</given-names>
+</string-name> (<year>2015</year>). <article-title>Leading mathematician launches arXiv'overlay'journal</article-title>. <source>Nature News</source>, <volume>526</volume>, <fpage>146</fpage>.</mixed-citation></ref><ref id="cobi13835-bib-0007"><mixed-citation publication-type="journal" id="cobi13835-cit-0007">
+<string-name name-style="western">
+<surname>Barnes</surname>, <given-names>N.</given-names>
+</string-name> (<year>2010</year>). <article-title>Publish your computer code: It is good enough</article-title>. <source>Nature</source>, <volume>467</volume>, <fpage>753</fpage>–<lpage>753</lpage>.<pub-id pub-id-type="pmid">20944687</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/467753a</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0008"><mixed-citation publication-type="journal" id="cobi13835-cit-0008">
+<string-name name-style="western">
+<surname>Berger‐Tal</surname>, <given-names>O.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lahoz‐Monfort</surname>, <given-names>J. J.</given-names>
+</string-name> (<year>2018</year>). <article-title>Conservation technology: The next generation</article-title>. <source>Conservation Letters</source>, <volume>11</volume>, <elocation-id>e12458</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0009"><mixed-citation publication-type="journal" id="cobi13835-cit-0009">
+<string-name name-style="western">
+<surname>Bertuol‐Garcia</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morsello</surname>, <given-names>C. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>El‐Hani</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pardini</surname>, <given-names>R.</given-names>
+</string-name> (<year>2018</year>). <article-title>A conceptual framework for understanding the perspectives on the causes of the science–practice gap in ecology and conservation</article-title>. <source>Biological Reviews</source>, <volume>93</volume>, <fpage>1032</fpage>–<lpage>1055</lpage>.<pub-id pub-id-type="pmid">29160024</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/brv.12385</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0010"><mixed-citation publication-type="journal" id="cobi13835-cit-0010">
+<string-name name-style="western">
+<surname>Bocking</surname>, <given-names>S.</given-names>
+</string-name> (<year>2020</year>). <article-title>Science and conservation: A history of natural and political landscapes</article-title>. <source>Environmental Science &amp; Policy</source>, <volume>113</volume>, <fpage>1</fpage>–<lpage>6</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0011"><mixed-citation publication-type="journal" id="cobi13835-cit-0011">
+<string-name name-style="western">
+<surname>Bolick</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Emmett</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greenberg</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosenblum</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Peterson</surname>, <given-names>A. T.</given-names>
+</string-name> (<year>2017</year>). <article-title>How open access is crucial to the future of science</article-title>. <source>Journal of Wildlife Management</source>, <volume>81</volume>, <fpage>564</fpage>–<lpage>566</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0012"><mixed-citation publication-type="journal" id="cobi13835-cit-0012">
+<string-name name-style="western">
+<surname>Buxton</surname>, <given-names>R. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nyboer</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pigeon</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raby</surname>, <given-names>G. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rytwinski</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallagher</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schuster</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>, <given-names>H. ‐. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fahrig</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name> (<year>2021</year>). <article-title>Avoiding wasted research resources in conservation science</article-title>. <source>Conservation Science and Practice</source>, <volume>3</volume>, <elocation-id>e329</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0013"><mixed-citation publication-type="journal" id="cobi13835-cit-0013">
+<string-name name-style="western">
+<surname>Carillo</surname>, <given-names>M. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Papagni</surname>, <given-names>E.</given-names>
+</string-name> (<year>2014</year>). <article-title>“Little science” and “big science”: The institution of “open science” as a cause of scientific and economic inequalities among countries</article-title>. <source>Economic Modelling</source>, <volume>43</volume>, <fpage>42</fpage>–<lpage>56</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0014"><mixed-citation publication-type="journal" id="cobi13835-cit-0014">
+<string-name name-style="western">
+<surname>Cook</surname>, <given-names>C. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hockings</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Carter</surname>, <given-names>R. W. (B).</given-names>
+</string-name> (<year>2010</year>). <article-title>Conservation in the dark? The information used to support management decisions</article-title>. <source>Frontiers in Ecology and the Environment</source>, <volume>8</volume>, <fpage>181</fpage>–<lpage>186</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0015"><mixed-citation publication-type="journal" id="cobi13835-cit-0015">
+<string-name name-style="western">
+<surname>Cook</surname>, <given-names>C. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mascia</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schwartz</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Possingham</surname>, <given-names>H. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fuller</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Achieving conservation science that bridges the knowledge–action boundary</article-title>. <source>Conservation Biology</source>, <volume>27</volume>, <fpage>669</fpage>–<lpage>678</lpage>.<pub-id pub-id-type="pmid">23574343</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.12050</pub-id><pub-id pub-id-type="pmcid">PMC3761186</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0016"><mixed-citation publication-type="journal" id="cobi13835-cit-0016">
+<string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Birnie‐Gauvin</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lennox</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taylor</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rytwinski</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rummer</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franklin</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Haddaway</surname>, <given-names>N. R.</given-names>
+</string-name> (<year>2017a</year>). <article-title>How experimental biology and ecology can support evidence‐based decision‐making in conservation: Avoiding pitfalls and enabling application</article-title>. <source>Conservation Physiology</source>, <volume>5</volume>, <elocation-id>cox043</elocation-id>.<pub-id pub-id-type="pmid">28835842</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/conphys/cox043</pub-id><pub-id pub-id-type="pmcid">PMC5550808</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0017"><mixed-citation publication-type="journal" id="cobi13835-cit-0017">
+<string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>, <given-names>V. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kessel</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hussey</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ford</surname>, <given-names>A. T.</given-names>
+</string-name> (<year>2017b</year>). <article-title>Troubling issues at the frontier of animal tracking for conservation and management</article-title>. <source>Conservation Biology</source>, <volume>31</volume>, <fpage>1205</fpage>–<lpage>1207</lpage>.<pub-id pub-id-type="pmid">28079282</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.12895</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0018"><mixed-citation publication-type="journal" id="cobi13835-cit-0018">
+<string-name name-style="western">
+<surname>Costello</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Michener</surname>, <given-names>W. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gahegan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Z.‐Q.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bourne</surname>, <given-names>P. E.</given-names>
+</string-name> (<year>2013</year>). <article-title>Biodiversity data should be published, cited, and peer reviewed</article-title>. <source>Trends in Ecology &amp; Evolution</source>, <volume>28</volume>, <fpage>454</fpage>–<lpage>461</lpage>.<pub-id pub-id-type="pmid">23756105</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tree.2013.05.002</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0019"><mixed-citation publication-type="journal" id="cobi13835-cit-0019">
+<string-name name-style="western">
+<surname>Costello</surname>, <given-names>M. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wieczorek</surname>, <given-names>J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Best practice for biodiversity data management and publication</article-title>. <source>Biological Conservation</source>, <volume>173</volume>, <fpage>68</fpage>–<lpage>73</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0020"><mixed-citation publication-type="journal" id="cobi13835-cit-0020">
+<string-name name-style="western">
+<surname>Culina</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baglioni</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crowther</surname>, <given-names>T. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Visser</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Woutersen‐Windhouwer</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Manghi</surname>, <given-names>P.</given-names>
+</string-name> (<year>2018a</year>). <article-title>Navigating the unfolding open data landscape in ecology and evolution</article-title>. <source>Nature Ecology &amp; Evolution</source>, <volume>2</volume>, <fpage>420</fpage>–<lpage>426</lpage>.<pub-id pub-id-type="pmid">29453350</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41559-017-0458-2</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0021"><mixed-citation publication-type="journal" id="cobi13835-cit-0021">
+<string-name name-style="western">
+<surname>Culina</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crowther</surname>, <given-names>T. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramakers</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gienapp</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Visser</surname>, <given-names>M. E.</given-names>
+</string-name> (<year>2018b</year>). <article-title>How to do meta‐analysis of open datasets</article-title>. <source>Nature Ecology &amp; Evolution</source>, <volume>2</volume>, <fpage>1053</fpage>–<lpage>1056</lpage>.<pub-id pub-id-type="pmid">29915339</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41559-018-0579-2</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0022"><mixed-citation publication-type="journal" id="cobi13835-cit-0022">
+<string-name name-style="western">
+<surname>Culina</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Den Berg</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evans</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sánchez‐Tójar</surname>, <given-names>A.</given-names>
+</string-name> (<year>2020</year>). <article-title>Low availability of code in ecology: A call for urgent action</article-title>. <source>PLoS Biology</source>, <volume>18</volume>, <elocation-id>e3000763</elocation-id>.<pub-id pub-id-type="pmid">32722681</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.3000763</pub-id><pub-id pub-id-type="pmcid">PMC7386629</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0023"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0023">
+<collab collab-type="authors">DOAJ</collab>
+. (<year>2019</year>). <article-title>Directory of Open Access Journals</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.doaj.org" ext-link-type="uri">www.doaj.org</ext-link>
+</mixed-citation></ref><ref id="cobi13835-bib-0024"><mixed-citation publication-type="journal" id="cobi13835-cit-0024">
+<string-name name-style="western">
+<surname>Downey</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amano</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cadotte</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cook</surname>, <given-names>C. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haddaway</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jones</surname>, <given-names>J. P. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Littlewood</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Walsh</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abrahams</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adum</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akasaka</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alves</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Antwis</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arellano</surname>, <given-names>E. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Axmacher</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barclay</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Batty</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benítez‐López</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2021</year>). <article-title>Training future generations to deliver evidence‐based conservation and ecosystem management</article-title>. <source>Ecological Solutions and Evidence</source>, <volume>2</volume>, <elocation-id>e12032</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0025"><mixed-citation publication-type="journal" id="cobi13835-cit-0025">
+<string-name name-style="western">
+<surname>Eysenbach</surname>, <given-names>G.</given-names>
+</string-name> (<year>2006</year>). <article-title>Citation advantage of open access articles</article-title>. <source>PLoS Biology</source>, <volume>4</volume>, <elocation-id>e157</elocation-id>.<pub-id pub-id-type="pmid">16683865</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.0040157</pub-id><pub-id pub-id-type="pmcid">PMC1459247</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0026"><mixed-citation publication-type="journal" id="cobi13835-cit-0026">
+<string-name name-style="western">
+<surname>Fabian</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bollmann</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heiri</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Olschewski</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rigling</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stofer</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Holderegger</surname>, <given-names>R.</given-names>
+</string-name> (<year>2019</year>). <article-title>How to close the science‐practice gap in nature conservation? Information sources used by practitioners</article-title>. <source>Biological Conservation</source>, <volume>235</volume>, <fpage>93</fpage>–<lpage>101</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0027"><mixed-citation publication-type="journal" id="cobi13835-cit-0027">
+<string-name name-style="western">
+<surname>Fuller</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>, <given-names>J. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Watson</surname>, <given-names>J. E. M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Achieving open access to conservation science</article-title>. <source>Conservation Biology</source>, <volume>28</volume>, <fpage>1550</fpage>–<lpage>1557</lpage>.<pub-id pub-id-type="pmid">25158824</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.12346</pub-id><pub-id pub-id-type="pmcid">PMC4241051</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0028"><mixed-citation publication-type="journal" id="cobi13835-cit-0028">
+<string-name name-style="western">
+<surname>Gargouri</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hajjem</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larivière</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gingras</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brody</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Harnad</surname>, <given-names>S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Self‐selected or mandated, open access increases citation impact for higher quality research</article-title>. <source>PLoS One</source>, <volume>5</volume>, <elocation-id>e13636</elocation-id>.<pub-id pub-id-type="pmid">20976155</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0013636</pub-id><pub-id pub-id-type="pmcid">PMC2956678</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0029"><mixed-citation publication-type="journal" id="cobi13835-cit-0029">
+<string-name name-style="western">
+<surname>Gelman</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Carlin</surname>, <given-names>J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Beyond power calculations: Assessing type S (sign) and type M (magnitude) errors</article-title>. <source>Perspectives on Psychological Science</source>, <volume>9</volume>, <fpage>641</fpage>–<lpage>651</lpage>.<pub-id pub-id-type="pmid">26186114</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1745691614551642</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0030"><mixed-citation publication-type="journal" id="cobi13835-cit-0030">
+<string-name name-style="western">
+<surname>Gewin</surname>, <given-names>V.</given-names>
+</string-name> (<year>2016</year>). <article-title>Data sharing: An open mind on open data</article-title>. <source>Nature</source>, <volume>529</volume>, <fpage>117</fpage>–<lpage>119</lpage>.<pub-id pub-id-type="pmid">26744755</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nj7584-117a</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0031"><mixed-citation publication-type="journal" id="cobi13835-cit-0031">
+<string-name name-style="western">
+<surname>Gossa</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fisher</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Milner‐Gulland</surname>, <given-names>E. J.</given-names>
+</string-name> (<year>2015</year>). <article-title>The research–implementation gap: How practitioners and researchers from developing countries perceive the role of peer‐reviewed literature in conservation science</article-title>. <source>Oryx</source>, <volume>49</volume>, <fpage>80</fpage>–<lpage>87</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0032"><mixed-citation publication-type="journal" id="cobi13835-cit-0032">
+<string-name name-style="western">
+<surname>Grudniewicz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moher</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cobey</surname>, <given-names>K. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bryson</surname>, <given-names>G. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cukier</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ardern</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balcom</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barros</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ciro</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cugusi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donaldson</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Egger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Graham</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodgkinson</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khan</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mabizela</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manca</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Milzow</surname>, <given-names>K.</given-names>
+</string-name> (<year>2019</year>). <article-title>Predatory journals: No definition, no defence</article-title>. <source>Nature</source>, <volume>576</volume>, <fpage>210</fpage>–<lpage>212</lpage>.<pub-id pub-id-type="pmid">31827288</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/d41586-019-03759-y</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0033"><mixed-citation publication-type="journal" id="cobi13835-cit-0033">
+<string-name name-style="western">
+<surname>Haddaway</surname>, <given-names>N. R.</given-names>
+</string-name> (<year>2015</year>). <article-title>A call for better reporting of conservation research data for use in meta‐analyses</article-title>. <source>Conservation Biology</source>, <volume>29</volume>, <fpage>1242</fpage>–<lpage>1245</lpage>.<pub-id pub-id-type="pmid">25588313</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.12449</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0034"><mixed-citation publication-type="journal" id="cobi13835-cit-0034">
+<string-name name-style="western">
+<surname>Haddaway</surname>, <given-names>N. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Verhoeven</surname>, <given-names>J. T. A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Poor methodological detail precludes experimental repeatability and hampers synthesis in ecology</article-title>. <source>Ecology and Evolution</source>, <volume>5</volume>, <fpage>4451</fpage>–<lpage>4454</lpage>.<pub-id pub-id-type="pmid">26664691</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.1722</pub-id><pub-id pub-id-type="pmcid">PMC4667817</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0035"><mixed-citation publication-type="journal" id="cobi13835-cit-0035">
+<string-name name-style="western">
+<surname>Hampton</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strasser</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tewksbury</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gram</surname>, <given-names>W. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Budden</surname>, <given-names>A. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Batcheller</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duke</surname>, <given-names>C. S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Porter</surname>, <given-names>J. H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Big data and the future of ecology</article-title>. <source>Frontiers in Ecology and the Environment</source>, <volume>11</volume>, <fpage>156</fpage>–<lpage>162</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0036"><mixed-citation publication-type="journal" id="cobi13835-cit-0036">
+<string-name name-style="western">
+<surname>Hickisch</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodgetts</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sillero‐Zubiri</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tockner</surname>, <given-names>K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Macdonald</surname>, <given-names>D. W.</given-names>
+</string-name> (<year>2019</year>). <article-title>Effects of publication bias on conservation planning</article-title>. <source>Conservation Biology</source>, <volume>33</volume>, <fpage>1151</fpage>–<lpage>1163</lpage>.<pub-id pub-id-type="pmid">30957293</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.13326</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0037"><mixed-citation publication-type="journal" id="cobi13835-cit-0037">
+<string-name name-style="western">
+<surname>Himmelstein</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Romero</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Levernier</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munro</surname>, <given-names>T. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mclaughlin</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greshake Tzovaras</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Greene</surname>, <given-names>C. S.</given-names>
+</string-name> (<year>2018</year>). <article-title>Sci‐Hub provides access to nearly all scholarly literature</article-title>. <source>eLife</source>, <volume>7</volume>, <elocation-id>e32822</elocation-id>.<pub-id pub-id-type="pmid">29424689</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.32822</pub-id><pub-id pub-id-type="pmcid">PMC5832410</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0038"><mixed-citation publication-type="journal" id="cobi13835-cit-0038">
+<string-name name-style="western">
+<surname>Jarrad</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Main</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Burgman</surname>, <given-names>M.</given-names>
+</string-name> (<year>2021</year>). <article-title>Increasing transparency through open science badges</article-title>. <source>Conservation Biology</source>, <volume>35</volume>, <fpage>764</fpage>–<lpage>765</lpage>. <pub-id pub-id-type="doi">10.1111/cobi.13735</pub-id>
+<pub-id pub-id-type="pmid">33830537</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0039"><mixed-citation publication-type="journal" id="cobi13835-cit-0039">
+<string-name name-style="western">
+<surname>Josefsson</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hiron</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arlt</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Auffret</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berg</surname>, <given-names>Å.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chevalier</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Glimskär</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hartman</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kačergytė</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klein</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knape</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laugen</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Low</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paquet</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pasanen‐Mortensen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosin</surname>, <given-names>Z. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rubene</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Żmihorski</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pärt</surname>, <given-names>T.</given-names>
+</string-name> (<year>2020</year>). <article-title>Improving scientific rigour in conservation evaluations and a plea deal for transparency on potential biases</article-title>. <source>Conservation Letters</source>, <volume>13</volume>, <elocation-id>e12726</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0040"><mixed-citation publication-type="journal" id="cobi13835-cit-0040">
+<string-name name-style="western">
+<surname>Kathawalla</surname>, <given-names>U. ‐. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silverstein</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Syed</surname>, <given-names>M.</given-names>
+</string-name> (<year>2021</year>). <article-title>Easing into open science: A guide for graduate students and their advisors</article-title>. <source>Collabra: Psychology</source>, <volume>7</volume>(<issue>1</issue>), <elocation-id>18684</elocation-id>.</mixed-citation></ref><ref id="cobi13835-bib-0041"><mixed-citation publication-type="journal" id="cobi13835-cit-0041">
+<string-name name-style="western">
+<surname>Knight</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cowling</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rouget</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balmford</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lombard</surname>, <given-names>A. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Campbell</surname>, <given-names>B. M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Knowing but not doing: Selecting priority conservation areas and the research–implementation gap</article-title>. <source>Conservation Biology</source>, <volume>22</volume>, <fpage>610</fpage>–<lpage>617</lpage>.<pub-id pub-id-type="pmid">18477033</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1523-1739.2008.00914.x</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0042"><mixed-citation publication-type="journal" id="cobi13835-cit-0042">
+<string-name name-style="western">
+<surname>Kurelovic</surname>, <given-names>E. K.</given-names>
+</string-name> (<year>2016</year>). <article-title>Advantages and limitations of usage of open educational resources in small countries</article-title>. <source>International Journal of Research in Education and Science</source>, <volume>2</volume>, <fpage>136</fpage>–<lpage>142</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0202"><mixed-citation publication-type="journal" id="cobi13835-cit-0202">
+<string-name name-style="western">
+<surname>Larios</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macfarlane</surname>, <given-names>N. B. W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Roy</surname>, <given-names>S.</given-names>
+</string-name> (<year>2020</year>). <article-title>Access to scientific literature by the conservation community</article-title>. <source>PeerJ</source>, <volume>8</volume>, <fpage>e9404</fpage>
+<pub-id pub-id-type="doi">10.7717/peerj.9404</pub-id>
+<pub-id pub-id-type="pmid">32714657</pub-id><pub-id pub-id-type="pmcid">PMC7354838</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0043"><mixed-citation publication-type="journal" id="cobi13835-cit-0043">
+<string-name name-style="western">
+<surname>Lennox</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harcourt</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davies</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ford</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frey</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hayward</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hussey</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iverson</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kays</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kessel</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mcmahon</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muelbert</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murray</surname>, <given-names>T. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>, <given-names>V. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pye</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whoriskey</surname>, <given-names>F. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2020</year>). <article-title>A novel framework to protect animal data in a world of ecosurveillance</article-title>. <source>Bioscience</source>, <volume>70</volume>, <fpage>468</fpage>–<lpage>476</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0044"><mixed-citation publication-type="journal" id="cobi13835-cit-0044">
+<string-name name-style="western">
+<surname>Lowe</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smyth</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atkins</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Avery</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belbin</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Budden</surname>, <given-names>A. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gioia</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guru</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardie</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hirsch</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobern</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>La Salle</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loarie</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miles</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milne</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nicholls</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossetto</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smits</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sparrow</surname>, <given-names>B.</given-names>
+</string-name> (<year>2017</year>). <article-title>Publish openly but responsibly</article-title>. <source>Science</source>, <volume>357</volume>, <fpage>141</fpage>.<pub-id pub-id-type="pmid">28706032</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aao0054</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0045"><mixed-citation publication-type="journal" id="cobi13835-cit-0045">
+<string-name name-style="western">
+<surname>Lowndes</surname>, <given-names>J. S. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Best</surname>, <given-names>B. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scarborough</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Afflerbach</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frazier</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Hara</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Halpern</surname>, <given-names>B. S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Our path to better science in less time using open data science tools</article-title>. <source>Nature Ecology &amp; Evolution</source>, <volume>1</volume>, <fpage>0160</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41559-017-0160</pub-id><pub-id pub-id-type="pmid">28812630</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0046"><mixed-citation publication-type="journal" id="cobi13835-cit-0046">
+<string-name name-style="western">
+<surname>Mckiernan</surname>, <given-names>E. C.</given-names>
+</string-name> (<year>2017</year>). <article-title>Imagining the “open” university: Sharing scholarship to improve research and education</article-title>. <source>PLoS Biology</source>, <volume>15</volume>, <elocation-id>e1002614</elocation-id>.<pub-id pub-id-type="pmid">29065148</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.1002614</pub-id><pub-id pub-id-type="pmcid">PMC5655613</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0047"><mixed-citation publication-type="journal" id="cobi13835-cit-0047">
+<string-name name-style="western">
+<surname>Moher</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Naudet</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cristea</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miedema</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ioannidis</surname>, <given-names>J. P. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Goodman</surname>, <given-names>S. N.</given-names>
+</string-name> (<year>2018</year>). <article-title>Assessing scientists for hiring, promotion, and tenure</article-title>. <source>PLoS Biology</source>, <volume>16</volume>, <elocation-id>e2004089</elocation-id>.<pub-id pub-id-type="pmid">29596415</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.2004089</pub-id><pub-id pub-id-type="pmcid">PMC5892914</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0048"><mixed-citation publication-type="journal" id="cobi13835-cit-0048">
+<string-name name-style="western">
+<surname>Molloy</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2011</year>). <article-title>The open knowledge foundation: Open data means better science</article-title>. <source>PLoS Biology</source>, <volume>9</volume>, <elocation-id>e1001195</elocation-id>.<pub-id pub-id-type="pmid">22162946</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.1001195</pub-id><pub-id pub-id-type="pmcid">PMC3232214</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0049"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0049">
+<string-name name-style="western">
+<surname>Mounce</surname>, <given-names>R.</given-names>
+</string-name> (<year>2021</year>). <article-title>List of overlay journals</article-title>. Version 0.1. Data set. Zenodo <pub-id pub-id-type="doi">10.5281/zenodo.5088734</pub-id>
+</mixed-citation></ref><ref id="cobi13835-bib-0050"><mixed-citation publication-type="journal" id="cobi13835-cit-0050">
+<string-name name-style="western">
+<surname>Munafò</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nosek</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bishop</surname>, <given-names>D. V. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Button</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chambers</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Percie Du Sert</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simonsohn</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wagenmakers</surname>, <given-names>E. ‐. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ware</surname>, <given-names>J. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ioannidis</surname>, <given-names>J. P. A.</given-names>
+</string-name> (<year>2017</year>). <article-title>A manifesto for reproducible science</article-title>. <source>Nature Human Behaviour</source>, <volume>1</volume>, <fpage>0021</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41562-016-0021</pub-id><pub-id pub-id-type="pmcid">PMC7610724</pub-id><pub-id pub-id-type="pmid">33954258</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0051"><mixed-citation publication-type="journal" id="cobi13835-cit-0051">
+<string-name name-style="western">
+<surname>Myers</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mittermeier</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mittermeier</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Da Fonseca</surname>, <given-names>G. A. B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kent</surname>, <given-names>J.</given-names>
+</string-name> (<year>2000</year>). <article-title>Biodiversity hotspots for conservation priorities</article-title>. <source>Nature</source>, <volume>403</volume>, <fpage>853</fpage>–<lpage>858</lpage>.<pub-id pub-id-type="pmid">10706275</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/35002501</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0052"><mixed-citation publication-type="journal" id="cobi13835-cit-0052">
+<string-name name-style="western">
+<surname>Nguyen</surname>, <given-names>V. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lennox</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haddaway</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whoriskey</surname>, <given-names>F. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harcourt</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2017</year>). <article-title>To share or not to share in the emerging era of big data: Perspectives from fish telemetry researchers on data sharing</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>74</volume>, <fpage>1260</fpage>–<lpage>1274</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0053"><mixed-citation publication-type="journal" id="cobi13835-cit-0053">
+<string-name name-style="western">
+<surname>Nosek</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alter</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Banks</surname>, <given-names>G. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borsboom</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowman</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Breckler</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buck</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chambers</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chin</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Christensen</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Contestabile</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dafoe</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eich</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Freese</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Glennerster</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goroff</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Green</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hesse</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Humphreys</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ishiyama</surname>, <given-names>J.</given-names>
+</string-name> (<year>2015</year>). <article-title>Promoting an open research culture</article-title>. <source>Science</source>, <volume>348</volume>, <fpage>1422</fpage>–<lpage>1425</lpage>.<pub-id pub-id-type="pmid">26113702</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aab2374</pub-id><pub-id pub-id-type="pmcid">PMC4550299</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0054"><mixed-citation publication-type="journal" id="cobi13835-cit-0054">
+<string-name name-style="western">
+<surname>Nosek</surname>, <given-names>B. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lakens</surname>, <given-names>D.</given-names>
+</string-name> (<year>2014</year>). <article-title>Registered reports: A method to increase the credibility of published results</article-title>. <source>Social Psychology</source>, <volume>45</volume>, <fpage>137</fpage>–<lpage>141</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0055"><mixed-citation publication-type="journal" id="cobi13835-cit-0055">
+<string-name name-style="western">
+<surname>O'dea</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parker</surname>, <given-names>T. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chee</surname>, <given-names>Y. En</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Culina</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drobniak</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duncan</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fidler</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gould</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ihle</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lagisz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sánchez‐Tójar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilkinson</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wintle</surname>, <given-names>B. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nakagawa</surname>, <given-names>S.</given-names>
+</string-name> (<year>2021</year>). <article-title>Towards open, reliable, and transparent ecology and evolutionary biology</article-title>. <source>BMC Biology</source>, <volume>19</volume>, <fpage>68</fpage>.<pub-id pub-id-type="pmid">33836762</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12915-021-01006-3</pub-id><pub-id pub-id-type="pmcid">PMC8034279</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0056"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0056">
+<string-name name-style="western">
+<surname>Olijhoek</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Tennant</surname>, <given-names>J.</given-names>
+</string-name> (<year>2018</year>). <article-title>The “problem” of predatory publishing remains a relatively small one and should not be allowed to defame open access</article-title>. Available from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://blogs.lse.ac.uk/impactofsocialsciences/2018/09/25/the-problem-of-predatory-publishing-remains-a-relatively-small-one-and-should-not-be-allowed-to-defame-open-access/" ext-link-type="uri">https://blogs.lse.ac.uk/impactofsocialsciences/2018/09/25/the-problem-of-predatory-publishing-remains-a-relatively-small-one-and-should-not-be-allowed-to-defame-open-access/</ext-link>
+</mixed-citation></ref><ref id="cobi13835-bib-0058"><mixed-citation publication-type="journal" id="cobi13835-cit-0058">
+<string-name name-style="western">
+<surname>Parker</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fraser</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nakagawa</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Making conservation science more reliable with preregistration and registered reports</article-title>. <source>Conservation Biology</source>, <volume>33</volume>, <fpage>747</fpage>–<lpage>750</lpage>.<pub-id pub-id-type="pmid">31074110</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.13342</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0059"><mixed-citation publication-type="journal" id="cobi13835-cit-0059">
+<string-name name-style="western">
+<surname>Pérignon</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gadouche</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hurlin</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silberman</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Debonnel</surname>, <given-names>E.</given-names>
+</string-name> (<year>2019</year>). <article-title>Certify reproducibility with confidential data</article-title>. <source>Science</source>, <volume>365</volume>, <fpage>127</fpage>–<lpage>128</lpage>.<pub-id pub-id-type="pmid">31296759</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aaw2825</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0060"><mixed-citation publication-type="journal" id="cobi13835-cit-0060">
+<string-name name-style="western">
+<surname>Perkel</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Make code accessible with these cloud services</article-title>. <source>Nature</source>, <volume>575</volume>, <fpage>247</fpage>–<lpage>248</lpage>.<pub-id pub-id-type="pmid">31690867</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/d41586-019-03366-x</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0061"><mixed-citation publication-type="journal" id="cobi13835-cit-0061">
+<string-name name-style="western">
+<surname>Perkel</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>2018</year>). <article-title>A toolkit for data transparency takes shape</article-title>. <source>Nature</source>, <volume>560</volume>, <fpage>513</fpage>–<lpage>515</lpage>.<pub-id pub-id-type="pmid">30127481</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/d41586-018-05990-5</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0062"><mixed-citation publication-type="journal" id="cobi13835-cit-0062">
+<string-name name-style="western">
+<surname>Peterson</surname>, <given-names>A. T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bolliger</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brotons</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burridge</surname>, <given-names>C. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cobos</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cuervo‐Robayo</surname>, <given-names>A. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Minin</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diez</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elith</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Embling</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Escobar</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Essl</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feeley</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hawkes</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiménez‐García</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jimenez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Green</surname>, <given-names>D. M.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Kühn</surname>, <given-names>I.</given-names>
+</string-name> (<year>2019</year>). <article-title>Open access solutions for biodiversity journals: Do not replace one problem with another</article-title>. <source>Diversity and Distributions</source>, <volume>25</volume>, <fpage>5</fpage>–<lpage>8</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0063"><mixed-citation publication-type="journal" id="cobi13835-cit-0063">
+<string-name name-style="western">
+<surname>Piwowar</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Priem</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larivière</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alperin</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matthias</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Norlander</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farley</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>West</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Haustein</surname>, <given-names>S.</given-names>
+</string-name> (<year>2018</year>). <article-title>The state of OA: A large‐scale analysis of the prevalence and impact of open access articles</article-title>. <source>PeerJ</source>, <volume>6</volume>, <elocation-id>e4375</elocation-id>.<pub-id pub-id-type="pmid">29456894</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7717/peerj.4375</pub-id><pub-id pub-id-type="pmcid">PMC5815332</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0064"><mixed-citation publication-type="journal" id="cobi13835-cit-0064">
+<string-name name-style="western">
+<surname>Poisot</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bruneau</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonzalez</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gravel</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Peres‐Neto</surname>, <given-names>P.</given-names>
+</string-name> (<year>2019</year>). <article-title>Ecological data should not be so hard to find and reuse</article-title>. <source>Trends in Ecology &amp; Evolution</source>, <volume>34</volume>, <fpage>494</fpage>–<lpage>496</lpage>.<pub-id pub-id-type="pmid">31056219</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tree.2019.04.005</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0065"><mixed-citation publication-type="journal" id="cobi13835-cit-0065">
+<string-name name-style="western">
+<surname>Poisot</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mounce</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gravel</surname>, <given-names>D.</given-names>
+</string-name> (<year>2013</year>). <article-title>Moving toward a sustainable ecological science: Don't let data go to waste!</article-title>
+<source>Ideas in Ecology and Evolution</source>, <volume>6</volume>, <fpage>11</fpage>–<lpage>19</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0066"><mixed-citation publication-type="journal" id="cobi13835-cit-0066">
+<string-name name-style="western">
+<surname>Reid</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eckert</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lane</surname>, <given-names>J.‐F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hinch</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Darimont</surname>, <given-names>C. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ban</surname>, <given-names>N. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Marshall</surname>, <given-names>A.</given-names>
+</string-name> (<year>2021</year>). <article-title>“Two‐Eyed Seeing”: An Indigenous framework to transform fisheries research and management</article-title>. <source>Fish and Fisheries</source>, <volume>22</volume>, <fpage>243</fpage>–<lpage>261</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0067"><mixed-citation publication-type="journal" id="cobi13835-cit-0067">
+<string-name name-style="western">
+<surname>Rey</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Open regional science</article-title>. <source>Annals of Regional Science</source>, <volume>52</volume>, <fpage>825</fpage>–<lpage>837</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0068"><mixed-citation publication-type="journal" id="cobi13835-cit-0068">
+<string-name name-style="western">
+<surname>Robinson</surname>, <given-names>O. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruiz‐Gutierrez</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reynolds</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golet</surname>, <given-names>G. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strimas‐Mackey</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fink</surname>, <given-names>D.</given-names>
+</string-name> (<year>2020</year>). <article-title>Integrating citizen science data with expert surveys increases accuracy and spatial extent of species distribution models</article-title>. <source>Diversity and Distributions</source>, <volume>26</volume>, <fpage>976</fpage>–<lpage>986</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0069"><mixed-citation publication-type="journal" id="cobi13835-cit-0069">
+<string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Provencher</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rytwinski</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haddaway</surname>, <given-names>N. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Environmental sciences benefit from robust evidence irrespective of speed</article-title>. <source>Science of the Total Environment</source>, <volume>696</volume>, <elocation-id>134000</elocation-id>.<pub-id pub-id-type="pmid">31465915</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.scitotenv.2019.134000</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0070"><mixed-citation publication-type="journal" id="cobi13835-cit-0070">
+<string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Granados</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Austin</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mitchell</surname>, <given-names>G. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2020</year>). <article-title>Open government data and environmental science: A federal Canadian perspective</article-title>. <source>FACETS</source>, <volume>5</volume>, <fpage>942</fpage>–<lpage>962</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0071"><mixed-citation publication-type="journal" id="cobi13835-cit-0071">
+<string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lanfear</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Binning</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haff</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schwanz</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cain</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kokko</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jennions</surname>, <given-names>M. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kruuk</surname>, <given-names>L. E. B.</given-names>
+</string-name> (<year>2014</year>). <article-title>Troubleshooting public data archiving: Suggestions to increase participation</article-title>. <source>PLoS Biology</source>, <volume>12</volume>, <elocation-id>e1001779</elocation-id>.<pub-id pub-id-type="pmid">24492920</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.1001779</pub-id><pub-id pub-id-type="pmcid">PMC3904821</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0072"><mixed-citation publication-type="journal" id="cobi13835-cit-0072">
+<string-name name-style="western">
+<surname>Sarewitz</surname>, <given-names>D.</given-names>
+</string-name> (<year>2015</year>). <article-title>CRISPR: Science can't solve it</article-title>. <source>Nature</source>, <volume>522</volume>, <fpage>413</fpage>–<lpage>414</lpage>.<pub-id pub-id-type="pmid">26108836</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/522413a</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0073"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0073">
+<collab collab-type="authors">Science Europe</collab>
+. (<year>2021</year>). <article-title>The OA diamond journals study. Part 2: Recommendations</article-title>. Available from <pub-id pub-id-type="doi">10.5281/zenodo.4562790</pub-id>
+</mixed-citation></ref><ref id="cobi13835-bib-0074"><mixed-citation publication-type="journal" id="cobi13835-cit-0074">
+<string-name name-style="western">
+<surname>Siler</surname>, <given-names>K.</given-names>
+</string-name> (<year>2020</year>). <article-title>Demarcating spectrums of predatory publishing: Economic and institutional sources of academic legitimacy</article-title>. <source>Journal of the Association for Information Science and Technology</source>, <volume>71</volume>, <fpage>1386</fpage>–<lpage>1401</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0075"><mixed-citation publication-type="journal" id="cobi13835-cit-0075">
+<string-name name-style="western">
+<surname>Soeharjono</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Roche</surname>, <given-names>D. G.</given-names>
+</string-name> (<year>2021</year>). <article-title>Reported individual costs and benefits of sharing open data among Canadian faculty members in ecology and evolution</article-title>. <source>BioScience</source>, <volume>71</volume>, <fpage>750</fpage>–<lpage>756</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0076"><mixed-citation publication-type="journal" id="cobi13835-cit-0076">
+<string-name name-style="western">
+<surname>Soulé</surname>, <given-names>M. E.</given-names>
+</string-name> (<year>1985</year>). <article-title>What is conservation biology?</article-title>
+<source>Bioscience</source>, <volume>35</volume>, <fpage>727</fpage>–<lpage>734</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0077"><mixed-citation publication-type="journal" id="cobi13835-cit-0077">
+<string-name name-style="western">
+<surname>Stodden</surname>, <given-names>V.</given-names>
+</string-name> (<year>2010</year>). <article-title>Open science: Policy implications for the evolving phenomenon of user‐led scientific innovation</article-title>. <source>Journal of Science Communication</source>, <volume>09</volume>, <fpage>A05</fpage>.</mixed-citation></ref><ref id="cobi13835-bib-0078"><mixed-citation publication-type="journal" id="cobi13835-cit-0078">
+<string-name name-style="western">
+<surname>Stodden</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mcnutt</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bailey</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deelman</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gil</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hanson</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heroux</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ioannidis</surname>, <given-names>J. P. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Taufer</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Enhancing reproducibility for computational methods</article-title>. <source>Science</source>, <volume>354</volume>, <fpage>1240</fpage>–<lpage>1241</lpage>.<pub-id pub-id-type="pmid">27940837</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aah6168</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0079"><mixed-citation publication-type="journal" id="cobi13835-cit-0079">
+<string-name name-style="western">
+<surname>Sullivan</surname>, <given-names>B. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Phillips</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dayer</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wood</surname>, <given-names>C. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farnsworth</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iliff</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davies</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiggins</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fink</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hochachka</surname>, <given-names>W. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodewald</surname>, <given-names>A. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosenberg</surname>, <given-names>K. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonney</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kelling</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Using open access observational data for conservation action: A case study for birds</article-title>. <source>Biological Conservation</source>, <volume>208</volume>, <fpage>5</fpage>–<lpage>14</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0080"><mixed-citation publication-type="journal" id="cobi13835-cit-0080">
+<string-name name-style="western">
+<surname>Tai</surname>, <given-names>T. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Robinson</surname>, <given-names>J. P. W.</given-names>
+</string-name> (<year>2018</year>). <article-title>Enhancing climate change research with open science</article-title>. <source>Frontiers in Environmental Science</source>, <volume>6</volume>, <fpage>115</fpage>.</mixed-citation></ref><ref id="cobi13835-bib-0081"><mixed-citation publication-type="journal" id="cobi13835-cit-0081">
+<string-name name-style="western">
+<surname>Tennant</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waldner</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jacques</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Masuzzo</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Collister</surname>, <given-names>L B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hartgerink</surname>, <given-names>C. H. J.</given-names>
+</string-name> (<year>2016</year>). <article-title>The academic, economic and societal impacts of open access: An evidence‐based review</article-title>. <source>F1000Research</source>, <volume>5</volume>, <fpage>632</fpage>–<lpage>632</lpage>.<pub-id pub-id-type="pmid">27158456</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.12688/f1000research.8460.1</pub-id><pub-id pub-id-type="pmcid">PMC4837983</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0082"><mixed-citation publication-type="journal" id="cobi13835-cit-0082">
+<string-name name-style="western">
+<surname>Tenopir</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allard</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Douglass</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aydinoglu</surname>, <given-names>A. U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Read</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manoff</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Frame</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Data sharing by scientists: Practices and perceptions</article-title>. <source>PLoS One</source>, <volume>6</volume>, <elocation-id>e21101</elocation-id>.<pub-id pub-id-type="pmid">21738610</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0021101</pub-id><pub-id pub-id-type="pmcid">PMC3126798</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0083"><mixed-citation publication-type="journal" id="cobi13835-cit-0083">
+<string-name name-style="western">
+<surname>Tenopir</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dalton</surname>, <given-names>E. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allard</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frame</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pjesivac</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Birch</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pollock</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dorsett</surname>, <given-names>K.</given-names>
+</string-name> (<year>2015</year>). <article-title>Changes in data sharing and data reuse practices and perceptions among scientists worldwide</article-title>. <source>PLoS One</source>, <volume>10</volume>, <elocation-id>e0134826</elocation-id>.<pub-id pub-id-type="pmid">26308551</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0134826</pub-id><pub-id pub-id-type="pmcid">PMC4550246</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0084"><mixed-citation publication-type="journal" id="cobi13835-cit-0084">
+<string-name name-style="western">
+<surname>Turner</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rondinini</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pettorelli</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mora</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leidner</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Szantoi</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buchanan</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dech</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dwyer</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Herold</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koh</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leimgruber</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taubenboeck</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wegmann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Woodcock</surname>, <given-names>C.</given-names>
+</string-name> (<year>2015</year>). <article-title>Free and open‐access satellite data are key to biodiversity conservation</article-title>. <source>Biological Conservation</source>, <volume>182</volume>, <fpage>173</fpage>–<lpage>176</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0201"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0201">
+<collab collab-type="authors">UNESCO</collab>
+(<year>2019</year>). <article-title>Recommendation on Open Educational Resources (OER)</article-title>. Available from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://portal.unesco.org/en/ev.php-URL_ID=49556&amp;URL_DO=DO_TOPIC&amp;URL_SECTION=201.html" ext-link-type="uri">http://portal.unesco.org/en/ev.php‐URL_ID=49556&amp;URL_DO=DO_TOPIC&amp;URL_SECTION=201.html</ext-link>
+</mixed-citation></ref><ref id="cobi13835-bib-0085"><mixed-citation publication-type="journal" id="cobi13835-cit-0085">
+<string-name name-style="western">
+<surname>Walsh</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dicks</surname>, <given-names>L. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raymond</surname>, <given-names>C. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sutherland</surname>, <given-names>W. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>A typology of barriers and enablers of scientific evidence use in conservation practice</article-title>. <source>Journal of Environmental Management</source>, <volume>250</volume>, <elocation-id>109481</elocation-id>.<pub-id pub-id-type="pmid">31518795</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jenvman.2019.109481</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0086"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0086">
+<string-name name-style="western">
+<surname>Ware</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mabe</surname>, <given-names>M.</given-names>
+</string-name> (<year>2015</year>). <article-title>The STM report: An overview of scientific and scholarly journal publishing. DigitalCommons@University of Nebraska ‐ Lincoln. Available from</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://digitalcommons.unl.edu/scholcom/9/?utm_source=digitalcommons.unl.edu%2Fscholcom%2F9&amp;utm_medium=PDF&amp;utm_campaign=PDFCoverPages" ext-link-type="uri">https://digitalcommons.unl.edu/scholcom/9/?utm_source=digitalcommons.unl.edu%2Fscholcom%2F9&amp;utm_medium=PDF&amp;utm_campaign=PDFCoverPages</ext-link>
+</mixed-citation></ref><ref id="cobi13835-bib-0087"><mixed-citation publication-type="journal" id="cobi13835-cit-0087">
+<string-name name-style="western">
+<surname>White</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baldridge</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brym</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Locey</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mcglinn</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Supp</surname>, <given-names>S.</given-names>
+</string-name> (<year>2013</year>). <article-title>Nine simple ways to make it easier to (re) use your data</article-title>. <source>Ideas in Ecology and Evolution</source>, <volume>6</volume>, <fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0088"><mixed-citation publication-type="journal" id="cobi13835-cit-0088">
+<string-name name-style="western">
+<surname>Whitehead</surname>, <given-names>A. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Booker</surname>, <given-names>D. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Communicating biophysical conditions across New Zealand's rivers using an interactive webtool</article-title>. <source>New Zealand Journal of Marine and Freshwater Research</source>, <volume>53</volume>, <fpage>278</fpage>–<lpage>287</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0089"><mixed-citation publication-type="journal" id="cobi13835-cit-0089">
+<string-name name-style="western">
+<surname>Wilkinson</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dumontier</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aalbersberg</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Appleton</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Axton</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baak</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blomberg</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boiten</surname>, <given-names>J. ‐. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Da Silva Santos</surname>, <given-names>L. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bourne</surname>, <given-names>P E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bouwman</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brookes</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clark</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crosas</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dillo</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dumon</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edmunds</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evelo</surname>, <given-names>C. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Finkers</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gonzalez‐Beltran</surname>, <given-names>A.</given-names>
+</string-name> (<year>2016</year>). <article-title>The FAIR Guiding Principles for scientific data management and stewardship</article-title>. <source>Scientific Data</source>, <volume>3</volume>, <elocation-id>160018</elocation-id>.<pub-id pub-id-type="pmid">26978244</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2016.18</pub-id><pub-id pub-id-type="pmcid">PMC4792175</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0090"><mixed-citation publication-type="journal" id="cobi13835-cit-0090">
+<string-name name-style="western">
+<surname>Willinsky</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rusk</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>If research libraries and funders finance open access: Moving beyond subscriptions and APCs</article-title>. <source>College &amp; Research Libraries</source>, <volume>80</volume>, <fpage>340</fpage>.</mixed-citation></ref><ref id="cobi13835-bib-0091"><mixed-citation publication-type="journal" id="cobi13835-cit-0091">
+<string-name name-style="western">
+<surname>Wong</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ballegooyen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ignace</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>M. J. G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Swanson</surname>, <given-names>H.</given-names>
+</string-name> (<year>2020</year>). <article-title>Towards reconciliation: 10 Calls to Action to natural scientists working in Canada</article-title>. <source>FACETS</source>, <volume>5</volume>, <fpage>769</fpage>–<lpage>783</lpage>.</mixed-citation></ref><ref id="cobi13835-bib-0092"><mixed-citation publication-type="journal" id="cobi13835-cit-0092">
+<string-name name-style="western">
+<surname>Young</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corriveau</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>, <given-names>V. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>S. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hinch</surname>, <given-names>S. G.</given-names>
+</string-name> (<year>2016</year>). <article-title>How do potential knowledge users evaluate new claims about a contested resource? Problems of power and politics in knowledge exchange and mobilization</article-title>. <source>Journal of Environmental Management</source>, <volume>184</volume>, <fpage>380</fpage>–<lpage>388</lpage>.<pub-id pub-id-type="pmid">27745770</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jenvman.2016.10.006</pub-id></mixed-citation></ref><ref id="cobi13835-bib-0093"><mixed-citation publication-type="miscellaneous" id="cobi13835-cit-0093">
+<string-name name-style="western">
+<surname>Yuan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>MacNeill</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kraan</surname>, <given-names>W. G.</given-names>
+</string-name> (<year>2008</year>). <article-title>Open educational resources—Opportunities and challenges for higher education</article-title>. Educational Cybernetics: Reports, Paper 1. Available from: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://digitalcommons.bolton.ac.uk/iec_reports/1" ext-link-type="uri">http://digitalcommons.bolton.ac.uk/iec_reports/1</ext-link>
+</mixed-citation></ref></ref-list></back></article>

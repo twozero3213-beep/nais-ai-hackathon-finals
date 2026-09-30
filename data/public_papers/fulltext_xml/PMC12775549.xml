@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-title-group><journal-title>The Journal of Animal Ecology</journal-title><abbrev-journal-title>J Anim Ecol</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12775549</article-id><article-id pub-id-type="pmcaid">12775549</article-id><article-id pub-id-type="pmcaiid">12775549</article-id><article-id pub-id-type="pmid">40842109</article-id><article-id pub-id-type="doi">10.1111/1365-2656.70117</article-id><title-group><article-title>Life history induces markedly divergent insect responses to habitat loss</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Colares</surname><given-names initials="LF">Lucas F</given-names></name><xref ref-type="aff" rid="jane70117-aff-0001">1</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib><contrib><name name-style="western"><surname>Peres</surname><given-names initials="CA">Carlos A</given-names></name><xref ref-type="aff" rid="jane70117-aff-0002">2</xref><xref ref-type="aff" rid="jane70117-aff-0003">3</xref></contrib><contrib><name name-style="western"><surname>Dambros</surname><given-names initials="CS">Cristian S</given-names></name><xref ref-type="aff" rid="jane70117-aff-0001">1</xref></contrib></contrib-group><aff id="jane70117-aff-0001"><label>
+<sup>1</sup>
+</label>Programa de Pós‐Graduação em Biodiversidade Animal, Laboratório de Ecologia Teórica e Aplicada, Centro de Ciências Naturais e Exatas, Universidade Federal de Santa Maria, Santa Maria, Rio Grande do Sul, Brazil</aff><aff id="jane70117-aff-0002"><label>
+<sup>2</sup>
+</label>School of Environmental Sciences, University of East Anglia, Norwich, UK</aff><aff id="jane70117-aff-0003"><label>
+<sup>3</sup>
+</label>Instituto Juruá, Manaus, Brazil</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+<bold>Correspondence</bold>
+, 
+Lucas F. Colares, 
+Email: 
+
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>21</day><month>8</month><year>2025</year></pub-date><volume>95</volume><issue>1</issue><fpage>54</fpage><page-range>54–64</page-range><pub-history><event event-type="pmc-release"><date><day>8</day><month>1</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2025 The Author(s). <italic>Journal of Animal Ecology</italic> published by John Wiley &amp; Sons Ltd on behalf of British Ecological Society.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JANE-95-54.pdf" content-type="pmc-pdf"><?cloudpmc-path 91e6/12775549/470c4deb5c04/JANE-95-54.pdf?><?cloudpmc-bucket app?><?size 3549445?></self-uri><abstract id="abstract1"><title>Abstract</title>
+<list list-type="order" id="jane70117-list-0001"><list-item id="jane70117-li-0001"><p>Habitat loss poses a major threat to tropical biodiversity, but its effects on distinct taxa remain unclear. Furthermore, most studies have failed to investigate the effects of habitat loss for taxa with contrasting life histories, potentially underestimating those impacts.</p></list-item><list-item id="jane70117-li-0002"><p>Here, using an unprecedented sampling effort, we investigated the effects of forest amount on the diversity, composition and size structure of Amazonian terrestrial and aquatic insects.</p></list-item><list-item id="jane70117-li-0003"><p>We sampled the insect fauna across Earth's largest man‐made forest archipelago 36 years after impoundment (Balbina reservoir, Central Amazon, Brazil) using 236 sticky traps placed on forest islands, the open‐water matrix and adjacent continuous forests. Using fivefold cross‐validated computer vision models, we identified and measured 22,471 individual insects. To consider sampling bias on diversity estimation, we used individual‐based rarefaction to partition diversity into components that explained community evenness and regional species pool size. We also applied coverage‐based rarefaction to estimate changes in community composition, reducing potential bias.</p></list-item><list-item id="jane70117-li-0004"><p>Low forest amount led to low dominance of terrestrial insects; conversely, it boosted populations of aquatic insects. We report similar effects of forest cover on regional species pool size of aquatic and terrestrial insects, highlighting the importance of large tracts of forest within the landscape to foster diverse communities. Large terrestrial insects were most likely to disperse across the inhospitable floodwater matrix compared to their smaller counterparts.</p></list-item><list-item id="jane70117-li-0005"><p>Future studies should consider multi‐taxa approaches to properly quantify impact estimates of land‐use change on biodiversity, which can diverge widely depending on species life history traits. Generalizations and any target conservation action cannot be made without explicitly considering how forest cover can affect species depending on their life history traits.</p></list-item></list>
+<sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> Amazon, artificial intelligence, Balbina, body size, deep learning, fragmentation</p></sec></abstract><abstract id="abstract2" abstract-type="graphical"><p>This study pioneers the use of deep learning to rapidly assess over 22,000 Amazonian insects, revealing life history‐dependent winners and losers from forest loss. It shows that terrestrial insects decline while aquatic insects thrive, with body size influencing dispersal, offering key insights for biodiversity conservation in tropical fragmented landscapes.</p><boxed-text id="jane70117-blkfxd-0001" position="anchor"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="JANE-95-54-g004.jpg"><?cloudpmc-path blobs/91e6/12775549/7359363841e6/JANE-95-54-g004.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 90?><?original-width 180?><?scaled-height 90?><?scaled-width 180?></graphic></boxed-text></abstract><trans-abstract id="trans-abstract1" xml:lang="pt"><title>Resum</title>
+<list list-type="order" id="jane70117-list-0002"><list-item id="jane70117-li-0006"><p>A perda de habitat representa uma grande ameaça à biodiversidade tropical, mas seus efeitos sobre diferentes táxons ainda permanecem pouco claros. Além disso, a maioria dos estudos não investiga os impactos da perda de habitat em táxons com histórias de vida contrastantes, o que pode levar à subestimação desses efeitos.</p></list-item><list-item id="jane70117-li-0007"><p>Neste estudo, utilizando um esforço amostral sem precedentes, investigamos os efeitos da quantidade de floresta sobre a diversidade, composição e estrutura de tamanho de insetos terrestres e aquáticos da Amazônia.</p></list-item><list-item id="jane70117-li-0008"><p>Amostramos a fauna de insetos no maior arquipélago florestal artificial do planeta, 36 anos após o represamento (reservatório de Balbina, Amazônia Central, Brasil), utilizando 236 armadilhas adesivas distribuídas em ilhas florestais, na matriz alagada e em florestas contínuas adjacentes. Usando modelos de visão computacional, identificamos e mensuramos 22.471 indivíduos de insetos. Para corrigir vieses amostrais na estimativa de diversidade, utilizamos rarefação para particionar a diversidade em componentes relacionados à equitabilidade das comunidades, ao tamanho regional do conjunto de espécies e para estimar mudanças na composição das comunidades.</p></list-item><list-item id="jane70117-li-0009"><p>Baixa cobertura florestal resultou em menor dominância de insetos terrestres, mas, por outro lado, favoreceu populações de insetos aquáticos. Observamos efeitos similares da cobertura florestal sobre o tamanho do conjunto regional de espécies de insetos aquáticos e terrestres, ressaltando a importância de grandes extensões de floresta na paisagem para manter comunidades diversas. Insetos terrestres de maior porte mostraram maior probabilidade de dispersar pela inóspita matriz alagada em comparação com os insetos menores.</p></list-item><list-item id="jane70117-li-0010"><p>Estudos futuros devem adotar abordagens multi‐táxon para estimar adequadamente os impactos das mudanças no uso da terra sobre a biodiversidade, já que esses efeitos podem variar amplamente dependendo das características de história de vida das espécies. Generalizações e ações de conservação direcionadas não podem ser formuladas sem considerar explicitamente como a cobertura florestal afeta espécies com diferentes estratégias ecológicas.</p></list-item></list>
+</trans-abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2024 Nov 24; Accepted 2025 Jul 21; Issue date 2026 Jan.</p></sec></notes></front><body><sec id="jane70117-sec-0001" disp-level="1"><label>1.</label><title>INTRODUCTION</title><p>Habitat loss is arguably the most critical threat to insect populations in the Anthropocene (Maxwell et al., <xref rid="jane70117-bib-0024" ref-type="bibr">2016</xref>; Wagner et al., <xref rid="jane70117-bib-0045" ref-type="bibr">2021</xref>), leading to extinction rates as high as 1000 times the background rates (He &amp; Hubbell, <xref rid="jane70117-bib-0017" ref-type="bibr">2011</xref>; Millennium Ecosystem Assessment, <xref rid="jane70117-bib-0027" ref-type="bibr">2005</xref>). In rapidly declining terrestrial ecosystems in hyper‐diverse tropical regions, this results in changes in species richness (Palmeirim et al., <xref rid="jane70117-bib-0030" ref-type="bibr">2019</xref>), occupancy (Thornton et al., <xref rid="jane70117-bib-0041" ref-type="bibr">2011</xref>) and functional composition (Arasa‐Gisbert et al., <xref rid="jane70117-bib-0002" ref-type="bibr">2022</xref>). However, the true impact of habitat loss on insect population density may have been significantly underestimated, mainly because studies typically fail to consider how different life history traits can affect biodiversity patterns (Stuber &amp; Gruber, <xref rid="jane70117-bib-0040" ref-type="bibr">2020</xref>). (Jackson &amp; Fahrig, <xref rid="jane70117-bib-0019" ref-type="bibr">2015</xref>). Studies conducted at small geographic scales (e.g. local scale) tend to find that resource availability and environmental settings required for viable settlement are crucial (Fernández‐Chacón et al., <xref rid="jane70117-bib-0015" ref-type="bibr">2014</xref>). At broad geographic scales (e.g. landscape scale), isolation and landscape‐scale habitat amount become increasingly important for area‐sensitive taxa but may impact tolerant taxa in different ways (Benchimol &amp; Peres, <xref rid="jane70117-bib-0003" ref-type="bibr">2015</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>; van Klink et al., <xref rid="jane70117-bib-0043" ref-type="bibr">2020</xref>).</p><p>
+<sc>h</sc>abitat loss at the landscape scale results in more isolated remaining habitat patches (Fahrig, <xref rid="jane70117-bib-0013" ref-type="bibr">2013</xref>; Watling et al., <xref rid="jane70117-bib-0047" ref-type="bibr">2020</xref>) because of both greater distances from source populations and reduced habitat amount surrounding those patches (Fahrig, <xref rid="jane70117-bib-0013" ref-type="bibr">2013</xref>; Watling et al., <xref rid="jane70117-bib-0047" ref-type="bibr">2020</xref>). <sc>g</sc>reater isolation contributes to species‐poor habitat remnants through higher exposure to edge effects (Benchimol &amp; Peres, <xref rid="jane70117-bib-0003" ref-type="bibr">2015</xref>), genetic drift (MacArthur &amp; Wilson, <xref rid="jane70117-bib-0052" ref-type="bibr">1969</xref>), disruption in food webs (Palmeirim et al., <xref rid="jane70117-bib-0029" ref-type="bibr">2021</xref>) and changes in species and trait composition (Arasa‐Gisbert et al., <xref rid="jane70117-bib-0002" ref-type="bibr">2022</xref>; Benchimol &amp; Peres, <xref rid="jane70117-bib-0003" ref-type="bibr">2015</xref>). While many taxa are extirpated in this process, some may thrive under those newly modified conditions (McKinney &amp; Lockwood, <xref rid="jane70117-bib-0025" ref-type="bibr">1999</xref>). Ecomorphological traits largely determine which taxa either ‘win’ or ‘lose’, as they define the nature of interactions with the underlying habitat mosaic (Arasa‐Gisbert et al., <xref rid="jane70117-bib-0002" ref-type="bibr">2022</xref>; McKinney &amp; Lockwood, <xref rid="jane70117-bib-0025" ref-type="bibr">1999</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>). In other words, different taxa could show highly divergent responses to habitat loss. For instance, large‐bodied taxa are often more vagrant, and therefore can easily traverse vast inhospitable matrix areas to reach suitable habitat patches; conversely, smaller, dispersal‐limited and microclimate‐sensitive taxa may be highly susceptible to population declines and local extinction events once confined to isolated habitat remnants (Bie et al., <xref rid="jane70117-bib-0004" ref-type="bibr">2012</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>).</p><p>Although most organisms often play essential ecological roles, insects surpass other taxa in their importance to ecosystem functioning due to their high diversity, exceptional overall abundance and biomass and distinct life history (Rafael et al., <xref rid="jane70117-bib-0032" ref-type="bibr">2012</xref>; Wagner et al., <xref rid="jane70117-bib-0045" ref-type="bibr">2021</xref>; Wong et al., <xref rid="jane70117-bib-0050" ref-type="bibr">2019</xref>). Insects comprise over 80% of all multicellular species, represent the most diverse phylum of plants and animals and the combined biomass of some 20 quadrillion ants alone exceed that of all wild birds and mammals (Schultheiss et al., <xref rid="jane70117-bib-0034" ref-type="bibr">2022</xref>). Insects play vital roles in ecosystem functions, such as pollination, pest control and detritus removal, yet concentrate the largest Eltonian shortfall (Rafael et al., <xref rid="jane70117-bib-0032" ref-type="bibr">2012</xref>; Wong et al., <xref rid="jane70117-bib-0050" ref-type="bibr">2019</xref>). Although insects have been famously referred to as ‘little things that run the world’ (Wilson, <xref rid="jane70117-bib-0049" ref-type="bibr">1987</xref>), they are often overlooked in conservation ecology studies due to their unwieldy diversity, relative obscurity and sheer abundance, all of which present intractable sampling and identification challenges. However, time is rapidly running out to understand insect responses to habitat loss and isolation due to long‐term declines in insect populations worldwide, if not ‘Insect Armageddon’ (Wagner et al., <xref rid="jane70117-bib-0045" ref-type="bibr">2021</xref>).</p><p>Here, we investigate community‐wide responses of flying insects characterized by different life history traits to tropical old‐growth forest loss within a vast archipelagic landscape of Central Amazonia. To achieve this, we trained a deep learning network to automatically identify and measure 22,471 individual insects captured on 236 sticky traps distributed across a ~360,350‐ha study area. We classified insects into two major functional groups based on their life cycles: (1) terrestrial insects; and (2) aquatic insects that depend on water during at least one stage of their ontogeny. (Jackson &amp; Fahrig, <xref rid="jane70117-bib-0019" ref-type="bibr">2015</xref>; Stuber &amp; Gruber, <xref rid="jane70117-bib-0040" ref-type="bibr">2020</xref>) We expected insect assemblages throughout the wider and often more isolated open‐water matrix of the Balbina archipelago to be, on average, larger‐bodied than their counterparts in highly forested landscapes, regardless of their life history cycles. This assumption is based on previous evidence that large‐bodied flying insects are typically conferred high dispersal capacities (Bie et al., <xref rid="jane70117-bib-0004" ref-type="bibr">2012</xref>; Greenleaf et al., <xref rid="jane70117-bib-0016" ref-type="bibr">2007</xref>).</p></sec><sec id="jane70117-sec-0002" disp-level="1"><label>2.</label><title>MATERIALS AND METHODS</title><sec id="jane70117-sec-0003" disp-level="2"><label>2.1.</label><title>Study area</title><p>This study was conducted at the Balbina hydroelectric dam archipelago in the Central Brazilian Amazon. This vast archipelago contains 3546 islands ranging in size from 0.194 to ~4878 ha that were created simultaneously following the inundation of 251,216 ha of pristine forest along the Uatumã River in 1986. Forest islands in the reservoir are thus surrounded by a freshwater matrix punctuated by a necromass of old‐growth tree snags rising above the floodwaters, as the vegetation was not cleared prior to the impoundment (Fearnside, <xref rid="jane70117-bib-0014" ref-type="bibr">1989</xref>). The reservoir reaches 30 m in depth, experiences a mean rainfall regime of 2376 mm/year, a mean annual temperature of ~28°C and the vegetation on the islands is dense, with an average of 143 trees ≥10 cm of diameter at breast height ha<sup>−1</sup> (Benchimol &amp; Peres, <xref rid="jane70117-bib-0003" ref-type="bibr">2015</xref>). To mitigate the effects of habitat loss, the adjacent forest areas were protected in 1990 with the creation of the ~940,000 ha Uatumã Biological Reserve, the largest terrestrial protected area of this type in Brazil (ICMBio, <xref rid="jane70117-bib-0018" ref-type="bibr">2002</xref>).</p></sec><sec id="jane70117-sec-0004" disp-level="2"><label>2.2.</label><title>Insect sampling</title><p>From October to November 2021, we distributed 236 rectangular (20 cm × 15 cm) double‐sided yellow sticky traps (E‐Know Fruit Fly Outdoor© traps; Figure <xref rid="jane70117-fig-0001" ref-type="fig">1a</xref>) on 17 forest islands (72 traps), the wider open‐water matrix (119 traps) and 3 continuous upland (<italic>terra firme</italic>) forest sites (45 traps) in the mainland surrounding the Balbina reservoir (Figure <xref rid="jane70117-fig-0001" ref-type="fig">1</xref>). Each trap was exposed over a period of 24 consecutive hours before it was collected to avoid overcrowding. Then, traps were photographed on both sides and preserved in 96% ethanol. Each trap therefore had a two‐sided trapping area of 600 cm<sup>2</sup>, which amounted to a total effort of 14,400 cm<sup>2</sup> sampled per hour over each day/night. The 24‐h exposure period was more than sufficient to saturate the surface area of several sticky traps (Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S1</xref>). On each island, we installed, wherever possible, five sticky traps every 100 m along an edge‐to‐core forest transect from the island perimeter to 500 m inland. For islands larger than 500 ha, we sampled two different 500 m transects on opposite sides of the island. For islands smaller than 125 ha, we sampled a single edge‐to‐core transect containing five evenly spaced traps. Finally, for islands smaller than 2.5 ha, we placed three evenly spaced traps along an edge‐to‐edge transect. For the open‐water matrix, we designed and built a floating sticky trap model, consisting of five polystyrene sheets perforated by wooden sticks (see Figure <xref rid="jane70117-fig-0001" ref-type="fig">1b</xref>) to sample a linear aquatic transect comprised of eight floating traps that were spaced apart from each focal island along a quasi‐log distance scale (i.e. 10, 30, 80, 200, 500, 1000, 2000 and 4000 m; Figure <xref rid="jane70117-fig-0001" ref-type="fig">1</xref>). These traps were tightly anchored to the bottom of the reservoir lake, thereby remaining stationary. At each mainland continuous forest site, we distributed five evenly spaced traps along eight 500 m forest transects, with each forest transect 500 m apart from each other. Our study required no ethics approval, following the guidelines of Brazilian law number 11,794/2008. All permits for biological sampling in conservation units were appropriately granted by the Chico Mendes Brazilian Institute for Biodiversity Conservation under licence #79466.</p><fig id="jane70117-fig-0001" position="float"><?disp-level 3?><label>FIGURE 1</label><caption><p>Geographic location of the 236 terrestrial and aquatic sticky traps distributed across 17 widely spaced islands and 3 continuous forest sites within the Balbina archipelagic landscape, Brazil. Main panel illustrates the positioning of sticky traps at (a) island (red circles) and continuous forest sites (green circles) and (b) the open‐water matrix of the reservoir lake (blue circles). Bottom panels illustrate the spacing between sticky traps along (c) the forest and (d) open‐water transects as well as the 100‐m landscape size used to extract forest cover.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="JANE-95-54-g001.jpg"><?cloudpmc-path blobs/91e6/12775549/2e0ce6df6c54/JANE-95-54-g001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 923?><?original-width 1064?><?scaled-height 615?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="JANE-95-54-g001.gif"><?cloudpmc-path blobs/91e6/12775549/149349247361/JANE-95-54-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="jane70117-sec-0005" disp-level="2"><label>2.3.</label><title>Image post‐processing and taxonomic identification</title><p>We used a deep learning model network to perform an object detection task on standardized images derived from all sticky traps. Using a DMC‐FZ60 Panasonic camera, we photographed both sides of the 236 sticky traps at a fixed distance from each trap panel, resulting in 472 photos. We implemented an automatic image segmentation pipeline, as described in Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S2</xref>, to differentiate between the yellow background (i.e. the sticky‐trap) and the foreground (i.e. potential individual insects) of each image. We further segmented these 472 images into 14,090 smaller pieces to zoom into all individual insects (see examples at Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S3</xref>) captured and avoid the problem of small object detection commonly encountered in object detection tasks (Tong et al., <xref rid="jane70117-bib-0042" ref-type="bibr">2020</xref>). From these 14,090 sub‐images, we selected 999 to train and validate our object detection model. For those 999 images, we drew a boundary box around each individual insect, extracted its x, y coordinate and assigned its taxonomic order or subfamily in a process termed ‘annotation’.</p><p>In total, we annotated 1568 individuals and assigned their higher‐level taxonomic resolution as follows: Blattaria (i.e. cockroaches; 3 ind.), Brachycera (i.e. midge flies; 213 ind.), Coleoptera (i.e. beetles; 205 ind.), Ephemeroptera (i.e. mayflies; 213 ind.), Hemiptera (i.e. mostly cicadas; 269 ind.), Hymenoptera (bees and wasps; 217 ind.), Isoptera (i.e. termites; 16 ind.), Lepidoptera (i.e. butterflies; 29 ind.), Nematocera (i.e. mosquitoes; 298 ind.), Odonata (i.e. dragonflies; 22 ind.), Orthoptera (i.e. grasshoppers; 7 ind.), Plecoptera (i.e. stoneflies; 12 ind.) and Trichoptera (i.e. caddisflies; 34 ind.). We used high‐level taxonomic resolution to assess biodiversity to ensure a rapid and spatially comprehensive flying insect inventory. This is not necessarily a limitation; as previous studies have shown congruent results with lower taxonomic resolution such as genera and species (de Oliveira et al., <xref rid="jane70117-bib-0010" ref-type="bibr">2020</xref>).</p><p>To train and validate our deep learning model, we divided 999 annotated images into training and test datasets, with 798 images (80%) allocated for training and 201 images (20%) for testing. Importantly, both datasets contained representative images from all taxonomic groups, ensuring balanced validation. We trained and performed fivefold cross‐validation using the extra‐large variant of the YOLO object detection model (YOLOv8; Redmon et al., <xref rid="jane70117-bib-0033" ref-type="bibr">2016</xref>) for 250 epochs, with a batch size of 50 and an input image size of 640 × 640 pixels. Epoch size was guided by the ‘patience’ metric embedded in the Ultralytics Python package (Jocher et al., <xref rid="jane70117-bib-0020" ref-type="bibr">2023</xref>). The use of fivefold cross‐validation ensured that each of the 999 images contributed to both training and testing, maximizing classification accuracy. Using these trained YOLOv8 models, we then conducted inference on all 472 photos obtained from sticky traps. Because small insects can be difficult to detect on large yellow sticky cards, we applied a Sliced Aided Hyper Inference (SAHI; Akyon et al., <xref rid="jane70117-bib-0001" ref-type="bibr">2022</xref>) approach to improve detection. SAHI enabled inference on smaller 500 × 500‐pixel tiles of the original high‐resolution images (4608 × 3465 pixels).</p><p>After performing inference, we calculated the Intersection over Union (IoU) for all detected objects across the five model folds. When multiple inferences overlapped with an IoU higher than 0.5, only the inference with the highest confidence score was retained. We then conducted a sensitivity analysis across all five models by simulating a range of confidence thresholds (0 to 0.99). At each threshold, we calculated performance metrics including recall (i.e. proportion of insects correctly identified), precision (i.e. proportion of true‐positives) and the <italic>F</italic>1 score (i.e. harmonic mean of accuracy and recall). For each taxonomic group and cross‐validation fold, we selected the optimal confidence threshold based on the highest accuracy value. This approach minimized false‐positives while maximizing the retention of correct inferences (Appendices <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S2</xref> and <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S3</xref>). We excluded predictions for non‐insect groups (e.g. spiders), as well as groups that either achieved their highest precision at a confidence threshold of 0 or had fewer than 30 training images, to reduce misclassification rates. This led to the removal of Odonata, Plecoptera, Blattaria, Isoptera, Lepidoptera, Araneae and Orthoptera. All models were trained using an © NVIDIA A100 GPU.</p><p>Following Rafael et al. (<xref rid="jane70117-bib-0032" ref-type="bibr">2012</xref>), the remaining seven taxonomic groups identified by our YOLOv8 deep learning model were classified as either terrestrial or aquatic based on the ontogeny of the majority species within each biological group. This classification allowed us to identify the role of life history on the effects of forest cover. Accordingly, if an insect experienced at least one aquatic life stage during its ontogeny, then it was assigned to an aquatic lifecycle; otherwise, it was assigned to a terrestrial lifecycle. We classified the following insect taxa as aquatic: Ephemeroptera, Nematocera and Trichoptera. We classified the following taxa as terrestrial: Brachycera, Coleoptera, Hemiptera and Hymenoptera.</p></sec><sec id="jane70117-sec-0006" disp-level="2"><label>2.4.</label><title>Biological metrics</title><p>As variation in species diversity can result from changes in either total abundance (the N‐component) or the regional species pool size (the SAD‐component; Engel et al., <xref rid="jane70117-bib-0011" ref-type="bibr">2022</xref>), we partitioned diversity into these two components. This approach uses the effective number of species transformation derived from individual‐based rarefaction curves, which are independent of sample size (Engel et al., <xref rid="jane70117-bib-0011" ref-type="bibr">2022</xref>). To construct our individual‐based rarefaction curves, we used a subsample size equal to the minimum number of individuals found in any sticky trap across the entire dataset (i.e. four individuals). Additionally, we included only those traps in which the total number of individuals exceeded the number of biological groups represented. We present results on the effects of forest cover for both diversity components (i.e. N and SAD) across the life history groups (i.e. terrestrial and aquatic insects). For further mathematical details on the calculation of the N and SAD components, see Engel et al. (<xref rid="jane70117-bib-0011" ref-type="bibr">2022</xref>).</p><p>To estimate changes in community composition and abundance, we performed two principal coordinates analyses (PCoA) to summarize variation in the occurrence and abundance of all biological groups (Legendre &amp; Legendre, <xref rid="jane70117-bib-0021" ref-type="bibr">2012</xref>). For abundance data, we used the Bray–Curtis distance, while for occurrence data we used the Jaccards distance (Legendre &amp; Legendre, <xref rid="jane70117-bib-0021" ref-type="bibr">2012</xref>). It is worth noting that PCoA has certain limitations when used to represent community composition, as it may not fully capture the underlying data structure. To address this, we complemented our analysis with a coverage‐based rarefaction approach to estimate beta diversity using the β<sub>C</sub> index (Engel et al., <xref rid="jane70117-bib-0012" ref-type="bibr">2021</xref>). This method applies null models to remove biases related to sample completeness and regional species pool size. β<sub>C</sub> was calculated separately for terrestrial and aquatic life cycle groups, allowing us to assess which group contributed most to compositional turnover across the Balbina archipelago. To ensure comparability between life cycle groups in β<sub>C</sub> calculations, we first computed the recommended maximum coverage (MC) value for each life cycle group and then standardized both MC values to the minimum value minus 0.01 (Engel et al., <xref rid="jane70117-bib-0012" ref-type="bibr">2021</xref>). While calculating β<sub>C</sub>, we used 99 samples per subset (from a total of 236 traps) and performed 9999 randomizations of the null model.</p><p>To represent the abundance of each taxon, we summed the occurrences of all individuals on both sides of each sticky trap, which resulted in a total abundance value for each trap for each of the 13 insect taxonomic groups. We measured the area of the bounding box (in pixels) for each inference and calculated the maximum bounding box area at each trap as a proxy of the largest individual recorded per taxon per trap (i.e. hereafter, body size). We tested for phylogenetic signal in the residuals of a global body size GAM model, structured as follows: <italic>size</italic> ~ <italic>forest</italic> * <italic>taxa</italic>, using the lambda method (i.e. Blomberg et al., <xref rid="jane70117-bib-0005" ref-type="bibr">2003</xref>) and found no support for phylogenetic signal (lambda = 0.000041, logL<sub>lambda</sub> = −41.26, LR<sub>lambda = 0</sub> = −0.0001, <italic>p</italic> = 1; following Misof et al., <xref rid="jane70117-bib-0028" ref-type="bibr">2014</xref> as reference to build a phylogenetic tree for insect groups).</p></sec><sec id="jane70117-sec-0007" disp-level="2"><label>2.5.</label><title>Landscape metrics</title><p>To estimate how habitat loss could affect the abundance and size structure of insect assemblages, we used classified georeferenced Landsat ETM+ scenes with a 30 m resolution from the Balbina archipelago for the year 2021, sourced from the MapBiomas database (Souza et al., <xref rid="jane70117-bib-0037" ref-type="bibr">2020</xref>). We calculated the proportion of forested pixels at 100 m sized circular buffers centred on each sticky trap (Figure <xref rid="jane70117-fig-0001" ref-type="fig">1c,d</xref>). We chose the 100‐m sized buffer as previous studies pointed to an acceptable buffer size for invertebrates, considering their limited dispersal in comparison to many vertebrate taxa (Jackson &amp; Fahrig, <xref rid="jane70117-bib-0019" ref-type="bibr">2015</xref>). However, we acknowledge that other buffer sizes can be relevant depending on each insect group's intrinsic dispersal abilities (Jackson &amp; Fahrig, <xref rid="jane70117-bib-0019" ref-type="bibr">2015</xref>; Miguet et al., <xref rid="jane70117-bib-0026" ref-type="bibr">2016</xref>). We calculated forest cover for the group of pixels corresponding to native forested vegetation in the landscape, including forest formation, savannah formation, mangrove, floodable forest and wooded sandbank vegetation (Souza et al., <xref rid="jane70117-bib-0037" ref-type="bibr">2020</xref>). The MapBiomas database consists of a comprehensive collection of land use classification in 29 different classes across Brazil and can be retrieved as GeoTIFF files from their online platform at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://brasil.mapbiomas.org/" ext-link-type="uri">https://brasil.mapbiomas.org/</ext-link> (Souza et al., <xref rid="jane70117-bib-0037" ref-type="bibr">2020</xref>).</p></sec><sec id="jane70117-sec-0008" disp-level="2"><label>2.6.</label><title>Data analysis</title><p>We assessed the effects of forest cover on insects using generalized additive models (GAMs) at two levels: lifecycle and taxonomic. At the lifecycle level, we examined how forest cover influences the N‐ and SAD‐components of diversity and the composition of aquatic and terrestrial insects, represented by the first axis of abundance‐ and occurrence‐based PCoAs. Models included the interaction between lifecycle category and forest cover as fixed effects. At the taxon level, we evaluated the effects of forest cover on the abundance and body size of seven insect groups (caddisflies, mayflies, mosquitoes, flies, beetles, cicadas and bees/wasps) across all traps. Due to overlapping trap‐scale buffers and potential spatial autocorrelation (Figure <xref rid="jane70117-fig-0001" ref-type="fig">1c,d</xref>), we included smoothed trap coordinates in the GAMs (Legendre &amp; Legendre, <xref rid="jane70117-bib-0021" ref-type="bibr">2012</xref>) and verified spatial independence using Moran's <italic>I</italic> (Moran, <xref rid="jane70117-bib-0053" ref-type="bibr">1950</xref>; Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S4</xref>). For model complexity, we tested 20 values for the number of knots (<italic>k</italic> = 1–20) and selected the model with the lowest AIC.</p><p>In total, we ran 80 GAMs at the lifecycle level (20 <italic>k</italic>‐values × 4 response variables: N, SAD, abundance‐ and occurrence‐based composition) using the structure: <italic>y ~ forest cover * lifecycle + s</italic>(<italic>coordinates</italic>). At the taxon level, we ran 280 GAMs (20 <italic>k</italic>‐values × 7 taxa × 2 response variables: abundance and body size) using: <italic>y</italic> ~ <italic>forest cover</italic> + <italic>s</italic>(<italic>coordinates</italic>). We used Gaussian distribution for GAMs involving diversity components and PCoAs; Poisson for taxon‐level abundance; and quasi‐Poisson for body size.</p><p>All data extraction, calculations and statistical analyses were performed in R (R Development Core Team, <xref rid="jane70117-bib-0031" ref-type="bibr">2020</xref>), with graphical outputs generated using the <italic>ggplot2</italic> package (Wickham, <xref rid="jane70117-bib-0048" ref-type="bibr">2011</xref>). We trained our fivefold YOLOv8 deep learning models in Python (Van Rossum &amp; Drake Jr, <xref rid="jane70117-bib-0044" ref-type="bibr">1995</xref>) using <italic>Ultralytics</italic> (Jocher et al., <xref rid="jane70117-bib-0020" ref-type="bibr">2023</xref>) and <italic>sahi</italic> (Akyon et al., <xref rid="jane70117-bib-0001" ref-type="bibr">2022</xref>) libraries. All R and Python code, along with the associated biological and landscape data, are available in a public GitHub repository (Colares, <xref rid="jane70117-bib-0008" ref-type="bibr">2025c</xref>). Full‐resolution images from the 472 sticky traps (Colares, <xref rid="jane70117-bib-0009" ref-type="bibr">2025d</xref>), the fivefold image dataset used for training (Colares, <xref rid="jane70117-bib-0006" ref-type="bibr">2025a</xref>) and the trained models for insect identification (Colares, <xref rid="jane70117-bib-0007" ref-type="bibr">2025b</xref>) are available on FigShare.</p></sec></sec><sec id="jane70117-sec-0009" disp-level="1"><label>3.</label><title>RESULTS</title><p>We identified and measured a total of 22,471 individual insects, of which 68.51% were mosquitoes (confidence threshold (<italic>mCT</italic>) = 0.88 mean ± 0.05 SD; mean average precision at 0.5 IoU (<italic>mAP</italic>
+<sub>
+<italic>0.5</italic>
+</sub>) = 0.79 mean ± 0.03 SD; precision (<italic>Pr</italic>) = 1 ± 0; recall (<italic>R</italic>) = 0.37 ± 0.17; <italic>F</italic>1 = 0.52 ± 0.21), 11.85% were mayflies (<italic>mCT</italic> = 0.92 ± 0.03; <italic>mAP</italic>
+<sub>0.5</sub> = 0.72 ± 0.08; <italic>Pr</italic> = 0.98 ± 0.05; <italic>R</italic> = 0.23 ± 0.17; <italic>F</italic>1 = 0.34 ± 0.23), 7.18% were cicadas (<italic>mCT</italic> = 0.94 ± 0.04; <italic>mAP</italic>
+<sub>0.5</sub> = 0.81 ± 0.03; <italic>Pr</italic> = 0.98 ± 0.04; <italic>R</italic> = 0.25 ± 0.27; <italic>F</italic>1 = 0.34 ± 0.27), 5.15% were flies (<italic>mCT</italic> = 0.93 ± 0.02; <italic>mAP</italic>
+<sub>0.5</sub> = 0.51 ± 0.26; <italic>Pr</italic> = 0.93 ± 0.11; <italic>R</italic> = 0.26 ± 0.13; <italic>F</italic>1 = 0.38 ± 0.14) and 3.82% belonged to beetles (<italic>mCT</italic> = 0.93 ± 0.02; <italic>mAP</italic>
+<sub>0.5</sub> = 0.82 ± 0.09; <italic>Pr</italic> = 1 ± 0; <italic>R</italic> = 0.47 ± 0.26; <italic>F</italic>1 = 0.61 ± 0.23). Hymenopterans (<italic>mCT</italic> = 0.94 ± 0.02; <italic>mAP</italic>
+<sub>0.5</sub> = 0.67 ± 0.08; <italic>Pr</italic> = 0.88 ± 0.19; <italic>R</italic> = 0.22 ± 0.24; <italic>F</italic>1 = 0.28 ± 0.26) and caddisflies (<italic>mCT</italic> = 0.87 ± 0.05; <italic>mAP</italic>
+<sub>0.5</sub> = 0.69 ± 0.07; <italic>Pr</italic> = 0.95 ± 0.11; <italic>R</italic> = 0.4 ± 0.15; <italic>F</italic>1 = 0.54 ± 0.13) represented together 3.47% of all insect records in our study (for the remaining validation metrics of our YOLOv8 models, see Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S2</xref>).</p><sec id="jane70117-sec-0010" disp-level="2"><label>3.1.</label><title>Lifecycle‐level responses</title><p>Forest amount increased the SAD component of insects regardless of their life cycle (<italic>b</italic> = 0.425, standard error = 0.093, <italic>t</italic> = 2.74, <italic>p</italic> &lt; 0.01; Figure <xref rid="jane70117-fig-0002" ref-type="fig">2a</xref>). Conversely, forest amount had a positive effect on the N‐component of terrestrial insects, but the opposite effect on the N‐component of aquatic taxa (<italic>b</italic>
+<sub>terrestrial</sub> = 1.36, standard error<sub>terrestrial</sub> = 0.14, <italic>t</italic>
+<sub>terrestrial</sub> = 9.72, <italic>p</italic>
+<sub>terrestrial</sub> &lt; 0.01; <italic>b</italic>
+<sub>aquatic</sub> = −0.93, standard error<sub>terrestrial</sub> = 0.1, <italic>t</italic>
+<sub>aquatic</sub> = −8.97, <italic>p</italic>
+<sub>aquatic</sub> &lt; 0.01; Figure <xref rid="jane70117-fig-0002" ref-type="fig">2b</xref>). Forest cover and lifecycle explained 50.9% and 28% of the deviance in the SAD and N components of insect diversity, respectively (Figure <xref rid="jane70117-fig-0002" ref-type="fig">2c,d</xref>; Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S5</xref>).</p><fig id="jane70117-fig-0002" position="float"><?disp-level 3?><label>FIGURE 2</label><caption><p>Effects of landscape‐scale proportion of forest cover on the effective number of groups (as returned by the individual‐based rarefaction) for the (a) SAD and (b) N components of diversity of both lifecycle groups (top panels). Green and blue lines and circles represent terrestrial and aquatic insects, respectively. Lines represent the direction of associations and grey shading their 95% confidence intervals.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-5" xlink:href="JANE-95-54-g005.jpg"><?cloudpmc-path blobs/91e6/12775549/21d968fc65bc/JANE-95-54-g005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 439?><?original-width 1064?><?scaled-height 293?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="JANE-95-54-g005.gif"><?cloudpmc-path blobs/91e6/12775549/ed27758063b0/JANE-95-54-g005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We evidenced marked changes in abundance‐based and occurrence‐based community composition driven by forest cover (adjusted <italic>R</italic>
+<sup>2</sup>
+<sub>abundance‐based</sub> = 0.77, <italic>b</italic>
+<sub>abundance‐based</sub> = 0.74, standard error<sub>abundance‐based</sub> = 0.03, <italic>t</italic>
+<sub>abundance‐based</sub> = 21.91, <italic>p</italic>
+<sub>abundance‐based</sub> &lt; 0.01; adjusted <italic>R</italic>
+<sup>2</sup>
+<sub>occurrence‐based</sub> = 0.43, <italic>b</italic>
+<sub>occurrence‐based</sub> = 0.29, standard error<sub>occurrence‐based</sub> = 0.02, <italic>t</italic>
+<sub>occurrence‐based</sub> = 11.85, <italic>p</italic>
+<sub>occurrence‐based</sub> &lt; 0.01; Figure <xref rid="jane70117-fig-0003" ref-type="fig">3b,c</xref>; Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S5</xref>). When forest cover increases in the landscape, insect occurrence‐based (Figure <xref rid="jane70117-fig-0003" ref-type="fig">3b</xref>) and abundance‐based (Figure <xref rid="jane70117-fig-0002" ref-type="fig">2c</xref>) composition shifts from a community dominated by aquatic insects to a terrestrial insect‐dominated community. Coverage‐based β‐diversity evidenced that such turnover is mainly due to changes in the distribution of aquatic insects rather than the terrestrial groups (Figure <xref rid="jane70117-fig-0002" ref-type="fig">2a</xref>).</p><fig id="jane70117-fig-0003" position="float"><?disp-level 3?><label>FIGURE 3</label><caption><p>Effects of landscape‐scale forest cover on insect community composition. Panel (a) show the distribution of the 9999 β<sub>C</sub> values for both terrestrial (green violins) and aquatic (blue violins) groups returned after coverage‐based rarefaction. In panel (a), the white point represents the mean estimation, while the lines represent its standard deviation. Panels (b and c) shows how (b) occurrence‐based and (c) abundance‐based composition changes from a terrestrial‐dominated to an aquatic‐dominated community (from left to right along the <italic>x</italic> axis) depending on the proportion of forest cover in a 100‐m landscape. In panels (b and c), circle size varies depending on forest cover around each trap, and circle colour represents the proportion of terrestrial (b) groups and (c) individuals captured in that specific trap.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-7" xlink:href="JANE-95-54-g006.jpg"><?cloudpmc-path blobs/91e6/12775549/85a6885ac540/JANE-95-54-g006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 342?><?original-width 1064?><?scaled-height 228?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="JANE-95-54-g006.gif"><?cloudpmc-path blobs/91e6/12775549/dce01bc20920/JANE-95-54-g006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="jane70117-sec-0011" disp-level="2"><label>3.2.</label><title>Taxon‐level patterns</title><p>The abundance of ubiquitous strictly terrestrial taxa (i.e. flies, beetles, cicadas, bees/wasps) was positively affected by overall forest cover (Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S6</xref>; Figure <xref rid="jane70117-fig-0004" ref-type="fig">4a–d</xref>). Conversely, aquatic insect abundance was negatively affected by higher forest cover (Figure <xref rid="jane70117-fig-0004" ref-type="fig">4e–g</xref>; Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S6</xref>). Forest cover explained 73%, 69%, 25%, 14%, 9%, 2% and 1% of the deviance in the abundance of cicadas, mosquitoes, caddisflies, bees/wasps, beetles, mayflies and flies, respectively (Figure <xref rid="jane70117-fig-0004" ref-type="fig">4</xref>).</p><fig id="jane70117-fig-0004" position="float"><?disp-level 3?><label>FIGURE 4</label><caption><p>Taxon‐specific responses to proportion of landscape‐scale forest cover are represented for numerical abundance (in log<sub>10</sub>
+<italic>x</italic>). Line colours and symbol shapes represent different taxa: closed circles are (a) bees and wasps, squares are (b) beetles, diamonds are (c) cicadas, triangles are (d) flies, upside‐down triangles are (e) caddisflies, asterisks are (f) mayflies, and open squares are (g) mosquitoes. Green and blue lines and symbols represent (a–d) terrestrial and (e–g) aquatic insects, respectively, and grey shading their 95% confident intervals.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-9" xlink:href="JANE-95-54-g002.jpg"><?cloudpmc-path blobs/91e6/12775549/3b9f850c339f/JANE-95-54-g002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 462?><?original-width 1064?><?scaled-height 308?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="JANE-95-54-g002.gif"><?cloudpmc-path blobs/91e6/12775549/555cc898be44/JANE-95-54-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We evidenced taxon‐specific body size responses to forest cover (Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S6</xref>; Figure <xref rid="jane70117-fig-0005" ref-type="fig">5c</xref>). Bees/wasps (Figure <xref rid="jane70117-fig-0005" ref-type="fig">5a</xref>; <italic>R</italic>
+<sup>2</sup>
+<sub>adj</sub> = 0.08), beetles (Figure <xref rid="jane70117-fig-0005" ref-type="fig">5b</xref>; <italic>R</italic>
+<sup>2</sup>
+<sub>adj</sub> = 0.01), flies (Figure <xref rid="jane70117-fig-0005" ref-type="fig">5c</xref>; <italic>R</italic>
+<sup>2</sup>
+<sub>adj</sub> = 0.02) and mayflies (Figure <xref rid="jane70117-fig-0005" ref-type="fig">5d</xref>; <italic>R</italic>
+<sup>2</sup>
+<sub>adj</sub> = 0.09) responded negatively to forest cover, and were all larger in highly deforested landscapes. We found no significant effects of forest cover on the body size of caddisflies, cicadas and mosquitoes (Appendix <xref rid="jane70117-supitem-0001" ref-type="supplementary-material">S6</xref>).</p><fig id="jane70117-fig-0005" position="float"><?disp-level 3?><label>FIGURE 5</label><caption><p>Taxon‐specific responses to the proportion of forest cover at the landscape scale are illustrated in terms of body size, measured as the area of the inference bounding box returned by the YOLOv8 models. Line colours and symbol shapes denote different taxa: green circles are (a) bees and wasps; green squares are (b) beetles; diamonds are (c) flies; and triangles are (d) mayflies. Green and blue lines and symbols represent terrestrial and aquatic insects, respectively, with shaded grey areas indicating their 95% confidence intervals.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-11" xlink:href="JANE-95-54-g003.jpg"><?cloudpmc-path blobs/91e6/12775549/2421829bde1d/JANE-95-54-g003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 896?><?original-width 1064?><?scaled-height 597?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="JANE-95-54-g003.gif"><?cloudpmc-path blobs/91e6/12775549/c7e608e89ae7/JANE-95-54-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="jane70117-sec-0012" disp-level="1"><label>4.</label><title>DISCUSSION</title><sec id="jane70117-sec-0013" disp-level="2"><label>4.1.</label><title>Lifecyle defines responses to forest loss</title><p>Here, we shed light on the importance of considering multiple taxa and their individual life history traits in identifying ‘winners’ and ‘losers’ due to forest loss in terms of population size, taxonomic diversity and composition responses. Although some taxa may thrive in the aftermath of habitat change, while other taxa may decline (McKinney &amp; Lockwood, <xref rid="jane70117-bib-0025" ref-type="bibr">1999</xref>), most terrestrial studies have focused on taxa for which forest loss has a detrimental impact on biodiversity (Arasa‐Gisbert et al., <xref rid="jane70117-bib-0002" ref-type="bibr">2022</xref>; Benchimol &amp; Peres, <xref rid="jane70117-bib-0003" ref-type="bibr">2015</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>). In the aftermath of tropical forest loss induced by a major dam, the Balbina archipelago experienced a marked surge in aquatic insect populations, while the terrestrial insect population within the vast freshwater matrix succumbed to a sharp decline, which is now evident after 36 years of impoundment.</p><p>The effects of forest loss on insect populations in the Balbina archipelago appear to reflect a ‘more‐individual’ effect (Engel et al., <xref rid="jane70117-bib-0012" ref-type="bibr">2021</xref>, <xref rid="jane70117-bib-0011" ref-type="bibr">2022</xref>), which suggests that observed diversity patterns may result from passive sampling during biological surveys. Under this effect, communities with higher local abundance tend to capture a larger portion of the regional species pool simply due to the greater number of individuals sampled (Engel et al., <xref rid="jane70117-bib-0011" ref-type="bibr">2022</xref>). The contrasting responses of aquatic and terrestrial insects with respect to the <italic>N</italic> component of diversity provide evidence for this phenomenon. In landscapes with low forest cover, insect communities are numerically dominated by aquatic taxa. We suggest that such a pattern arises from the dominance of a few species that have their abundance fostered by the alterations promoted by river impoundment (see Walker, <xref rid="jane70117-bib-0046" ref-type="bibr">2009</xref>). Conversely, highly forested landscapes are dominated by terrestrial insects, probably due to increased availability of food resources, nesting substrates and microhabitats that support larger terrestrial populations (Shipley et al., <xref rid="jane70117-bib-0035" ref-type="bibr">2023</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>; Wagner et al., <xref rid="jane70117-bib-0045" ref-type="bibr">2021</xref>).</p><p>Despite these divergent abundance patterns, both aquatic and terrestrial groups exhibited similar responses regarding the SAD component of diversity, which is influenced by the size of the regional species pool (Engel et al., <xref rid="jane70117-bib-0011" ref-type="bibr">2022</xref>). Thus, forest loss appears to increase overall diversity for both life cycle groups, aligning with findings from previous studies (Palmeirim et al., <xref rid="jane70117-bib-0029" ref-type="bibr">2021</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>; Watling et al., <xref rid="jane70117-bib-0047" ref-type="bibr">2020</xref>). While the shift from terrestrial to aquatic dominated communities may be expected in landscapes where habitats have been converted from terrestrial to freshwater, a global meta‐analysis showed a general long‐term rise in aquatic insect populations and a gradual decline of terrestrial insects in unprotected temperate regions, regardless of habitat type (van Klink et al., <xref rid="jane70117-bib-0043" ref-type="bibr">2020</xref>). While the results from previous studies in tropical regions remain inconclusive, our study provides compelling evidence that this pattern likely holds true for tropical areas experiencing forest loss as well. Despite this shift from terrestrial to aquatic insects, the few taxa that benefit from forest loss often fail to exert the same ecological roles of their many predecessor ‘loser’ counterparts, leading to shifts in functional composition and, consequently, ecosystem dynamics (Liu et al., <xref rid="jane70117-bib-0022" ref-type="bibr">2018</xref>).</p><p>This pattern of functional compositional shift is likely occurring in the Balbina Reservoir, where our findings revealed clear differences in taxonomic composition along a gradient of forest cover in the surrounding landscape. Forest loss following river impoundment has triggered a marked turnover in insect communities, with aquatic insect groups increasingly replacing terrestrial counterparts in areas with low forest cover. In highly forested landscapes, terrestrial invertebrates play essential ecological roles, providing services such as pollination, pest control, dung removal and regulation of other populations (Greenleaf et al., <xref rid="jane70117-bib-0016" ref-type="bibr">2007</xref>; Storck‐Tonon et al., <xref rid="jane70117-bib-0038" ref-type="bibr">2020</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>). However, the extensive freshwater matrix created by the reservoir acts as a dispersal barrier for many terrestrial insect species, limiting their movement and reducing the spillover of these critical ecosystem functions into deforested areas (Liu et al., <xref rid="jane70117-bib-0022" ref-type="bibr">2018</xref>; Matthews, <xref rid="jane70117-bib-0023" ref-type="bibr">2021</xref>; Shipley et al., <xref rid="jane70117-bib-0036" ref-type="bibr">2024</xref>). Otherwise, the dominance of a few opportunistic aquatic taxa in poorly forested landscapes, particularly mosquitoes, could lead to the proliferation of tropical diseases such as malaria and dengue fever (Millennium Ecosystem Assessment, <xref rid="jane70117-bib-0027" ref-type="bibr">2005</xref>; Yi et al., <xref rid="jane70117-bib-0051" ref-type="bibr">2014</xref>). This community turnover is primarily driven by changes in the abundance of aquatic insects, which can be seen as ecological ‘winners’ in the context of forest loss in the Balbina landscape. Unlike most terrestrial groups that lose habitat as deforestation occurs, these aquatic taxa gain new breeding grounds and expand their populations in the altered environment.</p><p>We showed that forest loss exerts divergent impacts on flying insects depending on a key morphological trait associated with many ecosystem functions: body size. While large‐bodied vagrant mayflies, flies, beetles, wasps, and bees were able to traverse the vast open‐water matrix over linear distances of as much as 4 km, their smaller‐bodied and presumably less vagile counterparts were restricted to the vicinities of dense forest cover (Figure <xref rid="jane70117-fig-0005" ref-type="fig">5</xref>). This indicates an ‘upsizing’ effect promoted by the hostile open‐water matrix to at least the forest affiliated insect fauna and a few groups of aquatic insects (i.e. mayflies). As such, large‐bodied insects accrued a landscape‐scale advantage in overcoming habitat isolation, presumably because flight endurance is positively associated with body size, wingspan and thorax muscle mass (Bie et al., <xref rid="jane70117-bib-0004" ref-type="bibr">2012</xref>; Greenleaf et al., <xref rid="jane70117-bib-0016" ref-type="bibr">2007</xref>; Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>).</p><p>Conversely, smaller‐bodied terrestrial insects are largely stranded on forest islands and mainland sites, reflecting a pattern previously shown for Euglossine bees (Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>). The loss of small insects may exert further effects on ecosystem functioning, as many small beetles, bees and wasps play important roles in nutrient cycling, pollination and population control through parasitism, respectively (Rafael et al., <xref rid="jane70117-bib-0032" ref-type="bibr">2012</xref>; Shipley et al., <xref rid="jane70117-bib-0036" ref-type="bibr">2024</xref>; Wong et al., <xref rid="jane70117-bib-0050" ref-type="bibr">2019</xref>). This highlights the importance of large tracts of forest within the landscape in maintaining the ecosystem services provided by insects across their entire size spectrum (Storck‐Tonon &amp; Peres, <xref rid="jane70117-bib-0039" ref-type="bibr">2017</xref>).</p></sec></sec><sec id="jane70117-sec-0014" disp-level="1"><label>5.</label><title>CONCLUSIONS</title><p>We unveil the nuanced impact of forest loss at a tropical freshwater–land interface on hyper‐diverse tropical insect communities, indicating life history‐dependent outcomes. We employed a methodological design that enabled rapid and spatially extensive sampling of insect communities using a low‐cost sampling method. Using deep learning, we achieved high‐resolution taxonomic identification and body size measurements for more than 22,000 insect individuals in record time (i.e. less than 6 months from field collection). While intrinsic limitations of our methods are evident, we provide compelling results on insect community assembly in response to forest loss.</p><p>Our results evidence that while the reduction of forest amount due to human disturbance decreased the number of terrestrial organisms, the number of aquatic insects increased. We also show that regional species pool size increases for both life cycle groups in highly forested landscapes, underscoring the importance of native habitat on the promotion of diverse insect communities. Larger‐bodied insects exhibit higher dispersal capacity. As a corollary, the incidence of small‐bodied insects with important ecological roles is potentially reduced in small, isolated islands or forest patches. Finally, we demonstrate that habitat loss has a strong effect on insect populations locally, at small landscape scales (i.e. 100 m). Future studies should build on our findings and recent advances in computer vision to move beyond current methods, applying rapid, low‐cost insect surveys at finer taxonomic resolutions (given the tremendous species diversity with the seven main groups we approached here). These findings advance our current understanding of the intricate interplay between habitat loss, species traits and ecosystem dynamics in tropical forest landscapes and pave the way for effective insect conservation efforts in our ever‐changing world.</p></sec><sec id="jane70117-sec-0015" disp-level="1"><title>AUTHOR CONTRIBUTIONS</title><p>All authors conceived the ideas, designed methodology, contributed critically to the drafts and gave final approval for publication; LFC collected and analysed the data and led the writing of the manuscript. Our study brings together solely Brazilian authors, two of whom were born in the Amazon. All authors were involved early in the research and study design to ensure that the diverse perspectives they represent were considered from the outset. When relevant, literature published by scientists from the region was cited. The local community and stakeholders of Balbina village participated in the field campaigns, and the first author carried out outreach initiatives at the local high school during these campaigns.</p></sec><sec id="jane70117-sec-0017" disp-level="1"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="sec17" disp-level="1"><title>Supporting information</title><supplementary-material id="jane70117-supitem-0001" position="float"><caption><p>
+<bold>Appendix S1.</bold> Sticky trap field images.</p><p>
+<bold>Appendix S2.</bold> Description of image treatment and object detection model.</p><p>
+<bold>Appendix S3.</bold> Samples of insect taxonomic identifications by our custom deep learning model.</p><p>
+<bold>Appendix S4.</bold> Moran's <italic>I</italic> result.</p><p>
+<bold>Appendix S5.</bold> Generalized Additive Models coefficients for the two diversity components (i.e., SAD and N) and composition of different lifecycle groups at nine landscape sizes.</p><p>
+<bold>Appendix S6.</bold> Generalized Additive Mixed Models coefficients for abundance and body size of different taxonomic groups at nine landscape sizes.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JANE-95-54-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 91e6/12775549/9e82ee7bd9fe/JANE-95-54-s001.docx?><?cloudpmc-bucket app?><?size 4826687?></media></supplementary-material></sec><sec id="jane70117-sec-0016" sec-type="ack" disp-level="1"><title>ACKNOWLEDGEMENTS</title><p>We sincerely thank Vitor Vargas and Renato Azevedo for field assistance, the Chico Mendes Institute of Biodiversity and the staff at REBIO Uatumã for logistical support, especially Gilmar Klein and Ketlen Macêdo. Leandro Juen, Fábio Farneda, Victor Arroyo‐Rodriguez, Mariana Bender, Marcelo Tabarelli, Mário Almeida‐Neto, Andressa Paladini and Marcelo Weber provided critical comments on earlier versions of the manuscript. This study was funded by a Rufford Foundation small grant awarded to LFC (35553‐1), and a National Geographic Society grant (NGS‐93497C‐22) awarded to CAP. This work used resources of the ‘Centro Nacional de Processamento de Alto Desempenho em São Paulo’ (CENAPAD‐SP) thanks to a grant awarded to LFC (proj965—# 237417). LFC was funded by a PhD studentship awarded by the Brazilian Science Council (CNPq) and Ministry of Education (CAPES). The Article Processing Charge for the publication of this research was funded by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior ‐ Brasil (CAPES) (ROR identifier: 00x0ma614).</p></sec><sec id="notes1" disp-level="1"><p>
+
+
+Colares, L. F.
+, 
+Peres, C. A.
+, &amp; 
+Dambros, C. S.
+ (2026). Life history induces markedly divergent insect responses to habitat loss. Journal of Animal Ecology, 95, 54–64. 10.1111/1365-2656.70117
+
+</p><sec id="jane70117-ntgp-0001" sec-type="fn-group" disp-level="2"><fn-group><fn id="jane70117-note-0001"><p>
+<bold>Handling Editor:</bold> Thiago Gonçalves‐Souza</p></fn></fn-group></sec></sec><sec id="jane70117-sec-0019" disp-level="1"><title>DATA AVAILABILITY STATEMENT</title><p>Processed data available from the Zenodo repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.15238078" ext-link-type="uri">https://doi.org/10.5281/zenodo.15238078</ext-link>; Colares, <xref rid="jane70117-bib-0008" ref-type="bibr">2025c</xref>). We also provide the raw images of the sticky traps (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.23823591" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.23823591</ext-link>; Colares, <xref rid="jane70117-bib-0009" ref-type="bibr">2025d</xref>), the fivefold dataset with insect images used for deep learning training (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28688198" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.28688198</ext-link>; Colares, <xref rid="jane70117-bib-0006" ref-type="bibr">2025a</xref>) and the five trained models to conduct inference on insect taxonomy using deep learning (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28820993" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.28820993</ext-link>; Colares, <xref rid="jane70117-bib-0007" ref-type="bibr">2025b</xref>).</p></sec><sec id="jane70117-bibl-0001" sec-type="ref-list" disp-level="1"><title>REFERENCES</title><sec id="jane70117-bibl-0001_sec2" disp-level="2"><ref-list><ref id="jane70117-bib-0001"><mixed-citation id="jane70117-cit-0001"><named-content content-type="citation-string">
+
+Akyon, F. C.
+, 
+Altinuc, S. O.
+, &amp; 
+Temizel, A.
+ (2022). Slicing aided hyper inference and fine‐tuning for small object detection. <italic>ArXiv</italic>. 10.48550/arXiv.2202.06934
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.48550/arXiv.2202.06934"/></mixed-citation></ref><ref id="jane70117-bib-0002"><mixed-citation id="jane70117-cit-0002"><named-content content-type="citation-string">
+
+Arasa‐Gisbert, R.
+, 
+Arroyo‐Rodríguez, V.
+, 
+Meave, J. A.
+, 
+Martínez‐Ramos, M.
+, &amp; 
+Lohbeck, M.
+ (2022). Forest loss and treeless matrices cause the functional impoverishment of sapling communities in old‐growth forest patches across tropical regions. Journal of Applied Ecology, 59(7), 1897–1910. 10.1111/1365-2664.14197
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1365-2664.14197"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Applied Ecology&amp;title=Forest loss and treeless matrices cause the functional impoverishment of sapling communities in old‐growth forest patches across tropical regions&amp;author=R. Arasa‐Gisbert&amp;author=V. Arroyo‐Rodríguez&amp;author=J. A. Meave&amp;author=M. Martínez‐Ramos&amp;author=M. Lohbeck&amp;volume=59&amp;issue=7&amp;publication_year=2022&amp;pages=1897-1910&amp;doi=10.1111/1365-2664.14197&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0003"><mixed-citation id="jane70117-cit-0003"><named-content content-type="citation-string">
+
+Benchimol, M.
+, &amp; 
+Peres, C. A.
+ (2015). Edge‐mediated compositional and functional decay of tree assemblages in Amazonian forest islands after 26 years of isolation. Journal of Ecology, 103(2), 408–420. 10.1111/1365-2745.12371
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1365-2745.12371"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Ecology&amp;title=Edge‐mediated compositional and functional decay of tree assemblages in Amazonian forest islands after 26 years of isolation&amp;author=M. Benchimol&amp;author=C. A. Peres&amp;volume=103&amp;issue=2&amp;publication_year=2015&amp;pages=408-420&amp;doi=10.1111/1365-2745.12371&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0004"><mixed-citation id="jane70117-cit-0004"><named-content content-type="citation-string">
+
+Bie, T.
+, 
+Meester, L.
+, 
+Brendonck, L.
+, 
+Martens, K.
+, 
+Goddeeris, B.
+, 
+Ercken, D.
+, 
+Hampel, H.
+, 
+Denys, L.
+, 
+Vanhecke, L.
+, 
+Gucht, K.
+, 
+Wichelen, J.
+, 
+Vyverman, W.
+, &amp; 
+Declerck, S. A. J.
+ (2012). Body size and dispersal mode as key traits determining metacommunity structure of aquatic organisms. Ecology Letters, 15(7), 740–747. 10.1111/j.1461-0248.2012.01794.x
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1461-0248.2012.01794.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22583795"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology Letters&amp;title=Body size and dispersal mode as key traits determining metacommunity structure of aquatic organisms&amp;author=T. Bie&amp;author=L. Meester&amp;author=L. Brendonck&amp;author=K. Martens&amp;author=B. Goddeeris&amp;volume=15&amp;issue=7&amp;publication_year=2012&amp;pages=740-747&amp;pmid=22583795&amp;doi=10.1111/j.1461-0248.2012.01794.x&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0005"><mixed-citation id="jane70117-cit-0005"><named-content content-type="citation-string">
+
+Blomberg, S. P.
+, 
+Garland, T.
+, &amp; 
+Ives, A. R.
+ (2003). Testing for phylogenetic signal in comparative data: Behavioral traits are more labile. Evolution, 57(4), 717–745. 10.1111/j.0014-3820.2003.tb00285.x
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.0014-3820.2003.tb00285.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12778543"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Evolution&amp;title=Testing for phylogenetic signal in comparative data: Behavioral traits are more labile&amp;author=S. P. Blomberg&amp;author=T. Garland&amp;author=A. R. Ives&amp;volume=57&amp;issue=4&amp;publication_year=2003&amp;pages=717-745&amp;pmid=12778543&amp;doi=10.1111/j.0014-3820.2003.tb00285.x&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0006"><mixed-citation id="jane70117-cit-0006"><named-content content-type="citation-string">
+
+Colares, L. F.
+ (2025a). 5‐fold dataset for deep learning training using insect images from sticky traps in Central Amazon. <italic>Figshare</italic>. 10.6084/m9.figshare.28688198
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.6084/m9.figshare.28688198"/></mixed-citation></ref><ref id="jane70117-bib-0007"><mixed-citation id="jane70117-cit-0007"><named-content content-type="citation-string">
+
+Colares, L. F.
+ (2025b). 5‐fold trained YOLOv8 models to identify insect orders from yellow sticky traps in Central Amazon. <italic>Figshare</italic>. 10.6084/m9.figshare.28820993
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.6084/m9.figshare.28820993"/></mixed-citation></ref><ref id="jane70117-bib-0008"><mixed-citation id="jane70117-cit-0008"><named-content content-type="citation-string">
+
+Colares, L. F.
+ (2025c). Code and data from: Life history induces markedly divergent insect responses to habitat loss. <italic>Zenodo</italic>. 10.5281/zenodo.15238078
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5281/zenodo.15238078"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12775549"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40842109"/></mixed-citation></ref><ref id="jane70117-bib-0009"><mixed-citation id="jane70117-cit-0009"><named-content content-type="citation-string">
+
+Colares, L. F.
+ (2025d). Raw images of 236 sticky traps with trapped insects from Central Amazon. <italic>Figshare</italic>. 10.6084/m9.figshare.23823591
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.6084/m9.figshare.23823591"/></mixed-citation></ref><ref id="jane70117-bib-0010"><mixed-citation id="jane70117-cit-0010"><named-content content-type="citation-string">
+
+de Oliveira, S. S.
+, 
+Ortega, J. C. G.
+, 
+Ribas, L. G. d. S.
+, 
+Lopes, V. G.
+, &amp; 
+Bini, L. M.
+ (2020). Higher taxa are sufficient to represent biodiversity patterns. Ecological Indicators, 111, 105994. 10.1016/j.ecolind.2019.105994
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ecolind.2019.105994"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecological Indicators&amp;title=Higher taxa are sufficient to represent biodiversity patterns&amp;author=S. S. de Oliveira&amp;author=J. C. G. Ortega&amp;author=L. G. d. S. Ribas&amp;author=V. G. Lopes&amp;author=L. M. Bini&amp;volume=111&amp;publication_year=2020&amp;pages=105994&amp;doi=10.1016/j.ecolind.2019.105994&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0011"><mixed-citation id="jane70117-cit-0011"><named-content content-type="citation-string">
+
+Engel, T.
+, 
+Blowes, S. A.
+, 
+McGlinn, D. J.
+, 
+Gotelli, N. J.
+, 
+McGill, B. J.
+, &amp; 
+Chase, J. M.
+ (2022). How does variation in total and relative abundance contribute to gradients of species diversity?
+Ecology and Evolution, 12(8), e9196. 10.1002/ece3.9196
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ece3.9196"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9382643"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35991281"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology and Evolution&amp;title=How does variation in total and relative abundance contribute to gradients of species diversity?&amp;author=T. Engel&amp;author=S. A. Blowes&amp;author=D. J. McGlinn&amp;author=N. J. Gotelli&amp;author=B. J. McGill&amp;volume=12&amp;issue=8&amp;publication_year=2022&amp;pages=e9196&amp;pmid=35991281&amp;doi=10.1002/ece3.9196&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0012"><mixed-citation id="jane70117-cit-0012"><named-content content-type="citation-string">
+
+Engel, T.
+, 
+Blowes, S. A.
+, 
+McGlinn, D. J.
+, 
+May, F.
+, 
+Gotelli, N. J.
+, 
+McGill, B. J.
+, &amp; 
+Chase, J. M.
+ (2021). Using coverage‐based rarefaction to infer non‐random species distributions. Ecosphere, 12(9), e03745. 10.1002/ecs2.3745
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ecs2.3745"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecosphere&amp;title=Using coverage‐based rarefaction to infer non‐random species distributions&amp;author=T. Engel&amp;author=S. A. Blowes&amp;author=D. J. McGlinn&amp;author=F. May&amp;author=N. J. Gotelli&amp;volume=12&amp;issue=9&amp;publication_year=2021&amp;pages=e03745&amp;doi=10.1002/ecs2.3745&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0013"><mixed-citation id="jane70117-cit-0013"><named-content content-type="citation-string">
+
+Fahrig, L.
+ (2013). Rethinking patch size and isolation effects: The habitat amount hypothesis. Journal of Biogeography, 40(9), 1649–1663. 10.1111/jbi.12130
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/jbi.12130"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Biogeography&amp;title=Rethinking patch size and isolation effects: The habitat amount hypothesis&amp;author=L. Fahrig&amp;volume=40&amp;issue=9&amp;publication_year=2013&amp;pages=1649-1663&amp;doi=10.1111/jbi.12130&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0014"><mixed-citation id="jane70117-cit-0014"><named-content content-type="citation-string">
+
+Fearnside, P. M.
+ (1989). Brazil's Balbina Dam: Environment versus the legacy of the Pharaohs in Amazonia. Environmental Management, 13(4), 401–423. 10.1007/BF01867675
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/BF01867675"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Management&amp;title=Brazil's Balbina Dam: Environment versus the legacy of the Pharaohs in Amazonia&amp;author=P. M. Fearnside&amp;volume=13&amp;issue=4&amp;publication_year=1989&amp;pages=401-423&amp;doi=10.1007/BF01867675&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0015"><mixed-citation id="jane70117-cit-0015"><named-content content-type="citation-string">
+
+Fernández‐Chacón, A.
+, 
+Stefanescu, C.
+, 
+Genovart, M.
+, 
+Nichols, J. D.
+, 
+Hines, J. E.
+, 
+Páramo, F.
+, 
+Turco, M.
+, &amp; 
+Oro, D.
+ (2014). Determinants of extinction‐colonization dynamics in Mediterranean butterflies: The role of landscape, climate and local habitat features. Journal of Animal Ecology, 83(1), 276–285. 10.1111/1365-2656.12118
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1365-2656.12118"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23957287"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Animal Ecology&amp;title=Determinants of extinction‐colonization dynamics in Mediterranean butterflies: The role of landscape, climate and local habitat features&amp;author=A. Fernández‐Chacón&amp;author=C. Stefanescu&amp;author=M. Genovart&amp;author=J. D. Nichols&amp;author=J. E. Hines&amp;volume=83&amp;issue=1&amp;publication_year=2014&amp;pages=276-285&amp;pmid=23957287&amp;doi=10.1111/1365-2656.12118&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0016"><mixed-citation id="jane70117-cit-0016"><named-content content-type="citation-string">
+
+Greenleaf, S. S.
+, 
+Williams, N. M.
+, 
+Winfree, R.
+, &amp; 
+Kremen, C.
+ (2007). Bee foraging ranges and their relationship to body size. Oecologia, 153(3), 589–596. 10.1007/s00442-007-0752-9
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00442-007-0752-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17483965"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Oecologia&amp;title=Bee foraging ranges and their relationship to body size&amp;author=S. S. Greenleaf&amp;author=N. M. Williams&amp;author=R. Winfree&amp;author=C. Kremen&amp;volume=153&amp;issue=3&amp;publication_year=2007&amp;pages=589-596&amp;pmid=17483965&amp;doi=10.1007/s00442-007-0752-9&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0017"><mixed-citation id="jane70117-cit-0017"><named-content content-type="citation-string">
+
+He, F.
+, &amp; 
+Hubbell, S. P.
+ (2011). Species–area relationships always overestimate extinction rates from habitat loss. Nature, 473(7347), 368–371. 10.1038/nature09985
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nature09985"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21593870"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Species–area relationships always overestimate extinction rates from habitat loss&amp;author=F. He&amp;author=S. P. Hubbell&amp;volume=473&amp;issue=7347&amp;publication_year=2011&amp;pages=368-371&amp;pmid=21593870&amp;doi=10.1038/nature09985&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0018"><mixed-citation id="jane70117-cit-0018"><named-content content-type="citation-string">
+ICMBio
+. (2002). Rebio do Uatumã. Instituto Chico Mendes de Conservação Da Biodiversidade. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/rebio-do-uatuma" ext-link-type="uri">https://www.gov.br/icmbio/pt‐br/assuntos/biodiversidade/unidade‐de‐conservacao/unidades‐de‐biomas/amazonia/lista‐de‐ucs/rebio‐do‐uatuma</ext-link>
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Rebio do Uatumã&amp;publication_year=2002&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0019"><mixed-citation id="jane70117-cit-0019"><named-content content-type="citation-string">
+
+Jackson, H. B.
+, &amp; 
+Fahrig, L.
+ (2015). Are ecologists conducting research at the optimal scale?
+Global Ecology and Biogeography, 24(1), 52–63. 10.1111/geb.12233
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/geb.12233"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Ecology and Biogeography&amp;title=Are ecologists conducting research at the optimal scale?&amp;author=H. B. Jackson&amp;author=L. Fahrig&amp;volume=24&amp;issue=1&amp;publication_year=2015&amp;pages=52-63&amp;doi=10.1111/geb.12233&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0020"><mixed-citation id="jane70117-cit-0020"><named-content content-type="citation-string">
+
+Jocher, G.
+, 
+Qiu, J.
+, &amp; 
+Chaurasia, A.
+ (2023). Ultralytics YOLO. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/ultralytics/ultralytics" ext-link-type="uri">https://github.com/ultralytics/ultralytics</ext-link>
+</named-content></mixed-citation></ref><ref id="jane70117-bib-0021"><mixed-citation id="jane70117-cit-0021"><named-content content-type="citation-string">
+
+Legendre, P.
+, &amp; 
+Legendre, L.
+ (2012). Numerical ecology. Elsevier.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Numerical ecology&amp;author=P. Legendre&amp;author=L. Legendre&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0022"><mixed-citation id="jane70117-cit-0022"><named-content content-type="citation-string">
+
+Liu, J.
+, 
+Wilson, M.
+, 
+Hu, G.
+, 
+Liu, J.
+, 
+Wu, J.
+, &amp; 
+Yu, M.
+ (2018). How does habitat fragmentation affect the biodiversity and ecosystem functioning relationship?
+Landscape Ecology, 33(3), 341–352. 10.1007/s10980-018-0620-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10980-018-0620-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Landscape Ecology&amp;title=How does habitat fragmentation affect the biodiversity and ecosystem functioning relationship?&amp;author=J. Liu&amp;author=M. Wilson&amp;author=G. Hu&amp;author=J. Liu&amp;author=J. Wu&amp;volume=33&amp;issue=3&amp;publication_year=2018&amp;pages=341-352&amp;doi=10.1007/s10980-018-0620-5&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0052"><mixed-citation id="jane70117-cit-0052"><named-content content-type="citation-string">
+
+MacArthur, R. H.
+, &amp; 
+Wilson, E. O.
+ (1969). The theory of island biogeography (Vol. 1, 1st ed.). Princeton University Press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=The theory of island biogeography&amp;author=R. H. MacArthur&amp;author=E. O. Wilson&amp;publication_year=1969&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0023"><mixed-citation id="jane70117-cit-0023"><named-content content-type="citation-string">
+
+Matthews, T. J.
+ (2021). On the biogeography of Habitat Islands: The importance of matrix effects, noncore species, and source‐sink dynamics. The Quarterly Review of Biology, 96(2), 73–104. 10.1086/714482
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1086/714482"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Quarterly Review of Biology&amp;title=On the biogeography of Habitat Islands: The importance of matrix effects, noncore species, and source‐sink dynamics&amp;author=T. J. Matthews&amp;volume=96&amp;issue=2&amp;publication_year=2021&amp;pages=73-104&amp;doi=10.1086/714482&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0024"><mixed-citation id="jane70117-cit-0024"><named-content content-type="citation-string">
+
+Maxwell, S. L.
+, 
+Fuller, R. A.
+, 
+Brooks, T. M.
+, &amp; 
+Watson, J. E. M.
+ (2016). Biodiversity: The ravages of guns, nets and bulldozers. Nature, 536(7615), 143–145. 10.1038/536143a
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/536143a"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27510207"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Biodiversity: The ravages of guns, nets and bulldozers&amp;author=S. L. Maxwell&amp;author=R. A. Fuller&amp;author=T. M. Brooks&amp;author=J. E. M. Watson&amp;volume=536&amp;issue=7615&amp;publication_year=2016&amp;pages=143-145&amp;pmid=27510207&amp;doi=10.1038/536143a&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0025"><mixed-citation id="jane70117-cit-0025"><named-content content-type="citation-string">
+
+McKinney, M. L.
+, &amp; 
+Lockwood, J. L.
+ (1999). Biotic homogenization: A few winners replacing many losers in the next mass extinction. Trends in Ecology &amp; Evolution, 14(11), 450–453. 10.1016/S0169-5347(99)01679-1
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0169-5347(99)01679-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="10511724"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends in Ecology &amp; Evolution&amp;title=Biotic homogenization: A few winners replacing many losers in the next mass extinction&amp;author=M. L. McKinney&amp;author=J. L. Lockwood&amp;volume=14&amp;issue=11&amp;publication_year=1999&amp;pages=450-453&amp;pmid=10511724&amp;doi=10.1016/S0169-5347(99)01679-1&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0026"><mixed-citation id="jane70117-cit-0026"><named-content content-type="citation-string">
+
+Miguet, P.
+, 
+Jackson, H. B.
+, 
+Jackson, N. D.
+, 
+Martin, A. E.
+, &amp; 
+Fahrig, L.
+ (2016). What determines the spatial extent of landscape effects on species?
+Landscape Ecology, 31(6), 1177–1194. 10.1007/s10980-015-0314-1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10980-015-0314-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Landscape Ecology&amp;title=What determines the spatial extent of landscape effects on species?&amp;author=P. Miguet&amp;author=H. B. Jackson&amp;author=N. D. Jackson&amp;author=A. E. Martin&amp;author=L. Fahrig&amp;volume=31&amp;issue=6&amp;publication_year=2016&amp;pages=1177-1194&amp;doi=10.1007/s10980-015-0314-1&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0027"><mixed-citation id="jane70117-cit-0027"><named-content content-type="citation-string">
+Millennium Ecosystem Assessment
+. (2005). Ecosystems and human well‐being: Biodiversity synthesis (World Resources Institute, Ed.; Vol. 5). Island Press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Ecosystems and human well‐being: Biodiversity synthesis&amp;publication_year=2005&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0028"><mixed-citation id="jane70117-cit-0028"><named-content content-type="citation-string">
+
+Misof, B.
+, 
+Liu, S.
+, 
+Meusemann, K.
+, 
+Peters, R. S.
+, 
+Donath, A.
+, 
+Mayer, C.
+, 
+Frandsen, P. B.
+, 
+Ware, J.
+, 
+Flouri, T.
+, 
+Beutel, R. G.
+, 
+Niehuis, O.
+, 
+Petersen, M.
+, 
+Izquierdo‐Carrasco, F.
+, 
+Wappler, T.
+, 
+Rust, J.
+, 
+Aberer, A. J.
+, 
+Aspöck, U.
+, 
+Aspöck, H.
+, 
+Bartel, D.
+, … 
+Zhou, X.
+ (2014). Phylogenomics resolves the timing and pattern of insect evolution. Science, 346(6210), 763–767. 10.1126/science.1257570
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.1257570"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25378627"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Phylogenomics resolves the timing and pattern of insect evolution&amp;author=B. Misof&amp;author=S. Liu&amp;author=K. Meusemann&amp;author=R. S. Peters&amp;author=A. Donath&amp;volume=346&amp;issue=6210&amp;publication_year=2014&amp;pages=763-767&amp;pmid=25378627&amp;doi=10.1126/science.1257570&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0053"><mixed-citation id="jane70117-cit-0053"><named-content content-type="citation-string">
+
+Moran, P. A. P.
+ (1950). Notes on continuous stochastic phenomena. Biometrika, 37(1/2), 17. 10.2307/2332142
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2307/2332142"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15420245"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biometrika&amp;title=Notes on continuous stochastic phenomena&amp;author=P. A. P. Moran&amp;volume=37&amp;issue=1/2&amp;publication_year=1950&amp;pages=17&amp;pmid=15420245&amp;doi=10.2307/2332142&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0029"><mixed-citation id="jane70117-cit-0029"><named-content content-type="citation-string">
+
+Palmeirim, A. F.
+, 
+Benchimol, M.
+, 
+Leal, I. R.
+, &amp; 
+Peres, C. A.
+ (2021). Drivers of leafcutter ant populations and their inter‐trophic relationships in Amazonian forest islands. Ecosphere, 12(5), e03518. 10.1002/ecs2.3518
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ecs2.3518"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecosphere&amp;title=Drivers of leafcutter ant populations and their inter‐trophic relationships in Amazonian forest islands&amp;author=A. F. Palmeirim&amp;author=M. Benchimol&amp;author=I. R. Leal&amp;author=C. A. Peres&amp;volume=12&amp;issue=5&amp;publication_year=2021&amp;pages=e03518&amp;doi=10.1002/ecs2.3518&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0030"><mixed-citation id="jane70117-cit-0030"><named-content content-type="citation-string">
+
+Palmeirim, A. F.
+, 
+Figueiredo, M. S. L.
+, 
+Grelle, C. E. V.
+, 
+Carbone, C.
+, &amp; 
+Vieira, M. V.
+ (2019). When does habitat fragmentation matter? A biome‐wide analysis of small mammals in the Atlantic Forest. Journal of Biogeography, 46(12), 2811–2825. 10.1111/jbi.13730
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/jbi.13730"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Biogeography&amp;title=When does habitat fragmentation matter? A biome‐wide analysis of small mammals in the Atlantic Forest&amp;author=A. F. Palmeirim&amp;author=M. S. L. Figueiredo&amp;author=C. E. V. Grelle&amp;author=C. Carbone&amp;author=M. V. Vieira&amp;volume=46&amp;issue=12&amp;publication_year=2019&amp;pages=2811-2825&amp;doi=10.1111/jbi.13730&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0031"><mixed-citation id="jane70117-cit-0031"><named-content content-type="citation-string">
+R Development Core Team
+. (2020). A language and environment for statistical computing. R Foundation for Statistical Computing. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.r-project.org" ext-link-type="uri">https://www.R‐project.org</ext-link>
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=A language and environment for statistical computing&amp;publication_year=2020&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0032"><mixed-citation id="jane70117-cit-0032"><named-content content-type="citation-string">
+
+Rafael, J. A.
+, 
+Melo, G. A. R.
+, 
+Carvalho, C. J. B.
+, 
+Casari, A. S.
+, &amp; 
+Constantino, R.
+ (2012). Insetos do Brasil: Diversidade e Taxonomia. In Diversidade e taxonomia (Vol. 1). Ribeirão Preto Holos.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Diversidade e taxonomia&amp;author=J. A. Rafael&amp;author=G. A. R. Melo&amp;author=C. J. B. Carvalho&amp;author=A. S. Casari&amp;author=R. Constantino&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0033"><mixed-citation id="jane70117-cit-0033"><named-content content-type="citation-string">
+
+Redmon, J.
+, 
+Divvala, S.
+, 
+Girshick, R.
+, &amp; 
+Farhadi, A.
+ (2016). You only look once: Unified, real‐time object detection. <italic>ArXiv</italic>, 779‐788. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pjreddie.com/yolo/" ext-link-type="uri">http://pjreddie.com/yolo/</ext-link>
+</named-content></mixed-citation></ref><ref id="jane70117-bib-0034"><mixed-citation id="jane70117-cit-0034"><named-content content-type="citation-string">
+
+Schultheiss, P.
+, 
+Nooten, S. S.
+, 
+Wang, R.
+, 
+Wong, M. K. L.
+, 
+Brassard, F.
+, &amp; 
+Guénard, B.
+ (2022). The abundance, biomass, and distribution of ants on earth. Proceedings of the National Academy of Sciences, 119(40), e2201550119. 10.1073/pnas.2201550119
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.2201550119"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9546634"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36122199"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=The abundance, biomass, and distribution of ants on earth&amp;author=P. Schultheiss&amp;author=S. S. Nooten&amp;author=R. Wang&amp;author=M. K. L. Wong&amp;author=F. Brassard&amp;volume=119&amp;issue=40&amp;publication_year=2022&amp;pages=e2201550119&amp;pmid=36122199&amp;doi=10.1073/pnas.2201550119&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0035"><mixed-citation id="jane70117-cit-0035"><named-content content-type="citation-string">
+
+Shipley, J. R.
+, 
+Gossner, M. M.
+, 
+Rigling, A.
+, &amp; 
+Krumm, F.
+ (2023). Conserving forest insect biodiversity requires the protection of key habitat features. Trends in Ecology &amp; Evolution, 38(9), 788–791. 10.1016/j.tree.2023.05.015
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tree.2023.05.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37331912"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends in Ecology &amp; Evolution&amp;title=Conserving forest insect biodiversity requires the protection of key habitat features&amp;author=J. R. Shipley&amp;author=M. M. Gossner&amp;author=A. Rigling&amp;author=F. Krumm&amp;volume=38&amp;issue=9&amp;publication_year=2023&amp;pages=788-791&amp;pmid=37331912&amp;doi=10.1016/j.tree.2023.05.015&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0036"><mixed-citation id="jane70117-cit-0036"><named-content content-type="citation-string">
+
+Shipley, J. R.
+, 
+Oester, R.
+, 
+Mathieu‐Resuge, M.
+, 
+Parmar, T. P.
+, 
+Kowarik, C.
+, 
+Ilíć, M.
+, 
+Kainz, M. J.
+, 
+Martin‐Creuzburg, D.
+, 
+Obrist, M. K.
+, 
+Graham, C. H.
+, 
+Gossner, M. M.
+, 
+Matthews, B.
+, &amp; 
+Twining, C. W.
+ (2024). Consumer biodiversity increases organic nutrient availability across aquatic and terrestrial ecosystems. Science, 386(6719), 335–340. 10.1126/science.adp6198
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.adp6198"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39418379"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Consumer biodiversity increases organic nutrient availability across aquatic and terrestrial ecosystems&amp;author=J. R. Shipley&amp;author=R. Oester&amp;author=M. Mathieu‐Resuge&amp;author=T. P. Parmar&amp;author=C. Kowarik&amp;volume=386&amp;issue=6719&amp;publication_year=2024&amp;pages=335-340&amp;pmid=39418379&amp;doi=10.1126/science.adp6198&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0037"><mixed-citation id="jane70117-cit-0037"><named-content content-type="citation-string">
+
+Souza, C. M.
+, 
+Shimbo, J. Z.
+, 
+Rosa, M. R.
+, 
+Parente, L. L.
+, 
+Alencar, A. A.
+, 
+Rudorff, B. F. T.
+, 
+Hasenack, H.
+, 
+Matsumoto, M.
+, 
+Ferreira, L. G.
+, 
+Souza‐Filho, P. W. M.
+, 
+de Oliveira, S. W.
+, 
+Rocha, W. F.
+, 
+Fonseca, A. V.
+, 
+Marques, C. B.
+, 
+Diniz, C. G.
+, 
+Costa, D.
+, 
+Monteiro, D.
+, 
+Rosa, E. R.
+, 
+Vélez‐Martin, E.
+, … 
+Azevedo, T.
+ (2020). Reconstructing three decades of land use and land cover changes in Brazilian biomes with Landsat archive and earth engine. Remote Sensing, 12(17), 2735. 10.3390/rs12172735
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/rs12172735"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sensing&amp;title=Reconstructing three decades of land use and land cover changes in Brazilian biomes with Landsat archive and earth engine&amp;author=C. M. Souza&amp;author=J. Z. Shimbo&amp;author=M. R. Rosa&amp;author=L. L. Parente&amp;author=A. A. Alencar&amp;volume=12&amp;issue=17&amp;publication_year=2020&amp;pages=2735&amp;doi=10.3390/rs12172735&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0038"><mixed-citation id="jane70117-cit-0038"><named-content content-type="citation-string">
+
+Storck‐Tonon, D.
+, 
+da Silva, R. J.
+, 
+Sawaris, L.
+, 
+Vaz‐de‐Mello, F. Z.
+, 
+da Silva, D. J.
+, &amp; 
+Peres, C. A.
+ (2020). Habitat patch size and isolation drive the near‐complete collapse of Amazonian dung beetle assemblages in a 30‐year‐old forest archipelago. Biodiversity and Conservation, 29(7), 2419–2438. 10.1007/s10531-020-01982-y
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10531-020-01982-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biodiversity and Conservation&amp;title=Habitat patch size and isolation drive the near‐complete collapse of Amazonian dung beetle assemblages in a 30‐year‐old forest archipelago&amp;author=D. Storck‐Tonon&amp;author=R. J. da Silva&amp;author=L. Sawaris&amp;author=F. Z. Vaz‐de‐Mello&amp;author=D. J. da Silva&amp;volume=29&amp;issue=7&amp;publication_year=2020&amp;pages=2419-2438&amp;doi=10.1007/s10531-020-01982-y&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0039"><mixed-citation id="jane70117-cit-0039"><named-content content-type="citation-string">
+
+Storck‐Tonon, D.
+, &amp; 
+Peres, C. A.
+ (2017). Forest patch isolation drives local extinctions of Amazonian orchid bees in a 26 years old archipelago. Biological Conservation, 214, 270–277. 10.1016/j.biocon.2017.07.018
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.biocon.2017.07.018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biological Conservation&amp;title=Forest patch isolation drives local extinctions of Amazonian orchid bees in a 26 years old archipelago&amp;author=D. Storck‐Tonon&amp;author=C. A. Peres&amp;volume=214&amp;publication_year=2017&amp;pages=270-277&amp;doi=10.1016/j.biocon.2017.07.018&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0040"><mixed-citation id="jane70117-cit-0040"><named-content content-type="citation-string">
+
+Stuber, E. F.
+, &amp; 
+Gruber, L. F.
+ (2020). Recent methodological solutions to identifying scales of effect in multi‐scale modeling. Current Landscape Ecology Reports, 5(4), 127–139. 10.1007/s40823-020-00055-8
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s40823-020-00055-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Current Landscape Ecology Reports&amp;title=Recent methodological solutions to identifying scales of effect in multi‐scale modeling&amp;author=E. F. Stuber&amp;author=L. F. Gruber&amp;volume=5&amp;issue=4&amp;publication_year=2020&amp;pages=127-139&amp;doi=10.1007/s40823-020-00055-8&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0041"><mixed-citation id="jane70117-cit-0041"><named-content content-type="citation-string">
+
+Thornton, D. H.
+, 
+Branch, L. C.
+, &amp; 
+Sunquist, M. E.
+ (2011). The relative influence of habitat loss and fragmentation: Do tropical mammals meet the temperate paradigm?
+Ecological Applications, 21(6), 2324–2333. 10.1890/10-2124.1
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1890/10-2124.1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21939064"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecological Applications&amp;title=The relative influence of habitat loss and fragmentation: Do tropical mammals meet the temperate paradigm?&amp;author=D. H. Thornton&amp;author=L. C. Branch&amp;author=M. E. Sunquist&amp;volume=21&amp;issue=6&amp;publication_year=2011&amp;pages=2324-2333&amp;pmid=21939064&amp;doi=10.1890/10-2124.1&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0042"><mixed-citation id="jane70117-cit-0042"><named-content content-type="citation-string">
+
+Tong, K.
+, 
+Wu, Y.
+, &amp; 
+Zhou, F.
+ (2020). Recent advances in small object detection based on deep learning: A review. Image and Vision Computing, 97, 103910. 10.1016/j.imavis.2020.103910
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.imavis.2020.103910"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Image and Vision Computing&amp;title=Recent advances in small object detection based on deep learning: A review&amp;author=K. Tong&amp;author=Y. Wu&amp;author=F. Zhou&amp;volume=97&amp;publication_year=2020&amp;pages=103910&amp;doi=10.1016/j.imavis.2020.103910&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0043"><mixed-citation id="jane70117-cit-0043"><named-content content-type="citation-string">
+
+van Klink, R.
+, 
+Bowler, D. E.
+, 
+Gongalsky, K. B.
+, 
+Swengel, A. B.
+, 
+Gentile, A.
+, &amp; 
+Chase, J. M.
+ (2020). Meta‐analysis reveals declines in terrestrial but increases in freshwater insect abundances. Science, 368(6489), 417–420. 10.1126/science.aax9931
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aax9931"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32327596"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Meta‐analysis reveals declines in terrestrial but increases in freshwater insect abundances&amp;author=R. van Klink&amp;author=D. E. Bowler&amp;author=K. B. Gongalsky&amp;author=A. B. Swengel&amp;author=A. Gentile&amp;volume=368&amp;issue=6489&amp;publication_year=2020&amp;pages=417-420&amp;pmid=32327596&amp;doi=10.1126/science.aax9931&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0044"><mixed-citation id="jane70117-cit-0044"><named-content content-type="citation-string">
+
+Van Rossum, G.
+, &amp; 
+Drake, F. L., Jr.
+ (1995). Python reference manual. Centrum voor Wiskunde en Informatica Amsterdam.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Python reference manual&amp;author=G. Van Rossum&amp;author=F. L. Drake&amp;publication_year=1995&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0045"><mixed-citation id="jane70117-cit-0045"><named-content content-type="citation-string">
+
+Wagner, D. L.
+, 
+Grames, E. M.
+, 
+Forister, M. L.
+, 
+Berenbaum, M. R.
+, &amp; 
+Stopak, D.
+ (2021). Insect decline in the Anthropocene: Death by a thousand cuts. Proceedings of the National Academy of Sciences, 118(2), e2023989118. 10.1073/pnas.2023989118
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.2023989118"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7812858"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33431573"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=Insect decline in the Anthropocene: Death by a thousand cuts&amp;author=D. L. Wagner&amp;author=E. M. Grames&amp;author=M. L. Forister&amp;author=M. R. Berenbaum&amp;author=D. Stopak&amp;volume=118&amp;issue=2&amp;publication_year=2021&amp;pages=e2023989118&amp;pmid=33431573&amp;doi=10.1073/pnas.2023989118&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0046"><mixed-citation id="jane70117-cit-0046"><named-content content-type="citation-string">
+
+Walker, I.
+ (2009). Emergence of aquatic insects and spider abundance in the Balbina reservoir (Presidente Figueiredo, Amazonas, Brasil) during the phase of declining eutrophication. Acta Limnologica Brasiliensia, 21, 199–207.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Acta Limnologica Brasiliensia&amp;title=Emergence of aquatic insects and spider abundance in the Balbina reservoir (Presidente Figueiredo, Amazonas, Brasil) during the phase of declining eutrophication&amp;author=I. Walker&amp;volume=21&amp;publication_year=2009&amp;pages=199-207&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0047"><mixed-citation id="jane70117-cit-0047"><named-content content-type="citation-string">
+
+Watling, J. I.
+, 
+Arroyo‐Rodríguez, V.
+, 
+Pfeifer, M.
+, 
+Baeten, L.
+, 
+Banks‐Leite, C.
+, 
+Cisneros, L. M.
+, 
+Fang, R.
+, 
+Hamel‐Leigue, A. C.
+, 
+Lachat, T.
+, 
+Leal, I. R.
+, 
+Lens, L.
+, 
+Possingham, H. P.
+, 
+Raheem, D. C.
+, 
+Ribeiro, D. B.
+, 
+Slade, E. M.
+, 
+Urbina‐Cardona, J. N.
+, 
+Wood, E. M.
+, &amp; 
+Fahrig, L.
+ (2020). Support for the habitat amount hypothesis from a global synthesis of species density studies. Ecology Letters, 23(4), 674–681. 10.1111/ele.13471
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/ele.13471"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32043741"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology Letters&amp;title=Support for the habitat amount hypothesis from a global synthesis of species density studies&amp;author=J. I. Watling&amp;author=V. Arroyo‐Rodríguez&amp;author=M. Pfeifer&amp;author=L. Baeten&amp;author=C. Banks‐Leite&amp;volume=23&amp;issue=4&amp;publication_year=2020&amp;pages=674-681&amp;pmid=32043741&amp;doi=10.1111/ele.13471&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0048"><mixed-citation id="jane70117-cit-0048"><named-content content-type="citation-string">
+
+Wickham, H.
+ (2011). ggplot2. Wiley Interdisciplinary Reviews: Computational Statistics, 3(2), 180–185. 10.1002/wics.147
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/wics.147"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Wiley Interdisciplinary Reviews: Computational Statistics&amp;title=ggplot2&amp;author=H. Wickham&amp;volume=3&amp;issue=2&amp;publication_year=2011&amp;pages=180-185&amp;doi=10.1002/wics.147&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0049"><mixed-citation id="jane70117-cit-0049"><named-content content-type="citation-string">
+
+Wilson, E. O.
+ (1987). The little things that run the world (the importance and conservation of invertebrates). Conservation Biology, 1(4), 344–346. 10.1111/j.1523-1739.1987.tb00055.x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1523-1739.1987.tb00055.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Conservation Biology&amp;title=The little things that run the world (the importance and conservation of invertebrates)&amp;author=E. O. Wilson&amp;volume=1&amp;issue=4&amp;publication_year=1987&amp;pages=344-346&amp;doi=10.1111/j.1523-1739.1987.tb00055.x&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0050"><mixed-citation id="jane70117-cit-0050"><named-content content-type="citation-string">
+
+Wong, M. K. L.
+, 
+Guénard, B.
+, &amp; 
+Lewis, O. T.
+ (2019). Trait‐based ecology of terrestrial arthropods. Biological Reviews, 94(3), 999–1022. 10.1111/brv.12488
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/brv.12488"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6849530"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30548743"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biological Reviews&amp;title=Trait‐based ecology of terrestrial arthropods&amp;author=M. K. L. Wong&amp;author=B. Guénard&amp;author=O. T. Lewis&amp;volume=94&amp;issue=3&amp;publication_year=2019&amp;pages=999-1022&amp;pmid=30548743&amp;doi=10.1111/brv.12488&amp;"/></mixed-citation></ref><ref id="jane70117-bib-0051"><mixed-citation id="jane70117-cit-0051"><named-content content-type="citation-string">
+
+Yi, H.
+, 
+Devkota, B. R.
+, 
+Yu, J.
+, 
+Oh, K.
+, 
+Kim, J.
+, &amp; 
+Kim, H.
+ (2014). Effects of global warming on mosquitoes &amp; mosquito‐borne diseases and the new strategies for mosquito control. Entomological Research, 44(6), 215–235. 10.1111/1748-5967.12084
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1748-5967.12084"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Entomological Research&amp;title=Effects of global warming on mosquitoes &amp; mosquito‐borne diseases and the new strategies for mosquito control&amp;author=H. Yi&amp;author=B. R. Devkota&amp;author=J. Yu&amp;author=K. Oh&amp;author=J. Kim&amp;volume=44&amp;issue=6&amp;publication_year=2014&amp;pages=215-235&amp;doi=10.1111/1748-5967.12084&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>
+<bold>Appendix S1.</bold> Sticky trap field images.</p><p>
+<bold>Appendix S2.</bold> Description of image treatment and object detection model.</p><p>
+<bold>Appendix S3.</bold> Samples of insect taxonomic identifications by our custom deep learning model.</p><p>
+<bold>Appendix S4.</bold> Moran's <italic>I</italic> result.</p><p>
+<bold>Appendix S5.</bold> Generalized Additive Models coefficients for the two diversity components (i.e., SAD and N) and composition of different lifecycle groups at nine landscape sizes.</p><p>
+<bold>Appendix S6.</bold> Generalized Additive Mixed Models coefficients for abundance and body size of different taxonomic groups at nine landscape sizes.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JANE-95-54-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 91e6/12775549/9e82ee7bd9fe/JANE-95-54-s001.docx?><?cloudpmc-bucket app?><?size 4826687?></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>Processed data available from the Zenodo repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.15238078" ext-link-type="uri">https://doi.org/10.5281/zenodo.15238078</ext-link>; Colares, <xref rid="jane70117-bib-0008" ref-type="bibr">2025c</xref>). We also provide the raw images of the sticky traps (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.23823591" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.23823591</ext-link>; Colares, <xref rid="jane70117-bib-0009" ref-type="bibr">2025d</xref>), the fivefold dataset with insect images used for deep learning training (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28688198" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.28688198</ext-link>; Colares, <xref rid="jane70117-bib-0006" ref-type="bibr">2025a</xref>) and the five trained models to conduct inference on insect taxonomy using deep learning (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28820993" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.28820993</ext-link>; Colares, <xref rid="jane70117-bib-0007" ref-type="bibr">2025b</xref>).</p></sec></sec></body></article>

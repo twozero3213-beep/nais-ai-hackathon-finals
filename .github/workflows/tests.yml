@@ -1,0 +1,17 @@
+# [작성: 0 이영 · Claude] 2026-09-30 23:59 KST — 메타데이터 검사(team-metadata.yml)만 있어 제품 시험이 push 때 자동 실행되지 않았다. 실제 시험 환경(Python 3.13, requirements.txt 고정 버전)에서 시험을 돌린다.
+name: Product tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m pytest tests finals/tests tools/test_product_metadata_guard.py -q
+      - run: python tools/check_finals_metadata.py

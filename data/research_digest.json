@@ -1,0 +1,3655 @@
+{
+  "schema": 1,
+  "generated_at": "2026-09-29T07:20:47.628561+00:00",
+  "entries": [
+    {
+      "id": "papers:mathematics",
+      "label": "수학·통계",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:02.853576+00:00",
+      "last_success_at": "2026-09-29T07:20:04.846791+00:00",
+      "status": "ok",
+      "data": {
+        "query": "mathematics statistics",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:04.846681+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=mathematics+statistics&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:04.846737+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1007/s00009-026-03207-y",
+            "title": "Castelnuovo–Mumford Regularity of Toric Varieties with At Most One Singular Point",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:04:20+00:00",
+            "citations": 0,
+            "journal": "Mediterranean Journal of Mathematics",
+            "url": "https://doi.org/10.1007/s00009-026-03207-y"
+          },
+          {
+            "doi": "10.1142/s0219199726500811",
+            "title": "Doubly nonlinear Schrödinger normalized ground states on 2D grids: Existence results and singular limits",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-20T14:51:01+00:00",
+            "citations": 0,
+            "journal": "Communications in Contemporary Mathematics",
+            "url": "https://doi.org/10.1142/s0219199726500811"
+          },
+          {
+            "doi": "10.1017/s0956792526100539",
+            "title": "Adaptive FEM and CIPFEM for a nonlinear Helmholtz equation with high wave number",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:07:18+00:00",
+            "citations": 0,
+            "journal": "European Journal of Applied Mathematics",
+            "url": "https://doi.org/10.1017/s0956792526100539"
+          },
+          {
+            "doi": "10.1142/s0219887826503998",
+            "title": "Thermodynamic geometry of alpha statistics: A unified quantum statistical framework",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-09T01:31:50+00:00",
+            "citations": 0,
+            "journal": "International Journal of Geometric Methods in Modern Physics",
+            "url": "https://doi.org/10.1142/s0219887826503998"
+          },
+          {
+            "doi": "10.55151/ijeedu.v8i3.517",
+            "title": "Exploring Teachers’ Perceptions, Experiences and Needs for Augmented Reality-Based Mathematics Learning in Elementary Schools",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:46:10+00:00",
+            "citations": 0,
+            "journal": "International Journal of Environment, Engineering and Education",
+            "url": "https://doi.org/10.55151/ijeedu.v8i3.517"
+          },
+          {
+            "doi": "10.1142/s1793830926500928",
+            "title": "A hybrid algorithm for the minimum weight 4-path vertex cover problem",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-08T03:09:01+00:00",
+            "citations": 0,
+            "journal": "Discrete Mathematics, Algorithms and Applications",
+            "url": "https://doi.org/10.1142/s1793830926500928"
+          },
+          {
+            "doi": "10.1007/s40751-026-00203-5",
+            "title": "Young Students’ Mathematizing Through Visual Programming",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:00:08+00:00",
+            "citations": 0,
+            "journal": "Digital Experiences in Mathematics Education",
+            "url": "https://doi.org/10.1007/s40751-026-00203-5"
+          },
+          {
+            "doi": "10.3847/1538-4365/ae9bbd",
+            "title": "Large-sample Statistics of Flares in Eclipsing Binaries Based on TESS and Gaia Data",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:17:03+00:00",
+            "citations": 0,
+            "journal": "The Astrophysical Journal Supplement Series",
+            "url": "https://doi.org/10.3847/1538-4365/ae9bbd"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:physics",
+      "label": "물리·천문",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:04.846796+00:00",
+      "last_success_at": "2026-09-29T07:20:06.373872+00:00",
+      "status": "ok",
+      "data": {
+        "query": "physics astronomy",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:06.373813+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=physics+astronomy&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:06.373844+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1088/1361-648x/aea95c",
+            "title": "Coupled structural collapse and evolution of magnetic phases in Sr(Co 0.88 Ni 0.12 ) 2 P 2 under pressure",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-17T22:53:41+00:00",
+            "citations": 0,
+            "journal": "Journal of Physics: Condensed Matter",
+            "url": "https://doi.org/10.1088/1361-648x/aea95c"
+          },
+          {
+            "doi": "10.1038/s41524-026-02346-w",
+            "title": "Predicting moiré physics from local proximity effects in van der Waals heterostructures",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:55:01+00:00",
+            "citations": 0,
+            "journal": "npj Computational Materials",
+            "url": "https://doi.org/10.1038/s41524-026-02346-w"
+          },
+          {
+            "doi": "10.1051/0004-6361/202659531",
+            "title": "Source locations of multiple type II solar radio bursts associated with a slow coronal mass ejection",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T18:47:18+00:00",
+            "citations": 0,
+            "journal": "Astronomy & Astrophysics",
+            "url": "https://doi.org/10.1051/0004-6361/202659531"
+          },
+          {
+            "doi": "10.1007/s00339-026-10267-0",
+            "title": "NiO nanoparticle-induced modulation of electro-optical switching, electrical response, and dielectric properties in nematic liquid crystals for high-performance optoelectronic systems",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:12:08+00:00",
+            "citations": 0,
+            "journal": "Applied Physics A",
+            "url": "https://doi.org/10.1007/s00339-026-10267-0"
+          },
+          {
+            "doi": "10.1007/s11005-026-02156-7",
+            "title": "Shape modes of $$\\mathbb {C}P^1$$ vortices",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:04:11+00:00",
+            "citations": 0,
+            "journal": "Letters in Mathematical Physics",
+            "url": "https://doi.org/10.1007/s11005-026-02156-7"
+          },
+          {
+            "doi": "10.1088/1751-8121/aea3c5",
+            "title": "Partial solvability induced by dark states in a box trap with decentered two-body interaction",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-07T22:59:16+00:00",
+            "citations": 0,
+            "journal": "Journal of Physics A: Mathematical and Theoretical",
+            "url": "https://doi.org/10.1088/1751-8121/aea3c5"
+          },
+          {
+            "doi": "10.1088/1751-8121/aea1ab",
+            "title": "Perfect transmission and parallel composition for quantum walks on graphs with two leads",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-02T22:53:16+00:00",
+            "citations": 0,
+            "journal": "Journal of Physics A: Mathematical and Theoretical",
+            "url": "https://doi.org/10.1088/1751-8121/aea1ab"
+          },
+          {
+            "doi": "10.1142/s0219887826400141",
+            "title": "KM3NeT: Current performances and outlook for particle and astroparticle physics",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-11T08:16:49+00:00",
+            "citations": 0,
+            "journal": "International Journal of Geometric Methods in Modern Physics",
+            "url": "https://doi.org/10.1142/s0219887826400141"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:chemistry",
+      "label": "화학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:06.373877+00:00",
+      "last_success_at": "2026-09-29T07:20:07.543916+00:00",
+      "status": "ok",
+      "data": {
+        "query": "chemistry",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:07.543820+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=chemistry&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:07.543887+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1515/hsz-2026-0146",
+            "title": "Sequestosome 1 (SQSTM1/p62) at the nexus of genome integrity maintenance, proteostasis regulation and organellar homeostasis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T06:56:03+00:00",
+            "citations": 0,
+            "journal": "Biological Chemistry",
+            "url": "https://doi.org/10.1515/hsz-2026-0146"
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6c01749",
+            "title": "One-Pot Synthesis of Triazine-Embedded Hierarchically Porous Organosilica Polymers via Tandem Condensation for Carbon Capture and Conversion",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:02:06+00:00",
+            "citations": 0,
+            "journal": "Chemistry of Materials",
+            "url": "https://doi.org/10.1021/acs.chemmater.6c01749"
+          },
+          {
+            "doi": "10.1021/acs.inorgchem.6c03756",
+            "title": "Guanidinium-Based Hybrid Antimony Halide Scintillators for High-Resolution X-ray Imaging and 3D Reconstruction",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:02:26+00:00",
+            "citations": 0,
+            "journal": "Inorganic Chemistry",
+            "url": "https://doi.org/10.1021/acs.inorgchem.6c03756"
+          },
+          {
+            "doi": "10.1007/s11090-026-10719-8",
+            "title": "Plasma-Catalytic VOC Removal with Nonthermal Plasma Regeneration and Repetitive use of Catalysts",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:34:12+00:00",
+            "citations": 0,
+            "journal": "Plasma Chemistry and Plasma Processing",
+            "url": "https://doi.org/10.1007/s11090-026-10719-8"
+          },
+          {
+            "doi": "10.1021/acs.inorgchem.6c02847",
+            "title": "A Phosphotungstate Catalyst with Both Brønsted and Lewis Acid Sites for Synthesis of Bis(indolyl)methane Derivatives",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:02:21+00:00",
+            "citations": 0,
+            "journal": "Inorganic Chemistry",
+            "url": "https://doi.org/10.1021/acs.inorgchem.6c02847"
+          },
+          {
+            "doi": "10.5194/acp-26-13581-2026",
+            "title": "Impacts of South Asian aerosol inflow over Mount Qomolangma on downstream cloud–precipitation processes through a long-range ice-crystal “seeding” effect",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:54:37+00:00",
+            "citations": 0,
+            "journal": "Atmospheric Chemistry and Physics",
+            "url": "https://doi.org/10.5194/acp-26-13581-2026"
+          },
+          {
+            "doi": "10.1021/acs.iecr.6c02619",
+            "title": "Electrification Strategies for Batch Distillation: An Illustration Using a Middle Vessel Column",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:02:42+00:00",
+            "citations": 0,
+            "journal": "Industrial & Engineering Chemistry Research",
+            "url": "https://doi.org/10.1021/acs.iecr.6c02619"
+          },
+          {
+            "doi": "10.1515/cclm-2026-1257",
+            "title": "Preanalytical stability of aPTT and anti-Xa levels for therapeutic unfractionated heparin monitoring: a systematic review and critical appraisal using CRESS criteria",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T09:55:41+00:00",
+            "citations": 0,
+            "journal": "Clinical Chemistry and Laboratory Medicine (CCLM)",
+            "url": "https://doi.org/10.1515/cclm-2026-1257"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:biology",
+      "label": "생명과학·유전학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:07.543921+00:00",
+      "last_success_at": "2026-09-29T07:20:08.620021+00:00",
+      "status": "ok",
+      "data": {
+        "query": "biology genetics",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:08.619923+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=biology+genetics&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:08.619990+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.3389/fcell.2026.1910684",
+            "title": "DHA elongates the neuronal primary cilium through GPR40-mediated signaling",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:48:31+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Cell and Developmental Biology",
+            "url": "https://doi.org/10.3389/fcell.2026.1910684"
+          },
+          {
+            "doi": "10.1007/s13353-026-01115-1",
+            "title": "Rapid and reliable molecular diagnosis of oculopharyngeal muscular dystrophy: a cost-effective alternative for PABPN1 gene (GCN)n repeat analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:22:13+00:00",
+            "citations": 0,
+            "journal": "Journal of Applied Genetics",
+            "url": "https://doi.org/10.1007/s13353-026-01115-1"
+          },
+          {
+            "doi": "10.1007/s10519-026-10284-y",
+            "title": "Heritability of Fruit and Vegetable Consumption and Depressive Symptoms in Community-Based Middle-Aged and Older Adults from Four International Twin Cohorts",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:01:48+00:00",
+            "citations": 0,
+            "journal": "Behavior Genetics",
+            "url": "https://doi.org/10.1007/s10519-026-10284-y"
+          },
+          {
+            "doi": "10.3389/fcell.2026.1945533",
+            "title": "TRPV4-linked oxidative–lysosomal stress in myocardial ischemia/reperfusion: disease-matched transcriptomics and functional analysis in OGD/R cardiomyoblasts",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:56+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Cell and Developmental Biology",
+            "url": "https://doi.org/10.3389/fcell.2026.1945533"
+          },
+          {
+            "doi": "10.3157/021.133.0404",
+            "title": "Anatomical Diagnosis, Biology and Habitat Preference of Sitona macularius (Marsham, 1802) (Coleoptera: Curculionidae)",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:38:02+00:00",
+            "citations": 0,
+            "journal": "Entomological News",
+            "url": "https://doi.org/10.3157/021.133.0404"
+          },
+          {
+            "doi": "10.1242/jeb.252345",
+            "title": "Emulating the influence of exoskeleton stiffness on primary afferent feedback in rat isolated muscle-tendon unit",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:51:01+00:00",
+            "citations": 0,
+            "journal": "Journal of Experimental Biology",
+            "url": "https://doi.org/10.1242/jeb.252345"
+          },
+          {
+            "doi": "10.3389/fcell.2026.1938601",
+            "title": "Integrated re-analysis of bulk and single-cell transcriptomic data reveals limited ferroptosis and neuroinflammation signatures after sevoflurane exposure in the aged rat hippocampus and human prefrontal cortex cells",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:46:42+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Cell and Developmental Biology",
+            "url": "https://doi.org/10.3389/fcell.2026.1938601"
+          },
+          {
+            "doi": "10.1088/1361-6560/aea9e8",
+            "title": "Development of a novel material specific imaging algorithm and dual-energy CBCT technology for the next generation imaging solution on O-ring linacs",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-18T22:53:44+00:00",
+            "citations": 0,
+            "journal": "Physics in Medicine & Biology",
+            "url": "https://doi.org/10.1088/1361-6560/aea9e8"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:earth",
+      "label": "지구·기후·환경",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:08.620026+00:00",
+      "last_success_at": "2026-09-29T07:20:09.570118+00:00",
+      "status": "ok",
+      "data": {
+        "query": "earth climate environment",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:09.570066+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=earth+climate+environment&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:09.570093+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1007/s10668-026-08122-6",
+            "title": "Who should bear responsibility for allocating transport carbon emission transfers in China? — A comparative and equity assessment of multi-responsibility approaches",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:07+00:00",
+            "citations": 0,
+            "journal": "Environment, Development and Sustainability",
+            "url": "https://doi.org/10.1007/s10668-026-08122-6"
+          },
+          {
+            "doi": "10.2166/wcc.2026.220",
+            "title": "Hydro-climatic extremes: trends, anomalies and implications for urban water management",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T17:47:55+00:00",
+            "citations": 0,
+            "journal": "Journal of Water and Climate Change",
+            "url": "https://doi.org/10.2166/wcc.2026.220"
+          },
+          {
+            "doi": "10.36615/z76fby10",
+            "title": "Investigating Argumentative and Alternative Communication (AAC) Systems as Strategies for Identifying and Advancing Possible Careers for Learners With High-Functioning Autism (HFA) in a Special School Environment",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:20:43+00:00",
+            "citations": 0,
+            "journal": "African Journal of Neurodiversity",
+            "url": "https://doi.org/10.36615/z76fby10"
+          },
+          {
+            "doi": "10.1007/s10668-026-08131-5",
+            "title": "Detecting a structure in the agricultural digitalization policy instrument mix: what mix successfully drives the agricultural economic resilience? New evidence from China",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:07:03+00:00",
+            "citations": 0,
+            "journal": "Environment, Development and Sustainability",
+            "url": "https://doi.org/10.1007/s10668-026-08131-5"
+          },
+          {
+            "doi": "10.3389/feart.2026.1915778",
+            "title": "Geological framework for natural hydrogen generation in the Jeju basin and Hupijiao Rise, Northern East China Sea",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:48:20+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Earth Science",
+            "url": "https://doi.org/10.3389/feart.2026.1915778"
+          },
+          {
+            "doi": "10.36777/jag2026.5.2.5",
+            "title": "Comparative Google Earth Engine Workflows for Flood and Landslide Diagnostics in Lower Silesia, Poland, and Batang Kali, Malaysia",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:40:25+00:00",
+            "citations": 0,
+            "journal": "Journal of Asian Geography",
+            "url": "https://doi.org/10.36777/jag2026.5.2.5"
+          },
+          {
+            "doi": "10.3389/fsufs.2026.1948860",
+            "title": "Multidimensional climate physical risk and reported farmland abandonment among rural farm households in China: evidence from household panel data",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T22:10:23+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Sustainable Food Systems",
+            "url": "https://doi.org/10.3389/fsufs.2026.1948860"
+          },
+          {
+            "doi": "10.3389/feart.2026.1947385",
+            "title": "A morphological regularization-constrained fuzzy C-means clustering algorithm for tunnel rock discontinuity identification",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:44:03+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Earth Science",
+            "url": "https://doi.org/10.3389/feart.2026.1947385"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:computing",
+      "label": "컴퓨터·AI·보안",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:09.570122+00:00",
+      "last_success_at": "2026-09-29T07:20:10.418259+00:00",
+      "status": "ok",
+      "data": {
+        "query": "computer artificial intelligence cybersecurity",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:10.418208+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=computer+artificial+intelligence+cybersecurity&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:10.418234+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.4102/sajim.v28i1.2171",
+            "title": "Artificial intelligence-enabled e-services for justice system services delivery in Namibia",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-23T14:19:43+00:00",
+            "citations": 0,
+            "journal": "South African journal of information management",
+            "url": "https://doi.org/10.4102/sajim.v28i1.2171"
+          },
+          {
+            "doi": "10.3389/fmed.2026.1971679",
+            "title": "Perceptions of artificial intelligence for radiographic image accuracy: a cross-sectional survey of radiology personnel",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:35:33+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Medicine",
+            "url": "https://doi.org/10.3389/fmed.2026.1971679"
+          },
+          {
+            "doi": "10.1108/jwl-11-2025-0399",
+            "title": "Exploring how AI coaching promotes emotional intelligence awareness of contact centre team leaders",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-25T13:12:56+00:00",
+            "citations": 0,
+            "journal": "Journal of Workplace Learning",
+            "url": "https://doi.org/10.1108/jwl-11-2025-0399"
+          },
+          {
+            "doi": "10.1108/jgoss-06-2026-0116",
+            "title": "Generative artificial intelligence-enabled dynamic capabilities and sustainable supply chain resilience: the serial mediating effect of bricolage strategy and circular supply chain innovation",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-25T13:12:34+00:00",
+            "citations": 0,
+            "journal": "Journal of Global Operations and Strategic Sourcing",
+            "url": "https://doi.org/10.1108/jgoss-06-2026-0116"
+          },
+          {
+            "doi": "10.3389/frai.2026.1962501",
+            "title": "Artificial intelligence-driven personalization in digital marketing: effects on customer experience, purchase intention, and AI-supported managerial responsiveness",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:48:10+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Artificial Intelligence",
+            "url": "https://doi.org/10.3389/frai.2026.1962501"
+          },
+          {
+            "doi": "10.17148/ijarcce.2026.15942",
+            "title": "Data-Driven Approach for Crop Yield Prediction Using Machine Learning Techniques",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:30:25+00:00",
+            "citations": 0,
+            "journal": "IJARCCE",
+            "url": "https://doi.org/10.17148/ijarcce.2026.15942"
+          },
+          {
+            "doi": "10.37899/journallabisecoman.v7i5.5643",
+            "title": "Privacy-by-Design Business Intelligence for MSME Performance Management",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:19:21+00:00",
+            "citations": 0,
+            "journal": "Journal La Bisecoman",
+            "url": "https://doi.org/10.37899/journallabisecoman.v7i5.5643"
+          },
+          {
+            "doi": "10.1680/jtran.25.00136",
+            "title": "A data-driven approach for learning traffic assignment using an artificial neural network",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T17:45:05+00:00",
+            "citations": 0,
+            "journal": "Proceedings of the Institution of Civil Engineers - Transport",
+            "url": "https://doi.org/10.1680/jtran.25.00136"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:electrical",
+      "label": "전기·전자·통신",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:10.418263+00:00",
+      "last_success_at": "2026-09-29T07:20:16.166367+00:00",
+      "status": "ok",
+      "data": {
+        "query": "electrical electronics telecommunications",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:16.166189+00:00",
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22electrical+electronics+telecommunications%22%29+AND+FIRST_PDATE%3A%5B2025-09-29+TO+2026-09-29%5D+AND+PUB_TYPE%3A%22Journal+Article%22+sort_date%3Ay&format=json&resultType=core&pageSize=8",
+        "provider": "europepmc",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "error",
+            "code": "SOURCE_UNAVAILABLE",
+            "checked_at": "2026-09-29T07:20:11.086155+00:00"
+          },
+          {
+            "provider": "openalex",
+            "status": "error",
+            "code": "HTTP_429",
+            "checked_at": "2026-09-29T07:20:11.436049+00:00"
+          },
+          {
+            "provider": "europepmc",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:16.166280+00:00"
+          }
+        ],
+        "fallback_used": true,
+        "limitations": [
+          "Europe PMC 검색 결과입니다. Crossref와 검색 범위·관련성·인용망이 다르며 결과나 인용 수를 합치지 않습니다.",
+          "인용 수는 조회 시점 Europe PMC의 현재 누적 인용입니다. 지난 1년·3년 동안 받은 인용 수가 아니며 누락은 None입니다.",
+          "원문 확보·품질·전체 문헌 범위를 확증하지 않습니다. 응답은 실행 지시가 아닌 제한 길이 plain 텍스트입니다.",
+          "한국시간 오늘까지의 완전한 발행일과 DOI를 가진 저널 논문만 표시합니다. 서버 정렬 결과의 일부이며 전체 순위가 아닙니다.",
+          "Europe PMC는 생의학·생명과학 중심 범위입니다. FIRST_PDATE는 공급자가 불완전 원본 날짜로부터 보정했을 수 있으며 원본 날짜 정밀도를 보증하지 않습니다.",
+          "기본 Crossref를 사용할 수 없어 다른 공급자로 조회했습니다. 기존 결과의 출처·인용 수와 직접 비교하지 마세요."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · Europe PMC 최대 8건",
+        "items": []
+      },
+      "error": null
+    },
+    {
+      "id": "papers:mechanical",
+      "label": "기계·로봇·항공",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:16.166375+00:00",
+      "last_success_at": "2026-09-29T07:20:17.137841+00:00",
+      "status": "ok",
+      "data": {
+        "query": "mechanical robotics aerospace",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:17.137778+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=mechanical+robotics+aerospace&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:17.137818+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1007/s11104-026-09113-2",
+            "title": "No-tillage soil structure increases sugarcane root elongation under mechanical and hydric stresses in an Oxisol",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:17:09+00:00",
+            "citations": 0,
+            "journal": "Plant and Soil",
+            "url": "https://doi.org/10.1007/s11104-026-09113-2"
+          },
+          {
+            "doi": "10.3389/fonc.2026.1934901",
+            "title": "Case Report: Immune checkpoint inhibitor–induced hypophysitis presenting as acute paralytic ileus mimicking mechanical bowel obstruction in a patient affected by advanced non-small cell lung cancer",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:47:41+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Oncology",
+            "url": "https://doi.org/10.3389/fonc.2026.1934901"
+          },
+          {
+            "doi": "10.54254/2755-2721/2026.ast37315",
+            "title": "Using Statistical Reliability Models to Predict Mechanical Equipment Failures",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:59:31+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2026.ast37315"
+          },
+          {
+            "doi": "10.1108/ir-05-2026-0238",
+            "title": "Gait-phase-adaptive control of lower-limb exoskeletons for motion assistance",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-25T15:42:34+00:00",
+            "citations": 0,
+            "journal": "Industrial Robot: the international journal of robotics research and application",
+            "url": "https://doi.org/10.1108/ir-05-2026-0238"
+          },
+          {
+            "doi": "10.54254/2755-2721/2026.ch37300",
+            "title": "Triple Synergistic Mechanism of Chemical Passivation, Mechanical Buffering, and Energy Level Regulation: Rational Design of Interface Modification for Perovskite Solar Cells",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:44+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2026.ch37300"
+          },
+          {
+            "doi": "10.3389/frobt.2026.1905499",
+            "title": "Diffusion models in robotics: a comprehensive review",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:39:35+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Robotics and AI",
+            "url": "https://doi.org/10.3389/frobt.2026.1905499"
+          },
+          {
+            "doi": "10.1021/acsomega.6c04927",
+            "title": "Direct Laser Writing of Functional Material with Independently Tunable Electrical and Mechanical Properties",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:02:46+00:00",
+            "citations": 0,
+            "journal": "ACS Omega",
+            "url": "https://doi.org/10.1021/acsomega.6c04927"
+          },
+          {
+            "doi": "10.1007/s10064-026-05287-2",
+            "title": "Correction to: Micro-to-macro mechanical characterization and constitutive parameterization of marine-terrestrial interface soft soils in the Pearl River Estuary",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:41:05+00:00",
+            "citations": 0,
+            "journal": "Bulletin of Engineering Geology and the Environment",
+            "url": "https://doi.org/10.1007/s10064-026-05287-2"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:civil",
+      "label": "건축·토목·도시",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:17.137846+00:00",
+      "last_success_at": "2026-09-29T07:20:18.027350+00:00",
+      "status": "ok",
+      "data": {
+        "query": "civil engineering architecture urban",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:18.027306+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=civil+engineering+architecture+urban&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:18.027328+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1680/jensu.26.00031",
+            "title": "Machine learning for low-carbon concrete strength prediction: methods and trends",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T17:45:51+00:00",
+            "citations": 0,
+            "journal": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+            "url": "https://doi.org/10.1680/jensu.26.00031"
+          },
+          {
+            "doi": "10.1007/s44288-026-00749-2",
+            "title": "Path dependent peri urban land transformation and urban expansion in Ibadan Nigeria",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:25:49+00:00",
+            "citations": 0,
+            "journal": "Discover Geoscience",
+            "url": "https://doi.org/10.1007/s44288-026-00749-2"
+          },
+          {
+            "doi": "10.1007/s00018-026-06467-9",
+            "title": "ASFV early infection dynamically remodels host chromatin architecture to evade immune responses",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:26:40+00:00",
+            "citations": 0,
+            "journal": "Cellular and Molecular Life Sciences",
+            "url": "https://doi.org/10.1007/s00018-026-06467-9"
+          },
+          {
+            "doi": "10.1007/s10798-026-10130-6",
+            "title": "From conceptual design to 3D modelling: integrating spatial ability, creativity, and technological tools in the architecture curriculum",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:39:47+00:00",
+            "citations": 0,
+            "journal": "International Journal of Technology and Design Education",
+            "url": "https://doi.org/10.1007/s10798-026-10130-6"
+          },
+          {
+            "doi": "10.61487/jiste.v4i3.325",
+            "title": "The Influence of User Experience, Financial Innovation Capability, and Organizational Learning on the Success of Financial Technology Adoption in Fintech Lending Companies",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:26:56+00:00",
+            "citations": 0,
+            "journal": "Journal of Information System, Technology and Engineering",
+            "url": "https://doi.org/10.61487/jiste.v4i3.325"
+          },
+          {
+            "doi": "10.54254/2755-2721/2026.ba37311",
+            "title": "P rogress in T arget D etection T echnology for R oad T raffic V ehicles",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:52+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2026.ba37311"
+          },
+          {
+            "doi": "10.54254/2755-2721/2027.ad37296",
+            "title": "Sustainability & Environmental Performance of Graphene-on-Silicon Hybrid Transistors: Green Fabrication, Low-Carbon Application and Circular E-Waste Mitigation",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:29+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2027.ad37296"
+          },
+          {
+            "doi": "10.54254/2755-2721/2026.37347",
+            "title": "Deep Learning-Based Visual Detection Technology for Metal Gear Surface Defects",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:18+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2026.37347"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:materials",
+      "label": "소재·화공·에너지",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:18.027354+00:00",
+      "last_success_at": "2026-09-29T07:20:19.094883+00:00",
+      "status": "ok",
+      "data": {
+        "query": "materials chemical engineering energy",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:19.094829+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=materials+chemical+engineering+energy&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:19.094860+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1680/jensu.26.00031",
+            "title": "Machine learning for low-carbon concrete strength prediction: methods and trends",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T17:45:51+00:00",
+            "citations": 0,
+            "journal": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+            "url": "https://doi.org/10.1680/jensu.26.00031"
+          },
+          {
+            "doi": "10.1108/ijppm-01-2026-0111",
+            "title": "Application of Lean Six Sigma (LSS) methodology in a small-sized company that sells construction materials: a case study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T13:17:59+00:00",
+            "citations": 0,
+            "journal": "International Journal of Productivity and Performance Management",
+            "url": "https://doi.org/10.1108/ijppm-01-2026-0111"
+          },
+          {
+            "doi": "10.1021/acsami.6c11699",
+            "title": "Bioinspired Collagen-Zn-PEEK Mixed Interfacial Layer on Color-Stable, Surface-Hardened PEEK for Enhanced Osseointegration",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T19:02:01+00:00",
+            "citations": 0,
+            "journal": "ACS Applied Materials & Interfaces",
+            "url": "https://doi.org/10.1021/acsami.6c11699"
+          },
+          {
+            "doi": "10.3389/fphys.2026.1840466",
+            "title": "Cumulative endpoint and reconstructed 500-m energy-system contributions from individualized pacing-matched trials in 2000-m rowing ergometry",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:33:13+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Physiology",
+            "url": "https://doi.org/10.3389/fphys.2026.1840466"
+          },
+          {
+            "doi": "10.54254/2755-2721/2026.ba37311",
+            "title": "P rogress in T arget D etection T echnology for R oad T raffic V ehicles",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:52+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2026.ba37311"
+          },
+          {
+            "doi": "10.54254/2755-2721/2027.ad37296",
+            "title": "Sustainability & Environmental Performance of Graphene-on-Silicon Hybrid Transistors: Green Fabrication, Low-Carbon Application and Circular E-Waste Mitigation",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:29+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2027.ad37296"
+          },
+          {
+            "doi": "10.61487/jiste.v4i3.325",
+            "title": "The Influence of User Experience, Financial Innovation Capability, and Organizational Learning on the Success of Financial Technology Adoption in Fintech Lending Companies",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:26:56+00:00",
+            "citations": 0,
+            "journal": "Journal of Information System, Technology and Engineering",
+            "url": "https://doi.org/10.61487/jiste.v4i3.325"
+          },
+          {
+            "doi": "10.54254/2755-2721/2026.37347",
+            "title": "Deep Learning-Based Visual Detection Technology for Metal Gear Surface Defects",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:18+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2026.37347"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:basic_medicine",
+      "label": "기초의학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:19.094887+00:00",
+      "last_success_at": "2026-09-29T07:20:20.089591+00:00",
+      "status": "ok",
+      "data": {
+        "query": "biomedical physiology pathology",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:20.089536+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=biomedical+physiology+pathology&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:20.089567+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.3389/fphys.2026.1840466",
+            "title": "Cumulative endpoint and reconstructed 500-m energy-system contributions from individualized pacing-matched trials in 2000-m rowing ergometry",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:33:13+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Physiology",
+            "url": "https://doi.org/10.3389/fphys.2026.1840466"
+          },
+          {
+            "doi": "10.3389/fphys.2026.1995658",
+            "title": "Editorial: Assessment and monitoring of human movement, volume II",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:37:18+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Physiology",
+            "url": "https://doi.org/10.3389/fphys.2026.1995658"
+          },
+          {
+            "doi": "10.3389/fphys.2026.1932866",
+            "title": "Acute neuromuscular and metabolic responses to complex training with blood flow restriction: effects of arterial occlusion pressure on post-activation performance enhancement",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:35:27+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Physiology",
+            "url": "https://doi.org/10.3389/fphys.2026.1932866"
+          },
+          {
+            "doi": "10.1117/1.jbo.31.9.097005",
+            "title": "Histopathological analysis for human articular cartilage using a Raman probe system",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:42:29+00:00",
+            "citations": 0,
+            "journal": "Journal of Biomedical Optics",
+            "url": "https://doi.org/10.1117/1.jbo.31.9.097005"
+          },
+          {
+            "doi": "10.1021/acsomega.6c05838",
+            "title": "Emerging Polysaccharide-Based Biomaterials in 3D Bioprinting: Materials, Biomedical Applications, and Future Perspectives",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:02:09+00:00",
+            "citations": 0,
+            "journal": "ACS Omega",
+            "url": "https://doi.org/10.1021/acsomega.6c05838"
+          },
+          {
+            "doi": "10.3389/fmats.2026.1914758",
+            "title": "Structural, biomedical and metal-ion sensing properties of the eco-friendly synthesized CrVO4 nanoparticles using Saussurea obvallata flower extract",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:04+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Materials",
+            "url": "https://doi.org/10.3389/fmats.2026.1914758"
+          },
+          {
+            "doi": "10.1007/s11055-026-02074-0",
+            "title": "Modulatory effects of lauric acid on inflammation, oxidative stress, and neurobehavioural alterations in paclitaxel-induced depressive-like behaviour in Wistar rats",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T00:39:40+00:00",
+            "citations": 0,
+            "journal": "Neuroscience and Behavioral Physiology",
+            "url": "https://doi.org/10.1007/s11055-026-02074-0"
+          },
+          {
+            "doi": "10.1007/s00580-026-03865-0",
+            "title": "Modulation of glycemic and lipid profiles by Ganoderma lucidum aqueous extract in streptozotocin-induced diabetic wistar rats",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:53:15+00:00",
+            "citations": 0,
+            "journal": "Comparative Clinical Pathology",
+            "url": "https://doi.org/10.1007/s00580-026-03865-0"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:clinical",
+      "label": "임상의학·치의학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:20.089595+00:00",
+      "last_success_at": "2026-09-29T07:20:21.267902+00:00",
+      "status": "ok",
+      "data": {
+        "query": "clinical medicine dentistry",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:21.267840+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=clinical+medicine+dentistry&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:21.267878+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1161/cir.0000000000001464",
+            "title": "Primary and Secondary Raynaud: A Scientific Statement From the American Heart Association",
+            "published": "2026-09-29",
+            "registered_at": "2026-08-25T09:02:00+00:00",
+            "citations": 0,
+            "journal": "Circulation",
+            "url": "https://doi.org/10.1161/cir.0000000000001464"
+          },
+          {
+            "doi": "10.3389/fmed.2026.1942699",
+            "title": "Shorter perioperative QRS duration and a leftward frontal-plane QRS axis are associated with anastomotic leakage after esophagectomy: a hypothesis-generating study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:53+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Medicine",
+            "url": "https://doi.org/10.3389/fmed.2026.1942699"
+          },
+          {
+            "doi": "10.3389/fmed.2026.1971679",
+            "title": "Perceptions of artificial intelligence for radiographic image accuracy: a cross-sectional survey of radiology personnel",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:35:33+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Medicine",
+            "url": "https://doi.org/10.3389/fmed.2026.1971679"
+          },
+          {
+            "doi": "10.54254/2753-8818/2027.37391",
+            "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:41+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+          },
+          {
+            "doi": "10.3389/fmed.2026.1938414",
+            "title": "Preoperative risk stratification for postoperative inflammatory–nutritional deterioration after colorectal cancer surgery: an interpretable machine learning study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:13+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Medicine",
+            "url": "https://doi.org/10.3389/fmed.2026.1938414"
+          },
+          {
+            "doi": "10.3389/fcvm.2026.1887132",
+            "title": "Comparison of hybrid coronary revascularization and minimally invasive multivessel CABG for multivessel coronary artery disease",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:40:18+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Cardiovascular Medicine",
+            "url": "https://doi.org/10.3389/fcvm.2026.1887132"
+          },
+          {
+            "doi": "10.3389/fnut.2026.1913449",
+            "title": "Screening for medicine and food homologous ingredients targeting ALDH2 to alleviate acute ethanol-induced liver injury",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:48:11+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Nutrition",
+            "url": "https://doi.org/10.3389/fnut.2026.1913449"
+          },
+          {
+            "doi": "10.1186/s12906-026-05619-5",
+            "title": "Virtual reality/exergaming-complemented pulmonary rehabilitation in chronic obstructive pulmonary disease: an umbrella review of systematic reviews and meta-analyses",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:44:06+00:00",
+            "citations": 0,
+            "journal": "BMC Complementary Medicine and Therapies",
+            "url": "https://doi.org/10.1186/s12906-026-05619-5"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:health",
+      "label": "공중보건·간호",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:21.267906+00:00",
+      "last_success_at": "2026-09-29T07:20:22.120652+00:00",
+      "status": "ok",
+      "data": {
+        "query": "public health nursing",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:22.120603+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=public+health+nursing&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:22.120629+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1161/cir.0000000000001464",
+            "title": "Primary and Secondary Raynaud: A Scientific Statement From the American Heart Association",
+            "published": "2026-09-29",
+            "registered_at": "2026-08-25T09:02:00+00:00",
+            "citations": 0,
+            "journal": "Circulation",
+            "url": "https://doi.org/10.1161/cir.0000000000001464"
+          },
+          {
+            "doi": "10.1186/s12903-026-09919-7",
+            "title": "Immigrant background as a determinant of caries development in Swedish children",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:40:10+00:00",
+            "citations": 0,
+            "journal": "BMC Oral Health",
+            "url": "https://doi.org/10.1186/s12903-026-09919-7"
+          },
+          {
+            "doi": "10.1186/s12903-026-10004-2",
+            "title": "Comparative evaluation of serum interleukin-1β levels in patients with oral lichen planus and healthy subjects: a hospital-based case-control study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:45:53+00:00",
+            "citations": 0,
+            "journal": "BMC Oral Health",
+            "url": "https://doi.org/10.1186/s12903-026-10004-2"
+          },
+          {
+            "doi": "10.3389/frph.2026.1907831",
+            "title": "Socioeconomic and demographic determinants of children ever born among ever-married women in Somalia: a multilevel negative binomial regression analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:51:07+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Reproductive Health",
+            "url": "https://doi.org/10.3389/frph.2026.1907831"
+          },
+          {
+            "doi": "10.3389/fpubh.2026.1965897",
+            "title": "Building recovery capital: co-creating an assets-based community engagement toolkit for people accessing drug and alcohol treatment services",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:51:19+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Public Health",
+            "url": "https://doi.org/10.3389/fpubh.2026.1965897"
+          },
+          {
+            "doi": "10.1186/s12889-026-29640-y",
+            "title": "Health literacy levels in young adults in Northern Norway and their ability to find and judge health information: a Fit Futures 3 study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:38:07+00:00",
+            "citations": 0,
+            "journal": "BMC Public Health",
+            "url": "https://doi.org/10.1186/s12889-026-29640-y"
+          },
+          {
+            "doi": "10.17576/mh.2026.s2111",
+            "title": "39th Annual Scientific Meeting MSPP 2026 in conjunction with ARMY Conference",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:50:47+00:00",
+            "citations": 0,
+            "journal": "Medicine & Health",
+            "url": "https://doi.org/10.17576/mh.2026.s2111"
+          },
+          {
+            "doi": "10.65693/j21umas.2026.v5i1.420",
+            "title": "Quality of Life and Psychological Distress among Vitiligo Patients Attending Public Dermatology Clinics in Sana’a, Yemen",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T23:00:53+00:00",
+            "citations": 0,
+            "journal": "Journal of 21 September university for medical and applied sciences",
+            "url": "https://doi.org/10.65693/j21umas.2026.v5i1.420"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:pharmacy",
+      "label": "약학·약물개발",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:22.120656+00:00",
+      "last_success_at": "2026-09-29T07:20:23.151864+00:00",
+      "status": "ok",
+      "data": {
+        "query": "pharmacology drug discovery",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:23.151808+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=pharmacology+drug+discovery&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:23.151841+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1186/s40360-026-01242-9",
+            "title": "Investigation of maresin 1 and possible associated intracellular pathways in nasal polyp pathophysiology",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:35:46+00:00",
+            "citations": 0,
+            "journal": "BMC Pharmacology and Toxicology",
+            "url": "https://doi.org/10.1186/s40360-026-01242-9"
+          },
+          {
+            "doi": "10.3389/fpubh.2026.1965897",
+            "title": "Building recovery capital: co-creating an assets-based community engagement toolkit for people accessing drug and alcohol treatment services",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:51:19+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Public Health",
+            "url": "https://doi.org/10.3389/fpubh.2026.1965897"
+          },
+          {
+            "doi": "10.3389/fphar.2026.1930240",
+            "title": "Development and validation of machine learning models for predicting pancreatic injury observed after tigecycline initiation: a retrospective real-world study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:16+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Pharmacology",
+            "url": "https://doi.org/10.3389/fphar.2026.1930240"
+          },
+          {
+            "doi": "10.3389/fphar.2026.1910904",
+            "title": "Placental alkaline phosphatase promotes lipid accumulation and fibrosis in ligamentum flavum hypertrophy and represents a potential target for statin repurposing",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:46:35+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Pharmacology",
+            "url": "https://doi.org/10.3389/fphar.2026.1910904"
+          },
+          {
+            "doi": "10.1038/s41421-026-00926-0",
+            "title": "Structural basis of the transport mechanism of hBGT1",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T00:01:48+00:00",
+            "citations": 0,
+            "journal": "Cell Discovery",
+            "url": "https://doi.org/10.1038/s41421-026-00926-0"
+          },
+          {
+            "doi": "10.3389/fphar.2026.1911091",
+            "title": "Efficacy and safety of P2X3 receptor antagonists in refractory or unexplained chronic cough: an updated systematic review and meta-analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:37:28+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Pharmacology",
+            "url": "https://doi.org/10.3389/fphar.2026.1911091"
+          },
+          {
+            "doi": "10.3389/fphar.2026.1974332",
+            "title": "Potential role of resveratrol in abdominal cocoon syndrome: targeting inflammation, oxidative stress, and fibrosis via food-derived bioactive compounds resveratrol for treatment of abdominal cocoon syndrome",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:46:10+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Pharmacology",
+            "url": "https://doi.org/10.3389/fphar.2026.1974332"
+          },
+          {
+            "doi": "10.1007/s44268-026-00101-0",
+            "title": "Engineering-informed machine learning for bond-strength prediction, mechanism discovery, and reliability assessment of FRP-reinforced seawater sea-sand concrete",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:13:10+00:00",
+            "citations": 0,
+            "journal": "Smart Construction and Sustainable Cities",
+            "url": "https://doi.org/10.1007/s44268-026-00101-0"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:psychology",
+      "label": "심리·뇌과학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:23.151868+00:00",
+      "last_success_at": "2026-09-29T07:20:24.292474+00:00",
+      "status": "ok",
+      "data": {
+        "query": "psychology neuroscience",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:24.292259+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=psychology+neuroscience&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:24.292427+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.3389/fpsyg.2026.1918115",
+            "title": "The relationship between university students’ future work self and career decision-making difficulties: the mediating role of learned helplessness and the moderating role of social loafing",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:46:55+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Psychology",
+            "url": "https://doi.org/10.3389/fpsyg.2026.1918115"
+          },
+          {
+            "doi": "10.3389/fpsyg.2026.1927380",
+            "title": "Revising the measurement of Eriksonian ego identity in contemporary Italian adolescents: the EPSI-IT",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:39+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Psychology",
+            "url": "https://doi.org/10.3389/fpsyg.2026.1927380"
+          },
+          {
+            "doi": "10.1021/acschemneuro.6c00376",
+            "title": "Conditional Mutant MAPT Overexpression in Neural Organoids Elicits Robust Tau Accumulation and Pathological Transcriptomic Responses",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:02:12+00:00",
+            "citations": 0,
+            "journal": "ACS Chemical Neuroscience",
+            "url": "https://doi.org/10.1021/acschemneuro.6c00376"
+          },
+          {
+            "doi": "10.3389/fnagi.2026.1896908",
+            "title": "Multimodal neuroimaging and electrophysiological signatures in amnestic mild cognitive impairment with different amyloid-β deposition status: correlations with cognitive function and diagnostic value",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:52+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Aging Neuroscience",
+            "url": "https://doi.org/10.3389/fnagi.2026.1896908"
+          },
+          {
+            "doi": "10.3389/fpsyg.2026.1908723",
+            "title": "Multimodal art intervention for flourishing in lonely university students: psychological and exploratory neurophysiological outcomes",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:40:02+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Psychology",
+            "url": "https://doi.org/10.3389/fpsyg.2026.1908723"
+          },
+          {
+            "doi": "10.3389/fpsyg.2026.1882582",
+            "title": "A process-oriented interpretation of perfectionism: error, uncertainty, and the principles of organization",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:39:42+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Psychology",
+            "url": "https://doi.org/10.3389/fpsyg.2026.1882582"
+          },
+          {
+            "doi": "10.3389/fnins.2026.1948910",
+            "title": "Multi-region social-emotional network underlying the effects of spine pinching therapy on empathy-like behavior in a rat model of autism spectrum disorder",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:46:47+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Neuroscience",
+            "url": "https://doi.org/10.3389/fnins.2026.1948910"
+          },
+          {
+            "doi": "10.1162/netn.a.612",
+            "title": "Resting-state EEG alpha-BOLD coupling spatially follows cortical transcriptomic gradients of cell types and receptors",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:01:32+00:00",
+            "citations": 0,
+            "journal": "Network Neuroscience",
+            "url": "https://doi.org/10.1162/netn.a.612"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:agriculture",
+      "label": "농업·작물",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:24.292481+00:00",
+      "last_success_at": "2026-09-29T07:20:25.412101+00:00",
+      "status": "ok",
+      "data": {
+        "query": "agriculture crop science",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:25.411969+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=agriculture+crop+science&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:25.412067+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다.",
+          "응답 중 2건은 날짜·DOI·서지 형식·중복 또는 결과 상한 검사로 제외했습니다. 누락은 문헌이 없다는 뜻이 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.54254/2753-8818/2027.37391",
+            "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:41+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+          },
+          {
+            "doi": "10.51878/science.v6i4.15400",
+            "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:00:02+00:00",
+            "citations": 0,
+            "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+            "url": "https://doi.org/10.51878/science.v6i4.15400"
+          },
+          {
+            "doi": "10.54254/2753-8818/2026.37370",
+            "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:08:04+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+          },
+          {
+            "doi": "10.34257/gjhssg257322",
+            "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+            "published": "2026-09-29",
+            "registered_at": "2026-06-19T13:38:24+00:00",
+            "citations": 0,
+            "journal": "Global Journal of Human-Social Science",
+            "url": "https://doi.org/10.34257/gjhssg257322"
+          },
+          {
+            "doi": "10.3389/fmars.2026.1872850",
+            "title": "Spatiotemporal monitoring of harmful algal blooms using time-series Sentinel-2 MSI Level-2A imagery: a case study of El-Mex Bay, Alexandria, Egypt",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:38:09+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Marine Science",
+            "url": "https://doi.org/10.3389/fmars.2026.1872850"
+          },
+          {
+            "doi": "10.3389/fmars.2026.1940956",
+            "title": "Digital economy, green innovation, and high-quality development of the marine economy: evidence from China’s coastal regions",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:38:45+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Marine Science",
+            "url": "https://doi.org/10.3389/fmars.2026.1940956"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:food",
+      "label": "식품·영양",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:25.412107+00:00",
+      "last_success_at": "2026-09-29T07:20:26.384795+00:00",
+      "status": "ok",
+      "data": {
+        "query": "food science nutrition",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:26.384584+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=food+science+nutrition&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:26.384721+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다.",
+          "응답 중 2건은 날짜·DOI·서지 형식·중복 또는 결과 상한 검사로 제외했습니다. 누락은 문헌이 없다는 뜻이 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.54254/2753-8818/2027.37391",
+            "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:41+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+          },
+          {
+            "doi": "10.3389/fsufs.2026.1943791",
+            "title": "Enhancing smallholder farmers’ willingness to adopt organic fertilizer in Zhejiang Province, China: a configurational analysis of pathways",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T22:10:23+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Sustainable Food Systems",
+            "url": "https://doi.org/10.3389/fsufs.2026.1943791"
+          },
+          {
+            "doi": "10.51878/science.v6i4.15400",
+            "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:00:02+00:00",
+            "citations": 0,
+            "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+            "url": "https://doi.org/10.51878/science.v6i4.15400"
+          },
+          {
+            "doi": "10.54254/2753-8818/2026.37370",
+            "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:08:04+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+          },
+          {
+            "doi": "10.3389/fnut.2026.1913449",
+            "title": "Screening for medicine and food homologous ingredients targeting ALDH2 to alleviate acute ethanol-induced liver injury",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:48:11+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Nutrition",
+            "url": "https://doi.org/10.3389/fnut.2026.1913449"
+          },
+          {
+            "doi": "10.34257/gjhssg257322",
+            "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+            "published": "2026-09-29",
+            "registered_at": "2026-06-19T13:38:24+00:00",
+            "citations": 0,
+            "journal": "Global Journal of Human-Social Science",
+            "url": "https://doi.org/10.34257/gjhssg257322"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:forestry",
+      "label": "산림·생태",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:26.384805+00:00",
+      "last_success_at": "2026-09-29T07:20:28.981432+00:00",
+      "status": "ok",
+      "data": {
+        "query": "forestry ecology",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:28.981318+00:00",
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22forestry+ecology%22%29+AND+FIRST_PDATE%3A%5B2025-09-29+TO+2026-09-29%5D+AND+PUB_TYPE%3A%22Journal+Article%22+sort_date%3Ay&format=json&resultType=core&pageSize=8",
+        "provider": "europepmc",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "error",
+            "code": "SOURCE_UNAVAILABLE",
+            "checked_at": "2026-09-29T07:20:27.056703+00:00"
+          },
+          {
+            "provider": "openalex",
+            "status": "skipped",
+            "code": "CIRCUIT_OPEN_FOR_BATCH",
+            "checked_at": "2026-09-29T07:20:27.057696+00:00"
+          },
+          {
+            "provider": "europepmc",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:28.981406+00:00"
+          }
+        ],
+        "fallback_used": true,
+        "limitations": [
+          "Europe PMC 검색 결과입니다. Crossref와 검색 범위·관련성·인용망이 다르며 결과나 인용 수를 합치지 않습니다.",
+          "인용 수는 조회 시점 Europe PMC의 현재 누적 인용입니다. 지난 1년·3년 동안 받은 인용 수가 아니며 누락은 None입니다.",
+          "원문 확보·품질·전체 문헌 범위를 확증하지 않습니다. 응답은 실행 지시가 아닌 제한 길이 plain 텍스트입니다.",
+          "한국시간 오늘까지의 완전한 발행일과 DOI를 가진 저널 논문만 표시합니다. 서버 정렬 결과의 일부이며 전체 순위가 아닙니다.",
+          "Europe PMC는 생의학·생명과학 중심 범위입니다. FIRST_PDATE는 공급자가 불완전 원본 날짜로부터 보정했을 수 있으며 원본 날짜 정밀도를 보증하지 않습니다.",
+          "기본 Crossref를 사용할 수 없어 다른 공급자로 조회했습니다. 기존 결과의 출처·인용 수와 직접 비교하지 마세요."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · Europe PMC 최대 8건",
+        "items": [
+          {
+            "doi": "10.1016/j.ecoenv.2026.120847",
+            "title": "Microbial filtering and functional reprogramming in soil exposed to spent NCM battery black powder.",
+            "published": "2026-09-26",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Ecotoxicology and environmental safety",
+            "url": "https://doi.org/10.1016/j.ecoenv.2026.120847"
+          },
+          {
+            "doi": "10.1007/s00267-026-02571-5",
+            "title": "Rural Outmigration and its Double-edged Effects on Community Forestry Ecology and Governance.",
+            "published": "2026-08-01",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Environmental management",
+            "url": "https://doi.org/10.1007/s00267-026-02571-5"
+          },
+          {
+            "doi": "10.3390/plants15152355",
+            "title": "Spatial Patterns of Plant Diversity, Biomass Allocation and Vegetation Biomass Carbon Storage in Major Mangrove Forests of Hainan, China.",
+            "published": "2026-07-30",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Plants (Basel, Switzerland)",
+            "url": "https://doi.org/10.3390/plants15152355"
+          },
+          {
+            "doi": "10.3390/plants15152333",
+            "title": "Endangered and Protected Medicinal Plants in Forest Ecosystems: Diversity, Conservation Status, Therapeutic Potential, and Management Strategies.",
+            "published": "2026-07-29",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Plants (Basel, Switzerland)",
+            "url": "https://doi.org/10.3390/plants15152333"
+          },
+          {
+            "doi": "10.1371/journal.pone.0354303",
+            "title": "Effects of light qualities on the growth and photosynthetic characteristics of Sorbus tianschanica Rupr. seedlings.",
+            "published": "2026-07-24",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "PloS one",
+            "url": "https://doi.org/10.1371/journal.pone.0354303"
+          },
+          {
+            "doi": "10.1186/s13021-026-00481-x",
+            "title": "Disentangling exogenous and endogenous memory in global vegetation productivity: dominant role and future strengthening of vegetation carryover effects.",
+            "published": "2026-07-13",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Carbon balance and management",
+            "url": "https://doi.org/10.1186/s13021-026-00481-x"
+          },
+          {
+            "doi": "10.1016/j.pld.2026.05.013",
+            "title": "Leaf nutrients regulate phyllosphere microbial dynamics in rubber trees.",
+            "published": "2026-05-30",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Plant diversity",
+            "url": "https://doi.org/10.1016/j.pld.2026.05.013"
+          },
+          {
+            "doi": "10.3897/zookeys.1279.188643",
+            "title": "The hymenopteran parasitoid complex (Hymenoptera, Eurytomidae and Pteromalidae) of the weevil beetle <i>Lixus subtilis</i> Boheman, 1836 (Coleoptera, Curculionidae) in China.",
+            "published": "2026-05-18",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "ZooKeys",
+            "url": "https://doi.org/10.3897/zookeys.1279.188643"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:veterinary",
+      "label": "수의·축산",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:28.981436+00:00",
+      "last_success_at": "2026-09-29T07:20:30.051708+00:00",
+      "status": "ok",
+      "data": {
+        "query": "veterinary animal science",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:30.051643+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=veterinary+animal+science&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:30.051685+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다.",
+          "응답 중 2건은 날짜·DOI·서지 형식·중복 또는 결과 상한 검사로 제외했습니다. 누락은 문헌이 없다는 뜻이 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.54254/2753-8818/2027.37391",
+            "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:41+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+          },
+          {
+            "doi": "10.51878/science.v6i4.15400",
+            "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:00:02+00:00",
+            "citations": 0,
+            "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+            "url": "https://doi.org/10.51878/science.v6i4.15400"
+          },
+          {
+            "doi": "10.54254/2753-8818/2026.37370",
+            "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:08:04+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+          },
+          {
+            "doi": "10.34257/gjhssg257322",
+            "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+            "published": "2026-09-29",
+            "registered_at": "2026-06-19T13:38:24+00:00",
+            "citations": 0,
+            "journal": "Global Journal of Human-Social Science",
+            "url": "https://doi.org/10.34257/gjhssg257322"
+          },
+          {
+            "doi": "10.3389/fmars.2026.1872850",
+            "title": "Spatiotemporal monitoring of harmful algal blooms using time-series Sentinel-2 MSI Level-2A imagery: a case study of El-Mex Bay, Alexandria, Egypt",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:38:09+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Marine Science",
+            "url": "https://doi.org/10.3389/fmars.2026.1872850"
+          },
+          {
+            "doi": "10.3389/fmars.2026.1940956",
+            "title": "Digital economy, green innovation, and high-quality development of the marine economy: evidence from China’s coastal regions",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:38:45+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Marine Science",
+            "url": "https://doi.org/10.3389/fmars.2026.1940956"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:marine",
+      "label": "해양·수산",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:30.051713+00:00",
+      "last_success_at": "2026-09-29T07:20:31.030469+00:00",
+      "status": "ok",
+      "data": {
+        "query": "marine science fisheries",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:31.030390+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=marine+science+fisheries&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:31.030443+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다.",
+          "응답 중 2건은 날짜·DOI·서지 형식·중복 또는 결과 상한 검사로 제외했습니다. 누락은 문헌이 없다는 뜻이 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.54254/2753-8818/2027.37391",
+            "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:41+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+          },
+          {
+            "doi": "10.1007/s00367-026-00862-8",
+            "title": "Tidal creek networks as drivers of saltmarsh restoration: a review of biogeomorphic feedbacks",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:38:05+00:00",
+            "citations": 0,
+            "journal": "Geo-Marine Letters",
+            "url": "https://doi.org/10.1007/s00367-026-00862-8"
+          },
+          {
+            "doi": "10.51878/science.v6i4.15400",
+            "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:00:02+00:00",
+            "citations": 0,
+            "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+            "url": "https://doi.org/10.51878/science.v6i4.15400"
+          },
+          {
+            "doi": "10.54254/2753-8818/2026.37370",
+            "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:08:04+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+          },
+          {
+            "doi": "10.34257/gjhssg257322",
+            "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+            "published": "2026-09-29",
+            "registered_at": "2026-06-19T13:38:24+00:00",
+            "citations": 0,
+            "journal": "Global Journal of Human-Social Science",
+            "url": "https://doi.org/10.34257/gjhssg257322"
+          },
+          {
+            "doi": "10.3389/fmars.2026.1872850",
+            "title": "Spatiotemporal monitoring of harmful algal blooms using time-series Sentinel-2 MSI Level-2A imagery: a case study of El-Mex Bay, Alexandria, Egypt",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:38:09+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Marine Science",
+            "url": "https://doi.org/10.3389/fmars.2026.1872850"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:economy",
+      "label": "경제·금융",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:31.030474+00:00",
+      "last_success_at": "2026-09-29T07:20:32.190487+00:00",
+      "status": "ok",
+      "data": {
+        "query": "economics finance",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:32.190445+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=economics+finance&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:32.190464+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.54254/2754-1169/2026.bh37431",
+            "title": "I nfluencing F actors in A ttracting and R etaining A udiences for H onor of K ings L ive S treaming on D ouyin",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:42:56+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.bh37431"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.37421",
+            "title": "Value Symbiosis Mechanism and Long-Term Development of Humanistic Consumption Space from the Perspective of Scene Theory",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:43:15+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.37421"
+          },
+          {
+            "doi": "10.59141/jrssem.v6i2.1732",
+            "title": "Marketing Mix Influence on Purchase Decisions and Sales Recovery Strategy of RSV SC Hijab Series",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:47:43+00:00",
+            "citations": 0,
+            "journal": "Journal Research of Social Science, Economics, and Management",
+            "url": "https://doi.org/10.59141/jrssem.v6i2.1732"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.ld37361",
+            "title": "Research on the Innovation of Enterprise Economic Management Models in the Digital Economy Era",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:42:50+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.ld37361"
+          },
+          {
+            "doi": "10.1108/ejmbe-09-2025-0344",
+            "title": "Aligning values for engagement: how cultural fit shapes employee advocacy",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T15:48:11+00:00",
+            "citations": 0,
+            "journal": "European Journal of Management and Business Economics",
+            "url": "https://doi.org/10.1108/ejmbe-09-2025-0344"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.bh37330",
+            "title": "Public Opinion and Audience Perception of Cross-Cultural Sports S tars Endorsements: A Text Mining Study Based on Haaland Endorsement Wang Laoji's Weibo Comment Section",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:42:56+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.bh37330"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.37373",
+            "title": "Does Green Innovation Alleviate or Aggravate Financing Constraints? — Uncovering a Nonlinear Threshold Effect: Evidence from Chinese Listed Firms",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:42:52+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.37373"
+          },
+          {
+            "doi": "10.55862/y18kgp86",
+            "title": "Reconceptualizing Ar-Rahnu as an Integrated Islamic Social Finance Ecosystem for Sustainable Social Enterprise Development: The IPSEFM Model",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T00:02:04+00:00",
+            "citations": 0,
+            "journal": "Albukhary Social Business Journal",
+            "url": "https://doi.org/10.55862/y18kgp86"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:business",
+      "label": "경영·조직",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:32.190492+00:00",
+      "last_success_at": "2026-09-29T07:20:33.356165+00:00",
+      "status": "ok",
+      "data": {
+        "query": "business management organization",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:33.356080+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=business+management+organization&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:33.356137+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.4102/sajim.v28i1.2171",
+            "title": "Artificial intelligence-enabled e-services for justice system services delivery in Namibia",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-23T14:19:43+00:00",
+            "citations": 0,
+            "journal": "South African journal of information management",
+            "url": "https://doi.org/10.4102/sajim.v28i1.2171"
+          },
+          {
+            "doi": "10.1108/ijchm-05-2026-0803",
+            "title": "Beyond green claims: customer engagement activates green evangelism",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T03:13:31+00:00",
+            "citations": 0,
+            "journal": "International Journal of Contemporary Hospitality Management",
+            "url": "https://doi.org/10.1108/ijchm-05-2026-0803"
+          },
+          {
+            "doi": "10.1108/ijopm-12-2025-1293",
+            "title": "Employment protection and firms' reliance on trade credit: international evidence",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T11:39:51+00:00",
+            "citations": 0,
+            "journal": "International Journal of Operations & Production Management",
+            "url": "https://doi.org/10.1108/ijopm-12-2025-1293"
+          },
+          {
+            "doi": "10.1108/ijppm-01-2026-0111",
+            "title": "Application of Lean Six Sigma (LSS) methodology in a small-sized company that sells construction materials: a case study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T13:17:59+00:00",
+            "citations": 0,
+            "journal": "International Journal of Productivity and Performance Management",
+            "url": "https://doi.org/10.1108/ijppm-01-2026-0111"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.bh37431",
+            "title": "I nfluencing F actors in A ttracting and R etaining A udiences for H onor of K ings L ive S treaming on D ouyin",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:42:56+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.bh37431"
+          },
+          {
+            "doi": "10.59261/bustechno.v7i4.763",
+            "title": "Numerical Study of Coal-Air Mixture Erosion with Vane Addition in Elbow Coal Pipe",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:49:46+00:00",
+            "citations": 0,
+            "journal": "Journal of Business, Social and Technology",
+            "url": "https://doi.org/10.59261/bustechno.v7i4.763"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.37421",
+            "title": "Value Symbiosis Mechanism and Long-Term Development of Humanistic Consumption Space from the Perspective of Scene Theory",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:43:15+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.37421"
+          },
+          {
+            "doi": "10.2166/wcc.2026.220",
+            "title": "Hydro-climatic extremes: trends, anomalies and implications for urban water management",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T17:47:55+00:00",
+            "citations": 0,
+            "journal": "Journal of Water and Climate Change",
+            "url": "https://doi.org/10.2166/wcc.2026.220"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:education",
+      "label": "교육·학습",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:33.356170+00:00",
+      "last_success_at": "2026-09-29T07:20:34.173124+00:00",
+      "status": "ok",
+      "data": {
+        "query": "education learning",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:34.173061+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=education+learning&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:34.173100+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1680/jensu.26.00031",
+            "title": "Machine learning for low-carbon concrete strength prediction: methods and trends",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T17:45:51+00:00",
+            "citations": 0,
+            "journal": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+            "url": "https://doi.org/10.1680/jensu.26.00031"
+          },
+          {
+            "doi": "10.1007/s10566-026-09975-8",
+            "title": "Implementing Social Emotional Learning in Rural Elementary Schools: Feasibility and Preliminary Outcomes from a Pilot Implementation of Sources of Strength",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:47:49+00:00",
+            "citations": 0,
+            "journal": "Child & Youth Care Forum",
+            "url": "https://doi.org/10.1007/s10566-026-09975-8"
+          },
+          {
+            "doi": "10.1038/s41598-026-73245-9",
+            "title": "Evaluating the performance of ensemble learning methods in diabetes disease classification",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:08:53+00:00",
+            "citations": 0,
+            "journal": "Scientific Reports",
+            "url": "https://doi.org/10.1038/s41598-026-73245-9"
+          },
+          {
+            "doi": "10.3389/feduc.2026.1931792",
+            "title": "‘Making sure that people are in a good place is draining, and nobody does that for me’: the pandemic and its ongoing impact on teachers and headteachers",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:43:37+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Education",
+            "url": "https://doi.org/10.3389/feduc.2026.1931792"
+          },
+          {
+            "doi": "10.1007/s10798-026-10130-6",
+            "title": "From conceptual design to 3D modelling: integrating spatial ability, creativity, and technological tools in the architecture curriculum",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:39:47+00:00",
+            "citations": 0,
+            "journal": "International Journal of Technology and Design Education",
+            "url": "https://doi.org/10.1007/s10798-026-10130-6"
+          },
+          {
+            "doi": "10.61487/jiste.v4i3.325",
+            "title": "The Influence of User Experience, Financial Innovation Capability, and Organizational Learning on the Success of Financial Technology Adoption in Fintech Lending Companies",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:26:56+00:00",
+            "citations": 0,
+            "journal": "Journal of Information System, Technology and Engineering",
+            "url": "https://doi.org/10.61487/jiste.v4i3.325"
+          },
+          {
+            "doi": "10.3389/fmed.2026.1938414",
+            "title": "Preoperative risk stratification for postoperative inflammatory–nutritional deterioration after colorectal cancer surgery: an interpretable machine learning study",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:13+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Medicine",
+            "url": "https://doi.org/10.3389/fmed.2026.1938414"
+          },
+          {
+            "doi": "10.3847/1538-3881/aea417",
+            "title": "Identifying Planetary Nebulae Candidates from IPHAS and VPHAS+ Surveys via YOLO Deep Learning Models",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:19:25+00:00",
+            "citations": 0,
+            "journal": "The Astronomical Journal",
+            "url": "https://doi.org/10.3847/1538-3881/aea417"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:society",
+      "label": "사회·미디어",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:34.173129+00:00",
+      "last_success_at": "2026-09-29T07:20:35.010805+00:00",
+      "status": "ok",
+      "data": {
+        "query": "sociology communication media",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:35.010715+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=sociology+communication+media&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:35.010768+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.51878/science.v6i4.15400",
+            "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:00:02+00:00",
+            "citations": 0,
+            "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+            "url": "https://doi.org/10.51878/science.v6i4.15400"
+          },
+          {
+            "doi": "10.29121/digisecforensics.v3.i2.2026.121",
+            "title": "A MODULAR GUI FRAMEWORK FOR SOCIAL MEDIA SCRAPING AND FORENSIC ANALYSIS",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:03:07+00:00",
+            "citations": 0,
+            "journal": "Journal of Digital Security and Forensics",
+            "url": "https://doi.org/10.29121/digisecforensics.v3.i2.2026.121"
+          },
+          {
+            "doi": "10.3389/fcomm.2026.1862032",
+            "title": "A war of words: Wittgenstein, language games, and the loss of trust in the 21st century",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:46:19+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Communication",
+            "url": "https://doi.org/10.3389/fcomm.2026.1862032"
+          },
+          {
+            "doi": "10.36615/z76fby10",
+            "title": "Investigating Argumentative and Alternative Communication (AAC) Systems as Strategies for Identifying and Advancing Possible Careers for Learners With High-Functioning Autism (HFA) in a Special School Environment",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:20:43+00:00",
+            "citations": 0,
+            "journal": "African Journal of Neurodiversity",
+            "url": "https://doi.org/10.36615/z76fby10"
+          },
+          {
+            "doi": "10.17148/ijarcce.2026.15942",
+            "title": "Data-Driven Approach for Crop Yield Prediction Using Machine Learning Techniques",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:30:25+00:00",
+            "citations": 0,
+            "journal": "IJARCCE",
+            "url": "https://doi.org/10.17148/ijarcce.2026.15942"
+          },
+          {
+            "doi": "10.54254/2753-7064/2026.37327",
+            "title": "Same Event, Different Worlds: How Platform Mindsets Produce Divergent Meanings and Digital Identities in Social Media Publics",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:04:39+00:00",
+            "citations": 0,
+            "journal": "Communications in Humanities Research",
+            "url": "https://doi.org/10.54254/2753-7064/2026.37327"
+          },
+          {
+            "doi": "10.54254/2755-2721/2027.melb37388",
+            "title": "A Survey on Resource Scheduling and Optimization for Space‑Air‑Ground Integrated Communication‑Sensing‑Computation Networks",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:57:12+00:00",
+            "citations": 0,
+            "journal": "Applied and Computational Engineering",
+            "url": "https://doi.org/10.54254/2755-2721/2027.melb37388"
+          },
+          {
+            "doi": "10.1108/ijoa-11-2025-6152",
+            "title": "From fans to stakeholders: a conceptual analysis of social media and organisational practice in Latin American sport",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T07:03:32+00:00",
+            "citations": 0,
+            "journal": "International Journal of Organizational Analysis",
+            "url": "https://doi.org/10.1108/ijoa-11-2025-6152"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:law",
+      "label": "법·정치·행정",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:35.010812+00:00",
+      "last_success_at": "2026-09-29T07:20:35.903861+00:00",
+      "status": "ok",
+      "data": {
+        "query": "law political science public administration",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:35.903804+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=law+political+science+public+administration&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:35.903837+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다.",
+          "응답 중 2건은 날짜·DOI·서지 형식·중복 또는 결과 상한 검사로 제외했습니다. 누락은 문헌이 없다는 뜻이 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.54254/2754-1169/2026.bh37431",
+            "title": "I nfluencing F actors in A ttracting and R etaining A udiences for H onor of K ings L ive S treaming on D ouyin",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:42:56+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.bh37431"
+          },
+          {
+            "doi": "10.54254/2753-8818/2027.37391",
+            "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:41+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+          },
+          {
+            "doi": "10.36695/2219-5521.2.2026.13",
+            "title": "ОБМЕЖЕННЯ ІНФОРМАЦІЙНОЇ СВОБОДИ СУСПІЛЬСТВА ЯК ОЗНАКА ІНФОРМАЦІЙНОЇ АВТОКРАТІЇ",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:15:43+00:00",
+            "citations": 0,
+            "journal": "Law Review of Kyiv University of Law",
+            "url": "https://doi.org/10.36695/2219-5521.2.2026.13"
+          },
+          {
+            "doi": "10.54254/2754-1169/2026.37421",
+            "title": "Value Symbiosis Mechanism and Long-Term Development of Humanistic Consumption Space from the Perspective of Scene Theory",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:43:15+00:00",
+            "citations": 0,
+            "journal": "Advances in Economics, Management and Political Sciences",
+            "url": "https://doi.org/10.54254/2754-1169/2026.37421"
+          },
+          {
+            "doi": "10.51878/science.v6i4.15400",
+            "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:00:02+00:00",
+            "citations": 0,
+            "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+            "url": "https://doi.org/10.51878/science.v6i4.15400"
+          },
+          {
+            "doi": "10.3389/fpubh.2026.1965897",
+            "title": "Building recovery capital: co-creating an assets-based community engagement toolkit for people accessing drug and alcohol treatment services",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:51:19+00:00",
+            "citations": 0,
+            "journal": "Frontiers in Public Health",
+            "url": "https://doi.org/10.3389/fpubh.2026.1965897"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:history",
+      "label": "역사·고고학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:35.903865+00:00",
+      "last_success_at": "2026-09-29T07:20:37.096919+00:00",
+      "status": "ok",
+      "data": {
+        "query": "history archaeology",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:37.096872+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=history+archaeology&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:37.096895+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1017/jch.2026.10124",
+            "title": "Convict Politics: From Utopia to Serfdom in Early China (221 BCE–23 CE). By Liang Cai. Cambridge: Cambridge University Press, 2026. xvi + 427 pp. $145 (hardback), $145 (digital).",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:04:07+00:00",
+            "citations": 0,
+            "journal": "Journal of Chinese History",
+            "url": "https://doi.org/10.1017/jch.2026.10124"
+          },
+          {
+            "doi": "10.7227/jbr.12.20",
+            "title": "James Baldwinism Now",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-16T15:16:43+00:00",
+            "citations": 0,
+            "journal": "James Baldwin Review",
+            "url": "https://doi.org/10.7227/jbr.12.20"
+          },
+          {
+            "doi": "10.1017/jch.2026.10139",
+            "title": "The Many Faces of Anonymity: Portraitists of the Canton. By Winnie Wong. Chicago: University of Chicago Press, 2026. 288 pp. $50.00 (cloth), $54.99 (eBook), $54.55 (PDF), $12.50 (eBook, 45 days), $12.50 (PDF, 45 days).",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:04:05+00:00",
+            "citations": 0,
+            "journal": "Journal of Chinese History",
+            "url": "https://doi.org/10.1017/jch.2026.10139"
+          },
+          {
+            "doi": "10.1017/jch.2026.10133",
+            "title": "Venice and the Mongols: The Eurasian Exchange that Transformed the Medieval World. By Nicola Di Cosmo & Lorenzo Pubblici. Princeton: Princeton University Press, 2026. 368 pp. $35.00/£30.00 (cloth, eBook)",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:04:07+00:00",
+            "citations": 0,
+            "journal": "Journal of Chinese History",
+            "url": "https://doi.org/10.1017/jch.2026.10133"
+          },
+          {
+            "doi": "10.1017/jch.2026.10123",
+            "title": "Biographical Traditions in Early Modern East Asia, 1500–1900. Edited by Ihor Pidhainy and Ann Waltner. Cham, Switzerland: Palgrave Macmillan, 2025. 156 pp. $139.99 (cloth), $109 (eBook).",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T04:04:11+00:00",
+            "citations": 0,
+            "journal": "Journal of Chinese History",
+            "url": "https://doi.org/10.1017/jch.2026.10123"
+          },
+          {
+            "doi": "10.1017/s1047759426100919",
+            "title": "Gemma Jansen, Ann Olga Koloski-Ostrow, and Richard Neudecker, eds. Sixty-Six Toilets and Urinals in the Ancient City of Rome: Sanitary, Urbanistic, and Social Agency. Peeters Publishers, 2024. https://doi.org/10.2307/jj.24900056.",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:21:21+00:00",
+            "citations": 0,
+            "journal": "Journal of Roman Archaeology",
+            "url": "https://doi.org/10.1017/s1047759426100919"
+          },
+          {
+            "doi": "10.1017/mdh.2026.10081",
+            "title": "Burton Cleetus and Anne Gerritsen (eds), Histories of Health and Materiality in the Indian Ocean World: Medicine, Material Culture, and Trade, 1600–2000 (Bloomsbury: 2023). pp. 320, $108, ISBN 9781350195882.",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:25:02+00:00",
+            "citations": 0,
+            "journal": "Medical History",
+            "url": "https://doi.org/10.1017/mdh.2026.10081"
+          },
+          {
+            "doi": "10.54254/2753-8818/2026.37326",
+            "title": "Clinical and Lifestyle Factors Associated with Breast Cancer History: A Cross-Sectional Analysis Using NHANES Data",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:07:46+00:00",
+            "citations": 0,
+            "journal": "Theoretical and Natural Science",
+            "url": "https://doi.org/10.54254/2753-8818/2026.37326"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:language",
+      "label": "언어·문학",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:37.096924+00:00",
+      "last_success_at": "2026-09-29T07:20:38.485463+00:00",
+      "status": "ok",
+      "data": {
+        "query": "linguistics literature",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:38.485412+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=linguistics+literature&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:38.485439+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.17576/3l-2026-3203-16",
+            "title": "The Multimodality of Neoliberalism in Local and Global ELT Textbooks: A Systematic Literature Review",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:44:11+00:00",
+            "citations": 0,
+            "journal": "3L The Southeast Asian Journal of English Language Studies",
+            "url": "https://doi.org/10.17576/3l-2026-3203-16"
+          },
+          {
+            "doi": "10.1017/s136067432610094x",
+            "title": "Investigating the metalanguage of English: texts, corpora and models",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:14:47+00:00",
+            "citations": 0,
+            "journal": "English Language and Linguistics",
+            "url": "https://doi.org/10.1017/s136067432610094x"
+          },
+          {
+            "doi": "10.15688/jvolsu2.2026.3.11",
+            "title": "THE SCIENTIFIC HERITAGE OF PROFESSOR D.A. SUSEEVA AND ITS SIGNIFICANCE FOR MODERN LINGUISTICS",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:03:22+00:00",
+            "citations": 0,
+            "journal": "Vestnik Volgogradskogo gosudarstvennogo universiteta. Serija 2. Jazykoznanije",
+            "url": "https://doi.org/10.15688/jvolsu2.2026.3.11"
+          },
+          {
+            "doi": "10.1007/s10755-026-09958-6",
+            "title": "Enhancing Undergraduate Literacy in STEM Contexts: A Systematic Literature Review of Interventions",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:04:24+00:00",
+            "citations": 0,
+            "journal": "Innovative Higher Education",
+            "url": "https://doi.org/10.1007/s10755-026-09958-6"
+          },
+          {
+            "doi": "10.1017/s1360674326100914",
+            "title": "Interjections in Early Modern English grammars: balancing tradition, innovation and metalinguistic awareness",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:14:43+00:00",
+            "citations": 0,
+            "journal": "English Language and Linguistics",
+            "url": "https://doi.org/10.1017/s1360674326100914"
+          },
+          {
+            "doi": "10.1108/jsm-10-2025-0768",
+            "title": "Circular design strategies in the post-consumption journey: a systematic literature review of service design for circular fashion SMEs",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T04:56:53+00:00",
+            "citations": 0,
+            "journal": "Journal of Services Marketing",
+            "url": "https://doi.org/10.1108/jsm-10-2025-0768"
+          },
+          {
+            "doi": "10.54254/2753-7048/2026.37410",
+            "title": "Advances in Research on the Effectiveness of Artificial Intelligence-Based Cognitive Behavioral Therapy Chatbots for Alleviating Anxiety and Depression Symptoms: A Literature Review",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:48:30+00:00",
+            "citations": 0,
+            "journal": "Lecture Notes in Education Psychology and Public Media",
+            "url": "https://doi.org/10.54254/2753-7048/2026.37410"
+          },
+          {
+            "doi": "10.1017/s1360674326100859",
+            "title": "Exploring the MetaLing Corpus : spelling variation and discourse in Early Modern English texts on language",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T06:14:45+00:00",
+            "citations": 0,
+            "journal": "English Language and Linguistics",
+            "url": "https://doi.org/10.1017/s1360674326100859"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:philosophy",
+      "label": "철학·윤리",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:38.485468+00:00",
+      "last_success_at": "2026-09-29T07:20:39.567555+00:00",
+      "status": "ok",
+      "data": {
+        "query": "philosophy ethics",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:39.567468+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=philosophy+ethics&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:39.567525+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.1108/jced-01-2026-0003",
+            "title": "Educating character across differences: a cross-case synthesis of virtue ethics in higher education",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-25T10:22:28+00:00",
+            "citations": 0,
+            "journal": "Journal of Character Education",
+            "url": "https://doi.org/10.1108/jced-01-2026-0003"
+          },
+          {
+            "doi": "10.1017/s0075426926100688",
+            "title": "(D.) YATROMANOLAKIS (ed.) Archaic Ontological Past: Pre-Socratic Philosophy and European Avant-Garde Art and Thought. Athens: Eurasia Publications, 2022. Pp. 178. €18. 9786185439.",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T03:09:07+00:00",
+            "citations": 0,
+            "journal": "The Journal of Hellenic Studies",
+            "url": "https://doi.org/10.1017/s0075426926100688"
+          },
+          {
+            "doi": "10.36713/epra29062",
+            "title": "THE ROLE OF ETHICS IN CRIMINAL JUSTICE EDUCATION: PREPARING STUDENTS FOR THE MORAL CHALLENGES OF LAW ENFORCEMENT",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:39:09+00:00",
+            "citations": 0,
+            "journal": "EPRA International Journal of Multidisciplinary Research (IJMR)",
+            "url": "https://doi.org/10.36713/epra29062"
+          },
+          {
+            "doi": "10.31123/ajcs.1989163",
+            "title": "Beyond The Empathy Machine: Embodiment, Representation Ethics and Empathic Effect in VR",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T22:30:41+00:00",
+            "citations": 0,
+            "journal": "Akdeniz Journal of Communication Studies",
+            "url": "https://doi.org/10.31123/ajcs.1989163"
+          },
+          {
+            "doi": "10.1108/ijoes-04-2026-0297",
+            "title": "When the algorithm decides: moral legitimacy, ethical bank managers, and the restorative power of territorial embeddedness",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-26T11:53:35+00:00",
+            "citations": 0,
+            "journal": "International Journal of Ethics and Systems",
+            "url": "https://doi.org/10.1108/ijoes-04-2026-0297"
+          },
+          {
+            "doi": "10.1017/jme.2026.10291",
+            "title": "The Henrietta Lacks Case: Ongoing Litigation Seeks Closure",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T01:21:13+00:00",
+            "citations": 0,
+            "journal": "Journal of Law, Medicine & Ethics",
+            "url": "https://doi.org/10.1017/jme.2026.10291"
+          },
+          {
+            "doi": "10.51891/rease.v12i9.30625",
+            "title": "<b>ÉTICA NO CONTEXTO DA ROBÓTICA: DOS FUNDAMENTOS BIOÉTICOS E NORMATIVOS À GOVERNANÇA DOS SISTEMAS AUTÓNOMOS</b>",
+            "published": "2026-09-28",
+            "registered_at": "2026-09-28T20:51:50+00:00",
+            "citations": 0,
+            "journal": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+            "url": "https://doi.org/10.51891/rease.v12i9.30625"
+          },
+          {
+            "doi": "10.1186/s12909-026-10441-1",
+            "title": "Multi country training to strengthen leadership among administrative staff of research ethics committees and national regulatory bodies in the East African Community",
+            "published": "2026-09-28",
+            "registered_at": "2026-09-28T03:06:12+00:00",
+            "citations": 0,
+            "journal": "BMC Medical Education",
+            "url": "https://doi.org/10.1186/s12909-026-10441-1"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:culture",
+      "label": "종교·문화",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:39.567559+00:00",
+      "last_success_at": "2026-09-29T07:20:40.468900+00:00",
+      "status": "ok",
+      "data": {
+        "query": "religion cultural studies",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:40.468835+00:00",
+        "source": "https://api.crossref.org/works?query.bibliographic=religion+cultural+studies&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-09-29%2Cuntil-pub-date%3A2026-09-29&sort=published&order=desc&rows=8&select=DOI%2Ctitle%2Cpublished%2Ccreated%2Cis-referenced-by-count%2Ccontainer-title%2Cauthor",
+        "provider": "crossref",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:40.468870+00:00"
+          }
+        ],
+        "fallback_used": false,
+        "limitations": [
+          "Crossref 등록 서지 검색 결과입니다. 원문 확보·관련성·논문 품질·전체 문헌 범위를 확증하지 않습니다.",
+          "인용 수는 조회 시점의 Crossref DOI 간 누적 인용입니다. 지난 1년 또는 3년 동안 받은 인용 수가 아닙니다.",
+          "누락 인용 수와 학술지는 미확인(None)이며, 인용 누락을 0으로 바꾸지 않습니다.",
+          "기간은 한국시간 오늘 기준 발행일입니다. 등록순도 이 발행기간 안에서 정렬하며, 월·연도만 있는 불완전 발행일은 제외합니다.",
+          "제목·학술지 이름은 HTML 태그를 제거한 제한 길이 텍스트이며, 검색어와 응답 문구는 실행 지시가 아닙니다."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · 최대 8건",
+        "items": [
+          {
+            "doi": "10.17576/3l-2026-3203-11",
+            "title": "Reconceptualising Marriage: Adaptation and Diasporic Identity in Pride and Prejudice and Sofia Khan is Not Obliged",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:44:11+00:00",
+            "citations": 0,
+            "journal": "3L The Southeast Asian Journal of English Language Studies",
+            "url": "https://doi.org/10.17576/3l-2026-3203-11"
+          },
+          {
+            "doi": "10.17576/3l-2026-3203-16",
+            "title": "The Multimodality of Neoliberalism in Local and Global ELT Textbooks: A Systematic Literature Review",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:44:11+00:00",
+            "citations": 0,
+            "journal": "3L The Southeast Asian Journal of English Language Studies",
+            "url": "https://doi.org/10.17576/3l-2026-3203-16"
+          },
+          {
+            "doi": "10.17576/3l-2026-3203-09",
+            "title": "Linguistic Landscapes and Cultural Inclusivity: Examining Identity Negotiation in Arab Diasporic Tourism Spaces in Puncak, Indonesia",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:44:11+00:00",
+            "citations": 0,
+            "journal": "3L The Southeast Asian Journal of English Language Studies",
+            "url": "https://doi.org/10.17576/3l-2026-3203-09"
+          },
+          {
+            "doi": "10.17576/3l-2026-3203-18",
+            "title": "Adversative, Benefactive and Neutral Readings in BE- and GET-Passive Constructions: A Minimalist Analysis",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:44:11+00:00",
+            "citations": 0,
+            "journal": "3L The Southeast Asian Journal of English Language Studies",
+            "url": "https://doi.org/10.17576/3l-2026-3203-18"
+          },
+          {
+            "doi": "10.61784/wjes3210",
+            "title": "THE CONSTRUCTION OF AN EVALUATION SYSTEM FOR ENGINEERING PRACTICE ABILITY OF OUTSTANDING ENGINEERS FROM THE PERSPECTIVE OF SCHOOL-ENTERPRISE COLLABORATION",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T05:50:49+00:00",
+            "citations": 0,
+            "journal": "World Journal of Educational Studies",
+            "url": "https://doi.org/10.61784/wjes3210"
+          },
+          {
+            "doi": "10.1108/eemcs-07-2025-0409",
+            "title": "ITC Limited: a sustainable investment decision",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-25T12:22:27+00:00",
+            "citations": 0,
+            "journal": "Emerald Emerging Markets Case Studies",
+            "url": "https://doi.org/10.1108/eemcs-07-2025-0409"
+          },
+          {
+            "doi": "10.17576/3l-2026-3203-24",
+            "title": "Ecofeminist Spirituality in Carole Lindstrom and Michaela Goade’s We Are Water Protectors",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-29T02:44:11+00:00",
+            "citations": 0,
+            "journal": "3L The Southeast Asian Journal of English Language Studies",
+            "url": "https://doi.org/10.17576/3l-2026-3203-24"
+          },
+          {
+            "doi": "10.1108/ejmbe-09-2025-0344",
+            "title": "Aligning values for engagement: how cultural fit shapes employee advocacy",
+            "published": "2026-09-29",
+            "registered_at": "2026-09-28T15:48:11+00:00",
+            "citations": 0,
+            "journal": "European Journal of Management and Business Economics",
+            "url": "https://doi.org/10.1108/ejmbe-09-2025-0344"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "papers:arts",
+      "label": "예술·디자인·음악",
+      "kind": "papers",
+      "attempted_at": "2026-09-29T07:20:40.468905+00:00",
+      "last_success_at": "2026-09-29T07:20:42.963936+00:00",
+      "status": "ok",
+      "data": {
+        "query": "arts design music",
+        "mode": "latest",
+        "years": 1,
+        "checked_at": "2026-09-29T07:20:42.963882+00:00",
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22arts+design+music%22%29+AND+FIRST_PDATE%3A%5B2025-09-29+TO+2026-09-29%5D+AND+PUB_TYPE%3A%22Journal+Article%22+sort_date%3Ay&format=json&resultType=core&pageSize=8",
+        "provider": "europepmc",
+        "attempts": [
+          {
+            "provider": "crossref",
+            "status": "error",
+            "code": "SOURCE_UNAVAILABLE",
+            "checked_at": "2026-09-29T07:20:41.163973+00:00"
+          },
+          {
+            "provider": "openalex",
+            "status": "skipped",
+            "code": "CIRCUIT_OPEN_FOR_BATCH",
+            "checked_at": "2026-09-29T07:20:41.164854+00:00"
+          },
+          {
+            "provider": "europepmc",
+            "status": "ok",
+            "code": "OK",
+            "checked_at": "2026-09-29T07:20:42.963915+00:00"
+          }
+        ],
+        "fallback_used": true,
+        "limitations": [
+          "Europe PMC 검색 결과입니다. Crossref와 검색 범위·관련성·인용망이 다르며 결과나 인용 수를 합치지 않습니다.",
+          "인용 수는 조회 시점 Europe PMC의 현재 누적 인용입니다. 지난 1년·3년 동안 받은 인용 수가 아니며 누락은 None입니다.",
+          "원문 확보·품질·전체 문헌 범위를 확증하지 않습니다. 응답은 실행 지시가 아닌 제한 길이 plain 텍스트입니다.",
+          "한국시간 오늘까지의 완전한 발행일과 DOI를 가진 저널 논문만 표시합니다. 서버 정렬 결과의 일부이며 전체 순위가 아닙니다.",
+          "Europe PMC는 생의학·생명과학 중심 범위입니다. FIRST_PDATE는 공급자가 불완전 원본 날짜로부터 보정했을 수 있으며 원본 날짜 정밀도를 보증하지 않습니다.",
+          "기본 Crossref를 사용할 수 없어 다른 공급자로 조회했습니다. 기존 결과의 출처·인용 수와 직접 비교하지 마세요."
+        ],
+        "scope": "한국시간 2026-09-29 기준 2025-09-29~2026-09-29 발행 저널 논문 · 발행일 최신순 · Europe PMC 최대 8건",
+        "items": [
+          {
+            "doi": "10.1080/01616846.2026.2700934",
+            "title": "Development, Implementation, and Evaluation of a Proof of Concept, Food- and Nutrition-Focused Science Education Program for Youth in Public Libraries.",
+            "published": "2026-07-15",
+            "registered_at": null,
+            "citations": 0,
+            "journal": "Public library quarterly (New York, N.Y.)",
+            "url": "https://doi.org/10.1080/01616846.2026.2700934"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "news:mit",
+      "label": "MIT News · 연구",
+      "kind": "news",
+      "attempted_at": "2026-09-29T07:20:42.963940+00:00",
+      "last_success_at": "2026-09-29T07:20:43.219392+00:00",
+      "status": "ok",
+      "data": {
+        "source_id": "mit",
+        "source": "MIT News · 연구",
+        "feed_url": "https://news.mit.edu/rss/research",
+        "verification_url": "https://news.mit.edu/rss",
+        "as_of": "2026-09-29T07:20:43.218207+00:00",
+        "feed_items_seen": 50,
+        "category_data_available": true,
+        "category_counts": [
+          {
+            "name": "Research",
+            "count": 8,
+            "denominator": 89,
+            "article_denominator": 8
+          },
+          {
+            "name": "School of Engineering",
+            "count": 5,
+            "denominator": 89,
+            "article_denominator": 8
+          },
+          {
+            "name": "Artificial intelligence",
+            "count": 4,
+            "denominator": 89,
+            "article_denominator": 8
+          },
+          {
+            "name": "Biological engineering",
+            "count": 2,
+            "denominator": 89,
+            "article_denominator": 8
+          },
+          {
+            "name": "Machine learning",
+            "count": 2,
+            "denominator": 89,
+            "article_denominator": 8
+          }
+        ],
+        "articles": [
+          {
+            "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+            "link": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+            "published": "2026-09-29T04:00:00+00:00",
+            "categories": [
+              "Bioinspiration",
+              "Biological engineering",
+              "Cells",
+              "Mechanical engineering",
+              "Research",
+              "School of Engineering",
+              "Robotics"
+            ]
+          },
+          {
+            "title": "The effects of an “algorithmic monoculture” depend on the details",
+            "link": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+            "published": "2026-09-29T04:00:00+00:00",
+            "categories": [
+              "Research",
+              "Computer science and technology",
+              "Human-computer interaction",
+              "Artificial intelligence",
+              "Algorithms",
+              "Machine learning",
+              "Labor and jobs",
+              "Business and management",
+              "Laboratory for Information and Decision Systems (LIDS)",
+              "Electrical engineering and computer science (EECS)",
+              "Linguistics",
+              "Philosophy",
+              "School of Humanities Arts and Social Sciences",
+              "School of Engineering",
+              "MIT Sloan School of Management",
+              "MIT Schwarzman College of Computing"
+            ]
+          },
+          {
+            "title": "Who we become when we talk to machines",
+            "link": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+            "published": "2026-09-29T04:00:00+00:00",
+            "categories": [
+              "Technology and society",
+              "Faculty",
+              "Research",
+              "Books and authors",
+              "Artificial intelligence",
+              "Mental health",
+              "Social sciences",
+              "Psychology",
+              "Program in STS",
+              "School of Humanities Arts and Social Sciences"
+            ]
+          },
+          {
+            "title": "Pressurized experiments could help wind farms generate more power",
+            "link": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928",
+            "published": "2026-09-28T15:00:00+00:00",
+            "categories": [
+              "Research",
+              "Civil and environmental engineering",
+              "Energy",
+              "Renewable energy",
+              "Wind",
+              "Sustainability",
+              "Climate change",
+              "School of Engineering",
+              "National Science Foundation (NSF)"
+            ]
+          },
+          {
+            "title": "New formulation helps RNA vaccines withstand high temperatures",
+            "link": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+            "published": "2026-09-28T09:00:00+00:00",
+            "categories": [
+              "Research",
+              "Vaccines",
+              "Covid-19",
+              "RNA",
+              "Artificial intelligence",
+              "Chemical engineering",
+              "Koch Institute",
+              "School of Engineering",
+              "Electrical engineering and computer science (EECS)",
+              "Computer Science and Artificial Intelligence Laboratory (CSAIL)",
+              "MIT Schwarzman College of Computing"
+            ]
+          },
+          {
+            "title": "A new technique could accelerate the development of RNA therapies",
+            "link": "https://news.mit.edu/2026/new-technique-could-accelerate-development-rna-therapies-0925",
+            "published": "2026-09-25T17:25:00+00:00",
+            "categories": [
+              "Research",
+              "DNA",
+              "RNA",
+              "Vaccines",
+              "Drug delivery",
+              "Genetics",
+              "Chemical engineering",
+              "Biological engineering",
+              "Nanoscience and nanotechnology",
+              "MIT.nano",
+              "School of Engineering",
+              "MIT intellectual property",
+              "National Institutes of Health (NIH)"
+            ]
+          },
+          {
+            "title": "Estimating suicide risk from text",
+            "link": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
+            "published": "2026-09-24T21:00:00+00:00",
+            "categories": [
+              "Research",
+              "Mental health",
+              "Health care",
+              "Medicine",
+              "Neuroscience",
+              "Brain and cognitive sciences",
+              "Artificial intelligence",
+              "Depression",
+              "Anxiety",
+              "Health",
+              "Machine learning",
+              "Natural language processing",
+              "Technology and society",
+              "McGovern Institute",
+              "School of Science"
+            ]
+          },
+          {
+            "title": "Biologists identify a cellular pathway that allows colorectal cancer to metastasize",
+            "link": "https://news.mit.edu/2026/biologists-identify-cellular-pathway-allows-colorectal-cancer-metastasize-0924",
+            "published": "2026-09-24T18:00:00+00:00",
+            "categories": [
+              "Research",
+              "Health",
+              "Medicine",
+              "Biology",
+              "Cancer",
+              "Koch Institute",
+              "School of Science",
+              "National Institutes of Health (NIH)"
+            ]
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "news:kaist",
+      "label": "KAIST · 뉴스",
+      "kind": "news",
+      "attempted_at": "2026-09-29T07:20:43.219418+00:00",
+      "last_success_at": "2026-09-29T07:20:45.386504+00:00",
+      "status": "ok",
+      "data": {
+        "source_id": "kaist",
+        "source": "KAIST · 뉴스",
+        "feed_url": "https://www.kaist.ac.kr/_module/api/json.php?site_dvs_cd=kr&code=news&start=1&display=20",
+        "verification_url": "https://www.kaist.ac.kr/kr/html/footer/0819.html",
+        "as_of": "2026-09-29T07:20:45.386332+00:00",
+        "feed_items_seen": 20,
+        "category_data_available": false,
+        "category_counts": [],
+        "articles": [
+          {
+            "title": "움직임의 흐름 읽는 AI 반도체 개발…웨어러블 기기 활용 기대",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67670",
+            "published": "2026-09-29",
+            "categories": []
+          },
+          {
+            "title": "대장균·효모 함께 쓰는 유전자 조절 장치 개발…원하는 물질 만들 미생물 찾는 길 열어",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67590",
+            "published": "2026-09-28",
+            "categories": []
+          },
+          {
+            "title": "“다른 의견 내도 괜찮다”…안정적 소속감이 더 나은 결정",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67570",
+            "published": "2026-09-28",
+            "categories": []
+          },
+          {
+            "title": "세계 최초 ‘로봇 풀코스 마라톤’ 완주, 네이처 본지에 실렸다",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67550",
+            "published": "2026-09-28",
+            "categories": []
+          },
+          {
+            "title": "세포에 ‘한 번의 자극’…원하는 운명으로 바꾸는 길 찾았다",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67510",
+            "published": "2026-09-23",
+            "categories": []
+          },
+          {
+            "title": "KAIST, 국내 최초 범용인공지능(AGI) 연구소 출범",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67430",
+            "published": "2026-09-22",
+            "categories": []
+          },
+          {
+            "title": "전기차 배터리 더 작고 가볍게…구리판 바꿔 ‘무음극 전지’ 수명 늘린다",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67411",
+            "published": "2026-09-22",
+            "categories": []
+          },
+          {
+            "title": "신임 이사장에 권오현 前 삼성전자 대표이사 회장 선임",
+            "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67390",
+            "published": "2026-09-22",
+            "categories": []
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "news:harvard",
+      "label": "Harvard Gazette · 과학·기술",
+      "kind": "news",
+      "attempted_at": "2026-09-29T07:20:45.386511+00:00",
+      "last_success_at": "2026-09-29T07:20:46.033501+00:00",
+      "status": "ok",
+      "data": {
+        "source_id": "harvard",
+        "source": "Harvard Gazette · 과학·기술",
+        "feed_url": "https://news.harvard.edu/gazette/section/science-technology/feed/",
+        "verification_url": "https://news.harvard.edu/gazette/rss-feeds/",
+        "as_of": "2026-09-29T07:20:46.032733+00:00",
+        "feed_items_seen": 50,
+        "category_data_available": true,
+        "category_counts": [
+          {
+            "name": "Science & Tech",
+            "count": 8,
+            "denominator": 37,
+            "article_denominator": 8
+          },
+          {
+            "name": "A.I.",
+            "count": 5,
+            "denominator": 37,
+            "article_denominator": 8
+          },
+          {
+            "name": "Computers",
+            "count": 5,
+            "denominator": 37,
+            "article_denominator": 8
+          },
+          {
+            "name": "Animals",
+            "count": 2,
+            "denominator": 37,
+            "article_denominator": 8
+          },
+          {
+            "name": "Research",
+            "count": 2,
+            "denominator": 37,
+            "article_denominator": 8
+          }
+        ],
+        "articles": [
+          {
+            "title": "How Harvard scientists built genomics outpost on Gloucester harbor",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/how-harvard-scientists-built-genomics-outpost-on-gloucester-harbor/",
+            "published": "2026-09-25T20:41:06+00:00",
+            "categories": [
+              "Science & Tech",
+              "Animals",
+              "Faculty",
+              "Research"
+            ]
+          },
+          {
+            "title": "Taming the Duck, for starters",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/taming-the-duck-for-starters/",
+            "published": "2026-09-25T19:15:41+00:00",
+            "categories": [
+              "Science & Tech",
+              "A.I.",
+              "Computers",
+              "Education"
+            ]
+          },
+          {
+            "title": "‘Lately, my algorithm is trash’",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/lately-my-algorithm-is-trash/",
+            "published": "2026-09-23T20:55:44+00:00",
+            "categories": [
+              "Science & Tech",
+              "A.I.",
+              "Computers",
+              "Family & Relationships",
+              "Mental Health",
+              "social media"
+            ]
+          },
+          {
+            "title": "Curios and curiouser",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/curios-and-curiouser/",
+            "published": "2026-09-23T19:23:00+00:00",
+            "categories": [
+              "Science & Tech",
+              "Animals",
+              "History",
+              "Visual Arts"
+            ]
+          },
+          {
+            "title": "One effort to safeguard humanity: AI ‘constitutions’",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/one-effort-to-safeguard-humanity-ai-constitutions/",
+            "published": "2026-09-21T21:01:56+00:00",
+            "categories": [
+              "Science & Tech",
+              "A.I.",
+              "Computers"
+            ]
+          },
+          {
+            "title": "Chatbot attachment issues",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/chatbot-attachment-issues/",
+            "published": "2026-09-18T15:05:25+00:00",
+            "categories": [
+              "Science & Tech",
+              "A.I.",
+              "Computers",
+              "Family & Relationships",
+              "Mental Health",
+              "Psychology"
+            ]
+          },
+          {
+            "title": "Is there a philosopher in the house?",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/is-there-a-philosopher-in-the-house/",
+            "published": "2026-09-15T20:53:53+00:00",
+            "categories": [
+              "Science & Tech",
+              "A.I.",
+              "Alumni",
+              "Computers",
+              "Humanities",
+              "Philosophy"
+            ]
+          },
+          {
+            "title": "Can you tell an amorphophallus from an aspergillus?",
+            "link": "https://news.harvard.edu/gazette/story/2026/09/can-you-tell-an-amorphophallus-from-an-aspergillus/",
+            "published": "2026-09-15T20:10:40+00:00",
+            "categories": [
+              "Science & Tech",
+              "Books",
+              "Microbiome",
+              "Research"
+            ]
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "trends:KR",
+      "label": "Google 급상승 검색어 · 대한민국",
+      "kind": "trends",
+      "attempted_at": "2026-09-29T07:20:46.033509+00:00",
+      "last_success_at": "2026-09-29T07:20:46.821591+00:00",
+      "status": "ok",
+      "data": {
+        "geo": "KR",
+        "label": "대한민국",
+        "source": "Google Trends 급상승 검색어",
+        "feed_url": "https://trends.google.com/trending/rss?geo=KR",
+        "source_url": "https://trends.google.com/trending?geo=KR",
+        "as_of": "2026-09-29T07:20:46.821536+00:00",
+        "feed_items_seen": 10,
+        "items": [
+          {
+            "title": "해커",
+            "approximate_traffic": "1000+",
+            "published": "2026-09-29T05:30:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 1
+          },
+          {
+            "title": "송영길",
+            "approximate_traffic": "1000+",
+            "published": "2026-09-29T05:30:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 2
+          },
+          {
+            "title": "당뇨병",
+            "approximate_traffic": "2000+",
+            "published": "2026-09-29T04:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 3
+          },
+          {
+            "title": "박나래",
+            "approximate_traffic": "2000+",
+            "published": "2026-09-29T04:40:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 4
+          },
+          {
+            "title": "sonnet 5.5",
+            "approximate_traffic": "200+",
+            "published": "2026-09-29T04:10:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 5
+          },
+          {
+            "title": "허미미",
+            "approximate_traffic": "1000+",
+            "published": "2026-09-29T03:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 6
+          },
+          {
+            "title": "신인감독 김연경",
+            "approximate_traffic": "2000+",
+            "published": "2026-09-29T03:40:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 7
+          },
+          {
+            "title": "부부",
+            "approximate_traffic": "20000+",
+            "published": "2026-09-29T03:10:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 8
+          },
+          {
+            "title": "기초노령연금",
+            "approximate_traffic": "20000+",
+            "published": "2026-09-29T02:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 9
+          },
+          {
+            "title": "일본",
+            "approximate_traffic": "10000+",
+            "published": "2026-09-29T02:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=KR",
+            "source_order": 10
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "trends:US",
+      "label": "Google 급상승 검색어 · 미국",
+      "kind": "trends",
+      "attempted_at": "2026-09-29T07:20:46.821597+00:00",
+      "last_success_at": "2026-09-29T07:20:47.628543+00:00",
+      "status": "ok",
+      "data": {
+        "geo": "US",
+        "label": "미국",
+        "source": "Google Trends 급상승 검색어",
+        "feed_url": "https://trends.google.com/trending/rss?geo=US",
+        "source_url": "https://trends.google.com/trending?geo=US",
+        "as_of": "2026-09-29T07:20:47.628388+00:00",
+        "feed_items_seen": 10,
+        "items": [
+          {
+            "title": "jaime faria",
+            "approximate_traffic": "200+",
+            "published": "2026-09-29T06:40:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 1
+          },
+          {
+            "title": "delta",
+            "approximate_traffic": "2000+",
+            "published": "2026-09-29T05:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 2
+          },
+          {
+            "title": "minecraft dungeons 2",
+            "approximate_traffic": "500+",
+            "published": "2026-09-29T05:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 3
+          },
+          {
+            "title": "rui takahashi",
+            "approximate_traffic": "200+",
+            "published": "2026-09-29T05:40:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 4
+          },
+          {
+            "title": "arthur fils",
+            "approximate_traffic": "500+",
+            "published": "2026-09-29T04:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 5
+          },
+          {
+            "title": "hurricane nolo",
+            "approximate_traffic": "2000+",
+            "published": "2026-09-29T04:30:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 6
+          },
+          {
+            "title": "jimmy kimmel",
+            "approximate_traffic": "500+",
+            "published": "2026-09-29T04:30:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 7
+          },
+          {
+            "title": "josh hartnett",
+            "approximate_traffic": "500+",
+            "published": "2026-09-29T04:20:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 8
+          },
+          {
+            "title": "ken paxton",
+            "approximate_traffic": "500+",
+            "published": "2026-09-29T04:20:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 9
+          },
+          {
+            "title": "florence pugh",
+            "approximate_traffic": "2000+",
+            "published": "2026-09-29T03:50:00+00:00",
+            "link": "https://trends.google.com/trending/rss?geo=US",
+            "source_order": 10
+          }
+        ]
+      },
+      "error": null
+    }
+  ]
+}

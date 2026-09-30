@@ -1,0 +1,37 @@
+{
+  "retrieved_utc": "2026-09-26T03:55:58.0707687Z",
+  "citation": "Skylark WJ, Callan MJ (2021). Personal relative deprivation and pro-environmental intentions. PLOS ONE 16(11): e0259711.",
+  "doi": "10.1371/journal.pone.0259711",
+  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259711",
+  "data_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0259711.s005&type=supplementary",
+  "author_code_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0259711.s008&type=supplementary",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_basis_url": "https://journals.plos.org/plosone/s/licenses-and-copyright",
+  "license_basis": "Article copyright links CC BY 4.0; publisher licensing policy covers published articles and other works; S1 Data and S1 Script are official article supporting information.",
+  "assets": [
+    {
+      "path": "data/evaluation/paper_pairs/deprivation/study1.csv",
+      "sha256": "e618366fcbea120581bc107a6d4a8580e3c8dfdba001d1739e90908b83ea83b2",
+      "bytes": 70290
+    },
+    {
+      "path": "data/evaluation/paper_pairs/deprivation/author_analysis.R",
+      "sha256": "f5382570b1c5dca6e4001b06679a9e4bc24f6a191133c6257b230e7fb51c2e9e",
+      "bytes": 19956
+    },
+    {
+      "path": "data/evaluation/paper_pairs/deprivation/claim_excerpt.txt",
+      "sha256": "b78f02c1f756951e1d0602fea2ed5de5c85d7bfb77539418ca7c9f1f515618b9",
+      "bytes": 95
+    }
+  ],
+  "source_capture": "Exact 16-word substring mechanically confirmed in official publisher HTML; only the short excerpt retained, not a PDF or a full article snapshot.",
+  "raw_data_changed": false,
+  "registration_status": "PENDING",
+  "new_independent_original_dataset_acquired": 1,
+  "new_verified_executable_claims": 0,
+  "human_labels_created": 0,
+  "full_paper_reproduced": false,
+  "source_scope_verified": false
+}

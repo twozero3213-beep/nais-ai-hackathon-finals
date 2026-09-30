@@ -1,0 +1,15 @@
+# [0 이영] 수정 이유: 본선 연구 화면의 읽기 대비와 업로드 범위를 일관되게 유지한다.
+[theme]
+base = "light"
+primaryColor = "#172E50"
+backgroundColor = "#F5F7FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#152033"
+font = "sans serif"
+
+[server]
+headless = true
+maxUploadSize = 20
+
+[browser]
+gatherUsageStats = false

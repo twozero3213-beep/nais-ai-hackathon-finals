@@ -1,0 +1,959 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece372375" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12547479</article-id><article-id pub-id-type="pmcid-ver">PMC12547479.1</article-id><article-id pub-id-type="pmcaid">12547479</article-id><article-id pub-id-type="pmcaiid">12547479</article-id><article-id pub-id-type="pmid">41140306</article-id><article-id pub-id-type="doi">10.1002/ece3.72375</article-id><article-id pub-id-type="publisher-id">ECE372375</article-id><article-id pub-id-type="other">ECE-2025-06-01654.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Community Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>
+<styled-content style="fixed-case" toggle="no">StrataSeq</styled-content>: A Workflow for Rapid Development of Molecular Databases for Hard‐To‐Identify Species</article-title></title-group><contrib-group><contrib id="ece372375-cr-0001" contrib-type="author"><name name-style="western"><surname>Merges</surname><given-names initials="AK">Anna K.</given-names></name><xref rid="ece372375-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece372375-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece372375-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece372375-cr-0002" contrib-type="author"><name name-style="western"><surname>Manning</surname><given-names initials="P">Peter</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7940-2023</contrib-id><xref rid="ece372375-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece372375-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ece372375-cr-0003" contrib-type="author"><name name-style="western"><surname>Baulechner</surname><given-names initials="D">Dennis</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1839-9657</contrib-id><xref rid="ece372375-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ece372375-cr-0004" contrib-type="author"><name name-style="western"><surname>John</surname><given-names initials="K">Katharina</given-names></name><xref rid="ece372375-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ece372375-cr-0005" contrib-type="author"><name name-style="western"><surname>Zaitsev</surname><given-names initials="A">Andrey</given-names></name><xref rid="ece372375-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="ece372375-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="ece372375-cr-0006" contrib-type="author"><name name-style="western"><surname>Wolters</surname><given-names initials="V">Volkmar</given-names></name><xref rid="ece372375-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ece372375-cr-0007" contrib-type="author"><name name-style="western"><surname>Baranski</surname><given-names initials="D">Damian</given-names></name><xref rid="ece372375-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece372375-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece372375-cr-0008" contrib-type="author"><name name-style="western"><surname>Grossart</surname><given-names initials="HP">Hans‐Peter</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9141-0325</contrib-id><xref rid="ece372375-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="ece372375-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="ece372375-cr-0009" contrib-type="author"><name name-style="western"><surname>Woodhouse</surname><given-names initials="J">Jason</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1129-5396</contrib-id><xref rid="ece372375-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="ece372375-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="ece372375-cr-0010" contrib-type="author"><name name-style="western"><surname>Schneider</surname><given-names initials="C">Clément</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3743-9319</contrib-id><xref rid="ece372375-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ece372375-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="ece372375-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Bálint</surname><given-names initials="M">Miklós</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0499-8536</contrib-id><xref rid="ece372375-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece372375-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece372375-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="ece372375-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Insect Biotechnology</named-content>
+<institution>Justus‐Liebig University</institution>
+<city>Giessen</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Senckenberg Biodiversity and Climate Research Centre</institution>
+<city>Frankfurt am Main</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>LOEWE Centre for Translational Biodiversity Genomics</institution>
+<city>Frankfurt am Main</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biological Sciences</named-content>
+<institution>University of Bergen</institution>
+<city>Bergen</city>
+<country country="NO">Norway</country>
+</aff><aff id="ece372375-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Animal Ecology</named-content>
+<institution>Justus‐Liebig‐University</institution>
+<city>Giessen</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Senckenberg Museum of Natural History Görlitz</institution>
+<city>Görlitz</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plankton and Microbial Ecology</named-content>
+<institution>Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB)</institution>
+<city>Stechlin</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Biology and Biochemistry</named-content>
+<institution>Potsdam University</institution>
+<city>Potsdam</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece372375-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Cell‐ and Systems Biology of Animals</named-content>
+<institution>University of Hamburg</institution>
+<city>Hamburg</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Miklós Bálint (; )<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>10</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2025</year></pub-date><volume>15</volume><issue seq="2120">10</issue><issue-id pub-id-type="pmc-issue-id">497484</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v15.10</issue-id><elocation-id>e72375</elocation-id><history>
+<date date-type="rev-recd"><day>02</day><month>10</month><year>2025</year></date>
+<date date-type="received"><day>27</day><month>6</month><year>2025</year></date>
+<date date-type="accepted"><day>10</day><month>10</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>23</day><month>10</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>24</day><month>10</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 20:38:25.617"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-15-e72375.pdf"><?pdf-name ECE3-15-e72375.pdf?><?pdf-size 1108844?><?pdf-md5 889b0f2f51c0aef24425172ec0b5cf21?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:c9bd/12547479/889b0f2f51c0/ECE3-15-e72375.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-15-e72375.pdf"/><abstract><title>ABSTRACT</title><p>Biodiversity loss necessitates improved monitoring of small, species‐rich taxa, such as protists, phyto‐ and zooplankton and terrestrial invertebrates. Traditional biomonitoring is often infeasible for these taxa due to complex morphology and few taxonomists. DNA‐based approaches offer promising solutions by enabling rapid species identification. However, the effectiveness of these methods depends on the completeness of molecular reference databases, which remain incomplete, particularly for remote and biodiverse regions. To address this, we propose the StrataSeq workflow, a systematic approach to optimise the generation of DNA reference databases for hard‐to‐identify taxa. Reference sequences allow us to connect molecular operational taxonomic units to a wealth of information available for many described taxa. StrataSeq consists of four key steps: (1) Habitat‐stratified sample subsetting selects a minimal but ecologically representative sample set by stratifying along key environmental gradients. (2) Prioritising morphospecies involves sorting specimens into morphospecies and ranking them based on their occurrence across samples, prioritising common taxa for detailed identification. (3) Detailed morphological identification focuses on common morphospecies to maximise taxonomic coverage while minimising effort. (4) Reference DNA sequence generation targets taxa lacking molecular references, with sequenced specimens deposited as museum vouchers. We benchmarked the StrataSeq workflow using two datasets of Collembola from grassland soils in Germany. In comparison with a species list generated by a more labour‐intensive traditional approach (identification of randomly selected individuals from all samples), the StrataSeq workflow captured 69% of species but required only 22% of the effort. StrataSeq is adaptable to various organism groups and environmental settings, including both spatial and temporal gradients. The workflow enhances the cost‐effectiveness of generating reference DNA databases, supporting improved biodiversity monitoring and ecological research. StrataSeq offers a scalable solution to accelerate the completion of molecular databases, thereby improving biomonitoring and ecosystem assessments under global change pressures.</p></abstract><abstract abstract-type="graphical"><p>Biodiversity loss calls for better monitoring of small, species‐rich taxa, such as soil invertebrates, but traditional methods are limited due to complex morphology and lack of expertise. DNA‐based approaches offer a solution, but their effectiveness depends on incomplete molecular reference databases. The StrataSeq workflow optimises DNA reference generation through habitat stratification, prioritising common species for detailed identification and sequencing specimens lacking molecular references, making biodiversity monitoring more efficient and cost‐effective, as shown by its successful application to Collembola in German grasslands.<boxed-text position="anchor" content-type="graphic" id="ece372375-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-15-e72375-g004.jpg"><?image-name ECE3-15-e72375-g004.jpg?><?image-size 99440?><?image-md5 b164905f824d159447fadac71242448e?><?image-image-server-status NEVER_LOAD?><?image-original-height 665?><?image-original-width 390?><?image-scaled-height 665?><?image-scaled-width 390?><?image-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/b164905f824d/ECE3-15-e72375-g004.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece372375-kwd-0001">biodiversity monitoring</kwd><kwd id="ece372375-kwd-0002">DNA reference database</kwd><kwd id="ece372375-kwd-0003">habitat‐stratified sampling</kwd><kwd id="ece372375-kwd-0004">morphological identification</kwd><kwd id="ece372375-kwd-0005">morphospecies</kwd><kwd id="ece372375-kwd-0006">species turnover</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Deutsche Forschungsgemeinschaft</institution><institution-id institution-id-type="doi">10.13039/501100001659</institution-id></institution-wrap>
+</funding-source><award-id>BA 4843/4‐1</award-id><award-id>MA 7144/2‐1</award-id><award-id>SCHN 1620/1‐1</award-id><award-id>BA4843/6‐1</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Hessisches Ministerium für Wissenschaft und Kunst</institution><institution-id institution-id-type="doi">10.13039/501100003495</institution-id></institution-wrap>
+</funding-source><award-id>LOEWE/1/10/519/03/03.001(0014)/52</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="1"/><page-count count="16"/><word-count count="9000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.4 mode:remove_FC converted:23.10.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece372375-cit-1001">
+<string-name name-style="western">
+<surname>Merges</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Manning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Baulechner</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>
+<styled-content style="fixed-case" toggle="no">StrataSeq</styled-content>: A Workflow for Rapid Development of Molecular Databases for Hard‐To‐Identify Species</article-title>.” <source>Ecology and Evolution</source>
+<volume>15</volume>, no. <issue>10</issue>: <elocation-id>e72375</elocation-id>. <pub-id pub-id-type="doi">10.1002/ece3.72375</pub-id>.<pub-id pub-id-type="pmcid">PMC12547479</pub-id><pub-id pub-id-type="pmid">41140306</pub-id></mixed-citation>
+</p><fn-group id="ece372375-ntgp-0001"><fn fn-type="funding" id="ece372375-note-0001"><p>
+<bold>Funding:</bold> This work was funded by the DFG Priority Program 1374 “Biodiversity Exploratories” (BE‐Spring BA 4843/4‐1, MA 7144/2‐1, SCHN 1620/1‐1, BA4843/6‐1). M.B. was funded through Landes‐Offensive zur Entwicklung Wissenschaftlich‐ökonomischer Exzellenz (LOEWE) Program of the Hessian Ministry of Higher Education, Research, Science and the Arts through the LOEWE/1/10/519/03/03.001(0014)/52 project (LOEWE Centre for Translational Biodiversity Genomics—LOEWE‐TBG).</p></fn></fn-group></notes></front><body id="ece372375-body-0001"><sec id="ece372375-sec-0001"><label>1</label><title>Introduction</title><p>Accelerating biodiversity loss necessitates greatly improved monitoring of biodiversity trends across spatial and temporal scales (Gonzalez et al. <xref rid="ece372375-bib-0015" ref-type="bibr">2023</xref>). Small and species‐rich taxa, such as protists, phyto‐ and zooplankton, zoobenthos, small terrestrial invertebrates, but also bacteria and fungi, constitute most of global biodiversity (Wiens <xref rid="ece372375-bib-0053" ref-type="bibr">2021</xref>). However, adequate biomonitoring of small taxa using traditional approaches is often infeasible as their detection and morphological identification are difficult and time‐consuming (Oliver and Beattie <xref rid="ece372375-bib-0035" ref-type="bibr">1993</xref>; Terlizzi et al. <xref rid="ece372375-bib-0049" ref-type="bibr">2003</xref>), and taxonomic expertise is increasingly rare (Hutchings <xref rid="ece372375-bib-0017" ref-type="bibr">2019</xref>). Recently developed DNA‐based approaches may become cost‐effective tools for rapid and widespread assessment of hard‐to‐identify taxa (Elbrecht et al. <xref rid="ece372375-bib-0012" ref-type="bibr">2017</xref>; Porter and Hajibabaei <xref rid="ece372375-bib-0039" ref-type="bibr">2018</xref>). These methods allow us to identify species and characterise community compositions utilising DNA sequences specific to species. However, the molecular identification of species relies on the availability of taxonomically annotated DNA sequence databases. These databases are necessary to link DNA sequences to described species and to knowledge of their functions, interactions, or sensitivity to stressors.</p><p>Many initiatives have contributed to the creation and expansion of molecular reference databases. Such initiatives include the Barcode of Life Data System (BOLD) (Ratnasingham and Hebert <xref rid="ece372375-bib-0042" ref-type="bibr">2007</xref>), the Earth Biogenome Project (Lewin et al. <xref rid="ece372375-bib-0022" ref-type="bibr">2022</xref>), SILVA (Quast et al. <xref rid="ece372375-bib-0041" ref-type="bibr">2013</xref>), which is specialised on ribosomal DNA sequences, and Unite for fungi (Abarenkov et al. <xref rid="ece372375-bib-0001" ref-type="bibr">2010</xref>). Despite these advances, existing databases are far from complete. Data gaps for both genome and morphological data increase with increasing geographical remoteness (Monchamp et al. <xref rid="ece372375-bib-0031" ref-type="bibr">2023</xref>), including some of the most biodiverse regions, like the tropics (Arana et al. <xref rid="ece372375-bib-0002" ref-type="bibr">2024</xref>). Data incompleteness is a major problem for hard‐to‐identify taxa where a lack of taxonomic expertise limits morphological identification. This means reference databases contain only limited numbers of sequences for most hard‐to‐identify taxa. For instance, Li et al. (<xref rid="ece372375-bib-0023" ref-type="bibr">2022</xref>) found that 70% of aquatic insects from Chinese rivers miss molecular references. Gaps of terrestrial arthropods were reported by Recuero et al. (<xref rid="ece372375-bib-0043" ref-type="bibr">2024</xref>), who found that taxonomically informative DNA sequences are available only for a few Appalachian soil arthropods. Sequence data deficiency limits our capacity to currently use DNA‐based tools to monitor and understand the ecology of the most hard‐to‐identify taxa.</p><p>Incomplete sequence databases mean that research projects targeting hard‐to‐identify taxa, or groups in geographically remote regions, are confronted with a choice: they either base their conclusions on taxonomy‐free approaches (Cordier et al. <xref rid="ece372375-bib-0009" ref-type="bibr">2019</xref>), or they have to generate new reference libraries themselves (Lopes‐Lima et al. <xref rid="ece372375-bib-0025" ref-type="bibr">2024</xref>; Shechonge et al. <xref rid="ece372375-bib-0046" ref-type="bibr">2024</xref>). If researchers choose database generation, covering all target taxa in the region of interest is likely impossible. Consequently, it is necessary to prioritise certain aspects of database creation to limit the most laborious tasks: sample sorting and identification (often through microscopy), while creating new reference data that is still representative of the investigated species and communities. Prioritisation strategies may promote pragmatic workflows that balance taxonomic ambition with feasibility in biodiversity assessments (Meier et al. <xref rid="ece372375-bib-0027" ref-type="bibr">2025</xref>).</p><p>Numerous ecological studies have already dealt with the question of how to optimise species sampling for improving time‐ and cost‐efficiency (Bennett et al. <xref rid="ece372375-bib-0003" ref-type="bibr">2014</xref>; Meyer et al. <xref rid="ece372375-bib-0029" ref-type="bibr">2021</xref>; Milián‐García et al. <xref rid="ece372375-bib-0030" ref-type="bibr">2021</xref>). When aiming to compile a species inventory of a region while minimising the number of samples to sort through, one frequently applied method to optimise species detection is a stratified sampling approach (Danz et al. <xref rid="ece372375-bib-0011" ref-type="bibr">2005</xref>). In this approach, a study area is divided into layers (strata) based on certain environmental characteristics, such as habitat types, from which samples are subsequently picked for adequate representation of subgroups. This idea is based on the ecological assumption that habitat heterogeneity generates turnover in species composition: species have unique niches, and consequently, species composition should strongly differ along major environmental gradients (Hutchinson <xref rid="ece372375-bib-0018" ref-type="bibr">1957</xref>). Sample selection strategies based on habitat heterogeneity, therefore, promise to maximise the number of detected species. Ideally, direct measurements of important parameters, such as water or soil chemistry, should be used to account for small‐scale spatial heterogeneity. Open access environmental data (like climate variables, soil types, vegetation types, elevation) (Palmer et al. <xref rid="ece372375-bib-0038" ref-type="bibr">2002</xref>). However, stratified sampling strategies have not yet been applied to sequence database creation.</p><p>The ability to deal with high specimen abundances is another important optimization aspect. As samples of small organisms often contain thousands of target specimens, sorting them by morphospecies is a common method to gain a rough estimate of taxonomic diversity. Morphospecies sorting is the classification of organisms into at least superficially similar groups on the basis of external morphology, without the consultation of taxonomic literature or experts (Krell <xref rid="ece372375-bib-0020" ref-type="bibr">2004</xref>). Morphospecies are not sufficiently informative about taxonomic identity. However, the sorting is often a useful first step prior to accurate downstream species identification as morphospecies can help streamline species identification efforts. Importantly, the sorting allows one to identify common morphospecies, i.e., those that constitute most of the target community. Here we define ‘common’ as taxa widely occurring across different habitat types. A collateral macroecological tendency of widely occurring taxa is that these often occur in high abundances (Verberk <xref rid="ece372375-bib-0051" ref-type="bibr">2011</xref>). Common taxa usually contribute more to the functioning of their ecosystem (Grime <xref rid="ece372375-bib-0016" ref-type="bibr">1998</xref>; Smith and Knapp <xref rid="ece372375-bib-0047" ref-type="bibr">2003</xref>), although rare species can also be functionally important (Litchman et al. <xref rid="ece372375-bib-0024" ref-type="bibr">2024</xref>; Mouillot et al. <xref rid="ece372375-bib-0032" ref-type="bibr">2013</xref>). Prioritising common morphospecies for downstream morphological identification has the advantage that identification effort can be weighed against cost‐ and time‐efficiency. Such ‘stop‐rules’ are crucial to consider when dealing with limited resources (Cardoso <xref rid="ece372375-bib-0006" ref-type="bibr">2009</xref>). Identification efforts might also be reduced by identifying taxa only to higher levels (e.g., to genera or families, instead of species). However, information loss from relaxed taxonomic resolution is potentially greater compared to information loss from a reduced number of identified specimens (Bennett et al. <xref rid="ece372375-bib-0003" ref-type="bibr">2014</xref>).</p><p>While concepts for optimising sampling efficiency are frequently used in community ecology and taxonomy, they have not been adapted into a conceptual workflow for optimising the generation of DNA sequence databases. There is a need for such frameworks as more and more ecological studies and biomonitoring efforts rely on molecular morphological identification. Here we propose the StrataSeq workflow to optimise the generation of new molecular references for hard‐to‐identify and species‐rich taxonomic groups. The workflow relies on (1) stratified sampling across environmental driver gradients to optimise the recovery of taxonomic diversity, (2) prioritising common over rare taxa to generate reference sequences for most individuals of targeted communities, (3) existing taxonomic knowledge when prioritising morphospecies for detailed morphological identification, and (4) proposing a species list for reference sequence generation. We benchmark the StrataSeq workflow against the traditional method with a Collembola dataset where all specimens are identified prior to sequencing selection.</p></sec><sec sec-type="materials-and-methods" id="ece372375-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece372375-sec-0003"><label>2.1</label><title>Description of Workflow</title><p>StrataSeq is primarily a conceptual workflow that involves human judgement at critical decision points rather than automated computational steps. Therefore, computational scripts are limited to visualisation and ordination analyses and common ecological procedures.</p><sec id="ece372375-sec-0004"><label>2.1.1</label><title>Habitat Stratified Subsetting</title><p>As a starting position, we assume we have a full set of samples for molecular identification, obtained from a sampling scheme designed to answer an ecological question about community composition. To minimise effort in sorting and identifying species, we subset the samples by stratifying them along environmental gradients known or expected to be important in driving species turnover of the target taxa (e.g., geographic region or soil type; Figure <xref rid="ece372375-fig-0001" ref-type="fig">1</xref>). The number of samples to be sorted is kept at a minimum, but the maximised environmental heterogeneity among the samples increases the chances of finding a large fraction of the entire species pool. With this strategy, we select samples across the broadest possible range of differing environmental gradients, assuming that biodiversity and species composition change most rapidly across major habitat differences. At the end, we intend to have a single representative sample for each stratum. If we end up with multiple samples per stratum, we can take another level of stratification or randomly choose one from the samples. We term the set of samples resulting from this step as the habitat‐stratified subset. While we here describe the approach for spatial sampling schemes, it can be adapted to temporal assessments, e.g., seasonal community changes. If sampling was done over multiple time points, the samples may be subsetted also by time points representing the most important temporal environmental changes (e.g., temperature, vegetation period, hours of light).</p><fig position="float" fig-type="FIGURE" id="ece372375-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Overview of the workflow. (A) Sampling a community to answer an ecological question. Thick rectangles represent all samples taken. (B) Habitat‐stratified sample subsetting: A subset of samples is chosen based on environmental variables (strata) that are expected to drive compositional turnover in the target communities (= habitat‐stratified sample subset). Coloured rectangles represent samples designated for reference sequence generation after the habitat‐stratified sample subsetting. (C) Prioritising morphospecies: From the sample subset all specimens are sorted into pools of morphospecies. These pools are kept separated per sample. Individual IDs (i.e., unique codes given to each morphospecies, here as framed numbers), numbers of specimens per morphospecies, numbers of morphospecies pools per sample are noted in a morphospecies‐sample matrix. Morphospecies are sorted from common to rare. A stop‐rule is defined for detailed identification according to available capacities (red line). Here, four morphospecies are selected for detailed identification: 1 (common), 2 (common), 3 (common), and 4 (not common, but abundant in a sample). (D) Detailed morphological identification: Specimens of common morphospecies are identified first, followed by increasingly rare morphospecies. If a morphospecies may contain multiple species, specimens are identified from multiple samples which represent maximally different habitats. Reference DNA sequences are generated for species without publicly available reference data.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-15-e72375-g003.jpg"><?image-name ECE3-15-e72375-g003.jpg?><?image-size 164986?><?image-md5 75e3d7174826b81818889d60acce20dd?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1815?><?image-original-width 1064?><?image-scaled-height 1209?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/75e3d7174826/ECE3-15-e72375-g003.jpg?><?thumb-name ECE3-15-e72375-g003.gif?><?thumb-size 6398?><?thumb-md5 e9b43d6d1c61806fe17eafa64e5a80f3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 171?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/e9b43d6d1c61/ECE3-15-e72375-g003.gif?></graphic></fig></sec><sec id="ece372375-sec-0005"><label>2.1.2</label><title>Prioritising Morphospecies</title><p>The second step is to sort all specimens within the habitat‐stratified sample subsets into morphospecies. These morphospecies are then ranked by their commonness across the samples, i.e., the number of samples they are present in. The more common a morphospecies, the higher its priority is for detailed morphological identification (Figure <xref rid="ece372375-fig-0001" ref-type="fig">1</xref> and Table <xref rid="ece372375-supitem-0001" ref-type="supplementary-material">S1</xref>) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). While we prioritise morphospecies which appear in the largest number of samples, a distribution‐abundance relationship predicts that widely distributed species tend to be also locally abundant (Verberk <xref rid="ece372375-bib-0051" ref-type="bibr">2011</xref>). The number of specimens of each morphospecies should be noted within a sample, along with the number of intact and adult specimens. This will help select morphospecies pools with sufficient individuals for detailed morphological identification and sequencing (see below). When several morphospecies are equally common, abundance of specimens can be taken as a second prioritisation argument, i.e., the morphospecies with the higher number of specimens is prioritised. This is especially relevant when the identification effort has progressed towards rarer morphospecies and the work capacity for identification is close to the limit. Morphospecies of remarkably high abundance within a single or very few habitat subset samples should be marked and prioritised when workload capacities allow identification of rarer taxa. The task of sorting the morphospecies can be done by non‐experts. In such cases, training on possible morphological variance of a target taxon (e.g., known life cycle and phenotypic variation in size, shape and colour) should be given in advance by an expert. We also recommend taking high resolution pictures of the specimens in the bulk samples: this will allow us to get a second opinion on ambiguous cases later and may facilitate cross‐sample morphospecies comparison. The outcome of this step is a set of morphospecies pools from each habitat‐stratified sample, along with a corresponding abundance matrix (morphospecies‐sample matrix).</p></sec><sec id="ece372375-sec-0006"><label>2.1.3</label><title>Detailed Morphological Identification</title><p>This step is the most labour‐intensive, and consequently it is the main bottleneck for reference sequence database creation. Taxonomic literature (e.g., identification keys) and taxonomic expertise are essential here. Specimens should be prepared and identified according to the morphospecies priority table (Figure <xref rid="ece372375-fig-0001" ref-type="fig">1</xref>): the number of adult and intact specimens per pool of morphospecies, considering also habitat differences between the stratified samples. If a morphospecies is common in many samples, specimens should be first identified from the morphospecies pools of the most distinct habitats to minimise redundancy in identified species. At the same time, it is important to consider the number of specimens needed for confident species identification and DNA sequence generation. For many organism groups, reliable identification and sequencing both may need more than one specimen: multiple microscopic slides might be necessary with specimens mounted at different angles, and multiple DNA extractions might be needed for sufficiently high‐quality DNA. Consequently, the number of available specimens is especially important for morphospecies that are known to be species‐rich. In general, the more individuals are available in a pool of a morphospecies, the higher the chances are for clear species identification and good‐quality DNA extracts. The number of specimens necessary for robust identification and DNA extraction will largely depend on body size, preparation skill, or the type of distinguishing morphological characteristics. There might be cases when morphological identification and DNA extraction are not possible on the same specimens. In this situation, specimens for DNA extraction should be selected from a morphospecies pool where a single taxonomic species dominated in a habitat‐stratified sample.</p></sec><sec id="ece372375-sec-0007"><label>2.1.4</label><title>Reference <styled-content style="fixed-case" toggle="no">DNA</styled-content> Sequence Generation</title><p>Once the identification step is finished, the list of species should be checked against public molecular reference databases. Specimens should be designated for sequencing, i.e., those identified species that lack molecular references of the desired type or quality, e.g., barcodes or genomes (Figure <xref rid="ece372375-fig-0001" ref-type="fig">1</xref>). For species belonging to multi‐taxon morphospecies (i.e., those that may contain multiple species), either parts of the body of a well‐identified specimen should be used for DNA extraction (if organisms are sufficiently large), or the body should be recovered after DNA lysis (Gilbert et al. <xref rid="ece372375-bib-0014" ref-type="bibr">2007</xref>) and microscopically checked to make sure that the taxonomic assignment of the sequenced specimen is correct. In the case of genome sequencing, we recommend that a single specimen is used because hidden genetic variation may render genome assembly difficult if multiple genetically distinct specimens are pooled. Specimens with body parts sequenced, or bodies recovered after DNA extraction should be deposited as vouchers in publicly accessible specimen collections. This is essential for future verification (Buckner et al. <xref rid="ece372375-bib-0005" ref-type="bibr">2021</xref>).</p></sec></sec><sec id="ece372375-sec-0008"><label>2.2</label><title>Benchmarking of <styled-content style="fixed-case" toggle="no">StrataSeq</styled-content>
+</title><p>In the following section we demonstrate the workflow using two datasets of Collembola obtained from soil samples taken from grassland plots in Germany (StrataSeq dataset). These 150 grassland plots are part of the Biodiversity Exploratories, a long‐term observational and experimental network set up to investigate the impacts of land‐use intensification on biodiversity (Table <xref rid="ece372375-supitem-0002" ref-type="supplementary-material">S2</xref>) (Fischer et al. <xref rid="ece372375-bib-0013" ref-type="bibr">2010</xref>). We compare specimens identified with the StrataSeq workflow with a second, benchmarking dataset generated by identifying a random set of specimens in all samples. The benchmarking dataset was generated by morphologically identifying specimens from all plots from the same grasslands. Field permits for the collection were issued by the responsible state environmental offices of Baden‐Württemberg, Thüringen and Brandenburg.</p><p>Collembola are a large group of globally occurring terrestrial microarthropods (1–5 mm length on average). Approximately 9000 species have been described to date. Their communities often reach abundances of hundreds of thousands of individuals within a square metre of soil (Coleman et al. <xref rid="ece372375-bib-0007" ref-type="bibr">2020</xref>). Collembola feed on a wide variety of different resources, such as leaf litter, fungi, bacteria, roots and algae. Consequently, they are important regulators of microbial biomass and influence soil nutrient cycling as well as soil structure (Coulibaly et al. <xref rid="ece372375-bib-0010" ref-type="bibr">2019</xref>; Potapov et al. <xref rid="ece372375-bib-0040" ref-type="bibr">2020</xref>; Rusek <xref rid="ece372375-bib-0044" ref-type="bibr">1998</xref>).</p><p>The samples for both datasets were taken from the 150 grassland plots of the DFG Biodiversity Exploratories long‐term priority program (Table <xref rid="ece372375-supitem-0002" ref-type="supplementary-material">S2</xref>) (Ostrowski et al. <xref rid="ece372375-bib-0037" ref-type="bibr">2024</xref>). The 150 plots are spread across three regions in Germany, with 50 plots located each in the Swabian Albs, Hainich‐Dün and Schorfheide‐Chorin. The plots are selected to span the full grassland land‐use intensity (LUI) gradient of each region (Table <xref rid="ece372375-supitem-0002" ref-type="supplementary-material">S2</xref>) (Fischer et al. <xref rid="ece372375-bib-0013" ref-type="bibr">2010</xref>). LUI is calculated as the sum of the standardised values for three primary management practices: mowing events per year, amount of fertiliser applied, and livestock units per hectare per year (Blüthgen et al. <xref rid="ece372375-bib-0004" ref-type="bibr">2012</xref>). According to Wolters et al. (<xref rid="ece372375-bib-0054" ref-type="bibr">2023</xref>), on average, 4.5 species are present on the Swabian Albs plot (0–9 species), 2.5 species on the Hainich plots (0–7 species) and 2.6 on the Schorfheide plot (0–7 species).</p></sec><sec id="ece372375-sec-0009"><label>2.3</label><title>Benchmarking Dataset</title><p>The sampling for benchmarking taxa was done in April 2019 with the aim of characterising the collembola communities of all 150 plots of the Biodiversity Exploratories. Nine soil cores (5 cm diameter, 10 cm depth) per plot were taken and extracted in a high gradient Kempson extractor at the Justus‐Liebig University in Gießen, Germany. A subsample from each composite sample was taken from within a 5 × 5 cm ring and subsequently transferred into ≥ 98% pure ethanol. Identification (Appendix <xref rid="ece372375-supitem-0006" ref-type="supplementary-material">S1</xref>) was performed on a total of 1539 processed Collembola specimens, which could be assigned to 60 taxa: 48 to species level, 12 to genus, 312 juveniles were identified to family level and three specimens remained unidentified.</p></sec><sec id="ece372375-sec-0010"><label>2.4</label><title>
+<styled-content style="fixed-case" toggle="no">StrataSeq</styled-content> Dataset</title><p>Samples for demonstrating the StrataSeq workflow were taken in April 2021. On each of the same 150 grassland plots, four soil cores were taken with 5 × 5 cm coring rings, including litter and the first millimeters of vegetation. The microarthropod extraction was done using the MacFadyen apparatus at the Senckenberg Natural History Museum in Görlitz, Germany, over a duration of 10 days. The content was directly extracted into glass vessels filled with ≥ 98% pure ethanol. The four extracts of each plot were pooled and split into random halves. One half of each sample was retained for potential reference genome generation, while the other half was stored for a metagenomic follow‐up project.</p><sec id="ece372375-sec-0011"><label>2.4.1</label><title>Habitat Stratified Sample Subsetting</title><p>A subset of the 150 samples was chosen based on three stratifying variables: region, main soil type and LUI (Blüthgen et al. <xref rid="ece372375-bib-0004" ref-type="bibr">2012</xref>; Vogt et al. <xref rid="ece372375-bib-0052" ref-type="bibr">2019</xref>). LUI was calculated for each of the plots with a dedicated tool for each year between 2008 and 2020 (Ostrowski et al. <xref rid="ece372375-bib-0036" ref-type="bibr">2020</xref>) and then averaged for each plot. Nine main soil types were identified, with only one, cambisol, occurring in all three regions. Two main soil types occurred in the Swabian Albs (leptosol and cambisol), three in Hainich‐Dün (vertisol, stagnosol and cambisol) and six in Schorfheide‐Chorin (gleysol, type 1 histosol, type 2 drained and degraded histosol, luvisol, albeluvisol and cambisol). A high and a low LUI plot were selected by randomly choosing a plot from the lowest and highest quartiles of the land‐use intensities recorded in each region and soil type (Table <xref rid="ece372375-supitem-0002" ref-type="supplementary-material">S2</xref>; Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). With one low and one high LUI plot per main soil type per region, the final habitat‐stratified sample subset consisted of 22 samples.</p><p>We visualised differences in community composition explained by the stratifying variables using non‐metric multidimensional scaling (NMDS) implemented in the vegan package v2.6‐6.1 (Oksanen et al. <xref rid="ece372375-bib-0034" ref-type="bibr">2024</xref>) in R v4.4.3. As community data, we used specimen counts of morphospecies from the final habitat‐stratified subset (22 of the 150 samples). The statistical significance of region, main soil type and LUI was tested with permutational multivariate analysis of variance (PERMANOVA) as implemented in the adonis2 function of vegan (community~region + main soil type + LUI; distance metric: Bray–Curtis, 999 iterations). We did not control for differences in sample sizes and total specimen numbers because specimens were collected with comparable effort at each site, and observed abundance differences are therefore expected to reflect environmental gradients rather than sampling effects. We used a linear model to evaluate richness differences of morphospecies within the final habitat‐stratified sample subset (richness~region + main soil type + LUI). Data used for benchmarking, and R analysis and visualisation scripts are available from the Figshare Digital Repository <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28622285" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.28622285</ext-link> (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>).</p></sec><sec id="ece372375-sec-0012"><label>2.4.2</label><title>Prioritising Morphospecies</title><p>The Collembola specimens of each of the 22, final, habitat‐stratified subsets were grouped into morphospecies along typical traits: adult body size, relative size and shapes of tagmata and appendages (antennae, legs, furca, ventral tube), development of eye patch, pigmentation. Notes on the number of specimens and their integrity were taken accordingly for microscopic slide preparations and later potential DNA extractions for reference genomes. The 22 habitat subset samples all contained Collembola with a total number of 2478 specimens (in contrast to the benchmarking dataset, all specimens in the sample were evaluated, without subsampling). These were grouped into 31 different morphospecies in 181 pools of morphospecies for all 22 habitat subsets (Tables <xref rid="ece372375-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="ece372375-supitem-0003" ref-type="supplementary-material">S3</xref>) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). Individual samples contained 3–13 different morphospecies (8.4 morphospecies on average). The two most common morphospecies (B: 989 and A: 225 specimens) both occurred in 15 of the 22, final, habitat‐stratified subsets, making up 50% of all specimens in the StrataSeq dataset. The five least common morphospecies occurred only in one subset each with abundances of 1 to 19 specimens (Table <xref rid="ece372375-supitem-0001" ref-type="supplementary-material">S1</xref>) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). Morphospecies were selected for detailed taxonomic identification if they occurred in more than three samples. A single morphospecies occurring in a single sample was also identified because of its relatively high abundance (19 specimens). Altogether, 19 morphospecies were selected for detailed identification (Table <xref rid="ece372375-tbl-0001" ref-type="table">1</xref> and Table <xref rid="ece372375-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><table-wrap position="float" id="ece372375-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Collembola species identified with the StrataSeq workflow and the benchmarking dataset.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Order</th><th align="center" rowspan="2" valign="bottom" colspan="1">Family</th><th align="center" rowspan="2" valign="bottom" colspan="1">Species</th><th align="center" colspan="6" valign="bottom" rowspan="1">StrataSeq</th><th align="center" colspan="2" valign="bottom" rowspan="1">Benchmarking</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Detected</th><th align="center" valign="bottom" rowspan="1" colspan="1">Morphospecies</th><th align="center" valign="bottom" rowspan="1" colspan="1">Count</th><th align="center" valign="bottom" rowspan="1" colspan="1">Sequenced</th><th align="center" valign="bottom" rowspan="1" colspan="1">Accession</th><th align="center" valign="bottom" rowspan="1" colspan="1">Vouchers</th><th align="center" valign="bottom" rowspan="1" colspan="1">Detected</th><th align="center" valign="bottom" rowspan="1" colspan="1">Count</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Neelipleona</td><td align="center" valign="top" rowspan="1" colspan="1">Neelidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Megalothorax willemi</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">O</td><td align="center" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802800</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐001</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="12" valign="top" colspan="1">Symphypleona</td><td align="center" valign="top" rowspan="1" colspan="1">Arrhopalitidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Arrhopalites caecus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Bourletiellidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Bourletiella</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Dicyrtomidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Dicyrtomina minuta</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">5</td></tr><tr><td align="center" rowspan="5" valign="top" colspan="1">Katiannidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Sminthurinus aureus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">H</td><td align="center" valign="top" rowspan="1" colspan="1">36</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034698265.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">9</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Sminthurinus elegans</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Sb</td><td align="center" valign="top" rowspan="1" colspan="1">19</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034698325.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">20</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Sminthurinus alpinus</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Sminthurinus signatus</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">7</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Sminthurinus</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">18</td></tr><tr><td align="center" rowspan="4" valign="top" colspan="1">Sminthuridae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Sminthurus</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="2" valign="top" colspan="1">M</td><td align="center" rowspan="2" valign="top" colspan="1">59</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0003" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Sminthurus viridis</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_965194885.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Sminthurus wahlgreni</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">22</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Sphaeridia pumilis</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">V</td><td align="center" valign="top" rowspan="1" colspan="1">194</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034698345.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">41</td></tr><tr><td align="left" rowspan="6" valign="top" colspan="1">Poduromorpha</td><td align="center" valign="top" rowspan="1" colspan="1">Brachystomellidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Brachystomella parvula</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">C (C + Ca)</td><td align="center" valign="top" rowspan="1" colspan="1">133</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_019776545.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">8</td></tr><tr><td align="center" rowspan="5" valign="top" colspan="1">Hypogastruridae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ceratophysella denticulata</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">9</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Ceratophysella sp</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">8</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Willemia similis</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Hypogastrura</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">3</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Hypogastrura vernalis</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">7</td></tr><tr><td align="left" rowspan="14" valign="top" colspan="1"/></tr><tr><td align="center" rowspan="4" valign="top" colspan="1">Neanuridae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Friesea truncata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">9</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Micranurida pygmaea</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Pseudachorutes corticicolus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">14</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Pseudachorutes sp</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">5</td></tr><tr><td align="center" rowspan="10" valign="top" colspan="1">Tullbergiidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Mesaphorura critica</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="7" valign="top" colspan="1">K</td><td align="center" rowspan="7" valign="top" colspan="1">90</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802793</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐007</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">11</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Mesaphorura hylophila</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802803</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Mesaphorura krausbaueri</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802804</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐008</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">17</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Mesaphorura</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0003" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐009</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Metaphorura incisa</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802798</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐010</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Metaphorura affinis</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802797</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐011</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">38</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Stenaphorura quadrispina</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802796</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐012</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">8</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Mesaphorura macrochaeta</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">13</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Mesaphorura sylvatica</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">6</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Mesaphorura yosii</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="9" valign="top" colspan="1"/></tr><tr><td align="center" rowspan="9" valign="top" colspan="1">Onychiuridae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Onychiurus</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="7" valign="top" colspan="1">A</td><td align="center" rowspan="7" valign="top" colspan="1">225</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802807</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐013</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Protaphorura bicampata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0005" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐014</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Protaphorura campata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802808</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐015</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Protaphorura cancellata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802805</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐016</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Protaphorura</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">5</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Protaphorura subuliginata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802792</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐018</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Protaphorura armata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034700305.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">64</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Onychiurus cebennarius</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">8</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Onychiurus edinensis</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="7" valign="top" colspan="1">Entomobryomorpha</td><td align="center" rowspan="7" valign="top" colspan="1">Entomobryidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lepidocyrtus cyaneus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">G</td><td align="center" valign="top" rowspan="1" colspan="1">62</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034696785.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">58</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lepidocyrtus lanuginosus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="4" valign="top" colspan="1">D</td><td align="center" rowspan="4" valign="top" colspan="1">71</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802809</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐021</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">21</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lepidocyrtus pallidus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0005" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐022</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Lepidocyrtus</italic> sp. <italic toggle="yes">‐ possibly lignorum</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034696835.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Lepidocyrtus</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0003" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐023</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">34</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lepidocyrtus lignorum</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">12</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lepidocyrtus curvicollis</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="19" valign="top" colspan="1"/><td align="center" rowspan="5" valign="top" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Entomobrya multifasciata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">10</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Entomobrya nivalis</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Entomobrya</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">29</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Pseudosinella alba</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">F</td><td align="center" valign="top" rowspan="1" colspan="1">37</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034700485.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">12</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Pseudosinella immaculata</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="center" rowspan="14" valign="top" colspan="1">Isotomidae</td><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Cyphoderus albinus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">U</td><td align="center" valign="top" rowspan="1" colspan="1">19</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_965194875.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Desoria duodecemoculata</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">7</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Folsomia fimetaria</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">I</td><td align="center" valign="top" rowspan="1" colspan="1">46</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034695645.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Folsomia manolachei</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="2" valign="top" colspan="1">L</td><td align="center" rowspan="2" valign="top" colspan="1">149</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802802</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐027</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">51</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Folsomia quadrioculata</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802810</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐028</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">48</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Folsomia lawrencei</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">6</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Folsomia</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Folsomides parvulus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">7</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Isotoma caerulea</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="4" valign="top" colspan="1">E</td><td align="center" rowspan="4" valign="top" colspan="1">37</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034696405.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Isotoma</italic> sp. <italic toggle="yes">(prob. anglicana or cearulea)</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034694685.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Isotoma viridis</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">GCA_034696425.1</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">6</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Isotomurus</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Isotoma anglicana</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">55</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Isotomurus fucicola</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">41</td></tr><tr><td align="left" rowspan="8" valign="top" colspan="1"/></tr><tr><td align="center" rowspan="8" valign="top" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Isotomiella minor</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">29</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Isotomodes productus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Q</td><td align="center" valign="top" rowspan="1" colspan="1">21</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802799</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐033</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">42</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Parisotoma ekmani</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="2" valign="top" colspan="1">Ia</td><td align="center" rowspan="2" valign="top" colspan="1">40</td><td align="center" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">
+<xref rid="ece372375-note-0005" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐034</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Cryptopygus bipunctatus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802801</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐035</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">4</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Cryptopygus ponticus</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Parisotoma notabilis</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">B</td><td align="center" valign="top" rowspan="1" colspan="1">989</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">SRX26802806</td><td align="center" valign="top" rowspan="1" colspan="1">BE‐COLL‐036</td><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">366</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Proisotoma minima</italic>
+</styled-content>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Parisotoma</italic> sp.</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">3</td></tr></tbody></table><table-wrap-foot id="ece372375-ntgp-0002"><fn id="ece372375-note-0002"><p>
+<italic toggle="yes">Note:</italic> Species are marked as “Sequenced” if genome data was generated using the StrataSeq workflow. Existing genome resources (GenBank accession numbers) are provided for the StrataSeq species. Remains of genome‐sequenced specimens (cleared, slide‐mounted skins were deposited as vouchers in the Apterygota collection of the Senckenberg Museum of Natural History Görlitz).</p></fn><fn id="ece372375-note-0005"><label>
+<sup>a</sup>
+</label><p>Species without existing genome data for which StrataSeq‐prioritised genome sequencing failed.</p></fn><fn id="ece372375-note-0003"><label>
+<sup>b</sup>
+</label><p>Specimens identifiable only to genus level with already available genome data for these genera, or generated after StrataSeq prioritisation.</p></fn><fn id="ece372375-note-0004"><label>
+<sup>c</sup>
+</label><p>Voucher could not be recovered after DNA extraction.</p></fn></table-wrap-foot></table-wrap></sec><sec id="ece372375-sec-0013"><label>2.4.3</label><title>Detailed Morphological Identification</title><p>Starting from the most common morphospecies pool with the highest number of adult and intact specimens, adult specimens were picked randomly for microscopy slide preparation (Appendix <xref rid="ece372375-supitem-0006" ref-type="supplementary-material">S1</xref>). For morphospecies occurring in sufficient quantity in multiple samples, further specimens were prepared from other locations, beginning with those coming from the most distinct habitats (i.e., those differing in all three stratifying variables). This was done until no new species were found in another sample, or until only single specimens of new species were detected. A total of 279 Collembola specimens of the 19 morphospecies were microscopically identified, 30 taxa to species level and nine to genus level (Table <xref rid="ece372375-tbl-0001" ref-type="table">1</xref> and Table <xref rid="ece372375-supitem-0004" ref-type="supplementary-material">S4</xref>) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). Microscopic identification revealed that 11 of the 19 morphospecies contained only a single species and 15 morphospecies contained only a single genus. The two most ambiguous morphospecies contained multiple genera and species, both belonging to euedaphic groups of Collembola (Onychiuridae and Tullbergiidae) with colourless skin, inconspicuous extremities and similar, slender shapes.</p></sec><sec id="ece372375-sec-0014"><label>2.4.4</label><title>Reference <styled-content style="fixed-case" toggle="no">DNA</styled-content> Sequence Generation</title><p>The list of identified species was compared to available genomes on NCBI and to a designated soil invertebrate database (Metainvert) (Collins et al. <xref rid="ece372375-bib-0008" ref-type="bibr">2023</xref>). Of the 39 identified taxa, no public genome sequences were available for 14 taxa (Table <xref rid="ece372375-tbl-0001" ref-type="table">1</xref>), including two whole genera, <italic toggle="yes">Onychiurus</italic> and <italic toggle="yes">Metaphorura</italic>. Currently, 189 genomes of Collembola are available on NCBI, representing 148 distinct species (as of 29.9.2025). A total of 66 individuals were picked for genome sequencing (Appendix <xref rid="ece372375-supitem-0006" ref-type="supplementary-material">S1</xref>). Genome sequences could be generated for 17 taxa. Generated genome sequence data is available at the National Center for Biotechnology Information (NCBI) as bioproject PRJNA1188452.</p></sec></sec></sec><sec sec-type="results" id="ece372375-sec-0015"><label>3</label><title>Results</title><p>In the following, we evaluate and benchmark StrataSeq as a conceptual workflow, focusing on its efficiency and representativeness relative to exhaustive identification, rather than presenting a complete molecular database.</p><sec id="ece372375-sec-0016"><label>3.1</label><title>Habitat Stratified Subsetting</title><p>Analysis of compositional turnover of morphospecies showed that only the region, but not main soil types or land‐use intensity, were the relevant drivers of community composition (Figure <xref rid="ece372375-fig-0002" ref-type="fig">2</xref>, NMDS) implemented in vegan, R, with factor significance tested with PERMANOVA as implemented in the adonis2 function (region: <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.17, <italic toggle="yes">p</italic> = 0.008, main soil types: <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.336, <italic toggle="yes">p</italic> = 0.192, land‐use intensity: <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.042, <italic toggle="yes">p</italic> = 0.413). Morphospecies richness was statistically significantly different among the regions (lowest in Schorfheide‐Chorin, comparably higher in the Swabian Albs and Hainich‐Dün; degrees of freedom df = 2, <italic toggle="yes">F</italic> = 5.91, <italic toggle="yes">p</italic> = 0.018). Soil type and land‐use intensity were not statistically significant predictors of morphospecies richness.</p><fig position="float" fig-type="FIGURE" id="ece372375-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Ordination plot showing the differences in morphospecies compositions between the 22 habitat subsetting samples according to the three strata: (a) regions (Alb = Swabian Albs, Hai = Hainich‐Dün, Sch = Schorfheide‐Chorin), (b) main soil types and (c) land‐use intensity. LUI was re‐coded as high or low for visualisation purposes only (high: LUI &gt; average, low: LUI ≤ average).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-15-e72375-g001.jpg"><?image-name ECE3-15-e72375-g001.jpg?><?image-size 31398?><?image-md5 f9c74c1a4b777342a929e48d821dcc8d?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 269?><?image-original-width 1064?><?image-scaled-height 179?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/f9c74c1a4b77/ECE3-15-e72375-g001.jpg?><?thumb-name ECE3-15-e72375-g001.gif?><?thumb-size 3872?><?thumb-md5 c490fb39b9f6c42c0fb8fac5b3f9e0f5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 51?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/c490fb39b9f6/ECE3-15-e72375-g001.gif?></graphic></fig><p>Most variation in community composition resulted from the first stratifying factor. Interestingly, neither soil type nor land use were important drivers of community composition in the StrataSeq samples. This is similar to previous results on the same grassland plots also found that land use only weakly affected many soil organisms (Le Provost et al. <xref rid="ece372375-bib-0021" ref-type="bibr">2021</xref>). This is in contrast with other studies which report strong land‐use effects, especially in systems with tillage (Tsiafouli et al. <xref rid="ece372375-bib-0050" ref-type="bibr">2015</xref>). We did not consider several potentially important factors during the stratified subsampling. For example, soil moisture and temperature likely influence turnover, but Collembola are likely adapted to rapid fluctuations of these parameters. The inclusion of further stratifying factors would have led to higher workload, while capturing increasingly similar communities. The lack of statistical significance of soil type and land‐use effects in the present results emphasises that stratification was an efficient way to capture community turnover and thus maximise variation among samples. These analyses illustrate how habitat‐stratified subsetting captures major axes of community variation, a decision step in the workflow, rather than aiming to resolve full taxonomic inventories.</p></sec><sec id="ece372375-sec-0017"><label>3.2</label><title>Benchmarking</title><p>Here we benchmark StrataSeq against a traditional identification approach to evaluate efficiency, rather than to produce a final, complete molecular database. These results benchmark the StrataSeq workflow as a decision framework rather than as an automated pipeline. The workflow relies on human judgement at key steps, particularly in morphospecies sorting and prioritisation.</p><p>With respect to the effort spent on detailed morphological identification, a total of 1539 single individuals were prepared on microscopic slides and morphologically identified for the benchmarking dataset. Similarly, detailed identification was done only on 345 individuals for the StrataSeq dataset. This is about 22% of the effort spent on detailed morphological identification in StrataSeq, in comparison to generating the benchmarking dataset. In the benchmarking dataset, 1219 individuals could be identified to species or genus level, resulting in a taxon list of 48 species and 12 genera (Table <xref rid="ece372375-supitem-0005" ref-type="supplementary-material">S5</xref>—benchmarking dataset) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). The StrataSeq workflow resulted in a taxon list of 30 species and nine genera (Table <xref rid="ece372375-supitem-0004" ref-type="supplementary-material">S4</xref>) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>). The overlap was 23 taxa (species or genera) between the StrataSeq and benchmarking datasets. About 62% of the <italic toggle="yes">benchmarking</italic> taxa (37) were not present in the StrataSeq dataset. About 41% of the taxa from the StrataSeq workflow (16) were not present in the benchmarking dataset. However, ecological count data is strongly skewed (O'Hara and Kotze <xref rid="ece372375-bib-0033" ref-type="bibr">2010</xref>). This is also visible in the abundance densities of species in the benchmarking dataset (Figure <xref rid="ece372375-fig-0003" ref-type="fig">3</xref>): over 65% (804) of all individuals belong to the 10 most abundant species. When accounting for the skewed abundance distributions, the species list produced by StrataSeq covered over 69% of the individuals from the benchmarking dataset (Figure <xref rid="ece372375-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="ece372375-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Abundance rank distribution of Collembola species in the benchmarking dataset. Species with blue bars are covered by the StrataSeq dataset, species in grey are not.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-15-e72375-g002.jpg"><?image-name ECE3-15-e72375-g002.jpg?><?image-size 181830?><?image-md5 a5ad9333612b9192f204fba85a08ec28?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2150?><?image-original-width 998?><?image-scaled-height 1433?><?image-scaled-width 665?><?image-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/a5ad9333612b/ECE3-15-e72375-g002.jpg?><?thumb-name ECE3-15-e72375-g002.gif?><?thumb-size 5915?><?thumb-md5 ac1f11b395c77745535fa50efbac8214?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 215?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c9bd/12547479/ac1f11b395c7/ECE3-15-e72375-g002.gif?></graphic></fig><p>Accordingly, our aim here is to illustrate the efficiency of the framework, not to produce a complete molecular database. Our benchmarking clearly demonstrates that StrataSeq significantly reduces the required identification effort but captures a representative proportion (69%) of springtail biodiversity, compared to exhaustive identification. This highlights the scope of StrataSeq as a set of guiding principles for efficient prioritisation. The results should be interpreted as a proof‐of‐concept demonstration of workflow efficiency.</p></sec></sec><sec sec-type="discussion" id="ece372375-sec-0018"><label>4</label><title>Discussion</title><p>We presented a conceptual workflow that relies on human judgement at key decision points, designed to guide and prioritise efforts to generate molecular reference databases within the frame of regular community ecology or biomonitoring studies. The workflow minimises workload but allows for representative assessment of biodiversity. The workflow is a novel and effective combination of four basic steps that require human expert judgement. These steps cannot be automated in a computational sense. Rather, they are key decisions that help researchers focus limited taxonomic and sequencing resources most effectively. First, the study area and sampling are stratified by habitat gradients known to differentiate the target taxa. This leads to a minimal subset of samples comprising the maximal diversity of the target taxa to be found within all study sites, and minimising the need to identify the same species repeatedly in many samples. Second, morphospecies are used as indicators for the actual species diversity to guide the subsequent morphological identification. This aids the targeted selection of single specimens for the laborious task of species identification. Third, common morphospecies are prioritised for morphological identification. Effort invested in the identification of rarer species can be weighed against available capacity. Fourth, species that lack molecular reference data are sequenced, and sequences are uploaded into public databases as permanent resources for future studies and monitoring projects.</p><p>All steps of the workflow are adaptable to different macro‐ and microorganism groups with some considerations. Habitat‐stratified subsetting solely depends on the organism group of interest and the questions that should be answered in a project. It may be adapted to both spatial and temporal settings. A precondition is the availability of environmental data (e.g., distinct vegetation types), which is frequently collected during studies. While not every environmental variable may be readily measurable, a multitude of environmental data (e.g., climate, soil type, elevation, land cover) is accessible through open sources. These may also serve as proxies for relevant environmental factors.</p><p>Prioritising morphospecies is suitable for many organism groups where external morphological characteristics allow meaningful visual grouping, such as many plants, insects and other terrestrial and aquatic arthropods (e.g., springtails, mites, spiders, or diaptomids). This prioritisation is useful to streamline and limit the identification effort, in combination with priorities set for further identification (e.g., common over rare species). If feasible, image‐based classification tools or machine learning could further assist in the sorting of morphospecies to group visually similar specimens prior to expert validation. Limiting the number of specimens allows for more time for thorough identification of each specimen, which is important for resolving the taxonomy of widespread and hard‐to‐distinguish morphospecies. For example, the StrataSeq workflow detected five species belonging to the second most common morphospecies (Table <xref rid="ece372375-tbl-0001" ref-type="table">1</xref>) (Merges et al. <xref rid="ece372375-bib-0028" ref-type="bibr">2025</xref>), mainly from the <italic toggle="yes">Protaphorura</italic> genus. In contrast, only a single species (<italic toggle="yes">Protaphorura <styled-content style="fixed-case" toggle="no">armata</styled-content>
+</italic>) was identified in the benchmarking dataset. When aiming for the generation and public provision of new molecular resources, the time gained to focus on thorough identification is of utmost importance, even if this comes at the cost of limiting the number of morphospecies that can be thoroughly investigated. StrataSeq does not replace traditional taxonomic work or deliver a database, but serves as a framework for prioritisation and efficiency. We see two ways to adapt this step to microorganisms, where morphological identification is difficult. A possible top‐down approach would be to specifically target selected taxa with fluorescence in situ hybridisation (FISH) and selected gene probes. This will allow sorting of specific, fluorescently labelled cells by flow cytometry and the generation of single cell assembled genomes (SAG). Alternatively, a possible bottom‐up approach would be to sequence the samples selected by habitat‐stratified subsetting by shotgun metagenomics, and generate metagenome assembled genomes (MAG) of the common bacterial and fungal taxa. SAGs and MAGs both inherently prioritise common microbes and combining their generation with habitat‐stratified subsetting will help to explore microbial biodiversity in a systematic and targeted manner. However, prioritising common species over completeness in species inventories comes at a price (Bennett et al. <xref rid="ece372375-bib-0003" ref-type="bibr">2014</xref>; Klibansky et al. <xref rid="ece372375-bib-0019" ref-type="bibr">2017</xref>), as rare species would not be sampled until the database is close to completion. Such rare species, especially microorganisms, might be very important for ecosystem functioning. For example, some microorganisms, which are rare most of the time, might become dominant for very short time periods, e.g., during pathogen outbreaks, which strongly regulate ecosystems. Considering temporal strata may be important to consider species that are dominant or rare at different points in time (Marrone et al. <xref rid="ece372375-bib-0026" ref-type="bibr">2023</xref>). However, as molecular reference databases become more complete, the focus for identification and resource generation will shift from more common to more rare taxa (Meier et al. <xref rid="ece372375-bib-0027" ref-type="bibr">2025</xref>). This will require conceptual adjustments to the workflow. Instead of choosing sample sites from usually targeted habitats, Palmer et al. (<xref rid="ece372375-bib-0038" ref-type="bibr">2002</xref>) already proposed using the uniqueness of environments to find underrepresented species.</p><p>While reference DNA sequence generation is straightforward for larger organisms, special considerations are necessary when dealing with small taxa. We already mentioned single‐cell‐assembled genomes above. Similarly, with the advancement of sequencing technologies, it becomes increasingly feasible to sequence single small metazoans collected under field conditions (Collins et al. <xref rid="ece372375-bib-0008" ref-type="bibr">2023</xref>; Schneider et al. <xref rid="ece372375-bib-0045" ref-type="bibr">2021</xref>). This increasingly allows us to provide reference genome data for molecular identification of morphologically hard‐to‐distinguish taxa, including juvenile specimens. A key limitation is that StrataSeq is only applicable when at least some faunistic or taxonomic information on the focal group is available in the region of interest. In areas lacking such foundations, the workflow cannot replace primary taxonomic research, but it can serve as a complementary framework for generating molecular references in parallel with species descriptions.</p><p>The comparison of the StrataSeq and benchmarking datasets shows that the workflow could identify 69% of springtail specimens with 22% identification effort. Workflow efficiency is even more impressive if we consider that (1) the specimens used for the comparison were collected in different years, (2) only a subset of benchmarking specimens was selected for identification and (3) identification was performed by different experts, an important predictor of differences among species lists (Straile et al. <xref rid="ece372375-bib-0048" ref-type="bibr">2013</xref>). The high identification coverage of the StrataSeq workflow can be explained by the commonness and abundance of a small fraction of species over a large number of rarer ones (Figure <xref rid="ece372375-fig-0003" ref-type="fig">3</xref>). Such steeply declining species‐abundance relationships are the norm in ecological communities (Verberk <xref rid="ece372375-bib-0051" ref-type="bibr">2011</xref>), and will be encountered when applying the workflow to other taxonomic groups and study sites.</p></sec><sec sec-type="conclusions" id="ece372375-sec-0019"><label>5</label><title>Conclusions</title><p>Ecological studies of hard‐to‐identify species rarely have the resources to generate comprehensive DNA sequence databases that taxonomically cover all species within sampled communities in the whole region of interest. There is therefore a need for methods that optimise the efficient creation of sequence databases. The application of the StrataSeq workflow could potentially help to rapidly improve existing molecular database resources in an ecologically meaningful manner within the timeframe of regular community ecology and biomonitoring studies. As global change and pressures on ecosystems and ecological communities accelerate, improvements in the provisioning of missing molecular resources are needed to facilitate biomonitoring efforts and insight generation into ecosystem trends and stress responses. Overall, StrataSeq should be understood as a guiding framework for efficient reference database development, rather than as a stand‐alone molecular or computational method. StrataSeq is based on simply adaptable general principles that make it widely applicable for other taxa across the tree of life in both aquatic and terrestrial environments.</p></sec><sec id="ece372375-sec-0024"><title>Author Contributions</title><p>
+<bold>Anna K. Merges:</bold> conceptualization (equal), investigation (equal), methodology (equal), visualization (equal), writing – original draft (equal). <bold>Peter Manning:</bold> conceptualization (equal), funding acquisition (equal), methodology (equal), supervision (equal), writing – original draft (equal), writing – review and editing (equal). <bold>Dennis Baulechner:</bold> investigation (equal). <bold>Katharina John:</bold> investigation (equal). <bold>Andrey Zaitsev:</bold> investigation (equal). <bold>Volkmar Wolters:</bold> conceptualization (equal), methodology (equal), supervision (equal). <bold>Damian Baranski:</bold> investigation (equal). <bold>Hans‐Peter Grossart:</bold> writing – original draft (equal), writing – review and editing (equal). <bold>Jason Woodhouse:</bold> writing – original draft (equal), writing – review and editing (equal). <bold>Clément Schneider:</bold> conceptualization (equal), funding acquisition (equal), project administration (equal), supervision (equal), writing – review and editing (equal). <bold>Miklós Bálint:</bold> conceptualization (equal), funding acquisition (equal), methodology (equal), project administration (equal), supervision (equal), visualization (equal), writing – original draft (equal), writing – review and editing (equal).</p></sec><sec sec-type="COI-statement" id="ece372375-sec-0021"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece372375-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> Morphospecies and their abundances in 22 habitat subsets in the habitat subsetting dataset (HSD).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s001.xlsx" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s001.xlsx?><?suppdata-size 13735?><?suppdata-md5 5e7bdffbac0f36c17bd88678387edce7?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/5e7bdffbac0f/ECE3-15-e72375-s001.xlsx?></media></supplementary-material><supplementary-material id="ece372375-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S2:</bold> Grassland sites of the Biodiversity Exploratories: location, region, soil type and land‐use intensity.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s004.csv" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s004.csv?><?suppdata-size 6461?><?suppdata-md5 74e44941f12c30f7155a0bb7a1199b44?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type text?><?suppdata-mime-sub-type plain?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/74e44941f12c/ECE3-15-e72375-s004.csv?></media></supplementary-material><supplementary-material id="ece372375-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S3:</bold> Description of HSD morphospecies.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s003.xlsx" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s003.xlsx?><?suppdata-size 12252?><?suppdata-md5 aacac8be862b1fe24b5d2cc2c15e6c66?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/aacac8be862b/ECE3-15-e72375-s003.xlsx?></media></supplementary-material><supplementary-material id="ece372375-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S4:</bold> Detailed species identifications of common Collembola from the habitat‐stratified samples.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s005.xlsx" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s005.xlsx?><?suppdata-size 10014?><?suppdata-md5 c714953db492f3556497fad16bb21f20?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/c714953db492/ECE3-15-e72375-s005.xlsx?></media></supplementary-material><supplementary-material id="ece372375-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S5:</bold> Species identified in the benchmarking dataset.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s006.csv" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s006.csv?><?suppdata-size 1936?><?suppdata-md5 bc0fc9beb9216e6c173e8baf9714097f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type text?><?suppdata-mime-sub-type plain?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/bc0fc9beb921/ECE3-15-e72375-s006.csv?></media></supplementary-material><supplementary-material id="ece372375-supitem-0006" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Appendix S1:</bold> ece372375‐sup‐0006‐AppendixS1.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s002.docx" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s002.docx?><?suppdata-size 11404?><?suppdata-md5 76decaffb568de59a6c15674b151413a?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/76decaffb568/ECE3-15-e72375-s002.docx?></media></supplementary-material><supplementary-material id="ece372375-supitem-0007" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Appendix S2:</bold> ece372375‐sup‐0007‐AppendixS2.R.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72375-s007.R" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72375-s007.R?><?suppdata-size 6968?><?suppdata-md5 00e7ca4d938269d06d89f39de98f447e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type text?><?suppdata-mime-sub-type plain?><?suppdata-cloudpmc-urn urn:app:c9bd/12547479/00e7ca4d9382/ECE3-15-e72375-s007.R?></media></supplementary-material></sec></body><back><ack id="ece372375-sec-0020"><title>Acknowledgments</title><p>This work was funded by the DFG Priority Program 1374 “Biodiversity Exploratories” (BE‐Spring BA 4843/4‐1, MA 7144/2‐1, SCHN 1620/1‐1). M.B. was funded through Landes‐Offensive zur Entwicklung Wissenschaftlich‐ökonomischer Exzellenz (LOEWE) Program of the Hessian Ministry of Higher Education, Research, Science and the Arts through the LOEWE/1/10/519/03/03.001(0014)/52 project (LOEWE Centre for Translational Biodiversity Genomics—LOEWE‐TBG). We thank the managers of the three Exploratories, Julia Bass, Max Müller (Alb), Robert Künast, Miriam Teuscher, Anna K. Franke (Hainich), Franca Marian (Schorfheide) and all former managers for their work in maintaining the plot and project infrastructure; Victoria Grießmeier for giving support through the central office, Andreas Ostrowski for managing the central database, and Markus Fischer, Eduard Linsenmair, Dominik Hessenmöller, Daniel Prati, Ingo Schöning, François Buscot, Ernst‐Detlef Schulze, Wolfgang W. Weisser and the late Elisabeth Kalko for their role in setting up the Biodiversity Exploratories project. We thank the administration of the Hainich national park, the UNESCO Biosphere Reserve Swabian Alb and the UNESCO Biosphere Reserve Schorfheide‐Chorin as well as all landowners for the excellent collaboration. Field work permits were issued by the responsible state environmental offices of Baden‐Württemberg, Thüringen, and Brandenburg. We also thank the administration of the Hainich National Park, the UNESCO Biosphere Reserve Swabian Alb, the UNESCO Biosphere Reserve Schorfheide‐Chorin and the landowners for the collaboration. Open Access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="ece372375-sec-0023"><title>Data Availability Statement</title><p>Generated genome sequence data is available at the National Center for Biotechnology Information (NCBI) as bioproject PRJNA1188452. Sequence data is embargoed until 30.6.2025 or manuscript publication. Data used for benchmarking, and R analysis and visualisation scripts are available from the Figshare Digital Repository <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28622285" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.6084/m9.figshare.28622285</ext-link> (Arana et al. <xref rid="ece372375-bib-0002" ref-type="bibr">2024</xref>).</p></sec><ref-list content-type="cited-references" id="ece372375-bibl-0001"><title>References</title><ref id="ece372375-bib-0001"><mixed-citation publication-type="journal" id="ece372375-cit-0001">
+<string-name name-style="western">
+<surname>Abarenkov</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Henrik Nilsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Larsson</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>The UNITE Database for Molecular Identification of Fungi—Recent Updates and Future Perspectives</article-title>.” <source>New Phytologist</source>
+<volume>186</volume>, no. <issue>2</issue>: <fpage>281</fpage>–<lpage>285</lpage>.<pub-id pub-id-type="pmid">20409185</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1469-8137.2009.03160.x</pub-id></mixed-citation></ref><ref id="ece372375-bib-0002"><mixed-citation publication-type="journal" id="ece372375-cit-0002">
+<string-name name-style="western">
+<surname>Arana</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Arana</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Watsa</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Lack of Local Genetic Representation in One of the Regions With the Highest Bird Species Richness, the Peruvian Amazonia</article-title>.” <source>PLoS One</source>
+<volume>19</volume>, no. <issue>1</issue>: <elocation-id>e0296305</elocation-id>.<pub-id pub-id-type="pmid">38165899</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0296305</pub-id><pub-id pub-id-type="pmcid">PMC10760656</pub-id></mixed-citation></ref><ref id="ece372375-bib-0003"><mixed-citation publication-type="journal" id="ece372375-cit-0003">
+<string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Sisson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Smol</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. F.</given-names>
+<surname>Cumming</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. P.</given-names>
+<surname>Possingham</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y. M.</given-names>
+<surname>Buckley</surname>
+</string-name>. <year>2014</year>. “<article-title>Optimizing Taxonomic Resolution and Sampling Effort to Design Cost‐Effective Ecological Models for Environmental Assessment</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>51</volume>, no. <issue>6</issue>: <fpage>1722</fpage>–<lpage>1732</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0004"><mixed-citation publication-type="journal" id="ece372375-cit-0004">
+<string-name name-style="western">
+<surname>Blüthgen</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. F.</given-names>
+<surname>Dormann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Prati</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>A Quantitative Index of Land‐Use Intensity in Grasslands: Integrating Mowing, Grazing and Fertilization</article-title>.” <source>Basic and Applied Ecology</source>
+<volume>13</volume>, no. <issue>3</issue>: <fpage>207</fpage>–<lpage>220</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0005"><mixed-citation publication-type="journal" id="ece372375-cit-0005">
+<string-name name-style="western">
+<surname>Buckner</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. C.</given-names>
+<surname>Sanders</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Faircloth</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Chakrabarty</surname>
+</string-name>. <year>2021</year>. “<article-title>The Critical Importance of Vouchers in Genomics</article-title>.” <source>eLife</source>
+<volume>10</volume>: <elocation-id>e68264</elocation-id>.<pub-id pub-id-type="pmid">34061026</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.68264</pub-id><pub-id pub-id-type="pmcid">PMC8186901</pub-id></mixed-citation></ref><ref id="ece372375-bib-0006"><mixed-citation publication-type="journal" id="ece372375-cit-0006">
+<string-name name-style="western">
+<surname>Cardoso</surname>, <given-names>P.</given-names>
+</string-name>
+<year>2009</year>. “<article-title>Standardization and Optimization of Arthropod Inventories—The Case of Iberian Spiders</article-title>.” <source>Biodiversity and Conservation</source>
+<volume>18</volume>, no. <issue>14</issue>: <fpage>3949</fpage>–<lpage>3962</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0007"><mixed-citation publication-type="book" id="ece372375-cit-0007">
+<string-name name-style="western">
+<surname>Coleman</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Callaham</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Crossley</surname>
+<suffix>Jr.</suffix>
+</string-name>
+<year>2020</year>. <source>Fundamentals of Soil Ecology</source>. <edition designator="3">3rd ed</edition>. <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="ece372375-bib-0008"><mixed-citation publication-type="journal" id="ece372375-cit-0008">
+<string-name name-style="western">
+<surname>Collins</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schneider</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. L.</given-names>
+<surname>Boštjančić</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>The MetaInvert Soil Invertebrate Genome Resource Provides Insights Into Below‐Ground Biodiversity and Evolution</article-title>.” <source>Communications Biology</source>
+<volume>6</volume>, no. <issue>1</issue>: <elocation-id>1241</elocation-id>.<pub-id pub-id-type="pmid">38066075</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-023-05621-4</pub-id><pub-id pub-id-type="pmcid">PMC10709333</pub-id></mixed-citation></ref><ref id="ece372375-bib-0009"><mixed-citation publication-type="journal" id="ece372375-cit-0009">
+<string-name name-style="western">
+<surname>Cordier</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lanzén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Apothéloz‐Perret‐Gentil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Stoeck</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Pawlowski</surname>
+</string-name>. <year>2019</year>. “<article-title>Embracing Environmental Genomics and Machine Learning for Routine Biomonitoring</article-title>.” <source>Trends in Microbiology</source>
+<volume>27</volume>, no. <issue>5</issue>: <fpage>387</fpage>–<lpage>397</lpage>.<pub-id pub-id-type="pmid">30554770</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tim.2018.10.012</pub-id></mixed-citation></ref><ref id="ece372375-bib-0010"><mixed-citation publication-type="journal" id="ece372375-cit-0010">
+<string-name name-style="western">
+<surname>Coulibaly</surname>, <given-names>S. F. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. R.</given-names>
+<surname>Winck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Akpa‐Vinceslas</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Functional Assemblages of Collembola Determine Soil Microbial Communities and Associated Functions</article-title>.” <source>Frontiers in Environmental Science</source>
+<volume>7</volume>: <elocation-id>52</elocation-id>. <pub-id pub-id-type="doi">10.3389/fenvs.2019.00052</pub-id>.</mixed-citation></ref><ref id="ece372375-bib-0011"><mixed-citation publication-type="journal" id="ece372375-cit-0011">
+<string-name name-style="western">
+<surname>Danz</surname>, <given-names>N. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Regal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Niemi</surname>
+</string-name>, et al. <year>2005</year>. “<article-title>Environmentally Stratified Sampling Design for the Development of Great Lakes Environmental Indicators</article-title>.” <source>Environmental Monitoring and Assessment</source>
+<volume>102</volume>, no. <issue>1–3</issue>: <fpage>41</fpage>–<lpage>65</lpage>.<pub-id pub-id-type="pmid">15869177</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10661-005-1594-8</pub-id></mixed-citation></ref><ref id="ece372375-bib-0012"><mixed-citation publication-type="journal" id="ece372375-cit-0012">
+<string-name name-style="western">
+<surname>Elbrecht</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Vamos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Meissner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Aroviita</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Leese</surname>
+</string-name>. <year>2017</year>. “<article-title>Assessing Strengths and Weaknesses of DNA Metabarcoding‐Based Macroinvertebrate Identification for Routine Stream Monitoring</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>8</volume>, no. <issue>10</issue>: <fpage>1265</fpage>–<lpage>1275</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0013"><mixed-citation publication-type="journal" id="ece372375-cit-0013">
+<string-name name-style="western">
+<surname>Fischer</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Bossdorf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gockel</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Implementing Large‐Scale and Long‐Term Functional Biodiversity Research: The Biodiversity Exploratories</article-title>.” <source>Basic and Applied Ecology</source>
+<volume>11</volume>, no. <issue>6</issue>: <fpage>473</fpage>–<lpage>485</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0014"><mixed-citation publication-type="journal" id="ece372375-cit-0014">
+<string-name name-style="western">
+<surname>Gilbert</surname>, <given-names>M. T. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Moore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Melchior</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Worobey</surname>
+</string-name>. <year>2007</year>. “<article-title>DNA Extraction From Dry Museum Beetles Without Conferring External Morphological Damage</article-title>.” <source>PLoS One</source>
+<volume>2</volume>, no. <issue>3</issue>: <elocation-id>e272</elocation-id>.<pub-id pub-id-type="pmid">17342206</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0000272</pub-id><pub-id pub-id-type="pmcid">PMC1803022</pub-id></mixed-citation></ref><ref id="ece372375-bib-0015"><mixed-citation publication-type="journal" id="ece372375-cit-0015">
+<string-name name-style="western">
+<surname>Gonzalez</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Vihervaara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Balvanera</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>A Global Biodiversity Observing System to Unite Monitoring and Guide Action</article-title>.” <source>Nature Ecology &amp; Evolution</source>
+<volume>7</volume>, no. <issue>12</issue>: <fpage>1947</fpage>–<lpage>1952</lpage>.<pub-id pub-id-type="pmid">37620553</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41559-023-02171-0</pub-id></mixed-citation></ref><ref id="ece372375-bib-0016"><mixed-citation publication-type="journal" id="ece372375-cit-0016">
+<string-name name-style="western">
+<surname>Grime</surname>, <given-names>J. P.</given-names>
+</string-name>
+<year>1998</year>. “<article-title>Benefits of Plant Diversity to Ecosystems: Immediate, Filter and Founder Effects</article-title>.” <source>Journal of Ecology</source>
+<volume>86</volume>, no. <issue>6</issue>: <fpage>902</fpage>–<lpage>910</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0017"><mixed-citation publication-type="journal" id="ece372375-cit-0017">
+<string-name name-style="western">
+<surname>Hutchings</surname>, <given-names>P.</given-names>
+</string-name>
+<year>2019</year>. “<article-title>An Advocate for Taxonomic Research in Australia</article-title>.” <source>Pacific Conservation Biology</source>
+<volume>25</volume>, no. <issue>1</issue>: <fpage>34</fpage>–<lpage>36</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0018"><mixed-citation publication-type="journal" id="ece372375-cit-0018">
+<string-name name-style="western">
+<surname>Hutchinson</surname>, <given-names>G. E.</given-names>
+</string-name>
+<year>1957</year>. “<article-title>Concluding Remarks</article-title>.” <source>Cold Spring Harbor Symposia on Quantitative Biology</source>
+<volume>22</volume>: <fpage>415</fpage>–<lpage>427</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0019"><mixed-citation publication-type="journal" id="ece372375-cit-0019">
+<string-name name-style="western">
+<surname>Klibansky</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Shertzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. T.</given-names>
+<surname>Kellison</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. M.</given-names>
+<surname>Bacheler</surname>
+</string-name>. <year>2017</year>. “<article-title>Can Subsets of Species Indicate Overall Patterns in Biodiversity?</article-title>” <source>Ecosphere (Washington, D.C)</source>
+<volume>8</volume>, no. <issue>7</issue>: <elocation-id>e01842</elocation-id>.</mixed-citation></ref><ref id="ece372375-bib-0020"><mixed-citation publication-type="journal" id="ece372375-cit-0020">
+<string-name name-style="western">
+<surname>Krell</surname>, <given-names>F.‐T.</given-names>
+</string-name>
+<year>2004</year>. “<article-title>Parataxonomy vs. Taxonomy in Biodiversity Studies – Pitfalls and Applicability of ‘Morphospecies’ Sorting</article-title>.” <source>Biodiversity and Conservation</source>
+<volume>13</volume>, no. <issue>4</issue>: <fpage>795</fpage>–<lpage>812</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0021"><mixed-citation publication-type="journal" id="ece372375-cit-0021">
+<string-name name-style="western">
+<surname>Le Provost</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Thiele</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Westphal</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Contrasting Responses of Above‐ and Belowground Diversity to Multiple Components of Land‐Use Intensity</article-title>.” <source>Nature Communications</source>
+<volume>12</volume>, no. <issue>1</issue>: <elocation-id>3918</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-021-23931-1</pub-id><pub-id pub-id-type="pmcid">PMC8225671</pub-id><pub-id pub-id-type="pmid">34168127</pub-id></mixed-citation></ref><ref id="ece372375-bib-0022"><mixed-citation publication-type="journal" id="ece372375-cit-0022">
+<string-name name-style="western">
+<surname>Lewin</surname>, <given-names>H. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Richards</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Lieberman Aiden</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>The Earth BioGenome Project 2020: Starting the Clock</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>119</volume>, no. <issue>4</issue>: <elocation-id>e2115635118</elocation-id>.<pub-id pub-id-type="pmid">35042800</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2115635118</pub-id><pub-id pub-id-type="pmcid">PMC8795548</pub-id></mixed-citation></ref><ref id="ece372375-bib-0023"><mixed-citation publication-type="journal" id="ece372375-cit-0023">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Altermatt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cai</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yang</surname>
+</string-name>. <year>2022</year>. “<article-title>Gap Analysis for DNA‐Based Biomonitoring of Aquatic Ecosystems in China</article-title>.” <source>Ecological Indicators</source>
+<volume>137</volume>: <elocation-id>108732</elocation-id>.</mixed-citation></ref><ref id="ece372375-bib-0024"><mixed-citation publication-type="journal" id="ece372375-cit-0024">
+<string-name name-style="western">
+<surname>Litchman</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Villéger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zinger</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Refocusing the Microbial Rare Biosphere Concept Through a Functional Lens</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>39</volume>, no. <issue>10</issue>: <fpage>923</fpage>–<lpage>936</lpage>.<pub-id pub-id-type="pmid">38987022</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tree.2024.06.005</pub-id></mixed-citation></ref><ref id="ece372375-bib-0025"><mixed-citation publication-type="journal" id="ece372375-cit-0025">
+<string-name name-style="western">
+<surname>Lopes‐Lima</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Prié</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Camará</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Rapid eDNA Survey Reveals a Unique Biodiversity Hotspot: The Corubal River, West Africa</article-title>.” <source>Bioscience</source>
+<volume>74</volume>, no. <issue>6</issue>: <fpage>405</fpage>–<lpage>412</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0026"><mixed-citation publication-type="journal" id="ece372375-cit-0026">
+<string-name name-style="western">
+<surname>Marrone</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Fontaneto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Naselli‐Flores</surname>
+</string-name>. <year>2023</year>. “<article-title>Cryptic Diversity, Niche Displacement and Our Poor Understanding of Taxonomy and Ecology of Aquatic Microorganisms</article-title>.” <source>Hydrobiologia</source>
+<volume>850</volume>, no. <issue>6</issue>: <fpage>1221</fpage>–<lpage>1236</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0027"><mixed-citation publication-type="journal" id="ece372375-cit-0027">
+<string-name name-style="western">
+<surname>Meier</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Srivathsan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. S.</given-names>
+<surname>Oliveira</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>‘Dark Taxonomy’: A New Protocol for Overcoming the Taxonomic Impediments for Dark Taxa and Broadening the Taxon Base for Biodiversity Assessment</article-title>.” <source>Cladistics: The International Journal of the Willi Hennig Society</source>
+<volume>41</volume>, no. <issue>2</issue>: <fpage>223</fpage>–<lpage>238</lpage>.<pub-id pub-id-type="pmid">39956942</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cla.12609</pub-id><pub-id pub-id-type="pmcid">PMC11891956</pub-id></mixed-citation></ref><ref id="ece372375-bib-0028"><mixed-citation publication-type="miscellaneous" id="ece372375-cit-0028">
+<string-name name-style="western">
+<surname>Merges</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Manning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Baulechner</surname>
+</string-name>, et al. <year>2025</year>. <article-title>“StrataSeq: A Workflow for Rapid Development of Molecular Databases for Hard‐to‐Identify Species</article-title>.” Supplementary Materials [Dataset]. Figshare. <pub-id pub-id-type="doi">10.6084/M9.FIGSHARE.28622285</pub-id>.<pub-id pub-id-type="pmcid">PMC12547479</pub-id><pub-id pub-id-type="pmid">41140306</pub-id></mixed-citation></ref><ref id="ece372375-bib-0029"><mixed-citation publication-type="journal" id="ece372375-cit-0029">
+<string-name name-style="western">
+<surname>Meyer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Boyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Valentini</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Morphological vs. DNA Metabarcoding Approaches for the Evaluation of Stream Ecological Status With Benthic Invertebrates: Testing Different Combinations of Markers and Strategies of Data Filtering</article-title>.” <source>Molecular Ecology</source>
+<volume>30</volume>, no. <issue>13</issue>: <fpage>3203</fpage>–<lpage>3220</lpage>.<pub-id pub-id-type="pmid">33150613</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mec.15723</pub-id></mixed-citation></ref><ref id="ece372375-bib-0030"><mixed-citation publication-type="journal" id="ece372375-cit-0030">
+<string-name name-style="western">
+<surname>Milián‐García</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Young</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Madden</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Bullas‐Appleton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. H.</given-names>
+<surname>Hanner</surname>
+</string-name>. <year>2021</year>. “<article-title>Optimization and Validation of a Cost‐Effective Protocol for Biosurveillance of Invasive Alien Species</article-title>.” <source>Ecology and Evolution</source>
+<volume>11</volume>, no. <issue>5</issue>: <fpage>1999</fpage>–<lpage>2014</lpage>.<pub-id pub-id-type="pmid">33717437</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.7139</pub-id><pub-id pub-id-type="pmcid">PMC7920766</pub-id></mixed-citation></ref><ref id="ece372375-bib-0031"><mixed-citation publication-type="journal" id="ece372375-cit-0031">
+<string-name name-style="western">
+<surname>Monchamp</surname>, <given-names>M.‐E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z. E.</given-names>
+<surname>Taranu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Garner</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Prioritizing Taxa for Genetic Reference Database Development to Advance Inland Water Conservation</article-title>.” <source>Biological Conservation</source>
+<volume>280</volume>: <elocation-id>109963</elocation-id>.</mixed-citation></ref><ref id="ece372375-bib-0032"><mixed-citation publication-type="journal" id="ece372375-cit-0032">
+<string-name name-style="western">
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Bellwood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Baraloto</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Rare Species Support Vulnerable Functions in High‐Diversity Ecosystems</article-title>.” <source>PLoS Biology</source>
+<volume>11</volume>, no. <issue>5</issue>: <elocation-id>e1001569</elocation-id>.<pub-id pub-id-type="pmid">23723735</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.1001569</pub-id><pub-id pub-id-type="pmcid">PMC3665844</pub-id></mixed-citation></ref><ref id="ece372375-bib-0033"><mixed-citation publication-type="journal" id="ece372375-cit-0033">
+<string-name name-style="western">
+<surname>O'Hara</surname>, <given-names>R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kotze</surname>
+</string-name>. <year>2010</year>. “<article-title>Do not Log‐Transform Count Data</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>1</volume>, no. <issue>2</issue>: <fpage>118</fpage>–<lpage>122</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210X.2010.00021.x" ext-link-type="uri">https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041‐210X.2010.00021.x</ext-link>.</mixed-citation></ref><ref id="ece372375-bib-0034"><mixed-citation publication-type="miscellaneous" id="ece372375-cit-0034">
+<string-name name-style="western">
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. L.</given-names>
+<surname>Simpson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. G.</given-names>
+<surname>Blanchet</surname>
+</string-name>, et al. <year>2024</year>. <article-title>“vegan: Community Ecology Package</article-title>.” <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=vegan" ext-link-type="uri">https://CRAN.R‐project.org/package=vegan</ext-link>.</mixed-citation></ref><ref id="ece372375-bib-0035"><mixed-citation publication-type="journal" id="ece372375-cit-0035">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>I.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Beattie</surname>
+</string-name>. <year>1993</year>. “<article-title>A Possible Method for the Rapid Assessment of Biodiversity</article-title>.” <source>Conservation Biology: The Journal of the Society for Conservation Biology</source>
+<volume>7</volume>, no. <issue>3</issue>: <fpage>562</fpage>–<lpage>568</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0036"><mixed-citation publication-type="miscellaneous" id="ece372375-cit-0036">
+<string-name name-style="western">
+<surname>Ostrowski</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lorenzen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Petzold</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Schindler</surname>
+</string-name>. <year>2020</year>. <article-title>“Land Use Intensity Index (LUI) Calculation Tool of the Biodiversity Exploratories Project for Grassland Survey Data From Three Different Regions in Germany Since 2006, BEXIS 2 Module</article-title>.” Zenodo. <pub-id pub-id-type="doi">10.5281/ZENODO.3865579</pub-id>.</mixed-citation></ref><ref id="ece372375-bib-0037"><mixed-citation publication-type="miscellaneous" id="ece372375-cit-0037">
+<string-name name-style="western">
+<surname>Ostrowski</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Nieschulze</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.‐D.</given-names>
+<surname>Schulze</surname>
+</string-name>, et al. <year>2024</year>. <article-title>“Basic Information and Coordinates of Field Plots of the Biodiversity Exploratories Project (Version 10)</article-title>.” Biodiversity Exploratories Information System. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bexis.uni-jena.de/ddm/data/Showdata/1000?version=10" ext-link-type="uri">https://www.bexis.uni‐jena.de/ddm/data/Showdata/1000?version=10</ext-link>.</mixed-citation></ref><ref id="ece372375-bib-0038"><mixed-citation publication-type="journal" id="ece372375-cit-0038">
+<string-name name-style="western">
+<surname>Palmer</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. G.</given-names>
+<surname>Earls</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. W.</given-names>
+<surname>Hoagland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>White</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wohlgemuth</surname>
+</string-name>. <year>2002</year>. “<article-title>Quantitative Tools for Perfecting Species Lists</article-title>.” <source>Environmetrics</source>
+<volume>13</volume>, no. <issue>2</issue>: <fpage>121</fpage>–<lpage>137</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0039"><mixed-citation publication-type="journal" id="ece372375-cit-0039">
+<string-name name-style="western">
+<surname>Porter</surname>, <given-names>T. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hajibabaei</surname>
+</string-name>. <year>2018</year>. “<article-title>Scaling Up: A Guide to High‐Throughput Genomic Approaches for Biodiversity Analysis</article-title>.” <source>Molecular Ecology</source>
+<volume>27</volume>, no. <issue>2</issue>: <fpage>313</fpage>–<lpage>338</lpage>.<pub-id pub-id-type="pmid">29292539</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mec.14478</pub-id></mixed-citation></ref><ref id="ece372375-bib-0040"><mixed-citation publication-type="journal" id="ece372375-cit-0040">
+<string-name name-style="western">
+<surname>Potapov</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bellini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Chown</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Towards a Global Synthesis of Collembola Knowledge – Challenges and Potential Solutions</article-title>.” <source>Soil Organisms</source>
+<volume>92</volume>, no. <issue>3</issue>: <fpage>161</fpage>–<lpage>188</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0041"><mixed-citation publication-type="journal" id="ece372375-cit-0041">
+<string-name name-style="western">
+<surname>Quast</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Pruesse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Yilmaz</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>The SILVA Ribosomal RNA Gene Database Project: Improved Data Processing and Web‐Based Tools</article-title>.” <source>Nucleic Acids Research</source>
+<volume>41</volume>: <fpage>D590</fpage>–<lpage>D596</lpage>.<pub-id pub-id-type="pmid">23193283</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gks1219</pub-id><pub-id pub-id-type="pmcid">PMC3531112</pub-id></mixed-citation></ref><ref id="ece372375-bib-0042"><mixed-citation publication-type="journal" id="ece372375-cit-0042">
+<string-name name-style="western">
+<surname>Ratnasingham</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. D. N.</given-names>
+<surname>Hebert</surname>
+</string-name>. <year>2007</year>. “<article-title>Bold: The Barcode of Life Data System (http://www.barcodinglife.org): BARCODING</article-title>.” <source>Molecular Ecology Notes</source>
+<volume>7</volume>, no. <issue>3</issue>: <fpage>355</fpage>–<lpage>364</lpage>.<pub-id pub-id-type="pmid">18784790</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1471-8286.2007.01678.x</pub-id><pub-id pub-id-type="pmcid">PMC1890991</pub-id></mixed-citation></ref><ref id="ece372375-bib-0043"><mixed-citation publication-type="journal" id="ece372375-cit-0043">
+<string-name name-style="western">
+<surname>Recuero</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. E.</given-names>
+<surname>Etzler</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Caterino</surname>
+</string-name>. <year>2024</year>. “<article-title>Most Soil and Litter Arthropods Are Unidentifiable Based on Current DNA Barcode Reference Libraries</article-title>.” <source>Current Zoology</source>
+<volume>70</volume>, no. <issue>5</issue>: <fpage>637</fpage>–<lpage>646</lpage>.<pub-id pub-id-type="pmid">39463700</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/cz/zoad051</pub-id><pub-id pub-id-type="pmcid">PMC11502157</pub-id></mixed-citation></ref><ref id="ece372375-bib-0044"><mixed-citation publication-type="journal" id="ece372375-cit-0044">
+<string-name name-style="western">
+<surname>Rusek</surname>, <given-names>J.</given-names>
+</string-name>
+<year>1998</year>. “<article-title>Biodiversity of Collembola and Their Functional Role in the Ecosystem</article-title>.” <source>Biodiversity and Conservation</source>
+<volume>7</volume>, no. <issue>9</issue>: <fpage>1207</fpage>–<lpage>1219</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0045"><mixed-citation publication-type="journal" id="ece372375-cit-0045">
+<string-name name-style="western">
+<surname>Schneider</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Woehle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Greve</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Two High‐Quality De Novo Genomes From Single Ethanol‐Preserved Specimens of Tiny Metazoans (Collembola)</article-title>.” <source>GigaScience</source>
+<volume>10</volume>, no. <issue>5</issue>: <elocation-id>giab035</elocation-id>. <pub-id pub-id-type="doi">10.1093/gigascience/giab035</pub-id>.<pub-id pub-id-type="pmid">34018554</pub-id>
+<pub-id pub-id-type="pmcid">PMC8138834</pub-id></mixed-citation></ref><ref id="ece372375-bib-0046"><mixed-citation publication-type="journal" id="ece372375-cit-0046">
+<string-name name-style="western">
+<surname>Shechonge</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Collins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ward</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Environmental DNA Metabarcoding Details the Spatial Structure of a Diverse Tropical Fish Assemblage in a Major East African River System</article-title>.” <source>Environmental DNA</source>
+<volume>6</volume>, no. <issue>5</issue>: <elocation-id>e70008</elocation-id>. <pub-id pub-id-type="doi">10.1002/edn3.70008</pub-id>.</mixed-citation></ref><ref id="ece372375-bib-0047"><mixed-citation publication-type="journal" id="ece372375-cit-0047">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>M. D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Knapp</surname>
+</string-name>. <year>2003</year>. “<article-title>Dominant Species Maintain Ecosystem Function With Non‐Random Species Loss</article-title>.” <source>Ecology Letters</source>
+<volume>6</volume>, no. <issue>6</issue>: <fpage>509</fpage>–<lpage>517</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0048"><mixed-citation publication-type="journal" id="ece372375-cit-0048">
+<string-name name-style="western">
+<surname>Straile</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Jochimsen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kümmerlin</surname>
+</string-name>. <year>2013</year>. “<article-title>The Use of Long‐Term Monitoring Data for Studies of Planktonic Diversity: A Cautionary Tale From Two Swiss Lakes</article-title>.” <source>Freshwater Biology</source>
+<volume>58</volume>, no. <issue>6</issue>: <fpage>1292</fpage>–<lpage>1301</lpage>.</mixed-citation></ref><ref id="ece372375-bib-0049"><mixed-citation publication-type="journal" id="ece372375-cit-0049">
+<string-name name-style="western">
+<surname>Terlizzi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bevilacqua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Fraschetti</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Boero</surname>
+</string-name>. <year>2003</year>. “<article-title>Taxonomic Sufficiency and the Increasing Insufficiency of Taxonomic Expertise</article-title>.” <source>Marine Pollution Bulletin</source>
+<volume>46</volume>, no. <issue>5</issue>: <fpage>556</fpage>–<lpage>561</lpage>.<pub-id pub-id-type="pmid">12735953</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0025-326X(03)00066-3</pub-id></mixed-citation></ref><ref id="ece372375-bib-0050"><mixed-citation publication-type="journal" id="ece372375-cit-0050">
+<string-name name-style="western">
+<surname>Tsiafouli</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Thébault</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Sgardelis</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Intensive Agriculture Reduces Soil Biodiversity Across Europe</article-title>.” <source>Global Change Biology</source>
+<volume>21</volume>, no. <issue>2</issue>: <fpage>973</fpage>–<lpage>985</lpage>.<pub-id pub-id-type="pmid">25242445</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.12752</pub-id></mixed-citation></ref><ref id="ece372375-bib-0051"><mixed-citation publication-type="journal" id="ece372375-cit-0051">
+<string-name name-style="western">
+<surname>Verberk</surname>, <given-names>W.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>Explaining General Patterns in Species Abundance and Distributions</article-title>.” <source>Nature Education Knowledge</source>
+<volume>3</volume>, no. <issue>10</issue>: <fpage>38</fpage>.</mixed-citation></ref><ref id="ece372375-bib-0052"><mixed-citation publication-type="journal" id="ece372375-cit-0052">
+<string-name name-style="western">
+<surname>Vogt</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V. H.</given-names>
+<surname>Klaus</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Both</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Eleven Years' Data of Grassland Management in Germany</article-title>.” <source>Biodiversity Data Journal</source>
+<volume>7</volume>: <elocation-id>e36387</elocation-id>.<pub-id pub-id-type="pmid">31598068</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3897/BDJ.7.e36387</pub-id><pub-id pub-id-type="pmcid">PMC6778154</pub-id></mixed-citation></ref><ref id="ece372375-bib-0053"><mixed-citation publication-type="journal" id="ece372375-cit-0053">
+<string-name name-style="western">
+<surname>Wiens</surname>, <given-names>J. J.</given-names>
+</string-name>
+<year>2021</year>. “<article-title>Vast (But Avoidable) Underestimation of Global Biodiversity</article-title>.” <source>PLoS Biology</source>
+<volume>19</volume>, no. <issue>8</issue>: <elocation-id>e3001192</elocation-id>.<pub-id pub-id-type="pmid">34383760</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.3001192</pub-id><pub-id pub-id-type="pmcid">PMC8360379</pub-id></mixed-citation></ref><ref id="ece372375-bib-0054"><mixed-citation publication-type="miscellaneous" id="ece372375-cit-0054">
+<string-name name-style="western">
+<surname>Wolters</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>John</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Baulechner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zaytsev</surname>
+</string-name>. <year>2023</year>. <article-title>“Collembolan Species Abundance on All 150 Grassland EPs From 2019 (Version 4)</article-title>.” Biodiversity Exploratories Information System. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bexis.uni-jena.de/ddm/data/Showdata/27007?version=4" ext-link-type="uri">https://www.bexis.uni‐jena.de/ddm/data/Showdata/27007?version=4</ext-link>.</mixed-citation></ref></ref-list></back></article>

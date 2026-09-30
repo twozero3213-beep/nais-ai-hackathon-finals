@@ -1,0 +1,155 @@
+{
+  "_change_note": "[작성: 0 이영] 2026-10-01T00:12:57.491452+09:00 — 공개 검증 최소 요약. 과거 실행은 지문으로 연결하고 실제 원시 결과는 로컬 audit에 보존한다.",
+  "version": 0,
+  "recorded_at_kst": "2026-10-01T00:12:57.491452+09:00",
+  "calculation_first_public_run": {
+    "passed": 275,
+    "failed": 2,
+    "warnings": 1,
+    "seconds": 59.08,
+    "exit_code": 1,
+    "reason": "evaluation cases not yet copied"
+  },
+  "calculation_after_data_overlay": {
+    "passed": 277,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 10.7,
+    "exit_code": 0,
+    "raw_sha256": "c6fc726ff4c87a2a6f82c00e50c8235f15ad90123dcd45b88269f19a08fbbf65"
+  },
+  "auth_public_run": {
+    "passed": 20,
+    "failed": 0,
+    "seconds": 21.1,
+    "exit_code": 0
+  },
+  "prior_source_validation_scopes": [
+    {
+      "scope": "new-contract-and-statistics-tests",
+      "passed": 67,
+      "failed": 0,
+      "seconds": 9.42
+    },
+    {
+      "scope": "existing-focused-tests-before-synthetic-fixture-update",
+      "passed": 188,
+      "failed": 22,
+      "warnings": 1,
+      "seconds": 17.43
+    },
+    {
+      "scope": "same-existing-focused-tests-after-synthetic-fixture-update",
+      "passed": 210,
+      "failed": 0,
+      "warnings": 1,
+      "seconds": 19.21
+    }
+  ],
+  "public_test_source_hashes": [
+    {
+      "public_relative_path": "tests/test_case61_statistics.py",
+      "source_validation_sha256": "78108129dba16c4ba5b57d3a9b766592c455d95d8fa04513c157b66ac48bd2c5",
+      "public_sha256": "d45b591863bf2775a9aa9a8ec221a4ac052c8665d727c80be6aba0ee22579b86"
+    },
+    {
+      "public_relative_path": "tests/test_case65_statistics.py",
+      "source_validation_sha256": "1dc3a07304dd146b2aec194fee93348210c5b83f9419276129c755bb5d277691",
+      "public_sha256": "ae97231aae2ee66eff636434a12bb85fbdd95f54b4c9b306d71cf454f933f658"
+    },
+    {
+      "public_relative_path": "tests/test_case72_unexpected_failures.py",
+      "source_validation_sha256": "3a26c496cf0b18b6ce551bc3016c113b3f97752d64946dea3a108000cfbb9be0",
+      "public_sha256": "b2b3da243491a5e41a3d154a15841e6ef4837888ad0563c1d9fa35a1a70a17f5"
+    },
+    {
+      "public_relative_path": "tests/test_case47.py",
+      "source_validation_sha256": "1876748d040a1dfd2342a592374172b4f8a75040df97fb8041b169aa484119cd",
+      "public_sha256": "072b455320dfcd5abf10cf20b59a6396ab26c8fb4ba32c12005bce0bd8be6955"
+    },
+    {
+      "public_relative_path": "tests/test_case83_proposal.py",
+      "source_validation_sha256": "cd484406e1d37e47d34223c77d6ecf85f43c26060f8ad9f8b1a2a790684a887d",
+      "public_sha256": "a42de371dec75207c3cbcb6c732996ccc007580dff79e2313d7685dd4f930356"
+    },
+    {
+      "public_relative_path": "tests/test_finals_audit_contracts.py",
+      "source_validation_sha256": "58de565034c0ad0cc05bb8e43d99e0d88b461f62f3cf0fdf41efc015342fcfce",
+      "public_sha256": "58de565034c0ad0cc05bb8e43d99e0d88b461f62f3cf0fdf41efc015342fcfce"
+    },
+    {
+      "public_relative_path": "tests/test_finals_audit_statistics.py",
+      "source_validation_sha256": "acf05a2e562a0170be878ad443fd1c1b533f6d3f3a905f1b52328d816c5f7256",
+      "public_sha256": "acf05a2e562a0170be878ad443fd1c1b533f6d3f3a905f1b52328d816c5f7256"
+    },
+    {
+      "public_relative_path": "tests/0_이영_test_team_deploy.py",
+      "source_validation_sha256": "c237ab8fb8549e597efc175cb34384a772e970e7d886102794bed9b856807a4f",
+      "public_sha256": "c237ab8fb8549e597efc175cb34384a772e970e7d886102794bed9b856807a4f"
+    },
+    {
+      "public_relative_path": "tests/test_case25.py",
+      "source_validation_sha256": "15fc3385132ddf823fadc21608f46725c8d086130278d23a94e055ece98cf01f",
+      "public_sha256": "2b96456617260767cf0de122bea2b7e0dcc62df8e9519aea7d4d107f3c83443c"
+    },
+    {
+      "public_relative_path": "tests/test_case28.py",
+      "source_validation_sha256": "80f9c0166e6d75647fe65f826f002da56ab3e16b9591250329914a6949a831c5",
+      "public_sha256": "845dee49a0c5cded64154117af761a5125b9aaf7e471838b4e17e42eaba90d23"
+    },
+    {
+      "public_relative_path": "tests/test_case43.py",
+      "source_validation_sha256": "233e13f71cb5bb746b24af1947de4b4aadfd30f6a250c9f00c752113c33d989b",
+      "public_sha256": "f56749240d87f5e29e92098cf2b60b929d5a6a05ba0b11c6248be3cf95a61c3c"
+    },
+    {
+      "public_relative_path": "tests/test_case62_statistics.py",
+      "source_validation_sha256": "458a7ce079e66d6029283b5c1cfb9c490237b5443484d087f2c5106e2cb577e4",
+      "public_sha256": "f9565890db02964d54fc0a055b041efd1cbe2494cb82d727a800ed6c9eabc624"
+    },
+    {
+      "public_relative_path": "tests/test_case64_statistics.py",
+      "source_validation_sha256": "b4dc02f1cde44813363037da957813f7cab2a48e1a6ea3d129334706e6b4fd6e",
+      "public_sha256": "531b33ef3ca3a53376f78f42ecc0a37c86b9dac3bfc088441a5314c7f3f0fc6a"
+    },
+    {
+      "public_relative_path": "tests/test_case84.py",
+      "source_validation_sha256": "cbe4313d798fe8a6105ae08aa2b847538f1bace7fca05ac7e185cbec440a45ca",
+      "public_sha256": "330929bf31394ed3b859a91b47e5edbfef482b180cb8b69fd34583c0feac56f1"
+    }
+  ],
+  "public_product_and_test_files": [
+    "core/typed_contracts.py",
+    "core/executor.py",
+    "core/analysis_spec.py",
+    "core/models.py",
+    "core/proposal_intake.py",
+    "core/statistics.py",
+    "core/gates.py",
+    "core/pdf_claims.py",
+    "tests/test_case61_statistics.py",
+    "tests/test_case65_statistics.py",
+    "tests/test_case72_unexpected_failures.py",
+    "tests/test_case47.py",
+    "tests/test_case83_proposal.py",
+    "tests/test_finals_audit_contracts.py",
+    "tests/test_finals_audit_statistics.py",
+    "tools/0_이영_팀접속설정.py",
+    "tests/0_이영_test_team_deploy.py",
+    ".streamlit/secrets.toml.example",
+    "tests/test_case25.py",
+    "tests/test_case28.py",
+    "tests/test_case43.py",
+    "tests/test_case62_statistics.py",
+    "tests/test_case64_statistics.py",
+    "tests/test_case84.py",
+    "core/team_workspace.py"
+  ],
+  "real_secrets_file_generated": false,
+  "internal_raw_artifacts_copied": false,
+  "limits": [
+    "separate authentication and calculation scopes; not all-suite PASS",
+    "Linux Cloud deployment/live-paper/model/human-approval unverified",
+    "Git managed by parent"
+  ]
+}

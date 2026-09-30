@@ -1,0 +1,6 @@
+# [수정: 0 이영] 2026-10-01 00:26 KST — 지문으로 검증하는 공개 원문·자료·배포 스냅샷의 바이트를 운영체제별 줄바꿈 변환에서 보존한다.
+/data/** -text
+/static/** -text
+/finals/evidence/** -text
+/core/research_corpus.py -text
+/docs/intake/** -text

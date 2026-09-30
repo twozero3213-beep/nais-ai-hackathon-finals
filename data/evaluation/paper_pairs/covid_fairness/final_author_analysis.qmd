@@ -1,0 +1,479 @@
+---
+title: "COVID-19-related research data availability and quality according to the FAIR principles: Analyses"
+author: "Ahmad Sofi-Mahmudi"
+format: 
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+        #html:
+        #        toc: true
+        #        toc-expand: false
+        #        html-math-method: katex
+editor: visual
+---
+
+# Aim
+
+We aimed to determine the availability of open data in dental research and to assess compliance with the FAIR principles (or FAIRness) of shared COVID-19-related research data.
+
+# Results
+
+First, loading the needed packages:
+
+```{r}
+pacman::p_load(tidyverse, 
+               here, # for REPRODUCIBILITY
+               janitor, # for data cleaning, tables and etc
+               scales, 
+               patchwork, 
+               knitr,
+               gtsummary,
+               forcats,
+               tidyr,
+               treemap,
+               DiagrammeR)
+```
+
+```{r}
+here()
+```
+
+And then, loading the datasets:
+
+```{r}
+fairness = read.csv(here("data", "covid_fairness_results_final.csv"))
+```
+
+## **General characteristics**
+
+Let's take a look at the number of papers published in each year and overall:
+
+```{r}
+fairness %>% tbl_summary(include = c(pubYear),
+                         digits = list(all_categorical() ~ c(0, 1)))
+```
+
+What about article types?
+
+```{r}
+fairness %>% tbl_summary(
+  include = c(is_reseach, is_review, is_observational, is_rct, is_letter),
+  digits = list(all_categorical() ~ c(0, 1))
+)
+```
+
+Let's take a look at the top journals in terms of the number of papers in our dataset:
+
+```{r}
+fairness %>% 
+  mutate(journalTitle = fct_lump(journalTitle, n = 5)) %>%
+  tbl_summary(
+    include = journalTitle,
+    digits = list(all_categorical() ~ c(0, 1)),
+    sort = all_categorical() ~ "frequency"
+  )
+```
+
+## **FAIRness results**
+
+The number and proportion of papers with score of 1:
+
+```{r}
+fairness %>% 
+  mutate(FAIR = as.factor(FAIR)) %>%
+        tbl_summary(include = c(FAIR), 
+                         digits = list(all_categorical() ~ c(0, 1)))
+```
+
+We remove the repositories with a FAIR score of 1 since they were either inaccessible or had nothing in them.
+
+```{r}
+fairness <- fairness %>% 
+  filter(FAIR != 1)
+```
+
+Now, let's take a look at mean and SD for each component and subcomponent of FAIRness:
+
+```{r}
+
+# dat <-  data.frame()
+# row  <-  15
+# 
+# while(row < 32){
+#         mean1 = round(mean(select(fairness, row)[, 1], na.rm = T), 1)
+#         sd1 = round(sd(select(fairness, row)[, 1], na.rm = T), 2)
+#         range1 = range(select(fairness, row))[1]
+#         range2 = range(select(fairness, row))[2]
+#         over1 = paste0(mean1, " (", sd1, ")")
+#         over2 = paste0(range1, "–", range2)
+#         dat[row-14, 1:3] = c(names(fairness)[row], over1, over2)
+#         row = row+1
+# }
+# 
+# dat = dat[c(8, 3:7, 1:2, 9:17), ]
+# names(dat) = c("Metric", "Mean (SD)", "Range")
+# 
+# kable(dat, row.names = F)
+```
+
+We now add the FAIR levels:
+
+-   0: incomplete,
+
+-   1: initial,
+
+-   \>1: moderate,
+
+-   max: advanced
+
+```{r}
+fairness <-  fairness %>% mutate(Findability = ifelse(`F` == 0, "incomplete",
+                                                ifelse(`F` == 1, "initial",
+                                                       ifelse(`F` == 7, "advanced", "moderate"))), 
+                               Accessibility = ifelse(`A` == 0, "incomplete",
+                                                ifelse(`A` == 1, "initial",
+                                                       ifelse(`A` == 3, "advanced", "moderate"))),
+                               Interoperability = ifelse(`I` == 0, "incomplete",
+                                                ifelse(`I` == 1, "initial",
+                                                       ifelse(`I` == 4, "advanced", "moderate"))),
+                               Reusability = ifelse(`R` == 0, "incomplete",
+                                                ifelse(`R` == 1, "initial",
+                                                       ifelse(`R` == 8, "advanced", "moderate"))))
+```
+
+And now, a summary of the levels:
+
+```{r}
+fairness %>% tbl_summary(
+  include = c(Findability, Accessibility, Interoperability, Reusability),
+  digits = list(all_categorical() ~ c(0, 1)),
+  sort = all_categorical() ~ "frequency"
+)
+```
+
+### **FAIRness by article type**
+
+First, creating a new variable for article types:
+
+```{r}
+fairness = fairness %>% mutate(
+        article_type = case_when(
+                is_rct ~ "rct",
+                is_observational ~ "observational",
+                is_review ~ "review",
+                is_letter ~ "letters",
+                TRUE ~ "other_research"
+        ))
+```
+
+And then, mean and SD of FAIR score by article type:
+
+```{r}
+fairness %>% select(article_type, FAIR) %>%
+        tbl_summary(by = article_type,
+                    statistic = all_continuous() ~ "{mean} ({sd})",
+                    digits = all_continuous() ~ 2) %>% add_p()
+```
+
+### **FAIRness by journal area**
+
+First, creating a new variable for journal area:
+
+```{r}
+fairness <-  fairness %>% mutate(
+        journal_area = case_when(
+                is_biochem ~ "biochemistry",
+                is_dentistry ~ "dentistry",
+                is_immunology ~ "immunology",
+                is_neuroscience ~ "neuroscience",
+                is_nursing ~ "nursing",
+                is_pharmacology ~ "pharmacology",
+                is_psychology ~ "psychology",
+                is_medicine ~ "medicine",
+                is_health ~ "health",
+                is_multidisciplinary ~ "multidisciplinary",
+                TRUE ~ "other"
+        ))
+```
+
+And then, mean and SD of FAIR score by article type:
+
+```{r}
+fairness %>% select(journal_area, FAIR) %>%
+        tbl_summary(by = journal_area,
+                    statistic = all_continuous() ~ "{mean} ({sd})",
+                    digits = all_continuous() ~ 2) %>% add_p()
+```
+
+### **FAIRness by repository**
+
+First, creating a new variable for repository:
+
+```{r}
+fairness <-  fairness %>% mutate(
+        repository = case_when(
+                grepl("figshare|6084", data_url) ~ "figshare",
+                grepl("datadryad|5061", data_url) ~ "dryad",
+                grepl("zenodo|5281", data_url) ~ "zenodo",
+                grepl("dataverse|7910", data_url) ~ "dataverse",
+                grepl("dataversenl|34894", data_url) ~ "dataversenl",
+                grepl("osf|17605", data_url) ~ "osf",
+                grepl("mendeley|17632", data_url) ~ "mendeley",
+                grepl("gigadb|5524", data_url) ~ "gigadb",
+                grepl("openneuro|18112", data_url) ~ "openneuro",
+                grepl("github", data_url) ~ "github"
+        )
+)
+```
+
+And then, mean and SD of FAIR score by article type:
+
+```{r}
+fairness %>% select(repository, FAIR) %>%
+        tbl_summary(by = repository,
+                    statistic = all_continuous() ~ "{mean} ({sd})",
+                    digits = all_continuous() ~ 2) %>% add_p()
+```
+
+### **The most influential factor**
+
+The linear regression model for article_type, adjusted for sjr2020 and citedByCount:
+
+```{r}
+lm_article = lm(FAIR~article_type+sjr2020+citedByCount, data = fairness)
+
+summary(lm_article)
+```
+
+R2 = 0.001518
+
+```{r}
+lm_journal = lm(FAIR~journal_area+sjr2020+citedByCount, data = fairness)
+
+summary(lm_journal)
+```
+
+R2=0.01614
+
+```{r}
+lm_repository = lm(FAIR ~ repository + sjr2020 + citedByCount, data = fairness)
+
+summary(lm_repository)
+```
+
+R2=0.8088
+
+```{r}
+lm_all = lm(FAIR ~ article_type + journal_area + repository + sjr2020 + citedByCount,
+            data = fairness)
+
+summary(lm_all)
+```
+
+R2=0.8116
+
+```{r}
+lm_all <- gtsummary::tbl_regression(lm_all)
+lm_repository <- gtsummary::tbl_regression(lm_repository)
+lm_journal <- gtsummary::tbl_regression(lm_journal)
+lm_article <- gtsummary::tbl_regression(lm_article)
+```
+
+```{r}
+
+ tbl_merge(
+    tbls = list(lm_repository, 
+                lm_journal, 
+                lm_article, 
+                lm_all),
+    tab_spanner = c("**Repository**", 
+                    "**Journal**", 
+                    "**Article**", 
+                    "**All**")
+  )
+ 
+
+```
+
+## Figures
+
+### Figure 1: Treemap
+
+```{r}
+
+treemap <-  data.frame(oa = c(paste("Non-open-access", "87,984", sep = '\n'), "Open-access", "Open-access", "Open-access"),
+                     shared = c("All", paste("Not shared", "236,475", sep = '\n'), "Shared", "Shared"),
+                     repo = c(NA, NA, paste("General repository", "8,015", sep = '\n'), paste("Other", "12,858", sep = '\n')),
+                     Papers = c(87984, 236475, 8015, 12858))
+
+fig1  <-  treemap(treemap,
+             index=c("oa","shared","repo"),
+             vSize="Papers",
+             type="index",
+             palette = "Set2",
+             align.labels=list(
+                 c("center", "center"), 
+                 c("right", "bottom")
+             )  
+) 
+
+#tiff("figures/Figure 1.tiff", width = 6, height = 4, units = "in", res = 300, compression = "lzw")
+#fig1
+#dev.off()
+```
+
+### Figure 2: Flow diagram
+
+```{r}
+fig2 <-  grViz(diagram = "digraph flowchart {
+  node [fontname = arial, shape = box, color = grey, style = filled]
+  tab1 [label = '@@1']
+  tab2 [label = '@@2']
+  tab3 [label = '@@3']
+  tab4 [label = '@@4']
+  tab5 [label = '@@5']
+  tab6 [label = '@@6']
+  tab7 [label = '@@7']
+  
+  tab1 -> tab2
+  tab2 -> tab3
+  tab2 -> tab4
+  tab2 -> tab5
+  tab2 -> tab6
+  tab2 -> tab7;
+}
+  
+  [1]: 'All open-access COVID-19-related articles in Europe PMC from 2020-01-01 to 2023-04-15 (N=257,348)'
+  [2]: 'Articles shared their data in a general repository (n=6,180)'
+  [3]: 'Research articles (n=5,580)'
+  [4]: 'Reviews (n=182)'
+  [5]: 'Observational studies (n=121)'
+  [6]: 'RCTs (n=107)'
+  [7]: 'Letters (n=64)'
+
+
+  ")
+
+#tiff("figures/Figure 2.tiff", width = 6, height = 2, units = "in", res = 300, compression = "lzw")
+fig2
+#dev.off()
+```
+
+### Figure 3: Compliance level
+
+```{r}
+data_long <-  gather(fairness, fairness, level, Findability:Reusability, factor_key=TRUE)
+
+table_stack = as.data.frame(table(data_long$fairness, data_long$level))
+table_stack$Percent = table_stack$Freq/5700*100
+names(table_stack) = c("FAIR Metric", "FAIR Level", "Frequency", "Percent")
+table_stack$`FAIR Level` = factor(table_stack$`FAIR Level`, levels = c("advanced", "moderate", "initial", "incomplete"))
+
+fig3 = table_stack %>% ggplot() + 
+        aes(x = `FAIR Metric`, y = Percent, fill = `FAIR Level`) +
+        geom_bar(position='stack', stat='identity') +
+        scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+        scale_fill_manual(values=c('green', 'lightgreen', 'yellow', 'red')) +
+        theme_minimal()
+
+#tiff("figures/Figure 3.tiff", width = 6, height = 4, units = "in", res = 300, compression = "lzw")
+fig3
+#dev.off()
+```
+
+### Figure 4: Monthly trend
+
+First, we add the real publication year and month to the datasets. The real publication year/month is the year/month the paper was first appear online stored in firstPublicationDate column.
+
+```{r}
+fairness$YearMonth <- format(as.Date(fairness$firstPublicationDate), "%Y-%m")
+```
+
+And now, creating a trend dataset:
+
+```{r}
+monthly_trend = 
+        fairness %>% 
+        group_by(YearMonth) %>%
+        summarize_at(vars("FAIR", "F", "A", "I", "R"), mean)
+
+monthly_trend = gather(monthly_trend, indicator, value, FAIR:R, factor_key = T)
+```
+
+Now, we can draw the trend:
+
+```{r}
+fig4 =
+        monthly_trend %>% 
+        ggplot() +
+        aes(x = YearMonth, 
+            y = value,
+            group = indicator,
+            color = indicator) +
+        geom_line(linewidth = 0.75) +
+        scale_y_continuous(breaks = seq(0, 15, by = 1),
+                           labels = c("", 1, "", "", "", 5, "", "", "", "", 10, "", "", "", 14, 15))+
+        scale_color_discrete(name = NULL) +
+        labs(y = "Score", 
+             x = "Month") +
+        theme(panel.grid.minor = element_blank(),
+              axis.text.x = element_text(angle = 55, vjust = 0.9, hjust=1)
+              )
+
+#tiff("figures/Figure 4.tiff", width = 8, height = 4, units = "in", res = 300, compression = "lzw")
+fig4
+#dev.off()
+```
+
+### Figure 4: second version
+
+```{r}
+# Show the year only when month = Jan
+label_year_if_jan <- function(date) {
+  ifelse(format(date, "%m") == "01", format(date, "%b\n%Y"), format(date, "%b"))
+}
+
+```
+
+```{r}
+
+fair_monthly <- monthly_trend %>%
+  filter(indicator != "FAIR") %>%
+  mutate(YearMonth = as.Date(paste0(YearMonth, "-01"))) %>%
+  ggplot(aes(x = YearMonth, y = value, group = indicator, color = indicator)) +
+    geom_line(linewidth = 0.75) +
+    scale_y_continuous(breaks = seq(0, 15, by = 1),
+                       labels = c("", 1, "", "", "", 5, "", "", "", "", 10, "", "", "", 14, 15)) +
+    scale_x_date(date_breaks = "1 month", labels = label_year_if_jan) +
+    scale_colour_viridis_d() +
+    labs(y = "Score", x = "", color = "Indicator") +
+    theme(panel.grid.minor = element_blank(),
+          axis.text.x = element_blank()) + 
+    theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) + 
+  facet_grid(. ~ indicator)
+```
+
+```{r}
+
+fair_year <- monthly_trend %>%
+  filter(indicator == "FAIR") %>%
+  mutate(YearMonth = as.Date(paste0(YearMonth, "-01"))) %>%
+  ggplot(aes(x = YearMonth, y = value, group = indicator, color = indicator)) +
+    geom_line(linewidth = 0.75) +
+    scale_y_continuous(breaks = seq(0, 15, by = 1),
+                       labels = c("", 1, "", "", "", 5, "", "", "", "", 10, "", "", "", 14, 15)) +
+    scale_x_date(date_breaks = "1 month", labels = label_year_if_jan) +
+    scale_colour_viridis_d(option = "magma", begin = .5) +
+    labs(y = "Score", x = "Month", color = "") +
+    theme(panel.grid.minor = element_blank(),
+          axis.text.x = element_text(angle = 55, vjust = 0.9, hjust=1)) + 
+    theme_minimal()
+```
+
+```{r}
+fair_monthly / fair_year
+```

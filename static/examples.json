@@ -1,0 +1,111 @@
+{
+  "approved": false,
+  "arithmetic": {
+    "case_id": "public_penguins",
+    "conditions": {
+      "column": "",
+      "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "filters": {},
+      "license": "CC BY 4.0 (article text); CC0 (data)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "method": "count_rows",
+      "missing_policy": "error",
+      "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+      "source_sha256": "c427d0c3726a920e3f459c1c9d3bf7f786d52bcd772b1e10a7938c3b488ed583"
+    },
+    "doi": "10.32614/RJ-2022-020",
+    "known": [
+      "등록 원자료의 행 수만 대조했습니다. 결측·다른 주장은 포함하지 않습니다."
+    ],
+    "next_actions": [
+      "산술 결과를 해석하기 전에 원문 표현, 선택 모집단, 단위를 검토합니다."
+    ],
+    "rows": [
+      {
+        "calculated_value": 344.0,
+        "claim_id": "PENG-RAW-ROWS",
+        "reported_value": 344,
+        "status": "ARITHMETIC_MATCH",
+        "tolerance": 0,
+        "unit": null
+      }
+    ],
+    "source_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+    "unknown": [
+      "주장의 의미와 모집단에 대한 사람 검토 기록은 없습니다. 산술 일치는 승인이나 논문 전체 재현이 아닙니다."
+    ]
+  },
+  "change_impact": [
+    {
+      "calculation_status": "BLOCK",
+      "change": "data_bytes_without_hash_update",
+      "claims": [
+        {
+          "action": "UNCHANGED",
+          "changed_inputs": [],
+          "claim_id": "BAT-POSITIVE-N"
+        },
+        {
+          "action": "BLOCKED_INPUT",
+          "changed_inputs": [
+            "data_bytes",
+            "data_consistency"
+          ],
+          "claim_id": "PENG-RAW-ROWS"
+        }
+      ],
+      "origin": "SYNTHETIC_CHANGE",
+      "recalculated_value": null,
+      "reuse_previous_result": false
+    },
+    {
+      "calculation_status": "ARITHMETIC_MATCH",
+      "change": "source_bytes_with_hash_update",
+      "claims": [
+        {
+          "action": "UNCHANGED",
+          "changed_inputs": [],
+          "claim_id": "BAT-POSITIVE-N"
+        },
+        {
+          "action": "REEXECUTION_REQUIRED",
+          "changed_inputs": [
+            "case_metadata",
+            "source_bytes",
+            "source_declared_hash"
+          ],
+          "claim_id": "PENG-RAW-ROWS"
+        }
+      ],
+      "origin": "SYNTHETIC_CHANGE",
+      "recalculated_value": 344.0,
+      "reuse_previous_result": false
+    },
+    {
+      "calculation_status": "ARITHMETIC_MISMATCH",
+      "change": "filter",
+      "claims": [
+        {
+          "action": "UNCHANGED",
+          "changed_inputs": [],
+          "claim_id": "BAT-POSITIVE-N"
+        },
+        {
+          "action": "REEXECUTION_REQUIRED",
+          "changed_inputs": [
+            "case_metadata"
+          ],
+          "claim_id": "PENG-RAW-ROWS"
+        }
+      ],
+      "origin": "SYNTHETIC_CHANGE",
+      "recalculated_value": 152.0,
+      "reuse_previous_result": false
+    }
+  ],
+  "origin": "RELEASE_TIME_EXECUTION_OF_FIXED_PUBLIC_CASE",
+  "schema_version": 1,
+  "scope": "One registered row-count claim and three synthetic changes, with an unaffected control claim. Not whole-paper approval, a live query endpoint, a model-quality test or comparative superiority.",
+  "version": "0"
+}

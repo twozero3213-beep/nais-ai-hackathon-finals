@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "manifest_sha256": "02d45d7848fcfa8c8d7b9dfa29042a933992f3f04fe56736c126bba41a69def3",
+  "registration_bytes": 3816,
+  "registration_lines": 88,
+  "results": [
+    {
+      "claim_id": "COVID-FAIR-URL-COUNT",
+      "action": "ARITHMETIC_MATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "preprocessing_verified": true,
+      "raw_data_rows": 6180,
+      "analysis_rows": 5700,
+      "preprocessing_missing_rows": 0,
+      "author_code_executed": false,
+      "reproduction_scope": "DECLARED_PARTIAL_ARITHMETIC_REIMPLEMENTATION",
+      "value": 5700.0,
+      "independent_value": 5700.0,
+      "reported_value": 5700.0,
+      "rows_used": 5700,
+      "observations_used": 5700,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    },
+    {
+      "claim_id": "COVID-FAIR-MEAN",
+      "action": "ARITHMETIC_MATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "preprocessing_verified": true,
+      "raw_data_rows": 6180,
+      "analysis_rows": 5700,
+      "preprocessing_missing_rows": 0,
+      "author_code_executed": false,
+      "reproduction_scope": "DECLARED_PARTIAL_ARITHMETIC_REIMPLEMENTATION",
+      "value": 9.393245614035088,
+      "independent_value": 9.393245614035088,
+      "reported_value": 9.4,
+      "rows_used": 5700,
+      "observations_used": 5700,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    }
+  ],
+  "scope": "개발자 등록 시험; 사람 정답·범용 AI 우위·논문 전체 재현 아님"
+}

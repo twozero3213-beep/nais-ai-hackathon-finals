@@ -1,0 +1,968 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="evo14483" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Evolution</journal-id><journal-id journal-id-type="iso-abbrev">Evolution</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">0373224</journal-id><journal-id journal-id-type="publisher-id">EVO</journal-id><journal-title-group><journal-title>Evolution; International Journal of Organic Evolution</journal-title></journal-title-group><issn pub-type="ppub">0014-3820</issn><issn pub-type="epub">1558-5646</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9321733</article-id><article-id pub-id-type="pmcid-ver">PMC9321733.1</article-id><article-id pub-id-type="pmcaid">9321733</article-id><article-id pub-id-type="pmcaiid">9321733</article-id><article-id pub-id-type="pmid">35420699</article-id><article-id pub-id-type="doi">10.1111/evo.14483</article-id><article-id pub-id-type="publisher-id">EVO14483</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Brief Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Brief Communications</subject></subj-group></article-categories><title-group><article-title>The relationship between sexual dimorphism and androgen response element proliferation in primate genomes</article-title><alt-title alt-title-type="left-running-head">A. P. ANDERSON AND A. G. JONES</alt-title><alt-title alt-title-type="right-running-head">BRIEF COMMUNICATION</alt-title></title-group><contrib-group><contrib id="evo14483-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Anderson</surname><given-names initials="AP">Andrew P.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7865-1327</contrib-id><xref rid="evo14483-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="evo14483-cr-0002" contrib-type="author"><name name-style="western"><surname>Jones</surname><given-names initials="AG">Adam G.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0228-7124</contrib-id><xref rid="evo14483-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="evo14483-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Biology Department</named-content>
+<institution>Reed College</institution>
+<city>Portland</city>
+<named-content content-type="country-part">Oregon</named-content>
+<postal-code>97202</postal-code>
+</aff><aff id="evo14483-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>University of Idaho</institution>
+<city>Moscow</city>
+<named-content content-type="country-part">Idaho</named-content>
+<postal-code>83844</postal-code>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+E‐mail: 
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>4</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>6</month><year>2022</year></pub-date><volume>76</volume><issue seq="180">6</issue><issue-id pub-id-type="pmc-issue-id">413097</issue-id><issue-id pub-id-type="doi">10.1111/evo.v76.6</issue-id><fpage>1331</fpage><lpage>1346</lpage><history><date date-type="rev-recd"><day>04</day><month>3</month><year>2022</year></date><date date-type="received"><day>24</day><month>3</month><year>2021</year></date><date date-type="accepted"><day>13</day><month>3</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>26</day><month>07</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>30</day><month>07</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-06-25 00:25:29.703"><day>25</day><month>06</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2022 The Authors. <italic toggle="yes">Evolution</italic> published by Wiley Periodicals LLC on behalf of The Society for the Study of Evolution.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EVO-76-1331.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EVO-76-1331.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" vol="78" journal-id="Evolution" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10870990"><article-title>Retraction and replacement of: The relationship between sexual dimorphism and androgen response element proliferation in primate genomes</article-title><volume>78</volume><issue>1</issue><date><day>24</day><month>11</month><year>2023</year></date><fpage>209</fpage><lpage>209</lpage><source>Evolution; International Journal of Organic Evolution</source><pub-id pub-id-type="doi">10.1093/evolut/qpad182</pub-id><pub-id pub-id-type="pmcid">PMC10870990</pub-id><pub-id pub-id-type="pmid">37996090</pub-id></related-article><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="commentary" vol="76" page="3071" journal-id="Evolution" journal-id-type="nlm-ta" ext-link-type="pubmed" xlink:href="36097360"><article-title>Digest: Detecting genomic adaptation to sexual selection at scale using available data.</article-title><date><day>12</day><month>9</month><year>2022</year></date><source>Evolution</source><pub-id pub-id-type="pmid">36097360</pub-id></related-article><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="expression-of-concern" xml:lang="en" xlink:title="expression-of-concern" page="null" journal-id="Evolution" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC11194605"><article-title>Expression of Concern: The relationship between sexual dimorphism and androgen response element proliferation in primate genomes</article-title><volume>77</volume><issue>10</issue><date><day>29</day><month>8</month><year>2023</year></date><fpage>2340</fpage><lpage>2340</lpage><source>Evolution; International Journal of Organic Evolution</source><pub-id pub-id-type="pmcid">PMC11194605</pub-id><pub-id pub-id-type="pmid">37643202</pub-id></related-article><abstract><title>Abstract</title><p>In the males of many vertebrate species, sexual selection has led to the evolution of sexually dimorphic traits, which often are developmentally controlled by androgen signaling involving androgen response elements (AREs). Evolutionary changes in the number and genomic locations of AREs can modify patterns of receptor regulation and potentially alter gene expression. Here, we use recently sequenced primate genomes to evaluate the hypothesis that the strength of sexual selection is related to the genome‐wide number of AREs in a diversifying lineage. In humans, we find a higher incidence of AREs near male‐biased genes and androgen‐responsive genes when compared to randomly selected genes from the genome. In a set of primates, we find that gains or losses of AREs proximal to genes are correlated with changes in male expression levels and the degree of sex‐biased expression of those genes. In a larger set of primates, we find that increases in indicators of sexual selection are correlated with genome‐wide ARE counts. Our results suggest that the responsiveness of the genome to androgens in humans and their close relatives has been shaped by sexual selection that arises from competition among males for mating access to females.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="evo14483-kwd-0001">Androgen</kwd><kwd id="evo14483-kwd-0002">evolution</kwd><kwd id="evo14483-kwd-0003">genome</kwd><kwd id="evo14483-kwd-0004">hormone response elements</kwd><kwd id="evo14483-kwd-0005">primates</kwd><kwd id="evo14483-kwd-0006">sexual selection</kwd></kwd-group><counts><fig-count count="4"/><table-count count="2"/><page-count count="16"/><word-count count="10534"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.1.7 mode:remove_FC converted:26.07.2022</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p>Although it is well established that sexual selection can shape sex‐biased phenotypes, there is growing interest in the impacts of sexual selection on the genomic architecture (Mank, <xref rid="evo14483-bib-0001" ref-type="bibr">2017</xref>, Wilkinson et al., <xref rid="evo14483-bib-0002" ref-type="bibr">2015</xref>, Kirkpatrick, <xref rid="evo14483-bib-0003" ref-type="bibr">2017</xref>). As genomic information becomes more readily available, the genome‐wide effects of sexual selection may become detectable without <italic toggle="yes">a priori</italic> knowledge of the strength of sexual selection or phenotypic characteristics. Because sexual selection often drives the evolution of sexually dimorphic traits, the extent of sexual dimorphism across species can be used as an indicator of the relative strength of sexual selection, especially in systems where the mating competition is well understood (Dines et al., <xref rid="evo14483-bib-0004" ref-type="bibr">2014</xref>, Fitzpatrick et al., <xref rid="evo14483-bib-0005" ref-type="bibr">2012</xref>, Morris and Carrier, <xref rid="evo14483-bib-0006" ref-type="bibr">2016</xref>). In primates, for example, body mass and canine tooth length are sexually dimorphic in strongly sexually selected species (Plavcan and van Schaik, <xref rid="evo14483-bib-0007" ref-type="bibr">1997</xref>, Thorén et al., <xref rid="evo14483-bib-0008" ref-type="bibr">2006</xref>). Additionally, relative testis mass is known to correlate with increased multimale mating behavior and is an indicator of postcopulatory sexual selection, as it is associated with greater sperm counts for sperm competition (Anderson and Dixson, <xref rid="evo14483-bib-0009" ref-type="bibr">2002</xref>, Fitzpatrick et al., <xref rid="evo14483-bib-0010" ref-type="bibr">2012</xref>, Kahrl et al., <xref rid="evo14483-bib-0011" ref-type="bibr">2016</xref>).</p><p>Sexual dimorphism is often accompanied by sex‐biased gene expression resulting in correlations between expression‐level differences and dimorphic features (Harrison et al., <xref rid="evo14483-bib-0012" ref-type="bibr">2015</xref>, Pointer et al., <xref rid="evo14483-bib-0013" ref-type="bibr">2013</xref>, Ellegren and Parsch, <xref rid="evo14483-bib-0014" ref-type="bibr">2007</xref>). Sex‐biased gene expression is considered to be one possible resolution to intralocus sexual conflict (Bonduriansky and Chenoweth, <xref rid="evo14483-bib-0015" ref-type="bibr">2009</xref>, Stewart et al., <xref rid="evo14483-bib-0016" ref-type="bibr">2010</xref>, Pennell and Morrow, <xref rid="evo14483-bib-0017" ref-type="bibr">2013</xref>), the situation in which an allele at a locus has different fitness effects depending on the sex of its bearer (Bonduriansky and Chenoweth, <xref rid="evo14483-bib-0015" ref-type="bibr">2009</xref>, Connallon and Clark, <xref rid="evo14483-bib-0018" ref-type="bibr">2014</xref>, Lande, <xref rid="evo14483-bib-0019" ref-type="bibr">1980</xref>). There is evidence that sex‐biased regulation via hormones or other signaling pathways can lead to sex‐biased gene expression (Mank, <xref rid="evo14483-bib-0001" ref-type="bibr">2017</xref>, Oliva et al., <xref rid="evo14483-bib-0020" ref-type="bibr">2020</xref>, Anderson et al., <xref rid="evo14483-bib-0021" ref-type="bibr">2020</xref>). Recent studies have suggested that sex‐biased hormones have pleiotropic effects that reduce genetic correlations between the sexes (Wittman et al., <xref rid="evo14483-bib-0022" ref-type="bibr">2021</xref>), and many genes have differential effects on the phenotype depending on the bearing sex (van der Bijl and Mank, <xref rid="evo14483-bib-0023" ref-type="bibr">2021</xref>). Hence, genomic regions associated with sex‐biased signaling could contribute to the phenotypic expression of traits under sexual selection and thus respond to sexual selection.</p><p>The most obvious genomic targets of sex‐biased hormone regulation are <italic toggle="yes">cis</italic>‐regulatory elements, sequences of the DNA usually found in noncoding regions that regulate gene expression (Geserick et al., <xref rid="evo14483-bib-0024" ref-type="bibr">2005</xref>, Tsai and O'Malley, <xref rid="evo14483-bib-0025" ref-type="bibr">1994</xref>, Wittkopp and Kalay, <xref rid="evo14483-bib-0026" ref-type="bibr">2012</xref>). Despite being noncoding regions, they are subject to selection because nucleotide substitutions can affect the strength with which a receptor binds to the genomic region (a value known as binding <italic toggle="yes">affinity</italic>) and how exclusively the genomic region is bound by a particular receptor over others (i.e., the <italic toggle="yes">specificity</italic> of the sequence) (Hahn, <xref rid="evo14483-bib-0027" ref-type="bibr">2007</xref>, Smith et al., <xref rid="evo14483-bib-0028" ref-type="bibr">2013</xref>, Wray, <xref rid="evo14483-bib-0029" ref-type="bibr">2007</xref>). Furthermore, duplications of <italic toggle="yes">cis‐</italic>regulatory elements may be important in creating new opportunities for receptor regulation (Jimenez‐Delgado et al., <xref rid="evo14483-bib-0039" ref-type="bibr">2009</xref>)
+or in altering the transcriptomic response in an additive fashion (Geserick et al., <xref rid="evo14483-bib-0024" ref-type="bibr">2005</xref>, Cleutjens et al., <xref rid="evo14483-bib-0031" ref-type="bibr">1996</xref>, Wilson et al., <xref rid="evo14483-bib-0032" ref-type="bibr">2016</xref>). There is evidence that sex‐biased gene expression is altered as physically proximal <italic toggle="yes">cis</italic>‐regulatory elements are gained or lost (Matthews et al., <xref rid="evo14483-bib-0033" ref-type="bibr">2021</xref>). In the human genome, there is a correlation between the number of estrogen‐mediated genes and the number of putative estrogen binding sites across chromosomes (Anderson and Jones, <xref rid="evo14483-bib-0034" ref-type="bibr">2019</xref>). In the Gulf pipefish, there is an excess of estrogen binding regions near putative sex‐biased and estrogen‐mediated genes involved in ornament expression (Anderson et al., <xref rid="evo14483-bib-0021" ref-type="bibr">2020</xref>). It is possible that just as gene expression‐level differences coincide with sexual dimorphism, signatures of sex‐biased regulation via changes in genome‐wide <italic toggle="yes">cis</italic>‐regulatory elements will likewise coincide with sexual dimorphism.</p><p>To investigate the hypothesis that an increase in sexual selection should correspond with an increase in genome‐wide regulatory elements, we chose to look specifically in vertebrates because this group has well‐documented links between sex‐biased signals, sex‐biased traits, and the associated <italic toggle="yes">cis</italic>‐regulatory elements. Typically, sexual selection acts more strongly in males and leads to male‐biased traits, such as ornamentation, weaponry, courtship, and sperm production, which are often regulated by androgens in vertebrates (Bartos et al., <xref rid="evo14483-bib-0035" ref-type="bibr">2012</xref>, Bhattacharya et al., <xref rid="evo14483-bib-0036" ref-type="bibr">2019</xref>, Ghosal and Sorensen, <xref rid="evo14483-bib-0037" ref-type="bibr">2016</xref>, Lindsay et al., <xref rid="evo14483-bib-0038" ref-type="bibr">2016</xref>). The <italic toggle="yes">cis</italic>‐regulatory element associated with androgen receptors is the androgen response element (ARE), a 15 base‐pair sequence composed of two palindromic (i.e., reverse complement) half‐sites separated by a three base‐pair spacer (e.g., AGAACAnnnTGTTCT—half‐site, spacer, half‐site) (Wilson et al., <xref rid="evo14483-bib-0032" ref-type="bibr">2016</xref>, Roche et al., <xref rid="evo14483-bib-0039" ref-type="bibr">1992</xref>) (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>). If (1) sexual selection drives the evolution of sexual dimorphism and enlarged testis size and (2) these features are, at least in part, controlled by sex‐biased expression mediated by androgens, then we can predict that new androgen‐regulated genetic regions should accumulate over evolutionary time to create new genomic regions with the potential for sex‐specific gene expression. These new genomic regions can either occur to induce novel androgen‐regulated expression in a gene or enhance an already existing androgen‐responsive gene. In either case, the total number of genome‐wide AREs would increase. In the present study, we formally tested this prediction by first investigating if AREs are associated with greater sex‐biased and androgen‐responsive expression. Then we examined correlations between gain or loss of proximal AREs and expression patterns. Finally, we determined the correlation between the number of genome‐wide AREs and indicators of both precopulatory (size dimorphism) and postcopulatory (relative testis size) sexual selection. A correlation between the ARE count and the indicators would suggest that sexual selection drives a genome‐level change in responsiveness to sex‐hormone signaling as adaptations to mating competition arise over evolutionary time.</p><table-wrap position="float" id="evo14483-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>ARE motifs used in this study with reference (in parentheses) and DNA sequence</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><tbody><tr><td align="left" rowspan="1" colspan="1"> <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="Image" xlink:href="EVO-76-1331-g005.jpg"/>
+</td></tr></tbody></table><table-wrap-foot><fn id="evo14483-tbl1-note-0001"><p>Colors are used to better visualize shared nucleotides, and the 3bp spacers between half‐sites are not shown. Numbers under the half‐site indicate the base pair position referenced in the text. For each motif, we report the results of the GLS model of motif count with each trait. We report the correlation (<italic toggle="yes">R</italic>
+<sup>2</sup> value) and phylogenetic signal (λ). Significant values are in bold and significant values after Bonferroni correction have an asterisk. PC_ARE represents the first component from the principal components analysis for all response elements.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>The ARE nucleotide sequence (motif) with the highest binding affinity to the androgen receptor is called the canonical ARE (<italic toggle="yes">cARE</italic>) (Wilson et al., <xref rid="evo14483-bib-0032" ref-type="bibr">2016</xref>, Roche et al., <xref rid="evo14483-bib-0039" ref-type="bibr">1992</xref>). Substituting base pairs in the motif may still allow for androgen binding but will alter the affinity and specificity of the sequence. Although the <italic toggle="yes">cARE</italic> has high affinity for binding to androgen receptors, it has low specificity and will easily bind to other related receptors, especially the glucocorticoid receptor (Laudet et al., <xref rid="evo14483-bib-0040" ref-type="bibr">1992</xref>, Nelson et al., <xref rid="evo14483-bib-0041" ref-type="bibr">1999</xref>, Geserick et al., <xref rid="evo14483-bib-0042" ref-type="bibr">2003</xref>). Paradoxically, higher specificity is achieved via more point mutations on one of the half‐sites, so a loss in overall affinity accompanies higher specificity (Wilson et al., <xref rid="evo14483-bib-0032" ref-type="bibr">2016</xref>, Nelson et al., <xref rid="evo14483-bib-0041" ref-type="bibr">1999</xref>, Sahu et al., <xref rid="evo14483-bib-0043" ref-type="bibr">2014</xref>). There are numerous variants of the ARE (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>) that have been empirically confirmed. Some of these variants are proposed to be general, whereas others are proposed to be specific to the androgen receptor. Another aim of our study was to see which validated ARE motifs more strongly correlate with indicators of sexual selection and if they share any patterns in nucleotide sequence.</p><p>To investigate the emergent patterns in genome‐wide counts of various ARE motifs and sex‐biased traits associated with sexual selection, we required a vertebrate taxon containing a multitude of species with well‐sequenced genomes as well as data on characteristics associated with pre‐ and postcopulatory sexual selection. We identified simiiform primates as a viable taxonomic group. These primates have been extensively studied in terms of sexual dimorphism, testis size, and genomic sequencing. For sexually dimorphic traits, and therefore indicators of precopulatory sexual selection, we identified body mass dimorphism (Plavcan and van Schaik, <xref rid="evo14483-bib-0007" ref-type="bibr">1997</xref>, Mitani et al., <xref rid="evo14483-bib-0044" ref-type="bibr">1996</xref>) and canine height dimorphism (Thorén et al., <xref rid="evo14483-bib-0008" ref-type="bibr">2006</xref>, Plavcan and van Schaik, <xref rid="evo14483-bib-0045" ref-type="bibr">1992</xref>) as viable characteristics for analysis. In addition, we identified relative testis mass as an indicator of postcopulatory sexual selection (Anderson and Dixson, <xref rid="evo14483-bib-0009" ref-type="bibr">2002</xref>, Harcourt et al., <xref rid="evo14483-bib-0046" ref-type="bibr">1980</xref>, <xref rid="evo14483-bib-0047" ref-type="bibr">2010</xref>, Moller, <xref rid="evo14483-bib-0059" ref-type="bibr">1988</xref>). We also selected 18 variations of the ARE motif, including six androgen‐specific ARE motifs and 12 nonspecific ARE motifs. Of the 12 nonspecific motifs, we included the canonical ARE (<italic toggle="yes">cARE</italic>), as well as an alternate to the canonical ARE (<italic toggle="yes">aARE</italic>) that differs at the end base pairs only (Claessens et al., <xref rid="evo14483-bib-0048" ref-type="bibr">2017</xref>). We also considered two versions of the generic steroid response element: the canonical SRE (<italic toggle="yes">cSRE</italic>) and an alternate SRE (<italic toggle="yes">aSRE</italic>), which bind generally to multiple corticosteroids (Roche et al., <xref rid="evo14483-bib-0039" ref-type="bibr">1992</xref>). To investigate correlations between AREs and expression levels, we used sex‐biased (Guo et al., <xref rid="evo14483-bib-0049" ref-type="bibr">2018</xref>) and androgen responsive data from humans (Nelson et al., <xref rid="evo14483-bib-0050" ref-type="bibr">2002</xref>, Romanuik et al., <xref rid="evo14483-bib-0051" ref-type="bibr">2009</xref>) as well as expression data from five organs (Brawand et al., <xref rid="evo14483-bib-0052" ref-type="bibr">2011</xref>).</p><p>Here, we explore two dimensions of AREs and sex bias. In the initial line of questioning, we test whether gene proximity to AREs is greater in male‐biased and androgen responsive genes relative to all genes. In a small sample of hominid primates, we tested for correlations between changes in male expression levels and sex bias for select genes, and we examine the gain or loss of AREs proximal to those genes. In the second line of questioning, we tested multiple hypotheses regarding the relationship between the number of genome‐wide ARE motifs, the different motif sequences, and the three traits related to sexual selection in simiiform primates. First, we test for a significant correlation between genome‐wide counts of each ARE motif and each of the physical traits. Second, we employ multidimensional analysis to look for clusters of ARE motifs that group with respect to physical traits. After determining which, if any, ARE motifs show a positive relationship with physical traits, we then investigate possible patterns of sequence or androgen specificity among those motifs.</p><sec id="evo14483-sec-0020"><title>Methods</title><sec id="evo14483-sec-0030"><title>DATA COLLECTION</title><p>Thirty‐one species of simiiform primate had published genomes at the time of this study. To evaluate the completeness of genomic sequencing, we used BUSCO (Simão et al., <xref rid="evo14483-bib-0053" ref-type="bibr">2015</xref>) and selected primate genomes that contained more than 80% of the single‐copy orthologous gene set from the primate database as complete sequences. After this selection step, we were left with 26 primate species for our study. Using existing literature, we gathered data on body mass, canine height, and testis weight for these species (Thoren et al., <xref rid="evo14483-bib-0008" ref-type="bibr">2006</xref>, Harcourt et al., <xref rid="evo14483-bib-0046" ref-type="bibr">1980</xref>, <xref rid="evo14483-bib-0054" ref-type="bibr">2017</xref>, Plavcan and Ruff, <xref rid="evo14483-bib-0055" ref-type="bibr">2008</xref>) (Table <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S1</xref>). In some cases, data were available from a congener or were gathered prior to a taxonomic revision, splitting a formerly single species into multiple species. For <italic toggle="yes">Nomascus leucogenys</italic>, testis dimensions were taken (Hill and Kanagasuntheram, <xref rid="evo14483-bib-0056" ref-type="bibr">1959</xref>) and used to estimate testis mass (Dahl et al., <xref rid="evo14483-bib-0057" ref-type="bibr">1993</xref>). For three species (<italic toggle="yes">Rhinopithecus roxellana</italic>, <italic toggle="yes">Cercopithecus mona</italic>, and <italic toggle="yes">Piliocolobus tephrosceles</italic>), no comparable data were available for testis weight. Both body mass and canine height dimorphism were calculated using the residuals from a fitted log‐log model of male and female values for each species (Abouheif and Fairbairn, <xref rid="evo14483-bib-0058" ref-type="bibr">1997</xref>, Clutton‐Brock, <xref rid="evo14483-bib-0059" ref-type="bibr">1985</xref>, Rensch, <xref rid="evo14483-bib-0060" ref-type="bibr">1950</xref>) such that larger residuals represent greater male‐biased dimorphism. Similarly, relative testis mass was calculated using the residuals from a fitted log‐log model of body and testis mass for each species (Moller, <xref rid="evo14483-bib-0059" ref-type="bibr">1988</xref>) such that larger residuals represent greater relative testis mass.</p><p>To investigate genes and their association with AREs, sex bias, and androgen responsiveness, we used three datasets: one that reported a list of sex‐biased genes in humans (Guo et al., <xref rid="evo14483-bib-0049" ref-type="bibr">2018</xref>) (Table <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S2</xref>), and two that reported genes and expression‐level changes after exposure to androgen in human LNCaP cell lines (Nelson et al., <xref rid="evo14483-bib-0050" ref-type="bibr">2002</xref>, Romanuik et al., <xref rid="evo14483-bib-0051" ref-type="bibr">2009</xref>) (Tables <xref rid="evo14483-supitem-0003" ref-type="supplementary-material">S3 and S4</xref>). For expression data, we used data found in five species (<italic toggle="yes">Homo sapiens</italic>, <italic toggle="yes">Pan troglodytes</italic>, <italic toggle="yes">Pan paniscus</italic>, <italic toggle="yes">Gorilla gorilla</italic>, and <italic toggle="yes">Macaca mulatta</italic>) across five organs (brain, cerebellum, heart, kidney, and testis) and numerous genes (Brawand et al., <xref rid="evo14483-bib-0052" ref-type="bibr">2011</xref>). In many cases, the datasets contained just one replicate, but where multiple individuals were sampled within a species, we took the arithmetic mean of the RPKM (Reads per kilobase of transcript per million mapped reads). We used RPKM values of males as expression values and calculated sex bias by determining the log<sub>2</sub>‐fold difference between male and female values within a species. Given the small sample sizes (mostly <italic toggle="yes">n</italic> = 1), we did not calculate significance of sex bias.</p><p>We selected ARE motifs for analysis by searching the literature for research that established the role of the element in a transcriptional response to androgen for a given gene (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>). This could have been done by excision of the motif in question or transfection of the motif to generate a response to an androgen. We limited our dataset to 18 motifs for ease of multidimensional analysis. All motifs were described using either mouse or human cell lines making them appropriate for study in our primate group. For each species, we searched for each motif in the genome using the <italic toggle="yes">exactmatch</italic> feature in the R library Biostrings (Pagès et al., <xref rid="evo14483-bib-0061" ref-type="bibr">2019</xref>). This feature counts the number of times a set of nucleotides has the exact pattern of base pairs in the scanned sequence, in our case the genome, as the given motif. Because our chosen motifs often diverge by one to two base pairs, we did not allow any mismatches in the motif search. Scans were done only in one direction, which was sufficient to identify all sites for palindromic motifs. For nonpalindromic motifs, we ran a second scan with the reverse complement of the motif and summed the number of matches to represent total hits in the genome. We used the <italic toggle="yes">phytools</italic> (Revell, <xref rid="evo14483-bib-0062" ref-type="bibr">2012</xref>) heatmap function to calculate a standardized score (<italic toggle="yes">Z</italic>‐score) of both the genome‐wide count data for each motif and residual values for all three indicator traits (Fig. <xref rid="evo14483-fig-0001" ref-type="fig">1</xref>; raw data, Table <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S5</xref>). It is important to note that direct detection of a motif should not be equated with the identification of an active androgen receptor binding site (Wasserman and Sandelin, <xref rid="evo14483-bib-0063" ref-type="bibr">2004</xref>), as many factors contribute to androgen receptor binding. Rather, our goal was to enumerate the total number of motifs in the genome, and these sites should be interpreted as putative regions for androgen receptor binding. In cases where we needed to match ARE location with a gene of interest, we used the General Feature Format (GFF) files associated with the genomes for the five species described in the expression data section.</p><fig position="float" fig-type="Figure" id="evo14483-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Heat map of standardized values (<italic toggle="yes">Z</italic>‐scores) of genome‐wide counts of motifs, measures of sexual dimorphism in body mass and canine size, and measure of relative testis size by study species in the simiiform primates, with accompanying phylogeny. These values were calculated by using the heatmap function in phylools (which standardizes each set of values to a mean of 0 and a standard deviation of 1). Data are missing for testis size in <italic toggle="yes">R. roxellana</italic>, <italic toggle="yes">P. tephrosceles</italic>, and <italic toggle="yes">C. mona</italic>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EVO-76-1331-g002.jpg"/></fig></sec><sec id="evo14483-sec-0040"><title>ANALYSIS OF SEX BIAS, ANDROGEN RESPONSIVENESS, AND ARES IN HUMANS</title><p>We used a custom R script to extract gene coordinates from the human GFF file and then selected genes from this list that matched those that were male‐biased from the list of sex‐biased genes (<italic toggle="yes">n</italic> = 1043). We then ran the <italic toggle="yes">exactmatch</italic> feature to produce a list of coordinates from the investigated AREs. We used a previously published custom R script (Anderson et al., <xref rid="evo14483-bib-0021" ref-type="bibr">2020</xref>, Anderson and Jones, <xref rid="evo14483-bib-0034" ref-type="bibr">2019</xref>) that matches AREs to genes based on a predetermined distance from the transcription start and end sites. In this case, we search 25‐kb upstream of the transcription start site, 10‐kb downstream of the transcription end site, and the entirety of the gene (both introns and exons). We chose this distance because, although <italic toggle="yes">cis</italic>‐regulatory elements can be found far away from the transcription start site (Carroll et al., <xref rid="evo14483-bib-0064" ref-type="bibr">2005</xref>), the majority are within 25 kb and can also be found in intragenic regions (Zheng et al., <xref rid="evo14483-bib-0065" ref-type="bibr">2016</xref>, Welboren et al., <xref rid="evo14483-bib-0066" ref-type="bibr">2009</xref>). To see if the male‐biased gene set had more AREs than expected, we randomly sampled an equal number of genes (<italic toggle="yes">n</italic> = 1043) from all genes in the human genome 1000 times to generate two distributions. One distribution is the number of genes with at least one ARE within the predetermined distance (25 kb up, 10 kb down); the other distribution is the total number of proximal AREs in the entire set. We then determined where the male‐biased gene set falls on these distributions. We repeated this process for the androgen‐responsive gene list (<italic toggle="yes">n</italic> = 122). If AREs and genes with proximal AREs are overrepresented in the male‐biased and androgen‐responsive gene sets compared to the random distribution, then there is support for the importance of AREs in male‐biased expression and androgen responsiveness, respectively.</p></sec><sec id="evo14483-sec-0050"><title>CORRELATION OF PROXIMAL ARES AND GENE EXPRESSION</title><p>We identified 8250 orthologous genes with complete data across the five primates used for expression analysis. As with humans (described above), we generated a list of proximal AREs and their corresponding genes using the same distances for each species (Table <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S6</xref>). We then filtered genes to keep those with a proximal ARE present in at least one species (leaving 1312 genes). For each organ, we filtered genes so that we kept any gene with an RPKM value in males greater than 10 and an absolute male‐female log<sub>2</sub>‐fold difference greater than 2 in at least one of the five species. In testis, we only used the RPKM value cutoff as we did not have ovary data to compare. We chose these cutoffs a priori to investigate those genes with biological significance and to account for errors due to low sample size. To perform a correlation analysis, we removed any gene without any change in ARE count across species. We downloaded the ultrametric tree for our selected species from the 10k trees website (Arnold et al., <xref rid="evo14483-bib-0067" ref-type="bibr">2010</xref>) to use as our phylogeny. We created three models using generalized least squares (GLS) with the <italic toggle="yes">phytools</italic> package (Revell, <xref rid="evo14483-bib-0062" ref-type="bibr">2012</xref>) in R, where both RPKM value in males and sex bias were independently treated as a function of the number of proximal AREs for each gene. The models were (1) no phylogenetic effect on the model, (2) including a phylogenetic effect (<italic toggle="yes">corPagel</italic>) where the phylogenetic effect's value (lambda) was freely estimated in the model, and (3) using a predetermined value of lambda, estimated using the <italic toggle="yes">phylosig</italic> function. We compared the Akaike Information Criterion (AIC) (Akaike, <xref rid="evo14483-bib-0068" ref-type="bibr">1974</xref>) of the three models and chose the model with the lowest AIC value. The <italic toggle="yes">P</italic>‐values from the set of RPKM or sex‐bias analyses for each organ were adjusted for multiple tests using the False Discovery Rate (FDR). We further estimated the correlation values by estimating the covariance with lambda set to the value determined by the appropriate model (no phylogenetic effect means lambda = 0) and converted those covariances to correlations. We calculated <italic toggle="yes">R</italic>
+<sup>2</sup> from the chosen model.</p><p>To test for overrepresentation of any ARE motifs, we calculated a genome‐wide baseline for each motif by counting the number of hits in the genome in each species and taking the average of all five species to represent the genome‐wide group. For the proximal ARE group, we counted the number of each motif present in the set of 1312 genes. Because AREs were mostly conserved across species within genes, we only counted a motif once per gene. With a count table for genome‐wide and proximal AREs for each motif, we performed a chi‐square analysis to test for significantly different distributions. We then investigated the residuals for each motif to determine the percent contribution of each motif to the chi‐square statistic. If any motif had a large contribution to the differences between the two sets, we removed it and ran the chi‐square test again to confirm its effect.</p></sec><sec id="evo14483-sec-0060"><title>INDIVIDUAL CORRELATION ANALYSIS</title><p>We downloaded the ultrametric tree for all of our 26 selected species from the 10k trees website to use as our phylogeny. As before, we created the three models using generalized least squares where the genome‐wide count of an ARE motif was treated as a function of each indicator of sexual selection. Using the chosen model, we looked at the significance of the effect of indicator on motif number both with and without Bonferroni correction for multiple tests of each indicator. As in the previous analysis, we estimated the correlation values and calculated <italic toggle="yes">R</italic>
+<sup>2</sup> from the chosen model.</p></sec><sec id="evo14483-sec-0070"><title>MULTIDIMENSIONAL ANALYSIS</title><p>To assess larger patterns of trait correlations across all ARE motif counts, we used several statistical approaches. First, we investigated whether ARE motif counts were more likely to be positively correlated with indicators of sexual selection by using a binomial test for the number of positively correlated motif counts with a given indicator, where the expected number by chance was one half of the total number of motif counts (<italic toggle="yes">n</italic>
+<sub>Exp</sub> = 9). Second, we performed a principal components analysis and identified the principal component that had the largest number of loadings with the same directionality and explained a large amount of variance. We then took that principal component (<italic toggle="yes">PC ARE</italic>) and did the above‐described GLS modeling to determine its correlation with indicators of sexual selection. Using the 23 species with data available for all three indicator traits, we used canonical correlation analysis (CCorA) (Harold, <xref rid="evo14483-bib-0069" ref-type="bibr">1936</xref>) to maximize correlations between ARE motif counts and indicator traits. CCorA is symmetrical in that indicator traits and ARE motif count correlations are maximized in both directions. We were able to account for phylogeny in the CCorA using canonical correlation in the <italic toggle="yes">phytools</italic> package. We used both <italic toggle="yes">NbClust</italic> (Malika et al., <xref rid="evo14483-bib-0070" ref-type="bibr">2014</xref>) and <italic toggle="yes">mclust</italic> (Scrucca et al., <xref rid="evo14483-bib-0071" ref-type="bibr">2016</xref>) to determine optimal numbers of clusters. We then used kmeans clustering for the number of optimal clusters to determine groupings of ARE motifs in the CCorA.</p></sec><sec id="evo14483-sec-0080"><title>MOTIF SEQUENCE PATTERN</title><p>We further attempted to determine if there was some uniformity to ARE motif sequences that either significantly positively correlated with indicator traits in the GLS analysis or showed positive loadings in the multidimensional analyses. These ARE motif counts are putatively informative about the strength of sexual selection. We generated a haplotype network for the motifs using <italic toggle="yes">pegas</italic> (Paradis, <xref rid="evo14483-bib-0072" ref-type="bibr">2010</xref>) to visualize similarities and differences among motifs. We also compared the frequency of each base pair of the putatively informative motifs to those motifs that showed no correlations in our analyses described above. It has been suggested that the loss of thymine at position 3 in the motif confers higher specificity to the androgen receptor (Nelson et al., <xref rid="evo14483-bib-0041" ref-type="bibr">1999</xref>, Claessens et al., <xref rid="evo14483-bib-0048" ref-type="bibr">2017</xref>, Verrijdt et al., <xref rid="evo14483-bib-0073" ref-type="bibr">2003</xref>). Seventeen of the 18 motifs chosen have been tested for androgen specificity with competitive assays (Nelson et al., <xref rid="evo14483-bib-0041" ref-type="bibr">1999</xref>, Geserick et al., <xref rid="evo14483-bib-0042" ref-type="bibr">2003</xref>, Denayer et al., <xref rid="evo14483-bib-0074" ref-type="bibr">2010</xref>, Schauwaers et al., <xref rid="evo14483-bib-0075" ref-type="bibr">2007</xref>) except for <italic toggle="yes">ccnd1</italic>, which has an adenine at the third position. Six of these motifs are androgen specific and lack thymine at the third position. We further investigated whether these androgen‐specific motifs are more likely to correlate with indicator traits.</p></sec></sec><sec id="evo14483-sec-0090"><title>Results</title><sec id="evo14483-sec-0100"><title>EFFECT OF ARES ON SEX BIAS AND EXPRESSION</title><p>Of the 1043 genes with male sex bias in humans, 101 have at least one proximal ARE. In the entire gene set, 111 proximal AREs were detected. These values are in the 80.0 and 87.1 percentiles, respectively, of 1000 random draws of an equal number of genes across the human genome (Fig. <xref rid="evo14483-fig-0002" ref-type="fig">2a,b</xref>). These numbers suggest some possible influence of AREs on sex bias but not a significant one. For the 122 androgen‐responsive genes in human LNaCP cell lines, 18 have at least one proximal ARE, and in the entire gene set, a total of 25 proximal AREs are present. These values are in the 97.5 and 100.0 percentile, respectively, of 1000 random draws of an equal number of genes across the human genome (Fig. <xref rid="evo14483-fig-0002" ref-type="fig">2c,d</xref>). These numbers provide clear evidence that androgen‐responsive genes have an excess of AREs.</p><fig position="float" fig-type="Figure" id="evo14483-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Histograms using distributions from randomly drawn genes (a and b, <italic toggle="yes">n</italic> = 1043; c and d, <italic toggle="yes">n</italic> = 122) from the entire <italic toggle="yes">Homo sapiens</italic> genome taken 1000 times. For each random set of genes, the number of genes with at least one proximal ARE (a and c) and the number of total proximal AREs in the set were used to generate the distributions. The values for the set of male‐biased genes (a and b) and androgen‐responsive genes (c and d) are indicated with dark bars and arrows, demonstrating that this set is at the upper end of the distributions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EVO-76-1331-g001.jpg"/></fig><p>For the comparative analysis across the five primate species, of the 1312 genes have at least one ARE in at least one species, and 946 of these genes passed our organ‐based RPKM filter. Of these 946 genes, 431 show a significant correlation between the number of proximal AREs and male expression levels or degree of sex‐bias expression (or both) for at least one organ (Tables <xref rid="evo14483-tbl-0002" ref-type="table">2</xref> and <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S7</xref>). Most of the significant correlations occur in testis because there was one less level of filtering (no sex‐bias criterion); however, 41% of all genes tested in testis show a significant correlation between male expression values and the number of proximal AREs. The remaining organs tend to have more significant correlations with male expression values (23–33% of genes tested) than with sex bias (13–28%). Roughly 40% of genes with sex‐bias correlations to proximal ARE numbers also have male expression correlations to proximal ARE numbers. <italic toggle="yes">R</italic>
+<sup>2</sup> values are typically high (i.e., &gt;0.9) for significantly correlated genes, whereas correlation coefficients range from 0.1 to 0.99 (Table <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S7</xref>). These data support the supposition that altering the number of local AREs can affect male and sex‐biased expression for a gene.</p><table-wrap position="float" id="evo14483-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Genes with correlations between the number of proximal AREs and gene transcription measures for five primate species across five organs, as described in the text</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><tbody><tr><td align="left" rowspan="1" colspan="1"> <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="Image" xlink:href="EVO-76-1331-g004.jpg"/>
+</td></tr></tbody></table><table-wrap-foot><fn id="evo14483-tbl2-note-0001"><p>We filtered genes from the initial list of 8250 genes by the presence of a proximal ARE, a male RPKM value &gt;10, and a male to female log<sub>2</sub> foldchange &gt;2 (sex bias), for at least one species in each category. The number of genes passing filter is shown, along with the number of genes with significant correlations. Human gene symbols for significant genes are shown. Bold genes are significant in both male RPKM and sex bias for the same organ. Italicized genes are significant in two separate organs. The list of testis genes can be found in Table <xref rid="evo14483-supitem-0001" ref-type="supplementary-material">S7</xref>.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Tests for over‐ and underrepresentation of specific AREs reveal the motif <italic toggle="yes">mvdp</italic> is strongly underrepresented for both the gene set with at least one proximal ARE and the gene set that passed the filters. In both cases, the residuals of <italic toggle="yes">mvdp</italic> strongly influence the distribution (∼20%) and removal of <italic toggle="yes">mvdp</italic> from the lists results in a lack of significance in the chi‐square tests (with <italic toggle="yes">mvdp</italic>: <italic toggle="yes">P</italic> = 0.0046, without: <italic toggle="yes">P</italic> = 0.0607). For the gene set with significant correlations between male expression values or sex bias and the number of proximal AREs, the motif <italic toggle="yes">p21</italic> was strongly overrepresented, as the residuals greatly influence the distribution (47%) and removal of <italic toggle="yes">p21</italic> from the list results in a lack of significance in the chi‐square test (with <italic toggle="yes">p21</italic>: <italic toggle="yes">P</italic> = 0.0249, without: <italic toggle="yes">P</italic> = 0.5128). Interestingly, <italic toggle="yes">mvdp</italic> has the most genome‐wide hits of any tested motif (range: 988–1255) and <italic toggle="yes">p21</italic> has the fewest (range 47–66).</p></sec><sec id="evo14483-sec-0110"><title>EFFECT OF SEXUALLY SELECTED TRAITS ON ARE MOTIF NUMBERS</title><p>Of the 18 studied ARE motifs, four motifs have at least one significant positive correlation between their genome‐wide counts and an indicator trait (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>). For these significant positive correlations, canine size dimorphism correlates with three motif counts (<italic toggle="yes">hklk</italic>, <italic toggle="yes">ccnd1</italic>, <italic toggle="yes">hk2</italic>), relative testis mass correlates with two (<italic toggle="yes">hklk</italic>, <italic toggle="yes">psa3</italic>), and body mass dimorphisms correlates with just one (<italic toggle="yes">psa3</italic>). The <italic toggle="yes">hklk</italic> motif count has a good model fit and a high correlation with both testis mass and canine dimorphism, as do <italic toggle="yes">hk2</italic> and <italic toggle="yes">ccnd1</italic> motif counts with canine dimorphism. Looking at the correlations between the genome‐wide motif counts and canine size, many motif counts have large correlation values (e.g., <italic toggle="yes">cARE</italic>, <italic toggle="yes">sc12</italic>, <italic toggle="yes">pem2</italic>) but lack statistical significance. The genome‐wide count of <italic toggle="yes">psa3</italic> has a poor model fit and low correlation with body mass dimorphism and testis mass, whereas canine size has both high fit and correlation yet is not significant. Looking across indicator traits, motif counts with high correlational values in one trait tend to have high values in the other traits, even if these correlations are not significant in all or even one trait, especially when looking at canine size and testis mass. Two motif counts (<italic toggle="yes">cSRE</italic> and <italic toggle="yes">aARE</italic>) have a significant negative correlation with an indicator trait (canine dimorphism and body mass dimorphism, respectively), but both have poor model fit and correlation values close to zero. Three motif counts have negative correlations with all three indicator traits: <italic toggle="yes">cSRE</italic>, <italic toggle="yes">mvdp</italic>, and <italic toggle="yes">slp2</italic>. In general, for body mass dimorphism the models describe low correlation values and poor model fit with motif counts, whereas for testis mass and canine dimorphism the models tend to have higher correlation values and better model fit with motif counts.</p><p>Using the binomial test, where the null expectation of positively correlated motif counts is half the total sampled motifs (<italic toggle="yes">n</italic>
+<sub>Exp</sub> = 9), we find that more motif counts positively correlate with canine dimorphism (<italic toggle="yes">n</italic>
+<sub>Obs</sub> = 14, <italic toggle="yes">P</italic> = 0.030) and relative testis mass (<italic toggle="yes">n</italic>
+<sub>Obs</sub> = 15, <italic toggle="yes">P</italic> = 0.008) than expected by chance, but no excess of positive correlations exists for body mass (<italic toggle="yes">n</italic>
+<sub>Obs</sub> = 8, <italic toggle="yes">P</italic> = 0.815). Principle components analysis of the ARE motif counts finds the first principal component explains 52.7% of the variance and has all but three motif counts (<italic toggle="yes">cSRE</italic>, <italic toggle="yes">psa1</italic>, and <italic toggle="yes">slp2</italic>) with positive loadings; two of these three motif counts have negative correlations with all three traits. No other component has as many loadings with the same directionality. This component (<italic toggle="yes">PC ARE</italic>) positively correlates with both canine size dimorphism and relative testis mass with a good fit and high correlation but does not correlate with body size dimorphism (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>). Because the <italic toggle="yes">PC ARE</italic> represents a general increase in motif count (indicated by the large number of positive loadings), it supports the finding of more positive correlations across motif counts than expected by chance. The correlation value for <italic toggle="yes">PC ARE</italic> and canine dimorphism is higher than that for <italic toggle="yes">PC ARE</italic> and testis mass, an observation that agrees with the general trend of higher correlations across individual motif counts for canine dimorphism. These results support the hypothesis that as genome‐wide ARE counts increase generally across motifs, there is a corresponding increase in some indicators of sexual selection.</p></sec><sec id="evo14483-sec-0120"><title>MULTIVARIATE ANALYSIS</title><p>Phylogenic signal in the CCorA (Fig. <xref rid="evo14483-fig-0003" ref-type="fig">3</xref>) is estimated to be near zero (λ = 0.000066) and the first two canonical variates for each matrix (ARE count and indicator trait) have correlation values greater than 0.96. Pillai's trace <italic toggle="yes">F</italic>‐statistic indicates that dimensions one through three are significant (<italic toggle="yes">P</italic> = 0.0001), but dimensions two through three (<italic toggle="yes">P</italic> = 0.1097) and three by itself (<italic toggle="yes">P</italic> = 0.5930) are not. These results indicate a significant correlation between the indicator trait dataset and the genome‐wide ARE count dataset. Analyzing the CCorA without accounting for phylogeny finds no significant values despite lambda's small estimated value. All indicator traits are positive on the second component (Fig. <xref rid="evo14483-fig-0003" ref-type="fig">3a</xref>) with relative testis size and canine dimorphism having strong loadings, whereas the first component is largely influenced by body mass. Clustering analysis suggests four groups, with motif counts clustered by quadrant and with <italic toggle="yes">c3</italic> and <italic toggle="yes">p21</italic> clustering together. Five motif counts (<italic toggle="yes">psa3</italic>, <italic toggle="yes">hklk</italic>, <italic toggle="yes">hk2</italic>, <italic toggle="yes">cARE</italic>, and <italic toggle="yes">pem2</italic>), three of which significantly correlate with an indicator trait, have positive loadings on both axes (Fig. <xref rid="evo14483-fig-0003" ref-type="fig">3b</xref>). Four motif counts (<italic toggle="yes">mvdp</italic>, <italic toggle="yes">psa1</italic>, <italic toggle="yes">slp2</italic>, and <italic toggle="yes">cSRE</italic>) generally have negative loadings on both axes. Species are divided such that Cercopithicoidae is separated from the Hominoidea and Platyrrhini along the second axis. In general, the first axis separates species by the amount of polygyny or precopulatory sexual selection and the second axis separates species by the amount of polygynandry or postcopulatory selection. The results of the multidimensional analysis are in agreement with the previous analyses, making the CCorA (Fig. <xref rid="evo14483-fig-0003" ref-type="fig">3</xref>) plot a good visual representation of the data. Motif counts with negative loadings on both axes have negative correlations with all three indicator traits except for <italic toggle="yes">psa1</italic>, which has low correlation values and poor model fits. Three of these motif counts also have a negative loading on the <italic toggle="yes">PC ARE</italic>. Furthermore, motif count positively correlates with testis mass and canine dimorphism and in the CCorA most motif counts are positive on the second axis that is strongly influenced by both of those indicator traits. All five motif counts with positive loadings on both axes also positively correlate with all three indicator traits. Notably, counts of <italic toggle="yes">mvdp</italic> have repeated negative loading across analyses and are significantly underrepresented in the genes with proximal AREs from the prior analysis of the five species. Both <italic toggle="yes">p21</italic> and <italic toggle="yes">c3</italic> have the lowest ranges of any motif (i.e., max value &lt;70). Combined with the result of overrepresentation of <italic toggle="yes">p21</italic> as a proximal ARE in the expression dataset, our observations suggest that these motifs may have an effect but their low rate of occurrence makes these effects hard to detect when compared to other motifs (typical mean number of occurrences in the genome is ∼500).</p><fig position="float" fig-type="Figure" id="evo14483-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Canonical Correlation Analysis for genome‐wide ARE motif counts and indicators of sexual selection in primates. ARE motifs with a significant correlation with one trait in the GLS model are shown in blue and those with two traits are shown in red. Species are colored according to their taxonomic group: fuchsia (Platyrrhini), teal (Hominoidea), and goldenrod (Cercopithecoidea). Panels a and b show the first two canonical variates generated in the CCorA. Scores (correlation between data point and the canonical variate) for indicator traits (a) and ARE motifs (b) are indicated by position on the graph with loadings for species plotted on both panels. For both panels, larger absolute values indicate stronger correlations to the canonical variate axis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EVO-76-1331-g003.jpg"/></fig></sec><sec id="evo14483-sec-0130"><title>TRENDS IN MOTIF PATTERNS</title><p>Using a haplotype network to show similarities between motifs, we find that the <italic toggle="yes">cARE</italic> is at the center of the network from which the various motifs diverge (Fig. <xref rid="evo14483-fig-0004" ref-type="fig">4</xref>). The motifs with genome‐wide counts that significantly correlate with indicator traits are not directly adjacent to the <italic toggle="yes">cARE</italic> and are generally dispersed from each other in the network except for <italic toggle="yes">psa3</italic> and <italic toggle="yes">hk2</italic>. No single base‐pair position is conserved across the significant motifs (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>) except for base pairs that are conserved across nearly all motifs (positions –5, –4, –3, –2). Motifs that are more specific to the androgen receptor are generally closer together on the network and only one (<italic toggle="yes">ccnd1</italic>) of the six motifs is correlated with an indicator trait. Considering motifs that had positive (<italic toggle="yes">cARE</italic> and <italic toggle="yes">pem2</italic>) or negative (<italic toggle="yes">slp2</italic>, <italic toggle="yes">psa1</italic>, <italic toggle="yes">mvdp</italic>, <italic toggle="yes">cSRE</italic>) loadings on the multivariate analysis did not reveal any new noticeable pattern. All of these findings considered together suggest a lack of any consistent evolutionary pressure on specific motif patterns.</p><fig position="float" fig-type="Figure" id="evo14483-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Haplotype network of ARE motifs. Solid lines represent direct connections with line thickness and tick marks corresponding to number of substitutions (thickest = 1, thinnest = 4). Significant correlations with one indicator trait determined from the GLS models are shown in blue and two significant correlations are shown in red. Results from multidimensional analysis (Fig. <xref rid="evo14483-fig-0002" ref-type="fig">2</xref>) show additional positively loaded (teal) and negatively loaded (dark gray) motifs. Motifs with known to have high specificity for androgen‐receptor binding are in bold.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="EVO-76-1331-g006.jpg"/></fig></sec></sec><sec id="evo14483-sec-0140"><title>Discussion</title><p>Our results reveal two general trends in primates. First, AREs are implicated in male‐biased, androgen‐responsive genes and the gain or loss of proximal AREs over evolutionary time can affect expression values and sex bias of these genes. Second, increasing numbers of genome‐wide AREs, along with an increase in sexual dimorphism in trait values, are indicative of sexual selection. Both trends can point to particular motifs that may have a significant effect on expression patterns or have genome‐wide counts significantly increase along with indicator traits. No pattern of motif nucleotide sequence, including those with high androgen receptor specificity, predictably influences correlations between traits and genome‐wide counts. When considered as a whole, the majority of AREs and the linear combination of AREs do increase in number along with sexual selection and gene expression. We conclude that individual motif sequences may not be as important to sexual selection as the overall trend in the number of motifs, which could allow for stronger sex‐biased regulation.</p><p>We investigated whether genome‐wide ARE motif counts are reliable indicators of sexual selection by examining motif counts as a function of other indicators of sexual selection. The two traits we examined for precopulatory sexual selection are body mass dimorphism and canine height dimorphism, as both have been implicated in sexual selection in primates (Plavcan and van Schaik, <xref rid="evo14483-bib-0007" ref-type="bibr">1997</xref>, Mitani et al., <xref rid="evo14483-bib-0044" ref-type="bibr">1996</xref>, Plavcan and van Schaik, <xref rid="evo14483-bib-0045" ref-type="bibr">1992</xref>, Leutenegger and Kelly, <xref rid="evo14483-bib-0076" ref-type="bibr">1977</xref>). Body mass dimorphism and canine height dimorphism are strongly correlated (<italic toggle="yes">r</italic> = 0.641, <italic toggle="yes">P</italic> = 0.001, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.395, λ = 0.830), yet canine height has more significantly correlated motifs and more positively correlated motifs. Looking at the multidimensional analyses, body mass dimorphism has little influence on the distribution of ARE motif counts. Instead, canine height dimorphism has a large influence on the distribution of ARE motif counts. If both body size dimorphism and canine size dimorphism are indicators of sexual selection and are correlated, why does genome‐wide ARE motif count have a strong signal in one (canine) but no discernable signal in the other (body size)? It is important to note that these traits are approximations for sexual selection and carry assumptions that may not truly reflect the direct influence of the trait on reproductive success (Kappeler and Van Schaik, <xref rid="evo14483-bib-0077" ref-type="bibr">2004</xref>, Henshaw et al., <xref rid="evo14483-bib-0078" ref-type="bibr">2016</xref>, Jones, <xref rid="evo14483-bib-0079" ref-type="bibr">2009</xref>). Some evidence suggests that body size dimorphism might be more susceptible to factors beyond sexual selection and canine size is a better indicator of sexual selection (Thorén et al., <xref rid="evo14483-bib-0008" ref-type="bibr">2006</xref>, Leutenegger and Kelly, <xref rid="evo14483-bib-0076" ref-type="bibr">1977</xref>), although other results call this conclusion into question (Plavcan et al., <xref rid="evo14483-bib-0080" ref-type="bibr">1995</xref>, Matsuda et al., <xref rid="evo14483-bib-0081" ref-type="bibr">2020</xref>). Our results cannot settle which trait is a better indicator of sexual selection, but they do show a strong correlation with canine size dimorphism. If canine height is a better predictor of sexual selection than body mass, then the results found here support the hypothesis that greater precopulatory sexual selection will lead to an increase in genome‐wide AREs.</p><p>To test whether genome‐wide ARE motif count is a good indicator of postcopulatory sexual selection, we used relative testis size as our sexually selected trait. Testis size had fewer significant motifs than canine size dimorphism and a weaker effect in the multidimensional analyses but slightly more positive correlations with ARE motifs overall. In ours and other datasets, relative testis mass is not correlated with either body mass (<italic toggle="yes">P</italic> = 0.253) or canine height (<italic toggle="yes">P</italic> = 0.981) sexual dimorphism, suggesting independent effects of pre‐ and postcopulatory selection (Lupold et al., <xref rid="evo14483-bib-0052" ref-type="bibr">2019</xref>). Interestingly, the <italic toggle="yes">hklk</italic> and <italic toggle="yes">psa3</italic> motifs, which are affected by canine height and body mass, respectively, are also significantly affected by testis mass. Further, the multidimensional analysis suggests that the direction of testis effects tends to be the same for canine size dimorphism. These results suggest that testis mass does correlate with genome‐wide motif number and that precopulatory and postcopulatory sexual selections affect the genome similarly with respect to the evolution of AREs.</p><p>A lack of a clear pattern in nucleotide substitutions or androgen specificity in significantly correlated motifs suggests that the precise composition of individual motifs may not be as important as the number of motifs present. Nonetheless, the canonical ARE motif represents the baseline from which the significant motifs are derived and follows the general pattern of increasing in frequency with the evolution of sexually dimorphic traits (Table <xref rid="evo14483-tbl-0001" ref-type="table">1</xref>; Fig. <xref rid="evo14483-fig-0002" ref-type="fig">2</xref>). Selection and drift likely play roles in further departures from the canonical ARE motif, with selection acting to increase or decrease specificity when necessary and genetic drift primarily affecting neutral or weakly selected substitutions. The motifs that show significant patterns in primates may be a result of conserved genomic regions that are under stronger selection and have had duplications or transpositions in their evolutionary history, thus increasing the number of local motifs. It is likely that a similar study in another taxonomic group will not find the same motifs as significant but would find a similar pattern of an increasing number of motifs correlating with stronger sexual selection.</p><p>We suggest a vital role for <italic toggle="yes">cis</italic>‐regulatory elements, in particular AREs, in sexual selection as they can help resolve intralocus conflict by using sex‐biased signals to create sex‐biased gene expression that can lead to sexual dimorphism (Wittman et al., <xref rid="evo14483-bib-0022" ref-type="bibr">2021</xref>, Cox et al., <xref rid="evo14483-bib-0082" ref-type="bibr">2017</xref>). Importantly, there are multiple mechanisms for sex‐biased expression (Mank, <xref rid="evo14483-bib-0001" ref-type="bibr">2017</xref>, Ellegren and Parsch, <xref rid="evo14483-bib-0014" ref-type="bibr">2007</xref>, Wright et al., <xref rid="evo14483-bib-0083" ref-type="bibr">2018</xref>) and increasing genome‐wide counts alone cannot explain the entirety of a genomic response to sexual selection. When androgen regulation does occur, responsive genes can be both <italic toggle="yes">cis</italic>‐ and <italic toggle="yes">trans</italic>‐regulated. When considering the diverse mechanisms for sex bias and <italic toggle="yes">trans</italic>‐regulation of androgens, it is no surprise that male‐biased genes in humans did not have a significant overrepresentation of proximal AREs. Male‐biased genes did skew to the top of the distribution, indicating some effect of AREs. Given the widespread genomic differences in sex‐biased trait expression (van der Bijl and Mank, <xref rid="evo14483-bib-0023" ref-type="bibr">2021</xref>), it is reasonable to propose that some portion of these differences are controlled by AREs in vertebrate systems, as androgens are known to regulate sex‐biased phenotypes. Indeed, for genes with a known androgenic response, there is an incredibly apparent overrepresentation of proximal AREs. Not every gene has a proximal ARE, just 15% have one, which is expected given upstream <italic toggle="yes">trans</italic> effects, the possibility of long‐range regulation, and undetected AREs. More AREs were indeed present than observed throughout all of our analyses, but our choice to focus on exact matching and a subset of AREs prevents their detection. We expect that our choice represents a subset of AREs and the larger patterns will hold with more AREs, even though individual genes analyzed may change in proximal ARE count. Our results show that AREs do play some role in sex‐biased expression and when the genes in question are androgen regulated, they play an incredibly important role.</p><p>In our analysis of gain and loss of AREs on gene expression across species, we find a large share of genes that could have correlations with proximal AREs do indeed exhibit such correlations. By filtering genes by male expression levels and sex bias, we are focusing on genes that are likely targets of androgen regulation, which we further ensure by including only samples with at least one species with a proximal ARE. By comparing male RPKM values and sex bias, we can see that the presence of an ARE does not automatically guarantee a sex‐biased response. Although caution should be taken due to the small sampling of both species and expression levels, that about one in three genes chosen had a significant correlation between expression or sex bias with proximal AREs is a striking result.</p><p>The findings of overrepresentation of proximal AREs in androgen‐responsive genes and the effects of gain or loss of proximal AREs on gene expression and sex bias demonstrate the influential roles AREs have in sex‐biased traits. When considering genome‐wide counts, we view an increase in AREs as both creating new locations for <italic toggle="yes">cis</italic>‐regulation and enhancing responses in already existing androgen‐responsive regions. Not every discovered ARE is necessarily active; nucleotides flanking the half‐sites and inside the spacer may influence binding (Nelson et al., <xref rid="evo14483-bib-0041" ref-type="bibr">1999</xref>), and the presence of the FOXA1 promoter may influence the expression of androgen‐induced genes (Jin et al., <xref rid="evo14483-bib-0084" ref-type="bibr">2014</xref>, Kregel et al., <xref rid="evo14483-bib-0085" ref-type="bibr">2020</xref>, Sahu et al., <xref rid="evo14483-bib-0086" ref-type="bibr">2011</xref>). Further, a gene with androgen regulation may not necessarily be sex biased or under sexual selection. Although these factors individually may affect androgen binding, the goal of our study was to investigate global patterns of the ARE motif in response to sexual selection. A pattern is apparent based on these traits and expression changes, particularly relative testis size and canine sexual dimorphism, which are indicators of strong sexual selection.</p><p>ARE plays a crucial role in the development of male‐biased traits when sexual selection acts strongly on males. Our results show that there is a corresponding increase in genome‐wide AREs with increasing sexual selection in primates. As more fully sequenced genomes become available, the robustness of these findings can be further explored in primates and across multiple vertebrate systems. Although some motifs show multiple significant patterns, there is no indication that androgen receptor specificity or nucleotide sequence (as opposed to the number of AREs) is the main target of selection, suggesting that different clades might favor alternate motifs depending on their evolutionary histories. Ultimately, an analysis of additional genomes across a wider array of organisms will better elucidate the evolutionary response of genome‐wide ARE motif number to an increase in sexual selection intensity. Given these findings, there is a clear need to further investigate the role that AREs and other noncoding DNA elements play in evolutionary responses to natural and sexual selection.</p></sec><sec id="evo14483-sec-0160"><title>AUTHOR CONTRIBUTIONS</title><p>APA conceived the project, collected the data, performed the analysis, designed the figures, and wrote the manuscript. AGJ conceived the project and wrote the manuscript.</p></sec><sec sec-type="COI-statement" id="evo14483-sec-0170"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="data-availability" id="evo14483-sec-0180"><title>DATA ARCHIVING</title><p>All relevant R code and data tables can be accessed in the Supporting Information and at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/AndersonDrew/Primate_ARE" ext-link-type="uri">https://github.com/AndersonDrew/Primate_ARE</ext-link>.</p></sec><sec id="evo14483-sec-0190"><p>Associate Editor: T. Connallon</p><p>Handling Editor: A. G. McAdam</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="evo14483-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s008.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s003.csv" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s006.csv" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s001.csv" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s005.csv" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0006" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s002.csv" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0007" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s007.csv" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="evo14483-supitem-0008" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVO-76-1331-s004.dtd" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="evo14483-sec-0150"><title>ACKNOWLEDGMENTS</title><p>We would like to thank H. Blackmon for his support on this project. We also thank the reviewers for their insightful feedback.</p></ack><ref-list id="evo14483-bibl-0001"><title>REFERENCES</title><ref id="evo14483-bib-0001"><mixed-citation publication-type="journal" id="evo14483-cit-0001">
+<string-name name-style="western">
+<surname>Abouheif</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fairbairn</surname>, <given-names>D.J.</given-names>
+</string-name> (<year>1997</year>) <article-title>A comparative analysis of allometry for sexual size dimorphism: assessing Rensch's rule</article-title>. <source>The American Naturalist</source>, Mar 1;<volume>149</volume>(<issue>3</issue>), <fpage>540</fpage>–<lpage>62</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0002"><mixed-citation publication-type="journal" id="evo14483-cit-0002">
+<string-name name-style="western">
+<surname>Adler</surname>, <given-names>A.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Robins</surname>, <given-names>D.M.</given-names>
+</string-name> (<year>1992</year>) <article-title>Androgen‐specific gene activation via a consensus glucocorticoid response element is determined by interaction with nonreceptor factors</article-title>. <source>Proc. Natl Acad. Sci. USA</source>, <volume>89</volume>(<issue>24</issue>), <fpage>11660</fpage>–<lpage>3</lpage>.<pub-id pub-id-type="pmid">1465381</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.89.24.11660</pub-id><pub-id pub-id-type="pmcid">PMC50615</pub-id></mixed-citation></ref><ref id="evo14483-bib-0003"><mixed-citation publication-type="journal" id="evo14483-cit-0003">
+<string-name name-style="western">
+<surname>Akaike</surname>, <given-names>H.</given-names>
+</string-name> (<year>1974</year>) <article-title>A new look at the statistical model identification</article-title>. <source>IEEE Trans. Autom. Control</source>,. <volume>19</volume>(<issue>6</issue>), <fpage>716</fpage>–<lpage>23</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0004"><mixed-citation publication-type="journal" id="evo14483-cit-0004">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>A.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Flanagan</surname>, <given-names>S.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rose</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jones</surname>, <given-names>A.G.</given-names>
+</string-name> (<year>2020</year>) <article-title>The estrogen‐responsive transcriptome of female secondary sexual traits in the Gulf pipefish</article-title>. <source>J. Hered.</source>, <volume>111</volume>(<issue>3</issue>), <fpage>294</fpage>‐<lpage>306</lpage>.<pub-id pub-id-type="pmid">32124926</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jhered/esaa008</pub-id></mixed-citation></ref><ref id="evo14483-bib-0005"><mixed-citation publication-type="journal" id="evo14483-cit-0005">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>A.P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jones</surname>, <given-names>A.G.</given-names>
+</string-name> (<year>2019</year>) <article-title>erefinder: genome‐wide detection of oestrogen response elements</article-title>. <source>Mol. Ecol. Resour.</source>, <volume>19</volume>(<issue>5</issue>), <fpage>1366</fpage>–<lpage>73</lpage>.<pub-id pub-id-type="pmid">31177626</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1755-0998.13046</pub-id></mixed-citation></ref><ref id="evo14483-bib-0006"><mixed-citation publication-type="journal" id="evo14483-cit-0006">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>M.J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dixson</surname>, <given-names>A.F.</given-names>
+</string-name> (<year>2002</year>) <article-title>Motility and the midpiece in primates</article-title>. <source>Nature</source>,. Apr 1;<volume>416</volume>(<issue>6880</issue>), <fpage>496</fpage>–<lpage>496</lpage>.<pub-id pub-id-type="pmid">11932733</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/416496a</pub-id></mixed-citation></ref><ref id="evo14483-bib-0007"><mixed-citation publication-type="journal" id="evo14483-cit-0007">
+<string-name name-style="western">
+<surname>Arnold</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matthews</surname>, <given-names>L.J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nunn</surname>, <given-names>C.L.</given-names>
+</string-name> (<year>2010</year>) <article-title>The 10kTrees website: a new online resource for primate phylogeny</article-title>. <source>Evol Anthropol Issues News Rev</source>,. <volume>19</volume>(<issue>3</issue>), <fpage>114</fpage>–<lpage>8</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0008"><mixed-citation publication-type="journal" id="evo14483-cit-0008">
+<string-name name-style="western">
+<surname>Barbulescu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Geserick</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schüttke</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schleuning</surname>, <given-names>W.‐.D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Haendler</surname>, <given-names>B.</given-names>
+</string-name> (<year>2001</year>) <article-title>New androgen response elements in the murine pem promoter mediate selective transactivation</article-title>. <source>Mol. Endocrinol.</source>, <volume>15</volume>(<issue>10</issue>), <fpage>1803</fpage>–<lpage>16</lpage>.<pub-id pub-id-type="pmid">11579212</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend.15.10.0708</pub-id></mixed-citation></ref><ref id="evo14483-bib-0009"><mixed-citation publication-type="journal" id="evo14483-cit-0009">
+<string-name name-style="western">
+<surname>Bartos</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bubenik</surname>, <given-names>G.A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kuzmova</surname>, <given-names>E.</given-names>
+</string-name> (<year>2012</year>) <article-title>Endocrine relationships between rank‐related behavior and antler growth in deer</article-title>. <source>Front. Biosci.</source>, <volume>4</volume>, <fpage>1111</fpage>–<lpage>26</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.2741/445</pub-id><pub-id pub-id-type="pmid">22201940</pub-id></mixed-citation></ref><ref id="evo14483-bib-0010"><mixed-citation publication-type="journal" id="evo14483-cit-0010">
+<string-name name-style="western">
+<surname>Bhattacharya</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Basu</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pradhan</surname>, <given-names>B.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sarkar</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagarajan</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Majumdar</surname>, <given-names>S.S.</given-names>
+</string-name> (<year>2019</year>) <article-title>Testosterone augments FSH signaling by upregulating the expression and activity of FSH‐Receptor in Pubertal Primate Sertoli cells</article-title>. <source>Mol. Cell. Endocrinol.</source>, Feb 15;<volume>482</volume>, <fpage>70</fpage>–<lpage>80</lpage>.<pub-id pub-id-type="pmid">30579957</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mce.2018.12.012</pub-id></mixed-citation></ref><ref id="evo14483-bib-0011"><mixed-citation publication-type="journal" id="evo14483-cit-0011">
+<string-name name-style="western">
+<surname>Bonduriansky</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Chenoweth</surname>, <given-names>S.F.</given-names>
+</string-name> (<year>2009</year>) <article-title>Intralocus sexual conflict</article-title>. <source>Trends Ecol. Evol.</source>, May 1;<volume>24</volume>(<issue>5</issue>), <fpage>280</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">19307043</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tree.2008.12.005</pub-id></mixed-citation></ref><ref id="evo14483-bib-0012"><mixed-citation publication-type="journal" id="evo14483-cit-0012">
+<string-name name-style="western">
+<surname>Brawand</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Soumillon</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Necsulea</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Julien</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Csárdi</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harrigan</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weier</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liechti</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aximu‐Petri</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kircher</surname>, <given-names>M.</given-names>
+</string-name>, et al (<year>2011</year>) <article-title>The evolution of gene expression levels in mammalian organs</article-title>. <source>Nature</source>,. Oct 1;<volume>478</volume>(<issue>7369</issue>), <fpage>343</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">22012392</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10532</pub-id></mixed-citation></ref><ref id="evo14483-bib-0013"><mixed-citation publication-type="journal" id="evo14483-cit-0013">
+<string-name name-style="western">
+<surname>Carroll</surname>, <given-names>J.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brodsky</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meyer</surname>, <given-names>C.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Szary</surname>, <given-names>A.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eeckhoute</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hestermann</surname>, <given-names>E.V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Geistlinger</surname>, <given-names>T.R.</given-names>
+</string-name>, et al (<year>2005</year>) <article-title>Chromosome‐wide mapping of estrogen receptor binding reveals long‐range regulation requiring the forkhead protein FoxA1</article-title>. <source>Cell</source>,. Jul 15;<volume>122</volume>(<issue>1</issue>), <fpage>33</fpage>–<lpage>43</lpage>.<pub-id pub-id-type="pmid">16009131</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2005.05.008</pub-id></mixed-citation></ref><ref id="evo14483-bib-0014"><mixed-citation publication-type="journal" id="evo14483-cit-0014">
+<string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alen</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Devos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peeters</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verhoeven</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rombauts</surname>, <given-names>W.</given-names>
+</string-name> (<year>1996</year>) <article-title>The androgen‐specific probasin response element 2 interacts differentially with androgen and glucocorticoid receptors</article-title>. <source>J. Biol. Chem.</source>, <volume>271</volume>(<issue>32</issue>), <fpage>19013</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">8702568</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.271.32.19013</pub-id></mixed-citation></ref><ref id="evo14483-bib-0015"><mixed-citation publication-type="journal" id="evo14483-cit-0015">
+<string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Celis</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peeters</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heyns</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verhoeven</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rombauts</surname>, <given-names>W.</given-names>
+</string-name> (<year>1989</year>) <article-title>Functional characterization of an androgen response element in the first intron of the C3 (1) gene of prostatic binding protein</article-title>. <source>Biochem. Biophys. Res. Commun.</source>, <volume>164</volume>(<issue>2</issue>), <fpage>833</fpage>–<lpage>40</lpage>.<pub-id pub-id-type="pmid">2818590</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0006-291x(89)91534-9</pub-id></mixed-citation></ref><ref id="evo14483-bib-0016"><mixed-citation publication-type="journal" id="evo14483-cit-0016">
+<string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joniau</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Helsen</surname>, <given-names>C.</given-names>
+</string-name> (<year>2017</year>) <article-title>Comparing the rules of engagement of androgen and glucocorticoid receptors</article-title>. <source>Cell. Mol. Life Sci.</source>, <volume>74</volume>(<issue>12</issue>), <fpage>2217</fpage>–<lpage>28</lpage>.<pub-id pub-id-type="pmid">28168446</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00018-017-2467-3</pub-id><pub-id pub-id-type="pmcid">PMC5425506</pub-id></mixed-citation></ref><ref id="evo14483-bib-0017"><mixed-citation publication-type="journal" id="evo14483-cit-0017">
+<string-name name-style="western">
+<surname>Cleutjens</surname>, <given-names>K.B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Eekelen</surname>, <given-names>C.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Korput</surname>, <given-names>H.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brinkmann</surname>, <given-names>A.O.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Trapman</surname>, <given-names>J.</given-names>
+</string-name> (<year>1996</year>) <article-title>Two androgen response regions cooperate in steroid hormone regulated activity of the prostate‐specific antigen promoter</article-title>. <source>J. Biol. Chem.</source>, <volume>271</volume>(<issue>11</issue>), <fpage>6379</fpage>–<lpage>88</lpage>.<pub-id pub-id-type="pmid">8626436</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.271.11.6379</pub-id></mixed-citation></ref><ref id="evo14483-bib-0018"><mixed-citation publication-type="journal" id="evo14483-cit-0018">
+<string-name name-style="western">
+<surname>Cleutjens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Korput</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Eekelen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Rooij</surname>, <given-names>H.C.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Faber</surname>, <given-names>P.W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Trapman</surname>, <given-names>J.</given-names>
+</string-name> (<year>1997</year>) <article-title>An androgen response element in a far upstream enhancer region is essential for high, androgen‐regulated activity of the prostate‐specific antigen promoter</article-title>. <source>Mol. Endocrinol.</source>, Feb 1;<volume>11</volume>(<issue>2</issue>), <fpage>148</fpage>–<lpage>61</lpage>.<pub-id pub-id-type="pmid">9013762</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend.11.2.9883</pub-id></mixed-citation></ref><ref id="evo14483-bib-0019"><mixed-citation publication-type="book" id="evo14483-cit-0019">
+<string-name name-style="western">
+<surname>Clutton‐Brock</surname>, <given-names>T.H.</given-names>
+</string-name> (<year>1985</year>) <part-title>Size, sexual dimorphism, and polygyny in primates</part-title>. Pp. <fpage>51</fpage>–<lpage>60</lpage>
+<italic toggle="yes">in</italic>
+<person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>W. L.</given-names>
+<surname>Jungers</surname>
+</string-name>
+</person-group>, ed. <source>Size and scaling in primate biology</source>. <publisher-name>Springer</publisher-name>, <publisher-loc>Berlin</publisher-loc>.</mixed-citation></ref><ref id="evo14483-bib-0020"><mixed-citation publication-type="journal" id="evo14483-cit-0020">
+<string-name name-style="western">
+<surname>Connallon</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Clark</surname>, <given-names>A.G.</given-names>
+</string-name> (<year>2014</year>) <article-title>Evolutionary inevitability of sexual antagonism</article-title>. <source>Proc R Soc B Biol Sci</source>,. Feb 7;<volume>281</volume>(<issue>1776</issue>), <elocation-id>20132123</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2013.2123</pub-id><pub-id pub-id-type="pmcid">PMC3871308</pub-id><pub-id pub-id-type="pmid">24335980</pub-id></mixed-citation></ref><ref id="evo14483-bib-0021"><mixed-citation publication-type="journal" id="evo14483-cit-0021">
+<string-name name-style="western">
+<surname>Cox</surname>, <given-names>R.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cox</surname>, <given-names>C.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGlothlin</surname>, <given-names>J.W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Card</surname>, <given-names>D.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andrew</surname>, <given-names>A.L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Castoe</surname>, <given-names>T.A.</given-names>
+</string-name> (<year>2017</year>) <article-title>Hormonally mediated increases in sex‐biased gene expression accompany the breakdown of between‐sex genetic correlations in a sexually dimorphic lizard</article-title>. <source>Am. Nat.</source>, Mar 1;<volume>189</volume>(<issue>3</issue>), <fpage>315</fpage>–<lpage>32</lpage>.<pub-id pub-id-type="pmid">28221827</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1086/690105</pub-id></mixed-citation></ref><ref id="evo14483-bib-0022"><mixed-citation publication-type="journal" id="evo14483-cit-0022">
+<string-name name-style="western">
+<surname>Dahl</surname>, <given-names>J.F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gould</surname>, <given-names>K.G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nadler</surname>, <given-names>R.D.</given-names>
+</string-name> (<year>1993</year>) <article-title>Testicle size of orang‐utans in relation to body size</article-title>. <source>Am. J. Phys. Anthropol.</source>, <volume>90</volume>(<issue>2</issue>), <fpage>229</fpage>–<lpage>36</lpage>.<pub-id pub-id-type="pmid">8430755</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajpa.1330900209</pub-id></mixed-citation></ref><ref id="evo14483-bib-0023"><mixed-citation publication-type="journal" id="evo14483-cit-0023">
+<string-name name-style="western">
+<surname>Denayer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Helsen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thorrez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haelens</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name> (<year>2010</year>) <article-title>The rules of DNA recognition by the androgen receptor</article-title>. <source>Mol. Endocrinol.</source>, May 1;<volume>24</volume>(<issue>5</issue>), <fpage>898</fpage>–<lpage>913</lpage>.<pub-id pub-id-type="pmid">20304998</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/me.2009-0310</pub-id><pub-id pub-id-type="pmcid">PMC5417492</pub-id></mixed-citation></ref><ref id="evo14483-bib-0024"><mixed-citation publication-type="journal" id="evo14483-cit-0024">
+<string-name name-style="western">
+<surname>Dines</surname>, <given-names>J.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Otárola‐Castillo</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ralph</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daley</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>A.D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dean</surname>, <given-names>M.D.</given-names>
+</string-name> (<year>2014</year>) <article-title>Sexual selection targets cetacean pelvic bones</article-title>. <source>Evolution</source>, <volume>68</volume>, <fpage>3296</fpage>–<lpage>3306</lpage>.<pub-id pub-id-type="pmid">25186496</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/evo.12516</pub-id><pub-id pub-id-type="pmcid">PMC4213350</pub-id></mixed-citation></ref><ref id="evo14483-bib-0025"><mixed-citation publication-type="journal" id="evo14483-cit-0025">
+<string-name name-style="western">
+<surname>Ellegren</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Parsch</surname>, <given-names>J.</given-names>
+</string-name> (<year>2007</year>) <article-title>The evolution of sex‐biased genes and sex‐biased gene expression</article-title>. <source>Nat. Rev. Genet.</source>, Sep 1;<volume>8</volume>(<issue>9</issue>), <fpage>689</fpage>–<lpage>98</lpage>.<pub-id pub-id-type="pmid">17680007</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg2167</pub-id></mixed-citation></ref><ref id="evo14483-bib-0026"><mixed-citation publication-type="journal" id="evo14483-cit-0026">
+<string-name name-style="western">
+<surname>Fabre</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pailhoux</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veyssière</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jean</surname>, <given-names>C.</given-names>
+</string-name> (<year>1994</year>) <article-title>Identification of a functional androgen response element in the promoter of the gene for the androgen‐regulated aldose reductase‐like protein specific to the mouse vas deferens</article-title>. <source>J. Biol. Chem.</source>, <volume>269</volume>(<issue>8</issue>), <fpage>5857</fpage>–<lpage>64</lpage>.<pub-id pub-id-type="pmid">8119928</pub-id></mixed-citation></ref><ref id="evo14483-bib-0027"><mixed-citation publication-type="journal" id="evo14483-cit-0027">
+<string-name name-style="western">
+<surname>Fitzpatrick</surname>, <given-names>J.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Almbro</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonzalez‐Voyer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamada</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pennington</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scanlan</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kolm</surname>, <given-names>N.</given-names>
+</string-name> (<year>2012</year>) <article-title>Sexual selection uncouples the evolution of brain and body size in pinnipeds</article-title>. <source>J. Evol. Biol.</source>, <volume>25</volume>, <fpage>1321</fpage>–<lpage>1330</lpage>.<pub-id pub-id-type="pmid">22530668</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1420-9101.2012.02520.x</pub-id></mixed-citation></ref><ref id="evo14483-bib-0028"><mixed-citation publication-type="journal" id="evo14483-cit-0028">
+<string-name name-style="western">
+<surname>Fitzpatrick</surname>, <given-names>J.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Almbro</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonzalez‐Voyer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kolm</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Simmons</surname>, <given-names>L.W.</given-names>
+</string-name> (<year>2012</year>) <article-title>Male contest competition and the coevolution of weaponry and testes in pinnipeds</article-title>. <source>Evolution.</source>, Nov 1;<volume>66</volume>(<issue>11</issue>), <fpage>3595</fpage>–<lpage>604</lpage>.<pub-id pub-id-type="pmid">23106721</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1558-5646.2012.01713.x</pub-id></mixed-citation></ref><ref id="evo14483-bib-0029"><mixed-citation publication-type="journal" id="evo14483-cit-0029">
+<string-name name-style="western">
+<surname>Geserick</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meyer</surname>, <given-names>H.‐.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barbulescu</surname>, <given-names>K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Haendler</surname>, <given-names>B.</given-names>
+</string-name> (<year>2003</year>) <article-title>Differential modulation of androgen receptor action by deoxyribonucleic acid response elements</article-title>. <source>Mol. Endocrinol.</source>, Sep 1;<volume>17</volume>(<issue>9</issue>), <fpage>1738</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">12791770</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/me.2002-0379</pub-id></mixed-citation></ref><ref id="evo14483-bib-0030"><mixed-citation publication-type="journal" id="evo14483-cit-0030">
+<string-name name-style="western">
+<surname>Geserick</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meyer</surname>, <given-names>H.‐.A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Haendler</surname>, <given-names>B.</given-names>
+</string-name> (<year>2005</year>) <article-title>The role of DNA response elements as allosteric modulators of steroid receptor function</article-title>. <source>Mol. Cell. Endocrinol.</source>, May 31;<volume>236</volume>(<issue>1</issue>), <fpage>1</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="pmid">15876478</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mce.2005.03.007</pub-id></mixed-citation></ref><ref id="evo14483-bib-0031"><mixed-citation publication-type="journal" id="evo14483-cit-0031">
+<string-name name-style="western">
+<surname>Ghosal</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sorensen</surname>, <given-names>P.W.</given-names>
+</string-name> (<year>2016</year>) <article-title>Male‐typical courtship, spawning behavior, and olfactory sensitivity are induced to different extents by androgens in the goldfish suggesting they are controlled by different neuroendocrine mechanisms</article-title>. <source>Gen. Comp. Endocrinol.</source>, Jun 1;<volume>232</volume>, <fpage>160</fpage>–<lpage>73</lpage>.<pub-id pub-id-type="pmid">27131392</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygcen.2016.04.028</pub-id></mixed-citation></ref><ref id="evo14483-bib-0032"><mixed-citation publication-type="journal" id="evo14483-cit-0032">
+<string-name name-style="western">
+<surname>Guo</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zeng</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cui</surname>, <given-names>Q.</given-names>
+</string-name> (<year>2018</year>) <article-title>Identification and analysis of the human sex‐biased genes</article-title>. <source>Brief Bioinform</source>,. Mar 1;<volume>19</volume>(<issue>2</issue>), <fpage>188</fpage>–<lpage>98</lpage>.<pub-id pub-id-type="pmid">28028006</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bib/bbw125</pub-id></mixed-citation></ref><ref id="evo14483-bib-0033"><mixed-citation publication-type="journal" id="evo14483-cit-0033">
+<string-name name-style="western">
+<surname>Hahn</surname>, <given-names>M.W.</given-names>
+</string-name> (<year>2007</year>) <article-title>Detecting natural selection on cis‐regulatory DNA</article-title>. <source>Genetica</source>,. <volume>129</volume>(<issue>1</issue>), <fpage>7</fpage>–<lpage>18</lpage>.<pub-id pub-id-type="pmid">16955334</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10709-006-0029-y</pub-id></mixed-citation></ref><ref id="evo14483-bib-0034"><mixed-citation publication-type="journal" id="evo14483-cit-0034">
+<string-name name-style="western">
+<surname>Harcourt</surname>, <given-names>A.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Purvis</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Liles</surname>, <given-names>L.</given-names>
+</string-name> (<year>1995</year>) <article-title>Sperm competition: mating system, not breeding season, affects testes size of primates</article-title>. <source>Funct Ecol</source>,. <volume>9</volume>(<issue>3</issue>), <fpage>468</fpage>–<lpage>76</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0035"><mixed-citation publication-type="journal" id="evo14483-cit-0035">
+<string-name name-style="western">
+<surname>Harold</surname>, <given-names>H.</given-names>
+</string-name> (<year>1936</year>) <article-title>Relations between two sets of variates</article-title>. <source>Biometrika</source>,. <volume>28</volume>(<issue>3/4</issue>), <fpage>321</fpage>–<lpage>77</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0036"><mixed-citation publication-type="journal" id="evo14483-cit-0036">
+<string-name name-style="western">
+<surname>Harrison</surname>, <given-names>P.W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wright</surname>, <given-names>A.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimmer</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dean</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montgomery</surname>, <given-names>S.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pointer</surname>, <given-names>M.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mank</surname>, <given-names>J.E.</given-names>
+</string-name> (<year>2015</year>) <article-title>Sexual selection drives evolution and rapid turnover of male gene expression</article-title>. <source>Proc. Natl Acad. Sci.</source>, Apr 7;<volume>112</volume>(<issue>14</issue>), <fpage>4393</fpage>.<pub-id pub-id-type="pmid">25831521</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1501339112</pub-id><pub-id pub-id-type="pmcid">PMC4394296</pub-id></mixed-citation></ref><ref id="evo14483-bib-0037"><mixed-citation publication-type="journal" id="evo14483-cit-0037">
+<string-name name-style="western">
+<surname>Henshaw</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kahn</surname>, <given-names>A.T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fritzsche</surname>, <given-names>K.</given-names>
+</string-name> (<year>2016</year>) <article-title>A rigorous comparison of sexual selection indexes via simulations of diverse mating systems</article-title>. <source>Proc. Natl Acad. Sci. USA</source>, Jan 19;<volume>113</volume>(<issue>3</issue>), <fpage>E300</fpage>–<lpage>E308</lpage>.<pub-id pub-id-type="pmid">26739567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1518067113</pub-id><pub-id pub-id-type="pmcid">PMC4725529</pub-id></mixed-citation></ref><ref id="evo14483-bib-0038"><mixed-citation publication-type="journal" id="evo14483-cit-0038">
+<string-name name-style="western">
+<surname>Hill</surname>, <given-names>W.O.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kanagasuntheram</surname>, <given-names>R.</given-names>
+</string-name> (<year>1959</year>) <article-title>The male reproductive organs in certain gibbons (Hylobatidae)</article-title>. <source>Am. J. Phys. Anthropol.</source>, <volume>17</volume>(<issue>3</issue>), <fpage>227</fpage>–<lpage>41</lpage>.<pub-id pub-id-type="pmid">13848427</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajpa.1330170308</pub-id></mixed-citation></ref><ref id="evo14483-bib-0039"><mixed-citation publication-type="journal" id="evo14483-cit-0039">
+<string-name name-style="western">
+<surname>Jiménez‐Delgado</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pascual‐Anaya</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Garcia‐Fernàndez</surname>, <given-names>J.</given-names>
+</string-name> (<year>2009</year>) <article-title>Implications of duplicated cis‐regulatory elements in the evolution of metazoans: the DDI model or how simplicity begets novelty</article-title>. <source>Brief Funct Genomics</source>,. Jul 1;<volume>8</volume>(<issue>4</issue>), <fpage>266</fpage>–<lpage>75</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bfgp/elp029</pub-id><pub-id pub-id-type="pmid">19651705</pub-id></mixed-citation></ref><ref id="evo14483-bib-0040"><mixed-citation publication-type="journal" id="evo14483-cit-0040">
+<string-name name-style="western">
+<surname>Jin</surname>, <given-names>H.‐.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>J.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Yu</surname>, <given-names>J.</given-names>
+</string-name> (<year>2014</year>) <article-title>Cooperativity and equilibrium with FOXA1 define the androgen receptor transcriptional program</article-title>. <source>Nat. Commun.</source>, May 30;<volume>5</volume>(<issue>1</issue>), <fpage>3972</fpage>.<pub-id pub-id-type="pmid">24875621</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms4972</pub-id><pub-id pub-id-type="pmcid">PMC4088269</pub-id></mixed-citation></ref><ref id="evo14483-bib-0041"><mixed-citation publication-type="journal" id="evo14483-cit-0041">
+<string-name name-style="western">
+<surname>Jones</surname>, <given-names>A.G.</given-names>
+</string-name> (<year>2009</year>) <article-title>On the opportunity for sexual selection, the bateman gradient and the maximum intensity of sexual selection</article-title>. <source>Evolution.</source>, <volume>63</volume>(<issue>7</issue>), <fpage>1673</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">19228185</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1558-5646.2009.00664.x</pub-id></mixed-citation></ref><ref id="evo14483-bib-0042"><mixed-citation publication-type="journal" id="evo14483-cit-0042">
+<string-name name-style="western">
+<surname>Kahrl</surname>, <given-names>A.F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cox</surname>, <given-names>C.L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cox</surname>, <given-names>R.M.</given-names>
+</string-name> (<year>2016</year>) <article-title>Correlated evolution between targets of pre‐ and postcopulatory sexual selection across squamate reptiles</article-title>. <source>Ecol Evol</source>,. Sep 1;<volume>6</volume>(<issue>18</issue>), <fpage>6452</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">27777721</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.2344</pub-id><pub-id pub-id-type="pmcid">PMC5058519</pub-id></mixed-citation></ref><ref id="evo14483-bib-0043"><mixed-citation publication-type="book" id="evo14483-cit-0043">
+<string-name name-style="western">
+<surname>Kappeler</surname>, <given-names>P.M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Van Schaik</surname>, <given-names>C.P.</given-names>
+</string-name> (<year>2004</year>) <source>Sexual selection in primates: new and comparative perspectives</source>. <publisher-name>Cambridge Univ. Press</publisher-name>, <publisher-loc>Cambridge, U.K</publisher-loc>.</mixed-citation></ref><ref id="evo14483-bib-0044"><mixed-citation publication-type="journal" id="evo14483-cit-0044">
+<string-name name-style="western">
+<surname>Kirkpatrick</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>) <article-title>The evolution of genome structure by natural and sexual selection</article-title>. <source>J. Hered.</source>, <volume>108</volume>, <fpage>3</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">27388336</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jhered/esw041</pub-id><pub-id pub-id-type="pmcid">PMC5155700</pub-id></mixed-citation></ref><ref id="evo14483-bib-0045"><mixed-citation publication-type="journal" id="evo14483-cit-0045">
+<string-name name-style="western">
+<surname>Kregel</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bagamasbad</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>LaPensee</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raji</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brogley</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chinnaiyan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cieslik</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Robins</surname>, <given-names>D.M.</given-names>
+</string-name> (<year>2020</year>) <article-title>Differential modulation of the androgen receptor for prostate cancer therapy depends on the DNA response element</article-title>. <source>Nucleic. Acids. Res.</source>, May 21;<volume>48</volume>(<issue>9</issue>), <fpage>4741</fpage>–<lpage>55</lpage>.<pub-id pub-id-type="pmid">32198885</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkaa178</pub-id><pub-id pub-id-type="pmcid">PMC7229860</pub-id></mixed-citation></ref><ref id="evo14483-bib-0046"><mixed-citation publication-type="journal" id="evo14483-cit-0046">
+<string-name name-style="western">
+<surname>Lande</surname>, <given-names>R.</given-names>
+</string-name> (<year>1980</year>) <article-title>Sexual Dimorphism, Sexual Selection, and Adaptation in Polygenic Characters</article-title>. <source>Evolution.</source>, <volume>34</volume>(<issue>2</issue>), <fpage>292</fpage>–<lpage>305</lpage>.<pub-id pub-id-type="pmid">28563426</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1558-5646.1980.tb04817.x</pub-id></mixed-citation></ref><ref id="evo14483-bib-0047"><mixed-citation publication-type="journal" id="evo14483-cit-0047">
+<string-name name-style="western">
+<surname>Lanzino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sisci</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morelli</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garofalo</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Catalano</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Casaburi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capparelli</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giordano</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giordano</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maggiolini</surname>, <given-names>M.</given-names>
+</string-name>, et al (<year>2010</year>) <article-title>Inhibition of cyclin D1 expression by androgen receptor in breast cancer cells—identification of a novel androgen response element</article-title>. <source>Nucleic. Acids. Res.</source>, <volume>38</volume>(<issue>16</issue>), <fpage>5351</fpage>–<lpage>65</lpage>.<pub-id pub-id-type="pmid">20421209</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq278</pub-id><pub-id pub-id-type="pmcid">PMC2938215</pub-id></mixed-citation></ref><ref id="evo14483-bib-0048"><mixed-citation publication-type="journal" id="evo14483-cit-0048">
+<string-name name-style="western">
+<surname>Laudet</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hänni</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coll</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Catzeflis</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Stéhelin</surname>, <given-names>D.</given-names>
+</string-name> (<year>1992</year>) <article-title>Evolution of the nuclear receptor gene superfamily</article-title>. <source>EMBO J.</source>, <volume>11</volume>(<issue>3</issue>), <fpage>1003</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">1312460</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/j.1460-2075.1992.tb05139.x</pub-id><pub-id pub-id-type="pmcid">PMC556541</pub-id></mixed-citation></ref><ref id="evo14483-bib-0049"><mixed-citation publication-type="journal" id="evo14483-cit-0049">
+<string-name name-style="western">
+<surname>Leutenegger</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kelly</surname>, <given-names>J.T.</given-names>
+</string-name> (<year>1977</year>) <article-title>Relationship of sexual dimorphism in canine size and body size to social, behavioral, and ecological correlates in anthropoid primates</article-title>. <source>Primates</source>,. <volume>18</volume>(<issue>1</issue>), <fpage>117</fpage>–<lpage>36</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0050"><mixed-citation publication-type="journal" id="evo14483-cit-0050">
+<string-name name-style="western">
+<surname>Lindsay</surname>, <given-names>W.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barron</surname>, <given-names>D.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Webster</surname>, <given-names>M.S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Schwabl</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>) <article-title>Testosterone activates sexual dimorphism including male‐typical carotenoid but not melanin plumage pigmentation in a female bird</article-title>. <source>J. Exp. Biol.</source>, Oct 1;<volume>219</volume>(<issue>19</issue>), <fpage>3091</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">27707865</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/jeb.135384</pub-id></mixed-citation></ref><ref id="evo14483-bib-0051"><mixed-citation publication-type="journal" id="evo14483-cit-0051">
+<string-name name-style="western">
+<surname>Lu</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Epner</surname>, <given-names>D.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tsai</surname>, <given-names>S.Y.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Tsai</surname>, <given-names>M.‐.J.</given-names>
+</string-name> (<year>1999</year>) <article-title>Androgen regulation of the cyclin‐dependent kinase inhibitor p21 gene through an androgen response element in the proximal promoter</article-title>. <source>Mol. Endocrinol.</source>, <volume>13</volume>(<issue>3</issue>), <fpage>376</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">10076995</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend.13.3.0254</pub-id></mixed-citation></ref><ref id="evo14483-bib-0052"><mixed-citation publication-type="journal" id="evo14483-cit-0052">
+<string-name name-style="western">
+<surname>Lüpold</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simmons</surname>, <given-names>L.W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Grueter</surname>, <given-names>C.C.</given-names>
+</string-name> (<year>2019</year>) <article-title>Sexual ornaments but not weapons trade off against testes size in primates</article-title>. <source>Proc. R. Soc. B Biol. Sci.</source>, <volume>286</volume>(<issue>1900</issue>), <elocation-id>20182542</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2018.2542</pub-id><pub-id pub-id-type="pmcid">PMC6501695</pub-id><pub-id pub-id-type="pmid">30966988</pub-id></mixed-citation></ref><ref id="evo14483-bib-0053"><mixed-citation publication-type="journal" id="evo14483-cit-0053">
+<string-name name-style="western">
+<surname>Malika</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ghazzali</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boiteau</surname>, <given-names>V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Niknafs</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>) <article-title>NbClust: an R package for determining the relevant number of clusters in a data set</article-title>. <source>J Stat Softw</source>,. <volume>61</volume>, <fpage>1</fpage>–<lpage>36</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0054"><mixed-citation publication-type="journal" id="evo14483-cit-0054">
+<string-name name-style="western">
+<surname>Mank</surname>, <given-names>J.E.</given-names>
+</string-name> (<year>2017</year>) <article-title>Population genetics of sexual conflict in the genomic era</article-title>. <source>Nat. Rev. Genet.</source>, <volume>18</volume>, <fpage>721</fpage>–<lpage>730</lpage>.<pub-id pub-id-type="pmid">29062057</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg.2017.83</pub-id></mixed-citation></ref><ref id="evo14483-bib-0055"><mixed-citation publication-type="journal" id="evo14483-cit-0055">
+<string-name name-style="western">
+<surname>Matsuda</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stark</surname>, <given-names>D.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saldivar</surname>, <given-names>D.A.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tuuga</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nathan</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goossens</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Schaik</surname>, <given-names>CP.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Koda</surname>, <given-names>H.</given-names>
+</string-name> (<year>2020</year>) <article-title>Large male proboscis monkeys have larger noses but smaller canines</article-title>. <source>Commun Biol</source>,. Sep 21;<volume>3</volume>(<issue>1</issue>), <fpage>522</fpage>.<pub-id pub-id-type="pmid">32958853</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-020-01245-0</pub-id><pub-id pub-id-type="pmcid">PMC7506553</pub-id></mixed-citation></ref><ref id="evo14483-bib-0056"><mixed-citation publication-type="journal" id="evo14483-cit-0056">
+<string-name name-style="western">
+<surname>Matthews</surname>, <given-names>B.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Melia</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Waxman</surname>, <given-names>D.J.</given-names>
+</string-name> (<year>2021</year>) <article-title>Harnessing natural variation to identify cis regulators of sex‐biased gene expression in a multi‐strain mouse liver model</article-title>. <source>PLos Genet.</source>, Nov 9;<volume>17</volume>(<issue>11</issue>), <elocation-id>e1009588</elocation-id>.<pub-id pub-id-type="pmid">34752452</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1009588</pub-id><pub-id pub-id-type="pmcid">PMC8664386</pub-id></mixed-citation></ref><ref id="evo14483-bib-0057"><mixed-citation publication-type="journal" id="evo14483-cit-0057">
+<string-name name-style="western">
+<surname>Mitani</surname>, <given-names>J.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gros‐Louis</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Richards</surname>, <given-names>A.F.</given-names>
+</string-name> (<year>1996</year>) <article-title>Sexual dimorphism, the operational sex ratio, and the intensity of male competition in polygynous primates</article-title>. <source>Am. Nat.</source>, Jun 1;<volume>147</volume>(<issue>6</issue>), <fpage>966</fpage>–<lpage>80</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0058"><mixed-citation publication-type="journal" id="evo14483-cit-0058">
+<string-name name-style="western">
+<surname>Mitchell</surname>, <given-names>S.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murtha</surname>, <given-names>P.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Young</surname>, <given-names>C.Y.</given-names>
+</string-name> (<year>2000</year>) <article-title>An androgen response element mediates LNCaP cell dependent androgen induction of the hK2 gene</article-title>. <source>Mol. Cell. Endocrinol.</source>, <volume>168</volume>(<issue>1–2</issue>), <fpage>89</fpage>–<lpage>99</lpage>.<pub-id pub-id-type="pmid">11064155</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0303-7207(00)00319-1</pub-id></mixed-citation></ref><ref id="evo14483-bib-0059"><mixed-citation publication-type="journal" id="evo14483-cit-0059">
+<string-name name-style="western">
+<surname>Møller</surname>, <given-names>A.P.</given-names>
+</string-name> (<year>1988</year>) <article-title>Ejaculate quality, testes size and sperm competition in primates</article-title>. <source>J. Hum. Evol.</source>, Aug 1;<volume>17</volume>(<issue>5</issue>), <fpage>479</fpage>–<lpage>88</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0060"><mixed-citation publication-type="journal" id="evo14483-cit-0060">
+<string-name name-style="western">
+<surname>Morris</surname>, <given-names>J.S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Carrier</surname>, <given-names>D.R.</given-names>
+</string-name> (<year>2016</year>) <article-title>Sexual selection on skeletal shape in Carnivora</article-title>. <source>Evolution.</source>, Apr 1;<volume>70</volume>(<issue>4</issue>), <fpage>767</fpage>–<lpage>80</lpage>.<pub-id pub-id-type="pmid">26969835</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/evo.12904</pub-id></mixed-citation></ref><ref id="evo14483-bib-0061"><mixed-citation publication-type="journal" id="evo14483-cit-0061">
+<string-name name-style="western">
+<surname>Murtha</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tindall</surname>, <given-names>D.J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Young</surname>, <given-names>C.Y.</given-names>
+</string-name> (<year>1993</year>) <article-title>Androgen induction of a human prostate‐specific kallikrein, hKLK2: characterization of an androgen response element in the 5’promoter region of the gene</article-title>. <source>Biochemistry</source>,. <volume>32</volume>(<issue>25</issue>), <fpage>6459</fpage>–<lpage>64</lpage>.<pub-id pub-id-type="pmid">7686046</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/bi00076a020</pub-id></mixed-citation></ref><ref id="evo14483-bib-0062"><mixed-citation publication-type="journal" id="evo14483-cit-0062">
+<string-name name-style="western">
+<surname>Nelson</surname>, <given-names>C.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hendy</surname>, <given-names>S.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shukin</surname>, <given-names>R.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bruchovsky</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koop</surname>, <given-names>B.F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rennie</surname>, <given-names>P.S.</given-names>
+</string-name> (<year>1999</year>) <article-title>Determinants of DNA sequence specificity of the androgen, progesterone, and glucocorticoid receptors: evidence for differential steroid receptor response elements</article-title>. <source>Mol. Endocrinol.</source>, Dec 1;<volume>13</volume>(<issue>12</issue>), <fpage>2090</fpage>–<lpage>107</lpage>.<pub-id pub-id-type="pmid">10598584</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend.13.12.0396</pub-id></mixed-citation></ref><ref id="evo14483-bib-0063"><mixed-citation publication-type="journal" id="evo14483-cit-0063">
+<string-name name-style="western">
+<surname>Nelson</surname>, <given-names>P.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clegg</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferguson</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonham</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hood</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lin</surname>, <given-names>B.</given-names>
+</string-name> (<year>2002</year>) <article-title>The program of androgen‐responsive genes in neoplastic prostate epithelium</article-title>. <source>Proc. Natl Acad. Sci.</source>, Sep 3;<volume>99</volume>(<issue>18</issue>), <elocation-id>11890</elocation-id>.<pub-id pub-id-type="pmid">12185249</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.182376299</pub-id><pub-id pub-id-type="pmcid">PMC129364</pub-id></mixed-citation></ref><ref id="evo14483-bib-0064"><mixed-citation publication-type="journal" id="evo14483-cit-0064">
+<string-name name-style="western">
+<surname>Oliva</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manuel</surname>, <given-names>M.‐.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sarah</surname>, <given-names>K.‐.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wucher</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gewirtz</surname>, <given-names>A.D.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cotter</surname>, <given-names>D.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parsana</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kasela</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balliu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Viñuela</surname>, <given-names>A.</given-names>
+</string-name>, et al (<year>2020</year>) <article-title>The impact of sex on gene expression across human tissues</article-title>. <source>Science</source>,. Sep 11;<volume>369</volume>(<issue>6509</issue>), <elocation-id>eaba3066</elocation-id>.<pub-id pub-id-type="pmid">32913072</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aba3066</pub-id><pub-id pub-id-type="pmcid">PMC8136152</pub-id></mixed-citation></ref><ref id="evo14483-bib-0065"><mixed-citation publication-type="miscellaneous" id="evo14483-cit-0065">
+<string-name name-style="western">
+<surname>Pagès</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aboyoun</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentleman</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>DebRoy</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>) <article-title>Biostrings: efficient manipulation of biological strings</article-title>. R package version 2.0.</mixed-citation></ref><ref id="evo14483-bib-0066"><mixed-citation publication-type="journal" id="evo14483-cit-0066">
+<string-name name-style="western">
+<surname>Paradis</surname>, <given-names>E.</given-names>
+</string-name> (<year>2010</year>) <article-title>pegas: an R package for population genetics with an integrated–modular approach</article-title>. <source>Bioinformatics</source>,. <volume>26</volume>(<issue>3</issue>), <fpage>419</fpage>–<lpage>20</lpage>.<pub-id pub-id-type="pmid">20080509</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp696</pub-id></mixed-citation></ref><ref id="evo14483-bib-0067"><mixed-citation publication-type="journal" id="evo14483-cit-0067">
+<string-name name-style="western">
+<surname>Pennell</surname>, <given-names>T.M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Morrow</surname>, <given-names>E.H.</given-names>
+</string-name> (<year>2013</year>) <article-title>Two sexes, one genome: the evolutionary dynamics of intralocus sexual conflict</article-title>. <source>Ecol Evol</source>,. Jun 1;<volume>3</volume>(<issue>6</issue>), <fpage>1819</fpage>–<lpage>34</lpage>.<pub-id pub-id-type="pmid">23789088</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.540</pub-id><pub-id pub-id-type="pmcid">PMC3686212</pub-id></mixed-citation></ref><ref id="evo14483-bib-0068"><mixed-citation publication-type="journal" id="evo14483-cit-0068">
+<string-name name-style="western">
+<surname>Plavcan</surname>, <given-names>J.M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ruff</surname>, <given-names>C.B.</given-names>
+</string-name> (<year>2008</year>) <article-title>Canine size, shape, and bending strength in primates and carnivores</article-title>. <source>Am. J. Phys. Anthropol</source>,. <volume>136</volume>(<issue>1</issue>), <fpage>65</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">18186502</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajpa.20779</pub-id></mixed-citation></ref><ref id="evo14483-bib-0069"><mixed-citation publication-type="journal" id="evo14483-cit-0069">
+<string-name name-style="western">
+<surname>Plavcan</surname>, <given-names>J.M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>van Schaik</surname>, <given-names>C.P.</given-names>
+</string-name> (<year>1992</year>) <article-title>Intrasexual competition and canine dimorphism in anthropoid primates</article-title>. <source>Am. J. Phys. Anthropol.</source>, Apr 1;<volume>87</volume>(<issue>4</issue>), <fpage>461</fpage>–<lpage>77</lpage>.<pub-id pub-id-type="pmid">1580353</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajpa.1330870407</pub-id></mixed-citation></ref><ref id="evo14483-bib-0070"><mixed-citation publication-type="journal" id="evo14483-cit-0070">
+<string-name name-style="western">
+<surname>Plavcan</surname>, <given-names>J.M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>van Schaik</surname>, <given-names>C.P.</given-names>
+</string-name> (<year>1997</year>) <article-title>Intrasexual competition and body weight dimorphism in anthropoid primates</article-title>. <source>Am. J. Phys. Anthropol.</source>, May 1;<volume>103</volume>(<issue>1</issue>), <fpage>37</fpage>–<lpage>68</lpage>.<pub-id pub-id-type="pmid">9185951</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(SICI)1096-8644(199705)103:1&lt;37::AID-AJPA4&gt;3.0.CO;2-A</pub-id></mixed-citation></ref><ref id="evo14483-bib-0071"><mixed-citation publication-type="journal" id="evo14483-cit-0071">
+<string-name name-style="western">
+<surname>Plavcan</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Schaik</surname>, <given-names>C.P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kappeler</surname>, <given-names>P.M.</given-names>
+</string-name> (<year>1995</year>) <article-title>Competition, coalitions and canine size in primates</article-title>. <source>J. Hum. Evol.</source>, Mar 1;<volume>28</volume>(<issue>3</issue>), <fpage>245</fpage>–<lpage>76</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0072"><mixed-citation publication-type="journal" id="evo14483-cit-0072">
+<string-name name-style="western">
+<surname>Pointer</surname>, <given-names>M.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harrison</surname>, <given-names>P.W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wright</surname>, <given-names>A.E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mank</surname>, <given-names>J.E.</given-names>
+</string-name> (<year>2013</year>) <article-title>Masculinization of Gene Expression Is Associated with Exaggeration of Male Sexual Dimorphism</article-title>. <source>PLos Genet.</source>, Aug 15;<volume>9</volume>(<issue>8</issue>), <elocation-id>e1003697</elocation-id>.<pub-id pub-id-type="pmid">23966876</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1003697</pub-id><pub-id pub-id-type="pmcid">PMC3744414</pub-id></mixed-citation></ref><ref id="evo14483-bib-0073"><mixed-citation publication-type="journal" id="evo14483-cit-0073">
+<string-name name-style="western">
+<surname>Rensch</surname>, <given-names>B.</given-names>
+</string-name> (<year>1950</year>) <article-title>Die Abhängigkeit der relativen Sexualdifferenz von der Körpergrösse</article-title>. <source>Bonn Zool Beitr</source>,. <volume>1</volume>, <fpage>58</fpage>–<lpage>69</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0074"><mixed-citation publication-type="journal" id="evo14483-cit-0074">
+<string-name name-style="western">
+<surname>Revell</surname>, <given-names>L.J.</given-names>
+</string-name> (<year>2012</year>) <article-title>phytools: an R package for phylogenetic comparative biology (and other things)</article-title>. <source>Methods Ecol. Evol.</source>, <volume>3</volume>(<issue>2</issue>), <fpage>217</fpage>–<lpage>23</lpage>.</mixed-citation></ref><ref id="evo14483-bib-0075"><mixed-citation publication-type="journal" id="evo14483-cit-0075">
+<string-name name-style="western">
+<surname>Riegman</surname>, <given-names>P.H.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vlietstra</surname>, <given-names>R.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van der Korput</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brinkmann</surname>, <given-names>A.O.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Trapman</surname>, <given-names>J.</given-names>
+</string-name> (<year>1991</year>) <article-title>The promoter of the prostate‐specific antigen gene contains a functional androgen responsive element</article-title>. <source>Mol. Endocrinol.</source>, <volume>5</volume>(<issue>12</issue>), <fpage>1921</fpage>–<lpage>30</lpage>.<pub-id pub-id-type="pmid">1724287</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend-5-12-1921</pub-id></mixed-citation></ref><ref id="evo14483-bib-0076"><mixed-citation publication-type="journal" id="evo14483-cit-0076">
+<string-name name-style="western">
+<surname>Roche</surname>, <given-names>P.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoare</surname>, <given-names>S.A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Parker</surname>, <given-names>M.G.</given-names>
+</string-name> (<year>1992</year>) <article-title>A consensus DNA‐binding site for the androgen receptor</article-title>. <source>Mol. Endocrinol.</source>, Dec 1;<volume>6</volume>(<issue>12</issue>), <fpage>2229</fpage>–<lpage>35</lpage>.<pub-id pub-id-type="pmid">1491700</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend.6.12.1491700</pub-id></mixed-citation></ref><ref id="evo14483-bib-0077"><mixed-citation publication-type="journal" id="evo14483-cit-0077">
+<string-name name-style="western">
+<surname>Romanuik</surname>, <given-names>T.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holt</surname>, <given-names>R.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jones</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marra</surname>, <given-names>M.A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sadar</surname>, <given-names>M.D.</given-names>
+</string-name> (<year>2009</year>) <article-title>Identification of novel androgen‐responsive genes by sequencing of LongSAGE libraries</article-title>. <source>BMC Genomics</source>,. Oct 15;<volume>10</volume>(<issue>1</issue>), <fpage>476</fpage>.<pub-id pub-id-type="pmid">19832994</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2164-10-476</pub-id><pub-id pub-id-type="pmcid">PMC2766392</pub-id></mixed-citation></ref><ref id="evo14483-bib-0078"><mixed-citation publication-type="journal" id="evo14483-cit-0078">
+<string-name name-style="western">
+<surname>Sahu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laakso</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ovaska</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mirtti</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lundin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rannikko</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sankila</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Turunen</surname>, <given-names>J.‐.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lundin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Konsti</surname>, <given-names>J.</given-names>
+</string-name> et al (<year>2011</year>) <article-title>Dual role of FoxA1 in androgen receptor binding to chromatin, androgen signalling and prostate cancer</article-title>. <source>EMBO J.</source>, Oct 5;<volume>30</volume>(<issue>19</issue>), <fpage>3962</fpage>–<lpage>76</lpage>.<pub-id pub-id-type="pmid">21915096</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/emboj.2011.328</pub-id><pub-id pub-id-type="pmcid">PMC3209787</pub-id></mixed-citation></ref><ref id="evo14483-bib-0079"><mixed-citation publication-type="journal" id="evo14483-cit-0079">
+<string-name name-style="western">
+<surname>Sahu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pihlajamaa</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dubois</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kerkhofs</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jänne</surname>, <given-names>O.A.</given-names>
+</string-name> (<year>2014</year>) <article-title>Androgen receptor uses relaxed response element stringency for selective chromatin binding and transcriptional regulation in vivo</article-title>. <source>Nucleic. Acids. Res.</source>, Apr 1;<volume>42</volume>(<issue>7</issue>), <fpage>4230</fpage>–<lpage>40</lpage>.<pub-id pub-id-type="pmid">24459135</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkt1401</pub-id><pub-id pub-id-type="pmcid">PMC3985627</pub-id></mixed-citation></ref><ref id="evo14483-bib-0080"><mixed-citation publication-type="journal" id="evo14483-cit-0080">
+<string-name name-style="western">
+<surname>Schauwaers</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Gendt</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saunders</surname>, <given-names>P.T.K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atanassova</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haelens</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Callewaert</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moehren</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swinnen</surname>, <given-names>J.V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verhoeven</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verrijdt</surname>, <given-names>G.</given-names>
+</string-name>, et al (<year>2007</year>) <article-title>Loss of androgen receptor binding to selective androgen response elements causes a reproductive phenotype in a knockin mouse model</article-title>. <source>Proc. Natl Acad. Sci. USA</source>, Mar 20;<volume>104</volume>(<issue>12</issue>), <fpage>4961</fpage>.<pub-id pub-id-type="pmid">17360365</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0610814104</pub-id><pub-id pub-id-type="pmcid">PMC1829247</pub-id></mixed-citation></ref><ref id="evo14483-bib-0081"><mixed-citation publication-type="journal" id="evo14483-cit-0081">
+<string-name name-style="western">
+<surname>Scrucca</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fop</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murphy</surname>, <given-names>T.B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Raftery</surname>, <given-names>A.E.</given-names>
+</string-name> (<year>2016</year>) <article-title>mclust 5: clustering, classification and density estimation using Gaussian finite mixture models</article-title>. <source>R J</source>,. <volume>8</volume>(<issue>1</issue>), <fpage>289</fpage>.<pub-id pub-id-type="pmid">27818791</pub-id><pub-id pub-id-type="pmcid">PMC5096736</pub-id></mixed-citation></ref><ref id="evo14483-bib-0082"><mixed-citation publication-type="journal" id="evo14483-cit-0082">
+<string-name name-style="western">
+<surname>Simão</surname>, <given-names>F.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waterhouse</surname>, <given-names>R.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ioannidis</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kriventseva</surname>, <given-names>E.V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zdobnov</surname>, <given-names>E.M.</given-names>
+</string-name> (<year>2015</year>) <article-title>BUSCO: assessing genome assembly and annotation completeness with single‐copy orthologs</article-title>. <source>Bioinformatics</source>,. <volume>31</volume>(<issue>19</issue>), <fpage>3210</fpage>–<lpage>2</lpage>.<pub-id pub-id-type="pmid">26059717</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btv351</pub-id></mixed-citation></ref><ref id="evo14483-bib-0083"><mixed-citation publication-type="journal" id="evo14483-cit-0083">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>J.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McManus</surname>, <given-names>K.F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fraser</surname>, <given-names>H.B.</given-names>
+</string-name> (<year>2013</year>) <article-title>A Novel Test for Selection on cis‐Regulatory Elements Reveals Positive and Negative Selection Acting on Mammalian Transcriptional Enhancers</article-title>. <source>Mol. Biol. Evol.</source>, Nov 1;<volume>30</volume>(<issue>11</issue>), <fpage>2509</fpage>–<lpage>18</lpage>.<pub-id pub-id-type="pmid">23904330</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/mst134</pub-id><pub-id pub-id-type="pmcid">PMC3808868</pub-id></mixed-citation></ref><ref id="evo14483-bib-0084"><mixed-citation publication-type="journal" id="evo14483-cit-0084">
+<string-name name-style="western">
+<surname>Stewart</surname>, <given-names>A.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pischedda</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rice</surname>, <given-names>W.R.</given-names>
+</string-name> (<year>2010</year>) <article-title>Resolving intralocus sexual conflict: genetic mechanisms and time frame</article-title>. <source>J. Hered.</source>, Mar 1;<volume>101</volume>(suppl_<issue>1</issue>), <fpage>S94</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">20421329</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jhered/esq011</pub-id><pub-id pub-id-type="pmcid">PMC2859891</pub-id></mixed-citation></ref><ref id="evo14483-bib-0085"><mixed-citation publication-type="journal" id="evo14483-cit-0085">
+<string-name name-style="western">
+<surname>Thorén</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lindenfors</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kappeler</surname>, <given-names>P.M.</given-names>
+</string-name> (<year>2006</year>) <article-title>Phylogenetic analyses of dimorphism in primates: evidence for stronger selection on canine size than on body size</article-title>. <source>Am. J. Phys. Anthropol.</source>, May 1;<volume>130</volume>(<issue>1</issue>), <fpage>50</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">16345072</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajpa.20321</pub-id></mixed-citation></ref><ref id="evo14483-bib-0086"><mixed-citation publication-type="journal" id="evo14483-cit-0086">
+<string-name name-style="western">
+<surname>Tsai</surname>, <given-names>M.‐.J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>O'Malley</surname>, <given-names>B.W.</given-names>
+</string-name> (<year>1994</year>) <article-title>Molecular mechanisms of action of steroid/thyroid receptor superfamily members</article-title>. <source>Annu. Rev. Biochem.</source>, Jun 1;<volume>63</volume>(<issue>1</issue>), <fpage>451</fpage>–<lpage>86</lpage>.<pub-id pub-id-type="pmid">7979245</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev.bi.63.070194.002315</pub-id></mixed-citation></ref><ref id="evo14483-bib-0087"><mixed-citation publication-type="journal" id="evo14483-cit-0087">
+<string-name name-style="western">
+<surname>van der Bijl</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mank</surname>, <given-names>J.E.</given-names>
+</string-name> (<year>2021</year>) <article-title>Widespread cryptic variation in genetic architecture between the sexes</article-title>. <source>Evol Lett</source>,. <volume>5</volume>(<issue>4</issue>), <fpage>359</fpage>–<lpage>369</lpage>
+<pub-id pub-id-type="pmid">34367661</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/evl3.245</pub-id><pub-id pub-id-type="pmcid">PMC8327960</pub-id></mixed-citation></ref><ref id="evo14483-bib-0088"><mixed-citation publication-type="journal" id="evo14483-cit-0088">
+<string-name name-style="western">
+<surname>Verrijdt</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haelens</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name> (<year>2003</year>) <article-title>Selective DNA recognition by the androgen receptor as a mechanism for hormone‐specific regulation of gene expression</article-title>. <source>Mol. Genet. Metab.</source>, Mar 1;<volume>78</volume>(<issue>3</issue>), <fpage>175</fpage>–<lpage>85</lpage>.<pub-id pub-id-type="pmid">12649062</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s1096-7192(03)00003-9</pub-id></mixed-citation></ref><ref id="evo14483-bib-0089"><mixed-citation publication-type="journal" id="evo14483-cit-0089">
+<string-name name-style="western">
+<surname>Verrijdt</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schoenmakers</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alen</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haelens</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peeters</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rombauts</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name> (<year>1999</year>) <article-title>Androgen specificity of a response unit upstream of the human secretory component gene is mediated by differential receptor binding to an essential androgen response element</article-title>. <source>Mol. Endocrinol.</source>, <volume>13</volume>(<issue>9</issue>), <fpage>1558</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="pmid">10478846</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/mend.13.9.0347</pub-id></mixed-citation></ref><ref id="evo14483-bib-0090"><mixed-citation publication-type="journal" id="evo14483-cit-0090">
+<string-name name-style="western">
+<surname>Verrijdt</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schoenmakers</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haelens</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peeters</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verhoeven</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rombauts</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claessens</surname>, <given-names>F.</given-names>
+</string-name> (<year>2000</year>) <article-title>Change of specificity mutations in androgen‐selective enhancers evidence for a role of differential DNA binding by the androgen receptor</article-title>. <source>J. Biol. Chem.</source>, <volume>275</volume>(<issue>16</issue>), <fpage>12298</fpage>–<lpage>305</lpage>.<pub-id pub-id-type="pmid">10766869</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.275.16.12298</pub-id></mixed-citation></ref><ref id="evo14483-bib-0091"><mixed-citation publication-type="journal" id="evo14483-cit-0091">
+<string-name name-style="western">
+<surname>Wasserman</surname>, <given-names>W.W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sandelin</surname>, <given-names>A.</given-names>
+</string-name> (<year>2004</year>) <article-title>Applied bioinformatics for the identification of regulatory elements</article-title>. <source>Nat. Rev. Genet.</source>, Apr 1;<volume>5</volume>(<issue>4</issue>), <fpage>276</fpage>–<lpage>87</lpage>.<pub-id pub-id-type="pmid">15131651</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg1315</pub-id></mixed-citation></ref><ref id="evo14483-bib-0092"><mixed-citation publication-type="journal" id="evo14483-cit-0092">
+<string-name name-style="western">
+<surname>Welboren</surname>, <given-names>W.‐.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Driel</surname>, <given-names>M.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janssen‐Megens</surname>, <given-names>E.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Heeringen</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sweep</surname>, <given-names>F.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Span</surname>, <given-names>P.N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Stunnenberg</surname>, <given-names>H.G.</given-names>
+</string-name> (<year>2009</year>) <article-title>ChIP‐Seq of ERα and RNA polymerase II defines genes differentially responding to ligands</article-title>. <source>EMBO J.</source>, <volume>28</volume>(<issue>10</issue>), <fpage>1418</fpage>–<lpage>28</lpage>.<pub-id pub-id-type="pmid">19339991</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/emboj.2009.88</pub-id><pub-id pub-id-type="pmcid">PMC2688537</pub-id></mixed-citation></ref><ref id="evo14483-bib-0093"><mixed-citation publication-type="journal" id="evo14483-cit-0093">
+<string-name name-style="western">
+<surname>Wilkinson</surname>, <given-names>G.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Breden</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mank</surname>, <given-names>J.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ritchie</surname>, <given-names>M.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Higginson</surname>, <given-names>A.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Radwan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jaquiery</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salzburger</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arriero</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barribeau</surname>, <given-names>S.M.</given-names>
+</string-name>, et al (<year>2015</year>) <article-title>The locus of sexual selection: moving sexual selection studies into the post‐genomics era</article-title>. <source>J. Evol. Biol.</source>, <volume>28</volume>, <fpage>739</fpage>–<lpage>755</lpage>.<pub-id pub-id-type="pmid">25789690</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jeb.12621</pub-id></mixed-citation></ref><ref id="evo14483-bib-0094"><mixed-citation publication-type="journal" id="evo14483-cit-0094">
+<string-name name-style="western">
+<surname>Wilson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qi</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Filipp</surname>, <given-names>F.V.</given-names>
+</string-name> (<year>2016</year>) <article-title>Refinement of the androgen response element based on ChIP‐Seq in androgen‐insensitive and androgen‐responsive prostate cancer cell lines</article-title>. <source>Sci. Rep.</source>, Sep 14;<volume>6</volume>(<issue>1</issue>), <elocation-id>32611</elocation-id>.<pub-id pub-id-type="pmid">27623747</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep32611</pub-id><pub-id pub-id-type="pmcid">PMC5021938</pub-id></mixed-citation></ref><ref id="evo14483-bib-0095"><mixed-citation publication-type="journal" id="evo14483-cit-0095">
+<string-name name-style="western">
+<surname>Wittkopp</surname>, <given-names>P.J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kalay</surname>, <given-names>G.</given-names>
+</string-name> (<year>2012</year>) <article-title>Cis‐regulatory elements: molecular mechanisms and evolutionary processes underlying divergence</article-title>. <source>Nat. Rev. Genet.</source>, Jan 1;<volume>13</volume>(<issue>1</issue>), <fpage>59</fpage>–<lpage>69</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg3095</pub-id><pub-id pub-id-type="pmid">22143240</pub-id></mixed-citation></ref><ref id="evo14483-bib-0096"><mixed-citation publication-type="journal" id="evo14483-cit-0096">
+<string-name name-style="western">
+<surname>Wittman</surname>, <given-names>T.N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robinson</surname>, <given-names>C.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGlothlin</surname>, <given-names>J.W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cox</surname>, <given-names>R.M.</given-names>
+</string-name> (<year>2021</year>) <article-title>Hormonal pleiotropy structures genetic covariance</article-title>. <source>Evol Lett</source>, <volume>5</volume>(<issue>4</issue>), <fpage>397</fpage>‐<lpage>407</lpage>
+<pub-id pub-id-type="pmid">34367664</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/evl3.240</pub-id><pub-id pub-id-type="pmcid">PMC8327939</pub-id></mixed-citation></ref><ref id="evo14483-bib-0097"><mixed-citation publication-type="journal" id="evo14483-cit-0097">
+<string-name name-style="western">
+<surname>Wray</surname>, <given-names>G.A.</given-names>
+</string-name> (<year>2007</year>) <article-title>The evolutionary significance of cis‐regulatory mutations</article-title>. <source>Nat. Rev. Genet.</source>, Mar 1;<volume>8</volume>(<issue>3</issue>), <fpage>206</fpage>–<lpage>16</lpage>.<pub-id pub-id-type="pmid">17304246</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg2063</pub-id></mixed-citation></ref><ref id="evo14483-bib-0098"><mixed-citation publication-type="journal" id="evo14483-cit-0098">
+<string-name name-style="western">
+<surname>Wright</surname>, <given-names>A.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fumagalli</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooney</surname>, <given-names>C.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bloch</surname>, <given-names>N.I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vieira</surname>, <given-names>F.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buechel</surname>, <given-names>S.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kolm</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mank</surname>, <given-names>J.E.</given-names>
+</string-name> (<year>2018</year>) <article-title>Male‐biased gene expression resolves sexual conflict through the evolution of sex‐specific genetic architecture</article-title>. <source>Evol Lett</source>,. <volume>2</volume>(<issue>2</issue>), <fpage>52</fpage>–<lpage>61</lpage>.<pub-id pub-id-type="pmid">30283664</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/evl3.39</pub-id><pub-id pub-id-type="pmcid">PMC6089503</pub-id></mixed-citation></ref><ref id="evo14483-bib-0099"><mixed-citation publication-type="journal" id="evo14483-cit-0099">
+<string-name name-style="western">
+<surname>Zheng</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>Z.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name> (<year>2016</year>) <article-title>Role of estrogen receptor in breast cancer cell gene expression</article-title>. <source>Mol Med Rep</source>,. <volume>13</volume>(<issue>5</issue>), <fpage>4046</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">27035558</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/mmr.2016.5018</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

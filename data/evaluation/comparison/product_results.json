@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "mapping_scope": "evaluation oracle: supplied mappings enter typed contract; not autonomous extraction or human-approved gold",
+  "results": [
+    {
+      "claim_id": "RAW-ROWS",
+      "action": "EXECUTE",
+      "value": 344.0,
+      "verdict": "SUPPORTED",
+      "reason": "필터[없음] · row_count(all rows) · n=344 · 보고 344 ↔ 재계산 344; 차이 0 ≤ 허용오차 0",
+      "source_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "contract": {
+        "claim_id": "RAW-ROWS",
+        "contract_type": "DESCRIPTIVE",
+        "source_page": null,
+        "source_quote": "penguins_raw contains 17 variables and 344 individuals",
+        "dataset_name": "raw.csv",
+        "dataset_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "filters": [],
+        "human_confirmed": true,
+        "method": "row_count",
+        "method_confirmed": true,
+        "missing_policy": "unspecified",
+        "missing_policy_confirmed": true,
+        "analysis_spec": {
+          "population": "unspecified",
+          "estimand": "unspecified",
+          "missing_policy": "unspecified",
+          "variance_estimator": "unspecified",
+          "multiplicity_policy": "unspecified",
+          "multiplicity_count": 0,
+          "reference_levels": {},
+          "interactions": [],
+          "transforms": {},
+          "human_confirmed": false
+        },
+        "variable": "__dataset__",
+        "aggregation": "row_count",
+        "tolerance": 0,
+        "weight_column": "",
+        "success_value": "1"
+      },
+      "confirmation_source": "evaluation_oracle_fixture_not_human"
+    },
+    {
+      "claim_id": "CURATED-ROWS",
+      "action": "EXECUTE",
+      "value": 344.0,
+      "verdict": "SUPPORTED",
+      "reason": "필터[없음] · row_count(all rows) · n=344 · 보고 344 ↔ 재계산 344; 차이 0 ≤ 허용오차 0",
+      "source_hash": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "contract": {
+        "claim_id": "CURATED-ROWS",
+        "contract_type": "DESCRIPTIVE",
+        "source_page": null,
+        "source_quote": "penguins contains 8 variables and 344 observations",
+        "dataset_name": "curated.csv",
+        "dataset_hash": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+        "filters": [],
+        "human_confirmed": true,
+        "method": "row_count",
+        "method_confirmed": true,
+        "missing_policy": "unspecified",
+        "missing_policy_confirmed": true,
+        "analysis_spec": {
+          "population": "unspecified",
+          "estimand": "unspecified",
+          "missing_policy": "unspecified",
+          "variance_estimator": "unspecified",
+          "multiplicity_policy": "unspecified",
+          "multiplicity_count": 0,
+          "reference_levels": {},
+          "interactions": [],
+          "transforms": {},
+          "human_confirmed": false
+        },
+        "variable": "__dataset__",
+        "aggregation": "row_count",
+        "tolerance": 0,
+        "weight_column": "",
+        "success_value": "1"
+      },
+      "confirmation_source": "evaluation_oracle_fixture_not_human"
+    },
+    {
+      "claim_id": "RAW-WITH-CURATED",
+      "action": "BLOCK",
+      "reason": "필수 근거 부족: 원문 열 수 [17]개와 CSV 열 수 8개가 다릅니다. 데이터셋 범위를 다시 확인해야 합니다.",
+      "source_hash": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+    },
+    {
+      "claim_id": "CURATED-WITH-RAW",
+      "action": "BLOCK",
+      "reason": "필수 근거 부족: 원문 열 수 [8]개와 CSV 열 수 17개가 다릅니다. 데이터셋 범위를 다시 확인해야 합니다.",
+      "source_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="gch270125" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Glob Chall</journal-id><journal-id journal-id-type="iso-abbrev">Glob Chall</journal-id><journal-id journal-id-type="pmc-domain-id">3626</journal-id><journal-id journal-id-type="pmc-domain">globchall</journal-id><journal-id journal-id-type="nlm-id">101705641</journal-id><journal-id journal-id-type="publisher-id">GCH2</journal-id><journal-title-group><journal-title>Global Challenges</journal-title></journal-title-group><issn pub-type="epub">2056-6646</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13425629</article-id><article-id pub-id-type="pmcid-ver">PMC13425629.1</article-id><article-id pub-id-type="pmcaid">13425629</article-id><article-id pub-id-type="pmcaiid">13425629</article-id><article-id pub-id-type="pmid">42540375</article-id><article-id pub-id-type="doi">10.1002/gch2.70125</article-id><article-id pub-id-type="publisher-id">GCH270125</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Environmental Impacts of Perovskite Solar Cell Materials: Transparency and Reproducibility Gaps, and Reporting Recommendations</article-title></title-group><contrib-group><contrib id="gch270125-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Kamali</surname><given-names initials="AK">A. Kamal</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0004-8636-790X</contrib-id><xref rid="gch270125-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="gch270125-cr-0002" contrib-type="author"><name name-style="western"><surname>Fuentes</surname><given-names initials="O">Olga</given-names></name><xref rid="gch270125-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270125-cr-0003" contrib-type="author"><name name-style="western"><surname>Laratte</surname><given-names initials="B">Bertrand</given-names></name><xref rid="gch270125-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="gch270125-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="gch270125-cr-0004" contrib-type="author"><name name-style="western"><surname>Sonnemann</surname><given-names initials="G">Guido</given-names></name><xref rid="gch270125-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="gch270125-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Molecular Sciences</named-content>
+<institution>University of Bordeaux</institution>
+<city>Talence</city>
+<country country="FR">France</country>
+</aff><aff id="gch270125-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Wood and Forest Sciences</named-content>
+<institution>Laval University</institution>
+<city>Québec City</city>
+<named-content content-type="country-part">Quebec</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="gch270125-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Arts Et Métiers Institute of Technology</named-content>
+<institution>University of Bordeaux</institution>
+<city>Talence</city>
+<country country="FR">France</country>
+</aff><pub-date pub-type="epub"><day>31</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2026</year></pub-date><volume>10</volume><issue seq="10">8</issue><issue-id pub-id-type="pmc-issue-id">518798</issue-id><issue-id pub-id-type="doi">10.1002/gch2.v10.8</issue-id><elocation-id>e70125</elocation-id><history>
+<date date-type="rev-recd"><day>13</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>25</day><month>3</month><year>2026</year></date>
+<date date-type="accepted"><day>01</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>31</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>01</day><month>08</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-08-23 05:25:16.980"><day>23</day><month>08</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Global Challenges</italic> published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="GCH2-10-e70125.pdf"><?pdf-name GCH2-10-e70125.pdf?><?pdf-size 1261199?><?pdf-md5 0825a9b80aeadf99f44320d3b736743e?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:6d54/13425629/0825a9b80aea/GCH2-10-e70125.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:GCH2-10-e70125.pdf"/><abstract><title>ABSTRACT</title><p>As renewable energy deployment grows and silicon solar cells approach their efficiency limits, perovskite solar cells (PSCs) emerge as a promising next‐generation photovoltaic technology. PSCs environmental impacts are assessed via life cycle assessment (LCA), which depends on the availability of high‐quality life cycle inventories (LCIs). In this study, we systematically identified 101 LCIs related to PSC materials, aiming to recommend the most reliable among them. However, we found that all inventories rely on secondary data and frequently omit critical details such as production scale. We also reproduced reported inventories and found large discrepancies in environmental impacts—sometimes differing by several orders of magnitude across sources. These inconsistencies, coupled with poor documentation, prevented the identification of a single best inventory for any material. Instead, we recommend the use of the most detailed inventories characterized by the highest number of inventory flows as a basis to build more transparent inventories. Our findings demonstrate how gaps in transparency, documentation, and reproducibility in PSC materials inventories impede decision‐making and erode confidence in LCA results. To address these issues, eleven steps are proposed when developing LCIs for emerging materials.</p></abstract><abstract id="gch270125-abs-0001" abstract-type="graphical"><p>Published life cycle inventories for materials used in perovskite solar cell layers were identified through a systematic review and remodeled. The results revealed large variations in environmental impact estimates for the same materials, including methylammonium iodide and formamidinium iodide. Because limited transparency prevents clear interpretation of these variations, an eleven‐step reporting approach is proposed.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="GCH2-10-e70125-g001.jpg"><?image-name GCH2-10-e70125-g001.jpg?><?image-size 28275?><?image-md5 e7647dd4da7e435c92cab8a818d8c0ac?><?image-image-server-status NEVER_LOAD?><?image-original-height 215?><?image-original-width 237?><?image-scaled-height 215?><?image-scaled-width 237?><?image-cloudpmc-urn urn:cdn:blobs/6d54/13425629/e7647dd4da7e/GCH2-10-e70125-g001.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="gch270125-kwd-0001">chemicals</kwd><kwd id="gch270125-kwd-0002">data</kwd><kwd id="gch270125-kwd-0003">data quality</kwd><kwd id="gch270125-kwd-0004">emerging photovoltaic systems</kwd><kwd id="gch270125-kwd-0005">emerging technologies</kwd><kwd id="gch270125-kwd-0009">renewable energy</kwd><kwd id="gch270125-kwd-0010">reproducibility</kwd><kwd id="gch270125-kwd-0011">transparency</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>French National Research Agency</institution><institution-id institution-id-type="doi">10.13039/501100001665</institution-id></institution-wrap>
+</funding-source><award-id>ANR‐22‐PERE‐0005</award-id><award-id>ANR‐22‐PETA‐0010</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="2"/><page-count count="12"/><word-count count="7911"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.4 mode:remove_FC converted:31.07.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="gch270125-sec-0010"><label>1</label><title>Introduction</title><p>There is no doubt that advancing renewable energy technologies is imperative for sustaining human activities, with wind and solar power leading this transformation. Solar energy, in particular, is experiencing rapid growth; according to the 2024 United Nations Environment Program report, it accounted for over 75% of all new renewable energy installations in 2023 [<xref rid="gch270125-bib-0001" ref-type="bibr">1</xref>]. Currently, the solar energy market is dominated by crystalline silicon (c‐Si) solar cells, which hold a 97% market share in 2023 [<xref rid="gch270125-bib-0002" ref-type="bibr">2</xref>]. However, as c‐Si approaches its intrinsic power conversion efficiency (PCE) limit of approximately 29% [<xref rid="gch270125-bib-0003" ref-type="bibr">3</xref>, <xref rid="gch270125-bib-0004" ref-type="bibr">4</xref>], the research community is turning to alternative photovoltaic technologies. At the forefront of these emerging technologies are perovskite solar cells (PSCs), which have shown a remarkable increase in laboratory PCE—from 15% in 2015 to a record 26.95% in 2025 [<xref rid="gch270125-bib-0005" ref-type="bibr">5</xref>]. Therefore, PSCs are considered a promising candidate for the future of solar energy, offering strong potential to achieve even higher efficiencies at lower costs [<xref rid="gch270125-bib-0006" ref-type="bibr">6</xref>].</p><p>Today, environmental sustainability, alongside economic and performance metrics, is essential in the development of emerging photovoltaics. Life cycle assessment (LCA), a standardized environmental assessment method [<xref rid="gch270125-bib-0007" ref-type="bibr">7</xref>, <xref rid="gch270125-bib-0008" ref-type="bibr">8</xref>], is increasingly integrated into the research and development of PSC technologies. In this context, LCA aims to support eco‐design decisions and steer the development of environmentally conscious photovoltaics. This proactive application of LCA is expanding, reflected in a growing body of literature examining the environmental implications of various PSC configurations [<xref rid="gch270125-bib-0009" ref-type="bibr">9</xref>]. Several review articles have analyzed these studies [<xref rid="gch270125-bib-0009" ref-type="bibr">9</xref>, <xref rid="gch270125-bib-0010" ref-type="bibr">10</xref>, <xref rid="gch270125-bib-0011" ref-type="bibr">11</xref>, <xref rid="gch270125-bib-0012" ref-type="bibr">12</xref>], discussing the environmental implications and hotspots of PSC technologies and materials, comparing PSC environmental impacts with other emerging and commercial photovoltaics, and highlighting how the modeling choices—such as functional units and system boundaries—influence the results. One notable review attempted to compare findings by harmonizing modelling parameters through mathematical manipulation and excluding studies that did not align with their selected criteria [<xref rid="gch270125-bib-0011" ref-type="bibr">11</xref>]. This approach allows for rapid comparison without requiring access to life cycle inventory (LCI) data. While harmonizing LCA studies is important for identifying environmentally sustainable solutions, the approach used in this case is suboptimal. It relies solely on the reported environmental impacts without reproducing or critically evaluating the quality of the underlying data. Taken together, these reviews fall short of assessing the reliability of the inventories used in LCA models, instead assuming that the data are accurate and representative of real‐world conditions.</p><p>High‐quality LCI data are fundamental for drawing reliable conclusions from LCA models. In the domain of emerging technologies, it is common for LCA studies to rely on literature‐based data in constructing inventories due to the unavailability of primary data. This practice has led to several recurring observations, revealed by previous harmonization efforts of LCA studies on emerging carbon fiber production and recycling technologies [<xref rid="gch270125-bib-0013" ref-type="bibr">13</xref>]. For instance, (i) some works repeatedly cite and reproduce the inventory from a single earlier work; (ii) others reference studies that ultimately trace back to the same original source; and (iii) some use data from non‐LCA research without clearly explaining how the inventory was constructed. These practices create confusion and leave readers uncertain about the quality of the inventories—and, by extension, the reliability of the results and conclusions. Addressing these issues requires systematic evaluation of LCA studies on emerging product systems by mapping all published inventories, tracing their origins, assessing their quality, and identifying those that offer high detail and a reasonable representation of real‐world processes.</p><p>Here, we undertake such mapping based on the methodology introduced in a recent publication [<xref rid="gch270125-bib-0013" ref-type="bibr">13</xref>] and apply it to PSC, a key technology in the renewable energy transition. We start by conducting a systematic search identifying all available material inventories, including all chemicals, precursors, and solvents used across PSCs’ layers. PSC consists of five layers: front electrode, electron transport layer (ETL), perovskite absorber, hole transport layer (HTL), and back electrode [<xref rid="gch270125-bib-0014" ref-type="bibr">14</xref>]. We make a differentiation between constituting materials embodied in one of PSC five main layers, and those embodied in additional layers or as ancillary materials (e.g., solvents). We then reproduce all identified constituting materials inventories and evaluate their quality based on three criteria: data source, level of detail, and relative environmental impacts. Our aim is to shed light on the degree of data quality of inventories used as a basis for assessing the potential environmental impacts of PSC and support more robust assessments by guiding researchers toward the most reliable and representative inventories available.</p></sec><sec id="gch270125-sec-0020"><label>2</label><title>Results and Discussion</title><p>Our systematic search has revealed the existence of 98 reproducible inventories for 41 materials used across PSC main layers, additional layers, and as auxiliary materials, as shown in Table <xref rid="gch270125-tbl-0001" ref-type="table">1</xref>.</p><table-wrap position="float" id="gch270125-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Number of life cycle inventories available for the 41 materials used across perovskite solar cell layers.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">PSC Layer</th><th align="center" rowspan="1" colspan="1">Constituting Materials</th><th align="center" rowspan="1" colspan="1">Abbreviation</th><th align="center" rowspan="1" colspan="1">No. of LCIs</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Front Electrode</td><td align="center" rowspan="1" colspan="1">Fluorine doped tin oxide glass</td><td align="center" rowspan="1" colspan="1">FTO</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">ETL</td><td align="center" rowspan="1" colspan="1">Titanium dioxide</td><td align="center" rowspan="1" colspan="1">TiO<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">7</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Tin dioxide</td><td align="center" rowspan="1" colspan="1">SnO<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Phenyl‐C61‐butyric acid methyl ester</td><td align="center" rowspan="1" colspan="1">PCBM</td><td align="center" rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Zinc oxides</td><td align="center" rowspan="1" colspan="1">ZnO<sub>x</sub>
+</td><td align="center" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Barium lanthanum tin oxide</td><td align="center" rowspan="1" colspan="1">Ba<sub>0.95</sub>La<sub>0.05</sub>SnO<sub>3</sub> – LBSO</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">Perovskite</td><td align="center" rowspan="1" colspan="1">Methylammonium iodide</td><td align="center" rowspan="1" colspan="1">CH<sub>3</sub>NH<sub>3</sub>I—MAI</td><td align="center" rowspan="1" colspan="1">10</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Lead iodide</td><td align="center" rowspan="1" colspan="1">PbI<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">5‐ammonium valeric acid iodide</td><td align="center" rowspan="1" colspan="1">5‐AVAI</td><td align="center" rowspan="1" colspan="1">5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Formamidinium iodide</td><td align="center" rowspan="1" colspan="1">HC(NH<sub>2</sub>)<sub>2</sub>I—FAI</td><td align="center" rowspan="1" colspan="1">5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Lead bromide</td><td align="center" rowspan="1" colspan="1">PbBr<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Methylammonium bromide</td><td align="center" rowspan="1" colspan="1">CH<sub>3</sub>NH<sub>3</sub>Br – MABr</td><td align="center" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Tin iodide</td><td align="center" rowspan="1" colspan="1">SnI<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Lead chloride</td><td align="center" rowspan="1" colspan="1">PbCl<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Tin bromide</td><td align="center" rowspan="1" colspan="1">SnBr<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Cesium bromide</td><td align="center" rowspan="1" colspan="1">CsBr</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Cesium iodide</td><td align="center" rowspan="1" colspan="1">CsI</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">HTL</td><td align="center" rowspan="1" colspan="1">Nickel oxides</td><td align="center" rowspan="1" colspan="1">NiO<sub>x</sub>
+</td><td align="center" rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Poly(3,4‐ethylenedioxythiophene) polystyrene sulfonate</td><td align="center" rowspan="1" colspan="1">PEDOT:PSS</td><td align="center" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Poly(3‐hexylthiophene)</td><td align="center" rowspan="1" colspan="1">P3HT</td><td align="center" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">2,2′,7,7′‐Tetrakis(N,N‐di‐p‐methoxyphenylamine)‐9,9′‐spirobifluorene</td><td align="center" rowspan="1" colspan="1">Spiro‐OMeTAD</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Liquid Electrolyte (Lithium iodide)</td><td align="center" rowspan="1" colspan="1">LiI</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Zirconium dioxide</td><td align="center" rowspan="1" colspan="1">ZrO<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">Back Electrode</td><td align="center" rowspan="1" colspan="1">Silver</td><td align="center" rowspan="1" colspan="1">Ag</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Carbon</td><td align="center" rowspan="1" colspan="1">C</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Platinum</td><td align="center" rowspan="1" colspan="1">Pt</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">Additional Layer</td><td align="center" rowspan="1" colspan="1">Blocking layer‐ Titanium dioxide</td><td align="center" rowspan="1" colspan="1">BL‐TiO<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Titanium oxide nanorods</td><td align="center" rowspan="1" colspan="1">TIO<sub>2</sub> Nanorods</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bis‐C60</td><td align="center" rowspan="1" colspan="1">Bis‐C60</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td colspan="4" align="left" rowspan="1">Auxiliary Materials</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Nitrocellulose</td><td align="center" rowspan="1" colspan="1">(C<sub>6</sub>H<sub>7</sub>O<sub>2</sub>)(NO<sub>2</sub>)<sub>x</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Ethyl cellulose</td><td align="center" rowspan="1" colspan="1">[C<sub>6</sub>H<sub>7</sub>O<sub>2</sub>(OC<sub>2</sub>H<sub>5</sub>)<sub>3</sub>]<sub>n</sub>
+</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Terpineol</td><td align="center" rowspan="1" colspan="1">C<sub>10</sub>H<sub>18</sub>O</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">2‐(2‐butoxyethoxy) ethyl acetate</td><td align="center" rowspan="1" colspan="1">C<sub>10</sub>H<sub>2</sub>0O<sub>4</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Graphene</td><td align="center" rowspan="1" colspan="1">G</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Graphene quantum dots</td><td align="center" rowspan="1" colspan="1">GQDs</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Lithium bis(trifluoromethanesulfonyl)imide</td><td align="center" rowspan="1" colspan="1">LiTFSI</td><td align="center" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Molybdenum disulfide</td><td align="center" rowspan="1" colspan="1">MoS<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Hydrogen bis(trifluoromethanesulfonyl)imide</td><td align="center" rowspan="1" colspan="1">HNTf<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Dimethyl sulfoxide</td><td align="center" rowspan="1" colspan="1">DMSO</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">1,8‐Diiodooctane</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Reduced graphene oxide</td><td align="center" rowspan="1" colspan="1">rGO</td><td align="center" rowspan="1" colspan="1">1</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Initially, 79 inventories were identified for the 27 constituting materials used across the PSC five main layers, see Table <xref rid="gch270125-tbl-0001" ref-type="table">1</xref>. However, upon closer examination, 11 of these inventories were found to be duplicates and were therefore not presented in Figure <xref rid="gch270125-fig-0001" ref-type="fig">1</xref>. The duplicates are as follows:
+<list list-type="bullet" id="gch270125-list-0001"><list-item><p>All inventories from Li et al. [<xref rid="gch270125-bib-0015" ref-type="bibr">15</xref>] (covering 5‐AVAI, MAI, P3HT, PbI<sub>2</sub>, PCBM, PEDOT:PSS) were duplicates of those from Li et al. [<xref rid="gch270125-bib-0016" ref-type="bibr">16</xref>].</p></list-item><list-item><p>The inventories for PbI<sub>2</sub> from Li et al. [<xref rid="gch270125-bib-0016" ref-type="bibr">16</xref>] and Khalifa et al. [<xref rid="gch270125-bib-0017" ref-type="bibr">17</xref>] were duplicates of Gong et al. [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>].</p></list-item><list-item><p>The inventory for TiO<sub>2</sub> from Serrano‐Luján et al. [<xref rid="gch270125-bib-0019" ref-type="bibr">19</xref>] duplicated that of Espinosa et al. [<xref rid="gch270125-bib-0020" ref-type="bibr">20</xref>].</p></list-item><list-item><p>Inventories for 5‐AVAI from Singh et al. [<xref rid="gch270125-bib-0021" ref-type="bibr">21</xref>], and Li et al. [<xref rid="gch270125-bib-0016" ref-type="bibr">16</xref>] were duplicates of Alberola‐Borras et al. [<xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>].</p></list-item></list>
+</p><fig position="float" fig-type="FIGURE" id="gch270125-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>A box and whiskers plot illustrating the climate change impact, freshwater ecotoxicity, human carcinogenic toxicity, and human non‐carcinogenic toxicity for 27 perovskite solar cell materials identified based on the 63 unique inventories selected according to EF 3.1 life cycle impact assessment method.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="GCH2-10-e70125-g003.jpg"><?image-name GCH2-10-e70125-g003.jpg?><?image-size 48738?><?image-md5 a5c97cb5f18daf45cf24abcd029be774?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 748?><?image-original-width 820?><?image-scaled-height 498?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/6d54/13425629/a5c97cb5f18d/GCH2-10-e70125-g003.jpg?><?thumb-name GCH2-10-e70125-g003.gif?><?thumb-size 5440?><?thumb-md5 445298716acf773b44df88ed53141265?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 91?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/6d54/13425629/445298716acf/GCH2-10-e70125-g003.gif?></graphic></fig><p>After removing these duplicate entries, 68 distinct inventories remained. These are presented in Figure <xref rid="gch270125-fig-0001" ref-type="fig">1</xref> and discussed in this section. Notably, some inventories were based on previously identified inventories (see Table <xref rid="gch270125-supinfo-0001" ref-type="">S3</xref>), but the authors made modifications that resulted in different environmental impacts. These modified inventories are included in Figure <xref rid="gch270125-fig-0001" ref-type="fig">1</xref>.</p><sec id="gch270125-sec-0030"><label>2.1</label><title>Environmental Impacts</title><p>Figure <xref rid="gch270125-fig-0001" ref-type="fig">1</xref> presents the environmental impacts of 27 constituting materials embedded in one of the five main layers of PSCs: the front electrode, ETL, perovskite absorber, HTL, and back electrode. These environmental impacts are based on 68 unique inventories and are reported for four impact categories:
+<list list-type="bullet" id="gch270125-list-0002"><list-item><p>Climate Change Impact (CCI)</p></list-item><list-item><p>Freshwater Ecotoxicity (FE)</p></list-item><list-item><p>Water Use (WU)</p></list-item><list-item><p>Land Use (LU)</p></list-item></list>
+</p><p>These four impact categories aim to adequately represent the environmental challenges most relevant to photovoltaics, spanning climate, ecosystem, and natural resources.</p><p>The environmental impacts of all 41 materials, including auxiliary materials and those used in additional layers, across the full set of 16 impact categories are provided in Table <xref rid="gch270125-supinfo-0001" ref-type="">S4</xref>.</p><p>The environmental impacts of 11 of the identified PSC materials (i.e., FTO, Electrolyte, LBSO, SnI<sub>2</sub>, SnBr<sub>2</sub>, SnO<sub>2</sub>, CsBr, Carbon, ZrO2, Bis‐C60, and Platinum) have been reported in only one inventory each, while 16 materials (i.e., MAI, PbI<sub>2</sub>, FAI, 5‐AVAI, TIO<sub>2</sub>, CsI, PCBM, PEDOT:PSS, Spiro‐OMeTAD, MABr, PbCl<sub>2</sub>, PbBr<sub>2</sub>, P3HT, Silver, NiO<sub>x</sub>, and ZnO) are represented by two or more inventories from different research articles. The CCIs of the 11 materials vary significantly, ranging from 0.49 kg CO<sub>2</sub>‐eq for FTO to approximately 22 000 kg CO<sub>2</sub>‐eq for platinum.</p><p>At first glance, this variation suggests that PSC materials can have either low or high carbon footprints, substantially influencing the overall environmental impact of PSCs themselves. However, upon closer examination of the environmental impacts resulting from these inventories, we start to question their reliability. For example, we were able to verify whether the replicated CCI values matched the originals for two materials: FTO and LBSO. This was possible because these articles reported the original CCI values per kilogram of material. For FTO, the original research reports 1.33 kg CO<sub>2</sub>‐eq per kg [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>], nearly three times higher than our result (0.49 kg CO<sub>2</sub>‐eq). This discrepancy stems from omitting to report the specific ecoinvent datasets used in the original study. In contrast, our calculated CCI for LBSO (7.75 kg CO<sub>2</sub>‐eq) closely aligns with the original value of 7.71 [<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>] kg CO<sub>2</sub>‐eq.</p><p>These comparisons highlight two important points: first, the necessity of transparent and detailed reporting to ensure reproducibility (a topic discussed in the following section), and second, the questionable accuracy of reproduced values for the remaining materials due to insufficient means of verification.</p><p>Turning to the 16 materials with multiple data sources, we observed substantial variation in reported CCIs across different inventories. A notable example is MAI (Figure <xref rid="gch270125-fig-0002" ref-type="fig">2</xref>), a key component of the perovskite absorber layer, for which we found ten different inventories; nine of which are from distinct sources or have been modified by the authors. Reported CCIs for MAI range from as low as 0.04 kg CO<sub>2</sub>‐eq to as high as 1,842 kg CO<sub>2</sub>‐eq per kg of MAI. The lowest value corresponds to an inventory where only 0.01 kg of input materials is claimed to produce 1 kg of output, while the highest value results from an inventory that assumes roughly 5 MWh of electricity consumption to yield just 1 kg of MAI. Within this wide range, three inventories report impacts around 100 kg CO<sub>2</sub>‐eq per kg of MAI, all of which are based on the work of Gong et al. [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>].</p><fig position="float" fig-type="FIGURE" id="gch270125-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Climate change impacts of nine perovskite solar cell materials based on 36 inventories in relation to the level of detail of their inventories.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="GCH2-10-e70125-g002.jpg"><?image-name GCH2-10-e70125-g002.jpg?><?image-size 25833?><?image-md5 726a3fdec8ed85036a6814bff2d480dd?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 694?><?image-original-width 820?><?image-scaled-height 462?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/6d54/13425629/726a3fdec8ed/GCH2-10-e70125-g002.jpg?><?thumb-name GCH2-10-e70125-g002.gif?><?thumb-size 4249?><?thumb-md5 fcfcc22d0d4505e1172add1c2d9ba2c4?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 85?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/6d54/13425629/fcfcc22d0d45/GCH2-10-e70125-g002.gif?></graphic></fig><p>Similar inconsistencies appear with other materials. For instance, reported CCIs for FAI range from 10 to nearly 54 000 kg CO<sub>2</sub>‐eq per kg (Figure <xref rid="gch270125-fig-0002" ref-type="fig">2</xref>). The upper‐end value is based on an inventory that uses tons of raw materials and megawatts of electricity to produce 1 kg of FAI. This may be due to inventories created at the lab scale or possibly due to reporting errors, such as confusing the production of 1 ton with that of 1 kg. These extreme values often come from two specific research articles [<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>], both of which report unusually large quantities of input materials.</p><p>Even when inventories are based on earlier studies, their results often differ from those studies. For example, one inventory reports the CCI of NiOx as 55 kg CO<sub>2</sub>‐eq, while another inventory citing it reports just 1 kg CO<sub>2</sub>‐eq (Figure <xref rid="gch270125-fig-0002" ref-type="fig">2</xref>). This discrepancy arises because the original inventory includes 82.8 kg of nickel metal, whereas the dependent inventory mistakenly uses 0.828 kg, likely due to a copying or unit conversion error.</p><p>Moreover, large differences also exist between materials inventories dependent on different sources, even in the absence of extreme input/output assumptions. For instance, Spiro‐OMeTAD has CCIs of 73 and 616 kg CO<sub>2</sub>‐eq; TiO<sub>2</sub> ranges from 2.6 to 34.2 kg CO<sub>2</sub>‐eq; and 5‐AVAI has impacts of 5 and 69 kg CO<sub>2</sub>‐eq per kg (Figure <xref rid="gch270125-fig-0002" ref-type="fig">2</xref>). This wide variation in the environmental impacts of the same material across different articles is evident for most PSC materials, as exemplified in Figure <xref rid="gch270125-fig-0002" ref-type="fig">2</xref> for CCI, although the extent of the variation differs.</p><p>Although this work sets out to identify the most reliable data, the overall lack of transparency has severely limited the ability to do so. We therefore recommend using the most detailed inventories as a starting point (i.e., those with a high number of inventory flows) for developing more transparent versions that can be independently examined by other researchers (Table <xref rid="gch270125-supinfo-0001" ref-type="">S3</xref>). To support this, we outline the reporting items that should be communicated. As it stands, most existing LCAs of PSCs are open to criticism due to their reliance on questionable material inventories.</p><p>We do not discuss every variation observed across all impact results shown in Figures <xref rid="gch270125-fig-0001" ref-type="fig">1</xref> and <xref rid="gch270125-fig-0002" ref-type="fig">2</xref>, as these variations arise from differences in the data used to construct the inventories, particularly the level of detail and the system boundaries. Other potential sources of variation were controlled through remodeling with consistent parameters, including the functional unit, LCIA method, and LCI database. This means that when consistent values do appear, they usually trace back to a shared original source. The overall lack of transparency in inventory construction severely limits further analysis aimed at identifying the original drivers of this variation. A simple explanation of this situation is that these inventories often belong to the background system of perovskite solar cell LCAs, whereas the studies typically focus on detailing the fabrication of the solar cell and the construction of its foreground inventory, rather than on the background system. Therefore, the discussion in the subsequent section focuses on identifying reproducibility constraints rather than variability sources.</p></sec><sec id="gch270125-sec-0040"><label>2.2</label><title>Steps for Reproducible Inventories</title><p>Focusing on the 18 studies that did include one or more materials inventories (see Table <xref rid="gch270125-tbl-0002" ref-type="table">2</xref>), we found the following gaps:
+<list list-type="bullet" id="gch270125-list-0003"><list-item><p>1 study (5%) did not report which LCI database was used.</p></list-item><list-item><p>9 studies (50%) did not specify the version of the LCI database.</p></list-item><list-item><p>10 studies (55%) did not identify the exact datasets used to model the inventory flows.</p></list-item><list-item><p>All 18 studies (100%) reported the life cycle impact assessment (LCIA) method used.</p></list-item><list-item><p>13 studies (72%) did not indicate the version of that method.</p></list-item><list-item><p>15 studies (83%) did not report LCIA results for 1 kg of material.</p></list-item></list>
+</p><table-wrap position="float" id="gch270125-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>The reporting of the six reproducibility elements within the 18 research articles containing materials inventories.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Refs.</th><th align="center" rowspan="1" colspan="1">Database</th><th align="center" rowspan="1" colspan="1">Database version</th><th align="center" rowspan="1" colspan="1">Datasets reported</th><th align="center" rowspan="1" colspan="1">LCIA method</th><th align="center" rowspan="1" colspan="1">LCIA method version</th><th align="center" rowspan="1" colspan="1">LCIA results for 1 kg of material</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0020" ref-type="bibr">20</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0019" ref-type="bibr">19</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0026" ref-type="bibr">26</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0027" ref-type="bibr">27</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0028" ref-type="bibr">28</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0017" ref-type="bibr">17</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0029" ref-type="bibr">29</xref>]</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0030" ref-type="bibr">30</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0016" ref-type="bibr">16</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0021" ref-type="bibr">21</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0015" ref-type="bibr">15</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✗</td></tr><tr><td align="left" rowspan="1" colspan="1">[<xref rid="gch270125-bib-0032" ref-type="bibr">32</xref>]</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✓</td><td align="center" rowspan="1" colspan="1">✗</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>As a result, only 6 studies reported all of the following: the materials inventory, the LCI database and its version, the LCIA method, and the datasets used. Notably, in studies that did report the datasets used, this was done inconsistently; the dataset for some flows was documented, while others were not. Among these 6 studies, only 2 reported the version of the LCIA method used. On the other hand, just 3 studies provided LCIA results for 1 kg of each PSC constituent material for which an inventory was built. Only one study reported all six elements necessary for full reproduction of results [<xref rid="gch270125-bib-0017" ref-type="bibr">17</xref>]. Reporting LCIA results in this manner is critical as it allows verification that the reproducible results match the original results.</p><p>A reproducible LCA study requires several items to be reported, as identified in a previous research on harmonizing carbon fiber production and recycling technologies [<xref rid="gch270125-bib-0013" ref-type="bibr">13</xref>]. These elements included:
+<list list-type="order" id="gch270125-list-0004"><list-item><p>The functional unit.</p></list-item><list-item><p>The reference flow.</p></list-item><list-item><p>The LCIA method.</p></list-item><list-item><p>The LCI database.</p></list-item><list-item><p>The full dataset's name and geography.</p></list-item></list>
+</p><p>We expand this list to include:
+<list list-type="order" id="gch270125-list-0005"><list-item><p>The version of the LCI database.</p></list-item><list-item><p>The version of the LCIA method.</p></list-item><list-item><p>The LCIA results for 1 kg, 1 g, or 1 unit of each constituent material/component.</p></list-item></list>
+</p><p>During our review of published LCA studies on PSC, aimed at extracting and reproducing material inventories, we found that many of these essential items were often missing. A total of 39 published studies were identified that performed LCA on PSCs. Of these, 87% (34 studies) shared inventory data, but only 46% (18 studies) included detailed materials inventories. This is significant because PSCs rely on advanced, complex, and specialized chemicals that are not represented in standard LCI databases. Therefore, the reproducibility of PSC‐related LCAs depends heavily on the availability and transparency of the materials inventories used.</p><p>A transparent LCA study not only requires reporting elements that ensure reproducibility but also a clear and systematic explanation of the modelling choices, such as the selection of the functional unit, definition of system boundaries, and other modelling assumptions. In this research, we observed that the methods used to construct PSC inventories are rarely communicated in detail. While researchers often cite materials science papers describing the synthesis procedures of specific materials, they typically do not explain how these procedures were translated into LCIs. In some cases, references include chemical formulas, laboratory protocols, and patents, but the process of integrating these inputs into a coherent, structured inventory is generally not well documented. In addition to this gap, essential characteristics of inventories are often missing. These include the technology scale (e.g., lab‐scale, pilot‐scale, or industrial‐scale) and material properties relevant to each material inventory. Notably, while LCA practitioners studying PSC configurations almost always report the technology scale and efficiency of the solar cell, they frequently rely on secondary data to model both the solar cell and its constituent materials (Table <xref rid="gch270125-supinfo-0001" ref-type="">S2</xref>). This creates a disconnect: the materials used in each PSC layer must meet specific property requirements to achieve the reported efficiency. Therefore, for transparent construction of PSC materials inventories that lead to credible LCA conclusions, researchers should report:
+<list list-type="order" id="gch270125-list-0006"><list-item><p>How the inventories were constructed</p></list-item><list-item><p>The technology scale, not only for the solar cell but also for its materials</p></list-item><list-item><p>The relevant properties of PSC materials.</p></list-item></list>
+</p><p>These details are essential for aligning material inventories with realistic device performance and ensuring the credibility and transparency of the LCA studies.</p></sec></sec><sec id="gch270125-sec-0050"><label>3</label><title>Conclusions</title><p>In this work, we conducted a systematic search to gather all available LCIs for the materials that constitute PSCs. Our goal was to support future LCAs in the PSC field by identifying and recommending the most reliable available data. To achieve this, we initially examined each inventory based on three key aspects: the technology scale, material properties, and type of data used. Our intention was to prioritize inventories developed at an industrial scale using primary data sources. However, we found that documentation regarding these aspects was often lacking. This appears to be due to researchers assigning less importance to background materials in their assessments (i.e., those materials that are not directly under investigation but are part of the PSC background system).</p><p>As a result, we were compelled to evaluate the quality of these inventories through alternative means. Specifically, we conducted mass balance tests, traced the data sources, assessed the level of detail in each inventory, and reproduced the environmental impact calculations to verify the reported results and compare impacts from different sources. Our findings revealed that all identified inventories were based on secondary data, such as technical publications, patents, and, in some cases, previously published LCAs. Most inventories failed the mass balance test. While some inventories were highly detailed, containing up to 50 process flows, others modelling the same materials included fewer than 10, indicating significant variability in comprehensiveness.</p><p>In reproducing the CCI values, we harmonized the inventories by removing contributions from transportation, infrastructure, and deposition‐related processes. This revealed that inventories for the same material only produced similar results when they originated from the same source. Inventories based on different sources often showed major discrepancies in environmental impact, with differences reaching several orders of magnitude in some cases. These inconsistencies have made it difficult for us to confidently recommend a single inventory to be adopted as is. Instead, we recommend using highly detailed inventories (i.e., those with a high number of inventory flows) as a starting point for developing more complete and transparent inventories that can be independently examined by other researchers.</p><p>To support this goal, we also outline eleven reporting items for future inventories to improve transparency, enable effective verification and validation of reproductions, and facilitate cumulative progress.</p></sec><sec id="gch270125-sec-0060"><label>4</label><title>Experimental</title><p>Following the methodology introduced in a recent publication [<xref rid="gch270125-bib-0013" ref-type="bibr">13</xref>], we map published inventories by first defining the investigated product system. Next, we identify PSC LCA publications that report inventories using Scopus, an academic research database (Table <xref rid="gch270125-supinfo-0001" ref-type="">S1</xref>). We then summarize key information regarding the study's research questions and modeling parameters, as well as the PSC architecture and materials, and screen them to only retain those that provide LCIs of PSC materials (Table <xref rid="gch270125-supinfo-0001" ref-type="">S2</xref>). Subsequently, we harmonized the goal and scope and remodeled the selected materials inventories. This harmonization aligns the functional units, system boundaries, and the life cycle impact assessment method and database. It also standardizes inventory modeling by using consistent datasets for shared flows.</p><sec id="gch270125-sec-0070"><label>4.1</label><title>Investigated Product Systems</title><p>The material selection is influenced by the PSC structure, which is categorized as either normal (n‐i‐p) or inverted (p‐i‐n). For example, p‐i‐n architectures allow the use of water‐based p‐type materials directly on the substrate—an option not feasible in n‐i‐p designs due to the perovskite layer's sensitivity to humidity and oxygen [<xref rid="gch270125-bib-0033" ref-type="bibr">33</xref>, <xref rid="gch270125-bib-0034" ref-type="bibr">34</xref>].</p><p>Each PSC layer has a precise role in the process of converting the absorbed light into electricity. Sunlight penetrates the transparent conductive glass substrate as well as the electron transport layer in the case of a conventional n‐i‐p structure to be absorbed by the perovskite layer. Next, the perovskite material efficiently harvests solar photons by generating photoexcited charges. Subsequently, charge separation and transference occur by diffusion of the free electrons through the perovskite layer, thanks to its high charge carrier mobility and extraction by the electron transport layer; at the same time, the free holes are extracted by the hole transport layer. Finally, both the back electrode and the transparent electrode collect the separated charges and transfer them through an external circuit, thus generating electricity [<xref rid="gch270125-bib-0035" ref-type="bibr">35</xref>, <xref rid="gch270125-bib-0036" ref-type="bibr">36</xref>].</p></sec><sec id="gch270125-sec-0080"><label>4.2</label><title>Articles Selection and Life Cycle Inventories Screening</title><p>To identify and collect LCI data on the materials of PSCs, a search was conducted in the Scopus database on February 24, 2025. The following keywords were used: “life cycle assessment” OR “life cycle analysis” OR “environmental impact*” AND “perovskite solar cell*”. This search returned a total of 203 publications, which are listed in Table <xref rid="gch270125-supinfo-0001" ref-type="">S1</xref>.</p><p>Out of the 203 publications, 57 studies performed an LCA related to PSCs. 18 were excluded for the following reasons: focus on tandem solar cells [<xref rid="gch270125-bib-0037" ref-type="bibr">37</xref>, <xref rid="gch270125-bib-0038" ref-type="bibr">38</xref>, <xref rid="gch270125-bib-0039" ref-type="bibr">39</xref>, <xref rid="gch270125-bib-0040" ref-type="bibr">40</xref>], PSC recycling [<xref rid="gch270125-bib-0041" ref-type="bibr">41</xref>, <xref rid="gch270125-bib-0042" ref-type="bibr">42</xref>, <xref rid="gch270125-bib-0043" ref-type="bibr">43</xref>], specific aspects of PSC production (e.g. solvents, electrodes [<xref rid="gch270125-bib-0044" ref-type="bibr">44</xref>, <xref rid="gch270125-bib-0045" ref-type="bibr">45</xref>], perovskite inks [<xref rid="gch270125-bib-0046" ref-type="bibr">46</xref>], etc. [<xref rid="gch270125-bib-0047" ref-type="bibr">47</xref>, <xref rid="gch270125-bib-0048" ref-type="bibr">48</xref>].), reproduction of previous LCAs [<xref rid="gch270125-bib-0049" ref-type="bibr">49</xref>, <xref rid="gch270125-bib-0050" ref-type="bibr">50</xref>], or inadequate description of the LCA method.</p><p>Of the remaining 39 studies, 35 studies reported LCI data. Of these, 16 studies were excluded because they provided inventories only for entire PSC configurations rather than for individual materials. The remaining 18 studies, which reported LCIs for specific materials (e.g., chemicals and solvents) used in PSC fabrication, were included. These yielded a total of 101 individual materials inventories, listed in Table <xref rid="gch270125-supinfo-0001" ref-type="">S3</xref>. These inventories cover a wide range of materials, which are used across the various layers of PSCs. Table <xref rid="gch270125-tbl-0001" ref-type="table">1</xref> categorizes the number of LCIs available for each material by its corresponding PSC layer.</p><p>The 101 materials LCIs were selected based on a screening process that excluded inventories reporting input/output flows solely in terms of surface area or volume, without accompanying data to convert these to mass‐based units. Such inventories were excluded because (i) their flows are specific to the deposition methods used and therefore lack generalizability, and (ii) they cannot be harmonized or meaningfully compared due to inconsistencies in reporting formats. As a result, many inventories related to fluorine‐doped tin oxide glass (FTO) have been excluded as their output was expressed in terms of surface area [<xref rid="gch270125-bib-0019" ref-type="bibr">19</xref>, <xref rid="gch270125-bib-0020" ref-type="bibr">20</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]. The only available inventory of indium‐doped tin oxide glass (ITO) was also excluded [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]. Additionally, the materials inventories from Celik et al. (2016) [<xref rid="gch270125-bib-0051" ref-type="bibr">51</xref>] were excluded as they have reported inputs/outputs in units relative to the cell's surface area, without reporting the main product output (i.e., the material) that permits normalization to mass‐based units. Ultimately, only LCIs that provided output data in mass units for PSC constituent materials were retained.</p><p>Table <xref rid="gch270125-supinfo-0001" ref-type="">S3</xref> summarizes the selected inventories, detailing their data sources, level of detail, and mass balance test results. The data sources help identify the origin of each inventory, checking for shared citations, whether they reference other inventories listed in the table, and whether the sources are based on experimental PSC fabrication or drawn from LCA studies on PSCs or related systems. We have extended the methodology introduced in a past publication on carbon fibers by including [<xref rid="gch270125-bib-0013" ref-type="bibr">13</xref>] (i) the level of detail, measured by the number of input/output flows, indicates how comprehensive each inventory is; and (ii) the mass balance test assesses inventory completeness by verifying whether total inputs match the total outputs. The mass balance test is a well‐established and widely applied method in the LCA field, ensuring that all flows, including dissipative flows [<xref rid="gch270125-bib-0052" ref-type="bibr">52</xref>], are accounted for.</p><p>An additional screening process was carried out before reproduction to keep only inventories of constituting materials. Out of 101 inventories, 23 inventories correspond to 11 auxiliary materials, and 3 additional layers were excluded, leaving 78 inventories of 27 PSC constituent materials, as reported in Table <xref rid="gch270125-tbl-0001" ref-type="table">1</xref>. During the reproduction process, three inventories could not be reproduced and had to be excluded because they contained material flows not represented in the ecoinvent database. Additionally, the authors did not provide the inventories for those flows or explain how they were modeled. The excluded inventories were: Poly[bis(4‐phenyl)(2,4,6‐trimethylphenyl)amine] (PTAA) [<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>], Black phosphorus [<xref rid="gch270125-bib-0032" ref-type="bibr">32</xref>], and TNT film [<xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>]. This brings the total number of reproduced inventories down from 101 to 98 for 41 materials.</p></sec><sec id="gch270125-sec-0090"><label>4.3</label><title>Goal and Scope Harmonization</title><sec id="gch270125-sec-0100"><label>4.3.1</label><title>The Aim of the Study</title><p>This work sets out to investigate the reliability and quality of PSC materials inventories, with the aim of identifying and recommending those that provide the best data available. Initially, we sought to determine the most reliable inventory for each material based on two main criteria: the data sources and the technological scale of production, with preference given to inventories based on primary data at an industrial scale. However, as shown in Table <xref rid="gch270125-supinfo-0001" ref-type="">S3</xref>, all available inventories rely predominantly on secondary data. Furthermore, while most studies report the technology scale of the solar cell itself (see Table <xref rid="gch270125-supinfo-0001" ref-type="">S2</xref>), they seldom communicate the production scale of the individual materials. Considering these limitations, we replicated the environmental impact results of all identified PSC materials, as listed in Table <xref rid="gch270125-tbl-0001" ref-type="table">1</xref>. For materials with multiple inventories, we graphed their environmental impacts using multiple data points. We then observed the distribution of environmental impacts for each material based on the inventory's level of detail. This permitted us to demonstrate the quality of materials inventories available and used in the LCAs of PSCs, and discuss necessary actions for improving the construction of inventories.</p></sec><sec id="gch270125-sec-0110"><label>4.3.2</label><title>Functional Unit</title><p>A mass‐based functional unit of 1 kg is used for each material assessed. This assumes that all inventories for a given material (e.g., FTO) yield functionally equivalent outputs suitable for use in PSCs. This simplification is necessary because existing LCAs do not report detailed material properties relevant to PSC performance.</p></sec><sec id="gch270125-sec-0120"><label>4.3.3</label><title>System Boundaries</title><p>A cradle‐to‐gate analysis is conducted, focusing solely on the environmental impacts associated with raw material extraction and production processes of the constituent materials. This excludes the assessment of some of the materials which are synthesized in situ on the substrate, typically by mixing precursor chemicals, such as methylammonium lead iodide and other perovskite material compositions. Only the production of these precursors is included, which we have termed constituent materials. This choice has been made, as synthesizing materials in situ follows laboratory protocols that change from one research to another, and is not in correspondence to our research goal of shedding light on the quality of data used in the background system of assessing PSC configurations.</p></sec><sec id="gch270125-sec-0130"><label>4.3.4</label><title>Life Cycle Impact Assessment Method and Database</title><p>The life cycle impact assessment was performed using the environmental footprint (EF) method 3.1, with Cumulative Energy Demand (CED) included as an additional metric. EF [<xref rid="gch270125-bib-0053" ref-type="bibr">53</xref>], an LCIA method regularly updated by the European Commission, bases its toxicity impact categories on the USEtox 2.1 model [<xref rid="gch270125-bib-0054" ref-type="bibr">54</xref>]. USEtox is widely recognized as the most reliable model for assessing toxicity‐related impacts in LCIA due to its broad scientific consensus and updated characterization factors for both chemicals and metals. Among these, lead is a key metal of concern in the development of lead halide PSCs [<xref rid="gch270125-bib-0055" ref-type="bibr">55</xref>]. CED is particularly relevant for evaluating emerging photovoltaic technologies due to its focus on energy use across the life cycle. The model was based on the ecoinvent 3.11 cut‐off database [<xref rid="gch270125-bib-0056" ref-type="bibr">56</xref>], and calculations were carried out in Microsoft Excel.</p></sec></sec><sec id="gch270125-sec-0140"><label>4.4</label><title>Life Cycle Inventory Harmonization</title><sec id="gch270125-sec-0150"><label>4.4.1</label><title>Foreground Data Inventory</title><p>The foreground system includes all processes and flows necessary for producing the constituent materials of PSCs. This encompasses both material and energy flows, regardless of whether the materials are physically incorporated into the final product. However, it excludes flows related to the deposition method, transportation, and infrastructure. Deposition processes are excluded because they vary across studies, depending on the specific deposition technique and the targeted material composition [<xref rid="gch270125-bib-0057" ref-type="bibr">57</xref>]. Transportation and infrastructure processes are also excluded, as only one study considered transportation [<xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>] and just four addressed infrastructure [<xref rid="gch270125-bib-0015" ref-type="bibr">15</xref>, <xref rid="gch270125-bib-0016" ref-type="bibr">16</xref>, <xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>, <xref rid="gch270125-bib-0026" ref-type="bibr">26</xref>]. Due to this inconsistency in reporting, their exclusion helps ensure a more uniform system boundary across all materials. All input and output flows are linked to background processes using LCI databases, specifically ecoinvent in this study.</p></sec><sec id="gch270125-sec-0160"><label>4.4.2</label><title>Background Data Selection</title><p>Background data refers to data points not specific to the investigated product output, often shared across many products and sectors. Examples include water, electricity, and common materials. In this study, background data is sourced from ecoinvent, a leading LCI database. The selection of background processes has been harmonized across the reproduced inventories. Flows of the same nature—such as electricity and tap water—are modelled using the same datasets from the European geography, removing any geographical inconsistencies in the original model. In many cases, inventories did not specify which ecoinvent datasets were used, which undermines reproducibility, see Table <xref rid="gch270125-tbl-0002" ref-type="table">2</xref>. For these instances, the most appropriate dataset was selected based on the input/output descriptions and knowledge obtained from modelling inventories that specified the ecoinvent datasets used. The reproduced inventories are reshared along with all ecoinvent datasets used in Table <xref rid="gch270125-supinfo-0001" ref-type="">S5</xref>, in our effort to allow research continuity and permit data remodeling and refinement.</p><p>Proxy datasets were used for five background flows that were not represented in the ecoinvent database and for which no inventory data were provided by the original studies. One article [<xref rid="gch270125-bib-0027" ref-type="bibr">27</xref>] mentioned using a lithium carbonate dataset as a proxy for cesium carbonate; accordingly, in this reproduction, we use the dataset “market for lithium carbonate | GLO.” Another article has used spodumene as a proxy for Pollucite Ore [<xref rid="gch270125-bib-0017" ref-type="bibr">17</xref>]. In this reproduction, we used “market for spodumene | GLO”. The other studies did not specify which proxies were used. Therefore, the following substitutions were made:
+<list list-type="bullet" id="gch270125-list-0007"><list-item><p>Chloromethane [<xref rid="gch270125-bib-0029" ref-type="bibr">29</xref>]: “market for dichloromethane | RER”</p></list-item><list-item><p>Hydroxypropyl cellulose [<xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>]: “market for carboxymethyl cellulose, powder,” as an alternative cellulose‐based dispersing agent</p></list-item><list-item><p>Chloride [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]: “market for sodium chloride, brine solution | GLO”</p></list-item><list-item><p>Potassium iodate [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]: “market for potassium hydroxide | GLO”</p></list-item><list-item><p>Liquid hydrogen [<xref rid="gch270125-bib-0015" ref-type="bibr">15</xref>, <xref rid="gch270125-bib-0016" ref-type="bibr">16</xref>, <xref rid="gch270125-bib-0021" ref-type="bibr">21</xref>, <xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>]: “hydrogen production, gaseous, petroleum refinery operation | Europe without Switzerland,” with the reported quantity multiplied by 8.19 (as 1 kg of liquid hydrogen is equivalent to 8.19 kg of hydrogen gas at low pressure)</p></list-item><list-item><p>Nitrogen gas [<xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>, <xref rid="gch270125-bib-0027" ref-type="bibr">27</xref>, <xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>]: “market for nitrogen, liquid | RER” with the reported quantity divided by 1.235 (as 1 kg of liquid nitrogen gives 1.235 kg of nitrogen gas at standard temperature and pressure)</p></list-item><list-item><p>Hydrogen bromide, emission to water [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]: “Bromide | Emission to water | unspecified”</p></list-item><list-item><p>Ammonium chloride, emission to water [<xref rid="gch270125-bib-0029" ref-type="bibr">29</xref>]: “Chloride | Emission to water | unspecified”</p></list-item><list-item><p>Aluminum oxide, emission to water [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]: “Aluminium hydroxide | Emission to water | unspecified”</p></list-item><list-item><p>Iron chloride, emission to water [<xref rid="gch270125-bib-0020" ref-type="bibr">20</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]: “Chloride | Emission to water | unspecified”</p></list-item><list-item><p>Naphtha, emission to air [<xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>]: “Naphthalene | Emission to air | unspecified”</p></list-item><list-item><p>Potassium acetate, emission to water [<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>]: “Acetic acid | Emission to water | unspecified”</p></list-item><list-item><p>Ethylene glycol monomethyl ether, emission to water [<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>]: “Ethylene glycol monoethyl ether | Emission to water | unspecified”</p></list-item><list-item><p>Potassium iodate, emission to air [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]: “Iodine | Emission to air | unspecified.”</p></list-item><list-item><p>Potassium nitrate, emission to air [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>, <xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]: “Nitrate | Emission to air | unspecified.”</p></list-item><list-item><p>Potassium sulfide, emission to air [<xref rid="gch270125-bib-0023" ref-type="bibr">23</xref>]: “Hydrogen sulfide | Emission to air | unspecified.”</p></list-item><list-item><p>Sodium nitrate, emission to air [<xref rid="gch270125-bib-0020" ref-type="bibr">20</xref>]: “Nitrate | Emission to air | unspecified.”</p></list-item><list-item><p>2‐Chloronitrobenzene, emission to air [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]: “Nitrobenzene | Emission to air | unspecified” and “o‐Dichlorobenzene | Emission to air | unspecified”</p></list-item></list>
+</p><p>Given the complexity of the constituent materials used in PSCs, it was often the case that some material flows were not represented in existing LCI databases. In such cases, the authors of the original studies constructed inventories for these missing flows themselves. As a result, many material inventories relied on sub‐inventories that were developed within the same articles. However, some studies did not provide these sub‐inventories or explain how the missing flows were modelled. In our analysis, when such sub‐inventories were available from other studies in our dataset, we used them to fill in the gaps. Specifically:
+<list list-type="bullet" id="gch270125-list-0008"><list-item><p>Terpineol, used as a component in the LCIs for titanium oxide [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>], zirconium oxide [<xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>], and carbon paste [<xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>]: We used the inventory for terpineol developed by Alberola‐Borras et al. [<xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>]</p></list-item><list-item><p>Potassium iodide, a flow in the LCIs for lead iodide [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>, <xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>] and Spiro‐OMeTAD [<xref rid="gch270125-bib-0018" ref-type="bibr">18</xref>]: We used the potassium iodide inventory from Zhang et al. [<xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>]</p></list-item><list-item><p>Lead nitrate, used in the LCIs for lead bromide [<xref rid="gch270125-bib-0027" ref-type="bibr">27</xref>, <xref rid="gch270125-bib-0029" ref-type="bibr">29</xref>]: We used the lead nitrate inventory from Zhang et al. [<xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>]</p></list-item><list-item><p>Ethyl cellulose, a flow in the carbon paste inventory [<xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>]: We used the inventory developed by Alberola‐Borras et al. [<xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>]</p></list-item></list>
+</p><p>Several anomalies were encountered during the reproduction of the inventories. Some inventories failed to specify the unit for one or more of their inventory flows [<xref rid="gch270125-bib-0017" ref-type="bibr">17</xref>, <xref rid="gch270125-bib-0019" ref-type="bibr">19</xref>, <xref rid="gch270125-bib-0025" ref-type="bibr">25</xref>, <xref rid="gch270125-bib-0031" ref-type="bibr">31</xref>]. In these cases, the missing units were assumed to be in kg. Additionally, one inventory used undefined units such as “KOTA” and “KITM”[<xref rid="gch270125-bib-0034" ref-type="bibr">34</xref>]. These units were also assumed to represent kilograms to ensure consistency. In one instance, a researcher included waste flows of the same material being produced [<xref rid="gch270125-bib-0024" ref-type="bibr">24</xref>]. This was due to the inventory being developed in the context of a specific deposition process—namely, spin coating—where a portion of the deposited material is lost. To maintain a harmonized foreground system, as explained in Section 0, the impacts associated with deposition and annealing processes, along with the waste flows, were excluded from the reproduced inventory. Furthermore, several inventories referenced the ecoinvent dataset for “Electricity, low voltage,” which indicates that the processes were conducted at a laboratory scale [<xref rid="gch270125-bib-0019" ref-type="bibr">19</xref>, <xref rid="gch270125-bib-0020" ref-type="bibr">20</xref>, <xref rid="gch270125-bib-0021" ref-type="bibr">21</xref>, <xref rid="gch270125-bib-0022" ref-type="bibr">22</xref>]. We have maintained the use of this dataset within the reproduced inventories.</p></sec></sec></sec><sec sec-type="COI-statement" id="gch270125-sec-0180"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="gch270125-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="gch270125-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: gch270125‐sup‐0001‐SuppMat.xlsx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCH2-10-e70125-s001.xlsx" position="float" orientation="portrait"><?suppdata-name GCH2-10-e70125-s001.xlsx?><?suppdata-size 336532?><?suppdata-md5 1a2758bad4131625c330367c0bc14ada?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:6d54/13425629/1a2758bad413/GCH2-10-e70125-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="gch270125-sec-0170"><title>Acknowledgements</title><p>The authors are supported by the France 2030 program, managed by the French National Research Agency (ANR) under grant agreement No. ANR‐22‐PERE‐0005 and ANR‐22‐PETA‐0010.</p></ack><sec sec-type="data-availability" id="gch270125-sec-0200"><title>Data Availability Statement</title><p>The data supporting this article have been included as part of the Supplementary Information.</p></sec><ref-list id="gch270125-bibl-0001"><title>References</title><ref id="gch270125-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="gch270125-cite-0001">
+<article-title>REN21. Renewables 2024 Global Status Report Collection</article-title>, <year>2024</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ren21.net/gsr-2024/" ext-link-type="uri">https://www.ren21.net/gsr-2024/</ext-link>.</mixed-citation></ref><ref id="gch270125-bib-0002"><label>2</label><mixed-citation publication-type="book" id="gch270125-cite-0002">
+<collab collab-type="authors">Fraunhofer Institute for Solar Energy Systems</collab>
+, <source>Photovoltaics Report</source>, (<publisher-name>Fraunhofer Institute for Solar Energy Systems</publisher-name>, <year>2024</year>).</mixed-citation></ref><ref id="gch270125-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="gch270125-cite-0003">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Richter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hermle</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. W.</given-names>
+<surname>Glunz</surname>
+</string-name>, “<article-title>Reassessment of the Limiting Efficiency for Crystalline Silicon Solar Cells</article-title>,” <source>IEEE Journal of Photovoltaics</source>
+<volume>3</volume> (<year>2013</year>): <fpage>1184</fpage>–<lpage>1191</lpage>, <pub-id pub-id-type="doi">10.1109/jphotov.2013.2270351</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="gch270125-cite-0004">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Polman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Knight</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>Garnett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ehrler</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. C.</given-names>
+<surname>Sinke</surname>
+</string-name>, “<article-title>Photovoltaic Materials: Present Efficiencies and Future Challenges</article-title>,” <source>Science</source>
+<volume>352</volume> (<year>2016</year>): <fpage>aad4424</fpage>–<lpage>1</lpage>, <pub-id pub-id-type="doi">10.1126/science.aad4424</pub-id>.<pub-id pub-id-type="pmid">27081076</pub-id>
+</mixed-citation></ref><ref id="gch270125-bib-0005"><label>5</label><mixed-citation publication-type="miscellaneous" id="gch270125-cite-0005">
+<article-title>Best Research‐Cell Efficiency Chart | Photovoltaic Research | NREL 2025</article-title>, accessed May 1, <year>2025</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www2.nrel.gov/pv/cell-efficiency" ext-link-type="uri">https://www2.nrel.gov/pv/cell‐efficiency</ext-link>.</mixed-citation></ref><ref id="gch270125-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="gch270125-cite-0006">
+<string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Snaith</surname>
+</string-name>, “<article-title>Perovskites: the Emergence of a New Era for Low‐Cost, High‐Efficiency Solar Cells</article-title>,” <source>The Journal of Physical Chemistry Letters</source>
+<volume>4</volume> (<year>2013</year>): <fpage>3623</fpage>–<lpage>3630</lpage>, <pub-id pub-id-type="doi">10.1021/jz4020162</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0007"><label>7</label><mixed-citation publication-type="miscellaneous" id="gch270125-cite-0007">
+<article-title>International Organisation for Standardization. ISO 14044 — Environmental management — Life cycle assessment — Requirements and guidelines</article-title>
+<year>2006</year>.</mixed-citation></ref><ref id="gch270125-bib-0008"><label>8</label><mixed-citation publication-type="miscellaneous" id="gch270125-cite-0008">
+<article-title>International Organisation for Standardization. ISO 14040 — Environmental Management — Life Cycle Assessment — Principles and framework</article-title>
+<year>2006</year>.</mixed-citation></ref><ref id="gch270125-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="gch270125-cite-0009">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Vidal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Alberola‐Borràs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Sánchez‐Pantoja</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Mora‐Seró</surname>
+</string-name>, “<article-title>Comparison of Perovskite Solar Cells with Other Photovoltaics Technologies from the Point of View of Life Cycle Assessment</article-title>,” <source>Advanced Energy and Sustainability Research</source>
+<volume>2</volume> (<year>2021</year>): <elocation-id>2000088</elocation-id>, <pub-id pub-id-type="doi">10.1002/aesr.202000088</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="gch270125-cite-0010">
+<string-name name-style="western">
+<given-names>N. A.</given-names>
+<surname>Ludin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. I.</given-names>
+<surname>Mustafa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. M.</given-names>
+<surname>Hanafiah</surname>
+</string-name>, et al., “<article-title>Prospects of Life Cycle Assessment of Renewable Energy from Solar Photovoltaic Technologies: a Review</article-title>,” <source>Renewable and Sustainable Energy Reviews</source>
+<volume>96</volume> (<year>2018</year>): <fpage>11</fpage>–<lpage>28</lpage>, <pub-id pub-id-type="doi">10.1016/j.rser.2018.07.048</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="gch270125-cite-0011">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Weyand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wittich</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Schebek</surname>
+</string-name>, “<article-title>Environmental Performance of Emerging Photovoltaic Technologies: Assessment of the Status Quo and Future Prospects Based on a Meta‐Analysis of Life‐Cycle Assessment Studies</article-title>,” <source>Energies</source>
+<volume>12</volume> (<year>2019</year>): <elocation-id>4228</elocation-id>, <pub-id pub-id-type="doi">10.3390/en12224228</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="gch270125-cite-0012">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Cellura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. Q.</given-names>
+<surname>Luu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Guarino</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Longo</surname>
+</string-name>, “<article-title>A Review on Life Cycle Environmental Impacts of Emerging Solar Cells</article-title>,” <source>Science of The Total Environment</source>
+<volume>908</volume> (<year>2024</year>): <elocation-id>168019</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2023.168019</pub-id>.<pub-id pub-id-type="pmid">37879488</pub-id>
+</mixed-citation></ref><ref id="gch270125-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="gch270125-cite-0013">
+<string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Kamali</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Isayev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Laratte</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sonnemann</surname>
+</string-name>, “<article-title>Harmonizing Life Cycle Assessment Studies of Emerging Technologies: the Case of virgin and Recycled Carbon Fibers</article-title>,” <source>Resources, Conservation and Recycling</source>
+<volume>220</volume> (<year>2025</year>): <elocation-id>108323</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.resconrec.2025.108323</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="gch270125-cite-0014">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Urbina</surname>
+</string-name>, “<article-title>The Balance between Efficiency, Stability and Environmental Impacts in Perovskite Solar Cells: a Review</article-title>,” <source>Journal of Physics: Energy</source>
+<volume>2</volume> (<year>2020</year>): <elocation-id>022001</elocation-id>, <pub-id pub-id-type="doi">10.1088/2515-7655/ab5eee</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="gch270125-cite-0015">
+<string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Monticelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kutlu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zanelli</surname>
+</string-name>, “<article-title>Environmental Performance Analysis of Textile Envelope Integrated Flexible Photovoltaic Using Life Cycle Assessment Approach</article-title>,” <source>Journal of Building Engineering</source>
+<volume>89</volume> (<year>2024</year>): <elocation-id>109348</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.jobe.2024.109348</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="gch270125-cite-0016">
+<string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Monticelli</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zanelli</surname>
+</string-name>, “<article-title>Life Cycle Assessment of Organic Solar Cells and Perovskite Solar Cells with Graphene Transparent Electrodes</article-title>,” <source>Renewable Energy</source>
+<volume>195</volume> (<year>2022</year>): <fpage>906</fpage>–<lpage>917</lpage>, <pub-id pub-id-type="doi">10.1016/j.renene.2022.06.075</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="gch270125-cite-0017">
+<string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Khalifa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Spatari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. T.</given-names>
+<surname>Fafarman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Baxter</surname>
+</string-name>, “<article-title>Environmental Sustainability of Mixed Cation Perovskite Materials in Photovoltaics Manufacturing</article-title>,” <source>ACS Sustainable Chemistry &amp; Engineering</source>
+<volume>8</volume> (<year>2020</year>): <fpage>16537</fpage>–<lpage>16548</lpage>, <pub-id pub-id-type="doi">10.1021/acssuschemeng.0c05619</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="gch270125-cite-0018">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Gong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. B.</given-names>
+<surname>Darling</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>You</surname>
+</string-name>, “<article-title>Perovskite Photovoltaics: Life‐cycle Assessment of Energy and Environmental Impacts</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>8</volume> (<year>2015</year>): <fpage>1953</fpage>–<lpage>1968</lpage>, <pub-id pub-id-type="doi">10.1039/c5ee00615e</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="gch270125-cite-0019">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Serrano‐Lujan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Espinosa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. T.</given-names>
+<surname>Larsen‐Olsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Abad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Urbina</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. C.</given-names>
+<surname>Krebs</surname>
+</string-name>, “<article-title>Tin‐ and Lead‐Based Perovskite Solar Cells under Scrutiny: an Environmental Perspective</article-title>,” <source>Advanced Energy Materials</source>
+<volume>5</volume> (<year>2015</year>): <elocation-id>1501119</elocation-id>, <pub-id pub-id-type="doi">10.1002/aenm.201501119</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="gch270125-cite-0020">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Espinosa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Serrano‐Luján</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Urbina</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. C.</given-names>
+<surname>Krebs</surname>
+</string-name>, “<article-title>Solution and Vapour Deposited Lead Perovskite Solar Cells: Ecotoxicity from a Life Cycle Assessment Perspective</article-title>,” <source>Solar Energy Materials and Solar Cells</source>
+<volume>137</volume> (<year>2015</year>): <fpage>303</fpage>–<lpage>310</lpage>, <pub-id pub-id-type="doi">10.1016/j.solmat.2015.02.013</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="gch270125-cite-0021">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kajal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Dhar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mathews</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. P.</given-names>
+<surname>Boix</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Powar</surname>
+</string-name>, “<article-title>Reduced Global Warming Potential in Carbon‐based Perovskite Solar Modules: Cradle‐to‐gate Life Cycle Analysis</article-title>,” <source>Journal of Cleaner Production</source>
+<volume>426</volume> (<year>2023</year>): <elocation-id>139136</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.jclepro.2023.139136</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="gch270125-cite-0022">
+<string-name name-style="western">
+<given-names>J.‐A.</given-names>
+<surname>Alberola‐Borràs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>De Rossi</surname>
+</string-name>, et al., “<article-title>Perovskite Photovoltaic Modules: Life Cycle Assessment of Pre‐industrial Production Process</article-title>,” <source>Iscience</source>
+<volume>9</volume> (<year>2018</year>): <fpage>542</fpage>–<lpage>551</lpage>, <pub-id pub-id-type="doi">10.1016/j.isci.2018.10.020</pub-id>.<pub-id pub-id-type="pmid">30448247</pub-id>
+<pub-id pub-id-type="pmcid">PMC6286418</pub-id></mixed-citation></ref><ref id="gch270125-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="gch270125-cite-0023">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Stranks</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>You</surname>
+</string-name>, “<article-title>Life Cycle Assessment of Recycling Strategies for Perovskite Photovoltaic Modules</article-title>,” <source>Nature Sustainability</source>
+<volume>4</volume> (<year>2021</year>): <fpage>821</fpage>–<lpage>829</lpage>, <pub-id pub-id-type="doi">10.1038/s41893-021-00737-z</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="gch270125-cite-0024">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Sarialtin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Geyer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zafer</surname>
+</string-name>, “<article-title>Life Cycle Assessment of Hole Transport Free Planar–mesoscopic Perovskite Solar Cells</article-title>,” <source>Journal of Renewable and Sustainable Energy</source>
+<volume>12</volume> (<year>2020</year>): <elocation-id>023502</elocation-id>, <pub-id pub-id-type="doi">10.1063/1.5129784</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="gch270125-cite-0025">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Deng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Yuan</surname>
+</string-name>, “<article-title>Life Cycle Assessment of Titania Perovskite Solar Cell Technology for Sustainable Design and Manufacturing</article-title>,” <source>Chemsuschem</source>
+<volume>8</volume> (<year>2015</year>): <fpage>3882</fpage>–<lpage>3891</lpage>, <pub-id pub-id-type="doi">10.1002/cssc.201500848</pub-id>.<pub-id pub-id-type="pmid">26489525</pub-id>
+</mixed-citation></ref><ref id="gch270125-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="gch270125-cite-0026">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Itten</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Stucki</surname>
+</string-name>, “<article-title>Highly Efficient 3rd Generation Multi‐Junction Solar Cells Using Silicon Heterojunction and Perovskite Tandem: Prospective Life Cycle Environmental Impacts</article-title>,” <source>Energies</source>
+<volume>10</volume> (<year>2017</year>): <elocation-id>841</elocation-id>, <pub-id pub-id-type="doi">10.3390/en10070841</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="gch270125-cite-0027">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Deng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zha</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Yuan</surname>
+</string-name>, “<article-title>Comparison of Life Cycle Environmental Impacts of Different Perovskite Solar Cell Systems</article-title>,” <source>Solar Energy Materials and Solar Cells</source>
+<volume>166</volume> (<year>2017</year>): <fpage>9</fpage>–<lpage>17</lpage>, <pub-id pub-id-type="doi">10.1016/j.solmat.2017.03.008</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="gch270125-cite-0028">
+<string-name name-style="western">
+<given-names>J.‐A.</given-names>
+<surname>Alberola‐Borràs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Vidal</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Mora‐Seró</surname>
+</string-name>, “<article-title>Evaluation of Multiple Cation/Anion Perovskite Solar Cells through Life Cycle Assessment</article-title>,” <source>Sustainable Energy &amp; Fuels</source>
+<volume>2</volume> (<year>2018</year>): <fpage>1600</fpage>–<lpage>1609</lpage>, <pub-id pub-id-type="doi">10.1039/c8se00053k</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="gch270125-cite-0029">
+<string-name name-style="western">
+<given-names>H. K.</given-names>
+<surname>Ramamurthy Rao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gemechu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Thakur</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Shankar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kumar</surname>
+</string-name>, “<article-title>Life Cycle Assessment of High‐performance Monocrystalline Titanium Dioxide Nanorod‐based Perovskite Solar Cells</article-title>,” <source>Solar Energy Materials and Solar Cells</source>
+<volume>230</volume> (<year>2021</year>): <elocation-id>111288</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.solmat.2021.111288</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="gch270125-cite-0030">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Leccisi</surname>
+</string-name> and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Fthenakis</surname>
+</string-name>, “<article-title>Life Cycle Energy Demand and Carbon Emissions of Scalable Single‐Junction and Tandem Perovskite PV</article-title>,” <source>Progress in Photovoltaics: Research and Applications</source>
+<volume>29</volume> (<year>2021</year>): <fpage>1078</fpage>–<lpage>1092</lpage>, <pub-id pub-id-type="doi">10.1002/pip.3442</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="gch270125-cite-0031">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Fagerholm</surname>
+</string-name>, et al., “<article-title>Techno‐economic and Environmental Sustainability of Industrial‐scale Productions of Perovskite Solar Cells</article-title>,” <source>Renewable and Sustainable Energy Reviews</source>
+<volume>158</volume> (<year>2022</year>): <elocation-id>112146</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.rser.2022.112146</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="gch270125-cite-0032">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ravilla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A. R.</given-names>
+<surname>Perini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐P.</given-names>
+<surname>Correa‐Baena</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. W. Y.</given-names>
+<surname>Ho‐Baillie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Celik</surname>
+</string-name>, “<article-title>Life Cycle Assessment of Low‐dimensional Materials for Perovskite Photovoltaic Cells</article-title>,” <source>Energy Advances</source>
+<volume>3</volume> (<year>2024</year>): <fpage>800</fpage>–<lpage>811</lpage>, <pub-id pub-id-type="doi">10.1039/d3ya00540b</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0033"><label>33</label><mixed-citation publication-type="book" id="gch270125-cite-0033">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. W. Y.</given-names>
+<surname>Ho‐Baillie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. K.</given-names>
+<surname>Mulmudi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T. T.</given-names>
+<surname>Trang</surname>
+</string-name>, “<part-title>Typical Configurations of Perovskite Solar Cells</part-title>,” in <source>Perovskite Solar Cells</source> (<publisher-name>Apple Academic Press</publisher-name>, <year>2019</year>).</mixed-citation></ref><ref id="gch270125-bib-0034"><label>34</label><mixed-citation publication-type="book" id="gch270125-cite-0034">“<part-title>Scalable Architectures and Fabrication Processes of Perovskite Solar Cell Technology</part-title>,” in <source>Perovskite Solar Cells</source>, <edition>1st ed.</edition> (<publisher-name>Wiley</publisher-name>, <year>2021</year>), <fpage>497</fpage>–<lpage>519</lpage>, <pub-id pub-id-type="doi">10.1002/9783527825790.ch15</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0035"><label>35</label><mixed-citation publication-type="book" id="gch270125-cite-0035">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Rong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mei</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Han</surname>
+</string-name>, “<part-title>Printable Mesoscopic Perovskite Solar Cells</part-title>,” in <source>Perovskite Solar Cells</source> (<publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>, <year>2021</year>), <fpage>431</fpage>–<lpage>452</lpage>, <pub-id pub-id-type="doi">10.1002/9783527825790.ch13</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="gch270125-cite-0036">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Marinova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Valero</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Delgado</surname>
+</string-name>, “<article-title>Organic and Perovskite Solar Cells: Working Principles, Materials and Interfaces</article-title>,” <source>Journal of Colloid and Interface Science</source>
+<volume>488</volume> (<year>2017</year>): <fpage>373</fpage>–<lpage>389</lpage>, <pub-id pub-id-type="doi">10.1016/j.jcis.2016.11.021</pub-id>.<pub-id pub-id-type="pmid">27871725</pub-id>
+</mixed-citation></ref><ref id="gch270125-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="gch270125-cite-0037">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Monteiro Lunardi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wing Yi Ho‐Baillie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Alvarez‐Gaitan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Moore</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Corkish</surname>
+</string-name>, “<article-title>A Life Cycle Assessment of Perovskite/Silicon Tandem Solar Cells</article-title>,” <source>Progress in Photovoltaics</source>
+<volume>25</volume> (<year>2017</year>): <fpage>679</fpage>–<lpage>695</lpage>, <pub-id pub-id-type="doi">10.1002/pip.2877</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="gch270125-cite-0038">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Stranks</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>You</surname>
+</string-name>, “<article-title>Life Cycle Energy Use and Environmental Implications of High‐performance Perovskite Tandem Solar Cells</article-title>,” <source>Science Advances</source>
+<volume>6</volume> (<year>2020</year>): <elocation-id>abb0055</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.abb0055</pub-id>.<pub-id pub-id-type="pmcid">PMC7399695</pub-id><pub-id pub-id-type="pmid">32789177</pub-id></mixed-citation></ref><ref id="gch270125-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="gch270125-cite-0039">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Tian</surname>
+</string-name> and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>You</surname>
+</string-name>, “<article-title>Energy and Environmental Sustainability Assessment of Photovoltaics Transition toward Perovskite–Perovskite Tandems from the Attributional and Consequential Perspectives</article-title>,” <source>ACS Sustainable Chemistry &amp; Engineering</source>
+<volume>9</volume> (<year>2021</year>): <fpage>11247</fpage>–<lpage>11257</lpage>, <pub-id pub-id-type="doi">10.1021/acssuschemeng.1c03927</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="gch270125-cite-0040">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Roffeis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kirner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐C.</given-names>
+<surname>Goldschmidt</surname>
+</string-name>, et al., “<article-title>New Insights into the Environmental Performance of Perovskite‐on‐silicon Tandem Solar Cells—A Life Cycle Assessment of Industrially Manufactured Modules</article-title>,” <source>Sustainable Energy &amp; Fuels</source>
+<volume>6</volume> (<year>2022</year>): <fpage>2924</fpage>–<lpage>2940</lpage>, <pub-id pub-id-type="doi">10.1039/D2SE00096B</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="gch270125-cite-0041">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sytnyk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>Closing the Loop: Recycling of MAPbI<sub>3</sub> Perovskite Solar Cells</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>17</volume> (<year>2024</year>): <fpage>4248</fpage>–<lpage>4262</lpage>, <pub-id pub-id-type="doi">10.1039/D4EE01071J</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="gch270125-cite-0042">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Kim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Jung</surname>
+</string-name>, “<article-title>Life Cycle Assessment of Lead Recycling Processes in Perovskite Solar Cells</article-title>,” <source>Chemical Communications</source>
+<volume>61</volume> (<year>2025</year>): <fpage>1850</fpage>–<lpage>1853</lpage>, <pub-id pub-id-type="doi">10.1039/D4CC05121A</pub-id>.<pub-id pub-id-type="pmid">39760558</pub-id>
+</mixed-citation></ref><ref id="gch270125-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="gch270125-cite-0043">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Oh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bae</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Han</surname>
+</string-name>, “<article-title>Economic and Environmental Feasibility Evaluation Study of Hydrometallurgical Recycling Methods for Perovskite Solar Cells</article-title>,” <source>Journal of Cleaner Production</source>
+<volume>489</volume> (<year>2025</year>): <elocation-id>144651</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.jclepro.2025.144651</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="gch270125-cite-0044">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Vidal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐A.</given-names>
+<surname>Alberola‐Borràs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. N.</given-names>
+<surname>Habisreutinger</surname>
+</string-name>, et al., “<article-title>Assessing Health and Environmental Impacts of Solvents for Producing Perovskite Solar Cells</article-title>,” <source>Nature Sustainability</source>
+<volume>4</volume> (<year>2020</year>): <fpage>277</fpage>–<lpage>285</lpage>, <pub-id pub-id-type="doi">10.1038/s41893-020-00645-8</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="gch270125-cite-0045">
+<string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Kamali</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. M.</given-names>
+<surname>Keppetipola</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yoshihara</surname>
+</string-name>, et al., “<article-title>Validating the “Greenness” of Chemicals via Life Cycle Assessment: the Case of Anisole as an Anti‐solvent in Perovskite Solar Cells</article-title>,” <source>RSC Sustainability</source>
+<volume>2</volume> (<year>2024</year>): <fpage>3036</fpage>–<lpage>3046</lpage>, <pub-id pub-id-type="doi">10.1039/D4SU00361F</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="gch270125-cite-0046">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Ünlü</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Florez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Dodd‐Clements</surname>
+</string-name>, et al., “<article-title>Toward Green Processing of Perovskite Solar Cells: Protic Ionic Liquids Enable Water‐ and Alcohol‐Based MAPbI<sub>3</sub> Precursors Inks for Slot‐Die Coating</article-title>,” <source>Advanced Energy Materials</source>
+<volume>15</volume> (<year>2025</year>): <elocation-id>2403626</elocation-id>, <pub-id pub-id-type="doi">10.1002/aenm.202403626</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="gch270125-cite-0047">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Piasecka</surname>
+</string-name> and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Kłos</surname>
+</string-name>, “<article-title>An Assessment of the Environmental Impact of Construction Materials of Monocrystalline and Perovskite Photovoltaic Power Plants toward Their Sustainable Development</article-title>,” <source>Materials</source>
+<volume>17</volume> (<year>2024</year>): <elocation-id>5787</elocation-id>, <pub-id pub-id-type="doi">10.3390/ma17235787</pub-id>.<pub-id pub-id-type="pmid">39685223</pub-id>
+<pub-id pub-id-type="pmcid">PMC11642021</pub-id></mixed-citation></ref><ref id="gch270125-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="gch270125-cite-0048">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sánchez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Vallés‐Pelarda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐A.</given-names>
+<surname>Alberola‐Borràs</surname>
+</string-name>, et al., “<article-title>Flash Infrared Annealing as a Cost‐effective and Low Environmental Impact Processing Method for Planar Perovskite Solar Cells</article-title>,” <source>Materials Today</source>
+<volume>31</volume> (<year>2019</year>): <fpage>39</fpage>–<lpage>46</lpage>, <pub-id pub-id-type="doi">10.1016/j.mattod.2019.04.021</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="gch270125-cite-0049">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Bhati</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. K.</given-names>
+<surname>Nazeeruddin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Maréchal</surname>
+</string-name>, “<article-title>Environmental Impacts as the Key Objectives for Perovskite Solar Cells Optimization</article-title>,” <source>Energy</source>
+<volume>299</volume> (<year>2024</year>): <elocation-id>131492</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.energy.2024.131492</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="gch270125-cite-0050">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Maranghi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Parisi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Basosi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sinicropi</surname>
+</string-name>, “<article-title>Environmental Profile of the Manufacturing Process of Perovskite Photovoltaics: Harmonization of Life Cycle Assessment Studies</article-title>,” <source>Energies</source>
+<volume>12</volume> (<year>2019</year>): <elocation-id>3746</elocation-id>, <pub-id pub-id-type="doi">10.3390/en12193746</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="gch270125-cite-0051">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Celik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Cimaroli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Heben</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Apul</surname>
+</string-name>, “<article-title>Life Cycle Assessment (LCA) of Perovskite PV Cells Projected from Lab to Fab</article-title>,” <source>Solar Energy Materials and Solar Cells</source>
+<volume>156</volume> (<year>2016</year>): <fpage>157</fpage>–<lpage>169</lpage>, <pub-id pub-id-type="doi">10.1016/j.solmat.2016.04.037</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="gch270125-cite-0052">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Beylot</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Ardente</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sala</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zampori</surname>
+</string-name>, “<article-title>Mineral Resource Dissipation in Life Cycle Inventories</article-title>,” <source>The International Journal of Life Cycle Assessment</source> (<year>2021</year>): <fpage>497</fpage>–<lpage>510</lpage>, <pub-id pub-id-type="doi">10.1007/s11367-021-01875-4</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0053"><label>53</label><mixed-citation publication-type="book" id="gch270125-cite-0053">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Commission</surname>
+</string-name>, <source>Joint Research Centre. Updated Characterisation and Normalisation Factors for the Environmental Footprint 3.1 Method</source> (<publisher-name>LU: Publications Office</publisher-name>, <year>2023</year>).</mixed-citation></ref><ref id="gch270125-bib-0054"><label>54</label><mixed-citation publication-type="miscellaneous" id="gch270125-cite-0054">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Fantke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bijster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. Z.</given-names>
+<surname>Hauschild</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Huijbregts</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Jolliet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kounina</surname>
+</string-name>, et al., “<article-title>USEtox 2.0: Documentation (Version 1)</article-title>,” (<year>2017</year>), <pub-id pub-id-type="doi">10.11581/DTU:00000011</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="gch270125-cite-0055">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Qian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhao</surname>
+</string-name>, “<article-title>Potential Lead Toxicity and Leakage Issues on Lead Halide Perovskite Photovoltaics</article-title>,” <source>Journal of Hazardous Materials</source>
+<volume>426</volume> (<year>2022</year>): <elocation-id>127848</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.jhazmat.2021.127848</pub-id>.<pub-id pub-id-type="pmid">34838362</pub-id>
+</mixed-citation></ref><ref id="gch270125-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="gch270125-cite-0056">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Wernet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bauer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Steubing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Reinhard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Moreno‐Ruiz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Weidema</surname>
+</string-name>, “<article-title>The ecoinvent Database Version 3 (part I): Overview and Methodology</article-title>,” <source>The International Journal of Life Cycle Assessment</source>
+<volume>21</volume> (<year>2016</year>): <fpage>1218</fpage>–<lpage>1230</lpage>, <pub-id pub-id-type="doi">10.1007/s11367-016-1087-8</pub-id>.</mixed-citation></ref><ref id="gch270125-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="gch270125-cite-0057">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Tu</surname>
+</string-name>, “<article-title>Perovskite‐Based Solar Cells: Materials, Methods, and Future Perspectives</article-title>,” <source>Journal of Nanomaterials</source>
+<volume>2018</volume> (<year>2018</year>): <elocation-id>8148072</elocation-id>, <pub-id pub-id-type="doi">10.1155/2018/8148072</pub-id>.</mixed-citation></ref></ref-list></back></article>

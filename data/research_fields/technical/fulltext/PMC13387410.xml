@@ -1,0 +1,621 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="cesm70096" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Cochrane Evid Synth Methods</journal-id><journal-id journal-id-type="iso-abbrev">Cochrane Evid Synth Methods</journal-id><journal-id journal-id-type="pmc-domain-id">4698</journal-id><journal-id journal-id-type="pmc-domain">cesm</journal-id><journal-id journal-id-type="nlm-id">9918935130106676</journal-id><journal-id journal-id-type="publisher-id">CESM</journal-id><journal-title-group><journal-title>Cochrane Evidence Synthesis and Methods</journal-title></journal-title-group><issn pub-type="epub">2832-9023</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13387410</article-id><article-id pub-id-type="pmcid-ver">PMC13387410.1</article-id><article-id pub-id-type="pmcaid">13387410</article-id><article-id pub-id-type="pmcaiid">13387410</article-id><article-id pub-id-type="pmid">42482928</article-id><article-id pub-id-type="doi">10.1002/cesm.70096</article-id><article-id pub-id-type="publisher-id">CESM70096</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Open Science Practices in Systematic Reviews From 2014 to 2024: A Cohort Study of 300 Systematic Reviews</article-title></title-group><contrib-group><contrib id="cesm70096-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Färnqvist</surname><given-names initials="K">Kenneth</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3529-565X</contrib-id><xref rid="cesm70096-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="cesm70096-cr-0002" contrib-type="author"><name name-style="western"><surname>Karlsson</surname><given-names initials="P">Patrik</given-names></name><xref rid="cesm70096-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cesm70096-cr-0003" contrib-type="author"><name name-style="western"><surname>Wachtmeister</surname><given-names initials="V">Vera</given-names></name><xref rid="cesm70096-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cesm70096-cr-0004" contrib-type="author"><name name-style="western"><surname>Vallance</surname><given-names initials="P">Patrick</given-names></name><xref rid="cesm70096-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cesm70096-cr-0005" contrib-type="author"><name name-style="western"><surname>Sinervo</surname><given-names initials="E">Emma</given-names></name><xref rid="cesm70096-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="cesm70096-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib></contrib-group><aff id="cesm70096-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Molecular Medicine and Surgery</named-content>
+<institution>Karolinska Institutet</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><aff id="cesm70096-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurobiology, Care Sciences, and Society</named-content>
+<institution>Karolinska Institutet</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><aff id="cesm70096-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Clinical Neurosciences</named-content>
+<institution>Karolinska Institutet</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><aff id="cesm70096-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physiotherapy, School of Primary and Allied Healthcare</named-content>
+<institution>Monash University</institution>
+<city>Melbourne</city>
+<named-content content-type="country-part">Victoria</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="cesm70096-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Women's and Children's Health</named-content>
+<institution>Karolinska Institutet</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><aff id="cesm70096-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Epidemiology and Community Medicine</named-content>
+<institution>Region Stockholm</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold> Kenneth Färnqvist ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2026</year></pub-date><volume>4</volume><issue seq="26">4</issue><issue-id pub-id-type="pmc-issue-id">515312</issue-id><issue-id pub-id-type="doi">10.1002/cesm.v4.4</issue-id><elocation-id>e70096</elocation-id><history>
+<date date-type="rev-recd"><day>01</day><month>7</month><year>2026</year></date>
+<date date-type="received"><day>26</day><month>5</month><year>2026</year></date>
+<date date-type="accepted"><day>07</day><month>7</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>18</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>22</day><month>07</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-08-20 05:25:18.387"><day>20</day><month>08</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Cochrane Evidence Synthesis and Methods</italic> published by John Wiley &amp; Sons Ltd on behalf of The Cochrane Collaboration.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="CESM-4-e70096.pdf"><?pdf-name CESM-4-e70096.pdf?><?pdf-size 823905?><?pdf-md5 545ef4dcccdc1721956baf69644a2df0?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:e72d/13387410/545ef4dcccdc/CESM-4-e70096.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:CESM-4-e70096.pdf"/><abstract><title>ABSTRACT</title><sec id="cesm70096-sec-0010"><title>Objectives</title><p>Open science practices, including the preregistration of protocols and the sharing of data and code, are increasingly promoted to enhance transparency, accessibility and the reuse of research outputs. However, systematic reviews, which are essential for informing clinical guidance and policy, often provide limited access to the materials needed for independent verification and reuse. Our objective was to estimate the prevalence of key open science indicators in interventional systematic reviews and to assess temporal changes by comparing our 2024 cohort with previously published cohorts from 2014 to 2020.</p></sec><sec id="cesm70096-sec-0020"><title>Design</title><p>Cross‐sectional meta‐research study.</p></sec><sec id="cesm70096-sec-0030"><title>Data Sources</title><p>MEDLINE, Embase, and CINAHL were searched in June 2024 for English‐language records indexed between 1 January and 1 February 2024.</p></sec><sec id="cesm70096-sec-0040"><title>Eligibility Criteria</title><p>Interventional systematic reviews including human participants, a clearly defined PICO question, a systematic search strategy, a risk‐of‐bias assessment, and at least one meta‐analysis.</p></sec><sec id="cesm70096-sec-0050"><title>Methods</title><p>Following our publicly registered protocol and STROBE guidance, records were randomly sampled and screened in duplicate until 300 eligible reviews were included. Data extraction was conducted in duplicate. We assessed protocol registration and availability, data sharing, code sharing, and preprint dissemination. Preprints were identified through extensive manual searches across more than 40 preprint servers and through author contact. Temporal changes were examined by comparing our 2024 cohort with previously published cohorts from 2014 to 2020 using pairwise risk ratios (RRs) with predefined equivalence ranges.</p></sec><sec id="cesm70096-sec-0060"><title>Results</title><p>Among the 300 included reviews, cancer was the most common health condition (17%), and pharmacological or biological interventions were the most common intervention type (35%). The median number of primary studies included in each systematic review was 14 (IQR 9–23). Most reviews (73%) were published in journals with data and/or code‐sharing policies. In the 2024 cohort, 70% of systematic reviews reported a registered protocol or protocol availability and 61% included a data availability statement. However, only 24% shared underlying data, and analytical code was shared in 1% of reviews. Preprints were rare, occurring in 2% of the reviews. Reporting of protocol registration or availability increased substantially over time (2024 vs. 2014: RR 2.03, 95% CI 1.55–2.65; 2024 vs. 2020: RR 1.67, 95% CI 1.43–1.95), as did data availability statements (2024 vs. 2020: RR 1.98, 95% CI 1.63–2.40). Data sharing showed a nonlinear pattern, decreasing from 2014 to 2020 (RR 0.22, 95% CI 0.13–0.36) and increasing from 2020 to 2024 (RR 3.71, 95% CI 2.30–6.00), but remained uncommon overall. Code sharing was rare and showed no detectable change (OR 1.00, 95% CI 0.15–6.51). In the 2024 cohort, 3% of protocols were registered after manuscript submission.</p></sec><sec id="cesm70096-sec-0070"><title>Conclusions</title><p>Several transparency indicators became more common over time, although trends differed across indicators. Yet the sharing of reusable research materials remains uncommon. Reusable data, analytic code, and preprints are rare outside the context of pandemics. These findings highlight a persistent gap between declarative openness and operational accessibility, emphasizing the necessity for more robust, verifiable mechanisms from journals and funders to reduce data distance and support independent verification and reuse of systematic review evidence. This gap between declared openness and practical accessibility continues to limit independent verification and reuse of systematic review evidence.</p></sec></abstract><kwd-group><kwd id="cesm70096-kwd-0001">cohort study</kwd><kwd id="cesm70096-kwd-0002">meta‐research</kwd><kwd id="cesm70096-kwd-0003">research on research</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>KI NMA Collaborative awards</institution></institution-wrap>
+</funding-source><award-id>2‐4083/2025</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="3"/><page-count count="11"/><word-count count="6868"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.4 mode:remove_FC converted:18.07.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="background" id="cesm70096-sec-0080"><label>1</label><title>Background</title><p>In recent years, the importance of open science and transparency practices has gained recognition within the research community [<xref rid="cesm70096-bib-0001" ref-type="bibr">1</xref>, <xref rid="cesm70096-bib-0002" ref-type="bibr">2</xref>]. Key practices include the sharing of data and analytic code and the preregistration of study protocols. Guidelines and recommendations have been established to encourage researchers to adopt these practices [<xref rid="cesm70096-bib-0003" ref-type="bibr">3</xref>, <xref rid="cesm70096-bib-0004" ref-type="bibr">4</xref>, <xref rid="cesm70096-bib-0005" ref-type="bibr">5</xref>], with the aim of improving the quality and transparency of research [<xref rid="cesm70096-bib-0006" ref-type="bibr">6</xref>]. These practices are commonly considered key indicators of open science and research transparency [<xref rid="cesm70096-bib-0007" ref-type="bibr">7</xref>]. The number of studies adopting these practices can be considered an indicator of the extent to which open science is adopted in research.</p><p>The replication of systematic reviews is particularly important due to their frequent use in informing policymaking, clinical decision‐making, and guidelines [<xref rid="cesm70096-bib-0008" ref-type="bibr">8</xref>]. Replicating a study can enhance its trustworthiness; however, conflicting results or conclusions may undermine the credibility of the original study [<xref rid="cesm70096-bib-0009" ref-type="bibr">9</xref>], a concern highlighted by the broader replication crisis in several scientific fields [<xref rid="cesm70096-bib-0010" ref-type="bibr">10</xref>, <xref rid="cesm70096-bib-0011" ref-type="bibr">11</xref>]. Previous methodological research has demonstrated that various choices made in reviews can significantly affect the results and conclusions [<xref rid="cesm70096-bib-0012" ref-type="bibr">12</xref>]. Thus, the intentional replication of systematic reviews is necessary to evaluate the reliability of previously generated knowledge [<xref rid="cesm70096-bib-0009" ref-type="bibr">9</xref>]. Access to underlying data and analytic materials may facilitate the verification, reuse and updating of systematic reviews [<xref rid="cesm70096-bib-0013" ref-type="bibr">13</xref>, <xref rid="cesm70096-bib-0014" ref-type="bibr">14</xref>]. The sharing of aggregated data has several benefits, including facilitating independent verification of findings, enabling additional analyses beyond those investigated in the current review, minimizing the risk of faulty data extraction, and facilitating the creation of umbrella reviews [<xref rid="cesm70096-bib-0013" ref-type="bibr">13</xref>, <xref rid="cesm70096-bib-0014" ref-type="bibr">14</xref>]. Recent meta‐research has challenged the assumption that systematic reviews are inherently reproducible and replicable. Independent investigations have shown that repeating literature searches, study selection, data extraction, and meta‐analyses can yield discrepant results, often because review methods are incompletely reported and underlying review materials are limited in availability. These findings underscore the importance of protocol registration and the sharing of review data and analytic code as mechanisms for improving the transparency, reproducibility, and replicability of systematic reviews [<xref rid="cesm70096-bib-0015" ref-type="bibr">15</xref>, <xref rid="cesm70096-bib-0016" ref-type="bibr">16</xref>].</p><p>Despite increasing attention to open science, data sharing in systematic reviews remains rare. In a cross‐sectional sample of 300 systematic reviews published in 2020, only 7% provided access to the underlying data or analytical code [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>]. Similarly, only 31% of the articles included a data availability statement. Of those, most statements either offered access “on request” or implied that sharing was unnecessary [<xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>]. Furthermore, although authors indicate that data are “available upon request,” actual compliance is very low. In a large survey of 3416 manuscripts with data availability statements, fewer than 7% of authors who promised to share data upon request actually provided it [<xref rid="cesm70096-bib-0019" ref-type="bibr">19</xref>]. These findings suggest a substantial gap between declared openness and the actual accessibility of review materials.</p><p>Recent large‐scale reproducibility research in primary studies further underscores the importance of access to both data and analytic code [<xref rid="cesm70096-bib-0002" ref-type="bibr">2</xref>]. In a stratified sample of 600 papers, only 20% provided both data and code. Among these, approximately 91% of findings were reproducible. In contrast, reproducibility declined to 73% when only data were available and to 38% when researchers had to reconstruct datasets and analytical workflows from source data. These findings suggest that access to underlying materials is a key determinant of whether published results can be independently verified, reinforcing the need to assess not only reported transparency but also the availability of reusable research outputs.</p><p>Another critical aspect of open science is publishing research findings as preprints, which has increased in recent years (Figure <xref rid="cesm70096-fig-0001" ref-type="fig">1</xref>). Preprints allow research articles to be freely accessible to large audiences prior to journal publication. However, it is important to note that preprints do not always undergo external quality control measures [<xref rid="cesm70096-bib-0020" ref-type="bibr">20</xref>]. Publishing articles in the preprint format offers several advantages. The conventional process of submitting a manuscript to a journal can take several months or longer before publication. In contrast, preprints allow research findings to be disseminated immediately and enable rapid feedback from the scientific community. Feedback may also come from a broader audience rather than only a small number of peer reviewers, and preprints are freely accessible, allowing research to reach a wider readership. Furthermore, no rigid structural requirements tied to a specific journal need to be met, meaning that the content itself becomes the primary focus. Articles that were previously available as preprints have also been shown to receive higher Altmetric scores and more citations [<xref rid="cesm70096-bib-0020" ref-type="bibr">20</xref>, <xref rid="cesm70096-bib-0021" ref-type="bibr">21</xref>, <xref rid="cesm70096-bib-0022" ref-type="bibr">22</xref>]. Preprints may also help reduce the risk of publication bias by allowing research findings to be disseminated even if they are not subsequently published in peer‐reviewed journals [<xref rid="cesm70096-bib-0023" ref-type="bibr">23</xref>]. They may further enhance transparency by allowing readers to track how a manuscript evolves from its initial version to the final peer‐reviewed publication [<xref rid="cesm70096-bib-0024" ref-type="bibr">24</xref>]. Despite this, it is essential to acknowledge that preprints have some limitations [<xref rid="cesm70096-bib-0020" ref-type="bibr">20</xref>]. One apparent pitfall is the lack of quality control prior to dissemination. This could potentially result in alterations to clinical treatment and escalate health‐related anxiety among individuals [<xref rid="cesm70096-bib-0025" ref-type="bibr">25</xref>]. Hence, it is crucial to meticulously scrutinize preprints and their sources before relying on them for decision‐making [<xref rid="cesm70096-bib-0020" ref-type="bibr">20</xref>].</p><fig position="float" fig-type="Figure" id="cesm70096-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>The figure illustrates the growth of preprints indexed in Europe PMC over time. The upper panel shows the cumulative number of indexed preprints by server, demonstrating a steady and accelerating increase across several platforms. The lower panel presents monthly indexing counts, highlighting sustained contributions from several major preprint servers and reflecting the growing role of preprints in scientific communication in recent years. Europe PMC. <italic toggle="yes">Preprints in Europe PMC</italic>. Available from: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://europepmc.org/Preprints" ext-link-type="uri">https://europepmc.org/Preprints</ext-link>. Accessed 12 Jan 2026.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="CESM-4-e70096-g002.jpg"><?image-name CESM-4-e70096-g002.jpg?><?image-size 52184?><?image-md5 8aed7892ba3a545a3bea1d6c619cb75a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 509?><?image-original-width 1054?><?image-scaled-height 339?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/e72d/13387410/8aed7892ba3a/CESM-4-e70096-g002.jpg?><?thumb-name CESM-4-e70096-g002.gif?><?thumb-size 5350?><?thumb-md5 d1ebae8172ca25a18dfcd86634aaff89?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 165?><?thumb-cloudpmc-urn urn:cdn:blobs/e72d/13387410/d1ebae8172ca/CESM-4-e70096-g002.gif?></graphic></fig><p>To the best of our knowledge, no study with a broader scope (i.e., not restricted to COVID‐19) has systematically assessed the number of systematic reviews initially published as preprints. In a cohort of COVID‐19 prevention reviews registered in PROSPERO, 13 of 47 (28%) were eventually published, including 6 as preprints, 6 as journal articles, and 1 as both [<xref rid="cesm70096-bib-0026" ref-type="bibr">26</xref>]. Another investigation of COVID‐19 treatment reviews also highlighted the substantial use of preprints but reported variable uptake across topics [<xref rid="cesm70096-bib-0027" ref-type="bibr">27</xref>]. More recently, a cross‐sectional study of 246 COVID‐19 systematic reviews found that 14% had been published as preprints, with similar proportions reported in other reviews from the same period [<xref rid="cesm70096-bib-0028" ref-type="bibr">28</xref>]. Collectively, these findings suggest that while preprints are used for systematic reviews, their uptake has been limited and context‐dependent, and little is known outside the COVID‐19 field. More broadly, studies across scientific fields suggest that approximately 65%–75% of preprints are eventually published in peer‐reviewed journals [<xref rid="cesm70096-bib-0022" ref-type="bibr">22</xref>]. In orthopedics, for instance, a corresponding journal publication was identified for 52% (762 of 1471) of the preprints [<xref rid="cesm70096-bib-0029" ref-type="bibr">29</xref>].</p><sec id="cesm70096-sec-0090"><label>1.1</label><title>Problem Statement</title><p>Although evidence on open science practices in original research [<xref rid="cesm70096-bib-0030" ref-type="bibr">30</xref>, <xref rid="cesm70096-bib-0031" ref-type="bibr">31</xref>, <xref rid="cesm70096-bib-0032" ref-type="bibr">32</xref>], only a limited number of studies have assessed these practices in systematic reviews. Existing studies have largely focused on reporting quality, search reproducibility, and transparency in specific disciplines, such as pediatric surgery, otorhinolaryngology, oncology, and psychology [<xref rid="cesm70096-bib-0033" ref-type="bibr">33</xref>, <xref rid="cesm70096-bib-0034" ref-type="bibr">34</xref>, <xref rid="cesm70096-bib-0035" ref-type="bibr">35</xref>, <xref rid="cesm70096-bib-0036" ref-type="bibr">36</xref>, <xref rid="cesm70096-bib-0037" ref-type="bibr">37</xref>, <xref rid="cesm70096-bib-0038" ref-type="bibr">38</xref>]. These studies consistently show important gaps in transparency, reporting, and data‐sharing practices.</p><p>Evidence regarding preprints in systematic reviews is scarce. To date, published investigations have been conducted almost exclusively in the context of COVID‐19. These studies suggest that although systematic reviews are occasionally disseminated as preprints, their uptake is limited, highly context‐dependent, and typically investigated only as a secondary outcome [<xref rid="cesm70096-bib-0026" ref-type="bibr">26</xref>, <xref rid="cesm70096-bib-0027" ref-type="bibr">27</xref>, <xref rid="cesm70096-bib-0028" ref-type="bibr">28</xref>].</p></sec><sec id="cesm70096-sec-0100"><label>1.2</label><title>Aim and Research Questions</title><p>To our knowledge, no research outside the context of COVID‐19 has systematically investigated the prevalence of systematic reviews disseminated as preprints before journal publication. Furthermore, existing evidence is available but largely reflects earlier publication periods and may not represent current practice. Consequently, the primary objective of this study was to evaluate the prevalence of key open‐science practices in contemporary systematic reviews. We selected protocol registration, protocol availability, data sharing, code sharing, and preprint dissemination because they represent widely recognized and measurable indicators of open science. Together, these practices increase the transparency, accessibility, and reusability of research and have been used in previous meta‐research studies evaluating open science practices in systematic reviews. Specifically, we aimed to:
+<list list-type="bullet"><list-item><p>Estimate the frequency of protocol registration, protocol availability, data sharing, and code sharing in a contemporary cohort of systematic reviews.</p></list-item><list-item><p>Estimate the proportion of systematic reviews that were disseminated as preprints before publication in a peer‐reviewed journal.</p></list-item><list-item><p>Compare these indicators across publication periods (2014, 2020, and 2024) to assess temporal changes in open science practices, using previously published data for the 2014 and 2020 cohorts and newly collected data for the 2024 cohort [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>, <xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>].</p></list-item></list>
+</p></sec></sec><sec sec-type="methods" id="cesm70096-sec-0110"><label>2</label><title>Methods</title><p>This cross‐sectional cohort study followed the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) guidelines. Before the search commenced, a public study protocol (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://osf.io/rdpfa" ext-link-type="uri">https://osf.io/rdpfa</ext-link>) was established.</p><sec id="cesm70096-sec-0120"><label>2.1</label><title>Deviations From Protocol</title><p>Per protocol, we planned to (i) report the percentage of reviews meeting each predefined open‐science indicator and the frequency of preprints, (ii) present quantitative results as absolute numbers, proportions, or medians, and (iii) conduct an inductive qualitative analysis following prior categorizations. In addition, prior to data analysis, we specified between‐year comparisons to enhance interpretability and enable direct comparability with prior meta‐research (2014 and 2020 cohorts) [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>, <xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>]; see Statistical analysis for details. No other changes were made to the outcomes, eligibility criteria, or data items.</p></sec><sec id="cesm70096-sec-0130"><label>2.2</label><title>Searches for Studies</title><p>The full search strategies for all databases are available in the Material <xref rid="cesm70096-suppl-0001" ref-type="supplementary-material">S1</xref>.</p><p>A literature search was performed using the MEDLINE, Embase, and CINAHL databases. The search was conducted in June 2024.</p><p>The search strategy was developed in MEDLINE (Ovid) in collaboration with librarians at the Karolinska Institutet University Library. Medical Subject Headings (MeSH) and free‐text terms were identified for each search concept. The search was then translated in part into other databases using the Polyglot Search Translator [<xref rid="cesm70096-bib-0039" ref-type="bibr">39</xref>]. Databases were searched from January 1 to February 1, 2024. English language restrictions were applied due to time and resource constraints. The strategies were peer‐reviewed by another librarian before their execution. Deduplication was performed in Covidence (Veritas Health Innovation, Melbourne, Australia).</p></sec><sec id="cesm70096-sec-0140"><label>2.3</label><title>Sampling</title><p>We gathered systematic reviews from all databases in accordance with the power calculations mentioned in a previous publication [<xref rid="cesm70096-bib-0019" ref-type="bibr">19</xref>]. After collecting and deduplicating the reviews, a random sample of the first 2000 unique records was selected using Microsoft Excel. Subsequently, two researchers (KF and ES) independently screened the titles and abstracts of the remaining records against the eligibility criteria using Covidence. Subsequently, the full texts of potentially eligible records were independently assessed by the same 2 researchers (KF and ES) in a randomized order against the eligibility criteria until the desired sample size of 300 systematic reviews was achieved. Any discrepancies during each screening stage were resolved through discussion or consultation with a third author (VW).</p></sec><sec id="cesm70096-sec-0150"><label>2.4</label><title>Eligibility Criteria</title><p>A systematic review was considered eligible if it had a distinct PICO (population, intervention, comparator, outcome) question, included human participants, used a systematic search strategy to identify relevant literature, assessed the risk of bias in the included studies, and included at least one meta‐analysis (including both network and pairwise meta‐analyses).</p><p>We excluded reviews without included studies, review protocols, qualitative evidence syntheses, rapid reviews, scoping reviews, review overviews, systematic reviews of diagnostic accuracy, prognostic reviews, and methodological reviews.</p></sec><sec id="cesm70096-sec-0160"><label>2.5</label><title>Outcomes and Data Collection</title><p>The temporal comparisons were based on previously published cohorts from 2014 to 2020 that used broadly comparable designs, including random sampling of systematic reviews of interventions, duplicate screening and data extraction procedures, and target sample sizes of 300 reviews [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>, <xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>]. Although minor methodological differences between cohorts may exist, the studies were considered sufficiently comparable to support descriptive assessments of temporal trends. Data for the 2024 cohort were extracted as described below.</p><p>Data extraction was performed in duplicate. KF extracted data from all 300 reviews, whereas PK, PV, and VW independently extracted data from a random subset of 100 reviews. Any discrepancies were resolved through discussion with a third author (ES). We collected data using a customized and pretested data extraction sheet in Microsoft Excel. The categories for data extraction included general information about the review, such as the title, topic, publication date, type of intervention, health condition investigated, and number of included studies. We also collected information on the outcomes of interest in this study (data sharing, code sharing, pre‐registration, protocol availability, and preprints), including the frequency of each outcome and the number of studies included. If we were unable to obtain particular information on an outcome, we first examined the materials available on the journal website. Next, we emailed the corresponding authors for the missing data.</p><p>Preprints were identified through manual searches across preprint servers. First, we searched OSF Preprints using the title and author names. Subsequently, we searched specific preprint servers using a predefined list of repositories (updated February 2022) from the Kirkham et al. study [<xref rid="cesm70096-bib-0040" ref-type="bibr">40</xref>]. Third, we searched CrossRef for corresponding DOIs. Finally, we attempted to contact the corresponding authors directly to obtain missing information or identify potential preprints (see the email template in the Material <xref rid="cesm70096-suppl-0001" ref-type="supplementary-material">S1</xref>).</p></sec><sec id="cesm70096-sec-0170"><label>2.6</label><title>Data Analysis</title><p>We summarized the characteristics using counts/percentages and medians with interquartile ranges. For each indicator, we estimated pairwise risk ratios (RRs) with Wald 95% confidence intervals, comparing 2024 versus 2014 and 2024 versus 2020. When events were rare (numerator &lt;5 or prevalence &lt;5% in either group), we used penalized likelihood logistic regression to obtain odds ratios, interpreted as approximations to RRs when events were rare in both groups. To aid interpretation, we predefined an equivalence range of RR 0.90–1.10 to distinguish practically important differences from trivial differences. This threshold was adopted from the 2020 comparator study [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>] to enable direct comparison across cohorts and was specified a priori. Consistent with the previous study, differences exceeding 10% in either direction were considered potentially important, whereas smaller differences were considered unlikely to be practically meaningful. Analyses were conducted in R (e.g., <italic toggle="yes">epitools</italic> for RRs and Wald confidence intervals [CIs]; <italic toggle="yes">logistf</italic> for penalized models).</p></sec></sec><sec sec-type="results" id="cesm70096-sec-0180"><label>3</label><title>Results</title><sec id="cesm70096-sec-0190"><label>3.1</label><title>Search Strategy</title><p>Our search identified 14,188 records. After removing duplicates (<italic toggle="yes">n</italic> = 2861), 11,327 records remained. From these, a random sample of 2000 records was selected for title and abstract screening. Of these, 404 articles were considered potentially eligible and retrieved for full‐text assessment. We continued full‐text screening until our predefined target sample of 300 eligible systematic reviews was reached. As such, some of the retrieved reports were not assessed further once the target sample size was reached (Figure <xref rid="cesm70096-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="Figure" id="cesm70096-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Flowchart illustrating the identification, screening, eligibility assessment, and inclusion of studies in the study, including reasons for exclusion at the full‐text stage.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="CESM-4-e70096-g001.jpg"><?image-name CESM-4-e70096-g001.jpg?><?image-size 90746?><?image-md5 304ed4bfe59bb8d570e83427f2061cdc?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1068?><?image-original-width 910?><?image-scaled-height 711?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/e72d/13387410/304ed4bfe59b/CESM-4-e70096-g001.jpg?><?thumb-name CESM-4-e70096-g001.gif?><?thumb-size 3158?><?thumb-md5 7346307230d52b4910a78affa3d0c4a3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 117?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/e72d/13387410/7346307230d5/CESM-4-e70096-g001.gif?></graphic></fig></sec><sec id="cesm70096-sec-0200"><label>3.2</label><title>Characteristics of the 2024 Cohort</title><p>Table <xref rid="cesm70096-tbl-0001" ref-type="table">1</xref> presents the characteristics of the included systematic reviews (the full dataset is presented in the Material <xref rid="cesm70096-suppl-0001" ref-type="supplementary-material">S1</xref>). Among the included systematic reviews, cancer was the most frequently studied health condition (17%, 51/300), followed by cardiovascular disease (13.3%), neurological conditions (11.3%, 34/300), and mental health conditions (9%, 27/300). Reviews addressing musculoskeletal (6%, 18/300) and infectious diseases (5%, 15/300) were less common, whereas a substantial proportion focused on other health conditions (38.3%, 115/300).</p><table-wrap position="float" id="cesm70096-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Cohort characteristics.</p></caption><table frame="hsides" rules="groups"><col align="left" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col align="center" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col align="center" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000" valign="bottom"><th align="left" valign="bottom" rowspan="1" colspan="1">Section</th><th align="center" valign="bottom" rowspan="1" colspan="1">Characteristic</th><th align="center" valign="bottom" rowspan="1" colspan="1">Value</th></tr></thead><tbody valign="top"><tr><td rowspan="7" valign="middle" align="left" colspan="1">Health condition</td><td align="center" valign="top" rowspan="1" colspan="1">Cancer</td><td align="center" valign="top" rowspan="1" colspan="1">51 (17%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cardiovascular</td><td align="center" valign="top" rowspan="1" colspan="1">40 (13.3%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Infectious disease</td><td align="center" valign="top" rowspan="1" colspan="1">15 (5%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Mental health</td><td align="center" valign="top" rowspan="1" colspan="1">27 (9%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Musculoskeletal</td><td align="center" valign="top" rowspan="1" colspan="1">18 (6%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Neurological</td><td align="center" valign="top" rowspan="1" colspan="1">34 (11.3%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Other</td><td align="center" valign="top" rowspan="1" colspan="1">115 (38.3%)</td></tr><tr><td rowspan="6" valign="middle" align="left" colspan="1">Intervention</td><td align="center" valign="top" rowspan="1" colspan="1">Digital/Educational/Care‐delivery</td><td align="center" valign="top" rowspan="1" colspan="1">15 (5%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Exercise/Physical/Rehabilitation</td><td align="center" valign="top" rowspan="1" colspan="1">31 (10.3%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Other/Complementary</td><td align="center" valign="top" rowspan="1" colspan="1">61 (20.3%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Pharmacological/Biological</td><td align="center" valign="top" rowspan="1" colspan="1">105 (35.0%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Psychological/Behavioral</td><td align="center" valign="top" rowspan="1" colspan="1">23 (8%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Surgical/Procedural/Invasive</td><td align="center" valign="top" rowspan="1" colspan="1">65 (22%)</td></tr><tr><td rowspan="6" valign="middle" align="left" colspan="1">Methods</td><td align="center" valign="top" rowspan="1" colspan="1">Included studies per review</td><td align="center" valign="top" rowspan="1" colspan="1">Median 14 (IQR 9‐23)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Risk of bias tool: Other</td><td align="center" valign="top" rowspan="1" colspan="1">95 (26.3%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Risk of bias tool: Jadad scale</td><td align="center" valign="top" rowspan="1" colspan="1">12 (3.3%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Risk of bias tool: ROBINS‐I</td><td align="center" valign="top" rowspan="1" colspan="1">29 (8%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Risk of bias tool: RoB 1</td><td align="center" valign="top" rowspan="1" colspan="1">108 (30%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Risk of bias tool: RoB 2</td><td align="center" valign="top" rowspan="1" colspan="1">117 (32.4%)</td></tr><tr><td rowspan="6" valign="middle" align="left" colspan="1">Journal policy</td><td align="center" valign="top" rowspan="1" colspan="1">Data/code sharing policy: No</td><td align="center" valign="top" rowspan="1" colspan="1">82 (27%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Data/code sharing policy: Yes</td><td align="center" valign="top" rowspan="1" colspan="1">218 (73%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Policy expectation: Encouraged</td><td align="center" valign="top" rowspan="1" colspan="1">138 (46%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Policy expectation: Expected</td><td align="center" valign="top" rowspan="1" colspan="1">74 (25%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Policy expectation: Mandatory</td><td align="center" valign="top" rowspan="1" colspan="1">6 (2%)</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Policy expectation: No policy</td><td align="center" valign="top" rowspan="1" colspan="1">82 (27%)</td></tr></tbody></table><table-wrap-foot><fn id="cesm70096-tbl1-note-0001"><p>Abbreviation: IQR, interquartile range.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Pharmacological or biological interventions were the most common intervention category (35.0%), followed by surgical, procedural, or invasive interventions (22%) and other or complementary interventions (20.3%). Exercise, physical, or rehabilitation interventions accounted for 10.3% of the reviews, psychological or behavioral interventions for 8%, and digital, educational, or care delivery interventions for 5%.</p><p>The median number of primary studies included in each review was 14 (interquartile range [IQR], 9–23). The most commonly used risk of bias (RoB) tools were RoB‐2 (32.4%) and RoB‐1 (30%), followed by other tools (26.3%). ROBINS‐I was used in 8% (29/300) of the reviews and the Jadad scale was rarely applied (3.3%).</p><p>Most reviews were published in journals with data and/or code‐sharing policies (73%). Among journals with a policy, data or code sharing was most commonly encouraged (46%), followed by expected (25%) and mandatory (2%) policies.</p></sec><sec id="cesm70096-sec-0210"><label>3.3</label><title>Open Science Indicators in the Contemporary Cohort</title><p>Table <xref rid="cesm70096-tbl-0002" ref-type="table">2</xref> summarizes the prevalence of key open science indicators in our 2024 cohort of systematic reviews. Among the included reviews, 210 of 300 (70%) reported a registered protocol or protocol availability. Most protocols were registered before manuscript submission (187/300, 62%), whereas a small proportion were registered after submission (10/300, 3%); no protocols were registered for the remaining reviews (103/300, 34%).</p><table-wrap position="float" id="cesm70096-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Open science indicators across years.</p></caption><table frame="hsides" rules="groups"><col align="left" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col align="center" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col align="center" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col align="center" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000" valign="bottom"><th align="left" valign="bottom" rowspan="1" colspan="1">Open science indicator</th><th align="center" valign="bottom" rowspan="1" colspan="1">2014</th><th align="center" valign="bottom" rowspan="1" colspan="1">2020</th><th align="center" valign="bottom" rowspan="1" colspan="1">2024</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Registered protocol (%)</td><td align="center" valign="top" rowspan="1" colspan="1">38/110 (35%)</td><td align="center" valign="top" rowspan="1" colspan="1">123/294 (42%)</td><td align="center" valign="top" rowspan="1" colspan="1">210/300 (70%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Protocol before submission (%)</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">187/300 (62%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Protocol after submission</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">10/300 (3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Data availability statement (%)</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">93/300 (31%)</td><td align="center" valign="top" rowspan="1" colspan="1">183/300 (61%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Any data shared (%)</td><td align="center" valign="top" rowspan="1" colspan="1">33/110 (30%)</td><td align="center" valign="top" rowspan="1" colspan="1">19/294 (6%)</td><td align="center" valign="top" rowspan="1" colspan="1">72/300 (24%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Code shared (%)</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">2/300 (1%)</td><td align="center" valign="top" rowspan="1" colspan="1">2/300 (1%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Preprints (%)</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">3/300 (2%)</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Data availability statements were reported in 183 of the 300 reviews (61%). However, the actual sharing of reusable data was less common, with 72 reviews (24%) providing access to the extracted data or datasets underlying the analyses.</p><p>Code sharing was rare. Only 2 of 300 reviews (1%) shared the analytical code used for the meta‐analyses.</p></sec><sec id="cesm70096-sec-0220"><label>3.4</label><title>Preprint Dissemination</title><p>Preprints were rare among the included systematic reviews. In the 2024 cohort, only 3 of 300 reviews (2%) had been disseminated as preprints before publication in a peer‐reviewed journal.</p></sec><sec id="cesm70096-sec-0230"><label>3.5</label><title>Temporal Changes in Open Science Practices</title><p>We observed distinct temporal changes when comparing our 2024 cohort with earlier cohorts from 2014 to 2020 (Figure <xref rid="cesm70096-fig-0003" ref-type="fig">3</xref>, Table <xref rid="cesm70096-tbl-0002" ref-type="table">2</xref>).</p><fig position="float" fig-type="Figure" id="cesm70096-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Temporal changes in open science practices in systematic reviews (2014–2024). Points show effect estimates comparing the 2024 cohort with previously published cohorts from 2014 to 2020 (risk ratios [RR]; odds ratios [OR] for rare events) with 95% confidence intervals. The vertical line indicates no difference (RR = 1.0). The shaded band indicates the predefined equivalence range (RR 0.90–1.10), used to distinguish meaningful change from negligible differences. Numerical estimates are presented in the right‐hand column.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="CESM-4-e70096-g003.jpg"><?image-name CESM-4-e70096-g003.jpg?><?image-size 35025?><?image-md5 c436684fc36605d3df297e18b280d5d4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 429?><?image-original-width 1054?><?image-scaled-height 286?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/e72d/13387410/c436684fc366/CESM-4-e70096-g003.jpg?><?thumb-name CESM-4-e70096-g003.gif?><?thumb-size 7734?><?thumb-md5 18fc44ccda689b2ab88c869d632e9af8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 196?><?thumb-cloudpmc-urn urn:cdn:blobs/e72d/13387410/18fc44ccda68/CESM-4-e70096-g003.gif?></graphic></fig><p>The protocol or registration increased consistently over time. Compared with that in 2014, the likelihood of reporting a protocol or registration was higher in 2020 (RR 1.21, 95% CI 0.91–1.62) and substantially higher in 2024 (RR 2.03, 95% CI 1.55–2.65). A further increase was observed between 2020 and 2024 (RR 1.67 [95% CI 1.43–1.95]). All point estimates were outside the predefined equivalence range (RR 0.90–1.10), indicating practically important differences.</p><p>Data availability statements showed a marked increase between 2020 and 2024 (RR 1.98, 95% CI 1.63–2.40), exceeding the equivalence range and suggesting a substantial improvement in reporting over this period.</p><p>In contrast, data sharing displayed a nonlinear pattern. Reporting decreased from 2014 to 2020 (RR 0.22, 95% CI 0.13–0.36), followed by no clear difference between 2014 and 2024 (RR 0.80, 95% CI 0.56–1.13); the latter estimate overlapped both the null and equivalence ranges. However, a pronounced increase was observed from 2020 to 2024 (RR 3.71, 95% CI 2.30–6.00), indicating a substantial relative change in the most recent period.</p><p>Code sharing remained rare between 2020 and 2024. In the comparison between 2020 and 2024, estimates were derived using penalized likelihood logistic regression due to sparse data, yielding an odds ratio of 1.00 (95% CI 0.15–6.51), consistent with no detectable difference.</p></sec></sec><sec sec-type="discussion" id="cesm70096-sec-0240"><label>4</label><title>Discussion</title><sec id="cesm70096-sec-0250"><label>4.1</label><title>Principal Findings and Interpretation</title><p>Recent studies have directly evaluated the reproducibility and replicability of systematic reviews. In contrast, the present study focused on open science practices that may facilitate transparency, verification, reuse, and future reproducibility efforts. In this cross‐sectional cohort of systematic reviews, several open science indicators were frequently reported, but the sharing of reusable research materials remained uncommon. In the 2024 cohort, 70% of reviews reported a registered protocol and 61% included a data availability statement. However, only 24% shared underlying data, and only 1% shared analytical code. When we contacted the authors to request additional materials, only 39 of 300 responded.</p><p>We also observed differing temporal patterns across indicators. Protocol registration and reporting of data availability statements became more common over time, whereas data sharing declined between 2014 and 2020 before partially recovering in 2024. The apparent decline in data sharing between 2014 and 2020 may partly reflect the substantial decrease in the proportion of Cochrane reviews over time, as Cochrane reviews have historically been subject to more stringent requirements for sharing review materials. Nevertheless, these changes have not consistently translated into greater sharing of reusable data or analytical code, a pattern also observed in prior meta‐research [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>, <xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>].</p><p>Collectively, these findings suggest an increasing emphasis on declarative transparency, whereas the sharing of reusable research materials remains limited, echoing concerns raised by Page et al. [<xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>] and Gabelica et al. [<xref rid="cesm70096-bib-0019" ref-type="bibr">19</xref>]. Systematic reviews are increasingly signaling openness through complying with registration and data availability statements but frequently fail to provide the materials necessary to independently, verify, scrutinize or extend their findings.</p></sec><sec id="cesm70096-sec-0260"><label>4.2</label><title>Comparison with Previous Research</title><p>Our findings are consistent with those of prior meta‐research, demonstrating that the implementation of open science practices in systematic reviews remains limited. Nguyen et al. [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>] identified that only 7% of systematic reviews shared any data or code. Similarly, Page et al. [<xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>] reported that only 31% of articles included a data availability statement. Gabelica et al. [<xref rid="cesm70096-bib-0019" ref-type="bibr">19</xref>] also demonstrated that fewer than 7% of authors complied with data‐sharing requests when data were stated to be “available upon request.” Discipline‐specific investigations have further highlighted these problems. Research in pediatric surgery [<xref rid="cesm70096-bib-0033" ref-type="bibr">33</xref>], otorhinolaryngology [<xref rid="cesm70096-bib-0034" ref-type="bibr">34</xref>], oncology [<xref rid="cesm70096-bib-0035" ref-type="bibr">35</xref>], psychiatry [<xref rid="cesm70096-bib-0036" ref-type="bibr">36</xref>], psychology [<xref rid="cesm70096-bib-0038" ref-type="bibr">38</xref>], and psychotherapy [<xref rid="cesm70096-bib-0037" ref-type="bibr">37</xref>] has highlighted significant deficiencies in transparencyand data sharing. Furthermore, Koffel and Rethlefsen [<xref rid="cesm70096-bib-0041" ref-type="bibr">41</xref>] demonstrated poor reproducibility of search strategies in systematic reviews published in high‐impact journals. These findings suggest that systematic reviews have consistently failed to meet best open science practices across various disciplines.</p></sec><sec id="cesm70096-sec-0270"><label>4.3</label><title>Preprints, Protocol Registration, and Timing</title><p>To date, the incorporation of preprints into systematic reviews has been predominantly examined within the context of the COVID‐19 pandemic. Research on COVID‐19 prevention and treatment reviews has indicated a variable integration of preprints, frequently as a secondary outcome [<xref rid="cesm70096-bib-0026" ref-type="bibr">26</xref>, <xref rid="cesm70096-bib-0027" ref-type="bibr">27</xref>]. A more extensive cross‐sectional analysis revealed that approximately 14% of COVID‐19 systematic reviews were initially disseminated as preprints [<xref rid="cesm70096-bib-0028" ref-type="bibr">28</xref>]. Our findings contribute to this body of literature by illustrating that systematic reviews are infrequently disseminated as preprints outside the pandemic context. Although preprints may accelerate dissemination, transparency and reuse ultimately depend on access to the underlying review materials, irrespective of publication format. In our cohort of systematic reviews, only 24% shared underlying data and just 1% provided analytical code, limiting opportunities for independent verification and reuse. These findings highlight the importance of ensuring that transparency extends beyond publication and includes access to reusable research materials [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>, <xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>]. Although most registered protocols were registered before manuscript submission, a small proportion were registered afterwards. Protocol registration after study initiation or manuscript submission is unlikely to fulfill the primary purpose of prospective registration, namely, reducing selective reporting and increasing transparency regarding planned methods. Nevertheless, distinguishing between prospective and retrospective registration may provide a more nuanced picture of registration practices than reporting registration alone.</p></sec><sec id="cesm70096-sec-0280"><label>4.4</label><title>Strengths and Limitations</title><p>The principal strengths of this study include its adherence to a registered protocol, compliance with the STROBE guidelines, and incorporation of a large, contemporary cohort of systematic reviews. We extend previous research by systematically searching over 40 biomedical preprint servers and directly contacting authors, thereby providing a more accurate estimate of accessible review materials than previous studies that relied solely on published statements [<xref rid="cesm70096-bib-0017" ref-type="bibr">17</xref>, <xref rid="cesm70096-bib-0018" ref-type="bibr">18</xref>]. Despite this, our study has several limitations. Our sample was confined to interventional systematic reviews indexed in selected medical databases during a specific timeframe, which may have impacted generalizability. Identifying preprints and web‐based materials is inherently challenging [<xref rid="cesm70096-bib-0033" ref-type="bibr">33</xref>, <xref rid="cesm70096-bib-0041" ref-type="bibr">41</xref>], and some preprints may have been overlooked despite extensive searches. In addition, the temporal comparisons relied on cohorts derived from separate meta‐research studies. Although the cohorts used broadly comparable designs and eligibility criteria, minor methodological differences may have influenced the observed temporal trends. These comparisons should therefore be interpreted with caution. Finally, contacting authors may introduce response bias, as researchers with more robust transparency practices might be more inclined to respond; this limitation has also been noted in previous studies [<xref rid="cesm70096-bib-0019" ref-type="bibr">19</xref>].</p></sec><sec id="cesm70096-sec-0290"><label>4.5</label><title>Policy and Conceptual Implications</title><p>Our findings are consistent with recent theoretical advances in open science that emphasize the concept of “data distance,” defined as the gap between data producers and potential reusers [<xref rid="cesm70096-bib-0042" ref-type="bibr">42</xref>, <xref rid="cesm70096-bib-0043" ref-type="bibr">43</xref>, <xref rid="cesm70096-bib-0044" ref-type="bibr">44</xref>]. In our study, attempts to obtain additional materials through author contact yielded limited results; most authors did not respond (87%, only 39/300 (13%) responded), and no additional materials were made available beyond those already openly shared. This pattern illustrates that, in practice, review materials are often difficult to access, even when authors are identifiable, and that “available on request” statements rarely translate into actual data provision.</p></sec><sec id="cesm70096-sec-0300"><label>4.6</label><title>Implications for Research and Practice</title><p>Our findings underscore the need for more stringent journal and funder policies to effectively advance data and code sharing in systematic reviews. Reliance on “available on request” statements is insufficient, as evidenced by consistently poor compliance [<xref rid="cesm70096-bib-0019" ref-type="bibr">19</xref>]. The implementation of established frameworks, such as the Transparency and Openness Promotion Guidelines, data citation principles, and repository standards with persistent identifiers, could facilitate the transition from nominal transparency to meaningful transparency and reuse in this field [<xref rid="cesm70096-bib-0045" ref-type="bibr">45</xref>]. Future meta‐research should evaluate the accountability of access claims more systematically, including fulfillment rates and response times. The development and testing of a quantitative “data distance index” may further operationalize openness in evidence synthesis research.</p></sec></sec><sec sec-type="conclusions" id="cesm70096-sec-0310"><label>5</label><title>Conclusions</title><p>This study demonstrates that temporal trends differed across transparency indicators. While protocol registration and data availability statements became more common, substantial deficiencies remain in the sharing of reusable data and analytical code. While the dissemination of systematic reviews through preprints is possible, it remains infrequent outside of the pandemic context and does not ensure transparency, verification, or reuse. By incorporating temporal trend analyses, comprehensive searches across more than 40 preprint servers, and direct author contact, this study provides a more comprehensive assessment of the accessibility of systematic review evidence.</p></sec><sec id="cesm70096-sec-0320"><title>Author Contributions</title><p>
+<bold>Kenneth Färnqvist:</bold> conceptualization, methodology, formal analysis, investigation, data curation, writing – original draft, writing – review and editing, project administration, funding acquisition. <bold>Patrik Karlsson:</bold> conceptualization, investigation, writing – review and editing. <bold>Vera Wachtmeister:</bold> conceptualization, investigation, writing – review and editing. <bold>Patrick Vallance:</bold> conceptualization, investigation, writing – review and editing. <bold>Emma Sinervo:</bold> conceptualization, methodology, formal analysis, investigation, writing – review and editing, funding acquisition. All authors reviewed the results and approved the final manuscript.</p></sec><sec id="cesm70096-sec-0340"><title>Ethics Statement</title><p>This study did not require ethical approval because it was based exclusively on the analyses of publicly available published data and did not involve the collection or analysis of individual‐level personal data. No interaction with human participants occurred, and no identifiable or sensitive information was accessed. In accordance with applicable national regulations, research based solely on the secondary use of published literature does not require review by a research ethics committee.</p></sec><sec sec-type="COI-statement" id="cesm70096-sec-0350"><title>Conflicts of Interest</title><p>All authors have approved the final version of the manuscript and declare no conflicts of interest.</p></sec><sec id="cesm70096-sec-0390"><title>PPI</title><p>Patients and members of the public were not involved in the design, conduct, reporting, or dissemination plans of this meta‐research study.</p></sec><sec id="cesm70096-sec-0400"><title>Transparency Statement</title><p>The guarantor confirms that this manuscript is an honest, accurate, and transparent report of the study; that no significant aspects of the study have been omitted; and that any differences from the original study plan have been clarified.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="cesm70096-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Supporting File 1
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CESM-4-e70096-s003.docx" position="float" orientation="portrait"><?suppdata-name CESM-4-e70096-s003.docx?><?suppdata-size 83927?><?suppdata-md5 fb37ca3a3633664d5ac221583d5b6ca5?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:e72d/13387410/fb37ca3a3633/CESM-4-e70096-s003.docx?></media></supplementary-material><supplementary-material id="cesm70096-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Supporting File 2
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CESM-4-e70096-s002.xlsx" position="float" orientation="portrait"><?suppdata-name CESM-4-e70096-s002.xlsx?><?suppdata-size 169339?><?suppdata-md5 5a283c41f281a63bd136c716d29f19b3?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:e72d/13387410/5a283c41f281/CESM-4-e70096-s002.xlsx?></media></supplementary-material><supplementary-material id="cesm70096-suppl-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Supporting File 3
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CESM-4-e70096-s001.docx" position="float" orientation="portrait"><?suppdata-name CESM-4-e70096-s001.docx?><?suppdata-size 23991?><?suppdata-md5 57c3992dec4872df8e13b66174d1ee1c?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:e72d/13387410/57c3992dec48/CESM-4-e70096-s001.docx?></media></supplementary-material></sec></body><back><ack id="cesm70096-sec-0330"><title>Acknowledgments</title><p>The authors acknowledge the valuable support of Karolinska Institutet librarians Emma‐Lotta Säätelä and Narcisa Hannerz in conducting the search. This work was supported by KI NMA Collaborative awards (2‐4083/2025). The funders had no role in the study design, data collection and analysis, publication decisions, or manuscript preparation.</p></ack><sec sec-type="data-availability" id="cesm70096-sec-0370"><title>Data Availability Statement</title><p>All data extracted and analyzed during this study, together with the study protocol, data extraction forms, and analysis code, are publicly available via the Open Science Framework (OSF) at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://osf.io/rdpfa" ext-link-type="uri" specific-use="software is-supplemented-by">https://osf.io/rdpfa</ext-link>. The dataset consists exclusively of information derived from published systematic reviews and does not contain individual‐level or sensitive data. A preprint of this manuscript is also available on <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://osf.io/preprints/metaarxiv/x59m3_v1" ext-link-type="uri" specific-use="software is-supplemented-by">https://osf.io/preprints/metaarxiv/x59m3_v1</ext-link>.</p></sec><ref-list content-type="cited-references" id="cesm70096-bibl-0001"><title>References</title><ref id="cesm70096-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cesm70096-cit-0001">
+<string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Soderberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. M.</given-names>
+<surname>Errington</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Nosek</surname>
+</string-name>, “<article-title>Credibility of Preprints: An Interdisciplinary Survey of Researchers</article-title>,” <source>Royal Society Open Science</source>
+<volume>7</volume>, no. <issue>10</issue> (<year>2020</year>): <elocation-id>201520</elocation-id>.<pub-id pub-id-type="pmid">33204484</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rsos.201520</pub-id><pub-id pub-id-type="pmcid">PMC7657885</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cesm70096-cit-0002">
+<string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Miske</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Abatayo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Daley</surname>
+</string-name>, et al., “<article-title>Investigating the Reproducibility of the Social and Behavioural Sciences</article-title>,” <source>Nature</source>
+<volume>652</volume>, no. <issue>8108</issue> (<year>2026</year>): <fpage>126</fpage>–<lpage>134</lpage>.<pub-id pub-id-type="pmid">41922699</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-026-10203-5</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cesm70096-cit-0003">
+<string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Page</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Moher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bossuyt</surname>
+</string-name>, et al., “<article-title>PRISMA 2020 Explanation and Elaboration: Updated Guidance and Exemplars for Reporting Systematic Reviews</article-title>,” <source>BMJ</source>
+<volume>372</volume> (<year>2021</year>): <fpage>n160</fpage>.<pub-id pub-id-type="pmid">33781993</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmj.n160</pub-id><pub-id pub-id-type="pmcid">PMC8005925</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cesm70096-cit-0004">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lakens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hilgard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Staaks</surname>
+</string-name>, “<article-title>On the Reproducibility of Meta‐Analyses: Six Practical Recommendations</article-title>,” <source>BMC Psychology</source>
+<volume>4</volume>, no. <issue>1</issue> (<year>2016</year>): <fpage>24</fpage>.<pub-id pub-id-type="pmid">27241618</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40359-016-0126-3</pub-id><pub-id pub-id-type="pmcid">PMC4886411</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cesm70096-cit-0005">
+<string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Wilkinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dumontier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. J.</given-names>
+<surname>Aalbersberg</surname>
+</string-name>, et al., “<article-title>The FAIR Guiding Principles for Scientific Data Management and Stewardship</article-title>,” <source>Scientific Data</source>
+<volume>3</volume>, no. <issue>1</issue> (<year>2016</year>): <elocation-id>160018</elocation-id>.<pub-id pub-id-type="pmid">26978244</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2016.18</pub-id><pub-id pub-id-type="pmcid">PMC4792175</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cesm70096-cit-0006">
+<string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Page</surname>
+</string-name> and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Moher</surname>
+</string-name>, “<article-title>Evaluations of the Uptake and Impact of the Preferred Reporting Items for Systematic Reviews and Meta‐Analyses (PRISMA) Statement and Extensions: A Scoping Review</article-title>,” <source>Systematic Reviews</source>
+<volume>6</volume>, no. <issue>1</issue> (<year>2017</year>): <fpage>263</fpage>.<pub-id pub-id-type="pmid">29258593</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13643-017-0663-8</pub-id><pub-id pub-id-type="pmcid">PMC5738221</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cesm70096-cit-0007">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Grant</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Wendt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Leadbeater</surname>
+</string-name>, et al., “<article-title>Transparent, Open, and Reproducible Prevention Science</article-title>,” <source>Prevention Science</source>
+<volume>23</volume>, no. <issue>5</issue> (<year>2022</year>): <fpage>701</fpage>–<lpage>722</lpage>.<pub-id pub-id-type="pmid">35175501</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11121-022-01336-w</pub-id><pub-id pub-id-type="pmcid">PMC9283153</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cesm70096-cit-0008">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Hoffmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Allers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rombey</surname>
+</string-name>, et al., “<article-title>Nearly 80 Systematic Reviews Were Published Each Day: Observational Study on Trends in Epidemiology and Reporting over the Years 2000‐2019</article-title>,” <source>Journal of Clinical Epidemiology</source>
+<volume>138</volume> (<year>2021</year>): <fpage>1</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">34091022</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2021.05.022</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cesm70096-cit-0009">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karunananthan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Grimshaw</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Maxwell</surname>
+</string-name>, et al., “<article-title>Can a Replication Revolution Resolve the Duplication Crisis in Systematic Reviews?</article-title>,” <source>BMJ Evidence‐Based Medicine</source>
+<volume>29</volume>, no. <issue>5</issue> (<year>2024</year>): <fpage>285</fpage>–<lpage>288</lpage>: <elocation-id>bmjebm‐2022‐112</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmjebm-2022-112125</pub-id><pub-id pub-id-type="pmid">37821212</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cesm70096-cit-0010">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Hunter</surname>
+</string-name>, “<article-title>The Reproducibility ‘Crisis’</article-title>,” <source>EMBO Reports</source>
+<volume>18</volume>, no. <issue>9</issue> (<year>2017</year>): <fpage>1493</fpage>–<lpage>1496</lpage>.<pub-id pub-id-type="pmid">28794201</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embr.201744876</pub-id><pub-id pub-id-type="pmcid">PMC5579390</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cesm70096-cit-0011">
+<article-title>Estimating the Reproducibility of Psychological Science</article-title>,” <source>Science</source>
+<volume>349</volume>, no. <issue>6251</issue> (<year>2015</year>): <elocation-id>aac4716</elocation-id>.<pub-id pub-id-type="pmid">26315443</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aac4716</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cesm70096-cit-0012">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Sandau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Buxbom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Hróbjartsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>Harris</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Brorson</surname>
+</string-name>, “<article-title>The Methodological Quality Was Low and Conclusions Discordant for Meta‐Analyses Comparing Proximal Humerus Fracture Treatments: A Meta‐Epidemiological Study</article-title>,” <source>Journal of Clinical Epidemiology</source>
+<volume>142</volume> (<year>2022</year>): <fpage>100</fpage>–<lpage>109</lpage>.<pub-id pub-id-type="pmid">34718123</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2021.10.014</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cesm70096-cit-0013">
+<string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Ali‐Khan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. W.</given-names>
+<surname>Harris</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. R.</given-names>
+<surname>Gold</surname>
+</string-name>, “<article-title>Motivating Participation in Open Science by Examining Researcher Incentives</article-title>,” <source>eLife</source>
+<volume>6</volume> (<year>2017</year>): <elocation-id>e29319</elocation-id>.<pub-id pub-id-type="pmid">29082866</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.29319</pub-id><pub-id pub-id-type="pmcid">PMC5662284</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cesm70096-cit-0014">
+<string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>McKiernan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. E.</given-names>
+<surname>Bourne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. T.</given-names>
+<surname>Brown</surname>
+</string-name>, et al., “<article-title>How Open Science Helps Researchers Succeed</article-title>,” <source>eLife</source>
+<volume>5</volume> (<year>2016</year>): <elocation-id>e16800</elocation-id>.<pub-id pub-id-type="pmid">27387362</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.16800</pub-id><pub-id pub-id-type="pmcid">PMC4973366</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cesm70096-cit-0015">
+<string-name name-style="western">
+<given-names>P.‐Y.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Mckenzie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Alqaidoom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Hamilton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Moher</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Page</surname>
+</string-name>, “<article-title>Reproducibility of Meta‐Analytic Results in Systematic Reviews of Interventions: Meta‐Research Study</article-title>,” <source>BMJ Medicine</source>
+<volume>4</volume>, no. <issue>1</issue> (<year>2025</year>): <elocation-id>e002024</elocation-id>.<pub-id pub-id-type="pmid">41368128</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmjmed-2025-002024</pub-id><pub-id pub-id-type="pmcid">PMC12684188</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cesm70096-cit-0016">
+<string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Hamilton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Mckenzie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐Y.</given-names>
+<surname>Nguyen</surname>
+</string-name>, et al., “<article-title>Evaluation of the Replicability of Systematic Reviews With Meta‐Analyses of the Effects of Health Interventions</article-title>,” <source>Research Synthesis Methods</source>
+<volume>17</volume>, no. <issue>3</issue> (<year>2026</year>): <fpage>538</fpage>–<lpage>556</lpage>.<pub-id pub-id-type="pmid">41992899</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1017/rsm.2025.10064</pub-id><pub-id pub-id-type="pmcid">PMC13126212</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cesm70096-cit-0017">
+<string-name name-style="western">
+<given-names>P.‐Y.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kanukula</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Mckenzie</surname>
+</string-name>, et al., “<article-title>Changing Patterns in Reporting and Sharing of Review Data in Systematic Reviews With Meta‐Analysis of the Effects of Interventions: Cross Sectional Meta‐Research Study</article-title>,” <source>BMJ</source>
+<volume>379</volume> (<year>2022</year>): <elocation-id>e072428</elocation-id>.<pub-id pub-id-type="pmid">36414269</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmj-2022-072428</pub-id><pub-id pub-id-type="pmcid">PMC9679891</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cesm70096-cit-0018">
+<string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Page</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐Y.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Hamilton</surname>
+</string-name>, et al., “<article-title>Data and Code Availability Statements in Systematic Reviews of Interventions Were Often Missing or Inaccurate: A Content Analysis</article-title>,” <source>Journal of Clinical Epidemiology</source>
+<volume>147</volume> (<year>2022</year>): <fpage>1</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="pmid">35278609</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2022.03.003</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cesm70096-cit-0019">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gabelica</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Bojčić</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Puljak</surname>
+</string-name>, “<article-title>Many Researchers Were Not Compliant With Their Published Data Sharing Statement: A Mixed‐Methods Study</article-title>,” <source>Journal of Clinical Epidemiology</source>
+<volume>150</volume> (<year>2022</year>): <fpage>33</fpage>–<lpage>41</lpage>.<pub-id pub-id-type="pmid">35654271</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2022.05.019</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cesm70096-cit-0020">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ravinetto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Caillet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Zaman</surname>
+</string-name>, et al., “<article-title>Preprints in Times of COVID19: The Time Is Ripe for Agreeing on Terminology and Good Practices</article-title>,” <source>BMC Medical Ethics</source>
+<volume>22</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>106</fpage>.<pub-id pub-id-type="pmid">34320970</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12910-021-00667-7</pub-id><pub-id pub-id-type="pmcid">PMC8320096</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cesm70096-cit-0021">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bauchner</surname>
+</string-name> and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Moher</surname>
+</string-name>, “<article-title>Ensuring an Accurate Scientific Record in an Era of Pre‐Print Servers</article-title>,” <source>Deutsches Ärzteblatt international</source>
+<volume>119</volume>, no. <issue>40</issue> (<year>2022</year>): <fpage>675</fpage>–<lpage>678</lpage>.<pub-id pub-id-type="pmid">36155651</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3238/arztebl.m2022.0293</pub-id><pub-id pub-id-type="pmcid">PMC9830387</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cesm70096-cit-0022">
+<string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Abdill</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Blekhman</surname>
+</string-name>, “<article-title>Tracking the Popularity and Outcomes of All BioRxiv Preprints</article-title>,” <source>eLife</source>
+<volume>8</volume> (<year>2019</year>): <elocation-id>e45133</elocation-id>.<pub-id pub-id-type="pmid">31017570</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.45133</pub-id><pub-id pub-id-type="pmcid">PMC6510536</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cesm70096-cit-0023">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Kang</surname>
+</string-name>, “<article-title>Beyond the Paywall: The Role of Preprints in Overcoming Publication Bias</article-title>,” <source>Journal of Evidence‐Based Practice</source>
+<volume>1</volume> (<year>2025</year>): <fpage>7</fpage>–<lpage>11</lpage>.</mixed-citation></ref><ref id="cesm70096-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cesm70096-cit-0024">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Brierley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Nanni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Polka</surname>
+</string-name>, et al., “<article-title>Tracking Changes Between Preprint Posting and Journal Publication During a Pandemic</article-title>,” <source>PLoS Biology</source>
+<volume>20</volume>, no. <issue>2</issue> (<year>2022</year>): <elocation-id>e3001285</elocation-id>.<pub-id pub-id-type="pmid">35104285</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.3001285</pub-id><pub-id pub-id-type="pmcid">PMC8806067</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cesm70096-cit-0025">
+<string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Ochodo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>De Haan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Reitsma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Hooft</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bossuyt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. M. G.</given-names>
+<surname>Leeflang</surname>
+</string-name>, “<article-title>Overinterpretation and Misreporting of Diagnostic Accuracy Studies: Evidence of ‘Spin’</article-title>,” <source>Radiology</source>
+<volume>267</volume>, no. <issue>2</issue> (<year>2013</year>): <fpage>581</fpage>–<lpage>588</lpage>.<pub-id pub-id-type="pmid">23360738</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1148/radiol.12120527</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cesm70096-cit-0026">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Nothacker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Stadelmaier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Siemens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Meerpohl</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schmucker</surname>
+</string-name>, “<article-title>Characteristics of Registered and Published Systematic Reviews Focusing on the Prevention of COVID‐19: a Meta‐Research Study</article-title>,” <source>BMJ Open</source>
+<volume>12</volume>, no. <issue>5</issue> (<year>2022</year>): <elocation-id>e060255</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmjopen-2021-060255</pub-id><pub-id pub-id-type="pmcid">PMC9086284</pub-id><pub-id pub-id-type="pmid">35534064</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cesm70096-cit-0027">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Siemens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Nothacker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Stadelmaier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Meerpohl</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schmucker</surname>
+</string-name>, “<article-title>Three out of Four Published Systematic Reviews on COVID‐19 Treatments Were Not Registered and One‐Third of Those Registered Were Published: A Meta‐Research Study</article-title>,” <source>Journal of Clinical Epidemiology</source>
+<volume>152</volume> (<year>2022</year>): <fpage>36</fpage>–<lpage>46</lpage>.<pub-id pub-id-type="pmid">36179937</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2022.09.011</pub-id><pub-id pub-id-type="pmcid">PMC9514002</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cesm70096-cit-0028">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mcdonald</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Turner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐Y.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Page</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Turner</surname>
+</string-name>, “<article-title>Are COVID‐19 Systematic Reviews Up to Date and Can We Tell? A Cross‐Sectional Study</article-title>,” <source>Systematic Reviews</source>
+<volume>12</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>85</fpage>.<pub-id pub-id-type="pmid">37202770</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13643-023-02253-x</pub-id><pub-id pub-id-type="pmcid">PMC10193307</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cesm70096-cit-0029">
+<string-name name-style="western">
+<given-names>A. A.</given-names>
+<surname>Rizk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Arza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. K.</given-names>
+<surname>Jella</surname>
+</string-name>, et al., “<article-title>Characterization and Reach of Orthopaedic Research Posted to Preprint Servers: Are We “Undercooking” Our Science?</article-title>,” <source>Clinical Orthopaedics &amp; Related Research</source>
+<volume>481</volume>, no. <issue>8</issue> (<year>2023</year>): <fpage>1491</fpage>–<lpage>1500</lpage>.<pub-id pub-id-type="pmid">36897188</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/CORR.0000000000002621</pub-id><pub-id pub-id-type="pmcid">PMC10344576</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cesm70096-cit-0030">
+<string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Wallach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Boyack</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. P. A.</given-names>
+<surname>Ioannidis</surname>
+</string-name>, “<article-title>Reproducible Research Practices, Transparency, and Open Access Data in the Biomedical Literature, 2015–2017</article-title>,” <source>PLoS Biology</source>
+<volume>16</volume>, no. <issue>11</issue> (<year>2018</year>): <elocation-id>e2006930</elocation-id>.<pub-id pub-id-type="pmid">30457984</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.2006930</pub-id><pub-id pub-id-type="pmcid">PMC6245499</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cesm70096-cit-0031">
+<string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Nolan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Tritz</surname>
+</string-name>, et al., “<article-title>Evaluation of Reproducible and Transparent Research Practices in Pulmonology</article-title>,” <source>Pulmonology</source>
+<volume>27</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>134</fpage>–<lpage>143</lpage>.<pub-id pub-id-type="pmid">32739326</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pulmoe.2020.07.001</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cesm70096-cit-0032">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Kemper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Rolnik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. W. J.</given-names>
+<surname>Mol</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. P. A.</given-names>
+<surname>Ioannidis</surname>
+</string-name>, “<article-title>Reproducible Research Practices and Transparency in Reproductive Endocrinology and Infertility Articles</article-title>,” <source>Fertility and Sterility</source>
+<volume>114</volume>, no. <issue>6</issue> (<year>2020</year>): <fpage>1322</fpage>–<lpage>1329</lpage>.<pub-id pub-id-type="pmid">32771255</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fertnstert.2020.05.020</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cesm70096-cit-0033">
+<string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>Cullis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Gudlaugsdottir</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Andrews</surname>
+</string-name>, “<article-title>A Systematic Review of the Quality of Conduct and Reporting of Systematic Reviews and Meta‐Analyses in Paediatric Surgery</article-title>,” <source>PLoS One</source>
+<volume>12</volume>, no. <issue>4</issue> (<year>2017</year>): <elocation-id>e0175213</elocation-id>.<pub-id pub-id-type="pmid">28384296</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0175213</pub-id><pub-id pub-id-type="pmcid">PMC5383307</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cesm70096-cit-0034">
+<string-name name-style="western">
+<given-names>J. P. M.</given-names>
+<surname>Peters</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Hooft</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Grolman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Stegeman</surname>
+</string-name>, “<article-title>Reporting Quality of Systematic Reviews and Meta‐Analyses of Otorhinolaryngologic Articles Based on the PRISMA Statement</article-title>,” <source>PLoS One</source>
+<volume>10</volume>, no. <issue>8</issue> (<year>2015</year>): <elocation-id>e0136540</elocation-id>.<pub-id pub-id-type="pmid">26317406</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0136540</pub-id><pub-id pub-id-type="pmcid">PMC4552785</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cesm70096-cit-0035">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wayant</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Page</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Vassar</surname>
+</string-name>, “<article-title>Evaluation of Reproducible Research Practices in Oncology Systematic Reviews with Meta‐Analyses Referenced by National Comprehensive Cancer Network Guidelines</article-title>,” <source>JAMA Oncology</source>
+<volume>5</volume>, no. <issue>11</issue> (<year>2019</year>): <fpage>1550</fpage>.<pub-id pub-id-type="pmid">31486837</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2019.2564</pub-id><pub-id pub-id-type="pmcid">PMC6735674</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cesm70096-cit-0036">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>Is the Best Evidence Good Enough: Quality Assessment and Factor Analysis of Meta‐Analyses on Depression</article-title>,” <source>PLoS One</source>
+<volume>11</volume>, no. <issue>6</issue> (<year>2016</year>): <elocation-id>e0157808</elocation-id>.<pub-id pub-id-type="pmid">27336624</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0157808</pub-id><pub-id pub-id-type="pmcid">PMC4919061</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cesm70096-cit-0037">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>López‐Nicolás</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>López‐López</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rubio‐Aparicio</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Sánchez‐Meca</surname>
+</string-name>, “<article-title>A Meta‐Review of Transparency and Reproducibility‐Related Reporting Practices in Published Meta‐Analyses on Clinical Psychological Interventions (2000–2020)</article-title>,” <source>Behavior Research Methods</source>
+<volume>54</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>334</fpage>–<lpage>349</lpage>.<pub-id pub-id-type="pmid">34173943</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3758/s13428-021-01644-z</pub-id><pub-id pub-id-type="pmcid">PMC8863703</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cesm70096-cit-0038">
+<string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Polanin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Hennessy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Tsuji</surname>
+</string-name>, “<article-title>Transparency and Reproducibility of Meta‐Analyses in Psychology: A Meta‐Review</article-title>,” <source>Perspectives on Psychological Science</source>
+<volume>15</volume>, no. <issue>4</issue> (<year>2020</year>): <fpage>1026</fpage>–<lpage>1041</lpage>.<pub-id pub-id-type="pmid">32516081</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1745691620906416</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cesm70096-cit-0039">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Clark</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sanders</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Carter</surname>
+</string-name>, et al., “<article-title>Improving the Translation of Search Strategies Using the Polyglot Search Translator: A Randomized Controlled Trial</article-title>,” <source>Journal of the Medical Library Association</source>
+<volume>108</volume>, no. <issue>2</issue> (<year>2020</year>): <fpage>195–207</fpage>.<pub-id pub-id-type="pmid">32256231</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.5195/jmla.2020.834</pub-id><pub-id pub-id-type="pmcid">PMC7069833</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cesm70096-cit-0040">
+<string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Kirkham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. C.</given-names>
+<surname>Penfold</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Murphy</surname>
+</string-name>, et al., “<article-title>Systematic Examination of Preprint Platforms for Use in the Medical and Biomedical Sciences Setting</article-title>,” <source>BMJ Open</source>
+<volume>10</volume>, no. <issue>12</issue> (<year>2020</year>): <elocation-id>e041849</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmjopen-2020-041849</pub-id><pub-id pub-id-type="pmcid">PMC7778769</pub-id><pub-id pub-id-type="pmid">33376175</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cesm70096-cit-0041">
+<string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Koffel</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Rethlefsen</surname>
+</string-name>, “<article-title>Reproducibility of Search Strategies Is Poor in Systematic Reviews Published in High‐Impact Pediatrics, Cardiology and Surgery Journals: A Cross‐Sectional Study</article-title>,” <source>PLoS One</source>
+<volume>11</volume>, no. <issue>9</issue> (<year>2016</year>): <elocation-id>e0163309</elocation-id>.<pub-id pub-id-type="pmid">27669416</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0163309</pub-id><pub-id pub-id-type="pmcid">PMC5036875</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0042"><label>42</label><mixed-citation publication-type="book" id="cesm70096-cit-0042">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Leonelli</surname>
+</string-name>, “<part-title>Learning from Data Journeys</part-title>,” in <source>Data Journeys in the Sciences</source>. <publisher-name>Springer International Publishing</publisher-name>, <year>2020</year>, <fpage>1</fpage>–<lpage>24</lpage>.</mixed-citation></ref><ref id="cesm70096-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cesm70096-cit-0043">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Guedes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>de la Serna Bazan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Rubio‐Martín</surname>
+</string-name>, et al., “<article-title>How To: Share and Reuse Data‐Challenges and Solutions from Predicting the Impact of Monoclonal Antibodies &amp; Vaccines on Antimicrobial Resistance Project</article-title>,” <source>Clinical Microbiology and Infection: The Official publication of the European Society of Clinical Microbiology and Infectious Diseases</source>
+<volume>31</volume>, no. <issue>5</issue> (<year>2025</year>): <fpage>753</fpage>–<lpage>760</lpage>.<pub-id pub-id-type="pmid">39870351</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmi.2025.01.024</pub-id></mixed-citation></ref><ref id="cesm70096-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cesm70096-cit-0044">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Leonelli</surname>
+</string-name>, “<article-title>What to Do About Data Distance? Responsible Alternatives to Data Sharing</article-title>,” <source>Harvard Data Science Review</source> no. <issue>7.2</issue> (<year>2025</year>), <pub-id pub-id-type="doi">10.1162/99608f92.e95b5c26</pub-id>.</mixed-citation></ref><ref id="cesm70096-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cesm70096-cit-0045">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Mayo‐Wilson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Grant</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Supplee</surname>
+</string-name>, et al., “<article-title>Evaluating Implementation of the Transparency and Openness Promotion (TOP) Guidelines: The TRUST Process for Rating Journal Policies, Procedures, and Practices</article-title>,” <source>Research Integrity and Peer Review</source>
+<volume>6</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>9</fpage>.<pub-id pub-id-type="pmid">34078479</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s41073-021-00112-8</pub-id><pub-id pub-id-type="pmcid">PMC8173977</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "proposal_scope": "One independent author source pair acquired; zero newly executable verified claims. Retain PENDING until a supported explicit preprocessing contract exists. No human labels.",
+  "cases": [
+    {
+      "claim_id": "SKYLARK2021-STUDY1-FINAL-N",
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259711",
+      "source_location": "Methods / Participants / final paragraph",
+      "claim_text": "Study 1 final analysis sample comprised 308 participants",
+      "data_file": "data/evaluation/paper_pairs/deprivation/study1.csv",
+      "data_sha256": "e618366fcbea120581bc107a6d4a8580e3c8dfdba001d1739e90908b83ea83b2",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 308,
+      "tolerance": 0,
+      "source_file": "data/evaluation/paper_pairs/deprivation/claim_excerpt.txt",
+      "source_quote": "The final samples comprised 308, 409 and 423 participants for Studies 1, 2, and 3, respectively",
+      "source_kind": "article_extract",
+      "scope_status": "PENDING",
+      "scope_note": "Raw S1 Data has 383 rows. Final 308 requires author get_exclusions: complete-case over all columns, sum SSS=1, duplicate=0, age 18-100, ENV_5=2. Existing registry cannot represent this preprocessing. One-off translated arithmetic gives 308 but is not product execution, certified scope, or author R reproduction.",
+      "source_sha256": "b78f02c1f756951e1d0602fea2ed5de5c85d7bfb77539418ca7c9f1f515618b9",
+      "source_capture": "exact_substring_from_official_publisher_html",
+      "provenance_file": "data/evaluation/paper_pairs/deprivation/provenance.json",
+      "acquisition_audit_file": "data/evaluation/paper_pairs/deprivation/acquisition_audit.json",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="brb371709" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Brain Behav</journal-id><journal-id journal-id-type="iso-abbrev">Brain Behav</journal-id><journal-id journal-id-type="pmc-domain-id">1650</journal-id><journal-id journal-id-type="pmc-domain">brb</journal-id><journal-id journal-id-type="nlm-id">101570837</journal-id><journal-id journal-id-type="publisher-id">BRB3</journal-id><journal-title-group><journal-title>Brain and Behavior</journal-title></journal-title-group><issn pub-type="epub">2162-3279</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13527226</article-id><article-id pub-id-type="pmcid-ver">PMC13527226.1</article-id><article-id pub-id-type="pmcaid">13527226</article-id><article-id pub-id-type="pmcaiid">13527226</article-id><article-id pub-id-type="pmid">42670046</article-id><article-id pub-id-type="doi">10.1002/brb3.71709</article-id><article-id pub-id-type="publisher-id">BRB371709</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>The Impact of Overtraining on Anxiety‐Like Behavior and Tight Junction Proteins of the Blood–Brain Barrier in Mice</article-title></title-group><contrib-group><contrib id="brb371709-cr-0001" contrib-type="author"><name name-style="western"><surname>Hwang</surname><given-names initials="E">Eunseon</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="brb371709-cr-0002" contrib-type="author"><name name-style="western"><surname>Shin</surname><given-names initials="M">Minyoung</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="brb371709-cr-0003" contrib-type="author"><name name-style="western"><surname>Park</surname><given-names initials="T">Taeeon</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="brb371709-cr-0004" contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names initials="JJ">Jeremy J.</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="brb371709-cr-0005" contrib-type="author"><name name-style="western"><surname>Yi</surname><given-names initials="D">Dongheon</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="brb371709-cr-0006" contrib-type="author"><name name-style="western"><surname>Park</surname><given-names initials="J">Jeayeon</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="brb371709-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Moon</surname><given-names initials="HY">Hyo Youl</given-names></name><xref rid="brb371709-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="brb371709-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="brb371709-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="brb371709-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physical Education</named-content>
+<institution>Seoul National University</institution>
+<city>Seoul</city>
+<country country="KR">South Korea</country>
+</aff><aff id="brb371709-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Learning Sciences Research Institute</named-content>
+<institution>Seoul National University</institution>
+<city>Seoul</city>
+<country country="KR">South Korea</country>
+</aff><aff id="brb371709-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Aging</named-content>
+<institution>Seoul National University</institution>
+<city>Seoul</city>
+<country country="KR">South Korea</country>
+</aff><pub-date pub-type="epub"><day>30</day><month>8</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="40">9</issue><issue-id pub-id-type="pmc-issue-id">520311</issue-id><issue-id pub-id-type="doi">10.1002/brb3.v16.9</issue-id><elocation-id>e71709</elocation-id><history>
+<date date-type="rev-recd"><day>23</day><month>7</month><year>2026</year></date>
+<date date-type="received"><day>13</day><month>3</month><year>2026</year></date>
+<date date-type="accepted"><day>07</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>30</day><month>08</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>01</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-01 13:25:18.740"><day>01</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Brain and Behavior</italic> published by Wiley Periodicals LLC.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="BRB3-16-e71709.pdf"><?pdf-name BRB3-16-e71709.pdf?><?pdf-size 1876668?><?pdf-md5 f7298e5b5f0d5ec773af1892da8016c4?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:50f9/13527226/f7298e5b5f0d/BRB3-16-e71709.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:BRB3-16-e71709.pdf"/><abstract><title>ABSTRACT</title><p>
+<bold>Purpose</bold>: Overtraining Syndrome (OTS) is a chronic maladaptive condition characterized by persistent performance decline due to excessive training and inadequate recovery. OTS is associated with mood disturbances, but the underlying neurobiological mechanisms remain unclear. This study investigated whether a 6‐week overtraining (OT) protocol induces anxiety‐like behavior and changes in hippocampal BBB‐related tight junction proteins in mice.</p><p>
+<bold>Methods</bold>: Eight‐week‐old male C57BL/6J mice were assigned to sedentary (SED, <italic toggle="yes">n</italic> = 5), moderate exercise (ME, <italic toggle="yes">n</italic> = 5), or overtraining (OT; downhill treadmill running, initially <italic toggle="yes">n</italic> = 10) groups and completed a 6‐week training protocol. The final OT sample size was <italic toggle="yes">n</italic> = 4 after 6 of the 10 mice were excluded due to tail or hindlimb injuries. Endurance capacity was assessed using an incremental loading test (ILT). Anxiety‐like behaviors were evaluated using the nest building test (NBT), open‐field test (OFT), and elevated plus maze (EPM). Hippocampal tight junction (TJ) proteins zonula occludens‐1 (ZO‐1), occludin, claudin‐5, as well as tumor necrosis factor‐alpha (TNF‐α) were quantified by Western blot analysis.</p><p>
+<bold>Results</bold>: After 6 weeks, endurance performance in the OT group significantly decreased from baseline (<italic toggle="yes">p</italic> &lt; 0.01) and was lower than that of the ME group at Week 6 (<italic toggle="yes">p</italic> &lt; 0.0001). In the quadriceps, TNF‐α protein levels were significantly elevated in the OT group compared with both the SED (<italic toggle="yes">p</italic> &lt; 0.05) and ME groups (<italic toggle="yes">p</italic> &lt; 0.01). In the OFT, OT mice exhibited fewer center entries and reduced time spent in the center zone versus the SED and ME groups (<italic toggle="yes">p</italic> &lt; 0.05), indicating increased anxiety related behavioral change. In the hippocampus, zonula occludens‐1 (ZO‐1) levels were reduced and TNF‐α levels were elevated in OT compared with SED (<italic toggle="yes">p</italic> &lt; 0.01 and <italic toggle="yes">p</italic> &lt; 0.05, respectively), whereas claudin‐5 levels were higher in ME than SED (<italic toggle="yes">p</italic> &lt; 0.05).</p><p>
+<bold>Conclusion</bold>: OT was associated with anxiety‐like behavioral alterations and changes in hippocampal BBB‐related tight junction proteins. Reduced expression of TJ proteins and increased neuroinflammation may contribute to affective symptoms observed in OTS. However, given the small final sample size in the OT group, these findings should be interpreted with caution.</p></abstract><abstract id="brb371709-abs-0001" abstract-type="graphical"><p>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="BRB3-16-e71709-g006.webp"><?image-name BRB3-16-e71709-g006.webp?><?image-size 8644?><?image-md5 22d0fa71759e3bfd81bc4a853fd4ccc8?><?image-image-server-status NEVER_LOAD?><?image-original-height 135?><?image-original-width 240?><?image-scaled-height 135?><?image-scaled-width 240?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/22d0fa71759e/BRB3-16-e71709-g006.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="brb371709-kwd-0001">anxiety‐like behavior</kwd><kwd id="brb371709-kwd-0002">blood–brain barrier</kwd><kwd id="brb371709-kwd-0003">neuroinflammation</kwd><kwd id="brb371709-kwd-0004">Overtraining Syndrome</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Research Foundation of Korea (NRF)</institution></institution-wrap>
+</funding-source><award-id>RS‐2022‐NR070859</award-id><award-id>RS‐2025‐16066994</award-id><award-id>NRF‐2026S1A5A2A01005211</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="3"/><page-count count="12"/><word-count count="7371"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:31.08.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="brb371709-sec-0010"><label>1</label><title>Introduction</title><p>Physical activity is widely recognized as a potent non‐pharmacological intervention for enhancing metabolic health and cognitive function (Cooper et al. <xref rid="brb371709-bib-0011" ref-type="bibr">2018</xref>). Regular moderate‐intensity exercise has been shown to promote neuroplasticity, reduce systemic inflammation, and improve mood states (Ma <xref rid="brb371709-bib-0027" ref-type="bibr">2008</xref>; Moon et al. <xref rid="brb371709-bib-0030" ref-type="bibr">2012</xref>; Vecchio et al. <xref rid="brb371709-bib-0056" ref-type="bibr">2018a</xref>). However, the relationship between exercise volume and physiological adaptation follows a bell‐shaped curve, whereby training loads that exceed the body's capacity to recover lead to maladaptive responses (Radak et al. <xref rid="brb371709-bib-0041" ref-type="bibr">2017</xref>). This state, known as Overtraining Syndrome (OTS), is frequently observed in elite athletes and military personnel who undergo high‐intensity training regimens with insufficient recovery (Petibois et al. <xref rid="brb371709-bib-0040" ref-type="bibr">2003</xref>; Vrijkotte et al. <xref rid="brb371709-bib-0059" ref-type="bibr">2019</xref>).</p><p>In both clinical and experimental settings, OTS is distinguished from functional overreaching by the persistence of performance decrements despite sufficient recovery. In rodent models, prolonged downhill treadmill running has been widely used to induce muscle damage, systemic inflammation, and performance decline, thereby mimicking key features of OTS (Yi et al. <xref rid="brb371709-bib-0064" ref-type="bibr">2025</xref>).</p><p>Clinically, OTS is characterized not only by a stagnation or decrement in physical performance but also by severe mood disturbances, including depression and anxiety, which often precede physiological symptoms (O'Connor et al. <xref rid="brb371709-bib-0036" ref-type="bibr">1991</xref>; Jahangiri et al. <xref rid="brb371709-bib-0021" ref-type="bibr">2019</xref>; Armstrong et al. <xref rid="brb371709-bib-0003" ref-type="bibr">2022</xref>). While the peripheral mechanisms of OTS, such as glycogen depletion and muscle damage, are well‐documented (Costill et al. <xref rid="brb371709-bib-0012" ref-type="bibr">1988</xref>; Cheng et al. <xref rid="brb371709-bib-0010" ref-type="bibr">2020</xref>), the neurobiological mechanisms linking excessive physical stress to anxiety‐like behaviors remain poorly understood.</p><p>A prevailing theory explaining the systemic effects of OTS is the “cytokine hypothesis,” which posits that repetitive tissue trauma induces a chronic systemic inflammatory response involving elevated levels of pro‐inflammatory cytokines such as tumor necrosis factor‐alpha (TNF‐α) and interleukin‐6 (IL‐6) (Smith <xref rid="brb371709-bib-0048" ref-type="bibr">2000</xref>; Robson <xref rid="brb371709-bib-0045" ref-type="bibr">2003</xref>; Kreher and Schwartz <xref rid="brb371709-bib-0025" ref-type="bibr">2012</xref>). Under physiological conditions, the brain is shielded from peripheral inflammation by the blood–brain barrier (BBB), a selective permeability barrier formed by brain microvascular endothelial cells connected by tight junction (TJ) proteins, including Zonula Occludens‐1 (ZO‐1), Occludin, and Claudin‐5 (Daneman and Prat <xref rid="brb371709-bib-0013" ref-type="bibr">2015</xref>). However, sustained systemic inflammation can compromise BBB integrity, allowing cytokines and immune cells to infiltrate the brain parenchyma (Takata et al. <xref rid="brb371709-bib-0051" ref-type="bibr">2021</xref>; Galea <xref rid="brb371709-bib-0016" ref-type="bibr">2021</xref>; Wu et al. <xref rid="brb371709-bib-0063" ref-type="bibr">2022</xref>). Disruption of the neurovascular unit is increasingly implicated in the pathophysiology of psychiatric disorders (Welcome <xref rid="brb371709-bib-0060" ref-type="bibr">2020</xref>; Greene et al. <xref rid="brb371709-bib-0019" ref-type="bibr">2020</xref>; Sun et al. <xref rid="brb371709-bib-0049" ref-type="bibr">2024</xref>). Recent studies suggest that stress‐induced BBB breakdown in the hippocampus, a region critical for emotional regulation, promotes neuroinflammation and the development of anxiety‐like behaviors (de Paula et al. <xref rid="brb371709-bib-0014" ref-type="bibr">2021</xref>; Wu et al. <xref rid="brb371709-bib-0062" ref-type="bibr">2023</xref>; Wu and Zhang <xref rid="brb371709-bib-0061" ref-type="bibr">2023</xref>). The hippocampus was selected as a primary region of interest due to its high metabolic demand, sensitivity to inflammatory cytokines, and established role in stress‐related emotional regulation and hypothalamic–pituitary–adrenal (HPA) axis feedback control (Mah et al. <xref rid="brb371709-bib-0028" ref-type="bibr">2016</xref>; Wu and Zhang <xref rid="brb371709-bib-0061" ref-type="bibr">2023</xref>). Despite the established link between psychological stress and BBB dysfunction, few studies have examined whether the physiological stress of overtraining (OT) exerts similar deleterious effects on the BBB. It remains unclear how excessive training loads combined with insufficient recovery alter BBB integrity and whether these changes are associated with anxiety in OTS. While moderate exercise is known to strengthen BBB integrity through antioxidant and anti‐inflammatory pathways (Małkiewicz et al. <xref rid="brb371709-bib-0029" ref-type="bibr">2019</xref>; CHANG et al. <xref rid="brb371709-bib-0009" ref-type="bibr">2025</xref>), we hypothesize that OT disrupts this barrier via cytokine‐mediated degradation of TJ proteins.</p><p>Therefore, the present study aimed to investigate the effects of a 6‐week OT protocol on anxiety‐like behaviors, hippocampal neuroinflammation, and BBB integrity in mice. Specifically, we assessed the protein levels of ZO‐1, Occludin, and Claudin‐5 in the hippocampus and examined their relationship with TNF‐α levels and behavioral outcomes. By contrasting these effects with those of a moderate exercise regimen, this study seeks to elucidate the neurobiological underpinnings of OT‐induced anxiety and provide preliminary evidence of BBB‐related molecular alterations in association with OT as a potential pathological mechanism in OTS.</p></sec><sec id="brb371709-sec-0020"><label>2</label><title>Methods</title><sec id="brb371709-sec-0030"><label>2.1</label><title>Animal Experiment</title><p>Eight‐week‐old male C57BL/6J mice were housed under controlled conditions at 22°C–25°C with 40%–60% humidity and a 12‐h light/dark cycle and were provided ad libitum access to food and water. Mice were randomly divided into three groups: Sedentary (SED, <italic toggle="yes">n =</italic> 5), Moderate exercise (ME, <italic toggle="yes">n =</italic> 5), and Overtraining (OT, <italic toggle="yes">n =</italic> 10). During the protocol, six mice in the OT group developed tail or hindlimb injuries and were excluded from the analysis to avoid confounding effects on physical performance, resulting in a final sample size of four mice in the OT group. Each mouse was housed individually and weighed weekly. All procedures were approved by the Institutional Animal Care and Use Committee of Seoul National University (SNU‐240510‐4‐2).</p></sec><sec id="brb371709-sec-0040"><label>2.2</label><title>Experimental Design</title><p>An overview of the experimental design is shown in Figure <xref rid="brb371709-fig-0001" ref-type="fig">1</xref>.</p><fig position="float" fig-type="FIGURE" id="brb371709-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Experimental flow chart of the study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="BRB3-16-e71709-g003.webp"><?image-name BRB3-16-e71709-g003.webp?><?image-size 36324?><?image-md5 9800758690b1b24977b08e367a25794b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 807?><?image-original-width 560?><?image-scaled-height 807?><?image-scaled-width 560?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/9800758690b1/BRB3-16-e71709-g003.webp?><?thumb-name BRB3-16-e71709-g003.gif?><?thumb-size 7840?><?thumb-md5 370ba8a9ccced1ffe021048f2bcc4072?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 139?><?thumb-cloudpmc-urn urn:cdn:blobs/50f9/13527226/370ba8a9ccce/BRB3-16-e71709-g003.gif?></graphic></fig></sec><sec id="brb371709-sec-0050"><label>2.3</label><title>Exercise Protocol</title><sec id="brb371709-sec-0060"><label>2.3.1</label><title>Moderate Exercise Protocol</title><p>The moderate exercise program lasted 6 weeks and was adapted from the protocol of Pereira (<xref rid="brb371709-bib-0039" ref-type="bibr">2015</xref>). The exercise protocol is summarized in Table <xref rid="brb371709-tbl-0001" ref-type="table">1</xref>.</p><table-wrap position="float" id="brb371709-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Moderate exercise protocol.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Moderate exercise</th><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Week</th><th align="center" rowspan="1" colspan="1">Intensity (%EV)</th><th align="center" rowspan="1" colspan="1">Duration (min)</th><th align="center" rowspan="1" colspan="1">Session/day</th><th align="center" rowspan="1" colspan="1">Recovery between sessions (h)</th><th align="center" rowspan="1" colspan="1">Treadmill grade (down, %)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">0–6</td><td align="center" rowspan="1" colspan="1">60%</td><td align="center" rowspan="1" colspan="1">50</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">24</td><td align="center" rowspan="1" colspan="1">0</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="brb371709-sec-0070"><label>2.3.2</label><title>Overtraining Protocol</title><p>The OT protocol was adapted from Ferreira (2015) and performed for 6 weeks. During Week 1, mice completed one training session per day for 6 consecutive days. The first 3 training days were performed on a level treadmill (0% grade), followed by 3 days of downhill running (14% grade). Beginning in Week 2, training load was progressively increased through higher running intensity, extended duration, additional daily sessions, and the use of downhill running. The detailed protocol is presented in Table <xref rid="brb371709-tbl-0002" ref-type="table">2</xref>.</p><table-wrap position="float" id="brb371709-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Overtraining protocol.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Overtraining</th><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"/></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Week</th><th align="center" rowspan="1" colspan="1">Training period</th><th align="center" rowspan="1" colspan="1">Intensity (%EV)</th><th align="center" rowspan="1" colspan="1">Duration (min)</th><th align="center" rowspan="1" colspan="1">Session/day</th><th align="center" rowspan="1" colspan="1">Recovery between sessions (h)</th><th align="center" rowspan="1" colspan="1">Treadmill grade (down, %)</th></tr></thead><tbody><tr><td rowspan="2" align="left" colspan="1">1</td><td align="center" rowspan="1" colspan="1">Days 1–3</td><td align="center" rowspan="1" colspan="1">60%</td><td align="center" rowspan="1" colspan="1">60</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">24</td><td align="center" rowspan="1" colspan="1">0</td></tr><tr><td align="center" rowspan="1" colspan="1">Days 4–6</td><td align="center" rowspan="1" colspan="1">60%</td><td align="center" rowspan="1" colspan="1">60</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">24</td><td align="center" rowspan="1" colspan="1">14</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">Days 1–6</td><td align="center" rowspan="1" colspan="1">60%</td><td align="center" rowspan="1" colspan="1">60</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">14</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">Days 1–6</td><td align="center" rowspan="1" colspan="1">70%</td><td align="center" rowspan="1" colspan="1">60</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">14</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">Days 1–6</td><td align="center" rowspan="1" colspan="1">70%</td><td align="center" rowspan="1" colspan="1">60</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">14</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="center" rowspan="1" colspan="1">Days 1–6</td><td align="center" rowspan="1" colspan="1">75%</td><td align="center" rowspan="1" colspan="1">75</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">14</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">Days 1–6</td><td align="center" rowspan="1" colspan="1">75%</td><td align="center" rowspan="1" colspan="1">75</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">14</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec id="brb371709-sec-0080"><label>2.4</label><title>Exercise Performance Evaluation</title><sec id="brb371709-sec-0090"><label>2.4.1</label><title>Incremental Loading Test (ILT)</title><p>A modified ILT, adapted from Ferreira (2015), was conducted 48 h before the initiation of training (Week 0) to establish exercise intensity and 24 h after the final training session of Week 6 to evaluate performance. The test began at 6 m/min with no incline, and speed was increased by 1 m/min every minute. Exhaustion was defined as contacting the treadmill's end 5 times within 1 min. The exhaustion velocity (m/min) was used both to determine training intensities for the moderate exercise and OT protocols and to assess performance capacity.</p></sec><sec id="brb371709-sec-0100"><label>2.4.2</label><title>4‐Paw Grip Strength</title><p>Muscle strength was evaluated using a grip strength meter (Bioseb, Vitrolles, France) that measured 4‐paw grip force. Mice were gently pulled by the tail in a horizontal direction until the grip was released, and the peak force (g) was recorded. Each mouse performed three trials with 5‐min intervals, and the mean value was calculated. Data were normalized to body weight.</p></sec></sec><sec id="brb371709-sec-0110"><label>2.5</label><title>Behavioral Assessments</title><sec id="brb371709-sec-0120"><label>2.5.1</label><title>Nest Building Test (NBT)</title><p>The NBT was conducted once a week, 24 h after the final training session. Each cage received 3 g pressed cotton squares (SOOSUNG, Yangsan, Republic of Korea) as nesting material. Nest quality was assessed between 09:00 and 18:00 using the Deacon method, and scores were averaged from 3 independent evaluators blinded to the experimental conditions.</p></sec><sec id="brb371709-sec-0130"><label>2.5.2</label><title>Open‐Field Test (OFT)</title><p>The OFT was performed in an 80 × 80 × 30 cm apparatus divided into four equal compartments (40 × 40 cm each) and fitted with a video‐tracking camera. Each mice was placed at the center and monitored for 10 min. The arena was cleaned with 70% ethanol after each trial. Behavioral data were analyzed using ANY‐maze software (Stoelting Co., Wood Dale, USA). The center zone was defined as the central 20 × 20 cm area of each compartment, and the remaining area was defined as the peripheral zone.</p></sec><sec id="brb371709-sec-0140"><label>2.5.3</label><title>Elevated Plus Maze (EPM)</title><p>After all mice had completed the OFT, the EPM was conducted. The apparatus consisted of two open arms (30 × 5 cm), two closed arms (30 × 5 cm) enclosed by 15‐cm‐high walls, and a central platform (5 × 5 cm), elevated 55 cm above the floor.</p><p>Each mouse was placed in the central area of the maze, and behavior was recorded for 5 min with an overhead camera. After each trial, the maze was cleaned with 70% ethanol. Behavioral data were analyzed using ANY‐maze software (Stoelting Co., Wood Dale, USA). An arm entry was defined as the animal's center entering an arm. Time spent and entries in the open and closed arms, along with total distance traveled, were quantified.</p></sec></sec><sec id="brb371709-sec-0150"><label>2.6</label><title>Tissue Collection</title><p>At 48 h after the final training session, mice were anesthetized with isoflurane, and blood was collected by cardiac puncture. Following perfusion with 1× phosphate‐buffered saline (PBS), whole brains were removed and hemisected. One hemisphere was stored at −80°C. Skeletal muscles from both hindlimbs were also harvested and stored at −80°C. For western blotting, the hippocampus was rapidly dissected from the brain, and the tibialis anterior (TA) and quadriceps (QUAD) muscles were collected from both hindlimbs. All tissues were homogenized in ice‐cold RIPA lysis buffer (Biosesang, RC2002‐050‐00, Daejeon, Republic of Korea) containing a protease inhibitor (Roche, 04 693 116 001, Basel, Switzerland) and a phosphatase inhibitor (Roche, 04 906 845 001, Basel, Switzerland) for protein extraction. Protein concentrations were determined using the Bradford assay (Bio‐Rad, #500‐0006, California, USA).</p></sec><sec id="brb371709-sec-0160"><label>2.7</label><title>Western Blot</title><p>Equal amounts of protein were diluted with 5× SDS‐PAGE loading buffer (Biosesang, SF2002‐110‐00, Seoul, Republic of Korea) and distilled water to the same concentration. The samples were then boiled at 95°C for 5 min and cooled on a cold block. Samples (20–35 µg) were loaded onto 8%–12% SDS‐PAGE gels, electrophoresed, and then transferred to PVDF membranes (Merck Millipore, IPVH00010, Darmstadt, Germany). Membranes were blocked with 3% skim milk for 1 h at room temperature (RT) and incubated overnight at 4°C with primary antibodies against Claudin‐5 (1:1000, 34–1600, Invitrogen), ZO‐1 (1:1000, 21773‐1‐AP, Proteintech), Occludin (1:1000, E6B4R, Cell Signaling Technology), TNF‐α (1:1000, 17590‐1‐AP, Proteintech), GAPDH (1:1000, 14C10, Cell Signaling Technology), and β‐actin (1:4200, A5441, Sigma‐Aldrich). The membranes were washed 3 times with TBST (10 min each) and incubated with horseradish peroxidase‐conjugated anti‐rabbit (1:5000, 7074S, Cell Signaling Technology) or anti‐mouse IgG (1:10000, sc‐516102, Santa Cruz Biotechnology) for 1 h at RT. Protein bands were detected using enhanced chemiluminescence (ECL) reagents (Merck Millipore, WBKLS0500, Seoul, Republic of Korea) and quantified with ImageJ software. Target protein expression was normalized to GAPDH or β‐actin.</p></sec><sec id="brb371709-sec-0170"><label>2.8</label><title>Statistical Analysis</title><p>Statistical analyses were performed using GraphPad Prism version 10.1.2 (GraphPad Software Inc., CA, USA). Group differences in grip strength, muscle weight, quadriceps inflammation, OFT, EPM, NBT, TJ protein expression, and hippocampal neuroinflammation at Week 6 were assessed by one‐way ANOVA. Longitudinal variables, including body weight and ILT performance, were analyzed using two‐way repeated‐measures ANOVA to assess the effects of group, time, and their interaction. Homogeneity of variance for one‐way ANOVA was evaluated using the Brown–Forsythe test. When significant main effects were detected, Bonferroni post hoc tests were conducted for multiple comparisons. Effect sizes were calculated and reported as <italic toggle="yes">η</italic>
+<sup>2</sup> for one‐way ANOVA and partial <italic toggle="yes">η</italic>
+<sup>2</sup> for two‐way repeated‐measures ANOVA (Table <xref rid="brb371709-supinfo-0001" ref-type="">S1</xref>). A <italic toggle="yes">p</italic>‐value &lt; 0.05 was considered statistically significant. All values are expressed as mean ± standard error of the mean (SEM).</p></sec></sec><sec id="brb371709-sec-0180"><label>3</label><title>Results</title><sec id="brb371709-sec-0190"><label>3.1</label><title>Effects of Overtraining on Body Weight</title><p>Body weight was measured weekly for 6 weeks in the SED, ME, and OT groups (Figure <xref rid="brb371709-fig-0002" ref-type="fig">2</xref>). In the OT group, body weight was significantly higher at Week 4 (26.08 ± 0.27 g vs. 23.62 ± 0.14 g; <italic toggle="yes">p</italic> &lt; 0.05) and Week 6 (26.28 ± 0.32 g vs. 23.62 ± 0.14 g; <italic toggle="yes">p</italic> &lt; 0.05) than baseline. The ME group showed a significant increase at END compared to Week 4 (26.12 ± 0.36 vs. 25.1 ± 0.36 g; <italic toggle="yes">p</italic> &lt; 0.05). No significant differences among groups were observed at any time point (<italic toggle="yes">p</italic> &gt; 0.05).</p><fig position="float" fig-type="FIGURE" id="brb371709-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Effects of overtraining on body weight. Body weight measured weekly during the 6‐week intervention period in sedentary (SED, <italic toggle="yes">n =</italic> 5), moderate exercise (ME, <italic toggle="yes">n =</italic> 5), and overtraining (OT, <italic toggle="yes">n =</italic> 4) groups. Data are presented as mean ± SEM. Statistical significance was assessed using two‐way ANOVA with Bonferroni post hoc tests. <italic toggle="yes">*p</italic> &lt; 0.05 vs. 0 W within the OT group; #<italic toggle="yes">p</italic> &lt; 0.05 vs. 4 W within the ME group. W, week.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="BRB3-16-e71709-g001.webp"><?image-name BRB3-16-e71709-g001.webp?><?image-size 7166?><?image-md5 77f7aec3727de4b98133062210e4d8aa?><?image-image-server-status NEVER_LOAD?><?image-original-height 255?><?image-original-width 400?><?image-scaled-height 255?><?image-scaled-width 400?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/77f7aec3727d/BRB3-16-e71709-g001.webp?><?thumb-name BRB3-16-e71709-g001.gif?><?thumb-size 4422?><?thumb-md5 84e692fdb247ccdb179a1bdfd78495cb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 128?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/50f9/13527226/84e692fdb247/BRB3-16-e71709-g001.gif?></graphic></fig></sec><sec id="brb371709-sec-0200"><label>3.2</label><title>Effect of Overtraining on Physical Performance, Muscle Mass, and Inflammatory Response</title><p>Endurance capacity, measured by ILT, showed no significant differences among groups at Week 0 (<italic toggle="yes">p</italic> &gt; 0.05; Figure <xref rid="brb371709-fig-0003" ref-type="fig">3A</xref>). At Week 6, the ME group increased from 20.20 ± 0.76 min at Week 0 to 33.40 ± 2.28 min (<italic toggle="yes">p</italic> &lt; 0.0001), while the OT group decreased from 26.09 ± 0.24 min at Week 0 to 17.19 ± 1.14 min (<italic toggle="yes">p =</italic> 0.01). However, the SED group showed no significant difference between Week 0 and Week 6 (23.13 ± 3.08 min vs. 19.09 ± 1.58 min; <italic toggle="yes">p</italic> &gt; 0.05). By Week 6, endurance performance in the ME group was significantly greater than both the SED (33.40 ± 2.28 min vs. 19.09 ± 1.58 min; <italic toggle="yes">p</italic> &lt; 0.0001) and OT groups (33.40 ± 2.28 min vs. 17.19 ± 1.14 min; <italic toggle="yes">p</italic> &lt; 0.0001). The OT group performed significantly lower than the ME group (17.19 ± 1.14 vs. 33.40 ± 2.28 min; <italic toggle="yes">p</italic> &lt; 0.0001) but did not differ from the SED group (<italic toggle="yes">p</italic> &gt; 0.999). Grip strength at Week 6 showed no significant differences among groups (<italic toggle="yes">p</italic> &gt; 0.05; Figure <xref rid="brb371709-fig-0003" ref-type="fig">3B</xref>).</p><fig position="float" fig-type="FIGURE" id="brb371709-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Effects of overtraining on physical performance, muscle mass, and inflammatory response. (A) Duration of the incremental loading test (ILT) in sedentary (SED, <italic toggle="yes">n =</italic> 5), moderate exercise (ME, <italic toggle="yes">n =</italic> 5), and overtraining (OT, <italic toggle="yes">n =</italic> 4) groups at 0 and 6 weeks (W). (B) 4‐paw grip strength and (C) tibialis anterior (TA) muscle weight, both normalized to body weight at 6 W. (D) Representative western blot images and (E) quantified protein levels of TNF‐α in the quadriceps (QUAD), with GAPDH used as a loading control. Statistical significance was assessed using two‐way ANOVA for (A) and one‐way ANOVA for (B–E), followed by Bonferroni post hoc tests (<italic toggle="yes">*p &lt;</italic> 0.05, *<italic toggle="yes">*p &lt;</italic> 0.01, ***<italic toggle="yes">*p</italic> &lt; 0.0001; ns, not significant). Data are presented as mean ± SEM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="BRB3-16-e71709-g002.webp"><?image-name BRB3-16-e71709-g002.webp?><?image-size 26474?><?image-md5 837adfbb8c0956065290611d627cbaaf?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 625?><?image-original-width 820?><?image-scaled-height 625?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/837adfbb8c09/BRB3-16-e71709-g002.webp?><?thumb-name BRB3-16-e71709-g002.gif?><?thumb-size 7640?><?thumb-md5 bae69807a589489caeea879933765090?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 152?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/50f9/13527226/bae69807a589/BRB3-16-e71709-g002.gif?></graphic></fig><p>The TA muscle weight, normalized to body weight, was significantly lower in the OT group than in the SED group (0.8 ± 0.09 mg/g vs. 1.28 ± 0.1 mg/g; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0003" ref-type="fig">3C</xref>). No significant difference was observed between the SED and ME groups (<italic toggle="yes">p</italic> &gt; 0.05).</p><p>An increased inflammatory response is a representative symptom of OTS. As an indicator of peripheral inflammation, TNF‐α levels in the QUAD were significantly higher in the OT group (1.69 ± 0.32; Figure <xref rid="brb371709-fig-0003" ref-type="fig">3E</xref>) compared with the SED (1.00 ± 0.10; <italic toggle="yes">p</italic> &lt; 0.05) and ME groups (0.74 ± 0.08; <italic toggle="yes">p</italic> &lt; 0.01).</p></sec><sec id="brb371709-sec-0210"><label>3.3</label><title>Effects of Overtraining on Anxiety‐Like Behaviors</title><p>To compare the effects of OT on mood states such as anxiety, we assessed mood‐related behaviors using NBT, OFT, and EPM. At Week 6, NBT scores showed no significant differences among the groups (<italic toggle="yes">p</italic> &gt; 0.999; Figure <xref rid="brb371709-fig-0004" ref-type="fig">4A</xref>). However, in the OFT, the OT group (7.25 ± 3.09) showed significantly fewer entries into the center zone compared with the SED (24.4 ± 2.25; <italic toggle="yes">p</italic> &lt; 0.05) and ME groups (23.8 ± 4.73; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0004" ref-type="fig">4B</xref>). Similarly, the total distance traveled in the center zone was significantly lower in the OT group (0.95 ± 0.42 m) compared with both the SED (3.55 ± 0.32 m; <italic toggle="yes">p</italic> &lt; 0.01) and ME groups (2.49 ± 0.33 m; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0004" ref-type="fig">4C</xref>). In addition, time spent in the center zone was significantly reduced in the OT group (22.05 ± 10.45 s) compared with the ME group (77.46 ± 15.81 s; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0004" ref-type="fig">4D</xref>). Total distance traveled in the OFT showed a trend toward reduction in the OT group, although the difference did not reach statistical significance (<italic toggle="yes">p</italic> = 0.065).</p><fig position="float" fig-type="FIGURE" id="brb371709-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Effects of overtraining on anxiety‐like behaviors. (A) Nest building test (NBT) scores at Week 6 (W). (B–D) Open field test (OFT) results. (E–G) Elevated plus maze (EPM) results: (E) percentage of open arm entries, (F) distance traveled in open arms, and (G) time spent in open arms. Behavioral tests were conducted in sedentary (SED, <italic toggle="yes">n</italic> = 5), moderate exercise (ME, <italic toggle="yes">n</italic> = 5), and overtraining (OT, <italic toggle="yes">n</italic> = 4) groups. Statistical significance was assessed using one‐way ANOVA with Bonferroni post hoc tests (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01; ns, not significant). Data are presented as mean ± SEM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="BRB3-16-e71709-g004.webp"><?image-name BRB3-16-e71709-g004.webp?><?image-size 29954?><?image-md5 07051cbf23948549b381ca941adf4a86?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1012?><?image-original-width 820?><?image-scaled-height 1012?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/07051cbf2394/BRB3-16-e71709-g004.webp?><?thumb-name BRB3-16-e71709-g004.gif?><?thumb-size 6884?><?thumb-md5 73b913214843cec3b35588cd0aaa4cdc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 162?><?thumb-cloudpmc-urn urn:cdn:blobs/50f9/13527226/73b913214843/BRB3-16-e71709-g004.gif?></graphic></fig><p>In the EPM, the ME group showed a significantly higher percentage of open arm entries than the OT group at Week 6 (44 ± 5% vs. 25 ± 1%; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0004" ref-type="fig">4E</xref>). In contrast, no significant group differences were observed in the distance traveled or time spent in the open arms (<italic toggle="yes">p</italic> &gt; 0.05; Figure <xref rid="brb371709-fig-0004" ref-type="fig">4F and G</xref>, respectively). Total distance traveled did not differ significantly among the groups.</p></sec><sec id="brb371709-sec-0220"><label>3.4</label><title>Effects of Overtraining on Hippocampal Tight Junction Proteins</title><p>Hippocampal TJ protein levels were assessed to examine the effects of OT on BBB‐related molecular markers. Western blot analysis showed that ZO‐1 levels were significantly reduced in the OT group (0.61 ± 0.03) compared with the SED group (1.00 ± 0.06; <italic toggle="yes">p</italic> &lt; 0.01; Figure <xref rid="brb371709-fig-0005" ref-type="fig">5B</xref>). The ME group also exhibited lower ZO‐1 levels (0.74 ± 0.06) than the SED group (1.00 ± 0.06; <italic toggle="yes">p</italic> &lt; 0.05). In contrast, Occludin levels did not differ significantly among groups (<italic toggle="yes">p</italic> &gt; 0.05; Figure <xref rid="brb371709-fig-0005" ref-type="fig">5C</xref>). Claudin‐5 levels were significantly higher in the ME group (2.47 ± 0.40) than in the SED group (1.00 ± 0.17; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0005" ref-type="fig">5D</xref>).</p><fig position="float" fig-type="FIGURE" id="brb371709-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Effects of overtraining on tight junction (TJ) protein expression in the hippocampus. (A) Representative western blot images and (B–D) quantified protein levels of TJ proteins, including (B) ZO‐1, (C) occludin, and (D) claudin‐5, in the hippocampus. GAPDH was used as a loading control. Protein analyses were performed in sedentary (SED, <italic toggle="yes">n =</italic> 5), moderate exercise (ME, <italic toggle="yes">n =</italic> 5), and overtraining (OT, <italic toggle="yes">n =</italic> 4) groups. Statistical significance was assessed using one‐way ANOVA with Bonferroni post hoc tests (<italic toggle="yes">*p &lt;</italic> 0.05, *<italic toggle="yes">*p &lt;</italic> 0.01; ns, not significant). Data are presented as mean ± SEM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="BRB3-16-e71709-g007.webp"><?image-name BRB3-16-e71709-g007.webp?><?image-size 21480?><?image-md5 28f519ba4db93ae73161855ec34cea9c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 490?><?image-original-width 820?><?image-scaled-height 490?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/28f519ba4db9/BRB3-16-e71709-g007.webp?><?thumb-name BRB3-16-e71709-g007.gif?><?thumb-size 8420?><?thumb-md5 2d3f478104ab7c32086b8ca2bc6814bb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 120?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/50f9/13527226/2d3f478104ab/BRB3-16-e71709-g007.gif?></graphic></fig></sec><sec id="brb371709-sec-0230"><label>3.5</label><title>Effects of Overtraining on Hippocampal TNF‐α Expression</title><p>To evaluate the effect of OT on neuroinflammation, hippocampal TNF‐α levels were measured by western blot. The OT group showed a significant increase in TNF‐α levels (2.62 ± 0.42) compared with the SED group (1.00 ± 0.24; <italic toggle="yes">p</italic> &lt; 0.05; Figure <xref rid="brb371709-fig-0006" ref-type="fig">6B</xref>). No significant difference was observed between the ME (1.84 ± 0.34) and SED groups (<italic toggle="yes">p</italic> &gt; 0.05).</p><fig position="float" fig-type="FIGURE" id="brb371709-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Effect of overtraining on neuroinflammation in the hippocampus. (A) Representative western blot images and (B) quantified protein levels of TNF‐α in the hippocampus. β‐actin was used as a loading control. Protein analyses were performed in sedentary (SED, <italic toggle="yes">n =</italic> 5), moderate exercise (ME, <italic toggle="yes">n =</italic> 5), and overtraining (OT, <italic toggle="yes">n =</italic> 4) groups. Statistical significance was assessed using one‐way ANOVA with Bonferroni post hoc tests (<italic toggle="yes">*p &lt;</italic> 0.05). Data are presented as mean ± SEM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="BRB3-16-e71709-g005.webp"><?image-name BRB3-16-e71709-g005.webp?><?image-size 10748?><?image-md5 5daf971207160ba21b0b4b6e50604363?><?image-image-server-status NEVER_LOAD?><?image-original-height 244?><?image-original-width 700?><?image-scaled-height 244?><?image-scaled-width 700?><?image-cloudpmc-urn urn:cdn:blobs/50f9/13527226/5daf97120716/BRB3-16-e71709-g005.webp?><?thumb-name BRB3-16-e71709-g005.gif?><?thumb-size 4623?><?thumb-md5 2b105745f6cef8634731006e187c84fc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 70?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/50f9/13527226/2b105745f6ce/BRB3-16-e71709-g005.gif?></graphic></fig></sec></sec><sec id="brb371709-sec-0240"><label>4</label><title>Discussion</title><p>The primary objective of the present study was to examine anxiety‐related behavioral alterations and hippocampal molecular changes associated with OT, with a focus on BBB‐related tight junction proteins and neuroinflammation. Our findings demonstrate that excessive downhill running for 6 weeks not only elicited physiological hallmarks of OTS, including performance decrements and a reduction in relative TA muscle mass, but also led to anxiety‐like behavioral changes, altered the levels of hippocampal BBB‐related proteins, and elevated neuroinflammation.</p><p>Specifically, the hippocampus of overtrained mice exhibited a selective decrease in the protein levels of the intracellular scaffolding protein ZO‐1 alongside an increase in TNF‐α protein levels. In contrast, moderate‐intensity exercise induced protective adaptations characterized by increased claudin‐5 protein levels. These findings raise the possibility that the mood disturbances frequently observed in overtrained athletes and military personnel might, at least in part, be related to a neuroimmune crosstalk, in which systemic inflammation may compromise the BBB and increase brain exposure to inflammatory mediators (Müller and Di Benedetto <xref rid="brb371709-bib-0031" ref-type="bibr">2025</xref>). Furthermore, the divergent protein expression patterns of key BBB proteins, ZO‐1 and claudin‐5, in response to exercise intensity provide significant insights into the fields of exercise physiology and neuroscience.</p><p>The physiological and behavioral phenotypes observed in the OT group are consistent with the cytokine hypothesis of OT proposed by Smith (<xref rid="brb371709-bib-0048" ref-type="bibr">2000</xref>). This hypothesis posits that repeated tissue damage in the absence of adequate recovery induces a state of chronic systemic inflammation (Smith <xref rid="brb371709-bib-0048" ref-type="bibr">2000</xref>). While moderate‐intensity exercise is generally known to promote an anti‐inflammatory milieu and support neuroplasticity (Gleeson et al. <xref rid="brb371709-bib-0018" ref-type="bibr">2011</xref>; Vecchio et al. <xref rid="brb371709-bib-0056" ref-type="bibr">2018b</xref>), the excessive eccentric loading paradigm employed in the present study likely shifted this balance toward a chronic pro‐inflammatory state (Newham et al. <xref rid="brb371709-bib-0032" ref-type="bibr">1983</xref>; Pereira et al. <xref rid="brb371709-bib-0039" ref-type="bibr">2015</xref>; Vernillo et al. <xref rid="brb371709-bib-0057" ref-type="bibr">2017</xref>). Notably, the behavioral changes observed in the OT group are consistent with clinical observations reporting an increased prevalence of mood disturbances in overtrained individuals, including athletes (Rice et al. <xref rid="brb371709-bib-0044" ref-type="bibr">2019</xref>; Reardon et al. <xref rid="brb371709-bib-0043" ref-type="bibr">2024</xref>). This behavioral alteration may be closely related to the elevated TNF‐α protein levels observed in the hippocampus (Brietzke and Kapczinski <xref rid="brb371709-bib-0007" ref-type="bibr">2008</xref>; Bauer and Teixeira <xref rid="brb371709-bib-0006" ref-type="bibr">2021</xref>). Furthermore, the observation that TNF‐α antagonists (e.g., etanercept) can alleviate anxiety‐like behaviors supports the hypothesis that this pro‐inflammatory cytokine may be involved in the pathophysiology of anxiety (Abbott et al. <xref rid="brb371709-bib-0001" ref-type="bibr">2015</xref>; Alshammari et al. <xref rid="brb371709-bib-0002" ref-type="bibr">2020</xref>). Although the behavioral changes were not uniform across the OFT, EPM, and NBT, the results suggest that OT influenced several anxiety‐related behavioral measures. Differences in the behavioral domains and sensitivities assessed by each test may partly explain this variability (Pentkowski et al. <xref rid="brb371709-bib-0038" ref-type="bibr">2021</xref>). In particular, as the NBT reflects broader behavioral alterations rather than anxiety specifically, its findings should be interpreted with caution. In addition, cumulative fatigue, reduced locomotor drive, or other physical burdens inherent to the OT protocol may also have contributed to the behavioral outcomes and should be considered when interpreting these findings.</p><p>Recently, proteomic studies using extracellular vesicles derived from the central nervous system suggest that OT is associated with stress‐ and inflammation‐related molecular changes in the brain (Yi et al. <xref rid="brb371709-bib-0064" ref-type="bibr">2025</xref>). Previous studies have suggested that these alterations may contribute to dysregulation of the hypothalamic–pituitary–adrenal (HPA) axis, as chronic stress and persistent inflammation induced by OT are known to interact with the HPA axis, leading to sustained corticosteroid secretion (Noushad et al. <xref rid="brb371709-bib-0034" ref-type="bibr">2021</xref>; Armstrong et al. <xref rid="brb371709-bib-0003" ref-type="bibr">2022</xref>; Nunez et al. <xref rid="brb371709-bib-0035" ref-type="bibr">2025</xref>). Prolonged exposure to elevated corticosterone levels has been suggested to promote immune cell activation and disrupt BBB integrity, potentially contributing to a cycle of neuroendocrine and neuroinflammatory dysfunction (Welcome <xref rid="brb371709-bib-0060" ref-type="bibr">2020</xref>; Varanoske et al. <xref rid="brb371709-bib-0054" ref-type="bibr">2022</xref>; Sharan and Vellapandian <xref rid="brb371709-bib-0047" ref-type="bibr">2024</xref>).</p><p>The hippocampal elevation of TNF‐α is of particular significance, given that this cytokine is increasingly recognized as a neuromodulatory factor that extends beyond its classical role as an inflammatory mediator and can influence synaptic function and plasticity (Brietzke and Kapczinski <xref rid="brb371709-bib-0007" ref-type="bibr">2008</xref>; Takahashi et al. <xref rid="brb371709-bib-0050" ref-type="bibr">2021</xref>; Kemp et al. <xref rid="brb371709-bib-0024" ref-type="bibr">2022</xref>). Moreover, accumulating evidence indicates that inflammation can enhance excitability within the amygdala, thereby sensitizing fear‐related neural circuits and ultimately amplifying vigilance and anxiety‐related responses (Takahashi et al. <xref rid="brb371709-bib-0050" ref-type="bibr">2021</xref>; Hassamal <xref rid="brb371709-bib-0020" ref-type="bibr">2023</xref>). Taken together, these observations suggest that the anxiety‐like phenotype observed in OTS may not be solely attributable to a psychological response to performance decrements, but may instead reflect, in part, underlying neuroinflammatory processes and maladaptive synaptic changes.</p><p>An intriguing observation in the present study is that TJ proteins appear to be differentially regulated according to exercise intensity. Specifically, ZO‐1 emerged as a particularly susceptible component under OT stress, exhibiting a significant reduction in the OT group. ZO‐1 is a core scaffolding protein of the BBB that functions as an anchoring molecule, linking transmembrane proteins such as claudins and occludin to the actin cytoskeleton (Kadry et al. <xref rid="brb371709-bib-0023" ref-type="bibr">2020</xref>). Consequently, the loss of ZO‐1 might indicate a potential destabilization of the entire junctional complex, which could lead to increased paracellular permeability (Tornavaca et al. <xref rid="brb371709-bib-0052" ref-type="bibr">2015</xref>; Lochhead et al. <xref rid="brb371709-bib-0026" ref-type="bibr">2020</xref>). This structural compromise of the BBB may facilitate the infiltration of peripheral cytokines and immune cells into the brain parenchyma, thereby perpetuating central inflammation (Takata et al. <xref rid="brb371709-bib-0051" ref-type="bibr">2021</xref>; Galea <xref rid="brb371709-bib-0016" ref-type="bibr">2021</xref>). In this inflammatory context, TNF‐α has been shown to activate the NF‐κB pathway, thereby inducing the expression of matrix metalloproteinase‐9 (MMP‐9), which can promote proteolytic degradation of ZO‐1 (Rajashekhar et al. <xref rid="brb371709-bib-0042" ref-type="bibr">2014</xref>; Zhao et al. <xref rid="brb371709-bib-0065" ref-type="bibr">2022</xref>). Furthermore, TNF‐α may trigger phosphorylation of ZO‐1 via the PKCζ pathway, facilitating its dissociation from the plasma membrane (Aveleira et al. <xref rid="brb371709-bib-0005" ref-type="bibr">2010</xref>; Paul et al. <xref rid="brb371709-bib-0037" ref-type="bibr">2015</xref>; Lochhead et al. <xref rid="brb371709-bib-0026" ref-type="bibr">2020</xref>). The parallel elevation of TNF‐α and reduction of ZO‐1 suggests a potential association, indicating that such inflammatory degradation mechanisms could potentially drive BBB impairment in OTS (Varatharaj and Galea <xref rid="brb371709-bib-0055" ref-type="bibr">2017</xref>; Galea <xref rid="brb371709-bib-0016" ref-type="bibr">2021</xref>). These results align with reports that systemic administration of TNF‐α can impair BBB integrity (TSAO et al. <xref rid="brb371709-bib-0053" ref-type="bibr">2001</xref>; Versele et al. <xref rid="brb371709-bib-0058" ref-type="bibr">2022</xref>; Gao and Bayraktutan <xref rid="brb371709-bib-0017" ref-type="bibr">2023</xref>), suggesting that the elevated peripheral inflammation observed in our OTS model may serve as a potential driver for the observed ZO‐1 degradation. Notably, among the TJ proteins examined in the present study, occludin protein levels did not differ significantly between groups, whereas ZO‐1 was markedly reduced under OT conditions. Of note, moderate exercise was also associated with a modest reduction in ZO‐1 expression relative to sedentary controls, suggesting that tight junction proteins may undergo dynamic, intensity‐dependent remodeling even within adaptive physiological ranges. This indicates that TJ proteins do not necessarily exhibit parallel or uniform changes and suggests that ZO‐1 may be particularly vulnerable to OT‐induced stress. Therefore, the present results should be interpreted as selective regulation of individual tight junction‐associated proteins rather than evidence of a generalized breakdown of the BBB. This observation is consistent with previous reports showing that the expression levels or immunostaining patterns of individual TJ proteins are often differentially regulated rather than uniformly altered under pathological conditions (Errede et al. <xref rid="brb371709-bib-0015" ref-type="bibr">2012</xref>; Northrop and Yamamoto <xref rid="brb371709-bib-0033" ref-type="bibr">2012</xref>; Gao and Bayraktutan <xref rid="brb371709-bib-0017" ref-type="bibr">2023</xref>). One possible explanation is that, during early stages of barrier disruption, TJ function is regulated primarily through changes in phosphorylation status rather than reductions in total protein abundance (Varatharaj and Galea <xref rid="brb371709-bib-0055" ref-type="bibr">2017</xref>; Lochhead et al. <xref rid="brb371709-bib-0026" ref-type="bibr">2020</xref>; Gao and Bayraktutan <xref rid="brb371709-bib-0017" ref-type="bibr">2023</xref>). Such non‐destructive regulatory changes may be difficult to detect when assessing total protein levels (Varatharaj and Galea <xref rid="brb371709-bib-0055" ref-type="bibr">2017</xref>). Together, these findings suggest that BBB impairment induced by OT may be characterized by selective vulnerability of ZO‐1, rather than a uniform disruption of the tight junction complex.</p><p>In contrast, the ME group exhibited a significant increase in claudin‐5 protein levels. Given that claudin‐5 is a key determinant of BBB size selectivity (Kadry et al. <xref rid="brb371709-bib-0023" ref-type="bibr">2020</xref>), this finding suggests that moderate‐intensity exercise may enhance BBB integrity (Małkiewicz et al. <xref rid="brb371709-bib-0029" ref-type="bibr">2019</xref>; Jung <xref rid="brb371709-bib-0022" ref-type="bibr">2022</xref>). This interpretation is consistent with the concept of hormesis, whereby low levels of physiological stress elicit protective adaptive responses (Calabrese and Mattson <xref rid="brb371709-bib-0008" ref-type="bibr">2017</xref>). In line with this concept, regular physical exercise has been shown to enhance antioxidative capacity, attenuate oxidative stress, and exert anti‐inflammatory effects, thereby contributing to the maintenance of blood–brain barrier integrity (Małkiewicz et al. <xref rid="brb371709-bib-0029" ref-type="bibr">2019</xref>). In the OT group, the lack of a beneficial adaptive response suggests that excessive stress intensity may exceed the threshold for positive adaptation, thereby favoring pathological rather than protective pathways. This highlights the critical importance of exercise intensity regulation for maintaining brain health (Armstrong and VanHeest <xref rid="brb371709-bib-0004" ref-type="bibr">2002</xref>). The present study provides critical insights into the neurobiological impact of excessive training. The association between OT, hippocampal tight junction protein alterations, and neuroinflammation provides a possible framework for understanding mood disturbances in populations exposed to chronic physical stress, such as competitive athletes and military personnel. These findings suggest that anxiety in OTS is not merely a psychological reaction to performance decrements, but may be rooted in neuroinflammatory processes. Therefore, monitoring training intensity is crucial for both physical performance and preserving the mental well‐being of those under chronic stress. However, the present study does not directly demonstrate this mechanistic sequence. Therefore, the proposed pathway should be considered a possible biological framework rather than a demonstrated causal mechanism. Future studies using direct BBB permeability assays, broader neuroinflammatory profiling, and causal interventions will be required to establish this pathway.</p><sec id="brb371709-sec-0250"><label>4.1</label><title>Limitations</title><p>The present study was conducted exclusively in male mice and therefore did not account for sex dimorphism in anxiety‐ and stress‐related responses. Moreover, training‐related injuries reduced the final OT sample size from 10 to 4 mice. This relatively small sample size may have reduced the statistical power of the analyses and limited the robustness and generalizability of the present findings. In addition, no a priori power analysis was performed before the study. Accordingly, these findings should be interpreted with caution and warrant confirmation in larger cohorts. Additionally, the current analyses were limited to total protein abundance of selected tight junction proteins and did not directly assess BBB permeability or functional integrity. Therefore, the observed changes in ZO‐1 and claudin‐5 should be interpreted as BBB‐related molecular alterations rather than direct evidence of BBB dysfunction. Future studies should include phosphorylation‐specific analyses and direct permeability assessments, such as Evans blue or sodium fluorescein extravasation assays. Neuroinflammation was also evaluated using TNF‐α alone. Future studies should incorporate additional inflammatory cytokines, such as IL‐1β and IL‐6, as well as NF‐κB signaling and microglial activation markers, to provide a more comprehensive assessment of neuroinflammatory responses.</p></sec></sec><sec id="brb371709-sec-0260"><label>5</label><title>Conclusion</title><p>In conclusion, the present study highlights that exercise intensity serves as a critical determinant in modulating the balance between neuroprotection and neuroinflammatory maladaptation. Our findings suggest that while moderate exercise was associated with increased claudin‐5 expression, which may reflect an adaptive BBB‐related molecular response, excessive training stress could induce a neuroinflammatory milieu and structural destabilization of the barrier.</p><p>These observations imply that the anxiety‐like symptoms associated with OTS are not merely psychological phenomena, but may reflect a physiological shift toward neuroinflammation and BBB‐related molecular alterations. Ultimately, this research underscores that precise intensity regulation in exercise programming is vital not only for optimizing physical performance but also for preserving mental well‐being.</p></sec><sec id="brb371709-sec-0270"><title>Author Contributions</title><p>
+<bold>Eunseon Hwang</bold>: conceptualization, methodology, data curation, investigation, validation, formal analysis, visualization, project administration, writing – original draft. <bold>Minyoung Shin</bold>: investigation, validation, data curation. <bold>Taeeon Park</bold>: investigation. <bold>Jeremy J. Kim</bold>: investigation. <bold>Dongheon Yi</bold>: conceptualization, methodology. <bold>Jeayeon Park</bold>: investigation, writing – review and editing. <bold>Hyo Youl Moon</bold>: conceptualization, methodology, supervision, funding acquisition, writing – review and editing.</p></sec><sec id="brb371709-sec-0290"><title>Funding</title><p>This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. RS‐2022‐NR070859, RS‐2025‐16066994 and NRF‐2026S1A5A2A01005211).</p></sec><sec id="brb371709-sec-0300"><title>Ethics Statement</title><p>All animal experiments were approved by the Institutional Animal Care and Use Committee (IACUC) of Seoul National University (SNU‐240510‐4‐2) and were conducted in accordance with the relevant guidelines and regulations.</p></sec><sec sec-type="COI-statement" id="brb371709-sec-0310"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="brb371709-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="brb371709-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Material</bold>: brb371709‐sup‐0001‐SuppMat.docx</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="BRB3-16-e71709-s001.docx" position="float" orientation="portrait"><?suppdata-name BRB3-16-e71709-s001.docx?><?suppdata-size 20642?><?suppdata-md5 4a050ca1cabaa278aa2fe0aedc83e034?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:50f9/13527226/4a050ca1caba/BRB3-16-e71709-s001.docx?></media></supplementary-material></sec></body><back><ack id="brb371709-sec-0280"><title>Acknowledgments</title><p>The authors thank the members of the laboratory for their technical assistance and helpful discussions during the study.</p></ack><sec sec-type="data-availability" id="brb371709-sec-0330"><title>Data Availability Statement</title><p>The datasets used and analyzed during the current study are available from the corresponding author on reasonable request.</p></sec><ref-list id="brb371709-bibl-0001"><title>References</title><ref id="brb371709-bib-0001"><mixed-citation publication-type="journal" id="brb371709-cite-0001">
+<string-name name-style="western">
+<surname>Abbott</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Whear</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Nikolaou</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Tumour Necrosis Factor‐α Inhibitor Therapy in Chronic Physical Illness: a Systematic Review and Meta‐Analysis of the Effect on Depression and Anxiety</article-title>.” <source>Journal of Psychosomatic Research</source>
+<volume>79</volume>: <fpage>175</fpage>–<lpage>184</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpsychores.2015.04.008</pub-id>.<pub-id pub-id-type="pmid">25935351</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0002"><mixed-citation publication-type="journal" id="brb371709-cite-0002">
+<string-name name-style="western">
+<surname>Alshammari</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Khan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Majid Mahmood</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Systemic TNF‐α Blockade Attenuates Anxiety and Depressive‐Like Behaviors in db/db Mice Through Downregulation of Inflammatory Signaling in Peripheral Immune Cells</article-title>.” <source>Saudi Pharmaceutical Journal</source>
+<volume>28</volume>: <fpage>621</fpage>–<lpage>629</lpage>. <pub-id pub-id-type="doi">10.1016/j.jsps.2020.04.001</pub-id>.<pub-id pub-id-type="pmid">32435144</pub-id>
+<pub-id pub-id-type="pmcid">PMC7229333</pub-id></mixed-citation></ref><ref id="brb371709-bib-0003"><mixed-citation publication-type="journal" id="brb371709-cite-0003">
+<string-name name-style="western">
+<surname>Armstrong</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Bergeron</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>Lee</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Overtraining Syndrome as a Complex Systems Phenomenon</article-title>.” <source>Frontiers in Network Physiology</source>
+<volume>1</volume>: <elocation-id>794392</elocation-id>. <pub-id pub-id-type="doi">10.3389/fnetp.2021.794392</pub-id>.<pub-id pub-id-type="pmid">36925581</pub-id>
+<pub-id pub-id-type="pmcid">PMC10013019</pub-id></mixed-citation></ref><ref id="brb371709-bib-0004"><mixed-citation publication-type="journal" id="brb371709-cite-0004">
+<string-name name-style="western">
+<surname>Armstrong</surname>, <given-names>L. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>VanHeest</surname>
+</string-name>. <year>2002</year>. “<article-title>The Unknown Mechanism of the Overtraining Syndrome</article-title>.” <source>Sports Medicine</source>
+<volume>32</volume>: <fpage>185</fpage>–<lpage>209</lpage>. <pub-id pub-id-type="doi">10.2165/00007256-200232030-00003</pub-id>.<pub-id pub-id-type="pmid">11839081</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0005"><mixed-citation publication-type="journal" id="brb371709-cite-0005">
+<string-name name-style="western">
+<surname>Aveleira</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐M.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. F.</given-names>
+<surname>Abcouwer</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>TNF‐α Signals Through PKCζ/NF‐κB to Alter the Tight Junction Complex and Increase Retinal Endothelial Cell Permeability</article-title>.” <source>Diabetes</source>
+<volume>59</volume>: <fpage>2872</fpage>–<lpage>2882</lpage>. <pub-id pub-id-type="doi">10.2337/db09-1606</pub-id>.<pub-id pub-id-type="pmid">20693346</pub-id>
+<pub-id pub-id-type="pmcid">PMC2963546</pub-id></mixed-citation></ref><ref id="brb371709-bib-0006"><mixed-citation publication-type="journal" id="brb371709-cite-0006">
+<string-name name-style="western">
+<surname>Bauer</surname>, <given-names>M. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Teixeira</surname>
+</string-name>. <year>2021</year>. “<article-title>Neuroinflammation in Mood Disorders: Role of Regulatory Immune Cells</article-title>.” <source>Neuroimmunomodulation</source>
+<volume>28</volume>: <fpage>99</fpage>–<lpage>107</lpage>. <pub-id pub-id-type="doi">10.1159/000515594</pub-id>.<pub-id pub-id-type="pmid">33951643</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0007"><mixed-citation publication-type="journal" id="brb371709-cite-0007">
+<string-name name-style="western">
+<surname>Brietzke</surname>, <given-names>E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Kapczinski</surname>
+</string-name>. <year>2008</year>. “<article-title>TNF‐α as a Molecular Target in Bipolar Disorder</article-title>.” <source>Progress in Neuro‐Psychopharmacology and Biological Psychiatry</source>
+<volume>32</volume>: <fpage>1355</fpage>–<lpage>1361</lpage>. <pub-id pub-id-type="doi">10.1016/j.pnpbp.2008.01.006</pub-id>.<pub-id pub-id-type="pmid">18316149</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0008"><mixed-citation publication-type="journal" id="brb371709-cite-0008">
+<string-name name-style="western">
+<surname>Calabrese</surname>, <given-names>E. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Mattson</surname>
+</string-name>. <year>2017</year>. “<article-title>How Does Hormesis Impact Biology, Toxicology, and Medicine?</article-title>” <source>npj Aging and Mechanisms of Disease</source>
+<volume>3</volume>: <fpage>13</fpage>. <pub-id pub-id-type="doi">10.1038/s41514-017-0013-z</pub-id>.<pub-id pub-id-type="pmid">28944077</pub-id>
+<pub-id pub-id-type="pmcid">PMC5601424</pub-id></mixed-citation></ref><ref id="brb371709-bib-0009"><mixed-citation publication-type="journal" id="brb371709-cite-0009">
+<string-name name-style="western">
+<surname>Chang</surname>, <given-names>Y.‐S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐W.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐C.</given-names>
+<surname>Lin</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Exercise Rescues Blood–Brain Barrier Structural Impairment and Enhances Mitochondrial Biogenesis in a Hypertensive Mouse Model</article-title>.” <source>Medicine &amp; Science in Sports &amp; Exercise</source>
+<volume>57</volume>: <fpage>1657</fpage>–<lpage>1668</lpage>. <pub-id pub-id-type="doi">10.1249/MSS.0000000000003696</pub-id>.<pub-id pub-id-type="pmid">40042228</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0010"><mixed-citation publication-type="journal" id="brb371709-cite-0010">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Jude</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Lanner</surname>
+</string-name>. <year>2020</year>. “<article-title>Intramuscular Mechanisms of Overtraining</article-title>.” <source>Redox Biology</source>
+<volume>35</volume>: <elocation-id>101480</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.redox.2020.101480</pub-id>.<pub-id pub-id-type="pmid">32179050</pub-id>
+<pub-id pub-id-type="pmcid">PMC7284919</pub-id></mixed-citation></ref><ref id="brb371709-bib-0011"><mixed-citation publication-type="journal" id="brb371709-cite-0011">
+<string-name name-style="western">
+<surname>Cooper</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. Y.</given-names>
+<surname>Moon</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Van Praag</surname>
+</string-name>. <year>2018</year>. “<article-title>On the Run for Hippocampal Plasticity</article-title>.” <source>Cold Spring Harbor Perspectives in Medicine</source>
+<volume>8</volume>: <elocation-id>a029736</elocation-id>. <pub-id pub-id-type="doi">10.1101/cshperspect.a029736</pub-id>.<pub-id pub-id-type="pmid">28495803</pub-id>
+<pub-id pub-id-type="pmcid">PMC5880155</pub-id></mixed-citation></ref><ref id="brb371709-bib-0012"><mixed-citation publication-type="journal" id="brb371709-cite-0012">
+<string-name name-style="western">
+<surname>Costill</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Flynn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Kirwan</surname>
+</string-name>, et al. <year>1988</year>. “<article-title>Effects of Repeated Days of Intensified Training on Muscle Glycogen and Swimming Performance</article-title>.” <source>Medicine &amp; Science in Sports &amp; Exercise</source>
+<volume>20</volume>: <fpage>249</fpage>–<lpage>254</lpage>. <pub-id pub-id-type="doi">10.1249/00005768-198806000-00006</pub-id>.<pub-id pub-id-type="pmid">3386503</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0013"><mixed-citation publication-type="journal" id="brb371709-cite-0013">
+<string-name name-style="western">
+<surname>Daneman</surname>, <given-names>R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Prat</surname>
+</string-name>. <year>2015</year>. “<article-title>The Blood–Brain Barrier</article-title>.” <source>Cold Spring Harbor Perspectives in Biology</source>
+<volume>7</volume>: <elocation-id>a020412</elocation-id>. <pub-id pub-id-type="doi">10.1101/cshperspect.a020412</pub-id>.<pub-id pub-id-type="pmid">25561720</pub-id>
+<pub-id pub-id-type="pmcid">PMC4292164</pub-id></mixed-citation></ref><ref id="brb371709-bib-0014"><mixed-citation publication-type="journal" id="brb371709-cite-0014">
+<string-name name-style="western">
+<surname>de Paula</surname>, <given-names>G. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Brunetta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. F.</given-names>
+<surname>Engel</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Hippocampal Function Is Impaired by a Short‐Term High‐Fat Diet in Mice: Increased Blood–Brain Barrier Permeability and Neuroinflammation as Triggering Events</article-title>.” <source>Frontiers in Neuroscience</source>
+<volume>15</volume>: <elocation-id>734158</elocation-id>. <pub-id pub-id-type="doi">10.3389/fnins.2021.734158</pub-id>.<pub-id pub-id-type="pmid">34803583</pub-id>
+<pub-id pub-id-type="pmcid">PMC8600238</pub-id></mixed-citation></ref><ref id="brb371709-bib-0015"><mixed-citation publication-type="journal" id="brb371709-cite-0015">
+<string-name name-style="western">
+<surname>Errede</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Girolamo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Ferrara</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Blood‐Brain Barrier Alterations in the Cerebral Cortex in Experimental Autoimmune Encephalomyelitis</article-title>.” <source>Journal of Neuropathology &amp; Experimental Neurology</source>
+<volume>71</volume>: <fpage>840</fpage>–<lpage>854</lpage>. <pub-id pub-id-type="doi">10.1097/NEN.0b013e31826ac110</pub-id>.<pub-id pub-id-type="pmid">23001217</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0016"><mixed-citation publication-type="journal" id="brb371709-cite-0016">
+<string-name name-style="western">
+<surname>Galea</surname>, <given-names>I.</given-names>
+</string-name>
+<year>2021</year>. “<article-title>The Blood–Brain Barrier in Systemic Infection and Inflammation</article-title>.” <source>Cellular &amp; Molecular Immunology</source>
+<volume>18</volume>: <fpage>2489</fpage>–<lpage>2501</lpage>. <pub-id pub-id-type="doi">10.1038/s41423-021-00757-x</pub-id>.<pub-id pub-id-type="pmid">34594000</pub-id>
+<pub-id pub-id-type="pmcid">PMC8481764</pub-id></mixed-citation></ref><ref id="brb371709-bib-0017"><mixed-citation publication-type="journal" id="brb371709-cite-0017">
+<string-name name-style="western">
+<surname>Gao</surname>, <given-names>X.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Bayraktutan</surname>
+</string-name>. <year>2023</year>. “<article-title>TNF‐α Evokes Blood‐Brain Barrier Dysfunction Through Activation of Rho‐Kinase and Neurokinin 1 Receptor</article-title>.” <source>Immunobiology</source>
+<volume>228</volume>: <elocation-id>152706</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.imbio.2023.152706</pub-id>.<pub-id pub-id-type="pmid">37454559</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0018"><mixed-citation publication-type="journal" id="brb371709-cite-0018">
+<string-name name-style="western">
+<surname>Gleeson</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. C.</given-names>
+<surname>Bishop</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Stensel</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>The Anti‐Inflammatory Effects of Exercise: Mechanisms and Implications for the Prevention and Treatment of Disease</article-title>.” <source>Nature Reviews Immunology</source>
+<volume>11</volume>: <fpage>607</fpage>–<lpage>615</lpage>. <pub-id pub-id-type="doi">10.1038/nri3041</pub-id>.<pub-id pub-id-type="pmid">21818123</pub-id></mixed-citation></ref><ref id="brb371709-bib-0019"><mixed-citation publication-type="journal" id="brb371709-cite-0019">
+<string-name name-style="western">
+<surname>Greene</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Hanley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Campbell</surname>
+</string-name>. <year>2020</year>. “<article-title>Blood‐Brain Barrier Associated Tight Junction Disruption Is a Hallmark Feature of Major Psychiatric Disorders</article-title>.” <source>Translational Psychiatry</source>
+<volume>10</volume>: <fpage>373</fpage>. <pub-id pub-id-type="doi">10.1038/s41398-020-01054-3</pub-id>.<pub-id pub-id-type="pmid">33139732</pub-id>
+<pub-id pub-id-type="pmcid">PMC7606459</pub-id></mixed-citation></ref><ref id="brb371709-bib-0020"><mixed-citation publication-type="journal" id="brb371709-cite-0020">
+<string-name name-style="western">
+<surname>Hassamal</surname>, <given-names>S.</given-names>
+</string-name>
+<year>2023</year>. “<article-title>Chronic Stress, Neuroinflammation, and Depression: An Overview of Pathophysiological Mechanisms and Emerging Anti‐inflammatories</article-title>.” <source>Frontiers in Psychiatry</source>
+<volume>14</volume>: <elocation-id>1130989</elocation-id>. <pub-id pub-id-type="doi">10.3389/fpsyt.2023.1130989</pub-id>.<pub-id pub-id-type="pmid">37252156</pub-id>
+<pub-id pub-id-type="pmcid">PMC10213648</pub-id></mixed-citation></ref><ref id="brb371709-bib-0021"><mixed-citation publication-type="journal" id="brb371709-cite-0021">
+<string-name name-style="western">
+<surname>Jahangiri</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Gholamnezhad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hosseini</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>The Effects of Moderate Exercise and Overtraining on Learning and Memory, Hippocampal Inflammatory Cytokine Levels, and Brain Oxidative Stress Markers in Rats</article-title>.” <source>The Journal of Physiological Sciences</source>
+<volume>69</volume>: <fpage>993</fpage>–<lpage>1004</lpage>. <pub-id pub-id-type="doi">10.1007/s12576-019-00719-z</pub-id>.<pub-id pub-id-type="pmid">31637588</pub-id>
+<pub-id pub-id-type="pmcid">PMC10717043</pub-id></mixed-citation></ref><ref id="brb371709-bib-0022"><mixed-citation publication-type="journal" id="brb371709-cite-0022">
+<string-name name-style="western">
+<surname>Jung</surname>, <given-names>S. R.</given-names>
+</string-name>
+<year>2022</year>. “<article-title>Effect of Endurance Exercise and Methamphetamine Administration on the Expression of Blood‐Brain Barrier Related Factors and BDNF in Hippocampus of Male Sprague‐Dawley Rat</article-title>.” <source>Exercise Science</source>
+<volume>31</volume>: <fpage>319</fpage>–<lpage>327</lpage>. <pub-id pub-id-type="doi">10.15857/ksep.2022.00234</pub-id>.</mixed-citation></ref><ref id="brb371709-bib-0023"><mixed-citation publication-type="journal" id="brb371709-cite-0023">
+<string-name name-style="western">
+<surname>Kadry</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Noorani</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Cucullo</surname>
+</string-name>. <year>2020</year>. “<article-title>A Blood–Brain Barrier Overview on Structure, Function, Impairment, and Biomarkers of Integrity</article-title>.” <source>Fluids and Barriers of the CNS</source>
+<volume>17</volume>: <fpage>69</fpage>. <pub-id pub-id-type="doi">10.1186/s12987-020-00230-3</pub-id>.<pub-id pub-id-type="pmid">33208141</pub-id>
+<pub-id pub-id-type="pmcid">PMC7672931</pub-id></mixed-citation></ref><ref id="brb371709-bib-0024"><mixed-citation publication-type="journal" id="brb371709-cite-0024">
+<string-name name-style="western">
+<surname>Kemp</surname>, <given-names>G. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. F.</given-names>
+<surname>Altimimi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Nho</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Sustained TNF Signaling Is Required for the Synaptic and Anxiety‐Like Behavioral Response to Acute Stress</article-title>.” <source>Molecular Psychiatry</source>
+<volume>27</volume>: <fpage>4474</fpage>–<lpage>4484</lpage>. <pub-id pub-id-type="doi">10.1038/s41380-022-01737-x</pub-id>.<pub-id pub-id-type="pmid">36104437</pub-id>
+<pub-id pub-id-type="pmcid">PMC9734040</pub-id></mixed-citation></ref><ref id="brb371709-bib-0025"><mixed-citation publication-type="journal" id="brb371709-cite-0025">
+<string-name name-style="western">
+<surname>Kreher</surname>, <given-names>J. B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Schwartz</surname>
+</string-name>. <year>2012</year>. “<article-title>Overtraining Syndrome</article-title>.” <source>Sports Health: A Multidisciplinary Approach</source>
+<volume>4</volume>: <fpage>128</fpage>–<lpage>138</lpage>. <pub-id pub-id-type="doi">10.1177/1941738111434406</pub-id>.<pub-id pub-id-type="pmcid">PMC3435910</pub-id><pub-id pub-id-type="pmid">23016079</pub-id></mixed-citation></ref><ref id="brb371709-bib-0026"><mixed-citation publication-type="journal" id="brb371709-cite-0026">
+<string-name name-style="western">
+<surname>Lochhead</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Ronaldson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. P.</given-names>
+<surname>Davis</surname>
+</string-name>. <year>2020</year>. “<article-title>Structure, Function, and Regulation of the Blood‐Brain Barrier Tight Junction in Central Nervous System Disorders</article-title>.” <source>Frontiers in Physiology</source>
+<volume>11</volume>: <elocation-id>914</elocation-id>. <pub-id pub-id-type="doi">10.3389/fphys.2020.00914</pub-id>.<pub-id pub-id-type="pmid">32848858</pub-id>
+<pub-id pub-id-type="pmcid">PMC7424030</pub-id></mixed-citation></ref><ref id="brb371709-bib-0027"><mixed-citation publication-type="journal" id="brb371709-cite-0027">
+<string-name name-style="western">
+<surname>Ma</surname>, <given-names>Q.</given-names>
+</string-name>
+<year>2008</year>. “<article-title>Beneficial Effects of Moderate Voluntary Physical Exercise and Its Biological Mechanisms on Brain Health</article-title>.” <source>Neuroscience Bulletin</source>
+<volume>24</volume>: <fpage>265</fpage>–<lpage>270</lpage>. <pub-id pub-id-type="doi">10.1007/s12264-008-0402-1</pub-id>.<pub-id pub-id-type="pmid">18668156</pub-id>
+<pub-id pub-id-type="pmcid">PMC5552589</pub-id></mixed-citation></ref><ref id="brb371709-bib-0028"><mixed-citation publication-type="journal" id="brb371709-cite-0028">
+<string-name name-style="western">
+<surname>Mah</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Szabuniewicz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Fiocco</surname>
+</string-name>. <year>2016</year>. “<article-title>Can Anxiety Damage the Brain?</article-title>” <source>Current Opinion in Psychiatry</source>
+<volume>29</volume>: <fpage>56</fpage>–<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1097/YCO.0000000000000223</pub-id>.<pub-id pub-id-type="pmid">26651008</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0029"><mixed-citation publication-type="journal" id="brb371709-cite-0029">
+<string-name name-style="western">
+<surname>Małkiewicz</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Szarmach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sabisz</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Blood‐Brain Barrier Permeability and Physical Exercise</article-title>.” <source>Journal of Neuroinflammation</source>
+<volume>16</volume>: <fpage>15</fpage>. <pub-id pub-id-type="doi">10.1186/s12974-019-1403-x</pub-id>.<pub-id pub-id-type="pmid">30678702</pub-id>
+<pub-id pub-id-type="pmcid">PMC6345022</pub-id></mixed-citation></ref><ref id="brb371709-bib-0030"><mixed-citation publication-type="journal" id="brb371709-cite-0030">
+<string-name name-style="western">
+<surname>Moon</surname>, <given-names>H. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. R.</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Macrophage Migration Inhibitory Factor Mediates the Antidepressant Actions of Voluntary Exercise</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>109</volume>: <fpage>13094</fpage>–<lpage>13099</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1205535109</pub-id>.<pub-id pub-id-type="pmcid">PMC3420190</pub-id><pub-id pub-id-type="pmid">22826223</pub-id></mixed-citation></ref><ref id="brb371709-bib-0031"><mixed-citation publication-type="journal" id="brb371709-cite-0031">
+<string-name name-style="western">
+<surname>Müller</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>di Benedetto</surname>
+</string-name>. <year>2025</year>. “<article-title>Neuroimmune Crosstalk in Chronic Neuroinflammation: Microglial Interactions and Immune Modulation</article-title>.” <source>Frontiers in Cellular Neuroscience</source>
+<volume>19</volume>: <elocation-id>1575022</elocation-id>. <pub-id pub-id-type="doi">10.3389/fncel.2025.1575022</pub-id>.<pub-id pub-id-type="pmid">40260075</pub-id>
+<pub-id pub-id-type="pmcid">PMC12009833</pub-id></mixed-citation></ref><ref id="brb371709-bib-0032"><mixed-citation publication-type="journal" id="brb371709-cite-0032">
+<string-name name-style="western">
+<surname>Newham</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. R.</given-names>
+<surname>Mills</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Quigley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. H.</given-names>
+<surname>Edwards</surname>
+</string-name>. <year>1983</year>. “<article-title>Pain and Fatigue After Concentric and Eccentric Muscle Contractions</article-title>.” <source>Clinical Science (London, England: 1979)</source>
+<volume>64</volume>: <fpage>55</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1042/cs0640055</pub-id>.<pub-id pub-id-type="pmid">6822050</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0033"><mixed-citation publication-type="journal" id="brb371709-cite-0033">
+<string-name name-style="western">
+<surname>Northrop</surname>, <given-names>N. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B. K.</given-names>
+<surname>Yamamoto</surname>
+</string-name>. <year>2012</year>. “<article-title>Persistent Neuroinflammatory Effects of Serial Exposure to Stress and Methamphetamine on the Blood‐Brain Barrier</article-title>.” <source>Journal of Neuroimmune Pharmacology</source>
+<volume>7</volume>: <fpage>951</fpage>–<lpage>968</lpage>. <pub-id pub-id-type="doi">10.1007/s11481-012-9391-y</pub-id>.<pub-id pub-id-type="pmid">22833424</pub-id>
+<pub-id pub-id-type="pmcid">PMC3612836</pub-id></mixed-citation></ref><ref id="brb371709-bib-0034"><mixed-citation publication-type="journal" id="brb371709-cite-0034">
+<string-name name-style="western">
+<surname>Noushad</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ahmed</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ansari</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Physiological Biomarkers of Chronic Stress: A Systematic Review</article-title>.” <source>International Journal of Health Sciences</source>
+<volume>15</volume>: <fpage>46</fpage>–<lpage>59</lpage>.<pub-id pub-id-type="pmid">34548863</pub-id>
+<pub-id pub-id-type="pmcid">PMC8434839</pub-id></mixed-citation></ref><ref id="brb371709-bib-0035"><mixed-citation publication-type="journal" id="brb371709-cite-0035">
+<string-name name-style="western">
+<surname>Nunez</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Rabelo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Subotic</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Chronic Stress and Autoimmunity: The Role of HPA Axis and Cortisol Dysregulation</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>26</volume>: <elocation-id>9994</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijms26209994</pub-id>.<pub-id pub-id-type="pmid">41155288</pub-id>
+<pub-id pub-id-type="pmcid">PMC12563903</pub-id></mixed-citation></ref><ref id="brb371709-bib-0036"><mixed-citation publication-type="journal" id="brb371709-cite-0036">
+<string-name name-style="western">
+<surname>O'Connor</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. P.</given-names>
+<surname>Morgan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Raglin</surname>
+</string-name>. <year>1991</year>. “<article-title>Psychobiologic Effects of 3 D of Increased Training in Female and Male Swimmers</article-title>.” <source>Medicine and Science in Sports and Exercise</source>
+<volume>23</volume>: <fpage>1055</fpage>–<lpage>1061</lpage>. <pub-id pub-id-type="doi">10.1249/00005768-199109000-00010</pub-id>.<pub-id pub-id-type="pmid">1943626</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0037"><mixed-citation publication-type="journal" id="brb371709-cite-0037">
+<string-name name-style="western">
+<surname>Paul</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Danley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Saha</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>PKCζ Promotes Breast Cancer Invasion by Regulating Expression of E‐cadherin and Zonula Occludens‐1 (ZO‐1) via NFκB‐p65</article-title>.” <source>Scientific Reports</source>
+<volume>5</volume>: <elocation-id>12520</elocation-id>. <pub-id pub-id-type="doi">10.1038/srep12520</pub-id>.<pub-id pub-id-type="pmid">26218882</pub-id>
+<pub-id pub-id-type="pmcid">PMC4648478</pub-id></mixed-citation></ref><ref id="brb371709-bib-0038"><mixed-citation publication-type="journal" id="brb371709-cite-0038">
+<string-name name-style="western">
+<surname>Pentkowski</surname>, <given-names>N. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. K.</given-names>
+<surname>Rogge‐Obando</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. N.</given-names>
+<surname>Donaldson</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Anxiety and Alzheimer's Disease: Behavioral Analysis and Neural Basis in Rodent Models of Alzheimer's‐related Neuropathology</article-title>.” <source>Neuroscience &amp; Biobehavioral Reviews</source>
+<volume>127</volume>: <fpage>647</fpage>–<lpage>658</lpage>. <pub-id pub-id-type="doi">10.1016/j.neubiorev.2021.05.005</pub-id>.<pub-id pub-id-type="pmid">33979573</pub-id>
+<pub-id pub-id-type="pmcid">PMC8292229</pub-id></mixed-citation></ref><ref id="brb371709-bib-0039"><mixed-citation publication-type="journal" id="brb371709-cite-0039">
+<string-name name-style="western">
+<surname>Pereira</surname>, <given-names>B. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>da Rocha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Pauli</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Excessive Eccentric Exercise Leads to Transitory Hypothalamic Inflammation, Which May Contribute to the Low Body Weight Gain and Food Intake in Overtrained Mice</article-title>.” <source>Neuroscience</source>
+<volume>311</volume>: <fpage>231</fpage>–<lpage>242</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuroscience.2015.10.027</pub-id>.<pub-id pub-id-type="pmid">26480811</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0040"><mixed-citation publication-type="journal" id="brb371709-cite-0040">
+<string-name name-style="western">
+<surname>Petibois</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Cazorla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐R.</given-names>
+<surname>Poortmans</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Déléris</surname>
+</string-name>. <year>2003</year>. “<article-title>Biochemical Aspects of Overtraining in Endurance Sports</article-title>.” <source>Sports Medicine</source>
+<volume>33</volume>: <fpage>83</fpage>–<lpage>94</lpage>. <pub-id pub-id-type="doi">10.2165/00007256-200333020-00001</pub-id>.<pub-id pub-id-type="pmid">12617688</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0041"><mixed-citation publication-type="journal" id="brb371709-cite-0041">
+<string-name name-style="western">
+<surname>Radak</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ishihara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Tekus</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Exercise, Oxidants, and Antioxidants Change the Shape of the Bell‐Shaped Hormesis Curve</article-title>.” <source>Redox Biology</source>
+<volume>12</volume>: <fpage>285</fpage>–<lpage>290</lpage>. <pub-id pub-id-type="doi">10.1016/j.redox.2017.02.015</pub-id>.<pub-id pub-id-type="pmid">28285189</pub-id>
+<pub-id pub-id-type="pmcid">PMC5345970</pub-id></mixed-citation></ref><ref id="brb371709-bib-0042"><mixed-citation publication-type="journal" id="brb371709-cite-0042">
+<string-name name-style="western">
+<surname>Rajashekhar</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Shivanna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U. B.</given-names>
+<surname>Kompella</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Role of MMP‐9 in the Breakdown of Barrier Integrity of the Corneal Endothelium in Response to TNF‐α</article-title>.” <source>Experimental Eye Research</source>
+<volume>122</volume>: <fpage>77</fpage>–<lpage>85</lpage>. <pub-id pub-id-type="doi">10.1016/j.exer.2014.03.004</pub-id>.<pub-id pub-id-type="pmid">24667088</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0043"><mixed-citation publication-type="journal" id="brb371709-cite-0043">
+<string-name name-style="western">
+<surname>Reardon</surname>, <given-names>C. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Gorczynski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Hainline</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Anxiety Disorders in Athletes</article-title>.” <source>Clinics in Sports Medicine</source>
+<volume>43</volume>: <fpage>33</fpage>–<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1016/j.csm.2023.06.002</pub-id>.<pub-id pub-id-type="pmid">37949513</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0044"><mixed-citation publication-type="journal" id="brb371709-cite-0044">
+<string-name name-style="western">
+<surname>Rice</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Gwyther</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Santesteban‐Echarri</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Determinants of Anxiety in Elite Athletes: A Systematic Review and Meta‐Analysis</article-title>.” <source>British Journal of Sports Medicine</source>
+<volume>53</volume>: <fpage>722</fpage>–<lpage>730</lpage>. <pub-id pub-id-type="doi">10.1136/bjsports-2019-100620</pub-id>.<pub-id pub-id-type="pmid">31097452</pub-id>
+<pub-id pub-id-type="pmcid">PMC6579501</pub-id></mixed-citation></ref><ref id="brb371709-bib-0045"><mixed-citation publication-type="journal" id="brb371709-cite-0045">
+<string-name name-style="western">
+<surname>Robson</surname>, <given-names>P. J.</given-names>
+</string-name>
+<year>2003</year>. “<article-title>Elucidating the Unexplained Underperformance Syndrome in Endurance Athletes</article-title>.” <source>Sports Medicine</source>
+<volume>33</volume>: <fpage>771</fpage>–<lpage>781</lpage>. <pub-id pub-id-type="doi">10.2165/00007256-200333100-00004</pub-id>.<pub-id pub-id-type="pmid">12895132</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0047"><mixed-citation publication-type="journal" id="brb371709-cite-0047">
+<string-name name-style="western">
+<surname>Sharan</surname>, <given-names>P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Vellapandian</surname>
+</string-name>. <year>2024</year>. “<article-title>Hypothalamic‐Pituitary‐Adrenal (HPA) Axis: Unveiling the Potential Mechanisms Involved in Stress‐Induced Alzheimer's Disease and Depression</article-title>.” <source>Cureus</source>
+<volume>16</volume>: <elocation-id>e67595</elocation-id>. <pub-id pub-id-type="doi">10.7759/cureus.67595</pub-id>.<pub-id pub-id-type="pmid">39310640</pub-id>
+<pub-id pub-id-type="pmcid">PMC11416836</pub-id></mixed-citation></ref><ref id="brb371709-bib-0048"><mixed-citation publication-type="journal" id="brb371709-cite-0048">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>L. L.</given-names>
+</string-name>
+<year>2000</year>. “<article-title>Cytokine Hypothesis of Overtraining: A Physiological Adaptation to Excessive Stress?</article-title>” <source>Medicine &amp; Science in Sports &amp; Exercise</source>
+<volume>32</volume>: <fpage>317</fpage>. <pub-id pub-id-type="doi">10.1097/00005768-200002000-00011</pub-id>.<pub-id pub-id-type="pmid">10694113</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0049"><mixed-citation publication-type="journal" id="brb371709-cite-0049">
+<string-name name-style="western">
+<surname>Sun</surname>, <given-names>Z.‐W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhao</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Blood‐Brain Barrier Dysfunction Mediated by the EZH2‐Claudin‐5 Axis Drives Stress‐Induced TNF‐α Infiltration and Depression‐Like Behaviors</article-title>.” <source>Brain, Behavior, and Immunity</source>
+<volume>115</volume>: <fpage>143</fpage>–<lpage>156</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbi.2023.10.010</pub-id>.<pub-id pub-id-type="pmid">37848095</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0050"><mixed-citation publication-type="journal" id="brb371709-cite-0050">
+<string-name name-style="western">
+<surname>Takahashi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Fukushima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yu</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Tumor Necrosis Factor α Negatively Regulates the Retrieval and Reconsolidation of Hippocampus‐Dependent Memory</article-title>.” <source>Brain, Behavior, and Immunity</source>
+<volume>94</volume>: <fpage>79</fpage>–<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbi.2021.02.033</pub-id>.<pub-id pub-id-type="pmid">33677026</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0051"><mixed-citation publication-type="journal" id="brb371709-cite-0051">
+<string-name name-style="western">
+<surname>Takata</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Nakagawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Matsumoto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dohgu</surname>
+</string-name>. <year>2021</year>. “<article-title>Blood‐Brain Barrier Dysfunction Amplifies the Development of Neuroinflammation: Understanding of Cellular Events in Brain Microvascular Endothelial Cells for Prevention and Treatment of BBB Dysfunction</article-title>.” <source>Frontiers in Cellular Neuroscience</source>
+<volume>15</volume>: <elocation-id>661838</elocation-id>. <pub-id pub-id-type="doi">10.3389/fncel.2021.661838</pub-id>.<pub-id pub-id-type="pmid">34588955</pub-id>
+<pub-id pub-id-type="pmcid">PMC8475767</pub-id></mixed-citation></ref><ref id="brb371709-bib-0052"><mixed-citation publication-type="journal" id="brb371709-cite-0052">
+<string-name name-style="western">
+<surname>Tornavaca</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Dufton</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>ZO‐1 Controls Endothelial Adherens Junctions, Cell–Cell Tension, Angiogenesis, and Barrier Formation</article-title>.” <source>Journal of Cell Biology</source>
+<volume>208</volume>: <fpage>821</fpage>–<lpage>838</lpage>. <pub-id pub-id-type="doi">10.1083/jcb.201404140</pub-id>.<pub-id pub-id-type="pmid">25753039</pub-id>
+<pub-id pub-id-type="pmcid">PMC4362456</pub-id></mixed-citation></ref><ref id="brb371709-bib-0053"><mixed-citation publication-type="journal" id="brb371709-cite-0053">
+<string-name name-style="western">
+<surname>Tsao</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. P.</given-names>
+<surname>Hsu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Wu</surname>
+</string-name>, et al. <year>2001</year>. “<article-title>Tumour Necrosis Factor‐α Causes an Increase in Blood‐Brain Barrier Permeability During Sepsis</article-title>.” <source>Journal of Medical Microbiology</source>
+<volume>50</volume>: <fpage>812</fpage>–<lpage>821</lpage>. <pub-id pub-id-type="doi">10.1099/0022-1317-50-9-812</pub-id>.<pub-id pub-id-type="pmid">11549183</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0054"><mixed-citation publication-type="journal" id="brb371709-cite-0054">
+<string-name name-style="western">
+<surname>Varanoske</surname>, <given-names>A. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. L.</given-names>
+<surname>McClung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Sepowitz</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Stress and the Gut‐Brain Axis: Cognitive Performance, Mood State, and Biomarkers of Blood‐Brain Barrier and Intestinal Permeability Following Severe Physical and Psychological Stress</article-title>.” <source>Brain, Behavior, and Immunity</source>
+<volume>101</volume>: <fpage>383</fpage>–<lpage>393</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbi.2022.02.002</pub-id>.<pub-id pub-id-type="pmid">35131441</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0055"><mixed-citation publication-type="journal" id="brb371709-cite-0055">
+<string-name name-style="western">
+<surname>Varatharaj</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Galea</surname>
+</string-name>. <year>2017</year>. “<article-title>The Blood‐Brain Barrier in Systemic Inflammation</article-title>.” <source>Brain, Behavior, and Immunity</source>
+<volume>60</volume>: <fpage>1</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbi.2016.03.010</pub-id>.<pub-id pub-id-type="pmid">26995317</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0056"><mixed-citation publication-type="journal" id="brb371709-cite-0056">
+<string-name name-style="western">
+<surname>Vecchio</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Xhima</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>The Neuroprotective Effects of Exercise: Maintaining a Healthy Brain Throughout Aging</article-title>.” <source>Brain Plasticity</source>
+<volume>4</volume>: <fpage>17</fpage>–<lpage>52</lpage>. <pub-id pub-id-type="doi">10.3233/BPL-180069</pub-id>.<pub-id pub-id-type="pmid">30564545</pub-id>
+<pub-id pub-id-type="pmcid">PMC6296262</pub-id></mixed-citation></ref><ref id="brb371709-bib-0057"><mixed-citation publication-type="journal" id="brb371709-cite-0057">
+<string-name name-style="western">
+<surname>Vernillo</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Giandolini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. B.</given-names>
+<surname>Edwards</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Biomechanics and Physiology of Uphill and Downhill Running</article-title>.” <source>Sports Medicine</source>
+<volume>47</volume>: <fpage>615</fpage>–<lpage>629</lpage>. <pub-id pub-id-type="doi">10.1007/s40279-016-0605-y</pub-id>.<pub-id pub-id-type="pmid">27501719</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0058"><mixed-citation publication-type="journal" id="brb371709-cite-0058">
+<string-name name-style="western">
+<surname>Versele</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Sevin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Gosselet</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>TNF‐α and IL‐1β Modulate Blood‐Brain Barrier Permeability and Decrease Amyloid‐β Peptide Efflux in a Human Blood‐Brain Barrier Model</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>23</volume>: <elocation-id>10235</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijms231810235</pub-id>.<pub-id pub-id-type="pmid">36142143</pub-id>
+<pub-id pub-id-type="pmcid">PMC9499506</pub-id></mixed-citation></ref><ref id="brb371709-bib-0059"><mixed-citation publication-type="journal" id="brb371709-cite-0059">
+<string-name name-style="western">
+<surname>Vrijkotte</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Roelands</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Pattyn</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Meeusen</surname>
+</string-name>. <year>2019</year>. “<article-title>The Overtraining Syndrome in Soldiers: Insights From the Sports Domain</article-title>.” <source>Military Medicine</source>
+<volume>184</volume>: <fpage>e192</fpage>–<lpage>e200</lpage>. <pub-id pub-id-type="doi">10.1093/milmed/usy274</pub-id>.<pub-id pub-id-type="pmid">30535270</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0060"><mixed-citation publication-type="journal" id="brb371709-cite-0060">
+<string-name name-style="western">
+<surname>Welcome</surname>, <given-names>M. O.</given-names>
+</string-name>
+<year>2020</year>. “<article-title>Cellular Mechanisms and Molecular Signaling Pathways in Stress‐Induced Anxiety, Depression, and Blood–Brain Barrier Inflammation and Leakage</article-title>.” <source>Inflammopharmacology</source>
+<volume>28</volume>: <fpage>643</fpage>–<lpage>665</lpage>. <pub-id pub-id-type="doi">10.1007/s10787-020-00712-8</pub-id>.<pub-id pub-id-type="pmid">32333258</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0061"><mixed-citation publication-type="journal" id="brb371709-cite-0061">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2023</year>. “<article-title>Neuroinflammation, Memory, and Depression: New Approaches to Hippocampal Neurogenesis</article-title>.” <source>Journal of Neuroinflammation</source>
+<volume>20</volume>: <fpage>283</fpage>. <pub-id pub-id-type="doi">10.1186/s12974-023-02964-x</pub-id>.<pub-id pub-id-type="pmid">38012702</pub-id>
+<pub-id pub-id-type="pmcid">PMC10683283</pub-id></mixed-citation></ref><ref id="brb371709-bib-0062"><mixed-citation publication-type="journal" id="brb371709-cite-0062">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Teng</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Biomarkers of Intestinal Permeability and Blood‐Brain Barrier Permeability in Adolescents With Major Depressive Disorder</article-title>.” <source>Journal of Affective Disorders</source>
+<volume>323</volume>: <fpage>659</fpage>–<lpage>666</lpage>. <pub-id pub-id-type="doi">10.1016/j.jad.2022.11.058</pub-id>.<pub-id pub-id-type="pmid">36493942</pub-id>
+</mixed-citation></ref><ref id="brb371709-bib-0063"><mixed-citation publication-type="journal" id="brb371709-cite-0063">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Fan</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Childhood Social Isolation Causes Anxiety‐Like Behaviors via the Damage of Blood‐Brain Barrier in Amygdala in Female Mice</article-title>.” <source>Frontiers in Cell and Developmental Biology</source>
+<volume>10</volume>: <elocation-id>943067</elocation-id>. <pub-id pub-id-type="doi">10.3389/fcell.2022.943067</pub-id>.<pub-id pub-id-type="pmid">36051441</pub-id>
+<pub-id pub-id-type="pmcid">PMC9424755</pub-id></mixed-citation></ref><ref id="brb371709-bib-0064"><mixed-citation publication-type="journal" id="brb371709-cite-0064">
+<string-name name-style="western">
+<surname>Yi</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. S.</given-names>
+<surname>Hwang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Ko</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Identifying Overtraining Biomarkers Through Proteomic Analysis of Extracellular Vesicles Derived From the Central Nervous System of Male Mice</article-title>.” <source>Physiological Reports</source>
+<volume>13</volume>: <elocation-id>e70640</elocation-id>. <pub-id pub-id-type="doi">10.14814/phy2.70640</pub-id>.<pub-id pub-id-type="pmid">41178061</pub-id>
+<pub-id pub-id-type="pmcid">PMC12580405</pub-id></mixed-citation></ref><ref id="brb371709-bib-0065"><mixed-citation publication-type="journal" id="brb371709-cite-0065">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Fei</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Research Progress of Mechanisms for Tight Junction Damage on Blood–Brain Barrier Inflammation</article-title>.” <source>Archives of Physiology and Biochemistry</source>
+<volume>128</volume>: <fpage>1579</fpage>–<lpage>1590</lpage>. <pub-id pub-id-type="doi">10.1080/13813455.2020.1784952</pub-id>.<pub-id pub-id-type="pmid">32608276</pub-id>
+</mixed-citation></ref></ref-list></back></article>

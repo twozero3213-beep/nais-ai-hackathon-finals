@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "registration_scope": "2 claims, 1 existing paper, 1 newly obtained URL-level source pair. Declared partial arithmetic reimplementation; author code not executed; no whole-paper reproduction or human approval.",
+  "cases": [
+    {
+      "claim_id": "COVID-FAIR-URL-COUNT",
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313991",
+      "doi": "10.1371/journal.pone.0313991",
+      "source_location": "JATS abstract / Results paragraph",
+      "claim_text": "5,700 URLs were included in the final analysis",
+      "data_file": "data/evaluation/paper_pairs/covid_fairness/fair_selected.csv",
+      "data_sha256": "5454152ad4694522fa83fd3174340f12f2a535c0b88c2e13e0645cfaabb90aaa",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 5700,
+      "tolerance": 0,
+      "source_file": "data/public_papers/fulltext_xml/PMC11573139.xml",
+      "source_sha256": "a7f61fe7eac500ced768cf0207197a07edb2214f8a1fb09ff5b76a5572d0f8f4",
+      "source_quote": "5,700 URLs were included in the final analysis",
+      "source_kind": "article_extract",
+      "scope_status": "EVALUATION_MAPPING",
+      "preprocessing_contract": {
+        "kind": "numeric_not_equal_projection",
+        "raw": {
+          "path": "data/evaluation/paper_pairs/covid_fairness/results_final.csv",
+          "sha256": "45b0d40b730adf8d82bf809acb419856c5fac09b44355c8427f8c743a5efc3f7"
+        },
+        "author_code": {
+          "path": "data/evaluation/paper_pairs/covid_fairness/final_author_analysis.qmd",
+          "sha256": "f7d2988fcaf2914510a7b6f46c78642dc21f1527b42f27a8c23fb04f94c3b019",
+          "quote": "filter(FAIR != 1)",
+          "executed": false
+        },
+        "column": "FAIR",
+        "excluded_value": 1,
+        "missing_policy": "drop",
+        "projection": [
+          "FAIR"
+        ],
+        "source_rows": 6180,
+        "selected_rows": 5700
+      }
+    },
+    {
+      "claim_id": "COVID-FAIR-MEAN",
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313991",
+      "doi": "10.1371/journal.pone.0313991",
+      "source_location": "JATS abstract / Results paragraph",
+      "claim_text": "level of compliance with FAIR metrics was 9.4 (4.88).",
+      "data_file": "data/evaluation/paper_pairs/covid_fairness/fair_selected.csv",
+      "data_sha256": "5454152ad4694522fa83fd3174340f12f2a535c0b88c2e13e0645cfaabb90aaa",
+      "method": "mean",
+      "column": "FAIR",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 9.4,
+      "tolerance": 0.05,
+      "source_file": "data/public_papers/fulltext_xml/PMC11573139.xml",
+      "source_sha256": "a7f61fe7eac500ced768cf0207197a07edb2214f8a1fb09ff5b76a5572d0f8f4",
+      "source_quote": "level of compliance with FAIR metrics was 9.4 (4.88).",
+      "source_kind": "article_extract",
+      "scope_status": "EVALUATION_MAPPING",
+      "preprocessing_contract": {
+        "kind": "numeric_not_equal_projection",
+        "raw": {
+          "path": "data/evaluation/paper_pairs/covid_fairness/results_final.csv",
+          "sha256": "45b0d40b730adf8d82bf809acb419856c5fac09b44355c8427f8c743a5efc3f7"
+        },
+        "author_code": {
+          "path": "data/evaluation/paper_pairs/covid_fairness/final_author_analysis.qmd",
+          "sha256": "f7d2988fcaf2914510a7b6f46c78642dc21f1527b42f27a8c23fb04f94c3b019",
+          "quote": "filter(FAIR != 1)",
+          "executed": false
+        },
+        "column": "FAIR",
+        "excluded_value": 1,
+        "missing_policy": "drop",
+        "projection": [
+          "FAIR"
+        ],
+        "source_rows": 6180,
+        "selected_rows": 5700
+      }
+    }
+  ]
+}

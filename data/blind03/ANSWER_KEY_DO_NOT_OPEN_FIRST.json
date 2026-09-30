@@ -1,0 +1,17 @@
+{
+  "actual_female_treatment_week12_mean": 4.88425,
+  "reported_mean": 7.1,
+  "expected_mean": "CONFLICT",
+  "actual_age_beta": 0.06184699271621864,
+  "actual_baseline_beta": -0.03832262443687264,
+  "reported_age_beta": 0.26,
+  "expected_regression": "REPRODUCTION REVIEW/FAIL depending tolerance",
+  "scope_expected": "BLOCKED until endpoint/subgroup/timepoint contract is confirmed; coverage audit only after confirmation",
+  "normalization_cases": [
+    "F==Female",
+    "M==Male",
+    "Treatment case-insensitive",
+    "12==12.0"
+  ],
+  "missing_policy": "complete_case"
+}

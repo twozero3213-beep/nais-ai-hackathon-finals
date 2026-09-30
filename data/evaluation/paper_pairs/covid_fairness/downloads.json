@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "url": "https://osf.io/download/2yfsh/",
+      "file": "results_final.csv",
+      "http_status": 200,
+      "sha256": "45b0d40b730adf8d82bf809acb419856c5fac09b44355c8427f8c743a5efc3f7",
+      "bytes": 4255945,
+      "retrieved_at": "2026-09-27T05:05:30.504774+00:00"
+    },
+    {
+      "url": "https://osf.io/download/3mkdj/",
+      "file": "final_author_analysis.qmd",
+      "http_status": 200,
+      "sha256": "f7d2988fcaf2914510a7b6f46c78642dc21f1527b42f27a8c23fb04f94c3b019",
+      "bytes": 13858,
+      "retrieved_at": "2026-09-27T05:05:31.924182+00:00"
+    },
+    {
+      "url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "file": "osf_license.json",
+      "http_status": 200,
+      "sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635",
+      "bytes": 13121,
+      "retrieved_at": "2026-09-27T05:05:32.296251+00:00"
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/ymd6w/",
+      "file": "osf_project.json",
+      "http_status": 200,
+      "sha256": "5c0941ac1f53407bd92c1e00a1ab1f922aebfada7a24e52427303ce9d336a46d",
+      "bytes": 4429,
+      "retrieved_at": "2026-09-27T05:05:33.142798+00:00"
+    },
+    {
+      "url": "https://osf.io/download/2yfsh/?version=1",
+      "file": "results_final.csv",
+      "http_status": 200,
+      "sha256": "45b0d40b730adf8d82bf809acb419856c5fac09b44355c8427f8c743a5efc3f7",
+      "bytes": 4255945,
+      "retrieved_at": "2026-09-27T05:16:29.307022+00:00",
+      "version": 1,
+      "verification": "versioned response equals archived bytes"
+    },
+    {
+      "url": "https://osf.io/download/3mkdj/?version=1",
+      "file": "final_author_analysis.qmd",
+      "http_status": 200,
+      "sha256": "f7d2988fcaf2914510a7b6f46c78642dc21f1527b42f27a8c23fb04f94c3b019",
+      "bytes": 13858,
+      "retrieved_at": "2026-09-27T05:16:31.576938+00:00",
+      "version": 1,
+      "verification": "versioned response equals archived bytes"
+    },
+    {
+      "url": "https://api.osf.io/v2/files/2yfsh/",
+      "file": "osf_file_2yfsh.json",
+      "http_status": 200,
+      "sha256": "3b92a92e4dad6e67cc9eebbda44e9a1306efbff598253a9430b9ecfc72aa3491",
+      "bytes": 2163,
+      "retrieved_at": "2026-09-27T05:16:31.590242+00:00"
+    },
+    {
+      "url": "https://api.osf.io/v2/files/3mkdj/",
+      "file": "osf_file_3mkdj.json",
+      "http_status": 200,
+      "sha256": "849e61548fdd77a5d52318a470b87e8cee8061d2403dd331fc2f280bfe9b66ae",
+      "bytes": 2152,
+      "retrieved_at": "2026-09-27T05:16:31.602775+00:00"
+    }
+  ],
+  "rejected_source_attempt": {
+    "source": "https://github.com/choxos/covid-fairness",
+    "commit": "2af63019e9545ec0985b5754e3aca8ee668208c8",
+    "reason": "preliminary 11551-row URL extraction and protocol; not final FAIR score dataset",
+    "archived_in_release": false
+  }
+}

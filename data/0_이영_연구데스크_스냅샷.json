@@ -1,0 +1,3445 @@
+{
+  "_change_note": "[0 이영] 참고 HTML의 공개 metadata만 명시 필드로 편입. 원 관측 시각 유지. 이메일·좁은 provider-key 패턴 0건이며, 제품의 넓은 SECRET_PATTERN에 걸린 공개 metadata 행도 보수적으로 제외. 참고 mock actual/expected 제외.",
+  "version": 0,
+  "imported_at_kst": "2026-09-30T23:49:40.289098+09:00",
+  "source_sha256": "dbb0e38c49071e3e8bf71881d93928ae3b3331c91ae4e138209669d1eb32e0fc",
+  "origin": "REFERENCE_HTML_METADATA_SNAPSHOT",
+  "digest_generated_at": "2026-09-29T07:20:47.628561+00:00",
+  "topics": {
+    "AI": {
+      "label": "AI · 인공지능",
+      "query": "artificial intelligence",
+      "checked_at": "2026-09-30T13:48:11.332500+00:00",
+      "latest": [
+        {
+          "doi": "10.48734/akofena.n021.vol.6.16.2026",
+          "title": "The Challenges for Linguists to Develop Innovative Pedagogy Due to the Impact of Artificial Intelligence on Job Opportunities",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Akofena revue scientifique des Sciences du Langage Lettres Langues & de la Communication",
+          "url": "https://doi.org/10.48734/akofena.n021.vol.6.16.2026"
+        },
+        {
+          "doi": "10.5946/ce.2025.186",
+          "title": "Advanced endoscopy and artificial intelligence-enabled vascular healing for ulcerative colitis: promising frontiers or mere mirage?",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 1,
+          "journal": "Clinical Endoscopy",
+          "url": "https://doi.org/10.5946/ce.2025.186"
+        },
+        {
+          "doi": "10.1186/s13071-026-07685-7",
+          "title": "Comparison of traditional and artificial intelligence methods for detection of enteric pathogens in feces of dogs with diarrhea",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Parasites & Vectors",
+          "url": "https://doi.org/10.1186/s13071-026-07685-7"
+        },
+        {
+          "doi": "10.69500/m.140",
+          "title": "Sztuczna inteligencja w muzeum martyrologicznym: Model Trzech Progów jako psychopedagogiczne narzędzie oceny technologii w edukacji o obozach koncentracyjnych i zagłady",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Muzealnictwo",
+          "url": "https://doi.org/10.69500/m.140"
+        },
+        {
+          "doi": "10.3390/s26196192",
+          "title": "Artificial Intelligence Applications in the Process of Power Cable Operation and Maintenance: A Review",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Sensors",
+          "url": "https://doi.org/10.3390/s26196192"
+        },
+        {
+          "doi": "10.63029/d56x7t06",
+          "title": "Artificial Intelligence and Robotics in the Sports Industry: From Qualitative Recommendations to Implementation Gaps",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 1,
+          "journal": "Management Research Quarterly",
+          "url": "https://doi.org/10.63029/d56x7t06"
+        },
+        {
+          "doi": "10.3389/fenvs.2026.1936215",
+          "title": "From artificial intelligence to renewable energy transition: pathways through green innovation and institutional readiness",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Environmental Science",
+          "url": "https://doi.org/10.3389/fenvs.2026.1936215"
+        },
+        {
+          "doi": "10.22214/ijraset.2026.84922",
+          "title": "A Review on Artificial Intelligence",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal for Research in Applied Science and Engineering Technology",
+          "url": "https://doi.org/10.22214/ijraset.2026.84922"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.61969/jai.1337500",
+          "title": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
+          "published": "2023-12-31",
+          "registered_at": null,
+          "citations": 1722,
+          "journal": "Journal of AI",
+          "url": "https://doi.org/10.61969/jai.1337500"
+        },
+        {
+          "doi": "10.1007/s10462-024-10721-6",
+          "title": "A review of convolutional neural networks in computer vision",
+          "published": "2024-03-23",
+          "registered_at": null,
+          "citations": 1175,
+          "journal": "Artificial Intelligence Review",
+          "url": "https://doi.org/10.1007/s10462-024-10721-6"
+        },
+        {
+          "doi": "10.1186/s41239-024-00448-3",
+          "title": "Embracing the future of Artificial Intelligence in the classroom: the relevance of AI literacy, prompt engineering, and critical thinking in modern education",
+          "published": "2024-02-26",
+          "registered_at": null,
+          "citations": 1033,
+          "journal": "International Journal of Educational Technology in Higher Education",
+          "url": "https://doi.org/10.1186/s41239-024-00448-3"
+        }
+      ]
+    },
+    "climate": {
+      "label": "기후·환경",
+      "query": "climate adaptation",
+      "checked_at": "2026-09-30T13:48:14.749597+00:00",
+      "latest": [
+        {
+          "doi": "10.24875/cirue.m22000648",
+          "title": "Transcultural adaptation and validation of the DASH questionnaire in Mexican healthy volunteers and patients with neurogenic disorders of the upper extremity",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Cirugía y Cirujanos (English Edition)",
+          "url": "https://doi.org/10.24875/cirue.m22000648"
+        },
+        {
+          "doi": "10.1098/rsos.251653",
+          "title": "Comparative nasal and anal microbiomes in sympatric ringed and harbour seals: insights into host adaptation and niche differentiation",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Royal Society Open Science",
+          "url": "https://doi.org/10.1098/rsos.251653"
+        },
+        {
+          "doi": "10.1111/gcb.71132",
+          "title": "Overwintering Strategies Drive Climate Change Impacts on Body Mass in Northern Mammals",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Global Change Biology",
+          "url": "https://doi.org/10.1111/gcb.71132"
+        },
+        {
+          "doi": "10.3390/jrfm19100748",
+          "title": "Pro-Climate Lobbying and Corporate Default Risk: Evidence from U.S. Firms",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Risk and Financial Management",
+          "url": "https://doi.org/10.3390/jrfm19100748"
+        },
+        {
+          "doi": "10.38035/dijefa.v7i4.7425",
+          "title": "The Effects of Justice Climate and Service Climate on Employee Service Behavior through Work Engagement: Evidence from a Business-to-Business Food and Beverage Distributor in Indonesia",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Dinasti International Journal of Economics, Finance & Accounting",
+          "url": "https://doi.org/10.38035/dijefa.v7i4.7425"
+        },
+        {
+          "doi": "10.1098/rsos.260746",
+          "title": "Climate-driven dengue forecasting in Bangladesh: division-specific feature-set design and lag structure",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Royal Society Open Science",
+          "url": "https://doi.org/10.1098/rsos.260746"
+        },
+        {
+          "doi": "10.5897/ajest2025.3404",
+          "title": "Climatic specification of paved road degradation in Togo and estimation of their vulnerability to climate change",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "African Journal of Environmental Science and Technology",
+          "url": "https://doi.org/10.5897/ajest2025.3404"
+        },
+        {
+          "doi": "10.47116/apjcri.2026.09.60",
+          "title": "The Effects of Job-Seeking Stress and College Life Adaptation on Career Preparation Behavior among Nursing Students: The Mediating Role of Career Decision-Making Self-Efficacy",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Asia-pacific Journal of Convergent Research Interchange",
+          "url": "https://doi.org/10.47116/apjcri.2026.09.60"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.1038/s43017-023-00491-0",
+          "title": "Climate change impacts on crop yields",
+          "published": "2023-11-14",
+          "registered_at": null,
+          "citations": 777,
+          "journal": "Nature Reviews Earth & Environment",
+          "url": "https://doi.org/10.1038/s43017-023-00491-0"
+        }
+      ]
+    },
+    "health": {
+      "label": "보건·건강",
+      "query": "public health",
+      "checked_at": "2026-09-30T13:48:17.351747+00:00",
+      "latest": [
+        {
+          "doi": "10.4102/curationis.v49i1.2884",
+          "title": "Professional nurses’ readiness for lifelong learning in Gauteng public healthcare: The motivation-barrier paradox",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Curationis",
+          "url": "https://doi.org/10.4102/curationis.v49i1.2884"
+        },
+        {
+          "doi": "10.29063/ajrh2026/v30i17.4",
+          "title": "Research trends on intimate partner violence against women during the COVID-19 pandemic: A bibliometric analysis and thematic research opportunities",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "AFRICAN JOURNAL OF REPRODUCTIVE HEALTH",
+          "url": "https://doi.org/10.29063/ajrh2026/v30i17.4"
+        },
+        {
+          "doi": "10.12972/kjcdh.2026.14.3.3",
+          "title": "Changes in Major Satisfaction, Career Self-Understanding Behavior, and Problem-Solving Self-Efficacy among Dental Hygiene Students Before and After School-Based Oral Health Education Field Training",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Korean Journal of Clinical Dental Hygiene",
+          "url": "https://doi.org/10.12972/kjcdh.2026.14.3.3"
+        },
+        {
+          "doi": "10.26710/jafee.v12i3.3988",
+          "title": "Moderating Effect of Organizational Factors on the Relationship between Occupational Safety and Health Practises and Performance of Electricity Distribution Contracted Firms in Western Kenya",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Accounting and Finance in Emerging Economies",
+          "url": "https://doi.org/10.26710/jafee.v12i3.3988"
+        },
+        {
+          "doi": "10.24301/mhsw.2026.9.54.3.111",
+          "title": "Effectiveness of a School-Based Gambling Prevention Program for Adolescents : A Mixed Methods Study",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Mental Health & Social Work",
+          "url": "https://doi.org/10.24301/mhsw.2026.9.54.3.111"
+        },
+        {
+          "doi": "10.54105/ijssl.c1232.05030326",
+          "title": "Analysis of the Successes and Challenges of Implementing Citizen-Centric Public Service Delivery: A Study on the Use of Online Public Service Applications",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Indian Journal of Social Science and Literature",
+          "url": "https://doi.org/10.54105/ijssl.c1232.05030326"
+        },
+        {
+          "doi": "10.66328/ijprmh.2026.020306",
+          "title": "<b>Digital Health and Health Equity in India: Are Digital Interventions Leaving Vulnerable Populations Behind?</b> <b> </b>",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Public Research in Medicine and Health",
+          "url": "https://doi.org/10.66328/ijprmh.2026.020306"
+        },
+        {
+          "doi": "10.4102/phcfm.v18i1.5490",
+          "title": "Family caregiving challenges in primary palliative care for older people with multimorbidity in Malawi – A cross-sectional qualitative study",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "African Journal of Primary Health Care & Family Medicine",
+          "url": "https://doi.org/10.4102/phcfm.v18i1.5490"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.1161/cir.0000000000001184",
+          "title": "Cardiovascular-Kidney-Metabolic Health: A Presidential Advisory From the American Heart Association",
+          "published": "2023-11-14",
+          "registered_at": null,
+          "citations": 2130,
+          "journal": "Circulation",
+          "url": "https://doi.org/10.1161/cir.0000000000001184"
+        },
+        {
+          "doi": "10.1038/s41586-023-06592-6",
+          "title": "Plasma proteomic associations with genetics and health in the UK Biobank",
+          "published": "2023-10-04",
+          "registered_at": null,
+          "citations": 1754,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-023-06592-6"
+        },
+        {
+          "doi": "10.1038/s41581-024-00820-6",
+          "title": "Chronic kidney disease and the global public health agenda: an international consensus",
+          "published": "2024-04-03",
+          "registered_at": null,
+          "citations": 1348,
+          "journal": "Nature Reviews Nephrology",
+          "url": "https://doi.org/10.1038/s41581-024-00820-6"
+        },
+        {
+          "doi": "10.1002/wps.21160",
+          "title": "The social determinants of mental health and disorder: evidence, prevention and recommendations",
+          "published": "2024-01-12",
+          "registered_at": null,
+          "citations": 1253,
+          "journal": "World Psychiatry",
+          "url": "https://doi.org/10.1002/wps.21160"
+        },
+        {
+          "doi": "10.1038/s41392-024-01764-w",
+          "title": "TGF-β signaling in health, disease and therapeutics",
+          "published": "2024-03-22",
+          "registered_at": null,
+          "citations": 1201,
+          "journal": "Signal Transduction and Targeted Therapy",
+          "url": "https://doi.org/10.1038/s41392-024-01764-w"
+        }
+      ]
+    },
+    "economy": {
+      "label": "경제·사회",
+      "query": "economic inequality",
+      "checked_at": "2026-09-30T13:48:19.715714+00:00",
+      "latest": [
+        {
+          "doi": "10.65641/afmnai-2026-068",
+          "title": "THE IMPACT OF SOCIO-ECONOMIC FACTORS ON THE QUALITY OF LIFE OF EDENTULOUS ELDERLY PATIENTS IN SERBIA",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "AFMN Biomedicine",
+          "url": "https://doi.org/10.65641/afmnai-2026-068"
+        },
+        {
+          "doi": "10.30574/msarr.2026.18.1.0185",
+          "title": "ECONOMIC SECURITY IN AN AGING AMERICA: A REVIEW OF LABOR FORCE PARTICIPATION DYNAMICS, BARRIERS, AND INCENTIVES AMONG ADULTS AGED 55 AND OLDER",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Magna Scientia Advanced Research and Reviews",
+          "url": "https://doi.org/10.30574/msarr.2026.18.1.0185"
+        },
+        {
+          "doi": "10.52957/2221-3260-2026-8-44-59",
+          "title": "Organizational and economic mechanism for financial support of youth policy development activities",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical economics",
+          "url": "https://doi.org/10.52957/2221-3260-2026-8-44-59"
+        },
+        {
+          "doi": "10.11644/kiep.eaer.2026.30.3.469",
+          "title": "Global Value Chains, Environmental Regulation, and Firm-Level Determinants of Carbon Productivity: Evidence from Chinese Firms",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "East Asian Economic Review",
+          "url": "https://doi.org/10.11644/kiep.eaer.2026.30.3.469"
+        },
+        {
+          "doi": "10.30574/ijsra.2026.20.3.1817",
+          "title": "ENTREPRENEURSHIP EDUCATION AND MSME DEVELOPMENT: ASSESSING THE IMPACT OF HEIS' EXTENSION PROGRAMS ON LOCAL ECONOMIC SUSTAINABILITY IN BICOL REGION, PHILIPPINES",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Science and Research Archive",
+          "url": "https://doi.org/10.30574/ijsra.2026.20.3.1817"
+        },
+        {
+          "doi": "10.57083/adaletdergisi.2050269",
+          "title": "JURISDICTION AND APPLICABLE LAW IN INVESTOR CLAIMS FOR PURE ECONOMIC LOSS: THE CJEU’S APPROACH IN VEB V BP AND RELATED CASE LAW",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Adalet Dergisi",
+          "url": "https://doi.org/10.57083/adaletdergisi.2050269"
+        },
+        {
+          "doi": "10.1007/s11144-026-03257-z",
+          "title": "Experimental valorization of mixed plastic waste into liquid fuels via HZSM-5-catalysed pyrolysis: reaction kinetics, process optimization, engine emission profiling, and techno-economic assessment for the Niger Delta, Nigeria",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Reaction Kinetics, Mechanisms and Catalysis",
+          "url": "https://doi.org/10.1007/s11144-026-03257-z"
+        },
+        {
+          "doi": "10.15294/ujph.v15i2.35025",
+          "title": "Spatio-Temporal Dynamics and the Influence of Socio-Economic Factors on the Crude Incidence Rate of Type 2 Diabetes Mellitus in South Sulawesi (2020-2023)",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Unnes Journal of Public Health",
+          "url": "https://doi.org/10.15294/ujph.v15i2.35025"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.1093/restud/rdae007",
+          "title": "Revisiting Event-Study Designs: Robust and Efficient Estimation",
+          "published": "2024-02-06",
+          "registered_at": null,
+          "citations": 1700,
+          "journal": "Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdae007"
+        },
+        {
+          "doi": "10.2337/dci23-0085",
+          "title": "Economic Costs of Diabetes in the U.S. in 2022",
+          "published": "2023-11-01",
+          "registered_at": null,
+          "citations": 780,
+          "journal": "Diabetes Care",
+          "url": "https://doi.org/10.2337/dci23-0085"
+        },
+        {
+          "doi": "10.1038/s41560-024-01701-9",
+          "title": "Critically assessing sodium-ion technology roadmaps and scenarios for techno-economic competitiveness against lithium-ion batteries",
+          "published": "2025-01-13",
+          "registered_at": null,
+          "citations": 446,
+          "journal": "Nature Energy",
+          "url": "https://doi.org/10.1038/s41560-024-01701-9"
+        },
+        {
+          "doi": "10.1257/jep.37.4.23",
+          "title": "The Evolution of Work from Home",
+          "published": "2023-11-01",
+          "registered_at": null,
+          "citations": 356,
+          "journal": "Journal of Economic Perspectives",
+          "url": "https://doi.org/10.1257/jep.37.4.23"
+        },
+        {
+          "doi": "10.1161/cir.0000000000001258",
+          "title": "Forecasting the Economic Burden of Cardiovascular Disease and Stroke in the United States Through 2050: A Presidential Advisory From the American Heart Association",
+          "published": "2024-07-23",
+          "registered_at": null,
+          "citations": 353,
+          "journal": "Circulation",
+          "url": "https://doi.org/10.1161/cir.0000000000001258"
+        },
+        {
+          "doi": "10.1038/s41586-024-07219-0",
+          "title": "RETRACTED ARTICLE: The economic commitment of climate change",
+          "published": "2024-04-17",
+          "registered_at": null,
+          "citations": 338,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-024-07219-0"
+        },
+        {
+          "doi": "10.1257/jep.37.4.137",
+          "title": "The Importance of Financial Literacy: Opening a New Field",
+          "published": "2023-11-01",
+          "registered_at": null,
+          "citations": 290,
+          "journal": "Journal of Economic Perspectives",
+          "url": "https://doi.org/10.1257/jep.37.4.137"
+        },
+        {
+          "doi": "10.1257/jel.20231736",
+          "title": "Generative AI for Economic Research: Use Cases and Implications for Economists",
+          "published": "2023-12-01",
+          "registered_at": null,
+          "citations": 287,
+          "journal": "Journal of Economic Literature",
+          "url": "https://doi.org/10.1257/jel.20231736"
+        }
+      ]
+    },
+    "materials": {
+      "label": "소재·에너지",
+      "query": "materials energy storage",
+      "checked_at": "2026-09-30T13:48:22.568394+00:00",
+      "latest": [
+        {
+          "doi": "10.18494/sam6240",
+          "title": "Kalman-filter-based Proportional-integral-derivative and Nonlinear Counter-steering for Low-cost Self-balancing Motorcycles",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Sensors and Materials",
+          "url": "https://doi.org/10.18494/sam6240"
+        },
+        {
+          "doi": "10.1051/0004-6361/202661516",
+          "title": "Black holes in red-sequence galaxies at z ∼ 0.7-2.5: Not a source of dark energy, but remnants of little red dots",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Astronomy & Astrophysics",
+          "url": "https://doi.org/10.1051/0004-6361/202661516"
+        },
+        {
+          "doi": "10.1088/1361-6528/aea85d",
+          "title": "Transition metal sulfides as anode materials for high-performance lithium storage",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Nanotechnology",
+          "url": "https://doi.org/10.1088/1361-6528/aea85d"
+        },
+        {
+          "doi": "10.15263/jlmqa.2026.48.3.90",
+          "title": "Evaluation of the Stability and Precision of Different External Quality Assessment Materials for Hematopoietic Stem Cell Enumeration",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Laboratory Medicine and Quality Assurance",
+          "url": "https://doi.org/10.15263/jlmqa.2026.48.3.90"
+        },
+        {
+          "doi": "10.1177/09544062261488539",
+          "title": "Quantitative comparison of fretting and plain fatigue: An energy dissipation perspective",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science",
+          "url": "https://doi.org/10.1177/09544062261488539"
+        },
+        {
+          "doi": "10.52578/3135-0690-2026-3-35-47",
+          "title": "<b>INCREASING THE THERMAL PROTECTION PROPERTIES IN BRICKWORK AND FLOOR STRUCTURES OF RESIDENTIAL BUILDINGS THROUGH THE USE OF \"WARM BUILDING MORTARS</b>",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Building materials and construction engineering",
+          "url": "https://doi.org/10.52578/3135-0690-2026-3-35-47"
+        },
+        {
+          "doi": "10.3389/fenvs.2026.1936215",
+          "title": "From artificial intelligence to renewable energy transition: pathways through green innovation and institutional readiness",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Environmental Science",
+          "url": "https://doi.org/10.3389/fenvs.2026.1936215"
+        },
+        {
+          "doi": "10.3389/fagro.2026.1948938",
+          "title": "Long-term effects of combined application of chemical fertilizers and organic materials on maize yield stability and microbial functional potential and soil microbial community structure in alkaline soils",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Agronomy",
+          "url": "https://doi.org/10.3389/fagro.2026.1948938"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.1038/s41586-023-06735-9",
+          "title": "Scaling deep learning for materials discovery",
+          "published": "2023-11-29",
+          "registered_at": null,
+          "citations": 1510,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-023-06735-9"
+        },
+        {
+          "doi": "10.1038/s41586-023-06734-w",
+          "title": "An autonomous laboratory for the accelerated synthesis of inorganic materials",
+          "published": "2023-11-29",
+          "registered_at": null,
+          "citations": 1011,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-023-06734-w"
+        },
+        {
+          "doi": "10.1038/s41570-024-00602-5",
+          "title": "Clarifying the four core effects of high-entropy materials",
+          "published": "2024-05-02",
+          "registered_at": null,
+          "citations": 900,
+          "journal": "Nature Reviews Chemistry",
+          "url": "https://doi.org/10.1038/s41570-024-00602-5"
+        },
+        {
+          "doi": "10.1038/s41578-024-00672-3",
+          "title": "Design principles for strong and tough hydrogels",
+          "published": "2024-05-07",
+          "registered_at": null,
+          "citations": 808,
+          "journal": "Nature Reviews Materials",
+          "url": "https://doi.org/10.1038/s41578-024-00672-3"
+        },
+        {
+          "doi": "10.1038/s41560-024-01557-z",
+          "title": "Non-fullerene acceptor with asymmetric structure and phenyl-substituted alkyl side chain for 20.2% efficiency organic solar cells",
+          "published": "2024-06-12",
+          "registered_at": null,
+          "citations": 807,
+          "journal": "Nature Energy",
+          "url": "https://doi.org/10.1038/s41560-024-01557-z"
+        }
+      ]
+    },
+    "education": {
+      "label": "교육·학습",
+      "query": "education learning",
+      "checked_at": "2026-09-30T13:48:25.716004+00:00",
+      "latest": [
+        {
+          "doi": "10.4102/curationis.v49i1.2884",
+          "title": "Professional nurses’ readiness for lifelong learning in Gauteng public healthcare: The motivation-barrier paradox",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Curationis",
+          "url": "https://doi.org/10.4102/curationis.v49i1.2884"
+        },
+        {
+          "doi": "10.30574/ijsra.2026.20.3.1715",
+          "title": "FROM PROJECT TO CRITICAL THINKING: FOOD CHAIN LEARNING IN PRIMARY SCHOOLS",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Science and Research Archive",
+          "url": "https://doi.org/10.30574/ijsra.2026.20.3.1715"
+        },
+        {
+          "doi": "10.12972/kjcdh.2026.14.3.3",
+          "title": "Changes in Major Satisfaction, Career Self-Understanding Behavior, and Problem-Solving Self-Efficacy among Dental Hygiene Students Before and After School-Based Oral Health Education Field Training",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Korean Journal of Clinical Dental Hygiene",
+          "url": "https://doi.org/10.12972/kjcdh.2026.14.3.3"
+        },
+        {
+          "doi": "10.38007/ijeis.2026.070116",
+          "title": "Research on the Evaluation and Monitoring of High-Quality Development of Higher Vocational Education",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Educational Innovation and Science",
+          "url": "https://doi.org/10.38007/ijeis.2026.070116"
+        },
+        {
+          "doi": "10.23951/1609-624x-2026-5-103-114",
+          "title": "Профессионально-личностное развитие педагогов в контексте неформального образования",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Tomsk state pedagogical university bulletin",
+          "url": "https://doi.org/10.23951/1609-624x-2026-5-103-114"
+        },
+        {
+          "doi": "10.55525/tjst.1896758",
+          "title": "Depth-Aware Multi-Task Deep Learning Approach for Railway Scene Perception",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Turkish Journal of Science and Technology",
+          "url": "https://doi.org/10.55525/tjst.1896758"
+        },
+        {
+          "doi": "10.66968/v23c8972",
+          "title": "<b>Role of Wise Leadership and its Relationship to Self-Management Among Physical Education Teachers in Directorate of Education of Maysan Governorate</b>",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Experimental Sports Science Research",
+          "url": "https://doi.org/10.66968/v23c8972"
+        },
+        {
+          "doi": "10.3389/fams.2026.1932938",
+          "title": "IoT-enabled ensemble learning for sustainable wastewater valorization: a fuzzy goal programming approach with multi-objective optimization",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Applied Mathematics and Statistics",
+          "url": "https://doi.org/10.3389/fams.2026.1932938"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.1136/bmj-2023-078378",
+          "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+          "published": "2024-04-16",
+          "registered_at": null,
+          "citations": 3987,
+          "journal": "BMJ",
+          "url": "https://doi.org/10.1136/bmj-2023-078378"
+        },
+        {
+          "doi": "10.3390/make5040083",
+          "title": "A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS",
+          "published": "2023-11-20",
+          "registered_at": null,
+          "citations": 2935,
+          "journal": "Machine Learning and Knowledge Extraction",
+          "url": "https://doi.org/10.3390/make5040083"
+        },
+        {
+          "doi": "10.61969/jai.1337500",
+          "title": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
+          "published": "2023-12-31",
+          "registered_at": null,
+          "citations": 1722,
+          "journal": "Journal of AI",
+          "url": "https://doi.org/10.61969/jai.1337500"
+        },
+        {
+          "doi": "10.1038/s41586-023-06735-9",
+          "title": "Scaling deep learning for materials discovery",
+          "published": "2023-11-29",
+          "registered_at": null,
+          "citations": 1510,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-023-06735-9"
+        },
+        {
+          "doi": "10.1186/s40561-024-00316-7",
+          "title": "The effects of over-reliance on AI dialogue systems on students' cognitive abilities: a systematic review",
+          "published": "2024-06-18",
+          "registered_at": null,
+          "citations": 1415,
+          "journal": "Smart Learning Environments",
+          "url": "https://doi.org/10.1186/s40561-024-00316-7"
+        },
+        {
+          "doi": "10.1126/science.adi2336",
+          "title": "Learning skillful medium-range global weather forecasting",
+          "published": "2023-12-22",
+          "registered_at": null,
+          "citations": 1407,
+          "journal": "Science",
+          "url": "https://doi.org/10.1126/science.adi2336"
+        },
+        {
+          "doi": "10.1038/s41598-024-56706-x",
+          "title": "Evaluation metrics and statistical tests for machine learning",
+          "published": "2024-03-13",
+          "registered_at": null,
+          "citations": 1283,
+          "journal": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-024-56706-x"
+        },
+        {
+          "doi": "10.1038/s41586-025-09422-z",
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "published": "2025-09-17",
+          "registered_at": null,
+          "citations": 1223,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-025-09422-z"
+        }
+      ]
+    },
+    "penguin": {
+      "label": "펭귄 연구",
+      "query": "Pygoscelis penguins",
+      "checked_at": "2026-09-30T13:48:32.481718+00:00",
+      "latest": [
+        {
+          "doi": "10.3390/d18100596",
+          "title": "Inferring Sex from Osteohistology in Eocene Penguins (Aves, Sphenisciformes) from Antarctica",
+          "published": "2026-09-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Diversity",
+          "url": "https://doi.org/10.3390/d18100596"
+        },
+        {
+          "doi": "10.1638/2026-0019",
+          "title": "Evaluation of sedation by intramuscular administration of dexmedetomidine, midazolam, butorphanol in king penguins (Aptenodytes patagonicus) under managed care",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Zoo and Wildlife Medicine",
+          "url": "https://doi.org/10.1638/2026-0019"
+        },
+        {
+          "doi": "10.1638/2026-0001",
+          "title": "The effects of anticoagulant and sample storage time on hematologic values in Humboldt penguins (Spheniscus humboldti )",
+          "published": "2026-09-24",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Zoo and Wildlife Medicine",
+          "url": "https://doi.org/10.1638/2026-0001"
+        },
+        {
+          "doi": "10.1007/s00300-026-03551-5",
+          "title": "Long-term population trends of gentoo penguins in relation to environmental factors at Esperanza/Hope Bay, Antarctic Peninsula",
+          "published": "2026-09-21",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Polar Biology",
+          "url": "https://doi.org/10.1007/s00300-026-03551-5"
+        },
+        {
+          "doi": "10.33265/polar.v45.12596",
+          "title": "Automated counting of nesting Adélie penguins at Cape Hallett, Ross Sea, Antarctica, using very high-resolution drone images and the YOLOv11 object detection model",
+          "published": "2026-09-19",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Polar Research",
+          "url": "https://doi.org/10.33265/polar.v45.12596"
+        },
+        {
+          "doi": "10.3354/meps15233",
+          "title": "Trophic stability of Adélie penguins through major historical changes in krill abundance",
+          "published": "2026-09-17",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Marine Ecology Progress Series",
+          "url": "https://doi.org/10.3354/meps15233"
+        },
+        {
+          "doi": "10.1098/rsos.260524",
+          "title": "Satellite telemetry suggests significant regional variation in post-fledging survival of Adélie penguins",
+          "published": "2026-09-16",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Royal Society Open Science",
+          "url": "https://doi.org/10.1098/rsos.260524"
+        },
+        {
+          "doi": "10.3390/jzbg7030037",
+          "title": "First Insights into the Breeding Behaviour of an Ex Situ Population of Northern Rockhopper Penguins (Eudyptes moseleyi)",
+          "published": "2026-09-08",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Zoological and Botanical Gardens",
+          "url": "https://doi.org/10.3390/jzbg7030037"
+        }
+      ],
+      "cited": [
+        {
+          "doi": "10.1098/rspb.2023.2067",
+          "title": "Advances in remote sensing of emperor penguins: first multi-year time series documenting trends in the global population",
+          "published": "2024-03-13",
+          "registered_at": null,
+          "citations": 33,
+          "journal": "Proceedings of the Royal Society B: Biological Sciences",
+          "url": "https://doi.org/10.1098/rspb.2023.2067"
+        },
+        {
+          "doi": "10.3390/jox15040110",
+          "title": "Effects of Pharmaceuticals and Endocrine-Disrupting Chemicals on Reproductive Biology of Aquatic Fauna: Penguins as Sentinel Species",
+          "published": "2025-07-04",
+          "registered_at": null,
+          "citations": 25,
+          "journal": "Journal of Xenobiotics",
+          "url": "https://doi.org/10.3390/jox15040110"
+        },
+        {
+          "doi": "10.1007/s12083-024-01764-1",
+          "title": "A delay aware routing approach for FANET based on emperor penguins colony algorithm",
+          "published": "2024-07-31",
+          "registered_at": null,
+          "citations": 21,
+          "journal": "Peer-to-Peer Networking and Applications",
+          "url": "https://doi.org/10.1007/s12083-024-01764-1"
+        },
+        {
+          "doi": "10.1242/bio.060244",
+          "title": "Biomechanical analysis of little penguins’ underwater locomotion from the free-ranging dive data",
+          "published": "2024-05-15",
+          "registered_at": null,
+          "citations": 16,
+          "journal": "Biology Open",
+          "url": "https://doi.org/10.1242/bio.060244"
+        }
+      ]
+    }
+  },
+  "fields": [
+    {
+      "id": "mathematics",
+      "label": "수학·통계",
+      "group": "자연과학",
+      "query": "mathematics statistics",
+      "checked_at": "2026-09-29T07:20:04.846681+00:00",
+      "items": [
+        {
+          "doi": "10.1007/s00009-026-03207-y",
+          "title": "Castelnuovo–Mumford Regularity of Toric Varieties with At Most One Singular Point",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Mediterranean Journal of Mathematics",
+          "url": "https://doi.org/10.1007/s00009-026-03207-y"
+        },
+        {
+          "doi": "10.1142/s0219199726500811",
+          "title": "Doubly nonlinear Schrödinger normalized ground states on 2D grids: Existence results and singular limits",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Communications in Contemporary Mathematics",
+          "url": "https://doi.org/10.1142/s0219199726500811"
+        },
+        {
+          "doi": "10.1017/s0956792526100539",
+          "title": "Adaptive FEM and CIPFEM for a nonlinear Helmholtz equation with high wave number",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "European Journal of Applied Mathematics",
+          "url": "https://doi.org/10.1017/s0956792526100539"
+        },
+        {
+          "doi": "10.1142/s0219887826503998",
+          "title": "Thermodynamic geometry of alpha statistics: A unified quantum statistical framework",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Geometric Methods in Modern Physics",
+          "url": "https://doi.org/10.1142/s0219887826503998"
+        },
+        {
+          "doi": "10.55151/ijeedu.v8i3.517",
+          "title": "Exploring Teachers’ Perceptions, Experiences and Needs for Augmented Reality-Based Mathematics Learning in Elementary Schools",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Environment, Engineering and Education",
+          "url": "https://doi.org/10.55151/ijeedu.v8i3.517"
+        },
+        {
+          "doi": "10.1142/s1793830926500928",
+          "title": "A hybrid algorithm for the minimum weight 4-path vertex cover problem",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Discrete Mathematics, Algorithms and Applications",
+          "url": "https://doi.org/10.1142/s1793830926500928"
+        },
+        {
+          "doi": "10.1007/s40751-026-00203-5",
+          "title": "Young Students’ Mathematizing Through Visual Programming",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Digital Experiences in Mathematics Education",
+          "url": "https://doi.org/10.1007/s40751-026-00203-5"
+        },
+        {
+          "doi": "10.3847/1538-4365/ae9bbd",
+          "title": "Large-sample Statistics of Flares in Eclipsing Binaries Based on TESS and Gaia Data",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "The Astrophysical Journal Supplement Series",
+          "url": "https://doi.org/10.3847/1538-4365/ae9bbd"
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "label": "물리·천문",
+      "group": "자연과학",
+      "query": "physics astronomy",
+      "checked_at": "2026-09-29T07:20:06.373813+00:00",
+      "items": [
+        {
+          "doi": "10.1088/1361-648x/aea95c",
+          "title": "Coupled structural collapse and evolution of magnetic phases in Sr(Co 0.88 Ni 0.12 ) 2 P 2 under pressure",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Physics: Condensed Matter",
+          "url": "https://doi.org/10.1088/1361-648x/aea95c"
+        },
+        {
+          "doi": "10.1038/s41524-026-02346-w",
+          "title": "Predicting moiré physics from local proximity effects in van der Waals heterostructures",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "npj Computational Materials",
+          "url": "https://doi.org/10.1038/s41524-026-02346-w"
+        },
+        {
+          "doi": "10.1051/0004-6361/202659531",
+          "title": "Source locations of multiple type II solar radio bursts associated with a slow coronal mass ejection",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Astronomy & Astrophysics",
+          "url": "https://doi.org/10.1051/0004-6361/202659531"
+        },
+        {
+          "doi": "10.1007/s00339-026-10267-0",
+          "title": "NiO nanoparticle-induced modulation of electro-optical switching, electrical response, and dielectric properties in nematic liquid crystals for high-performance optoelectronic systems",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied Physics A",
+          "url": "https://doi.org/10.1007/s00339-026-10267-0"
+        },
+        {
+          "doi": "10.1007/s11005-026-02156-7",
+          "title": "Shape modes of $$\\mathbb {C}P^1$$ vortices",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Letters in Mathematical Physics",
+          "url": "https://doi.org/10.1007/s11005-026-02156-7"
+        },
+        {
+          "doi": "10.1088/1751-8121/aea3c5",
+          "title": "Partial solvability induced by dark states in a box trap with decentered two-body interaction",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Physics A: Mathematical and Theoretical",
+          "url": "https://doi.org/10.1088/1751-8121/aea3c5"
+        },
+        {
+          "doi": "10.1088/1751-8121/aea1ab",
+          "title": "Perfect transmission and parallel composition for quantum walks on graphs with two leads",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Physics A: Mathematical and Theoretical",
+          "url": "https://doi.org/10.1088/1751-8121/aea1ab"
+        },
+        {
+          "doi": "10.1142/s0219887826400141",
+          "title": "KM3NeT: Current performances and outlook for particle and astroparticle physics",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Geometric Methods in Modern Physics",
+          "url": "https://doi.org/10.1142/s0219887826400141"
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "label": "화학",
+      "group": "자연과학",
+      "query": "chemistry",
+      "checked_at": "2026-09-29T07:20:07.543820+00:00",
+      "items": [
+        {
+          "doi": "10.1515/hsz-2026-0146",
+          "title": "Sequestosome 1 (SQSTM1/p62) at the nexus of genome integrity maintenance, proteostasis regulation and organellar homeostasis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Biological Chemistry",
+          "url": "https://doi.org/10.1515/hsz-2026-0146"
+        },
+        {
+          "doi": "10.1021/acs.chemmater.6c01749",
+          "title": "One-Pot Synthesis of Triazine-Embedded Hierarchically Porous Organosilica Polymers via Tandem Condensation for Carbon Capture and Conversion",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Chemistry of Materials",
+          "url": "https://doi.org/10.1021/acs.chemmater.6c01749"
+        },
+        {
+          "doi": "10.1021/acs.inorgchem.6c03756",
+          "title": "Guanidinium-Based Hybrid Antimony Halide Scintillators for High-Resolution X-ray Imaging and 3D Reconstruction",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Inorganic Chemistry",
+          "url": "https://doi.org/10.1021/acs.inorgchem.6c03756"
+        },
+        {
+          "doi": "10.1007/s11090-026-10719-8",
+          "title": "Plasma-Catalytic VOC Removal with Nonthermal Plasma Regeneration and Repetitive use of Catalysts",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Plasma Chemistry and Plasma Processing",
+          "url": "https://doi.org/10.1007/s11090-026-10719-8"
+        },
+        {
+          "doi": "10.1021/acs.inorgchem.6c02847",
+          "title": "A Phosphotungstate Catalyst with Both Brønsted and Lewis Acid Sites for Synthesis of Bis(indolyl)methane Derivatives",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Inorganic Chemistry",
+          "url": "https://doi.org/10.1021/acs.inorgchem.6c02847"
+        },
+        {
+          "doi": "10.5194/acp-26-13581-2026",
+          "title": "Impacts of South Asian aerosol inflow over Mount Qomolangma on downstream cloud–precipitation processes through a long-range ice-crystal “seeding” effect",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Atmospheric Chemistry and Physics",
+          "url": "https://doi.org/10.5194/acp-26-13581-2026"
+        },
+        {
+          "doi": "10.1021/acs.iecr.6c02619",
+          "title": "Electrification Strategies for Batch Distillation: An Illustration Using a Middle Vessel Column",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Industrial & Engineering Chemistry Research",
+          "url": "https://doi.org/10.1021/acs.iecr.6c02619"
+        },
+        {
+          "doi": "10.1515/cclm-2026-1257",
+          "title": "Preanalytical stability of aPTT and anti-Xa levels for therapeutic unfractionated heparin monitoring: a systematic review and critical appraisal using CRESS criteria",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Clinical Chemistry and Laboratory Medicine (CCLM)",
+          "url": "https://doi.org/10.1515/cclm-2026-1257"
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "label": "생명과학·유전학",
+      "group": "자연과학",
+      "query": "biology genetics",
+      "checked_at": "2026-09-29T07:20:08.619923+00:00",
+      "items": [
+        {
+          "doi": "10.3389/fcell.2026.1910684",
+          "title": "DHA elongates the neuronal primary cilium through GPR40-mediated signaling",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Cell and Developmental Biology",
+          "url": "https://doi.org/10.3389/fcell.2026.1910684"
+        },
+        {
+          "doi": "10.1007/s13353-026-01115-1",
+          "title": "Rapid and reliable molecular diagnosis of oculopharyngeal muscular dystrophy: a cost-effective alternative for PABPN1 gene (GCN)n repeat analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Applied Genetics",
+          "url": "https://doi.org/10.1007/s13353-026-01115-1"
+        },
+        {
+          "doi": "10.1007/s10519-026-10284-y",
+          "title": "Heritability of Fruit and Vegetable Consumption and Depressive Symptoms in Community-Based Middle-Aged and Older Adults from Four International Twin Cohorts",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Behavior Genetics",
+          "url": "https://doi.org/10.1007/s10519-026-10284-y"
+        },
+        {
+          "doi": "10.3389/fcell.2026.1945533",
+          "title": "TRPV4-linked oxidative–lysosomal stress in myocardial ischemia/reperfusion: disease-matched transcriptomics and functional analysis in OGD/R cardiomyoblasts",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Cell and Developmental Biology",
+          "url": "https://doi.org/10.3389/fcell.2026.1945533"
+        },
+        {
+          "doi": "10.3157/021.133.0404",
+          "title": "Anatomical Diagnosis, Biology and Habitat Preference of Sitona macularius (Marsham, 1802) (Coleoptera: Curculionidae)",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Entomological News",
+          "url": "https://doi.org/10.3157/021.133.0404"
+        },
+        {
+          "doi": "10.1242/jeb.252345",
+          "title": "Emulating the influence of exoskeleton stiffness on primary afferent feedback in rat isolated muscle-tendon unit",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Experimental Biology",
+          "url": "https://doi.org/10.1242/jeb.252345"
+        },
+        {
+          "doi": "10.3389/fcell.2026.1938601",
+          "title": "Integrated re-analysis of bulk and single-cell transcriptomic data reveals limited ferroptosis and neuroinflammation signatures after sevoflurane exposure in the aged rat hippocampus and human prefrontal cortex cells",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Cell and Developmental Biology",
+          "url": "https://doi.org/10.3389/fcell.2026.1938601"
+        },
+        {
+          "doi": "10.1088/1361-6560/aea9e8",
+          "title": "Development of a novel material specific imaging algorithm and dual-energy CBCT technology for the next generation imaging solution on O-ring linacs",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Physics in Medicine & Biology",
+          "url": "https://doi.org/10.1088/1361-6560/aea9e8"
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "label": "지구·기후·환경",
+      "group": "자연과학",
+      "query": "earth climate environment",
+      "checked_at": "2026-09-29T07:20:09.570066+00:00",
+      "items": [
+        {
+          "doi": "10.1007/s10668-026-08122-6",
+          "title": "Who should bear responsibility for allocating transport carbon emission transfers in China? — A comparative and equity assessment of multi-responsibility approaches",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Environment, Development and Sustainability",
+          "url": "https://doi.org/10.1007/s10668-026-08122-6"
+        },
+        {
+          "doi": "10.2166/wcc.2026.220",
+          "title": "Hydro-climatic extremes: trends, anomalies and implications for urban water management",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Water and Climate Change",
+          "url": "https://doi.org/10.2166/wcc.2026.220"
+        },
+        {
+          "doi": "10.36615/z76fby10",
+          "title": "Investigating Argumentative and Alternative Communication (AAC) Systems as Strategies for Identifying and Advancing Possible Careers for Learners With High-Functioning Autism (HFA) in a Special School Environment",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "African Journal of Neurodiversity",
+          "url": "https://doi.org/10.36615/z76fby10"
+        },
+        {
+          "doi": "10.1007/s10668-026-08131-5",
+          "title": "Detecting a structure in the agricultural digitalization policy instrument mix: what mix successfully drives the agricultural economic resilience? New evidence from China",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Environment, Development and Sustainability",
+          "url": "https://doi.org/10.1007/s10668-026-08131-5"
+        },
+        {
+          "doi": "10.3389/feart.2026.1915778",
+          "title": "Geological framework for natural hydrogen generation in the Jeju basin and Hupijiao Rise, Northern East China Sea",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Earth Science",
+          "url": "https://doi.org/10.3389/feart.2026.1915778"
+        },
+        {
+          "doi": "10.36777/jag2026.5.2.5",
+          "title": "Comparative Google Earth Engine Workflows for Flood and Landslide Diagnostics in Lower Silesia, Poland, and Batang Kali, Malaysia",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Asian Geography",
+          "url": "https://doi.org/10.36777/jag2026.5.2.5"
+        },
+        {
+          "doi": "10.3389/fsufs.2026.1948860",
+          "title": "Multidimensional climate physical risk and reported farmland abandonment among rural farm households in China: evidence from household panel data",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Sustainable Food Systems",
+          "url": "https://doi.org/10.3389/fsufs.2026.1948860"
+        },
+        {
+          "doi": "10.3389/feart.2026.1947385",
+          "title": "A morphological regularization-constrained fuzzy C-means clustering algorithm for tunnel rock discontinuity identification",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Earth Science",
+          "url": "https://doi.org/10.3389/feart.2026.1947385"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "컴퓨터·AI·보안",
+      "group": "공학·기술",
+      "query": "computer artificial intelligence cybersecurity",
+      "checked_at": "2026-09-29T07:20:10.418208+00:00",
+      "items": [
+        {
+          "doi": "10.4102/sajim.v28i1.2171",
+          "title": "Artificial intelligence-enabled e-services for justice system services delivery in Namibia",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "South African journal of information management",
+          "url": "https://doi.org/10.4102/sajim.v28i1.2171"
+        },
+        {
+          "doi": "10.3389/fmed.2026.1971679",
+          "title": "Perceptions of artificial intelligence for radiographic image accuracy: a cross-sectional survey of radiology personnel",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Medicine",
+          "url": "https://doi.org/10.3389/fmed.2026.1971679"
+        },
+        {
+          "doi": "10.1108/jwl-11-2025-0399",
+          "title": "Exploring how AI coaching promotes emotional intelligence awareness of contact centre team leaders",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Workplace Learning",
+          "url": "https://doi.org/10.1108/jwl-11-2025-0399"
+        },
+        {
+          "doi": "10.1108/jgoss-06-2026-0116",
+          "title": "Generative artificial intelligence-enabled dynamic capabilities and sustainable supply chain resilience: the serial mediating effect of bricolage strategy and circular supply chain innovation",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Global Operations and Strategic Sourcing",
+          "url": "https://doi.org/10.1108/jgoss-06-2026-0116"
+        },
+        {
+          "doi": "10.3389/frai.2026.1962501",
+          "title": "Artificial intelligence-driven personalization in digital marketing: effects on customer experience, purchase intention, and AI-supported managerial responsiveness",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Artificial Intelligence",
+          "url": "https://doi.org/10.3389/frai.2026.1962501"
+        },
+        {
+          "doi": "10.17148/ijarcce.2026.15942",
+          "title": "Data-Driven Approach for Crop Yield Prediction Using Machine Learning Techniques",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "IJARCCE",
+          "url": "https://doi.org/10.17148/ijarcce.2026.15942"
+        },
+        {
+          "doi": "10.37899/journallabisecoman.v7i5.5643",
+          "title": "Privacy-by-Design Business Intelligence for MSME Performance Management",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal La Bisecoman",
+          "url": "https://doi.org/10.37899/journallabisecoman.v7i5.5643"
+        },
+        {
+          "doi": "10.1680/jtran.25.00136",
+          "title": "A data-driven approach for learning traffic assignment using an artificial neural network",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Proceedings of the Institution of Civil Engineers - Transport",
+          "url": "https://doi.org/10.1680/jtran.25.00136"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "label": "전기·전자·통신",
+      "group": "공학·기술",
+      "query": "electrical electronics telecommunications",
+      "checked_at": "2026-09-29T07:20:16.166189+00:00",
+      "items": []
+    },
+    {
+      "id": "mechanical",
+      "label": "기계·로봇·항공",
+      "group": "공학·기술",
+      "query": "mechanical robotics aerospace",
+      "checked_at": "2026-09-29T07:20:17.137778+00:00",
+      "items": [
+        {
+          "doi": "10.1007/s11104-026-09113-2",
+          "title": "No-tillage soil structure increases sugarcane root elongation under mechanical and hydric stresses in an Oxisol",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Plant and Soil",
+          "url": "https://doi.org/10.1007/s11104-026-09113-2"
+        },
+        {
+          "doi": "10.3389/fonc.2026.1934901",
+          "title": "Case Report: Immune checkpoint inhibitor–induced hypophysitis presenting as acute paralytic ileus mimicking mechanical bowel obstruction in a patient affected by advanced non-small cell lung cancer",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Oncology",
+          "url": "https://doi.org/10.3389/fonc.2026.1934901"
+        },
+        {
+          "doi": "10.54254/2755-2721/2026.ast37315",
+          "title": "Using Statistical Reliability Models to Predict Mechanical Equipment Failures",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2026.ast37315"
+        },
+        {
+          "doi": "10.1108/ir-05-2026-0238",
+          "title": "Gait-phase-adaptive control of lower-limb exoskeletons for motion assistance",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Industrial Robot: the international journal of robotics research and application",
+          "url": "https://doi.org/10.1108/ir-05-2026-0238"
+        },
+        {
+          "doi": "10.54254/2755-2721/2026.ch37300",
+          "title": "Triple Synergistic Mechanism of Chemical Passivation, Mechanical Buffering, and Energy Level Regulation: Rational Design of Interface Modification for Perovskite Solar Cells",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2026.ch37300"
+        },
+        {
+          "doi": "10.3389/frobt.2026.1905499",
+          "title": "Diffusion models in robotics: a comprehensive review",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Robotics and AI",
+          "url": "https://doi.org/10.3389/frobt.2026.1905499"
+        },
+        {
+          "doi": "10.1021/acsomega.6c04927",
+          "title": "Direct Laser Writing of Functional Material with Independently Tunable Electrical and Mechanical Properties",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "ACS Omega",
+          "url": "https://doi.org/10.1021/acsomega.6c04927"
+        },
+        {
+          "doi": "10.1007/s10064-026-05287-2",
+          "title": "Correction to: Micro-to-macro mechanical characterization and constitutive parameterization of marine-terrestrial interface soft soils in the Pearl River Estuary",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Bulletin of Engineering Geology and the Environment",
+          "url": "https://doi.org/10.1007/s10064-026-05287-2"
+        }
+      ]
+    },
+    {
+      "id": "civil",
+      "label": "건축·토목·도시",
+      "group": "공학·기술",
+      "query": "civil engineering architecture urban",
+      "checked_at": "2026-09-29T07:20:18.027306+00:00",
+      "items": [
+        {
+          "doi": "10.1680/jensu.26.00031",
+          "title": "Machine learning for low-carbon concrete strength prediction: methods and trends",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+          "url": "https://doi.org/10.1680/jensu.26.00031"
+        },
+        {
+          "doi": "10.1007/s44288-026-00749-2",
+          "title": "Path dependent peri urban land transformation and urban expansion in Ibadan Nigeria",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Discover Geoscience",
+          "url": "https://doi.org/10.1007/s44288-026-00749-2"
+        },
+        {
+          "doi": "10.1007/s00018-026-06467-9",
+          "title": "ASFV early infection dynamically remodels host chromatin architecture to evade immune responses",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Cellular and Molecular Life Sciences",
+          "url": "https://doi.org/10.1007/s00018-026-06467-9"
+        },
+        {
+          "doi": "10.1007/s10798-026-10130-6",
+          "title": "From conceptual design to 3D modelling: integrating spatial ability, creativity, and technological tools in the architecture curriculum",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Technology and Design Education",
+          "url": "https://doi.org/10.1007/s10798-026-10130-6"
+        },
+        {
+          "doi": "10.61487/jiste.v4i3.325",
+          "title": "The Influence of User Experience, Financial Innovation Capability, and Organizational Learning on the Success of Financial Technology Adoption in Fintech Lending Companies",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Information System, Technology and Engineering",
+          "url": "https://doi.org/10.61487/jiste.v4i3.325"
+        },
+        {
+          "doi": "10.54254/2755-2721/2026.ba37311",
+          "title": "P rogress in T arget D etection T echnology for R oad T raffic V ehicles",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2026.ba37311"
+        },
+        {
+          "doi": "10.54254/2755-2721/2027.ad37296",
+          "title": "Sustainability & Environmental Performance of Graphene-on-Silicon Hybrid Transistors: Green Fabrication, Low-Carbon Application and Circular E-Waste Mitigation",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2027.ad37296"
+        },
+        {
+          "doi": "10.54254/2755-2721/2026.37347",
+          "title": "Deep Learning-Based Visual Detection Technology for Metal Gear Surface Defects",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2026.37347"
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "소재·화공·에너지",
+      "group": "공학·기술",
+      "query": "materials chemical engineering energy",
+      "checked_at": "2026-09-29T07:20:19.094829+00:00",
+      "items": [
+        {
+          "doi": "10.1680/jensu.26.00031",
+          "title": "Machine learning for low-carbon concrete strength prediction: methods and trends",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+          "url": "https://doi.org/10.1680/jensu.26.00031"
+        },
+        {
+          "doi": "10.1108/ijppm-01-2026-0111",
+          "title": "Application of Lean Six Sigma (LSS) methodology in a small-sized company that sells construction materials: a case study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Productivity and Performance Management",
+          "url": "https://doi.org/10.1108/ijppm-01-2026-0111"
+        },
+        {
+          "doi": "10.1021/acsami.6c11699",
+          "title": "Bioinspired Collagen-Zn-PEEK Mixed Interfacial Layer on Color-Stable, Surface-Hardened PEEK for Enhanced Osseointegration",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "ACS Applied Materials & Interfaces",
+          "url": "https://doi.org/10.1021/acsami.6c11699"
+        },
+        {
+          "doi": "10.3389/fphys.2026.1840466",
+          "title": "Cumulative endpoint and reconstructed 500-m energy-system contributions from individualized pacing-matched trials in 2000-m rowing ergometry",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Physiology",
+          "url": "https://doi.org/10.3389/fphys.2026.1840466"
+        },
+        {
+          "doi": "10.54254/2755-2721/2026.ba37311",
+          "title": "P rogress in T arget D etection T echnology for R oad T raffic V ehicles",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2026.ba37311"
+        },
+        {
+          "doi": "10.54254/2755-2721/2027.ad37296",
+          "title": "Sustainability & Environmental Performance of Graphene-on-Silicon Hybrid Transistors: Green Fabrication, Low-Carbon Application and Circular E-Waste Mitigation",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2027.ad37296"
+        },
+        {
+          "doi": "10.61487/jiste.v4i3.325",
+          "title": "The Influence of User Experience, Financial Innovation Capability, and Organizational Learning on the Success of Financial Technology Adoption in Fintech Lending Companies",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Information System, Technology and Engineering",
+          "url": "https://doi.org/10.61487/jiste.v4i3.325"
+        },
+        {
+          "doi": "10.54254/2755-2721/2026.37347",
+          "title": "Deep Learning-Based Visual Detection Technology for Metal Gear Surface Defects",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2026.37347"
+        }
+      ]
+    },
+    {
+      "id": "basic_medicine",
+      "label": "기초의학",
+      "group": "의약·보건",
+      "query": "biomedical physiology pathology",
+      "checked_at": "2026-09-29T07:20:20.089536+00:00",
+      "items": [
+        {
+          "doi": "10.3389/fphys.2026.1840466",
+          "title": "Cumulative endpoint and reconstructed 500-m energy-system contributions from individualized pacing-matched trials in 2000-m rowing ergometry",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Physiology",
+          "url": "https://doi.org/10.3389/fphys.2026.1840466"
+        },
+        {
+          "doi": "10.3389/fphys.2026.1995658",
+          "title": "Editorial: Assessment and monitoring of human movement, volume II",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Physiology",
+          "url": "https://doi.org/10.3389/fphys.2026.1995658"
+        },
+        {
+          "doi": "10.3389/fphys.2026.1932866",
+          "title": "Acute neuromuscular and metabolic responses to complex training with blood flow restriction: effects of arterial occlusion pressure on post-activation performance enhancement",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Physiology",
+          "url": "https://doi.org/10.3389/fphys.2026.1932866"
+        },
+        {
+          "doi": "10.1117/1.jbo.31.9.097005",
+          "title": "Histopathological analysis for human articular cartilage using a Raman probe system",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Biomedical Optics",
+          "url": "https://doi.org/10.1117/1.jbo.31.9.097005"
+        },
+        {
+          "doi": "10.1021/acsomega.6c05838",
+          "title": "Emerging Polysaccharide-Based Biomaterials in 3D Bioprinting: Materials, Biomedical Applications, and Future Perspectives",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "ACS Omega",
+          "url": "https://doi.org/10.1021/acsomega.6c05838"
+        },
+        {
+          "doi": "10.3389/fmats.2026.1914758",
+          "title": "Structural, biomedical and metal-ion sensing properties of the eco-friendly synthesized CrVO4 nanoparticles using Saussurea obvallata flower extract",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Materials",
+          "url": "https://doi.org/10.3389/fmats.2026.1914758"
+        },
+        {
+          "doi": "10.1007/s11055-026-02074-0",
+          "title": "Modulatory effects of lauric acid on inflammation, oxidative stress, and neurobehavioural alterations in paclitaxel-induced depressive-like behaviour in Wistar rats",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Neuroscience and Behavioral Physiology",
+          "url": "https://doi.org/10.1007/s11055-026-02074-0"
+        },
+        {
+          "doi": "10.1007/s00580-026-03865-0",
+          "title": "Modulation of glycemic and lipid profiles by Ganoderma lucidum aqueous extract in streptozotocin-induced diabetic wistar rats",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Comparative Clinical Pathology",
+          "url": "https://doi.org/10.1007/s00580-026-03865-0"
+        }
+      ]
+    },
+    {
+      "id": "clinical",
+      "label": "임상의학·치의학",
+      "group": "의약·보건",
+      "query": "clinical medicine dentistry",
+      "checked_at": "2026-09-29T07:20:21.267840+00:00",
+      "items": [
+        {
+          "doi": "10.1161/cir.0000000000001464",
+          "title": "Primary and Secondary Raynaud: A Scientific Statement From the American Heart Association",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Circulation",
+          "url": "https://doi.org/10.1161/cir.0000000000001464"
+        },
+        {
+          "doi": "10.3389/fmed.2026.1942699",
+          "title": "Shorter perioperative QRS duration and a leftward frontal-plane QRS axis are associated with anastomotic leakage after esophagectomy: a hypothesis-generating study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Medicine",
+          "url": "https://doi.org/10.3389/fmed.2026.1942699"
+        },
+        {
+          "doi": "10.3389/fmed.2026.1971679",
+          "title": "Perceptions of artificial intelligence for radiographic image accuracy: a cross-sectional survey of radiology personnel",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Medicine",
+          "url": "https://doi.org/10.3389/fmed.2026.1971679"
+        },
+        {
+          "doi": "10.54254/2753-8818/2027.37391",
+          "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+        },
+        {
+          "doi": "10.3389/fmed.2026.1938414",
+          "title": "Preoperative risk stratification for postoperative inflammatory–nutritional deterioration after colorectal cancer surgery: an interpretable machine learning study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Medicine",
+          "url": "https://doi.org/10.3389/fmed.2026.1938414"
+        },
+        {
+          "doi": "10.3389/fcvm.2026.1887132",
+          "title": "Comparison of hybrid coronary revascularization and minimally invasive multivessel CABG for multivessel coronary artery disease",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Cardiovascular Medicine",
+          "url": "https://doi.org/10.3389/fcvm.2026.1887132"
+        },
+        {
+          "doi": "10.3389/fnut.2026.1913449",
+          "title": "Screening for medicine and food homologous ingredients targeting ALDH2 to alleviate acute ethanol-induced liver injury",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Nutrition",
+          "url": "https://doi.org/10.3389/fnut.2026.1913449"
+        },
+        {
+          "doi": "10.1186/s12906-026-05619-5",
+          "title": "Virtual reality/exergaming-complemented pulmonary rehabilitation in chronic obstructive pulmonary disease: an umbrella review of systematic reviews and meta-analyses",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "BMC Complementary Medicine and Therapies",
+          "url": "https://doi.org/10.1186/s12906-026-05619-5"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "label": "공중보건·간호",
+      "group": "의약·보건",
+      "query": "public health nursing",
+      "checked_at": "2026-09-29T07:20:22.120603+00:00",
+      "items": [
+        {
+          "doi": "10.1161/cir.0000000000001464",
+          "title": "Primary and Secondary Raynaud: A Scientific Statement From the American Heart Association",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Circulation",
+          "url": "https://doi.org/10.1161/cir.0000000000001464"
+        },
+        {
+          "doi": "10.1186/s12903-026-09919-7",
+          "title": "Immigrant background as a determinant of caries development in Swedish children",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "BMC Oral Health",
+          "url": "https://doi.org/10.1186/s12903-026-09919-7"
+        },
+        {
+          "doi": "10.1186/s12903-026-10004-2",
+          "title": "Comparative evaluation of serum interleukin-1β levels in patients with oral lichen planus and healthy subjects: a hospital-based case-control study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "BMC Oral Health",
+          "url": "https://doi.org/10.1186/s12903-026-10004-2"
+        },
+        {
+          "doi": "10.3389/frph.2026.1907831",
+          "title": "Socioeconomic and demographic determinants of children ever born among ever-married women in Somalia: a multilevel negative binomial regression analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Reproductive Health",
+          "url": "https://doi.org/10.3389/frph.2026.1907831"
+        },
+        {
+          "doi": "10.3389/fpubh.2026.1965897",
+          "title": "Building recovery capital: co-creating an assets-based community engagement toolkit for people accessing drug and alcohol treatment services",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Public Health",
+          "url": "https://doi.org/10.3389/fpubh.2026.1965897"
+        },
+        {
+          "doi": "10.1186/s12889-026-29640-y",
+          "title": "Health literacy levels in young adults in Northern Norway and their ability to find and judge health information: a Fit Futures 3 study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "BMC Public Health",
+          "url": "https://doi.org/10.1186/s12889-026-29640-y"
+        },
+        {
+          "doi": "10.17576/mh.2026.s2111",
+          "title": "39th Annual Scientific Meeting MSPP 2026 in conjunction with ARMY Conference",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Medicine & Health",
+          "url": "https://doi.org/10.17576/mh.2026.s2111"
+        },
+        {
+          "doi": "10.65693/j21umas.2026.v5i1.420",
+          "title": "Quality of Life and Psychological Distress among Vitiligo Patients Attending Public Dermatology Clinics in Sana’a, Yemen",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of 21 September university for medical and applied sciences",
+          "url": "https://doi.org/10.65693/j21umas.2026.v5i1.420"
+        }
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "label": "약학·약물개발",
+      "group": "의약·보건",
+      "query": "pharmacology drug discovery",
+      "checked_at": "2026-09-29T07:20:23.151808+00:00",
+      "items": [
+        {
+          "doi": "10.1186/s40360-026-01242-9",
+          "title": "Investigation of maresin 1 and possible associated intracellular pathways in nasal polyp pathophysiology",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "BMC Pharmacology and Toxicology",
+          "url": "https://doi.org/10.1186/s40360-026-01242-9"
+        },
+        {
+          "doi": "10.3389/fpubh.2026.1965897",
+          "title": "Building recovery capital: co-creating an assets-based community engagement toolkit for people accessing drug and alcohol treatment services",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Public Health",
+          "url": "https://doi.org/10.3389/fpubh.2026.1965897"
+        },
+        {
+          "doi": "10.3389/fphar.2026.1930240",
+          "title": "Development and validation of machine learning models for predicting pancreatic injury observed after tigecycline initiation: a retrospective real-world study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Pharmacology",
+          "url": "https://doi.org/10.3389/fphar.2026.1930240"
+        },
+        {
+          "doi": "10.3389/fphar.2026.1910904",
+          "title": "Placental alkaline phosphatase promotes lipid accumulation and fibrosis in ligamentum flavum hypertrophy and represents a potential target for statin repurposing",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Pharmacology",
+          "url": "https://doi.org/10.3389/fphar.2026.1910904"
+        },
+        {
+          "doi": "10.1038/s41421-026-00926-0",
+          "title": "Structural basis of the transport mechanism of hBGT1",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Cell Discovery",
+          "url": "https://doi.org/10.1038/s41421-026-00926-0"
+        },
+        {
+          "doi": "10.3389/fphar.2026.1911091",
+          "title": "Efficacy and safety of P2X3 receptor antagonists in refractory or unexplained chronic cough: an updated systematic review and meta-analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Pharmacology",
+          "url": "https://doi.org/10.3389/fphar.2026.1911091"
+        },
+        {
+          "doi": "10.3389/fphar.2026.1974332",
+          "title": "Potential role of resveratrol in abdominal cocoon syndrome: targeting inflammation, oxidative stress, and fibrosis via food-derived bioactive compounds resveratrol for treatment of abdominal cocoon syndrome",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Pharmacology",
+          "url": "https://doi.org/10.3389/fphar.2026.1974332"
+        },
+        {
+          "doi": "10.1007/s44268-026-00101-0",
+          "title": "Engineering-informed machine learning for bond-strength prediction, mechanism discovery, and reliability assessment of FRP-reinforced seawater sea-sand concrete",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Smart Construction and Sustainable Cities",
+          "url": "https://doi.org/10.1007/s44268-026-00101-0"
+        }
+      ]
+    },
+    {
+      "id": "psychology",
+      "label": "심리·뇌과학",
+      "group": "의약·보건",
+      "query": "psychology neuroscience",
+      "checked_at": "2026-09-29T07:20:24.292259+00:00",
+      "items": [
+        {
+          "doi": "10.3389/fpsyg.2026.1918115",
+          "title": "The relationship between university students’ future work self and career decision-making difficulties: the mediating role of learned helplessness and the moderating role of social loafing",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1918115"
+        },
+        {
+          "doi": "10.3389/fpsyg.2026.1927380",
+          "title": "Revising the measurement of Eriksonian ego identity in contemporary Italian adolescents: the EPSI-IT",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1927380"
+        },
+        {
+          "doi": "10.1021/acschemneuro.6c00376",
+          "title": "Conditional Mutant MAPT Overexpression in Neural Organoids Elicits Robust Tau Accumulation and Pathological Transcriptomic Responses",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "ACS Chemical Neuroscience",
+          "url": "https://doi.org/10.1021/acschemneuro.6c00376"
+        },
+        {
+          "doi": "10.3389/fnagi.2026.1896908",
+          "title": "Multimodal neuroimaging and electrophysiological signatures in amnestic mild cognitive impairment with different amyloid-β deposition status: correlations with cognitive function and diagnostic value",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Aging Neuroscience",
+          "url": "https://doi.org/10.3389/fnagi.2026.1896908"
+        },
+        {
+          "doi": "10.3389/fpsyg.2026.1908723",
+          "title": "Multimodal art intervention for flourishing in lonely university students: psychological and exploratory neurophysiological outcomes",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1908723"
+        },
+        {
+          "doi": "10.3389/fpsyg.2026.1882582",
+          "title": "A process-oriented interpretation of perfectionism: error, uncertainty, and the principles of organization",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1882582"
+        },
+        {
+          "doi": "10.3389/fnins.2026.1948910",
+          "title": "Multi-region social-emotional network underlying the effects of spine pinching therapy on empathy-like behavior in a rat model of autism spectrum disorder",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Neuroscience",
+          "url": "https://doi.org/10.3389/fnins.2026.1948910"
+        },
+        {
+          "doi": "10.1162/netn.a.612",
+          "title": "Resting-state EEG alpha-BOLD coupling spatially follows cortical transcriptomic gradients of cell types and receptors",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Network Neuroscience",
+          "url": "https://doi.org/10.1162/netn.a.612"
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "label": "농업·작물",
+      "group": "농수·식품",
+      "query": "agriculture crop science",
+      "checked_at": "2026-09-29T07:20:25.411969+00:00",
+      "items": [
+        {
+          "doi": "10.54254/2753-8818/2027.37391",
+          "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+        },
+        {
+          "doi": "10.51878/science.v6i4.15400",
+          "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+          "url": "https://doi.org/10.51878/science.v6i4.15400"
+        },
+        {
+          "doi": "10.54254/2753-8818/2026.37370",
+          "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+        },
+        {
+          "doi": "10.34257/gjhssg257322",
+          "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Global Journal of Human-Social Science",
+          "url": "https://doi.org/10.34257/gjhssg257322"
+        },
+        {
+          "doi": "10.3389/fmars.2026.1872850",
+          "title": "Spatiotemporal monitoring of harmful algal blooms using time-series Sentinel-2 MSI Level-2A imagery: a case study of El-Mex Bay, Alexandria, Egypt",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Marine Science",
+          "url": "https://doi.org/10.3389/fmars.2026.1872850"
+        },
+        {
+          "doi": "10.3389/fmars.2026.1940956",
+          "title": "Digital economy, green innovation, and high-quality development of the marine economy: evidence from China’s coastal regions",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Marine Science",
+          "url": "https://doi.org/10.3389/fmars.2026.1940956"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "식품·영양",
+      "group": "농수·식품",
+      "query": "food science nutrition",
+      "checked_at": "2026-09-29T07:20:26.384584+00:00",
+      "items": [
+        {
+          "doi": "10.54254/2753-8818/2027.37391",
+          "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+        },
+        {
+          "doi": "10.3389/fsufs.2026.1943791",
+          "title": "Enhancing smallholder farmers’ willingness to adopt organic fertilizer in Zhejiang Province, China: a configurational analysis of pathways",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Sustainable Food Systems",
+          "url": "https://doi.org/10.3389/fsufs.2026.1943791"
+        },
+        {
+          "doi": "10.51878/science.v6i4.15400",
+          "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+          "url": "https://doi.org/10.51878/science.v6i4.15400"
+        },
+        {
+          "doi": "10.54254/2753-8818/2026.37370",
+          "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+        },
+        {
+          "doi": "10.3389/fnut.2026.1913449",
+          "title": "Screening for medicine and food homologous ingredients targeting ALDH2 to alleviate acute ethanol-induced liver injury",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Nutrition",
+          "url": "https://doi.org/10.3389/fnut.2026.1913449"
+        },
+        {
+          "doi": "10.34257/gjhssg257322",
+          "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Global Journal of Human-Social Science",
+          "url": "https://doi.org/10.34257/gjhssg257322"
+        }
+      ]
+    },
+    {
+      "id": "forestry",
+      "label": "산림·생태",
+      "group": "농수·식품",
+      "query": "forestry ecology",
+      "checked_at": "2026-09-29T07:20:28.981318+00:00",
+      "items": [
+        {
+          "doi": "10.1016/j.ecoenv.2026.120847",
+          "title": "Microbial filtering and functional reprogramming in soil exposed to spent NCM battery black powder.",
+          "published": "2026-09-26",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Ecotoxicology and environmental safety",
+          "url": "https://doi.org/10.1016/j.ecoenv.2026.120847"
+        },
+        {
+          "doi": "10.1007/s00267-026-02571-5",
+          "title": "Rural Outmigration and its Double-edged Effects on Community Forestry Ecology and Governance.",
+          "published": "2026-08-01",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Environmental management",
+          "url": "https://doi.org/10.1007/s00267-026-02571-5"
+        },
+        {
+          "doi": "10.3390/plants15152355",
+          "title": "Spatial Patterns of Plant Diversity, Biomass Allocation and Vegetation Biomass Carbon Storage in Major Mangrove Forests of Hainan, China.",
+          "published": "2026-07-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Plants (Basel, Switzerland)",
+          "url": "https://doi.org/10.3390/plants15152355"
+        },
+        {
+          "doi": "10.3390/plants15152333",
+          "title": "Endangered and Protected Medicinal Plants in Forest Ecosystems: Diversity, Conservation Status, Therapeutic Potential, and Management Strategies.",
+          "published": "2026-07-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Plants (Basel, Switzerland)",
+          "url": "https://doi.org/10.3390/plants15152333"
+        },
+        {
+          "doi": "10.1371/journal.pone.0354303",
+          "title": "Effects of light qualities on the growth and photosynthetic characteristics of Sorbus tianschanica Rupr. seedlings.",
+          "published": "2026-07-24",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "PloS one",
+          "url": "https://doi.org/10.1371/journal.pone.0354303"
+        },
+        {
+          "doi": "10.1186/s13021-026-00481-x",
+          "title": "Disentangling exogenous and endogenous memory in global vegetation productivity: dominant role and future strengthening of vegetation carryover effects.",
+          "published": "2026-07-13",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Carbon balance and management",
+          "url": "https://doi.org/10.1186/s13021-026-00481-x"
+        },
+        {
+          "doi": "10.1016/j.pld.2026.05.013",
+          "title": "Leaf nutrients regulate phyllosphere microbial dynamics in rubber trees.",
+          "published": "2026-05-30",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Plant diversity",
+          "url": "https://doi.org/10.1016/j.pld.2026.05.013"
+        },
+        {
+          "doi": "10.3897/zookeys.1279.188643",
+          "title": "The hymenopteran parasitoid complex (Hymenoptera, Eurytomidae and Pteromalidae) of the weevil beetle <i>Lixus subtilis</i> Boheman, 1836 (Coleoptera, Curculionidae) in China.",
+          "published": "2026-05-18",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "ZooKeys",
+          "url": "https://doi.org/10.3897/zookeys.1279.188643"
+        }
+      ]
+    },
+    {
+      "id": "veterinary",
+      "label": "수의·축산",
+      "group": "농수·식품",
+      "query": "veterinary animal science",
+      "checked_at": "2026-09-29T07:20:30.051643+00:00",
+      "items": [
+        {
+          "doi": "10.54254/2753-8818/2027.37391",
+          "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+        },
+        {
+          "doi": "10.51878/science.v6i4.15400",
+          "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+          "url": "https://doi.org/10.51878/science.v6i4.15400"
+        },
+        {
+          "doi": "10.54254/2753-8818/2026.37370",
+          "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+        },
+        {
+          "doi": "10.34257/gjhssg257322",
+          "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Global Journal of Human-Social Science",
+          "url": "https://doi.org/10.34257/gjhssg257322"
+        },
+        {
+          "doi": "10.3389/fmars.2026.1872850",
+          "title": "Spatiotemporal monitoring of harmful algal blooms using time-series Sentinel-2 MSI Level-2A imagery: a case study of El-Mex Bay, Alexandria, Egypt",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Marine Science",
+          "url": "https://doi.org/10.3389/fmars.2026.1872850"
+        },
+        {
+          "doi": "10.3389/fmars.2026.1940956",
+          "title": "Digital economy, green innovation, and high-quality development of the marine economy: evidence from China’s coastal regions",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Marine Science",
+          "url": "https://doi.org/10.3389/fmars.2026.1940956"
+        }
+      ]
+    },
+    {
+      "id": "marine",
+      "label": "해양·수산",
+      "group": "농수·식품",
+      "query": "marine science fisheries",
+      "checked_at": "2026-09-29T07:20:31.030390+00:00",
+      "items": [
+        {
+          "doi": "10.54254/2753-8818/2027.37391",
+          "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+        },
+        {
+          "doi": "10.1007/s00367-026-00862-8",
+          "title": "Tidal creek networks as drivers of saltmarsh restoration: a review of biogeomorphic feedbacks",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Geo-Marine Letters",
+          "url": "https://doi.org/10.1007/s00367-026-00862-8"
+        },
+        {
+          "doi": "10.51878/science.v6i4.15400",
+          "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+          "url": "https://doi.org/10.51878/science.v6i4.15400"
+        },
+        {
+          "doi": "10.54254/2753-8818/2026.37370",
+          "title": "Statistical and Machine Learning Methods for Physical Signal Analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2026.37370"
+        },
+        {
+          "doi": "10.34257/gjhssg257322",
+          "title": "Gender-Based Multifaceted Activities and Academic Performance: Lessons Learned from Tertiary Education",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Global Journal of Human-Social Science",
+          "url": "https://doi.org/10.34257/gjhssg257322"
+        },
+        {
+          "doi": "10.3389/fmars.2026.1872850",
+          "title": "Spatiotemporal monitoring of harmful algal blooms using time-series Sentinel-2 MSI Level-2A imagery: a case study of El-Mex Bay, Alexandria, Egypt",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Marine Science",
+          "url": "https://doi.org/10.3389/fmars.2026.1872850"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "경제·금융",
+      "group": "사회과학",
+      "query": "economics finance",
+      "checked_at": "2026-09-29T07:20:32.190445+00:00",
+      "items": [
+        {
+          "doi": "10.54254/2754-1169/2026.bh37431",
+          "title": "I nfluencing F actors in A ttracting and R etaining A udiences for H onor of K ings L ive S treaming on D ouyin",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.bh37431"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.37421",
+          "title": "Value Symbiosis Mechanism and Long-Term Development of Humanistic Consumption Space from the Perspective of Scene Theory",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.37421"
+        },
+        {
+          "doi": "10.59141/jrssem.v6i2.1732",
+          "title": "Marketing Mix Influence on Purchase Decisions and Sales Recovery Strategy of RSV SC Hijab Series",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal Research of Social Science, Economics, and Management",
+          "url": "https://doi.org/10.59141/jrssem.v6i2.1732"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.ld37361",
+          "title": "Research on the Innovation of Enterprise Economic Management Models in the Digital Economy Era",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.ld37361"
+        },
+        {
+          "doi": "10.1108/ejmbe-09-2025-0344",
+          "title": "Aligning values for engagement: how cultural fit shapes employee advocacy",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "European Journal of Management and Business Economics",
+          "url": "https://doi.org/10.1108/ejmbe-09-2025-0344"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.bh37330",
+          "title": "Public Opinion and Audience Perception of Cross-Cultural Sports S tars Endorsements: A Text Mining Study Based on Haaland Endorsement Wang Laoji's Weibo Comment Section",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.bh37330"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.37373",
+          "title": "Does Green Innovation Alleviate or Aggravate Financing Constraints? — Uncovering a Nonlinear Threshold Effect: Evidence from Chinese Listed Firms",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.37373"
+        },
+        {
+          "doi": "10.55862/y18kgp86",
+          "title": "Reconceptualizing Ar-Rahnu as an Integrated Islamic Social Finance Ecosystem for Sustainable Social Enterprise Development: The IPSEFM Model",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Albukhary Social Business Journal",
+          "url": "https://doi.org/10.55862/y18kgp86"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "label": "경영·조직",
+      "group": "사회과학",
+      "query": "business management organization",
+      "checked_at": "2026-09-29T07:20:33.356080+00:00",
+      "items": [
+        {
+          "doi": "10.4102/sajim.v28i1.2171",
+          "title": "Artificial intelligence-enabled e-services for justice system services delivery in Namibia",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "South African journal of information management",
+          "url": "https://doi.org/10.4102/sajim.v28i1.2171"
+        },
+        {
+          "doi": "10.1108/ijchm-05-2026-0803",
+          "title": "Beyond green claims: customer engagement activates green evangelism",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Contemporary Hospitality Management",
+          "url": "https://doi.org/10.1108/ijchm-05-2026-0803"
+        },
+        {
+          "doi": "10.1108/ijopm-12-2025-1293",
+          "title": "Employment protection and firms' reliance on trade credit: international evidence",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Operations & Production Management",
+          "url": "https://doi.org/10.1108/ijopm-12-2025-1293"
+        },
+        {
+          "doi": "10.1108/ijppm-01-2026-0111",
+          "title": "Application of Lean Six Sigma (LSS) methodology in a small-sized company that sells construction materials: a case study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Productivity and Performance Management",
+          "url": "https://doi.org/10.1108/ijppm-01-2026-0111"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.bh37431",
+          "title": "I nfluencing F actors in A ttracting and R etaining A udiences for H onor of K ings L ive S treaming on D ouyin",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.bh37431"
+        },
+        {
+          "doi": "10.59261/bustechno.v7i4.763",
+          "title": "Numerical Study of Coal-Air Mixture Erosion with Vane Addition in Elbow Coal Pipe",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Business, Social and Technology",
+          "url": "https://doi.org/10.59261/bustechno.v7i4.763"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.37421",
+          "title": "Value Symbiosis Mechanism and Long-Term Development of Humanistic Consumption Space from the Perspective of Scene Theory",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.37421"
+        },
+        {
+          "doi": "10.2166/wcc.2026.220",
+          "title": "Hydro-climatic extremes: trends, anomalies and implications for urban water management",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Water and Climate Change",
+          "url": "https://doi.org/10.2166/wcc.2026.220"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "label": "교육·학습",
+      "group": "사회과학",
+      "query": "education learning",
+      "checked_at": "2026-09-29T07:20:34.173061+00:00",
+      "items": [
+        {
+          "doi": "10.1680/jensu.26.00031",
+          "title": "Machine learning for low-carbon concrete strength prediction: methods and trends",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+          "url": "https://doi.org/10.1680/jensu.26.00031"
+        },
+        {
+          "doi": "10.1007/s10566-026-09975-8",
+          "title": "Implementing Social Emotional Learning in Rural Elementary Schools: Feasibility and Preliminary Outcomes from a Pilot Implementation of Sources of Strength",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Child & Youth Care Forum",
+          "url": "https://doi.org/10.1007/s10566-026-09975-8"
+        },
+        {
+          "doi": "10.1038/s41598-026-73245-9",
+          "title": "Evaluating the performance of ensemble learning methods in diabetes disease classification",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-026-73245-9"
+        },
+        {
+          "doi": "10.3389/feduc.2026.1931792",
+          "title": "‘Making sure that people are in a good place is draining, and nobody does that for me’: the pandemic and its ongoing impact on teachers and headteachers",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Education",
+          "url": "https://doi.org/10.3389/feduc.2026.1931792"
+        },
+        {
+          "doi": "10.1007/s10798-026-10130-6",
+          "title": "From conceptual design to 3D modelling: integrating spatial ability, creativity, and technological tools in the architecture curriculum",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Technology and Design Education",
+          "url": "https://doi.org/10.1007/s10798-026-10130-6"
+        },
+        {
+          "doi": "10.61487/jiste.v4i3.325",
+          "title": "The Influence of User Experience, Financial Innovation Capability, and Organizational Learning on the Success of Financial Technology Adoption in Fintech Lending Companies",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Information System, Technology and Engineering",
+          "url": "https://doi.org/10.61487/jiste.v4i3.325"
+        },
+        {
+          "doi": "10.3389/fmed.2026.1938414",
+          "title": "Preoperative risk stratification for postoperative inflammatory–nutritional deterioration after colorectal cancer surgery: an interpretable machine learning study",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Medicine",
+          "url": "https://doi.org/10.3389/fmed.2026.1938414"
+        },
+        {
+          "doi": "10.3847/1538-3881/aea417",
+          "title": "Identifying Planetary Nebulae Candidates from IPHAS and VPHAS+ Surveys via YOLO Deep Learning Models",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "The Astronomical Journal",
+          "url": "https://doi.org/10.3847/1538-3881/aea417"
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "label": "사회·미디어",
+      "group": "사회과학",
+      "query": "sociology communication media",
+      "checked_at": "2026-09-29T07:20:35.010715+00:00",
+      "items": [
+        {
+          "doi": "10.51878/science.v6i4.15400",
+          "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+          "url": "https://doi.org/10.51878/science.v6i4.15400"
+        },
+        {
+          "doi": "10.29121/digisecforensics.v3.i2.2026.121",
+          "title": "A MODULAR GUI FRAMEWORK FOR SOCIAL MEDIA SCRAPING AND FORENSIC ANALYSIS",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Digital Security and Forensics",
+          "url": "https://doi.org/10.29121/digisecforensics.v3.i2.2026.121"
+        },
+        {
+          "doi": "10.3389/fcomm.2026.1862032",
+          "title": "A war of words: Wittgenstein, language games, and the loss of trust in the 21st century",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Communication",
+          "url": "https://doi.org/10.3389/fcomm.2026.1862032"
+        },
+        {
+          "doi": "10.36615/z76fby10",
+          "title": "Investigating Argumentative and Alternative Communication (AAC) Systems as Strategies for Identifying and Advancing Possible Careers for Learners With High-Functioning Autism (HFA) in a Special School Environment",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "African Journal of Neurodiversity",
+          "url": "https://doi.org/10.36615/z76fby10"
+        },
+        {
+          "doi": "10.17148/ijarcce.2026.15942",
+          "title": "Data-Driven Approach for Crop Yield Prediction Using Machine Learning Techniques",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "IJARCCE",
+          "url": "https://doi.org/10.17148/ijarcce.2026.15942"
+        },
+        {
+          "doi": "10.54254/2753-7064/2026.37327",
+          "title": "Same Event, Different Worlds: How Platform Mindsets Produce Divergent Meanings and Digital Identities in Social Media Publics",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Communications in Humanities Research",
+          "url": "https://doi.org/10.54254/2753-7064/2026.37327"
+        },
+        {
+          "doi": "10.54254/2755-2721/2027.melb37388",
+          "title": "A Survey on Resource Scheduling and Optimization for Space‑Air‑Ground Integrated Communication‑Sensing‑Computation Networks",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Applied and Computational Engineering",
+          "url": "https://doi.org/10.54254/2755-2721/2027.melb37388"
+        },
+        {
+          "doi": "10.1108/ijoa-11-2025-6152",
+          "title": "From fans to stakeholders: a conceptual analysis of social media and organisational practice in Latin American sport",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Organizational Analysis",
+          "url": "https://doi.org/10.1108/ijoa-11-2025-6152"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "label": "법·정치·행정",
+      "group": "사회과학",
+      "query": "law political science public administration",
+      "checked_at": "2026-09-29T07:20:35.903804+00:00",
+      "items": [
+        {
+          "doi": "10.54254/2754-1169/2026.bh37431",
+          "title": "I nfluencing F actors in A ttracting and R etaining A udiences for H onor of K ings L ive S treaming on D ouyin",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.bh37431"
+        },
+        {
+          "doi": "10.54254/2753-8818/2027.37391",
+          "title": "Monoclonal Antibody-Based Cancer Therapy: From Mechanistic Insights to Clinical Practice",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2027.37391"
+        },
+        {
+          "doi": "10.36695/2219-5521.2.2026.13",
+          "title": "ОБМЕЖЕННЯ ІНФОРМАЦІЙНОЇ СВОБОДИ СУСПІЛЬСТВА ЯК ОЗНАКА ІНФОРМАЦІЙНОЇ АВТОКРАТІЇ",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Law Review of Kyiv University of Law",
+          "url": "https://doi.org/10.36695/2219-5521.2.2026.13"
+        },
+        {
+          "doi": "10.54254/2754-1169/2026.37421",
+          "title": "Value Symbiosis Mechanism and Long-Term Development of Humanistic Consumption Space from the Perspective of Scene Theory",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Advances in Economics, Management and Political Sciences",
+          "url": "https://doi.org/10.54254/2754-1169/2026.37421"
+        },
+        {
+          "doi": "10.51878/science.v6i4.15400",
+          "title": "PENERAPAN MEDIA MONOPOLI DALAM PEMBELAJARAN IPAS UNTUK MENINGKATKAN HASIL BELAJAR SISWA KELAS V DI UPTD SD NEGERI 075019 DAHANA TABALOHO",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "SCIENCE : Jurnal Inovasi Pendidikan Matematika dan IPA",
+          "url": "https://doi.org/10.51878/science.v6i4.15400"
+        },
+        {
+          "doi": "10.3389/fpubh.2026.1965897",
+          "title": "Building recovery capital: co-creating an assets-based community engagement toolkit for people accessing drug and alcohol treatment services",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Frontiers in Public Health",
+          "url": "https://doi.org/10.3389/fpubh.2026.1965897"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "역사·고고학",
+      "group": "인문·예술",
+      "query": "history archaeology",
+      "checked_at": "2026-09-29T07:20:37.096872+00:00",
+      "items": [
+        {
+          "doi": "10.1017/jch.2026.10124",
+          "title": "Convict Politics: From Utopia to Serfdom in Early China (221 BCE–23 CE). By Liang Cai. Cambridge: Cambridge University Press, 2026. xvi + 427 pp. $145 (hardback), $145 (digital).",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Chinese History",
+          "url": "https://doi.org/10.1017/jch.2026.10124"
+        },
+        {
+          "doi": "10.7227/jbr.12.20",
+          "title": "James Baldwinism Now",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "James Baldwin Review",
+          "url": "https://doi.org/10.7227/jbr.12.20"
+        },
+        {
+          "doi": "10.1017/jch.2026.10139",
+          "title": "The Many Faces of Anonymity: Portraitists of the Canton. By Winnie Wong. Chicago: University of Chicago Press, 2026. 288 pp. $50.00 (cloth), $54.99 (eBook), $54.55 (PDF), $12.50 (eBook, 45 days), $12.50 (PDF, 45 days).",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Chinese History",
+          "url": "https://doi.org/10.1017/jch.2026.10139"
+        },
+        {
+          "doi": "10.1017/jch.2026.10133",
+          "title": "Venice and the Mongols: The Eurasian Exchange that Transformed the Medieval World. By Nicola Di Cosmo & Lorenzo Pubblici. Princeton: Princeton University Press, 2026. 368 pp. $35.00/£30.00 (cloth, eBook)",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Chinese History",
+          "url": "https://doi.org/10.1017/jch.2026.10133"
+        },
+        {
+          "doi": "10.1017/jch.2026.10123",
+          "title": "Biographical Traditions in Early Modern East Asia, 1500–1900. Edited by Ihor Pidhainy and Ann Waltner. Cham, Switzerland: Palgrave Macmillan, 2025. 156 pp. $139.99 (cloth), $109 (eBook).",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Chinese History",
+          "url": "https://doi.org/10.1017/jch.2026.10123"
+        },
+        {
+          "doi": "10.1017/s1047759426100919",
+          "title": "Gemma Jansen, Ann Olga Koloski-Ostrow, and Richard Neudecker, eds. Sixty-Six Toilets and Urinals in the Ancient City of Rome: Sanitary, Urbanistic, and Social Agency. Peeters Publishers, 2024. https://doi.org/10.2307/jj.24900056.",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Roman Archaeology",
+          "url": "https://doi.org/10.1017/s1047759426100919"
+        },
+        {
+          "doi": "10.1017/mdh.2026.10081",
+          "title": "Burton Cleetus and Anne Gerritsen (eds), Histories of Health and Materiality in the Indian Ocean World: Medicine, Material Culture, and Trade, 1600–2000 (Bloomsbury: 2023). pp. 320, $108, ISBN 9781350195882.",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Medical History",
+          "url": "https://doi.org/10.1017/mdh.2026.10081"
+        },
+        {
+          "doi": "10.54254/2753-8818/2026.37326",
+          "title": "Clinical and Lifestyle Factors Associated with Breast Cancer History: A Cross-Sectional Analysis Using NHANES Data",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Theoretical and Natural Science",
+          "url": "https://doi.org/10.54254/2753-8818/2026.37326"
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "label": "언어·문학",
+      "group": "인문·예술",
+      "query": "linguistics literature",
+      "checked_at": "2026-09-29T07:20:38.485412+00:00",
+      "items": [
+        {
+          "doi": "10.17576/3l-2026-3203-16",
+          "title": "The Multimodality of Neoliberalism in Local and Global ELT Textbooks: A Systematic Literature Review",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "3L The Southeast Asian Journal of English Language Studies",
+          "url": "https://doi.org/10.17576/3l-2026-3203-16"
+        },
+        {
+          "doi": "10.1017/s136067432610094x",
+          "title": "Investigating the metalanguage of English: texts, corpora and models",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "English Language and Linguistics",
+          "url": "https://doi.org/10.1017/s136067432610094x"
+        },
+        {
+          "doi": "10.15688/jvolsu2.2026.3.11",
+          "title": "THE SCIENTIFIC HERITAGE OF PROFESSOR D.A. SUSEEVA AND ITS SIGNIFICANCE FOR MODERN LINGUISTICS",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Vestnik Volgogradskogo gosudarstvennogo universiteta. Serija 2. Jazykoznanije",
+          "url": "https://doi.org/10.15688/jvolsu2.2026.3.11"
+        },
+        {
+          "doi": "10.1007/s10755-026-09958-6",
+          "title": "Enhancing Undergraduate Literacy in STEM Contexts: A Systematic Literature Review of Interventions",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Innovative Higher Education",
+          "url": "https://doi.org/10.1007/s10755-026-09958-6"
+        },
+        {
+          "doi": "10.1017/s1360674326100914",
+          "title": "Interjections in Early Modern English grammars: balancing tradition, innovation and metalinguistic awareness",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "English Language and Linguistics",
+          "url": "https://doi.org/10.1017/s1360674326100914"
+        },
+        {
+          "doi": "10.1108/jsm-10-2025-0768",
+          "title": "Circular design strategies in the post-consumption journey: a systematic literature review of service design for circular fashion SMEs",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Services Marketing",
+          "url": "https://doi.org/10.1108/jsm-10-2025-0768"
+        },
+        {
+          "doi": "10.54254/2753-7048/2026.37410",
+          "title": "Advances in Research on the Effectiveness of Artificial Intelligence-Based Cognitive Behavioral Therapy Chatbots for Alleviating Anxiety and Depression Symptoms: A Literature Review",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Lecture Notes in Education Psychology and Public Media",
+          "url": "https://doi.org/10.54254/2753-7048/2026.37410"
+        },
+        {
+          "doi": "10.1017/s1360674326100859",
+          "title": "Exploring the MetaLing Corpus : spelling variation and discourse in Early Modern English texts on language",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "English Language and Linguistics",
+          "url": "https://doi.org/10.1017/s1360674326100859"
+        }
+      ]
+    },
+    {
+      "id": "philosophy",
+      "label": "철학·윤리",
+      "group": "인문·예술",
+      "query": "philosophy ethics",
+      "checked_at": "2026-09-29T07:20:39.567468+00:00",
+      "items": [
+        {
+          "doi": "10.1108/jced-01-2026-0003",
+          "title": "Educating character across differences: a cross-case synthesis of virtue ethics in higher education",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Character Education",
+          "url": "https://doi.org/10.1108/jced-01-2026-0003"
+        },
+        {
+          "doi": "10.1017/s0075426926100688",
+          "title": "(D.) YATROMANOLAKIS (ed.) Archaic Ontological Past: Pre-Socratic Philosophy and European Avant-Garde Art and Thought. Athens: Eurasia Publications, 2022. Pp. 178. €18. 9786185439.",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "The Journal of Hellenic Studies",
+          "url": "https://doi.org/10.1017/s0075426926100688"
+        },
+        {
+          "doi": "10.36713/epra29062",
+          "title": "THE ROLE OF ETHICS IN CRIMINAL JUSTICE EDUCATION: PREPARING STUDENTS FOR THE MORAL CHALLENGES OF LAW ENFORCEMENT",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "EPRA International Journal of Multidisciplinary Research (IJMR)",
+          "url": "https://doi.org/10.36713/epra29062"
+        },
+        {
+          "doi": "10.31123/ajcs.1989163",
+          "title": "Beyond The Empathy Machine: Embodiment, Representation Ethics and Empathic Effect in VR",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Akdeniz Journal of Communication Studies",
+          "url": "https://doi.org/10.31123/ajcs.1989163"
+        },
+        {
+          "doi": "10.1108/ijoes-04-2026-0297",
+          "title": "When the algorithm decides: moral legitimacy, ethical bank managers, and the restorative power of territorial embeddedness",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "International Journal of Ethics and Systems",
+          "url": "https://doi.org/10.1108/ijoes-04-2026-0297"
+        },
+        {
+          "doi": "10.1017/jme.2026.10291",
+          "title": "The Henrietta Lacks Case: Ongoing Litigation Seeks Closure",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Journal of Law, Medicine & Ethics",
+          "url": "https://doi.org/10.1017/jme.2026.10291"
+        },
+        {
+          "doi": "10.51891/rease.v12i9.30625",
+          "title": "<b>ÉTICA NO CONTEXTO DA ROBÓTICA: DOS FUNDAMENTOS BIOÉTICOS E NORMATIVOS À GOVERNANÇA DOS SISTEMAS AUTÓNOMOS</b>",
+          "published": "2026-09-28",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+          "url": "https://doi.org/10.51891/rease.v12i9.30625"
+        },
+        {
+          "doi": "10.1186/s12909-026-10441-1",
+          "title": "Multi country training to strengthen leadership among administrative staff of research ethics committees and national regulatory bodies in the East African Community",
+          "published": "2026-09-28",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "BMC Medical Education",
+          "url": "https://doi.org/10.1186/s12909-026-10441-1"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "label": "종교·문화",
+      "group": "인문·예술",
+      "query": "religion cultural studies",
+      "checked_at": "2026-09-29T07:20:40.468835+00:00",
+      "items": [
+        {
+          "doi": "10.17576/3l-2026-3203-11",
+          "title": "Reconceptualising Marriage: Adaptation and Diasporic Identity in Pride and Prejudice and Sofia Khan is Not Obliged",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "3L The Southeast Asian Journal of English Language Studies",
+          "url": "https://doi.org/10.17576/3l-2026-3203-11"
+        },
+        {
+          "doi": "10.17576/3l-2026-3203-16",
+          "title": "The Multimodality of Neoliberalism in Local and Global ELT Textbooks: A Systematic Literature Review",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "3L The Southeast Asian Journal of English Language Studies",
+          "url": "https://doi.org/10.17576/3l-2026-3203-16"
+        },
+        {
+          "doi": "10.17576/3l-2026-3203-09",
+          "title": "Linguistic Landscapes and Cultural Inclusivity: Examining Identity Negotiation in Arab Diasporic Tourism Spaces in Puncak, Indonesia",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "3L The Southeast Asian Journal of English Language Studies",
+          "url": "https://doi.org/10.17576/3l-2026-3203-09"
+        },
+        {
+          "doi": "10.17576/3l-2026-3203-18",
+          "title": "Adversative, Benefactive and Neutral Readings in BE- and GET-Passive Constructions: A Minimalist Analysis",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "3L The Southeast Asian Journal of English Language Studies",
+          "url": "https://doi.org/10.17576/3l-2026-3203-18"
+        },
+        {
+          "doi": "10.61784/wjes3210",
+          "title": "THE CONSTRUCTION OF AN EVALUATION SYSTEM FOR ENGINEERING PRACTICE ABILITY OF OUTSTANDING ENGINEERS FROM THE PERSPECTIVE OF SCHOOL-ENTERPRISE COLLABORATION",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "World Journal of Educational Studies",
+          "url": "https://doi.org/10.61784/wjes3210"
+        },
+        {
+          "doi": "10.1108/eemcs-07-2025-0409",
+          "title": "ITC Limited: a sustainable investment decision",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Emerald Emerging Markets Case Studies",
+          "url": "https://doi.org/10.1108/eemcs-07-2025-0409"
+        },
+        {
+          "doi": "10.17576/3l-2026-3203-24",
+          "title": "Ecofeminist Spirituality in Carole Lindstrom and Michaela Goade’s We Are Water Protectors",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "3L The Southeast Asian Journal of English Language Studies",
+          "url": "https://doi.org/10.17576/3l-2026-3203-24"
+        },
+        {
+          "doi": "10.1108/ejmbe-09-2025-0344",
+          "title": "Aligning values for engagement: how cultural fit shapes employee advocacy",
+          "published": "2026-09-29",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "European Journal of Management and Business Economics",
+          "url": "https://doi.org/10.1108/ejmbe-09-2025-0344"
+        }
+      ]
+    },
+    {
+      "id": "arts",
+      "label": "예술·디자인·음악",
+      "group": "인문·예술",
+      "query": "arts design music",
+      "checked_at": "2026-09-29T07:20:42.963882+00:00",
+      "items": [
+        {
+          "doi": "10.1080/01616846.2026.2700934",
+          "title": "Development, Implementation, and Evaluation of a Proof of Concept, Food- and Nutrition-Focused Science Education Program for Youth in Public Libraries.",
+          "published": "2026-07-15",
+          "registered_at": null,
+          "citations": 0,
+          "journal": "Public library quarterly (New York, N.Y.)",
+          "url": "https://doi.org/10.1080/01616846.2026.2700934"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "mit",
+      "source": "MIT News · 연구",
+      "as_of": "2026-09-29T07:20:43.218207+00:00",
+      "articles": [
+        {
+          "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+          "link": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+          "published": "2026-09-29T04:00:00+00:00"
+        },
+        {
+          "title": "The effects of an “algorithmic monoculture” depend on the details",
+          "link": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+          "published": "2026-09-29T04:00:00+00:00"
+        },
+        {
+          "title": "Who we become when we talk to machines",
+          "link": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+          "published": "2026-09-29T04:00:00+00:00"
+        },
+        {
+          "title": "Pressurized experiments could help wind farms generate more power",
+          "link": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928",
+          "published": "2026-09-28T15:00:00+00:00"
+        },
+        {
+          "title": "New formulation helps RNA vaccines withstand high temperatures",
+          "link": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+          "published": "2026-09-28T09:00:00+00:00"
+        },
+        {
+          "title": "A new technique could accelerate the development of RNA therapies",
+          "link": "https://news.mit.edu/2026/new-technique-could-accelerate-development-rna-therapies-0925",
+          "published": "2026-09-25T17:25:00+00:00"
+        },
+        {
+          "title": "Biologists identify a cellular pathway that allows colorectal cancer to metastasize",
+          "link": "https://news.mit.edu/2026/biologists-identify-cellular-pathway-allows-colorectal-cancer-metastasize-0924",
+          "published": "2026-09-24T18:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "kaist",
+      "source": "KAIST · 뉴스",
+      "as_of": "2026-09-29T07:20:45.386332+00:00",
+      "articles": [
+        {
+          "title": "움직임의 흐름 읽는 AI 반도체 개발…웨어러블 기기 활용 기대",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67670",
+          "published": "2026-09-29"
+        },
+        {
+          "title": "대장균·효모 함께 쓰는 유전자 조절 장치 개발…원하는 물질 만들 미생물 찾는 길 열어",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67590",
+          "published": "2026-09-28"
+        },
+        {
+          "title": "“다른 의견 내도 괜찮다”…안정적 소속감이 더 나은 결정",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67570",
+          "published": "2026-09-28"
+        },
+        {
+          "title": "세계 최초 ‘로봇 풀코스 마라톤’ 완주, 네이처 본지에 실렸다",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67550",
+          "published": "2026-09-28"
+        },
+        {
+          "title": "세포에 ‘한 번의 자극’…원하는 운명으로 바꾸는 길 찾았다",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67510",
+          "published": "2026-09-23"
+        },
+        {
+          "title": "KAIST, 국내 최초 범용인공지능(AGI) 연구소 출범",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67430",
+          "published": "2026-09-22"
+        },
+        {
+          "title": "전기차 배터리 더 작고 가볍게…구리판 바꿔 ‘무음극 전지’ 수명 늘린다",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67411",
+          "published": "2026-09-22"
+        },
+        {
+          "title": "신임 이사장에 권오현 前 삼성전자 대표이사 회장 선임",
+          "link": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=67390",
+          "published": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "harvard",
+      "source": "Harvard Gazette · 과학·기술",
+      "as_of": "2026-09-29T07:20:46.032733+00:00",
+      "articles": [
+        {
+          "title": "How Harvard scientists built genomics outpost on Gloucester harbor",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/how-harvard-scientists-built-genomics-outpost-on-gloucester-harbor/",
+          "published": "2026-09-25T20:41:06+00:00"
+        },
+        {
+          "title": "Taming the Duck, for starters",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/taming-the-duck-for-starters/",
+          "published": "2026-09-25T19:15:41+00:00"
+        },
+        {
+          "title": "‘Lately, my algorithm is trash’",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/lately-my-algorithm-is-trash/",
+          "published": "2026-09-23T20:55:44+00:00"
+        },
+        {
+          "title": "Curios and curiouser",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/curios-and-curiouser/",
+          "published": "2026-09-23T19:23:00+00:00"
+        },
+        {
+          "title": "One effort to safeguard humanity: AI ‘constitutions’",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/one-effort-to-safeguard-humanity-ai-constitutions/",
+          "published": "2026-09-21T21:01:56+00:00"
+        },
+        {
+          "title": "Chatbot attachment issues",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/chatbot-attachment-issues/",
+          "published": "2026-09-18T15:05:25+00:00"
+        },
+        {
+          "title": "Is there a philosopher in the house?",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/is-there-a-philosopher-in-the-house/",
+          "published": "2026-09-15T20:53:53+00:00"
+        },
+        {
+          "title": "Can you tell an amorphophallus from an aspergillus?",
+          "link": "https://news.harvard.edu/gazette/story/2026/09/can-you-tell-an-amorphophallus-from-an-aspergillus/",
+          "published": "2026-09-15T20:10:40+00:00"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "nasa_cmr": {
+      "status": "OK",
+      "checked_at": "2026-09-30T13:49:11.748328+00:00",
+      "items": [
+        {
+          "id": null,
+          "title": "NASA MEASURES Precipitation Ensemble based on GMI GPM NASA PPS L1C V05 Tbs 1-orbit L2 Swath 10x10km V1 (PRECIP_GMI_GPM)",
+          "url": "https://search.earthdata.nasa.gov/search?q=C2368306937-GES_DISC",
+          "temporal": "2014-03-04T17:59:33.000Z / 2021-01-01T01:31:33.000Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "GPM DPR Precipitation Profile L2A 1.5 hours 5 km V07 (GPM_2ADPR)",
+          "url": "https://search.earthdata.nasa.gov/search?q=C2179081499-GES_DISC",
+          "temporal": "2014-03-08T00:00:00.000Z / 2026-03-01T23:59:59.999Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "GPM DPR Ku Precipitation Profile 2A 1.5 hours 5 km V07 (GPM_2AKu)",
+          "url": "https://search.earthdata.nasa.gov/search?q=C2179081538-GES_DISC",
+          "temporal": "2014-03-08T00:00:00.000Z / 2026-03-01T23:59:59.999Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "GPM DPR Ka Precipitation Profile 2A 1.5 hours 5 km V07 (GPM_2AKa)",
+          "url": "https://search.earthdata.nasa.gov/search?q=C2179081525-GES_DISC",
+          "temporal": "2014-03-08T00:00:00.000Z / 2026-03-01T23:59:59.999Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "GPM DPR and GMI Combined Precipitation L2B 1.5 hours 5 km V07 (GPM_2BCMB)",
+          "url": "https://search.earthdata.nasa.gov/search?q=C2179081553-GES_DISC",
+          "temporal": "2014-03-08T00:00:00.000Z / 2026-03-01T23:59:59.999Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        }
+      ]
+    },
+    "world_bank": {
+      "status": "OK",
+      "checked_at": "2026-09-30T13:49:12.791917+00:00",
+      "items": [
+        {
+          "id": null,
+          "title": "Population, total",
+          "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KR",
+          "temporal": "2025",
+          "value": 51684564,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Population, total",
+          "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KR",
+          "temporal": "2024",
+          "value": 51751065,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Population, total",
+          "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KR",
+          "temporal": "2023",
+          "value": 51712619,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Population, total",
+          "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KR",
+          "temporal": "2022",
+          "value": 51672569,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Population, total",
+          "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KR",
+          "temporal": "2021",
+          "value": 51769539,
+          "unit": null,
+          "data_kind": null
+        }
+      ]
+    },
+    "usgs": {
+      "status": "EMPTY",
+      "checked_at": "2026-09-30T13:49:13.416799+00:00",
+      "items": []
+    },
+    "datacite": {
+      "status": "OK",
+      "checked_at": "2026-09-30T13:49:14.395140+00:00",
+      "items": [
+        {
+          "id": null,
+          "title": "Semi-structured interviews on Opportunities, Threats and Responsabilities to policies for the potential expansion of agroecology across Europe",
+          "url": "https://doi.org/10.5281/zenodo.23059407",
+          "temporal": "2026",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Semi-structured interviews on Opportunities, Threats and Responsabilities to policies for the potential expansion of agroecology across Europe",
+          "url": "https://doi.org/10.5281/zenodo.23059406",
+          "temporal": "2026",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "A new species of Lygistorrhina (Lygistorrhina) Skuse, 1890 (Diptera: Keroplatidae, Lygistorrhininae) with a key to the subgenus",
+          "url": "https://doi.org/10.15468/4fuy2f",
+          "temporal": "2023",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Reproduction of Zingel asper (Linnaeus, 1758) in controlled conditions: an assessment of the experiences realized since 2005 at the Besançon Natural History Museum",
+          "url": "https://doi.org/10.15468/28p9fj",
+          "temporal": "2019",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "Brassicaceae richness in Anatolia",
+          "url": "https://doi.org/10.5281/zenodo.17867065",
+          "temporal": "2025",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        }
+      ]
+    },
+    "earth_search": {
+      "status": "OK",
+      "checked_at": "2026-09-30T13:49:17.143964+00:00",
+      "items": [
+        {
+          "id": null,
+          "title": "S2C_52SBB_20260930_0_L2A",
+          "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_52SBB_20260930_0_L2A",
+          "temporal": "2026-09-30T02:18:35.407000Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "S2C_52SCB_20260930_0_L2A",
+          "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_52SCB_20260930_0_L2A",
+          "temporal": "2026-09-30T02:18:29.719000Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "S2C_52SDB_20260930_0_L2A",
+          "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_52SDB_20260930_0_L2A",
+          "temporal": "2026-09-30T02:18:26.225000Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "S2C_52SEB_20260930_0_L2A",
+          "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_52SEB_20260930_0_L2A",
+          "temporal": "2026-09-30T02:18:22.176000Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        },
+        {
+          "id": null,
+          "title": "S2C_52SCC_20260930_0_L2A",
+          "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_52SCC_20260930_0_L2A",
+          "temporal": "2026-09-30T02:18:15.185000Z",
+          "value": null,
+          "unit": null,
+          "data_kind": null
+        }
+      ]
+    }
+  },
+  "safety_filtered_at_kst": "2026-10-01T00:02:38.412333+09:00",
+  "safety_omissions": [
+    {
+      "path": "news[0].articles",
+      "removed_records": 1
+    }
+  ]
+}

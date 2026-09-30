@@ -1,0 +1,356 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="adma72743" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Mater</journal-id><journal-id journal-id-type="iso-abbrev">Adv Mater</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9885358</journal-id><journal-id journal-id-type="publisher-id">ADMA</journal-id><journal-title-group><journal-title>Advanced Materials (Deerfield Beach, Fla.)</journal-title></journal-title-group><issn pub-type="ppub">0935-9648</issn><issn pub-type="epub">1521-4095</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13054107</article-id><article-id pub-id-type="pmcid-ver">PMC13054107.1</article-id><article-id pub-id-type="pmcaid">13054107</article-id><article-id pub-id-type="pmcaiid">13054107</article-id><article-id pub-id-type="pmid">41814953</article-id><article-id pub-id-type="doi">10.1002/adma.202509132</article-id><article-id pub-id-type="publisher-id">ADMA72743</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Text Mining of CVD Synthesis Recipes for 2D Materials</article-title></title-group><contrib-group><contrib id="adma72743-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Lu</surname><given-names initials="AY">Ang‐Yu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4031-0156</contrib-id><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="adma72743-cr-0002" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="RA">Richard A.</given-names></name><xref rid="adma72743-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="adma72743-cr-0003" contrib-type="author"><name name-style="western"><surname>Yao</surname><given-names initials="A">Aijia</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0004" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="MC">Meng‐Chi</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0005" contrib-type="author"><name name-style="western"><surname>Park</surname><given-names initials="JH">Ji‐Hoon</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0006" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="T">Tianyi</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0007" contrib-type="author"><name name-style="western"><surname>Zheng</surname><given-names initials="X">Xudong</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0008" contrib-type="author"><name name-style="western"><surname>Mao</surname><given-names initials="N">Nannan</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0009" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="J">Jiangtao</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0010" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Z">Zhien</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="adma72743-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="adma72743-cr-0011" contrib-type="author"><name name-style="western"><surname>Palacios</surname><given-names initials="T">Tomás</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="adma72743-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Kong</surname><given-names initials="J">Jing</given-names></name><xref rid="adma72743-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib></contrib-group><aff id="adma72743-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Electrical Engineering and Computer Science</named-content>
+<institution>Massachusetts Institute of Technology</institution>
+<city>Cambridge</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="adma72743-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Civil and Environmental Engineering</named-content>
+<institution>Massachusetts Institute of Technology</institution>
+<city>Cambridge</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="adma72743-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Materials Science and Engineering</named-content>
+<institution>Massachusetts Institute of Technology</institution>
+<city>Cambridge</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><pub-date pub-type="epub"><day>12</day><month>3</month><year>2026</year></pub-date><pub-date pub-type="ppub"><day>07</day><month>4</month><year>2026</year></pub-date><volume>38</volume><issue seq="260">20</issue><issue-id pub-id-type="pmc-issue-id">511088</issue-id><issue-id pub-id-type="doi">10.1002/adma.v38.20</issue-id><elocation-id>e09132</elocation-id><history>
+<date date-type="rev-recd"><day>27</day><month>2</month><year>2026</year></date>
+<date date-type="received"><day>14</day><month>5</month><year>2025</year></date>
+<date date-type="accepted"><day>27</day><month>2</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>07</day><month>04</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>08</day><month>04</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-04-08 00:25:12.557"><day>08</day><month>04</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Advanced Materials</italic> published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ADMA-38-e09132.pdf"><?pdf-name ADMA-38-e09132.pdf?><?pdf-size 2111857?><?pdf-md5 0a007fe2e9a5686ada2477726d1c5f54?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:20c9/13054107/0a007fe2e9a5/ADMA-38-e09132.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ADMA-38-e09132.pdf"/><abstract><title>ABSTRACT</title><p>A vast amount of scientific knowledge is embedded in journal articles as unstructured text, creating challenges for efficiently extracting detailed insights. Traditionally, expert‐authored reviews summarize research progress, but they often struggle to capture the intricate synthesis protocols in individual papers and provide limited quantitative comparisons of experimental techniques. Recent advancements in machine learning, particularly natural language processing (NLP), have enabled automated text mining and information extraction. However, in materials science, most approaches have focused on refining model architectures rather than addressing domain‐specific challenges such as data annotation and the extraction of complex synthesis details. We present a machine learning framework for extracting synthesis protocols of 2D materials, including graphene and TMDs, from publications spanning 1980–2022. By combining named entity recognition (NER) and extractive question answering (EQA), we retrieve both categorical and numerical synthesis parameters. Generative models are further used to summarize and generate experimental recipes, enabling knowledge transfer across material systems. Our domain‐specific, fine‐tuned models offer improved precision and interpretability compared to general‐purpose approaches. This scalable framework helps unlock hidden insights from literature, supporting data‐driven synthesis optimization and accelerating materials discovery.</p></abstract><abstract id="adma72743-abs-0001" abstract-type="graphical"><p>A lightweight, multi‐stage natural language processing framework utilizes fine‐tuned BERT models to extract chemical vapor deposition synthesis knowledge from diverse 2D materials literature. The domain‐adapted workflow integrates classification, named entity recognition, and extractive question answering to systematically retrieve categorical and numerical synthesis parameters. Generative models further summarize experimental recipes, enabling transparent, large‐scale mining and fostering cross‐material insights in materials science.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ADMA-38-e09132-g005.jpg"><?image-name ADMA-38-e09132-g005.jpg?><?image-size 10405?><?image-md5 288d45a7aefcd4ad70b75f9153c42c60?><?image-image-server-status NEVER_LOAD?><?image-original-height 84?><?image-original-width 180?><?image-scaled-height 84?><?image-scaled-width 180?><?image-cloudpmc-urn urn:cdn:blobs/20c9/13054107/288d45a7aefc/ADMA-38-e09132-g005.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="adma72743-kwd-0001">2D materials</kwd><kwd id="adma72743-kwd-0002">chemical vapor deposition</kwd><kwd id="adma72743-kwd-0003">machine learning</kwd><kwd id="adma72743-kwd-0004">natural language processing</kwd><kwd id="adma72743-kwd-0005">text mining</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Semiconductor Research Corporation</institution><institution-id institution-id-type="doi">10.13039/100000028</institution-id></institution-wrap>
+</funding-source><award-id>145105‐21913</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="8"/><word-count count="4812"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>7 April 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.3 mode:remove_FC converted:07.04.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="adma72743-sec-0010"><label>1</label><title>Introduction</title><p>2D materials, such as graphene and transition metal dichalcogenides (TMDs), have garnered significant attention in recent years due to their unique physical, electronic, and optical properties. These materials offer exceptional potential for applications in nanoelectronics, optoelectronics, and energy storage. Among the various synthesis techniques, chemical vapor deposition (CVD) has emerged as a key method for fabricating high‐quality, large‐area 2D materials, enabling precise control over their properties. However, challenges remain in controlling factors such as layer thickness and minimizing defects, which are critical for the performance and scalability of devices based on 2D materials.</p><p>Machine learning is accelerating discovery and synthesis optimization in 2D materials, especially through integration with high‐throughput experiments and computational modeling. Recent deep learning pipelines for automated 2D material identification [<xref rid="adma72743-bib-0001" ref-type="bibr">1</xref>] exemplify ML's potential for efficient characterization, paving the way for more scalable, data‐driven research.</p><p>The amount of research in 2D materials and volume of published literature has exploded, making it difficult to manually track and extract valuable synthesis details. Traditionally, 2D materials research progress has been comparatively summarized through expert‐authored review articles, but this approach is often limited in scope, especially when it comes to extracting detailed experimental protocols and quantitatively comparing synthesis techniques. In this context, advancements in machine learning, particularly natural language processing (NLP), offer an opportunity to automate the extraction of scientific knowledge from unstructured text.</p><p>Efforts to develop machine learning models [<xref rid="adma72743-bib-0002" ref-type="bibr">2</xref>, <xref rid="adma72743-bib-0003" ref-type="bibr">3</xref>] for extracting information from scientific literature have primarily focused on either word‐embedding methods or context‐aware models. Word‐embedding techniques, such as bag‐of‐words [<xref rid="adma72743-bib-0004" ref-type="bibr">4</xref>] and Latent Dirichlet Allocation (LDA) [<xref rid="adma72743-bib-0005" ref-type="bibr">5</xref>], are unsupervised methods that identify relationships between terms and group them into topics. While these models are computationally efficient, they struggle to capture long‐range dependencies and provide a limited view of the full context of research articles [<xref rid="adma72743-bib-0006" ref-type="bibr">6</xref>].</p><p>On the other hand, supervised context‐aware models, such as recurrent neural networks (RNNs) and transformers like BERT (bidirectional encoder representations from transformers) [<xref rid="adma72743-bib-0007" ref-type="bibr">7</xref>], have demonstrated superior performance in extracting structured information, such as synthesis recipes from scientific publications. Transformer‐based large language models (LLMs), including more recent variants like GPT [<xref rid="adma72743-bib-0008" ref-type="bibr">8</xref>], Gemini [<xref rid="adma72743-bib-0009" ref-type="bibr">9</xref>], and Llama [<xref rid="adma72743-bib-0010" ref-type="bibr">10</xref>] are highly capable of understanding comprehensive information. However, LLMs require substantial computational resources, large datasets, and high‐quality annotations from domain experts, making them time‐consuming and resource‐intensive to train and utilize for predictions. Moreover, current models often focus on extracting general material knowledge, without delving into the underlying physical mechanisms, which limits their applicability.</p><p>In this work, we utilize lightweight pre‐trained models like BERT to efficiently extract synthesis knowledge for 2D materials, including graphene and transition metal dichalcogenides (TMDs), from scientific literature. BERT's lightweight size is demonstrated by its model size of 110 M parameters, compared to typical LLM model sizes of several billion parameters. BERT's computational efficiency, accessible last layer hidden state outputs, and ease of fine‐tuning with smaller datasets make it well‐suited for tasks such as classification, named entity recognition (NER), and extractive question‐answering (EQA). We leverage these strengths and fine‐tune separate BERT models for classification of synthesis results from abstracts, named entity recognition (NER) for extracting all mentions of categorical and numerical entities, and extractive question answering (EQA) for extracting recipe categorical and numerical data, providing more precise and comprehensive information than NER alone. The stepwise nature of our framework allows us to independently inspect model outputs after each step and mitigate model prediction errors through further finetuning or rule‐based corrections, in contrast to the low interpretability and risk of hallucination of LLMs [<xref rid="adma72743-bib-0011" ref-type="bibr">11</xref>].</p><p>Beyond these tasks, we apply GPT‐Neo as the generative model for summarization and prompting, synthesizing experimental recipes by aggregating and analyzing data from multiple documents. This approach enables us to identify recurring patterns and relationships in synthesis protocols across different materials and time periods. Our framework, using classification, NER, and EQA models, effectively extracts both categorical and numerical data from 2D material synthesis publications, tracing synthesis trajectories and enabling comparisons between methods. Generative models then enhance our ability to summarize and connect knowledge, offering a comprehensive approach to automate data extraction and provide deeper insights into material synthesis, benefiting the broader scientific community. To further ensure transparency and rigor, we explicitly describe benchmarking and comparative evaluation procedures throughout the manuscript so that readers are clearly informed about model comparisons at each stage of the pipeline. Overall, we present a domain‐adapted, multi‐stage workflow for extracting complex CVD synthesis information from scientific literature. Beyond data extraction, our framework generates new materials science insights by revealing emergent synthesis patterns across thousands of experiments. Through large‐scale data synthesis, we uncover a constant‐dose kinetic principle governing CVD growth, reconstruct the temporal evolution of TMD synthesis strategies, and demonstrate knowledge transfer capabilities through learned chemical relationships that suggest novel precursor combinations for under‐explored materials.</p></sec><sec id="adma72743-sec-0020"><label>2</label><title>Overview and Title Classification</title><p>Incorporating domain knowledge into transformer‐based language models, such as BERT, enhances the accuracy and efficiency of the training process. Figure <xref rid="adma72743-fig-0001" ref-type="fig">1a</xref> outlines the text mining process, consisting of three primary components: online resources, domain knowledge, and pre‐trained models. First, we input 2D materials, including chemical formula and abbreviations, as queries for publisher databases, such as Web of Science (WoS) and CrossRef, retrieving article information such as citations, titles, and publication dates. We first filter out articles that are unrelated to CVD through a term‐based search and prediction with a fine‐tuned BERT model. We find identifying keywords indicative of titles related to CVD and titles unrelated to CVD by applying domain knowledge in CVD synthesis for 2D materials, calculating term frequencies for titles, and ranking terms accordingly in Figure <xref rid="adma72743-fig-0001" ref-type="fig">1b</xref>. For example, terms such as chemical vapor deposition, epitaxial, and CVD pertain to CVD‐related concepts, while solution, nanosheets, and sorting typically refer to unrelated chemically exfoliated 2D materials or solution‐based carbon nanotubes. We also fine‐tune a pre‐trained BERT model, achieving a high macro F1 score of 0.92 in classifying CVD‐related titles. We first classify articles with identifying keywords. Then, among titles without identifying keywords, we employ the fine‐tuned BERT model to predict titles, as depicted in Figure <xref rid="adma72743-fig-0001" ref-type="fig">1c</xref>. For articles related to CVD we obtain article content through web scraping or publisher sources and identify abstracts and method sections based on HTML elements. After acquiring content from publishers, we extract growth results from abstracts and growth recipes from methods. In abstracts, we extract growth outcomes for 2D material synthesis, such as monolayer, bilayer, and multilayer (single‐walled, double‐walled, and multi‐walled for carbon nanotubes), as well as plasma, using a BERT classifier combined with keyword tags. To extract growth recipes from method sections, we adopt four distinct strategies. First, we apply a token‐level rule‐based dictionary to locate keywords. Second, we perform phrase‐level NER to pinpoint parameter tokens. Third, we employ an extractive question‐answering (EQA) model to procure context‐aware entity answers for recipes. Finally, we implement paragraph‐level prompts to generate growth recipes for novel 2D materials, enabling knowledge transfer between materials.</p><fig position="float" fig-type="FIGURE" id="adma72743-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Overview of the framework. (a) Schematic of the flowchart for text mining for 2D materials. (b) TF‐IDF weights for each of the tokens. The positive tag denotes CVD‐related terms for 2D material synthesis, while the negative tag indicates non‐CVD‐related terms. (c) the percentage of results using positive and negative keywords and BERT search for titles.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ADMA-38-e09132-g001.jpg"><?image-name ADMA-38-e09132-g001.jpg?><?image-size 71400?><?image-md5 3ded6b1f21cb3dc73bfc3e79fbe4ba50?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 645?><?image-original-width 820?><?image-scaled-height 429?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/20c9/13054107/3ded6b1f21cb/ADMA-38-e09132-g001.jpg?><?thumb-name ADMA-38-e09132-g001.gif?><?thumb-size 6423?><?thumb-md5 f64f08795fd65c330ad253a3afa81c51?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 101?><?thumb-cloudpmc-urn urn:cdn:blobs/20c9/13054107/f64f08795fd6/ADMA-38-e09132-g001.gif?></graphic></fig><p>Beyond its primary extraction capabilities, our framework creates a database that lays the groundwork for future scientific tools. This curated knowledge base could serve as a foundational source for future Retrieval‐Augmented Generation (RAG) systems, aiming to ground language models in validated literature to enable evidence‐based hypothesis generation. The extracted recipes also serve as valuable few‐shot learning examples.</p></sec><sec id="adma72743-sec-0030"><label>3</label><title>Abstract Classification and Named Entity Recognition (NER)</title><p>Preparing high‐quality expert‐labeled data is a critical and time‐consuming task for training deep neural networks. In this study, we present an empirically efficient method that leverages domain knowledge to pre‐annotate data, which expedites the annotation process for experts. The architecture of abstract classification is illustrated in Figure <xref rid="adma72743-supinfo-0001" ref-type="">S1</xref>. For instance, monolayer and single‐layer indicate 2D monolayer synthesis, while multilayer and few‐layer signify 2D multilayer synthesis. We fine‐tune a multi‐class model that integrates a pre‐trained BERT model with keyword tags to identify results for abstracts. The confusion matrix of the abstract BERT classifier demonstrates a higher weighted F1 score of 0.88, as shown in Figure <xref rid="adma72743-supinfo-0001" ref-type="">S3</xref>, compared to the standalone BERT classifier with a weighted F1 score of 0.8. For extracting growth recipes, we first pre‐annotate parameters using a dictionary containing keywords and units, followed by corrections made by CVD experts. The NER model is then trained based on the annotated data, yielding a high macro F1 score of 0.92, according to the confusion matrix in Figure <xref rid="adma72743-supinfo-0001" ref-type="">S5</xref>. Our dataset extracted by abstract classification and NER enables visualization of correlations between results and recipes, catalysts and 2D materials, and the popularity of material synthesis methods over time. We evaluate the importance of characterization tools for 2D materials by examining the ratio of citations to publications, as shown in Figure <xref rid="adma72743-fig-0002" ref-type="fig">2a</xref>. Raman spectroscopy emerged as the most popular tool for 2D materials, attributed to its fast and non‐destructive nature [<xref rid="adma72743-bib-0012" ref-type="bibr">12</xref>, <xref rid="adma72743-bib-0013" ref-type="bibr">13</xref>]. Atomic force microscopy (AFM) has the highest citation‐to‐publication ratio, attributed to its rapid, non‐destructive nature and widespread availability. In addition, among all electron‐based measurements (indicated in orange), scanning transmission electron microscopy (STEM) exhibits a higher citation‐to‐publication ratio as it provides atomic lattice information that is crucial for understanding 2D material properties such as strain, defects, and dopants [<xref rid="adma72743-bib-0014" ref-type="bibr">14</xref>, <xref rid="adma72743-bib-0015" ref-type="bibr">15</xref>]. Conversely, X‐ray diffraction analysis has a lower citation‐to‐publication ratio due to its lower signal intensities for the thin atomic thickness of 2D materials, making it less suitable for characterizing 2D materials. When weighting publications by number of citations, we can rediscover potential substrate and catalyst combinations for bilayer graphene growth, such as methane‐nickel and acetylene‐copper, compared to the highly published methane‐copper combination, as shown in Figure <xref rid="adma72743-fig-0002" ref-type="fig">2b</xref>. Through the time trajectories of catalyst usage, we observe knowledge transfer between materials like graphene and carbon nanotubes. As depicted in Figure <xref rid="adma72743-fig-0002" ref-type="fig">2c</xref>, methane is the most widely used precursor for both monolayer and multilayer graphene growth. Meanwhile, acetylene and ethylene are promising precursors for multilayer graphene growth, possibly due to their lower decomposition temperature compared to methane, which substantially increases the carbon concentration during graphene growth. Figure <xref rid="adma72743-fig-0002" ref-type="fig">2d</xref> shows how 2D materials researchers transferred their insights from CNT synthesis to graphene synthesis. Researchers initially employed nickel as the substrate and subsequently shifted to copper. Copper also emerged as the better choice for graphene synthesis due to its low carbon solubility, which prevents multilayer graphene precipitation during the cooling process. We believe similar knowledge transfers of growth parameter selection can occur between other 2D materials.</p><fig position="float" fig-type="FIGURE" id="adma72743-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Categorical parameters extracted by NER. (a) The number of publications using characterization tools. The coded colors indicate the sources of tools, and the sizes of the circles represent the citation ratio (Raman: Raman spectroscopy, SEM: scanning electron microscopy, TEM: transmission electron microscopy, HRTEM: high‐resolution transmission electron microscopy, STEM: scanning transmission electron microscopy, XRD: X‐ray diffraction, XPS: X‐ray photoelectron spectroscopy, AFM: atomic force microscopy). (b) The number of publications of precursor‐substrate combinations for bilayer graphene growth with unweighted (left‐hand side) and weighted by number of citations (right‐hand side). (c) the trajectories of precursor gasses for monolayer (the solid lines) and multilayer (dashed lines) graphene growth from 2000 to 2022. (d) the trajectories of catalysts for graphene (the solid lines) and carbon nanotube (dashed lines) growth from 2000 to 2022. The shift from nickel to copper for graphene reflects improved control over synthesis, with copper enabling monolayer graphene growth. These trends highlight the evolving understanding of catalyst selection for graphene synthesis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ADMA-38-e09132-g002.jpg"><?image-name ADMA-38-e09132-g002.jpg?><?image-size 50720?><?image-md5 848622cfda2c4d4edebb1a6d46ead809?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 492?><?image-original-width 820?><?image-scaled-height 328?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/20c9/13054107/848622cfda2c/ADMA-38-e09132-g002.jpg?><?thumb-name ADMA-38-e09132-g002.gif?><?thumb-size 6815?><?thumb-md5 609676f7acde768b6b8989da0d23cae8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 133?><?thumb-cloudpmc-urn urn:cdn:blobs/20c9/13054107/609676f7acde/ADMA-38-e09132-g002.gif?></graphic></fig></sec><sec id="adma72743-sec-0040"><label>4</label><title>Extractive Question Answering (EQA)</title><p>Although NER is a widely used approach for information extraction from literature, it encounters challenges in identifying relationships between entities in a sentence or paragraph. As a result, NER predictions may struggle to differentiate between various parameter values associated with distinct objects. For example, numerous temperature values correspond to different experimental components, such as the precursor and substrate. To identify the contextual background associated with each parameter, we performed an extractive question answering (EQA) task by employing three different BERT variants, extracting parameters using handcrafted questions for each of nine entities listed in Table <xref rid="adma72743-supinfo-0001" ref-type="">S1</xref>. Our approach resembles that of QaNER, which demonstrates high performance on entity extraction tasks by inputting handcrafted questions into a QA model. We developed a domain‐specific question answering model by adding a question answering head to MatSciBERT [<xref rid="adma72743-bib-0016" ref-type="bibr">16</xref>], a BERT variant trained on materials science literature, and fine‐tuning the model using the SQuAD1.1 dataset. We compared the MatSciBERT model with a BERT question answering model fine‐tuned on SQuAD1.1, as well as a question answering model developed by Otegi et al. using SciBERT and fine‐tuning on SQuAD2.0 and QuAC [<xref rid="adma72743-bib-0017" ref-type="bibr">17</xref>]. We evaluate the macro‐averaged F1 score on manually annotated 2D materials articles by counting the number of overlapping words between prediction and truth and refer the reader to Section <xref rid="adma72743-supinfo-0001" ref-type="">S1.4.3</xref> for the full computation details. Figure <xref rid="adma72743-fig-0003" ref-type="fig">3a</xref> shows that MatSciBERT outperformed the other models in retrieving information related to layer, substrate, precursor, temperature, time, pressure, and characterization entities, while BERT performed highest for the CVD entity and SciBERT had a higher F1 score for extracting flow rates. We hypothesize that BERT's higher performance on the CVD entity is due to the simplicity of the task, because the gold answer was most often “chemical vapor deposition.” We hypothesize that SciBERT's higher performance on the flow rate entity is due to the longer nonzero gold (ground truth) answers, as shown in Table <xref rid="adma72743-supinfo-0001" ref-type="">S2</xref>. Figure <xref rid="adma72743-supinfo-0001" ref-type="">S8</xref> shows that SciBERT exhibits longer prediction lengths and a higher overall R<sup>2</sup> score with gold answer lengths than BERT and MatSciBERT. Arantxa et al. attribute the long responses of the SciBERT QA model to its fine‐tuning on the QuAC dataset [<xref rid="adma72743-bib-0018" ref-type="bibr">18</xref>]. Therefore, SciBERT's lengthy answers best match the lengthy flow rate gold answers. We use the best‐performing model for each parameter to extract the answers for the most accurate predictions.</p><fig position="float" fig-type="FIGURE" id="adma72743-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Performance and predictions from extractive question‐answering models. (a) F1 score performance of BERT, SciBERT, and MatSciBERT QA models for nine parameters compared to manual annotations. (b) A scatter plot illustrating temperature versus pressure combinations for the 5000 top‐cited 2D materials papers acquired via web scraping, categorized by material group. We exclude predictions with temperature outside of 200–2000°C or pressure exceeding 760 torr and assume they are errors. (c) A scatter plot displaying time versus argon flow rate combinations for the 5000 top‐cited 2D materials papers, categorized by 2D material type. Contour lines indicating total dose of argon, calculated as growth time times argon flow rate, are overlaid on the scatter plot.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ADMA-38-e09132-g003.jpg"><?image-name ADMA-38-e09132-g003.jpg?><?image-size 102786?><?image-md5 38f6acd92def685304e48fbd399f7272?><?image-image-server-status NEVER_LOAD?><?image-original-height 533?><?image-original-width 722?><?image-scaled-height 533?><?image-scaled-width 722?><?image-cloudpmc-urn urn:cdn:blobs/20c9/13054107/38f6acd92def/ADMA-38-e09132-g003.jpg?><?thumb-name ADMA-38-e09132-g003.gif?><?thumb-size 6556?><?thumb-md5 a04221b0dce06e6ac1d9678fb912285c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 108?><?thumb-cloudpmc-urn urn:cdn:blobs/20c9/13054107/a04221b0dce0/ADMA-38-e09132-g003.gif?></graphic></fig><p>We perform a consistency check of EQA predictions using term frequency‐inverse document frequency (TF‐IDF). Figure <xref rid="adma72743-supinfo-0001" ref-type="">S9</xref> shows the top 10 TF‐IDF ranked terms for each named entity, confirming that the top ranked terms from EQA predictions agree with our domain knowledge of the most important terms within each entity. TF‐IDF also identifies shortcomings of the BERT, SciBERT, and MatSciBERT models. The BERT‐based models misclassify some carrier gases as precursors, “degc” as a unit for time, pressure, and flow rate, and the common pressure of 760 as a time entity.</p><p>Finally, we employ regular expressions to extract numerical values from the answers generated by EQA for the 5000 top‐cited 2D materials articles. In Figure <xref rid="adma72743-fig-0003" ref-type="fig">3b</xref>, we plot the temperature versus pressure for 2D materials, illustrating that most efforts are focused on either ambient pressure (≈760 torr) or near the base pressure of pumps (≈1 torr). Furthermore, CNT/hBN is the most common material category for experiments with an intermediate pressure (&gt;1 torr and &lt;760 torr), suggesting potential for knowledge transfer from CNT/hBN experiments to TMD and Gr experiments using intermediate pressure. The 50–200 Torr gap for TMDs suggests an underexplored regime that could combine APCVD precursor availability with LPCVD uniformity while avoiding turbulence and vacancy formation [<xref rid="adma72743-bib-0019" ref-type="bibr">19</xref>, <xref rid="adma72743-bib-0020" ref-type="bibr">20</xref>, <xref rid="adma72743-bib-0021" ref-type="bibr">21</xref>]. When compared with the pressure entity results from the NER method in Figure <xref rid="adma72743-supinfo-0001" ref-type="">S6</xref>, the findings from the EQA method seem more plausible for numerical answers, as a pressure control system is more expensive than ambient pressure or pump base pressure. Figure <xref rid="adma72743-fig-0003" ref-type="fig">3c</xref> shows a scatter plot of growth time versus argon gas flow rate, along with contour lines for total dose of argon gas, which represents the approximate total gas volume flowed over the substrate. We calculate the total dose of argon gas by multiplying growth time and flow rate. Figure <xref rid="adma72743-fig-0003" ref-type="fig">3c</xref> shows alignment of growth time and flow rate combinations along contour lines, suggesting that a specific range of total gas exposure leads to successful materials growth. Figure <xref rid="adma72743-supinfo-0001" ref-type="">S10</xref> shows similar scatter and contour plots for acetylene, helium, hydrogen, methane, and nitrogen, reinforcing the observation that similar total gas doses favorably influence CVD kinetics. Finally, we examine the interaction between flow rate and tube diameter. Figure <xref rid="adma72743-supinfo-0001" ref-type="">S11</xref> shows that smaller tube diameters around 1″ are more common. When we normalize by tube cross sectional area to compute velocity, we observe that velocities are higher for smaller tube diameters as expected.</p></sec><sec id="adma72743-sec-0050"><label>5</label><title>Generative Models</title><p>To further investigate correlations and trends among the recipes for different materials reported in published literature, we demonstrate two approaches using generative models: multi‐document summarization and prompt‐based text generation. First, we employ an unsupervised multi‐document summarization model to generate summaries for experiment sections, leveraging the common written structures shared by the recipes. By categorizing the literature in our dataset according to the synthesis materials, we obtained summaries of reported synthesis recipes for 7 distinct materials (see the details in Section <xref rid="adma72743-supinfo-0001" ref-type="">S1.5</xref>). The generated summaries function effectively as raw input for lightweight text mining methods such as TF‐IDF, latent Dirichlet allocation (LDA), and text network analysis (TNA). The LDA model, based on term frequency calculation, clusters the summaries into multiple groups, potentially corresponding to subtopics in recipes, as shown in Figure <xref rid="adma72743-supinfo-0001" ref-type="">S12</xref>. To determine the topics of these groups, we input the summaries into the TNA model, generating the network depicted in Figure <xref rid="adma72743-fig-0004" ref-type="fig">4a</xref>. The connections between recipe keywords indicate correlations among various synthesis terms. For example, CNT and carbon are positioned in close proximity within the network, even though they belong to distinct LDA topics. More informative connections between keywords can be easily identified within the network, such as the association of “graphene” with specific growth conditions, or the link between “CNT” and particular catalyst materials. These connections show the underlying pattern between certain keywords and synthesis methods.</p><fig position="float" fig-type="FIGURE" id="adma72743-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Generative models analytics. (a) Top four topical clusters grouped by nearest neighbor based on keywords in generated summaries. (b, c) Termite plots for the normalized co‐occurrence of recipe keywords and group label in prompt‐generated outputs under randomness 0.5 and 1, where the bubble size indicates the frequency of co‐occurrence in the prompt‐generated text output for corresponding entries. (d) Temperature–pressure scatter plot of generated synthesis conditions with reasonable operating ranges shown in a colored gradient.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ADMA-38-e09132-g004.jpg"><?image-name ADMA-38-e09132-g004.jpg?><?image-size 84892?><?image-md5 d6be4004b2961b92bf080bf3bd05fbf3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 472?><?image-original-width 820?><?image-scaled-height 314?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/20c9/13054107/d6be4004b296/ADMA-38-e09132-g004.jpg?><?thumb-name ADMA-38-e09132-g004.gif?><?thumb-size 10189?><?thumb-md5 d436f5bf1080763df690dfbb512dc64b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 138?><?thumb-cloudpmc-urn urn:cdn:blobs/20c9/13054107/d436f5bf1080/ADMA-38-e09132-g004.gif?></graphic></fig><p>As an alternative approach, we fine‐tuned a prompt‐based text generation model to generate recipes with a holistic view among low‐dimensional materials without losing details during summarization. We designed prompts to generate recipes, focusing on catalysts, substrates, temperatures, pressures, characterizations, and applications. In generative models, text flow control can be achieved by selecting appropriate generation settings, such as beamwidth and randomness. Termite plots demonstrate the co‐occurrence of keywords in the prompting output with different randomness generative settings for each material‐year group, as illustrated in Figure <xref rid="adma72743-fig-0004" ref-type="fig">4b,c</xref> and explained in Section <xref rid="adma72743-supinfo-0001" ref-type="">S1.5</xref>. The usage trend of the same recipe component can be exemplified by the increased use of copper from 2010 to 2016 for graphene synthesis, shown by comparing the bubble size of “copper.” Another example is “ferrocene,” which was primarily predicted to be used in CNT and hBN synthesis with medium randomness. When the randomness increases to 1, the termite plot suggests ferrocene could be the catalyst for graphene growth, implying potential knowledge transfer among different materials and potential creativity in this model for future exploration of novel materials.</p><p>Lastly, the readability of all generated text can be assessed by applying a Kincaid test to each of the outputs, with the distribution presented in Figure <xref rid="adma72743-supinfo-0001" ref-type="">S15</xref>. The summaries yield an average of 70.9 (fairly easy to read, equivalent to the 7th grade in the US), demonstrating improved readability compared to the input text and prompted outputs (on average). This finding reveals a potential trade‐off between readability and details for generated text, particularly for synthesis recipes. To further enhance the reliability of the generated recipes, we transitioned from GPT‐Neo to Llama‐2‐7b‐hf for prompt‐based generation, while retaining our structured data‐labeling approach. This robust model not only maintains the readability of outputs but more consistently produces chemically plausible parameters. Figure <xref rid="adma72743-fig-0004" ref-type="fig">4d</xref> confirms that the predicted recipes cluster within reasonable temperature–pressure windows for all material categories, supporting the use of our framework as a decision‐support tool for realistic synthesis design.</p></sec><sec id="adma72743-sec-0060"><label>6</label><title>Summary</title><p>Understanding academic publications is an essential step in guiding scientific researchers toward the synthesis of tailored materials. In this work, we demonstrate a framework for extracting experimental recipes from literature to gain a comprehensive understanding of 2D material synthesis by monitoring, comparing, and evaluating the synthesis parameters across different materials and growth outcomes. We employed NER and EQA models to extract experimental recipes for both categorical and numerical parameters, as well as conducted statistical analysis to gain profound insights into the growth mechanisms. Furthermore, we used generative models to summarize and generate experimental recipes, providing a broad understanding of 2D material growth from multi‐document inputs. This approach not only identifies patterns and trends in synthesis protocols but also uncovers opportunities for knowledge transfer, such as applying successful graphene growth techniques to transition metal dichalcogenides (TMDs).</p><p>Nevertheless, this work is only an initial exploration and still very limited in its utility and impact. Several near‐term improvements can be seen. Firstly, fine‐tuning a masked language model for domain adaptation in 2D material articles could enhance the performance of downstream tasks. Secondly, integrating various downstream tasks may improve recipe extraction performance. For instance, applying a prompt‐based learning QA method combined with a NER model could enable the extraction of more information from literature, while a two‐stage entity span recognition and classification approach similar to Split‐NER could improve our QA model performance. While our current efforts focus on refining model architecture and performance for 2D material knowledge, we anticipate that this work may serve as a foundation for using natural language processing to investigate other existing materials and discover new materials in the future.</p></sec><sec id="adma72743-sec-0070"><title>Author Contributions</title><p>A.‐Y.L. and J.K. conceived and designed the experiments. A.‐Y.L., R.A.C., and A.Y. collected and performed all the data analysis and machine learning models. M.‐C.C., J.‐H.P., T.Z., X.Z., N.M., J.W., and Z.W. annotated the training data. J.K. supervised this work. A.‐Y.L., R.A.C., A.Y., M.‐C.C., and J.K. co‐wrote the paper with inputs from all the authors. All the co‐authors have reviewed the manuscript and provided their input.</p></sec><sec sec-type="COI-statement" id="adma72743-sec-0090"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="adma72743-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="adma72743-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: adma72743‐sup‐0001‐SuppMat.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ADMA-38-e09132-s001.docx" position="float" orientation="portrait"><?suppdata-name ADMA-38-e09132-s001.docx?><?suppdata-size 8502968?><?suppdata-md5 f434915dd3b67ed515871af5f8af33dd?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:20c9/13054107/f434915dd3b6/ADMA-38-e09132-s001.docx?></media></supplementary-material></sec></body><back><ack id="adma72743-sec-0080"><title>Acknowledgements</title><p>This work was supported by the Semiconductor Research Corporation Center 7 in JUMP 2.0 (award no. 145105‐21913)</p></ack><sec sec-type="data-availability" id="adma72743-sec-0110"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list id="adma72743-bibl-0001"><title>References</title><ref id="adma72743-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="adma72743-cite-0001">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name>, et al., “<article-title>Artificial Neuron Networks Enabled Identification and Characterizations of 2D Materials and van Der Waals Heterostructures</article-title>,” <source>ACS Nano</source>
+<volume>16</volume> (<year>2022</year>): <fpage>2721</fpage>–<lpage>2729</lpage>.<pub-id pub-id-type="pmid">35040630</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acsnano.1c09644</pub-id></mixed-citation></ref><ref id="adma72743-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="adma72743-cite-0002">
+<string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Kononova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Huo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Trewartha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Olivetti</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Ceder</surname>
+</string-name>, “<article-title>Opportunities and Challenges of Text Mining in Aterials Research</article-title>,” <source>iScience</source>
+<volume>24</volume> (<year>2021</year>): <elocation-id>102155</elocation-id>.<pub-id pub-id-type="pmid">33665573</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.isci.2021.102155</pub-id><pub-id pub-id-type="pmcid">PMC7905448</pub-id></mixed-citation></ref><ref id="adma72743-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="adma72743-cite-0003">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Huo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Bartel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>He</surname>
+</string-name>, et al., “<article-title>Machine‐Learning Rationalization and Prediction of Solid‐State Synthesis Conditions</article-title>,” <source>Chemistry of Materials</source>
+<volume>34</volume> (<year>2022</year>): <fpage>7323</fpage>–<lpage>7336</lpage>.<pub-id pub-id-type="pmid">36032555</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.chemmater.2c01293</pub-id><pub-id pub-id-type="pmcid">PMC9407029</pub-id></mixed-citation></ref><ref id="adma72743-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="adma72743-cite-0004">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Tshitoyan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Dagdelen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Weston</surname>
+</string-name>, et al., “<article-title>Unsupervised Word Embeddings Capture Latent Knowledge from Materials Science Literature</article-title>,” <source>Nature</source>
+<volume>571</volume> (<year>2019</year>): <fpage>95</fpage>–<lpage>98</lpage>.<pub-id pub-id-type="pmid">31270483</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-019-1335-8</pub-id></mixed-citation></ref><ref id="adma72743-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="adma72743-cite-0005">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Huo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Rong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Kononova</surname>
+</string-name>, et al., “<article-title>Semi‐Supervised Machine‐Learning Classification of Materials Synthesis Procedures</article-title>,” <source>npj Computational Materials</source>
+<volume>5</volume> (<year>2019</year>): <fpage>62</fpage>.</mixed-citation></ref><ref id="adma72743-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="adma72743-cite-0006">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Dagdelen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Dunn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lee</surname>
+</string-name>, et al., “<article-title>Structured Information Extraction from Scientific Text with Large Language Models</article-title>,” <source>Nature Communications</source>
+<volume>15</volume> (<year>2024</year>): <fpage>1418</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-024-45563-x</pub-id><pub-id pub-id-type="pmcid">PMC10869356</pub-id><pub-id pub-id-type="pmid">38360817</pub-id></mixed-citation></ref><ref id="adma72743-bib-0007"><label>7</label><mixed-citation publication-type="book" id="adma72743-cite-0007">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Devlin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐W.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lee</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Toutanova</surname>
+</string-name>, “<article-title>BERT: Pre‐Training of Deep Bidirectional Transformers for Language Understanding</article-title>,” in <source>Proceedings of the 2019 Conference of the North AMerican Chapter of the Association for Computational Linguistics: Human Language Technologies</source>, <publisher-name>Association For Computational Linguistics</publisher-name>, <publisher-loc>Minneapolis, Minnesota</publisher-loc>
+<volume>1</volume> (<year>2019</year>): pp. <fpage>4171</fpage>–<lpage>4186</lpage>.</mixed-citation></ref><ref id="adma72743-bib-0008"><label>8</label><mixed-citation publication-type="book" id="adma72743-cite-0008">
+<string-name name-style="western">
+<given-names>T. B.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Mann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Ryder</surname>
+</string-name>, et al., “<article-title>Language Models Are Few‐Shot Learners,”</article-title>, in <source>Proceedings of the 34th International Conference on Neural Information Processing Systems</source>, <publisher-name>Curran Associates Inc.</publisher-name>, <publisher-loc>Red Hook, NY, USA</publisher-loc>, (<year>2020</year>), pp. <fpage>1877</fpage>–<lpage>1901</lpage>.</mixed-citation></ref><ref id="adma72743-bib-0009"><label>9</label><mixed-citation publication-type="miscellaneous" id="adma72743-cite-0009">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Team</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Anil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Borgeaud</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.‐B.</given-names>
+<surname>Alayrac</surname>
+</string-name>, <article-title>“Gemini: A Family of Highly Capable Multimodal Models,” arXiv [cs.CL]</article-title> (<year>2023</year>).</mixed-citation></ref><ref id="adma72743-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="adma72743-cite-0010">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Touvron</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Lavril</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Izacard</surname>
+</string-name>, et al., <article-title>“LLaMA: Open and Efficient Foundation Language Models,” arXiv [cs.CL]</article-title> (<year>2023</year>).</mixed-citation></ref><ref id="adma72743-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="adma72743-cite-0011">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Frieske</surname>
+</string-name>, et al., “<article-title>Survey of Hallucination in Natural Language Generation</article-title>,” <source>ACM Computing Surveys</source>
+<volume>55</volume> (<year>2022</year>): <fpage>248</fpage>, <pub-id pub-id-type="doi">10.1145/3571730</pub-id>.</mixed-citation></ref><ref id="adma72743-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="adma72743-cite-0012">
+<string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Ferrari</surname>
+</string-name> and <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Basko</surname>
+</string-name>, “<article-title>Raman Spectroscopy as a Versatile Tool for Studying the Properties of Graphene</article-title>,” <source>Nature Nanotechnology</source>
+<volume>8</volume> (<year>2013</year>): <fpage>235</fpage>–<lpage>246</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nnano.2013.46</pub-id><pub-id pub-id-type="pmid">23552117</pub-id></mixed-citation></ref><ref id="adma72743-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="adma72743-cite-0013">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Cong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.‐L.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐L.</given-names>
+<surname>Lin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.‐H.</given-names>
+<surname>Tan</surname>
+</string-name>, “<article-title>Application of Raman Spectroscopy to Probe Fundamental Properties of Two‐Dimensional Materials</article-title>,” <source>npj 2D Materials and Applications</source>
+<volume>4</volume> (<year>2020</year>): <fpage>13</fpage>.</mixed-citation></ref><ref id="adma72743-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="adma72743-cite-0014">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Luo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, “<article-title>Raman Spectroscopy Characterization of Two‐Dimensional Materials</article-title>,” <source>Chinese Physics B</source>
+<volume>27</volume> (<year>2018</year>): <elocation-id>037802</elocation-id>.</mixed-citation></ref><ref id="adma72743-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="adma72743-cite-0015">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Taghizadeh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Leffers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. G.</given-names>
+<surname>Pedersen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Thygesen</surname>
+</string-name>, “<article-title>A Library of Ab Initio Raman Spectra for Automated Identification of 2D Materials</article-title>,” <source>Nature Communications</source>
+<volume>11</volume> (<year>2020</year>): <fpage>3011</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-16529-6</pub-id><pub-id pub-id-type="pmcid">PMC7296020</pub-id><pub-id pub-id-type="pmid">32541789</pub-id></mixed-citation></ref><ref id="adma72743-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="adma72743-cite-0016">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zaki</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. M. A.</given-names>
+<surname>Krishnan</surname>
+</string-name>, “<article-title>Mausam, MatSciBERT: A Materials Domain Language Model for Text Mining and Information Extraction</article-title>,” <source>npj Computational Materials</source>
+<volume>8</volume> (<year>2022</year>): <fpage>102</fpage>.</mixed-citation></ref><ref id="adma72743-bib-0017"><label>17</label><mixed-citation publication-type="book" id="adma72743-cite-0017">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Otegi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Campos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Azkune</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Soroa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Agirre</surname>
+</string-name>, in <article-title>
+Proceedings of the 1st Workshop on NLP for COVID‐19 (Part 2) at EMNLP 2020
+</article-title> (<publisher-name>Association for Computational Linguistics</publisher-name>
+<year>2020</year>).</mixed-citation></ref><ref id="adma72743-bib-0018"><label>18</label><mixed-citation publication-type="book" id="adma72743-cite-0018">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Iyyer</surname>
+</string-name>, et al., in <source>Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing</source> (Eds.: <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Riloff</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chiang</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hockenmaier</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tsujii</surname>
+</string-name>
+</person-group>), <publisher-name>Association For Computational Linguistics</publisher-name>, <publisher-loc>Stroudsburg, PA, USA</publisher-loc>, <year>2018</year>, pp. <fpage>2174</fpage>–<lpage>2184</lpage>.</mixed-citation></ref><ref id="adma72743-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="adma72743-cite-0019">
+<string-name name-style="western">
+<given-names>I. H.</given-names>
+<surname>Abidi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Giridhar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. O.</given-names>
+<surname>Tollerud</surname>
+</string-name>, et al., “<article-title>Oxygen Driven Defect Engineering of Monolayer MoS<sub>2</sub> for Tunable Electronic, Optoelectronic, and Electrochemical Devices</article-title>,” <source>Advanced Functional Materials</source>
+<volume>34</volume> (<year>2024</year>): <elocation-id>2402402</elocation-id>.</mixed-citation></ref><ref id="adma72743-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="adma72743-cite-0020">
+<string-name name-style="western">
+<given-names>H. K.</given-names>
+<surname>Paidi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Mudunuri</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Babu</surname>
+</string-name>, “<article-title>Exploring MoS<sub>2</sub> Growth: a Comparative Study of Atmospheric and Low‐Pressure CVD</article-title>,” <source>Langmuir</source>
+<volume>40</volume> (<year>2024</year>): <fpage>25648</fpage>–<lpage>25656</lpage>.<pub-id pub-id-type="pmid">39566097</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.langmuir.4c03567</pub-id></mixed-citation></ref><ref id="adma72743-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="adma72743-cite-0021">
+<string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>Moses</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Redwing</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. F.</given-names>
+<surname>Reinhart</surname>
+</string-name>, “<article-title>Cross‐Modal Characterization of Thin‐Film MoS<sub>2</sub> Using Generative Models</article-title>,” <source>Advanced Intelligent Systems</source>
+<volume>8</volume> (<year>2025</year>): <elocation-id>2500613</elocation-id>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,708 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Negl Trop Dis</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Negl Trop Dis</journal-id><journal-id journal-id-type="pmc-domain-id">532</journal-id><journal-id journal-id-type="pmc-domain">plosntd</journal-id><journal-id journal-id-type="nlm-id">101291488</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-title-group><journal-title>PLoS Neglected Tropical Diseases</journal-title></journal-title-group><issn pub-type="ppub">1935-2727</issn><issn pub-type="epub">1935-2735</issn><publisher><publisher-name>PLOS</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9135371</article-id><article-id pub-id-type="pmcid-ver">PMC9135371.1</article-id><article-id pub-id-type="pmcaid">9135371</article-id><article-id pub-id-type="pmcaiid">9135371</article-id><article-id pub-id-type="pmid">35025867</article-id><article-id pub-id-type="doi">10.1371/journal.pntd.0010000</article-id><article-id pub-id-type="publisher-id">PNTD-D-21-01007</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Agrochemicals</subject><subj-group><subject>Insecticides</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Medical Conditions</subject><subj-group><subject>Infectious Diseases</subject><subj-group><subject>Disease Vectors</subject><subj-group><subject>Insect Vectors</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Species Interactions</subject><subj-group><subject>Disease Vectors</subject><subj-group><subject>Insect Vectors</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Medical Conditions</subject><subj-group><subject>Infectious Diseases</subject><subj-group><subject>Disease Vectors</subject><subj-group><subject>Insect Vectors</subject><subj-group><subject>Mosquitoes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Species Interactions</subject><subj-group><subject>Disease Vectors</subject><subj-group><subject>Insect Vectors</subject><subj-group><subject>Mosquitoes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Zoology</subject><subj-group><subject>Entomology</subject><subj-group><subject>Insects</subject><subj-group><subject>Mosquitoes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Arthropoda</subject><subj-group><subject>Insects</subject><subj-group><subject>Mosquitoes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Zoology</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Arthropoda</subject><subj-group><subject>Insects</subject><subj-group><subject>Mosquitoes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Population Biology</subject><subj-group><subject>Population Metrics</subject><subj-group><subject>Death Rates</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Agrochemicals</subject><subj-group><subject>Insecticides</subject><subj-group><subject>Ddt</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Medical Conditions</subject><subj-group><subject>Infectious Diseases</subject><subj-group><subject>Disease Vectors</subject><subj-group><subject>Insect Vectors</subject><subj-group><subject>Mosquitoes</subject><subj-group><subject>Culex Quinquefasciatus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Species Interactions</subject><subj-group><subject>Disease Vectors</subject><subj-group><subject>Insect Vectors</subject><subj-group><subject>Mosquitoes</subject><subj-group><subject>Culex Quinquefasciatus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Zoology</subject><subj-group><subject>Entomology</subject><subj-group><subject>Insects</subject><subj-group><subject>Mosquitoes</subject><subj-group><subject>Culex Quinquefasciatus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Arthropoda</subject><subj-group><subject>Insects</subject><subj-group><subject>Mosquitoes</subject><subj-group><subject>Culex Quinquefasciatus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Zoology</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Arthropoda</subject><subj-group><subject>Insects</subject><subj-group><subject>Mosquitoes</subject><subj-group><subject>Culex Quinquefasciatus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Mutation</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Developmental Biology</subject><subj-group><subject>Life Cycles</subject><subj-group><subject>Larvae</subject></subj-group></subj-group></subj-group></subj-group></article-categories><title-group><article-title>Occurrence of L1014F and L1014S mutations in insecticide resistant
+<italic toggle="yes">Culex quinquefasciatus</italic> from filariasis endemic districts of
+West Bengal, India</article-title><alt-title alt-title-type="running-head">Insecticide resistance and kdr mutation in
+<italic toggle="yes">Culex quinquefasciatus</italic></alt-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Rai</surname><given-names initials="P">Priyanka</given-names></name><role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role><role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role content-type="http://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role><role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role><role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role><role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role><role content-type="http://credit.niso.org/contributor-roles/software/">Software</role><role content-type="http://credit.niso.org/contributor-roles/validation/">Validation</role><role content-type="http://credit.niso.org/contributor-roles/visualization/">Visualization</role><role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role><role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role><xref rid="aff001" ref-type="aff"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-2309-4068</contrib-id><name name-style="western"><surname>Saha</surname><given-names initials="D">Dhiraj</given-names></name><role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role content-type="http://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role><role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role><role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role><role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role><role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role><role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role><role content-type="http://credit.niso.org/contributor-roles/visualization/">Visualization</role><role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role><xref rid="cor001" ref-type="corresp">*</xref><xref rid="aff001" ref-type="aff"/></contrib></contrib-group><aff id="aff001">
+<addr-line>Insect Biochemistry and Molecular Biology Laboratory,
+Department of Zoology, University of North Bengal, P.O. North Bengal University,
+Siliguri, District - Darjeeling, West Bengal, India</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name name-style="western"><surname>Mireji</surname><given-names initials="PO">Paul O.</given-names></name><role>Editor</role><xref rid="edit1" ref-type="aff"/></contrib></contrib-group><aff id="edit1">
+<addr-line>Kenya Agricultural and Livestock Research Organization,
+KENYA</addr-line>
+</aff><author-notes><fn fn-type="COI-statement" id="coi001"><p>The authors have declared that no competing interests exist.</p></fn><corresp id="cor001">* E-mail: , </corresp></author-notes><pub-date pub-type="epub"><day>13</day><month>1</month><year>2022</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2022</year></pub-date><volume>16</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">397047</issue-id><elocation-id>e0010000</elocation-id><history><date date-type="received"><day>6</day><month>7</month><year>2021</year></date><date date-type="accepted"><day>13</day><month>11</month><year>2021</year></date></history><pub-history><event event-type="pmc-release"><date><day>13</day><month>01</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>27</day><month>05</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-08-28 07:25:37.650"><day>28</day><month>08</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>© 2022 Rai, Saha</copyright-statement><copyright-year>2022</copyright-year><copyright-holder>Rai, Saha</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article distributed under the terms of the
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="pntd.0010000.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="pntd.0010000.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" vol="17" journal-id="PLoS Negl Trop Dis" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10281568"><article-title>Retraction: Occurrence of L1014F and L1014S mutations in insecticide resistant <italic toggle="yes">Culex quinquefasciatus</italic> from filariasis endemic districts of West Bengal, India</article-title><volume>17</volume><issue>6</issue><date><day>20</day><month>6</month><year>2023</year></date><elocation-id>e0011417</elocation-id><source>PLOS Neglected Tropical Diseases</source><pub-id pub-id-type="doi">10.1371/journal.pntd.0011417</pub-id><pub-id pub-id-type="pmcid">PMC10281568</pub-id><pub-id pub-id-type="pmid">37339109</pub-id></related-article><abstract><sec id="sec001"><title>Introduction</title><p>Lymphatic filariasis causes long term morbidity and hampers the
+socio-economic status. Apart from the available treatments and medication,
+control of vector population <italic toggle="yes">Culex quinquefasciatus</italic> Say
+through the use of chemical insecticides is a widely applied strategy.
+However, the unrestrained application of these insecticides over many
+decades has led to resistance development in the vectors.</p></sec><sec id="sec002"><title>Methods</title><p>In order to determine the insecticide susceptibility/resistance status of
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> from two
+filariasis endemic districts of West Bengal, India, wild mosquito
+populations were collected and assayed against six different insecticides
+and presence of L1014F; L1014S kdr mutations in the voltage-gated sodium
+channel gene was also screened along with the use of synergists to evaluate
+the role of major detoxifying enzymes in resistance development.</p></sec><sec id="sec003"><title>Results</title><p>The collected mosquito populations showed severe resistance to insecticides
+and the two synergists used–PBO (piperonyl butoxide) and TPP (triphenyl
+phosphate), were unable to restore the susceptibility status of the vector
+thereupon pointing towards a minor role of metabolic enzymes. kdr mutations
+were present in the studied populations in varying percent with higher
+L1014F frequency indicating its association with the observed resistance to
+pyrethroids and DDT. This study reports L1014S mutation in
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> for the first
+time.</p></sec></abstract><abstract abstract-type="summary"><title>Author summary</title><p>Lymphatic filariasis is caused by a nematode worm <italic toggle="yes">Wuchereria
+bancrofti</italic> and transmitted by mosquito vector <italic toggle="yes">Culex
+quinquefasciatus</italic>. The vector <italic toggle="yes">Culex
+quinquefasciatus</italic> is a nuisance due to its biting habit and
+involvement in transmission of many deadly diseases in the tropics and sub
+tropics. Therefore, to control disease transmission by mosquito vectors, humans
+have been relying on the use of chemical insecticides since many decades.
+However, the over and unplanned application of insecticides has led to
+insecticide resistance in the mosquito population. As such, the insecticides
+have failed to produce 100 percent mortality in the mosquito vectors. This
+scenario is an important and urgent issue of concern because apart from medical
+treatment, major reliance for the control of vector-borne diseases still lies on
+the use of chemical insecticides targeted against the mosquito vectors.
+Moreover, there is a need to survey and evaluate insecticide
+susceptibility/resistance status of mosquito vectors along with the underlying
+mechanisms of resistance in national and regional level to draw an idea about
+the existing insecticide resistance pattern. This will further help in designing
+efficient vector control strategies in the near future on both national and
+regional basis.</p></abstract><funding-group><funding-statement>The author(s) received no specific funding for this
+work.</funding-statement></funding-group><counts><fig-count count="1"/><table-count count="5"/><page-count count="15"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>All relevant data are within the manuscript and its <xref rid="sec023" ref-type="sec">Supporting Information</xref>
+files.</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>All relevant data are within the manuscript and its <xref rid="sec023" ref-type="sec">Supporting Information</xref>
+files.</p></notes></front><body><sec sec-type="intro" id="sec004"><title>1. Introduction</title><p><italic toggle="yes">Culex quinquefasciatus</italic> commonly known as the southern house mosquito
+is widely distributed in tropical and subtropical regions. <italic toggle="yes">Culex
+quinquefasciatus</italic> is the most abundant species of mosquito in the
+sub-Himalayan region of West Bengal [<xref rid="pntd.0010000.ref001" ref-type="bibr">1</xref>,<xref rid="pntd.0010000.ref002" ref-type="bibr">2</xref>]. This
+mosquito species is opportunistic and may breed and habituate any temporary
+collection of stagnant water apart from its other natural breeding habitat- drains,
+stagnant puddles of water, cemented channels, muddy pools and water-filled
+artificial containers. <italic toggle="yes">Culex quinquefasciatus</italic> serves as a vector
+for many diseases like lymphatic filariasis, West Nile Fever, Saint Louis
+Encephalitis [<xref rid="pntd.0010000.ref003" ref-type="bibr">3</xref>] and even act
+as a bridge to transport slyvatic arboviruses from bird to mammals [<xref rid="pntd.0010000.ref004" ref-type="bibr">4</xref>,<xref rid="pntd.0010000.ref005" ref-type="bibr">5</xref>]. Some studies suggest its role in
+transmission of Zika virus [<xref rid="pntd.0010000.ref006" ref-type="bibr">6</xref>] and <italic toggle="yes">Plasmodium relictum</italic> that cause avian malaria [<xref rid="pntd.0010000.ref007" ref-type="bibr">7</xref>]. In Southeast Asia,
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> is a primary vector of
+lymphatic filariasis which is one of the most important Neglected Tropical Diseases
+(NTDs) and ranks second in causing long term morbidity in the human society [<xref rid="pntd.0010000.ref008" ref-type="bibr">8</xref>]. Negative impact of the
+disease on the socio-economic status of an individual is also non-negligible.</p><p>Although there are drugs and treatments available to combat lymphatic filariasis and
+the disease was aimed to be eradicated by the year 2020 [<xref rid="pntd.0010000.ref008" ref-type="bibr">8</xref>], management of vector population through the
+use of chemical insecticides is still one of the major strategies of disease
+control. In India, 257 districts in 21 states and Union territories are endemic to
+filariasis with a probability of affecting approximately 650 million population
+[<xref rid="pntd.0010000.ref009" ref-type="bibr">9</xref>]. Ministry of Health
+and Family Welfare, Government of India, have designed ‘Twin pillar strategies’ that
+include Mass Drug Administration (MDA) for prevention of disease transmission and
+Morbidity Management and Disability Prevention (MMDP) for taking care of infected
+patients for elimination of filariasis in India. In the state West Bengal, 12
+districts are reported to be endemic to the disease where Coochbehar and Malda are
+the only two districts of northern West Bengal that are endemic to lymphatic
+filariasis [<xref rid="pntd.0010000.ref009" ref-type="bibr">9</xref>]. Apart from
+disease control programmes and strategies like mass drug administration (MDA),
+proper sanitation and hygiene to check the spread of disease, vector control and
+management also form an important aspect regarding the control of the proliferation
+of mosquito-borne diseases in these two districts. Synthetic insecticides in the
+form of indoor residue spraying, insecticide impregnated bed nets and outdoor
+fogging is in use since many decades to control vector-borne diseases and nuisance
+caused by mosquitoes. WHO has approved the use of 4 classes of insecticides
+<italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>., pyrethroids, organophosphates,
+organochlorines and carbamates to be applied against mosquito vectors [<xref rid="pntd.0010000.ref010" ref-type="bibr">10</xref>]. However, the continuous
+exploitation of these insecticides on the mosquito vectors led to the development of
+insecticide resistance.</p><p>Of the four mechanisms of insecticide resistance development in mosquitoes, metabolic
+detoxifying enzymes and target-site insensitivity have been widely studied and known
+as the prime mechanism of resistance in the vector population [<xref rid="pntd.0010000.ref010" ref-type="bibr">10</xref>]. Resistance involving the major detoxifying
+enzymes occurs either by an enhanced enzyme action or by a qualitative increase in
+the number of isozymes [<xref rid="pntd.0010000.ref011" ref-type="bibr">11</xref>,<xref rid="pntd.0010000.ref012" ref-type="bibr">12</xref>].
+Target-site insensitivity on the other hand occurs as a result of mutation in the
+target receptor at the neurological site of an insect to which a particular
+insecticide binds [<xref rid="pntd.0010000.ref013" ref-type="bibr">13</xref>].
+Carbamate and organophosphate insecticides target the acetylcholinesterase enzyme
+(AChE) [<xref rid="pntd.0010000.ref014" ref-type="bibr">14</xref>], while the other
+two groups- synthetic pyrethroids and DDT attack the voltage-gated sodium channel in
+the neuron membrane which results in prolonged opening of the channel causing
+involuntary muscle spasms and death, a condition termed as the knock down effect
+[<xref rid="pntd.0010000.ref014" ref-type="bibr">14</xref>,<xref rid="pntd.0010000.ref015" ref-type="bibr">15</xref>]. With the rising problem of DDT resistance
+in mosquito vectors, in the mid-1970s synthetic pyrethroids in the form of
+deltamethrin, cypermethrin and permethrin were introduced for mosquito vector
+control. However, excessive use of DDT in the past and synthetic pyrethroids in
+present to combat the agricultural pests and vectors carrying many human diseases
+have resulted in the development of resistance in the pest population known as knock
+down resistance (kdr) through point mutation in the sodium channel gene, thereby
+rendering the channel unfit for insecticide binding. Mutation in the 1014 position
+of voltage-gated sodium channel gene from Leucine to Phenylalanine (L1014F) is the
+most common kdr mutation found in <italic toggle="yes">Culex sp</italic>. and the only kdr
+mutation found in <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic>. In
+<italic toggle="yes">Culex sp</italic>., the L1014S mutation (Leucine to Serine) has only
+been found in <italic toggle="yes">Cx</italic>. <italic toggle="yes">pallens</italic> and <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">pipiens</italic> until now.</p><p>The objective of this study was to map resistance status of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> from two lymphatic filariasis endemic
+districts of West Bengal against different insecticides and to screen the presence
+of kdr mutations in the sodium channel gene associated with insecticide resistance.
+The involvement of metabolic enzymes in resistance development through synergistic
+assays was also evaluated.</p></sec><sec sec-type="materials|methods" id="sec005"><title>2. Material and methods</title><sec id="sec006"><title>2.1. Ethics statement</title><p>The Institutional Animal Ethics Committee (IAEC) Department of Zoology,
+University of North Bengal (Regn no. 840/GO/Re/S/04/CPCSEA) granted a waiver for
+ethics approval as there was no human trail or higher vertebrates involved in
+the present study. The IAEC also approved the use of rat for blood feeding
+(approval no. IAEC/NBU/2019/19). All procedures were performed in accordance
+with relevant guidelines of the IAEC and ARRIVE.</p></sec><sec id="sec007"><title>2.2. Study area</title><p>Field <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> populations for the
+study were collected from two districts of West Bengal, India- Coochbehar and
+Malda (<xref rid="pntd.0010000.g001" ref-type="fig">Fig 1</xref>). These two
+districts out of total eight districts in northern West Bengal are endemic to
+the disease lymphatic filariasis. These districts have a tropical climate with
+four seasons–dry season (March–April), rainy season (May–September), autumn
+season (October) and winter season (November–February). The northern part of
+West Bengal receives an annual rainfall of 200–400 cm and has an average
+temperature range of about 30°C during summers. Coochbehar district has a
+population of about 2.82 million and Malda about 3.9 million, both share
+international borders with Bangladesh [<xref rid="pntd.0010000.ref016" ref-type="bibr">16</xref>]. Therefore, insecticide susceptibility
+mapping of wild <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> was
+carried in these two districts owing to their disease endemicity, dense
+population, poor sanitation and infrastructure.</p><fig position="float" id="pntd.0010000.g001" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pntd.0010000.g001</object-id><label>Fig 1</label><caption><title>Map showing six sampling sites in two districts of northern part of
+West Bengal.</title><p>(Figure created using QGIS software version 3.22. Shape file of India and
+West Bengal downloaded from: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/" ext-link-type="uri">https://www.naturalearthdata.com/downloads/10m-cultural-vectors/</ext-link>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pntd.0010000.g001.jpg"/></fig></sec><sec id="sec008"><title>2.3. Mosquito collection</title><p>Mosquito larvae and pupae were collected from 3 densely populated sites in
+Coochbehar and Malda districts (<xref rid="pntd.0010000.t001" ref-type="table">Table 1</xref> and <xref rid="pntd.0010000.g001" ref-type="fig">Fig
+1</xref>) and was labeled as F0. Sampling was conducted from January
+2019—February 2020 from natural breeding habitats of <italic toggle="yes">Culex
+sp–</italic>drains, stagnant water, pools, plastic containers, sewers and
+cemented channels. A 500 ml plastic beaker was used for the purpose and 8–10
+dips were made at a particular sampling site. Average larval density was
+calculated for each sampling site. Prior permission from land owners were taken
+when sampling from private areas and from Officer-in-charge for sampling from
+Government areas. In the laboratory, <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinqueasciatus</italic> larvae and pupae were identified following
+standard mosquito identification keys [<xref rid="pntd.0010000.ref017" ref-type="bibr">17</xref>] and reared to F1 generation under
+controlled laboratory conditions. Adult bioassay test and kdr mutation screening
+was performed with the F1 generation in order to maintain population
+homogeneity.</p><table-wrap position="float" id="pntd.0010000.t001" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pntd.0010000.t001</object-id><label>Table 1</label><caption><title>Sampling details of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> from Coochbehar and Malda
+districts of West Bengal.</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pntd.0010000.t001g" position="float" orientation="portrait" xlink:href="pntd.0010000.t001.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Sampling site</th><th align="left" rowspan="1" colspan="1">Coordinates</th><th align="left" rowspan="1" colspan="1">District</th><th align="left" rowspan="1" colspan="1">Nature of habitat</th><th align="left" rowspan="1" colspan="1">Total mosquito collected</th><th align="left" rowspan="1" colspan="1">Average larval density /500 ml</th><th align="left" rowspan="1" colspan="1">Co-existence of other species</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Coochbehar Town (COB)</td><td align="left" rowspan="1" colspan="1">26.3452°N, 89.4482°E</td><td align="left" rowspan="3" colspan="1">Coochbehar</td><td align="left" rowspan="1" colspan="1">Muddy drains, stagnant water body</td><td align="left" rowspan="1" colspan="1">2,654</td><td align="left" rowspan="1" colspan="1">798.20</td><td align="left" rowspan="1" colspan="1"><italic toggle="yes">Anopheles sp</italic>.,
+chironomids</td></tr><tr><td align="left" rowspan="1" colspan="1">Tufanganj (TFG)</td><td align="left" rowspan="1" colspan="1">26.3305°N, 89.6675°E</td><td align="left" rowspan="1" colspan="1">Cemented drains, channels</td><td align="left" rowspan="1" colspan="1">2,820</td><td align="left" rowspan="1" colspan="1">841.40</td><td align="left" rowspan="1" colspan="1">Chironomids, drain flies</td></tr><tr><td align="left" rowspan="1" colspan="1">Mekhliganj (MEK)</td><td align="left" rowspan="1" colspan="1">26.3474°N, 88.9102°E</td><td align="left" rowspan="1" colspan="1">Muddy pool of water, channels</td><td align="left" rowspan="1" colspan="1">3,281</td><td align="left" rowspan="1" colspan="1">822.10</td><td align="left" rowspan="1" colspan="1">Drain flies</td></tr><tr><td align="left" rowspan="1" colspan="1">Malda town (MLT),</td><td align="left" rowspan="1" colspan="1">25.0166°N, 88.1305°E</td><td align="left" rowspan="3" colspan="1">Malda</td><td align="left" rowspan="1" colspan="1">Stagnant puddles, cemented drains</td><td align="left" rowspan="1" colspan="1">3,590</td><td align="left" rowspan="1" colspan="1">813.30</td><td align="left" rowspan="1" colspan="1"><italic toggle="yes">Anopheles sp</italic>., drain
+flies</td></tr><tr><td align="left" rowspan="1" colspan="1">Samsi (SAM)</td><td align="left" rowspan="1" colspan="1">25.2735°N, 88.0040°E</td><td align="left" rowspan="1" colspan="1">Cemented channels, muddy drains</td><td align="left" rowspan="1" colspan="1">2,796</td><td align="left" rowspan="1" colspan="1">769.50</td><td align="left" rowspan="1" colspan="1">Chironomids, drain flies</td></tr><tr><td align="left" rowspan="1" colspan="1">Harichchandrapur (HCP)</td><td align="left" rowspan="1" colspan="1">25.4068°N, 87.8669°E</td><td align="left" rowspan="1" colspan="1">Muddy drains, muddy pool</td><td align="left" rowspan="1" colspan="1">2,200</td><td align="left" rowspan="1" colspan="1">489.20</td><td align="left" rowspan="1" colspan="1">Drain flies</td></tr></tbody></table></alternatives></table-wrap></sec><sec id="sec009"><title>2.4. Laboratory rearing of susceptible mosquito population</title><p>Susceptible population of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic>
+was reared in laboratory following the protocol [<xref rid="pntd.0010000.ref018" ref-type="bibr">18</xref>]. Larvae and pupae of
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> were collected from
+drains and stagnant puddles in and around the medicinal garden of University of
+North Bengal (26.71°N, 88.35°E) located at a rural area of Darjeeling District.
+The University medicinal garden is organically maintained therefore, mosquito
+larvae collected were earlier not exposed to insecticides. The sample was
+brought to the laboratory and kept in enamel trays. Pupae were separated in 1000
+ml glass beakers to avoid over-crowding and covered with a mosquito net. Larvae
+were provided with ground fish feed (Optimum mini pellets; made in Thailand) and
+newly emerged adults with cotton balls soaked in 5% sucrose solution (Merck cat.
+no. 61806905001730), as food source. Three to four days old female mosquitoes
+blood fed on trimmed rat kept in a cage inside the rearing setup. Tap water
+boiled with hay and then cooled to room temperature was placed in a glass beaker
+and served as the egg laying apparatus. Egg rafts were transferred to another
+enamel tray where the eggs hatched into first instar larvae. During the entire
+rearing period, a temperature of 25 ± 2°C and relative humidity of 70–80% was
+maintained. Adults from tenth generation were used as the susceptible population
+(LAB strain) in this study.</p></sec><sec id="sec010"><title>2.5. Insecticides used</title><p>Insecticide impregnated papers (0.05% Deltamethrin, 0.05% Lamdacyhalothrin, 0.75%
+Permethrin, 4% DDT, 0.1% Propoxur and 5% Malathion) were purchased from
+University Sains Malaysia and belong to four different classes of
+insecticides.</p></sec><sec id="sec011"><title>2.6. Insecticide susceptibility tests</title><p>Adult bioassay tests with six different insecticides were performed following WHO
+guidelines [<xref rid="pntd.0010000.ref010" ref-type="bibr">10</xref>]. 25–30
+non blood-fed adults from each population and LAB strain were exposed to
+insecticide impregnated papers for an hour and then shifted to retention tubes.
+Adult mosquitoes from the assay were maintained at laboratory condition and
+provided with 5% sucrose solution to feed upon. After 24 hours of insecticide
+exposure, mortality percentages were calculated and each experiment was run
+thrice. In the control, 25–30 adult mosquitoes were exposed to filter paper
+sprayed with acetone and carrier oil. For the calculation of knock down time
+(KDT) of the synthetic pyrethroids and DDT, knocked down mosquitoes were
+calculated after every 10 minutes during the 1 hour exposure to
+insecticides.</p></sec><sec id="sec012"><title>2.7. Synergist assay</title><p>The synergist assays were conducted using two most commonly used synergists
+Piperonyl butoxide (PBO)–cytochrome P<sub>450</sub> (CYP<sub>450</sub>)
+inhibitor and Triphenyl phosphate (TPP)—carboxylesterases (CCEs) inhibitor.
+Therefore, the test was conducted in order to study the effectiveness of
+synergists in increasing the mortality rate of adult mosquitoes against
+insecticides by affecting the detoxifying enzymes. Synergists were used in their
+sub-lethal dose <italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>., 4% PBO and 10% TPP.
+Thirty non-blood fed adults (from each study site and LAB strain) were exposed
+to synergist impregnated paper for an hour after which they were exposed to
+insecticide impregnated paper for an hour. The mosquitoes were then shifted to
+retention tube like in the adult bioassay test and mortality counted after 24
+hours. The adult bioassay data was taken as positive control and exposure to
+insecticide-free filter paper was regarded as negative control for the synergist
+assay.</p></sec><sec id="sec013"><title>2.8. DNA extraction</title><p>Genomic DNA of 20 adult mosquitoes each from six study sites that survived after
+24 hours of bioassay test against synthetic pyrethroids and DDT were extracted
+according to the High Salt protocol [<xref rid="pntd.0010000.ref019" ref-type="bibr">19</xref>] with minor modifications. Individual
+mosquito was homogenized using digestion buffer in a 1.5 ml micro-centrifuge
+tube. 20 μl proteinase K was added and the samples incubated at 55–60°C in a
+water bath for at least 2 hours. Chloroform and sodium chloride solution was
+then added and the sample centrifuged at 14000 g for 15 mins. The supernatant
+was transferred to new micro-centrifuge tube, chilled 70% ethanol added and
+centrifuged at 10000 g for 5 mins. The supernatant was discarded and pellet
+suspended in autoclaved distilled water and stored at –20°C for further use. The
+same protocol was followed to extract DNA from 20 (twenty) adults of LAB strain,
+with no prior exposure to insecticides.</p></sec><sec id="sec014"><title>2.9. Detection of kdr mutation</title><p>Allele-specific PCR (AS-PCR) reactions were performed using the extracted genomic
+DNA individually to detect two kdr mutations at the sodium channel gene, L1014F
+and L1014S following the standard protocol [<xref rid="pntd.0010000.ref020" ref-type="bibr">20</xref>,<xref rid="pntd.0010000.ref021" ref-type="bibr">21</xref>] with minor modifications. Cgd1
+(5-GTGGAACTTCACCGACTTC-3), Cgd2 (5-GCAAGGCTAAGAAAAGGTTAAG-3), Cgd3
+(5-CCACCGTAGTGATAGGAAATTTA-3) and Cgd4 (5-CCACCGTAGTGATAGGAAATTTT-3) primers
+were used to detect the L1014F mutation [<xref rid="pntd.0010000.ref020" ref-type="bibr">20</xref>,<xref rid="pntd.0010000.ref021" ref-type="bibr">21</xref>] and an additional primer Cgd5
+(5-CCACCGTAGTGATAGGAAATTC-3) for L1014S was used in the assay. Four PCR
+reactions were run in parallel. Cgd1 and Cgd2 primers were combined in the first
+reaction, Cgd2 and Cgd3 in the second, Cgd2 and Cgd4 in third reaction and Cgd2
+and Cgd5 primers combined in the fourth reaction. PCR conditions were an initial
+denaturation at 95°C for 15 min, followed by 30 cycles at 94°C for 45 seconds,
+49°C for 45 secs, 72°C for 45 secs, and a final extension of 10 mins at 72°C.
+The amplified fragments were analysed on 3% agarose gels under UV light.
+Ethidium bromide was used to stain the agarose gel. Cgd 1–2 primers provided a
+product size of 540 base pair and Cgd 3, 4 and 5 primers amplified bands at 380
+base pair (<xref rid="pntd.0010000.s001" ref-type="supplementary-material">S1
+Fig</xref>). Two PCR products amplified using Cgd1 and Cgd2 primers from
+each population were sequenced (Bioserve Biotechnologies (I) Pvt. Ltd.) to
+confirm the presence of mutations (<xref rid="pntd.0010000.s002" ref-type="supplementary-material">S2 Fig</xref>).</p></sec><sec id="sec015"><title>2.10. Calculations</title><p>Mortality percentages against each insecticides were calculated and the mosquito
+populations were termed resistant (&lt;90% mortality), susceptible (98–100%
+mortality) and unconfirmed resistance (90–98% mortality) accordingly [<xref rid="pntd.0010000.ref010" ref-type="bibr">10</xref>]. In case of more than
+10% mortality in control setup, the data was corrected using Abbott’s formula.
+Mortality percentages of adult bioassay data were subjected to one way ANOVA at
+95% confidence level in SPSS software version 21.0. KDT<sub>50</sub> and
+KDT<sub>90</sub> values were also calculated using SPSS software version
+21.0 at 95% confidence level by subjecting knocked down values to probit
+analysis.</p></sec></sec><sec sec-type="results" id="sec016"><title>3. Results</title><sec id="sec017"><title>3.1. Mosquito collection</title><p>A total of 17,341 mosquito larvae and pupae were collected from six different
+sites of the two districts. Immature stages of <italic toggle="yes">Anopheles sp</italic>.,
+Chironomids and drain flies were also found to be associated with
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> larvae in most of the
+breeding habitats. Details of the mosquito collection, nature of the sampling
+site and its larval density, co-existence of other species are provided in <xref rid="pntd.0010000.t001" ref-type="table">Table 1</xref>.</p></sec><sec id="sec018"><title>3.2. Adult bioassay</title><p><italic toggle="yes">Culex quinquefasciatus</italic> adults from six different sampling sites
+were found to be resistant to multiple insecticides as they showed low mortality
+percentages against all six insecticides used in the study (<xref rid="pntd.0010000.t002" ref-type="table">Table 2</xref>). Mortality percent
+ranged from 7.69–36.36 for deltamethrin, 4–34.61 for lambdacyhalothrin,
+11.11–36.36 for permethrin, 0–34.61 for DDT, 0–18.18 for propoxur and 0–8 for
+malathion (<xref rid="pntd.0010000.t002" ref-type="table">Table 2</xref>).
+KDT<sub>50</sub> and KDT<sub>90</sub> values against synthetic pyrethroids
+and DDT ranged from 157.04–1132.28 minutes (<xref rid="pntd.0010000.t003" ref-type="table">Table 3</xref>). Such high KDT values show a greater
+amount of time taken by the insecticides to knockdown 50% and 90% mosquito
+population thereby leading to the onset of resistance.</p><table-wrap position="float" id="pntd.0010000.t002" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pntd.0010000.t002</object-id><label>Table 2</label><caption><title>Mortality rate (in percent) of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> from Coochbehar and Malda
+districts against six insecticides. M%- mortality percentage; S.E-
+Standard error; n-total number of mosquito adults.</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pntd.0010000.t002g" position="float" orientation="portrait" xlink:href="pntd.0010000.t002.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Sampling site</th><th align="left" rowspan="1" colspan="1">Deltamethrin<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Lambdacyhalothrin<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Permethrin<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">DDT<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Propoxur<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Malathion<break/>M% ± S.E</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">COB</td><td align="left" rowspan="1" colspan="1">8.00 ± 0.62 (n = 90)</td><td align="left" rowspan="1" colspan="1">11.11 ±0.64 (n = 84)</td><td align="left" rowspan="1" colspan="1">23.08 ±0.10 (n = 78)</td><td align="left" rowspan="1" colspan="1">4.00 ±0.09 (n = 86)</td><td align="left" rowspan="1" colspan="1">18.18 ±0.13 (n = 90)</td><td align="left" rowspan="1" colspan="1">3.70 ±0.28 (n = 82)</td></tr><tr><td align="left" rowspan="1" colspan="1">TFG</td><td align="left" rowspan="1" colspan="1">36.36 ±0.37 (n = 87)</td><td align="left" rowspan="1" colspan="1">34.61 ±0.40 (n = 79)</td><td align="left" rowspan="1" colspan="1">36.36 ±1.83 (n = 90)</td><td align="left" rowspan="1" colspan="1">34.61 ±0.41 (n = 78)</td><td align="left" rowspan="1" colspan="1">10.00 ±0.09 (n = 90)</td><td align="left" rowspan="1" colspan="1">0.00 ±0.00(n = 79)</td></tr><tr><td align="left" rowspan="1" colspan="1">MEK</td><td align="left" rowspan="1" colspan="1">7.69 ±0.15 (n = 85)</td><td align="left" rowspan="1" colspan="1">9.67 ±0.90 (n = 90)</td><td align="left" rowspan="1" colspan="1">31.03 ±0.81 (n = 84)</td><td align="left" rowspan="1" colspan="1">6.25 ±0.12 (n = 76)</td><td align="left" rowspan="1" colspan="1">3.57 ±0.17 (n = 81)</td><td align="left" rowspan="1" colspan="1">3.22 ±0.56 (n = 78)</td></tr><tr><td align="left" rowspan="1" colspan="1">MLT</td><td align="left" rowspan="1" colspan="1">12.00 ±0.61 (n = 90)</td><td align="left" rowspan="1" colspan="1">4.00 ±0.13 (n = 86)</td><td align="left" rowspan="1" colspan="1">11.11 ±0.64 (n = 82)</td><td align="left" rowspan="1" colspan="1">0.00 ±0.00 (n = 82)</td><td align="left" rowspan="1" colspan="1">3.45 ±0.28 (n = 83)</td><td align="left" rowspan="1" colspan="1">8.00 ±0.41 (n = 90)</td></tr><tr><td align="left" rowspan="1" colspan="1">SAM</td><td align="left" rowspan="1" colspan="1">11.54 ±1.85 (n = 90)</td><td align="left" rowspan="1" colspan="1">7.32 ±0.67 (n = 78)</td><td align="left" rowspan="1" colspan="1">14.28 ±0.37 (n = 89)</td><td align="left" rowspan="1" colspan="1">3.57 ±0.10 (n = 84)</td><td align="left" rowspan="1" colspan="1">0.00 ±0.00 (n = 89)</td><td align="left" rowspan="1" colspan="1">0.00 ±0.00 (n = 85)</td></tr><tr><td align="left" rowspan="1" colspan="1">HCP</td><td align="left" rowspan="1" colspan="1">14.28 ±0.73 (n = 87)</td><td align="left" rowspan="1" colspan="1">34.61 ±1.28 (n = 90)</td><td align="left" rowspan="1" colspan="1">20 .00±0.52 (n = 78)</td><td align="left" rowspan="1" colspan="1">0.00 ±0.00 (n = 90)</td><td align="left" rowspan="1" colspan="1">12.90 ±0.16 (n = 81)</td><td align="left" rowspan="1" colspan="1">0.00 ±0.00 (n = 83)</td></tr><tr><td align="left" rowspan="1" colspan="1">LAB strain</td><td align="left" rowspan="1" colspan="1">100 ± 0.00 (n = 90)</td><td align="left" rowspan="1" colspan="1">99.36 ± 0.26 (n = 90)</td><td align="left" rowspan="1" colspan="1">100 ± 0.00 (n = 90)</td><td align="left" rowspan="1" colspan="1">98.92 ± 0.09 (n = 90)</td><td align="left" rowspan="1" colspan="1">100 ± 0.00 (n = 90)</td><td align="left" rowspan="1" colspan="1">100 ± 0.00 (n = 90)</td></tr></tbody></table></alternatives></table-wrap><table-wrap position="float" id="pntd.0010000.t003" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pntd.0010000.t003</object-id><label>Table 3</label><caption><title>KDT<sub>50</sub> and KDT<sub>90</sub> values (in minute) of
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> populations
+against Synthetic pyrethroids and DDT.</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pntd.0010000.t003g" position="float" orientation="portrait" xlink:href="pntd.0010000.t003.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="2" colspan="1">Sampling site</th><th align="left" colspan="2" rowspan="1">Deltamethrin</th><th align="left" colspan="2" rowspan="1">Lambdacyhalothrin</th><th align="left" colspan="2" rowspan="1">Permethrin</th><th align="left" colspan="2" rowspan="1">DDT</th></tr><tr><th align="left" rowspan="1" colspan="1">KDT<sub>50</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>90</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>50</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>90</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>50</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>90</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>50</sub></th><th align="left" rowspan="1" colspan="1">KDT<sub>90</sub></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">COB</td><td align="left" rowspan="1" colspan="1">189.38</td><td align="left" rowspan="1" colspan="1">382.77</td><td align="left" rowspan="1" colspan="1">199.48</td><td align="left" rowspan="1" colspan="1">412.43</td><td align="left" rowspan="1" colspan="1">221.19</td><td align="left" rowspan="1" colspan="1">478.14</td><td align="left" rowspan="1" colspan="1">378.90</td><td align="left" rowspan="1" colspan="1">1132.28</td></tr><tr><td align="left" rowspan="1" colspan="1">TFG</td><td align="left" rowspan="1" colspan="1">199.80</td><td align="left" rowspan="1" colspan="1">494.27</td><td align="left" rowspan="1" colspan="1">378.90</td><td align="left" rowspan="1" colspan="1">1132.28</td><td align="left" rowspan="1" colspan="1">212.91</td><td align="left" rowspan="1" colspan="1">614.45</td><td align="left" rowspan="1" colspan="1">378.89</td><td align="left" rowspan="1" colspan="1">1132.28</td></tr><tr><td align="left" rowspan="1" colspan="1">MEK</td><td align="left" rowspan="1" colspan="1">378.90</td><td align="left" rowspan="1" colspan="1">1132.28</td><td align="left" rowspan="1" colspan="1">157.04</td><td align="left" rowspan="1" colspan="1">315.68</td><td align="left" rowspan="1" colspan="1">129.57</td><td align="left" rowspan="1" colspan="1">246.38</td><td align="left" rowspan="1" colspan="1">221.19</td><td align="left" rowspan="1" colspan="1">478.14</td></tr><tr><td align="left" rowspan="1" colspan="1">MLT</td><td align="left" rowspan="1" colspan="1">344.56</td><td align="left" rowspan="1" colspan="1">984.90</td><td align="left" rowspan="1" colspan="1">344.50</td><td align="left" rowspan="1" colspan="1">984.87</td><td align="left" rowspan="1" colspan="1">171.30</td><td align="left" rowspan="1" colspan="1">331.14</td><td align="left" rowspan="1" colspan="1">------</td><td align="left" rowspan="1" colspan="1">------</td></tr><tr><td align="left" rowspan="1" colspan="1">SAM</td><td align="left" rowspan="1" colspan="1">130.05</td><td align="left" rowspan="1" colspan="1">238.83</td><td align="left" rowspan="1" colspan="1">391.12</td><td align="left" rowspan="1" colspan="1">1055.05</td><td align="left" rowspan="1" colspan="1">143.17</td><td align="left" rowspan="1" colspan="1">273.04</td><td align="left" rowspan="1" colspan="1">248.85</td><td align="left" rowspan="1" colspan="1">752.60</td></tr><tr><td align="left" rowspan="1" colspan="1">HCP</td><td align="left" rowspan="1" colspan="1">141.01</td><td align="left" rowspan="1" colspan="1">269.26</td><td align="left" rowspan="1" colspan="1">116.31</td><td align="left" rowspan="1" colspan="1">208.73</td><td align="left" rowspan="1" colspan="1">103.53</td><td align="left" rowspan="1" colspan="1">179.80</td><td align="left" rowspan="1" colspan="1">------</td><td align="left" rowspan="1" colspan="1">------</td></tr><tr><td align="left" rowspan="1" colspan="1">LAB strain</td><td align="left" rowspan="1" colspan="1">42.30</td><td align="left" rowspan="1" colspan="1">83.56</td><td align="left" rowspan="1" colspan="1">55.62</td><td align="left" rowspan="1" colspan="1">107.28</td><td align="left" rowspan="1" colspan="1">58.17</td><td align="left" rowspan="1" colspan="1">96.24</td><td align="left" rowspan="1" colspan="1">49.25</td><td align="left" rowspan="1" colspan="1">103.24</td></tr></tbody></table></alternatives></table-wrap></sec><sec id="sec019"><title>3.3. Synergist assay</title><p>Result of the synergist assays showed a non-significant increase in the mortality
+rate of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> adults against
+insecticides used (<xref rid="pntd.0010000.t004" ref-type="table">Table
+4</xref>). Susceptibility of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> populations to synthetic pyrethroids and
+DDT could not be restored with the use of two synergists though there was an
+increase in the mortality rate. Likewise, mortality percentage against malathion
+and propoxur showed an increase when compared to the mortality rate of adult
+bioassay test but the observed resistant status could not be reverted to
+susceptible indicating only a minor involvement of major detoxifying enzymes
+behind resistance in the two districts. Thus, CYP<sub>450</sub>s and CCEs are
+probably not the major mechanism of resistance in the populations under
+study.</p><table-wrap position="float" id="pntd.0010000.t004" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pntd.0010000.t004</object-id><label>Table 4</label><caption><title>Mortality rate (in percent) of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> populations after exposure to
+synergists and insecticides.</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pntd.0010000.t004g" position="float" orientation="portrait" xlink:href="pntd.0010000.t004.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Sampling site</th><th align="left" rowspan="1" colspan="1">Synergist</th><th align="left" rowspan="1" colspan="1">Deltamethrin<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Lambdacyhalothrin<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Permethrin<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">DDT<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Propoxur<break/>M% ± S.E</th><th align="left" rowspan="1" colspan="1">Malathion<break/>M% ± S.E</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">COB</td><td align="left" rowspan="6" colspan="1">PBO</td><td align="left" rowspan="1" colspan="1">30.43±0.82</td><td align="left" rowspan="1" colspan="1">29.24±0.58</td><td align="left" rowspan="1" colspan="1">32.81±0.05</td><td align="left" rowspan="1" colspan="1">7.73±0.04</td><td align="left" rowspan="1" colspan="1">31.03±0.21</td><td align="left" rowspan="1" colspan="1">20.80±0.34</td></tr><tr><td align="left" rowspan="1" colspan="1">TFG</td><td align="left" rowspan="1" colspan="1">9.09±0.06</td><td align="left" rowspan="1" colspan="1">35.00±1.63</td><td align="left" rowspan="1" colspan="1">75.00±0.72</td><td align="left" rowspan="1" colspan="1">5.56±0.17</td><td align="left" rowspan="1" colspan="1">23.08±0.57</td><td align="left" rowspan="1" colspan="1">3.20±0.03</td></tr><tr><td align="left" rowspan="1" colspan="1">MEK</td><td align="left" rowspan="1" colspan="1">93.10±1.92</td><td align="left" rowspan="1" colspan="1">51.35±2.84</td><td align="left" rowspan="1" colspan="1">9.00±0.19</td><td align="left" rowspan="1" colspan="1">87.50±0.06</td><td align="left" rowspan="1" colspan="1">78.79±0.76</td><td align="left" rowspan="1" colspan="1">85.18±0.45</td></tr><tr><td align="left" rowspan="1" colspan="1">MLT</td><td align="left" rowspan="1" colspan="1">23.85±0.18</td><td align="left" rowspan="1" colspan="1">16.22±0.67</td><td align="left" rowspan="1" colspan="1">21.36±0.42</td><td align="left" rowspan="1" colspan="1">7.54±0.76</td><td align="left" rowspan="1" colspan="1">14.81±0.07</td><td align="left" rowspan="1" colspan="1">14.81±1.29</td></tr><tr><td align="left" rowspan="1" colspan="1">SAM</td><td align="left" rowspan="1" colspan="1">21.43±0.36</td><td align="left" rowspan="1" colspan="1">12.00±0.94</td><td align="left" rowspan="1" colspan="1">19.23±0.42</td><td align="left" rowspan="1" colspan="1">9.57±0.05</td><td align="left" rowspan="1" colspan="1">15.21±0.43</td><td align="left" rowspan="1" colspan="1">10.71±0.08</td></tr><tr><td align="left" rowspan="1" colspan="1">HCP</td><td align="left" rowspan="1" colspan="1">88.46±0.54</td><td align="left" rowspan="1" colspan="1">68.75±0.68</td><td align="left" rowspan="1" colspan="1">61.90±0.61</td><td align="left" rowspan="1" colspan="1">20.00±0.16</td><td align="left" rowspan="1" colspan="1">48.39±0.63</td><td align="left" rowspan="1" colspan="1">21.30±0.17</td></tr><tr><td align="left" rowspan="1" colspan="1">LAB strain</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">99.54±0.42</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td></tr><tr><td align="left" rowspan="1" colspan="1">COB</td><td align="left" rowspan="7" colspan="1">TPP</td><td align="left" rowspan="1" colspan="1">22.83±0.28</td><td align="left" rowspan="1" colspan="1">35.31±1.57</td><td align="left" rowspan="1" colspan="1">27.73±0.18</td><td align="left" rowspan="1" colspan="1">6.91±0.06</td><td align="left" rowspan="1" colspan="1">29.42±0.82</td><td align="left" rowspan="1" colspan="1">21.74±0.43</td></tr><tr><td align="left" rowspan="1" colspan="1">TFG</td><td align="left" rowspan="1" colspan="1">15.00±0.16</td><td align="left" rowspan="1" colspan="1">85.71±0.09</td><td align="left" rowspan="1" colspan="1">70.37±0.49</td><td align="left" rowspan="1" colspan="1">25.00±0.18</td><td align="left" rowspan="1" colspan="1">5.26±0.46</td><td align="left" rowspan="1" colspan="1">11.11±0.08</td></tr><tr><td align="left" rowspan="1" colspan="1">MEK</td><td align="left" rowspan="1" colspan="1">87.50±0.54</td><td align="left" rowspan="1" colspan="1">86.21±0.43</td><td align="left" rowspan="1" colspan="1">60.00±1.57</td><td align="left" rowspan="1" colspan="1">84.85±1.59</td><td align="left" rowspan="1" colspan="1">79.17±1.81</td><td align="left" rowspan="1" colspan="1">83.33±2.57</td></tr><tr><td align="left" rowspan="1" colspan="1">MLT</td><td align="left" rowspan="1" colspan="1">10.34±1.37</td><td align="left" rowspan="1" colspan="1">15.00±0.04</td><td align="left" rowspan="1" colspan="1">4.76±0.83</td><td align="left" rowspan="1" colspan="1">12.50±0.48</td><td align="left" rowspan="1" colspan="1">10.71±0.75</td><td align="left" rowspan="1" colspan="1">13.04±0.46</td></tr><tr><td align="left" rowspan="1" colspan="1">SAM</td><td align="left" rowspan="1" colspan="1">15.79±0.08</td><td align="left" rowspan="1" colspan="1">12.12±0.81</td><td align="left" rowspan="1" colspan="1">24.24±0.07</td><td align="left" rowspan="1" colspan="1">6.91±0.08</td><td align="left" rowspan="1" colspan="1">17.24±0.31</td><td align="left" rowspan="1" colspan="1">18.37±0.32</td></tr><tr><td align="left" rowspan="1" colspan="1">HCP</td><td align="left" rowspan="1" colspan="1">77.5±0.25</td><td align="left" rowspan="1" colspan="1">73.91±0.24</td><td align="left" rowspan="1" colspan="1">30.77±1.23</td><td align="left" rowspan="1" colspan="1">4.00±0.03</td><td align="left" rowspan="1" colspan="1">3.33±0.06</td><td align="left" rowspan="1" colspan="1">11.29±1.90</td></tr><tr><td align="left" rowspan="1" colspan="1">LAB strain</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td><td align="left" rowspan="1" colspan="1">100±0.00</td></tr></tbody></table></alternatives></table-wrap></sec><sec id="sec020"><title>3.4. Detection of kdr</title><p>The PCR analysis of kdr allele showed presence of 5 genotype frequencies in
+varying number in all study areas. L1014F mutation was found to occur in all
+study sites with maximum resistant homozygote (F/F) genotype frequency in Malda
+(30%) followed by MEK (25%) and HCP (25%) (<xref rid="pntd.0010000.t005" ref-type="table">Table 5</xref>). TFG showed highest heterozygote
+genotype frequency (L/F) of 35% followed by COB (25%). The homozygote wild
+genotype frequency (L/L) was comparatively higher ranging from 35–50%. The
+mosquito population under study showed an average resistant allele frequency (F)
+to be at 28.75% of the entire population with Malda showing the highest allele
+frequency <italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>., 37.5% of the population. No
+kdr mutation was observed in LAB strain (susceptible population).</p><table-wrap position="float" id="pntd.0010000.t005" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pntd.0010000.t005</object-id><label>Table 5</label><caption><title>Genotypic and allelic frequencies of L1014F and L1014S kdr mutations
+in <italic toggle="yes">Culex quinquefasciatus</italic> from two districts of West
+Bengal.</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pntd.0010000.t005g" position="float" orientation="portrait" xlink:href="pntd.0010000.t005.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="2" colspan="1">Sampling site</th><th align="left" colspan="5" rowspan="1">Genotype frequency (%)</th><th align="left" colspan="3" rowspan="1">Allele frequency</th><th align="left" rowspan="2" colspan="1">F<sub>IS</sub></th></tr><tr><th align="left" rowspan="1" colspan="1">LL</th><th align="left" rowspan="1" colspan="1">LF</th><th align="left" rowspan="1" colspan="1">FF</th><th align="left" rowspan="1" colspan="1">LS</th><th align="left" rowspan="1" colspan="1">SS</th><th align="left" rowspan="1" colspan="1">L</th><th align="left" rowspan="1" colspan="1">F</th><th align="left" rowspan="1" colspan="1">S</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">COB</td><td align="left" rowspan="1" colspan="1">50</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0.675</td><td align="left" rowspan="1" colspan="1">0.225</td><td align="left" rowspan="1" colspan="1">0.1</td><td align="left" rowspan="1" colspan="1">-0.447</td></tr><tr><td align="left" rowspan="1" colspan="1">TFG</td><td align="left" rowspan="1" colspan="1">35</td><td align="left" rowspan="1" colspan="1">35</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">30</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0.675</td><td align="left" rowspan="1" colspan="1">0.175</td><td align="left" rowspan="1" colspan="1">0.15</td><td align="left" rowspan="1" colspan="1">-1.646</td></tr><tr><td align="left" rowspan="1" colspan="1">MEK</td><td align="left" rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0.525</td><td align="left" rowspan="1" colspan="1">0.325</td><td align="left" rowspan="1" colspan="1">0.15</td><td align="left" rowspan="1" colspan="1">0.161</td></tr><tr><td align="left" rowspan="1" colspan="1">MLT</td><td align="left" rowspan="1" colspan="1">35</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">30</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0.475</td><td align="left" rowspan="1" colspan="1">0.375</td><td align="left" rowspan="1" colspan="1">0.15</td><td align="left" rowspan="1" colspan="1">0.182</td></tr><tr><td align="left" rowspan="1" colspan="1">SAM</td><td align="left" rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0.575</td><td align="left" rowspan="1" colspan="1">0.3</td><td align="left" rowspan="1" colspan="1">0.125</td><td align="left" rowspan="1" colspan="1">-0.242</td></tr><tr><td align="left" rowspan="1" colspan="1">HCP</td><td align="left" rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0.525</td><td align="left" rowspan="1" colspan="1">0.325</td><td align="left" rowspan="1" colspan="1">0.15</td><td align="left" rowspan="1" colspan="1">0.161</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t005fn001"><p>No FS individuals were found so it has been omitted from the table.
+F<sub>IS</sub> is Wright Index of inbreeding coefficient which
+measures the probability of inbreeding in a population due to
+non-random mating. When F<sub>IS</sub> is a negative value the
+population is an outbreed population; F<sub>IS</sub> &lt; 0.3
+indicates within range inbreeding. Bold value indicates inbreed
+population.</p></fn></table-wrap-foot></table-wrap><p>PCR analysis of L1014S mutation in the voltage-gated sodium channel gene also
+showed the presence of mutation but to a lower extent when compared to L1014F
+mutation in the same population (<xref rid="pntd.0010000.t005" ref-type="table">Table 5</xref>). Highest heterozygote genotype frequency (L/S) was shown by
+TFG (30%) and homozygote mutated genotype frequency (S/S) ranged from 5–10% in
+all of the populations under study. COB and TFG populations showed highest wild
+allele frequency (L) (67.5%), SAM 57.5% and the rest three populations showed
+47.5–52.5% allele frequency (<xref rid="pntd.0010000.t005" ref-type="table">Table 5</xref>). Resistant allele frequency ranged from 10–15%.</p></sec></sec><sec sec-type="conclusions" id="sec021"><title>4. Discussion</title><p>The prime objective of the present study was to assess the insecticide susceptibility
+status of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic>, a vector of
+lymphatic filariasis in two filariasis endemic districts of northern West Bengal
+against four classes of insecticides and also to find out the presence of kdr
+mutation in the vector population and its association with resistance to synthetic
+pyrethroids and DDT. High larval density observed in both the districts can be
+attributed to the ample habitat provided for mosquito breeding along with little or
+no control measures taken against this vector of lymphatic filariasis.</p><p>The field mosquito population showed severe resistance to propoxur—a carbamate
+insecticide (<xref rid="pntd.0010000.t002" ref-type="table">Table 2</xref>). The
+World Health Organisation Pesticide Evaluation Scheme (WHOPES) recommends 2 hours of
+exposure period to propoxur for <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic>. However, in this study to maintain the
+homogenity of the experiment, 1 hour exposure time was followed for all six
+insecticides. Till date, there is no report on propoxur being used as a mosquitocide
+in India [<xref rid="pntd.0010000.ref009" ref-type="bibr">9</xref>] thereby
+indicating the indirect exposure of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> to other insect repellents that contain
+propoxur and are used in the household. The indoor resting habit of this vector
+might have added upon its exposure to such repellents. Similar findings on
+resistance of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> to carbamate
+insecticides have been reported by researchers [<xref rid="pntd.0010000.ref010" ref-type="bibr">10</xref>,<xref rid="pntd.0010000.ref022" ref-type="bibr">22</xref>]. Likewise, the adult bioassay test of field
+caught population of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> showed
+severe resistance to malathion with three (TFG, SAM, HCP) out of six population
+showing zero mortality and MLT with highest mortality rate of 8%. Malathion
+belonging to organophosphate class of insecticide is not directly applied against
+mosquito as a part of mosquito control programmes but applied on large scale in the
+agricultural sector. Therefore, severe resistance to malathion observed in the
+present study may be linked to the indirect exposure of the vector population to
+malathion residues from the agricultural run-off which accumulate in the nearby
+drains and channels that might harbor <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> populations. The two districts under
+study–Coochbehar and Malda depends largely on the agricultural practices, Coochbehar
+cultivating mainly paddy, tobacco and jute and the district of Malda being dependent
+on prime orchard crops like mango, banana and litchi for their economy. Thus, the
+contamination of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> breeding
+habitats by the seeping of excessive malathion used in the agricultural practices in
+the adjoining drains leads to indirect exposure of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> to the insecticide thereby bringing about the
+onset of resistance development in the vector population [<xref rid="pntd.0010000.ref023" ref-type="bibr">23</xref>,<xref rid="pntd.0010000.ref024" ref-type="bibr">24</xref>].</p><p>Resistance to malathion in <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> has
+been reported to be associated with an increase in the production of non specific
+esterases [<xref rid="pntd.0010000.ref010" ref-type="bibr">10</xref>,<xref rid="pntd.0010000.ref025" ref-type="bibr">25</xref>,<xref rid="pntd.0010000.ref026" ref-type="bibr">26</xref>] and that of carbamate by an increased level
+of CCEs activity primarily and rarely by CYP<sub>450</sub>s and GSTs activity [<xref rid="pntd.0010000.ref027" ref-type="bibr">27</xref>]. No significant increase in
+mortality percent of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> in the
+synergism test with TPP except for MEK population show that the CCEs were not the
+major mechanism of resistance development in the studied populations of mosquito
+vector of Coochbehar and Malda districts. Moreover, similar result on the use of PBO
+suggest little involvement of CYP<sub>450</sub>s in resistance development as well
+thereupon providing a hint on the presence of other mechanisms of resistance mainly
+target-site mutation behind the observed resistance to malathion and propoxur.
+Organophosphates and carbamate being acetylcholinesterase inhibitor insecticides
+target the ace-1 gene [<xref rid="pntd.0010000.ref012" ref-type="bibr">12</xref>].
+Further studies on unveiling the molecular mechanism behind resistance development
+against these two classes of insecticides should be an important focus and carried
+out by mapping the presence of mutation in ace-1 gene which in turn leads to
+inhibition on the proper functioning of acetylcholinesterases.</p><p>Low mortality rates in the studied mosquito populations against three synthetic
+pyrethroids (deltamethrin, lambdacyhalothrin, permethrin) suggest a severe degree of
+resistance level against this insecticide class. This observed resistance in
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> populations of two
+filariasis endemic districts of West Bengal is of immense concern owing to the fact
+that synthetic pyrethroids are the only class of insecticides that are used in the
+insecticide impregnated bed nets as a control program against malaria as recommended
+by WHO in West Bengal and around the globe [<xref rid="pntd.0010000.ref028" ref-type="bibr">28</xref>] and for indoor spraying against mosquitoes
+owing to their rapid action and safety to humans. Many studies have already reported
+on the inefficiency of pyrethroid treated bed nets to counter <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> and malarial vector <italic toggle="yes">Anopheles</italic>
+species [<xref rid="pntd.0010000.ref029" ref-type="bibr">29</xref>,<xref rid="pntd.0010000.ref030" ref-type="bibr">30</xref>]. Though there are no
+reports on the application of pyrethroid insecticides directly on
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> in West Bengal, the
+domestic use of synthetic pyrethroids to control household pests and combat the
+nuisance caused by mosquito biting may be considered as the most probable cause of
+resistance development to synthetic pyrethroids in <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> as observed in the current study. Synthetic
+pyrethroids-containing products like mosquito coils, repellent oils, fumigants and
+sprays add upon the resistance development of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> to synthetic pyrethroids as this vector being
+anthropophilic [<xref rid="pntd.0010000.ref031" ref-type="bibr">31</xref>] and the
+adults rest indoors along with <italic toggle="yes">Aedes</italic> mosquitoes, come into direct
+contact to the insecticide class. Moreover, the application of pyrethroids in
+agricultural practices in Coochbehar and Malda districts together with
+organophosphates may create insecticide selection pressure on the vector population.
+This secondary resistance in non-target mosquito population has also been reported
+in a previous study from sub-Himalayan West Bengal [<xref rid="pntd.0010000.ref032" ref-type="bibr">32</xref>]. Similarly, resistance observed against DDT
+might also be linked to the secondary exposure of widespread use of DDT in the
+vector management programs [<xref rid="pntd.0010000.ref033" ref-type="bibr">33</xref>]. The two districts apart from being endemic to filariaisis are also
+endemic to dengue thereby increasing the probability of untargeted exposure to
+insecticides aimed at controlling the <italic toggle="yes">Aedes</italic> mosquito populations
+but applied mostly on drains- the natural habitat of <italic toggle="yes">Culex</italic>
+mosquitoes.</p><p>The higher KDT<sub>50</sub> and KDT<sub>90</sub> values in the study (<xref rid="pntd.0010000.t003" ref-type="table">Table 3</xref>) show a slower effect of
+synthetic pyrethroids and DDT on <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> from all six studied sites. As pyrethroids are
+mainly known for their rapid knock down effect on the target, longer knock down time
+taken by the vector population depicts an alternation in their target site thereupon
+imparting a negative impact on the insecticide receptor binding in the mosquito
+vector [<xref rid="pntd.0010000.ref034" ref-type="bibr">34</xref>]. This observation
+is well supported by the results of synergist assay test where both PBO and TPP
+exposure prior to DDT and pyrethroids exposure did not have a significant increase
+in mortality rate and was unable to revert the resistance status of
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> (<xref rid="pntd.0010000.t004" ref-type="table">Table 4</xref>). PBO and TPP are chemical synergists
+which when combined with insecticides inhibit the major detoxifying enzymes of
+vector thereby rendering the vector population susceptible to insecticides.
+Resistance to synthetic pyrethroids in insects is caused by an increased
+quantitative level of CYP<sub>450</sub>s metabolic enzymes [<xref rid="pntd.0010000.ref035" ref-type="bibr">35</xref>,<xref rid="pntd.0010000.ref036" ref-type="bibr">36</xref>] while synergist PBO inhibit the same [<xref rid="pntd.0010000.ref037" ref-type="bibr">37</xref>] therefore suggesting major
+role of other mechanisms of resistance apart from the metabolic enzymes in
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> from two districts of
+West Bengal. Skovmand <italic toggle="yes">et al</italic>., 2018 [<xref rid="pntd.0010000.ref038" ref-type="bibr">38</xref>] also reported similar indifference in
+mortality percentage of <italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic>
+against pyrethroids with the use of PBO though there are studies that contrast such
+findings [<xref rid="pntd.0010000.ref039" ref-type="bibr">39</xref>,<xref rid="pntd.0010000.ref040" ref-type="bibr">40</xref>]. The practice of
+incorporating PBO into pyrethroid-treated long lasting insecticide impregnated bed
+nets (LLINs) [<xref rid="pntd.0010000.ref037" ref-type="bibr">37</xref>] may
+therefore yield below expected results in controlling the vector population in these
+two districts.</p><p>ASPCR analysis of L1041F mutation in the <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> population in the two districts of West Bengal
+showed that the homozygote resistant genotype frequency ranged from 0–30%. In MLT
+30% of the tested mosquito population was found to have the dominant resistant
+genotype frequency. HCP in the same district and MEK in Coochbehar district showed
+25% resistant genotype frequency. This finding of the present study is of prime
+concern due to the high numbers of resistant homozygote in the population. Though
+kdr mutation is a recessive trait with dominant phenotype arising only in the
+presence of two homozygote mutant alleles yet, COB, TFG and SAM should also not be
+neglected because of their low homozygote resistant genotype frequency as these
+populations show high heterozygote genotype frequency (L/F). Moreover, low
+susceptible wild genotype frequency may cause problem in the long run of vector
+management with chemical insecticides as in high intensity of insecticide selection
+pressure, the lack of susceptible mosquitoes to pass their genes to the next
+generation may lead to irreversible state of insecticide resistance [<xref rid="pntd.0010000.ref013" ref-type="bibr">13</xref>].</p><p>Mutation in the 1014 codon of voltage-gated sodium channel gene from leucine to
+phenylalanine is the most common and widely studied kdr mutation in insects though
+L1014S (leucine to serine), L1014C (leucine to cysteine) and L1014H (leucine to
+histidine) mutations have also been reported [<xref rid="pntd.0010000.ref041" ref-type="bibr">41</xref>]. Presence of L1014F mutation in
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> have been studied and
+reported from sub-Himalayan West Bengal in a previous study [<xref rid="pntd.0010000.ref042" ref-type="bibr">42</xref>], India [<xref rid="pntd.0010000.ref021" ref-type="bibr">21</xref>] and from different regions of the world
+[<xref rid="pntd.0010000.ref011" ref-type="bibr">11</xref>,<xref rid="pntd.0010000.ref013" ref-type="bibr">13</xref>,<xref rid="pntd.0010000.ref020" ref-type="bibr">20</xref>,<xref rid="pntd.0010000.ref039" ref-type="bibr">39</xref>,<xref rid="pntd.0010000.ref043" ref-type="bibr">43</xref>,<xref rid="pntd.0010000.ref044" ref-type="bibr">44</xref>]. However, L1014S mutation in the
+voltage-gated sodium channel gene in <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> was not reported earlier. Higher survival rate
+of the studied mosquito population against synthetic pyrethroids and DDT together
+with the ineffectiveness of synergists to restore the susceptibility status of
+mosquito population and high frequency of L1014F mutation observed in the study
+indicates the association of kdr mutation with insecticide resistance in
+<italic toggle="yes">Cx</italic>. <italic toggle="yes">quinquefasciatus</italic> from six study sites of
+two filariaisis endemic districts. Moreover, there are similar findings of
+correlation between kdr mutation and inefficiency of the insecticides to control the
+vector population [<xref rid="pntd.0010000.ref045" ref-type="bibr">45</xref>–<xref rid="pntd.0010000.ref047" ref-type="bibr">47</xref>]. On the contrary, few
+studies differ from the above findings where mosquito vectors with high kdr
+frequency still show high mortality when treated with pyrethroid insecticides [<xref rid="pntd.0010000.ref048" ref-type="bibr">48</xref>,<xref rid="pntd.0010000.ref049" ref-type="bibr">49</xref>]. Thus, kdr mutation at DNA level alone is
+not sufficient to produce a resistant phenotype unless combined with RNA
+transcription [<xref rid="pntd.0010000.ref050" ref-type="bibr">50</xref>].</p><p>Comparatively higher survival rate of <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> to DDT than synthetic pyrethroids might be
+linked to the presence of L1014S mutation in the present study as this mutation is
+said to confer higher resistance to DDT than to pyrethroids [<xref rid="pntd.0010000.ref011" ref-type="bibr">11</xref>,<xref rid="pntd.0010000.ref020" ref-type="bibr">20</xref>,<xref rid="pntd.0010000.ref047" ref-type="bibr">47</xref>]. However, the presence of L1014S mutation
+in the study in low frequency when compared to L1014F mutation suggest the role of
+detoxifying enzymes apart from kdr mutation in the development of resistance against
+DDT in the mosquito population [<xref rid="pntd.0010000.ref011" ref-type="bibr">11</xref>,<xref rid="pntd.0010000.ref035" ref-type="bibr">35</xref>]. The
+phenomenon of cross resistance between DDT and synthetic pyrethroids can also not be
+ruled out due to the high frequency of L1014F mutation in the studied population
+[<xref rid="pntd.0010000.ref039" ref-type="bibr">39</xref>]. Though, different
+insecticide selection pressure combined with environmental factors influence the
+presence of a particular type of kdr mutation in the vector population [<xref rid="pntd.0010000.ref034" ref-type="bibr">34</xref>], secondary mutations
+occurring at the cytoplasmic portion of sodium channel further increase the
+resistance level associated with mutation at 1014 codon [<xref rid="pntd.0010000.ref051" ref-type="bibr">51</xref>].</p></sec><sec sec-type="conclusions" id="sec022"><title>5. Conclusion</title><p>This study first reports resistance status of wild <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic> populations to commonly used insecticides from
+filariasis endemic districts of northern West Bengal and also the presence of two
+kdr mutations pertaining to the observed resistance. To our knowledge this is the
+first report of the presence of L1014S mutation in <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">quinquefasciatus</italic>. Prior to this study, L1014S mutation was
+reported from <italic toggle="yes">Cx</italic>. <italic toggle="yes">pallens</italic> and <italic toggle="yes">Cx</italic>.
+<italic toggle="yes">pipiens</italic> only. The observed resistance can be linked to the
+presence of kdr mutations L1014F and L1014S in the sodium channel gene. Involvement
+of metabolic resistance in the studied populations was not found in the present
+study. Though, the presence of kdr mutation indicates resistance status in vectors
+other mechanisms of resistance and several co-factors combinely work to impact upon
+insecticide resistance level. Resistance development at a particular site depends on
+insect biology, dominant mechanisms of resistance and history on previous strategies
+taken to control vector population. As such, studying and monitoring the
+site-specific resistance intensity along with the mechanisms associated is
+important. Transmission of vector-borne diseases will increase in the years ahead
+especially those carried by <italic toggle="yes">Culex</italic> mosquitoes due to their
+opportunistic behavior, adaption to climate changes and poor sanitary conditions
+[<xref rid="pntd.0010000.ref052" ref-type="bibr">52</xref>] thereby further
+indicating on the need of mapping insecticide resistance of wild mosquito
+populations from different sub-regions of tropical and sub-tropical countries.</p></sec><sec id="sec023" sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="pntd.0010000.s001" position="float" content-type="local-data" orientation="portrait"><label>S1 Fig</label><caption><title>Gel electrophoresis image showing different bands obtained through
+allele-specific PCR (AS-PCR) of kdr mutation in voltage-gated sodium channel
+gene in <italic toggle="yes">Culex quinquefasciatus</italic> from West Bengal.</title><p>L1 and L7: 100–1500 bp DNA ladder, L2: PCR product at 540 bp depicting the
+region of mutation, L3, L4 and L5: PCR product at 380 bp depicting L1014F,
+L1014L and L1014S alleles respectively, L6: negative control.</p><p>(TIF)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pntd.0010000.s001.tif" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="pntd.0010000.s002" position="float" content-type="local-data" orientation="portrait"><label>S2 Fig</label><caption><title>Chromatogram obtained from sequencing of PCR product.</title><p>a. Wild type with no mutation in 311<sup>th</sup> or 312<sup>th</sup>
+Position (Leucine), b. Mutation from A to T in 312<sup>th</sup> Position
+(Leucine to Phenylalanine), c. Mutation from T to C in 311<sup>th</sup>
+Position (Leucine to Serine). Mutated base has been marked with an
+arrow.</p><p>(TIF)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pntd.0010000.s002.tif" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>The authors are grateful to the Head, Department of Zoology, University of North
+Bengal, for providing laboratory facilities.</p></ack><ref-list><title>References</title><ref id="pntd.0010000.ref001"><label>1</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Aditya</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Pramanik</surname><given-names>MK</given-names></name>, <name name-style="western"><surname>Saha</surname><given-names>GK</given-names></name>. <article-title>Larval habitats and species composition of mosquitoes in
+Darjeeling Himalayas, India.</article-title>
+<source>J Vector Borne Dis</source>. <year>2006</year>; <volume>43</volume>:
+<fpage>7</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="pmid">16642780</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref002"><label>2</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rudra</surname><given-names>SK</given-names></name>, <name name-style="western"><surname>Mukhopadhayay</surname><given-names>A</given-names></name>. <article-title>Prevalence of mosquito species in semi-urban and rural
+areas of Himalayan foothills and plains of terai of North Bengal adjacent to
+Siliguri, West Bengal, India.</article-title>
+<source>NBU J. Anim. Sc</source>. <year>2010</year>; <volume>4</volume>:
+<fpage>36</fpage>–<lpage>39</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref003"><label>3</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Okorie</surname><given-names>PN</given-names></name>, <name name-style="western"><surname>De Souza</surname><given-names>DK</given-names></name>. <article-title>Prospects, drawbacks and future needs of xenomonitoring
+for the endpoint evaluation of lymphatic filariasis elimination programs in
+Africa.</article-title>
+<source>T Roy Soc Trop Med H</source>. <year>2016</year>; <volume>110</volume>:
+<fpage>90</fpage>–<lpage>97</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1093/trstmh/trv104</pub-id>
+<pub-id pub-id-type="pmid">26822601</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref004"><label>4</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Fonseca</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Keyghobadi</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Malcolm</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Mehmet</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Schaffner</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Mogi</surname><given-names>M</given-names></name>, <etal>et al.</etal>
+<article-title>Emerging vectors in the <italic toggle="yes">Culex pipiens</italic>
+complex</article-title>. <source>Sci</source>. <year>2004</year>;
+<volume>303</volume>: <fpage>1535</fpage>–<lpage>1538</lpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1126/science.1094247</pub-id>
+<pub-id pub-id-type="pmid">15001783</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref005"><label>5</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Mackay</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Kramer</surname><given-names>WL</given-names></name>, <name name-style="western"><surname>Meece</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Brumfield</surname><given-names>RT</given-names></name>, <name name-style="western"><surname>Foil</surname><given-names>LD</given-names></name>. <article-title>Host feeding patterns of culex mosquitoes (Diptera:
+culicidae) in east baton rouge parish, Louisiana</article-title>. <source>J
+Med Entomol</source>. <year>2014</year>; <volume>47</volume>:
+<fpage>238</fpage>–<lpage>248</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1603/me09168</pub-id><pub-id pub-id-type="pmid">20380306</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref006"><label>6</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Guedes</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Paiva</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Donato</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Barbosa</surname><given-names>PP</given-names></name>, <name name-style="western"><surname>Krokovsky</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Rocha</surname><given-names>SW</given-names></name>, <etal>et al.</etal>
+<article-title>Zika virus replication in the mosquito <italic toggle="yes">Culex
+quinquefasciatus</italic> in Brazil.</article-title>
+<source>Emerg Microbes Infect</source>. <year>2017</year>; <volume>6</volume>:
+<fpage>69</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/emi.2017.59</pub-id>
+<pub-id pub-id-type="pmid">28790458</pub-id><pub-id pub-id-type="pmcid">PMC5583667</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref007"><label>7</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Atkinson</surname><given-names>CT</given-names></name>, <name name-style="western"><surname>Woods</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Dusek</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Sileo</surname><given-names>LS</given-names></name>, <name name-style="western"><surname>Iko</surname><given-names>WM</given-names></name>. <article-title>Wildlife disease and conservation in Hawaii:
+Pathogenicity of avian malaria (<italic toggle="yes">Plasmodium relictum</italic>) in
+experimentally</article-title>. <source>Ecology of Wildlife Host-Parasite
+Interactions</source>. <year>1995</year>; <volume>111</volume>:
+<fpage>59</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1017/s003118200007582x</pub-id><pub-id pub-id-type="pmid">8632925</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref008"><label>8</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rebollo</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Bockarie</surname><given-names>MJ</given-names></name>. <article-title>Can lymphatic filariasis be eliminated by
+2020</article-title>?. <source>Trends Parasitol</source>. <year>2017</year>;
+<volume>33</volume>: <fpage>83</fpage>–<lpage>92</lpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1016/j.pt.2016.09.009</pub-id>
+<pub-id pub-id-type="pmid">27765440</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref009"><label>9</label><mixed-citation publication-type="journal"><collab>NVBDCP</collab>. <source>National Vector Borne Disease Control
+Programme. Filariasis: Magnitude of disease</source> (<year>2018</year>).
+(Accessed 24December 2019) <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nvbdcp.gov.in/index4.html" ext-link-type="uri">http://www.nvbdcp.gov.in/index4.html</ext-link>.</mixed-citation></ref><ref id="pntd.0010000.ref010"><label>10</label><mixed-citation publication-type="book"><collab>WHO</collab>.
+<part-title>Test procedures for insecticide resistance monitoring in
+malaria vector mosquitoes</part-title>. In:
+<source>WHO/CDS/NTD/WHOPES/GCDPP</source>/. <publisher-name>World Health
+Organization</publisher-name>, <publisher-loc>Geneva</publisher-loc>.
+(<year>2016</year>).</mixed-citation></ref><ref id="pntd.0010000.ref011"><label>11</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Hemingway</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hawkes</surname><given-names>NJ</given-names></name>, <name name-style="western"><surname>McCarroll</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Ranson</surname><given-names>H</given-names></name>. <article-title>The molecular basis of insecticide resistance in
+mosquitoes</article-title>. <source>Insect Biochem. Mol. Biol</source>.
+<year>2004</year>; <volume>34</volume>:
+<fpage>653</fpage>–<lpage>665</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.ibmb.2004.03.018</pub-id>
+<pub-id pub-id-type="pmid">15242706</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref012"><label>12</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Corbel</surname><given-names>V</given-names></name>, <name name-style="western"><surname>N’guessan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Brengues</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Chandre</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Djogbenou</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Multiple insecticide resistance
+mechanisms in Anopheles gambiae and Culex quinquefasciatus from Benin, West
+Africa.</article-title>
+<source>Acta Trop</source>. <year>2007</year>; <volume>101</volume>:
+<fpage>207</fpage>–<lpage>216</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.actatropica.2007.01.005</pub-id>
+<pub-id pub-id-type="pmid">17359927</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref013"><label>13</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Soko</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Chimbari</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Mukaratirwa</surname><given-names>S</given-names></name>. <article-title>Insecticide resistance in malaria-transmitting
+mosquitoes in Zimbabwe: a review</article-title>. <source>Infect Dis
+Poverty</source>. <year>2015</year>; <volume>4</volume>: <fpage>46</fpage>.
+<comment>doi: </comment><pub-id pub-id-type="doi">10.1186/s40249-015-0076-7</pub-id>
+<pub-id pub-id-type="pmid">26497808</pub-id><pub-id pub-id-type="pmcid">PMC4620648</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref014"><label>14</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Lopes</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Lima</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Martins</surname><given-names>AJ</given-names></name>. <article-title>Insecticide resistance in Culex quinquefasciatus Say,
+1823 in Brazil: a review.</article-title>
+<source>Parasit Vectors</source>. <year>2019</year>; <volume>12</volume>:
+<fpage>591</fpage>–<lpage>603</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1186/s13071-019-3850-8</pub-id>
+<pub-id pub-id-type="pmid">31852489</pub-id><pub-id pub-id-type="pmcid">PMC6921570</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref015"><label>15</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Bloomquist</surname><given-names>JR</given-names></name>. <article-title>Ion channels as targets for
+insecticides</article-title>. <source>Annu Rev Entomol</source>.
+<year>1996</year>; <volume>41</volume>:
+<fpage>163</fpage>–<lpage>190</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1146/annurev.en.41.010196.001115</pub-id>
+<pub-id pub-id-type="pmid">8546445</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref016"><label>16</label><mixed-citation publication-type="other">Bureau of Applied
+Economics and Statistics. Department of Statistics and Programme Implementation.
+Government of West Bengal. (2013). Retrived on 29th September
+2020.</mixed-citation></ref><ref id="pntd.0010000.ref017"><label>17</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Tyagi</surname><given-names>BK</given-names></name>, <name name-style="western"><surname>Munirathinam</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Venkatesh</surname><given-names>A</given-names></name>. <article-title>A catalogue of Indian mosquitoes</article-title>.
+<source>Int J Mosq Res</source>. <year>2015</year>; <volume>2</volume>:
+<fpage>50</fpage>–<lpage>97</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref018"><label>18</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rai</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Bharati</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Saha</surname><given-names>D</given-names></name>. <article-title>Insecticide resistance to Temephos and synthetic
+Pyrethroids in Culex quinquefasciatus say from sub-Himalayan West Bengal,
+India.</article-title>
+<source>Int J Trop Insect Sc</source>. <year>2020</year>; <volume>9</volume>:
+<fpage>1</fpage>–<lpage>8</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref019"><label>19</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Barik</surname><given-names>SK</given-names></name>, <name name-style="western"><surname>Hazra</surname><given-names>RK</given-names></name>, <name name-style="western"><surname>Prusty</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Rath</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kar</surname><given-names>SK</given-names></name>. <article-title>A simple, rapid and very efficient protocol for DNA
+isolation from mosquito species</article-title>. <source>Protoc
+Exch</source>. <year>2013</year>.
+
+protex.2013.00</mixed-citation></ref><ref id="pntd.0010000.ref020"><label>20</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Martinez-Torres</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Chevillon</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Brun-Barale</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Bergé</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Pasteur</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Pauron</surname><given-names>D</given-names></name>. <article-title>Voltage-dependent Na+ channels in pyrethroid resistant
+Culex pipiens L mosquitoes</article-title>. <source>Pestic Sci</source>.
+<year>1999</year>; <volume>55</volume>:
+<fpage>1012</fpage>–<lpage>1020</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref021"><label>21</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Sarkar</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Borkotoki</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Baruah</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Bhattacharyya</surname><given-names>IK</given-names></name>, <name name-style="western"><surname>Srivastava</surname><given-names>RB</given-names></name>. <article-title>Molecular analysis of knock down resistance (kdr)
+mutation and distribution of kdr genotypes in a wild population of Culex
+quinquefasciatus from India</article-title>. <source>Trop Med Int
+Health</source>. <year>2009</year>; <volume>14</volume>:
+<fpage>1097</fpage>–<lpage>1104</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1111/j.1365-3156.2009.02323.x</pub-id>
+<pub-id pub-id-type="pmid">19563477</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref022"><label>22</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Bisset</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Rodriguez</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Diaz</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Ortiz</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Marquetti</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Hemingway</surname><given-names>J</given-names></name>. <article-title>The mechanisms of organophosphate and carbamate
+resistance in Culex quinquefasciatus (Diptera: Culicidae) from
+Cuba</article-title>. <source>B Entomol Res</source>. <year>1990</year>;
+<volume>80</volume>: <fpage>245</fpage>–<lpage>250</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref023"><label>23</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Philbert</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Nkwengulila</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Lyantagaye</surname><given-names>SL</given-names></name>. <article-title>A review of agricultural pesticides use and the
+selection for resistance to insecticides in malaria vectors</article-title>.
+<source>Advances Entomol</source>. <year>2014</year>; <volume>2</volume>:
+<fpage>120</fpage>–<lpage>128</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref024"><label>24</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Stark</surname><given-names>PM</given-names></name>, <name name-style="western"><surname>Fredregill</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Nolan</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Debboun</surname><given-names>M</given-names></name>. <article-title>Field cage insecticide resistance tests against Culex
+quinquefasciatus Say (Diptera: Culicidae) in Harris County, Texas,
+USA.</article-title>
+<source>J Vector Ecol</source>. <year>2017</year>; <volume>42</volume>:
+<fpage>279</fpage>–<lpage>288</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1111/jvec.12268</pub-id>
+<pub-id pub-id-type="pmid">29125254</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref025"><label>25</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Liu</surname><given-names>N.</given-names></name>
+<article-title>Insecticide resistance in mosquitoes: impact, mechanisms, and
+research directions</article-title>. <source>Annu Rev Entomol</source>.
+<year>2015</year>; <volume>60</volume>:
+<fpage>537</fpage>–<lpage>559</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1146/annurev-ento-010814-020828</pub-id>
+<pub-id pub-id-type="pmid">25564745</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref026"><label>26</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Goindin</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Delannay</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gelasse</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ramdini</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gaude</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Faucon</surname><given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Levels of insecticide resistance to
+deltamethrin, malathion, and temephos, and associated mechanisms in Aedes
+aegypti mosquitoes from the Guadeloupe and Saint Martin islands (French West
+Indies).</article-title>
+<source>Infect Dis Poverty</source>.<year>2017</year>; <volume>6</volume>:
+<fpage>38</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1186/s40249-017-0254-x</pub-id>
+<pub-id pub-id-type="pmid">28187780</pub-id><pub-id pub-id-type="pmcid">PMC5303256</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref027"><label>27</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Ishak</surname><given-names>IH</given-names></name>, <name name-style="western"><surname>Jaal</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Ranson</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Wondji</surname><given-names>CS</given-names></name>. <article-title>Contrasting patterns of insecticide resistance and
+knockdown resistance (kdr) in the dengue vectors Aedes aegypti and Aedes
+albopictus from Malaysia</article-title>. <source>Parasit Vectors</source>.
+<year>2015</year>; <volume>8</volume>: <fpage>181</fpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1186/s13071-015-0797-2</pub-id>
+<pub-id pub-id-type="pmid">25888775</pub-id><pub-id pub-id-type="pmcid">PMC4377062</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref028"><label>28</label><mixed-citation publication-type="journal"><collab>WHO</collab>.
+<article-title>WHO position statement on integrated vector management to
+control malaria and lymphatic filariasis: Introduction</article-title>.
+<source>Weekly Epidemiological Record</source>
+<year>2011</year>; <volume>86</volume>: <fpage>121</fpage>–<lpage>127</lpage>.
+<pub-id pub-id-type="pmid">21438441</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref029"><label>29</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Guillet</surname><given-names>P</given-names></name>, <name name-style="western"><surname>N’guessan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Darriet</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Traore-Lamizana</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Chandre</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Carnevale</surname><given-names>P</given-names></name>. <article-title>Combined pyrethroid and carbamate ‘two-in one’ treated
+mosquito nets: field efficacy against pyrethroid-resistant Anopheles gambiae
+and Culex quinquefasciatus</article-title>. <source>Med Vet
+Entomol</source>. <year>2001</year>; <volume>15</volume>:
+<fpage>105</fpage>–<lpage>112</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1046/j.1365-2915.2001.00288.x</pub-id>
+<pub-id pub-id-type="pmid">11297094</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref030"><label>30</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Kudom</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Mensah</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Froeschl</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Rinder</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Boakye</surname><given-names>D</given-names></name>. <article-title>DDT and pyrethroid resistance status and laboratory
+evaluation of bio-efficacy of long lasting insecticide treated nets against
+Culex quinquefasciatus and Culex decens in Ghana</article-title>.
+<source>Acta Trop</source>. <year>2015</year>; <volume>150</volume>:
+<fpage>122</fpage>–<lpage>130</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.actatropica.2015.07.009</pub-id>
+<pub-id pub-id-type="pmid">26215129</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref031"><label>31</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Zinser</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ramberg</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Willott</surname><given-names>E</given-names></name>. <article-title>Scientific Note Culex quinquefasciatus (Diptera:
+Culicidae) as a potential West Nile virus vector in Tucson, Arizona: Blood
+meal analysis indicates feeding on both humans and birds.</article-title>
+<source>J Insect Sci</source>. <year>2004</year>; 4.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jis/4.1.20</pub-id><pub-id pub-id-type="pmcid">PMC528880</pub-id><pub-id pub-id-type="pmid">15861236</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref032"><label>32</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rai</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Bharati</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Subba</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Saha</surname><given-names>D</given-names></name>. <article-title>Insecticide resistance mapping in the vector of
+lymphatic filariasis, Culex quinquefasciatus Say from northern region of
+West Bengal, India</article-title>. <source>PloS One</source>.
+<year>2019</year>; <volume>14</volume>: <fpage>0217706</fpage>.
+<comment>doi: </comment><pub-id pub-id-type="doi">10.1371/journal.pone.0217706</pub-id>
+<pub-id pub-id-type="pmid">31141548</pub-id><pub-id pub-id-type="pmcid">PMC6541298</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref033"><label>33</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Yadouléton</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Badirou</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Agbanrin</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Jöst</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Attolou</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Srinivasan</surname><given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Insecticide resistance status in
+Culex quinquefasciatus in Benin.</article-title>
+<source>Parasit Vectors</source>. <year>2015</year>; <volume>8</volume>:
+<fpage>17</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1186/s13071-015-0638-3</pub-id>
+<pub-id pub-id-type="pmid">25582308</pub-id><pub-id pub-id-type="pmcid">PMC4297371</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref034"><label>34</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Davies</surname><given-names>TE</given-names></name>, <name name-style="western"><surname>O’Reilly</surname><given-names>AO</given-names></name>, <name name-style="western"><surname>Field</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Wallace</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Williamson</surname><given-names>MS</given-names></name>. <article-title>Knockdown resistance to DDT and pyrethroids: from target
+site mutations to molecular modelling</article-title>. <source>Pest Manag.
+Sci</source>. <year>2008</year>; <volume>64</volume>:
+<fpage>1126</fpage>–<lpage>1130</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1002/ps.1617</pub-id>
+<pub-id pub-id-type="pmid">18561309</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref035"><label>35</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Hemingway</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Ranson</surname><given-names>H</given-names></name>. <article-title>Insecticide resistance in insect vectors of human
+disease</article-title>. <source>Annu Rev Entomol</source>.
+<year>2000</year>; <volume>45</volume>:
+<fpage>371</fpage>–<lpage>391</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1146/annurev.ento.45.1.371</pub-id>
+<pub-id pub-id-type="pmid">10761582</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref036"><label>36</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Amenya</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Naguran</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Lo</surname><given-names>TC</given-names></name>, <name name-style="western"><surname>Ranson</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Spillings</surname><given-names>BL</given-names></name>, <name name-style="western"><surname>Wood</surname><given-names>OR</given-names></name>, <etal>et al</etal>. <article-title>Over expression of a cytochrome P450
+(CYP6P9) in a major African malaria vector, Anopheles funestus, resistant to
+pyrethroids</article-title>. <source>Insect Mol Biol</source>.
+<year>2008</year>; <volume>17</volume>: <fpage>19</fpage>–<lpage>25</lpage>.
+<comment>doi: </comment><pub-id pub-id-type="doi">10.1111/j.1365-2583.2008.00776.x</pub-id>
+<pub-id pub-id-type="pmid">18237281</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref037"><label>37</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gleave</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Lissenden</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Richardson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ranson</surname><given-names>H</given-names></name>. <article-title>Piperonyl butoxide (PBO) combined with pyrethroids in
+longlasting insecticidal nets (LLINs) to prevent malaria in
+Africa.</article-title>
+<source>Database Syst. Rev</source>. <year>2017</year>;
+<volume>8</volume>.</mixed-citation></ref><ref id="pntd.0010000.ref038"><label>38</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Skovmand</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Sanogo</surname><given-names>E</given-names></name>. <article-title>Resistance of Culex quinquefasciatus to selected
+chemical and biological pesticides</article-title>. <source>Med Res
+Arch</source>. <year>2018</year>; <volume>6</volume>:
+<fpage>1</fpage>–<lpage>9</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref039"><label>39</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Fagbohun</surname><given-names>IK</given-names></name>, <name name-style="western"><surname>Oyeniyi</surname><given-names>TA</given-names></name>, <name name-style="western"><surname>Idowu</surname><given-names>TE</given-names></name>, <name name-style="western"><surname>Otubanjo</surname><given-names>OA</given-names></name>, <name name-style="western"><surname>Awolola</surname><given-names>ST</given-names></name>. <article-title>Cytochrome P450 Mono-Oxygenase and Resistance Phenotype
+in DDT and Deltamethrin-Resistant Anopheles gambiae (Diptera: Culicidae) and
+Culex quinquefasciatus in Kosofe, Lagos, Nigeria</article-title>. <source>J.
+Med. Entomol</source>. <year>2019</year>; <volume>56</volume>:
+<fpage>817</fpage>–<lpage>821</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1093/jme/tjz006</pub-id>
+<pub-id pub-id-type="pmid">30753574</pub-id><pub-id pub-id-type="pmcid">PMC6467639</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref040"><label>40</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Wan-Norafikah</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Nazni</surname><given-names>WA</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>HL</given-names></name>, <name name-style="western"><surname>Zainol-Ariffin</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Sofian-Azirun</surname><given-names>M</given-names></name>. <article-title>Development of permethrin resistance in Culex
+quinquefasciatus Say in Kuala Lumpur, Malaysia.</article-title>
+<source>Saudi J. Biol. Sci</source>. <year>2013</year>; <volume>20</volume>:
+<fpage>241</fpage>–<lpage>250</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.sjbs.2013.02.001</pub-id>
+<pub-id pub-id-type="pmid">23961241</pub-id><pub-id pub-id-type="pmcid">PMC3730666</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref041"><label>41</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Scott</surname><given-names>JG</given-names></name>, <name name-style="western"><surname>Yoshimizu</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name>. <article-title>Pyrethroid resistance in Culex pipiens
+mosquitoes.</article-title>
+<source>Pestic Biochem Phys</source>. <year>2015</year>; <volume>120</volume>:
+<fpage>68</fpage>–<lpage>76</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.pestbp.2014.12.018</pub-id>
+<pub-id pub-id-type="pmid">25987223</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref042"><label>42</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rai</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Bharati</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Saha</surname><given-names>D</given-names></name>. <article-title>Assessment of insecticide resistance in Culex
+quinquefasciatus Say with first report on the presence of L1014F mutation
+from northern districts of West Bengal, India.</article-title>
+<source>Int J Trop Insect Sc</source>. <year>2019</year>; <volume>39</volume>:
+<fpage>301</fpage>–<lpage>309</lpage>.</mixed-citation></ref><ref id="pntd.0010000.ref043"><label>43</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Chi-Chim</surname><given-names>WA</given-names></name>, <name name-style="western"><surname>Bocanegra-Garcia</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Reyes-Solis</surname><given-names>G</given-names></name>, <name name-style="western"><surname>García-Rejon</surname><given-names>JE</given-names></name>, <name name-style="western"><surname>Baak-Baak</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Machain-Williams</surname><given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Frequency of the L1014F mutation in
+the sodium channel gene, in Culex quinquefasciatus (Diptera: Culicidae)
+populations from rural and Urban Areas of Yucatan State,
+Mexico</article-title>. <source>J. Med. Entomol</source>. <year>2018</year>;
+<volume>55</volume>: <fpage>1633</fpage>–<lpage>1637</lpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1093/jme/tjy121</pub-id>
+<pub-id pub-id-type="pmid">30060188</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref044"><label>44</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Delannay</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Goindin</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kellaou</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Ramdini</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gustave</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Vega-Rúa</surname><given-names>A</given-names></name>. <article-title>Multiple insecticide resistance in Culex
+quinquefasciatus populations from Guadeloupe (French West Indies) and
+associated mechanisms.</article-title>
+<source>PLoS One</source>. <year>2018</year>; <volume>13</volume>:
+<fpage>0199615</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0199615</pub-id><pub-id pub-id-type="pmcid">PMC6019780</pub-id><pub-id pub-id-type="pmid">29944713</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref045"><label>45</label><mixed-citation publication-type="journal"><name name-style="western"><surname>N’Guessan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Boko</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Odjo</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Knols</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Akogbeto</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Rowland</surname><given-names>M</given-names></name>. <article-title>Control of pyrethroid-resistant Anopheles gambiae and
+Culex quinquefasciatus mosquitoes with chlorfenapyr in
+Benin.</article-title>
+<source>Trop. Med. Int. Health</source>. <year>2009</year>; <volume>14</volume>:
+<fpage>389</fpage>–<lpage>395</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1111/j.1365-3156.2009.02245.x</pub-id>
+<pub-id pub-id-type="pmid">19228349</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref046"><label>46</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Bkhache</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Tmimi</surname><given-names>FZ</given-names></name>, <name name-style="western"><surname>Charafeddine</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Faraj</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Failloux</surname><given-names>AB</given-names></name>, <name name-style="western"><surname>Sarih</surname><given-names>MH</given-names></name>. <article-title>First report of L1014F-kdr mutation in Culex pipiens
+complex from Morocco</article-title>. <source>Parasit Vectors</source>.
+<year>2016</year>; <volume>9</volume>: <fpage>644</fpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1186/s13071-016-1931-5</pub-id>
+<pub-id pub-id-type="pmid">27986090</pub-id><pub-id pub-id-type="pmcid">PMC5159952</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref047"><label>47</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Liu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Xie</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Trends in insecticide resistance in
+Culex pipiens pallens over 20 years in Shandong, China.</article-title>
+<source>Parasit Vectors</source>. <year>2019</year>; <volume>12</volume>:
+<fpage>167</fpage>–<lpage>174</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1186/s13071-019-3416-9</pub-id>
+<pub-id pub-id-type="pmid">30975185</pub-id><pub-id pub-id-type="pmcid">PMC6460514</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref048"><label>48</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Asidi</surname><given-names>AN</given-names></name>, <name name-style="western"><surname>N’Guessan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Koffi</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Curtis</surname><given-names>CF</given-names></name>, <name name-style="western"><surname>Hougard</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Chandre</surname><given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Experimental hut evaluation of
+bednets treated with an organophosphate (chlorpyrifos-methyl) or a
+pyrethroid (lambdacyhalothrin) alone and in combination against
+insecticide-resistant Anopheles gambiae and Culex quinquefasciatus
+mosquitoes</article-title>. <source>Malar. J.</source>
+<year>2005</year>; <volume>4</volume>: <fpage>25</fpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1186/1475-2875-4-25</pub-id>
+<pub-id pub-id-type="pmid">15918909</pub-id><pub-id pub-id-type="pmcid">PMC1156935</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref049"><label>49</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Matambo</surname><given-names>TS</given-names></name>, <name name-style="western"><surname>Abdalla</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Brooke</surname><given-names>BD</given-names></name>, <name name-style="western"><surname>Koekemoer</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Mnzava</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hunt</surname><given-names>RH</given-names></name>
+<etal>et al</etal>. <article-title>Insecticide resistance in the malarial
+mosquito Anopheles arabiensis and association with the kdr
+mutation</article-title>. <source>Med Vet Entomol</source>.
+<year>2007</year>; <volume>21</volume>:
+<fpage>97</fpage>–<lpage>102</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1111/j.1365-2915.2007.00671.x</pub-id>
+<pub-id pub-id-type="pmid">17373952</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref050"><label>50</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Xu</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>N</given-names></name>. <article-title>Kdr allelic variation in pyrethroid resistant
+mosquitoes, Culex quinquefasciatus (S.).</article-title>
+<source>Biochem Biophys Res Commun</source>. <year>2006</year>;
+<volume>345</volume>: <fpage>774</fpage>–<lpage>780</lpage>. <comment>doi:
+</comment><pub-id pub-id-type="doi">10.1016/j.bbrc.2006.04.155</pub-id>
+<pub-id pub-id-type="pmid">16701561</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref051"><label>51</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Tan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Tsai</surname><given-names>TD</given-names></name>, <name name-style="western"><surname>Valles</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Goldin</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Dong</surname><given-names>K</given-names></name>. <article-title>Novel sodium channel gene mutations in Blattella
+germanica reduce the sensitivity of expressed channels to
+deltamethrin</article-title>. <source>Insect Biochem. Mol. Biol</source>.
+<year>2002</year>; <volume>32</volume>:
+<fpage>445</fpage>–<lpage>454</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/s0965-1748(01)00122-9</pub-id>
+<pub-id pub-id-type="pmid">11886779</pub-id><pub-id pub-id-type="pmcid">PMC3057061</pub-id></mixed-citation></ref><ref id="pntd.0010000.ref052"><label>52</label><mixed-citation publication-type="journal"><collab>WHO</collab>.
+<article-title>Global vector control response 2017–2030</article-title>.
+Geneva. (<year>2017</year>).</mixed-citation></ref></ref-list></back></article></pmc-articleset>

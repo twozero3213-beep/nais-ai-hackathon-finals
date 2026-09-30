@@ -1,0 +1,26 @@
+{
+  "audit_kind": "one_off_developer_arithmetic_crosscheck_not_product_execution",
+  "source_code": "data/evaluation/paper_pairs/deprivation/author_analysis.R",
+  "source_lines": "13-50 and 360-363",
+  "engine": "PowerShell Import-Csv and sequential Where-Object translation; author R environment not run",
+  "counts": {
+    "raw_rows": 383,
+    "complete_cases_all_columns": 367,
+    "sum_columns_matching_SSS_equals_1": 329,
+    "duplicate_equals_0": 311,
+    "age_18_through_100": 311,
+    "ENV_5_equals_2": 308
+  },
+  "reported_value": 308,
+  "arithmetic_difference": 0,
+  "csv_rows_unique_ResponseId": 383,
+  "missing_tokens": [
+    "",
+    "NA"
+  ],
+  "derivative_csv_created": false,
+  "registered_supported_preprocessing": false,
+  "semantic_certification": false,
+  "full_paper_reproduced": false,
+  "limitation": "Existing registry count_rows with equality filters cannot represent complete-case across columns, row sum, and age range; therefore raw 383 cannot directly verify final n=308."
+}

@@ -1,0 +1,19 @@
+{
+  "_change_note": "2026-10-01T00:54:49+09:00 — 실제 모델 생성 1사례의 확인 범위와 공급자2호출 집계를 공개한다. 키·원 응답·로컬 경로 제외.",
+  "source_report_id": "3bc1c137-b010-4548-b798-4a147dbc8ccf",
+  "source_report_sha256": "160ad869af20d70bb04ab3251aa150219ebb48a337435077b94c82513b5d67d9",
+  "recorded_at_kst": "2026-10-01T00:54:49+09:00",
+  "case_id": "NORMAL-PENG-ROWS",
+  "model": "gpt-4.1-mini",
+  "pipeline_runs": 1,
+  "provider_call_count": 2,
+  "usage": {
+    "input_tokens": 53055,
+    "output_tokens": 220
+  },
+  "elapsed_ms": 7611.95,
+  "state": "SUPPORTED_PREVIEW",
+  "human_approval": "PENDING",
+  "can_approve": false,
+  "verification_scope": "정상 등록 사례 1건의 로컬 실추출. 봉인 비교·일반 정확도·Cloud AI연결 검증 아님."
+}

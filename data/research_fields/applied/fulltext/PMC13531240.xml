@@ -1,0 +1,844 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece374256" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13531240</article-id><article-id pub-id-type="pmcid-ver">PMC13531240.1</article-id><article-id pub-id-type="pmcaid">13531240</article-id><article-id pub-id-type="pmcaiid">13531240</article-id><article-id pub-id-type="pmid">42682865</article-id><article-id pub-id-type="doi">10.1002/ece3.74256</article-id><article-id pub-id-type="publisher-id">ECE374256</article-id><article-id pub-id-type="other">ECE-2026-04-01088.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Applied Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Biogeography</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Conservation Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Global Change Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Spatial Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Zoology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Thermal Stress and Habitat Loss: Assessing the Vulnerability of <italic toggle="no">Potamon fluviatile</italic> (Decapoda: Potamidae) to Climate Change in Italy</article-title></title-group><contrib-group><contrib id="ece374256-cr-0001" contrib-type="author"><name name-style="western"><surname>Ghasemian Sorboni</surname><given-names initials="S">Saman</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1184-1484</contrib-id><xref rid="ece374256-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374256-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Pourebrahim</surname><given-names initials="S">Sharareh</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4485-2040</contrib-id><xref rid="ece374256-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece374256-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib><contrib id="ece374256-cr-0003" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="JE">Jit Ern</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4779-7275</contrib-id><xref rid="ece374256-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece374256-cr-0004" contrib-type="author"><name name-style="western"><surname>Hadipour</surname><given-names initials="M">Mehrdad</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6026-8306</contrib-id><xref rid="ece374256-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="ece374256-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Land, Environment, Agriculture and Forestry (TeSAF)</named-content>
+<institution>University of Padova</institution>
+<city>Legnaro</city>
+<country country="IT">Italy</country>
+</aff><aff id="ece374256-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Jeffry Sachs Center on Sustainable Development</named-content>
+<institution>Sunway University</institution>
+<city>Selangor</city>
+<country country="MY">Malaysia</country>
+</aff><aff id="ece374256-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Sunway Institute for Global Strategy and Competitiveness</named-content>
+<institution>Sunway University</institution>
+<city>Selangor</city>
+<country country="MY">Malaysia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Sharareh Pourebrahim ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>01</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="1927">9</issue><issue-id pub-id-type="pmc-issue-id">520317</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v16.9</issue-id><elocation-id>e74256</elocation-id><history>
+<date date-type="rev-recd"><day>05</day><month>7</month><year>2026</year></date>
+<date date-type="received"><day>19</day><month>4</month><year>2026</year></date>
+<date date-type="accepted"><day>21</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>01</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>02</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-02 15:12:26.007"><day>02</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-16-e74256.pdf"><?pdf-name ECE3-16-e74256.pdf?><?pdf-size 2626150?><?pdf-md5 455231e06ddce6cb58cf3a2e9113873e?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:784a/13531240/455231e06ddc/ECE3-16-e74256.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-16-e74256.pdf"/><abstract><title>ABSTRACT</title><p>Climate change has the potential to alter the distribution of freshwater species and challenge the effectiveness of existing conservation networks. However, projections of the climatic suitability of <italic toggle="no">Potamon fluviatile</italic> under recent climate scenarios are lacking for Italy. In this study, we modeled the potential climatic distribution of the species using an ensemble species distribution modeling approach based on multiple future climate projections. Results indicate that temperature conditions during the dry season are an important predictor of the species' large‐scale climatic suitability. Future projections show a contraction of suitable areas, with moderate declines under low‐emission scenarios (SSP1‐2.6) and substantial reductions exceeding 80% by 2070 under high‐emission scenarios (SSP5‐8.5). The models show limited expansion into newly suitable areas, although dispersal processes were not represented. Comparing projected suitability with the current protected area network shows that existing conservation boundaries may not cover future suitable areas. While some large protected areas may experience declines in suitability, some smaller coastal reserves may retain stable climatic conditions. It is important to consider that our findings are based on coarse‐scale climatic predictors and do not account for hydrological processes or fine‐scale habitat characteristics. Our study provides a large‐scale assessment of potential climate‐driven changes in climatic suitability for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> in Italy. Integrating climatic, hydrological, and ecological processes in future models would improve conservation planning for freshwater species.</p></abstract><abstract abstract-type="graphical"><p>Ensemble species distribution models indicate that <italic toggle="no">Potamon fluviatile</italic> may experience a substantial reduction in climatically suitable habitat in Italy under future climate scenarios, particularly under high‐emission pathways. Comparison with the current protected area network suggests that some existing reserves may lose suitability, while a limited number of smaller areas may remain as potential refugia.<boxed-text position="anchor" content-type="graphic" id="ece374256-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-16-e74256-g003.webp"><?image-name ECE3-16-e74256-g003.webp?><?image-size 8032?><?image-md5 72b8a7944febc62179d91548a755219c?><?image-image-server-status NEVER_LOAD?><?image-original-height 222?><?image-original-width 331?><?image-scaled-height 222?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/72b8a7944feb/ECE3-16-e74256-g003.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece374256-kwd-0001">climate refugia</kwd><kwd id="ece374256-kwd-0002">ensemble modeling</kwd><kwd id="ece374256-kwd-0003">Mediterranean freshwater crab</kwd><kwd id="ece374256-kwd-0004">range contraction</kwd><kwd id="ece374256-kwd-0005">thermal tolerance</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Sunway University</institution><institution-id institution-id-type="doi">10.13039/501100010798</institution-id></institution-wrap>
+</funding-source><award-id>SUR‐JSC‐SSERV‐2024‐13 Sunway Group ESG grant</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="1"/><page-count count="12"/><word-count count="7000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:01.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ece374256-body-0001"><sec id="ece374256-sec-0001"><label>1</label><title>Introduction</title><p>Climate change significantly impacts global freshwater biodiversity by altering precipitation regimes and hydrological cycles (Capon et al. <xref rid="ece374256-bib-0016" ref-type="bibr">2021</xref>; Reid et al. <xref rid="ece374256-bib-0052" ref-type="bibr">2018</xref>; Trenberth <xref rid="ece374256-bib-0059" ref-type="bibr">2011</xref>). In the Mediterranean region, riverine systems are highly vulnerable due to their inherent seasonal flow variability coupled with intense anthropogenic pressure (Gómez‐Navarro et al. <xref rid="ece374256-bib-0029" ref-type="bibr">2024</xref>). Climate projections for this region indicate an increased frequency of severe droughts and reduced annual discharge, leading to higher rates of stream intermittency (Schneider et al. <xref rid="ece374256-bib-0054" ref-type="bibr">2013</xref>; Feyen and Dankers <xref rid="ece374256-bib-0024" ref-type="bibr">2009</xref>). These climatic shifts exacerbate existing anthropogenic stressors, such as dam construction and land‐use alterations, which have severely fragmented these river networks (Andrew and Sauquet <xref rid="ece374256-bib-0002" ref-type="bibr">2017</xref>; Palmer et al. <xref rid="ece374256-bib-0051" ref-type="bibr">2009</xref>). Consequently, the compounding effects of thermal stress, flow reduction, and habitat isolation pose an acute risk to the specialized aquatic biodiversity endemic to Mediterranean inland waters (Fernández‐Martínez et al. <xref rid="ece374256-bib-0023" ref-type="bibr">2023</xref>; Li et al. <xref rid="ece374256-bib-0040" ref-type="bibr">2024</xref>; Benson et al. <xref rid="ece374256-bib-0009" ref-type="bibr">2021</xref>; Cramer et al. <xref rid="ece374256-bib-0018" ref-type="bibr">2018</xref>).</p><p>Freshwater crabs serve as critical and keystone species within these riverine networks (Hao et al. <xref rid="ece374256-bib-0031" ref-type="bibr">2021</xref>). They function as ecosystem engineers, accelerating nutrient cycling through the breakdown of leaf litter and serving as a vital link in the food web between detritus and higher predators (Wang et al. <xref rid="ece374256-bib-0063" ref-type="bibr">2023</xref>; Xie et al. <xref rid="ece374256-bib-0065" ref-type="bibr">2022</xref>). However, their physiological and reproductive traits make them highly vulnerable to environmental fluctuation (Lam et al. <xref rid="ece374256-bib-0038" ref-type="bibr">2022</xref>; Jimenez et al. <xref rid="ece374256-bib-0035" ref-type="bibr">2022</xref>). As poikilothermic organisms, their metabolism and growth are governed by ambient water temperatures (Azra et al. <xref rid="ece374256-bib-0005" ref-type="bibr">2019</xref>). Consequently, thermal anomalies can quickly exceed their physiological thresholds, leading to increased mortality (Daunde et al. <xref rid="ece374256-bib-0022" ref-type="bibr">2026</xref>).</p><p>In addition to these physiological constraints, unlike many marine crustaceans that possess a planktonic larval phase to facilitate wide dispersal, freshwater crabs undergo direct development, hatching as miniature adults with very limited mobility (Wu et al. <xref rid="ece374256-bib-0064" ref-type="bibr">2010</xref>). This low dispersal capacity acts as a trap during rapid environmental change, preventing them from easily migrating to more suitable habitats and contributing to the high extinction risk currently facing the group globally (Cumberlidge et al. <xref rid="ece374256-bib-0020" ref-type="bibr">2009</xref>). This vulnerability is compounded by the physical structure of riverine systems, which restrict movement to a single dimension along the watercourse. Consequently, simple geographic distance is a poor predictor of connectivity; populations in adjacent but separate catchments remain completely isolated unless connected by extreme flooding events (Daniels et al. <xref rid="ece374256-bib-0021" ref-type="bibr">2006</xref>).</p><p>In southern Europe, <italic toggle="yes">Potamon fluviatile</italic> (Herbst, 1785) is an endemic freshwater crab that inhabits the fragmented river basins of Italy, the Balkan Peninsula, and smaller islands such as Malta, often existing in isolation (Brandis et al. <xref rid="ece374256-bib-0015" ref-type="bibr">2000</xref>) (Figure <xref rid="ece374256-fig-0001" ref-type="fig">1b,c</xref>). However, its populations are under threat because of climatic changes (Yousefi et al. <xref rid="ece374256-bib-0066" ref-type="bibr">2022</xref>). Despite these warning signs, there remains a critical lack of detailed projections regarding how the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> in Italy will respond to the specific climatic trajectories expected in the coming decades.</p><fig position="float" fig-type="FIGURE" id="ece374256-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Geographic distribution and morphology of the study organism: (a) geographical distribution of <italic toggle="yes">Potamon fluviatile</italic> occurrence records within the Italian study area used for species distribution modeling; (b, c) photographic representations of adult <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> specimens. Photo credits: (b) Leaper (<xref rid="ece374256-bib-0039" ref-type="bibr">2020</xref>); (c) Helitas (<xref rid="ece374256-bib-0033" ref-type="bibr">2016</xref>) both via iNaturalist, licensed under CC‐BY‐NC 4.0.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-16-e74256-g004.webp"><?image-name ECE3-16-e74256-g004.webp?><?image-size 78216?><?image-md5 4b9c12607b4a13f253adcd8813ed8f9a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1098?><?image-original-width 1064?><?image-scaled-height 1098?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/4b9c12607b4a/ECE3-16-e74256-g004.webp?><?thumb-name ECE3-16-e74256-g004.gif?><?thumb-size 16120?><?thumb-md5 39457aab446ab76c982103b85fe7fe6a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 194?><?thumb-cloudpmc-urn urn:cdn:blobs/784a/13531240/39457aab446a/ECE3-16-e74256-g004.gif?></graphic></fig><p>To tackle this uncertainty, Species Distribution Models (SDMs) offer an analytical framework for anticipating biodiversity shifts (Franklin <xref rid="ece374256-bib-0026" ref-type="bibr">2023</xref>; Miller <xref rid="ece374256-bib-0046" ref-type="bibr">2010</xref>). This study aims to evaluate the potential distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> in Italy, contrasting its current range with future projections for the years 2050 and 2070. By utilizing two distinct climate pathways, the sustainability‐focused and the fossil‐fuel‐intensive scenarios, this research seeks to quantify the spatial extent of habitat loss or gain, thereby providing the necessary data to inform long‐term conservation strategies for this emblematic freshwater species. Finally, we assess the capacity of the current Italian Protected Area network to buffer these projected shifts, determining whether existing static boundaries will remain effective under dynamic future climatic conditions.</p></sec><sec sec-type="methods" id="ece374256-sec-0002"><label>2</label><title>Methodology</title><sec id="ece374256-sec-0003"><label>2.1</label><title>Study Area and Species Occurrences</title><p>The study area encompassed the entire territory of Italy. Georeferenced occurrence records for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> were obtained from the Global Biodiversity Information Facility (GBIF). The initial dataset included 249 records. To remove potentially erroneous and biased records, we cleaned the occurrence data using the R package CoordinateCleaner (Zizka et al. <xref rid="ece374256-bib-0068" ref-type="bibr">2019</xref>). Occurrence points were further checked against the study area boundaries to ensure geographic consistency. After filtering, a total of 237 spatially independent records were retained for analysis (Figure <xref rid="ece374256-fig-0001" ref-type="fig">1a</xref>).</p><p>To characterize the environmental background, pseudo‐absence points were generated using the internal background point generator of the <italic toggle="yes">sdm</italic> package (Naimi and Araújo <xref rid="ece374256-bib-0048" ref-type="bibr">2016</xref>). A total of 237 pseudo‐absences were sampled across the terrestrial extent of the study area utilizing a random geographic selection strategy. To ensure these background points represented spatial conditions distinct from known habitats, a spatial constraint was applied to prevent any pseudo‐absence from overlapping the exact grid cells of the established presence records. This approach successfully maintained a 1:1 presence‐to‐pseudo‐absence ratio (Valavi et al. <xref rid="ece374256-bib-0061" ref-type="bibr">2020</xref>; Zhang et al. <xref rid="ece374256-bib-0067" ref-type="bibr">2019</xref>; Barbet‐Massin et al. <xref rid="ece374256-bib-0006" ref-type="bibr">2012</xref>).</p></sec><sec id="ece374256-sec-0004"><label>2.2</label><title>Environmental Predictors</title><p>A total of 22 environmental predictors were considered, including 19 bioclimatic variables and three topographic variables. Bioclimatic variables were obtained from WorldClim v2.1 at a spatial resolution of 30 arc‐seconds (~1 km) (Fick and Hijmans <xref rid="ece374256-bib-0025" ref-type="bibr">2017</xref>), representing biologically meaningful summaries of temperature and precipitation derived from the BIOCLIM framework (Booth et al. <xref rid="ece374256-bib-0013" ref-type="bibr">2013</xref>; Booth <xref rid="ece374256-bib-0012" ref-type="bibr">2025</xref>). These data were extracted for current conditions and for two future periods (2041–2060 and 2061–2080) based on five General Circulation Models (GCMs) from CMIP6 (MIROC6, MRI‐ESM2‐0, MPI‐ESM1‐2‐HR, EC‐Earth3‐Veg, and CNRM‐CM6‐1).</p><p>Topographic variables (elevation, slope, and aspect) were derived from the same dataset, with slope and aspect calculated in R. To reduce multicollinearity and potential overfitting, a Variance Inflation Factor (VIF) analysis was conducted using the <italic toggle="yes">usdm</italic> package (Naimi et al. <xref rid="ece374256-bib-0049" ref-type="bibr">2013</xref>), applying a threshold of VIF &lt; 5. The final set of predictors showed reduced collinearity, with pairwise correlations ranging from −0.003 to −0.77 (Table <xref rid="ece374256-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="ece374256-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>List of the selected environmental predictor variables retained for the species distribution modeling of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> after the multicollinearity analysis, along with their corresponding Variance Inflation Factor (VIF) values.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Variable</th><th align="center" valign="bottom" rowspan="1" colspan="1">Abbreviation</th><th align="center" valign="bottom" rowspan="1" colspan="1">VIF</th><th align="center" valign="bottom" rowspan="1" colspan="1">Variable</th><th align="center" valign="bottom" rowspan="1" colspan="1">Abbreviation</th><th align="center" valign="bottom" rowspan="1" colspan="1">VIF</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Precipitation Seasonality</td><td align="center" valign="top" rowspan="1" colspan="1">Bio15</td><td align="center" valign="top" rowspan="1" colspan="1">2.49</td><td align="center" valign="top" rowspan="1" colspan="1">Mean Temp. Wettest Quarter</td><td align="center" valign="top" rowspan="1" colspan="1">Bio8</td><td align="center" valign="top" rowspan="1" colspan="1">2.52</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Precip. Warmest Quarter</td><td align="center" valign="top" rowspan="1" colspan="1">Bio18</td><td align="center" valign="top" rowspan="1" colspan="1">4.33</td><td align="center" valign="top" rowspan="1" colspan="1">Mean Temp. Driest Quarter</td><td align="center" valign="top" rowspan="1" colspan="1">Bio9</td><td align="center" valign="top" rowspan="1" colspan="1">4.63</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Precip. Coldest Quarter</td><td align="center" valign="top" rowspan="1" colspan="1">Bio19</td><td align="center" valign="top" rowspan="1" colspan="1">2.27</td><td align="center" valign="top" rowspan="1" colspan="1">Slope</td><td align="center" valign="top" rowspan="1" colspan="1">Slope</td><td align="center" valign="top" rowspan="1" colspan="1">2.00</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Isothermality</td><td align="center" valign="top" rowspan="1" colspan="1">Bio3</td><td align="center" valign="top" rowspan="1" colspan="1">1.41</td><td align="center" valign="top" rowspan="1" colspan="1">Aspect</td><td align="center" valign="top" rowspan="1" colspan="1">Aspect</td><td align="center" valign="top" rowspan="1" colspan="1">1.02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Temperature Seasonality</td><td align="center" valign="top" rowspan="1" colspan="1">Bio4</td><td align="center" valign="top" rowspan="1" colspan="1">3.23</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr></tbody></table></table-wrap></sec><sec id="ece374256-sec-0005"><label>2.3</label><title>Model Building</title><p>Species distribution models were constructed using the sdm package (Naimi and Araújo <xref rid="ece374256-bib-0048" ref-type="bibr">2016</xref>) within the R statistical environment. To predict the changes, three distinct machine learning algorithms were employed: Random Forest (RF), Support Vector Machine (SVM), and Boosted Regression Trees (BRT). The data were partitioned using cross‐validation method, with 80% of the records allocated for model training and the remaining 20% reserved for testing and validation. Model performance was evaluated using three standard metrics: the Area Under the Receiver Operating Characteristic Curve (AUC; Marmion et al. <xref rid="ece374256-bib-0044" ref-type="bibr">2008</xref>), the True Skill Statistic (TSS), and Cohen's Kappa (Allouche et al. <xref rid="ece374256-bib-0001" ref-type="bibr">2006</xref>).</p><p>To reduce uncertainty and improve predictive reliability, an ensemble modeling approach was adopted to generate the final suitability maps (Valavi et al. <xref rid="ece374256-bib-0062" ref-type="bibr">2021</xref>; Araujo and New <xref rid="ece374256-bib-0004" ref-type="bibr">2007</xref>). This process involved a weighted averaging method, where models were combined based on their performance scores. To ensure the quality of the projections, low‐performing models, defined as those with AUC &lt; 0.7 or TSS &lt; 0.5, were excluded from the ensemble (Khalatbari Limaki et al. <xref rid="ece374256-bib-0037" ref-type="bibr">2021</xref>). Finally, the maximum sum of sensitivity and specificity (MaxSSS) statistic was utilized (Liu et al. <xref rid="ece374256-bib-0043" ref-type="bibr">2013</xref>) to determine the optimum threshold for converting continuous probability maps into binary presence/absence maps.</p></sec><sec id="ece374256-sec-0006"><label>2.4</label><title>Protected Area Assessment</title><p>To evaluate the overlap between climatically suitable areas and conservation zones, spatial data from the World Database on Protected Areas (WDPA; UNEP‐WCMC and IUCN <xref rid="ece374256-bib-0060" ref-type="bibr">2025</xref>) were used. A two‐step analysis was conducted in ArcGIS Pro. First, protected area polygons were dissolved into a single layer to estimate the total proportion of climatically suitable area falling within the protected network. Second, analyses were repeated using individual protected area units to quantify both the total suitable area and the proportion of each protected area classified as suitable. Suitability maps were intersected with protected area polygons using raster‐based zonal statistics, and pixel counts were converted to area (km<sup>2</sup>).</p></sec></sec><sec sec-type="results" id="ece374256-sec-0007"><label>3</label><title>Results</title><sec id="ece374256-sec-0008"><label>3.1</label><title>Model Performance</title><p>The ensemble modeling approach yielded good predictive performance across the tested algorithms. Among them, the Random Forest (RF) model showed the highest consistency, achieving a mean AUC of approximately 0.81, followed closely by SVM (0.79) and BRT (0.77). Both TSS and Cohen's Kappa metrics indicated moderate to good model agreement, with mean values ranging from 0.48 to 0.52. The evaluation metrics further showed a distinct performance pattern: models exhibited high sensitivity (mean Se ≈0.85) and moderate specificity (mean Sp ≈0.65) (Figure <xref rid="ece374256-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374256-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Comparison of predictive performance across the three modeling algorithms (BRT, RF, and SVM). The boxplots summarize the variance in five key evaluation metrics (AUC, TSS, Kappa, Sensitivity, and Specificity) across the model runs, illustrating the median, interquartile range, and outliers for each algorithm.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-16-e74256-g007.webp"><?image-name ECE3-16-e74256-g007.webp?><?image-size 10816?><?image-md5 340397dc9ab2106bffd44f8a4b96755c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 514?><?image-original-width 1064?><?image-scaled-height 514?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/340397dc9ab2/ECE3-16-e74256-g007.webp?><?thumb-name ECE3-16-e74256-g007.gif?><?thumb-size 3645?><?thumb-md5 f868aac55d245d0774de230a6090193d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 97?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/784a/13531240/f868aac55d24/ECE3-16-e74256-g007.gif?></graphic></fig></sec><sec id="ece374256-sec-0009"><label>3.2</label><title>Importance of Environmental Predictors</title><p>The analysis of variable importance identified the Mean Temperature of Driest Quarter (Bio9) as the dominant environmental driver for the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> in Italy. This variable alone accounted for 30.5% of the model's relative importance (Figure <xref rid="ece374256-fig-0003" ref-type="fig">3</xref>). Secondary contributions were observed from Isothermality (Bio3) and Temperature Seasonality (Bio4), which contributed 7.5% and 7.4%, respectively. In contrast, precipitation‐related variables (Bio15, Bio18, Bio19) and topographic features (slope and aspect) played a comparatively minor role in defining the species' spatial suitability.</p><fig position="float" fig-type="FIGURE" id="ece374256-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Relative importance of environmental predictors for the <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> ensemble distribution model. Values denote the mean contribution (%) of each variable, highlighting the Mean Temperature of the Driest Quarter (Bio9) as the dominant climatic constraint. Error bars represent the variance across the individual model algorithms.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-16-e74256-g006.webp"><?image-name ECE3-16-e74256-g006.webp?><?image-size 14016?><?image-md5 e4b700114e8249a330003ca552f434be?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 613?><?image-original-width 1064?><?image-scaled-height 613?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/e4b700114e82/ECE3-16-e74256-g006.webp?><?thumb-name ECE3-16-e74256-g006.gif?><?thumb-size 2645?><?thumb-md5 5ac3dfa5eb992a843448624351131f65?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 115?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/784a/13531240/5ac3dfa5eb99/ECE3-16-e74256-g006.gif?></graphic></fig></sec><sec id="ece374256-sec-0010"><label>3.3</label><title>Prediction Maps and Future Distribution</title><p>The distribution models indicate that under current climatic conditions, the climatic envelope suitable for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> covers approximately 114,482 km<sup>2</sup> of the study area. This value represents macro‐climatic suitability across the landscape, whereas the species' actual realized habitat is confined to riverine networks within these climatically suitable zones. However, future projections show a consistent decrease in suitable climatic space across all emission scenarios (Figure <xref rid="ece374256-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374256-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Projected habitat suitability for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> in Italy across different climatic scenarios. The maps display the ensemble probability of occurrence, derived from RF, SVM, and BRT algorithms, on a continuous scale from 0 (unsuitable) to 1 (optimal suitability). Panels represent: (A) Current climatic conditions; (B, C) Projections for the years 2050 and 2070 under the low‐emission scenario (SSP1‐2.6); and (D, E) Projections for the years 2050 and 2070 under the high‐emission scenario (SSP5‐8.5). Note that these maps represent broad‐scale macro‐climatic suitability across the terrestrial landscape; the species' realized habitat is restricted to river networks within these highly suitable zones.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-16-e74256-g001.webp"><?image-name ECE3-16-e74256-g001.webp?><?image-size 48936?><?image-md5 d3c95ed39f324bb593dc2b0c160d148f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 764?><?image-original-width 1064?><?image-scaled-height 764?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/d3c95ed39f32/ECE3-16-e74256-g001.webp?><?thumb-name ECE3-16-e74256-g001.gif?><?thumb-size 10304?><?thumb-md5 7dfd3963fc671a567d2ec452ebfa3236?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 144?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/784a/13531240/7dfd3963fc67/ECE3-16-e74256-g001.gif?></graphic></fig><p>Under the SSP1‐2.6 scenario, suitable habitat is projected to decrease by approximately 12.7% (to 99,913 km<sup>2</sup>) by 2050, increasing to a 17.9% reduction (93,854 km<sup>2</sup>) by 2070 relative to the baseline. In contrast, the SSP5‐8.5 scenario predicts larger reductions, with the total suitable area decreasing by 47.6% (to 60,246 km<sup>2</sup>) in 2050 and by 80.8% (to 22,238 km<sup>2</sup>) by 2070.</p><p>Spatially, these changes occur primarily as a contraction of the species' current climatic range rather than a displacement to newly suitable areas. Consequently, the proportion of stable climatic conditions, areas that remain suitable across timeframes, decreases. Across all modeled scenarios, the net change in suitable area is consistently negative. The extent of climatic suitability loss increases with both time and higher radiative forcing, with the largest reduction observed under the SSP5‐8.5 scenario in 2070 (Figure <xref rid="ece374256-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374256-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Projected range contraction of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> in Italy under future climate scenarios. The maps display ensemble binary habitat suitability, derived by applying the maximum sum of sensitivity and specificity (MaxSSS) threshold to the continuous probabilities shown in Figure <xref rid="ece374256-fig-0004" ref-type="fig">4</xref>. Orange indicates suitable climatic space and gray indicates unsuitable areas. “Range contraction” refers to the net loss of suitable area (km<sup>2</sup>) relative to the current distribution. Panels show: (A) Current distribution; (B, C) Future projections for 2050 and 2070 under the sustainable SSP1‐2.6 scenario; and (D, E) Future projections for 2050 and 2070 under the high‐emission SSP5‐8.5 scenario. Similar to Figure <xref rid="ece374256-fig-0004" ref-type="fig">4</xref>, suitable areas represent the macro‐climatic envelope, not explicit riverine pathways.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ECE3-16-e74256-g002.webp"><?image-name ECE3-16-e74256-g002.webp?><?image-size 99712?><?image-md5 89e5522f3ea16988d14550bee1d7708e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1058?><?image-original-width 1064?><?image-scaled-height 1058?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/89e5522f3ea1/ECE3-16-e74256-g002.webp?><?thumb-name ECE3-16-e74256-g002.gif?><?thumb-size 14305?><?thumb-md5 69cde41441d3ef7e179777a67293a250?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 199?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/784a/13531240/69cde41441d3/ECE3-16-e74256-g002.gif?></graphic></fig></sec><sec id="ece374256-sec-0011"><label>3.4</label><title>Protected Area Network Coverage</title><p>Under current climatic conditions, approximately 21.5% of the modeled suitable habitat for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> overlaps with the national protected area network. The National Park of Cilento, Vallo di Diano e Alburni contains the largest extent of suitable habitat (approximately 1526 km<sup>2</sup>), followed by the Pollino (1297 km<sup>2</sup>) and Murgia Alta (1254 km<sup>2</sup>) National Parks. In terms of proportional coverage, Murgia Alta exhibits the highest suitability among the largest protected areas, with 85.1% of its total area classified as suitable. Other protected areas showing high fractional suitability (&gt; 80%) include the Comprensorio Tolfetano‐Cerite‐Manziate (90.4%) and the Alta Murgia National Park (82.2%).</p><p>Future projections indicate a reduction in protected area coverage across both emission scenarios. Under the SSP1‐2.6 scenario, the proportion of suitable habitat within the protected network decreases to 19.5% by 2050 and 19.2% by 2070. The hierarchical ranking of protected areas remains largely consistent with the baseline; Cilento and Murgia Alta remain the top‐ranked areas for total suitable habitat. Suitability within the Pollino National Park declines from a baseline of 49.4% to 43.6% by the period 2061–2080. Under the SSP5‐8.5 scenario, the total proportion of protected suitable habitat declines to 20.0% by 2050 and 15.6% by 2070. By the 2061–2080 period, the suitable habitat area within Cilento decreases to 12.4% coverage (~266 km<sup>2</sup>), though it remains the top‐ranked area. Aspromonte National Park becomes the second‐ranked area with approximately 231 km<sup>2</sup> of suitable habitat (35.5% coverage). While suitable area within large national parks decreases, specific smaller reserves such as Torre Manfria, Biviere e Piana di Gela and Migliarino, San Rossore e Massaciuccoli maintain suitability percentages exceeding 87% and 93%, respectively (Figure <xref rid="ece374256-fig-0006" ref-type="fig">6</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374256-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Spatial overlap between the Italian terrestrial protected area network (red hatched areas) and the projected suitable climatic habitat (blue) for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content>. Panels represent: (A) current climatic conditions; (B, C) future projections for 2050 and 2070 under the SSP1‐2.6 scenario; and (D, E) future projections for 2050 and 2070 under the SSP5‐8.5 scenario.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ECE3-16-e74256-g005.webp"><?image-name ECE3-16-e74256-g005.webp?><?image-size 52608?><?image-md5 6ff838431b73d06db9a5a21c2e9a7c1b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 715?><?image-original-width 1064?><?image-scaled-height 715?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/784a/13531240/6ff838431b73/ECE3-16-e74256-g005.webp?><?thumb-name ECE3-16-e74256-g005.gif?><?thumb-size 8116?><?thumb-md5 ccc17729445a3e355ee032ea43f53060?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 134?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/784a/13531240/ccc17729445a/ECE3-16-e74256-g005.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="ece374256-sec-0012"><label>4</label><title>Discussion</title><p>The ensemble modeling approach utilized in this study provided a reasonable approximation of the species' climatic niche, with Random Forest (RF) and Support Vector Machine (SVM) algorithms showing relatively consistent performance (AUC &gt; 0.8). However, given the use of cross‐validation and potential spatial autocorrelation in occurrence records, these evaluation metrics should be interpreted with caution, as they may overestimate predictive performance. The models exhibited high sensitivity (Se ≈0.85), indicating a strong ability to capture areas of potential climatic suitability for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> (McPherson et al. <xref rid="ece374256-bib-0045" ref-type="bibr">2004</xref>). In contrast, the lower specificity (Sp ≈0.65) is consistent with common patterns in species distribution modeling (Olden et al. <xref rid="ece374256-bib-0050" ref-type="bibr">2002</xref>), where species do not occupy all climatically suitable areas due to factors such as historical dispersal limitations (Blinkhorn et al. <xref rid="ece374256-bib-0011" ref-type="bibr">2025</xref>) or biotic interactions, including competition and predation (Siemens et al. <xref rid="ece374256-bib-0055" ref-type="bibr">2023</xref>). As is inherent to correlative SDMs, these outputs represent potential climatic suitability rather than realized distribution, and should therefore be interpreted within this context.</p><p>A key result of this study is the prominent contribution of Mean Temperature of the Driest Quarter (Bio9), which accounted for over 30% of model importance. This finding suggests that the large‐scale distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> is strongly associated with temperature conditions during the dry season. While this pattern may reflect vulnerability to combined heat and seasonal aridity, this study was specifically designed to capture broad, macro‐climatic impacts based on standardized IPCC scenarios. Therefore, the model relies on atmospheric climate variables and does not incorporate fine‐scale hydrological variables (such as permanent watercourses, water temperature, or oxygenation). Consequently, any linkage between high atmospheric temperatures and reduced stream flow conditions should be considered inferred based on general ecological understanding of Mediterranean freshwater systems (Carosi <xref rid="ece374256-bib-0017" ref-type="bibr">2022</xref>; Mulholland et al. <xref rid="ece374256-bib-0047" ref-type="bibr">1997</xref>), rather than directly tested in this study. As a poikilothermic organism, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> similar to <italic toggle="yes">P. ibericum</italic>, depends on ambient thermal conditions for metabolic regulation (Ghasemian Sorboni et al. <xref rid="ece374256-bib-0028" ref-type="bibr">2025</xref>), and elevated temperatures during the dry season may represent a key environmental constraint at broad spatial scales. In contrast, topographic predictors (slope and aspect) showed relatively low importance, suggesting that although the species likely utilizes local microhabitats (e.g., shaded riverbanks) to buffer thermal extremes (Anger et al. <xref rid="ece374256-bib-0003" ref-type="bibr">2007</xref>), such fine‐scale processes are not fully captured by the coarse spatial resolution of the predictors used here (Kawaida et al. <xref rid="ece374256-bib-0036" ref-type="bibr">2017</xref>). While large‐scale atmospheric variables like the Mean Temperature of the Driest Quarter serve as essential proxies for regional thermal constraints, they do not perfectly mirror the actual water temperatures experienced by this benthic crab. Consequently, local aquatic microclimates may be more thermally buffered than the macro‐climatic grids suggest, allowing populations to persist in localized refugia even as the broader climatic envelope becomes unsuitable.</p><p>Consistent with the importance of dry‐season temperature, future projections indicate a decline in climatic suitability for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> across Italy. While the current potential distribution is relatively widespread, all scenarios project a progressive contraction of suitable climatic space. Under the SSP1‐2.6 pathway, projected habitat loss remains moderate (−12.7% to −17.9%), suggesting that lower‐emission trajectories may partially mitigate the extent of contraction. In contrast, the SSP5‐8.5 scenario indicates a much stronger reduction, with over 80% of currently suitable areas projected to fall outside the species' present climatic envelope by 2070. Such patterns are broadly consistent with reported trends for freshwater taxa in Mediterranean regions, where increasing temperatures and altered climatic regimes are expected to drive range contractions (Heino et al. <xref rid="ece374256-bib-0032" ref-type="bibr">2009</xref>). However, it is important to consider that these projections represent changes in climatic suitability and do not account for dispersal processes, habitat connectivity, or local environmental conditions. Although freshwater crabs are generally constrained to riverine systems and are characterized by limited dispersal capacity (Sun et al. <xref rid="ece374256-bib-0057" ref-type="bibr">2020</xref>), the extent to which <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> can track shifting climatic conditions remains uncertain.</p><p>Our results indicate a progressive contraction of climatically suitable areas rather than a clear shift toward newly suitable regions. The analysis of range change metrics suggests that potential expansion into new areas is limited (approximately 3.4%–9%) relative to the projected loss of currently suitable climatic space. This imbalance may indicate a reduced capacity for natural range expansion; however, dispersal processes were not modeled. Although <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> is characterized by direct development and generally low dispersal ability, and is further constrained by the one‐dimensional dispersal pathways of isolated river networks, the extent to which it can track shifting climatic conditions remains uncertain within the scope of this study.</p><p>The magnitude of the projected decline under the SSP5‐8.5 scenario raises potential conservation concerns. If regional climatic conditions follow high‐emission trajectories, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> could face increasing risk, although any reassessment of its conservation status would require integration of additional ecological and demographic data beyond climatic suitability alone. The fragmentation of river systems in Italy (Billi and Fazzini <xref rid="ece374256-bib-0010" ref-type="bibr">2017</xref>), together with projected changes in seasonal temperature regimes, may contribute to increased isolation of populations, especially where local environmental conditions diverge from historically suitable climates (Titeux et al. <xref rid="ece374256-bib-0058" ref-type="bibr">2019</xref>; Robertson and Hutto <xref rid="ece374256-bib-0053" ref-type="bibr">2006</xref>).</p><p>The projected reduction in macro‐climatic suitability for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> aligns with modeling efforts for other <italic toggle="yes">Potamon</italic> species across the Mediterranean and Near East. Endemic freshwater crabs in these regions show comparable responses to future climate projections. For example, distribution models suggest that the macro‐climatic suitability for species such as <italic toggle="yes">P. hippocratis</italic> and <italic toggle="yes">P. pelops</italic> could decline by 75% to 100% under future scenarios (Yousefi et al. <xref rid="ece374256-bib-0066" ref-type="bibr">2022</xref>). Similarly, more widely distributed species like <italic toggle="yes">P. ibericum</italic> exhibit high sensitivity to temperature seasonality and the mean temperature of the driest quarter. Projections for <italic toggle="yes">P. ibericum</italic> indicate up to a 96% reduction in its suitable macro‐climatic envelope by 2070 under the SSP5‐8.5 scenario, with potential shifts toward higher elevations (Ghasemian Sorboni et al. <xref rid="ece374256-bib-0028" ref-type="bibr">2025</xref>). These shared patterns indicate that the climatic constraints identified for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> are consistent across the genus within these fragmented drainage basins.</p><p>The evaluation of the Italian protected area network suggests a potential mismatch between current conservation boundaries and projected patterns of climatic suitability. Approximately 21.5% of the currently suitable climatic space overlaps with the protected area network; however, several large National Parks, including Cilento and Pollino, are projected to experience declines in climatic suitability under high‐emission scenarios by 2070. Existing protected areas, while essential for conservation, may not fully align with future patterns of climatic suitability (Cui et al. <xref rid="ece374256-bib-0019" ref-type="bibr">2025</xref>; Hannah <xref rid="ece374256-bib-0030" ref-type="bibr">2008</xref>). It is important to emphasize that this analysis is based on coarse‐resolution climatic data and terrestrial grid cells, and therefore represents climatic overlap rather than a direct measure of protected riverine habitat.</p><p>Conversely, some smaller coastal reserves appear to maintain relatively high levels of climatic suitability across scenarios, suggesting that they may function as areas of relatively stable macro‐climatic conditions. Sites such as Torre Manfria and San Rossore are projected to retain high suitability values (&gt; 85%) despite overall range contraction. While these areas may represent potential zones of persistence, it should be noted that the model does not incorporate fine‐scale hydrological or habitat characteristics. Therefore, any inference regarding their role as refugia should be considered tentative and subject to further investigation using more detailed environmental data.</p><p>From a management perspective, conservation strategies may benefit from considering areas that are projected to retain relatively stable climatic conditions. However, potential actions such as riparian restoration or environmental flow management address processes that are not represented in the current modeling framework and should therefore be viewed as complementary considerations rather than direct outcomes of the model. Similarly, assisted colonization (translocation) may be discussed in the context of extreme future scenarios, but such interventions remain highly uncertain and require careful evaluation of ecological risks, including impacts on recipient ecosystems and disease transmission (Gardner and Bullock <xref rid="ece374256-bib-0027" ref-type="bibr">2025</xref>).</p><p>Finally, several limitations inherent to the Species Distribution Modeling (SDM) framework used in this study must be acknowledged. Occurrence data derived from GBIF are likely affected by spatial sampling bias, often favoring accessible or well‐surveyed areas (Beck et al. <xref rid="ece374256-bib-0007" ref-type="bibr">2014</xref>; Sorboni et al. <xref rid="ece374256-bib-0056" ref-type="bibr">2026</xref>), potentially underrepresenting populations in less‐sampled regions (Lin et al. <xref rid="ece374256-bib-0042" ref-type="bibr">2022</xref>). Also, the models characterize aspects of the species' climatic niche rather than its realized distribution (Beery et al. <xref rid="ece374256-bib-0008" ref-type="bibr">2021</xref>), and are specifically designed to evaluate large‐scale vulnerability under standardized IPCC macro‐climatic scenarios (IPCC <xref rid="ece374256-bib-0034" ref-type="bibr">2022</xref>). As such, they do not incorporate critical local parameters such as water temperature, oxygenation, biotic interactions, or anthropogenic dispersal barriers (e.g., dams or intermittent river sections), or local anthropogenic stressors such as water pollution (Boyer et al. <xref rid="ece374256-bib-0014" ref-type="bibr">2023</xref>).</p><p>Projections were derived from multiple algorithms and climate models, but uncertainty among these sources was not quantified; therefore, reported values of habitat change should be interpreted as approximate estimates rather than precise predictions. Finally, because model calibration was restricted to occurrence data from Italy, the results reflect a regional portion of the species' niche rather than its full environmental tolerance.</p><p>Given these limitations, and considering the importance of local hydrological and habitat conditions for freshwater species, the actual area available for occupancy is likely more restricted than suggested by coarse‐scale climatic suitability maps. Accordingly, areas identified as potential future “gains” should be interpreted cautiously as climatically suitable under broad conditions, rather than as guaranteed habitats for future colonization (Liepe et al. <xref rid="ece374256-bib-0041" ref-type="bibr">2022</xref>).</p></sec><sec sec-type="conclusions" id="ece374256-sec-0013"><label>5</label><title>Conclusion</title><p>Our study provides a broad assessment of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> potential climate change impacts under CMIP6 emission scenarios in Italy. The results suggest that temperature conditions during the summer dry season are a key predictor of the species' large‐scale climatic suitability. Future projections indicate large reductions in suitable climatic space, particularly under high‐emission scenarios.</p><p>The projected contraction of suitable areas, combined with the fragmented nature of river systems, may reduce the ability of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">P. fluviatile</italic>
+</styled-content> to track shifting climatic conditions; however, dispersal processes and local habitat dynamics were not modeled and remain important sources of uncertainty. Also, the comparison with the current protected area network suggests that existing conservation boundaries may not fully align with future patterns of climatic suitability, although this assessment is based on macro‐scale climatic overlap rather than direct representation of aquatic habitats.</p><p>Our findings support considering climate‐driven changes in large‐scale suitability when evaluating conservation strategies. Future research integrating hydrological variables, dispersal processes, and fine‐scale habitat characteristics would help refine these projections and support management decisions for freshwater species under climate change.</p></sec><sec id="ece374256-sec-0019"><title>Author Contributions</title><p>
+<bold>Saman Ghasemian Sorboni:</bold> conceptualization (equal), data curation (equal), formal analysis (equal), methodology (equal), software (equal), writing – original draft (equal). <bold>Sharareh Pourebrahim:</bold> conceptualization (equal), data curation (equal), formal analysis (equal), writing – original draft (equal), writing – review and editing (equal). <bold>Jit Ern Chen:</bold> funding acquisition (lead), project administration (equal), resources (equal). <bold>Mehrdad Hadipour:</bold> methodology (equal), supervision (equal), writing – original draft (equal).</p></sec><sec id="ece374256-sec-0015"><title>Funding</title><p>This work was supported by Sunway University, SUR‐JSC‐SSERV‐2024‐13 Sunway Group ESG grant.</p></sec><sec sec-type="COI-statement" id="ece374256-sec-0016"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="ece374256-sec-0014"><title>Acknowledgments</title><p>We thank Sunway University for providing institutional resources that facilitated this research. This work was supported by Sunway University, Malaysia through grant SUR‐JSC‐SSERV‐2024‐13 (Sunway Group ESG Grant).</p></ack><sec sec-type="data-availability" id="ece374256-sec-0018"><title>Data Availability Statement</title><p>The data that underpin the findings of this study are openly available in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zenodo.org/" ext-link-type="uri" specific-use="software is-supplemented-by">https://zenodo.org/</ext-link> at [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.19634877" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.19634877</ext-link>]. Primary occurrence data were retrieved from the Global Biodiversity Information Facility (GBIF) [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.15468/39omei" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.15468/39omei</ext-link> accessed via <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://gbif.org" ext-link-type="uri" specific-use="software is-supplemented-by">GBIF.org</ext-link> on 2025‐07‐11]. Environmental predictors were obtained from the WorldClim v2.1 database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.worldclim.org/data/cmip6/cmip6climate.html" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.worldclim.org/data/cmip6/cmip6climate.html</ext-link>), and protected area boundaries were sourced from the World Database on Protected Areas (WDPA) [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.protectedplanet.net" ext-link-type="uri" specific-use="software is-supplemented-by">www.protectedplanet.net</ext-link>].</p></sec><ref-list content-type="cited-references" id="ece374256-bibl-0001"><title>References</title><ref id="ece374256-bib-0001"><mixed-citation publication-type="journal" id="ece374256-cit-0001">
+<string-name name-style="western">
+<surname>Allouche</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Tsoar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kadmon</surname>
+</string-name>. <year>2006</year>. “<article-title>Assessing the Accuracy of Species Distribution Models: Prevalence, Kappa and the True Skill Statistic (TSS)</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>43</volume>, no. <issue>6</issue>: <fpage>1223</fpage>–<lpage>1232</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2006.01214.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0002"><mixed-citation publication-type="journal" id="ece374256-cit-0002">
+<string-name name-style="western">
+<surname>Andrew</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Sauquet</surname>
+</string-name>. <year>2017</year>. “<article-title>Climate Change Impacts and Water Management Adaptation in Two Mediterranean‐Climate Watersheds: Learning From the Durance and Sacramento Rivers</article-title>.” <source>Water</source>
+<volume>9</volume>, no. <issue>2</issue>: <elocation-id>126</elocation-id>. <pub-id pub-id-type="doi">10.3390/w9020126</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0003"><mixed-citation publication-type="journal" id="ece374256-cit-0003">
+<string-name name-style="western">
+<surname>Anger</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Torres</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Nettelmann</surname>
+</string-name>. <year>2007</year>. “<article-title>Adaptive Traits in Ecology, Reproduction and Early Life History of Sesarma Meridies, an Endemic Stream Crab From Jamaica</article-title>.” <source>Marine and Freshwater Research</source>
+<volume>58</volume>, no. <issue>8</issue>: <fpage>743</fpage>–<lpage>755</lpage>. <pub-id pub-id-type="doi">10.1071/mf06176</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0004"><mixed-citation publication-type="journal" id="ece374256-cit-0004">
+<string-name name-style="western">
+<surname>Araujo</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>New</surname>
+</string-name>. <year>2007</year>. “<article-title>Ensemble Forecasting of Species Distributions</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>22</volume>, no. <issue>1</issue>: <fpage>42</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2006.09.010</pub-id>.<pub-id pub-id-type="pmid">17011070</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0005"><mixed-citation publication-type="journal" id="ece374256-cit-0005">
+<string-name name-style="western">
+<surname>Azra</surname>, <given-names>M. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Aaqillah‐Amr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ikhwanuddin</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Effects of Climate‐Induced Water Temperature Changes on the Life History of Brachyuran Crabs</article-title>.” <source>Reviews in Aquaculture</source>
+<volume>12</volume>, no. <issue>2</issue>: <fpage>1211</fpage>–<lpage>1216</lpage>. <pub-id pub-id-type="doi">10.1111/raq.12380</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0006"><mixed-citation publication-type="journal" id="ece374256-cit-0006">
+<string-name name-style="western">
+<surname>Barbet‐Massin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jiguet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. H.</given-names>
+<surname>Albert</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Thuiller</surname>
+</string-name>. <year>2012</year>. “<article-title>Selecting Pseudo‐Absences for Species Distribution Models: How, Where and How Many?</article-title>” <source>Methods in Ecology and Evolution</source>
+<volume>3</volume>, no. <issue>2</issue>: <fpage>327</fpage>–<lpage>338</lpage>. <pub-id pub-id-type="doi">10.1111/j.2041-210x.2011.00172.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0007"><mixed-citation publication-type="journal" id="ece374256-cit-0007">
+<string-name name-style="western">
+<surname>Beck</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Böller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Erhardt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Schwanghart</surname>
+</string-name>. <year>2014</year>. “<article-title>Spatial Bias in the GBIF Database and Its Effect on Modeling Species' Geographic Distributions</article-title>.” <source>Ecological Informatics</source>
+<volume>19</volume>: <fpage>10</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecoinf.2013.11.002</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0008"><mixed-citation publication-type="book" id="ece374256-cit-0008">
+<string-name name-style="western">
+<surname>Beery</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Cole</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Parker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Perona</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Winner</surname>
+</string-name>. <year>2021</year>. “<part-title>Species Distribution Modeling for Machine Learning Practitioners: A Review</part-title>.” In <source>COMPASS 21: ACM SIGCAS Conference on Computing and Sustainable Societies</source>, <fpage>329</fpage>–<lpage>348</lpage>. <publisher-name>ACM</publisher-name>. <pub-id pub-id-type="doi">10.1145/3460112.3471966</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0009"><mixed-citation publication-type="journal" id="ece374256-cit-0009">
+<string-name name-style="western">
+<surname>Benson</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Stewart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. G.</given-names>
+<surname>Close</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Lymbery</surname>
+</string-name>. <year>2021</year>. “<article-title>Freshwater Mussels in Mediterranean‐Climate Regions: Species Richness, Conservation Status, Threats, and Conservation Actions Needed</article-title>.” <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source>
+<volume>31</volume>, no. <issue>3</issue>: <fpage>708</fpage>–<lpage>728</lpage>. <pub-id pub-id-type="doi">10.1002/aqc.3511</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0010"><mixed-citation publication-type="journal" id="ece374256-cit-0010">
+<string-name name-style="western">
+<surname>Billi</surname>, <given-names>P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fazzini</surname>
+</string-name>. <year>2017</year>. “<article-title>Global Change and River Flow in Italy</article-title>.” <source>Global and Planetary Change</source>
+<volume>155</volume>: <fpage>234</fpage>–<lpage>246</lpage>. <pub-id pub-id-type="doi">10.1016/j.gloplacha.2017.07.008</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0011"><mixed-citation publication-type="journal" id="ece374256-cit-0011">
+<string-name name-style="western">
+<surname>Blinkhorn</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zinner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Timbrell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Manica</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Grove</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. M. L.</given-names>
+<surname>Scerri</surname>
+</string-name>. <year>2025</year>. “<article-title>Identifying Late Pleistocene and Holocene Refugia for Baboons</article-title>.” <source>Communications Biology</source>
+<volume>8</volume>, no. <issue>1</issue>: <fpage>1003</fpage>. <pub-id pub-id-type="doi">10.1038/s42003-025-08419-8</pub-id>.<pub-id pub-id-type="pmid">40615677</pub-id>
+<pub-id pub-id-type="pmcid">PMC12227712</pub-id></mixed-citation></ref><ref id="ece374256-bib-0012"><mixed-citation publication-type="journal" id="ece374256-cit-0012">
+<string-name name-style="western">
+<surname>Booth</surname>, <given-names>T. H.</given-names>
+</string-name>
+<year>2025</year>. “<article-title>The Origins of Modern Species Distribution Modelling: Some Comments on the Vasconcelos Et al. (2024) Review</article-title>.” <source>Earth</source>
+<volume>6</volume>, no. <issue>1</issue>: <elocation-id>12</elocation-id>. <pub-id pub-id-type="doi">10.3390/earth6010012</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0013"><mixed-citation publication-type="journal" id="ece374256-cit-0013">
+<string-name name-style="western">
+<surname>Booth</surname>, <given-names>T. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. A.</given-names>
+<surname>Nix</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Busby</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Hutchinson</surname>
+</string-name>. <year>2013</year>. “<article-title>Bioclim: The First Species Distribution Modelling Package, Its Early Applications and Relevance to Most Current MaxEnt Studies</article-title>.” <source>Diversity and Distributions</source>
+<volume>20</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1111/ddi.12144</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0014"><mixed-citation publication-type="journal" id="ece374256-cit-0014">
+<string-name name-style="western">
+<surname>Boyer</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Bertrand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Lourdais</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Isselin‐Nondedeu</surname>
+</string-name>. <year>2023</year>. “<article-title>Future Climate Will Drive Changes of Suitable Habitats and Sympatric Areas for Two Green Lizards in Western Europe</article-title>.” <source>Frontiers of Biogeography</source>
+<volume>15</volume>, no. <issue>4</issue>: <elocation-id>59543</elocation-id>. <pub-id pub-id-type="doi">10.21425/f5fbg59543</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0015"><mixed-citation publication-type="journal" id="ece374256-cit-0015">
+<string-name name-style="western">
+<surname>Brandis</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Storch</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Türkay</surname>
+</string-name>. <year>2000</year>. “<article-title>Taxonomy and Zoogeography of the Freshwater Crabs of Europe, North Africa, and the Middle East</article-title>.” <source>Senckenbergiana Biologica</source>
+<volume>80</volume>: <fpage>5</fpage>–<lpage>56</lpage>.</mixed-citation></ref><ref id="ece374256-bib-0016"><mixed-citation publication-type="journal" id="ece374256-cit-0016">
+<string-name name-style="western">
+<surname>Capon</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Stewart‐Koster</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Bunn</surname>
+</string-name>. <year>2021</year>. “<article-title>Future of Freshwater Ecosystems in a 1.5°C Warmer World</article-title>.” <source>Frontiers in Environmental Science</source>
+<volume>9</volume>: <elocation-id>784642</elocation-id>. <pub-id pub-id-type="doi">10.3389/fenvs.2021.784642</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0017"><mixed-citation publication-type="journal" id="ece374256-cit-0017">
+<string-name name-style="western">
+<surname>Carosi</surname>, <given-names>A.</given-names>
+</string-name>
+<year>2022</year>. “<article-title>Effects of Climate Change on Freshwater Biodiversity</article-title>.” <source>Water</source>
+<volume>14</volume>, no. <issue>23</issue>: <elocation-id>3953</elocation-id>. <pub-id pub-id-type="doi">10.3390/w14233953</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0018"><mixed-citation publication-type="journal" id="ece374256-cit-0018">
+<string-name name-style="western">
+<surname>Cramer</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Guiot</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fader</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Climate Change and Interconnected Risks to Sustainable Development in the Mediterranean</article-title>.” <source>Nature Climate Change</source>
+<volume>8</volume>, no. <issue>11</issue>: <fpage>972</fpage>–<lpage>980</lpage>. <pub-id pub-id-type="doi">10.1038/s41558-018-0299-2</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0019"><mixed-citation publication-type="journal" id="ece374256-cit-0019">
+<string-name name-style="western">
+<surname>Cui</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Frazier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liang</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Projected Climate Zone Shifts Could Undermine the Effectiveness of Global Protected Areas for Biodiversity Conservation by Mid‐To‐Late Century</article-title>.” <source>Global Environmental Change Advances</source>
+<volume>5</volume>: <elocation-id>100017</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.gecadv.2025.100017</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0020"><mixed-citation publication-type="journal" id="ece374256-cit-0020">
+<string-name name-style="western">
+<surname>Cumberlidge</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. K. L.</given-names>
+<surname>Ng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. C. J.</given-names>
+<surname>Yeo</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>Freshwater Crabs and the Biodiversity Crisis: Importance, Threats, Status, and Conservation Challenges</article-title>.” <source>Biological Conservation</source>
+<volume>142</volume>, no. <issue>8</issue>: <fpage>1665</fpage>–<lpage>1673</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2009.02.038</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0021"><mixed-citation publication-type="journal" id="ece374256-cit-0021">
+<string-name name-style="western">
+<surname>Daniels</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Gouws</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Crandall</surname>
+</string-name>. <year>2006</year>. “<article-title>Phylogeographic Patterning in a Freshwater Crab Species (Decapoda: Potamonautidae:Potamonautes) Reveals the Signature of Historical Climatic Oscillations</article-title>.” <source>Journal of Biogeography</source>
+<volume>33</volume>, no. <issue>9</issue>: <fpage>1538</fpage>–<lpage>1549</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2699.2006.01537.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0022"><mixed-citation publication-type="journal" id="ece374256-cit-0022">
+<string-name name-style="western">
+<surname>Daunde</surname>, <given-names>V. V. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Kamble</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. R.</given-names>
+<surname>Chavan</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Effects of Climate Change‐Induced Temperature Rise on Crustacean Aquaculture: A Comprehensive Review</article-title>.” <source>Aquaculture and Fisheries</source>
+<volume>11</volume>, no. <issue>1</issue>: <fpage>11</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1016/j.aaf.2025.08.008</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0023"><mixed-citation publication-type="journal" id="ece374256-cit-0023">
+<string-name name-style="western">
+<surname>Fernández‐Martínez</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Barquín</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Bonada</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Mediterranean Springs: Keystone Ecosystems and Biodiversity Refugia Threatened by Global Change</article-title>.” <source>Global Change Biology</source>
+<volume>30</volume>, no. <issue>1</issue>: <elocation-id>e16997</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.16997</pub-id>.<pub-id pub-id-type="pmid">37937346</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0024"><mixed-citation publication-type="journal" id="ece374256-cit-0024">
+<string-name name-style="western">
+<surname>Feyen</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dankers</surname>
+</string-name>. <year>2009</year>. “<article-title>Impact of Global Warming on Streamflow Drought in Europe</article-title>.” <source>Journal of Geophysical Research: Atmospheres</source>
+<volume>114</volume>, no. <issue>D17</issue>: <elocation-id>1438</elocation-id>. <pub-id pub-id-type="doi">10.1029/2008jd011438</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0025"><mixed-citation publication-type="journal" id="ece374256-cit-0025">
+<string-name name-style="western">
+<surname>Fick</surname>, <given-names>S. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Hijmans</surname>
+</string-name>. <year>2017</year>. “<article-title>
+<sc>worldclim 2</sc>: New 1‐Km Spatial Resolution Climate Surfaces for Global Land Areas</article-title>.” <source>International Journal of Climatology</source>
+<volume>37</volume>, no. <issue>12</issue>: <fpage>4302</fpage>–<lpage>4315</lpage>. <pub-id pub-id-type="doi">10.1002/joc.5086</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0026"><mixed-citation publication-type="journal" id="ece374256-cit-0026">
+<string-name name-style="western">
+<surname>Franklin</surname>, <given-names>J.</given-names>
+</string-name>
+<year>2023</year>. “<article-title>Species Distribution Modelling Supports the Study of Past, Present and Future Biogeographies</article-title>.” <source>Journal of Biogeography</source>
+<volume>50</volume>, no. <issue>9</issue>: <fpage>1533</fpage>–<lpage>1545</lpage>. <pub-id pub-id-type="doi">10.1111/jbi.14617</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0027"><mixed-citation publication-type="journal" id="ece374256-cit-0027">
+<string-name name-style="western">
+<surname>Gardner</surname>, <given-names>C. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Bullock</surname>
+</string-name>. <year>2025</year>. “<article-title>Revisiting the Case for Assisted Colonisation Under Rapid Climate Change</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>62</volume>, no. <issue>5</issue>: <fpage>1071</fpage>–<lpage>1077</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2664.70027</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0028"><mixed-citation publication-type="journal" id="ece374256-cit-0028">
+<string-name name-style="western">
+<surname>Ghasemian Sorboni</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hadipour</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pourebrahim</surname>
+</string-name>. <year>2025</year>. “<article-title>Evaluating Climate Change Impacts on Habitat Suitability for Iberian Freshwater Crab “<italic toggle="yes">Potamon ibericum</italic> Bieberstein, 1808” in Iran</article-title>.” <source>Frontiers in Ecology and Evolution</source>
+<volume>13</volume>: <elocation-id>8518</elocation-id>. <pub-id pub-id-type="doi">10.3389/fevo.2025.1608518</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0029"><mixed-citation publication-type="journal" id="ece374256-cit-0029">
+<string-name name-style="western">
+<surname>Gómez‐Navarro</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>De Girolamo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. W.</given-names>
+<surname>Lorenz</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Characterization of Anthropogenic Impacts in Mediterranean Intermittent Rivers With Chemical, Ecological and Hydrological Indicators</article-title>.” <source>Journal of Hazardous Materials</source>
+<volume>480</volume>: <elocation-id>135951</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jhazmat.2024.135951</pub-id>.<pub-id pub-id-type="pmid">39342859</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0030"><mixed-citation publication-type="journal" id="ece374256-cit-0030">
+<string-name name-style="western">
+<surname>Hannah</surname>, <given-names>L.</given-names>
+</string-name>
+<year>2008</year>. “<article-title>Protected Areas and Climate Change</article-title>.” <source>Annals of the New York Academy of Sciences</source>
+<volume>1134</volume>, no. <issue>1</issue>: <fpage>201</fpage>–<lpage>212</lpage>. <pub-id pub-id-type="doi">10.1196/annals.1439.009</pub-id>.<pub-id pub-id-type="pmid">18566095</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0031"><mixed-citation publication-type="journal" id="ece374256-cit-0031">
+<string-name name-style="western">
+<surname>Hao</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Chu</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>The Distribution Pattern and Biodiversity Conservation of Freshwater Crabs in Hainan Island</article-title>.” <source>Biodiversity Science</source>
+<volume>29</volume>, no. <issue>5</issue>: <fpage>605</fpage>–<lpage>616</lpage>. <pub-id pub-id-type="doi">10.17520/biods.2020326</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0032"><mixed-citation publication-type="journal" id="ece374256-cit-0032">
+<string-name name-style="western">
+<surname>Heino</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Virkkala</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Toivonen</surname>
+</string-name>. <year>2009</year>. “<article-title>Climate Change and Freshwater Biodiversity: Detected Patterns, Future Trends and Adaptations in Northern Regions</article-title>.” <source>Biological Reviews</source>
+<volume>84</volume>, no. <issue>1</issue>: <fpage>39</fpage>–<lpage>54</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-185x.2008.00060.x</pub-id>.<pub-id pub-id-type="pmid">19032595</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0033"><mixed-citation publication-type="journal" id="ece374256-cit-0033">
+<string-name name-style="western">
+<surname>Helitas</surname>, <given-names>N.</given-names>
+</string-name>
+<year>2016</year>. “<article-title>Mediterranean Freshwater Crab (<italic toggle="yes">Potamon fluviatile</italic>)</article-title>.” <source>iNaturalist</source>
+<volume>45</volume>: <elocation-id>7700</elocation-id>.</mixed-citation></ref><ref id="ece374256-bib-0034"><mixed-citation publication-type="book" id="ece374256-cit-0034">
+<collab collab-type="authors">IPCC</collab>
+. <year>2022</year>. “<part-title>Climate Change 2022: Impacts, Adaptation and Vulnerability</part-title>.” In <source>Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>H.‐O.</given-names>
+<surname>Pörtner</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Roberts</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Tignor</surname>
+</string-name>
+</person-group>, et al. <publisher-name>Cambridge University Press</publisher-name>. <pub-id pub-id-type="doi">10.1017/9781009325844</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0035"><mixed-citation publication-type="journal" id="ece374256-cit-0035">
+<string-name name-style="western">
+<surname>Jimenez</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Vorsatz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. M.</given-names>
+<surname>Costa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Cannicci</surname>
+</string-name>. <year>2022</year>. “<article-title>Temperature Extremes and Sex‐Related Physiology, Not Environmental Variability, Are Key in Explaining Thermal Sensitivity of Bimodal‐Breathing Intertidal Crabs</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>9</volume>: <elocation-id>8280</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2022.858280</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0036"><mixed-citation publication-type="journal" id="ece374256-cit-0036">
+<string-name name-style="western">
+<surname>Kawaida</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Nanjo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kanai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Kohno</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sano</surname>
+</string-name>. <year>2017</year>. “<article-title>Microhabitat Differences in Crab Assemblage Structures in a Subtropical Mangrove Estuary on Iriomote Island, Southern Japan</article-title>.” <source>Fisheries Science</source>
+<volume>83</volume>, no. <issue>6</issue>: <fpage>1007</fpage>–<lpage>1017</lpage>. <pub-id pub-id-type="doi">10.1007/s12562-017-1139-4</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0037"><mixed-citation publication-type="journal" id="ece374256-cit-0037">
+<string-name name-style="western">
+<surname>Khalatbari Limaki</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Es‐hagh Nimvari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Alavi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mataji</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Kazemnezhad</surname>
+</string-name>. <year>2021</year>. “<article-title>Potential Elevation Shift of Oriental Beech (<italic toggle="yes">Fagus orientalis</italic> L.) in Hyrcanian Mixed Forest Ecoregion Under Future Global Warming</article-title>.” <source>Ecological Modelling</source>
+<volume>455</volume>: <elocation-id>109637</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2021.109637</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0038"><mixed-citation publication-type="journal" id="ece374256-cit-0038">
+<string-name name-style="western">
+<surname>Lam</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Abegaz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Gunderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Tsukimura</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Stillman</surname>
+</string-name>. <year>2022</year>. “<article-title>Interactions Between Temperature Variability and Reproductive Physiology Across Traits in an Intertidal Crab</article-title>.” <source>Frontiers in Physiology</source>
+<volume>13</volume>: <elocation-id>796125</elocation-id>. <pub-id pub-id-type="doi">10.3389/fphys.2022.796125</pub-id>.<pub-id pub-id-type="pmid">35350692</pub-id>
+<pub-id pub-id-type="pmcid">PMC8957995</pub-id></mixed-citation></ref><ref id="ece374256-bib-0039"><mixed-citation publication-type="journal" id="ece374256-cit-0039">
+<string-name name-style="western">
+<surname>Leaper</surname>, <given-names>G.</given-names>
+</string-name>
+<year>2020</year>. “<article-title>Mediterranean Freshwater Crab (<italic toggle="yes">Potamon fluviatile</italic>)</article-title>.” <source>iNaturalist</source>
+<volume>45</volume>: <elocation-id>16597</elocation-id>.</mixed-citation></ref><ref id="ece374256-bib-0040"><mixed-citation publication-type="journal" id="ece374256-cit-0040">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L. A.</given-names>
+<surname>Knapp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lintern</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>River Water Quality Shaped by Land–River Connectivity in a Changing Climate</article-title>.” <source>Nature Climate Change</source>
+<volume>14</volume>, no. <issue>3</issue>: <fpage>225</fpage>–<lpage>237</lpage>. <pub-id pub-id-type="doi">10.1038/s41558-023-01923-x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0041"><mixed-citation publication-type="journal" id="ece374256-cit-0041">
+<string-name name-style="western">
+<surname>Liepe</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>van der Maaten</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>van der Maaten‐Theunissen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liesebach</surname>
+</string-name>. <year>2022</year>. “<article-title>High Phenotypic Plasticity, but Low Signals of Local Adaptation to Climate in a Large‐Scale Transplant Experiment of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Picea abies</italic>
+</styled-content> (L.) Karst. In Europe</article-title>.” <source>Frontiers in Forests and Global Change</source>
+<volume>5</volume>: <elocation-id>804857</elocation-id>. <pub-id pub-id-type="doi">10.3389/ffgc.2022.804857</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0042"><mixed-citation publication-type="journal" id="ece374256-cit-0042">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>H.‐Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Binley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Schuster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Rodewald</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Buxton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Bennett</surname>
+</string-name>. <year>2022</year>. “<article-title>Using Community Science Data to Help Identify Threatened Species Occurrences Outside of Known Ranges</article-title>.” <source>Biological Conservation</source>
+<volume>268</volume>: <elocation-id>109523</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biocon.2022.109523</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0043"><mixed-citation publication-type="journal" id="ece374256-cit-0043">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>White</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Newell</surname>
+</string-name>. <year>2013</year>. “<article-title>Selecting Thresholds for the Prediction of Species Occurrence With Presence‐Only Data</article-title>.” <source>Journal of Biogeography</source>
+<volume>40</volume>, no. <issue>4</issue>: <fpage>778</fpage>–<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1111/jbi.12058</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0044"><mixed-citation publication-type="journal" id="ece374256-cit-0044">
+<string-name name-style="western">
+<surname>Marmion</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Parviainen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Luoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Heikkinen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Thuiller</surname>
+</string-name>. <year>2008</year>. “<article-title>Evaluation of Consensus Methods in Predictive Species Distribution Modelling</article-title>.” <source>Diversity and Distributions</source>
+<volume>15</volume>, no. <issue>1</issue>: <fpage>59</fpage>–<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1111/j.1472-4642.2008.00491.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0045"><mixed-citation publication-type="journal" id="ece374256-cit-0045">
+<string-name name-style="western">
+<surname>McPherson</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Jetz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Rogers</surname>
+</string-name>. <year>2004</year>. “<article-title>The Effects of Species' Range Sizes on the Accuracy of Distribution Models: Ecological Phenomenon or Statistical Artefact?</article-title>” <source>Journal of Applied Ecology</source>
+<volume>41</volume>, no. <issue>5</issue>: <fpage>811</fpage>–<lpage>823</lpage>. <pub-id pub-id-type="doi">10.1111/j.0021-8901.2004.00943.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0046"><mixed-citation publication-type="journal" id="ece374256-cit-0046">
+<string-name name-style="western">
+<surname>Miller</surname>, <given-names>J.</given-names>
+</string-name>
+<year>2010</year>. “<article-title>Species Distribution Modeling</article-title>.” <source>Geography Compass</source>
+<volume>4</volume>, no. <issue>6</issue>: <fpage>490</fpage>–<lpage>509</lpage>. <pub-id pub-id-type="doi">10.1111/j.1749-8198.2010.00351.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0047"><mixed-citation publication-type="journal" id="ece374256-cit-0047">
+<string-name name-style="western">
+<surname>Mulholland</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. R.</given-names>
+<surname>Best</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. C.</given-names>
+<surname>Coutant</surname>
+</string-name>, et al. <year>1997</year>. “<article-title>Effects of Climate Change on Freshwater Ecosystems of the South‐Eastern United States and the Gulf Coast of Mexico</article-title>.” <source>Hydrological Processes</source>
+<volume>11</volume>, no. <issue>8</issue>: <fpage>949</fpage>–<lpage>970</lpage>. <pub-id pub-id-type="doi">10.1002/(sici)1099-1085(19970630)11:8&lt;949::aid-hyp513&gt;3.0.co;2-g</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0048"><mixed-citation publication-type="journal" id="ece374256-cit-0048">
+<string-name name-style="western">
+<surname>Naimi</surname>, <given-names>B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Araújo</surname>
+</string-name>. <year>2016</year>. “<article-title>Sdm: A Reproducible and Extensible R Platform for Species Distribution Modelling</article-title>.” <source>Ecography</source>
+<volume>39</volume>, no. <issue>4</issue>: <fpage>368</fpage>–<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1111/ecog.01881</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0049"><mixed-citation publication-type="journal" id="ece374256-cit-0049">
+<string-name name-style="western">
+<surname>Naimi</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. A. S.</given-names>
+<surname>Hamm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Groen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Skidmore</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Toxopeus</surname>
+</string-name>. <year>2013</year>. “<article-title>Where Is Positional Uncertainty a Problem for Species Distribution Modelling?</article-title>” <source>Ecography</source>
+<volume>37</volume>, no. <issue>2</issue>: <fpage>191</fpage>–<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0587.2013.00205.x</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0050"><mixed-citation publication-type="journal" id="ece374256-cit-0050">
+<string-name name-style="western">
+<surname>Olden</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Jackson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. R.</given-names>
+<surname>Peres‐Neto</surname>
+</string-name>. <year>2002</year>. “<article-title>Predictive Models of Fish Species Distributions: A Note on Proper Validation and Chance Predictions</article-title>.” <source>Transactions of the American Fisheries Society</source>
+<volume>131</volume>, no. <issue>2</issue>: <fpage>329</fpage>–<lpage>336</lpage>. <pub-id pub-id-type="doi">10.1577/1548-8659(2002)131&lt;0329:pmofsd&gt;2.0.co;2</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0051"><mixed-citation publication-type="journal" id="ece374256-cit-0051">
+<string-name name-style="western">
+<surname>Palmer</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Lettenmaier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. L.</given-names>
+<surname>Poff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Postel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Richter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Warner</surname>
+</string-name>. <year>2009</year>. “<article-title>Climate Change and River Ecosystems: Protection and Adaptation Options</article-title>.” <source>Environmental Management</source>
+<volume>44</volume>, no. <issue>6</issue>: <fpage>1053</fpage>–<lpage>1068</lpage>. <pub-id pub-id-type="doi">10.1007/s00267-009-9329-1</pub-id>.<pub-id pub-id-type="pmid">19597873</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0052"><mixed-citation publication-type="journal" id="ece374256-cit-0052">
+<string-name name-style="western">
+<surname>Reid</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Carlson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. F.</given-names>
+<surname>Creed</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Emerging Threats and Persistent Conservation Challenges for Freshwater Biodiversity</article-title>.” <source>Biological Reviews</source>
+<volume>94</volume>, no. <issue>3</issue>: <fpage>849</fpage>–<lpage>873</lpage>. <pub-id pub-id-type="doi">10.1111/brv.12480</pub-id>.<pub-id pub-id-type="pmid">30467930</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0053"><mixed-citation publication-type="journal" id="ece374256-cit-0053">
+<string-name name-style="western">
+<surname>Robertson</surname>, <given-names>B. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Hutto</surname>
+</string-name>. <year>2006</year>. “<article-title>A Framework for Understanding Ecological Traps and an Evaluation of Existing Evidence</article-title>.” <source>Ecology</source>
+<volume>87</volume>, no. <issue>5</issue>: <fpage>1075</fpage>–<lpage>1085</lpage>. <pub-id pub-id-type="doi">10.1890/0012-9658(2006)87[1075:affuet]2.0.co;2</pub-id>.<pub-id pub-id-type="pmid">16761584</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0054"><mixed-citation publication-type="journal" id="ece374256-cit-0054">
+<string-name name-style="western">
+<surname>Schneider</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. L. R.</given-names>
+<surname>Laizé</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Acreman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Flörke</surname>
+</string-name>. <year>2013</year>. “<article-title>How Will Climate Change Modify River Flow Regimes in Europe?</article-title>” <source>Hydrology and Earth System Sciences</source>
+<volume>17</volume>, no. <issue>1</issue>: <fpage>325</fpage>–<lpage>339</lpage>. <pub-id pub-id-type="doi">10.5194/hess-17-325-2013</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0055"><mixed-citation publication-type="journal" id="ece374256-cit-0055">
+<string-name name-style="western">
+<surname>Siemens</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bogart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Linton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Norris</surname>
+</string-name>. <year>2023</year>. “<article-title>Predicting the Occurrence of an Endangered Salamander in a Highly Urbanized Landscape</article-title>.” <source>Endangered Species Research</source>
+<volume>52</volume>: <fpage>81</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.3354/esr01270</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0056"><mixed-citation publication-type="journal" id="ece374256-cit-0056">
+<string-name name-style="western">
+<surname>Sorboni</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pourebrahim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hadipour</surname>
+</string-name>. <year>2026</year>. “<article-title>Anthropogenic Accessibility and Observer Inequality Dictate Spatial Biodiversity Patterns in Malaysia</article-title>.” <source>Scientific Reports</source>
+<volume>7</volume>: <elocation-id>296</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-026-58296-2</pub-id>.<pub-id pub-id-type="pmcid">PMC13534485</pub-id><pub-id pub-id-type="pmid">42298119</pub-id></mixed-citation></ref><ref id="ece374256-bib-0057"><mixed-citation publication-type="journal" id="ece374256-cit-0057">
+<string-name name-style="western">
+<surname>Sun</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Sui</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>. <year>2020</year>. “<article-title>Predicting Impacts of Future Climate Change and Hydropower Development Towards Habitats of Native and Non‐Native Fishes</article-title>.” <source>Science of the Total Environment</source>
+<volume>707</volume>: <elocation-id>135419</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2019.135419</pub-id>.<pub-id pub-id-type="pmid">31862433</pub-id>
+</mixed-citation></ref><ref id="ece374256-bib-0058"><mixed-citation publication-type="journal" id="ece374256-cit-0058">
+<string-name name-style="western">
+<surname>Titeux</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Aizpurua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. A.</given-names>
+<surname>Hollander</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Ecological Traps and Species Distribution Models: A Challenge for Prioritizing Areas of Conservation Importance</article-title>.” <source>Ecography</source>
+<volume>43</volume>, no. <issue>3</issue>: <fpage>365</fpage>–<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1111/ecog.04783</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0059"><mixed-citation publication-type="journal" id="ece374256-cit-0059">
+<string-name name-style="western">
+<surname>Trenberth</surname>, <given-names>K.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>Changes in Precipitation With Climate Change</article-title>.” <source>Climate Research</source>
+<volume>47</volume>, no. <issue>1</issue>: <fpage>123</fpage>–<lpage>138</lpage>. <pub-id pub-id-type="doi">10.3354/cr00953</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0060"><mixed-citation publication-type="book" id="ece374256-cit-0060">
+<collab collab-type="authors">UNEP‐WCMC and IUCN</collab>
+. <year>2025</year>. <source>Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area‐Based Conservation Measures (WD‐OECM)</source>. <publisher-name>UNEP‐WCMC and IUCN</publisher-name>.</mixed-citation></ref><ref id="ece374256-bib-0061"><mixed-citation publication-type="book" id="ece374256-cit-0061">
+<string-name name-style="western">
+<surname>Valavi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Elith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Lahoz‐Monfort</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Guillera‐Arroita</surname>
+</string-name>. <year>2020</year>. <source>Modelling Species Presence‐Only Data With Random Forests</source>. <publisher-name>Cold Spring Harbor Laboratory</publisher-name>.</mixed-citation></ref><ref id="ece374256-bib-0062"><mixed-citation publication-type="journal" id="ece374256-cit-0062">
+<string-name name-style="western">
+<surname>Valavi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Guillera‐Arroita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Lahoz‐Monfort</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Elith</surname>
+</string-name>. <year>2021</year>. “<article-title>Predictive Performance of Presence‐Only Species Distribution Models: A Benchmark Study With Reproducible Code</article-title>.” <source>Ecological Monographs</source>
+<volume>92</volume>, no. <issue>1</issue>: <elocation-id>e01486</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecm.1486</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0063"><mixed-citation publication-type="journal" id="ece374256-cit-0063">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Carvalho</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Top‐Down Effect of Arthropod Predator Chinese Mitten Crab on Freshwater Nutrient Cycling</article-title>.” <source>Animals</source>
+<volume>13</volume>, no. <issue>14</issue>: <elocation-id>2342</elocation-id>. <pub-id pub-id-type="doi">10.3390/ani13142342</pub-id>.<pub-id pub-id-type="pmid">37508124</pub-id>
+<pub-id pub-id-type="pmcid">PMC10376719</pub-id></mixed-citation></ref><ref id="ece374256-bib-0064"><mixed-citation publication-type="journal" id="ece374256-cit-0064">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Xue</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Cumberlidge</surname>
+</string-name>. <year>2010</year>. “<article-title>An Extra Embryonic Phase in the True Freshwater Crab <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Sinopotamon yangtsekiense</italic>
+</styled-content> Bott, 1967 (Decapoda, Potamidae)</article-title>.” <source>Chinese Journal of Oceanology and Limnology</source>
+<volume>28</volume>, no. <issue>4</issue>: <fpage>725</fpage>–<lpage>730</lpage>. <pub-id pub-id-type="doi">10.1007/s00343-010-9105-3</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0065"><mixed-citation publication-type="journal" id="ece374256-cit-0065">
+<string-name name-style="western">
+<surname>Xie</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bai</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Shao</surname>
+</string-name>. <year>2022</year>. “<article-title>Crab Contributions as an Ecosystem Engineer to Sediment Turnover in the Yellow River Delta</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>9</volume>: <elocation-id>19176</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2022.1019176</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0066"><mixed-citation publication-type="journal" id="ece374256-cit-0066">
+<string-name name-style="western">
+<surname>Yousefi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Naderloo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Keikhosravi</surname>
+</string-name>. <year>2022</year>. “<article-title>Freshwater Crabs of the Near East: Increased Extinction Risk From Climate Change and Underrepresented Within Protected Areas</article-title>.” <source>Global Ecology and Conservation</source>
+<volume>38</volume>: <elocation-id>e02266</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.gecco.2022.e02266</pub-id>.</mixed-citation></ref><ref id="ece374256-bib-0067"><mixed-citation publication-type="journal" id="ece374256-cit-0067">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Huettmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>The Use of Classification and Regression Algorithms Using the Random Forests Method With Presence‐Only Data to Model Species' Distribution</article-title>.” <source>MethodsX</source>
+<volume>6</volume>: <fpage>2281</fpage>–<lpage>2292</lpage>. <pub-id pub-id-type="doi">10.1016/j.mex.2019.09.035</pub-id>.<pub-id pub-id-type="pmid">31667128</pub-id>
+<pub-id pub-id-type="pmcid">PMC6812352</pub-id></mixed-citation></ref><ref id="ece374256-bib-0068"><mixed-citation publication-type="journal" id="ece374256-cit-0068">
+<string-name name-style="western">
+<surname>Zizka</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Silvestro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Andermann</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>CoordinateCleaner: Standardized Cleaning of Occurrence Records From Biological Collection Databases</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>10</volume>, no. <issue>5</issue>: <fpage>744</fpage>–<lpage>751</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210x.13152</pub-id>.</mixed-citation></ref></ref-list></back></article>

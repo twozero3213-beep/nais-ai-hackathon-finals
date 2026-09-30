@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "mapping_scope": "evaluation oracle: supplied mappings enter typed contract; not autonomous extraction or human-approved gold",
+  "results": [
+    {
+      "claim_id": "PENG-ROWS",
+      "action": "BLOCK",
+      "reason": "평가용 사전 매핑 없음 또는 현재 엔진 미지원 분석방법",
+      "source_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    },
+    {
+      "claim_id": "PENG-MISSING",
+      "action": "BLOCK",
+      "reason": "평가용 사전 매핑 없음 또는 현재 엔진 미지원 분석방법",
+      "source_hash": "1867a776a83379df4219f227bb1effb967da12adb13732127c8c8d120434c29b"
+    },
+    {
+      "claim_id": "WINE-RED",
+      "action": "EXECUTE",
+      "value": 1599.0,
+      "verdict": "SUPPORTED",
+      "reason": "필터[없음] · row_count(all rows) · n=1599 · 보고 1599 ↔ 재계산 1599; 차이 0 ≤ 허용오차 0",
+      "source_hash": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+      "contract": {
+        "claim_id": "WINE-RED",
+        "contract_type": "DESCRIPTIVE",
+        "source_page": null,
+        "source_quote": "Red wine samples: 1599",
+        "dataset_name": "winequality-red.csv",
+        "dataset_hash": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+        "filters": [],
+        "human_confirmed": true,
+        "method": "row_count",
+        "method_confirmed": true,
+        "missing_policy": "unspecified",
+        "missing_policy_confirmed": true,
+        "analysis_spec": {
+          "population": "unspecified",
+          "estimand": "unspecified",
+          "missing_policy": "unspecified",
+          "variance_estimator": "unspecified",
+          "multiplicity_policy": "unspecified",
+          "multiplicity_count": 0,
+          "reference_levels": {},
+          "interactions": [],
+          "transforms": {},
+          "human_confirmed": false
+        },
+        "variable": "__dataset__",
+        "aggregation": "row_count",
+        "tolerance": 0,
+        "weight_column": "",
+        "success_value": "1"
+      },
+      "confirmation_source": "evaluation_oracle_fixture_not_human"
+    },
+    {
+      "claim_id": "WINE-WHITE",
+      "action": "EXECUTE",
+      "value": 4898.0,
+      "verdict": "SUPPORTED",
+      "reason": "필터[없음] · row_count(all rows) · n=4898 · 보고 4898 ↔ 재계산 4898; 차이 0 ≤ 허용오차 0",
+      "source_hash": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+      "contract": {
+        "claim_id": "WINE-WHITE",
+        "contract_type": "DESCRIPTIVE",
+        "source_page": null,
+        "source_quote": "White wine samples: 4898",
+        "dataset_name": "winequality-white.csv",
+        "dataset_hash": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+        "filters": [],
+        "human_confirmed": true,
+        "method": "row_count",
+        "method_confirmed": true,
+        "missing_policy": "unspecified",
+        "missing_policy_confirmed": true,
+        "analysis_spec": {
+          "population": "unspecified",
+          "estimand": "unspecified",
+          "missing_policy": "unspecified",
+          "variance_estimator": "unspecified",
+          "multiplicity_policy": "unspecified",
+          "multiplicity_count": 0,
+          "reference_levels": {},
+          "interactions": [],
+          "transforms": {},
+          "human_confirmed": false
+        },
+        "variable": "__dataset__",
+        "aggregation": "row_count",
+        "tolerance": 0,
+        "weight_column": "",
+        "success_value": "1"
+      },
+      "confirmation_source": "evaluation_oracle_fixture_not_human"
+    },
+    {
+      "claim_id": "DINO-X",
+      "action": "EXECUTE",
+      "value": 54.26327323943662,
+      "verdict": "SUPPORTED",
+      "reason": "필터[dataset=dino] · mean(x) · n=142 · 보고 54.26 ↔ 재계산 54.2633; 차이 0.00327324 ≤ 허용오차 0.01",
+      "source_hash": "febad7f618c51699815060a075ba80f13f6f1474e24e11d52ad5599ee269cc51",
+      "contract": {
+        "claim_id": "DINO-X",
+        "contract_type": "DESCRIPTIVE",
+        "source_page": null,
+        "source_quote": "Datasaurus x mean approximately 54.26",
+        "dataset_name": "datasaurus.csv",
+        "dataset_hash": "febad7f618c51699815060a075ba80f13f6f1474e24e11d52ad5599ee269cc51",
+        "filters": [
+          {
+            "column": "dataset",
+            "value": "dino"
+          }
+        ],
+        "human_confirmed": true,
+        "method": "mean",
+        "method_confirmed": true,
+        "missing_policy": "unspecified",
+        "missing_policy_confirmed": true,
+        "analysis_spec": {
+          "population": "unspecified",
+          "estimand": "unspecified",
+          "missing_policy": "unspecified",
+          "variance_estimator": "unspecified",
+          "multiplicity_policy": "unspecified",
+          "multiplicity_count": 0,
+          "reference_levels": {},
+          "interactions": [],
+          "transforms": {},
+          "human_confirmed": false
+        },
+        "variable": "x",
+        "aggregation": "mean",
+        "tolerance": 0.01,
+        "weight_column": "",
+        "success_value": "1"
+      },
+      "confirmation_source": "evaluation_oracle_fixture_not_human"
+    },
+    {
+      "claim_id": "WINE-SVM",
+      "action": "BLOCK",
+      "reason": "평가용 사전 매핑 없음 또는 현재 엔진 미지원 분석방법",
+      "source_hash": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+    }
+  ]
+}

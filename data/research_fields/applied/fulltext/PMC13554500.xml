@@ -1,0 +1,1181 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="advs77565" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="iso-abbrev">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="pmc-domain-id">2933</journal-id><journal-id journal-id-type="pmc-domain">advsci</journal-id><journal-id journal-id-type="nlm-id">101664569</journal-id><journal-id journal-id-type="publisher-id">ADVS</journal-id><journal-title-group><journal-title>Advanced Science</journal-title></journal-title-group><issn pub-type="epub">2198-3844</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13554500</article-id><article-id pub-id-type="pmcid-ver">PMC13554500.1</article-id><article-id pub-id-type="pmcaid">13554500</article-id><article-id pub-id-type="pmcaiid">13554500</article-id><article-id pub-id-type="pmid">42711993</article-id><article-id pub-id-type="doi">10.1002/advs.77565</article-id><article-id pub-id-type="publisher-id">ADVS77565</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Chelation‐Driven Dual‐Interface Regulation for Long‐Life Aqueous Zn–I<sub>2</sub> Batteries</article-title></title-group><contrib-group><contrib id="advs77565-cr-0001" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Kim</surname><given-names initials="DW">Dong Wook</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4169-0509</contrib-id><xref rid="advs77565-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="advs77565-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs77565-cr-0002" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Park</surname><given-names initials="SH">Seung Hwa</given-names></name><xref rid="advs77565-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="advs77565-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs77565-cr-0003" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Kim</surname><given-names initials="TR">Tae Rim</given-names></name><xref rid="advs77565-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="advs77565-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs77565-cr-0004" contrib-type="author"><name name-style="western"><surname>Jang</surname><given-names initials="G">Gun</given-names></name><xref rid="advs77565-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs77565-cr-0005" contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names initials="JS">Jun Su</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7711-3992</contrib-id><xref rid="advs77565-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs77565-cr-0006" contrib-type="author"><name name-style="western"><surname>Kwak</surname><given-names initials="MJ">Myung‐Jun</given-names></name><xref rid="advs77565-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs77565-cr-0007" contrib-type="author"><name name-style="western"><surname>Jin</surname><given-names initials="S">Seokhwan</given-names></name><xref rid="advs77565-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="advs77565-cr-0008" contrib-type="author"><name name-style="western"><surname>Ga</surname><given-names initials="S">Seongbin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2730-9249</contrib-id><xref rid="advs77565-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="advs77565-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Hwang</surname><given-names initials="C">Chihyun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7469-3119</contrib-id><xref rid="advs77565-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="advs77565-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><address></address></contrib><contrib id="advs77565-cr-0010" contrib-type="author" corresp="yes"><name name-style="western"><surname>Park</surname><given-names initials="HS">Ho Seok</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4424-4037</contrib-id><xref rid="advs77565-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="advs77565-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address></address></contrib><contrib id="advs77565-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Kim</surname><given-names initials="Y">Youngkwon</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6870-8118</contrib-id><xref rid="advs77565-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib></contrib-group><aff id="advs77565-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Advanced Batteries Research Center Korea Electronics Technology Institute</institution>
+<city>Seongnam</city>
+<named-content content-type="country-part">Gyeonggi‐do</named-content>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="advs77565-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">School of Chemical Engineering</named-content>
+<institution>Sungkyunkwan University</institution>
+<city>Suwon</city>
+<named-content content-type="country-part">Gyeonggi‐do</named-content>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="advs77565-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Chemical Engineering</named-content>
+<named-content content-type="organisation-division">College of Engineering</named-content>
+<institution>Kyung Hee University</institution>
+<city>Yongin</city>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="advs77565-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">School of Chemical Engineering</named-content>
+<institution>University of Ulsan</institution>
+<city>Ulsan</city>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="advs77565-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">School of Chemical</named-content>
+<named-content content-type="organisation-division">Biological &amp; Battery Engineering</named-content>
+<institution>Gachon University</institution>
+<city>Seongnam‐si</city>
+<named-content content-type="country-part">Gyeonggi‐do</named-content>
+<country country="KR">Republic of Korea</country>
+</aff><aff id="advs77565-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">SKKU Institute of Energy Science and Technology (SIEST)</named-content>
+<institution>Sungkyunkwan University (SKKU)</institution>
+<city>Suwon</city>
+<country country="KR">Republic of Korea</country>
+</aff><pub-date pub-type="epub"><day>08</day><month>9</month><year>2026</year></pub-date><issue-id pub-id-type="pmc-issue-id">516819</issue-id><elocation-id>e77565</elocation-id><history>
+<date date-type="rev-recd"><day>24</day><month>8</month><year>2026</year></date>
+<date date-type="received"><day>16</day><month>6</month><year>2026</year></date>
+<date date-type="accepted"><day>26</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>08</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>10</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-13 08:06:47.583"><day>13</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Advanced Science</italic> published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ADVS-9999-e77565.pdf"><?pdf-name ADVS-9999-e77565.pdf?><?pdf-size 4478162?><?pdf-md5 11a2e6dc089e1134936bfa4e73e1d966?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:035f/13554500/11a2e6dc089e/ADVS-9999-e77565.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ADVS-9999-e77565.pdf"/><abstract><title>ABSTRACT</title><p>The growing demand for energy storage systems (ESS) driven by the expansion of renewable energy calls for aqueous Zn–I<sub>2</sub> batteries that offer both safety and cost competitiveness. However, the hydrogen evolution reaction (HER) and Zn anode corrosion, combined with iodine dissolution and polyiodide shuttling at the I<sub>2</sub> cathode, form a degradation loop through interelectrode interactions, that impairs battery lifespan and efficiency. This study proposes a dual‐interface regulation strategy by introducing the multidentate chelator TPEN as an electrolyte additive. This strategy promotes the formation of Zn<sup>2+</sup>–TPEN coordination species (TCC) in the electrolyte, which reconfigures the electric double layer of Zn anode into an interfacial environment with reduced water accessibility via interfacial adsorption, suppressing HER and corrosion, and stabilizing local pH fluctuations while promoting uniform nucleation and deposition. Simultaneously, at the I<sub>2</sub> cathode, it traps polyiodide to reduce free polyiodide concentration and directs the reaction pathway toward the interface, thereby decreasing shuttling and self‐discharge while improving I<sub>2</sub> deposition uniformity. As a result, the Zn||Zn symmetric cell operated stably for over 2000 h and achieved a Coulombic efficiency of over 96.2% and a capacity retention of 92.5% after 200 cycles under high‐loading I<sub>2</sub> (5.5 mAh cm<sup>−2</sup>) and 0.18 C conditions.</p></abstract><abstract id="advs77565-abs-0001" abstract-type="graphical"><p>Zn<sup>2+</sup>–TPEN coordination generates TPEN‐derived coordination species (TCC) that contribute to the regulation of both electrode interfaces. At the Zn anode, it creates an interfacial environment with reduced water accessibility that suppresses HER and corrosion while promoting uniform deposition; at the I<sub>2</sub> cathode, it captures polyiodide to inhibit shuttling and self‐discharge.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ADVS-9999-e77565-g006.webp"><?image-name ADVS-9999-e77565-g006.webp?><?image-size 52360?><?image-md5 9e2973b71f880bde252e653f0e39cc3d?><?image-image-server-status NEVER_LOAD?><?image-original-height 679?><?image-original-width 600?><?image-scaled-height 679?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/9e2973b71f88/ADVS-9999-e77565-g006.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="advs77565-kwd-0001">aqueous Zn–I<sub>2</sub> battery</kwd><kwd id="advs77565-kwd-0002">chelation chemistry</kwd><kwd id="advs77565-kwd-0003">dual‐interface regulation</kwd><kwd id="advs77565-kwd-0004">electrical double layer</kwd><kwd id="advs77565-kwd-0005">polyiodide confinement</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Research Foundation of Korea (NRF)</institution></institution-wrap>
+</funding-source><award-id>RS‐2024‐00453815</award-id><award-id>RS‐2021‐NR061788</award-id><award-id>RS‐2024‐00407015</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="16"/><word-count count="11335"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>edited-state</meta-name><meta-value>corrected-proof</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:09.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="advs77565-sec-0010"><label>1</label><title>Introduction</title><p>As demand grows for long‐duration energy storage systems to buffer the intermittency and output variability of renewable energy generation, battery systems capable of high energy retention and long‐term durability under low C‐rate conditions—repeated charging and discharging over several hours or more—are required. In such applications, stability at current densities lower than instantaneous output, suppression of self‐discharge, and high active material utilization serve as key performance indicators. Aqueous zinc metal batteries are gaining attention as suitable candidates for large‐scale ESS due to their high safety based on non‐flammable electrolytes and cost competitiveness [<xref rid="advs77565-bib-0001" ref-type="bibr">1</xref>, <xref rid="advs77565-bib-0002" ref-type="bibr">2</xref>, <xref rid="advs77565-bib-0003" ref-type="bibr">3</xref>, <xref rid="advs77565-bib-0004" ref-type="bibr">4</xref>, <xref rid="advs77565-bib-0005" ref-type="bibr">5</xref>, <xref rid="advs77565-bib-0006" ref-type="bibr">6</xref>, <xref rid="advs77565-bib-0007" ref-type="bibr">7</xref>, <xref rid="advs77565-bib-0008" ref-type="bibr">8</xref>]. Among them, aqueous Zn–I<sub>2</sub> batteries stand out as promising options due to their relatively high operating voltage (≈ 1.3 V), high theoretical specific capacity (≈ 211 mAh g<sup>−1</sup>), and excellent safety features [<xref rid="advs77565-bib-0009" ref-type="bibr">9</xref>, <xref rid="advs77565-bib-0010" ref-type="bibr">10</xref>, <xref rid="advs77565-bib-0011" ref-type="bibr">11</xref>, <xref rid="advs77565-bib-0012" ref-type="bibr">12</xref>]. However, under high iodine loading and low‐rate operating conditions, chemical side reactions occurring at both the anode and cathode accumulate over time, revealing a structural limitation that simultaneously impairs both lifespan and reversibility.</p><p>Under high‐loading conditions, the I<sub>2</sub> concentration within the electrode and the polyiodide (I<sub>3</sub>
+<sup>−</sup>, I<sub>5</sub>
+<sup>−</sup>, etc.) concentration within the pore space increase, leading to a larger concentration gradient. During low C‐rate operation, polyiodides have sufficient time to pass through the separator and reach the Zn anode. The shuttling that occurs during this process goes beyond simple capacity loss; it induces chemical oxidation and irreversible depletion of the Zn anode, directly reducing Zn utilization. Simultaneously, at the Zn metal anode, the hydrogen evolution reaction (HER) and corrosion proceed over extended periods, causing localized pH increases and the accumulation of byproducts (e.g., ZHS) [<xref rid="advs77565-bib-0013" ref-type="bibr">13</xref>, <xref rid="advs77565-bib-0014" ref-type="bibr">14</xref>, <xref rid="advs77565-bib-0015" ref-type="bibr">15</xref>, <xref rid="advs77565-bib-0016" ref-type="bibr">16</xref>]. These deposits create current distribution inhomogeneities, distort nucleation and growth behavior in subsequent cycles, and induce particularly critical inhomogeneities under high‐loading conditions. Consequently, under high‐loading, low C‐rate conditions, a mutually reinforcing degradation loop forms between the long‐range diffusion of polyiodides and the chemical depletion of Zn. This makes it difficult to achieve the high Coulombic efficiency and Zn utilization rate required for long‐duration ESS [<xref rid="advs77565-bib-0017" ref-type="bibr">17</xref>, <xref rid="advs77565-bib-0018" ref-type="bibr">18</xref>, <xref rid="advs77565-bib-0019" ref-type="bibr">19</xref>, <xref rid="advs77565-bib-0020" ref-type="bibr">20</xref>, <xref rid="advs77565-bib-0021" ref-type="bibr">21</xref>, <xref rid="advs77565-bib-0022" ref-type="bibr">22</xref>, <xref rid="advs77565-bib-0023" ref-type="bibr">23</xref>, <xref rid="advs77565-bib-0024" ref-type="bibr">24</xref>].</p><p>To address these issues, various strategies for simultaneously controlling the anode and cathode have been reported. Notably, the Janus separator design, which incorporates different functional materials on each side of the separator, aims to independently stabilize each interface by trapping polyiodides on one side and regulating Zn<sup>2+</sup> flux on the other [<xref rid="advs77565-bib-0025" ref-type="bibr">25</xref>, <xref rid="advs77565-bib-0026" ref-type="bibr">26</xref>, <xref rid="advs77565-bib-0027" ref-type="bibr">27</xref>]. While this approach demonstrated meaningful improvements in reducing shuttling and homogenizing Zn plating, it fundamentally relies on strategies that block migration pathways or physically mitigate interfacial phenomena. Under high‐loading, low C‐rate conditions, it fails to reduce the concentration of polyiodides continuously generated within the bulk electrolyte. Consequently, structural limitations emerge during long‐term operation, including saturation of the capturing layer, increased transport resistance, and sensitivity to coating uniformity and defects. Meanwhile, attempts to simultaneously regulate both anodes and cathodes via single electrolyte additives have been reported [<xref rid="advs77565-bib-0028" ref-type="bibr">28</xref>, <xref rid="advs77565-bib-0029" ref-type="bibr">29</xref>, <xref rid="advs77565-bib-0030" ref-type="bibr">30</xref>, <xref rid="advs77565-bib-0031" ref-type="bibr">31</xref>, <xref rid="advs77565-bib-0032" ref-type="bibr">32</xref>, <xref rid="advs77565-bib-0033" ref-type="bibr">33</xref>, <xref rid="advs77565-bib-0034" ref-type="bibr">34</xref>]. However, most approaches rely on charge‐based interactions or selective adsorption, partially mitigating specific interfacial reactions but remaining limited in scope. Particularly under high‐loading conditions, excessive polyiodide stabilization can hinder reversibility or cause sediment accumulation. Limitations persist in simultaneously suppressing HER and corrosion at the Zn interface while reducing shuttle driving force [<xref rid="advs77565-bib-0035" ref-type="bibr">35</xref>].</p><p>This study proposes a chelation chemistry‐based integrated interface control strategy utilizing the multidentate chelating molecule N,N,N′,N′‐tetrakis(2‐pyridylmethyl)ethylenediamine (TPEN) to overcome these structural bottlenecks [<xref rid="advs77565-bib-0036" ref-type="bibr">36</xref>, <xref rid="advs77565-bib-0037" ref-type="bibr">37</xref>, <xref rid="advs77565-bib-0038" ref-type="bibr">38</xref>, <xref rid="advs77565-bib-0039" ref-type="bibr">39</xref>]. TPEN fundamentally modulates the nucleation and growth behavior, and HER reactivity at the cathode by forming strong coordination bonds with Zn<sup>2+</sup> in the electrolyte, thereby reconfiguring the electrical double layer environment and ion transfer of Zn<sup>2+</sup>. Simultaneously, the formed TPEN–Zn<sup>2+</sup> coordination species (TCC) readjusts the I<sub>2</sub>/I<sub>x</sub>
+<sup>−</sup> equilibrium through electron donor–acceptor interactions with polyiodide, reducing the effective concentration and residence time of free polyiodide under high‐loading conditions. This strategy simultaneously redesigns the thermodynamic driving force and reaction pathways of the Zn<sup>2+</sup>‐I<sub>x</sub>
+<sup>−</sup>‐H<sub>2</sub>O chemical network, unlike approaches that rely solely on interfacial blocking or adsorption. Consequently, the single‐electrolyte design forms a molecular bridge connecting the cathode and anode, thereby weakening the dominant chemical degradation loop under high‐loading, low C‐rate conditions. This chelation chemistry‐based design differs from existing physical separation strategies using Janus separators or selective interfacial adsorption strategies, presenting a new electrolyte design paradigm to simultaneously achieve the high active material utilization and long‐term lifespan performance required for long‐cycle ESS.</p></sec><sec id="advs77565-sec-0020"><label>2</label><title>Results and Discussion</title><sec id="advs77565-sec-0030"><label>2.1</label><title>Formation and Interfacial Adsorption of TPEN Chelating Complex</title><p>The core of the TPEN‐based interface design proposed in this study is that the TCC created within the electrolyte optimally influences the cathode and anode of Zn–I<sub>2</sub> batteries. This enhances the interfacial stability of both electrodes simultaneously. Figure <xref rid="advs77565-fig-0001" ref-type="fig">1</xref> outlines the conceptual framework of the dual‐interface control carried out by the TCC.</p><fig position="float" fig-type="FIGURE" id="advs77565-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Schematic of interface‐stabilizing mechanism of TCC on both Zn anode and I<sub>2</sub> cathode.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ADVS-9999-e77565-g007.webp"><?image-name ADVS-9999-e77565-g007.webp?><?image-size 48376?><?image-md5 cb2dab1408752db887e9f1528bfbd3e8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 334?><?image-original-width 822?><?image-scaled-height 334?><?image-scaled-width 822?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/cb2dab140875/ADVS-9999-e77565-g007.webp?><?thumb-name ADVS-9999-e77565-g007.gif?><?thumb-size 9223?><?thumb-md5 bba081f35db41e61535fc69fe1b215c9?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 81?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/035f/13554500/bba081f35db4/ADVS-9999-e77565-g007.gif?></graphic></fig><p>At the Zn metal anode, TCC selectively occupies the interface, restructuring the solvent and ion distribution within the electric double layer (EDL) and creating an interfacial environment with reduced water accessibility. This weakens the driving forces for hydrogen evolution and corrosion reactions while readjusting the interfacial potential gradient to facilitate a more uniform progression of initial nucleation processes. The protonatable donor sites of the TPEN buffer induce local pH fluctuations during Zn plating/stripping, suppressing the formation of basic byproducts (ZHS) and resulting in a homogeneous and dense Zn electrode morphology, ensuring high reversibility. At the I<sub>2</sub> cathode, TCC reduces the effective concentration of freely diffusible shuttle species in the solution by selectively binding with polyiodide species, thereby alleviating the root causes of shuttling and self‐discharge. The TCC–polyiodide complex structure formed at the interface rearranges the reaction pathway, promoting the I<sub>2</sub>/I<sup>−</sup> reaction near the electrode surface, which reduces concentration polarization and promotes spatially uniform I<sub>2</sub> precipitation. This interface‐based reaction localization enhances the reversibility of I<sub>2</sub> deposition/dissolution during charge and discharge cycles.</p><p>Consequently, while TCC performs distinct roles at the anode and cathode, it also functions as a molecular mediator that restores charge transfer equilibrium and suppresses crosstalk degradation between electrodes at the overall cell level. This strategy shows the potential of novel chelation‐driven molecular interface engineering to stabilize the anode–cathode interface with a single additive.</p><p>To verify if the TPEN chelating agent formed a chelating complex with Zn ions through electron donor–acceptor (EDA) interactions, UV‐vis spectroscopic analysis was conducted on a 2 M ZnSO4 (2 M ZS) electrolyte with TPEN (TPEN) (Figure <xref rid="advs77565-fig-0002" ref-type="fig">2a</xref>). Unlike the spectrum of the 2 M ZS electrolyte, the TPEN electrolyte displayed peaks at 260 nm and 210 nm, corresponding to the Zn<sup>2</sup>
+<sup>+</sup>‐TPEN chelating complex and the π → π* charge transfer in the pyridyl ring [<xref rid="advs77565-bib-0040" ref-type="bibr">40</xref>, <xref rid="advs77565-bib-0041" ref-type="bibr">41</xref>]. This spectral feature supports the formation of Zn<sup>2+</sup>–TPEN coordination species through EDA interactions between TPEN and Zn<sup>2+</sup>. In addition to the spectroscopic analysis, DFT calculations were performed to evaluate the energetically favorable coordination geometry of the proposed Zn<sup>2+</sup>–TPEN complex. The calculation results suggest that the hexadentate configuration represents a thermodynamically favorable coordination model for the proposed Zn<sup>2+</sup>–TPEN complex (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S1</xref>). Together with the UV–vis results, these calculations provide complementary support for Zn<sup>2+</sup>–TPEN coordination, rather than a quantitative determination of solution‐phase speciation. To distinguish the coordination effects of Zn<sup>2+</sup> from TPEN's intrinsic absorption or nonspecific ionic strength effects, additional UV–vis spectroscopic data were collected for TPEN dissolved in water, Na<sub>2</sub>SO<sub>4</sub> solution, and a 2 M ZnSO<sub>4</sub> electrolyte (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S2</xref>). The distinct absorption features observed in solutions containing ZnSO<sub>4</sub> were either absent or significantly weaker in the water and Na<sub>2</sub>SO<sub>4</sub> control groups, suggesting that the spectral changes do not occur simply due to the presence of sulfate ions or the aqueous ionic medium alone, but rather require the simultaneous presence of TPEN and Zn<sup>2+</sup>. Furthermore, as the TPEN concentration increased within the ZnSO<sub>4</sub> electrolyte, the intensity of the characteristic absorption band increased systematically (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S3</xref>). This concentration‐dependent spectral change supports the formation of Zn<sup>2+</sup> coordination species derived from TPEN in solution, rather than spectral features arising from undissolved TPEN or simple physical mixing. This was further supported by optical images of each electrolyte, showing only transparent solutions without undissolved powder in vials containing the Zn salt (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S4</xref>). The TPEN concentration was optimized to balance both the stability of the Zn anode and the polyiodide capturing ability. Zn||Zn symmetric cells containing 0.005, 0.01, and 0.05 wt.% TPEN exhibited the most stable long‐term cycling performance at 0.01 wt.%; the inferior stability at 0.005 wt.% indicates insufficient interfacial coverage, whereas the decreased stability at 0.05 wt.% suggests that excessive TCC accumulation may increase interfacial resistance or disturb Zn<sup>2+</sup> transfer (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S5</xref>). Unlike the non‐monotonic dependence of Zn cycling stability, the polyiodide‐capturing rate increased with TPEN concentration, demonstrating that the optimal additive concentration must balance the distinct requirements of the two electrode interfaces (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S6</xref>).</p><fig position="float" fig-type="FIGURE" id="advs77565-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>(a) UV–vis spectra of the 2 M ZS and TPEN electrolyte. (b) Differential capacitance measurement using 2 M ZS and TPEN electrolyte, respectively. (c) Cyclic voltammetry measurement recorded from I<sub>2</sub>@AC symmetric cells using 2 M ZS and TPEN electrolyte, respectively. (d) In‐situ pH measurement of Zn anode side in Zn||I2 cells using 2 M ZS and TPEN electrolytes. (e) In‐situ pH measurement of I2 cathode side in Zn||I<sub>2</sub> cells using 2 M ZS and TPEN electrolytes. (f) Initial Coulombic efficiency (ICE) of Zn||I<sub>2</sub> cells using 2 M ZS and TPEN electrolytes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ADVS-9999-e77565-g005.webp"><?image-name ADVS-9999-e77565-g005.webp?><?image-size 33812?><?image-md5 eb7098511a6ad48d74965ceebd11f3fe?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 420?><?image-original-width 820?><?image-scaled-height 420?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/eb7098511a6a/ADVS-9999-e77565-g005.webp?><?thumb-name ADVS-9999-e77565-g005.gif?><?thumb-size 7382?><?thumb-md5 f57fc29baa2688d512151798c21c4f33?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 102?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/035f/13554500/f57fc29baa26/ADVS-9999-e77565-g005.gif?></graphic></fig></sec><sec id="advs77565-sec-0040"><label>2.2</label><title>EDL Reconstruction and pH Stabilization at the Zn Anode</title><p>To evaluate the effect of this TCC, an organic‐ligand‐based complex with a large cluster size, on the Zn metal interface, differential capacitance measurements were performed. These measurements showed that the TPEN electrolyte exhibited lower capacitance values than the 2 M ZS electrolyte (Figure <xref rid="advs77565-fig-0002" ref-type="fig">2b</xref>) [<xref rid="advs77565-bib-0042" ref-type="bibr">42</xref>, <xref rid="advs77565-bib-0043" ref-type="bibr">43</xref>]. This lower capacitance in the TPEN electrolyte is attributed to the hydrophobic organic ligands of the TCC, allowing for closer positioning near the electrode interface due to repulsive forces on water molecules within the EDL. In addition, the large cluster size of the TCC reduces the concentration of Zn ions within the EDL. Furthermore, CA experiments indicated that the TPEN electrolyte showed a lower double‐layer charging current density than the 2 M ZS electrolyte, confirming slower charge accumulation near the interface and lower capacitance (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S7</xref>) [<xref rid="advs77565-bib-0044" ref-type="bibr">44</xref>, <xref rid="advs77565-bib-0045" ref-type="bibr">45</xref>]. To investigate the adsorption behavior of TCC at the electrode interface, Raman spectroscopy was performed on the surface of the Zn metal cycled in the non‐Faradaic potential region. Peaks corresponding to C–H stretching vibrations appeared at 1450 and 2850 cm<sup>−1</sup>, while a peak corresponding to C–N stretching vibrations appeared at 1280 cm<sup>−1</sup>. These features were absent on Zn metal when the 2 M ZS electrolyte was used (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S8</xref>) [<xref rid="advs77565-bib-0046" ref-type="bibr">46</xref>, <xref rid="advs77565-bib-0047" ref-type="bibr">47</xref>, <xref rid="advs77565-bib-0048" ref-type="bibr">48</xref>, <xref rid="advs77565-bib-0049" ref-type="bibr">49</xref>]. This observation confirms the presence of TCC at the Zn metal interface through adsorption interactions. To confirm if the restructuring of the EDL at the cathode interface also occurred at the anode interface, a symmetric cell with an iodine cathode was assembled, and CV was conducted in the non‐Faradaic potential region. The results indicated that in the electrolyte containing TCC, the double‐layer charging current was generally lower than that of the reference electrolyte, confirming a decrease in the effective capacitance at the interface (Figure <xref rid="advs77565-fig-0002" ref-type="fig">2c</xref>). These results indicate that TCC approaches and adsorbs near the iodine electrode interface, leading to modifications of the EDL and regulation of interfacial charge accumulation. Accordingly, the TPEN‐derived TCC exists near both the Zn anode and the I<sub>2</sub> cathode, providing a basis for regulating the cathodic interfacial reaction environment. Moreover, pH stability is a critical factor affecting interfacial stability, as pH changes during the Zn plating/stripping process can lead to the formation of resistant ZHS byproducts and short circuits. In situ pH measurements revealed that the pH change (ΔpH = pH<sub>final</sub> − pH<sub>initial</sub> = 0.07) in the TPEN electrolyte during the plating/stripping process was significantly smaller than that in the 2 M ZS electrolyte (ΔpH = 0.18) (Figure <xref rid="advs77565-fig-0002" ref-type="fig">2d</xref> and Figure <xref rid="advs77565-supinfo-0001" ref-type="">S9</xref>) [<xref rid="advs77565-bib-0050" ref-type="bibr">50</xref>]. This confirmed that TCC, present at the Zn metal interface via adsorption, can induce an inhibitory effect on side reactions, such as the HER and corrosion, by reducing the hydrophobicity and concentration of fully hydrated Zn ions. These findings suggest that TCC can suppress HER and corrosion by adsorbing onto the Zn metal interface and limiting the access of water and fully hydrated Zn<sup>2</sup>
+<sup>+</sup> to the interface. Additionally, the suppression of side reactions may alleviate the localized alkalization accompanying the electrodeposition process, leading to interfacial pH stabilization. To investigate in greater detail whether this phenomenon is related to the proton‐accepting capacity of the nitrogen sites derived from TPEN, stepwise acid addition measurements were performed on the control electrolyte and the TPEN‐containing electrolyte (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S10</xref>). When the same amount of dilute H<sub>2</sub>SO<sub>4</sub> was added, the electrolyte containing TPEN exhibited a smaller decrease in pH than the control electrolyte, indicating that the pyridyl and tertiary amine nitrogen sites can partially accept the added protons through protonation equilibrium. Therefore, when TPEN‐derived species are concentrated near the electrode through Zn<sup>2+</sup> coordination and interfacial adsorption, their protonatable donor sites can locally mitigate the transient proton activity changes that occur during Zn plating/stripping and water reduction. Therefore, the observed pH stabilization appears to result from a combination of the suppression of the proton‐consuming HER and the localized protonation/deprotonation of TPEN‐derived species accumulated at the interface. This stabilization could potentially weaken the pathway through which crosstalk induces an increase in pH at the cathode interface, thereby promoting iodine hydrolysis, dissolution, and polyiodide formation. To validate this, in situ pH measurements were conducted at the iodine cathode. The results revealed that in the TCC electrolyte, the magnitude of the pH increase at the cathode interface during charging and discharging decreased compared to that in the 2 M ZS electrolyte, with more moderate fluctuations (Figure <xref rid="advs77565-fig-0002" ref-type="fig">2e</xref>). This demonstrates that TCC, in addition to its anode‐stabilizing effect, can mitigate interfacial chemical disturbances at the cathode, contributing to pH stabilization. This supports its association with the inhibition of iodine hydrolysis, dissolution, and polyiodide formation. Therefore, the simultaneous stabilization of the anode and cathode interfaces induced by TCC effectively weakened the degradation loop formed by the crosstalk between the electrodes. Consequently, this approach significantly improved the initial Coulombic efficiency of Zn–I<sub>2</sub> batteries by reducing irreversible reactions during the initial cycle, a crucial parameter for ESS applications (Figure <xref rid="advs77565-fig-0002" ref-type="fig">2f</xref>).</p></sec><sec id="advs77565-sec-0050"><label>2.3</label><title>Suppressed Side Reactions and Uniform Deposition Behavior of Zn Metal</title><p>To investigate the effect of TPEN addition on the aqueous hydrogen‐bonding environment, we performed deconvolution analysis of the O‐H stretching region in the Raman spectrum (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S11</xref>). The broad O‐H band was separated into contributions associated with water clusters forming strong, moderate, and relatively weak hydrogen bonds. Compared to the 2 M ZnSO<sub>4</sub> electrolyte, the TPEN electrolyte exhibited a lower relative contribution from strongly hydrogen‐bonded water and a higher contribution from moderately or weakly hydrogen‐bonded components. This redistribution suggests that TPEN‐derived coordination species disrupt the extended water hydrogen‐bonding network. Therefore, when considered in conjunction with interfacial adsorption and wettability measurements, these findings support an electrolyte and interfacial environment characterized by reduced accessibility and collective organization of reactive water near Zn. The contact angle increased in the presence of TCC at the electrolyte‐electrode interface during measurement, indicating improved hydrophobicity at the Zn metal interface. This enhancement plays a crucial role in reducing cathodic side reactions such as the HER and corrosion by restricting water access and hydrated species involvement (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3a</xref>). The effect of this interfacial environment on water reduction was further evaluated using linear sweep voltammetry with a Zn||Ti cell (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S12</xref>). Compared to the 2 M ZS electrolyte, the TPEN electrolyte exhibited a delayed increase in cathodic current and a higher apparent hydrogen evolution reaction (HER) overpotential, suggesting that the hydrogen evolution reaction was kinetically inhibited. This result is consistent with a lower probability of reactive water reaching active Zn sites when TCC‐derived species occupy the interface. The suppressed HER kinetics also provides a mechanistic basis for the smaller local pH variation. To verify whether the decrease in water‐related reactivity observed in the experiment is thermodynamically consistent with competitive interfacial occupation, DFT calculations were performed on the adsorption of H<sub>2</sub>O and TCC on a representative Zn surface (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S13</xref>). TCC exhibited significantly lower adsorption properties than H<sub>2</sub>O molecules on the Zn surface, suggesting that the chelate complex can compete with water to preferentially occupy sites on the Zn surface. Consistent preference for TCC adsorption provides molecular‐level evidence that the results from Raman spectroscopy, contact angle, and HER measurements can be interpreted as a consequence of reduced water accessibility at the Zn interface. These effects collectively enhanced the efficiency and stability of the Zn metal anode with TPEN. To analyze the suppression of side reactions involving water molecules through TCC adsorption at the Zn metal interface, the Zn metal surface was examined after 24 h of electrolyte immersion. In the 2 M ZS electrolyte, sporadic formation of flake‐like ZHS compounds occurred, while the TPEN electrolyte prevented byproduct formation, maintaining a clean surface (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3b</xref>). XRD analysis further validated the reduction in byproduct formation with the TPEN additive. In the 2 M ZS electrolyte, a distinct ZHS‐specific diffraction peak appeared at 2θ ≈ 12.4°, which was significantly diminished in intensity in the TPEN electrolyte (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S14</xref>) [<xref rid="advs77565-bib-0051" ref-type="bibr">51</xref>, <xref rid="advs77565-bib-0052" ref-type="bibr">52</xref>, <xref rid="advs77565-bib-0053" ref-type="bibr">53</xref>].</p><fig position="float" fig-type="FIGURE" id="advs77565-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>(a) Contact angle measurement using 2 M ZS with and without TPEN, respectively. (b) SEM images of Zn metal surface after 24 h immersion test. (c) Coulombic efficiency (CE) plots of Zn||Ti asymmetric cell using 2 M ZS and TPEN electrolyte. (d) Cycling performance of Zn||Zn symmetric cells at 1 mA cm<sup>−2</sup> and 1 mAh cm<sup>−2</sup> in 2 M ZS and TPEN electrolyte. (e) Cycling performance of Zn||Zn symmetric cells at 4 mA cm<sup>−2</sup> and 8 mAh cm<sup>−2</sup> in 2 M ZS and TPEN electrolyte. (f) In‐situ optical microscope (OM) images of Zn substrates during Zn plating and stripping at 3 mA cm<sup>−2</sup> in the 2 M ZS and TPEN electrolyte. (g) 3D LCSM images of Zn metal deposition in 2 M ZS and TPEN electrolyte.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ADVS-9999-e77565-g004.webp"><?image-name ADVS-9999-e77565-g004.webp?><?image-size 96924?><?image-md5 47d3b810c55dc5184e0882959419bf97?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 731?><?image-original-width 820?><?image-scaled-height 731?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/47d3b810c55d/ADVS-9999-e77565-g004.webp?><?thumb-name ADVS-9999-e77565-g004.gif?><?thumb-size 17408?><?thumb-md5 5b30cfe955a6fd9675574b011cc3b9da?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 178?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/035f/13554500/5b30cfe955a6/ADVS-9999-e77565-g004.gif?></graphic></fig><p>The Zn||Ti battery with a 2 M ZS electrolyte initially exhibited a CE of 84.28% at a current density of 4 mA cm<sup>−2</sup> and an areal capacity of 1 mAh cm<sup>−2</sup>, failing within fewer than 200 cycles. In contrast, the Zn||Ti battery with TPEN electrolyte demonstrated an improved initial CE of 91.82% at the same current density and specific capacity, enabling stable cycling for over 1000 cycles with a CE of 99.67% (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3c</xref>). To address the significance of low C‐rate performance in ESS applications, a Zn||Ti asymmetric battery was tested at 0.25 C. Despite severe test conditions leading to notable side reactions at a current density of 0.25 mA cm<sup>−2</sup> and an areal capacity of 1 mAh cm<sup>−2</sup> (0.25 C), the Zn||Ti battery with 2 M ZS electrolyte experienced performance degradation in less than 10 cycles. Conversely, the Zn||Ti battery utilizing TPEN electrolyte cycled steadily for over 100 cycles while maintaining a high Coulombic efficiency of 98.45% (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S15</xref>). Therefore, interfacial engineering through TCC, characterized by hydrophobicity and a large cluster size, proves advantageous in suppressing side reactions and enhancing the reversibility of zinc deposition.</p><p>The Zn||Zn symmetric cells were constructed to assess the reversibility and cycling stability of the Zn cathode in different electrolytes. Figure <xref rid="advs77565-fig-0003" ref-type="fig">3d</xref> and <bold>e</bold> show that the addition of TPEN enables stable cycling performance and reversibility of the zinc cathode. In TPEN electrolyte, the Zn||Zn battery demonstrated a cycle life of 2000 h at 1 mA cm<sup>−2</sup> and 1 mAh cm<sup>−2</sup>, approximately 5.5 times longer than that in 2 M ZS electrolyte (370 h) (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3d</xref>). Even under high plating capacity of 8 mAh cm<sup>−2</sup>, corresponding to a Zn utilization rate of 27.6%, it exhibited excellent stability of 700 h compared to the cell using 2 M ZS electrolyte (83 h) (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3e</xref>). Additionally, the rate performance of the Zn||Zn cell in TPEN electrolyte showed a more consistent voltage profile at different current densities (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S16</xref>). The time‐voltage profile, showing increased voltage polarization and stable voltage hysteresis, also indicates the reversible and stable zinc plating/stripping processes in the TPEN electrolyte. This highlights that TPEN‐containing electrolytes can effectively inhibit side reactions and dendrite growth at high zinc utilization rates.</p><p>Optical microscopy was used to confirm the observed effects. The 2 M ZS electrolyte exhibited the presence of aggregated coarse and irregular zinc clusters, along with insulating byproducts. In contrast, the TPEN electrolyte maintained a consistently uniform, smooth, and dense deposition layer even after 1 h of plating (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3f</xref>). The synergistic effects of the adsorbed protective layer, pH buffering, and adequate overpotential collectively promoted a uniform zinc plating and stripping process. Laser confocal scanning microscopy (LCSM) analysis revealed that zinc deposited in the 2 M ZS electrolyte exhibited a rough surface morphology (S<sub>a</sub> = 7.72), while the TPEN electrolyte resulted in a significantly smoother surface (S<sub>a</sub> = 0.417) (Figure <xref rid="advs77565-fig-0003" ref-type="fig">3g</xref>). This quantitative reduction in surface roughness highlights the effective modulation of zinc deposition behavior by TCC through synergistic interfacial mechanisms, leading to dense, flat zinc growth without dendritic crystals.</p><p>The adsorption behavior of TCC, its pH‐stabilizing capacity, and its ability to induce a high surface overpotential were evident in the structural changes during the Zn plating/stripping process. XRD analysis showed that zinc deposited in a 2 M ZS electrolyte displayed anisotropic growth with coexisting (002) and (101) planes (I<sub>002</sub>/I<sub>101</sub> = 0.61 after 8 mAh cm<sup>−</sup>
+<sup>2</sup> deposition), indicating no preferred orientation. In contrast, the TPEN electrolyte increased the I<sub>002</sub>/I<sub>101</sub> ratio to 0.88, promoting a (002) plane‐dominant growth trend (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S17</xref>). To verify whether preferred orientation appears not only in the final deposition state but also gradually over time, additional XRD patterns were collected as the Zn deposition capacity increased and analyzed using the relative texture coefficient (RTC) (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S18</xref>). In the TPEN electrolyte, the RTC of the Zn (002) plane increased with deposition capacity, whereas in the 2 M ZS electrolyte, the contribution of the (002) orientation tended to decrease as deposition progressed. These capacity‐dependent changes demonstrate that TCC does not merely modify the initial substrate surface but continuously influences crystal growth throughout the entire Zn deposition process. Facet‐dependent DFT calculations provide a thermodynamic basis for these changes (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S13</xref>). Among the Zn surfaces investigated, TCC exhibited the most favorable adsorption properties on the Zn (002) face. This selective adsorption can alter the relative interfacial energy and growth kinetics of the exposed faces, thereby influencing which crystal faces remain exposed during the electrodeposition process. Therefore, the calculated adsorption tendency is consistent with the increase in the (002) texture coefficient observed experimentally. Selective adsorption of TCC partially blocks heterogeneous sites on the Zn surface, thereby increasing the nucleation overpotential and, as a result, promoting the formation of smaller, more uniformly distributed Zn nuclei based on the classical nucleation theory. This phenomenon is consistent with enhanced Zn (002) texture and a homogeneous deposition morphology.</p><p>These findings were further confirmed through SEM after plating at 8 mAh cm<sup>−2</sup>. The 2 M ZS electrolyte resulted in a coarse, chunk‐like, and non‐uniform Zn deposit, while the TPEN electrolyte facilitated dense and uniform Zn growth (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S19</xref>). This morphological enhancement suggests that the TCC formed by TPEN addition exists in an adsorbed state at the Zn metal interface, creating an interfacial environment with reduced water accessibility. This condition suppresses water‐induced side reactions by providing additional surface overpotential at the interface.</p></sec><sec id="advs77565-sec-0060"><label>2.4</label><title>Polyiodide Binding and Interfacial Reaction Regulation at the I2 Cathode</title><p>To investigate the binding characteristics between the TCC and polyiodide ions and to verify the shuttle effect inhibition, precipitation phenomena were observed by adding TPEN electrolyte to ZnI<sub>3</sub> (ZnI<sub>2</sub> + I<sub>2</sub>) solutions. Upon adding 2 M ZS electrolyte to the deep orange I<sub>3</sub>
+<sup>−</sup> solution, no significant color change was observed (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S20</xref>). However, upon adding TPEN to the I<sub>3</sub>
+<sup>−</sup> solution, distinct layer separation occurred: a solid precipitate formed at the vial bottom, and the upper layer's color significantly lightened (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4a</xref>). This suggests the formation of a solid complex between TPEN and I<sub>3</sub>
+<sup>−</sup>. UV–vis spectroscopy was performed on the supernatant to confirm the binding between TPEN and I<sub>3</sub>
+<sup>−</sup> (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4b</xref>). In the UV–vis spectrum, the peaks at 290 and 350 nm correspond to I<sub>3</sub>
+<sup>−</sup>. The signal intensity of I<sub>3</sub>
+<sup>−</sup> decreased significantly after TPEN addition, indicating the strong binding effect of TCC on the polyiodide ion [<xref rid="advs77565-bib-0054" ref-type="bibr">54</xref>, <xref rid="advs77565-bib-0055" ref-type="bibr">55</xref>]. Raman spectroscopy analysis was conducted to confirm the chemical composition of the formed solid precipitate (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4c</xref>). A peak at 167.1 cm<sup>−1</sup> corresponding to the Zn‐I asymmetric stretching vibration was detected in the Raman spectrum of the precipitate, suggesting a solid compound formed due to the binding interaction between Zn<sup>2</sup>
+<sup>+</sup> and iodide ions (I<sub>x</sub>
+<sup>−</sup>) [<xref rid="advs77565-bib-0056" ref-type="bibr">56</xref>, <xref rid="advs77565-bib-0057" ref-type="bibr">57</xref>]. Raman spectroscopic analysis was performed on the TPEN powder and compared with the solid precipitate to confirm that the precipitate formation resulted from the interactions between TCC and iodide ions (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S21</xref>). A peak at 1000 cm<sup>−1</sup> corresponding to the pyridine ring breathing vibration was observed. In addition, the peak at 1600 cm<sup>−1</sup> attributed to the C = C/C = N stretching vibrations exhibited a blue shift. A red shift was also observed for the peak at 1230 cm<sup>−1</sup> corresponding to the C─N/C─H bonding vibrations [<xref rid="advs77565-bib-0048" ref-type="bibr">48</xref>, <xref rid="advs77565-bib-0058" ref-type="bibr">58</xref>, <xref rid="advs77565-bib-0059" ref-type="bibr">59</xref>, <xref rid="advs77565-bib-0060" ref-type="bibr">60</xref>]. Furthermore, to verify that the capture of I<sub>x</sub>
+<sup>−</sup> species stems from TCC formation, Raman spectroscopic analysis was performed on NaI<sub>x</sub> solutions containing identical concentrations of 2 M ZS, TPEN, and NaSO<sub>4</sub> with TPEN electrolytes. A higher intensity of the peak at 167.1 cm<sup>−1</sup>, corresponding to the Zn–I<sup>+</sup> bonding vibration, was clearly observed in the sample containing TCC [<xref rid="advs77565-bib-0056" ref-type="bibr">56</xref>, <xref rid="advs77565-bib-0057" ref-type="bibr">57</xref>]. This result demonstrates the strong binding capability of TCC toward I<sub>x</sub>
+<sup>−</sup> species, which arises from the EDA interaction between Zn<sup>2</sup>
+<sup>+</sup> and TPEN (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S22</xref>). To compare the intrinsic affinity of the relevant electrolyte species toward polyiodide, DFT binding energies were calculated for I<sub>3</sub>
+<sup>−</sup> interacting with H<sub>2</sub>O, a hydrated Zn<sup>2+</sup> cluster, TPEN, and TCC (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S23</xref>). The interactions with TPEN and TCC were more energetically favorable than those with H<sub>2</sub>O or hydrated Zn<sup>2+</sup>, demonstrating that the nitrogen‐rich chelating framework provides a preferential association environment for polyiodide. In particular, the TCC–I<sub>3</sub>
+<sup>−</sup> interaction indicates that Zn<sup>2+</sup> coordination does not eliminate the polyiodide affinity of TPEN; instead, the chelated structure retains the ability to associate with iodine species through a combination of electrostatic polarization, donor‐acceptor interaction, and spatial confinement around the multidentate ligand framework. These calculations provide a thermodynamic basis for the reduced polyiodide absorption intensity and precipitate formation observed experimentally. The dynamic capture behavior was further evaluated by monitoring the polyiodide absorption of the supernatant as a function of time after addition of either the 2 M ZS electrolyte or the TPEN electrolyte (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S24</xref>). Under otherwise identical conditions, the characteristic polyiodide absorption decreased more rapidly in the presence of TCC. This accelerated decrease indicates that the effect of TCC is not limited to favorable final‐state binding energy, but also enables efficient removal of freely dissolved polyiodide from the solution phase on an experimentally relevant timescale. The agreement between the calculated binding affinity and the time‐dependent spectroscopic response supports a mechanism in which TCC reduces the free polyiodide concentration available for long‐range diffusion and shuttle reactions. To determine whether the TCC–iodine interaction persists during actual electrochemical operation, Raman spectra were collected from the electrolyte/electrode region near the I<sub>2</sub> cathode at selected states of charge (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S25</xref>). The Raman feature assigned to Zn‐I bonding decreased systematically with the cell discharging, indicating reversible evolution of TCC‐associated iodine species. The state‐dependent response differs from a static precipitation phenomenon and suggests that the TCC–polyiodide interaction participates in the dynamic conversion of iodine species at the cathode interface. These observations support a mechanism in which TCC temporarily associates with iodine intermediates, decreases their residence in the free solution phase, and facilitates their conversion near the electrode interface.</p><fig position="float" fig-type="FIGURE" id="advs77565-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>(a) Photographs for the formation of the TCC‐I<sub>x</sub>
+<sup>−</sup> precipitate. (b) UV–vis spectra of the supernatant. (c) Raman spectra of solid precipitate powder. (d) Cyclic voltammetry (CV) curves for Zn||I2 batteries in 2 M ZS and TPEN electrolytes. (e) Nyquist plots for Zn||I<sub>2</sub> batteries in 2 M ZS and TPEN electrolyte. (f) UV–vis spectra of Iodine solution with and without TPEN electrolyte. (g) N 1s XPS spectra of TPEN powder, positive electrodes discharged to 0.6 V and charged to 1.6 V using TPEN electrolyte. (h) UV–vis spectra of electrolyte after charging to 1.6 V. (i) SEM images of positive electrodes charged to 1.6 V using 2 M ZS and TPEN electrolytes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ADVS-9999-e77565-g002.webp"><?image-name ADVS-9999-e77565-g002.webp?><?image-size 66904?><?image-md5 046c2bfaa4d59b9072a2a26caa560e38?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 631?><?image-original-width 820?><?image-scaled-height 631?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/046c2bfaa4d5/ADVS-9999-e77565-g002.webp?><?thumb-name ADVS-9999-e77565-g002.gif?><?thumb-size 13834?><?thumb-md5 079ccee11c2ead2698a630dc195ffa47?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 154?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/035f/13554500/079ccee11c2e/ADVS-9999-e77565-g002.gif?></graphic></fig></sec><sec id="advs77565-sec-0070"><label>2.5</label><title>Inhibited Shuttle Effects and Stabilized I<sub>2</sub> Redox Kinetics</title><p>This validates the ability of the chelating complex to bind and capture iodide ions. To assess the impact of the chelating complex in the electrolyte on the electrochemical iodine redox reaction, CV tests were conducted using a Zn||I<sub>2</sub> cell (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4d</xref>). In comparison to the cell with the 2 M ZS electrolyte, which exhibited a reduction peak at 1.38 V, the cell using the TPEN electrolyte showed a reduction peak at 1.29 V. This outcome is attributed to the presence of the TPEN‐derived chelating complex at the electrode interface, which diminishes the concentration of hydrated Zn ions. Regarding the oxidation reaction, a novel oxidation peak is evident at 1.31 V in the cell employing the TPEN electrolyte. This suggests that the chelating complex‐iodide compound, generated in the solid phase through the reduction (discharge) reaction, initially partakes in the oxidation reaction due to its proximity to the electrode surface. The existence of this solid‐phase deposit post the reduction reaction can be verified through EIS analysis (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4e</xref>). In the fully discharged state (0.6 V) of a Zn||I<sub>2</sub> cell utilizing TPEN electrolyte, a semicircle in the mid‐frequency region was observed, contrasting with the absence of this feature in the cell using 2 M ZS electrolyte. This suggests the development of a new interface due to the solid‐phase layer on the electrode surface. Moreover, post‐cycling UV–vis analysis showed that the characteristic TPEN/TCC absorption features remained detectable after 5, 15, and 30 cycles (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S26</xref>). This indicates that TPEN/TCC‐derived species persist during cycling and are not rapidly and completely consumed during the initial cycles, although these measurements do not establish the complete molecular integrity of TPEN or exclude minor decomposition pathways.</p><p>To investigate the impact of the TPEN chelating complex on the I<sub>2</sub> deposition‐based charging (oxidation) process, UV–vis spectroscopic analysis was conducted on I<sub>2</sub> solutions with and without TPEN (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4f</xref>). The UV–vis spectrum of the pure I<sub>2</sub> solution displayed peaks at 290 and 350 nm corresponding to I<sub>3</sub>
+<sup>−</sup>, and a peak at 450 nm corresponding to I<sub>2</sub> [<xref rid="advs77565-bib-0054" ref-type="bibr">54</xref>, <xref rid="advs77565-bib-0055" ref-type="bibr">55</xref>]. In contrast, the TPEN‐containing sample exhibited reduced peak intensities for I<sub>3</sub>
+<sup>−</sup> and I<sub>2</sub>, along with a new peak at 260 nm corresponding to the formation of the TPEN‐I<sub>2</sub> (I<sub>3</sub>
+<sup>−</sup>) charge‐transfer complex [<xref rid="advs77565-bib-0061" ref-type="bibr">61</xref>, <xref rid="advs77565-bib-0062" ref-type="bibr">62</xref>]. This suggests that the TCC interacts with deposited iodine through Lewis acid‐base interactions, present in an adsorbed state on the iodine surface. Consequently, the TPEN‐derived chelating complex can engage in the I<sup>−</sup>/I<sub>2</sub> electrochemical redox reaction near the electrode interface by interacting with iodide and iodine. This interaction was further confirmed through post‐mortem XPS analysis of discharged and charged electrode samples (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4g</xref>). Comparison of the high‐resolution N 1s XPS spectra of TPEN powder and discharged/charged electrode samples revealed that the pristine powder exhibited a peak at 398.8 eV, whereas the electrode samples showed a peak at 400.1 eV, corresponding to a higher binding energy [<xref rid="advs77565-bib-0063" ref-type="bibr">63</xref>, <xref rid="advs77565-bib-0064" ref-type="bibr">64</xref>]. These results confirm the presence of the TPEN chelating complex near the electrode interface, where it is actively involved in the charging and discharging processes. The TCC at the interface participates in redox reactions through binding interactions with redox species, thereby suppressing the migration of polyiodide species that readily diffuse through the bulk electrolyte. This behavior facilitates rapid mass transfer during electrochemical reactions. UV–vis spectroscopic analysis of the electrolyte post‐charging process in Zn||I<sub>2</sub> batteries revealed a notable reduction in the intensity of I<sub>3</sub>
+<sup>−</sup> associated peaks (290 nm and 350 nm) in cells using the TPEN electrolyte compared to those with the 2 M ZS electrolyte (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4h</xref>). This observation confirmed the suppression of polyiodide migration by chelating complexes. Furthermore, CV analysis conducted at different scan rates demonstrated a Randles–Sevcik relationship. Cells employing TPEN electrolyte exhibited a steeper slope and enhanced linearity in the peak current‐scan rate<sup>1/2</sup> relationship in the diffusion‐controlled region (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S27</xref>) [<xref rid="advs77565-bib-0065" ref-type="bibr">65</xref>, <xref rid="advs77565-bib-0066" ref-type="bibr">66</xref>]. The introduction of TPEN naturally leads to the formation of a TPEN chelating complex within the electrolyte, effectively binding to iodide/polyiodide through Lewis acid‐base and electrostatic interactions. This binding hinders the excessive dissolution of I<sub>2</sub>, as well as the formation and diffusion of free I<sub>3</sub>
+<sup>−</sup> during the charging/discharging process. This chemical stabilization reduces the i<sub>p</sub>‐v<sup>1/2</sup> slope based on the Randles‐Sevcik equation of the TPEN electrolyte due to the decrease in reactive free polyiodide concentration and the effective reduction in diffusion rate. However, the peak potential remained nearly stationary despite changes in the scan rate. This suggests that TCC stabilizes the electrode‐electrolyte interface, suppresses instantaneous changes in the polyiodide concentration, and maintains a constant distribution of redox species during charging, thereby enhancing the reversibility of the reaction.</p><p>To verify the effect of the TPEN‐derived chelating complex on the electrodeposition process, SEM analysis was conducted on the I<sub>2</sub> electrode in the charged state of the Zn–I<sub>2</sub> battery with 2 M ZS and TPEN electrolytes (Figure <xref rid="advs77565-fig-0004" ref-type="fig">4i</xref>). In contrast to the uneven and lumpy deposit observed on the electrode in the cell with the 2 M ZS electrolyte, the electrode in the TPEN electrolyte cell displayed a more uniform and conformal deposition. This difference is attributed to the influence of the chelating complex.</p></sec><sec id="advs77565-sec-0080"><label>2.6</label><title>Direct Evidence of Crosstalk Suppression via In Situ Analysis</title><p>The low coulombic efficiency and self‐discharge in Zn–I<sub>2</sub> batteries are due to the shuttling effect of polyiodide intermediates. To elucidate this effect, we conducted in situ optical microscopy at various voltages for two electrolytes (Figure <xref rid="advs77565-fig-0005" ref-type="fig">5a,b</xref>). In the cell using the 2 M ZS electrolyte, a noticeable yellow color appears at 1.2 V and deepens at 0.6 V, indicating the emergence and accumulation of polyiodide. As the cell charges, the yellow color fades gradually but diffuses into the adjacent solution due to polyiodide diffusion driven by the concentration gradient. In contrast, cells using the TPEN electrolyte show a significant reduction in color changes throughout the entire charge/discharge cycle, indicating suppression of the shuttling effect. Furthermore, Raman spectroscopic analysis of the Zn metal electrode surface in fully charged cells reveals a significant reduction in the intensity of peaks corresponding to I<sub>3</sub>
+<sup>−</sup> (110 and 144.6 cm<sup>−1</sup>) compared to cells using the 2 M ZS electrolyte (Figure <xref rid="advs77565-fig-0005" ref-type="fig">5c</xref>) [<xref rid="advs77565-bib-0067" ref-type="bibr">67</xref>]. This observation confirms that the TPEN chelating complex plays a key role in suppressing polyiodide diffusion. Furthermore, the corrosion of the Zn metal surface caused by self‐discharge from highly oxidized, shuttling polyiodide species was evaluated using LCSM. Zinc cycled in 2 M ZS electrolyte exhibited a rough surface morphology (S<sub>a</sub> = 5.68), while the TPEN electrolyte produces a smoother surface (S<sub>a</sub> = 1.62) (Figure <xref rid="advs77565-fig-0005" ref-type="fig">5d,e</xref>). This reduction in surface roughness results from the inhibition of polyiodide shuttle‐driven corrosion by the TPEN‐derived chelating complex, which binds polyiodide intermediates effectively and acts as a diffusion barrier due to its bulky cluster size.</p><fig position="float" fig-type="FIGURE" id="advs77565-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>(a) GCD curves with marked voltage points of Zn||I<sub>2</sub> batteries using 2 M ZS and TPEN electrolytes. (b) Corresponding in situ optical photographs of the shuttle effect in different batteries. (c) Post‐mortem analysis of Raman spectra of Zn metal after charging to 1.6 V using 2 M ZS and TPEN electrolyte. 3D LCSM images of Zn metal electrode from Zn||I<sub>2</sub> batteries using (d) 2 M ZS and (e) TPEN electrolyte.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ADVS-9999-e77565-g001.webp"><?image-name ADVS-9999-e77565-g001.webp?><?image-size 82374?><?image-md5 c314ed03c565ab88258c2efef8921b2b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 670?><?image-original-width 820?><?image-scaled-height 670?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/c314ed03c565/ADVS-9999-e77565-g001.webp?><?thumb-name ADVS-9999-e77565-g001.gif?><?thumb-size 19450?><?thumb-md5 57ebb7fff9e440eb010747d755fc369b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 163?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/035f/13554500/57ebb7fff9e4/ADVS-9999-e77565-g001.gif?></graphic></fig></sec><sec id="advs77565-sec-0090"><label>2.7</label><title>Improved Full Cell Performance Under High Loading Conditions</title><p>In the galvanostatic charging and discharging experiment of Zn–I<sub>2</sub> batteries, the TPEN electrolyte exhibited a specific capacity of 6.07 mAh cm<sup>−</sup>
+<sup>2</sup>, outperforming the 2 M ZS electrolyte (4.8 mAh cm<sup>−</sup>
+<sup>2</sup>) (Figure <xref rid="advs77565-fig-0006" ref-type="fig">6a</xref>). The self‐discharge test at 0.2 C‐rate in Figure <xref rid="advs77565-fig-0006" ref-type="fig">6b</xref> reveals that the battery with the 2 M ZS electrolyte retained 54.52%, 48.01%, 40.19%, and 30.61% of its capacity after 6, 12, 24, and 48 h of rest, respectively. In contrast, the TPEN electrolyte maintained a higher capacity retention rate of 65.89% even after 48 h of rest, showcasing superior self‐discharge prevention performance.</p><fig position="float" fig-type="FIGURE" id="advs77565-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>(a) Galvanostatic charge/discharge (GCD) curves for Zn||I<sub>2</sub> batteries in 2 M ZS and TPEN electrolyte. (b) Self‐discharge performance batteries using 2 M ZS and TPEN electrolyte at 1 mA cm<sup>−2</sup> (0.2 C). (c) Cycling performance at 10 mA cm<sup>−2</sup> of high‐loading Zn||I<sub>2</sub> batteries using 2 M ZS and TPEN electrolyte. (d) Cycling performance at 1 mA cm<sup>−2</sup> of high‐loading Zn||I<sub>2</sub> batteries using 2 M ZS and TPEN electrolyte. Post‐mortem analysis of SEM images of Zn metal after 100 cycles of high‐loading Zn||I<sub>2</sub> batteries using (e) 2 M ZS and (f) TPEN electrolyte. (g) Post‐mortem analysis of Raman spectra of Zn metal after 100 cycles of high‐loading Zn||I<sub>2</sub> batteries using 2 M ZS and TPEN electrolyte. (h) Comparison of testing conditions, including I<sub>2</sub> loading mass and C‐rate, of Zn–I<sub>2</sub> batteries with reported works.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ADVS-9999-e77565-g003.webp"><?image-name ADVS-9999-e77565-g003.webp?><?image-size 71154?><?image-md5 e53d26973ed3cd498a017470f76bc982?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 629?><?image-original-width 820?><?image-scaled-height 629?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/035f/13554500/e53d26973ed3/ADVS-9999-e77565-g003.webp?><?thumb-name ADVS-9999-e77565-g003.gif?><?thumb-size 12245?><?thumb-md5 c1d1ccfec584b6f4db1f5a6dba979979?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 153?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/035f/13554500/c1d1ccfec584/ADVS-9999-e77565-g003.gif?></graphic></fig><p>The superiority of TPEN is also evident under quasi‐open‐circuit voltage conditions (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S28</xref>). During charging and storage, the 2 M ZS electrolyte displayed a potential drop exceeding tens of millivolts, while the TPEN electrolyte showed only a drop of a few millivolts, indicating that TCC suppressed iodine dissolution and polyiodide (I<sub>3</sub>
+<sup>−</sup>) formation. Long‐term cycling tests were conducted using 2 M ZS and TPEN electrolytes to evaluate the electrochemical performance of the Zn||I<sub>2</sub> battery with a high‐loading I<sub>2</sub> cathode. As shown in Figure <xref rid="advs77565-fig-0006" ref-type="fig">6c</xref>, the Zn||I<sub>2</sub> battery utilizing the 2 M ZS electrolyte exhibited a capacity retention of 65.73% after 700 cycles at 10 mA cm<sup>−</sup>
+<sup>2</sup> (2 C) with a lower coulombic efficiency (CE) of 44.73% due to side reactions such as the shuttle effect and corrosion. These processes ultimately led to premature cell failure. In contrast, the battery using the TPEN electrolyte exhibited a higher capacity retention rate of 88.35% with an increased CE of 98.86%, attributed to the interfacial stabilization by TCC. The incorporation of TPEN significantly impacted the long‐term cycling stability of the Zn–I<sub>2</sub> battery under low C‐rate test conditions, where iodine dissolution and polyiodide shuttling were intensified, and the TPEN electrolyte displayed excellent capacity retention characteristics. After 200 cycles at 1 mA cm<sup>−</sup>
+<sup>2</sup> (0.18 C), the 2 M ZS electrolyte retained 28.2% of its capacity due to severe side reactions at both the cathode and anode interfaces, while the TPEN electrolyte retained 92.5% of its capacity (Figure <xref rid="advs77565-fig-0006" ref-type="fig">6d</xref>). As shown in Figure <xref rid="advs77565-fig-0006" ref-type="fig">6e,f</xref>, following 100 cycles, the Zn metal electrode in the Zn–I<sub>2</sub> battery using the TPEN electrolyte exhibited a dense and uniform morphology with a smooth surface free of dendritic protrusions. In contrast, the Zn metal in batteries using the 2 M ZS electrolyte showed pronounced surface irregularities under the same cycling conditions. Under these conditions, severe pits, dead Zn, and a highly rough and non‐uniform surface were observed.</p><p>Post‐mortem analysis of Zn metal after cycling was conducted using Raman spectroscopy to investigate the effect of polyiodide migration during cycling (Figure <xref rid="advs77565-fig-0006" ref-type="fig">6g</xref>). A high‐intensity polyiodide‐related peak was observed on the electrode of the cell with a 2 M ZS electrolyte, ranging from 100 to 250 cm<sup>−1</sup> [<xref rid="advs77565-bib-0068" ref-type="bibr">68</xref>]. In contrast, no polyiodide‐related signals were detected on the surface when an electrolyte containing TCC was utilized. These findings indicate that TCC effectively suppresses self‐discharge at the interface by inhibiting iodine dissolution and polyiodide migration. Raman spectroscopic analysis of the I<sub>2</sub> positive electrode after 100 cycles for cells using 2 M ZS and TPEN electrolytes revealed peaks at 280 and 360 cm<sup>−1</sup>, corresponding to Zn–N stretching vibrations and C–N deformation, respectively (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S29</xref>) [<xref rid="advs77565-bib-0069" ref-type="bibr">69</xref>, <xref rid="advs77565-bib-0070" ref-type="bibr">70</xref>, <xref rid="advs77565-bib-0071" ref-type="bibr">71</xref>]. This suggests that TPEN/TCC‐derived species remain present near the positive electrode interface after prolonged cycling and may continue to participate in interfacial iodine redox processes. Lewis acid–base and electrostatic‐force‐mediated binding interactions contribute to polyiodide confinement and shuttling suppression. The thermal robustness of the TPEN‐based interfacial regulation was further evaluated using Zn||I<sub>2</sub> full cells at 45°C (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S30</xref>). Under elevated‐temperature cycling at 5 mA cm<sup>−2</sup>, the cell using TPEN electrolyte maintained higher capacity retention and Coulombic efficiency than the cell using the 2 M ZS electrolyte. Because elevated temperature accelerates Zn corrosion, HER, and polyiodide diffusion, the improved stability indicates that the TCC‐mediated dual‐interface regulation remains electrochemically effective under thermally accelerated degradation conditions. Additionally, the practical feasibility of the TPEN electrolyte was evaluated in Zn||I<sub>2</sub> pouch cells using a Zn foil thickness of 20 µm, an iodine loading of 29.58 mg cm<sup>−2</sup>, an E/C ratio of 6 g Ah<sup>−1</sup>, and an N/P ratio of 1.93 (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S31</xref>). The pouch cell using TPEN electrolyte retained its capacity after 40 cycles with an average Coulombic efficiency of 96.84%, outperforming the 2 M ZS electrolyte (sudden death after 14 cycle and Coulombic efficiency of 84.73%). These results demonstrate that TCC‐mediated dual‐interface regulation remains effective under practically constrained Zn and electrolyte conditions. Furthermore, three independently assembled pouch cells using TPEN electrolyte exhibited consistent areal capacity retention and Coulombic efficiency profiles under identical conditions, confirming the cell‐to‐cell reproducibility of the practical pouch‐cell performance (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S31</xref>).</p><p>To enhance the comparability of high‐capacity Zn–I<sub>2</sub> battery performance, this study included a comparative analysis of iodine anode mass loading (mg cm<sup>−2</sup>), C‐rate, and cycle stability relative to existing literature (Figure <xref rid="advs77565-fig-0006" ref-type="fig">6h</xref>; Tables <xref rid="advs77565-supinfo-0001" ref-type="">S1</xref> and <xref rid="advs77565-supinfo-0001" ref-type="">S2</xref>) [<xref rid="advs77565-bib-0031" ref-type="bibr">31</xref>, <xref rid="advs77565-bib-0065" ref-type="bibr">65</xref>, <xref rid="advs77565-bib-0072" ref-type="bibr">72</xref>, <xref rid="advs77565-bib-0073" ref-type="bibr">73</xref>, <xref rid="advs77565-bib-0074" ref-type="bibr">74</xref>, <xref rid="advs77565-bib-0075" ref-type="bibr">75</xref>, <xref rid="advs77565-bib-0076" ref-type="bibr">76</xref>, <xref rid="advs77565-bib-0077" ref-type="bibr">77</xref>, <xref rid="advs77565-bib-0078" ref-type="bibr">78</xref>, <xref rid="advs77565-bib-0079" ref-type="bibr">79</xref>, <xref rid="advs77565-bib-0080" ref-type="bibr">80</xref>, <xref rid="advs77565-bib-0081" ref-type="bibr">81</xref>, <xref rid="advs77565-bib-0082" ref-type="bibr">82</xref>, <xref rid="advs77565-bib-0083" ref-type="bibr">83</xref>, <xref rid="advs77565-bib-0084" ref-type="bibr">84</xref>]. Table <xref rid="advs77565-supinfo-0001" ref-type="">S1</xref> summarizes the electrochemical performance of previously reported Zn–I<sub>2</sub> batteries, whereas Table <xref rid="advs77565-supinfo-0001" ref-type="">S2</xref> details the practical pouch‐type cell parameters used in this work, including additive concentration, areal capacity, Zn thickness, N/P ratio, and current density. The analysis confirmed that this study conducted low C‐rate long‐term cycling under high I<sub>2</sub> loading conditions compared to previous studies, validating performance under conditions resembling high‐energy‐density ESS operation. Notably, even under these rigorous conditions, the incorporation of TCC significantly enhanced long‐term stability by stabilizing both the anode and cathode interfaces and reducing crosstalk.</p></sec><sec id="advs77565-sec-0100"><label>2.8</label><title>Dual‐Interface Stabilization Mechanism Enabled by Chelation</title><p>In this study, we propose a chelation‐driven dual‐interface regulation strategy by introducing TPEN as an electrolyte additive. This approach addresses the bottleneck arising from the coupled HER and corrosion processes and the polyiodide shuttle, whose interfacial crosstalk simultaneously degrades the lifespan and efficiency of aqueous Zn–I<sub>2</sub> batteries (Figure <xref rid="advs77565-supinfo-0001" ref-type="">S32</xref>). TPEN coordinates with Zn<sup>2+</sup> to form Zn<sup>2+</sup>–TPEN coordination species, represented here as TCC, whose interfacial adsorption contributes to regulation of the anode and cathode interfacial environments. At the Zn anode, the TCC modulates the EDL into an interfacial environment with reduced water accessibility and induces a localized overpotential, promoting homogeneous nucleation, suppressing the HER and corrosion, and enabling uniform and dense deposition. Furthermore, protonatable donor sites of the TPEN buffer pH fluctuations inhibit ZHS formation and enhance reversibility, even under high Zn utilization conditions. At the I<sub>2</sub> cathode, TCC binds and traps polyiodide through Lewis acid–base interactions with iodide/polyiodide, reducing the concentration of free shuttle species and mitigating self‐discharge and shuttling. It localizes interfacial reactions, decreases concentration polarization, and enhances the uniformity of I<sub>2</sub> deposition/dissolution, thereby improving redox reversibility. Therefore, the TCC experimentally demonstrated the ability to simultaneously regulate both the anode and cathode interfacial reactions with a single additive, presenting an integrated interfacial design platform to suppress crosstalk‐induced degradation in aqueous metal–halide series batteries.</p></sec></sec><sec id="advs77565-sec-0110"><label>3</label><title>Conclusions</title><p>This study identified a degradation loop in which the anode HER, corrosion, and anode polyiodide shuttle mutually amplify each other through crosstalk, representing the primary bottleneck in aqueous Zn–I<sub>2</sub> batteries. The study proposed a TPEN‐based chelation‐driven dual‐interface regulation strategy. The spectroscopic and computational results support the formation of Zn<sup>2+</sup>–TPEN coordination species (TCC) in the electrolyte. The interfacial adsorption of this chelate simultaneously reconfigures the anode and cathode interfacial environments. At the Zn anode, TCC induces an interfacial environment with reduced water accessibility, suppressing the HER and corrosion while promoting uniform deposition. Protonatable donor sites of TPEN further buffer local pH fluctuations and inhibit ZHS formation. At the I<sub>2</sub> cathode, TCC traps polyiodide, reduces shuttling and self‐discharge, and enhances I<sub>2</sub> deposition uniformity by localizing the reactions near the interface. Consequently, a Zn||Zn symmetric cell operated for over 2000 h, and a Zn–I<sub>2</sub> cell under high I<sub>2</sub> loading conditions achieved a CE of over 96.2% and a 92.5% capacity retention rate after 200 cycles. This work provides a chelation‐mediated molecular design strategy for dual‐interface regulation in aqueous Zn–I<sub>2</sub> batteries. Although demonstrated here for Zn–I<sub>2</sub> chemistry, this molecular design principle may provide useful guidance for the development of multifunctional electrolyte additives in other aqueous Zn battery systems, subject to further experimental validation.</p></sec><sec id="advs77565-sec-0120"><label>4</label><title>Experimental Methods</title><sec id="advs77565-sec-0130"><label>4.1</label><title>Materials</title><p>ZnSO<sub>4</sub>·7H<sub>2</sub>O was acquired from Junsei Chemical Co. TPEN was obtained from TCI Chemicals. Sodium iodide (99.0%), zinc iodide (98.0%), and iodine (99.0%) were also procured from TCI Chemicals. Active carbon (YP‐50F) was sourced from Kuraray.</p></sec><sec id="advs77565-sec-0140"><label>4.2</label><title>Preparation of Electrolyte</title><p>The blank electrolyte of 2 M ZnSO<sub>4</sub> was created by dissolving ZnSO<sub>4</sub>·7H<sub>2</sub>O in deionized water. To prepare the electrolyte with additives, TPEN was then added to the initial blank electrolyte to make the 2 M ZnSO<sub>4</sub> with 0.005, 0.01, and 0.05 wt.% TPEN electrolyte. The optimized concentration of TPEN was 0.01 wt.%.</p></sec><sec id="advs77565-sec-0150"><label>4.3</label><title>Preparation of Positive Electrode</title><p>First, an activated carbon (AC) dry electrode was created using a mixture of AC, conductive carbon (Super C, TIMCAL), and polytetrafluoroethylene in a ratio of 70:25:5. The kneaded mixture was roll‐pressed to form the dry electrode. These electrodes were then placed in a glass vial with a specific quantity of I<sub>2</sub> powder and thermally treated at 110°C for 12 h to fabricate the I<sub>2</sub>@AC positive electrodes. The loading of I<sub>2</sub> in the I<sub>2</sub>@AC positive electrodes was adjusted by varying the amount of I<sub>2</sub> used, and the I<sub>2</sub> content of the electrodes was determined by measuring the change in electrode mass before and after I<sub>2</sub> loading.</p></sec><sec id="advs77565-sec-0160"><label>4.4</label><title>Material Characterization</title><p>Fourier‐transform infrared (FT‐IR) spectra were recorded with an FT‐IR 4700s (JASCO) instrument equipped with an attenuated total reflection accessory. Raman spectra were obtained using a confocal Raman spectrometer (NT‐MDT) with an excitation wavelength of 532 nm. The pH of the electrolyte was measured with a real‐time pH meter (Thermo Fisher Scientific). Ultraviolet–visible (UV–vis) spectra were collected using a double‐beam UV–vis spectrophotometer (JASCO V‐750). To ensure data reliability, all electrolyte samples were diluted to a consistent ratio before measurement. The size, thickness, and morphology of the samples were characterized using field‐emission scanning electron microscopy (FE‐SEM; JEOL JMS‐7000F). Crystal structure and crystallographic orientation of electrodeposited samples were analyzed by X‐ray diffraction (XRD, PANalytical Empyrean) with a Cu Kα radiation source (λ = 1.5406 Å). Optical microscopy (Smartzoom 5, Zeiss) was used for in situ observation of the Zn deposition behavior, while three‐dimensional images of the Zn electrodes were acquired using scanning confocal laser microscopy (Keyence VK‐2000). X‐ray photoelectron spectroscopy (XPS) measurements were conducted with a Thermo Scientific Kα instrument, with the C 1s peak of adventitious carbon calibrated to 284.6 eV. Electrochemical analyses were performed using a potentiostat/galvanostat (VMP3, Bio‐Logic).</p></sec><sec id="advs77565-sec-0170"><label>4.5</label><title>Electrochemical Measurements</title><p>Electrochemical characterization of the Zn||Ti asymmetric cells, Zn||Zn symmetric cells, and Zn||I<sub>2</sub> full cells were conducted using CR2032‐type coin cells and 3.0 × 4.0 cm<sup>2</sup> sized pouch‐type cells. The symmetric cells consisted of a 14 mm‐diameter Zn metal electrode (thickness of 50 µm), a Whatman GF/C 1822‐150 glass fiber separator, and 100 µL of 2 M ZnSO<sub>4</sub> blank electrolyte with TPEN. The asymmetric cells were assembled with a 14 mm‐diameter Ti metal electrode (thickness of 10 µm), a 14 mm‐diameter Zn metal electrode (thickness of 50 µm), a Whatman GF/C 1822‐150 glass fiber separator, and 100 µL of 2 M ZnSO<sub>4</sub> blank electrolyte and electrolyte with TPEN. In the coin‐type full‐cell batteries, the positive electrode utilized 12 mm‐diameter I<sub>2</sub>@AC dry electrode with I<sub>2</sub>‐loading mass of 29.58 mg cm<sup>−2</sup>, while the negative electrode employed bare Zn (thickness of 30 µm), both with a 2 M ZnSO<sub>4</sub> blank electrolyte and electrolyte with TPEN with E/C ratio of 12 g Ah<sup>−1</sup> and N/P ratio of 3.0‐3.4. The galvanostatic charge/discharge performance, rate performance, voltage profiles, and Coulombic efficiency were evaluated using a galvanostatic cycler (TOYO, Japan) under ambient environment and elevated temperature (45°C).</p><p>For the single‐layer Zn||I<sub>2</sub> pouch‐type cell, the assembly sequence from bottom to top is as follows: 20 µm Zn anode, separator, I<sub>2</sub> cathode. The free‐standing dry electrode was pressed onto a Ti foil (30 × 40 mm), with a loading of I<sub>2</sub> were approximately 29.58 mg cm<sup>−2</sup>. Glass fiber separator (Whatman, GF/C 1822‐150) and a 2 M ZnSO<sub>4</sub> aqueous solution with and without TPEN served as the separator and electrolyte. The electrochemical performance of Zn||I<sub>2</sub> pouch cells were conducted at a potential range of 0.6–1.6 V under the ambient environment with E/C ratio of 6 g Ah<sup>−1</sup> and N/P ratio of 1.93.</p><p>Electrochemical impedance spectroscopy (EIS), linear sweep voltammetry (LSV), chronopotentiometry (CP), chronoamperometry (CA), and cyclic voltammetry (CV) tests were conducted using a Bio‐Logic VMP‐3 electrochemical station. EIS was performed across a frequency range from 1 MHz to 100 mHz with an amplitude of 5 mV using a Bio‐Logic VMP‐3 electrochemical station. CP, CA, and LSV plots were generated employing a three‐electrode system consisting of Zn metal foil as the counter electrode, a saturated calomel electrode as the reference electrode, and Zn metal foil and Ti metal foil as the working electrodes.</p></sec><sec id="advs77565-sec-0180"><label>4.6</label><title>In Situ pH Measurements</title><p>In‐situ pH tests were conducted in a custom‐made Zn||Zn symmetric cell. The setup included a Zn metal electrode measuring 18 mm in diameter (with a thickness of ∼0.05 mm) and 3 mL of 2 M ZnSO<sub>4</sub> electrolyte, with and without TPEN. The pH meter (Orion Star A211) and the microelectrodes were procured from Thermo Fisher Scientific.</p></sec><sec id="advs77565-sec-0190"><label>4.7</label><title>Theoretical Calculation</title><p>Density functional theory (DFT) calculations on isolated molecular species were performed with ORCA 6.0.1. H<sub>2</sub>O, TPEN, TCC, and [Zn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> were subjected to geometry optimization at the PBE‐D3(BJ)/def2‐SVP level using the RIJCOSX approximation, the def2/J auxiliary basis set, DEFGRID3, the TightSCF criterion, and CPCM(water). Kohn‐Sham frontier molecular orbital energies were obtained from PBE‐D3(BJ)/ma‐def2‐TZVP single‐point calculations using RIJCOSX, AutoAux‐generated auxiliary basis sets, DEFGRID3, the VeryTightSCF criterion, and CPCM(water). H<sub>2</sub>O and TPEN were treated as neutral closed‐shell singlets, whereas TCC and [Zn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> were treated as doubly charged closed‐shell singlets.</p><p>Periodic DFT calculations were performed with the Quickstep module of CP2K 2026.1 using the Gaussian and plane waves (GPW) method. The PBE exchange‐correlation functional was combined with the zero‐damping D3 dispersion correction, GTH‐PBE pseudopotentials, and DZVP‐MOLOPT basis sets. Plane‐wave and relative cutoffs of 500 and 60 Ry, respectively, were applied. Zn(002), Zn(100), and Zn(101) slabs, each containing 144 Zn atoms in four atomic layers, were considered. The bottom two Zn layers were fixed, whereas the upper two Zn layers and the adsorbate were allowed to relax. Periodic boundary conditions and the periodic Poisson solver were used, and a surface dipole correction was applied along the z direction. The self‐consistent field (SCF) procedure employed standard diagonalization together with Fermi‐Dirac smearing at 300 K and Broyden density mixing. The SCF convergence threshold was set to 1.0 × 10<sup>−6</sup> Hartree. Geometry optimizations were performed with the L‐BFGS algorithm using target maximum and root mean square force thresholds of 4.5 × 10<sup>−4</sup> and 3.0 × 10<sup>−4</sup> Hartree/Bohr, respectively. The periodic calculations represent idealized vacuum Zn interfaces.</p><p>For H<sub>2</sub>O, the adsorption energy was defined as:
+<disp-formula id="advs77565-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.33em"/><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>O</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>O</mml:mi><mml:mspace width="0.33em"/></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:mspace width="0.33em"/><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.33em"/><mml:mo linebreak="goodbreak">−</mml:mo><mml:mspace width="0.33em"/><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>O</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where all terms were evaluated using CP2K at the same electronic‐structure level. For the dicationic adsorbates A<sup>2+</sup> (TCC or [Zn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>), two Cl<sup>−</sup> counterions were included to construct an overall charge‐neutral periodic cell. The adsorbate was placed above the Zn slab, whereas the two Cl<sup>−</sup> counterions were placed below the slab and fixed during geometry optimization. The corresponding counterion‐neutralized adsorption energy was defined as:<disp-formula id="advs77565-disp-0002">
+<label>(2)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>E</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>C</mml:mi><mml:msup><mml:mi>l</mml:mi><mml:mo>−</mml:mo></mml:msup></mml:mrow></mml:msubsup><mml:mo linebreak="badbreak">=</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:msup><mml:mi>A</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi>C</mml:mi><mml:msup><mml:mi>l</mml:mi><mml:mo>−</mml:mo></mml:msup></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:mspace width="0.33em"/><mml:msubsup><mml:mi>E</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mi>p</mml:mi></mml:mrow></mml:msubsup><mml:mo linebreak="goodbreak">−</mml:mo><mml:mspace width="0.33em"/><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:msup><mml:mi>A</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi>C</mml:mi><mml:msup><mml:mi>l</mml:mi><mml:mo>−</mml:mo></mml:msup></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline"><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">E</mml:mi><mml:mi>slab</mml:mi><mml:mi>sp</mml:mi></mml:msubsup></mml:mrow></mml:math> represents the single‐point energy of the Zn slab evaluated in the corresponding simulation cell, and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline"><mml:mrow><mml:msub><mml:mi mathvariant="normal">E</mml:mi><mml:mrow><mml:msup><mml:mi mathvariant="normal">A</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi mathvariant="normal">C</mml:mi><mml:msup><mml:mi mathvariant="normal">l</mml:mi><mml:mo>−</mml:mo></mml:msup></mml:mrow></mml:msub></mml:mrow></mml:math> represents the adsorbate‐counterion reference energy evaluated without the Zn slab. The reference calculation employed nonperiodic boundary conditions and the Martyna‐Tuckerman Poisson solver. By placing the dication and Cl<sup>−</sup> counterions on opposite sides of the slab, we isolated the dication‐surface interaction while maintaining the neutrality of each simulation. Consequently, the calculated counterion‐neutralized adsorption energy was considered to reflect the dication‐surface interaction, with residual counterion contributions assumed to be negligible.</p><p>Polyiodide binding calculations were performed using ORCA 6.0.1 for H<sub>2</sub>O, TPEN, TCC, and [Zn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> with I<sub>3</sub>
+<sup>−</sup> and I<sub>5</sub>
+<sup>−</sup>. The isolated hosts, polyiodides, and host‐polyiodide complexes were optimized at the B3LYP‐D3BJ/def2‐SVP level using the RIJCOSX approximation, the def2/J auxiliary basis set, the TightSCF criterion, and CPCM(water). Final electronic energies were obtained from B3LYP‐D3BJ/ma‐def2‐TZVP single‐point calculations using the optimized geometries and the same solvent model. All systems were treated as closed‐shell singlets with their corresponding total charges. The polyiodide binding energy was defined as:
+<disp-formula id="advs77565-disp-0003">
+<label>(3)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>b</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.33em"/><mml:mo linebreak="goodbreak">−</mml:mo><mml:mspace width="0.33em"/><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>h</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.33em"/><mml:mo linebreak="goodbreak">−</mml:mo><mml:mspace width="0.33em"/><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>y</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec></sec><sec id="advs77565-sec-0200"><title>Author Contributions</title><p>
+<bold>Dong Wook Kim</bold>: conceptualization, methodology, data curation, investigation, validation, formal analysis, visualization, writing – original draft, project administration. <bold>Seung Hwa Park</bold>: methodology, validation, visualization, software, conceptualization, writing – review and editing, writing – original draft. <bold>Tae Rim Kim</bold>: validation, data curation, visualization, conceptualization. <bold>Gun Jang</bold>: visualization, validation, formal analysis. <bold>Jun Su Kim</bold>: validation, formal analysis, visualization. <bold>Myung‐Jun Kwak</bold>: visualization, formal analysis, validation. <bold>Seokhwan Jin</bold>: software. <bold>Seongbin Ga</bold>: software, validation, writing – review and editing. <bold>Chihyun Hwang</bold>: writing – review and editing, validation, investigation, formal analysis, data curation, supervision, project administration. <bold>Ho Seok Park</bold>: writing – review and editing, project administration, supervision, investigation, formal analysis. <bold>Youngkwon Kim</bold>: funding acquisition, writing – review and editing, project administration, resources, supervision, investigation, formal analysis.</p></sec><sec id="advs77565-sec-0220"><title>Funding</title><p>National Research Foundation of Korea (NRF) grant funded by the Ministry of Science and ICT (MSIT, Korea) (RS‐2024‐00407015, RS‐2024‐00453815 and RS‐2021‐NR061788).</p></sec><sec sec-type="COI-statement" id="advs77565-sec-0230"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="advs77565-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="advs77565-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: advs77565‐sup‐0001‐SuppMat.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ADVS-9999-e77565-s001.docx" position="float" orientation="portrait"><?suppdata-name ADVS-9999-e77565-s001.docx?><?suppdata-size 2109258?><?suppdata-md5 0871e6cbdf648c288e60cc775f9ddddf?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:035f/13554500/0871e6cbdf64/ADVS-9999-e77565-s001.docx?></media></supplementary-material></sec></body><back><ack id="advs77565-sec-0210"><title>Acknowledgements</title><p>This work was supported by National Research Foundation of Korea (NRF) grant funded by the Ministry of Science and ICT (MSIT, Korea) (RS‐2024‐00407015, RS‐2024‐00453815 and RS‐2021‐NR061788).</p></ack><sec sec-type="data-availability" id="advs77565-sec-0250"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list id="advs77565-bibl-0001"><title>References</title><ref id="advs77565-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="advs77565-cite-0001">
+<string-name name-style="western">
+<given-names>C. C.</given-names>
+<surname>Kao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. Z.</given-names>
+<surname>Qiao</surname>
+</string-name>, “<article-title>Achieving High Energy Density in Aqueous Zinc‐Ion Batteries</article-title>,” <source>Advanced Energy Materials</source>
+<volume>15</volume> (<year>2025</year>): <elocation-id>2501201</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="advs77565-cite-0002">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Aniskevich</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S.‐T.</given-names>
+<surname>Myung</surname>
+</string-name>, “<article-title>Gains and Losses in Zinc‐Ion Batteries by Proton‐ and Water‐Assisted Reactions</article-title>,” <source>Chemical Society Reviews</source>
+<volume>54</volume> (<year>2025</year>): <fpage>4531</fpage>–<lpage>4566</lpage>.<pub-id pub-id-type="pmid">40162993</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/d4cs00810c</pub-id></mixed-citation></ref><ref id="advs77565-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="advs77565-cite-0003">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>Tailoring Desolvation Strategies for Aqueous Zinc‐Ion Batteries</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>17</volume> (<year>2024</year>): <fpage>4819</fpage>–<lpage>4846</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="advs77565-cite-0004">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hou</surname>
+</string-name>, et al., “<article-title>Recent Advances in Zinc‐Ion Dehydration Strategies for Optimized Zn–Metal Batteries</article-title>,” <source>Chemical Society Reviews</source>
+<volume>53</volume> (<year>2024</year>): <fpage>7742</fpage>–<lpage>7783</lpage>.<pub-id pub-id-type="pmid">38904425</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/d4cs00343h</pub-id></mixed-citation></ref><ref id="advs77565-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="advs77565-cite-0005">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Peng</surname>
+</string-name>, et al., “<article-title>Electrostatic Shielding Engineering for Stable Zn Metal Anodes</article-title>,” <source>Advanced Energy Materials</source>
+<volume>15</volume> (<year>2025</year>): <elocation-id>2403958</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="advs77565-cite-0006">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>You</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lu</surname>
+</string-name>, “<article-title>Electrolyte Formulas of Aqueous Zinc Ion Battery: A Physical Difference with Chemical Consequences</article-title>,” <source>Materials Today</source>
+<volume>66</volume> (<year>2023</year>): <fpage>339</fpage>–<lpage>347</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="advs77565-cite-0007">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>, “<article-title>Coulombic Efficiency for Practical Zinc Metal Batteries: Critical Analysis and Perspectives</article-title>,” <source>Small Methods</source>
+<volume>8</volume> (<year>2024</year>): <elocation-id>2300660</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/smtd.202300660</pub-id><pub-id pub-id-type="pmid">37736008</pub-id></mixed-citation></ref><ref id="advs77565-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="advs77565-cite-0008">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xia</surname>
+</string-name>, “<article-title>Constructing Solid Electrolyte Interphase for Aqueous Zinc Batteries</article-title>,” <source>Angewandte Chemie</source>
+<volume>135</volume> (<year>2023</year>): <elocation-id>202309957</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/anie.202309957</pub-id><pub-id pub-id-type="pmid">37596841</pub-id></mixed-citation></ref><ref id="advs77565-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="advs77565-cite-0009">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ning</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hu</surname>
+</string-name>, “<article-title>Aqueous Zinc‐Iodine Batteries: From Electrochemistry to Energy Storage Mechanism</article-title>,” <source>Advanced Energy Materials</source>
+<volume>13</volume> (<year>2023</year>): <elocation-id>2302187</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="advs77565-cite-0010">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lin</surname>
+</string-name> and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, “<article-title>Recent Advances of Aqueous Rechargeable Zinc‐Iodine Batteries: Challenges, Solutions, and Prospects</article-title>,” <source>Advanced Materials</source>
+<volume>34</volume> (<year>2022</year>): <elocation-id>2108856</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/adma.202108856</pub-id><pub-id pub-id-type="pmid">35119150</pub-id></mixed-citation></ref><ref id="advs77565-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="advs77565-cite-0011">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhou</surname>
+</string-name>, “<article-title>Progress and Prospect of the Zinc–Iodine Battery</article-title>,” <source>Current Opinion in Electrochemistry</source>
+<volume>30</volume> (<year>2021</year>): <elocation-id>100761</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="advs77565-cite-0012">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zong</surname>
+</string-name>, et al., “<article-title>Metal–Iodine Batteries: Achievements, Challenges, and Future</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>16</volume> (<year>2023</year>): <fpage>4872</fpage>–<lpage>4925</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="advs77565-cite-0013">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yin</surname>
+</string-name>, et al., “<article-title>Recent Advances in Stabilization Strategies for Zinc Anodes in Aqueous Zinc‐Ion Batteries</article-title>,” <source>Frontiers in Energy</source>
+<volume>19</volume> (<year>2025</year>): <fpage>862</fpage>–<lpage>883</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="advs77565-cite-0014">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Guo</surname>
+</string-name> and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>He</surname>
+</string-name>, “<article-title>Opportunities and Challenges of Zinc Anodes in Rechargeable Aqueous Batteries</article-title>,” <source>Journal of Materials Chemistry A</source>
+<volume>11</volume> (<year>2023</year>): <fpage>11987</fpage>–<lpage>12001</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="advs77565-cite-0015">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ma</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, “<article-title>Physicochemical Confinement Effect Enables High‐Performing Zinc–Iodine Batteries</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>144</volume> (<year>2022</year>): <fpage>21683</fpage>–<lpage>21691</lpage>.<pub-id pub-id-type="pmid">36394983</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.2c09445</pub-id></mixed-citation></ref><ref id="advs77565-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="advs77565-cite-0016">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zhao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chao</surname>
+</string-name>, “<article-title>Quantitative Electrolyte Engineering for Zn‐Based Aqueous Batteries</article-title>,” <source>Joule</source>
+<volume>9</volume> (<year>2025</year>): <elocation-id>101917</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="advs77565-cite-0017">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Zhang</surname>
+</string-name> and <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Fan</surname>
+</string-name>, “<article-title>Overlooked Calendar Issues of Aqueous Zinc Metal Batteries</article-title>,” <source>Joule</source>
+<volume>9</volume> (<year>2025</year>): <elocation-id>101802</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="advs77565-cite-0018">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Rao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Guo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhou</surname>
+</string-name>, “<article-title>Advanced Characterization Techniques on Mechanism Understanding and Effect Evaluation in Zinc Anode Protection</article-title>,” <source>Advanced Energy Materials</source>
+<volume>14</volume> (<year>2024</year>): <elocation-id>2303928</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="advs77565-cite-0019">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Zinc Ion Batteries: Bridging the Gap From Academia to Industry for Grid‐Scale Energy Storage</article-title>,” <source>Angewandte Chemie</source>
+<volume>136</volume> (<year>2024</year>): <elocation-id>202400045</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/anie.202400045</pub-id><pub-id pub-id-type="pmid">38385624</pub-id></mixed-citation></ref><ref id="advs77565-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="advs77565-cite-0020">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Li</surname>
+</string-name>, et al., “<article-title>Unlocking Dynamic Solvation Chemistry and Hydrogen Evolution Mechanism in Aqueous Zinc Batteries</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>146</volume> (<year>2024</year>): <fpage>17103</fpage>–<lpage>17113</lpage>.<pub-id pub-id-type="pmid">38869216</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.4c02558</pub-id></mixed-citation></ref><ref id="advs77565-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="advs77565-cite-0021">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>Ten Concerns of Zn Metal Anode for Rechargeable Aqueous Zinc Batteries</article-title>,” <source>Joule</source>
+<volume>7</volume> (<year>2023</year>): <fpage>1145</fpage>–<lpage>1175</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="advs77565-cite-0022">
+<string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Xue</surname>
+</string-name>, et al., “<article-title>Competitive Tradeoff Between Zn Deposition and Hydrogen Evolution Reaction on Zn‐Metal Anode</article-title>,” <source>ACS Energy Letters</source>
+<volume>9</volume> (<year>2024</year>): <fpage>4102</fpage>–<lpage>4110</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="advs77565-cite-0023">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Du</surname>
+</string-name>, et al., “<article-title>Crowding Effect‐Induced Zinc‐Enriched/Water‐Lean Polymer Interfacial Layer toward Practical Zn‐Iodine Batteries</article-title>,” <source>ACS nano</source>
+<volume>17</volume> (<year>2023</year>): <fpage>23207</fpage>–<lpage>23219</lpage>.<pub-id pub-id-type="pmid">37963092</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acsnano.3c10081</pub-id></mixed-citation></ref><ref id="advs77565-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="advs77565-cite-0024">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, et al., “<article-title>Mechanically Strong and Tough Ionic Liquid Gel Electrolyte for Four‐Electron Zinc–Iodine Batteries</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>147</volume> (<year>2025</year>): <fpage>46632</fpage>–<lpage>46641</lpage>.<pub-id pub-id-type="pmid">41329854</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.5c18431</pub-id></mixed-citation></ref><ref id="advs77565-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="advs77565-cite-0025">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zhao</surname>
+</string-name>, et al., “<article-title>Multifunctional Janus Separator Engineering for Modulating Zinc Oriented Aspectant Growth and Iodine Conversion Kinetics Toward Advanced Zinc‐Iodine Batteries</article-title>,” <source>Advanced Functional Materials</source>
+<volume>35</volume> (<year>2025</year>): <elocation-id>2423115</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="advs77565-cite-0026">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>An Integrated Tandem‐Structured Separator Enables Dual‐Enhanced Stable Interfaces for Long‐Cycle‐Life and High‐Areal‐Capacity Aqueous Zinc–Iodine Batteries</article-title>,” <source>Angewandte Chemie International Edition</source>
+<volume>64</volume> (<year>2025</year>): <elocation-id>202506849</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/anie.202506849</pub-id><pub-id pub-id-type="pmid">40525316</pub-id></mixed-citation></ref><ref id="advs77565-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="advs77565-cite-0027">
+<string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Yuan</surname>
+</string-name>, et al., “<article-title>A Gradient Functionalized Separator for Unlocking Latent Cathode Host Sites and Enhancing Zinc Anode DOD in Ultrahigh‐Areal‐Capacity Static Zn‐I<sub>2</sub> Batteries</article-title>,” <source>Advanced Materials</source>
+<volume>38</volume> (<year>2026</year>): <elocation-id>23132</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/adma.202523132</pub-id><pub-id pub-id-type="pmid">41560706</pub-id></mixed-citation></ref><ref id="advs77565-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="advs77565-cite-0028">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lei</surname>
+</string-name>, et al., “<article-title>Stabilized Four‐electron Aqueous Zinc–iodine Batteries by Quaternary Ammonium Complexation</article-title>,” <source>Chemical Science</source>
+<volume>15</volume> (<year>2024</year>): <fpage>3357</fpage>–<lpage>3364</lpage>.<pub-id pub-id-type="pmid">38425523</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/d3sc06155h</pub-id><pub-id pub-id-type="pmcid">PMC10901522</pub-id></mixed-citation></ref><ref id="advs77565-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="advs77565-cite-0029">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Liao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liao</surname>
+</string-name>, et al., “<article-title>Cation Adsorption Engineering Enables Dual Stabilizations for Fast‐Charging Zn─I<sub>2</sub> Batteries</article-title>,” <source>Advanced Energy Materials</source>
+<volume>14</volume> (<year>2024</year>): <elocation-id>2402306</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="advs77565-cite-0030">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sajid</surname>
+</string-name>, et al., “<article-title>Bidentate Coordination Structure Facilitates High‐Voltage and High‐Utilization Aqueous Zn−I<sub>2</sub> Batteries</article-title>,” <source>Angewandte Chemie</source>
+<volume>136</volume> (<year>2024</year>): <elocation-id>202404784</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/anie.202404784</pub-id><pub-id pub-id-type="pmid">38868978</pub-id></mixed-citation></ref><ref id="advs77565-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="advs77565-cite-0031">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Chen</surname>
+</string-name>, et al., “<article-title>An amino acid‐based functional additive enables fast polyiodide conversion kinetics for durable Zn–I<sub>2</sub> batteries</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>19</volume> (<year>2026</year>): <fpage>1170</fpage>–<lpage>1179</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="advs77565-cite-0032">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Qiao</surname>
+</string-name>, “<article-title>A Water‐Responsive Molecule Realizes Stable Ah‐Scale Zn–I<sub>2</sub> Pouch Cells with High Zn Utilization</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>19</volume> (<year>2026</year>): <fpage>1551</fpage>–<lpage>1564</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="advs77565-cite-0033">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zan</surname>
+</string-name>, et al., “<article-title>Surfactant‐Mediated Mesoscopic Confinement and Selective Interfacial Shielding for Highly Stable Zinc Anode</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>19</volume> (<year>2026</year>): <fpage>1385</fpage>–<lpage>1392</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="advs77565-cite-0034">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>He</surname>
+</string-name>, et al., “<article-title>Tailoring Solvation Sheath and Desolvation Processes of Weakly Solvated Zn<sup>2+</sup> Through Heterointerfaces Built‐in Electric Field Effects for Ultra‐stable Aqueous Zinc Batteries</article-title>,” <source>Advanced Powder Materials</source>
+<volume>4</volume> (<year>2025</year>): <elocation-id>100282</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="advs77565-cite-0035">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Yin</surname>
+</string-name>, et al., “<article-title>Key Issues and Strategies in Aqueous Static Zinc–Halogen Battery Design</article-title>,” <source>Advanced Materials</source>
+<volume>38</volume> (<year>2025</year>): <elocation-id>15759</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/adma.202515759</pub-id><pub-id pub-id-type="pmid">41211834</pub-id></mixed-citation></ref><ref id="advs77565-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="advs77565-cite-0036">
+<string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Radford</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Lippard</surname>
+</string-name>, “<article-title>Chelators for Investigating Zinc Metalloneurochemistry</article-title>,” <source>Current Opinion in Chemical Biology</source>
+<volume>17</volume> (<year>2013</year>): <fpage>129</fpage>–<lpage>136</lpage>.<pub-id pub-id-type="pmid">23478014</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cbpa.2013.01.009</pub-id><pub-id pub-id-type="pmcid">PMC3634875</pub-id></mixed-citation></ref><ref id="advs77565-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="advs77565-cite-0037">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Webster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Bentley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Wojcikiewicz</surname>
+</string-name>, “<article-title>N,N,N′,N′‐Tetrakis(2‐pyridylmethyl)Ethylenediamine Inhibits Ligand Binding to Certain G Protein‐coupled Receptors</article-title>,” <source>European Journal of Pharmacology</source>
+<volume>474</volume> (<year>2003</year>): <fpage>1</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">12909189</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0014-2999(03)02005-3</pub-id></mixed-citation></ref><ref id="advs77565-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="advs77565-cite-0038">
+<string-name name-style="western">
+<given-names>J. W.</given-names>
+<surname>Meeusen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Nowakowski</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Petering</surname>
+</string-name>, “<article-title>Reaction of Metal‐Binding Ligands with the Zinc Proteome: Zinc Sensors and N , N , N ′, N ′‐Tetrakis(2‐Pyridylmethyl)Ethylenediamine</article-title>,” <source>Inorganic Chemistry</source>
+<volume>51</volume> (<year>2012</year>): <fpage>3625</fpage>–<lpage>3632</lpage>.<pub-id pub-id-type="pmid">22380934</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ic2025236</pub-id><pub-id pub-id-type="pmcid">PMC3564517</pub-id></mixed-citation></ref><ref id="advs77565-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="advs77565-cite-0039">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>Chelating Drug‐Induced Labile Zn<sup>2+</sup> with Nanoparticle‐Encapsulated TPEN at Low Dose Enhances Lung Cancer Chemotherapy through Inhibiting ABCB1</article-title>,” <source>Iscience</source>
+<volume>27</volume> (<year>2024</year>): <elocation-id>111072</elocation-id>.<pub-id pub-id-type="pmid">39507258</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.isci.2024.111072</pub-id><pub-id pub-id-type="pmcid">PMC11539588</pub-id></mixed-citation></ref><ref id="advs77565-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="advs77565-cite-0040">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Wang</surname>
+</string-name>, “<article-title>Preparation, Characterization and Microencapsulation of Walnut ( Juglans regia L.) Peptides‐Zinc Chelate</article-title>,” <source>Journal of Food Science</source>
+<volume>89</volume> (<year>2024</year>): <fpage>5618</fpage>–<lpage>5632</lpage>.<pub-id pub-id-type="pmid">39126687</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1750-3841.17160</pub-id></mixed-citation></ref><ref id="advs77565-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="advs77565-cite-0041">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hagimori</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Hara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mizuyama</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Fujino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Saji</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Mukai</surname>
+</string-name>, “<article-title>High‐Affinity Ratiometric Fluorescence Probe Based on 6‐Amino‐2,2′‐Bipyridine Scaffold for Endogenous Zn<sup>2+</sup> and Its Application to Living Cells</article-title>,” <source>Molecules</source>
+<volume>27</volume> (<year>2022</year>): <fpage>1287</fpage>.<pub-id pub-id-type="pmid">35209077</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/molecules27041287</pub-id><pub-id pub-id-type="pmcid">PMC8876810</pub-id></mixed-citation></ref><ref id="advs77565-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="advs77565-cite-0042">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ping</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Qu</surname>
+</string-name>, et al., “<article-title>Constructing Autoregulative Electric Double Layer through Dielectric Effect toward Fast Charging Zinc Metal Anode</article-title>,” <source>Advanced Energy Materials</source>
+<volume>15</volume> (<year>2025</year>): <elocation-id>2405804</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="advs77565-cite-0043">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhao</surname>
+</string-name>, et al., “<article-title>Constructing Compact Hybrid Buffer Interface via Ion Agglomeration Zone Electrolyte for Stable Zn Metal Battery</article-title>,” <source>Advanced Energy Materials</source>
+<volume>16</volume> (<year>2026</year>): <elocation-id>2405738</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="advs77565-cite-0044">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Shao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐L.</given-names>
+<surname>Taberna</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Simon</surname>
+</string-name>, “<article-title>Understanding Ion Charging Dynamics in Nanoporous Carbons for Electrochemical Double Layer Capacitor Applications</article-title>,” <source>ACS Energy Letters</source>
+<volume>8</volume> (<year>2023</year>): <fpage>2738</fpage>–<lpage>2745</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="advs77565-cite-0045">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Philips</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Roume</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Rabaey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Prévoteau</surname>
+</string-name>, “<article-title>Rapid and Quantitative Assessment of Redox Conduction across Electroactive Biofilms by Using Double Potential Step Chronoamperometry</article-title>,” <source>ChemElectroChem</source>
+<volume>4</volume> (<year>2017</year>): <fpage>1026</fpage>–<lpage>1036</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="advs77565-cite-0046">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Invernizzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rovetta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Licchelli</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Malagodi</surname>
+</string-name>, “<article-title>Mid and Near‐Infrared Reflection Spectral Database of Natural Organic Materials in the Cultural Heritage Field</article-title>,” <source>International Journal of Analytical Chemistry</source>
+<volume>2018</volume> (<year>2018</year>): <elocation-id>7823248</elocation-id>.<pub-id pub-id-type="pmid">30364094</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2018/7823248</pub-id><pub-id pub-id-type="pmcid">PMC6188587</pub-id></mixed-citation></ref><ref id="advs77565-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="advs77565-cite-0047">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kassem</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Abbas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Coutinho</surname>
+</string-name>, et al., “<article-title>Applications of Fourier Transform‐Infrared Spectroscopy in Microbial Cell Biology and Environmental Microbiology: Advances, Challenges, and Future Perspectives</article-title>,” <source>Frontiers in Microbiology</source>
+<volume>14</volume> (<year>2023</year>): <elocation-id>1304081</elocation-id>.<pub-id pub-id-type="pmid">38075889</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fmicb.2023.1304081</pub-id><pub-id pub-id-type="pmcid">PMC10703385</pub-id></mixed-citation></ref><ref id="advs77565-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="advs77565-cite-0048">
+<string-name name-style="western">
+<given-names>K. I.</given-names>
+<surname>Hadjiivanov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Panayotov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. Y.</given-names>
+<surname>Mihaylov</surname>
+</string-name>, et al., “<article-title>Power of Infrared and Raman Spectroscopies to Characterize Metal‐Organic Frameworks and Investigate Their Interaction with Guest Molecules</article-title>,” <source>Chemical Reviews</source>
+<volume>121</volume> (<year>2020</year>): <fpage>1286</fpage>–<lpage>1424</lpage>.<pub-id pub-id-type="pmid">33315388</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.chemrev.0c00487</pub-id></mixed-citation></ref><ref id="advs77565-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="advs77565-cite-0049">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schröder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Haugg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Baumann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Schmidt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Smyczek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Schauermann</surname>
+</string-name>, “<article-title>Competing Reaction Pathways in Heterogeneously Catalyzed Hydrogenation of Allyl Cyanide: The Chemical Nature of Surface Species</article-title>,” <source>Chemistry—A European Journal</source>
+<volume>27</volume> (<year>2021</year>): <fpage>17240</fpage>–<lpage>17254</lpage>.<pub-id pub-id-type="pmid">34608688</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/chem.202103238</pub-id><pub-id pub-id-type="pmcid">PMC9297874</pub-id></mixed-citation></ref><ref id="advs77565-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="advs77565-cite-0050">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Shao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Cao</surname>
+</string-name>, et al., “<article-title>pH Modulation and Molecular Layer Construction for Stable Zinc Batteries</article-title>,” <source>Journal of Energy Chemistry</source>
+<volume>102</volume> (<year>2025</year>): <fpage>179</fpage>–<lpage>188</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="advs77565-cite-0051">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wei</surname>
+</string-name>, et al., “<article-title>A Parts‐per‐million Scale Electrolyte Additive for Durable Aqueous Zinc Batteries</article-title>,” <source>Nature Communications</source>
+<volume>16</volume> (<year>2025</year>): <fpage>1800</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-025-56607-1</pub-id><pub-id pub-id-type="pmcid">PMC11842810</pub-id><pub-id pub-id-type="pmid">39979314</pub-id></mixed-citation></ref><ref id="advs77565-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="advs77565-cite-0052">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Jiang</surname>
+</string-name>, et al., “<article-title>Stereoisomeric Engineering Mediated Zinc Metal Electrodeposition: Critical Balance of Solvation and Adsorption Capability</article-title>,” <source>Advanced Powder Materials</source>
+<volume>4</volume> (<year>2025</year>): <elocation-id>100276</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="advs77565-cite-0053">
+<string-name name-style="western">
+<given-names>Y.‐P.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐R.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.‐S.</given-names>
+<surname>Liang</surname>
+</string-name>, et al., “<article-title>Synergistic Defect Engineering and Gradient Pore Structure Induce Tellurium Nanoclusters for High‐Performance Aqueous Zinc‐Tellurium Batteries</article-title>,” <source>Rare Metals</source>
+<volume>44</volume> (<year>2025</year>): <fpage>8488</fpage>–<lpage>8499</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="advs77565-cite-0054">
+<string-name name-style="western">
+<given-names>S. V.</given-names>
+<surname>Kireev</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Shnyrev</surname>
+</string-name>, “<article-title>Study of Molecular Iodine, Iodate Ions, Iodide Ions, and Triiodide Ions Solutions Absorption in the UV and Visible Light Spectral Bands</article-title>,” <source>Laser Physics</source>
+<volume>25</volume> (<year>2015</year>): <elocation-id>075602</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0055"><label>55</label><mixed-citation publication-type="book" id="advs77565-cite-0055">
+<string-name name-style="western">
+<given-names>B. N.</given-names>
+<surname>Gartman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Branch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Pratt</surname>
+</string-name>, et al., <source>Impact of Radiolysis on Iodine Speciation in a Variety of Matrices</source> (<publisher-name>Pacific Northwest National Laboratory (PNNL)</publisher-name>, <year>2023</year>).</mixed-citation></ref><ref id="advs77565-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="advs77565-cite-0056">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Perchard</surname>
+</string-name> and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Novak</surname>
+</string-name>, “<article-title>The Low‐frequency Infrared and Raman Spectra of Ammonia and Imidazole Complexes of Zinc(II) Halides</article-title>,” <source>Spectrochimica Acta Part A: Molecular Spectroscopy</source>
+<volume>26</volume> (<year>1970</year>): <fpage>871</fpage>–<lpage>881</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="advs77565-cite-0057">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Takamuku</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Yamaguchi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wakita</surname>
+</string-name>, “<article-title>X‐Ray Diffraction and Raman Spectroscopic Studies on Supercooled and Glassy Aqueous Zinc(II) Iodide Solutions</article-title>,” <source>The Journal of Physical Chemistry</source>
+<volume>95</volume> (<year>1991</year>): <fpage>10098</fpage>–<lpage>10103</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="advs77565-cite-0058">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bilmes</surname>
+</string-name>, “<article-title>SERS of Pyridine Adsorbed on Rhodium Electrodes</article-title>,” <source>Chemical Physics Letters</source>
+<volume>171</volume> (<year>1990</year>): <fpage>141</fpage>–<lpage>146</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="advs77565-cite-0059">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ramalingam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Periandy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mohan</surname>
+</string-name>, “<article-title>Vibrational Spectroscopy (FTIR and FTRaman) Investigation Using Ab Initio (HF) and DFT (B3LYP and B3PW91) Analysis on the Structure of 2‐Amino Pyridine</article-title>,” <source>Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy</source>
+<volume>77</volume> (<year>2010</year>): <fpage>73</fpage>–<lpage>81</lpage>.<pub-id pub-id-type="pmid">20627807</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.saa.2010.04.027</pub-id></mixed-citation></ref><ref id="advs77565-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="advs77565-cite-0060">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Sundaraganesan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Meganathan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Anand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Joshua</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lapouge</surname>
+</string-name>, “<article-title>Vibrational Spectra and Assignments of 2‐Amino‐5‐Iodopyridine by Ab Initio Hartree–Fock and Density Functional Methods</article-title>,” <source>Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy</source>
+<volume>67</volume> (<year>2007</year>): <fpage>830</fpage>–<lpage>836</lpage>.<pub-id pub-id-type="pmid">17018261</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.saa.2006.08.040</pub-id></mixed-citation></ref><ref id="advs77565-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="advs77565-cite-0061">
+<string-name name-style="western">
+<given-names>B. K. S.</given-names>
+<surname>Prasanna</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hegde</surname>
+</string-name>, “<article-title>Formation and Structure of Iodine: Water (H<sub>2</sub>O‐I<sub>2</sub>) Charge‐transfer Complex</article-title>,” <source>Journal of Chemical Sciences</source>
+<volume>133</volume> (<year>2021</year>): <fpage>51</fpage>.</mixed-citation></ref><ref id="advs77565-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="advs77565-cite-0062">
+<string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>Darwish</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. W.</given-names>
+<surname>Darwish</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Ali</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Almutairi</surname>
+</string-name>, “<article-title>Spectrophotometric Investigations of Charge Transfer Complexes of Tyrosine Kinase Inhibitors With Iodine as a σ‐Electron Acceptor: Application to Development of Universal High‐Throughput Microwell Assay for Their Determination in Pharmaceutical Formulations</article-title>,” <source>Medicina</source>
+<volume>59</volume> (<year>2023</year>): <fpage>775</fpage>.<pub-id pub-id-type="pmid">37109733</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/medicina59040775</pub-id><pub-id pub-id-type="pmcid">PMC10143458</pub-id></mixed-citation></ref><ref id="advs77565-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="advs77565-cite-0063">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Foley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Condes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Walters</surname>
+</string-name>, “<article-title>Influence of Metal‐coordinating Comonomers on the Coordination Structure and Binding in Magnetic Poly(ionic liquid)s</article-title>,” <source>Molecular Systems Design &amp; Engineering</source>
+<volume>8</volume> (<year>2023</year>): <fpage>1402</fpage>–<lpage>1417</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="advs77565-cite-0064">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Azuara‐Tuexi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Muñoz‐Sandoval</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Guirado‐López</surname>
+</string-name>, “<article-title>N 1s Core‐Level Binding Energies in Nitrogen‐Doped Carbon Nanotubes: A Combined Experimental and Theoretical Study</article-title>,” <source>Physical Chemistry Chemical Physics</source>
+<volume>25</volume> (<year>2023</year>): <fpage>3718</fpage>–<lpage>3736</lpage>.<pub-id pub-id-type="pmid">36683450</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/d2cp04701b</pub-id></mixed-citation></ref><ref id="advs77565-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="advs77565-cite-0065">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Wan</surname>
+</string-name>, et al., “<article-title>A Dynamic Cathode Interlayer for Ultralow Self‐Discharge and High Iodide Utilization in Zinc–Iodine Batteries</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>18</volume> (<year>2025</year>): <fpage>4800</fpage>–<lpage>4810</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="advs77565-cite-0066">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>Cation‐Driven Phase Transition and Anion‐Enhanced Kinetics for High Energy Efficiency Zinc‐interhalide Complex Batteries</article-title>,” <source>Nature Communications</source>
+<volume>16</volume> (<year>2025</year>): <fpage>4586</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-025-59894-w</pub-id><pub-id pub-id-type="pmcid">PMC12085677</pub-id><pub-id pub-id-type="pmid">40382352</pub-id></mixed-citation></ref><ref id="advs77565-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="advs77565-cite-0067">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Long‐Lasting Zinc–Iodine Batteries with Ultrahigh Areal Capacity and Boosted Rate Capability Enabled by Nickel Single‐Atom Electrocatalysts</article-title>,” <source>Nano Letters</source>
+<volume>23</volume> (<year>2023</year>): <fpage>5272</fpage>–<lpage>5280</lpage>.<pub-id pub-id-type="pmid">37260235</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.nanolett.3c01310</pub-id></mixed-citation></ref><ref id="advs77565-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="advs77565-cite-0068">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhao</surname>
+</string-name>, et al., “<article-title>Zwitterion‐mediated Interface Chemistry for Practical Zn‐Iodine Batteries</article-title>,” <source>Nature Communications</source>
+<volume>16</volume> (<year>2025</year>): <fpage>5565</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-025-60488-9</pub-id><pub-id pub-id-type="pmcid">PMC12216998</pub-id><pub-id pub-id-type="pmid">40593534</pub-id></mixed-citation></ref><ref id="advs77565-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="advs77565-cite-0069">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Ríos Gómez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Krajnc</surname>
+</string-name>, et al., “<article-title>Halogenated Metal–Organic Framework Glasses and Liquids</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>142</volume> (<year>2020</year>): <fpage>3880</fpage>–<lpage>3890</lpage>.<pub-id pub-id-type="pmid">31978302</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.9b11639</pub-id></mixed-citation></ref><ref id="advs77565-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="advs77565-cite-0070">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Arıcı</surname>
+</string-name> and <string-name name-style="western">
+<given-names>Ö.</given-names>
+<surname>Gül</surname>
+</string-name>, “<article-title>Molecular Structure of Zn (II) Compound Containing 8‐Hydroxyquinoline and 2‐Picoline Ligands [I], Theoretical</article-title>,” <source>International Journal of Chemistry and Technology</source>
+<volume>2</volume> (<year>2018</year>): <fpage>141</fpage>–<lpage>147</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="advs77565-cite-0071">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Rwere</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Mak</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Kincaid</surname>
+</string-name>, “<article-title>Resonance Raman Interrogation of the Consequences of Heme Rotational Disorder in Myoglobin and Its Ligated Derivatives</article-title>,” <source>Biochemistry</source>
+<volume>47</volume> (<year>2008</year>): <fpage>12869</fpage>–<lpage>12877</lpage>.<pub-id pub-id-type="pmid">18986170</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/bi801779d</pub-id><pub-id pub-id-type="pmcid">PMC2654223</pub-id></mixed-citation></ref><ref id="advs77565-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="advs77565-cite-0072">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Shan</surname>
+</string-name>, et al., “<article-title>Taming Polyiodides: Phenol Chemistry for Shuttle‐Free and Durable Zinc–Iodine Batteries</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>18</volume> (<year>2025</year>): <fpage>8768</fpage>–<lpage>8779</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="advs77565-cite-0073">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhu</surname>
+</string-name>, et al., “<article-title>Lewis Acid‐base Effect and Protonation in Electrolyte Engineering Enable Shuttle‐free, Dendrite‐free, and HER‐free Aqueous Zn‐I2 Batteries</article-title>,” <source>Energy Storage Materials</source>
+<volume>78</volume> (<year>2025</year>): <elocation-id>104268</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="advs77565-cite-0074">
+<string-name name-style="western">
+<given-names>S.‐J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>Coordination Chemistry Toward Advanced Zn–I<sub>2</sub> Batteries with Four‐Electron I<sup>−</sup>/I<sup>0</sup>/I<sup>+</sup> Conversion</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>147</volume> (<year>2025</year>): <fpage>16350</fpage>–<lpage>16361</lpage>.<pub-id pub-id-type="pmid">40325936</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.5c02085</pub-id></mixed-citation></ref><ref id="advs77565-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="advs77565-cite-0075">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhou</surname>
+</string-name>, et al., “<article-title>Combining Inner Helmholtz Plane Adjustment and Gibbs–Thomson Effect to Enable Ultra‐High Utilization of Zinc Electrodes and Inhibit Polyiodide Shuttling</article-title>,” <source>Advanced Functional Materials</source>
+<volume>36</volume> (<year>2026</year>): <elocation-id>13773</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="advs77565-cite-0076">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Qi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hu</surname>
+</string-name>, et al., “<article-title>Confinement of Polyiodides by Dual‐Functional Tetrazine Cathodes in Zn–I<sub>2</sub> Batteries</article-title>,” <source>Angewandte Chemie International Edition</source>
+<volume>64</volume> (<year>2025</year>): <elocation-id>202507497</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/anie.202507497</pub-id><pub-id pub-id-type="pmid">40500889</pub-id></mixed-citation></ref><ref id="advs77565-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="advs77565-cite-0077">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jiao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Wu</surname>
+</string-name>, “<article-title>Dual‐Electrode Synergistic Electrolyte Enabling Highly Reversible Multi‐Electron Redox in Aqueous Zinc‐Iodine Batteries</article-title>,” <source>Advanced Materials</source>
+<volume>38</volume> (<year>2026</year>): <elocation-id>13389</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/adma.202513389</pub-id><pub-id pub-id-type="pmid">41194374</pub-id></mixed-citation></ref><ref id="advs77565-bib-0078"><label>78</label><mixed-citation publication-type="journal" id="advs77565-cite-0078">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jiao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Wu</surname>
+</string-name>, “<article-title>Constructing Charge‐Delocalized Polycationic Protective Layer by Chitosan for Zinc‐Ion Batteries</article-title>,” <source>ACS Materials Letters</source>
+<volume>7</volume> (<year>2025</year>): <fpage>3394</fpage>–<lpage>3402</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="advs77565-cite-0079">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lv</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhao</surname>
+</string-name>, et al., “<article-title>Synergistic Anion–Cation Chemistry Enables Highly Stable Zn Metal Anodes</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>147</volume> (<year>2025</year>): <fpage>8523</fpage>–<lpage>8533</lpage>.<pub-id pub-id-type="pmid">40033817</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.4c16932</pub-id></mixed-citation></ref><ref id="advs77565-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="advs77565-cite-0080">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Fu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Guo</surname>
+</string-name>, “<article-title>Dissolution Inhibition via Intramolecular N···I Halogen Bond Enables High‐Loading Zn‐Organic Battery</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>147</volume> (<year>2025</year>): <fpage>30820</fpage>–<lpage>30828</lpage>.<pub-id pub-id-type="pmid">40823693</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jacs.5c07277</pub-id></mixed-citation></ref><ref id="advs77565-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="advs77565-cite-0081">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Bi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Yu</surname>
+</string-name>, et al., “<article-title>Dynamic Interfacial Chemistry of Choline Chloride as Electrolyte Additive for Stable Zn‐Iodine Batteries</article-title>,” <source>Advanced Functional Materials</source>
+<volume>36</volume> (<year>2026</year>): <elocation-id>76224</elocation-id>.</mixed-citation></ref><ref id="advs77565-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="advs77565-cite-0082">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>A Water‐Responsive Molecule Realizes Stable Ah‐Scale Zn–I<sub>2</sub> Pouch Cells with High Zn Utilization</article-title>,” <source>Energy &amp; Environmental Science</source>
+<volume>19</volume> (<year>2026</year>): <fpage>1551</fpage>–<lpage>1564</lpage>.</mixed-citation></ref><ref id="advs77565-bib-0083"><label>83</label><mixed-citation publication-type="journal" id="advs77565-cite-0083">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Yang</surname>
+</string-name>, et al., “<article-title>Dynamic Polyiodide‐Trapping and Proton‐Capturing Dual‐Network Engineering for High‐Areal‐Capacity, Long‐Cycling and High‐Temperature Zn─I<sub>2</sub> Batteries</article-title>,” <source>Advanced Materials</source>
+<volume>38</volume> (<year>2026</year>): <elocation-id>22609</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/adma.202522609</pub-id><pub-id pub-id-type="pmid">41524475</pub-id></mixed-citation></ref><ref id="advs77565-bib-0084"><label>84</label><mixed-citation publication-type="journal" id="advs77565-cite-0084">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Ou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Liu</surname>
+</string-name>, et al., “<article-title>Synergistic Current Collector and Electrolyte Additive Enable 10 000‐Cycle Zinc Iodine Batteries with Low N/P Ratios</article-title>,” <source>Advanced Energy Materials</source>
+<volume>16</volume> (<year>2026</year>): <elocation-id>71015</elocation-id>.</mixed-citation></ref></ref-list></back></article>

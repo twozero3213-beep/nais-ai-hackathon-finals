@@ -1,0 +1,61 @@
+{
+  "synthetic": true,
+  "cases": [
+    {
+      "claim": "Female Treatment week12 mean change 9.4%",
+      "expected_column": "change_score",
+      "filters": [
+        [
+          "group",
+          "Treatment"
+        ],
+        [
+          "sex",
+          "Female"
+        ],
+        [
+          "week",
+          "12"
+        ]
+      ],
+      "method": "mean",
+      "actual": 6.60125,
+      "expected_issue": "NUMERIC_CONFLICT"
+    },
+    {
+      "claim": "Treatment vs Control significant difference Welch p=.032",
+      "expected_column": "change_score",
+      "filters": [
+        [
+          "week",
+          "12"
+        ]
+      ],
+      "method": "welch_t",
+      "actual_p": 4.553192393118289e-06,
+      "expected_issue": "REPORTED_P_VALUE_CONFLICT_BUT_SIGNIFICANCE_DIRECTION_SAME"
+    },
+    {
+      "claim": "Pearson r=.42 p=.010",
+      "expected_column": "satisfaction_rate",
+      "x_column": "age",
+      "method": "pearson_r",
+      "actual_r": -0.07324661486405531,
+      "actual_p": 0.4265862909936272,
+      "expected_issue": "CORRELATION_AND_INTERPRETATION_CONFLICT"
+    },
+    {
+      "claim": "Logistic OR=1.20 for age->responder",
+      "expected_column": "responder",
+      "x_column": "age",
+      "method": "logistic_regression",
+      "actual_or": 1.0202453527695048,
+      "actual_p": 0.2635013104170285,
+      "expected_issue": "REPRODUCE_OR"
+    },
+    {
+      "claim": "effective in all subgroups/timepoints",
+      "expected_issue": "OVERCLAIM"
+    }
+  ]
+}

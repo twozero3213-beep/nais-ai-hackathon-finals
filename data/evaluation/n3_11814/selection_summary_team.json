@@ -1,0 +1,15 @@
+{
+ "raw_rows": 294,
+ "analysis_rows": 264,
+ "matched": 264,
+ "categories": {
+  "KEPT": 262,
+  "ATTENTION_PROBE_MISMATCH": 26,
+  "REASON_UNKNOWN": 3,
+  "KEPT_DESPITE_PROBE_MISMATCH": 2,
+  "NO_PRIME_RESPONSE": 1
+ },
+ "raw_duplicate_match_keys": 0,
+ "method": "원자료 CSV 행과 분석용 sav 행을 22개 응답 열(비윤리 12문항, 탐욕 조작점검 5문항, 성별·SES·정치·종교·주의확인)로 다중집합 대조. 나이는 원자료가 자유기술이라 제외.",
+ "caution": "제외 사유는 대조 결과로 추정한 분류이며 저자가 명시한 규칙이 아니다. 논문의 2+28 제외 내역과의 대응은 미확인."
+}

@@ -1,0 +1,681 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece373582" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13558230</article-id><article-id pub-id-type="pmcid-ver">PMC13558230.1</article-id><article-id pub-id-type="pmcaid">13558230</article-id><article-id pub-id-type="pmcaiid">13558230</article-id><article-id pub-id-type="pmid">42724139</article-id><article-id pub-id-type="doi">10.1002/ece3.73582</article-id><article-id pub-id-type="publisher-id">ECE373582</article-id><article-id pub-id-type="other">ECE-2025-11-02920.R2</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Trophic Interactions</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Tree Species Diversity, Canopy Height, and Soil Nutrient Availability Shape Leaf Insect Herbivory in Zhoushan Archipelago, China</article-title></title-group><contrib-group><contrib id="ece373582-cr-0001" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="Y">Yu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-8351-5353</contrib-id><xref rid="ece373582-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece373582-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece373582-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece373582-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Yan</surname><given-names initials="E">Enrong</given-names></name><xref rid="ece373582-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="ece373582-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Loess Plateau</named-content>
+<institution>Shanxi University</institution>
+<city>Taiyuan</city>
+<country country="CN">China</country>
+</aff><aff id="ece373582-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Shanxi Technology and Business University</institution>
+<city>Taiyuan</city>
+<country country="CN">China</country>
+</aff><aff id="ece373582-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">School of Ecological and Environmental Sciences</named-content>
+<institution>East China Normal University</institution>
+<city>Shanghai</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Enrong Yan ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="1470">9</issue><issue-id pub-id-type="pmc-issue-id">520317</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v16.9</issue-id><elocation-id>e73582</elocation-id><history>
+<date date-type="rev-recd"><day>10</day><month>4</month><year>2026</year></date>
+<date date-type="received"><day>13</day><month>11</month><year>2025</year></date>
+<date date-type="accepted"><day>15</day><month>4</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>09</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>11</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-16 11:33:50.923"><day>16</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-16-e73582.pdf"><?pdf-name ECE3-16-e73582.pdf?><?pdf-size 2054599?><?pdf-md5 992a094a0e2329d4d8cf929483294298?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:cc7f/13558230/992a094a0e23/ECE3-16-e73582.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-16-e73582.pdf"/><abstract><title>ABSTRACT</title><p>Plant‐insect interactions regulate ecosystem processes and productivity. Most studies have focused on the effect of plant diversity on insect herbivory in grasslands, croplands, and natural forests. However, the direction of this effect remains controversial. Unlike these ecosystems, island ecosystems possess distinct geographical features and provide natural experimental settings for studying trophic interactions. Nevertheless, the effects of plant diversity, island characteristics, and their interactions on insect herbivory in such environments have scarcely been explored. To test the relationships between plant diversity and total herbivory, as well as the herbivory of specific damage types, and to find the key determinants of insect herbivory in island ecosystems, 24 sample plots were established on 24 representative islands in 2019 in Zhoushan Archipelago, China. To ensure the reliability and repeatability of the results while minimizing inter‐annual variation in insect herbivory, 36 sample plots were set up on 30 different islands in 2021; all previous plots of 2019 were included in those of 2021. This study investigated insect herbivory in both years and measured plant species richness, climate factors, tree height, and soil nutrient availability in 2021. Polynomial (quadratic) regression was employed to examine the relationship between insect herbivory and plant diversity, and multiple linear regression (MLR), the stepwise regression model, and variation partitioning analysis (VPA) were used to identify significant patterns of insect herbivory. Our findings showed that tree species diversity was positively correlated with total herbivory and leaf mining in both 2019 and 2021, but only positively associated with sucking in 2019 and chewing in 2021. The extent of plant diversity effects varied among different damage types. In 2019, tree species diversity, tree height, soil nutrition, and their interactions collectively explained 60% of the variation in sucking. Tree species diversity, soil nutrition, and their interaction accounted for 32% of the variation in mining. But there were no significant relationships between climate factors and insect herbivory in this study. Synthesis. The results of this study partially support our initial hypothesis. Specifically, plant species diversity increased insect herbivory on islands, indicating that herbivorous insects on islands are almost generalists. However, the extent of effects among different damage types was inconsistent, which may stem from inter‐annual competition among herbivorous insect species. The discontinuous effects on sucking and chewing between 2019 and 2021 may also be ascribed to this. Additionally, in 2019, sucking was jointly regulated by plant species diversity, tree height, soil nutrition, and their interactions, with community structure and total nitrogen emerging as particularly important factors. For mining in the same year, plant diversity, soil nutrition, and their interaction were significantly correlated, indicating that soil environments with high nitrogen but low carbon and phosphorus favor mining species. However, climate factors showed no significant relationships with insect herbivory in both years, suggesting that microclimates may mediate external climate effects. These findings provide new insights into leaf insect herbivory patterns in island ecosystems.</p></abstract><abstract abstract-type="graphical"><p>This study explores the relationship between plant diversity and insect herbivory in island ecosystems, specifically the Zhoushan Archipelago, China. The results show that tree species diversity positively correlates with total herbivory, as well as the herbivory of three damage types, and interactions between plant diversity, soil nutrition, and tree height influence different types of herbivory. However, climate factors did not significantly affect insect herbivory, supporting the Amplification Effect (AE) hypothesis in island ecosystems.<boxed-text position="anchor" content-type="graphic" id="ece373582-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-16-e73582-g002.webp"><?image-name ECE3-16-e73582-g002.webp?><?image-size 10958?><?image-md5 a6a930f89c9e343e5981f643e17f28c6?><?image-image-server-status NEVER_LOAD?><?image-original-height 109?><?image-original-width 331?><?image-scaled-height 109?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/a6a930f89c9e/ECE3-16-e73582-g002.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece373582-kwd-0001">ecosystem herbivory</kwd><kwd id="ece373582-kwd-0002">insect feeding guilds</kwd><kwd id="ece373582-kwd-0003">plant species diversity</kwd><kwd id="ece373582-kwd-0004">soil nutrient effects</kwd><kwd id="ece373582-kwd-0005">temporal variability</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China (NSFC) Key Program</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>32030068</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="2"/><page-count count="11"/><word-count count="6900"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:09.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ece373582-body-0001"><sec id="ece373582-sec-0001"><label>1</label><title>Introduction</title><p>Plant diversity is a key driver of ecosystem processes (Hooper et al. <xref rid="ece373582-bib-0020" ref-type="bibr">2005</xref>; Hector et al. <xref rid="ece373582-bib-0019" ref-type="bibr">2007</xref>; Byrnes et al. <xref rid="ece373582-bib-0006" ref-type="bibr">2014</xref>). It has a significant bottom‐up effect on primary consumers (Duffy et al. <xref rid="ece373582-bib-0014" ref-type="bibr">2007</xref>). Herbivorous insects are one of the most abundant among primary consumers, with plant leaves being their primary food source (Weisser and Siemann <xref rid="ece373582-bib-0042" ref-type="bibr">2008</xref>). Plant identity and leaf functional traits can affect the visibility, palatability, and anti‐herbivore defenses of host plant leaves for herbivorous insects (Castagneyrol et al. <xref rid="ece373582-bib-0009" ref-type="bibr">2019</xref>), thereby altering leaf insect herbivory. Furthermore, leaf performance plays a crucial role in shaping the damage types of herbivorous insects across evolutionary time (Muiruri et al. <xref rid="ece373582-bib-0030" ref-type="bibr">2019</xref>). In this study, the herbivory damage types observed are chewing, sucking, and mining. Consequently, plant characteristics can lead to changes in leaf insect herbivory and insect damage types (Wright et al. <xref rid="ece373582-bib-0045" ref-type="bibr">2004</xref>).</p><p>The patterns of leaf insect herbivory in different ecosystems vary substantially with plant diversity. Over the past decades, ecologists have put a lot of effort into exploring how plant diversity affects leaf insect herbivory (Castagneyrol et al. <xref rid="ece373582-bib-0007" ref-type="bibr">2017</xref>). However, discrepancies among researchers remain unresolved. In croplands and grasslands, some ecologists argued that plant species diversity reduced chewing (Sobek et al. <xref rid="ece373582-bib-0038" ref-type="bibr">2009</xref>). This negative relationship is known as the dilution effect (DE) (Shen et al. <xref rid="ece373582-bib-0036" ref-type="bibr">2025</xref>). However, in tropical and subtropical forests, the literature reported that plant species richness amplified mining and chewing (Martini and Goodale <xref rid="ece373582-bib-0029" ref-type="bibr">2020</xref>; Muiruri et al. <xref rid="ece373582-bib-0030" ref-type="bibr">2019</xref>). This positive relationship is referred to as the amplification effect (AE) (Schuldt et al. <xref rid="ece373582-bib-0035" ref-type="bibr">2010</xref>). Different from these ecosystems, island ecosystems exhibit distinct geographical features and provide a natural experimental setting for trophic interactions (Zhu <xref rid="ece373582-bib-0049" ref-type="bibr">2020</xref>). However, there is limited research on insect herbivory conducted on islands.</p><p>Depending on the herbivory of a single damage type or multiple damage types, total herbivory, as an effective indicator, may reflect the effect of plant diversity (Andrew et al. <xref rid="ece373582-bib-0001" ref-type="bibr">2012</xref>). The inconsistent directions and extent of plant diversity effects may be related to specialization (Jared and Anurag <xref rid="ece373582-bib-0023" ref-type="bibr">2012</xref>). The amplification effect can result from the generalists benefiting from a greater variety of food resources. In contrast, the dilution effect can be attributed to changes in the likelihood of insect detection for the specialists. Diverse plant mixtures make it more difficult for the specialists to locate host plants (Boege and Marquis <xref rid="ece373582-bib-0004" ref-type="bibr">2005</xref>; Barbosa et al. <xref rid="ece373582-bib-0002" ref-type="bibr">2009</xref>). Total herbivory can compensate for the differences caused by the partial effects of the herbivory of different damage types. It would be an important indicator of insect herbivory. This study suggests that one reason for the inconsistency in previous plant‐insect findings is the lack of consideration of total herbivory and the herbivory of specific damage simultaneously.</p><p>Numerous studies have focused on the effect of insect herbivory on the density of young trees neighboring conspecific adults (Hyatt et al. <xref rid="ece373582-bib-0051" ref-type="bibr">2003</xref>). However, some biotic and abiotic factors, including island characteristics, have rarely been taken into account as explanations for variation in insect herbivory (Castagneyrol et al. <xref rid="ece373582-bib-0009" ref-type="bibr">2019</xref>). Building on previous island research, this study proposed perspectives concerning island characteristics: (1) The plant apparency postulate suggests that insect herbivory increases with tree height (Castagneyrol et al. <xref rid="ece373582-bib-0008" ref-type="bibr">2013</xref>). For example, herbivory on downy birch (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Betula pubescens</italic>
+</styled-content>) increased from small saplings to adult trees (Zverev et al. <xref rid="ece373582-bib-0050" ref-type="bibr">2017</xref>). Other studies had also found that severe insect damage occurred in the lower strata of the canopy (Zhang et al. <xref rid="ece373582-bib-0047" ref-type="bibr">2023</xref>). These differences may be related to the characteristics of the ecosystem. In island ecosystems, large trees can provide sheltered microhabitats for herbivorous insects, increasing their chances of survival. (2) The soil fertility postulate predicts that soil nutrient availability and insect herbivory interact with one another (Cuevas‐Reyes et al. <xref rid="ece373582-bib-0012" ref-type="bibr">2004</xref>), although some studies have reported no significant relationships (Blue et al. <xref rid="ece373582-bib-0003" ref-type="bibr">2011</xref>). Scarce soil nutrients in island ecosystems limit plant growth; conversely, fast‐growing plants are more vulnerable to leaf damage (Liu et al. <xref rid="ece373582-bib-0027" ref-type="bibr">2024</xref>). (3) The climate postulate recognizes that climate has well‐documented effects on insect herbivory (Wright et al. <xref rid="ece373582-bib-0044" ref-type="bibr">2017</xref>). Human‐induced climate change has been significantly altering biodiversity and ecological processes on islands (Tan et al. <xref rid="ece373582-bib-0052" ref-type="bibr">2022</xref>). Climate factors are related to the reproductive processes and lifespan of insects (Wang et al. <xref rid="ece373582-bib-0053" ref-type="bibr">2025</xref>). A study found that insect herbivory on birch leaves significantly increased with temperature but was not affected by rainfall (Poeydebat et al. <xref rid="ece373582-bib-0032" ref-type="bibr">2021</xref>). In other findings, total herbivory was most effectively explained by variation in spring precipitation (Loughnan and Williams <xref rid="ece373582-bib-0028" ref-type="bibr">2019</xref>). Moreover, the interactions among these drivers have been documented. The relative results indicated that the effect of plant diversity on insect herbivory was dependent on climatic conditions (Brezzi et al. <xref rid="ece373582-bib-0005" ref-type="bibr">2017</xref>; Jactel et al. <xref rid="ece373582-bib-0022" ref-type="bibr">2020</xref>). Insect herbivory can be altered by the interaction between plant diversity and tree height, and this interaction is indicative of the community structure (Zheng et al. <xref rid="ece373582-bib-0048" ref-type="bibr">2019</xref>). However, the effects of plant diversity, island characteristics, and their interactions on insect herbivory have not been thoroughly explored in island ecosystems.</p><p>With clear boundaries, geographical isolation, island ecosystems are regarded as natural laboratories for ecological studies (Warren et al. <xref rid="ece373582-bib-0041" ref-type="bibr">2015</xref>; Whittaker and Fernundez‐Palacios <xref rid="ece373582-bib-0043" ref-type="bibr">2007</xref>). Numerous studies have been conducted on plants and animals on islands (Kreft et al. <xref rid="ece373582-bib-0024" ref-type="bibr">2008</xref>; Hannus and Von <xref rid="ece373582-bib-0018" ref-type="bibr">2008</xref>), but patterns of insect herbivory have hardly been explored. To better understand how plant species diversity, island characteristics and their interactions influence insect herbivory in island ecosystems, we formulated the following hypotheses for testing: Increased plant species diversity resulted in higher insect herbivory. However, the extent of these AEs among different damage types was inconsistent. In addition to plant species diversity, tree height, soil nutrient availability, climate factors and their interactions significantly influence total herbivory and the herbivory of specific damage types. This study took alternative hypotheses: Plant species diversity decreased total herbivory, as well as the herbivory of specific damage types. And the extent of these DEs was consistent. Additionally, insect herbivory was not significantly correlated with tree height, soil nutrient availability, climate factors or their interactions.</p></sec><sec sec-type="materials-and-methods" id="ece373582-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece373582-sec-0003"><label>2.1</label><title>Study Site</title><p>The study was conducted in the largest archipelago in eastern China, Zhoushan Archipelago (29°37.7′–30°50.9′ N, 121°25′–122°44.6′ E). This region has a subtropical monsoon climate, hot and humid in summer, dry and cold in winter. The mean annual temperature and precipitation are 17°C and 1600 mm, respectively. The mean annual wind speed ranges from 4.16 to 5.03 m/s (Zhu <xref rid="ece373582-bib-0049" ref-type="bibr">2020</xref>). The main vegetation types are broad‐leaved forest, coniferous forest, shrubs, and grasses. The typical soils are mainly coastal saline soil, red soil, and coarse bone soil. Leaf‐insects are majorly chewers, suckers, and leaf‐miners. Damage from other types, such as rolling, has hardly been observed on leaves. After preliminary investigation, we selected 30 representative islands along the area (0.005–104.97 km<sup>2</sup>) and isolation (0.5–65 km) gradients. These selected islands feature typical island vegetation and leaf damage types in this area, as well as high biodiversity. The smallest island is Gaoting island, on the south side of Daishan island. The largest island is Daishan island (Figure <xref rid="ece373582-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="ece373582-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Geographical locations of the selected islands.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-16-e73582-g003.webp"><?image-name ECE3-16-e73582-g003.webp?><?image-size 97274?><?image-md5 92e1817a2a765ce7a345fa50a75c6fe6?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 895?><?image-original-width 1064?><?image-scaled-height 895?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/92e1817a2a76/ECE3-16-e73582-g003.webp?><?thumb-name ECE3-16-e73582-g003.gif?><?thumb-size 15672?><?thumb-md5 711f61a92d7eb0fed907bec0395d62af?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 168?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/711f61a92d7e/ECE3-16-e73582-g003.gif?></graphic></fig></sec><sec id="ece373582-sec-0004"><label>2.2</label><title>Tree Species Sampling</title><p>From July to October, 24 sample plots were set up across 24 different islands in 2019. To verify the reliability and repeatability of the results and avoid the inter‐annual variation in herbivory, we established 36 sample plots across 30 different islands in the same period of 2021. All previous plots of 2019 were included in these of 2021. Considering higher diversity in large and mid‐size islands, we selected the sample plot covering most of the plant species on the island. We made two sample plots in Liuheng island, Panzhi island, Xiazhi island, and Xiushan island, and three sample plots in Daishan island, 2021 (Table <xref rid="ece373582-supitem-0001" ref-type="supplementary-material">S1</xref>). Due to differences in vegetation types (Chen <xref rid="ece373582-bib-0010" ref-type="bibr">2017</xref>; Hu et al. <xref rid="ece373582-bib-0021" ref-type="bibr">2016</xref>), plot size was 20 m × 20 m in forest, 10 m × 10 m in shrub. We also selected vegetation types that represent the overall vegetation landscape of the islands to sample. We used the statistical sample method of the British‐American schools in each sample plot, also known as checking every wood. We identified, labeled, and measured the woody plant individuals with a diameter at breast height ≥ 1 cm and higher than 0.5 m. Furthermore, we recorded the name of the sample plot, species name, diameter at breast height, base diameter, and tree height.</p></sec><sec id="ece373582-sec-0005"><label>2.3</label><title>Determination of Soil Properties</title><p>This study adopted the soil protocol of Center for Tropical Forest Science (CTFS) (Condit <xref rid="ece373582-bib-0011" ref-type="bibr">1998</xref>). Five samples (0–10 cm depth) were cored from each sample plot, and 180 soil samples were collected from 36 plots in 2021. We weighed the fresh soil sample, spread it evenly on a white paper, dried it in a ventilated place, and turned it over every 2 days. After the natural air‐drying completed, it was promptly ground and passed through a sieve (100 mesh). Then we put 0.15–0.20 g of soil in a tube (100 mL), added 5 mL of concentrated sulfuric acid and shook it evenly. A mixture of 1.5 g of sodium sulfate and copper sulfate was added, shook well, digested on a digester at 370°C, rinsed with a small amount of distilled water into a 5‐volume flask (500 mL). And we set the volume to 500 mL, filtered and clarified it before testing. At the same time, a blank control was performed. A fully automatic chemical analyzer (Smartchem 200, AMS Alliance, Italy) was inserted into every sample to determine the content of total phosphorus and total nitrogen of soil samples. In addition, 20 mg of the sieved sample was taken into a tin boat, weighed and tableted, and the total soil carbon was determined with a chemical elemental analyzer (Elementa, Germany).</p></sec><sec id="ece373582-sec-0006"><label>2.4</label><title>Obtaining Climate Data</title><p>Based on the geographical coordinates of the sampling sites, climate data were extracted from the WorldClim database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.worldclim.org/" ext-link-type="uri">https://www.worldclim.org/</ext-link>, version 2, resolution of 1 km). It provides monthly average data from 1970 to 2000. All extraction operations were conducted using the Extract Multi Values to Points tool in ArcGIS 10.1.</p></sec><sec id="ece373582-sec-0007"><label>2.5</label><title>Herbivory Assessment</title><p>Considering the change of leaf damage throughout the year, herbivory assessment was performed once from July to October in 2019 and 2021. It results from the severest leaf damage occurring during this period (Muiruri et al. <xref rid="ece373582-bib-0030" ref-type="bibr">2019</xref>). In each plot, at least three dominant plant species were selected, and common plant species were selected in high‐species plots to represent community‐level. We chose three to five individuals per species and randomly collected ten mature leaves from each individual. Then we promptly identified the damage type for each leaf (Figure <xref rid="ece373582-fig-0002" ref-type="fig">2</xref>). After identification, we put a transparent grid paper (the minimum grid unit is 1 cm<sup>2</sup>) upon the leaf to assess damage area; then the extent of damage was divided into 5 grades: (1) grade 0 (no herbivory): no insect herbivory trace on the leaf, (2) grade 1 (light herbivory): the area of herbivory traces accounting for 1%–25% of the entire leaf, (3) grade 2 (moderate herbivory): accounting for 26%–50% of the entire leaf, (4) grade 3 (severe herbivory): accounting for 51%–75%, (5) grade 4 (the severest herbivory): accounting for more than 75%. Finally, an estimate was obtained as the individual‐level insect herbivory expressed as a percentage (Muiruri et al. <xref rid="ece373582-bib-0030" ref-type="bibr">2019</xref>). To avoid subjective bias and identify herbivory types concisely, leaf damage was assessed by one person only after one‐month training. As shown in Equation (<xref rid="ece373582-disp-0001" ref-type="disp-formula">1</xref>), the species‐level insect herbivory was defined as the average value of leaf damage per leaf within each species. It could eliminate differences between individuals.<disp-formula id="ece373582-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>Leaf damage in species</mml:mtext><mml:mo linebreak="goodbreak">−</mml:mo><mml:mtext>level</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>sum</mml:mi><mml:mspace width="0.25em"/><mml:mtext>of leaf damage</mml:mtext><mml:mspace width="0.25em"/><mml:mi>per</mml:mi><mml:mspace width="0.25em"/><mml:mtext>leaf</mml:mtext></mml:mrow><mml:mtext>number of leaves</mml:mtext></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><fig position="float" fig-type="FIGURE" id="ece373582-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Characteristics of leaf insect herbivory on islands.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-16-e73582-g004.webp"><?image-name ECE3-16-e73582-g004.webp?><?image-size 52496?><?image-md5 91380f4873bd54d31a7f24dc5dce31f6?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 350?><?image-original-width 1064?><?image-scaled-height 350?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/91380f4873bd/ECE3-16-e73582-g004.webp?><?thumb-name ECE3-16-e73582-g004.gif?><?thumb-size 12771?><?thumb-md5 0fadd5d0e4939d6c676c1c1fd3f60201?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 66?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/0fadd5d0e493/ECE3-16-e73582-g004.gif?></graphic></fig><p>Community weighted mean (CWM) was used to estimate community‐level insect herbivory. Firstly, the diameter at breast height was converted to the cross‐sectional area of the breast, and the important value of each species was calculated, and the sum of the important value was guaranteed to be 100%. Secondly, the important values were matched to species‐level insect herbivory values. The CWM method can represent the functional trait values of dominant plant species within the community (Díaz and Lavorel <xref rid="ece373582-bib-0013" ref-type="bibr">2007</xref>). In this study, traits were represented by leaf insect herbivory. Calculated according to Equation (<xref rid="ece373582-disp-0002" ref-type="disp-formula">2</xref>):<disp-formula id="ece373582-disp-0002">
+<label>(2)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>CWM</mml:mi><mml:mi mathvariant="italic">X</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi mathvariant="normal">s</mml:mi></mml:msubsup><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where CWM<italic toggle="yes">x</italic> is the mean community weight of insect herbivory <italic toggle="yes">x</italic>, <italic toggle="yes">s</italic> is the number of species in the plot, <italic toggle="yes">p</italic>
+<sub>
+<italic toggle="yes">i</italic>
+</sub> is the important value of species <italic toggle="yes">i</italic>, and <italic toggle="yes">t</italic>
+<sub>
+<italic toggle="yes">i</italic>
+</sub> is the insect herbivory value of species <italic toggle="yes">i</italic>. Then, we added up these three individual‐level herbivory values to obtain individual‐level total herbivory, and repeat the above procedure to calculate the community‐level total herbivory values. The calculation is shown in Equation (<xref rid="ece373582-disp-0003" ref-type="disp-formula">3</xref>):<disp-formula id="ece373582-disp-0003">
+<label>(3)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>Total Herbivory</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mtext>Chewing</mml:mtext><mml:mo linebreak="goodbreak">+</mml:mo><mml:mtext>Sucking</mml:mtext><mml:mo linebreak="goodbreak">+</mml:mo><mml:mtext>Mining</mml:mtext></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec><sec id="ece373582-sec-0008"><label>2.6</label><title>Statistical Analysis</title><p>All analyzing processes were conducted in R language version 4.4.3 (R Core Team <xref rid="ece373582-bib-0033" ref-type="bibr">2020</xref>). We used polynomial (quadratic) regression model to determine the effect of plant species richness on leaf insect herbivory in 2019 and 2021. Before analyzing the effect, we dealt the original data with statistical methods. To improve the normality of the data distribution, the data of leaf insect herbivory were standardized by the method of arc sine square root. Plant species richness was calculated by “rowSums” function (Table <xref rid="ece373582-supitem-0001" ref-type="supplementary-material">S2</xref>). Plant diversity, which varied among vegetation types, island size and plots on the sample island, influenced leaf insect herbivory within the same plot areas. In order to eliminate these effects, we used <italic toggle="yes">rarecurve</italic> in “VEGAN” package to estimate rarefied value of plant species richness (Oksanen et al. <xref rid="ece373582-bib-0031" ref-type="bibr">2013</xref>).</p><p>Additionally, multiple linear regression (MLR) conducted by the “lm” function was used to reveal the effects of biological and abiotic factors on leaf insect herbivory. Biological factors included tree height and plant species richness; abiotic factors included mean annual temperature (MAT), mean annual precipitation (MAP), soil total nitrogen content (TN), total phosphorus content (TP), total carbon content (TC), carbon‐nitrogen ratio (C:N), carbon‐phosphorus ratio (C:P), and nitrogen‐phosphorus ratio (N:P). We used the stepwise regression model to select the significant determinants. The regression model was constructed as shown in Equation (<xref rid="ece373582-disp-0004" ref-type="disp-formula">4</xref>):<disp-formula id="ece373582-disp-0004">
+<label>(4)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mtext>Leaf damage</mml:mtext><mml:mo>~</mml:mo><mml:mtext>plant species richness</mml:mtext><mml:mo linebreak="goodbreak">+</mml:mo><mml:mtext>tree height</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>MAT</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>MAP</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>TC</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>TN</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>TP</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi mathvariant="normal">C</mml:mi><mml:mo>:</mml:mo><mml:mi mathvariant="normal">N</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi mathvariant="normal">C</mml:mi><mml:mo>:</mml:mo><mml:mi mathvariant="normal">P</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi mathvariant="normal">N</mml:mi><mml:mo>:</mml:mo><mml:mi mathvariant="normal">P</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>And then, the equations with significant results were analyzed by variation partitioning analysis (VPA). Firstly, the significant variables were classified, and the relative contributions to leaf insect herbivory were calculated. VPA was implemented by the “VEGAN” package. The VPA model was shown in Equations (<xref rid="ece373582-disp-0005" ref-type="disp-formula">5</xref> and <xref rid="ece373582-disp-0006" ref-type="disp-formula">6</xref>):<disp-formula id="ece373582-disp-0005">
+<label>(5)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mtext>Model</mml:mtext><mml:mtext>sucking</mml:mtext></mml:msub><mml:mo>~</mml:mo><mml:mtext>varpart</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close="" open="(" separators=",,,"><mml:mtext>Sucking</mml:mtext><mml:mrow><mml:mo>~</mml:mo><mml:mtext>tree height</mml:mtext><mml:mo>,</mml:mo></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow><mml:mo>~</mml:mo><mml:mtext>plant diversity</mml:mtext></mml:mrow><mml:mrow><mml:mo>~</mml:mo><mml:mi>TC</mml:mi><mml:mfenced close=")" open="" separators=""><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>TN</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>TP</mml:mi></mml:mfenced></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ece373582-disp-0006">
+<label>(6)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mspace width="0.25em"/><mml:mtext>Mode</mml:mtext><mml:msub><mml:mi mathvariant="normal">l</mml:mi><mml:mtext>mining</mml:mtext></mml:msub><mml:mo>~</mml:mo><mml:mtext>varpart</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close="" open="(" separators=",,,"><mml:mtext>Mining</mml:mtext><mml:mrow><mml:mo>~</mml:mo><mml:mtext>plant diversity</mml:mtext><mml:mo>,</mml:mo></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow><mml:mo>~</mml:mo><mml:mi>TN</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi mathvariant="normal">C</mml:mi><mml:mo>:</mml:mo><mml:mi mathvariant="normal">N</mml:mi></mml:mrow><mml:mrow><mml:mo>~</mml:mo><mml:mi>TC</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mfenced close=")" open="" separators=""><mml:mi>TP</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi mathvariant="normal">C</mml:mi><mml:mo>:</mml:mo><mml:mi mathvariant="normal">P</mml:mi></mml:mfenced></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec></sec><sec sec-type="results" id="ece373582-sec-0009"><label>3</label><title>Results</title><sec id="ece373582-sec-0010"><label>3.1</label><title>The Relationship Between Leaf Insect Herbivory and Plant Diversity</title><p>In 2019 and 2021, the effects of plant diversity on the intensity of different damage types and total herbivory were shown (Figure <xref rid="ece373582-fig-0003" ref-type="fig">3</xref>). In 2019, plant species richness increased the total herbivory (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.38, <italic toggle="yes">p</italic> &lt; 0.001). As shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3b</xref>, in 2021, plant species richness also increased total heirbvory (<italic toggle="yes">y</italic> = 0.004<italic toggle="yes">x</italic>
+<sup>2</sup>–0.053<italic toggle="yes">x</italic> + 0.376, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.20, <italic toggle="yes">p</italic> &lt; 0.01). From the perspective of single damage type, as shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3c</xref>, in 2019, the sucking was the most sensitive to plant species richness (<italic toggle="yes">y</italic> = 0.005<italic toggle="yes">x</italic>
+<sup>2</sup>–0.049<italic toggle="yes">x</italic> + 0.140, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.64, <italic toggle="yes">p</italic> &lt; 0.001), as shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3d</xref>, in 2021, there was no significant relationship between the sucking and plant species richness (<italic toggle="yes">p</italic> &gt; 0.05). As shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3e</xref>, in 2019, plant species richness increased the mining (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.15, <italic toggle="yes">p</italic> &lt; 0.05), as shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3f</xref>, in 2021, plant species richness also increased mining (<italic toggle="yes">y</italic> = 0.002<italic toggle="yes">x</italic>
+<sup>2</sup>–0.023<italic toggle="yes">x</italic> + 0.165, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.12, <italic toggle="yes">p</italic> &lt; 0.05). As shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3g</xref>, in 2019, there was no significant relationship between chewing and plant species richness (<italic toggle="yes">p</italic> &gt; 0.05), as shown in Figure <xref rid="ece373582-fig-0003" ref-type="fig">3h</xref>, however, in 2021, plant species richness increased chewing (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.10, <italic toggle="yes">p</italic> &lt; 0.05).</p><fig position="float" fig-type="FIGURE" id="ece373582-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>The relationships between plant species richness and intensity of different damage types and total herbivory in 2019 and 2021. The value of each point represents the community‐level herbivory, expressed as a percentage. The solid line indicates a significant relationship (<italic toggle="yes">p</italic> &lt; 0.05). The red point is chewing in Oak community on Daxie Island, belonging to an abnormal point, so it is removed from calculation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-16-e73582-g001.webp"><?image-name ECE3-16-e73582-g001.webp?><?image-size 79442?><?image-md5 a04a6d1582eb79a42ac97832342bcde1?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1553?><?image-original-width 1064?><?image-scaled-height 1553?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/a04a6d1582eb/ECE3-16-e73582-g001.webp?><?thumb-name ECE3-16-e73582-g001.gif?><?thumb-size 9180?><?thumb-md5 d9e3e9dbb61645f0b07bcd5fcc7ed4ed?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 137?><?thumb-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/d9e3e9dbb616/ECE3-16-e73582-g001.gif?></graphic></fig></sec><sec id="ece373582-sec-0011"><label>3.2</label><title>The Relationships Between Biotic and Abiotic Factors and Leaf Insect Herbivory</title><p>The effects of biotic and abiotic factors on leaf insect herbivory were as shown in Table <xref rid="ece373582-tbl-0001" ref-type="table">1</xref>. In 2019, total herbivory was significantly related to biotic and abiotic factors (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.34, <italic toggle="yes">p</italic> &lt; 0.05), among them, only plant diversity had a significant positive relationship with total herbivory (<italic toggle="yes">p</italic> &lt; 0.05). From the perspective of single damage type, sucking was positively related to plant diversity, tree height and TN on sucking (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.60, <italic toggle="yes">p</italic> &lt; 0.05). TC had a negative relationship with sucking (<italic toggle="yes">p</italic> &lt; 0.05). The relationship between mining and these factors was significant (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.32, <italic toggle="yes">p</italic> &lt; 0.05). Plant diversity, TN and C:N had significant positive relationships with mining (<italic toggle="yes">p</italic> &lt; 0.05). There were significant negative relationships between the mining and TC, TP, C:P (<italic toggle="yes">p</italic> &lt; 0.05). However, chewing had no significant relationships with any factors (<italic toggle="yes">p</italic> &gt; 0.05). MAT and MAP had no significant relationships with leaf insect herbivory (<italic toggle="yes">p</italic> &gt; 0.05).</p><table-wrap position="float" id="ece373582-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>The relationships between intensity of different damage types and biotic/abiotic factors in 2019.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Relationships</th><th align="center" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="center" valign="bottom" rowspan="1" colspan="1">SE</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">t</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">R</italic>
+<sup>2</sup>
+</th></tr></thead><tbody valign="top"><tr><td align="left" colspan="6" valign="top" rowspan="1">Total intensity</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.016</td><td align="center" valign="top" rowspan="1" colspan="1">0.004</td><td align="center" valign="top" rowspan="1" colspan="1">3.568</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.01</bold>
+</td><td align="center" rowspan="7" valign="top" colspan="1">0.34</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TC</td><td align="center" valign="top" rowspan="1" colspan="1">−0.011</td><td align="center" valign="top" rowspan="1" colspan="1">0.007</td><td align="center" valign="top" rowspan="1" colspan="1">−1.423</td><td align="center" valign="top" rowspan="1" colspan="1">0.174</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TN</td><td align="center" valign="top" rowspan="1" colspan="1">0.126</td><td align="center" valign="top" rowspan="1" colspan="1">0.085</td><td align="center" valign="top" rowspan="1" colspan="1">1.470</td><td align="center" valign="top" rowspan="1" colspan="1">0.161</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~C:N</td><td align="center" valign="top" rowspan="1" colspan="1">0.060</td><td align="center" valign="top" rowspan="1" colspan="1">0.030</td><td align="center" valign="top" rowspan="1" colspan="1">1.973</td><td align="center" valign="top" rowspan="1" colspan="1">0.066</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~C:P</td><td align="center" valign="top" rowspan="1" colspan="1">−0.002</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">−1.685</td><td align="center" valign="top" rowspan="1" colspan="1">0.111</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~N:P</td><td align="center" valign="top" rowspan="1" colspan="1">0.026</td><td align="center" valign="top" rowspan="1" colspan="1">0.017</td><td align="center" valign="top" rowspan="1" colspan="1">1.565</td><td align="center" valign="top" rowspan="1" colspan="1">0.137</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~MAT</td><td align="center" valign="top" rowspan="1" colspan="1">−0.065</td><td align="center" valign="top" rowspan="1" colspan="1">0.051</td><td align="center" valign="top" rowspan="1" colspan="1">−1.267</td><td align="center" valign="top" rowspan="1" colspan="1">0.223</td></tr><tr><td align="left" colspan="6" valign="top" rowspan="1">Sucking</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.005</td><td align="center" valign="top" rowspan="1" colspan="1">0.002</td><td align="center" valign="top" rowspan="1" colspan="1">2.530</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td><td align="center" rowspan="5" valign="top" colspan="1">0.60</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TC</td><td align="center" valign="top" rowspan="1" colspan="1">−0.002</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">−2.890</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TN</td><td align="center" valign="top" rowspan="1" colspan="1">0.039</td><td align="center" valign="top" rowspan="1" colspan="1">0.015</td><td align="center" valign="top" rowspan="1" colspan="1">2.680</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TP</td><td align="center" valign="top" rowspan="1" colspan="1">−0.13</td><td align="center" valign="top" rowspan="1" colspan="1">0.067</td><td align="center" valign="top" rowspan="1" colspan="1">−2.000</td><td align="center" valign="top" rowspan="1" colspan="1">0.06</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Tree height</td><td align="center" valign="top" rowspan="1" colspan="1">0.009</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">2.910</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td></tr><tr><td align="left" colspan="6" valign="top" rowspan="1">Mining</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.005</td><td align="center" valign="top" rowspan="1" colspan="1">0.002</td><td align="center" valign="top" rowspan="1" colspan="1">2.933</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.01</bold>
+</td><td align="center" rowspan="6" valign="top" colspan="1">0.32</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TC</td><td align="center" valign="top" rowspan="1" colspan="1">−0.010</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">−2.887</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TN</td><td align="center" valign="top" rowspan="1" colspan="1">0.134</td><td align="center" valign="top" rowspan="1" colspan="1">0.045</td><td align="center" valign="top" rowspan="1" colspan="1">2.971</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.01</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TP</td><td align="center" valign="top" rowspan="1" colspan="1">−0.351</td><td align="center" valign="top" rowspan="1" colspan="1">0.148</td><td align="center" valign="top" rowspan="1" colspan="1">−2.364</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~C:N</td><td align="center" valign="top" rowspan="1" colspan="1">0.028</td><td align="center" valign="top" rowspan="1" colspan="1">0.009</td><td align="center" valign="top" rowspan="1" colspan="1">3.019</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.01</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~C:P</td><td align="center" valign="top" rowspan="1" colspan="1">−0.0004</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001</td><td align="center" valign="top" rowspan="1" colspan="1">−2.76</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td></tr><tr><td align="left" colspan="6" valign="top" rowspan="1">Chewing</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~C:N</td><td align="center" valign="top" rowspan="1" colspan="1">0.004</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">1.647</td><td align="center" valign="top" rowspan="1" colspan="1">0.114</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr></tbody></table><table-wrap-foot id="ece373582-ntgp-0001"><fn id="ece373582-note-0001"><p>
+<italic toggle="yes">Note:</italic> SE represents the standard error, TC represents soil total carbon content, TN represents soil total nitrogen content, TP represents soil total phosphorus content, C:N represents carbon‐nitrogen ratio, C:P represents carbon‐phosphorus ratio, N:P represents nitrogen‐phosphorus ratio, MAT represents mean annual temperature. Bold parts represent significant relationships.</p></fn></table-wrap-foot></table-wrap><p>As shown in Table <xref rid="ece373582-tbl-0002" ref-type="table">2</xref>, in 2021, the relationship between total intensity and biotic and abiotic factors was significant (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.18, <italic toggle="yes">p</italic> &lt; 0.05), among which, only plant diversity had a positive effect on total herbivory (<italic toggle="yes">p</italic> &lt; 0.05). From the perspective of single damage type, the relationship between sucking and biotic and abiotic factors was not significant (<italic toggle="yes">P</italic> &gt; 0.05). The relationship between mining and biotic and abiotic factors was significant (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.18, <italic toggle="yes">p</italic> &lt; 0.05), the relationship between chewing and biotic and abiotic factors was significant (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.13, <italic toggle="yes">p</italic> &lt; 0.05), among them, only plant diversity had significant positive relationships with the intensity of two damage types (<italic toggle="yes">p</italic> &lt; 0.05).</p><table-wrap position="float" id="ece373582-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>The relationships between intensity of different damage types and biotic/abiotic factors in 2021.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Relationships</th><th align="center" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="center" valign="bottom" rowspan="1" colspan="1">SE</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">t</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">R</italic>
+<sup>2</sup>
+</th></tr></thead><tbody valign="top"><tr><td align="left" colspan="6" valign="top" rowspan="1">Total intensity</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.010</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">2.984</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.01</bold>
+</td><td align="center" rowspan="2" valign="top" colspan="1">0.18</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TC</td><td align="center" valign="top" rowspan="1" colspan="1">−0.001</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">−1.630</td><td align="center" valign="top" rowspan="1" colspan="1">0.112</td></tr><tr><td align="left" colspan="6" valign="top" rowspan="1">Sucking</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.005</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">1.724</td><td align="center" valign="top" rowspan="1" colspan="1">0.094</td><td align="center" rowspan="2" valign="top" colspan="1">—</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TC</td><td align="center" valign="top" rowspan="1" colspan="1">−0.001</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">−1.929</td><td align="center" valign="top" rowspan="1" colspan="1">0.062</td></tr><tr><td align="left" colspan="6" valign="top" rowspan="1">Mining</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.002</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">2.402</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>&lt; 0.05</bold>
+</td><td align="center" rowspan="2" valign="top" colspan="1">0.15</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~TC</td><td align="center" valign="top" rowspan="1" colspan="1">−0.0003</td><td align="center" valign="top" rowspan="1" colspan="1">0.000</td><td align="center" valign="top" rowspan="1" colspan="1">−1.674</td><td align="center" valign="top" rowspan="1" colspan="1">0.104</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Chewing</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~Richness</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">2.333</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>0.026</bold>
+</td><td align="center" rowspan="2" valign="top" colspan="1">0.13</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">~MAT</td><td align="center" valign="top" rowspan="1" colspan="1">−0.024</td><td align="center" valign="top" rowspan="1" colspan="1">0.017</td><td align="center" valign="top" rowspan="1" colspan="1">−1.413</td><td align="center" valign="top" rowspan="1" colspan="1">0.167</td></tr></tbody></table><table-wrap-foot id="ece373582-ntgp-0002"><fn id="ece373582-note-0002"><p>
+<italic toggle="yes">Note:</italic> TC represents soil total carbon content and MAT represents mean annual temperature. Bold parts represent significant relationships, <italic toggle="yes">p</italic> &lt; 0.05 indicates statistical significance, <italic toggle="yes">p</italic> &lt; 0.01 indicates high statistical significance.</p></fn></table-wrap-foot></table-wrap><p>Furthermore, the significant factors affecting sucking and mining were classified. As for sucking, they were divided into three categories: plant diversity, tree height and soil nutrition content (TC, TN, TP). As for mining, they were divided into plant diversity, TN and C:N (positive effect factors), TC, TP and C:P (negative effect factors).</p><p>The results of VPA (Figure <xref rid="ece373582-fig-0004" ref-type="fig">4a</xref>) revealed that 60% of the variation in sucking had been explained. The contributions of all categories were as follows: tree height accounted for 16%, plant diversity accounted for 11%, and soil nutrition content accounted for 11%. The interaction between plant diversity and tree height (37%) was ranked as the largest contributor; the interaction between plant diversity and soil nutrition content accounted for 2%. The interaction between tree height and soil nutrition content was not significant, and there was no significant interaction among the three categories.</p><fig position="float" fig-type="FIGURE" id="ece373582-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>The variation partitioning analysis of sucking (a) and mining (b) by different factors in 2019. TC represents soil total carbon content, TN represents total nitrogen content, TP represents soil total phosphorus content. TC:TP represents carbon‐phosphorus ratio, TC:TN represents carbon‐nitrogen ratio.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-16-e73582-g005.webp"><?image-name ECE3-16-e73582-g005.webp?><?image-size 30152?><?image-md5 8d04c2dce6f9c4c97a76cf0306d8afdf?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 460?><?image-original-width 1064?><?image-scaled-height 460?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/8d04c2dce6f9/ECE3-16-e73582-g005.webp?><?thumb-name ECE3-16-e73582-g005.gif?><?thumb-size 7294?><?thumb-md5 e661ce95a78b6ed69bbeca1ac657d2ae?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 86?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/cc7f/13558230/e661ce95a78b/ECE3-16-e73582-g005.gif?></graphic></fig><p>The results of VPA (Figure <xref rid="ece373582-fig-0004" ref-type="fig">4b</xref>) showed that 32% of variation in mining had been explained. The contributions of all categories were as follows: plant diversity accounted for 29%, TN and C:N accounted for 26%, TC, TP, and C:P accounted for 25%. The contribution of the interaction among three categories was 13%.</p></sec></sec><sec sec-type="discussion" id="ece373582-sec-0012"><label>4</label><title>Discussion</title><sec id="ece373582-sec-0013"><label>4.1</label><title>The Effects of Plant Diversity on Total Herbivory and the Herbivory of Three Damage Types</title><p>In 2019, the total herbivory ranged from 4.8% to 26.4%, positively related to plant diversity. This suggests that the dominant herbivorous insect species on Zhoushan islands might be polyphagous. Plant diversity explained 64% of the variation in sucking. Sucking was weaker than other types of herbivory, ranging from 0% to 11%, suggesting that sucking species are at a competitive disadvantage in acquiring food resources. This implies that plant diversity can be the key factor driving sucking (Vehviläinen et al. <xref rid="ece373582-bib-0039" ref-type="bibr">2007</xref>).</p><p>Meanwhile, mining ranged from 0.1% to 9.4%, with only 15% of the variation explained by plant diversity, suggesting that other factors are likely more influential (Silva and Neves <xref rid="ece373582-bib-0037" ref-type="bibr">2014</xref>). One possible explanation is that leaf‐miners preferentially feed on the tissue beneath the leaf epidermis, and the nutrient content within these tissues may account for a larger portion of the variation in mining (Gaston et al. <xref rid="ece373582-bib-0016" ref-type="bibr">2004</xref>). It might also result from plant defensive mechanisms having a greater impact on mining damage than on herbivory of other damage types, as miners are entirely encapsulated within the plant.</p><p>This study also found that chewing contributed the most to total herbivory, ranging from 1.2% to 11.8%, indicating that chewing species are the dominant herbivorous group. However, chewing was not significantly affected by plant diversity, possibly due to other limiting factors, such as natural predators. Large‐bodied chewing species, such as <italic toggle="yes">Lepidopteran</italic> caterpillar larvae, may be more vulnerable to predation by birds and ants (Sam et al. <xref rid="ece373582-bib-0034" ref-type="bibr">2023</xref>).</p><p>In 2021, the relationships between plant diversity and the herbivory of three damage types and total herbivory differed from those observed in 2019. Total herbivory, ranging from 1.9% to 25.8%, remained significantly related to plant diversity. However, the variation in total herbivory explained by plant diversity decreased by 18%, suggesting that the effect of plant diversity on insect herbivory had weakened over time. Mining ranged from 0.2% to 6.9% and was significantly correlated with plant diversity. However, the variation in mining explained by plant diversity decreased by 3%. Compared to 2019, sucking was slightly higher than mining but was not significantly related to plant diversity. Chewing, ranging from 0.6% to 10%, showed a positive relationship with plant diversity. Although chewing declined in 2021, it remained the highest component of total herbivory. Chewing herbivores are also more often generalists (highly polyphagous) compared to sucking and leaf mining herbivores. The reduction in their dominance may have resulted in chewing being regulated by plant species richness. The dominance of suckers increased more than that of leaf‐miners in 2021, indicating that suckers have advantages in exploiting food resources and are no longer limited by plant species richness.</p><p>In general, our results on the relationship between plant diversity and insect herbivory support our initial hypothesis that AEs occurred in this study. However, the extent of AEs was inconsistent, and the effects of plant diversity on sucking and chewing fluctuated across years.</p></sec><sec id="ece373582-sec-0014"><label>4.2</label><title>The Effects of Biotic and Abiotic Factors on Total Herbivory and the Herbivory of Three Damage Types</title><p>A focus of research on leaf insect herbivory has been to clarify inducing factors (Andrew et al. <xref rid="ece373582-bib-0001" ref-type="bibr">2012</xref>). This study took into account island characteristics, including climate, tree height, and soil nutrient availability. According to the results from 2019, sucking species are more sensitive to the interaction between tree height and plant diversity. This interaction can represent community structure (Zheng et al. <xref rid="ece373582-bib-0048" ref-type="bibr">2019</xref>). It indicates that a complex community structure can increase sucking by protecting sucking species from the harsh island environment and from predators (Feller and Mathis <xref rid="ece373582-bib-0015" ref-type="bibr">1997</xref>). However, a recent report found that tree height has a negative relationship with insect herbivory (Zhang et al. <xref rid="ece373582-bib-0047" ref-type="bibr">2023</xref>). The effect of tree height may vary under specific environmental conditions. Sucking species on islands may face limitations in their ability to fly and reach and feed on the leaves of larger trees. Soil nutrition content can explain 11% of variation in sucking, especially total nitrogen, indicating that sucking species are nitrogen‐limited. High soil nitrogen content accelerates plant growth, leading to an increase in the abundance and richness of sucking species (Blue et al. <xref rid="ece373582-bib-0003" ref-type="bibr">2011</xref>; Wu et al. <xref rid="ece373582-bib-0046" ref-type="bibr">2023</xref>). Although the result for total soil carbon was significant, the correlation coefficient was weak. Therefore, this study cannot establish a definitive effect of total soil carbon on sucking.</p><p>According to the results from 2019, severe mining outbreaks are more likely to occur in high nitrogen and low carbon and phosphorus soil environments. Carbon‐to‐nitrogen ratio (C:N) and total nitrogen can promote host plant growth. High nitrogen content within leaves of fast‐growing plants is subsequently utilized in the synthesis of leaf‐miners' bodies and facilitates their reproductive processes (Ge et al. <xref rid="ece373582-bib-0017" ref-type="bibr">2013</xref>). This explains why mining increases with carbon‐to‐nitrogen ratio (C:N) and total nitrogen (TN). Conversely, total carbon (TC) and total phosphorus (TP) can reduce net productivity and hinder plant growth (Wang et al. <xref rid="ece373582-bib-0040" ref-type="bibr">2014</xref>), thereby inhibiting mining (Li et al. <xref rid="ece373582-bib-0026" ref-type="bibr">2025</xref>).</p><p>This study found that climate factors have no significant relationships with insect herbivory. Unlike global‐scale experiments (Leckey et al. <xref rid="ece373582-bib-0025" ref-type="bibr">2014</xref>; Liu et al. <xref rid="ece373582-bib-0027" ref-type="bibr">2024</xref>), this study was conducted at a local scale. Microclimate can mediate the effects of external climate factors, providing a better explanation for the variation in insect herbivory.</p><p>Overall, our results on the effects of biotic and abiotic factors can partially support our initial hypothesis: (1) Tree height, soil nutrition, plant diversity and their interactions simultaneously contributed to variance in sucking. (2) Soil nutrition, plant diversity and their interaction were significantly correlated with mining. However, climate factors were not significantly related to insect herbivory.</p></sec></sec><sec sec-type="conclusions" id="ece373582-sec-0015"><label>5</label><title>Conclusion</title><p>The findings of this study showed that plant species diversity can amplify total herbivory, as well as the herbivory associated with three damage types. However, this study revealed the extent of AEs was inconsistent. And AEs on both sucking and chewing exhibited significant fluctuations between the years 2019 and 2021. There can be herbivorous insect competition differences between years may account for much of variation. The results concerning sucking were significantly correlated with plant species diversity, tree height, soil nutrition and their interactions in 2019. Community structure and total soil nitrogen played vital roles in shaping the patterns of sucking. Our analysis also suggests that soil environments with high nitrogen but low carbon and phosphorus are favorable for mining species. However, climate factors showed no significant relationships with insect herbivory. It could be related to the effects of microclimate. In future experiments, we recommend that additional factors be investigated, including the presence of natural enemies and competition among different damage types of insect species. Additionally, to facilitate long‐term monitoring, we propose installing weather monitoring instruments on several representative islands.</p></sec><sec id="ece373582-sec-0021"><title>Author Contributions</title><p>
+<bold>Yu Zhang:</bold> data curation (equal), formal analysis (equal), investigation (equal), methodology (equal), project administration (equal), writing – original draft (equal), writing – review and editing (equal). <bold>Enrong Yan:</bold> conceptualization (equal), funding acquisition (equal), resources (equal), supervision (equal), writing – review and editing (equal).</p></sec><sec id="ece373582-sec-0017"><title>Funding</title><p>This work was supported by the National Natural Science Foundation of China (NSFC) Key Program, [Grant Number: 32030068].</p></sec><sec sec-type="COI-statement" id="ece373582-sec-0018"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece373582-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> Basic information of the surveyed islands.</p><p>
+<bold>Table S2:</bold> Basic information of the sampled plots (SP, Species richness; MAT, Mean annual temperature; MAP, Mean annual precipitation).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-16-e73582-s001.zip" position="float" orientation="portrait"><?suppdata-name ECE3-16-e73582-s001.zip?><?suppdata-size 510707?><?suppdata-md5 7d99845a27515d73210a2ab080045174?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type zip?><?suppdata-cloudpmc-urn urn:app:cc7f/13558230/7d99845a2751/ECE3-16-e73582-s001.zip?></media></supplementary-material></sec></body><back><ack id="ece373582-sec-0016"><title>Acknowledgments</title><p>This study was financially supported by the National Natural Science Foundation of China (NSFC) Key Program, (Grant Number: 32030068).</p></ack><sec sec-type="data-availability" id="ece373582-sec-0020"><title>Data Availability Statement</title><p>All the required data are uploaded as <xref rid="ece373582-supitem-0001" ref-type="supplementary-material">Supporting Information</xref>.</p></sec><ref-list content-type="cited-references" id="ece373582-bibl-0001"><title>References</title><ref id="ece373582-bib-0001"><mixed-citation publication-type="journal" id="ece373582-cit-0001">
+<string-name name-style="western">
+<surname>Andrew</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I. R.</given-names>
+<surname>Roberts</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Hill</surname>
+</string-name>. <year>2012</year>. “<article-title>Insect Herbivory Along Environmental Gradients</article-title>.” <source>Open Journal of Ecology</source>
+<volume>2</volume>, no. <issue>4</issue>: <fpage>202</fpage>–<lpage>213</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0002"><mixed-citation publication-type="journal" id="ece373582-cit-0002">
+<string-name name-style="western">
+<surname>Barbosa</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hines</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Kaplan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Martinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Szczepaniec</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Szendrei</surname>
+</string-name>. <year>2009</year>. “<article-title>Associational Resistance and Associational Susceptibility: Having Right or Wrong Neighbors</article-title>.” <source>Annual Review of Ecology, Evolution, and Systematics</source>
+<volume>40</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>20</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0003"><mixed-citation publication-type="journal" id="ece373582-cit-0003">
+<string-name name-style="western">
+<surname>Blue</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Souza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. T.</given-names>
+<surname>Classen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Schweitzer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Sanders</surname>
+</string-name>. <year>2011</year>. “<article-title>The Variable Effects of Soil Nitrogen Availability and Insect Herbivory on Aboveground and Belowground Plant Biomass in an Old‐Field Ecosystem</article-title>.” <source>Oecologia</source>
+<volume>167</volume>, no. <issue>3</issue>: <fpage>771</fpage>–<lpage>780</lpage>.<pub-id pub-id-type="pmid">21625980</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-011-2028-7</pub-id></mixed-citation></ref><ref id="ece373582-bib-0004"><mixed-citation publication-type="journal" id="ece373582-cit-0004">
+<string-name name-style="western">
+<surname>Boege</surname>, <given-names>K.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Marquis</surname>
+</string-name>. <year>2005</year>. “<article-title>Facing Herbivory as You Grow Up: The Ontogeny of Resistance in Plants</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>20</volume>, no. <issue>8</issue>: <fpage>441</fpage>–<lpage>449</lpage>.<pub-id pub-id-type="pmid">16701415</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tree.2005.05.001</pub-id></mixed-citation></ref><ref id="ece373582-bib-0005"><mixed-citation publication-type="journal" id="ece373582-cit-0005">
+<string-name name-style="western">
+<surname>Brezzi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Schmid</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Niklaus</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Tree Diversity Increases Levels of Herbivore Damage in a Subtropical Forest Canopy: Evidence for Dietary Mixing by Arthropods?</article-title>” <source>Journal of Plant Ecology</source>
+<volume>10</volume>, no. <issue>1</issue>: <fpage>13</fpage>–<lpage>27</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0006"><mixed-citation publication-type="journal" id="ece373582-cit-0006">
+<string-name name-style="western">
+<surname>Byrnes</surname>, <given-names>J. E. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Gamfeldt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Isbell</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Investigating the Relationship Between Biodiversity and Ecosystem Multifunctionality: Challenges and Solutions</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>5</volume>, no. <issue>2</issue>: <fpage>111</fpage>–<lpage>124</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0007"><mixed-citation publication-type="journal" id="ece373582-cit-0007">
+<string-name name-style="western">
+<surname>Castagneyrol</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Bonal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Damien</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Bottom‐Up and Top‐Down Effects of Tree Species Diversity on Leaf Insect Herbivory</article-title>.” <source>Ecology and Evolution</source>
+<volume>7</volume>, no. <issue>10</issue>: <fpage>3520</fpage>–<lpage>3531</lpage>.<pub-id pub-id-type="pmid">28515887</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.2950</pub-id><pub-id pub-id-type="pmcid">PMC5433970</pub-id></mixed-citation></ref><ref id="ece373582-bib-0008"><mixed-citation publication-type="journal" id="ece373582-cit-0008">
+<string-name name-style="western">
+<surname>Castagneyrol</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Giffard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pere</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Plant Apparency, an Overlooked Driver of Associational Resistance to Insect Herbivory</article-title>.” <source>Journal of Ecology</source>
+<volume>101</volume>, no. <issue>2</issue>: <fpage>418</fpage>–<lpage>429</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0009"><mixed-citation publication-type="journal" id="ece373582-cit-0009">
+<string-name name-style="western">
+<surname>Castagneyrol</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. V.</given-names>
+<surname>Kozlov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Poeydebat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Toïgo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jactel</surname>
+</string-name>. <year>2019</year>. “<article-title>Associational Resistance to a Pest Insect Fades With Time</article-title>.” <source>Journal of Pest Science</source>
+<volume>93</volume>, no. <issue>1</issue>: <fpage>427</fpage>–<lpage>473</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0010"><mixed-citation publication-type="book" id="ece373582-cit-0010">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>J. Y.</given-names>
+</string-name>
+<year>2017</year>. <source>Plant Community Types and Functional Diversity of Islands Forests in Eastern China (In Chinese)</source>. Master Thesis. <publisher-name>East China of Normal University</publisher-name>.</mixed-citation></ref><ref id="ece373582-bib-0011"><mixed-citation publication-type="book" id="ece373582-cit-0011">
+<string-name name-style="western">
+<surname>Condit</surname>, <given-names>R.</given-names>
+</string-name>
+<year>1998</year>. “<part-title>The CTFS and the Standardization of Methodology</part-title>.” In <source>Tropical Forest Census Plots. Environmental Intelligence Unit</source>. <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece373582-bib-0012"><mixed-citation publication-type="journal" id="ece373582-cit-0012">
+<string-name name-style="western">
+<surname>Cuevas‐Reyes</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Quesada</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Oyama</surname>
+</string-name>. <year>2004</year>. “<article-title>Spatial Patterns of Herbivory by Gall‐Forming Insects: A Test of the Soil Fertility Hypothesis in a Mexican Tropical Dry Forest</article-title>.” <source>Oikos</source>
+<volume>107</volume>, no. <issue>1</issue>: <fpage>181</fpage>–<lpage>189</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0013"><mixed-citation publication-type="journal" id="ece373582-cit-0013">
+<string-name name-style="western">
+<surname>Díaz</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lavorel</surname>
+</string-name>. <year>2007</year>. “<article-title>Incorporating Plant Functional Diversity Effects in Ecosystem Service Assessment</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>104</volume>, no. <issue>52</issue>: <fpage>20684</fpage>–<lpage>20689</lpage>.<pub-id pub-id-type="pmid">18093933</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0704716104</pub-id><pub-id pub-id-type="pmcid">PMC2410063</pub-id></mixed-citation></ref><ref id="ece373582-bib-0014"><mixed-citation publication-type="journal" id="ece373582-cit-0014">
+<string-name name-style="western">
+<surname>Duffy</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Cardinale</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>France</surname>
+</string-name>. <year>2007</year>. “<article-title>The Functional Role of Biodiversity in Ecosystems: Incorporating Trophic Complexity</article-title>.” <source>Ecology Letters</source>
+<volume>10</volume>, no. <issue>6</issue>: <fpage>522</fpage>–<lpage>538</lpage>.<pub-id pub-id-type="pmid">17498151</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1461-0248.2007.01037.x</pub-id></mixed-citation></ref><ref id="ece373582-bib-0015"><mixed-citation publication-type="journal" id="ece373582-cit-0015">
+<string-name name-style="western">
+<surname>Feller</surname>, <given-names>I. C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>W. N.</given-names>
+<surname>Mathis</surname>
+</string-name>. <year>1997</year>. “<article-title>Primary Herbivory by Wood‐Boring Insects Along an Architectural Gradient of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Rhizophora mangle</italic>
+</styled-content>
+</article-title>.” <source>Biotropica</source>
+<volume>29</volume>, no. <issue>4</issue>: <fpage>440</fpage>–<lpage>451</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0016"><mixed-citation publication-type="journal" id="ece373582-cit-0016">
+<string-name name-style="western">
+<surname>Gaston</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Genney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Thurlow</surname>
+</string-name>, et al. <year>2004</year>. “<article-title>The Geographical Range Structure of the Holly Leaf‐Miners. IV. Effects of Variation in Host‐Plant Quality</article-title>.” <source>Journal of Animal Ecology</source>
+<volume>73</volume>, no. <issue>5</issue>: <fpage>911</fpage>–<lpage>924</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0017"><mixed-citation publication-type="journal" id="ece373582-cit-0017">
+<string-name name-style="western">
+<surname>Ge</surname>, <given-names>S. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. M.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. G.</given-names>
+<surname>Xu</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Effects of Soil pH on Growth, Distribution and Utilization of Carbon and Nitrogen of Malus × Domestica ‘Red Fuji’ (In Chinese)</article-title>.” <source>Journal of Plant Ecology</source>
+<volume>40</volume>, no. <issue>10</issue>: <fpage>1969</fpage>–<lpage>1975</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0018"><mixed-citation publication-type="journal" id="ece373582-cit-0018">
+<string-name name-style="western">
+<surname>Hannus</surname>, <given-names>J. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>N. M.</given-names>
+<surname>Von</surname>
+</string-name>. <year>2008</year>. “<article-title>Vascular Plant Species Richness in Relation to Habitat Diversity and Island Area in the Finnish Archipelago</article-title>.” <source>Journal of Biogeography</source>
+<volume>35</volume>, no. <issue>6</issue>: <fpage>1077</fpage>–<lpage>1086</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0019"><mixed-citation publication-type="journal" id="ece373582-cit-0019">
+<string-name name-style="western">
+<surname>Hector</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Joshi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Scherer‐Lorenzen</surname>
+</string-name>, et al. <year>2007</year>. “<article-title>Biodiversity and Ecosystem Functioning: Reconciling the Results of Experimental and Observational Studies</article-title>.” <source>Functional Ecology</source>
+<volume>21</volume>, no. <issue>5</issue>: <fpage>998</fpage>–<lpage>1002</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0020"><mixed-citation publication-type="journal" id="ece373582-cit-0020">
+<string-name name-style="western">
+<surname>Hooper</surname>, <given-names>D. U.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. S.</given-names>
+<surname>Chapin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Ewel</surname>
+</string-name>. <year>2005</year>. “<article-title>Effects of Biodiversity on Ecosystem Functioning: A Consensus of Current Knowledge</article-title>.” <source>Ecological Monographs</source>
+<volume>75</volume>, no. <issue>1</issue>: <fpage>3</fpage>–<lpage>35</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0021"><mixed-citation publication-type="journal" id="ece373582-cit-0021">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Xu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. B.</given-names>
+<surname>Tian</surname>
+</string-name>. <year>2016</year>. “<article-title>Community Structure for Main Forests in Mount Putuo, Zhejiang Province (In Chinese)</article-title>.” <source>Journal of Zhejiang University of Agriculture and Forestry</source>
+<volume>33</volume>, no. <issue>5</issue>: <fpage>768</fpage>–<lpage>777</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0051"><mixed-citation publication-type="journal" id="ece373582-cit-0051">
+<string-name name-style="western">
+<surname>Hyatt</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Rosenberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. G.</given-names>
+<surname>Howard</surname>
+</string-name>, et al. <year>2003</year>. “<article-title>The Distance Dependence Prediction of the Janzen‐Connell Hypothesis: A Meta‐Analysis</article-title>.” <source>Oikos</source>
+<volume>103</volume>, no. <issue>3</issue>: <fpage>590</fpage>–<lpage>602</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0022"><mixed-citation publication-type="journal" id="ece373582-cit-0022">
+<string-name name-style="western">
+<surname>Jactel</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Koricheva</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bastien</surname>
+</string-name>. <year>2020</year>. “<article-title>Responses of Forest Insect Pests to Climate Change: Not So Simple</article-title>.” <source>Current Opinion in Insect Science</source>
+<volume>35</volume>: <fpage>103</fpage>–<lpage>108</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cois.2019.07.010</pub-id><pub-id pub-id-type="pmid">31454625</pub-id></mixed-citation></ref><ref id="ece373582-bib-0023"><mixed-citation publication-type="journal" id="ece373582-cit-0023">
+<string-name name-style="western">
+<surname>Jared</surname>, <given-names>G. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. A.</given-names>
+<surname>Anurag</surname>
+</string-name>. <year>2012</year>. “<article-title>Specialist Versus Generalist Insect Herbivores and Plant Defense</article-title>.” <source>Trends in Plant Science</source>
+<volume>17</volume>, no. <issue>5</issue>: <fpage>293</fpage>–<lpage>302</lpage>.<pub-id pub-id-type="pmid">22425020</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tplants.2012.02.006</pub-id></mixed-citation></ref><ref id="ece373582-bib-0024"><mixed-citation publication-type="journal" id="ece373582-cit-0024">
+<string-name name-style="western">
+<surname>Kreft</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Jetz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Mutke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Kier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Barthlott</surname>
+</string-name>. <year>2008</year>. “<article-title>Global Diversity of Island Floras From a Macroecological Perspective</article-title>.” <source>Ecology Letters</source>
+<volume>11</volume>, no. <issue>2</issue>: <fpage>116</fpage>–<lpage>127</lpage>.<pub-id pub-id-type="pmid">18036182</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1461-0248.2007.01129.x</pub-id></mixed-citation></ref><ref id="ece373582-bib-0025"><mixed-citation publication-type="journal" id="ece373582-cit-0025">
+<string-name name-style="western">
+<surname>Leckey</surname>, <given-names>E. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Nufio</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Oak Insect Herbivore Interactions Along a Temperature and Precipitation Gradient</article-title>.” <source>Acta Ecologica</source>
+<volume>61</volume>: <fpage>1</fpage>–<lpage>8</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0026"><mixed-citation publication-type="journal" id="ece373582-cit-0026">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Andreas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schuldt</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>The Tree Growth‐Herbivory Relationship Depends on Functional Traits Across Forest Biodiversity Experiments</article-title>.” <source>Nature Ecology &amp; Evolution</source>
+<volume>9</volume>: <fpage>2014</fpage>–<lpage>2024</lpage>.<pub-id pub-id-type="pmid">40855229</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41559-025-02835-z</pub-id></mixed-citation></ref><ref id="ece373582-bib-0027"><mixed-citation publication-type="journal" id="ece373582-cit-0027">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Chase</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Global Insect Herbivory and Its Response to Climate Change</article-title>.” <source>Current Biology</source>
+<volume>34</volume>, no. <issue>12</issue>: <fpage>2558</fpage>–<lpage>2569</lpage>.<pub-id pub-id-type="pmid">38776900</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cub.2024.04.062</pub-id></mixed-citation></ref><ref id="ece373582-bib-0028"><mixed-citation publication-type="journal" id="ece373582-cit-0028">
+<string-name name-style="western">
+<surname>Loughnan</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Williams</surname>
+</string-name>. <year>2019</year>. “<article-title>Climate and Leaf Traits, Not Latitude, Explain Variation in Plant‐Herbivore Interactions Across a Species' Range</article-title>.” <source>Journal of Ecology</source>
+<volume>107</volume>, no. <issue>5</issue>: <fpage>913</fpage>–<lpage>922</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0029"><mixed-citation publication-type="journal" id="ece373582-cit-0029">
+<string-name name-style="western">
+<surname>Martini</surname>, <given-names>F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>U. M.</given-names>
+<surname>Goodale</surname>
+</string-name>. <year>2020</year>. “<article-title>Leaf Damage by Herbivore Feeding Guilds Along Gradients of Elevation and Plant Species Richness</article-title>.” <source>Biotropica</source>
+<volume>52</volume>, no. <issue>6</issue>: <fpage>1115</fpage>–<lpage>1120</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0030"><mixed-citation publication-type="journal" id="ece373582-cit-0030">
+<string-name name-style="western">
+<surname>Muiruri</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Barantal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. R.</given-names>
+<surname>Iason</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Salminen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Perez‐Fernandez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Koricheva</surname>
+</string-name>. <year>2019</year>. “<article-title>Forest Diversity Effects on Insect Herbivores: Do Leaf Traits Matter?</article-title>” <source>New Phytologist</source>
+<volume>221</volume>, no. <issue>4</issue>: <fpage>2250</fpage>–<lpage>2260</lpage>.<pub-id pub-id-type="pmid">30347456</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/nph.15558</pub-id><pub-id pub-id-type="pmcid">PMC6590441</pub-id></mixed-citation></ref><ref id="ece373582-bib-0031"><mixed-citation publication-type="journal" id="ece373582-cit-0031">
+<string-name name-style="western">
+<surname>Oksanen</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. G.</given-names>
+<surname>Blanchet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kindt</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Vegan: Community Ecology Package</article-title>.” <source>R Package Version</source>
+<volume>2</volume>, no. <issue>1</issue>: <fpage>321</fpage>–<lpage>326</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0032"><mixed-citation publication-type="journal" id="ece373582-cit-0032">
+<string-name name-style="western">
+<surname>Poeydebat</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jactel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Moreira</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Climate Affects Neighbour‐Induced Changes in Leaf Chemical Defences and Tree Diversity Herbivory Relationships</article-title>.” <source>Functional Ecology</source>
+<volume>35</volume>, no. <issue>1</issue>: <fpage>67</fpage>–<lpage>81</lpage>.<pub-id pub-id-type="pmid">33746332</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1365-2435.13700</pub-id><pub-id pub-id-type="pmcid">PMC7610350</pub-id></mixed-citation></ref><ref id="ece373582-bib-0033"><mixed-citation publication-type="book" id="ece373582-cit-0033">
+<collab collab-type="authors">R Core Team</collab>
+. <year>2020</year>. <source>R: A Language and Environment for Statistical Computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece373582-bib-0034"><mixed-citation publication-type="journal" id="ece373582-cit-0034">
+<string-name name-style="western">
+<surname>Sam</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Jorge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Koane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. K.</given-names>
+<surname>Amick</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Sivault</surname>
+</string-name>. <year>2023</year>. “<article-title>Vertebrates, but Not Ants, Protect Rainforest From Herbivorous Insects Across Elevations in Papua New Guinea</article-title>.” <source>Journal of Biogeography</source>
+<volume>50</volume>, no. <issue>10</issue>: <fpage>1803</fpage>–<lpage>1816</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0035"><mixed-citation publication-type="journal" id="ece373582-cit-0035">
+<string-name name-style="western">
+<surname>Schuldt</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Baruffol</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Böhnke</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Tree Diversity Promotes Insect Herbivory in Subtropical Forests of South‐East China</article-title>.” <source>Journal of Ecology</source>
+<volume>98</volume>, no. <issue>4</issue>: <fpage>917</fpage>–<lpage>926</lpage>.<pub-id pub-id-type="pmid">20852667</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-2745.2010.01659.x</pub-id><pub-id pub-id-type="pmcid">PMC2936109</pub-id></mixed-citation></ref><ref id="ece373582-bib-0036"><mixed-citation publication-type="journal" id="ece373582-cit-0036">
+<string-name name-style="western">
+<surname>Shen</surname>, <given-names>Z.‐Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.‐H.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐Q.</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Effects of Neighborhood Diversity on Herbivory in Early‐Stage Forests in Southern China</article-title>.” <source>Plant Diversity</source>
+<volume>25</volume>: <elocation-id>1258</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pld.2025.09.008</pub-id><pub-id pub-id-type="pmcid">PMC13071431</pub-id><pub-id pub-id-type="pmid">41982287</pub-id></mixed-citation></ref><ref id="ece373582-bib-0037"><mixed-citation publication-type="journal" id="ece373582-cit-0037">
+<string-name name-style="western">
+<surname>Silva</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Neves</surname>
+</string-name>. <year>2014</year>. “<article-title>Insect Herbivores Associated With an Evergreen Tree <italic toggle="yes">Goniorrhachis marginata</italic> Taub.(Leguminosae: Caesalpinioideae) in a Tropical Dry Forest</article-title>.” <source>Brazilian Journal of Biology</source>
+<volume>74</volume>, no. <issue>2</issue>: <fpage>623</fpage>–<lpage>631</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1590/bjb.2014.0093</pub-id><pub-id pub-id-type="pmid">25296211</pub-id></mixed-citation></ref><ref id="ece373582-bib-0038"><mixed-citation publication-type="journal" id="ece373582-cit-0038">
+<string-name name-style="western">
+<surname>Sobek</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Scherber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Steffan‐Dewenter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Tscharntke</surname>
+</string-name>. <year>2009</year>. “<article-title>Sapling Herbivory, Invertebrate Herbivores and Predators Across a Natural Tree Diversity Gradient in Germany's Largest Connected Deciduous Forest</article-title>.” <source>Oecologia</source>
+<volume>160</volume>, no. <issue>2</issue>: <fpage>279</fpage>–<lpage>288</lpage>.<pub-id pub-id-type="pmid">19238448</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-009-1304-2</pub-id><pub-id pub-id-type="pmcid">PMC3085765</pub-id></mixed-citation></ref><ref id="ece373582-bib-0052"><mixed-citation publication-type="journal" id="ece373582-cit-0052">
+<string-name name-style="western">
+<surname>Tan</surname>, <given-names>R. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Belmonte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Benjamin</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Optimization of Enhanced Weathering Networks With Alternative Transportation Modes</article-title>.” <source>Carbon Resources Conversion</source>
+<volume>5</volume>, no. <issue>2</issue>: <fpage>167</fpage>–<lpage>176</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0039"><mixed-citation publication-type="journal" id="ece373582-cit-0039">
+<string-name name-style="western">
+<surname>Vehviläinen</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Koricheva</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ruohomaki</surname>
+</string-name>. <year>2007</year>. “<article-title>Tree Species Diversity Influences Herbivore Abundance and Damage: Meta‐Analysis of Long‐Term Forest Experiments</article-title>.” <source>Oecologia</source>
+<volume>152</volume>, no. <issue>3</issue>: <fpage>287</fpage>–<lpage>298</lpage>.<pub-id pub-id-type="pmid">17356813</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-007-0673-7</pub-id></mixed-citation></ref><ref id="ece373582-bib-0053"><mixed-citation publication-type="journal" id="ece373582-cit-0053">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Heat Tolerance in Tropical Moths Varies With Micro‐Climate, Life Stage and Larval Feeding Strategy</article-title>.” <source>Biology Letters</source>
+<volume>21</volume>, no. <issue>11</issue>: <elocation-id>20250460</elocation-id>.<pub-id pub-id-type="pmid">41187930</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rsbl.2025.0460</pub-id><pub-id pub-id-type="pmcid">PMC12585853</pub-id></mixed-citation></ref><ref id="ece373582-bib-0040"><mixed-citation publication-type="journal" id="ece373582-cit-0040">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z. M.</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. H.</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Distribution Characteristics and Influence Factors of Alpine Steppe Ecosystem Vegetation C/P in Tibetan Plateau (In Chinese)</article-title>.” <source>Journal of Agriculture</source>
+<volume>4</volume>, no. <issue>2</issue>: <fpage>55</fpage>–<lpage>62</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0041"><mixed-citation publication-type="journal" id="ece373582-cit-0041">
+<string-name name-style="western">
+<surname>Warren</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Simberloff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Ricklefs</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Islands as Model Systems in Ecology and Evolution: Prospects Fifty Years After MacArthur‐Wilson</article-title>.” <source>Ecology Letters</source>
+<volume>18</volume>, no. <issue>2</issue>: <fpage>200</fpage>–<lpage>217</lpage>.<pub-id pub-id-type="pmid">25560682</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ele.12398</pub-id></mixed-citation></ref><ref id="ece373582-bib-0042"><mixed-citation publication-type="journal" id="ece373582-cit-0042">
+<string-name name-style="western">
+<surname>Weisser</surname>, <given-names>W. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Siemann</surname>
+</string-name>. <year>2008</year>. “<article-title>The Various Effects of Insects on Ecosystem Functioning</article-title>.” <source>Insect and Ecology Function</source>
+<volume>173</volume>, no. <issue>1</issue>: <fpage>3</fpage>–<lpage>24</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0043"><mixed-citation publication-type="book" id="ece373582-cit-0043">
+<string-name name-style="western">
+<surname>Whittaker</surname>, <given-names>R. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Fernundez‐Palacios</surname>
+</string-name>. <year>2007</year>. <source>Island Biogeography: Ecology, Evolution, and Conservation</source>. <edition designator="2">2nd ed</edition>. <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref><ref id="ece373582-bib-0044"><mixed-citation publication-type="journal" id="ece373582-cit-0044">
+<string-name name-style="western">
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Maire</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Global Climatic Drivers of Leaf Size</article-title>.” <source>Science</source>
+<volume>357</volume>, no. <issue>6354</issue>: <fpage>917</fpage>–<lpage>921</lpage>.<pub-id pub-id-type="pmid">28860384</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aal4760</pub-id></mixed-citation></ref><ref id="ece373582-bib-0045"><mixed-citation publication-type="journal" id="ece373582-cit-0045">
+<string-name name-style="western">
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Reich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Westoby</surname>
+</string-name>, et al. <year>2004</year>. “<article-title>The Worldwide Leaf Economics Spectrum</article-title>.” <source>Nature</source>
+<volume>428</volume>, no. <issue>6985</issue>: <fpage>821</fpage>–<lpage>827</lpage>.<pub-id pub-id-type="pmid">15103368</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature02403</pub-id></mixed-citation></ref><ref id="ece373582-bib-0046"><mixed-citation publication-type="journal" id="ece373582-cit-0046">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>Y. X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ding</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Effects of Nitrogen Inputs and Mowing on the Abundance and Species Richness of Herbivorous Insects in a Meadow Steppe</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>34</volume>, no. <issue>7</issue>: <fpage>1975</fpage>–<lpage>1980</lpage>.<pub-id pub-id-type="pmid">37694482</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.13287/j.1001-9332.202307.009</pub-id></mixed-citation></ref><ref id="ece373582-bib-0047"><mixed-citation publication-type="journal" id="ece373582-cit-0047">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. R.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. X.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Canopy Height, Rather Than Neighbourhood Effects, Shapes Leaf Herbivory in a Tropical Rainforest</article-title>.” <source>Ecology</source>
+<volume>104</volume>, no. <issue>5</issue>: <elocation-id>e4028</elocation-id>.<pub-id pub-id-type="pmid">36898962</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ecy.4028</pub-id></mixed-citation></ref><ref id="ece373582-bib-0048"><mixed-citation publication-type="journal" id="ece373582-cit-0048">
+<string-name name-style="western">
+<surname>Zheng</surname>, <given-names>L. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. Y. H.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. R.</given-names>
+<surname>Yan</surname>
+</string-name>. <year>2019</year>. “<article-title>Tree Species Diversity Promotes Litterfall Productivity Through Crown Complementarity in Subtropical Forests</article-title>.” <source>Journal of Ecology</source>
+<volume>107</volume>, no. <issue>5</issue>: <fpage>1852</fpage>–<lpage>1861</lpage>.</mixed-citation></ref><ref id="ece373582-bib-0049"><mixed-citation publication-type="book" id="ece373582-cit-0049">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>X.‐T.</given-names>
+</string-name>
+<year>2020</year>. <source>Distribution Pattern and Determinants of Species and Functional Diversity of Woody Plants in Zhoushan Islands (In Chinese)</source>. Master Thesis. <publisher-name>East China of Normal University</publisher-name>.</mixed-citation></ref><ref id="ece373582-bib-0050"><mixed-citation publication-type="journal" id="ece373582-cit-0050">
+<string-name name-style="western">
+<surname>Zverev</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Zvereva</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. V.</given-names>
+<surname>Kozlov</surname>
+</string-name>. <year>2017</year>. “<article-title>Ontogenetic Changes in Insect Herbivory in Birch (<italic toggle="yes">Betula pubesecens</italic>): The Importance of Plant Apparency</article-title>.” <source>Functional Ecology</source>
+<volume>31</volume>, no. <issue>12</issue>: <fpage>2224</fpage>–<lpage>2232</lpage>.</mixed-citation></ref></ref-list></back></article>

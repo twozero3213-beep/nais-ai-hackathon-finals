@@ -1,0 +1,277 @@
+{
+  "status": "PASS",
+  "version": "V69",
+  "primary_repeated_measurement": {
+    "baseline": {
+      "version": "V68",
+      "query": "research data",
+      "split": "development",
+      "warmup_requests": 1,
+      "measured_requests": 3,
+      "seconds": [
+        8.52331169997342,
+        8.395293300040066,
+        8.707799699855968
+      ],
+      "median_seconds": 8.52331169997342,
+      "result_digests": [
+        "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b"
+      ],
+      "conditions": "Separate Python process; one warmup then three sequential requests; other agent CPU tests paused by coordinator; OS/background processes not fully controlled"
+    },
+    "candidate": {
+      "version": "V69",
+      "query": "research data",
+      "split": "development",
+      "warmup_requests": 1,
+      "measured_requests": 3,
+      "seconds": [
+        5.016045399941504,
+        4.89086820022203,
+        4.875575300073251
+      ],
+      "median_seconds": 4.89086820022203,
+      "result_digests": [
+        "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+        "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b"
+      ],
+      "conditions": "Separate Python process; one warmup then three sequential serialized requests; other agent CPU tests paused by coordinator; OS/background processes not fully controlled"
+    },
+    "median_ratio_before_over_after": 1.7426991182437686,
+    "median_time_reduction_fraction": 0.4261774797890727,
+    "same_result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b"
+  },
+  "earlier_single_sequence": {
+    "before": {
+      "version": "V68 implementation on unchanged V69 input",
+      "single": [
+        {
+          "query": "research data",
+          "split": "development",
+          "seconds": 10.734330999897793,
+          "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+          "count": 10
+        },
+        {
+          "query": "research data",
+          "split": "development",
+          "seconds": 9.203789999941364,
+          "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+          "count": 10
+        }
+      ],
+      "sequential_seconds": 19.938687599962577,
+      "four_concurrent": [
+        {
+          "query": "research data",
+          "split": "development",
+          "seconds": 31.472518400056288,
+          "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+          "count": 10
+        },
+        {
+          "query": "climate model",
+          "split": "validation",
+          "seconds": 30.093929500086233,
+          "result_digest": "838fb078cb2ac53cb265364300fb26fa8840802c0943a797a6bd437d2cc952d9",
+          "count": 10
+        },
+        {
+          "query": "statistical inference",
+          "split": "development",
+          "seconds": 24.815023500006646,
+          "result_digest": "d367640e45074f4d82825ac0b1625d1d350648aa1a7f005ca390d63345a7dd20",
+          "count": 10
+        },
+        {
+          "query": "metadata",
+          "split": "validation",
+          "seconds": 29.104996599955484,
+          "result_digest": "42e5e7db86a3b5a39984740eb7b5b556169f9067d268ca0cc7ccbeea97323ba7",
+          "count": 10
+        }
+      ],
+      "four_wall_seconds": 31.569109400035813,
+      "corpus_sha256": "387cc319c722f84bce2b03979ab1ed4d77c94631154f18662541ce8b94a4acb1",
+      "conditions": "Same interpreter/root/queries; integrity enabled; no team-write/upload workload; OS filesystem cache uncontrolled"
+    },
+    "after_serialized": {
+      "version": "V69 serialized snapshot/search final",
+      "single": [
+        {
+          "query": "research data",
+          "split": "development",
+          "seconds": 9.517443499993533,
+          "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+          "count": 10
+        },
+        {
+          "query": "research data",
+          "split": "development",
+          "seconds": 3.98089350014925,
+          "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+          "count": 10
+        }
+      ],
+      "sequential_seconds": 13.499168100068346,
+      "four_submitted_requests": [
+        {
+          "query": "research data",
+          "split": "development",
+          "seconds": 4.039028000086546,
+          "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+          "count": 10
+        },
+        {
+          "query": "climate model",
+          "split": "validation",
+          "seconds": 6.544652400072664,
+          "result_digest": "838fb078cb2ac53cb265364300fb26fa8840802c0943a797a6bd437d2cc952d9",
+          "count": 10
+        },
+        {
+          "query": "statistical inference",
+          "split": "development",
+          "seconds": 10.57127709989436,
+          "result_digest": "d367640e45074f4d82825ac0b1625d1d350648aa1a7f005ca390d63345a7dd20",
+          "count": 10
+        },
+        {
+          "query": "metadata",
+          "split": "validation",
+          "seconds": 13.476388199953362,
+          "result_digest": "42e5e7db86a3b5a39984740eb7b5b556169f9067d268ca0cc7ccbeea97323ba7",
+          "count": 10
+        }
+      ],
+      "four_wall_seconds": 14.034193799830973,
+      "request_source_checks": [
+        {
+          "source_files_hashed": 644,
+          "source_bytes_hashed": 98035492,
+          "reconstruction_cache_hit": false
+        },
+        {
+          "source_files_hashed": 644,
+          "source_bytes_hashed": 98035492,
+          "reconstruction_cache_hit": true
+        },
+        {
+          "source_files_hashed": 644,
+          "source_bytes_hashed": 98035492,
+          "reconstruction_cache_hit": true
+        },
+        {
+          "source_files_hashed": 644,
+          "source_bytes_hashed": 98035492,
+          "reconstruction_cache_hit": true
+        },
+        {
+          "source_files_hashed": 644,
+          "source_bytes_hashed": 98035492,
+          "reconstruction_cache_hit": true
+        },
+        {
+          "source_files_hashed": 644,
+          "source_bytes_hashed": 98035492,
+          "reconstruction_cache_hit": true
+        }
+      ],
+      "same_default_results_as_v68": true,
+      "warm_speedup": 2.311991013976209,
+      "four_wall_ratio_before_over_after": 2.249442315697253,
+      "memory_measurement": {
+        "api_success": true,
+        "peak_working_set_bytes": 896212992,
+        "working_set_bytes": 219140096,
+        "scope": "One input corpus plus cold and warm searches and four queued requests in this process; UI may independently load additional input corpora; no matched V68 memory sample"
+      },
+      "corpus_file_bytes": 62034858,
+      "corpus_sha256": "fb8de6c5112709069f42ba2b7e34ed5fc6267d0a2750cc0759334b4cc31e157c",
+      "conditions": "Same interpreter/root/default queries/unchanged XML. V69 additionally stores optional tables. OS file cache uncontrolled. Four submitted requests are serialized from before JSON snapshot creation through result completion; queue wait included, not parallel throughput or team-write/upload performance."
+    },
+    "conditions_note": "Other agent CPU tests may have overlapped portions of this earlier sequence; observations not strictly controlled. Repeated comparison above is primary."
+  },
+  "unadopted_parallel_snapshot_experiment": "data/research_corpus/performance_experiment.json",
+  "memory": {
+    "final_observed_peak_bytes": 896212992,
+    "unadopted_peak_bytes": 1748336640,
+    "scope": "One input corpus plus cold and warm searches and four queued requests in this process; UI may independently load additional input corpora; no matched V68 memory sample",
+    "limitation": "Not a matched V68 memory comparison; separate UI input-corpus loads remain outside search-lock bound"
+  },
+  "cache_contract": "Entire search serialized before JSON snapshot through result completion. Cache max4 small report JSONs only. Every nonempty request hashes all644 original XML byte contents; no mtime validity. Cold reconstruction parses those same bytes.",
+  "extraction": {
+    "records": 900,
+    "fulltext": 644,
+    "bibliography_only": 256,
+    "passages": 50091,
+    "splits": {
+      "development": 720,
+      "validation": 180
+    },
+    "parsed_fulltext": 644,
+    "parse_failures": 0,
+    "table_candidates": 29501
+  },
+  "regression": {
+    "fail_before": "4 failed,1 passed in1.05s: missing explicit table/boundary/synonym paths",
+    "core_with_prior": "V69 core9+V68 core19 passed28 in1.08s before final lock case",
+    "ui_with_prior": "V69 UI1+V68 UI9 passed10 in26.16s",
+    "final_focused": "V69 core10+V68 core19+V69 UI1 passed30 in7.64s",
+    "small_scale": "Synthetic XML approximately5xbytes, all actual bytes still checked; not duplicated900papers",
+    "race": "Warm identical-size/mtime byte change blocked; root isolation; failed cache not published; cold same-byte snapshot; 4queued requests isolated; returned-dict mutation does not leak"
+  },
+  "actual_options": {
+    "status": "PASS",
+    "tables": {
+      "result_count": 100,
+      "table_candidates_returned": 96,
+      "example_doi": "10.1001/jamanetworkopen.2020.0265",
+      "source_locator": "body-descendant-table-wrap#1/descendant-tr#1"
+    },
+    "synonyms": {
+      "query": "재현성",
+      "expanded_terms": [
+        "reproducibility"
+      ],
+      "result_count": 10,
+      "source": "NAIS_MANUAL_TERMS_V69_1"
+    },
+    "boundary": "Synthetic unique token and adjacent-paragraph source_ranges tests pass; no real-corpus recall accuracy claim",
+    "verification": {
+      "status": "PASS",
+      "records": 900,
+      "fulltext": 644,
+      "bibliography_only": 256,
+      "passages": 50091,
+      "splits": {
+        "development": 720,
+        "validation": 180
+      },
+      "parsed_fulltext": 644,
+      "parse_failures": 0,
+      "table_candidates": 29501,
+      "content_sha256": "9d579f6947888c17a10fe856a645d9c6955ec538dbe40c68bd7754c7fe05e49d",
+      "validation_scope": "All selected source bytes hashed every request; reconstruction reused only for verified matching snapshots; not authentication or reproduction",
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": true
+    }
+  },
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "limits": [
+    "One local host and three warm observations per version, not population-level performance estimate",
+    "OS file cache/background activity not fully controlled even with other agent CPU tests paused",
+    "Four submitted searches queue under global lock: not parallel throughput or team-write/upload scalability",
+    "Tables are lexical caption/header/cells only; no rowspan/colspan numeric interpretation",
+    "Boundary snippets expose exact normalized source_ranges; partial neighbors are not one synthesized paper claim",
+    "Synonyms are six fixed manual term pairs, not translation/semantic accuracy guarantees",
+    "Original manifest plus all XML/hash replacement is outside local integrity authentication"
+  ]
+}

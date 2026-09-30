@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "claim_id": "RAW-ROWS",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "penguins_raw/penguins paragraph",
+      "claim_text": "penguins_raw contains 17 variables and 344 individuals",
+      "data_file": "data/evaluation/comparison/raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "oracle_mapping_supplied": true
+    },
+    {
+      "claim_id": "CURATED-ROWS",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "penguins_raw/penguins paragraph",
+      "claim_text": "penguins contains 8 variables and 344 observations",
+      "data_file": "data/evaluation/comparison/curated.csv",
+      "data_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "oracle_mapping_supplied": true
+    },
+    {
+      "claim_id": "RAW-WITH-CURATED",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "penguins_raw/penguins paragraph",
+      "claim_text": "penguins_raw contains 17 variables and 344 individuals",
+      "data_file": "data/evaluation/comparison/curated.csv",
+      "data_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "oracle_mapping_supplied": true
+    },
+    {
+      "claim_id": "CURATED-WITH-RAW",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "penguins_raw/penguins paragraph",
+      "claim_text": "penguins contains 8 variables and 344 observations",
+      "data_file": "data/evaluation/comparison/raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "oracle_mapping_supplied": true
+    }
+  ]
+}

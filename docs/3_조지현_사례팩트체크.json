@@ -1,0 +1,159 @@
+{
+  "contributor_number": 3,
+  "contributor": "조지현",
+  "recorded_at_kst": "2026-09-30T21:39:22+09:00",
+  "document": "docs/3_조지현_필요성_차별점_사례팩트체크.md",
+  "methods": [
+    "Crossref REST API 24개 DOI 조회",
+    "Europe PMC 초록·본문 조회",
+    "공식 공지·보도 직접 열람",
+    "저자 GitHub 파일 원문 조회"
+  ],
+  "not_executed": [
+    "우리 제품으로 사례 재계산",
+    "GPT·Claude 동일 조건 비교",
+    "연구원 사용자 조사",
+    "효과(시간·오류 감소) 측정"
+  ],
+  "error_cases": [
+    {
+      "id": "A1",
+      "doi": "10.1038/sdata.2016.120",
+      "notice_doi": "10.1038/sdata.2017.119",
+      "published": "2017-01-31",
+      "notice": "correction 2017-09-05",
+      "cause": "재코딩 SES 변수를 주효과 구문에 쓰지 않아 부호 반대",
+      "outcome": "주 결론 유지",
+      "level": "원문",
+      "verified": true
+    },
+    {
+      "id": "A2",
+      "doi": "10.1111/evo.14483",
+      "notice_doi": "10.1093/evolut/qpad182",
+      "published": "2022-04-25",
+      "notice": "expression_of_concern 2023-08-29; retraction_and_replacement 2023-11-24 (print 2024-01-04)",
+      "cause": "계통수 끝 이름과 자료 대응 실패",
+      "outcome": "여러 상관 결과 소멸·해석 변경, 부정행위 아님 명시",
+      "level": "원문",
+      "verified": true
+    },
+    {
+      "id": "A3",
+      "doi": "10.1186/s43170-021-00038-7",
+      "notice_doi": "10.1186/s43170-021-00052-9",
+      "published": "2021-05-20",
+      "notice": "correction 2021-08-19",
+      "cause": "헥타르 대신 제곱킬로미터 비용 적용(60배), 해충 1종 전사 오류·분포 미보정",
+      "outcome": "3.66조 → 655.8억 달러",
+      "level": "원문(기사)",
+      "verified": true
+    },
+    {
+      "id": "A4",
+      "doi": "10.1038/s41586-025-09047-2",
+      "notice_doi": "10.1038/s41586-026-11027-z",
+      "published": "2025-06-04",
+      "notice": "retraction 2026-09-02",
+      "cause": "면적 가중 미적용·GLEAM v3/4 혼용·날짜 처리 코드 오류·마스크 설명 부족",
+      "outcome": "철회 후 수정본 재투고 예정",
+      "level": "원문",
+      "verified": true
+    },
+    {
+      "id": "A5",
+      "doi": "10.1038/ncomms15361",
+      "notice_doi": "10.1038/s41467-026-72301-2",
+      "published": "2017-05-17",
+      "notice": "correction 2026-05-05",
+      "cause": "체장 값을 다른 개체에 연결",
+      "outcome": "주요 결론 변화 없음",
+      "level": "원문",
+      "verified": true
+    },
+    {
+      "id": "A6",
+      "doi": "10.1111/gcb.12697",
+      "published": "2014-08-18",
+      "notice": "retraction 2015 (Crossref online 2015-02-17)",
+      "cause": "표본 편향 보정 귀무 모형 코드 오류",
+      "outcome": "광역 결론 무효",
+      "level": "초록",
+      "verified": true,
+      "note": "이 DOI의 Crossref 제목은 철회문"
+    },
+    {
+      "id": "A7",
+      "doi": "10.3390/agriculture14091617",
+      "notice_doi": "10.3390/agriculture15090911",
+      "published": "2024-09-14",
+      "notice": "correction 2025-04-22",
+      "cause": "48.8%(1.59/3.26) 계산 오류, 그림 1 이미지 수 정정",
+      "outcome": "결론 영향 없음",
+      "level": "요약만",
+      "verified": false,
+      "note": "출판사 원문 자동 조회 차단. 1.26→1.24·표 행 복사 문제 미확인"
+    }
+  ],
+  "corrections_to_prior_documents": [
+    {
+      "document": "로컬 03_조지현_AI논문대조오류_사례집(21:35)",
+      "item": "Sakana 평가 57%",
+      "fix": "Beel 외 평가는 2024년 공개판 대상. 57% 미확인으로 삭제"
+    },
+    {
+      "document": "로컬 03_조지현_AI논문대조오류_사례집(21:35)",
+      "item": "OpenScholar 날짜",
+      "fix": "온라인 2026-02-04(인쇄 2026-02-26)"
+    },
+    {
+      "document": "로컬 03_조지현_AI논문대조오류_사례집(21:35)",
+      "item": "영장류 논문",
+      "fix": "철회 후 수정본 재게재, 부정행위 아님, 2023-08-29 우려 표명 선행"
+    },
+    {
+      "document": "로컬 03_조지현_AI논문대조오류_사례집(21:35)",
+      "item": "Deloitte 호주 세부",
+      "fix": "GPT-4o 공개·발견자 정보 미확인으로 삭제"
+    },
+    {
+      "document": "1 이채우 원출처 목록",
+      "item": "A2 명칭",
+      "fix": "원문 제목은 Corrigendum"
+    },
+    {
+      "document": "1 이채우 원출처 목록",
+      "item": "B 이력",
+      "fix": "2023-08-29 우려 표명 추가"
+    },
+    {
+      "document": "1 이채우 원출처 목록",
+      "item": "B2 커밋",
+      "fix": "고정 커밋은 README만 변경. R 파일은 그 시점 트리에 존재(53행 match)"
+    },
+    {
+      "document": "1 이채우 원출처 목록",
+      "item": "C1",
+      "fix": "2026-04-23 정정 공지 존재"
+    },
+    {
+      "document": "3 조지현 농업 오류 사례 문서",
+      "item": "B 목화",
+      "fix": "정정 세부 일부 원문 미확인"
+    },
+    {
+      "document": "3 조지현 농업 오류 사례 문서",
+      "item": "D 식물 DOI",
+      "fix": "Crossref 제목이 철회문"
+    },
+    {
+      "document": "3 조지현 농업 오류 사례 문서",
+      "item": "Paper Correctness Checker",
+      "fix": "논문 제목 To Err Is Human (arXiv 2512.05925)"
+    }
+  ],
+  "product_self_check": {
+    "updated_by_missing": "core/research_watch.py fetch_metadata가 Crossref updated-by 미저장. 10.1111/evo.14483 조회 시 updates=[], relations={} (2026-09-30 재현)",
+    "scope": "사전 검토 대상 자료 코드 기준. 본선 저장소 미편입"
+  }
+}

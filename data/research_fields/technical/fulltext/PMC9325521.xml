@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-title-group><journal-title>Health Economics</journal-title><abbrev-journal-title>Health Econ</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9325521</article-id><article-id pub-id-type="pmcaid">9325521</article-id><article-id pub-id-type="pmcaiid">9325521</article-id><article-id pub-id-type="pmid">35368119</article-id><article-id pub-id-type="doi">10.1002/hec.4510</article-id><title-group><article-title>Linear mixed models to handle missing at random data in trial‐based economic evaluations</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Gabrio</surname><given-names initials="A">Andrea</given-names></name><xref ref-type="aff" rid="hec4510-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Plumpton</surname><given-names initials="C">Catrin</given-names></name><xref ref-type="aff" rid="hec4510-aff-0002">2</xref></contrib><contrib><name name-style="western"><surname>Banerjee</surname><given-names initials="S">Sube</given-names></name><xref ref-type="aff" rid="hec4510-aff-0003">3</xref></contrib><contrib><name name-style="western"><surname>Leurent</surname><given-names initials="B">Baptiste</given-names></name><xref ref-type="aff" rid="hec4510-aff-0004">4</xref><xref ref-type="aff" rid="hec4510-aff-0005">5</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib></contrib-group><aff id="hec4510-aff-0001"><label>
+<sup>1</sup>
+</label>Department of Methodology and Statistics, Faculty of Health Medicine and Life Science, Maastricht University, Maastricht, The Netherlands</aff><aff id="hec4510-aff-0002"><label>
+<sup>2</sup>
+</label>Centre for Health Economics and Medicines Evaluation, Bangor University, Bangor, UK</aff><aff id="hec4510-aff-0003"><label>
+<sup>3</sup>
+</label>Faculty of Health, University of Plymouth, Plymouth, UK</aff><aff id="hec4510-aff-0004"><label>
+<sup>4</sup>
+</label>Department of Medical Statistics, London School of Hygiene and Tropical Medicine, London, UK</aff><aff id="hec4510-aff-0005"><label>
+<sup>5</sup>
+</label>MRC International Statistics and Epidemiology Group, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, UK</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+<bold>Correspondence</bold>
+, 
+Baptiste Leurent, University College London, Gower Street, London WC1E 6BT, UK. 
+Email: 
+
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>2</day><month>4</month><year>2022</year></pub-date><volume>31</volume><issue>6</issue><fpage>1276</fpage><page-range>1276–1287</page-range><pub-history><event event-type="pmc-release"><date><day>30</day><month>7</month><year>2022</year></date></event></pub-history><permissions><copyright-statement>© 2022 The Authors. Health Economics published by John Wiley &amp; Sons Ltd.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HEC-31-1276.pdf" content-type="pmc-pdf"><?cloudpmc-path 8702/9325521/63ea38603d0e/HEC-31-1276.pdf?><?cloudpmc-bucket app?><?size 651665?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Trial‐based cost‐effectiveness analyses (CEAs) are an important source of evidence in the assessment of health interventions. In these studies, cost and effectiveness outcomes are commonly measured at multiple time points, but some observations may be missing. Restricting the analysis to the participants with complete data can lead to biased and inefficient estimates. Methods, such as multiple imputation, have been recommended as they make better use of the data available and are valid under less restrictive Missing At Random (MAR) assumption. Linear mixed effects models (LMMs) offer a simple alternative to handle missing data under MAR without requiring imputations, and have not been very well explored in the CEA context. In this manuscript, we aim to familiarize readers with LMMs and demonstrate their implementation in CEA. We illustrate the approach on a randomized trial of antidepressants, and provide the implementation code in R and Stata. We hope that the more familiar statistical framework associated with LMMs, compared to other missing data approaches, will encourage their implementation and move practitioners away from inadequate methods.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> cost‐effectiveness analysis, missing data, mixed‐effects, randomized trial, repeated measures model</p></sec></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Revised 2022 Mar 14; Received 2021 Jul 22; Accepted 2022 Mar 17; Issue date 2022 Jun.</p></sec></notes></front><body><sec id="hec4510-sec-0010" disp-level="1"><label>1.</label><title>INTRODUCTION</title><p>Cost‐effectiveness analyses (CEAs) conducted alongside randomized controlled trials are an important source of information for decision‐makers in the process of technology appraisal (Ramsey et al., <xref rid="hec4510-bib-0024" ref-type="bibr">2015</xref>). The analysis is based on healthcare outcome data and health service use, typically collected at multiple time points and then combined into overall measures of effectiveness and cost (Drummond et al., <xref rid="hec4510-bib-0008" ref-type="bibr">2005</xref>). The derivation of these measures is problematic in the presence of missing outcome data, which are a common issue in trials, with on average only 60%–75% of randomized participants having complete CEA data (Leurent et al., <xref rid="hec4510-bib-0016" ref-type="bibr">2020</xref>; Noble et al., <xref rid="hec4510-bib-0023" ref-type="bibr">2012</xref>). A popular approach to handle missingness is to discard the participants with incomplete observations (<italic>complete case analysis (CCA)</italic>), allowing for derivation of the overall measures based on the completers alone. We note that slightly different definitions of CCA are possible, depending on the form of the model of interest, the type of missingness and the inclusion of observed covariates. Without loss of generality, throughout the paper, we refer to CCA as to when only individuals with fully‐observed effect and cost data (i.e., the completers) are included in the analysis, thus requiring the removal of all cases with partially‐observed outcome data. This approach, although appealing by its simplicity, has well‐recognized limitations including loss of efficiency and an increased risk of bias (Carpenter &amp; Kenward, <xref rid="hec4510-bib-0005" ref-type="bibr">2012</xref>; Faria et al., <xref rid="hec4510-bib-0009" ref-type="bibr">2014</xref>; Rubin, <xref rid="hec4510-bib-0027" ref-type="bibr">1987</xref>). In recent years there has been an increment in the uptake of more appropriate statistical methods, such as multiple imputation (MI) (Leurent et al., <xref rid="hec4510-bib-0017" ref-type="bibr">2018b</xref>) or Bayesian methods (Gabrio et al., <xref rid="hec4510-bib-0011" ref-type="bibr">2019</xref>), which improve efficiency, rely on less restrictive missingness assumptions, and facilitate the task of conducting sensitivity analysis to alternative missingness assumptions (Gabrio et al., <xref rid="hec4510-bib-0010" ref-type="bibr">2020</xref>; Leurent et al., <xref rid="hec4510-bib-0016" ref-type="bibr">2020</xref>). Among these, Missing At Random [MAR ; Rubin (<xref rid="hec4510-bib-0027" ref-type="bibr">1987</xref>)] often provides a desirable starting point as it implies that valid inferences can be drawn based on the observed data. Both CCA and MI are generally valid under some form of MAR assumptions. When estimating a difference between arms adjusted for baseline covariates a CCA will be valid if being a complete‐case is only dependent on these covariates. Multiple imputation will be valid under less restrictive assumptions, as missingness could also depend on the observed outcome at the other time‐points and other variables not in the analysis model. Although MI has become more frequent and accessible in CEAs, its' implementation in routine analyses remains limited compared to CCA (Gabrio et al., <xref rid="hec4510-bib-0012" ref-type="bibr">2017</xref>; Leurent et al., <xref rid="hec4510-bib-0015" ref-type="bibr">2018a</xref>), perhaps because of a lack of familiarity, computational time, or the analytical difficulties of the approaches. Indeed, it requires particular care when combined with other statistical procedures, such as taking into account clustering (R. Gomes et al., <xref rid="hec4510-bib-0014" ref-type="bibr">2012</xref>), or using bootstrap re‐sampling (Brand et al., <xref rid="hec4510-bib-0004" ref-type="bibr">2019</xref>).</p><p>We propose the use of <italic>linear mixed effects models</italic> (LMMs) as an alternative approach under MAR. Linear mixed effects models are commonly used for the modeling of dependent data (e.g., repeated‐measures) and belong to the general class of likelihood‐based methods. Linear mixed effects models have been occasionally used in CEA under the denomination of <italic>multilevel</italic> or <italic>hierarchical models</italic> (Manca et al., <xref rid="hec4510-bib-0019" ref-type="bibr">2005</xref>; Rice &amp; Jones, <xref rid="hec4510-bib-0025" ref-type="bibr">1997</xref>) to account for the dependence between observations with a hierarchical structure (e.g., cluster‐randomized trials). Repeated‐measures also follow a hierarchical structure since data within each individual are correlated, and LMM are increasingly used to analyze longitudinal outcome in trials. However, LMMs appear surprisingly uncommon for the analysis of repeated measures in trial‐based CEA, perhaps because of a lack of awareness or familiarity with fitting LMMs. To our knowledge, only (Faria et al., <xref rid="hec4510-bib-0009" ref-type="bibr">2014</xref>) briefly examined the use of LMMs in trial‐based CEA as an alternative to MI, and concluded that they offer a valid approach under MAR.</p><p>In this letter, we aim to familiarize readers with the implementation of LMMs in trial‐based CEA using standard software and summarize the statistical and economic results from a case study. Finally, we discuss the proposed approach and provide some suggestions for future work.</p></sec><sec id="hec4510-sec-0020" disp-level="1"><label>2.</label><title>METHODS</title><sec id="hec4510-sec-0030" disp-level="2"><label>2.1.</label><title>Linear mixed effects models for repeated measurements</title><p>Linear mixed effects model extends the usual linear model framework by the addition of “random effect” terms, which can take into account the dependence between observations. A simple model for a repeated measure can be written as
+</p><disp-formula id="hec4510-disp-0001"><label>(1)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>⋯</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>P</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ω</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ϵ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula><p>where <italic>Y</italic>
+<sub>
+<italic>ij</italic>
+</sub> denotes the outcome repeatedly collected for each individual <italic>i</italic> = <italic>1</italic>,…,<italic>N</italic> at multiple times <italic>j</italic> = <italic>1</italic>,…,<italic>J</italic>. The model parameters commonly referred to as <italic>fixed effects</italic> include an intercept <italic>β</italic>
+<sub>
+<italic>1</italic>
+</sub> and the coefficients (<italic>β</italic>
+<sub>
+<italic>2</italic>
+</sub>,…,<italic>β</italic>
+<sub>
+<italic>P</italic>+<italic>1</italic>
+</sub>) associated with the predictors <italic>X</italic>
+<sub>
+<italic>i1</italic>
+</sub>,…,<italic>X</italic>
+<sub>
+<italic>iP</italic>
+</sub>, while <italic>ω</italic>
+<sub>
+<italic>i</italic>
+</sub> and <italic>ϵ</italic>
+<sub>
+<italic>ij</italic>
+</sub> are two random terms: <italic>ϵ</italic>
+<sub>
+<italic>ij</italic>
+</sub> is the usual error term and <italic>ω</italic>
+<sub>
+<italic>i</italic>
+</sub> is a <italic>random intercept</italic> which captures variation in outcomes between individuals. The random terms are typically assumed to be normally distributed such that <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mi>ω</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>∼</mml:mo><mml:mi>N</mml:mi><mml:mfenced open="(" close=")" separators=""><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msubsup><mml:mi>σ</mml:mi><mml:mi>ω</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mfenced></mml:mrow></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mi>ϵ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>∼</mml:mo><mml:mi>N</mml:mi><mml:mfenced open="(" close=")" separators=""><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msubsup><mml:mi>σ</mml:mi><mml:mi>ϵ</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mfenced></mml:mrow></mml:mrow></mml:math></inline-formula>. Equation (<xref rid="hec4510-disp-0001" ref-type="disp-formula">1</xref>) treats the data as having a <italic>2</italic>‐level structure, where <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mi>ω</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="inline"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mi>ϵ</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:math></inline-formula> capture the variance of the responses within (level 1) and between (level 2) individuals, respectively. The models can be extended to deal with more complex structures, for example, by allowing the effect of the covariates to vary across individuals (random slope) or a different covariance structure of the errors. Linear mixed effects models can be fitted even if some outcome data are missing and provide correct inferences under MAR (Schafer &amp; Graham, <xref rid="hec4510-bib-0028" ref-type="bibr">2002</xref>). We refer interested readers to the available LMM literature for an in‐depth description of the methods (Molenberghs et al., <xref rid="hec4510-bib-0021" ref-type="bibr">2004</xref>).</p><p>One particular type of LMMs commonly used in the analysis of repeated measures in clinical trials is referred to as a <italic>Mixed Model for Repeated Measurement</italic> (MMRM; Wolfinger, <xref rid="hec4510-bib-0032" ref-type="bibr">1993</xref>). The model includes a categorical effect for time, an interaction between time and treatment arm, and allows errors to have different variance and correlation over time (i.e., unstructured covariance structure). Consider the case where we want to model health related quality of life data (i.e., utilities) collected at three times (baseline and two follow‐ups). The model can then be expressed as:
+</p><disp-formula id="hec4510-disp-0002"><label>(2)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="block"><mml:mrow><mml:mrow><mml:mtable columnalign="center"><mml:mtr><mml:mtd><mml:mtable columnalign="center"><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ω</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ϵ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">R</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ω</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ϵ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">R</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ω</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ϵ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math></disp-formula><p>where <italic>U</italic>
+<sub>
+<italic>ij</italic>
+</sub> is the utility measured for patient <italic>i</italic> at time <italic>j</italic>, TIME<sub>
+<italic>j</italic>
+</sub> and TRT<sub>
+<italic>i</italic>
+</sub> are the indicators for the time and treatment arm, and TIME<sub>
+<italic>j</italic>
+</sub>TRT<sub>
+<italic>i</italic>
+</sub> are the interaction terms between time and treatment arm at each follow‐up (<italic>j</italic> ≥ <italic>2</italic>). Within this model, <italic>β</italic>
+<sub>
+<italic>1</italic>
+</sub>, represents the mean utility at baseline, <italic>β</italic>
+<sub>
+<italic>2</italic>
+</sub> and <italic>β</italic>
+<sub>
+<italic>4</italic>
+</sub> represent the mean utility for the control arm (TRT<sub>
+<italic>i</italic>
+</sub> = <italic>0</italic>) at the first and second follow‐up, while <italic>β</italic>
+<sub>
+<italic>3</italic>
+</sub> and <italic>β</italic>
+<sub>
+<italic>5</italic>
+</sub> capture the mean difference between the arms at the two follow‐ups. The errors at each time follow a multivariate normal distribution <italic>ϵ</italic>
+<sub>
+<italic>i</italic>
+</sub> ∼ <italic>N</italic>(<bold>0</bold>, <bold>Σ</bold>) with an unstructured covariance matrix <bold>Σ</bold>, that is, errors are allowed to have different variance and correlation between them. Note that no treatment parameter was included at baseline, this makes sense as no treatment effect is expected at baseline, but is also important to obtain <italic>β</italic>
+<sub>
+<italic>3</italic>
+</sub> and <italic>β</italic>
+<sub>
+<italic>5</italic>
+</sub> parameters adjusted for baseline utility (see Section <xref rid="hec4510-sec-0040" ref-type="sec">2.2</xref>). The model can be easily extended to handle additional time‐points, or to model any other repeatedly measured continuous outcome such as cost.</p><p>Incremental (between‐group) or marginal (within‐group) estimates for aggregated outcomes over the trial period, such as quality‐adjusted life years (QALYs) or total costs can be retrieved as linear combinations of the parameter estimates from Equation (<xref rid="hec4510-disp-0002" ref-type="disp-formula">2</xref>). For example, the mean difference in total cost is obtained by summing up the estimated differences at each follow‐up point, while differences on a QALYs scale can be obtained as weighted linear combinations of the coefficient estimates of the utility model (see Appendix <xref rid="hec4510-app-0003" ref-type="sec">C</xref>).</p></sec><sec id="hec4510-sec-0040" disp-level="2"><label>2.2.</label><title>Adjusting for baseline variables</title><p>It is standard practice to adjust the analysis for imbalances in some baseline characteristics, to control for potential imbalance and as well as to increase precision (Manca et al., <xref rid="hec4510-bib-0019" ref-type="bibr">2005</xref>) while also strengthening the plausibility of the MAR assumption (Little et al., <xref rid="hec4510-bib-0018" ref-type="bibr">2012</xref>). We note that, differences in baseline outcome values between arms are already adjusted for within the model specification in Equation (<xref rid="hec4510-disp-0002" ref-type="disp-formula">2</xref>). Other baseline variables can be adjusted for by adding them as predictors to the model, although LMMs require covariates to be completely observed. However, in randomized controlled trials, missing baseline data can be usually addressed by implementing single imputation techniques (e.g., mean‐imputation) to obtain complete data prior to fitting the model, without loss of validity or efficiency (White &amp; Thompson, <xref rid="hec4510-bib-0031" ref-type="bibr">2005</xref>).</p></sec><sec id="hec4510-sec-0050" disp-level="2"><label>2.3.</label><title>Assessing cost‐effectiveness</title><p>Once estimates for the average effectiveness and total cost differences are obtained, uncertainty can be assessed through resampling methods (e.g., bootstrapping). Results are then often summarized using a Cost‐Effectiveness Plane (CEP; Black [<xref rid="hec4510-bib-0003" ref-type="bibr">1990</xref>]) and a Cost‐Effectiveness Acceptability Curve (CEAC; Van Hout et al. [<xref rid="hec4510-bib-0030" ref-type="bibr">1994</xref>]).</p></sec></sec><sec id="hec4510-sec-0060" disp-level="1"><label>3.</label><title>TRIAL OVERVIEW</title><sec id="hec4510-sec-0070" disp-level="2"><label>3.1.</label><title>Overview</title><p>The Health Technology Assessment Study of the Use of Antidepressants for Depression in Dementia (SADD, ISRCTN88882979) was a placebo‐controlled randomized trial of participants from old‐age psychiatry services in England (Banerjee et al., <xref rid="hec4510-bib-0001" ref-type="bibr">2011</xref>). A total of <italic>n</italic> = <italic>326</italic> participants were enrolled and randomized to receive placebo, or either one of two antidepressants (sertraline and mirtazapine) together with treatment as usual, and followed for <italic>9</italic> months. Outcomes were collected at baseline, <italic>3</italic> and <italic>9</italic> months, including EQ‐5D‐3L which was converted into utility (Dolan, <xref rid="hec4510-bib-0007" ref-type="bibr">1997</xref>), and resource use for <italic>0</italic>–<italic>3</italic> months and <italic>3</italic>–<italic>9</italic> months which were converted into costs (Romeo et al., <xref rid="hec4510-bib-0026" ref-type="bibr">2013</xref>). Details about the objective and conclusions from the trial as well as the study CEA are reported elsewhere (Banerjee et al., <xref rid="hec4510-bib-0002" ref-type="bibr">2013</xref>). We restrict our attention to the <italic>9</italic> months cost‐utility analysis of placebo (<italic>n</italic>
+<sub>
+<italic>1</italic>
+</sub> = <italic>111</italic>) versus mirtazapine (<italic>n</italic>
+<sub>
+<italic>2</italic>
+</sub> = <italic>108</italic>) from the health and social care cost perspective.</p><p>Table <xref rid="hec4510-tbl-0001" ref-type="table">1</xref> shows the missing data patterns of the utility and cost data (<italic>U</italic>
+<sub>
+<italic>j</italic>
+</sub>,<italic>C</italic>
+<sub>
+<italic>j</italic>
+</sub>) at baseline (<italic>j</italic> = <italic>1</italic>), <italic>3</italic> months (<italic>j</italic> = <italic>2</italic>) and <italic>9</italic> months (<italic>J</italic> = <italic>3</italic>) follow‐up.</p><table-wrap id="hec4510-tbl-0001" position="float"><?disp-level 3?><label>TABLE 1</label><caption><p>Missingness patterns for the utility and cost variables in the SADD study</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr><th align="left" valign="bottom" rowspan="1" colspan="1">Missing data patterns</th><th align="left" valign="bottom" rowspan="1" colspan="1">Placebo (<italic>N</italic>
+<sub>
+<italic>1</italic>
+</sub> = 111)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Mirtazapine (<italic>N</italic>
+<sub>
+<italic>2</italic>
+</sub> = 108)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Total (<italic>N</italic> = 219)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>U</italic>
+<sub>
+<italic>1</italic>
+</sub>
+<italic>U</italic>
+<sub>
+<italic>2</italic>
+</sub>
+<italic>U</italic>
+<sub>
+<italic>3</italic>
+</sub>
+<italic>C</italic>
+<sub>
+<italic>1</italic>
+</sub>
+<italic>C</italic>
+<sub>
+<italic>2</italic>
+</sub>
+<italic>C</italic>
+<sub>
+<italic>3</italic>
+</sub>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>N</italic>
+<sub>
+<italic>1</italic>
+</sub>(%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>N</italic>
+<sub>
+<italic>2</italic>
+</sub>(%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>N</italic>(%)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ ‐ ‐ ‐ ‐ ‐</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">54 (48%)</td><td align="center" valign="top" rowspan="1" colspan="1">47 (43%)</td><td align="center" valign="top" rowspan="1" colspan="1">101 (46%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ X X ‐ X X</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">12 (11%)</td><td align="center" valign="top" rowspan="1" colspan="1">17 (16%)</td><td align="center" valign="top" rowspan="1" colspan="1">29 (13%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ X X ‐ ‐ ‐</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">15 (13%)</td><td align="center" valign="top" rowspan="1" colspan="1">14 (13%)</td><td align="center" valign="top" rowspan="1" colspan="1">29 (13%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ ‐ X ‐ ‐ ‐</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">11 (10%)</td><td align="center" valign="top" rowspan="1" colspan="1">13 (12%)</td><td align="center" valign="top" rowspan="1" colspan="1">24 (11%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ ‐ X ‐ ‐ X</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">9 (8%)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (7%)</td><td align="center" valign="top" rowspan="1" colspan="1">17 (8%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ X ‐ ‐ ‐ ‐</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4%)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (4%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ X X ‐ ‐ X</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (2%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ ‐ ‐ ‐ X X</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2%)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (3%)</td><td align="center" valign="top" rowspan="1" colspan="1">5 (2%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>‐ ‐ ‐ ‐ ‐ X</bold>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (1%)</td></tr></tbody></table><table-wrap-foot><fn id="hec4510-note-0001"><p>
+<italic>Note</italic>: For each pattern and treatment group the corresponding number and proportions of participants are reported. <italic>U</italic>
+<sub>
+<italic>j</italic>
+</sub> and <italic>C</italic>
+<sub>
+<italic>j</italic>
+</sub> indicate utility or cost variable at time <italic>j</italic>, while ‐ and <bold>X</bold> indicate an observed or missing variable, respectively.</p></fn><fn id="hec4510-note-0005"><p>Abbreviation: SADD, Study of the Use of Antidepressants for Depression in Dementia.</p></fn></table-wrap-foot></table-wrap><p>About half of the trial participants had complete cost‐effectiveness data, with utility values which tended to be more frequently missing than costs.</p></sec><sec id="hec4510-sec-0080" disp-level="2"><label>3.2.</label><title>Cost‐effectiveness analysis of SADD</title><p>We applied the LMM model described above to the SADD data to estimate the difference in QALYs and cost, adjusting for baseline values (utility or cost). A set of <italic>10,000</italic> bootstrap replications were performed to derive cost‐effectiveness results. All models were fitted in R, using the packages and functions described in Appendix <xref rid="hec4510-sec-0160" ref-type="sec">A.1</xref>. The R and Stata code for implementing the methods are given in Appendix <xref rid="hec4510-sec-0170" ref-type="sec">A.2</xref> and Appendix <xref rid="hec4510-sec-0180" ref-type="sec">A.3</xref>, respectively, and on an online repository (Gabrio, <xref rid="hec4510-bib-0035" ref-type="bibr">2022</xref>).</p></sec></sec><sec id="hec4510-sec-0090" disp-level="1"><label>4.</label><title>RESULTS</title><p>Table <xref rid="hec4510-tbl-0002" ref-type="table">2</xref> reports the empirical means and standard deviations associated with the utility and cost variables in each treatment group over the study period.</p><table-wrap id="hec4510-tbl-0002" position="float"><?disp-level 2?><label>TABLE 2</label><caption><p>Observed means (and standard deviations) of the utility and cost variables at baseline, <italic>3</italic> and <italic>9</italic> months follow‐up for the placebo and mirtazapine group in the SADD trial</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"> </th><th align="left" valign="bottom" rowspan="1" colspan="1">Placebo</th><th align="left" valign="bottom" rowspan="1" colspan="1">(<italic>N</italic>
+<sub>
+<italic>1</italic>
+</sub> = 111)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Mirtazapine</th><th align="left" valign="bottom" rowspan="1" colspan="1">(<italic>N</italic>
+<sub>
+<italic>2</italic>
+</sub> = 108)</th></tr></thead><tbody valign="top"><tr><td colspan="5" align="left" valign="top" rowspan="1">Utilities</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Baseline</td><td align="left" valign="top" rowspan="1" colspan="1">0.670 (0.268)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 111</td><td align="left" valign="top" rowspan="1" colspan="1">0.688 (0.292)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 108</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">3 months</td><td align="left" valign="top" rowspan="1" colspan="1">0.733 (0.286)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 78</td><td align="left" valign="top" rowspan="1" colspan="1">0.763 (0.267)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 71</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">9 months</td><td align="left" valign="top" rowspan="1" colspan="1">0.734 (0.274)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 62</td><td align="left" valign="top" rowspan="1" colspan="1">0.827 (0.195)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 64</td></tr><tr><td colspan="5" align="left" valign="top" rowspan="1">Costs</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Baseline</td><td align="left" valign="top" rowspan="1" colspan="1">1514 (3153)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 111</td><td align="left" valign="top" rowspan="1" colspan="1">1191 (2256)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 108</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">3 months</td><td align="left" valign="top" rowspan="1" colspan="1">1437 (3338)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 97</td><td align="left" valign="top" rowspan="1" colspan="1">1130 (1868)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 88</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">9 months</td><td align="left" valign="top" rowspan="1" colspan="1">2146 (4401)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 84</td><td align="left" valign="top" rowspan="1" colspan="1">2550 (4288)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> = 78</td></tr></tbody></table><table-wrap-foot><fn id="hec4510-note-0006"><p>Abbreviation: SADD, Study of the Use of Antidepressants for Depression in Dementia.</p></fn></table-wrap-foot></table-wrap><p>People in the mirtazapine group had higher mean utilities at all time‐points, lower mean costs at the first follow‐up and higher mean costs at the last follow‐up.</p><p>Table <xref rid="hec4510-tbl-0003" ref-type="table">3</xref> reports the LMM‐estimated marginal means of the utilities and costs at each follow‐up by group, as well as QALYs and total costs. Incremental results, incremental cost‐effectiveness ratio and probability of cost‐effectiveness (at an acceptance threshold of £<italic>25,000</italic>) between the two groups are also reported.</p><table-wrap id="hec4510-tbl-0003" position="float"><?disp-level 2?><label>TABLE 3</label><caption><p>Linear mixed model results for the SADD trial</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr><th rowspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" colspan="1"> </th><th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1">Placebo</th><th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1"> </th><th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1">Mirtazapine</th><th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1"> </th><th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1">Incremental</th><th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1"> </th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>U</italic>
+<sub>
+<italic>2</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">0.731</td><td align="left" valign="top" rowspan="1" colspan="1">(0.675; 0.786)</td><td align="left" valign="top" rowspan="1" colspan="1">0.752</td><td align="left" valign="top" rowspan="1" colspan="1">(0.694; 0.810)</td><td align="left" valign="top" rowspan="1" colspan="1">0.021</td><td align="left" valign="top" rowspan="1" colspan="1">(−0.053; 0.096)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>U</italic>
+<sub>
+<italic>3</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">0.727</td><td align="left" valign="top" rowspan="1" colspan="1">(0.671; 0.783)</td><td align="left" valign="top" rowspan="1" colspan="1">0.781</td><td align="left" valign="top" rowspan="1" colspan="1">(0.721; 0.841)</td><td align="left" valign="top" rowspan="1" colspan="1">0.054</td><td align="left" valign="top" rowspan="1" colspan="1">(−0.024; 0.132)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">QALYs</td><td align="left" valign="top" rowspan="1" colspan="1">0.540</td><td align="left" valign="top" rowspan="1" colspan="1">(0.510; 0.571)</td><td align="left" valign="top" rowspan="1" colspan="1">0.561</td><td align="left" valign="top" rowspan="1" colspan="1">(0.530; 0.593)</td><td align="left" valign="top" rowspan="1" colspan="1">0.021</td><td align="left" valign="top" rowspan="1" colspan="1">(−0.016; 0.059)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>C</italic>
+<sub>
+<italic>2</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">1369</td><td align="left" valign="top" rowspan="1" colspan="1">(840; 1899)</td><td align="left" valign="top" rowspan="1" colspan="1">1252</td><td align="left" valign="top" rowspan="1" colspan="1">(695; 1809)</td><td align="left" valign="top" rowspan="1" colspan="1">−117</td><td align="left" valign="top" rowspan="1" colspan="1">(−866; 631)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>C</italic>
+<sub>
+<italic>3</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">2092</td><td align="left" valign="top" rowspan="1" colspan="1">(1226; 2959)</td><td align="left" valign="top" rowspan="1" colspan="1">2760</td><td align="left" valign="top" rowspan="1" colspan="1">(1856; 3664)</td><td align="left" valign="top" rowspan="1" colspan="1">668</td><td align="left" valign="top" rowspan="1" colspan="1">(−544; 1880)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Total costs</td><td align="left" valign="top" rowspan="1" colspan="1">3462</td><td align="left" valign="top" rowspan="1" colspan="1">(2236; 4688)</td><td align="left" valign="top" rowspan="1" colspan="1">4012</td><td align="left" valign="top" rowspan="1" colspan="1">(2735; 5289)</td><td align="left" valign="top" rowspan="1" colspan="1">550</td><td align="left" valign="top" rowspan="1" colspan="1">(−1156; 2257)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ICER</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">57,774</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Cost‐effectiveness probability</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>34</italic>%</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="hec4510-note-0002"><p>
+<italic>Note</italic>: Point estimates and <italic>95%</italic> confidence intervals for the marginal means and mean difference of the utilities and costs at <italic>3</italic> (<italic>j</italic> = <italic>2</italic>) and <italic>9</italic> (<italic>j</italic> = <italic>3</italic>) months follow‐up as well as for the quality‐adjusted life years (QALYs) and total costs over the duration of the study. Incremental results are also reported in terms of the incremental cost‐effectiveness ratio (ICER) and cost‐effectiveness probability at <italic>k</italic> = <italic>£25,000</italic> per QALY gained. Costs are expressed in British pounds.</p></fn><fn id="hec4510-note-0007"><p>Abbreviation: SADD, Study of the Use of Antidepressants for Depression in Dementia.</p></fn></table-wrap-foot></table-wrap><p>The results suggest that the mirtazapine group is associated with higher utilities compared with the placebo group at all follow‐ups, which leads to higher mean QALYs estimates. Although mean costs at 13 weeks are on average higher in the placebo group, the mirtazapine group is associated with relatively higher mean costs at 9 months as well as higher mean total costs. Overall, the mean difference in QALYs was <italic>0.021</italic>(<italic>95</italic>%<italic>CI</italic>:−<italic>0.016</italic>;<italic>0.059</italic>), and difference in cost £<italic>550</italic> (<italic>95</italic>%<italic>CI</italic>:−<italic>1156</italic>;<italic>2257</italic>). We additionally compare the results in terms of mean QALYs and total costs obtained under LMM with those from two alternative analyses: CCA and MI, the latter producing estimates in line with those of LMM with standard errors reduced by approximately<italic>13</italic>% for QALYs and <italic>25%</italic> for total cost estimates compared to CCA (see Appendix <xref rid="hec4510-sec-0200" ref-type="sec">B.2</xref>).</p><p>Figure <xref rid="hec4510-fig-0001" ref-type="fig">1</xref> shows the associated CEP and CEAC. Mirtazapine appears to be slightly more effective and costly, but with important uncertainty, resulting in a probability of being cost‐effective of around <italic>50</italic>% at a threshold of £<italic>25,000</italic> per QALY gained.</p><fig id="hec4510-fig-0001" position="float"><?disp-level 2?><label>FIGURE 1</label><caption><p>Cost‐Effectiveness Plane (CEP) and Cost‐Effectiveness Acceptability Curve from the Study of the Use of Antidepressants for Depression in Dementia based on a linear mixed effects model fitted on 10,000 bootstrap replications. In the CEP, an acceptance threshold of <italic>k</italic> = <italic>£25,000</italic> per quality‐adjusted life year (QALY) gained is used and the position of the incremental cost‐effectiveness ratio (ICER) on the plot is denoted with a darker colored dot. (a) Cost‐effectiveness plane. (b) Cost‐effectiveness acceptability curve</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="HEC-31-1276-g002.jpg"><?cloudpmc-path blobs/8702/9325521/fa6869495ff0/HEC-31-1276-g002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 479?><?original-width 1064?><?scaled-height 319?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HEC-31-1276-g002.gif"><?cloudpmc-path blobs/8702/9325521/e21060b703e3/HEC-31-1276-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="hec4510-sec-0110" disp-level="1"><label>5.</label><title>DISCUSSION</title><p>In this article we proposed the use of LMMs as an alternative approach to conduct trial‐based CEAs Although repeatedly criticized in the literature, analysts commonly handle missingness in QALYs and total costs via CCA (Gabrio et al., <xref rid="hec4510-bib-0012" ref-type="bibr">2017</xref>; Leurent et al., <xref rid="hec4510-bib-0015" ref-type="bibr">2018a</xref>), which causes some loss of information and potentially biases the inferences. The use of imputation methods, especially MI, have been recommended in the literature since they can obtain valid inferences using all observed responses (Faria et al., <xref rid="hec4510-bib-0009" ref-type="bibr">2014</xref>). However, there may be practical obstacles to the spread of these methods among practitioners. First, analysts may be unfamiliar with the implementation of MI, and feel more confident using simpler approaches. Second, MI can be time‐consuming, particularly when combined with bootstrapping, for which there are alternative implementation strategies possible (Brand et al., <xref rid="hec4510-bib-0004" ref-type="bibr">2019</xref>).</p><p>We believe LMMs represent an alternative approach which can overcome some of these limitations. First, practitioners may be more comfortable with the standard regression framework. Second, LMMs can be tailored to address other data features (e.g., cluster‐randomized trials or non‐normal distribution) while also easily combined with bootstrapping. Third, LMMs do not rely on imputation, and results are therefore deterministic and easily reproducible, whereas the Monte Carlo error associated with MI may cause results to vary from one imputation to another, unless the number of imputations is sufficiently large.</p><p>There are also limitations associated with the use of the proposed methods. First, LMM estimates are valid under MAR conditional on the observed outcome and the baseline variables in the analysis model. Multiple‐imputation offers a more flexible framework allowing for inclusion of auxiliary variables not adjusted for in the analysis. Second, while MAR is often a reasonable starting point, sensitivity analysis under non‐at‐random assumptions should be considered (Gabrio et al., <xref rid="hec4510-bib-0010" ref-type="bibr">2020</xref>; Leurent et al., <xref rid="hec4510-bib-0016" ref-type="bibr">2020</xref>). While these can be conducted within a LMM framework (Daniels &amp; Hogan, <xref rid="hec4510-bib-0006" ref-type="bibr">2008</xref>), a MI or Bayesian framework are particularly well suited for this type of analyses (M. Gomes et al., <xref rid="hec4510-bib-0013" ref-type="bibr">2019</xref>; Mason et al., <xref rid="hec4510-bib-0020" ref-type="bibr">2018</xref>). Third, the LMM approach works well for repeatedly‐measure outcomes, but addressing missingness within each component of the outcomes (e.g., for disaggregated cost components) increases the complexity of the model. Depending on the amount of observed data and time points, the suggested model may not achieve convergence, and simpler covariance structures could be considered.</p><p>Further work can be done to extend the proposed methods to tackle some of the typical features of CEA data. An interesting extension would be to fit a bivariate LMM model to model simultaneously the costs and utilities. Furthermore, while LMMs are robust to non‐normally distributed data in large sample, generalized linear model specifications could be applied to improve the fit to the data using non‐normal distributions (Nixon &amp; Thompson, <xref rid="hec4510-bib-0022" ref-type="bibr">2005</xref>). A possible solution is to explore the use of multivariate generalized LMMs to account for the correlation and characteristics of the data while also providing a coherent modeling framework based on the same number of individuals for both outcomes.</p><p>To conclude, we have shown how LMMs can be used for the analysis of trial‐based CEAs Although the methodology illustrated is already known, particularly in the area of statistical analyses, to our knowledge LMMs have rarely been applied to health economic data collected alongside randomized trials. We believe the proposed methods is preferable to a complete‐case analysis when CEA data are incomplete, and that it can offer an interesting alternative to imputation methods.</p></sec><sec id="hec4510-sec-0130" disp-level="1"><title>CONFLICT OF INTEREST</title><p>Sube Banerjee reports grants from NIHR HTA Program, during the conduct of the study. Personal fees from Otsuka, Lundbeck, Lilly, Hamad Medical Services, Nutricia, Axovant, and grants from ESRC, NIHR, UKRI, outside the submitted work. Baptiste Leurent reports personal fees from GAIA AG, outside the submitted work. Andrea Gabrio and Catrin Plumpton declare that they have no conflict of interest.</p></sec><sec id="hec4510-sec-0120" sec-type="ack" disp-level="1"><title>ACKNOWLEDGEMENTS</title><p>We would like to thank Dr. Renee Romeo and Prof. Martin Knapp for their support in using the SADD study data, the winter 2021 HESG attendees for their comments on an initial version of this letter, and Professor Chris Frost for his insight on mixed models. The SADD study was funded by the National Institute for Health Research Health Technology Assessment (NIHR HTA) programme (project number: 04/11/02). The International Statistics and Epidemiology Group is jointly funded by the UK Medical Research Council (MRC) and the UK Foreign, Commonwealth and Development Office (FCDO) under the MRC/FCDO Concordat agreement and is also part of the EDCTP2 programme supported by the European Union. Grant Ref: MR/R010161/1.</p></sec><sec id="hec4510-app-0001" sec-type="app" disp-level="1"><label>APPENDIX A.</label><title>Implementation</title><sec id="hec4510-sec-0160" disp-level="2"><label>A.1.</label><title>Software detail</title><p>All models can be fitted in R or Stata using different types of pre‐defined functions and commands. In R, we use the function lme from the package nlme, which is specifically designed for fitting LMMs and produces standard statistical outputs, such as fixed and random effect estimates and their standard errors. Estimates for all model parameters are derived based on observed utility and cost responses under MAR using maximum likelihood methods. The function emmeans from the package emmeans can then be used to calculate point estimates and uncertainty measures for linear combinations of the model parameters, including the treatment effects as well as the marginal mean QALYs and total costs by treatment group. In Stata, we use the mixed command to fit the models and then use the post‐processing commands lincom and margins to derive linear combinations of parameter estimates with associated uncertainty measures.</p></sec><sec id="hec4510-sec-0170" disp-level="2"><label>A.2.</label><title>R code</title>
+<preformat id="code1" position="float" xml:space="preserve">
+
+R code for fitting the utility and cost LMMs and derive the estimates for the CEA target quantities based on the data from the SADD study.
+
+ 
+
+# load the R packages
+
+library(nlme)
+
+library(emmeans)
+
+ 
+
+# pre‐process data
+
+ 
+
+# load the dataset (in long format)
+
+data_long_SADD &lt;‐ readRDS("data_long_SADD.rds")
+
+# variables: time (time indicator), trt (treatment indicator), u (utility values)
+
+# 3 time points (baseline, 13 and 39 weeks follow‐up)
+
+# define treatment effect indicator at each follow‐up
+
+data_long_SADD$time_2&lt;‐ifelse(data_long_SADD$time =  = 2,1,0)
+
+data_long_SADD$time_3&lt;‐ifelse(data_long_SADD$time =  = 3,1,0)
+
+data_long_SADD$trt_time_2&lt;‐data_long_SADD$trt*data_long_SADD$time_2
+
+data_long_SADD$trt_time_3&lt;‐data_long_SADD$trt*data_long_SADD$time_3
+
+# define time as a factor
+
+data_long_SADD$time &lt;‐ factor(data_long_SADD$time)
+
+ 
+
+# LMM for utilities
+
+ 
+
+# fit the model using the lme function and use unstructured covariance
+
+LMM_u &lt;‐lme(u ∼ −1 + time + trt_time_2 + trt_time_3, random = ∼ 1 | id,
+
+     data = data_long_SADD, method = "ML",
+
+     correlation = corSymm(form = ∼ as.numeric(time)|id),
+
+     weights = varIdent(form = ∼1|as.numeric(time)),
+
+     na.action = na.omit)
+
+# look at parameter estimates and get confidence intervals (CI)
+
+# fixed effects of interactions are the treatment effects at follow‐ups summary(LMM_u)
+
+intervals(LMM_u, level = 0.95, which = "fixed")
+
+# derive marginal means for the utilities in each group at each time point using the emmeans function
+
+mu_u &lt;‐ emmeans(LMM_u, ∼ −1 + time + trt_time_2 + trt_time_3)
+
+# get confidence intervals
+
+confint(mu_u)
+
+# derive the marginal means for the QALYs in each group using the contrast function
+
+# assign time weights to the marginals utility means to obtain correct mean QALYs
+
+# (0.125 for baseline, 0.375 for 13 weeks follow‐up, 0.25 for 39 weeks follow‐up)
+
+mu_e &lt;‐ contrast(mu_u, list(mu0 = c(13/104,13/104 + 26/104,26/104,0,0,0,0,0,0,0,0,0),
+
+       mu1 = c(13/104,0,0,0,13/104 + 26/104,0,0,0,26/104,0,0,0)))
+
+# derive mean differences between groups for the QALYs in a similar way
+
+delta_e &lt;‐ contrast(mu_e, list(diff = c(0,‐13/104 ‐ 26/104,‐26/104,0,13/104 + 26/104,0,0,0,26/104,0,0,0)))
+
+# get confidence intervals
+
+confint(mu_e)
+
+confint(delta_e)
+
+ 
+
+#LMM for costs
+
+ 
+
+# fit the model using the lme function and use unstructured covariance
+
+LMM_c &lt;‐ lme(c ∼ −1 + time + trt_time_2 + trt_time_3, random = ∼ 1 | id,
+
+     data = data_long_SADD, method = "ML",
+
+     correlation = corSymm(form = ∼ as.numeric(time)|id),
+
+     weights = varIdent(form = ∼1|as.numeric(time)),
+
+     na.action = na.omit)
+
+# look at parameter estimates and get CI
+
+# fixed effects of interactions are the treatment effects at follow‐ups summary(LMM_c)
+
+intervals(LMM_c, level = 0.95, which = "fixed")
+
+# derive marginal means for the costs in each group at each time point using the emmeans function
+
+mu_c &lt;‐ emmeans(LMM_c, ∼ −1 + time + trt_time_2 + trt_time_3)
+
+# get confidence intervals
+
+confint(mu_c)
+
+# derive the marginal means for the total costs in each group using the contrast function
+
+mu_tc &lt;‐ contrast(mu_c, list(mu0 = c(0,1,1,0,0,0,0,0,0,0,0,0),
+
+       mu1 = c(0,0,0,0,1,0,0,0,1,0,0,0)))
+
+# derive mean differences between groups for the total costs in a similar way
+
+delta_tc &lt;‐ contrast(mu_tc, list(diff = c(0,‐1,‐1,0,1,0,0,0,1,0,0,0)))
+
+# get confidence intervals
+
+confint(mu_tc)
+
+confint(delta_tc)
+
+</preformat>
+</sec><sec id="hec4510-sec-0180" disp-level="2"><label>A.3.</label><title>Stata code</title>
+<preformat id="code2" position="float" xml:space="preserve">
+
+Stata code for fitting the utility and cost LMMs and derive the estimates for the CEA target quantities based on the data from the SADD study.
+
+ 
+
+** Open data
+
+   use "data_long_SADD.dta", clear
+
+   gen trtp = trt*(time&gt;1) //Treatment arm indicator, for follow‐up visits only
+
+** LMM for utilities
+
+   mixed u i.time i.time#i.trtp || id:, res(unstructured, t(time))
+
+      // || id: = random effect for each participant
+
+      // res(unstructured, t(time)) = unstructured covariance, for each timepoint
+
+      // i.time#i.trtp = interactions between time and treatment
+
+ 
+
+   *Incremental utility at each time point:
+
+      lincom 2.time#1.trtp //Treatment effect (trtp = 1) at 3 months (time = 2)
+
+      lincom 3.time#1.trtp //Treatment effect at 9 months
+
+   *Incremental QALYs
+
+      lincom 0.375*2.time#1.trtp + 0.25*3.time#1.trtp
+
+ 
+
+   *Utility per arm at each time‐point
+
+      margins i.time#i.trtp
+
+   *QALYs per arm
+
+      margins i.time#i.trtp, post
+
+      lincom 0.125*1.time#0.trtp + 0.375*2.time#0.trtp + 0.25*3.time#0.trtp
+
+      lincom 0.125*1.time#0.trtp + 0.375*2.time#1.trtp + 0.25*3.time#1.trtp
+
+ 
+
+** LMM for costs
+
+      mixed c i.time i.time#trtp || id:, res(unstructured, t(time))
+
+ 
+
+      *Incremental cost at each time point:
+
+         lincom 2.time#1.trtp //Treatment effect at time 2
+
+         lincom 3.time#1.trtp //Treatment effect at time 3
+
+      *Incremental total cost
+
+         lincom 2.time#1.trt + 3.time#1.trt
+
+ 
+
+      *Cost per arm at each time‐point
+
+         margins i.time#trtp
+
+      *Total cost per arm
+
+         margins i.time#trtp, post
+
+         lincom 2.time#0.trt + 3.time#0.trt
+
+         lincom 2.time#1.trt + 3.time#1.trt
+
+</preformat>
+</sec></sec><sec id="hec4510-app-0002" sec-type="app" disp-level="1"><label>APPENDIX B.</label><title>Results</title><sec id="hec4510-sec-0190" disp-level="2"><label>B.1.</label><title>Model estimates from the application to the SADD study</title><p>Table <xref rid="hec4510-tbl-0004" ref-type="table">A1</xref> shows the parameters (and their 95% confidence intervals) from the linear mixed model fitted to the SADD trial data. These parameters can be used to derive the marginal and incrementals utilities and costs reported in Table <xref rid="hec4510-tbl-0002" ref-type="table">2</xref>. For example, the treatment arm marginal utility at time 3 (9 months) can be estimated by 0.727 + 0.054 = 0.781.</p><table-wrap id="hec4510-tbl-0004" position="anchor"><?disp-level 3?><label>TABLE A1</label><caption><p>Parameters from the linear mixed models (LMM) fitted to the SADD utility and cost data</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr><th rowspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" colspan="1"> Fixed effects</th><th style="border-bottom:solid 1px #000000" colspan="2" align="left" valign="bottom" rowspan="1">Utilities model</th><th style="border-bottom:solid 1px #000000" colspan="2" align="left" valign="bottom" rowspan="1">Costs model</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">TIME<sub>
+<italic>1</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">0.674</td><td align="left" valign="top" rowspan="1" colspan="1">(0.637; 0.711)</td><td align="left" valign="top" rowspan="1" colspan="1">1355</td><td align="left" valign="top" rowspan="1" colspan="1">(991; 1720)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TIME<sub>
+<italic>2</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">0.731</td><td align="left" valign="top" rowspan="1" colspan="1">(0.675; 0.786)</td><td align="left" valign="top" rowspan="1" colspan="1">1369</td><td align="left" valign="top" rowspan="1" colspan="1">(840; 1899)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TIME<sub>
+<italic>3</italic>
+</sub>
+</td><td align="left" valign="top" rowspan="1" colspan="1">0.727</td><td align="left" valign="top" rowspan="1" colspan="1">(0.671; 0.783)</td><td align="left" valign="top" rowspan="1" colspan="1">2092</td><td align="left" valign="top" rowspan="1" colspan="1">(1226; 2959)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TIME<sub>
+<italic>2</italic>
+</sub>TRT</td><td align="left" valign="top" rowspan="1" colspan="1">0.021</td><td align="left" valign="top" rowspan="1" colspan="1">(−0.053; 0.095)</td><td align="left" valign="top" rowspan="1" colspan="1">−117</td><td align="left" valign="top" rowspan="1" colspan="1">(−866; 631)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TIME<sub>
+<italic>3</italic>
+</sub>TRT</td><td align="left" valign="top" rowspan="1" colspan="1">0.054</td><td align="left" valign="top" rowspan="1" colspan="1">(−0.024; 0.132)</td><td align="left" valign="top" rowspan="1" colspan="1">668</td><td align="left" valign="top" rowspan="1" colspan="1">(−544; 1880)</td></tr></tbody></table><table-wrap-foot><fn id="hec4510-note-0003"><p>
+<italic>Note</italic>: Point estimates and <italic>95%</italic> confidence intervals (CI).</p></fn><fn id="hec4510-note-0008"><p>Abbreviation: SADD, Study of the Use of Antidepressants for Depression in Dementia.</p></fn></table-wrap-foot></table-wrap></sec><sec id="hec4510-sec-0200" disp-level="2"><label>B.2.</label><title>Parameters estimates under LMM, CCA and MI, fitted to the SADD data</title><p>Table <xref rid="hec4510-tbl-0005" ref-type="table">A2</xref> compares the SADD cost‐effectivenes estimates (and their standard error) under CCA, MI, and LMM, with the CCA and MI models fitted as described below.</p><table-wrap id="hec4510-tbl-0005" position="anchor"><?disp-level 3?><label>TABLE A2</label><caption><p>Estimates and standard errors (SE) for the mean QALYs and total cost in the SADD trial under complete case analysis (CCA), multiple imputation (MI), and linear mixed model (LMM)</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr><th rowspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" colspan="1"> </th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1">Placebo</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1">Mirtazapine</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1">Incremental</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">SE</th><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">SE</th><th align="left" valign="bottom" rowspan="1" colspan="1">Estimate</th><th align="left" valign="bottom" rowspan="1" colspan="1">SE</th></tr></thead><tbody valign="top"><tr><td colspan="7" align="left" valign="top" rowspan="1">
+<bold>CCA</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">QALYs</td><td align="left" valign="top" rowspan="1" colspan="1">0.557</td><td align="left" valign="top" rowspan="1" colspan="1">(0.016)</td><td align="left" valign="top" rowspan="1" colspan="1">0.579</td><td align="left" valign="top" rowspan="1" colspan="1">(0.017)</td><td align="left" valign="top" rowspan="1" colspan="1">0.022</td><td align="left" valign="top" rowspan="1" colspan="1">(0.023)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Total costs</td><td align="left" valign="top" rowspan="1" colspan="1">3375</td><td align="left" valign="top" rowspan="1" colspan="1">(774)</td><td align="left" valign="top" rowspan="1" colspan="1">3695</td><td align="left" valign="top" rowspan="1" colspan="1">(831)</td><td align="left" valign="top" rowspan="1" colspan="1">320</td><td align="left" valign="top" rowspan="1" colspan="1">(1148)</td></tr><tr><td colspan="7" align="left" valign="top" rowspan="1">
+<bold>MI</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">QALYs</td><td align="left" valign="top" rowspan="1" colspan="1">0.541</td><td align="left" valign="top" rowspan="1" colspan="1">(0.013)</td><td align="left" valign="top" rowspan="1" colspan="1">0.561</td><td align="left" valign="top" rowspan="1" colspan="1">(0.014)</td><td align="left" valign="top" rowspan="1" colspan="1">0.021</td><td align="left" valign="top" rowspan="1" colspan="1">(0.020)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Total costs</td><td align="left" valign="top" rowspan="1" colspan="1">3472</td><td align="left" valign="top" rowspan="1" colspan="1">(593)</td><td align="left" valign="top" rowspan="1" colspan="1">4023</td><td align="left" valign="top" rowspan="1" colspan="1">(623)</td><td align="left" valign="top" rowspan="1" colspan="1">552</td><td align="left" valign="top" rowspan="1" colspan="1">(862)</td></tr><tr><td colspan="7" align="left" valign="top" rowspan="1">
+<bold>LMM</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">QALYs</td><td align="left" valign="top" rowspan="1" colspan="1">0.540</td><td align="left" valign="top" rowspan="1" colspan="1">(0.016)</td><td align="left" valign="top" rowspan="1" colspan="1">0.561</td><td align="left" valign="top" rowspan="1" colspan="1">(0.016)</td><td align="left" valign="top" rowspan="1" colspan="1">0.021</td><td align="left" valign="top" rowspan="1" colspan="1">(0.019)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Total costs</td><td align="left" valign="top" rowspan="1" colspan="1">3462</td><td align="left" valign="top" rowspan="1" colspan="1">(623)</td><td align="left" valign="top" rowspan="1" colspan="1">4012</td><td align="left" valign="top" rowspan="1" colspan="1">(649)</td><td align="left" valign="top" rowspan="1" colspan="1">550</td><td align="left" valign="top" rowspan="1" colspan="1">(868)</td></tr></tbody></table><table-wrap-foot><fn id="hec4510-note-0004"><p>Abbreviation: QALYs, quality‐adjusted life years; SADD, Study of the Use of Antidepressants for Depression in Dementia.</p></fn></table-wrap-foot></table-wrap><p>
+<bold>Complete case analysis</bold>. The analysis used only individuals with fully‐observe utility and cost data at each time point in the SADD study, that is, the <italic>101</italic> completers as shown in the first row of Table <xref rid="hec4510-tbl-0001" ref-type="table">1</xref>. The analysis was conducted using separate standard linear regression models fitted at the level of QALYs and total costs, including treatment and baseline outcome values as predictors to derive adjusted estimates for the incremental mean QALYs and total costs between the groups of the study.</p><p>
+<bold>Multiple imputation</bold>. The analysis used all available observed utility and cost data at each time point in the SADD study and consisted in two steps. In the first step, imputation for missing utility and cost values was carried out using a MI by chained equation approach (Van Buuren, <xref rid="hec4510-bib-0029" ref-type="bibr">2018</xref>). We imputed both outcomes under the assumption of normality to ensure a comparable match with the assumptions of LMM under MAR. The imputation models included observed outcome data at any time point as predictors, and imputation was performed by treatment group with a total number of <italic>500</italic> imputed datasets. In the second step, within each imputed dataset, outcome variables were aggregated into QALYs and total cost measures and standard linear regression models, as defined in CCA, were fitted to the imputed data and parameter estimates were derived. Finally, estimates were combined across the imputed datasets via Rubin's rules to correctly quantity missingness uncertainty.</p></sec></sec><sec id="hec4510-app-0003" sec-type="app" disp-level="1"><label>APPENDIX C.</label><title>QALYs derivation</title><p>Figure <xref rid="hec4510-fig-0002" ref-type="fig">A1</xref> illustrates how to derive the QALYs defined by the area under the curve (AUC) of the utilities, for example, for an individual with utilities of <italic>0.3</italic>, <italic>0.6</italic> and <italic>0.4</italic> at baseline, <italic>3</italic> and <italic>9</italic> months respectively. Assuming a linear increase between utilities, the AUC is traditionally defined by the sum of multiple trapezoids aereas (in blue here). This can be rewriten as a sum of rectangular aereas (in pink here), defined by <italic>t</italic>
+<sub>
+<italic>0.1</italic>
+</sub>*<italic>u</italic>
+<sub>
+<italic>0</italic>
+</sub>+(<italic>t</italic>
+<sub>
+<italic>0.1</italic>
+</sub>+<italic>t</italic>
+<sub>
+<italic>1.2</italic>
+</sub>)*<italic>u</italic>
+<sub>
+<italic>1</italic>
+</sub>+(<italic>t</italic>
+<sub>
+<italic>1.2</italic>
+</sub>)*<italic>u</italic>
+<sub>
+<italic>2</italic>
+</sub>, where <italic>u</italic>
+<sub>
+<italic>1</italic>
+</sub> is the utility at time <italic>j</italic>, and <italic>t</italic>
+<sub>
+<italic>i</italic>.<italic>j</italic>
+</sub> is half of the time (in years) between time‐points <italic>i</italic> and <italic>j</italic>. For example, for this individual, AUC = <italic>0.125</italic>*<italic>0.3</italic> + <italic>0.375</italic>*<italic>0.6</italic> + <italic>0.25</italic>*<italic>0.4</italic> = <italic>0.3625</italic>.</p><fig id="hec4510-fig-0002" position="anchor"><?disp-level 2?><label>FIGURE A1</label><caption><p>Derivation of QALYs as a weighted average of utilities</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="HEC-31-1276-g001.jpg"><?cloudpmc-path blobs/8702/9325521/e1ab9b40d618/HEC-31-1276-g001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 613?><?original-width 1064?><?scaled-height 408?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HEC-31-1276-g001.gif"><?cloudpmc-path blobs/8702/9325521/ce103cd8a326/HEC-31-1276-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The same weights can be used to derive the mean AUC for a group of individuals (based on the group mean utility at each time‐point), or the mean difference in AUC between two groups (based on the mean difference in utility at each time point). Discounting can be applied by reducing the relevant weights, for example, after 1 year. Note that when estimating the difference in QALYs adjusted for baseline utility in trials, there is no need to include the baseline term which is null.</p></sec><sec id="notes1" disp-level="1"><p>
+
+
+Gabrio, A.
+, 
+Plumpton, C.
+, 
+Banerjee, S.
+, &amp; 
+Leurent, B.
+ (2022). Linear mixed models to handle missing at random data in trial‐based economic evaluations. Health Economics, 31(6), 1276–1287. 10.1002/hec.4510
+
+</p></sec><sec id="hec4510-sec-0150" disp-level="1"><title>DATA AVAILABILITY STATEMENT</title><p>Data from the SADD trial were provided by the investigators for the purpose of this article. They are available upon reasonable request from the chief investigator () along with the other trial datasets.</p></sec><sec id="hec4510-bibl-0001" sec-type="ref-list" disp-level="1"><title>REFERENCES</title><sec id="hec4510-bibl-0001_sec2" disp-level="2"><ref-list><ref id="hec4510-bib-0001"><mixed-citation id="hec4510-cit-0001"><named-content content-type="citation-string">
+
+Banerjee, S.
+, 
+Hellier, J.
+, 
+Dewey, M.
+, 
+Romeo, R.
+, 
+Ballard, C.
+, 
+Baldwin, R.
+, 
+Bentham, P.
+, 
+Fox, C.
+, 
+Holmes, C.
+, 
+Katona, C.
+, 
+Knapp, M.
+, 
+Lawton, C.
+, 
+Lindesay, J.
+, 
+Livingston, G.
+, 
+McCrae, N.
+, 
+Moniz‐Cook, E.
+, 
+Murray, J.
+, 
+Nurock, S.
+, 
+Orrell, M.
+, … 
+Burns, A.
+ (2011). Sertraline or mirtazapine for depression in dementia (HTA‐SADD): A randomised, multicentre, double‐blind, placebo‐controlled trial. The Lancet, 378(9789), 403–411. 10.1016/s0140-6736(11)60830-1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/s0140-6736(11)60830-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21764118"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Lancet&amp;title=Sertraline or mirtazapine for depression in dementia (HTA‐SADD): A randomised, multicentre, double‐blind, placebo‐controlled trial&amp;author=S. Banerjee&amp;author=J. Hellier&amp;author=M. Dewey&amp;author=R. Romeo&amp;author=C. Ballard&amp;volume=378&amp;issue=9789&amp;publication_year=2011&amp;pages=403-411&amp;pmid=21764118&amp;doi=10.1016/s0140-6736(11)60830-1&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0002"><mixed-citation id="hec4510-cit-0002"><named-content content-type="citation-string">
+
+Banerjee, S.
+, 
+Hellier, J.
+, 
+Romer, R.
+, 
+Dewey, M.
+, 
+Knapp, M.
+, 
+Ballard, C.
+, 
+Baldwin, R.
+, 
+Bentham, P.
+, 
+Fox, C.
+, 
+Holmes, C.
+, 
+Katona, C.
+, 
+Lawton, C.
+, 
+Lindesay, J.
+, 
+Livingston, G.
+, 
+McCrae, N.
+, 
+Moniz‐Cook, E.
+, 
+Murray, J.
+, 
+Nurock, S.
+, 
+Orrell, M.
+, … 
+Burns, A.
+ (2013). Study of the use of antidepressants for depression in dementia: The HTA‐SADD trial‐a multicentre, randomised, double‐blind, placebo‐controlled trial of the clinical effectiveness and cost‐effectiveness of sertraline and mirtazapine. Health Technology Assessment, 17(7), 1–166. 10.3310/hta17070
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3310/hta17070"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4782811"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23438937"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Technology Assessment&amp;title=Study of the use of antidepressants for depression in dementia: The HTA‐SADD trial‐a multicentre, randomised, double‐blind, placebo‐controlled trial of the clinical effectiveness and cost‐effectiveness of sertraline and mirtazapine&amp;author=S. Banerjee&amp;author=J. Hellier&amp;author=R. Romer&amp;author=M. Dewey&amp;author=M. Knapp&amp;volume=17&amp;issue=7&amp;publication_year=2013&amp;pages=1-166&amp;pmid=23438937&amp;doi=10.3310/hta17070&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0003"><mixed-citation id="hec4510-cit-0003"><named-content content-type="citation-string">
+
+Black, W. C.
+ (1990). The CE plane: A graphic representation of cost‐effectiveness. Medical Decision Making, 10(3), 212–214. 10.1177/0272989x9001000308
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1177/0272989x9001000308"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2115096"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Medical Decision Making&amp;title=The CE plane: A graphic representation of cost‐effectiveness&amp;author=W. C. Black&amp;volume=10&amp;issue=3&amp;publication_year=1990&amp;pages=212-214&amp;pmid=2115096&amp;doi=10.1177/0272989x9001000308&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0004"><mixed-citation id="hec4510-cit-0004"><named-content content-type="citation-string">
+
+Brand, J.
+, 
+van Buuren, S.
+, 
+le Cessie, S.
+, &amp; 
+van den Hout, W.
+ (2019). Combining multiple imputation and bootstrap in the analysis of cost‐effectiveness trial data. Statistics in Medicine, 38(2), 210–220. 10.1002/sim.7956
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.7956"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6585698"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30207407"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Statistics in Medicine&amp;title=Combining multiple imputation and bootstrap in the analysis of cost‐effectiveness trial data&amp;author=J. Brand&amp;author=S. van Buuren&amp;author=S. le Cessie&amp;author=W. van den Hout&amp;volume=38&amp;issue=2&amp;publication_year=2019&amp;pages=210-220&amp;pmid=30207407&amp;doi=10.1002/sim.7956&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0005"><mixed-citation id="hec4510-cit-0005"><named-content content-type="citation-string">
+
+Carpenter, J.
+, &amp; 
+Kenward, M.
+ (2012). Multiple imputation and its application. John Wiley &amp; Sons.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Multiple imputation and its application&amp;author=J. Carpenter&amp;author=M. Kenward&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0006"><mixed-citation id="hec4510-cit-0006"><named-content content-type="citation-string">
+
+Daniels, M. J.
+, &amp; 
+Hogan, J. W.
+ (2008). Missing data in longitudinal studies: Strategies for bayesian modeling and sensitivity analysis. Chapman and Hall.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Missing data in longitudinal studies: Strategies for bayesian modeling and sensitivity analysis&amp;author=M. J. Daniels&amp;author=J. W. Hogan&amp;publication_year=2008&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0007"><mixed-citation id="hec4510-cit-0007"><named-content content-type="citation-string">
+
+Dolan, P.
+ (1997). Modeling valuations for EuroQol health states. Medical Care, 35(11), 1095–1108. 10.1097/00005650-199711000-00002
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1097/00005650-199711000-00002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9366889"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Medical Care&amp;title=Modeling valuations for EuroQol health states&amp;author=P. Dolan&amp;volume=35&amp;issue=11&amp;publication_year=1997&amp;pages=1095-1108&amp;pmid=9366889&amp;doi=10.1097/00005650-199711000-00002&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0008"><mixed-citation id="hec4510-cit-0008"><named-content content-type="citation-string">
+
+Drummond, M. F.
+, 
+Schulpher, M. J.
+, 
+Claxton, K.
+, 
+Stoddart, G. L.
+, &amp; 
+Torrance, G. W.
+ (2005). Methods for the economic evaluation of health care programmes (3rd ed.). Oxford university press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Methods for the economic evaluation of health care programmes&amp;author=M. F. Drummond&amp;author=M. J. Schulpher&amp;author=K. Claxton&amp;author=G. L. Stoddart&amp;author=G. W. Torrance&amp;publication_year=2005&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0009"><mixed-citation id="hec4510-cit-0009"><named-content content-type="citation-string">
+
+Faria, A.
+, 
+Gomes, M.
+, 
+Epstein, D.
+, &amp; 
+White, I.
+ (2014). A guide to handling missing data in cost‐effectiveness analysis conducted within randomised controlled trials. PharmacoEconomics, 32(12), 1157–1170. 10.1007/s40273-014-0193-3
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s40273-014-0193-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4244574"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25069632"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PharmacoEconomics&amp;title=A guide to handling missing data in cost‐effectiveness analysis conducted within randomised controlled trials&amp;author=A. Faria&amp;author=M. Gomes&amp;author=D. Epstein&amp;author=I. White&amp;volume=32&amp;issue=12&amp;publication_year=2014&amp;pages=1157-1170&amp;pmid=25069632&amp;doi=10.1007/s40273-014-0193-3&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0035"><mixed-citation id="hec4510-cit-0035"><named-content content-type="citation-string">
+
+Gabrio, A.
+ (2022, March 23). LMM in CEA [Repository]. Github. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/AnGabrio/Code/tree/master/lmm_in_CEA" ext-link-type="uri">https://github.com/AnGabrio/Code/tree/master/lmm_in_CEA</ext-link>
+</named-content></mixed-citation></ref><ref id="hec4510-bib-0010"><mixed-citation id="hec4510-cit-0010"><named-content content-type="citation-string">
+
+Gabrio, A.
+, 
+Daniels, M. J.
+, &amp; 
+Baio, G.
+ (2020). A bayesian parametric approach to handle missing longitudinal outcome data in trial‐based health economic evaluations. Journal of the Royal Statistical Society: Series A, 183(2), 607–629. 10.1111/rssa.12522
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/rssa.12522"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8356910"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34385761"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of the Royal Statistical Society: Series A&amp;title=A bayesian parametric approach to handle missing longitudinal outcome data in trial‐based health economic evaluations&amp;author=A. Gabrio&amp;author=M. J. Daniels&amp;author=G. Baio&amp;volume=183&amp;issue=2&amp;publication_year=2020&amp;pages=607-629&amp;pmid=34385761&amp;doi=10.1111/rssa.12522&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0011"><mixed-citation id="hec4510-cit-0011"><named-content content-type="citation-string">
+
+Gabrio, A.
+, 
+Mason, A.
+, &amp; 
+Baio, G.
+ (2019). A full Bayesian model to handle structural ones and missingness in economic evaluations from individual‐level data. Statistics in Medicine, 38(8), 1399–1420. 10.1002/sim.8045
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.8045"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30565727"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Statistics in Medicine&amp;title=A full Bayesian model to handle structural ones and missingness in economic evaluations from individual‐level data&amp;author=A. Gabrio&amp;author=A. Mason&amp;author=G. Baio&amp;volume=38&amp;issue=8&amp;publication_year=2019&amp;pages=1399-1420&amp;pmid=30565727&amp;doi=10.1002/sim.8045&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0012"><mixed-citation id="hec4510-cit-0012"><named-content content-type="citation-string">
+
+Gabrio, A.
+, 
+Mason, A. J.
+, &amp; 
+Baio, G.
+ (2017). Handling missing data in within‐trial cost‐effectiveness analysis: A review with future recommendations. PharmacoEconomics‐Open, 1(2), 79–97. 10.1007/s41669-017-0015-6
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s41669-017-0015-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5691848"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29442336"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PharmacoEconomics‐Open&amp;title=Handling missing data in within‐trial cost‐effectiveness analysis: A review with future recommendations&amp;author=A. Gabrio&amp;author=A. J. Mason&amp;author=G. Baio&amp;volume=1&amp;issue=2&amp;publication_year=2017&amp;pages=79-97&amp;pmid=29442336&amp;doi=10.1007/s41669-017-0015-6&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0013"><mixed-citation id="hec4510-cit-0013"><named-content content-type="citation-string">
+
+Gomes, M.
+, 
+Radice, R.
+, 
+Camarena Brenes, J.
+, &amp; 
+Marra, G.
+ (2019). Copula selection models for non‐Gaussian outcomes that are missing not at random. Statistics in Medicine, 38(3), 480–496. 10.1002/sim.7988
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.7988"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30298525"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Statistics in Medicine&amp;title=Copula selection models for non‐Gaussian outcomes that are missing not at random&amp;author=M. Gomes&amp;author=R. Radice&amp;author=J. Camarena Brenes&amp;author=G. Marra&amp;volume=38&amp;issue=3&amp;publication_year=2019&amp;pages=480-496&amp;pmid=30298525&amp;doi=10.1002/sim.7988&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0014"><mixed-citation id="hec4510-cit-0014"><named-content content-type="citation-string">
+
+Gomes, R.
+, 
+Grieve, R.
+, 
+Nixon, R.
+, &amp; 
+Edmunds, WJ.
+ (2012). Statistical methods for cost‐effectiveness analyses that use data from cluster randomized trials. Medical Decision Making, 32(1), 209–220. 10.1177/0272989x11407341
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1177/0272989x11407341"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21610256"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Medical Decision Making&amp;title=Statistical methods for cost‐effectiveness analyses that use data from cluster randomized trials&amp;author=R. Gomes&amp;author=R. Grieve&amp;author=R. Nixon&amp;author=WJ. Edmunds&amp;volume=32&amp;issue=1&amp;publication_year=2012&amp;pages=209-220&amp;pmid=21610256&amp;doi=10.1177/0272989x11407341&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0015"><mixed-citation id="hec4510-cit-0015"><named-content content-type="citation-string">
+
+Leurent, B.
+, 
+Gomes, M.
+, &amp; 
+Carpenter, J. R.
+ (2018a). Missing data in trial‐based cost‐effectiveness analysis: An incomplete journey. Health Economics, 27(6), 1024–1040. 10.1002/hec.3654
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.3654"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5947820"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29573044"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Missing data in trial‐based cost‐effectiveness analysis: An incomplete journey&amp;author=B. Leurent&amp;author=M. Gomes&amp;author=J. R. Carpenter&amp;volume=27&amp;issue=6&amp;publication_year=2018a&amp;pages=1024-1040&amp;pmid=29573044&amp;doi=10.1002/hec.3654&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0016"><mixed-citation id="hec4510-cit-0016"><named-content content-type="citation-string">
+
+Leurent, B.
+, 
+Gomes, M.
+, 
+Cro, S.
+, 
+Wiles, N.
+, &amp; 
+Carpenter, J. R.
+ (2020). Reference‐based multiple imputation for missing data sensitivity analyses in trial‐based cost‐effectiveness analysis. Health Economics, 29(2), 171–184. 10.1002/hec.3963
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.3963"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7004051"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31845455"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Reference‐based multiple imputation for missing data sensitivity analyses in trial‐based cost‐effectiveness analysis&amp;author=B. Leurent&amp;author=M. Gomes&amp;author=S. Cro&amp;author=N. Wiles&amp;author=J. R. Carpenter&amp;volume=29&amp;issue=2&amp;publication_year=2020&amp;pages=171-184&amp;pmid=31845455&amp;doi=10.1002/hec.3963&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0017"><mixed-citation id="hec4510-cit-0017"><named-content content-type="citation-string">
+
+Leurent, B.
+, 
+Gomes, M.
+, 
+Faria, R.
+, 
+Morris, S.
+, 
+Grieve, R.
+, &amp; 
+Carpenter, J.
+ (2018b). Sensitivity analysis for not‐at‐random missing data in trial‐based cost‐effectiveness analysis: A tutorial. PharmacoEconomics, 1–13(8), 889–901. 10.1007/s40273-018-0650-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s40273-018-0650-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6021473"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29679317"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PharmacoEconomics&amp;title=Sensitivity analysis for not‐at‐random missing data in trial‐based cost‐effectiveness analysis: A tutorial&amp;author=B. Leurent&amp;author=M. Gomes&amp;author=R. Faria&amp;author=S. Morris&amp;author=R. Grieve&amp;volume=1–13&amp;issue=8&amp;publication_year=2018b&amp;pages=889-901&amp;pmid=29679317&amp;doi=10.1007/s40273-018-0650-5&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0018"><mixed-citation id="hec4510-cit-0018"><named-content content-type="citation-string">
+
+Little, R. J.
+, 
+D’Agostino, R.
+, 
+Cohen, M. L.
+, 
+Dickersin, K.
+, 
+Emerson, S. S.
+, 
+Farrar, J. T.
+, 
+Frangakis, C.
+, 
+Hogan, J. W.
+, 
+Molenberghs, G.
+, 
+Murphy, S. A.
+, 
+Neaton, J. D.
+, 
+Rotnitzky, A.
+, 
+Scharfstein, D.
+, 
+Shih, W. J.
+, 
+Siegel, J. P.
+, &amp; 
+Stern, H.
+ (2012). The prevention and treatment of missing data in clinical trials. New England Journal of Medicine, 367(14), 1355–1360. 10.1056/nejmsr1203730
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/nejmsr1203730"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3771340"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23034025"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=New England Journal of Medicine&amp;title=The prevention and treatment of missing data in clinical trials&amp;author=R. J. Little&amp;author=R. D’Agostino&amp;author=M. L. Cohen&amp;author=K. Dickersin&amp;author=S. S. Emerson&amp;volume=367&amp;issue=14&amp;publication_year=2012&amp;pages=1355-1360&amp;pmid=23034025&amp;doi=10.1056/nejmsr1203730&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0019"><mixed-citation id="hec4510-cit-0019"><named-content content-type="citation-string">
+
+Manca, A.
+, 
+Rice, N.
+, 
+Sculpher, M. J.
+, &amp; 
+Briggs, A. H.
+ (2005). Assessing generalisability by location in trial‐based cost‐effectiveness analysis: The use of multilevel models. Health Economics, 14(5), 471–485. 10.1002/hec.914
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.914"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15386662"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Assessing generalisability by location in trial‐based cost‐effectiveness analysis: The use of multilevel models&amp;author=A. Manca&amp;author=N. Rice&amp;author=M. J. Sculpher&amp;author=A. H. Briggs&amp;volume=14&amp;issue=5&amp;publication_year=2005&amp;pages=471-485&amp;pmid=15386662&amp;doi=10.1002/hec.914&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0020"><mixed-citation id="hec4510-cit-0020"><named-content content-type="citation-string">
+
+Mason, A. J.
+, 
+Gomes, M.
+, 
+Grieve, R.
+, &amp; 
+Carpenter, J. R.
+ (2018). A bayesian framework for health economic evaluation in studies with missing data. Health Economics, 27(11), 1670–1683. 10.1002/hec.3793
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.3793"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6220766"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29969834"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=A bayesian framework for health economic evaluation in studies with missing data&amp;author=A. J. Mason&amp;author=M. Gomes&amp;author=R. Grieve&amp;author=J. R. Carpenter&amp;volume=27&amp;issue=11&amp;publication_year=2018&amp;pages=1670-1683&amp;pmid=29969834&amp;doi=10.1002/hec.3793&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0021"><mixed-citation id="hec4510-cit-0021"><named-content content-type="citation-string">
+
+Molenberghs, G.
+, 
+Thijs, H.
+, 
+Jansen, I.
+, 
+Beunckens, C.
+, 
+Kenward, M. G.
+, 
+Mallinckrodt, C.
+, &amp; 
+Carroll, R. J.
+ (2004). Analyzing incomplete longitudinal clinical trial data. Biostatistics, 5(3), 445–464. 10.1093/biostatistics/kxh001
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/biostatistics/kxh001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15208205"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biostatistics&amp;title=Analyzing incomplete longitudinal clinical trial data&amp;author=G. Molenberghs&amp;author=H. Thijs&amp;author=I. Jansen&amp;author=C. Beunckens&amp;author=M. G. Kenward&amp;volume=5&amp;issue=3&amp;publication_year=2004&amp;pages=445-464&amp;pmid=15208205&amp;doi=10.1093/biostatistics/kxh001&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0022"><mixed-citation id="hec4510-cit-0022"><named-content content-type="citation-string">
+
+Nixon, R.
+, &amp; 
+Thompson, S.
+ (2005). Methods for incorporating covariate adjustment, subgroup analysis and between‐centre differences into cost‐effectiveness evaluations. Health Economics, 14(12), 1217–1229. 10.1002/hec.1008
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.1008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15945043"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Methods for incorporating covariate adjustment, subgroup analysis and between‐centre differences into cost‐effectiveness evaluations&amp;author=R. Nixon&amp;author=S. Thompson&amp;volume=14&amp;issue=12&amp;publication_year=2005&amp;pages=1217-1229&amp;pmid=15945043&amp;doi=10.1002/hec.1008&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0023"><mixed-citation id="hec4510-cit-0023"><named-content content-type="citation-string">
+
+Noble, S.
+, 
+Hollingworth, W.
+, &amp; 
+Tilling, K.
+ (2012). Missing data in trial‐based cost‐effectiveness analysis: The current state of play. Health Economics, 21(2), 187–200. 10.1002/hec.1693
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.1693"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22223561"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Missing data in trial‐based cost‐effectiveness analysis: The current state of play&amp;author=S. Noble&amp;author=W. Hollingworth&amp;author=K. Tilling&amp;volume=21&amp;issue=2&amp;publication_year=2012&amp;pages=187-200&amp;pmid=22223561&amp;doi=10.1002/hec.1693&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0024"><mixed-citation id="hec4510-cit-0024"><named-content content-type="citation-string">
+
+Ramsey, S. D.
+, 
+Willke, R. J.
+, 
+Glick, H.
+, 
+Reed, S. D.
+, 
+Augustovski, F.
+, 
+Jonsson, B.
+, 
+Briggs, A.
+, &amp; 
+Sullivan, S. D.
+ (2015). Cost‐effectiveness analysis alongside clinical trials II—an ISPOR good research practices task force report. Value in Health, 18(2), 161–172. 10.1016/j.jval.2015.02.001
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jval.2015.02.001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25773551"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Value in Health&amp;title=Cost‐effectiveness analysis alongside clinical trials II—an ISPOR good research practices task force report&amp;author=S. D. Ramsey&amp;author=R. J. Willke&amp;author=H. Glick&amp;author=S. D. Reed&amp;author=F. Augustovski&amp;volume=18&amp;issue=2&amp;publication_year=2015&amp;pages=161-172&amp;pmid=25773551&amp;doi=10.1016/j.jval.2015.02.001&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0025"><mixed-citation id="hec4510-cit-0025"><named-content content-type="citation-string">
+
+Rice, N.
+, &amp; 
+Jones, A.
+ (1997). Multilevel models and health economics. Health Economics, 6(6), 561–575. 10.1002/(sici)1099-1050(199711)6:6&lt;561::aid-hec288&gt;3.0.co;2-x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/(sici)1099-1050(199711)6:6&lt;561::aid-hec288&gt;3.0.co;2-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9466139"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Multilevel models and health economics&amp;author=N. Rice&amp;author=A. Jones&amp;volume=6&amp;issue=6&amp;publication_year=1997&amp;pages=561-575&amp;pmid=9466139&amp;doi=10.1002/(sici)1099-1050(199711)6:6&lt;561::aid-hec288&gt;3.0.co;2-x&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0026"><mixed-citation id="hec4510-cit-0026"><named-content content-type="citation-string">
+
+Romeo, R.
+, 
+Knapp, M.
+, 
+Hellier, J.
+, 
+Dewey, M.
+, 
+Ballard, C.
+, 
+Baldwin, R.
+, 
+Bentham, P.
+, 
+Burns, A.
+, 
+Fox, C.
+, 
+Holmes, C.
+, 
+Katona, C.
+, 
+Lawton, C.
+, 
+Lindesay, J.
+, 
+Livingston, G.
+, 
+McCrae, N.
+, 
+Moniz‐Cook, E.
+, 
+Murray, J.
+, 
+Nurock, S.
+, 
+O'Brien, J.
+, … 
+Banerjee, S.
+ (2013). Cost‐effectiveness analyses for mirtazapine and sertraline in dementia: Randomised controlled trial. The British Journal of Psychiatry, 202(2), 121–128. 10.1192/bjp.bp.112.115212
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1192/bjp.bp.112.115212"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23258767"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The British Journal of Psychiatry&amp;title=Cost‐effectiveness analyses for mirtazapine and sertraline in dementia: Randomised controlled trial&amp;author=R. Romeo&amp;author=M. Knapp&amp;author=J. Hellier&amp;author=M. Dewey&amp;author=C. Ballard&amp;volume=202&amp;issue=2&amp;publication_year=2013&amp;pages=121-128&amp;pmid=23258767&amp;doi=10.1192/bjp.bp.112.115212&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0027"><mixed-citation id="hec4510-cit-0027"><named-content content-type="citation-string">
+
+Rubin, D. B.
+ (1987). Multiple imputation for nonresponse in surveys. John Wiley and Sons.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Multiple imputation for nonresponse in surveys&amp;author=D. B. Rubin&amp;publication_year=1987&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0028"><mixed-citation id="hec4510-cit-0028"><named-content content-type="citation-string">
+
+Schafer, J. L.
+, &amp; 
+Graham, J. W.
+ (2002). Missing data: Our view of the state of the art. Psychological Methods, 7(2), 147–177. 10.1037/1082-989x.7.2.147
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1037/1082-989x.7.2.147"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12090408"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Psychological Methods&amp;title=Missing data: Our view of the state of the art&amp;author=J. L. Schafer&amp;author=J. W. Graham&amp;volume=7&amp;issue=2&amp;publication_year=2002&amp;pages=147-177&amp;pmid=12090408&amp;doi=10.1037/1082-989x.7.2.147&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0029"><mixed-citation id="hec4510-cit-0029"><named-content content-type="citation-string">
+
+van Buuren, S.
+ (2018). Flexible imputation of missing data. Chapman and Hall/CRC.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Flexible imputation of missing data&amp;author=S. van Buuren&amp;publication_year=2018&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0030"><mixed-citation id="hec4510-cit-0030"><named-content content-type="citation-string">
+
+van Hout, B. A.
+, 
+Al, M. J.
+, 
+Gordon, G. S.
+, &amp; 
+Rutten, F. F.
+ (1994). Costs, effects and c/e‐ratios alongside a clinical trial. Health Economics, 3(5), 309–319. 10.1002/hec.4730030505
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.4730030505"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="7827647"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Costs, effects and c/e‐ratios alongside a clinical trial&amp;author=B. A. van Hout&amp;author=M. J. Al&amp;author=G. S. Gordon&amp;author=F. F. Rutten&amp;volume=3&amp;issue=5&amp;publication_year=1994&amp;pages=309-319&amp;pmid=7827647&amp;doi=10.1002/hec.4730030505&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0031"><mixed-citation id="hec4510-cit-0031"><named-content content-type="citation-string">
+
+White, I. R.
+, &amp; 
+Thompson, S. G.
+ (2005). Adjusting for partially missing baseline measurements in randomized trials. Statistics in Medicine, 24(7), 993–1007. 10.1002/sim.1981
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sim.1981"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15570623"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Statistics in Medicine&amp;title=Adjusting for partially missing baseline measurements in randomized trials&amp;author=I. R. White&amp;author=S. G. Thompson&amp;volume=24&amp;issue=7&amp;publication_year=2005&amp;pages=993-1007&amp;pmid=15570623&amp;doi=10.1002/sim.1981&amp;"/></mixed-citation></ref><ref id="hec4510-bib-0032"><mixed-citation id="hec4510-cit-0032"><named-content content-type="citation-string">
+
+Wolfinger, R.
+ (1993). Covariance structure selection in general mixed models. Communications in Statistics ‐ Simulation and Computation, 22(4), 1079–1106. 10.1080/03610919308813143
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1080/03610919308813143"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Communications in Statistics ‐ Simulation and Computation&amp;title=Covariance structure selection in general mixed models&amp;author=R. Wolfinger&amp;volume=22&amp;issue=4&amp;publication_year=1993&amp;pages=1079-1106&amp;doi=10.1080/03610919308813143&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>Data from the SADD trial were provided by the investigators for the purpose of this article. They are available upon reasonable request from the chief investigator () along with the other trial datasets.</p></sec></sec></body></article>

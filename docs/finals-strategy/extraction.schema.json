@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NAIS condition extraction candidate (unapproved)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "reported_value",
+    "variable",
+    "filters",
+    "missing_policy",
+    "missing_tokens",
+    "denominator",
+    "method",
+    "unit",
+    "source_location",
+    "field_evidence",
+    "unresolved"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "reported_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "variable": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "filters": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "column",
+          "operator",
+          "value"
+        ],
+        "properties": {
+          "column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "operator": {
+            "const": "eq"
+          },
+          "value": {
+            "type": [
+              "string",
+              "number"
+            ]
+          }
+        }
+      }
+    },
+    "missing_policy": {
+      "enum": [
+        "error",
+        "complete_case",
+        "not_applicable",
+        null
+      ]
+    },
+    "missing_tokens": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "maxItems": 16,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "maxLength": 32
+      }
+    },
+    "denominator": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "method": {
+      "enum": [
+        "count_rows",
+        "mean",
+        null
+      ]
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "source_location": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source_id",
+            "locator",
+            "quote"
+          ],
+          "properties": {
+            "source_id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            "locator": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 512
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 4000
+            }
+          }
+        }
+      ]
+    },
+    "field_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reported_value",
+        "variable",
+        "filters",
+        "missing_policy",
+        "missing_tokens",
+        "denominator",
+        "method",
+        "unit"
+      ],
+      "properties": {
+        "reported_value": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "variable": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "filters": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "missing_policy": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "missing_tokens": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "denominator": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "method": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "unit": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "maxItems": 16,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 512
+      }
+    }
+  },
+  "$comment": "버전 3 조지현: 추측 대신 null과 unresolved를 허용하는 추출 계약 계획. 실행 검증·사람 승인·분석 타당성을 보증하지 않음."
+}

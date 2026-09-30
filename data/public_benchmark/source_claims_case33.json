@@ -1,0 +1,13 @@
+{
+  "study_id": "RJ-2022-020",
+  "article_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+  "article_pdf_url": "https://journal.r-project.org/articles/RJ-2022-020/RJ-2022-020.pdf",
+  "dataset_file": "penguins.csv",
+  "note": "Public-paper claim excerpts used as blind production inputs. Gold labels live only under tests/gold and are not imported by production code.",
+  "claims": [
+    {"source_id":"PUB-01","page":3,"text":"The penguins dataset contains missing values (n = 19, out of 2,752 total values)."},
+    {"source_id":"PUB-02","page":5,"text":"Bill length and bill depth appear negatively correlated overall."},
+    {"source_id":"PUB-03","page":5,"text":"Within species, bill length and bill depth show a positive correlation."},
+    {"source_id":"PUB-04","page":5,"text":"For penguins, 88.15% of total variance is captured by the first two principal components."}
+  ]
+}

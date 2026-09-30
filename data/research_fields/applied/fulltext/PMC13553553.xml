@@ -1,0 +1,718 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece374317" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13553553</article-id><article-id pub-id-type="pmcid-ver">PMC13553553.1</article-id><article-id pub-id-type="pmcaid">13553553</article-id><article-id pub-id-type="pmcaiid">13553553</article-id><article-id pub-id-type="pmid">42718583</article-id><article-id pub-id-type="doi">10.1002/ece3.74317</article-id><article-id pub-id-type="publisher-id">ECE374317</article-id><article-id pub-id-type="other">ECE-2026-04-01183.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Conservation Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Predicted Global Redistribution of Pyrophilous Beetle <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> (Coleoptera: Buprestidae) Under Climate Change</article-title></title-group><contrib-group><contrib id="ece374317-cr-0001" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="J">Jieqiong</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0006-5311-3457</contrib-id><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374317-cr-0002" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="S">Shiqi</given-names></name><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374317-cr-0003" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Y">Yingying</given-names></name><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374317-cr-0004" contrib-type="author"><name name-style="western"><surname>Shi</surname><given-names initials="A">Aimin</given-names></name><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374317-cr-0005" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Y">Yunchun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-4052-5578</contrib-id><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece374317-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Yang</surname><given-names initials="D">Ding</given-names></name><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece374317-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ece374317-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib><contrib id="ece374317-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wei</surname><given-names initials="Z">Zhonghua</given-names></name><xref rid="ece374317-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece374317-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="ece374317-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">College of Life Sciences</named-content>
+<institution>China West Normal University</institution>
+<city>Nanchong</city>
+<named-content content-type="country-part">Sichuan</named-content>
+<country country="CN">China</country>
+</aff><aff id="ece374317-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">College of Plant Protection</named-content>
+<institution>China Agricultural University</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="ece374317-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Green Pesticides</named-content>
+<institution>Guizhou University</institution>
+<city>Guiyang</city>
+<named-content content-type="country-part">Guizhou</named-content>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Ding Yang ()<break/>
+Zhonghua Wei ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="1968">9</issue><issue-id pub-id-type="pmc-issue-id">520317</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v16.9</issue-id><elocation-id>e74317</elocation-id><history>
+<date date-type="rev-recd"><day>16</day><month>8</month><year>2026</year></date>
+<date date-type="received"><day>02</day><month>5</month><year>2026</year></date>
+<date date-type="accepted"><day>26</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>08</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>10</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-10 15:12:03.670"><day>10</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-16-e74317.pdf"><?pdf-name ECE3-16-e74317.pdf?><?pdf-size 4570917?><?pdf-md5 32e5c492e4c2de41421b8d1d52924d4e?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:0e43/13553553/32e5c492e4c2/ECE3-16-e74317.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-16-e74317.pdf"/><abstract><title>ABSTRACT</title><p>The pyrophilous beetle <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> is a decomposer of freshly burned wood, playing a critical role in nutrient cycling within forest ecosystems. To investigate the impact of climate change on the global distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>, this study employed MaxEnt modeling in conjunction with 22 environmental variables under current and future conditions (2050s and 2070s) to conduct a comparative analysis of its suitable habitats. After rational screening, a total of 795 global occurrence records and 10 selected key environmental variables were incorporated into the MaxEnt model, which demonstrated excellent predictive accuracy (AUC ≥ 0.919). The results indicate that the mean temperature of the coldest quarter (Bio11) and the precipitation of the driest month (Bio14) are the primary factors limiting the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. Under current climate conditions, its high‐suitability areas are concentrated in Northern Europe and the border region between the United States and Canada. Under the high‐emission scenario (SSP5‐8.5) in the 2070s, the high‐suitability area is projected to contract by nearly 36%, with the centroid shifting northwestward to higher elevation and an increase in habitat fragmentation. This projected contraction and fragmentation of suitable habitats may pose particular challenges for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>, given its known reliance on habitat connectivity for locating fire sites via its specialized infrared sensory system (Schmitz and Bousack 2012). However, direct validation of this mechanistic link requires further empirical investigation. Based on the predicted suitable habitats of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> in 2050s and 2070s, future conservation efforts should focus on high‐suitability areas in Northern Europe and Canada.</p></abstract><abstract abstract-type="graphical"><p>
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content>'s core suitable habitat is projected to shrink by ~36% and shift northwestward under high‐emission scenarios, with Northern Europe and Canada as key future conservation priorities.<boxed-text position="anchor" content-type="graphic" id="ece374317-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-16-e74317-g003.webp"><?image-name ECE3-16-e74317-g003.webp?><?image-size 21928?><?image-md5 7c0cb84c1a6cfb54f27cb5e2980fe659?><?image-image-server-status NEVER_LOAD?><?image-original-height 317?><?image-original-width 390?><?image-scaled-height 317?><?image-scaled-width 390?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/7c0cb84c1a6c/ECE3-16-e74317-g003.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece374317-kwd-0001">climate change</kwd><kwd id="ece374317-kwd-0002">MaxEnt</kwd><kwd id="ece374317-kwd-0003"><styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content></kwd><kwd id="ece374317-kwd-0004">pyrophilous beetle</kwd><kwd id="ece374317-kwd-0005">suitable habitats</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>32130012</award-id><award-id>32670609</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Natural Science Foundation of Sichuan Province</institution><institution-id institution-id-type="doi">10.13039/501100018542</institution-id></institution-wrap>
+</funding-source><award-id>2025NSFSC2117</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Qiankehe Platform Talent</institution></institution-wrap>
+</funding-source><award-id>BQW [2024] 012</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Natural Science Special (Special Post) Scientific Research Fund Project of Guizhou University</institution></institution-wrap>
+</funding-source><award-id>2023‐06</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="2"/><page-count count="11"/><word-count count="5800"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:08.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ece374317-body-0001"><sec id="ece374317-sec-0001"><label>1</label><title>Introduction</title><p>Global warming is one of the major scientific challenges facing this century. Climate change is contributing to the decline of biodiversity and altering species distribution patterns (Bellard et al. <xref rid="ece374317-bib-0006" ref-type="bibr">2012</xref>; Pecl et al. <xref rid="ece374317-bib-0023" ref-type="bibr">2017</xref>; Chen et al. <xref rid="ece374317-bib-0009" ref-type="bibr">2023</xref>), which can lead to changes in the structure and function of ecosystems (Bellard et al. <xref rid="ece374317-bib-0006" ref-type="bibr">2012</xref>). Therefore, studying the geographical distribution patterns of species under climate change will provide data support for biodiversity conservation, resource management, and pest control. To better explore the relationship between climate change and species niches, various species distribution models have been developed, including maximum entropy modeling (MaxEnt) (Phillips et al. <xref rid="ece374317-bib-0025" ref-type="bibr">2006</xref>), CLIMEX (Sutherst et al. <xref rid="ece374317-bib-0033" ref-type="bibr">2004</xref>), Enphylo (Mondanaro et al. <xref rid="ece374317-bib-0021" ref-type="bibr">2023</xref>), Genetic Algorithm for Rule Set Production (GARP) (Stockwell <xref rid="ece374317-bib-0032" ref-type="bibr">1999</xref>), and the bioclimate analysis and prediction system (BIOCLIM) (Booth et al. <xref rid="ece374317-bib-0007" ref-type="bibr">2014</xref>), among others. Among these models, the MaxEnt model is widely used due to its high accuracy, ease of use, and the relatively small number of species occurrence points required (Elith et al. <xref rid="ece374317-bib-0010" ref-type="bibr">2006</xref>; Merow et al. <xref rid="ece374317-bib-0020" ref-type="bibr">2013</xref>; Phillips et al. <xref rid="ece374317-bib-0024" ref-type="bibr">2017</xref>).</p><p>According to existing research results, the effects of climate change on the distribution ranges of different insects are inconsistent: under future climatic conditions, some species are expected to expand their distribution ranges (Fu et al. <xref rid="ece374317-bib-0013" ref-type="bibr">2024</xref>; Zhao et al. <xref rid="ece374317-bib-0046" ref-type="bibr">2024</xref>; Aidoo et al. <xref rid="ece374317-bib-0001" ref-type="bibr">2022</xref>), while others are predicted to shrink (Yu and Li <xref rid="ece374317-bib-0043" ref-type="bibr">2024</xref>; Poloni et al. <xref rid="ece374317-bib-0027" ref-type="bibr">2022</xref>). Therefore, predicting suitable habitats for species that hold resource value, economic value, and ecological value will benefit their conservation, management, and control.</p><p>The family Buprestidae is one of the larger groups within the order Coleoptera, comprising over 15,000 species (Bellamy <xref rid="ece374317-bib-0005" ref-type="bibr">2008</xref>). Within this family, some species are collected or used as decorative items due to their vibrant colors, while others are considered pests in agriculture and forestry, such as <italic toggle="yes">Agrilus mali</italic> Matsumura, 1924 (Zhang et al. <xref rid="ece374317-bib-0044" ref-type="bibr">2020</xref>), <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Agrilus planipennis</italic>
+</styled-content> Fairmaire, 1888 (Herms and McCullough <xref rid="ece374317-bib-0014" ref-type="bibr">2014</xref>), and <italic toggle="yes">Trachypteris picta</italic> (Pallas, 1773) (Liu et al. <xref rid="ece374317-bib-0019" ref-type="bibr">2025</xref>). Among buprestid species, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> (DeGeer, 1774) is one of the well‐known pyrophilous beetles, with its distribution mainly confined to the Northern Hemisphere, including North America, Europe, and Asia (Bellamy <xref rid="ece374317-bib-0005" ref-type="bibr">2008</xref>). It exhibits a strong preference for freshly burned trees (Apel <xref rid="ece374317-bib-0003" ref-type="bibr">1988</xref>; Ricksecker <xref rid="ece374317-bib-0029" ref-type="bibr">1885</xref>; VanDyke <xref rid="ece374317-bib-0034" ref-type="bibr">1928</xref>). It is among the first decomposers to colonize fire‐affected forests after a large fire, laying its eggs under the bark of charred trees, where its larvae develop within the wood (Nicholson <xref rid="ece374317-bib-0022" ref-type="bibr">1919</xref>). Consequently, it plays a crucial role in the decomposition of fire‐damaged and lightning‐struck wood. This species is capable of detecting wildfires from long distances, and the microscopic structure and sensitivity of its infrared receptors have been thoroughly investigated (Evans <xref rid="ece374317-bib-0011" ref-type="bibr">1964</xref>; Schmitz and Bousack <xref rid="ece374317-bib-0030" ref-type="bibr">2012</xref>).</p><p>To investigate the impact of climate change on the suitable habitats of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>, this study employed the MaxEnt model, utilizing 22 environmental factors (19 bioclimatic factors, global land cover type, global vegetation, and elevation) to explore changes in its potential distribution. The results will provide fundamental data for the monitoring and conservation of the pyrophilous beetle <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>.</p></sec><sec sec-type="materials-and-methods" id="ece374317-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece374317-sec-0003"><label>2.1</label><title>Obtaining and Processing Occurrence Data</title><p>Global distribution records of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> were primarily sourced from the Global Biodiversity Information Facility (GBIF, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gbif.org/" ext-link-type="uri">https://www.gbif.org/</ext-link>), the China National Knowledge Infrastructure (CNKI, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cnki.net/" ext-link-type="uri">https://www.cnki.net/</ext-link>) and the National Animal Collection Resource Center (NACR, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://museum.ioz.ac.cn/" ext-link-type="uri">http://museum.ioz.ac.cn/</ext-link>). To mitigate potential sampling bias, spatial autocorrelation, and the effects of environmental heterogeneity across the study area, we conducted thorough data cleaning and spatial filtering (Boria et al. <xref rid="ece374317-bib-0008" ref-type="bibr">2014</xref>). Duplicate records with identical coordinates and collection dates were removed, while records with ambiguous geographic locations, questionable specimen information, or precision limited to state or provincial levels were excluded, as these factors can affect the accuracy of SDMs (Koo et al. <xref rid="ece374317-bib-0018" ref-type="bibr">2025</xref>). Spatial thinning was then performed using ENMTools at a grid resolution of 2.5 arc minutes, retaining only one occurrence point per grid cell globally (Warren et al. <xref rid="ece374317-bib-0037" ref-type="bibr">2021</xref>). A total of 1457 raw global occurrence points were initially collected (Figure <xref rid="ece374317-fig-0001" ref-type="fig">1</xref>). After data filtering, 795 valid occurrence points were retained. All coordinates were compiled into an Excel spreadsheet and converted to CSV format for subsequent construction and analysis of the MaxEnt ecological niche model on a global scale.</p><fig position="float" fig-type="FIGURE" id="ece374317-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Global occurrence records of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content>. The gradient colors of the base map represent elevation. Red dots indicate georeferenced occurrence records of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-16-e74317-g004.webp"><?image-name ECE3-16-e74317-g004.webp?><?image-size 65154?><?image-md5 f9b3dd541d0a17c4497ebcc045c89a24?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 584?><?image-original-width 1064?><?image-scaled-height 584?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/f9b3dd541d0a/ECE3-16-e74317-g004.webp?><?thumb-name ECE3-16-e74317-g004.gif?><?thumb-size 9415?><?thumb-md5 184b7c1a83279a6eb44bb80c9d848d4a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 110?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/0e43/13553553/184b7c1a8327/ECE3-16-e74317-g004.gif?></graphic></fig></sec><sec id="ece374317-sec-0004"><label>2.2</label><title>Environmental Variables</title><p>This study constructed an initial set of environmental variables comprising 19 bioclimatic variables with a spatial resolution of 2.5 arc minutes, which serve as the core climatic factors. In addition, three categories of non‐climatic environmental variables were included: land cover type (gm_lc), percentage of vegetation cover (gm_ve), and elevation (elev). These variables collectively characterize the climatic and geographic conditions influencing the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. The 19 bioclimatic variables were obtained from the WorldClim database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.worldclim.org/" ext-link-type="uri">http://www.worldclim.org/</ext-link>), while data on land cover type and percentage of vegetation cover were sourced from the Global Land Cover Database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://globalmaps.github.io/" ext-link-type="uri">https://globalmaps.github.io/</ext-link>), with vegetation cover values ranging from 0% to 100% (Kobayashi et al. <xref rid="ece374317-bib-0017" ref-type="bibr">2017</xref>). Elevation data were derived from the EarthEnv database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.earthenv.org/" ext-link-type="uri">https://www.earthenv.org/</ext-link>).</p><p>To mitigate the risk of model overfitting and reduced predictive reliability caused by multicollinearity among environmental variables, we employed Pearson correlation analysis to screen the initial set of environmental variables (Warren et al. <xref rid="ece374317-bib-0037" ref-type="bibr">2021</xref>) (Figure <xref rid="ece374317-supitem-0001" ref-type="supplementary-material">S1</xref>; Table <xref rid="ece374317-supitem-0001" ref-type="supplementary-material">S1</xref>). Pearson correlation coefficients were calculated for all pairs of variables, using an absolute correlation coefficient threshold of |r| &gt; 0.85 to identify strong multicollinearity (Wei et al. <xref rid="ece374317-bib-0039" ref-type="bibr">2018</xref>; Zhong et al. <xref rid="ece374317-bib-0047" ref-type="bibr">2023</xref>). For variable groups exhibiting strong multicollinearity, redundant variables were eliminated based on the ecological habits of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> and the ecological significance of each predictor. As a thermophilic and xylophagous insect, the survival, development, and dispersal activity of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> are mainly restricted by thermal conditions. Therefore, we prioritized temperature‐related bioclimatic variables with direct biological implications, followed by precipitation‐related variables. Variables that only indirectly affect insect populations were excluded to avoid information redundancy, retaining only independent core environmental variables with clear ecological interpretability for the subsequent construction of the MaxEnt model. Finally, 10 selected environmental variables (Table <xref rid="ece374317-tbl-0001" ref-type="table">1</xref>) were used as input factors for the model. The Jackknife test was performed to evaluate the relative importance of each variable in determining species distribution (Warren et al. <xref rid="ece374317-bib-0037" ref-type="bibr">2021</xref>).</p><table-wrap position="float" id="ece374317-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>The selected 10 environmental variables used in the MaxEnt model.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Bioclimatic variable</th><th align="center" valign="bottom" rowspan="1" colspan="1">Description</th><th align="center" valign="bottom" rowspan="1" colspan="1">Unit</th><th align="center" valign="bottom" rowspan="1" colspan="1">Spatial resolution</th><th align="center" valign="bottom" rowspan="1" colspan="1">Data source</th><th align="center" valign="bottom" rowspan="1" colspan="1">Contribution</th><th align="center" valign="bottom" rowspan="1" colspan="1">Permutation importance</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio01</td><td align="center" valign="top" rowspan="1" colspan="1">Annual mean temperature</td><td align="center" valign="top" rowspan="1" colspan="1">°C</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">10</td><td align="center" valign="top" rowspan="1" colspan="1">2.5</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio03</td><td align="center" valign="top" rowspan="1" colspan="1">Isothermality</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">4.1</td><td align="center" valign="top" rowspan="1" colspan="1">9.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio05</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>Maximum temperature of the</p>
+<p>warmest month</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">°C</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">2.8</td><td align="center" valign="top" rowspan="1" colspan="1">24.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio08</td><td align="center" valign="top" rowspan="1" colspan="1">Mean temperature of the wettest quarter</td><td align="center" valign="top" rowspan="1" colspan="1">°C</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">2.0</td><td align="center" valign="top" rowspan="1" colspan="1">6.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio10</td><td align="center" valign="top" rowspan="1" colspan="1">Mean temperature of the warmest quarter</td><td align="center" valign="top" rowspan="1" colspan="1">°C</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">0.9</td><td align="center" valign="top" rowspan="1" colspan="1">11.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio11</td><td align="center" valign="top" rowspan="1" colspan="1">Mean temperature of the coldest quarter</td><td align="center" valign="top" rowspan="1" colspan="1">°C</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">19.2</td><td align="center" valign="top" rowspan="1" colspan="1">30.5</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bio14</td><td align="center" valign="top" rowspan="1" colspan="1">Precipitation of the driest month</td><td align="center" valign="top" rowspan="1" colspan="1">mm</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">WorldClim v2.1</td><td align="center" valign="top" rowspan="1" colspan="1">39.7</td><td align="center" valign="top" rowspan="1" colspan="1">4.3</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">gm_lc</td><td align="center" valign="top" rowspan="1" colspan="1">Global land cover type</td><td align="center" valign="top" rowspan="1" colspan="1">Classified category</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">Global Land Cover database</td><td align="center" valign="top" rowspan="1" colspan="1">10.1</td><td align="center" valign="top" rowspan="1" colspan="1">3.1</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">gm_ve</td><td align="center" valign="top" rowspan="1" colspan="1">Global vegetation (percent tree cover)</td><td align="center" valign="top" rowspan="1" colspan="1">%</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">Global Maps database</td><td align="center" valign="top" rowspan="1" colspan="1">8.8</td><td align="center" valign="top" rowspan="1" colspan="1">0.4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">elev</td><td align="center" valign="top" rowspan="1" colspan="1">Elevation</td><td align="center" valign="top" rowspan="1" colspan="1">m</td><td align="center" valign="top" rowspan="1" colspan="1">2.5 arc‐min</td><td align="center" valign="top" rowspan="1" colspan="1">EarthEnv</td><td align="center" valign="top" rowspan="1" colspan="1">2.4</td><td align="center" valign="top" rowspan="1" colspan="1">8.5</td></tr></tbody></table></table-wrap></sec><sec id="ece374317-sec-0005"><label>2.3</label><title>Modeling Methods</title><p>This study employed MaxEnt v3.4.4 and ArcGIS v10.2 to develop a global habitat suitability model for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. To avoid overfitting, we performed parameter optimization for feature classes and regularization multiplier using the Kuenm R package. The final optimized settings were feature classes: LQPH (Linear, Quadratic, Product, Hinge), regularization multiplier: 1. The Jackknife test was performed to evaluate the relative importance of each variable in determining species distribution (Warren et al. <xref rid="ece374317-bib-0037" ref-type="bibr">2021</xref>). Model parameters were configured as follows: the maximum iteration number was set to 500, and the number of background points was fixed at 10,000 (Zhu and Jiao <xref rid="ece374317-bib-0048" ref-type="bibr">2016</xref>; Phillips et al. <xref rid="ece374317-bib-0025" ref-type="bibr">2006</xref>). Background points were randomly generated within the species' accessible range to alleviate spatial autocorrelation, and spatial thinning of occurrence records was implemented via ENMTools (2.5 arc‐minute grid, one record per cell) to mitigate sampling bias. All species occurrence records were randomly partitioned into training and testing datasets at a 75 to 25 ratio. The Bootstrap approach with 10 replicate runs was adopted to minimize stochastic noise, reduce model randomness, and generate averaged prediction outputs.</p><p>Model performance was evaluated using the receiver operating characteristic (ROC) curve, with the area under the curve (AUC) serving as the metric for predictive accuracy. AUC values range from 0 to 1, where an AUC ≥ 0.8 indicates good predictive performance and AUC ≥ 0.9 indicates excellent performance (Phillips et al. <xref rid="ece374317-bib-0025" ref-type="bibr">2006</xref>; Phillips and Dudík <xref rid="ece374317-bib-0026" ref-type="bibr">2008</xref>). Additionally, model complexity and goodness‐of‐fit were comprehensively assessed using the omission rate and the corrected Akaike Information Criterion (AICc) values (Anderson et al. <xref rid="ece374317-bib-0002" ref-type="bibr">2003</xref>; Warren and Seifert <xref rid="ece374317-bib-0038" ref-type="bibr">2011</xref>). For the final optimized MaxEnt model, the omission rate at the 5% threshold was 0.077 and the AICc value was 3049.88.</p><p>Current climate data from the 1970–2000 period served as the baseline for comparison. Future climate scenarios were derived from the BCC‐CSM2‐MR global climate model under the Coupled Model Intercomparison Project Phase 6 (CMIP6) (Eyring et al. <xref rid="ece374317-bib-0012" ref-type="bibr">2016</xref>; Riahi <xref rid="ece374317-bib-0028" ref-type="bibr">2017</xref>). Three Shared Socioeconomic Pathway emission scenarios were selected: SSP1‐2.6 (low emission), SSP2‐4.5 (medium emission), and SSP5‐8.5 (high emission), covering the periods of 2041–2060 (2050s) and 2061–2080 (2070s).</p><p>In ArcGIS v10.2, suitable habitats were classified using the Maximum Training Sensitivity Plus Specificity (MTSPS) threshold in conjunction with the Jenks natural breaks method (Liu et al. <xref rid="ece374317-bib-0049" ref-type="bibr">2016</xref>). Based on the presence probability output from the model, the study area was categorized into four classes: unsuitable habitat, low‐suitable habitat, moderately suitable habitat, and highly suitable habitat. Area statistics for each category were compiled using the SDM Toolbox v2.4.</p></sec></sec><sec sec-type="results" id="ece374317-sec-0006"><label>3</label><title>Results</title><sec id="ece374317-sec-0007"><label>3.1</label><title>Evaluation of Model Prediction Accuracy</title><p>The AUC values for both current and future climate scenarios exceed 0.9 (Figure <xref rid="ece374317-supitem-0001" ref-type="supplementary-material">S2</xref>), indicating that the model demonstrates strong discriminative ability. Generally, an AUC value closer to 1 reflects better predictive performance, with a value of 1 indicating a perfect correspondence between the predicted and actual distribution of the species (Wang et al. <xref rid="ece374317-bib-0036" ref-type="bibr">2007</xref>). In this study, the MaxEnt model for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> achieved excellent predictive performance across all climate scenarios (AUC ≥ 0.919). These results demonstrate the high reliability of the model and confirm its capacity to provide accurate predictions of the potential distribution of this species under both current and future climate conditions.</p></sec><sec id="ece374317-sec-0008"><label>3.2</label><title>Potential Suitable Distribution Areas Under Current Climate Scenarios</title><p>Based on the filtered environmental variables and the MaxEnt model, the global potential distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> under current climate scenarios was predicted, with a particular emphasis on mapping and analysis in East Asia (Figure <xref rid="ece374317-fig-0002" ref-type="fig">2</xref>). The simulation results indicated that under current climatic conditions, suitable habitats of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> are primarily distributed in a typical disjunct pattern on a global scale. High‐suitability areas are concentrated in northeastern North America (the border region between Canada and the United States) and northern Europe. Moderately suitable areas form a continuous belt spanning the cold‐temperate to temperate zones across North America, Europe, and North Asia. Low‐suitability areas are distributed in the transitional zones surrounding the high‐suitability areas, with scattered and isolated suitable patches occurring in southern South America, southeastern Australia, and New Zealand.</p><fig position="float" fig-type="FIGURE" id="ece374317-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>The suitable areas of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> under current climate conditions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-16-e74317-g006.webp"><?image-name ECE3-16-e74317-g006.webp?><?image-size 66980?><?image-md5 a772b2ddec9f4b1ae2ece1567f6e5c80?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 625?><?image-original-width 1064?><?image-scaled-height 625?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/a772b2ddec9f/ECE3-16-e74317-g006.webp?><?thumb-name ECE3-16-e74317-g006.gif?><?thumb-size 7491?><?thumb-md5 cecc2f4692542c23f5efc1f8c2b966d3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 117?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/0e43/13553553/cecc2f469254/ECE3-16-e74317-g006.gif?></graphic></fig><p>Area statistics showed that under the current climate scenario, highly suitable, moderately suitable, and low‐suitability habitats in the study area accounted for 4.08%, 9.16%, and 3.49% of the total land area, respectively (Table <xref rid="ece374317-supitem-0001" ref-type="supplementary-material">S2</xref>). Model evaluation indicated that the mean AUC value from the replicate runs reached 0.944, with a low standard deviation (Figure <xref rid="ece374317-supitem-0001" ref-type="supplementary-material">S2</xref>), suggesting that the model predictions for the potential habitat of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> are highly reliable and effectively reflect the distribution characteristics of this species within the study area.</p><p>According to the Jackknife test results for variable importance (Figure <xref rid="ece374317-fig-0003" ref-type="fig">3</xref>), bio01 exhibited the highest regularized training gain in the with only variable scenario, establishing it as the primary environmental factor driving the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. In contrast, factors elev and gm_ve demonstrated the lowest gains in the with only variable scenario, indicating their limited ability to independently explain species distribution. In terms of variable uniqueness, the removal of gm_lc resulted in the lowest model gain in the without variable scenario, suggesting that this variable contains unique information not captured by other factors. Following closely were elev and bio03, whose removal also led to substantial declines in model gain, highlighting their significant independent contributions.</p><fig position="float" fig-type="FIGURE" id="ece374317-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Jackknife test of variable importance in the <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> suitability distribution.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-16-e74317-g002.webp"><?image-name ECE3-16-e74317-g002.webp?><?image-size 29906?><?image-md5 b369ec9484eaacdd23fd62d52de04533?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 524?><?image-original-width 1064?><?image-scaled-height 524?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/b369ec9484ea/ECE3-16-e74317-g002.webp?><?thumb-name ECE3-16-e74317-g002.gif?><?thumb-size 6027?><?thumb-md5 c638b0ec116c2e49904d949aa0b9c801?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 98?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/0e43/13553553/c638b0ec116c/ECE3-16-e74317-g002.gif?></graphic></fig><p>The response curves of the dominant environmental variables for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> were generated using the MaxEnt model (Figure <xref rid="ece374317-fig-0004" ref-type="fig">4</xref>). The results indicate that, in terms of suitable habitat, the optimal range for bio03 is approximately 21–41, with an optimum value of around 37, reflecting a preference for moderate temperature stability. For bio11, the suitable range is approximately −15°C to 15°C, with an optimum value of about −1°C. Regarding bio14, the suitable range is approximately 0–87 mm, with an optimum value of about 3 mm, underscoring that extremely dry moisture conditions are a critical requirement for its habitat.</p><fig position="float" fig-type="FIGURE" id="ece374317-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Response curves of the three major environmental variables important for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-16-e74317-g005.webp"><?image-name ECE3-16-e74317-g005.webp?><?image-size 39782?><?image-md5 689b56f9176fb8bba6a8812e1af4bed1?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 705?><?image-original-width 1064?><?image-scaled-height 705?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/689b56f9176f/ECE3-16-e74317-g005.webp?><?thumb-name ECE3-16-e74317-g005.gif?><?thumb-size 8101?><?thumb-md5 7dafa0492b1844b5576e960c9cf22fef?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 133?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/0e43/13553553/7dafa0492b18/ECE3-16-e74317-g005.gif?></graphic></fig></sec><sec id="ece374317-sec-0009"><label>3.3</label><title>Change of Suitable Areas Under Future Climate Conditions</title><p>In future climate scenarios (Figure <xref rid="ece374317-fig-0005" ref-type="fig">5</xref>), the suitable habitat for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> is projected to contract overall and migrate toward higher latitudes and elevations. Quantitative changes in habitat gain, habitat loss, and stable suitable area across scenarios are summarized in Table <xref rid="ece374317-tbl-0002" ref-type="table">2</xref>. Under the SSP1‐2.6 scenario in the 2050s, suitable habitats are primarily distributed in eastern China, the Korean Peninsula, and Japan, exhibiting a discontinuous distribution pattern. As greenhouse gas emission pathways shift toward the higher‐emission SSP2‐4.5 and SSP5‐8.5 scenarios, the spatial extent of highly suitable habitats gradually declines, accompanied by substantial losses of moderately suitable habitats across southern China and Southeast Asia. Among the three scenarios for 2041–2060, SSP5‐8.5 yields the largest habitat‐loss area (6,327,658.37 km<sup>2</sup>, 4.68%), while habitat gain remains limited under all scenarios. By the 2070s, the distribution of suitable habitats under the SSP1‐2.6 scenario remains relatively stable compared to the 2050s. However, under the SSP2‐4.5 scenario, suitable habitats further contract toward the northeast, while under the SSP5‐8.5 scenario, the range of suitable habitats decreases dramatically, with only sparse distributions remaining in southern Japan and the southeastern coastal regions of China.</p><fig position="float" fig-type="FIGURE" id="ece374317-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Predicted suitable areas for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> under three climate scenarios (SSP1‐2.6, SSP2‐4.5, SSP5‐8.5) in the 2050s (A–C) and 2070s (D–F), respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ECE3-16-e74317-g007.webp"><?image-name ECE3-16-e74317-g007.webp?><?image-size 133492?><?image-md5 5ceffc7da57ebef5b0aed987fd6f0fea?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 737?><?image-original-width 1064?><?image-scaled-height 737?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/5ceffc7da57e/ECE3-16-e74317-g007.webp?><?thumb-name ECE3-16-e74317-g007.gif?><?thumb-size 13176?><?thumb-md5 dcea201b2f6da493adc8fdd6dd924e42?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 139?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/0e43/13553553/dcea201b2f6d/ECE3-16-e74317-g007.gif?></graphic></fig><table-wrap position="float" id="ece374317-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Proportion (%) and area (km<sup>2</sup>) of habitats at different suitability levels for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> under current and future CMIP6‐SSP climate scenarios.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Unsuitable area (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Low suitability area (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Moderate suitability area (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">High suitability area (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Unsuitable area (km<sup>2</sup>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Low suitability area (km<sup>2</sup>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Moderate suitability area (km<sup>2</sup>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">High suitability area (km<sup>2</sup>)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Current</td><td align="center" valign="top" rowspan="1" colspan="1">83.28</td><td align="center" valign="top" rowspan="1" colspan="1">3.49</td><td align="center" valign="top" rowspan="1" colspan="1">9.16</td><td align="center" valign="top" rowspan="1" colspan="1">4.08</td><td align="center" valign="top" rowspan="1" colspan="1">112,690,993.59</td><td align="center" valign="top" rowspan="1" colspan="1">4,727,648.85</td><td align="center" valign="top" rowspan="1" colspan="1">12,389,269.97</td><td align="center" valign="top" rowspan="1" colspan="1">5,514,704.84</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2041–2060, SSP1‐2.6</td><td align="center" valign="top" rowspan="1" colspan="1">83.71</td><td align="center" valign="top" rowspan="1" colspan="1">3.18</td><td align="center" valign="top" rowspan="1" colspan="1">8.97</td><td align="center" valign="top" rowspan="1" colspan="1">4.13</td><td align="center" valign="top" rowspan="1" colspan="1">113,278,128.12</td><td align="center" valign="top" rowspan="1" colspan="1">4,307,736.53</td><td align="center" valign="top" rowspan="1" colspan="1">12,142,552.35</td><td align="center" valign="top" rowspan="1" colspan="1">5,594,200.24</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2041–2060, SSP2‐4.5</td><td align="center" valign="top" rowspan="1" colspan="1">84.67</td><td align="center" valign="top" rowspan="1" colspan="1">3.33</td><td align="center" valign="top" rowspan="1" colspan="1">8.59</td><td align="center" valign="top" rowspan="1" colspan="1">3.40</td><td align="center" valign="top" rowspan="1" colspan="1">114,584,065.25</td><td align="center" valign="top" rowspan="1" colspan="1">4,505,637.63</td><td align="center" valign="top" rowspan="1" colspan="1">11,628,113.03</td><td align="center" valign="top" rowspan="1" colspan="1">4,604,801.34</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2041–2060, SSP5‐8.5</td><td align="center" valign="top" rowspan="1" colspan="1">85.78</td><td align="center" valign="top" rowspan="1" colspan="1">3.28</td><td align="center" valign="top" rowspan="1" colspan="1">7.86</td><td align="center" valign="top" rowspan="1" colspan="1">3.07</td><td align="center" valign="top" rowspan="1" colspan="1">116,079,910.08</td><td align="center" valign="top" rowspan="1" colspan="1">4,443,776.41</td><td align="center" valign="top" rowspan="1" colspan="1">10,639,932.17</td><td align="center" valign="top" rowspan="1" colspan="1">4,158,998.59</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2061–2080, SSP1‐2.6</td><td align="center" valign="top" rowspan="1" colspan="1">84.02</td><td align="center" valign="top" rowspan="1" colspan="1">3.21</td><td align="center" valign="top" rowspan="1" colspan="1">8.90</td><td align="center" valign="top" rowspan="1" colspan="1">3.87</td><td align="center" valign="top" rowspan="1" colspan="1">113,701,183.96</td><td align="center" valign="top" rowspan="1" colspan="1">4,340,593.17</td><td align="center" valign="top" rowspan="1" colspan="1">12,042,398.99</td><td align="center" valign="top" rowspan="1" colspan="1">5,238,441.12</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2061–2080, SSP2‐4.5</td><td align="center" valign="top" rowspan="1" colspan="1">84.78</td><td align="center" valign="top" rowspan="1" colspan="1">3.29</td><td align="center" valign="top" rowspan="1" colspan="1">8.43</td><td align="center" valign="top" rowspan="1" colspan="1">3.50</td><td align="center" valign="top" rowspan="1" colspan="1">114,720,546.66</td><td align="center" valign="top" rowspan="1" colspan="1">4,447,445.76</td><td align="center" valign="top" rowspan="1" colspan="1">114,13,083.25</td><td align="center" valign="top" rowspan="1" colspan="1">4,741,541.59</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2061–2080, SSP5‐8.5</td><td align="center" valign="top" rowspan="1" colspan="1">87.61</td><td align="center" valign="top" rowspan="1" colspan="1">2.98</td><td align="center" valign="top" rowspan="1" colspan="1">6.80</td><td align="center" valign="top" rowspan="1" colspan="1">2.62</td><td align="center" valign="top" rowspan="1" colspan="1">118,553,217.03</td><td align="center" valign="top" rowspan="1" colspan="1">4,028,500.80</td><td align="center" valign="top" rowspan="1" colspan="1">9,202,187.85</td><td align="center" valign="top" rowspan="1" colspan="1">3,538,711.57</td></tr></tbody></table></table-wrap><p>Overall, as the intensity of greenhouse gas emissions increases (SSP‐2.6 to SSP5‐8.5) and the projection period extends (2041–2060 to 2061–2080), the areas of high and medium suitability habitats continue to shrink, resulting in a more fragmented spatial distribution. The range of low‐suitability habitats shows slight fluctuations, while the proportion of unsuitable areas significantly expands. Compared to the SSP1‐2.6 and SSP2‐4.5 scenarios, the retreat of suitable habitats under the high‐emission scenario of SSP5‐8.5 is more pronounced, leading to an overall decline in habitat suitability. The area of stable suitable habitat gradually decreases with rising emission intensity (Table <xref rid="ece374317-tbl-0002" ref-type="table">2</xref>). This trend indicates that future climate warming will persistently restrict the potential distribution range of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>, putting its suitable habitats at significant risk of loss.</p></sec><sec id="ece374317-sec-0010"><label>3.4</label><title>Centroid Migration Dynamics Under Future Climate Scenarios</title><p>To elucidate the spatial redistribution pattern under future climate change, this study analyzed the migration trajectories of the suitable area centroid of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> (Figure <xref rid="ece374317-fig-0006" ref-type="fig">6</xref>). Under current climate conditions, the centroid is located at (−8.65° E, 51.40° N). Future climate scenarios project a consistent northwestward shift in the centroid, with the magnitude of migration increasing as the intensity of emission pathways rises.</p><fig position="float" fig-type="FIGURE" id="ece374317-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Centroid migration of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> under different climate conditions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ECE3-16-e74317-g001.webp"><?image-name ECE3-16-e74317-g001.webp?><?image-size 83902?><?image-md5 1ba08352f0fe18fd3bd238710f1c1ec6?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 856?><?image-original-width 1064?><?image-scaled-height 856?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/0e43/13553553/1ba08352f0fe/ECE3-16-e74317-g001.webp?><?thumb-name ECE3-16-e74317-g001.gif?><?thumb-size 12902?><?thumb-md5 acf0309f9853f92698bc554d695cd24d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 161?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/0e43/13553553/acf0309f9853/ECE3-16-e74317-g001.gif?></graphic></fig><p>Overall, the centroid of suitable habitats for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> is projected to shift northwestward and to higher elevations under future climate scenarios, with the intensity of migration increasing in response to higher emission pathways. This indicates that the suitable habitats for this species will undergo continuous spatial adjustments as climate conditions change.</p></sec></sec><sec sec-type="discussion" id="ece374317-sec-0011"><label>4</label><title>Discussion</title><p>Numerous studies have demonstrated that climatic factors often exert more significant effects on species distributions than other environmental variables at large spatial scales (Wei et al. <xref rid="ece374317-bib-0040" ref-type="bibr">2020</xref>, <xref rid="ece374317-bib-0039" ref-type="bibr">2018</xref>). In this study, the MaxEnt model was employed to predict the global potential suitable distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> based on ten selected key environmental variables and 795 occurrence records from around the globe. Two future periods (the 2050s and 2070s) and three Shared Socioeconomic Pathways (SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5) were selected to assess the impacts of climate change on the potential distribution patterns of this species. The optimized MaxEnt model effectively reduced model complexity and improved the fit between predicted results and actual distributions (Wang et al. <xref rid="ece374317-bib-0035" ref-type="bibr">2025</xref>). Model evaluation indicated that predictions in this study were consistent with the known distribution of the species (Yu et al. <xref rid="ece374317-bib-0042" ref-type="bibr">2017</xref>), and the AUC values under all climate scenarios were ≥ 0.919, demonstrating the high accuracy of our MaxEnt model in predicting suitable habitats for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> (Phillips et al. <xref rid="ece374317-bib-0025" ref-type="bibr">2006</xref>; Janitza et al. <xref rid="ece374317-bib-0016" ref-type="bibr">2013</xref>).</p><p>The results indicated that the response of suitable habitats for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> to climate change is closely linked to greenhouse gas emissions intensity. Under low‐emission scenarios, the area of highly suitable habitat remains largely stable or may expand slightly; in contrast, under medium‐ and high‐emission scenarios, the area of suitable habitat continues to shrink. By the 2070s, under the high‐emission scenario, the high‐suitability area is projected to decrease by nearly 36% compared with the current baseline, while unsuitable habitats are expected to become increasingly widespread, resulting in highly fragmented habitats. This pattern of change contrasts markedly with the general trend observed in most other buprestid beetles, which typically expand toward higher latitudes and elevations in response to climate warming.</p><p>Studies about the impact of climate change on the distribution of buprestid beetles remain limited (Zhang et al. <xref rid="ece374317-bib-0045" ref-type="bibr">2024</xref>; Liu et al. <xref rid="ece374317-bib-0019" ref-type="bibr">2025</xref>; Yin et al. <xref rid="ece374317-bib-0041" ref-type="bibr">2026</xref>). Under projected future climate scenarios, suitable habitats for <italic toggle="yes">Agrilus mali</italic> and <italic toggle="yes">Trachypteris picta</italic> are anticipated to expand and migrate northward (Zhang et al. <xref rid="ece374317-bib-0045" ref-type="bibr">2024</xref>; Liu et al. <xref rid="ece374317-bib-0019" ref-type="bibr">2025</xref>), which is consistent with findings from studies on other insect species (Aidoo et al. <xref rid="ece374317-bib-0001" ref-type="bibr">2022</xref>; Fu et al. <xref rid="ece374317-bib-0013" ref-type="bibr">2024</xref>; Hong et al. <xref rid="ece374317-bib-0015" ref-type="bibr">2024</xref>). The distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Agrilus planipennis</italic>
+</styled-content> is predominantly constrained by the presence of its host <italic toggle="yes">Fraxinus</italic> sp., rather than climatic factors (Sobek‐Swant et al. <xref rid="ece374317-bib-0031" ref-type="bibr">2012</xref>). We identified that bio14 and bio11 are the two primary limiting factors for the suitable habitats of the pyrophilous beetle <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. These results align with the established consensus that host plants, water availability, and temperature are critical determinants of species distribution. In contrast to global land cover types and vegetation, elevation appears to exert minimal influence on the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>.</p><p>Notably, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> possesses highly specialized infrared receptors that enable it to detect infrared radiation from fires at distances ranging from tens to hundreds of kilometers (Schmitz and Bousack <xref rid="ece374317-bib-0030" ref-type="bibr">2012</xref>). This ability allows the species to rapidly locate and colonize recently burned forests; however, it also makes <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> highly sensitive to habitat connectivity. The fragmentation of suitable habitats driven by future climate warming is likely to severely impede effective population dispersal among different fire sites, thereby exacerbating the risk of local extinction. <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> serves as a decomposer in forest ecosystems, recycling nutrients through the breakdown of organic debris and facilitating nutrient cycling (Barrios <xref rid="ece374317-bib-0004" ref-type="bibr">2007</xref>). Its absence could potentially slow decomposition rates, alter soil nutrient dynamics, and diminish soil fertility; however, the extent of these impacts will depend on functional redundancy within the ecosystem.</p><p>It should be noted that our conservation suggestion is derived from climate‐based habitat suitability simulation. The model does not integrate fire regime and fine‐scale local habitat features, which are also vital for the survival of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. Although northern Europe and Canada exhibit high climatic suitability for this species, its long‐term persistence also relies on appropriate fire events and intact habitat connectivity. Accordingly, this conservation priority represents a climate‐driven reference, and practical conservation implementation requires further combination with field investigations and local fire‐regime information.</p><p>Additionally, future habitat‐suitability projections in this study were generated solely from a single GCM (BCC‐CSM2‐MR), which may introduce model‐related uncertainty. Our projections should therefore be considered in light of this limitation, and multi‐GCM ensemble simulation is recommended for further research. Given the predicted high suitable habitats, future conservation efforts for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> are expected to focus primarily on northern Europe and Canada.</p></sec><sec sec-type="conclusions" id="ece374317-sec-0012"><label>5</label><title>Conclusions</title><p>In this study, we used the MaxEnt model to project the distribution patterns and changing trends of suitable habitats for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> under current and future climate scenarios. The results suggest that the mean temperature of the coldest quarter and the precipitation of the driest month are the primary environmental factors influencing the distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content>. Under various future climate scenarios, the overall area of suitable habitat for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> is projected to gradually shrink, with the magnitude of this reduction closely correlated with the intensity of greenhouse gas emissions. Under high‐emission scenarios, the contraction of suitable habitats is most pronounced, leading to a substantial decrease in high‐suitability areas. As a typical pyrophilous beetle, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">M. acuminata</italic>
+</styled-content> is likely to be particularly sensitive to habitat changes. Habitat fragmentation associated with climate warming may impede its dispersal and population persistence, although direct evidence for such effects remains limited. Therefore, we recommend prioritizing the monitoring and conservation of highly suitable regions such as northern Europe and Canada, as these areas are predicted to sustain suitable habitats under future climate scenarios. The findings of this study provide a preliminary scientific basis for the conservation management and climate‐adapted protection strategies; however, further empirical studies are needed to validate these predictions.</p></sec><sec id="ece374317-sec-0018"><title>Author Contributions</title><p>
+<bold>Jieqiong Wang:</bold> data curation (equal), software (equal), validation (equal), visualization (equal), writing – original draft (equal). <bold>Shiqi Liu:</bold> validation (equal), visualization (equal). <bold>Yingying Li:</bold> validation (equal), visualization (equal). <bold>Aimin Shi:</bold> conceptualization (equal), funding acquisition (equal). <bold>Yunchun Li:</bold> conceptualization (equal), funding acquisition (equal). <bold>Ding Yang:</bold> conceptualization (equal), funding acquisition (equal), resources (equal), supervision (equal). <bold>Zhonghua Wei:</bold> formal analysis (equal), investigation (equal), methodology (equal), project administration (equal), resources (equal), supervision (equal), writing – original draft (equal), writing – review and editing (equal).</p></sec><sec id="ece374317-sec-0014"><title>Funding</title><p>This study was funded by the Natural Science Foundation of Sichuan Province (2025NSFSC2117), the National Natural Science Foundation of China (32130012, 32670609), the Natural Science Special (Special Post) Scientific Research Fund Project of Guizhou University (2023‐06), and Qiankehe Platform Talent (BQW [2024] 012).</p></sec><sec sec-type="COI-statement" id="ece374317-sec-0015"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece374317-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> Pearson correlation coefficient matrix of all initial environmental variables.</p><p>
+<bold>Table S2:</bold> Potential suitable area of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> in China under different scenarios.</p><p>
+<bold>Figure S1:</bold> Pearson correlation analysis of environmental variables.</p><p>
+<bold>Figure S2:</bold> The ROC curve for predicting the potential distribution range of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> based on the MaxEnt model.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-16-e74317-s001.docx" position="float" orientation="portrait"><?suppdata-name ECE3-16-e74317-s001.docx?><?suppdata-size 493574?><?suppdata-md5 055e0110ccff4165c3c0a6444476c03c?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:0e43/13553553/055e0110ccff/ECE3-16-e74317-s001.docx?></media></supplementary-material></sec></body><back><ack id="ece374317-sec-0013"><title>Acknowledgments</title><p>We thank Manlu Zhao and Fen Liu (China West Normal University, Sichuan Province, China) for collecting occurrence data of <italic toggle="yes">M. acuminata</italic> for this study.</p></ack><sec sec-type="data-availability" id="ece374317-sec-0017"><title>Data Availability Statement</title><p>The data supporting this study are openly available in the Dryad Digital Repository at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5061/dryad.r4xgxd2v0" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.r4xgxd2v0</ext-link> upon acceptance.</p></sec><ref-list content-type="cited-references" id="ece374317-bibl-0001"><title>References</title><ref id="ece374317-bib-0001"><mixed-citation publication-type="journal" id="ece374317-cit-0001">
+<string-name name-style="western">
+<surname>Aidoo</surname>, <given-names>O. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. G. C.</given-names>
+<surname>Souza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>da Silva</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Climate‐Induced Range Shifts of Invasive Species (<italic toggle="yes">Diaphorina citri</italic> Kuwayama)</article-title>.” <source>Pest Management Science</source>
+<volume>78</volume>: <fpage>2534</fpage>–<lpage>2549</lpage>.<pub-id pub-id-type="pmid">35332664</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ps.6886</pub-id></mixed-citation></ref><ref id="ece374317-bib-0002"><mixed-citation publication-type="journal" id="ece374317-cit-0002">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lew</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. T.</given-names>
+<surname>Peterson</surname>
+</string-name>. <year>2003</year>. “<article-title>Evaluating Predictive Models of Species' Distributions: Criteria for Selecting Optimal Models</article-title>.” <source>Ecological Modelling</source>
+<volume>162</volume>: <fpage>211</fpage>–<lpage>232</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0003"><mixed-citation publication-type="journal" id="ece374317-cit-0003">
+<string-name name-style="western">
+<surname>Apel</surname>, <given-names>K. H.</given-names>
+</string-name>
+<year>1988</year>. “<article-title>Befallsverteilung von <italic toggle="yes">Melanophila acuminata</italic> DEG., <italic toggle="yes">Phaenops cyanea</italic> F. Und <italic toggle="yes">Ph. Formaneki</italic> JACOB. (Col., Buprestidae) Auf Waldbrandflächen</article-title>.” <source>Beiträge für die Forstwirtschaft</source>
+<volume>22</volume>: <fpage>45</fpage>–<lpage>48</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0004"><mixed-citation publication-type="journal" id="ece374317-cit-0004">
+<string-name name-style="western">
+<surname>Barrios</surname>, <given-names>E.</given-names>
+</string-name>
+<year>2007</year>. “<article-title>Soil Biota, Ecosystem Services and Land Productivity</article-title>.” <source>Ecological Economics</source>
+<volume>64</volume>, no. <issue>2</issue>: <fpage>269</fpage>–<lpage>285</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0005"><mixed-citation publication-type="miscellaneous" id="ece374317-cit-0005">
+<string-name name-style="western">
+<surname>Bellamy</surname>, <given-names>C. L.</given-names>
+</string-name>
+<year>2008</year>. <article-title>“A World Catalogue and Bibliography of the Jewel Beetles (Coleoptera: Buprestoidea), Volumes 1–4.”</article-title>
+<italic toggle="yes">Pensoft Series Faunistica</italic> No. 76–79, 2684.</mixed-citation></ref><ref id="ece374317-bib-0006"><mixed-citation publication-type="journal" id="ece374317-cit-0006">
+<string-name name-style="western">
+<surname>Bellard</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bertelsmeier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Leadley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Thuiller</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Courchamp</surname>
+</string-name>. <year>2012</year>. “<article-title>Impacts of Climate Change on the Future of Biodiversity</article-title>.” <source>Ecology Letters</source>
+<volume>15</volume>: <fpage>365</fpage>–<lpage>377</lpage>.<pub-id pub-id-type="pmid">22257223</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1461-0248.2011.01736.x</pub-id><pub-id pub-id-type="pmcid">PMC3880584</pub-id></mixed-citation></ref><ref id="ece374317-bib-0007"><mixed-citation publication-type="journal" id="ece374317-cit-0007">
+<string-name name-style="western">
+<surname>Booth</surname>, <given-names>T. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. A.</given-names>
+<surname>Nix</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Busby</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Hutchinson</surname>
+</string-name>. <year>2014</year>. “<article-title>BIOCLIM: The First Species Distribution Modelling Package, Its Early Applications and Relevance to Most Current MaxEnt Studies</article-title>.” <source>Diversity and Distributions</source>
+<volume>20</volume>: <fpage>1</fpage>–<lpage>9</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0008"><mixed-citation publication-type="journal" id="ece374317-cit-0008">
+<string-name name-style="western">
+<surname>Boria</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Olson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Goodman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Anderson</surname>
+</string-name>. <year>2014</year>. “<article-title>Spatial Filtering to Reduce Sampling Bias Can Improve the Performance of Ecological Niche Models</article-title>.” <source>Ecological Modelling</source>
+<volume>275</volume>: <fpage>73</fpage>–<lpage>77</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0009"><mixed-citation publication-type="journal" id="ece374317-cit-0009">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. G. P.</given-names>
+<surname>Ericson</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Alpine Burrow‐Sharing Mammals and Birds Show Similar Population‐Level Climate Change Risks</article-title>.” <source>Nature Climate Change</source>
+<volume>13</volume>: <fpage>990</fpage>–<lpage>996</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0010"><mixed-citation publication-type="journal" id="ece374317-cit-0010">
+<string-name name-style="western">
+<surname>Elith</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. H.</given-names>
+<surname>Graham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Anderson</surname>
+</string-name>, et al. <year>2006</year>. “<article-title>Novel Methods Improve Prediction of Species' Distributions From Occurrence Data</article-title>.” <source>Ecography</source>
+<volume>29</volume>: <fpage>129</fpage>–<lpage>151</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0011"><mixed-citation publication-type="journal" id="ece374317-cit-0011">
+<string-name name-style="western">
+<surname>Evans</surname>, <given-names>W. G.</given-names>
+</string-name>
+<year>1964</year>. “<article-title>Infra‐Red Receptors in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content> Degeer</article-title>.” <source>Nature</source>
+<volume>202</volume>: <fpage>211</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/202211a0</pub-id><pub-id pub-id-type="pmid">14156319</pub-id></mixed-citation></ref><ref id="ece374317-bib-0012"><mixed-citation publication-type="journal" id="ece374317-cit-0012">
+<string-name name-style="western">
+<surname>Eyring</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bony</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. A.</given-names>
+<surname>Meehl</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) Experimental Design and Organization</article-title>.” <source>Geoscientific Model Development</source>
+<volume>9</volume>: <fpage>1937</fpage>–<lpage>1958</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0013"><mixed-citation publication-type="journal" id="ece374317-cit-0013">
+<string-name name-style="western">
+<surname>Fu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X. Y.</given-names>
+<surname>Wen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. T.</given-names>
+<surname>Huang</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Comparison of GARP and MaxEnt in Modeling Current and Future Geographic Distribution of <italic toggle="yes">Ceracris nigricornis</italic> Walker (Acrididae, Orthoptera) in China</article-title>.” <source>Ecology and Evolution</source>
+<volume>14</volume>: <elocation-id>e70439</elocation-id>.<pub-id pub-id-type="pmid">39445185</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.70439</pub-id><pub-id pub-id-type="pmcid">PMC11496565</pub-id></mixed-citation></ref><ref id="ece374317-bib-0014"><mixed-citation publication-type="journal" id="ece374317-cit-0014">
+<string-name name-style="western">
+<surname>Herms</surname>, <given-names>D. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>McCullough</surname>
+</string-name>. <year>2014</year>. “<article-title>Emerald Ash Borer Invasion of North America: History, Biology, Ecology, Impacts, and Management</article-title>.” <source>Annual Review of Entomology</source>
+<volume>59</volume>: <fpage>13</fpage>–<lpage>30</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-ento-011613-162051</pub-id><pub-id pub-id-type="pmid">24112110</pub-id></mixed-citation></ref><ref id="ece374317-bib-0015"><mixed-citation publication-type="journal" id="ece374317-cit-0015">
+<string-name name-style="western">
+<surname>Hong</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Kim</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Potential Range Shift of a Long‐Distance Migratory Rice Pest, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Nilaparvata lugens</italic>
+</styled-content>, Under Climate Change</article-title>.” <source>Scientific Reports</source>
+<volume>14</volume>: <elocation-id>11531</elocation-id>.<pub-id pub-id-type="pmid">38773173</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-024-62266-x</pub-id><pub-id pub-id-type="pmcid">PMC11109201</pub-id></mixed-citation></ref><ref id="ece374317-bib-0016"><mixed-citation publication-type="journal" id="ece374317-cit-0016">
+<string-name name-style="western">
+<surname>Janitza</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Strobl</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Boulesteix</surname>
+</string-name>. <year>2013</year>. “<article-title>An AUC‐Based Permutation Variable Importance Measure for Random Forests</article-title>.” <source>BMC Bioinformatics</source>
+<volume>14</volume>: <elocation-id>119</elocation-id>.<pub-id pub-id-type="pmid">23560875</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-14-119</pub-id><pub-id pub-id-type="pmcid">PMC3626572</pub-id></mixed-citation></ref><ref id="ece374317-bib-0017"><mixed-citation publication-type="journal" id="ece374317-cit-0017">
+<string-name name-style="western">
+<surname>Kobayashi</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Tateishi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Alsaaideh</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Production of Global Land Cover Data–GLCNMO2013</article-title>.” <source>Journal of Geography and Geology</source>
+<volume>9</volume>: <fpage>1</fpage>–<lpage>15</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0018"><mixed-citation publication-type="journal" id="ece374317-cit-0018">
+<string-name name-style="western">
+<surname>Koo</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lee</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jiang</surname>
+</string-name>. <year>2025</year>. “<article-title>Impact of Obscured Data on Species Distribution Models</article-title>.” <source>Conservation Biology</source>
+<volume>39</volume>: <elocation-id>e70050</elocation-id>.<pub-id pub-id-type="pmid">40432594</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.70050</pub-id><pub-id pub-id-type="pmcid">PMC12451486</pub-id></mixed-citation></ref><ref id="ece374317-bib-0049"><mixed-citation publication-type="journal" id="ece374317-cit-0049">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Newell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>White</surname>
+</string-name>. <year>2016</year>. “<article-title>On the Selection of Thresholds for Predicting Species Occurrence with Presence‐Only Data</article-title>.” <source>Ecology and Evolution</source>
+<volume>6</volume>: <fpage>337</fpage>–<lpage>348</lpage>.<pub-id pub-id-type="pmid">26811797</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.1878</pub-id><pub-id pub-id-type="pmcid">PMC4716501</pub-id></mixed-citation></ref><ref id="ece374317-bib-0019"><mixed-citation publication-type="journal" id="ece374317-cit-0019">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Effects of Climate Change on the Global Distribution of <italic toggle="yes">Trachypteris picta</italic> (Coleoptera: Buprestidae)</article-title>.” <source>Insects</source>
+<volume>16</volume>: <elocation-id>802</elocation-id>.<pub-id pub-id-type="pmid">40870603</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/insects16080802</pub-id><pub-id pub-id-type="pmcid">PMC12386755</pub-id></mixed-citation></ref><ref id="ece374317-bib-0020"><mixed-citation publication-type="journal" id="ece374317-cit-0020">
+<string-name name-style="western">
+<surname>Merow</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Smith</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Silander</surname>
+</string-name>. <year>2013</year>. “<article-title>A Practical Guide to Maxent for Modeling Species' Distributions: What It Does, and Why Inputs and Settings Matter</article-title>.” <source>Ecography</source>
+<volume>36</volume>: <fpage>1058</fpage>–<lpage>1069</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0021"><mixed-citation publication-type="journal" id="ece374317-cit-0021">
+<string-name name-style="western">
+<surname>Mondanaro</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Di Febbraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Castiglione</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>ENphylo: A New Method to Model the Distribution of Extremely Rare Species</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>14</volume>: <fpage>911</fpage>–<lpage>922</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0022"><mixed-citation publication-type="journal" id="ece374317-cit-0022">
+<string-name name-style="western">
+<surname>Nicholson</surname>, <given-names>G. W.</given-names>
+</string-name>
+<year>1919</year>. “<article-title>
+<italic toggle="yes">Melanophila acuminata</italic> De Geer at a Fire in June</article-title>.” <source>Entomologist's Monthly Magazine</source>
+<volume>55</volume>: <fpage>156</fpage>–<lpage>157</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0023"><mixed-citation publication-type="journal" id="ece374317-cit-0023">
+<string-name name-style="western">
+<surname>Pecl</surname>, <given-names>G. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Araújo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Bell</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Biodiversity Redistribution Under Climate Change: Impacts on Ecosystems and Human Well‐Being</article-title>.” <source>Science</source>
+<volume>355</volume>: <elocation-id>eaai9214</elocation-id>.<pub-id pub-id-type="pmid">28360268</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aai9214</pub-id></mixed-citation></ref><ref id="ece374317-bib-0024"><mixed-citation publication-type="journal" id="ece374317-cit-0024">
+<string-name name-style="western">
+<surname>Phillips</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dudík</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Schapire</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Blair</surname>
+</string-name>. <year>2017</year>. “<article-title>Opening the Black Box: An Open‐Source Release of MaxEnt</article-title>.” <source>Ecography</source>
+<volume>40</volume>: <fpage>887</fpage>–<lpage>893</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0025"><mixed-citation publication-type="journal" id="ece374317-cit-0025">
+<string-name name-style="western">
+<surname>Phillips</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Anderson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Schapirer</surname>
+</string-name>. <year>2006</year>. “<article-title>
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Maximum</italic>
+</styled-content> Entropy Modeling of Species Geographic Distributions</article-title>.” <source>Ecological Modelling</source>
+<volume>190</volume>: <fpage>231</fpage>–<lpage>259</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0026"><mixed-citation publication-type="journal" id="ece374317-cit-0026">
+<string-name name-style="western">
+<surname>Phillips</surname>, <given-names>S. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dudík</surname>
+</string-name>. <year>2008</year>. “<article-title>Modeling of Species Distributions With Maxent: New Extensions and a Comprehensive Evaluation</article-title>.” <source>Ecography</source>
+<volume>31</volume>: <fpage>161</fpage>–<lpage>175</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0027"><mixed-citation publication-type="journal" id="ece374317-cit-0027">
+<string-name name-style="western">
+<surname>Poloni</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Iannella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Fusco</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Fattorini</surname>
+</string-name>. <year>2022</year>. “<article-title>Conservation Biogeography of High‐Altitude Longhorn Beetles Under Climate Change</article-title>.” <source>Insect Conservation and Diversity</source>
+<volume>15</volume>: <fpage>429</fpage>–<lpage>444</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0028"><mixed-citation publication-type="journal" id="ece374317-cit-0028">
+<string-name name-style="western">
+<surname>Riahi</surname>, <given-names>K.</given-names>
+</string-name>
+<year>2017</year>. “<article-title>The Shared Socioeconomic Pathways and Their Energy, Land Use, and Greenhouse Gas Emissions Implications: An Overview</article-title>.” <source>Global Environmental Change</source>
+<volume>42</volume>: <fpage>153</fpage>–<lpage>168</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0029"><mixed-citation publication-type="journal" id="ece374317-cit-0029">
+<string-name name-style="western">
+<surname>Ricksecker</surname>, <given-names>L. E.</given-names>
+</string-name>
+<year>1885</year>. “<article-title>Habits of Some California Beetles</article-title>.” <source>Entomologica Americana</source>
+<volume>1</volume>: <fpage>96</fpage>–<lpage>98</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0030"><mixed-citation publication-type="journal" id="ece374317-cit-0030">
+<string-name name-style="western">
+<surname>Schmitz</surname>, <given-names>H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bousack</surname>
+</string-name>. <year>2012</year>. “<article-title>Modelling a Historic Oil‐Tank Fire Allows an Estimation of the Sensitivity of the Infrared Receptors in Pyrophilous <italic toggle="yes">Melanophila</italic> Beetles</article-title>.” <source>Public Library of Science ONE</source>
+<volume>7</volume>, no. <issue>5</issue>: <elocation-id>e37627</elocation-id>.<pub-id pub-id-type="pmid">22629433</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0037627</pub-id><pub-id pub-id-type="pmcid">PMC3357417</pub-id></mixed-citation></ref><ref id="ece374317-bib-0031"><mixed-citation publication-type="journal" id="ece374317-cit-0031">
+<string-name name-style="western">
+<surname>Sobek‐Swant</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Crosthwaite</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. B.</given-names>
+<surname>Lyons</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Sinclair</surname>
+</string-name>. <year>2012</year>. “<article-title>Could Phenotypic Plasticity Limit an Invasive Species? Incomplete Reversibility of Mid‐Winter Deacclimation in Emerald Ash Borer</article-title>.” <source>Biological Invasions</source>
+<volume>14</volume>: <fpage>115</fpage>–<lpage>125</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0032"><mixed-citation publication-type="journal" id="ece374317-cit-0032">
+<string-name name-style="western">
+<surname>Stockwell</surname>, <given-names>D.</given-names>
+</string-name>
+<year>1999</year>. “<article-title>The GARP Modelling System: Problems and Solutions to Automated Spatial Prediction</article-title>.” <source>International Journal of Geographical Information Science</source>
+<volume>13</volume>: <fpage>143</fpage>–<lpage>158</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0033"><mixed-citation publication-type="book" id="ece374317-cit-0033">
+<string-name name-style="western">
+<surname>Sutherst</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Maywald</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Bottomley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bourne</surname>
+</string-name>. <year>2004</year>. <source>CLIMEX v2</source>. <publisher-name>Hearne Scientific Software</publisher-name>.</mixed-citation></ref><ref id="ece374317-bib-0034"><mixed-citation publication-type="journal" id="ece374317-cit-0034">
+<string-name name-style="western">
+<surname>VanDyke</surname>, <given-names>E. C.</given-names>
+</string-name>
+<year>1928</year>. “<article-title>Note on <italic toggle="yes">Melanophila consputa</italic>
+</article-title>.” <source>Pan‐Pacific Entomologist</source>
+<volume>4</volume>: <fpage>113</fpage>.</mixed-citation></ref><ref id="ece374317-bib-0035"><mixed-citation publication-type="journal" id="ece374317-cit-0035">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Shang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2025</year>. “<article-title>Projecting the Potential Distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Rickettsia japonica</italic>
+</styled-content> in China and Asian Adjacent Regions Under Climate Change Using the Maxent Model</article-title>.” <source>Frontiers in Public Health</source>
+<volume>13</volume>: <elocation-id>1,478,736</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpubh.2025.1478736</pub-id><pub-id pub-id-type="pmcid">PMC11922925</pub-id><pub-id pub-id-type="pmid">40115352</pub-id></mixed-citation></ref><ref id="ece374317-bib-0036"><mixed-citation publication-type="journal" id="ece374317-cit-0036">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Wan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Xiao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dai</surname>
+</string-name>. <year>2007</year>. “<article-title>Application of ROC Curve Analysis in Evaluating Performance of Alien Species' Potential Distribution Models</article-title>.” <source>Biodiversity Science</source>
+<volume>15</volume>: <fpage>365</fpage>–<lpage>372</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0037"><mixed-citation publication-type="journal" id="ece374317-cit-0037">
+<string-name name-style="western">
+<surname>Warren</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Matzke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Cardillo</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>ENMTools 1.0: An R Package for Comparative Ecological Biogeography</article-title>.” <source>Ecography</source>
+<volume>44</volume>: <fpage>504</fpage>–<lpage>511</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0038"><mixed-citation publication-type="journal" id="ece374317-cit-0038">
+<string-name name-style="western">
+<surname>Warren</surname>, <given-names>D. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. N.</given-names>
+<surname>Seifert</surname>
+</string-name>. <year>2011</year>. “<article-title>Ecological Niche Modeling in Maxent: The Importance of Model Complexity and the Performance of Model Selection Criteria</article-title>.” <source>Ecological Applications</source>
+<volume>21</volume>: <fpage>335</fpage>–<lpage>342</lpage>.<pub-id pub-id-type="pmid">21563566</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/10-1171.1</pub-id></mixed-citation></ref><ref id="ece374317-bib-0039"><mixed-citation publication-type="journal" id="ece374317-cit-0039">
+<string-name name-style="western">
+<surname>Wei</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X. Y.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Wu</surname>
+</string-name>. <year>2018</year>. “<article-title>Predicting the Current and Future Cultivation Regions of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Carthamus tinctorius</italic>
+</styled-content> L. Using MaxEnt Model Under Climate Change in China</article-title>.” <source>Global Ecology and Conservation</source>
+<volume>16</volume>: <elocation-id>e00477</elocation-id>.</mixed-citation></ref><ref id="ece374317-bib-0040"><mixed-citation publication-type="journal" id="ece374317-cit-0040">
+<string-name name-style="western">
+<surname>Wei</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. F.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. Q.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2020</year>. “<article-title>Potential Distribution of Two Invasive Pineapple Pests Under Climate Change</article-title>.” <source>Pest Management Science</source>
+<volume>76</volume>: <fpage>1652</fpage>–<lpage>1663</lpage>.<pub-id pub-id-type="pmid">31724310</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ps.5684</pub-id></mixed-citation></ref><ref id="ece374317-bib-0041"><mixed-citation publication-type="journal" id="ece374317-cit-0041">
+<string-name name-style="western">
+<surname>Yin</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X. L.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Cai</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. T.</given-names>
+<surname>Song</surname>
+</string-name>. <year>2026</year>. “<article-title>Prediction of Potential Suitable Areas for 5 Common Coraebus Species (Coleoptera: Buprestidae) in China Based on Biomod2 Combination Model</article-title>.” <source>Environmental Entomology</source>
+<volume>55</volume>, no. <issue>2</issue>: <elocation-id>nvag021</elocation-id>.<pub-id pub-id-type="pmid">41877379</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ee/nvag021</pub-id></mixed-citation></ref><ref id="ece374317-bib-0042"><mixed-citation publication-type="journal" id="ece374317-cit-0042">
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>G. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. D.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. L.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2017</year>. “<article-title>A Taxonomic Note on the “<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Melanophila acuminata</italic>
+</styled-content>” (De Geer) (Coleoptera: Buprestidae) in Beijing, China</article-title>.” <source>Journal of Environmental Entomology</source>
+<volume>39</volume>, no. <issue>1</issue>: <fpage>232</fpage>–<lpage>235</lpage>.</mixed-citation></ref><ref id="ece374317-bib-0043"><mixed-citation publication-type="journal" id="ece374317-cit-0043">
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>Y. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Z. Q.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2024</year>. “<article-title>Predicting the Potential Distribution of <italic toggle="yes">Cheirotonus jansoni</italic> (Coleoptera: Scarabaeidae) Under Climate Change</article-title>.” <source>Insects</source>
+<volume>15</volume>: <elocation-id>1012</elocation-id>.<pub-id pub-id-type="pmid">39769614</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/insects15121012</pub-id><pub-id pub-id-type="pmcid">PMC11677015</pub-id></mixed-citation></ref><ref id="ece374317-bib-0044"><mixed-citation publication-type="journal" id="ece374317-cit-0044">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xu</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Thirst or Malnutrition: The Impacts of Invasive Insect <italic toggle="yes">Agrilus mali</italic> on the Physiological Status of Wild Apple Trees</article-title>.” <source>Forests</source>
+<volume>11</volume>: <elocation-id>440</elocation-id>.</mixed-citation></ref><ref id="ece374317-bib-0045"><mixed-citation publication-type="journal" id="ece374317-cit-0045">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Jiamahate</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Potential Ecological Distribution of the Beetle <italic toggle="yes">Agrilus mali</italic> Matsumura (Coleoptera: Buprestidae) in China Under Three Climate Change Scenarios, With Consequences for Commercial and Wild Apple Forests</article-title>.” <source>Biology</source>
+<volume>13</volume>: <elocation-id>803</elocation-id>.<pub-id pub-id-type="pmid">39452112</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biology13100803</pub-id><pub-id pub-id-type="pmcid">PMC11504250</pub-id></mixed-citation></ref><ref id="ece374317-bib-0046"><mixed-citation publication-type="journal" id="ece374317-cit-0046">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Z. X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X. L.</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. X.</given-names>
+<surname>Zhou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y. B.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2024</year>. “<article-title>Potential Suitability Areas of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Sitobion miscanthi</italic>
+</styled-content> in China Based on the MaxEnt Model: Implications for Management</article-title>.” <source>Crop Protection</source>
+<volume>183</volume>: <elocation-id>106755</elocation-id>.</mixed-citation></ref><ref id="ece374317-bib-0047"><mixed-citation publication-type="journal" id="ece374317-cit-0047">
+<string-name name-style="western">
+<surname>Zhong</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>He</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sun</surname>
+</string-name>. <year>2023</year>. “<article-title>Maxent Modeling for Predicting the Potential Geographical Distribution of <italic toggle="yes">Castanopsis carlesii</italic> Under Various Climate Change Scenarios in China</article-title>.” <source>Forests</source>
+<volume>14</volume>: <elocation-id>1397</elocation-id>.</mixed-citation></ref><ref id="ece374317-bib-0048"><mixed-citation publication-type="journal" id="ece374317-cit-0048">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>G. P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Jiao</surname>
+</string-name>. <year>2016</year>. “<article-title>Effect of the MaxEnt Model's Complexity on the Prediction of Species Potential Distributions</article-title>.” <source>Biodiversity Science</source>
+<volume>24</volume>: <fpage>1189</fpage>–<lpage>1196</lpage>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "manifest_sha256": "67a7100b58738d973633a41ef15c8d3dd412415270c39ef0cc7455ca63b40ffb",
+  "registration_lines": 88,
+  "results": [
+    {
+      "claim_id": "PENG-ROWS",
+      "action": "ARITHMETIC_MATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "value": 344.0,
+      "independent_value": 344.0,
+      "reported_value": 344.0,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    },
+    {
+      "claim_id": "GORMAN2014-CHINSTRAP-N",
+      "action": "BLOCK",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "reason": "모집단·조건 확인 대기: Original 2014 analysis sample vs later author package data version needs human reconciliation; same dataset reused, not an independent new dataset."
+    },
+    {
+      "claim_id": "HORSE-LOWERED-NECK-OR",
+      "action": "BLOCK",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "reason": "출판 원문이 아닌 코드·큐레이터 기록: 원문 대조 필요"
+    },
+    {
+      "claim_id": "MONARCH-SIZE-PC1-VARIANCE",
+      "action": "BLOCK",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "reason": "출판 원문이 아닌 코드·큐레이터 기록: 원문 대조 필요"
+    }
+  ],
+  "scope": "개발자 등록 시험; 사람 정답·범용 AI 우위·논문 전체 재현 아님"
+}

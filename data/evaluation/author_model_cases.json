@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "scope": "AUTHOR_ANALYSIS_DATASET_ONLY",
+  "data_file": "data/evaluation/author_analysis/author_analysis_numeric.csv",
+  "data_sha256": "9a0fa7a8d47d780b4fd8616895373df1d2186f9ed6646e3bf44196ac29d7ae86",
+  "source_file": "data/evaluation/author_analysis/reported_coefficients.txt",
+  "source_sha256": "425c5aab314dc2ba4de93b626339e6db893ecfa01ecea9a0371625ffaeeeb558",
+  "models": [
+    {
+      "model_id": "corrected_main_effects",
+      "method": "ols",
+      "outcome": "UnethicalBehAVG",
+      "predictors": [
+        "Age",
+        "Gender",
+        "Religiousness",
+        "PoliticalOrientation",
+        "EuropeanNonEuropean",
+        "SES_LadderCode",
+        "Condition_OriginalCode"
+      ],
+      "missing_policy": "error",
+      "reported_terms": {
+        "SES_LadderCode": {
+          "value": 0.126,
+          "tolerance": 0.0005,
+          "source_quote": ".126 .034 .213 3.742 .000"
+        },
+        "Condition_OriginalCode": {
+          "value": 0.404,
+          "tolerance": 0.0005,
+          "source_quote": ".404 .125 .178 3.241 .001"
+        }
+      }
+    },
+    {
+      "model_id": "corrected_interaction",
+      "method": "ols",
+      "outcome": "UnethicalBehAVG",
+      "predictors": [
+        "Age",
+        "Gender",
+        "Religiousness",
+        "PoliticalOrientation",
+        "EuropeanNonEuropean",
+        "SES_LadderCode",
+        "Condition_OriginalCode",
+        "SES_ConditionOriginalCode"
+      ],
+      "missing_policy": "error",
+      "reported_terms": {
+        "SES_ConditionOriginalCode": {
+          "value": 0.111,
+          "tolerance": 0.0005,
+          "source_quote": ".111 .066 .289 1.686 .093"
+        }
+      }
+    }
+  ]
+}

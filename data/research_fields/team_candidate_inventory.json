@@ -1,0 +1,1263 @@
+{
+  "input_root": "teammate archive NAIS_V90_FULL.zip; independent version lineage",
+  "scope": "all candidate bundles V81,V82,V83,V84,V85,V86,V88; V88 item details extracted from its companion GAP_ANALYSIS_V88.md because its JSON contains bucket counts only",
+  "candidate_record_count": 62,
+  "counts_by_version": {
+    "V81": 10,
+    "V82": 13,
+    "V83": 7,
+    "V84": 2,
+    "V85": 4,
+    "V86": 4,
+    "V88": 22
+  },
+  "duplicate_url_or_doi_groups": [
+    {
+      "match_type": "same_work_different_manifestations",
+      "key": "Paper2Agent (Nature and arXiv preprint)",
+      "source_records": [
+        {
+          "source_files": [
+            "data/research_fields/v81_candidates/candidates.json"
+          ],
+          "title": "Reimagining research papers as interactive and reliable AI agents (Paper2Agent)"
+        },
+        {
+          "source_files": [
+            "data/research_fields/v81_candidates/candidates.json"
+          ],
+          "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents (preprint)"
+        }
+      ]
+    }
+  ],
+  "within_candidate_exact_url_or_doi_duplicate_count": 0,
+  "same_work_duplicate_count": 1,
+  "records": [
+    {
+      "source_version": "V81",
+      "source_category": "innovation_혁신성",
+      "title": "Reimagining research papers as interactive and reliable AI agents (Paper2Agent)",
+      "author": null,
+      "venue": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11044-y",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "논문을 정적 문서가 아니라 상호작용 가능한 AI 에이전트로 바꾸는 프레임워크. NAIS의 '근거관문'을 논문 검증 도구에서 한 발 더 나아가 논문과 직접 대화·재검산하는 에이전트로 확장할 때 가장 직접적으로 인용 가능한 최신 근거.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "innovation_혁신성",
+      "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents (preprint)",
+      "author": null,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/pdf/2509.06917",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "위 Nature 논문의 프리프린트. 구현 세부(도구화, 신뢰성 확보 방식)가 더 상세해 시스템 설계에 참고 가능.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "innovation_혁신성",
+      "title": "Enhancing Automated Paper Reproduction via Prompt-Free Collaborative Agents",
+      "author": null,
+      "venue": "arXiv / awesomepapers.io",
+      "url": "https://awesomepapers.io/ai-agents/papers/2512.02812",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "여러 에이전트가 협업해 논문을 자동 재현하는 접근. 전문가 리뷰 우선순위 1번(전처리 포함 변경 영향 추적)과 5번(범용 AI와 공정 비교)의 설계 참고 자료로 적합.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "innovation_혁신성",
+      "title": "Provenance Tracking in Large-Scale Machine Learning Systems",
+      "author": null,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2507.01075v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "대규모 시스템에서의 프로버넌스 추적 설계. NAIS의 '원자료 변경 → 영향받은 Claim 탐지' 핵심 시연을 학술적으로 뒷받침.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "innovation_혁신성",
+      "title": "Designing reproducible large-language-model-assisted scientific analyses",
+      "author": null,
+      "venue": "Patterns (Cell Press)",
+      "url": null,
+      "doi": null,
+      "pmcid": "PMC13576654",
+      "why_as_supplied": "LLM 보조 과학 분석의 재현성 설계 원칙. 범용 AI 대비 NAIS의 차별점(재현 가능한 근거 사슬)을 설명할 때 비교 기준으로 인용 가능.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "usability_활용성",
+      "title": "Full article: AI Ethics: Integrating Transparency, Fairness, and Privacy in AI Development",
+      "author": null,
+      "venue": "Applied Artificial Intelligence (Taylor & Francis)",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/08839514.2025.2463722",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "심사기준 활용성 항목이 명시한 'AI 윤리 원칙(편향성, 공정성, 투명성) 인식'과 정확히 대응. 기획서·발표자료의 AI 윤리 섹션 근거로 바로 인용 가능.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "usability_활용성",
+      "title": "Data Quality in the Age of AI: A Review of Governance, Ethics, and the FAIR Principles",
+      "author": null,
+      "venue": "MDPI Data",
+      "url": "https://www.mdpi.com/2306-5729/10/12/201",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "FAIR 원칙과 데이터 거버넌스 리뷰. NAIS가 이미 강조하는 '원자료·조건 추적'을 FAIR 원칙 언어로 재서술하면 심사위원에게 익숙한 프레임으로 설명력이 높아짐.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "usability_활용성",
+      "title": "Mitigating Bias and Advocating for Data Sovereignty: The Role of Metadata and Paradata in Ethical AI-Driven Information Systems",
+      "author": null,
+      "venue": "Journal of Library Metadata (Taylor & Francis)",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19386389.2025.2515766",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "메타데이터를 통한 윤리적 AI 시스템 설계. 개인정보·오남용 방지 장치 설계 근거로 활용.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "scalability_확장성",
+      "title": "Efficient Knowledge Graph Construction and Retrieval from Unstructured Text for Large-Scale RAG Systems",
+      "author": null,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2507.03226v2",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "대규모 RAG 시스템의 지식그래프 구축·검색 효율화. 심사기준 확장성의 '다양한 분야로 확산 가능성'을 기술적으로 뒷받침 — 현재 명세 기반 방식이 지식그래프로 일반화될 수 있음을 보여주는 근거.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V81",
+      "source_category": "scalability_확장성",
+      "title": "LLM-empowered knowledge graph construction: A survey",
+      "author": null,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2510.20345v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "지식그래프 자동 구축 서베이. 새 분야(타 연구분야)로 확장할 때 어떤 자동화가 이미 가능한지 정리되어 있어 확장성 서술에 바로 인용 가능.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v81_candidates/candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "claim_evidence",
+      "title": "ClaimFlow: Tracing the Evolution of Scientific Claims in NLP",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/html/2603.16073v2",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "과학 주장이 시간에 따라 어떻게 바뀌는지 추적. NAIS의 '변경 추적' 핵심 기능과 주제가 거의 동일 — 관련연구(Related Work) 섹션에 넣을 1순위.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "claim_evidence",
+      "title": "Can AI Validate Science? Benchmarking LLMs on Claim Verification",
+      "author": null,
+      "venue": null,
+      "url": "https://aclanthology.org/2025.ijcnlp-long.127.pdf",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "LLM의 주장 검증 능력을 벤치마킹. 전문가 리뷰 우선순위 5번(범용 AI와 공정 비교)에 쓸 벤치마크 설계·평가지표를 그대로 참고 가능.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "claim_evidence",
+      "title": "SciClaims: An End-to-End Generative System for (claim verification)",
+      "author": null,
+      "venue": null,
+      "url": "https://aclanthology.org/2025.emnlp-demos.11.pdf",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "NAIS와 가장 유사한 경쟁/비교 시스템. 차별점을 명확히 말하려면 이 논문과 1:1 비교표를 만드는 게 가장 빠른 길.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "claim_evidence",
+      "title": "How Grounded are LLM Critiques of Scientific Papers?",
+      "author": null,
+      "venue": null,
+      "url": "https://aclanthology.org/2025.findings-emnlp.1185.pdf",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "LLM이 논문을 비평할 때 실제로 원문에 근거하는지 측정. NAIS의 '근거 위치 명시' 기능의 필요성을 뒷받침.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "research_workflow_provenance",
+      "title": "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/html/2604.21910v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "★최우선. 대회 공모주제 문구('연구의 모든 순간에 AI 에이전트를 심다')와 제목·내용이 거의 그대로 겹침. 기획서 '연구 문제 및 제안 배경' 섹션에 인용하면 적합성(10점)에도 직접 도움.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "research_workflow_provenance",
+      "title": "TRAIL: Audit Trails for Enhanced Reproducibility and Observability of Research Computing",
+      "author": null,
+      "venue": null,
+      "url": "https://par.nsf.gov/biblio/10649737-trail-audit-trails-enhanced-reproducibility-observability-research-computing",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "README에 명시된 V80의 '감사 해시체인 무결성' 기능과 주제가 정확히 일치. 이미 구현한 기능의 학술적 정당성을 부여하는 근거.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "research_workflow_provenance",
+      "title": "Integrity Protection for Research Artifacts using Open Science Chain",
+      "author": null,
+      "venue": null,
+      "url": "https://par.nsf.gov/biblio/10291417",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "해시 체인 기반 연구 산출물 무결성 보호. 위 TRAIL과 함께 '감사 무결성'을 뒷받침하는 2차 근거.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "research_workflow_provenance",
+      "title": "Scaling Reproducibility: An AI-Assisted Workflow for Large-Scale Reanalysis",
+      "author": null,
+      "venue": null,
+      "url": "https://www.leoyang.org/publication/ai_reproducibility/example.pdf",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "AI 보조 대규모 재분석 워크플로우. 전처리 의존성까지 추적을 확장하려는 전문가 리뷰 1순위 항목의 실무 사례.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "statistics_reproducibility",
+      "title": "Extraordinarily corrupt or statistically commonplace? Reproducibility crises may stem from a lack of understanding of outcome probabilities",
+      "author": null,
+      "venue": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40321829/",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "재현성 위기의 통계적 원인 분석. NAIS가 '숫자가 같다고 근거가 같은 건 아니다'라고 주장하는 부분의 학술적 뒷받침.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "statistics_reproducibility",
+      "title": "Is There a Reproducibility Crisis? On the Need for Evidence-based Approaches",
+      "author": null,
+      "venue": null,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02698595.2025.2538937",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "증거 기반 접근의 필요성. INNOVATION_EVIDENCE.md의 '과신 방지' 철학과 직접 연결.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "statistics_reproducibility",
+      "title": "Leakage and the Reproducibility Crisis in ML-based Science",
+      "author": null,
+      "venue": null,
+      "url": "https://reproducible.cs.princeton.edu/",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "ML 기반 과학에서의 데이터 누출·재현성 위기 정리 사이트(Princeton). 확장성 섹션에서 '왜 이 문제가 여러 분야에 공통인지' 설명할 때 인용.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "ai_evaluation",
+      "title": "HalluLens: LLM Hallucination Benchmark",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/html/2504.17550v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "최신 환각 벤치마크. 범용 AI 대비 비교 실험 설계 시 평가축(측정 항목) 참고.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V82",
+      "source_category": "ai_evaluation",
+      "title": "Hallucination to truth: a review of fact-checking and factuality evaluation in LLMs",
+      "author": null,
+      "venue": null,
+      "url": "https://link.springer.com/article/10.1007/s10462-025-11454-w",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "환각·사실성 평가 방법론 전체 리뷰. 실현가능성 심사('프로토타입 완성도')에서 다룰 자체 평가 방법 설계 참고.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v82_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "statcheck: Automatically Detect Statistical Reporting Inconsistencies to Increase Reproducibility of Meta-Analyses",
+      "author": "Nuijten et al.",
+      "venue": "Research Synthesis Methods (Wiley)",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1408",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "심리학 분야에서 가장 널리 쓰이는 통계 일치성 자동 검사 도구. NAIS와 가장 직접 비교되는 선행연구 — '차별점' 슬라이드에서 반드시 다뤄야 할 1순위. statcheck는 보고된 숫자끼리의 일치만 보는 반면 NAIS는 원자료·조건까지 재계산한다는 차이를 명시하면 혁신성 문구('기존 방식과 다른 참신하고 차별화된 접근')에 정확히 답이 됨.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "The GRIM Test: A Simple Technique Detects Numerous Anomalies in the Reporting of Results in Psychology",
+      "author": "Brown & Heathers",
+      "venue": "Social Psychological and Personality Science",
+      "url": "https://www.researchgate.net/publication/309275131",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "평균값의 정수 일관성만으로 오류를 잡아내는 기법(GRIM). NAIS의 '산술 일치'가 이미 하고 있는 검사와 근본적으로 같은 계열 — 선행연구로 인용하면서 '우리는 여기서 원자료 재계산까지 간다'고 확장선을 그으면 됨.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "GRIM, SPRITE, statcheck: Fraud/Error Detection 개요",
+      "author": null,
+      "venue": "CASRAI",
+      "url": "https://casrai.org/guides/statistical-fraud-detection-grim-sprite-statcheck",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "세 도구를 한 번에 비교 정리한 자료. 발표자료 관련연구 표를 만들 때 그대로 뼈대로 쓸 수 있음.",
+      "record_type": "tool_or_resource",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "RegCheck: A tool for automating comparisons between study registrations and papers",
+      "author": null,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2601.13330v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "사전등록과 실제 논문을 자동 비교. NAIS의 '원문 판정과 정정안 상태를 별도 표시'하는 기능과 목적이 유사 — 설계 참고 및 비교 대상.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "paper-verifier: Deterministic manuscript audit (통계 주장 대조 + 인용 무결성)",
+      "author": null,
+      "venue": "GitHub",
+      "url": "https://github.com/taehyeonglim/paper-verifier",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "결정론적(비-LLM) 원고 감사 도구. NAIS가 'LLM 판단은 의미 판단에만 쓰고 계산은 결정론적 코드로 한다'는 설계 원칙(FEEDBACK_BACKLOG 16번 항목)과 철학이 같은 실제 구현 사례 — 코드 구조 비교 대상.",
+      "record_type": "tool_or_resource",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate",
+      "verified_url": "https://github.com/m-malinowski/paper-verifier",
+      "url_status": "candidate_url points to a different repository; verified_url sourced from the PyPI project metadata"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "author": null,
+      "venue": "Pith / preprint",
+      "url": "https://pith.science/paper/2606.13670",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "LLM을 재현성 평가에 쓴 최신 사례. 전문가 리뷰 우선순위 5번(범용 AI와 공정 비교) 실험 설계 시 방법론 참고.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate"
+    },
+    {
+      "source_version": "V83",
+      "source_category": "unspecified",
+      "title": "Evaluation of JATSdecoder as an automated text extraction tool for statistical results",
+      "author": null,
+      "venue": "Scientific Reports (Nature)",
+      "url": "https://www.nature.com/articles/s41598-021-98782-3",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "논문 원문에서 통계치를 자동 추출하는 도구 평가. NAIS의 표·본문 구간 추출 기능과 같은 문제를 다루는 선행연구.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v83_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "V83_integrate_as_citation_candidate"
+    },
+    {
+      "source_version": "V85",
+      "source_category": "expected_impact",
+      "title": "Estimating AI productivity gains from Claude conversations",
+      "author": null,
+      "venue": null,
+      "url": "https://www.anthropic.com/research/estimating-productivity-gains",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "기획서 기대효과 섹션 근거",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v85_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V85",
+      "source_category": "expected_impact",
+      "title": "Generative AI at Work",
+      "author": null,
+      "venue": "Quarterly Journal of Economics",
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "생산성 실증 연구, 최상위 저널",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v85_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V85",
+      "source_category": "core_philosophy",
+      "title": "Correctness is not Faithfulness in Retrieval Augmented Generation Attributions",
+      "author": null,
+      "venue": "ACM SIGIR ICTIR 2025",
+      "url": "https://arxiv.org/pdf/2412.18004",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "NAIS 핵심 철학(정답≠근거일치)의 학술적 대응 근거 — 최우선 인용",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v85_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V85",
+      "source_category": "ai_evaluation",
+      "title": "Evaluating Faithfulness in Agentic RAG Systems for e-Governance Applications",
+      "author": null,
+      "venue": "MDPI",
+      "url": "https://www.mdpi.com/2504-2289/9/12/309",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "공공기관 맥락 RAG 신뢰성 평가, 적합성 섹션 근거",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v85_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V86",
+      "source_category": "claim_evidence",
+      "title": "Do Methods Support the Claims? Intra-Paper Verification for Peer Review",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/html/2607.26066",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": null,
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v86_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V86",
+      "source_category": "ai_evaluation",
+      "title": "LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/html/2606.25057v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": null,
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v86_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V86",
+      "source_category": "provenance",
+      "title": "Propagation of errors in citation networks",
+      "author": null,
+      "venue": "Research Integrity and Peer Review",
+      "url": "https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0008-5",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": null,
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v86_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V86",
+      "source_category": "ai_evaluation",
+      "title": "Predicting retracted research: a dataset and machine learning approaches",
+      "author": null,
+      "venue": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12153192/",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": null,
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "fulltext_status": "not_present_in_candidate_record; do not promote to fulltext/extracted",
+      "source_files": [
+        "data/research_fields/v86_candidates.json"
+      ],
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain_candidate_only_pending_primary_source_and_dedup_review"
+    },
+    {
+      "source_version": "V84",
+      "source_files": [
+        "data/research_fields/v84_candidates.json"
+      ],
+      "source_category": "ai_evaluation",
+      "title": "A Unified Framework for the Evaluation of LLM Agentic Capabilities",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/html/2605.27898v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "범용 AI 대비 공정 비교 실험 설계 근거",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V84",
+      "source_files": [
+        "data/research_fields/v84_candidates.json"
+      ],
+      "source_category": "claim_evidence",
+      "title": "ClaimPKG: Enhancing Claim Verification via Pseudo-Knowledge Graph",
+      "author": null,
+      "venue": null,
+      "url": "https://arxiv.org/pdf/2505.22552",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "지식그래프 기반 주장 검증, 확장성 로드맵 2차 근거",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "미국",
+      "title": "Recommendations to enhance rigor and reproducibility in biomedical research",
+      "author": null,
+      "venue": "PMC7263079",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7263079/",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(PMC7263079, https://pmc.ncbi.nlm.nih.gov/articles/PMC7263079/) — NIH 공식 권고안. 기획서 \"AI 윤리 및 신뢰성\" 섹션에서 국가기관 공식 근거로 쓸 수 있음(국내는 KCI, 해외는 NIH로 양쪽 다 커버).",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "미국",
+      "title": "NIH Guidance: Rigor and Reproducibility in Grant Applications",
+      "author": null,
+      "venue": "https://grants.nih.gov/policy-and-compliance/policy-topics/reproducibility/guidance",
+      "url": "https://grants.nih.gov/policy-and-compliance/policy-topics/reproducibility/guidance",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(https://grants.nih.gov/policy-and-compliance/policy-topics/reproducibility/guidance)",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "영국",
+      "title": "UKRN 2025 Open Research Programme Survey report",
+      "author": null,
+      "venue": "https://www.ukrn.org/2026/02/25/ukrn-publishes-2025-open-research-programme-survey-report/",
+      "url": "https://www.ukrn.org/2026/02/25/ukrn-publishes-2025-open-research-programme-survey-report/",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(https://www.ukrn.org/2026/02/25/ukrn-publishes-2025-open-research-programme-survey-report/) — 영국 전역 연구 재현성 실태조사 최신판.",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "영국",
+      "title": "UK Reproducibility Network open and transparent research practices survey dataset",
+      "author": null,
+      "venue": "Nature Scientific Data",
+      "url": "https://www.nature.com/articles/s41597-024-03786-z",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(Nature Scientific Data, https://www.nature.com/articles/s41597-024-03786-z) — 실제 실측 데이터셋 논문.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "영국",
+      "title": "Reproducibility and Research Integrity",
+      "author": null,
+      "venue": "영국 하원 과학기술위원회 보고서",
+      "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmsctech/101/report.html",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(영국 하원 과학기술위원회 보고서, https://publications.parliament.uk/pa/cm5803/cmselect/cmsctech/101/report.html) — 국가 차원 정책 문서. \"국민 체감성\"(적합성 심사기준) 설명 시 해외 정부도 같은 문제를 국가 의제로 다룬다는 근거.",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "인공지능 데이터 품질검증 기술 및 오픈소스 프레임워크 분석",
+      "author": null,
+      "venue": "KoreaScience",
+      "url": "https://koreascience.kr/article/JAKO202131249900988.pdf",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(KoreaScience, https://koreascience.kr/article/JAKO202131249900988.pdf)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "인공지능 학습용 데이터 품질검증 방법",
+      "author": null,
+      "venue": "DBpia",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10586710",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(DBpia, https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10586710)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "AI의 안전성 및 신뢰성 확보를 위한 정책 연구",
+      "author": null,
+      "venue": "KCI",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003161914",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(KCI, https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003161914) — 국내 정책 연구. 심사위원이 국가과학기술연구회 소속이라는 점을 감안하면 국내 정책 문서 인용이 설득력에 도움.",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "신뢰할 수 있는 인공지능의 이론적 고찰",
+      "author": null,
+      "venue": "KCI",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002877025",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(KCI, https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002877025)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "연구데이터 관리 계획(DMP) 가이드라인",
+      "author": null,
+      "venue": "KISTI 국가연구데이터플랫폼 DataOn",
+      "url": "https://dataon.kisti.re.kr/data_mgnt_guideline_03.do",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(KISTI 국가연구데이터플랫폼 DataOn, https://dataon.kisti.re.kr/data_mgnt_guideline_03.do) — 국내 공식 가이드라인. NAIS의 원자료 관리 방식을 국가 표준 용어로 설명할 수 있게 해줌.",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "연구데이터 품질관리 및 품질평가 가이드라인",
+      "author": null,
+      "venue": "한국지질자원연구원",
+      "url": "https://data.kigam.re.kr/data/5/81/%EB%B6%80%EB%A1%9D5.%20%EC%97%B0%EA%B5%AC%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%20%EB%B0%8F%20%ED%92%88%EC%A7%88%ED%8F%89%EA%B0%80%20%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8.pdf",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(한국지질자원연구원, PDF, https://data.kigam.re.kr/data/5/81/%EB%B6%80%EB%A1%9D5.%20%EC%97%B0%EA%B5%AC%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%20%EB%B0%8F%20%ED%92%88%EC%A7%88%ED%8F%89%EA%B0%80%20%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8.pdf)",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "한국",
+      "title": "국가연구데이터플랫폼 구축 및 운영",
+      "author": null,
+      "venue": "KISTI ScienceON 보고서",
+      "url": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202000006324",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(KISTI ScienceON 보고서, https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202000006324) — 국가 인프라 보고서. 확장성 심사기준의 \"실증허브 프로젝트 등 후속 연구와의 연계\"에 직접 연결 가능(같은 국가 데이터 인프라 생태계).",
+      "record_type": "policy_or_research_report",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "provenance 카테고리",
+      "title": "Unified Lineage System: Tracking Data Provenance at Scale",
+      "author": null,
+      "venue": "ACM",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3722212.3724458",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(ACM, https://dl.acm.org/doi/pdf/10.1145/3722212.3724458)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "provenance 카테고리",
+      "title": "In-Memory Indexing and Querying of Provenance in Data Preparation Pipelines",
+      "author": null,
+      "venue": "arXiv 2511.03480",
+      "url": "https://arxiv.org/pdf/2511.03480",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2511.03480, https://arxiv.org/pdf/2511.03480)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "provenance 카테고리",
+      "title": "Toward Temporal Attribution Analytics in Dataflows",
+      "author": null,
+      "venue": "arXiv 2601.04722",
+      "url": "https://arxiv.org/html/2601.04722v3",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2601.04722, https://arxiv.org/html/2601.04722v3)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "provenance 카테고리",
+      "title": "Relational Database Data Lineage Ontology",
+      "author": null,
+      "venue": "arXiv 2605.16068",
+      "url": "https://arxiv.org/html/2605.16068v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2605.16068, https://arxiv.org/html/2605.16068v1)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "provenance 카테고리",
+      "title": "Capturing end-to-end provenance for machine learning pipelines",
+      "author": null,
+      "venue": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306437924001534",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(ScienceDirect, https://www.sciencedirect.com/science/article/pii/S0306437924001534)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "provenance 카테고리",
+      "title": "Data Version Control (DVC)",
+      "author": null,
+      "venue": "https://doc.dvc.org/user-guide",
+      "url": "https://doc.dvc.org/user-guide",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "실무 도구 문서 (https://doc.dvc.org/user-guide) — V87 프로토타입(`preprocessing_contract`)이 DVC와 같은 문제의식(원자료·파생자료·코드 버전 결속)을 다룬다는 걸 보여주는 실무 참고자료.",
+      "record_type": "tool_or_resource",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "프라이버시·설명가능성 (활용성 보강)",
+      "title": "A Comprehensive Guide to Differential Privacy",
+      "author": null,
+      "venue": "arXiv 2509.03294",
+      "url": "https://arxiv.org/html/2509.03294v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2509.03294, https://arxiv.org/html/2509.03294v1)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "프라이버시·설명가능성 (활용성 보강)",
+      "title": "Advancing privacy in learning analytics using differential privacy",
+      "author": null,
+      "venue": "arXiv 2501.01786",
+      "url": "https://arxiv.org/html/2501.01786v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2501.01786, https://arxiv.org/html/2501.01786v1)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "프라이버시·설명가능성 (활용성 보강)",
+      "title": "Preliminary Quantitative Study on Explainability and Trust in AI Systems",
+      "author": null,
+      "venue": "arXiv 2510.15769",
+      "url": "https://arxiv.org/html/2510.15769v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2510.15769, https://arxiv.org/html/2510.15769v1)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    },
+    {
+      "source_version": "V88",
+      "source_files": [
+        "GAP_ANALYSIS_V88.md"
+      ],
+      "source_category": "프라이버시·설명가능성 (활용성 보강)",
+      "title": "Transparent AI: The Case for Interpretability and Explainability",
+      "author": null,
+      "venue": "arXiv 2507.23535",
+      "url": "https://arxiv.org/html/2507.23535v1",
+      "doi": null,
+      "pmcid": null,
+      "why_as_supplied": "(arXiv 2507.23535, https://arxiv.org/html/2507.23535v1)",
+      "record_type": "scholarly_work_candidate",
+      "candidate_status": "CANDIDATE_CITATION_ONLY",
+      "status": "CANDIDATE_CITATION_ONLY",
+      "is_fulltext": false,
+      "integration_note": "retain as citation/policy/tool candidate; no full text recorded"
+    }
+  ],
+  "record_type_counts": {
+    "scholarly_work_candidate": 53,
+    "tool_or_resource": 3,
+    "policy_or_research_report": 6
+  },
+  "unique_scholarly_works_after_known_same_work_dedup": 52,
+  "crossref_api_evidence_manifest": "api_evidence/manifest.json"
+}

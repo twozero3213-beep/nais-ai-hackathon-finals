@@ -1,0 +1,48 @@
+{
+  "doi": "10.1371/journal.pone.0313991",
+  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313991",
+  "source_location": "JATS abstract / Results paragraph",
+  "source_sha256": "a7f61fe7eac500ced768cf0207197a07edb2214f8a1fb09ff5b76a5572d0f8f4",
+  "source_quotes": [
+    "5,700 URLs were included in the final analysis",
+    "level of compliance with FAIR metrics was 9.4 (4.88)."
+  ],
+  "data_unit": "URL-level FAIR assessments, not individual participant records",
+  "license": "CC BY 4.0",
+  "license_evidence": [
+    "osf_project.json",
+    "osf_license.json"
+  ],
+  "raw_version_url": "https://osf.io/download/2yfsh/?version=1",
+  "author_code_version_url": "https://osf.io/download/3mkdj/?version=1",
+  "raw_sha256": "45b0d40b730adf8d82bf809acb419856c5fac09b44355c8427f8c743a5efc3f7",
+  "author_code_sha256": "f7d2988fcaf2914510a7b6f46c78642dc21f1527b42f27a8c23fb04f94c3b019",
+  "derived_sha256": "5454152ad4694522fa83fd3174340f12f2a535c0b88c2e13e0645cfaabb90aaa",
+  "author_code_executed": false,
+  "full_paper_reproduced": false,
+  "human_approved": false,
+  "source_scope_verified": false,
+  "preprocessing_semantics": "Developer-declared numeric-not-equal projection; exact filter quote bound to column and threshold, not an automatic R semantic interpreter",
+  "source_n": 6180,
+  "excluded_fair_one_n": 480,
+  "missing_n": 0,
+  "analysis_n": 5700,
+  "sum_fair": 53541.5,
+  "mean": 9.393245614035088,
+  "reported_mean": 9.4,
+  "absolute_difference": 0.006754385964912402,
+  "publication_rounding_tolerance": 0.05,
+  "engine_comparison_tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-12
+  },
+  "independent_review_sd_only": 4.881753018984542,
+  "sd_registered_as_claim": false,
+  "command": "python -X utf8 -m tools.case_registry --manifest data/evaluation/registered_reproduction_cases.json",
+  "limits": [
+    "Mean/SD section in author QMD is commented code; QMD not executed.",
+    "FAIR assessment pipeline, regressions, p-values and all other article results are not reproduced.",
+    "Change-impact snapshots deliberately BLOCKED_INPUT for preprocessing contracts; transitive tracking not implemented.",
+    "Existing combined 900-paper corpus status remains NOT_TESTED."
+  ]
+}

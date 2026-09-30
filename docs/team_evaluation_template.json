@@ -1,0 +1,15 @@
+{
+  "status": "NOT_SCORED",
+  "reason": "PENDING_REAL_HUMAN_LABELS",
+  "cases": [],
+  "internal_protocol": {
+    "labels_and_runs_not_started": false,
+    "decision_rubric": "",
+    "system_descriptions": {"product": "", "model": ""},
+    "reviewers": []
+  },
+  "product_results_file": "",
+  "model_runs": [],
+  "human_labels": [],
+  "human_review_records": []
+}

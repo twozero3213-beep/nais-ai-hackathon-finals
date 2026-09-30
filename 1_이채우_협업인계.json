@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "contributor_version": 1,
+  "recorded_at_kst": "2026-09-30T23:33:11+09:00",
+  "reviewed_main_sha": "07c73a6218f013f49245c0f41f6473d87d179dab",
+  "coordination_status": "PROPOSAL_AWAITING_TEAM_ACCEPTANCE",
+  "not_a_lock_service": true,
+  "active_file_reservations": [],
+  "next_tasks": [
+    {
+      "id": "T01",
+      "status": "PROPOSED",
+      "owner_confirmed": false
+    },
+    {
+      "id": "T02",
+      "status": "PROPOSED",
+      "owner_confirmed": false
+    },
+    {
+      "id": "T03",
+      "status": "PROPOSED",
+      "owner_confirmed": false
+    },
+    {
+      "id": "T04",
+      "status": "PROPOSED",
+      "owner_confirmed": false
+    },
+    {
+      "id": "T05",
+      "status": "PROPOSED",
+      "owner_confirmed": false
+    },
+    {
+      "id": "T06",
+      "status": "PROPOSED",
+      "owner_confirmed": false
+    }
+  ],
+  "github_workflow": "현재 연결과 직접 main 반영 유지. Claude 별도 GitHub 연결 없음.",
+  "verification_scope": "공개 파일 목록·집중 시연 코드·시험 정의·게시된 팀 결과 대조; 새 제품 실행 미실행",
+  "team_reported_validation": {
+    "passed": 89,
+    "skipped": 1,
+    "seconds": 32.86,
+    "source": "docs/0_이영_공개검증.json",
+    "independently_rerun_this_review": false
+  },
+  "comparison_status": {
+    "local_cases_published": 8,
+    "ai_cases_not_run": 16,
+    "tool_enabled_general_ai_comparison": "NOT_RUN"
+  },
+  "freeze_at_kst": "2026-10-01T06:20:00+09:00",
+  "deadline_at_kst": "2026-10-01T09:20:00+09:00"
+}

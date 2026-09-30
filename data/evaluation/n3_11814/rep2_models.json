@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "scope": "AUTHOR_ANALYSIS_DATASET_ONLY",
+  "data_file": "data/evaluation/n3_11814/rep2_analysis_columns.csv",
+  "data_sha256": "534253b2197e149a9781495e5eb0febd9c32c5610d674c1f3070a15252352ad1",
+  "source_file": "data/evaluation/n3_11814/source_text.txt",
+  "source_sha256": "2190bdeb9593e173d7a42a40b7dcf4485941b26d42a7a58237627aed9cf9aa0b",
+  "derivations": [
+    {
+      "kind": "reverse_integer",
+      "source": "SES",
+      "target": "SES_LadderCode",
+      "min": 1,
+      "max": 10,
+      "source_quote": "RECODE SES (1=10) (2=9) (3=8) (4=7) (5=6) (6=5) (7=4) (8=3) (9=2) (10=1) INTO SES_LadderCode."
+    },
+    {
+      "kind": "mean_complete",
+      "sources": [
+        "UnethicalBeh1",
+        "UnethicalBeh2",
+        "UnethicalBeh3",
+        "UnethicalBeh4",
+        "UnethicalBeh5",
+        "UnethicalBeh6",
+        "UnethicalBeh7",
+        "UnethicalBeh8",
+        "UnethicalBeh9",
+        "UnethicalBeh10",
+        "UnethicalBeh11",
+        "UnethicalBeh12"
+      ],
+      "target": "UnethicalBehAVG",
+      "source_quote": "COMPUTE UnethicalBehAVG=(UnethicalBeh1 + UnethicalBeh2 + UnethicalBeh3 + UnethicalBeh4 + \n    UnethicalBeh5 + UnethicalBeh6 + UnethicalBeh7 + UnethicalBeh8 + UnethicalBeh9 + UnethicalBeh10 + \n    UnethicalBeh11 + UnethicalBeh12) / 12."
+    }
+  ],
+  "models": [
+    {
+      "model_id": "N3-11814-C03/corrected",
+      "method": "ols",
+      "outcome": "UnethicalBehAVG",
+      "predictors": [
+        "Age",
+        "Gender",
+        "Religiousness",
+        "PoliticalOrientation",
+        "EuropeanNonEuropean",
+        "SES_LadderCode",
+        "Condition_OriginalCode"
+      ],
+      "missing_policy": "listwise",
+      "reported_terms": {
+        "SES_LadderCode": {
+          "value": 0.011,
+          "tolerance": 0.0005,
+          "source_quote": "b=0.011, s.e.=0.024, t(255)=0.436",
+          "statistics": {
+            "se": {
+              "value": 0.024,
+              "tolerance": 0.0005,
+              "source_quote": "b=0.011, s.e.=0.024, t(255)=0.436"
+            },
+            "statistic": {
+              "value": 0.436,
+              "tolerance": 0.0005,
+              "source_quote": "b=0.011, s.e.=0.024, t(255)=0.436"
+            }
+          }
+        }
+      },
+      "reported_df": {
+        "value": 255,
+        "source_quote": "b=0.011, s.e.=0.024, t(255)=0.436"
+      }
+    },
+    {
+      "model_id": "N3-11814-C03/original",
+      "method": "ols",
+      "outcome": "UnethicalBehAVG",
+      "predictors": [
+        "Age",
+        "Gender",
+        "Religiousness",
+        "PoliticalOrientation",
+        "EuropeanNonEuropean",
+        "SES",
+        "Condition_OriginalCode"
+      ],
+      "missing_policy": "listwise",
+      "reported_terms": {
+        "SES": {
+          "value": -0.011,
+          "tolerance": 0.0005,
+          "source_quote": "b=−0.011, s.e.=0.024, t(255)=−0.436",
+          "statistics": {
+            "se": {
+              "value": 0.024,
+              "tolerance": 0.0005,
+              "source_quote": "b=−0.011, s.e.=0.024, t(255)=−0.436"
+            },
+            "statistic": {
+              "value": -0.436,
+              "tolerance": 0.0005,
+              "source_quote": "b=−0.011, s.e.=0.024, t(255)=−0.436"
+            }
+          }
+        }
+      },
+      "reported_df": {
+        "value": 255,
+        "source_quote": "b=−0.011, s.e.=0.024, t(255)=−0.436"
+      }
+    },
+    {
+      "model_id": "N3-11814-C04/corrected",
+      "method": "ols",
+      "outcome": "UnethicalBehAVG",
+      "predictors": [
+        "SES_LadderCode",
+        "Condition_OriginalCode"
+      ],
+      "missing_policy": "listwise",
+      "reported_terms": {
+        "SES_LadderCode": {
+          "value": 0.007,
+          "tolerance": 0.0005,
+          "source_quote": "b=0.007, s.e.=0.025, t(255)=0.301",
+          "statistics": {
+            "se": {
+              "value": 0.025,
+              "tolerance": 0.0005,
+              "source_quote": "b=0.007, s.e.=0.025, t(255)=0.301"
+            },
+            "statistic": {
+              "value": 0.301,
+              "tolerance": 0.0005,
+              "source_quote": "b=0.007, s.e.=0.025, t(255)=0.301"
+            }
+          }
+        }
+      },
+      "reported_df": {
+        "value": 255,
+        "source_quote": "b=0.007, s.e.=0.025, t(255)=0.301"
+      }
+    },
+    {
+      "model_id": "N3-11814-C04/original",
+      "method": "ols",
+      "outcome": "UnethicalBehAVG",
+      "predictors": [
+        "SES",
+        "Condition_OriginalCode"
+      ],
+      "missing_policy": "listwise",
+      "reported_terms": {
+        "SES": {
+          "value": -0.007,
+          "tolerance": 0.0005,
+          "source_quote": "b=−0.007, s.e.=0.025, t(255)=−0.301",
+          "statistics": {
+            "se": {
+              "value": 0.025,
+              "tolerance": 0.0005,
+              "source_quote": "b=−0.007, s.e.=0.025, t(255)=−0.301"
+            },
+            "statistic": {
+              "value": -0.301,
+              "tolerance": 0.0005,
+              "source_quote": "b=−0.007, s.e.=0.025, t(255)=−0.301"
+            }
+          }
+        }
+      },
+      "reported_df": {
+        "value": 255,
+        "source_quote": "b=−0.007, s.e.=0.025, t(255)=−0.301"
+      }
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="hcs270101" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Health Care Sci</journal-id><journal-id journal-id-type="iso-abbrev">Health Care Sci</journal-id><journal-id journal-id-type="pmc-domain-id">4593</journal-id><journal-id journal-id-type="pmc-domain">hcaresci</journal-id><journal-id journal-id-type="nlm-id">9918787565406676</journal-id><journal-id journal-id-type="publisher-id">HCS2</journal-id><journal-title-group><journal-title>Health Care Science</journal-title></journal-title-group><issn pub-type="ppub">2771-1749</issn><issn pub-type="epub">2771-1757</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13571159</article-id><article-id pub-id-type="pmcid-ver">PMC13571159.1</article-id><article-id pub-id-type="pmcaid">13571159</article-id><article-id pub-id-type="pmcaiid">13571159</article-id><article-id pub-id-type="pmid">42733582</article-id><article-id pub-id-type="doi">10.1002/hcs2.70101</article-id><article-id pub-id-type="publisher-id">HCS270101</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Longitudinal Study on Post‐Traumatic Stress Disorder, Anxiety, and Depression Among Medical Staff in China</article-title></title-group><contrib-group><contrib id="hcs270101-cr-0001" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="Z">Zongju</given-names></name><xref rid="hcs270101-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="hcs270101-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="hcs270101-cr-0002" contrib-type="author"><name name-style="western"><surname>Cai</surname><given-names initials="R">Ruiting</given-names></name><xref rid="hcs270101-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="hcs270101-cr-0003" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yifang</given-names></name><xref rid="hcs270101-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="hcs270101-cr-0004" contrib-type="author"><name name-style="western"><surname>Tao</surname><given-names initials="N">Na</given-names></name><xref rid="hcs270101-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="hcs270101-cr-0005" contrib-type="author"><name name-style="western"><surname>Fei</surname><given-names initials="Y">Yang</given-names></name><xref rid="hcs270101-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="hcs270101-cr-0006" contrib-type="author"><name name-style="western"><surname>Wen</surname><given-names initials="J">Jing</given-names></name><xref rid="hcs270101-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="hcs270101-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="hcs270101-cr-0007" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="P">Pu</given-names></name><xref rid="hcs270101-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="hcs270101-cr-0008" contrib-type="author"><name name-style="western"><surname>Lu</surname><given-names initials="Y">Yu</given-names></name><xref rid="hcs270101-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="hcs270101-cr-0009" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="J">Jun</given-names></name><xref rid="hcs270101-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="hcs270101-cr-0010" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="J">Jing</given-names></name><xref rid="hcs270101-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="hcs270101-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zou</surname><given-names initials="L">Li</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1486-9781</contrib-id><xref rid="hcs270101-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref><address></address></contrib><contrib id="hcs270101-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Fu</surname><given-names initials="W">Wenning</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4300-7977</contrib-id><xref rid="hcs270101-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib></contrib-group><aff id="hcs270101-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>School of Nursing, Tongji Medical College, Huazhong University of Science and Technology</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Emergency Medicine</named-content>
+<institution>Sichuan Academy of Medical Sciences &amp; Sichuan Provincial People's Hospital</institution>
+<city>Chengdu</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Social Medicine and Health Management</named-content>
+<institution>School of Public Health, Tongji Medical College, Huazhong University of Science and Technology</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Nursing</named-content>
+<institution>The Central Hospital of Wuhan</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>School of Nursing, Yangtze University Medical School</institution>
+<city>Jingzhou</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Orthodontics</named-content>
+<institution>West China Hospital of Stomatology, Sichuan University</institution>
+<city>Sichuan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Cardiology</named-content>
+<institution>Taihe Hospital, Hubei University of Medicine</institution>
+<city>Shiyan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Endocrinology, Department of Cardiology</named-content>
+<institution>Taihe Hospital, Hubei University of Medicine</institution>
+<city>Shiyan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<institution>Reproductive Medical Center, Renmin Hospital of Wuhan University &amp; Hubei Clinic Research Center for Assisted Reproductive Technology and Embryonic Development</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><aff id="hcs270101-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Renmin Hospital of Wuhan University &amp; Hubei Clinic Research Center for Assisted Reproductive Technology and Embryonic Development</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold> Li Zou ()<break/>
+Wenning Fu ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>13</day><month>9</month><year>2026</year></pub-date><issue-id pub-id-type="pmc-issue-id">518309</issue-id><elocation-id>10.1002/hcs2.70101</elocation-id><history>
+<date date-type="rev-recd"><day>07</day><month>6</month><year>2026</year></date>
+<date date-type="received"><day>03</day><month>2</month><year>2026</year></date>
+<date date-type="accepted"><day>10</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>13</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>14</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-17 10:00:42.680"><day>17</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Health Care Science</italic> published by John Wiley &amp; Sons, Ltd on behalf of Tsinghua University Press.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="HCS2-9999-0.pdf"><?pdf-name HCS2-9999-0.pdf?><?pdf-size 665205?><?pdf-md5 f176bba361fd1230fd0d0bc787a4feb4?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:f98e/13571159/f176bba361fd/HCS2-9999-0.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:HCS2-9999-0.pdf"/><abstract><title>ABSTRACT</title><sec id="hcs270101-sec-0010"><title>Background</title><p>Evidence of the longitudinal relationship between anxiety, depression, and post‐traumatic stress disorder (PTSD) is not uniform. This study aimed to explore the dynamic changes, independent factors, and bidirectional predictive relationships of anxiety, depression, and PTSD among medical staff.</p></sec><sec id="hcs270101-sec-0020"><title>Methods</title><p>This study conducted a longitudinal follow‐up with two time points, 6 months apart, to collect medical staff's psychological data. Generalized linear mixed model and cross‐lagged model were used to identify independent factors of anxiety, depression, and PTSD among medical staff and explore longitudinal predictive relationships in main variables.</p></sec><sec id="hcs270101-sec-0030"><title>Results</title><p>In total, 2650 medical staff completed both baseline and follow‐up surveys, with a follow‐up response rate of 96.3%. From the first phase of the survey (T1) to the second phase of the survey (T2), the prevalence of anxiety (28.9% at T1 and 34.5% at T2), depression (19.4% and 26.7%), and PTSD (6.1% and 13.1%) among medical staff showed an upward trend. Occupational exposure, sleep quality, and experiencing traumatic life events were identified as independent factors associated with psychological disorders among medical staff. In addition, from T1 to T2, PTSD predicted anxiety and depression, and depression predicted PTSD and anxiety. However, anxiety could not predict depression and PTSD.</p></sec><sec id="hcs270101-sec-0040"><title>Conclusions</title><p>The prevalence of anxiety, depression, and PTSD among medical staff was higher and showed an upward trend. It is recommended to conduct early screening and intervention for medical staff's mental health problems, while paying close attention to the comprehensive management and intervention of these symptoms.</p></sec></abstract><abstract abstract-type="graphical"><p>A six‐month study of 2650 medical staff found post‐traumatic stress disorder and depression bidirectionally predicted each other, and both drove later anxiety. These findings highlight the need for integrated early screening and intervention strategies targeting post‐traumatic stress disorder, anxiety and depression in high‐stress healthcare settings.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="HCS2-9999-0-g004.webp"><?image-name HCS2-9999-0-g004.webp?><?image-size 21984?><?image-md5 9f65e86b874e2c4323552069a08db990?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 456?><?image-original-width 912?><?image-scaled-height 456?><?image-scaled-width 912?><?image-cloudpmc-urn urn:cdn:blobs/f98e/13571159/9f65e86b874e/HCS2-9999-0-g004.webp?></graphic></boxed-text>
+</p></abstract><kwd-group><kwd id="hcs270101-kwd-0001">anxiety</kwd><kwd id="hcs270101-kwd-0002">cross‐lagged model</kwd><kwd id="hcs270101-kwd-0003">depression</kwd><kwd id="hcs270101-kwd-0004">medical staff</kwd><kwd id="hcs270101-kwd-0005">post‐traumatic stress disorder</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Hubei Natural Science Foundation Project</institution></institution-wrap>
+</funding-source><award-id>2025AFB497</award-id><award-id>2025AFC047</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Fundamental Research Funds for the Central Universities</institution></institution-wrap>
+</funding-source><award-id>2026WKQN036</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>72104082</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="2"/><page-count count="11"/><word-count count="7432"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>edited-state</meta-name><meta-value>corrected-proof</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:13.09.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="hcs270101-cit-0043">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, et al., “<article-title>Longitudinal Study on Post‐Traumatic Stress Disorder, Anxiety, and Depression Among Medical Staff in China</article-title>,” <source>Health Care Science</source>
+<volume>0</volume> (<year>2026</year>): <fpage>1</fpage>‐<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1002/hcs2.70101</pub-id>.</mixed-citation>
+</p><fn-group><fn id="hcs270101-note-0001"><p>Zongju Chen, Ruiting Cai, and Yifang Liu contributed equally as joint first authors. Li Zou and Wenning Fu jointly supervised this work and contributed equally as joint corresponding authors.</p></fn></fn-group></notes></front><body><def-list list-content="abbreviations"><title>Abbreviations</title><def-item><term>AOR</term><def><p>adjusted odds ratio</p></def></def-item><def-item><term>CES‐D</term><def><p>Center for Epidemiologic Studies Depression Scale</p></def></def-item><def-item><term>CI</term><def><p>confidence interval</p></def></def-item><def-item><term>DSM‐5</term><def><p>Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition</p></def></def-item><def-item><term>GAD‐7</term><def><p>generalized anxiety disorder‐7</p></def></def-item><def-item><term>GLMM</term><def><p>generalized linear mixed model</p></def></def-item><def-item><term>PCL‐5</term><def><p>PTSD Checklist for DSM‐5</p></def></def-item><def-item><term>PTSD</term><def><p>post‐traumatic stress disorder</p></def></def-item><def-item><term>SD</term><def><p>standard deviation</p></def></def-item><def-item><term>T1</term><def><p>the first phase of the survey</p></def></def-item><def-item><term>T2</term><def><p>the second phase of the survey</p></def></def-item></def-list><sec sec-type="background" id="hcs270101-sec-0050"><label>1</label><title>Background</title><p>Medical staff suffered from various stressful events during clinical work, such as heavy workloads, tense physician‐patient relationships and nurse–patient relationships, workplace violence, and prolonged feelings of distress arising from constant exposure to mortality [<xref rid="hcs270101-bib-0001" ref-type="bibr">1</xref>, <xref rid="hcs270101-bib-0002" ref-type="bibr">2</xref>, <xref rid="hcs270101-bib-0003" ref-type="bibr">3</xref>], which continually impose heavy burdens on their mental and psychological health, resulting in a persistent state of high tension and stress. Furthermore, these occupational specificities may cause the dynamic relationships among the mental health problems to differ from those observed in the general population or other occupational groups. In China, these occupational stressors may be particularly salient due to several contextual factors. In particular, Chinese medical staff face unique barriers to seeking mental health support. Previous research showed that under significant psychological pressure, medical staff in China tend to have more negative attitudes toward professional psychological help‐seeking, with mental illness stigma and fear of discrimination from colleagues or patients being key contributing factors [<xref rid="hcs270101-bib-0004" ref-type="bibr">4</xref>, <xref rid="hcs270101-bib-0005" ref-type="bibr">5</xref>]. These cultural and systemic characteristics distinguish the Chinese healthcare context from that of Western countries and highlight the necessity of examining the mental health of medical staff specifically within the Chinese setting.</p><p>Previous studies revealed that, due to various stressful events, medical staff often suffer from immediate and long‐term mental and psychological consequences like post‐traumatic stress disorder (PTSD), anxiety, and depression [<xref rid="hcs270101-bib-0006" ref-type="bibr">6</xref>, <xref rid="hcs270101-bib-0007" ref-type="bibr">7</xref>, <xref rid="hcs270101-bib-0008" ref-type="bibr">8</xref>, <xref rid="hcs270101-bib-0009" ref-type="bibr">9</xref>], and even suicidal behaviors [<xref rid="hcs270101-bib-0010" ref-type="bibr">10</xref>], thus greatly increasing the burden on the healthcare system. A systematic review focusing specifically on Chinese medical staff reported a substantial prevalence of psychological issues among medical staff, with aggregate prevalence rates of anxiety symptoms (27.0%) and depression symptoms (26.2%) [<xref rid="hcs270101-bib-0011" ref-type="bibr">11</xref>]. Another meta‐analysis found that the overall prevalence of PTSD among Chinese medical staff during the pandemic was 29.2% [<xref rid="hcs270101-bib-0012" ref-type="bibr">12</xref>]. These figures highlight the urgent need for comprehensive mental health surveillance and intervention among Chinese medical staff. However, the majority of existing studies that focused on the mental and psychological disorders among medical staff employed single‐center cross‐sectional research designs [<xref rid="hcs270101-bib-0013" ref-type="bibr">13</xref>]. These studies failed to provide dynamic changes in the mental and psychological status of medical staff over time and were unable to directly determine the predictive relationships between variables. Therefore, conducting long‐term monitoring of mental and psychological consequences, including anxiety, depression, and PTSD symptoms, among medical staff for better early assessment and intervention is essential.</p><p>In addition, the longitudinal predictive relationships between anxiety, depression, and PTSD symptoms were complex and controversial. Previous studies found that PTSD symptoms have a unidirectional predictive relationship with depression [<xref rid="hcs270101-bib-0014" ref-type="bibr">14</xref>, <xref rid="hcs270101-bib-0015" ref-type="bibr">15</xref>]. In contrast, some scholars believe that depression and PTSD symptoms may be mutually causal [<xref rid="hcs270101-bib-0016" ref-type="bibr">16</xref>]. Furthermore, previous research has suggested that anxiety symptoms precede depression symptoms [<xref rid="hcs270101-bib-0017" ref-type="bibr">17</xref>]. However, some scholars have argued that the relationship between anxiety and depression symptoms is not unidirectional, but rather bidirectional [<xref rid="hcs270101-bib-0018" ref-type="bibr">18</xref>]. Identifying and understanding the longitudinal predictive relationships between anxiety, depression, and PTSD symptoms among medical staff facilitates comprehensive management and intervention by administrators in addressing their mental health status.</p><p>Considering the deficiency of existing research on the predictive relationships of mental and psychological disorders in medical staff, this study adopted a longitudinal research design to follow up on the anxiety, depression, and PTSD symptoms in medical staff from two general hospitals in Hubei Province, China, for a period of 6 months. Our study aimed to confirm the dynamic changes of anxiety, depression, and PTSD among medical staff, identify risk factors that were independently associated with anxiety, depression, and PTSD, and explore the longitudinal predictive relationships between anxiety, depression, and PTSD symptoms, thus providing scientific reference bases with which to develop and optimize precise psychological intervention strategies for medical staff.</p></sec><sec sec-type="methods" id="hcs270101-sec-0060"><label>2</label><title>Methods</title><sec id="hcs270101-sec-0070"><label>2.1</label><title>Design and Participants</title><p>The current research was conducted utilizing an online survey tool, namely “Survey Star” (Changsha Ranxing Science and Technology, Changsha, China). To guarantee the accuracy and usability of the collected data, we incorporated an intelligent logical validation process within the computer back‐end system, aimed at identifying and excluding invalid questionnaires. Each participant was restricted to completing the survey only once, thereby ensuring the uniqueness and quality of the data.</p><p>A longitudinal follow‐up research design was utilized to survey the mental and psychological status of medical staff. First, two tertiary‐grade A general hospitals in Hubei Province, China—one a regional medical center and the other a prefecture‐level municipal hospital—were selected using convenience sampling. Subsequently, online questionnaires were distributed to healthcare workers through the medical and nursing departments. The inclusion criteria for this study were age ≥ 18 years, possession of the required practicing certificate, and voluntary project participation. Participants with PTSD, anxiety disorders, depression, and so on, who were diagnosed within 6 months by a general hospital of the second level or above or a hospital specializing in psychiatry, according to the International Classification of Diseases 11th Revision [<xref rid="hcs270101-bib-0019" ref-type="bibr">19</xref>], were excluded. Also excluded were those who changed their work locations within 6 months of the start of the project.</p><p>The first phase of the survey (T1) was conducted in May 2022, with 2751 medical staff members completing the questionnaires. All participants were informed that they might be contacted again after 6 months for the second round of assessment. The same medical staff were invited to complete the same questionnaire 6 months later (the second phase of the survey [T2]). After excluding the questionnaires of 101 participants who either requested withdrawal from follow‐up, were lost to follow‐up upon resignation, showed evidence of duplication, or gave invalid responses, 2650 valid questionnaires were collected, with a follow‐up response rate of 96.3%.</p><p>The present study adhered to the principles of the Declaration of Helsinki, as revised in 2013. All the participants were asked to read and sign an informed consent form before accessing the link to complete the questionnaire. This study was approved by the Research Ethics Committee of the Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China (No. 2021‐IEC‐A006). The ethical approval from Tongji Medical College, Huazhong University of Science and Technology has been acknowledged by the other participating hospitals.</p></sec><sec id="hcs270101-sec-0080"><label>2.2</label><title>Measurements</title><sec id="hcs270101-sec-0090"><label>2.2.1</label><title>Sociodemographic Information</title><p>A questionnaire focusing on general demographic characteristics was formulated based on an extensive literature review. The primary variables were age, sex, level of education, occupation, marital status, department, occupational exposure, sleep quality, exercise, and so on.</p></sec><sec id="hcs270101-sec-0100"><label>2.2.2</label><title>The PTSD Checklist for Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM‐5) (PCL‐5)</title><p>In this study, PTSD was defined as a persistent and maladaptive psychological condition that occurs after medical staff experience or are repeatedly exposed to potentially life‐threatening, severely physically or psychologically traumatic, or profoundly helplessness‐inducing work‐related events in clinical settings (e.g., facing patient death, exposure to workplace violence, and prolonged engagement in high‐stress doctor–patient or nurse–patient environments). PTSD was assessed using the PCL‐5. This scale was developed by Blevins et al. based on the diagnostic criteria for PTSD in the DSM‐5, with an internal consistency of 0.94 and a test–retest reliability of 0.82 [<xref rid="hcs270101-bib-0020" ref-type="bibr">20</xref>]. The PCL‐5 comprises 20 items, categorized into four symptom clusters: re‐experiencing, avoidance, negative alterations in cognition or mood, and hyperarousal. The PCL‐5 responses are made on a 5‐point Likert scale where each item is rated from 0 (<italic toggle="yes">never</italic>) to 4 (<italic toggle="yes">extremely</italic>). A cut‐off score of ≥ 33 indicates probable PTSD diagnosis. An elevated PTSD score signifies increased severity of PTSD symptoms. In the present study, the Cronbach's alpha values for the PCL‐5 questionnaire were 0.982 for T1 and 0.989 for T2.</p></sec><sec id="hcs270101-sec-0110"><label>2.2.3</label><title>Generalized Anxiety Disorder‐7 (GAD‐7)</title><p>This questionnaire was developed by Spitzer et al. based on the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition to evaluate the severity of individual anxiety symptoms, with an internal consistency of 0.92 and a test–retest reliability of 0.83 [<xref rid="hcs270101-bib-0021" ref-type="bibr">21</xref>]. The GAD‐7 comprises seven items, with a scoring range from 0 to 21, utilizing a four‐point Likert scale where each item is rated from 0 (<italic toggle="yes">not at all</italic>) to 3 (<italic toggle="yes">nearly every day</italic>). Higher scores indicate more severe anxiety symptoms. In this study, a score of 5 was used as the cut‐off score for positive anxiety symptoms. In our study, the Cronbach's alpha values for the GAD‐7 scale were 0.955 for T1 and 0.971 for T2.</p></sec><sec id="hcs270101-sec-0120"><label>2.2.4</label><title>Center for Epidemiologic Studies Depression Scale (CES‐D)</title><p>The CES‐D questionnaire was developed by Radloff, with an internal consistency of 0.85 and a test–retest reliability of 0.67 [<xref rid="hcs270101-bib-0022" ref-type="bibr">22</xref>]. It is primarily used to screen depression symptoms among the general population. This scale consists of four dimensions: depression emotions, physical symptoms, positive emotions, and interpersonal relationships. Comprising 20 items, the CES‐D scale offers a total score of 0–60, utilizing a 4‐point Likert scale where scores range from 0 (<italic toggle="yes">basically not</italic>, &lt; 1 day/week) to 3 (<italic toggle="yes">always</italic>, 5–7 days/week) for each item. Items 4, 8, 12, and 16 were reverse‐scored. A cutoff score of 16 was employed to indicate the presence of positive depression symptoms. In the current research, the Cronbach's alpha values for this CES‐D questionnaire were 0.978 for T1 and 0.984 for T2.</p></sec></sec><sec id="hcs270101-sec-0130"><label>2.3</label><title>Statistical Analysis</title><p>SPSS 23.0 (IBM Corporation, Armonk, United States) and Stata MP 17 (StataCorp LLC, College Station, United States) were used for the statistical analysis. Prior to proceeding, we verified the normality of all variables according to the criteria established by Curran et al. [<xref rid="hcs270101-bib-0023" ref-type="bibr">23</xref>]. Our findings confirmed that all variables in this study adhered to the assumption of normal distribution. Continuous variables are described as mean ± standard deviation (SD), and categorical variables are described as frequencies (<italic toggle="yes">n</italic>) and percentages (%). A chi‐square test was adopted to compare the demographic characteristics of the participants who completed the surveys with those who did not complete them, aiming to analyze structural losses in the survey sample, as well as to identify factors independently associated with anxiety, depression, and PTSD symptoms. Pearson's correlation analysis was employed to examine the associations between anxiety, depression, and PTSD symptoms, both cross‐sectionally and longitudinally. Statistical significance was set at <italic toggle="yes">p</italic> &lt; 0.05 (two‐tailed).</p><p>Given the longitudinal design with repeated measures at baseline and follow‐up, we employed generalized linear mixed models (GLMMs) with a logit link to identify independent risk factors for anxiety, depression, and PTSD symptoms. To correctly handle the repeated measures within each participant, a random intercept for each medical staff member was included in all models. This accounts for the within‐individual correlation across the two time points. Time (baseline vs. follow‐up) was treated as a fixed effect to estimate the overall change in outcomes across the study period. Recognizing that medical staff were nested within different hospitals, which might introduce cluster‐level effects, we initially included a random intercept for hospital in the model. This approach allows for the estimation of between‐hospital variance while efficiently handling the multi‐center data structure. All models successfully converged. Variables showing association (<italic toggle="yes">p</italic> &lt; 0.05) in preliminary univariate analyses, along with those deemed clinically relevant, were offered as candidate independent variables. The final multivariable GLMMs were constructed to evaluate independent risk factors, presented as adjusted odds ratios (AORs) with their 95% confidence intervals. A total of 2650 medical staff members who completed both the baseline and follow‐up surveys were included in the analysis.</p><p>Mplus 8.3 (Muthén &amp; Muthén, Los Angeles, United States) was used to construct a cross‐lagged model to explore the bidirectional predictive relationships between anxiety, depression, and PTSD symptoms from T1 to T2. The cross‐lagged model is based on the design of a cross‐lagged panel and is a statistical analysis method that explores the correlation between variables in a time series based on longitudinal tracking data using a robust maximum likelihood iteration procedure. This method can more accurately infer causal relationships that are closer to the truth. Determination of model fit followed standard recommendations according to the following fit indices [<xref rid="hcs270101-bib-0024" ref-type="bibr">24</xref>]: the <italic toggle="yes">χ</italic>
+<sup>2</sup>/df index &lt; 3, Comparative Fit Index ≥ 0.90, Tucker–Lewis Index ≥ 0.90, root‐mean‐square error of approximation ≤ 0.08, and standardized root mean square residual ≤ 0.08.</p></sec></sec><sec sec-type="results" id="hcs270101-sec-0140"><label>3</label><title>Results</title><p>In the present study, a total of 2650 medical staff completed the longitudinal follow‐up, with a follow‐up response rate of 96.3%. Among the 2650 medical staff members who completed the longitudinal follow‐up, 83.2% (2206) of medical staff were female, approximately half (51.7%) were aged 31–40 years, 80.3% (2128) were nurses, and 13.1% (348) of medical staff reported having experienced occupational exposure in their clinical work during the previous year. Table <xref rid="hcs270101-tbl-0001" ref-type="table">1</xref> presents the participants' demographic characteristics and the results of the chi‐square test.</p><table-wrap position="float" id="hcs270101-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Demographic characteristics of the participants (<italic toggle="yes">n</italic> = 2650).</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><thead valign="bottom"><tr valign="bottom"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">
+<italic toggle="yes">χ</italic>
+<sup>2</sup>
+</th></tr><tr valign="bottom" style="border-bottom:solid 1px #000000"><th valign="middle" align="left" rowspan="1" colspan="1">Variables</th><th valign="middle" align="center" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic> (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Anxiety</th><th align="center" valign="bottom" rowspan="1" colspan="1">Depression</th><th align="center" valign="bottom" rowspan="1" colspan="1">PTSD</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Sex</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">1.125</td><td align="center" valign="top" rowspan="1" colspan="1">10.357<xref rid="hcs270101-tbl1-note-0004" ref-type="table-fn">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">26.000<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="center" valign="top" rowspan="1" colspan="1">444 (16.8)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="center" valign="top" rowspan="1" colspan="1">2206 (83.2)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age (years)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">11.363<xref rid="hcs270101-tbl1-note-0004" ref-type="table-fn">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">3.669</td><td align="center" valign="top" rowspan="1" colspan="1">3.032</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">20–30</td><td align="center" valign="top" rowspan="1" colspan="1">890 (33.6)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">31–40</td><td align="center" valign="top" rowspan="1" colspan="1">1370 (51.7)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">&gt; 40</td><td align="center" valign="top" rowspan="1" colspan="1">390 (14.7)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Marital status</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">3.925</td><td align="center" valign="top" rowspan="1" colspan="1">0.674</td><td align="center" valign="top" rowspan="1" colspan="1">2.051</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Single</td><td align="center" valign="top" rowspan="1" colspan="1">639 (24.1)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Married</td><td align="center" valign="top" rowspan="1" colspan="1">1964 (74.1)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="center" valign="top" rowspan="1" colspan="1">47 (1.8)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Level of education</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">1.042</td><td align="center" valign="top" rowspan="1" colspan="1">10.371<xref rid="hcs270101-tbl1-note-0004" ref-type="table-fn">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">8.003<xref rid="hcs270101-tbl1-note-0003" ref-type="table-fn">a</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Below bachelor's degree</td><td align="center" valign="top" rowspan="1" colspan="1">150 (5.6)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Bachelor's degree</td><td align="center" valign="top" rowspan="1" colspan="1">1963 (74.1)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Master's degree and above</td><td align="center" valign="top" rowspan="1" colspan="1">537 (20.3)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Type of occupation</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">1.549</td><td align="center" valign="top" rowspan="1" colspan="1">10.149<xref rid="hcs270101-tbl1-note-0004" ref-type="table-fn">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">15.440<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Doctor</td><td align="center" valign="top" rowspan="1" colspan="1">504 (19.0)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Nurse/midwife</td><td align="center" valign="top" rowspan="1" colspan="1">2128 (80.3)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="center" valign="top" rowspan="1" colspan="1">18 (0.7)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Department</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">9.080<xref rid="hcs270101-tbl1-note-0003" ref-type="table-fn">a</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2.903</td><td align="center" valign="top" rowspan="1" colspan="1">3.674</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Emergency</td><td align="center" valign="top" rowspan="1" colspan="1">69 (2.6)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Intensive care unit</td><td align="center" valign="top" rowspan="1" colspan="1">182 (6.9)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="center" valign="top" rowspan="1" colspan="1">2399 (90.5)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Average monthly income (CNY)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">5.196</td><td align="center" valign="top" rowspan="1" colspan="1">5.924</td><td align="center" valign="top" rowspan="1" colspan="1">1.045</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">&lt; 5000</td><td align="center" valign="top" rowspan="1" colspan="1">167 (6.3)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">5000–9999</td><td align="center" valign="top" rowspan="1" colspan="1">1284 (48.5)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">10,000–14,999</td><td align="center" valign="top" rowspan="1" colspan="1">890 (33.6)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">≥ 15,000</td><td align="center" valign="top" rowspan="1" colspan="1">309 (11.6)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Occupational exposure</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">17.763<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">21.927<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">20.561<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">348 (13.1)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">2302 (86.9)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Exercise</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">5.255<xref rid="hcs270101-tbl1-note-0003" ref-type="table-fn">a</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">9.610<xref rid="hcs270101-tbl1-note-0004" ref-type="table-fn">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.305</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Always</td><td align="center" valign="top" rowspan="1" colspan="1">613 (23.1)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Little or no</td><td align="center" valign="top" rowspan="1" colspan="1">2037 (76.9)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sleep quality</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">117.610<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">99.601<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">47.441<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Good</td><td align="center" valign="top" rowspan="1" colspan="1">623 (23.5)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">General</td><td align="center" valign="top" rowspan="1" colspan="1">1623 (61.2)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Poor</td><td align="center" valign="top" rowspan="1" colspan="1">346 (13.1)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Very poor</td><td align="center" valign="top" rowspan="1" colspan="1">58 (2.2)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Experiencing traumatic life events</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">34.825<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">27.429<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">26.338<xref rid="hcs270101-tbl1-note-0005" ref-type="table-fn">c</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">363 (13.7)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">2287 (86.3)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="hcs270101-tbl1-note-0001"><p>
+<italic toggle="yes">Note:</italic> Data are presented as <italic toggle="yes">n</italic> (%).</p></fn><fn id="hcs270101-tbl1-note-0002"><p>Abbreviations: CNY, Chinese Yuan; PTSD, post‐traumatic stress disorder.</p></fn><fn id="hcs270101-tbl1-note-0003"><label>
+<sup>a</sup>
+</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn><fn id="hcs270101-tbl1-note-0004"><label>
+<sup>b</sup>
+</label><p>
+<italic toggle="yes">p</italic> &lt; 0.01.</p></fn><fn id="hcs270101-tbl1-note-0005"><label>
+<sup>c</sup>
+</label><p>
+<italic toggle="yes">p</italic> &lt; 0.001.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Table <xref rid="hcs270101-suppl-0001" ref-type="supplementary-material">S1</xref> shows the demographic characteristics of the medical staff who completed the follow‐up, as well as those who did not. In this study, the sample losses were random, without structural losses, and they did not significantly affect the data analysis results.</p><p>From T1 to T2, the symptom scores (anxiety, 2.90 ± 3.80 at T1 and 3.43 ± 4.42 at T2; depression, 7.97 ± 12.09 at T1 and 9.92 ± 13.79 at T2; PTSD, 9.63 ± 12.77 at T1 and 12.87 ± 16.25 at T2) and the prevalence (anxiety, 28.9% at T1 and 34.5% at T2; depression, 19.4% at T1 and 26.7% at T2; PTSD, 6.1% at T1 and 13.1% at T2) of anxiety, depression, and PTSD symptoms among medical staff showed an upward trend (Figures <xref rid="hcs270101-fig-0001" ref-type="fig">1</xref> and <xref rid="hcs270101-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="Figure" id="hcs270101-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>The scores of anxiety, depression, and PTSD symptoms at T1 and T2 among medical staff (<italic toggle="yes">n</italic> = 2650). PTSD, post‐traumatic stress disorder; T1, the first phase of the survey; T2, the second phase of the survey.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="HCS2-9999-0-g003.webp"><?image-name HCS2-9999-0-g003.webp?><?image-size 16674?><?image-md5 4f008331edaad2be24011f11cb09c8c4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 410?><?image-original-width 910?><?image-scaled-height 410?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/f98e/13571159/4f008331edaa/HCS2-9999-0-g003.webp?><?thumb-name HCS2-9999-0-g003.gif?><?thumb-size 3498?><?thumb-md5 1e7f744ee3835d28e8cb58402c1a5e2c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 90?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f98e/13571159/1e7f744ee383/HCS2-9999-0-g003.gif?></graphic></fig><fig position="float" fig-type="Figure" id="hcs270101-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>The positive detection rates of anxiety, depression, and PTSD symptoms at T1 and T2 among medical staff (<italic toggle="yes">n</italic> = 2,650). PTSD, post‐traumatic stress disorder; T1, the first phase of the survey; T2, the second phase of the survey.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="HCS2-9999-0-g001.webp"><?image-name HCS2-9999-0-g001.webp?><?image-size 13432?><?image-md5 cc996f73873b5ca5d98674851382da28?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 540?><?image-original-width 910?><?image-scaled-height 540?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/f98e/13571159/cc996f73873b/HCS2-9999-0-g001.webp?><?thumb-name HCS2-9999-0-g001.gif?><?thumb-size 4291?><?thumb-md5 cbbf6a95e1039ec8d2c5784ebd2587a9?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 119?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f98e/13571159/cbbf6a95e103/HCS2-9999-0-g001.gif?></graphic></fig><p>Subsequently, a GLMM was used to identify the independent risk factors of anxiety, depression, and PTSD symptoms among medical staff. The GLMM results are presented in Table <xref rid="hcs270101-tbl-0002" ref-type="table">2</xref>. According to the GLMM analysis, risk factors that were independently associated with anxiety included age, occupational exposure, sleep quality, and experiencing traumatic life events. Specifically, medical staff aged 31–40 years (AOR = 1.26, 95% confidence interval [CI]: 1.10–1.44) or aged &gt; 40 years (AOR = 1.37, 95% CI: 1.13–1.65), experiencing occupational exposure (AOR = 1.51, 95% CI: 1.27–1.79), experiencing traumatic life events (AOR = 1.71, 95% CI: 1.45–2.02), and those who had general, poor, or very poor sleep quality (AOR = 2.14, 95% CI: 1.82–2.53; AOR = 3.75, 95% CI: 3.02–4.65; AOR = 7.82, 95% CI: 5.16–11.86, respectively) had a higher risk of anxiety disorders. Risk factors that were independently associated with depression included occupational exposure, sleep quality, and experiencing traumatic life events. Specifically speaking, medical staff experiencing occupational exposure (AOR = 1.47, 95% CI: 1.22–1.76), experiencing traumatic life events (AOR = 1.66, 95% CI: 1.39–1.98), and those who had general (AOR = 1.79, 95% CI: 1.49–2.15), poor (AOR = 3.08, 95% CI: 2.44–3.88), or very poor sleep quality (AOR = 7.66, 95% CI: 5.09–11.53) had a higher risk of depression. Sex, occupational exposure, sleep quality, and experiencing traumatic life events were identified as independent factors associated with PTSD among medical staff. More specifically, male (AOR = 0.62, 95% CI: 0.47–0.83) medical staff were less likely to develop PTSD symptoms, whereas medical staff experiencing occupational exposure (AOR = 1.50, 95% CI: 1.18–1.92), experiencing traumatic life events (AOR = 1.63, 95% CI: 1.28–2.06), and those who had general (AOR = 1.36, 95% CI: 1.06–1.75), poor (AOR = 1.97, 95% CI: 1.44–2.70), or very poor sleep quality (AOR = 2.32, 95% CI: 1.32–4.08) had a higher risk of PTSD symptoms.</p><table-wrap position="float" id="hcs270101-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>The results of generalized linear mixed model (<italic toggle="yes">n</italic> = 2650).</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="center" span="1"/><thead valign="bottom"><tr valign="bottom"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th colspan="2" style="border-bottom:solid 1px #000000" align="center" valign="bottom" rowspan="1">Anxiety</th><th colspan="2" style="border-bottom:solid 1px #000000" align="center" valign="bottom" rowspan="1">Depression</th><th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">PTSD</th></tr><tr valign="bottom" style="border-bottom:solid 1px #000000"><th valign="middle" align="left" rowspan="1" colspan="1">Variables</th><th align="center" valign="bottom" rowspan="1" colspan="1">AOR (95% CI)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">AOR (95% CI)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">AOR (95% CI)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Sex</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">0.84 (0.67–1.04)</td><td align="center" valign="top" rowspan="1" colspan="1">0.113</td><td align="center" valign="top" rowspan="1" colspan="1">0.62 (0.47–0.83)</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age (years)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">20–30</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">31–40</td><td align="center" valign="top" rowspan="1" colspan="1">1.26 (1.10–1.44)</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">&gt; 40</td><td align="center" valign="top" rowspan="1" colspan="1">1.37 (1.13–1.65)</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Level of education</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Below bachelor's degree</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Bachelor's degree</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">1.37 (0.99–1.87)</td><td align="center" valign="top" rowspan="1" colspan="1">0.053</td><td align="center" valign="top" rowspan="1" colspan="1">1.17 (0.76–1.82)</td><td align="center" valign="top" rowspan="1" colspan="1">0.476</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Master's degree and above</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">1.31 (0.86–2.00)</td><td align="center" valign="top" rowspan="1" colspan="1">0.208</td><td align="center" valign="top" rowspan="1" colspan="1">1.02 (0.57–1.84)</td><td align="center" valign="top" rowspan="1" colspan="1">0.945</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Type of occupation</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Doctor</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Nurse/midwife</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">0.86 (0.62–1.19)</td><td align="center" valign="top" rowspan="1" colspan="1">0.363</td><td align="center" valign="top" rowspan="1" colspan="1">0.75 (0.48–1.17)</td><td align="center" valign="top" rowspan="1" colspan="1">0.206</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">0.42 (0.16–1.14)</td><td align="center" valign="top" rowspan="1" colspan="1">0.089</td><td align="center" valign="top" rowspan="1" colspan="1">0.17 (0.02–1.29)</td><td align="center" valign="top" rowspan="1" colspan="1">0.087</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Department</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Emergency</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Intensive care unit</td><td align="center" valign="top" rowspan="1" colspan="1">1.52 (0.99–2.37)</td><td align="center" valign="top" rowspan="1" colspan="1">0.057</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="center" valign="top" rowspan="1" colspan="1">1.24 (0.84–1.81)</td><td align="center" valign="top" rowspan="1" colspan="1">0.280</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Occupational exposure</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1.51 (1.27–1.79)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.47 (1.22–1.76)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.50 (1.18–1.92)</td><td align="center" valign="top" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Exercise</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Little or no</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Always</td><td align="center" valign="top" rowspan="1" colspan="1">0.87 (0.74–1.01)</td><td align="center" valign="top" rowspan="1" colspan="1">0.062</td><td align="center" valign="top" rowspan="1" colspan="1">0.87 (0.73–1.03)</td><td align="center" valign="top" rowspan="1" colspan="1">0.095</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sleep quality</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Good</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">General</td><td align="center" valign="top" rowspan="1" colspan="1">2.14 (1.82–2.53)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.79 (1.49–2.15)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.36 (1.06–1.75)</td><td align="center" valign="top" rowspan="1" colspan="1">0.014</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Poor</td><td align="center" valign="top" rowspan="1" colspan="1">3.75 (3.02–4.65)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">3.08 (2.44–3.88)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.97 (1.44–2.70)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Very poor</td><td align="center" valign="top" rowspan="1" colspan="1">7.82 (5.16–11.86)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">7.66 (5.09–11.53)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">2.32 (1.32–4.08)</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Experiencing traumatic life events</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td><td align="center" valign="top" rowspan="1" colspan="1">Ref</td><td align="center" valign="top" rowspan="1" colspan="1">—</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">1.71 (1.45–2.02)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.66 (1.39–1.98)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.63 (1.28–2.06)</td><td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td></tr></tbody></table><table-wrap-foot><fn id="hcs270101-tbl2-note-0002"><p>Abbreviations: AOR, adjusted odds ratio; CI, confidence interval; PTSD, post‐traumatic stress disorder; Ref, reference; —, not applicable.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Table <xref rid="hcs270101-suppl-0001" ref-type="supplementary-material">S2</xref> shows the correlations between anxiety, depression, and PTSD symptoms at T1 and T2. The anxiety, depression, and PTSD symptoms all showed a significant positive correlation at T1 and T2 (<italic toggle="yes">p</italic> &lt; 0.01).</p><p>Figure <xref rid="hcs270101-fig-0003" ref-type="fig">3</xref> presents the results of the cross‐lagged analysis of anxiety, depression, and PTSD symptoms. Owing to the saturated model, the estimation of all parameters coincided with the elements of the covariance matrix, resulting in zero degrees of freedom. Therefore, only path coefficients were considered, and the model fit evaluation metrics were not estimated [<xref rid="hcs270101-bib-0025" ref-type="bibr">25</xref>]. The autoregressive coefficients of anxiety, depression, and PTSD symptoms were significant at T1 and T2 (<italic toggle="yes">p</italic> &lt; 0.001), with values of 0.414, 0.157, and 0.232, respectively. From T1 to T2, PTSD symptoms predicted anxiety and depression symptoms (<italic toggle="yes">β</italic> = 0.289, 0.221; <italic toggle="yes">p</italic> &lt; 0.001), and depression symptoms predicted PTSD and anxiety symptoms (<italic toggle="yes">β</italic> = 0.084, 0.079; <italic toggle="yes">p</italic> &lt; 0.001). However, anxiety symptoms could not predict depression and PTSD symptoms (<italic toggle="yes">β</italic> = 0.017, 0.039; <italic toggle="yes">p</italic> &gt; 0.05). In addition, a Wald test was conducted to compare the magnitudes of the two cross‐lagged paths between depression and PTSD. The results showed that the path from PTSD to depression (<italic toggle="yes">β</italic> = 0.221) was significantly stronger than the reverse path from depression to PTSD (<italic toggle="yes">β</italic> = 0.084), with a difference of −0.126 (Wald <italic toggle="yes">χ</italic>
+<sup>2</sup> = 6.36, <italic toggle="yes">p</italic> = 0.012).</p><fig position="float" fig-type="Figure" id="hcs270101-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Cross‐lagged model of associations between PTSD, anxiety and depression symptoms. The data next to the connecting line are standardized regression coefficients (<italic toggle="yes">β</italic>). The solid line represents statistically significant regression coefficients (<italic toggle="yes">p</italic> &lt; 0.05), while the dashed line represents non‐significant regression coefficients (<italic toggle="yes">p</italic> &gt; 0.05). PTSD, post‐traumatic stress disorder; T1, the first phase of the survey; T2, the second phase of the survey.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="HCS2-9999-0-g002.webp"><?image-name HCS2-9999-0-g002.webp?><?image-size 23670?><?image-md5 0d83a136ed3b253a0dd3b4c26481aee9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 464?><?image-original-width 1054?><?image-scaled-height 464?><?image-scaled-width 1054?><?image-cloudpmc-urn urn:cdn:blobs/f98e/13571159/0d83a136ed3b/HCS2-9999-0-g002.webp?><?thumb-name HCS2-9999-0-g002.gif?><?thumb-size 4283?><?thumb-md5 97312af56f77175e00b65c0755f0b731?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 88?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f98e/13571159/97312af56f77/HCS2-9999-0-g002.gif?></graphic></fig></sec><sec sec-type="discussion" id="hcs270101-sec-0150"><label>4</label><title>Discussion</title><p>In this study, we conducted a longitudinal follow‐up to explore the mental and psychological disorders of medical staff coming from two hospitals in Hubei Province, China. We found that the prevalence of anxiety, depression, and PTSD symptoms among medical staff is higher and increasing. In addition, there were bidirectional predictive relationships between PTSD and depression symptoms among medical staff, while PTSD/depression symptoms only unidirectionally predicted anxiety disorders. This study advances the understanding of anxiety, depression, and PTSD symptoms among medical staff and highlights evidence explaining the bidirectional predictive relationships between anxiety, depression, and PTSD symptoms.</p><p>In this study, we found that the levels and prevalence of anxiety, depression, and PTSD symptoms among medical staff show an upward trend during the follow‐up period, indicating a deteriorating mental health status. Heavy workload, tense doctor–patient relationships, and so on can exacerbate the mental and psychological disorders of medical staff [<xref rid="hcs270101-bib-0001" ref-type="bibr">1</xref>, <xref rid="hcs270101-bib-0002" ref-type="bibr">2</xref>]. Notably, the follow‐up period of this study coincided with the COVID‐19 pandemic in Hubei Province, during which several regions were adjusted from low‐risk to medium‐risk or high‐risk status. This shift in risk level may have imposed additional stress on healthcare workers, contributing to the observed fluctuations in their mental health. Previous research has also supported this notion, indicating that medical staff's negative emotions tend to fluctuate over the duration of a pandemic [<xref rid="hcs270101-bib-0026" ref-type="bibr">26</xref>, <xref rid="hcs270101-bib-0027" ref-type="bibr">27</xref>, <xref rid="hcs270101-bib-0028" ref-type="bibr">28</xref>]. Furthermore, the negative impact of major traumatic events on mental health will persist for a long time [<xref rid="hcs270101-bib-0006" ref-type="bibr">6</xref>, <xref rid="hcs270101-bib-0027" ref-type="bibr">27</xref>]. Thus, long‐term mental health monitoring is important. It is necessary to classify medical staff with high levels of anxiety, depression, and PTSD symptoms as key populations and to conduct continuous mental health monitoring, and promptly provide early prevention and intervention measures to improve medical staff's mental health, thereby enhancing their work efficiency and quality.</p><p>According to the results of GLMM analysis, sleep quality, experiencing occupational exposure, and experiencing major traumatic life events were identified as independent factors associated with anxiety, depression, and PTSD symptoms among medical staff. Walker argued that sleep performs a function similar to systematic desensitization therapy [<xref rid="hcs270101-bib-0029" ref-type="bibr">29</xref>]. In other words, sleep normally serves to remove the emotional component from memories. A failure or an absence of this process may trigger mental and psychological symptoms. A systematic review and meta‐analysis by Alimoradi et al., which included 345,270 participants from 39 countries, reported that sleep problems were associated with depression and anxiety among healthcare professionals. Of note, the same study also found that sleep problems were associated with higher levels of psychological distress and suggested that treating sleep problems may reduce psychological distress, and vice versa, pointing to a bidirectional relationship between sleep and mental health [<xref rid="hcs270101-bib-0030" ref-type="bibr">30</xref>]. Future research should adopt longitudinal designs with multiple time points to clarify the directionality between sleep problems and mental health symptoms among medical staff, and to examine whether interventions targeting sleep can effectively reduce subsequent psychological distress.</p><p>Besides, this study found that occupational exposure positively predicted mental health problems among medical staff. Occupational exposure among healthcare workers is not only pandemic‐related exposure but also workplace violence, needlestick injuries, exposure to patient death and suffering, and moral injury. A rapid review and meta‐analysis by Bell et al., which included 74 studies from outbreaks of COVID‐19, Ebola, Middle East Respiratory Syndrome and Severe Acute Respiratory Syndrome, reported that clinical staff working in high‐exposure roles had slightly higher levels of acute mental health problems than those in low‐exposure roles [<xref rid="hcs270101-bib-0031" ref-type="bibr">31</xref>]. A systematic review by Liu et al. examining workplace violence against healthcare professionals concluded that workplace violence might lead to various negative impacts on health workers' psychological health, such as increases in stress and anxiety levels and burnout [<xref rid="hcs270101-bib-0032" ref-type="bibr">32</xref>]. Hospital administrators should pay more attention to the effect of occupational exposure on medical staff's physical and mental health. Targeted support, such as regular psychological debriefing for staff in high‐exposure roles and accessible reporting systems for workplace violence, could help mitigate these negative outcomes.</p><p>This study also found that experiencing major traumatic life events within the past year, such as serious illness or death of a family member, significantly predicted elevated levels of anxiety, depression, and PTSD among medical staff. Medical staff are routinely exposed to ongoing occupational stressors, including high workload, tense doctor–patient relationships, and exposure to patient suffering and death, which may weaken their psychological resilience over time. When a major family‐related traumatic event occurs on top of this occupational context, the additive or interactive effect may produce an increase in anxiety, depression, and PTSD symptoms relative to either type of stress alone. Notably, the existing literature has primarily focused on work‐related trauma among medical staff, including critical incidents in hospitals and large‐scale events such as pandemics and natural disasters. However, major traumatic events occurring in the personal domain, such as serious illness or death of a family member, have received less research attention. One possible reason for this gap is that these personal events have been implicitly treated as non‐occupational and thus excluded from workplace mental health research. Therefore, managers should recognize and acknowledge the impact of major traumatic life events on medical staff's mental health, and actively encourage staff to voluntarily report such events and seek timely support to alleviate psychological distress.</p><p>The bidirectional predictive relationships between anxiety, depression, and PTSD among medical staff were evaluated in our study. In line with previous research [<xref rid="hcs270101-bib-0033" ref-type="bibr">33</xref>, <xref rid="hcs270101-bib-0034" ref-type="bibr">34</xref>], we found a bidirectional predictive relationship between depression and PTSD symptoms among medical staff from T1 to T2. Beyond simply confirming the bidirectional association, a comparison of the two cross‐lagged paths revealed notable differences in their magnitudes: the path from PTSD to depression was approximately three times stronger than the reverse path. This result is consistent with causal discovery analyses reported by Pierce et al., who found consistent, directed associations from PTSD symptoms to depressive symptoms across five longitudinal cohorts [<xref rid="hcs270101-bib-0035" ref-type="bibr">35</xref>]. These findings suggest that PTSD symptoms may exert a stronger temporal influence on depression than vice versa. One possible reason is that PTSD‐related hyperarousal, avoidance, and negative alterations in cognition and mood directly impair daily functioning and reduce engagement in activities, thereby increasing the risk of depression [<xref rid="hcs270101-bib-0035" ref-type="bibr">35</xref>]. However, using a three‐wave longitudinal design following Chinese adolescents after the Yancheng tornado, An et al. found that PTSD symptoms significantly predicted subsequent depression symptoms, whereas depression did not significantly predict PTSD [<xref rid="hcs270101-bib-0036" ref-type="bibr">36</xref>]. Another study employing network analysis found that PTSD and depression are two separate disorders [<xref rid="hcs270101-bib-0037" ref-type="bibr">37</xref>]. The heterogeneity across studies may be due to differences in sample characteristics, trauma types, and follow‐up intervals. Therefore, future longitudinal studies with three or more waves are needed to replicate our findings and to test whether the asymmetric pattern holds across different populations.</p><p>Studies of the temporal correlation between PTSD and anxiety symptoms are limited. One study found that PTSD symptoms in migrant populations significantly predicted subsequent anxiety symptoms during a pandemic; however, anxiety symptoms could not predict subsequent PTSD symptoms [<xref rid="hcs270101-bib-0038" ref-type="bibr">38</xref>]. This study further supports the conclusion that PTSD unidirectionally predicts subsequent anxiety symptoms. This is consistent with the “Anxiety Buffering Disruption Theory” [<xref rid="hcs270101-bib-0039" ref-type="bibr">39</xref>]. Specifically, PTSD symptoms throw an individual's anxiety buffering system into a state of tension, or even collapse. This can lead to higher levels of anxiety. Therefore, to achieve better psychological intervention effects when managing anxiety symptoms among medical staff, attention should be paid to evaluating and managing possible PTSD symptoms.</p><p>This study's results showed that depression symptoms unidirectionally predicted subsequent anxiety symptoms, which is consistent with the previous studies [<xref rid="hcs270101-bib-0040" ref-type="bibr">40</xref>, <xref rid="hcs270101-bib-0041" ref-type="bibr">41</xref>]. However, some scholars believed that a bidirectional predictive relationship exists between anxiety and depression symptoms [<xref rid="hcs270101-bib-0018" ref-type="bibr">18</xref>]. Previous research found that in the general population, depression showed unidirectional causal dominance over anxiety, whereas in internet‐based cognitive‐behavioral therapy samples, neither depression nor anxiety exhibited causal dominance [<xref rid="hcs270101-bib-0042" ref-type="bibr">42</xref>]. Our sample consisted of general medical staff (not in a treatment setting), which may explain why we observed a unidirectional pattern from depression to anxiety. Additionally, methodological choices such as symptom‐level versus disorder‐level analyses can affect results. Jacobson and Newman demonstrated that at the disorder level, depressive disorders strongly predicted certain anxiety disorders, whereas at the symptom level, the two conditions showed roughly equal bidirectional effects [<xref rid="hcs270101-bib-0018" ref-type="bibr">18</xref>]. Considering that the relationship between anxiety and depression symptoms may change over time, and given the heterogeneity of findings across different populations and study designs, future research should further examine the cross‐time relationship between anxiety and depression symptoms by establishing surveys with three or more time points, and should also apply advanced causal inference methods to better clarify the directionality between them.</p><sec id="hcs270101-sec-0160"><label>4.1</label><title>Limitations</title><p>Although we adopted a longitudinal study design to explore the dynamic change and the bidirectional predictive relationships of anxiety, depression, and PTSD symptoms, the current data only included two waves; therefore, the longitudinal predictive relationship should be interpreted cautiously. Future studies should conduct long‐term follow‐up surveys including three or more time points to further explore the predictive relationships between the study variables. Moreover, the sample was drawn from hospitals in Hubei Province, which may limit the generalizability of the findings. Finally, the small number of physicians and males limited the extrapolation of the research results, and in the future, emphasis should be placed on conducting multicenter, large‐sample surveys to improve the extrapolation of research results.</p></sec><sec id="hcs270101-sec-0170"><label>4.2</label><title>Clinical Implications</title><p>First, healthcare managers should recognize that major personal traumatic events predict elevated anxiety, depression, and PTSD symptoms among medical staff. A feasible management strategy is to encourage staff to voluntarily report such events and seek timely support. Managers can help by recognizing the impact of personal trauma on staff and offering simple support, such as brief counseling or flexible leave arrangements, when needed. Second, hospitals should implement targeted support for staff in high‐exposure roles, for example, regular group psychological debriefing and a confidential reporting system for workplace violence incidents. These measures can help mitigate the cumulative burden of occupational stress. Third, the asymmetric predictive relationships found in this study provide a basis for prioritizing specific intervention targets. The path from PTSD to depression was significantly stronger than the reverse path, suggesting that early screening for PTSD symptoms and timely trauma‐focused intervention may help prevent subsequent depression among medical staff. This does not mean ignoring depression, but rather recognizing that targeting PTSD early might yield additional benefits for depressive outcomes. Additionally, because PTSD and depression predicted subsequent anxiety, managers should be aware that medical staff presenting with PTSD or depression symptoms are at risk of developing anxiety later. When managing healthcare workers with PTSD or depression, monitoring for emerging anxiety symptoms is recommended.</p></sec></sec><sec sec-type="conclusions" id="hcs270101-sec-0180"><label>5</label><title>Conclusions</title><p>The prevalence of anxiety, depression, and PTSD among medical staff was higher and showed an upward trend. This study confirmed a bidirectional predictive relationship between PTSD and depression, whereas PTSD/depression only unidirectionally predicted subsequent anxiety. Early screening and intervention for medical staff's anxiety, depression, and PTSD symptoms should be strengthened, and attention must be paid to the comprehensive management and intervention for anxiety, depression, and PTSD symptoms.</p></sec><sec id="hcs270101-sec-0190"><title>Author Contributions</title><p>
+<bold>Zongju Chen:</bold> investigation, data curation, formal analysis, visualization, writing – original draft, writing – review and editing. <bold>Ruiting Cai:</bold> investigation, data curation, visualization, writing – original draft. <bold>Yifang Liu:</bold> conceptualization, investigation, data curation, writing – review and editing. <bold>Na Tao:</bold> methodology, writing – review and editing. <bold>Yang Fei:</bold> investigation, data curation, writing – original draft. <bold>Jing Wen:</bold> investigation, data curation, writing – original draft. <bold>Pu Zhang:</bold> investigation, writing – original draft. <bold>Yu Lu:</bold> investigation, writing – original draft. <bold>Jun Zhang:</bold> investigation, writing – original draft. <bold>Jing Wang:</bold> investigation, writing – original draft. <bold>Li Zou:</bold> conceptualization, investigation, supervision, writing – review and editing. <bold>Wenning Fu:</bold> conceptualization, methodology, supervision, writing – review and editing.</p></sec><sec id="hcs270101-sec-0210"><title>Ethics Statement</title><p>The present study adhered to the principles of the Declaration of Helsinki, as revised in 2013. This study was approved by the Research Ethics Committee of the Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China (No. 2021‐IEC‐A006). The ethical approval from Tongji Medical College, Huazhong University of Science and Technology has been acknowledged by the other participating hospitals.</p></sec><sec id="hcs270101-sec-0220"><title>Consent</title><p>All the participants were asked to read and sign an informed consent form before accessing the link to complete the questionnaire.</p></sec><sec sec-type="COI-statement" id="hcs270101-sec-0230"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="hcs270101-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> The demographic characteristics of the participants who completed and did not complete follow‐up (<italic toggle="yes">n</italic> = 2751).</p><p>
+<bold>Table S2:</bold> Correlations between all model variables.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HCS2-9999-0-s001.docx" position="float" orientation="portrait"><?suppdata-name HCS2-9999-0-s001.docx?><?suppdata-size 20096?><?suppdata-md5 fe1e8bd15200153a5a1a049b9f8ab612?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f98e/13571159/fe1e8bd15200/HCS2-9999-0-s001.docx?></media></supplementary-material></sec></body><back><ack id="hcs270101-sec-0200"><title>Acknowledgments</title><p>The graphical abstract image presented in this work was generated with the assistance of Doubao large language model version 2.0 (ByteDance, Beijing, China). The following prompt was used to guide the generation: “Icons representing occupational exposure, poor sleep quality, and experiencing traumatic events among healthcare workers.” All AI‐generated outputs were critically reviewed, revised, and finalized by the authors. The authors take full responsibility for the accuracy, integrity, and originality of the graphical abstract and the entire manuscript.</p></ack><sec sec-type="data-availability" id="hcs270101-sec-0250"><title>Data Availability Statement</title><p>The data sets used and/or analyzed during the current study are available from the corresponding author (Wenning Fu) on reasonable request.</p></sec><ref-list content-type="cited-references" id="hcs270101-bibl-0001"><title>References</title><ref id="hcs270101-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="hcs270101-cit-0001">
+<string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>He</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Qian</surname>
+</string-name>, “<article-title>Explaining Medical Disputes in Chinese Public Hospitals: The Doctor‐Patient Relationship and Its Implications for Health Policy Reforms</article-title>,” <source>Health Economics, Policy, and Law</source>
+<volume>11</volume>, no. <issue>4</issue> (<year>2016</year>): <fpage>359</fpage>–<lpage>378</lpage>, <pub-id pub-id-type="doi">10.1017/S1744133116000128</pub-id>.<pub-id pub-id-type="pmid">27018911</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="hcs270101-cit-0002">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Alharbi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Jackson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Usher</surname>
+</string-name>, “<article-title>Compassion Fatigue in Critical Care Nurses: An Integrative Review of the Literature</article-title>,” <source>Saudi Medical Journal</source>
+<volume>40</volume>, no. <issue>11</issue> (<year>2019</year>): <fpage>1087</fpage>–<lpage>1097</lpage>, <pub-id pub-id-type="doi">10.15537/smj.2019.11.24569</pub-id>.<pub-id pub-id-type="pmid">31707404</pub-id>
+<pub-id pub-id-type="pmcid">PMC6901773</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="hcs270101-cit-0003">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐B.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Prevalence of Workplace Violence Against Health‐Care Professionals in China: A Comprehensive Meta‐Analysis of Observational Surveys</article-title>,” <source>Trauma, Violence &amp; Abuse</source>
+<volume>21</volume>, no. <issue>3</issue> (<year>2020</year>): <fpage>498</fpage>–<lpage>509</lpage>, <pub-id pub-id-type="doi">10.1177/1524838018774429</pub-id>.<pub-id pub-id-type="pmid">29806556</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="hcs270101-cit-0004">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Yang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ma</surname>
+</string-name>, “<article-title>Mental Health Literacy and Professional Psychological Help‐Seeking Attitudes Among Primary Healthcare Workers: The Mediating Role of Social Support and Mental Illness Stigma</article-title>,” <source>Risk Management and Healthcare Policy</source>
+<volume>18</volume> (<year>2025</year>): <fpage>703</fpage>–<lpage>718</lpage>, <pub-id pub-id-type="doi">10.2147/RMHP.S512458</pub-id>.<pub-id pub-id-type="pmid">40040645</pub-id>
+<pub-id pub-id-type="pmcid">PMC11878124</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="hcs270101-cit-0005">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, “<article-title>Self‐Stigma of Seeking Professional Psychological Help and Its Influencing Factors Among High‐Risk Health Care Workers for Depression and Anxiety: A Multicenter Cross‐Sectional Study</article-title>,” <source>BMC Psychiatry</source>
+<volume>25</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>533</fpage>, <pub-id pub-id-type="doi">10.1186/s12888-025-07019-4</pub-id>.<pub-id pub-id-type="pmid">40420053</pub-id>
+<pub-id pub-id-type="pmcid">PMC12105284</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="hcs270101-cit-0006">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hu</surname>
+</string-name>, et al., “<article-title>The Mental Health of Medical Workers in Wuhan, China Dealing With the 2019 Novel Coronavirus</article-title>,” <source>Lancet Psychiatry</source>
+<volume>7</volume>, no. <issue>3</issue> (<year>2020</year>): <fpage>e14</fpage>, <pub-id pub-id-type="doi">10.1016/S2215-0366(20)30047-X</pub-id>.<pub-id pub-id-type="pmid">32035030</pub-id>
+<pub-id pub-id-type="pmcid">PMC7129673</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="hcs270101-cit-0007">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Duan</surname>
+</string-name> and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, “<article-title>Psychological Interventions for People Affected by the COVID‐19 Epidemic</article-title>,” <source>Lancet Psychiatry</source>
+<volume>7</volume>, no. <issue>4</issue> (<year>2020</year>): <fpage>300</fpage>–<lpage>302</lpage>, <pub-id pub-id-type="doi">10.1016/S2215-0366(20)30073-0</pub-id>.<pub-id pub-id-type="pmid">32085840</pub-id>
+<pub-id pub-id-type="pmcid">PMC7128328</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="hcs270101-cit-0008">
+<string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Gray</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Birtles</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Reichelt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>James</surname>
+</string-name>, “<article-title>The Experiences of Care Home Staff During the COVID‐19 Pandemic: A Systematic Review</article-title>,” <source>Aging &amp; Mental Health</source>
+<volume>26</volume>, no. <issue>10</issue> (<year>2022</year>): <fpage>2080</fpage>–<lpage>2089</lpage>, <pub-id pub-id-type="doi">10.1080/13607863.2021.2013433</pub-id>.<pub-id pub-id-type="pmid">34967232</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="hcs270101-cit-0009">
+<string-name name-style="western">
+<given-names>I. M.</given-names>
+<surname>Busch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Moretti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mazzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. W.</given-names>
+<surname>Wu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rimondini</surname>
+</string-name>, “<article-title>What We Have Learned From Two Decades of Epidemics and Pandemics: A Systematic Review and Meta‐Analysis of the Psychological Burden of Frontline Healthcare Workers</article-title>,” <source>Psychotherapy and Psychosomatics</source>
+<volume>90</volume>, no. <issue>3</issue> (<year>2021</year>): <fpage>178</fpage>–<lpage>190</lpage>, <pub-id pub-id-type="doi">10.1159/000513733</pub-id>.<pub-id pub-id-type="pmid">33524983</pub-id>
+<pub-id pub-id-type="pmcid">PMC8018214</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="hcs270101-cit-0010">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Conejero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Nobile</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Olié</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Courtet</surname>
+</string-name>, “<article-title>How Does COVID‐19 Affect the Neurobiology of Suicide?</article-title>” <source>Current Psychiatry Reports</source>
+<volume>23</volume>, no. <issue>4</issue> (<year>2021</year>): <fpage>16</fpage>, <pub-id pub-id-type="doi">10.1007/s11920-021-01227-x</pub-id>.<pub-id pub-id-type="pmid">33660116</pub-id>
+<pub-id pub-id-type="pmcid">PMC7927764</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="hcs270101-cit-0011">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, et al., “<article-title>Prevalence and Dynamic Features of Psychological Issues Among Chinese Healthcare Workers During the COVID‐19 Pandemic: A Systematic Review and Cumulative Meta‐Analysis</article-title>,” <source>General Psychiatry</source>
+<volume>34</volume>, no. <issue>3</issue> (<year>2021</year>): <elocation-id>e100344</elocation-id>, <pub-id pub-id-type="doi">10.1136/gpsych-2020-100344</pub-id>.<pub-id pub-id-type="pmid">34192242</pub-id>
+<pub-id pub-id-type="pmcid">PMC8103554</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="hcs270101-cit-0012">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Prevalence and Influencing Factors of Post‐Traumatic Stress Disorder Among Chinese Healthcare Workers During the COVID‐19 Epidemic: A Systematic Review and Meta‐Analysis</article-title>,” <source>Frontiers in Psychiatry</source>
+<volume>15</volume> (<year>2024</year>): <elocation-id>1323111</elocation-id>, <pub-id pub-id-type="doi">10.3389/fpsyt.2024.1323111</pub-id>.<pub-id pub-id-type="pmid">38425999</pub-id>
+<pub-id pub-id-type="pmcid">PMC10902088</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="hcs270101-cit-0013">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Dragioti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Tsartsalis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mentis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mantzoukas</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gouva</surname>
+</string-name>, “<article-title>Impact of the COVID‐19 Pandemic on the Mental Health of Hospital Staff: An Umbrella Review of 44 Meta‐Analyses</article-title>,” <source>International Journal of Nursing Studies</source>
+<volume>131</volume> (<year>2022</year>): <elocation-id>104272</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.ijnurstu.2022.104272</pub-id>.<pub-id pub-id-type="pmid">35576637</pub-id>
+<pub-id pub-id-type="pmcid">PMC9045868</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="hcs270101-cit-0014">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>An</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Xu</surname>
+</string-name>, “<article-title>Dispositional Mindfulness Mediates the Relations Between Neuroticism and Posttraumatic Stress Disorder and Depression in Chinese Adolescents After a Tornado</article-title>,” <source>Clinical Child Psychology and Psychiatry</source>
+<volume>24</volume>, no. <issue>3</issue> (<year>2019</year>): <fpage>482</fpage>–<lpage>493</lpage>, <pub-id pub-id-type="doi">10.1177/1359104518822672</pub-id>.<pub-id pub-id-type="pmid">30623675</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="hcs270101-cit-0015">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hirai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dolma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. L.</given-names>
+<surname>Vernon</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. A.</given-names>
+<surname>Clum</surname>
+</string-name>, “<article-title>Temporal Associations Between Posttraumatic Stress Symptoms and Depression in Response to Online Expressive Writing Interventions in a Hispanic Sample</article-title>,” <source>Behavior Therapy</source>
+<volume>54</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>170</fpage>–<lpage>181</lpage>, <pub-id pub-id-type="doi">10.1016/j.beth.2022.08.001</pub-id>.<pub-id pub-id-type="pmid">36608974</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="hcs270101-cit-0016">
+<string-name name-style="western">
+<given-names>N. H.</given-names>
+<surname>Kalin</surname>
+</string-name>, “<article-title>The Critical Relationship Between Anxiety and Depression</article-title>,” <source>American Journal of Psychiatry</source>
+<volume>177</volume>, no. <issue>5</issue> (<year>2020</year>): <fpage>365</fpage>–<lpage>367</lpage>, <pub-id pub-id-type="doi">10.1176/appi.ajp.2020.20030305</pub-id>.<pub-id pub-id-type="pmid">32354270</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="hcs270101-cit-0017">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Breslau</surname>
+</string-name>, “<article-title>Epidemiologic Studies of Trauma, Posttraumatic Stress Disorder, and Other Psychiatric Disorders</article-title>,” <source>Canadian Journal of Psychiatry</source>
+<volume>47</volume>, no. <issue>10</issue> (<year>2002</year>): <fpage>923</fpage>–<lpage>929</lpage>, <pub-id pub-id-type="doi">10.1177/070674370204701003</pub-id>.<pub-id pub-id-type="pmid">12553127</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="hcs270101-cit-0018">
+<string-name name-style="western">
+<given-names>N. C.</given-names>
+<surname>Jacobson</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Newman</surname>
+</string-name>, “<article-title>Anxiety and Depression as Bidirectional Risk Factors for One Another: A Meta‐Analysis of Longitudinal Studies</article-title>,” <source>Psychological Bulletin</source>
+<volume>143</volume>, no. <issue>11</issue> (<year>2017</year>): <fpage>1155</fpage>–<lpage>1200</lpage>, <pub-id pub-id-type="doi">10.1037/bul0000111</pub-id>.<pub-id pub-id-type="pmid">28805400</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0019"><label>19</label><mixed-citation publication-type="miscellaneous" id="hcs270101-cit-0019">
+<collab collab-type="authors">World Health Organization</collab>
+, “International Classification of Diseases 11th Revision,” World Health Organization, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://icd.who.int/en" ext-link-type="uri">https://icd.who.int/en</ext-link>.</mixed-citation></ref><ref id="hcs270101-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="hcs270101-cit-0020">
+<string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Blevins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. W.</given-names>
+<surname>Weathers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Davis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. K.</given-names>
+<surname>Witte</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Domino</surname>
+</string-name>, “<article-title>The Posttraumatic Stress Disorder Checklist for DSM‐5 (PCL‐5): Development and Initial Psychometric Evaluation</article-title>,” <source>Journal of Traumatic Stress</source>
+<volume>28</volume>, no. <issue>6</issue> (<year>2015</year>): <fpage>489</fpage>–<lpage>498</lpage>, <pub-id pub-id-type="doi">10.1002/jts.22059</pub-id>.<pub-id pub-id-type="pmid">26606250</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="hcs270101-cit-0021">
+<string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Spitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kroenke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. B. W.</given-names>
+<surname>Williams</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Löwe</surname>
+</string-name>, “<article-title>A Brief Measure for Assessing Generalized Anxiety Disorder: The GAD‐7</article-title>,” <source>Archives of Internal Medicine</source>
+<volume>166</volume>, no. <issue>10</issue> (<year>2006</year>): <elocation-id>1092</elocation-id>, <pub-id pub-id-type="doi">10.1001/archinte.166.10.1092</pub-id>.<pub-id pub-id-type="pmid">16717171</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="hcs270101-cit-0022">
+<string-name name-style="western">
+<given-names>L. S.</given-names>
+<surname>Radloff</surname>
+</string-name>, “<article-title>The CES‐D Scale: A Self‐Report Depression Scale for Research in the General Population</article-title>,” <source>Applied Psychological Measurement</source>
+<volume>1</volume>, no. <issue>3</issue> (<year>1977</year>): <fpage>385</fpage>–<lpage>401</lpage>, <pub-id pub-id-type="doi">10.1177/014662167700100306</pub-id>.</mixed-citation></ref><ref id="hcs270101-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="hcs270101-cit-0023">
+<string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Curran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>West</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Finch</surname>
+</string-name>, “<article-title>The Robustness of Test Statistics to Nonnormality and Specification Error in Confirmatory Factor Analysis</article-title>,” <source>Psychological Methods</source>
+<volume>1</volume>, no. <issue>1</issue> (<year>1996</year>): <fpage>16</fpage>–<lpage>29</lpage>, <pub-id pub-id-type="doi">10.1037/1082-989x.1.1.16</pub-id>.</mixed-citation></ref><ref id="hcs270101-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="hcs270101-cit-0024">
+<string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Wolf</surname>
+</string-name> and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>McNeish</surname>
+</string-name>, “<article-title>Dynamic: An R Package for Deriving Dynamic Fit Index Cutoffs for Factor Analysis</article-title>,” <source>Multivariate Behavioral Research</source>
+<volume>58</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>189</fpage>–<lpage>194</lpage>, <pub-id pub-id-type="doi">10.1080/00273171.2022.2163476</pub-id>.<pub-id pub-id-type="pmid">36787513</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="hcs270101-cit-0025">
+<string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Steeger</surname>
+</string-name> and <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Gondoli</surname>
+</string-name>, “<article-title>Mother–Adolescent Conflict as a Mediator Between Adolescent Problem Behaviors and Maternal Psychological Control</article-title>,” <source>Developmental Psychology</source>
+<volume>49</volume>, no. <issue>4</issue> (<year>2013</year>): <fpage>804</fpage>–<lpage>814</lpage>, <pub-id pub-id-type="doi">10.1037/a0028599</pub-id>.<pub-id pub-id-type="pmid">22612432</pub-id>
+<pub-id pub-id-type="pmcid">PMC4203150</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="hcs270101-cit-0026">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Wong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>McAlonan</surname>
+</string-name>, et al., “<article-title>Stress and Psychological Distress Among SARS Survivors 1 Year After the Outbreak</article-title>,” <source>Canadian Journal of Psychiatry</source>
+<volume>52</volume>, no. <issue>4</issue> (<year>2007</year>): <fpage>233</fpage>–<lpage>240</lpage>, <pub-id pub-id-type="doi">10.1177/070674370705200405</pub-id>.<pub-id pub-id-type="pmid">17500304</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="hcs270101-cit-0027">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Fang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Guan</surname>
+</string-name>, et al., “<article-title>The Psychological Impact of the SARS Epidemic on Hospital Employees in China: Exposure, Risk Perception, and Altruistic Acceptance of Risk</article-title>,” <source>Canadian Journal of Psychiatry</source>
+<volume>54</volume>, no. <issue>5</issue> (<year>2009</year>): <fpage>302</fpage>–<lpage>311</lpage>, <pub-id pub-id-type="doi">10.1177/070674370905400504</pub-id>.<pub-id pub-id-type="pmid">19497162</pub-id>
+<pub-id pub-id-type="pmcid">PMC3780353</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="hcs270101-cit-0028">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Geng</surname>
+</string-name>, “<article-title>Mental Health Status of Healthcare Workers Assisted in Hubei During the Initial Outbreak of COVID‐19 and Their Influencing Factors: A Prospective Cohort Study</article-title>,” <source>BMJ Open</source>
+<volume>12</volume>, no. <issue>8</issue> (<year>2022</year>): <elocation-id>e062664</elocation-id>, <pub-id pub-id-type="doi">10.1136/bmjopen-2022-062664</pub-id>.<pub-id pub-id-type="pmcid">PMC9438106</pub-id><pub-id pub-id-type="pmid">36038167</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="hcs270101-cit-0029">
+<string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Walker</surname>
+</string-name>, “<article-title>The Role of Sleep in Cognition and Emotion</article-title>,” <source>Annals of the New York Academy of Sciences</source>
+<volume>1156</volume>, no. <issue>no.1</issue> (<year>2009</year>): <fpage>168</fpage>–<lpage>197</lpage>, <pub-id pub-id-type="doi">10.1111/j.1749-6632.2009.04416.x</pub-id>.<pub-id pub-id-type="pmid">19338508</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="hcs270101-cit-0030">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Alimoradi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Broström</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. W. H.</given-names>
+<surname>Tsang</surname>
+</string-name>, et al., “<article-title>Sleep Problems During COVID‐19 Pandemic and Its' Association to Psychological Distress: A Systematic Review and Meta‐Analysis</article-title>,” <source>EClinicalMedicine</source>
+<volume>36</volume> (<year>2021</year>): <elocation-id>100916</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.eclinm.2021.100916</pub-id>.<pub-id pub-id-type="pmid">34131640</pub-id>
+<pub-id pub-id-type="pmcid">PMC8192091</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="hcs270101-cit-0031">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Bell</surname>
+</string-name> and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wade</surname>
+</string-name>, “<article-title>Mental Health of Clinical Staff Working in High‐Risk Epidemic and Pandemic Health Emergencies a Rapid Review of the Evidence and Living Meta‐Analysis</article-title>,” <source>Social Psychiatry and Psychiatric Epidemiology</source>
+<volume>56</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>1</fpage>–<lpage>11</lpage>, <pub-id pub-id-type="doi">10.1007/s00127-020-01990-x</pub-id>.<pub-id pub-id-type="pmid">33245379</pub-id>
+<pub-id pub-id-type="pmcid">PMC7691696</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="hcs270101-cit-0032">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Mento</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Silvestri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bruno</surname>
+</string-name>, et al., “<article-title>Workplace Violence Against Healthcare Professionals: A Systematic Review</article-title>,” <source>Aggression and Violent Behavior</source>
+<volume>51</volume> (<year>2020</year>): <elocation-id>101381</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.avb.2020.101381</pub-id>.</mixed-citation></ref><ref id="hcs270101-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="hcs270101-cit-0033">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Horesh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Lowe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Galea</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Uddin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. C.</given-names>
+<surname>Koenen</surname>
+</string-name>, “<article-title>Gender Differences in the Long‐Term Associations Between Posttraumatic Stress Disorder and Depression Symptoms: Findings From the Detroit Neighborhood Health Study</article-title>,” <source>Depression and Anxiety</source>
+<volume>32</volume>, no. <issue>1</issue> (<year>2015</year>): <fpage>38</fpage>–<lpage>48</lpage>, <pub-id pub-id-type="doi">10.1002/da.22267</pub-id>.<pub-id pub-id-type="pmid">25044027</pub-id>
+<pub-id pub-id-type="pmcid">PMC4289474</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="hcs270101-cit-0034">
+<string-name name-style="western">
+<given-names>L. I. M.</given-names>
+<surname>Lenferink</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Nickerson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>de Keijser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Smid</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Boelen</surname>
+</string-name>, “<article-title>Reciprocal Associations Among Symptom Levels of Disturbed Grief, Posttraumatic Stress, and Depression Following Traumatic Loss: A Four‐Wave Cross‐Lagged Study</article-title>,” <source>Clinical Psychological Science</source>
+<volume>7</volume>, no. <issue>6</issue> (<year>2019</year>): <fpage>1330</fpage>–<lpage>1339</lpage>.</mixed-citation></ref><ref id="hcs270101-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="hcs270101-cit-0035">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pierce</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kirsh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Ferguson</surname>
+</string-name>, et al., “<article-title>Causal Discovery Replicates Symptomatic and Functional Interrelations of Posttraumatic Stress Across Five Patient Populations</article-title>,” <source>Frontiers in Psychiatry</source>
+<volume>13</volume> (<year>2022</year>): <elocation-id>1018111</elocation-id>, <pub-id pub-id-type="doi">10.3389/fpsyt.2022.1018111</pub-id>.<pub-id pub-id-type="pmid">36793783</pub-id>
+<pub-id pub-id-type="pmcid">PMC9924232</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="hcs270101-cit-0036">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>An</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Deng</surname>
+</string-name>, “<article-title>Longitudinal Cross‐Lagged Relationships Between Posttraumatic Stress Disorder and Depression in Adolescents Following the Yancheng Tornado in China</article-title>,” <source>Psychological Trauma: Theory, Research, Practice, and Policy</source>
+<volume>11</volume>, no. <issue>7</issue> (<year>2019</year>): <fpage>760</fpage>–<lpage>766</lpage>, <pub-id pub-id-type="doi">10.1037/tra0000455</pub-id>.<pub-id pub-id-type="pmid">30907612</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="hcs270101-cit-0037">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Qi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Zhen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhou</surname>
+</string-name>, “<article-title>Comorbidity of Posttraumatic Stress Disorder and Depression Among Adolescents Following an Earthquake: A Longitudinal Study Based on Network Analysis</article-title>,” <source>Journal of Affective Disorders</source>
+<volume>324</volume> (<year>2023</year>): <fpage>354</fpage>–<lpage>363</lpage>, <pub-id pub-id-type="doi">10.1016/j.jad.2022.12.119</pub-id>.<pub-id pub-id-type="pmid">36586597</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="hcs270101-cit-0038">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Kong</surname>
+</string-name>, et al., “<article-title>PTSD Among Healthcare Workers During the COVID‐19 Outbreak: A Study Raises Concern for Non‐Medical Staff in Low‐Risk Areas</article-title>,” <source>Frontiers in Psychiatry</source>
+<volume>12</volume> (<year>2021</year>): <elocation-id>696200</elocation-id>, <pub-id pub-id-type="doi">10.3389/fpsyt.2021.696200</pub-id>.<pub-id pub-id-type="pmid">34322041</pub-id>
+<pub-id pub-id-type="pmcid">PMC8310947</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="hcs270101-cit-0039">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Pyszczynski</surname>
+</string-name> and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kesebir</surname>
+</string-name>, “<article-title>Anxiety Buffer Disruption Theory: A Terror Management Account of Posttraumatic Stress Disorder</article-title>,” <source>Anxiety, Stress, &amp; Coping</source>
+<volume>24</volume>, no. <issue>1</issue> (<year>2011</year>): <fpage>3</fpage>–<lpage>26</lpage>, <pub-id pub-id-type="doi">10.1080/10615806.2010.517524</pub-id>.<pub-id pub-id-type="pmid">20924831</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="hcs270101-cit-0040">
+<string-name name-style="western">
+<given-names>H. M. S.</given-names>
+<surname>Zavos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. V.</given-names>
+<surname>Rijsdijk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. C.</given-names>
+<surname>Eley</surname>
+</string-name>, “<article-title>A Longitudinal, Genetically Informative, Study of Associations Between Anxiety Sensitivity, Anxiety and Depression</article-title>,” <source>Behavior Genetics</source>
+<volume>42</volume>, no. <issue>4</issue> (<year>2012</year>): <fpage>592</fpage>–<lpage>602</lpage>, <pub-id pub-id-type="doi">10.1007/s10519-012-9535-0</pub-id>.<pub-id pub-id-type="pmid">22437876</pub-id>
+</mixed-citation></ref><ref id="hcs270101-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="hcs270101-cit-0041">
+<string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Ballenger</surname>
+</string-name>, “<article-title>Depression and Generalized Anxiety Disorder: Cumulative and Sequential Comorbidity in a Birth Cohort Followed Prospectively to Age 32 Years</article-title>,” <source>Yearbook of Psychiatry and Applied Mental Health</source>
+<volume>2009</volume> (<year>2009</year>): <fpage>214</fpage>–<lpage>215</lpage>, <pub-id pub-id-type="doi">10.1016/s0084-3970(08)79089-3</pub-id>.<pub-id pub-id-type="pmid">17548747</pub-id></mixed-citation></ref><ref id="hcs270101-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="hcs270101-cit-0042">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tammilehto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Saarni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐H.</given-names>
+<surname>Stenberg</surname>
+</string-name>, et al., “<article-title>Temporal Dynamics Between Depression and Anxiety Symptoms During Internet‐Based Therapy and in the General Population</article-title>,” <source>Clinical Psychological Science</source>
+<volume>13</volume>, no. <issue>4</issue> (<year>2025</year>): <fpage>740</fpage>–<lpage>759</lpage>, <pub-id pub-id-type="doi">10.1177/21677026241301057</pub-id>.</mixed-citation></ref></ref-list></back></article>
