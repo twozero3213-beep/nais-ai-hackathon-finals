@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "recorded_at_kst": "2026-10-01T03:17:10+09:00",
+  "recorded_at_kst": "2026-10-01T03:59:30+09:00",
   "finals_started_at_kst": "2026-09-30T17:55:37+09:00",
   "version_meaning": "담당자별 고정 작업 번호; 기능 릴리스나 의존성 버전과 별개",
   "contributors": [
@@ -22,9 +22,9 @@
     }
   ],
   "this_chat": {
-    "name": "이영",
-    "version": 0,
-    "commit_prefix": "[0 이영]"
+    "name": "조지현",
+    "version": 3,
+    "commit_prefix": "[3 조지현]"
   },
   "timestamp_meaning": {
     "finals_started_at_kst": "본선 작업 기준 시각",
@@ -34,12 +34,19 @@
     "imported_at": "자료를 작업에 실제 반영한 시각"
   },
   "upload_not_before_kst": "2026-09-30T17:40:00+09:00",
-  "_change_note": "2026-10-01T03:17:10+09:00 — 담당0 기술검수: 개인정보/권한/비교계약/실패상태/스키마패키징을 검증 반영. 타 담당·원자료·봉인·실제 기록 보존.",
+  "_change_note": "2026-10-01T03:59:30+09:00 — 담당3의 비교 입력 고정·모델 전송 사본·무효 집계·의미 미검증 표기를 최신 담당0의 원문 인용·개인정보 검수와 통합. 원자료·봉인·기존 실행·타 담당 기록 보존.",
   "official_project_started_at_kst": "2026-09-30T17:40:00+09:00",
   "submission_deadline_kst": "2026-10-01T09:20:00+09:00",
   "last_public_reference_upload": {
     "name": "이영",
     "version": 0,
     "uploaded_at_kst": "2026-10-01T01:37:44+09:00"
-  }
+  },
+  "change_history": [
+    {
+      "previous_change_note": "2026-10-01T03:17:10+09:00 — 담당0 기술검수: 개인정보/권한/비교계약/실패상태/스키마패키징을 검증 반영. 타 담당·원자료·봉인·실제 기록 보존.",
+      "superseded_at_kst": "2026-10-01T03:59:30+09:00",
+      "reason": "담당3의 비교 실행기 입력 고정·무효 처리·의미 상태 보완 업로드"
+    }
+  ]
 }

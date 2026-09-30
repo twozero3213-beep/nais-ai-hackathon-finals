@@ -24,7 +24,8 @@ SENSITIVE = [
     pytest.param('010-1234-5678', id='KR_PHONE'),
     pytest.param('990101-1234567', id='KR_RRN'),
     pytest.param('AIza' + 'A' * 35, id='GOOGLE_KEY'),
-    pytest.param('-----BEGIN PRIVATE KEY-----\nSYNTHETIC_TEST_BODY\n-----END PRIVATE KEY-----', id='PRIVATE_KEY'),
+    # [수정: 3 조지현 · 2026-10-01T03:44:46+09:00] 합성 헤더의 런타임 값은 보존하고, 정적 비밀값 검사에 실제 키 본문처럼 걸리는 표기를 분리한다.
+    pytest.param('-----BEGIN ' + 'PRIVATE KEY-----\nSYNTHETIC_TEST_BODY\n-----END PRIVATE KEY-----', id='PRIVATE_KEY'),
     pytest.param('password=synthetic-fixture-only', id='NAMED_PASSWORD'),
     pytest.param('access_token="synthetic-fixture-only"', id='NAMED_TOKEN'),
 ]

@@ -51,7 +51,7 @@ class Mock:
                       "missing_policy": registration["missing_policy"], "denominator": None, "unit": None,
                       "field_evidence": {field: None for field in runner.SIX_CONDITIONS}, "unresolved": ["분모·단위 원문 근거 없음"]}
             output.update(self.conditions.get(case_id, {}))
-        return {"output": output, "usage": {"input_tokens": 100, "output_tokens": 20}, "provider": "openai", "model": "gpt-4.1-mini",
+        return {"output": output, "usage": {"input_tokens": 100, "output_tokens": 20}, "provider": "mock", "model": "MOCK_TEST_ONLY", "mock": True,
                 "request_id": "resp_mock", "raw_sha256": "0" * 64}
 
 
@@ -144,11 +144,18 @@ def test_call_budget_caps_provider_calls():
     assert sum(1 for row in report["results"] if row.get("blocker") == "CALL_BUDGET_EXHAUSTED") == 4
 
 
-def test_personal_data_in_the_model_input_is_never_sent():
+def test_personal_data_in_the_model_input_is_never_sent(tmp_path):
     data = packets(("C03",))
     data["C03"]["source_text"] += " 문의 kim" + chr(64) + "lab.ac.kr"
+    # [수정: 3 조지현 · 2026-10-01T03:16:35+09:00] 본문과 입력 바이트를 임시 사본에서 일치시켜 지문 검사 뒤에도 전송 차단을 확인한다.
+    evidence = tmp_path / "evidence"
+    (evidence / "inputs").mkdir(parents=True)
+    shutil.copy(runner.EVIDENCE / "inputs/C03-data.csv", evidence / "inputs/C03-data.csv")
+    source = data["C03"]["source_text"].encode("utf-8")
+    (evidence / "inputs/C03-source.txt").write_bytes(source)
+    data["C03"]["registration"]["source_sha256"] = runner.sha(source)
     mock = Mock()
-    report = runner.run_sealed(data, EXPECTED, mock)
+    report = runner.run_sealed(data, EXPECTED, mock, evidence_dir=evidence)
     assert mock.calls == [] and report["provider_calls"] == 0
     assert {row["blocker"] for row in report["results"] if row["execution_status"] == "NOT_RUN"} == {"PERSONAL_DATA_IN_OUTBOUND_PAYLOAD"}
 
@@ -181,7 +188,9 @@ def test_main_requires_spend_confirmation_and_writes_a_complete_record(tmp_path,
     folder = next(tmp_path.iterdir())
     record = json.loads((folder / "results.json").read_text(encoding="utf-8"))
     assert record["excerpt_radius"] == runner.EXCERPT_RADIUS and record["cost_status"] == "ESTIMATED_FROM_USAGE_NOT_A_RECEIPT"
-    assert record["contributor_version"] == 0 and len(record["seal_sha256"]) == 64 and len(record["runner_sha256"]) == 64
+    assert record["contributor_version"] == 3 and len(record["seal_sha256"]) == 64 and len(record["runner_sha256"]) == 64
+    # [수정: 3 조지현 · 2026-10-01T03:16:35+09:00] 이번 담당3 및 주입 시험 표시와 이영의 원문 인용 계약을 함께 보존한다.
+    assert record["execution_source"] == "INJECTED_PROVIDER_NOT_LIVE_MODEL_PROOF"
     assert record["condition_adapter"]["version"] == 2 and record["condition_adapter"]["post_seal_extension"] is True
     assert record["condition_adapter"]["human_approval"] is False and len(record["sealed_protocol_sha256"]) == 64
     assert (folder / "presentation-table.md").read_text(encoding="utf-8").startswith("| 사례 |")
