@@ -116,5 +116,58 @@
     "seconds": 71.52,
     "code_fingerprint_matches_video": true,
     "junit_sha256": "c676fef56b6a0f3c1e1b64789689e6ef18cf22349821a818ca1292855a1e94b6"
+  },
+  "latest_ui_merge_verification": {
+    "recorded_at_kst": "2026-10-01T04:25:11+09:00",
+    "team_base": "f67db7ad9440182ff86ba4671c1b71ba4a86158b",
+    "tested_commit": "eab84315d5a78a0ca7f63a9813f51f179b922dce",
+    "passed": 1245,
+    "skipped": 1,
+    "warnings": 1,
+    "seconds": 58.78,
+    "junit_sha256": "f38c471a75131cb4438775f9f1deb862c326fe0c98fc628db11d63d8e94ef08b",
+    "browser": {
+      "executed_at_utc": "2026-09-30T19:23:41.824Z",
+      "checks": [
+        "BAT manual numeric preview visible",
+        "download 53-row report; human approval remains pending",
+        "report reopened as review-only record",
+        "changed-input reuse blocked; approval disabled"
+      ],
+      "scope": "ACTUAL_LOCAL_BROWSER_AUTOMATION_NOT_REAL_RESEARCHER_APPROVAL",
+      "paid_model_calls": 0,
+      "report_id": "6d566929-efba-4262-839f-8617eff188a6",
+      "execution_provenance": {
+        "code_commit": "eab84315d5a78a0ca7f63a9813f51f179b922dce",
+        "tracked_code_matches_commit": true,
+        "code_files_sha256": {
+          "finals/app.py": "8c01dbbaf4e4f5c639935ca60cfceafdb6d8c929c79c505d97572d93c6adfcf0",
+          "finals/finals_pipeline.py": "c68e0745efddf604dea9181e78d50fb698eb172f02c570ccd4eef4aa1d4a38a5",
+          "finals/finals_cases.py": "c73d5c28be29f73bab70a167fb71655cd359b7d3a649a06e0d82b9cdb2190889",
+          "finals/finals_provider.py": "047b33d67910ea9eeb11581eef5101f6cc6b757d7808ece7133e2ccd8e73acf6",
+          "finals/finals_privacy.py": "bbd454e62bcb7dd5365de9756db05c251d80015918397700faccb9e25fefc4a7",
+          "finals/finals_explain.py": "3f37435c166174aefe99856f55d8dc2b2960114ae2e0bad4ce6b99ba6312c972",
+          "finals/finals_provenance.py": "83d61f5df5c1cb78561130077345614aa2bf44aff1eaef204057cc988c43d136",
+          "core/statistics.py": "a3426b318f9579a5dc4b129661a5809181254b824c47d04445240e9c3bf51a8d",
+          "core/verifier.py": "d3562f7a79d8815336ed338c9c6fb8f286f98eff32bb444836dea91cd2a61bc4",
+          "core/normalization.py": "c1044d78e790467905262802a2ec8bfc25ef51d89dd77e17faaf4b1a16d9f63e",
+          "core/typed_contracts.py": "d3132b99d08c39e5e6ca9aa9ecd8adb03876a6f0e904d0d7d0261c39b6441926",
+          "core/models.py": "b1e1885e0b8938066ffd5afe5c101b85eeffffe4567a288ed5ce4e28381a3901"
+        },
+        "execution_fingerprint": "12ff58237aadd6438f955a618d2baa361a3c349ab967c25bff03b15e49eeaf81",
+        "python_version": "3.13.5",
+        "dependencies": {
+          "streamlit": "1.64.0",
+          "pandas": "2.3.3",
+          "numpy": "2.5.3",
+          "scipy": "1.18.1",
+          "jsonschema": "4.26.0"
+        },
+        "scope": "SELECTED_EXECUTION_FILES_AND_ENVIRONMENT_NOT_IDENTITY_OR_DEPLOYMENT_ATTESTATION"
+      }
+    },
+    "video_path": "docs/verification/3_local_browser_demo_latest_main_20261001.webm",
+    "video_sha256": "8984eb3ebc8d1153c8f6d88ab21d3947f39c74693efe32a1361b3d6164762ac9",
+    "current_execution_fingerprint_matches_latest_video": true
   }
 }
