@@ -105,5 +105,16 @@
   },
   "new_paid_model_calls": 0,
   "real_researcher_approval_performed": false,
-  "cloud_deployment_confirmed": false
+  "cloud_deployment_confirmed": false,
+  "post_team_merge_verification": {
+    "recorded_at_kst": "2026-10-01T04:21:50+09:00",
+    "tested_commit": "33f23b41e141616ea0655a75b147969fadae0e11",
+    "team_base": "cd478b657cc4fc955b90c73f17b50c601918011b",
+    "passed": 1245,
+    "skipped": 1,
+    "warnings": 1,
+    "seconds": 71.52,
+    "code_fingerprint_matches_video": true,
+    "junit_sha256": "c676fef56b6a0f3c1e1b64789689e6ef18cf22349821a818ca1292855a1e94b6"
+  }
 }
