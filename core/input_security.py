@@ -4,12 +4,30 @@ Reproducibility rule: validation never mutates source data. Formula-injection
 neutralization is applied only to exported representations, never to calculations.
 """
 from __future__ import annotations
-import csv, io, unicodedata
+import csv, io, json, re, unicodedata
+from finals.finals_privacy import sensitive_kinds
 MAX_CSV_BYTES=100*1024*1024
 MAX_CSV_ROWS=1_000_000
 MAX_CSV_COLUMNS=1_000
 MAX_CELL_CHARS=128*1024
 DANGEROUS_PREFIXES=('=','+','-','@')
+
+# [수정: 0 이영] 2026-10-01 03:11 KST — 기존 순수 탐지기에 라벨 인증값 검사를 더하여 에이전트·로그·팀 저장이 같은 경계를 재사용한다. 표준 빈값/정제 표시를 인증값으로 재차 차단하지 않는다.
+CREDENTIAL_ASSIGNMENT = re.compile(r'''(?i)\b(api[_-]?key|access[_-]?token|token|password|secret|authorization)\b(\s*["']?\s*[:=]\s*)("[^"]*"|'[^']*'|\[REDACTED\]|[^\s,;\]}]+)''')
+_SAFE_CREDENTIAL_MARKERS = frozenset({'', '[REDACTED]', '[비공개 설정]', 'null', 'None'})
+
+
+def sensitive_content_kinds(value) -> tuple[str, ...]:
+    """Return fixed detection kinds only; input and matched values remain untouched."""
+    kinds = sensitive_kinds(value)
+    try:
+        text = value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, default=str)
+    except (TypeError, ValueError):
+        text = str(value)
+    if any(match.group(3).strip('"\'') not in _SAFE_CREDENTIAL_MARKERS
+           for match in CREDENTIAL_ASSIGNMENT.finditer(text)):
+        return kinds + ('CREDENTIAL_ASSIGNMENT',)
+    return kinds
 
 # [수정: 전문가8·11·15] 2026-09-28 case81: 실제 CSV parser 기본 128 Ki문자 한도로 정렬하고 전역 한도 변경 없이 입력 오류를 반환.
 def validate_csv_bytes(data:bytes):

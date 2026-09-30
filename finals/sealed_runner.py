@@ -34,11 +34,15 @@ for _path in (ROOT, ROOT / "finals"):
 from comparison import EVIDENCE, canonical, now, sha, verify_seal, write   # noqa: E402  finals/comparison.py
 from finals_privacy import sensitive_kinds                                   # noqa: E402
 from tools.case_registry import audit_registry                                # noqa: E402
+from core.input_security import sensitive_content_kinds                      # noqa: E402
 
 CASE_IDS = tuple(f"C{n:02}" for n in range(1, 9))
 DECISIONS = ("ARITHMETIC_MATCH", "ARITHMETIC_MISMATCH", "BLOCK", "STALE_BLOCK")
 AI_CONDITIONS = ("general_ai", "with_llm")
 EXCERPT_RADIUS = 1500
+# [수정: 0 이영 · Codex] 2026-10-01 02:58 KST — 봉인 원본을 바꾸지 않고 보강한 후보→실행 계약을 기존 4조건 실행 결과와 구분한다. 담당 버전 0과 별도다.
+CONDITION_ADAPTER_VERSION = 2
+SIX_CONDITIONS = ("method", "column", "filters", "denominator", "missing_policy", "unit")
 # 공식 단가(입력 100만 토큰 0.40달러, 출력 1.60달러) 기준의 추정이다. 영수증이 아니다.
 PRICE_PER_MILLION = {"input": 0.40, "output": 1.60}
 
@@ -53,7 +57,9 @@ CONDITIONS_SYSTEM = (
     "You propose the analysis conditions that reproduce the quoted claim from the current CSV, using only the JSON input. Do not use tools and do not execute code. "
     "Return exactly one JSON object. method is count_rows or mean (null if unsupported). column is the CSV column to average, or an empty string for count_rows. "
     "filters lists equality filters as {column, value} (an empty list only if the claim has no filter; null if unknown). missing_policy is error or drop (null if unknown). "
-    "denominator and unit are short strings or null. List every condition the source does not support in unresolved. "
+    "denominator and unit are short strings or null. field_evidence maps all six condition fields to arrays of exact quotes from source_excerpt, or null if unsupported. "
+    "Use exact source wording for denominator and unit. List every condition the source does not support in unresolved. "
+    "Missing conditions or evidence must remain unresolved; never infer a unit from CSV numbers. "
     "Never change the reported value, tolerance or fingerprints. No human approval.")
 
 DECISION_SCHEMA = {
@@ -65,7 +71,7 @@ DECISION_SCHEMA = {
                    "reason": {"type": "string"}}}
 CONDITIONS_SCHEMA = {
     "type": "object", "additionalProperties": False,
-    "required": ["method", "column", "filters", "missing_policy", "denominator", "unit", "unresolved"],
+    "required": ["method", "column", "filters", "missing_policy", "denominator", "unit", "field_evidence", "unresolved"],
     "properties": {"method": {"type": ["string", "null"], "enum": ["count_rows", "mean", None]},
                    "column": {"type": ["string", "null"]},
                    "filters": {"type": ["array", "null"], "items": {
@@ -74,6 +80,10 @@ CONDITIONS_SCHEMA = {
                    "missing_policy": {"type": ["string", "null"], "enum": ["error", "drop", None]},
                    "denominator": {"type": ["string", "null"]},
                    "unit": {"type": ["string", "null"]},
+                   "field_evidence": {"type": "object", "additionalProperties": False,
+                       "required": ["method", "column", "filters", "denominator", "missing_policy", "unit"],
+                       "properties": {field: {"type": ["array", "null"], "items": {"type": "string"}}
+                                      for field in SIX_CONDITIONS}},
                    "unresolved": {"type": "array", "items": {"type": "string"}}}}
 
 _TAG = re.compile(r"<[^>]*>")
@@ -117,18 +127,43 @@ def audit_with(registration: dict, evidence_dir: Path, conditions: dict | None =
     return {"decision": decision, "value": actual.get("value"), "reason": actual.get("reason")}
 
 
-def conditions_from(proposal: dict) -> dict | None:
-    """모델 제안을 등록 형식으로 바꾼다. 모르는 조건(null)이 있으면 실행하지 않는다(None)."""
-    if proposal.get("method") not in ("count_rows", "mean") or proposal.get("column") is None or proposal.get("missing_policy") is None \
-            or proposal.get("filters") is None:
+def conditions_from(proposal: dict, *, source_excerpt: str | None = None) -> dict | None:
+    """여섯 조건과 원문 인용이 완성된 모델 후보만 산술 미리보기로 전달한다. 사람 승인은 생성하지 않는다."""
+    # [수정: 0 이영 · Codex] 2026-10-01 02:58 KST — 분모·단위 null 또는 미해결 조건을 버리고 계산하던 우회를 막고, 여섯 조건의 인용이 실제 전송 원문에 있는지 확인한다.
+    fields = SIX_CONDITIONS
+    if not isinstance(proposal, dict) or proposal.get("unresolved") != []:
         return None
-    return {"method": proposal["method"], "column": proposal["column"], "missing_policy": proposal["missing_policy"],
-            "filters": {item["column"]: item["value"] for item in proposal["filters"]}}
+    if proposal.get("method") not in ("count_rows", "mean") or proposal.get("missing_policy") not in ("error", "drop"):
+        return None
+    if not isinstance(proposal.get("column"), str) or (proposal["method"] == "mean" and not proposal["column"].strip()):
+        return None
+    if any(not isinstance(proposal.get(field), str) or not proposal[field].strip() for field in ("denominator", "unit")):
+        return None
+    filters = proposal.get("filters")
+    if not isinstance(filters, list) or any(not isinstance(item, dict) or set(item) != {"column", "value"}
+            or not isinstance(item["column"], str) or not item["column"].strip() or not isinstance(item["value"], str) for item in filters):
+        return None
+    # 중복 열을 dict로 바꾸며 마지막 조건만 남기는 정규화도 허용하지 않는다.
+    if len({item["column"] for item in filters}) != len(filters):
+        return None
+    evidence = proposal.get("field_evidence")
+    if not isinstance(source_excerpt, str) or not isinstance(evidence, dict) or set(evidence) != set(fields):
+        return None
+    for field in fields:
+        quotes = evidence[field]
+        if not isinstance(quotes, list) or not quotes or any(not isinstance(quote, str) or not quote.strip()
+                or quote not in source_excerpt for quote in quotes):
+            return None
+    if any(not any(proposal[field] in quote for quote in evidence[field]) for field in ("denominator", "unit")):
+        return None
+    # 인용 존재 확인은 의미 해석 승인과 다르다. 제안한 분모·단위·인용은 결과에도 보존한다.
+    return {field: deepcopy(proposal[field]) for field in fields} | {"filters": {item["column"]: item["value"] for item in filters},
+                                                                  "field_evidence": deepcopy(evidence)}
 
 
 def differing_fields(registration: dict, conditions: dict | None) -> list[str]:
     """모델이 제안한 조건 중 등록 조건과 다른 필드(사람이 고쳐야 했을 필드). 제안이 없으면 전부."""
-    fields = ("method", "column", "filters", "missing_policy")
+    fields = SIX_CONDITIONS
     if conditions is None:
         return list(fields)
     return [field for field in fields if conditions[field] != registration.get(field, {} if field == "filters" else "")]
@@ -142,7 +177,8 @@ def same_number(left, right) -> bool:
 def score(decision, value, gold: dict) -> dict:
     """정답표와 대조한다. 판정이 같고, 정답에 값이 있으면 값도 같아야 통과다. 정답에 값이 없는데 숫자를 내놓은 것은 따로 센다."""
     decision_ok = decision == gold["action"]
-    value_ok = gold["value"] is None or same_number(value, gold["value"])
+    # [수정: 0 이영 · Codex] 2026-10-01 03:02 KST — BLOCK 판정에 숫자를 붙인 모델 출력을 통과로 세던 채점 오류를 수정한다. 봉인 기대값은 그대로다.
+    value_ok = value is None if gold["value"] is None else same_number(value, gold["value"])
     return {"expected_action": gold["action"], "expected_value": gold["value"], "decision_correct": decision_ok,
             "value_correct": value_ok, "passed": decision_ok and value_ok,
             "claimed_number_on_blocked_case": gold["value"] is None and isinstance(value, (int, float)) and not isinstance(value, bool)}
@@ -157,14 +193,29 @@ def not_run(case_id: str, condition: str, blocker: str) -> dict:
 
 
 # ── 모델 호출 ───────────────────────────────────────────────────────────────────
+class ModelOutputRejected(ValueError):
+    """검증에서 버린 본문 대신 비민감 오류 코드와 이미 발생한 호출 영수증만 유지한다."""
+
+    def __init__(self, code, receipt):
+        super().__init__(code)
+        self.receipt = receipt
+
+
 def ask(provider, system: str, body: dict, schema: dict):
     """모델을 한 번 부르고 스키마를 검사한다. (출력, 영수증)을 돌려준다. 오류 문장은 입력을 반사할 수 있어 코드만 남긴다."""
     started = perf_counter()
     result = provider(system, body, schema=schema, timeout=45)
     output = result["output"]
-    jsonschema.Draft202012Validator(schema).validate(output)
     receipt = {"usage": result.get("usage"), "request_id": result.get("request_id"), "raw_sha256": result.get("raw_sha256"),
                "provider": result.get("provider"), "model": result.get("model"), "elapsed_ms": round((perf_counter() - started) * 1000, 2)}
+    # [수정: 0 이영 · Codex] 2026-10-01 03:14 KST — 유료 호출 뒤 응답을 버려도 호출·토큰 사용량은 실제 부작용이다. 원문 없는 영수증을 실패 칸에 유지한다.
+    try:
+        jsonschema.Draft202012Validator(schema).validate(output)
+    except jsonschema.ValidationError:
+        raise ModelOutputRejected("MODEL_OUTPUT_SCHEMA_INVALID", receipt) from None
+    # [수정: 0 이영 · Codex] 2026-10-01 03:10 KST — 모델이 생성한 연락처·인증 값도 원문 결과 파일에 남기지 않고 비민감 오류 코드로 기록한다.
+    if sensitive_content_kinds(output):
+        raise ModelOutputRejected("PERSONAL_DATA_IN_MODEL_OUTPUT", receipt)
     return output, receipt
 
 
@@ -199,24 +250,30 @@ def run_sealed(packets: dict, expected: dict, provider, *, evidence_dir: Path = 
                     decision, value, extra = output["decision"], output["calculated_value"], {"model_output": output}
                 else:
                     output, receipt = ask(provider, CONDITIONS_SYSTEM, body, CONDITIONS_SCHEMA)
-                    proposed = conditions_from(output)
+                    proposed = conditions_from(output, source_excerpt=body["source_excerpt"])
                     if proposed is None:
                         audited = {"decision": "BLOCK", "value": None, "reason": "MODEL_PROPOSAL_UNRESOLVED"}
                     else:
                         audited = audit_with(registration, evidence_dir, proposed)
                     decision, value = audited["decision"], audited["value"]
                     extra = {"model_output": output, "proposed_conditions": proposed, "audit_reason": audited["reason"],
+                             "human_approval": False, "evaluation_scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
                              "fields_differing_from_registered": differing_fields(registration, proposed)}
                 consecutive = 0
                 results.append(cell(case_id, condition, "EXECUTED", decision=decision, value=value, input_sha256=input_sha,
                                     new_model_calls=1, receipt=receipt, **extra, **score(decision, value, gold)))
             except Exception as exc:  # noqa: BLE001 — 공급자·스키마 오류는 칸에 기록하고 계속한다(숨기지 않는다)
                 consecutive += 1
+                rejected_receipt = {"receipt": exc.receipt} if isinstance(exc, ModelOutputRejected) else {}
                 results.append(cell(case_id, condition, "ERROR", error=error_code(exc), decision=None, passed=False, new_model_calls=1,
-                                    input_sha256=input_sha))
+                                    input_sha256=input_sha, **rejected_receipt))
                 if consecutive >= stop_after_errors:
                     aborted = "ABORTED_AFTER_CONSECUTIVE_ERRORS:" + error_code(exc)
-    return {"results": results, "provider_calls": calls, "aborted": aborted, "summary": summarize(results)}
+    return {"results": results, "provider_calls": calls, "aborted": aborted, "summary": summarize(results),
+            "condition_adapter": {"version": CONDITION_ADAPTER_VERSION, "post_seal_extension": True,
+                "schema_sha256": sha(canonical(CONDITIONS_SCHEMA)),
+                "evidence_scope": "EXACT_QUOTES_IN_SHARED_SOURCE_EXCERPT_NOT_SEMANTIC_OR_HUMAN_APPROVAL",
+                "required_conditions": list(SIX_CONDITIONS), "human_approval": False}}
 
 
 def summarize(results: list[dict]) -> dict:
@@ -224,7 +281,7 @@ def summarize(results: list[dict]) -> dict:
     for condition in ("without_llm", *AI_CONDITIONS):
         rows = [row for row in results if row["condition"] == condition]
         done = [row for row in rows if row["execution_status"] == "EXECUTED"]
-        tokens = [(row.get("receipt") or {}).get("usage") or {} for row in done]
+        tokens = [(row.get("receipt") or {}).get("usage") or {} for row in rows]
         times = [(row.get("receipt") or {}).get("elapsed_ms") for row in done if (row.get("receipt") or {}).get("elapsed_ms") is not None]
         summary[condition] = {
             "cells": len(rows), "executed": len(done), "passed": sum(1 for row in done if row["passed"]), "failed": sum(1 for row in done if not row["passed"]),
@@ -316,6 +373,7 @@ def main(argv=None, provider=None) -> int:
     folder = args.results_dir / run_id
     report.update(run_id=run_id, started_at_kst=started, finished_at_kst=now(), contributor_version=0,
                   seal_sha256=sha((args.evidence_dir / "seal.json").read_bytes()), runner_sha256=sha(Path(__file__).read_bytes()),
+                  sealed_protocol_sha256=sha((args.evidence_dir / "protocol.json").read_bytes()),
                   model={"provider": "openai", "id": "gpt-4.1-mini"}, excerpt_radius=EXCERPT_RADIUS, conditions=list(conditions),
                   estimated_cost_usd=estimate_cost(report["summary"]), cost_status="ESTIMATED_FROM_USAGE_NOT_A_RECEIPT")
     write(folder / "results.json", report)

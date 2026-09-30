@@ -375,6 +375,8 @@ with st.expander("저장한 보고서 다시 열기"):
     uploaded = st.file_uploader("검산 보고서 JSON 파일",type=["json"],key="fin_report_upload")
     pasted = st.text_area("보고서 JSON 붙여넣기",key="fin_reopen_text",height=140)
     if st.button("보고서 다시 열기",key="fin_reopen",disabled=uploaded is None and not pasted.strip()):
+        # [수정: 0 이영 · Codex] 2026-10-01T02:56:24+09:00 — 새 파일 검증이 실패하면 이전 기록이 이번 성공처럼 남지 않도록 먼저 비운다.
+        st.session_state.pop("fin_reopened", None)
         try:
             text = uploaded.getvalue().decode("utf-8") if uploaded is not None else pasted
             st.session_state["fin_reopened"] = public_snapshot(pipeline.reopen_report(text))

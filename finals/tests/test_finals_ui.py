@@ -150,7 +150,25 @@ def test_report_reopens_as_record_without_new_approval(app_factory):
     app.button(key="fin_reopen").click().run()
     assert not app.exception
     assert any("보고서 검증 지문이 맞지 않습니다" in item.value for item in app.error)
-    assert app.session_state["fin_reopened"]["human_approval"]["active"] is False
+    # [수정: 0 이영 · Codex] 2026-10-01T02:56:24+09:00 — 실패한 새 파일 대신 앞서 연 기록을 계속 보여주는 회귀를 검출한다.
+    assert "fin_reopened" not in app.session_state
+
+
+@pytest.mark.parametrize("invalid_text", ["{broken", "[]"])
+def test_failed_reopen_clears_previous_record(app_factory, invalid_text):
+    # [추가: 0 이영 · Codex] 2026-10-01T02:56:24+09:00 — 정상 기록을 연 뒤 JSON/형식 오류가 나면 이전 성공 표시가 사라져야 한다.
+    app = app_factory()
+    compute(app)
+    exported = app.session_state["fin_exported_report"]
+    app.text_area(key="fin_reopen_text").set_value(exported).run()
+    app.button(key="fin_reopen").click().run()
+    assert "fin_reopened" in app.session_state
+    app.text_area(key="fin_reopen_text").set_value(invalid_text).run()
+    app.button(key="fin_reopen").click().run()
+    assert not app.exception
+    assert app.error
+    assert "fin_reopened" not in app.session_state
+    assert not any("새로운 사람 승인" in item.value for item in app.caption)
 
 
 def test_replay_requires_saved_actual_response(app_factory, monkeypatch):
