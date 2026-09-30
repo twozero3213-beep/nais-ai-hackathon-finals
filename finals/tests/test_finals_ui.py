@@ -80,6 +80,10 @@ def test_normal_manual_calculation_requires_direct_confirmation_and_reason(app_f
     assert report.get("calculation")
     approved = approve(app)
     assert approved["human_approval"]["status"] == "APPROVED"
+    # [01 이채우][작업번호 1] 실제 사용자 승인 뒤 저장 안내가 보이고 중복 승인만 막히는지 확인한다.
+    assert app.button(key="fin_approve").disabled
+    assert any("이미 직접 승인한 보고서" in item.value for item in app.success)
+    assert not any("현재 상태에서는 승인할 수 없습니다" in item.value for item in app.caption)
     assert any("직접 승인 완료" in item.value for item in app.markdown)
     assert any(item.label == "검산 보고서 JSON 내려받기" for item in app.get("download_button"))
 
