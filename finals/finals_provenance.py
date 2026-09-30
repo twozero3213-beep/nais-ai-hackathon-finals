@@ -15,6 +15,8 @@ CODE_FILES = (
     'core/normalization.py', 'core/typed_contracts.py', 'core/models.py',
     # [수정: 0 이영 · Codex] 2026-10-01T05:06:33+09:00 — 본선이 재사용하는 공통 민감정보 정책도 실행 지문에 포함해 검사 정책 변경을 놓치지 않는다.
     'core/input_security.py',
+    # [수정: 0 이영 · Codex] 2026-10-01T07:45:20+09:00 — 새 공통 수치 정책 변경도 저장 보고서의 실행 지문에 결속한다.
+    'core/numeric_comparison.py',
 )
 
 

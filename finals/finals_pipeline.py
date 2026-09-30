@@ -33,6 +33,8 @@ from core.input_security import sensitive_content_kinds
 from core.models import Claim, Status
 from core.normalization import filter_mask
 from core.statistics import descriptive
+# [수정: 0 이영 · Codex] 2026-10-01T07:45:20+09:00 — 승인출력 패치2f7400b 반영 후 계산 연결을 인수해 core와 본선의 선언 오차·정수 정밀도 정책을 일치시킨다.
+from core.numeric_comparison import NumericComparisonError, compare_numeric, require_integer_mean_precision
 from core.typed_contracts import build_typed_contract, check_evidence_sufficiency
 from core.verifier import auto_verify, verify
 
@@ -183,11 +185,14 @@ def _calculate(case: dict, proposal: dict) -> dict:
         if not all(math.isfinite(value) for value in values):
             raise ValueError("NONFINITE_OBSERVATION")
     value, meta = descriptive(frame, proposal["column"], proposal["method"])
-    delta = abs(value - proposal["reported_value"])
-    within = delta < proposal["tolerance"] or math.isclose(delta, proposal["tolerance"], rel_tol=0, abs_tol=1e-12)
+    if proposal["method"] == "mean":
+        require_integer_mean_precision(values.dropna(), value, proposal["tolerance"])
+    comparison = compare_numeric(value, proposal["reported_value"], proposal["tolerance"])
+    delta, within = comparison.delta, comparison.within_tolerance
     return {"executed": True, "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL", "value": value,
             "calculated_value": value, "reported_value": proposal["reported_value"], "delta": delta,
             "tolerance": proposal["tolerance"], "within_tolerance": within, "selected_rows": len(frame),
+            "delta_decimal": comparison.delta_decimal, "numeric_policy": comparison.policy,
             "expected_denominator": proposal["denominator"]["expected_n"],
             "denominator_matches": len(frame) == proposal["denominator"]["expected_n"], "meta": meta,
             "engine": "core.statistics.descriptive", "method": proposal["method"]}
@@ -444,6 +449,15 @@ def run_case(case_id, mode="manual", proposal_text=None, provider=None, replay_p
         else:
             _step(report, "critique", "PASS", "검토 결과는 후보이며 사람 승인 대체 불가")
         _step(report, "human_approval", "PENDING")
+    except NumericComparisonError as exc:
+        # [수정: 0 이영 · Codex] 2026-10-01T07:45:20+09:00 — 계산 정밀도 미지원은 모델 오류와 구별해 보류하고 사람 승인 가능성을 닫는다.
+        error = exc.code
+        report["errors"].append(error)
+        report["can_approve"] = False
+        report["state"] = report["status"] = "REVIEW_BLOCKED"
+        report["formal_verification"] = {"status": "REVIEW", "reason": error, "human_semantic_confirmed": False}
+        report["remaining_issues"] = [error]
+        _step(report, "recompute", "BLOCKED", error)
     except Exception as exc:
         error = _safe_error(exc)
         report["errors"].append(error)
