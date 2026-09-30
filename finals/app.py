@@ -144,9 +144,12 @@ def render_roles(report):
             who = "규칙"
         if who == "AI" and not ai_used(report):
             who = "사람(수동)" if item.get("step") == "proposal" else "규칙"
-        mark = "대기" if item.get("status") == "PENDING" else ("통과" if item.get("status") == "PASS" else str(item.get("status")))
+        # [수정: 0 이영 · Codex] 2026-10-01T04:59:25+09:00 — 보류/실패 단계에 성공 체크를 붙이지 않고 실제 상태의 한국어 이름과 기호를 함께 표시한다. 원 판정과 승인 상태는 바꾸지 않는다.
+        status = item.get("status")
+        mark = {"PENDING":"대기", "PASS":"통과", "BLOCKED":"보류", "FAIL":"실패", "NOT_RUN":"미실행", "INVALIDATED":"무효"}.get(status, str(status))
+        icon = "✓" if status == "PASS" else ("⏳" if status == "PENDING" else ("!" if status in {"BLOCKED", "FAIL"} else "○"))
         col.caption(who)
-        col.write(f"{'⏳' if mark == '대기' else '✓'} {name}")
+        col.write(f"{icon} {name}")
         col.caption(mark)
 
 

@@ -1,5 +1,5 @@
 {
-  "_change_note": "2026-10-01T03:53:44+09:00 0 이영 Codex: 최신 기술검수와 문구 최소diff 통합의 실제 회귀/metadata 결과를 공개 검증 기록에 추가; 2026-10-01T04:35:56+09:00 최신 팀원 UI 유지·규칙비평을 AI로 표시하는 의미오류 교정·최종 집중검증 추가",
+  "_change_note": "2026-10-01T03:53:44+09:00 0 이영 Codex: 최신 기술검수와 문구 최소diff 통합의 실제 회귀/metadata 결과를 공개 검증 기록에 추가; 2026-10-01T04:35:56+09:00 최신 팀원 UI 유지·규칙비평을 AI로 표시하는 의미오류 교정·최종 집중검증 추가; 2026-10-01T05:11:06+09:00 보류·실패·미실행·무효에 성공 기호를 표시하지 않고 한국어 상태를 붙임",
   "recorded_at_kst": "2026-10-01T03:53:44+09:00",
   "contributor": {
     "name": "이영",
@@ -28,8 +28,8 @@
   "independent_diff_review": "원제목·과학 약어·원수치·기계키 보존·중복표시 제거 확인",
   "live_ai_calls": 0,
   "translation_model_calls": 0,
-  "limits": "240·55·11·20 묶음은 각각 다른 변경/범위의 실제 회귀이며 통과수를 합산하지 않는다. 번역 의미 전수 보증·봉인 AI16칸 실측·Cloud 전체배포·사람승인 완료의 증거가 아니다.",
-  "document_updated_at_kst": "2026-10-01T04:35:56+09:00",
+  "limits": "240·55·11·20 묶음은 각각 다른 변경/범위의 실제 회귀이며 통과수를 합산하지 않는다. 번역 의미 전수 보증·봉인 AI16칸 실측·Cloud 전체배포·사람승인 완료의 증거가 아니다. 상태표시9시험도 별도 묶음이며 통과수를 합산하지 않는다.",
+  "document_updated_at_kst": "2026-10-01T05:11:06+09:00",
   "after_remote_integration": {
     "tested_source_commit": "99fd81cbe9e2ded3e0a319fac61fe86ef3b45949",
     "passed": 55,
@@ -48,5 +48,13 @@
     "pytest_seconds": 110.38,
     "scope": "규칙비평/모델비평/수동 수행자 표시3경계·기존 검산UI·공개입구",
     "meaning_fix": "AI 조건제안과 결정적 규칙비평은 수행자가 다르다. 원 계산·승인·새 모델 호출수 변화 없음."
+  },
+  "status_display_regression": {
+    "status": "PASS",
+    "passed": 9,
+    "pytest_seconds": 0.54,
+    "scope": "AI/규칙/수동 수행자 및 PASS/PENDING/BLOCKED/FAIL/NOT_RUN/INVALIDATED 실제 표시 함수",
+    "tested_parent": "e1738cc3611225e42a8220eacdf5b56d4d8bda3e",
+    "live_ai_calls": 0
   }
 }
