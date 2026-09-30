@@ -153,9 +153,22 @@ def _scienceon_get(path, secrets):
         if response.status != 200:
             code = {401: "AUTH_REQUIRED", 403: "PERMISSION_DENIED", 429: "RATE_LIMITED"}.get(response.status, "PROVIDER_UNAVAILABLE")
             raise ValueError(code)
-        raw = response.read(web.MAX_BYTES + 1)
-        if len(raw) > web.MAX_BYTES:
+        # [수정: 0 이영 · Codex] 2026-10-01 05:09 KST — 인증 응답의 정상 client_id echo는 과학자료 응답과 분리한다. 엄격한 토큰만 메모리에서 소비하고 원문·지문·echo 필드는 공개 결과에 전달하지 않는다.
+        auth_request = path.startswith("/tokenrequest.do?")
+        maximum = 65536 if auth_request else web.MAX_BYTES
+        raw = response.read(maximum + 1)
+        if len(raw) > maximum:
             raise ValueError("RESPONSE_TOO_LARGE")
+        if auth_request:
+            try:
+                payload = strict_json(raw)
+                token = payload.get("access_token") if isinstance(payload, dict) else None
+            except (ValueError, UnicodeError, TypeError):
+                raise ValueError("AUTH_REQUIRED") from None
+            if not isinstance(token, str) or not 1 <= len(token) <= 512 or any(ord(c) < 33 or ord(c) > 126 for c in token):
+                raise ValueError("AUTH_REQUIRED")
+            # Private token envelope only: never hash/persist auth raw or forward arbitrary auth fields.
+            return json.dumps({"access_token": token}, separators=(",", ":")).encode("ascii")
         # Do not surface auth echoes, including credentials escaped in JSON/XML.
         text = raw.decode("utf-8")
         if any(value and (value in text or value in __import__("html").unescape(text)) for value in secrets):

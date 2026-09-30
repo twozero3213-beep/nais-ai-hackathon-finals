@@ -33,9 +33,10 @@ def source_revision():
     for path in PROJECT_ROOT.iterdir():
         if path.suffix == ".py" or path.name in {"pyproject.toml", "uv.lock", "requirements.lock"} or (path.name.startswith("requirements") and path.suffix == ".txt"):
             files.add(path.relative_to(PROJECT_ROOT).as_posix())
-    for folder in ("core", "tools"):
+    # [수정: 0 이영] 2026-10-01 05:06 KST — 새 수신 경로가 직접 쓰는 계산·등록 검토 코드도 실제 바이트 지문에 포함한다. 시험 파일은 실행 엔진이 아니므로 제외한다.
+    for folder in ("core", "tools", "evidence_gate", "finals"):
         for directory, directories, names in os.walk(PROJECT_ROOT / folder, onerror=_raise_scan_error):
-            directories[:] = [name for name in directories if name not in EXCLUDED_DIRECTORIES]
+            directories[:] = [name for name in directories if name not in EXCLUDED_DIRECTORIES and not (folder == "finals" and name == "tests")]
             for name in names:
                 if name.endswith(".py"):
                     files.add((Path(directory) / name).relative_to(PROJECT_ROOT).as_posix())

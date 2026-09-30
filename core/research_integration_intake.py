@@ -296,7 +296,7 @@ def acquisition_registered(claim_id=REGISTERED_CLAIM_ID):
         spec.update(method='row_count', reported_value=item['reported_value'], filters=[], missing_policy='not_applicable',
                     missing_tokens=[], denominator='all CSV data rows, without filtering', unit='individual penguins',
                     data_fingerprint=actual, tolerance=item['tolerance'], source_location=location)
-        paper = {'paper_doi': '10.32614/RJ-2022-020', 'paper_version': 'published article; registered public derivative',
+        paper = {'paper_doi': '10.32614/RJ-2022-020', 'source_id': 'RJ-2022-020', 'paper_version': 'published article; registered public derivative',
                  'source_url': case['paper_url'], 'source_sha256': case['source_sha256'],
                  'source_kind': 'CONTACTS_REMOVED_PUBLIC_DERIVATIVE'}
         return {'success': True, 'state': 'ACQUIRED', 'raw_bytes': raw, 'receipt': receipt,
@@ -350,9 +350,22 @@ def verify_download(raw_bytes, receipt, spec, *, paper_context, conditions_confi
             context = receipt['record_context']
             if paper.get('source_url') != context['paper_url'] or paper.get('source_sha256') != context['source_public_derivative_sha256']:
                 raise IntakeError('PAPER_SOURCE_NOT_BOUND')
+            if paper.get('paper_doi') != '10.32614/RJ-2022-020' or paper.get('paper_version') != 'published article; registered public derivative':
+                raise IntakeError('PAPER_VERSION_NOT_BOUND')
             source_status = {'status': 'REGISTERED_PUBLIC_DERIVATIVE_CONFIRMED',
                              'actual_sha256': context['source_public_derivative_sha256'],
                              'original_publisher_response_sha256': None}
+            # [수정: 0 이영] 2026-10-01 04:33 KST — 고정 등록 사례의 새 승인도 같은 숫자의 다른 집단·단위·원문 위치로 우회하지 못하게 등록 계약을 대조한다.
+            registered = _registered_case(context['claim_id'])
+            required = {'method': 'row_count', 'variable': None, 'filters': [],
+                        'missing_policy': 'not_applicable', 'missing_tokens': [],
+                        'denominator': 'all CSV data rows, without filtering', 'unit': 'individual penguins',
+                        'reported_value': registered['source']['reported_value'],
+                        'tolerance': registered['source']['tolerance'],
+                        'source_location': {'source_id': 'RJ-2022-020', 'locator': registered['source_location'],
+                                            'quote': registered['source_quote']}}
+            if any(spec.get(key) != value for key, value in required.items()):
+                raise IntakeError('REGISTERED_CONDITIONS_DIFFER')
         _public(spec)
         if conditions_confirmed is not True:
             raise IntakeError('CONDITIONS_NOT_CONFIRMED')
