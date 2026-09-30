@@ -11,6 +11,8 @@ from .provenance import dataframe_hash
 from .statistics import descriptive, inferential, DESCRIPTIVE_METHODS, INFERENTIAL_METHODS
 from .normalization import filter_mask
 from .semantic import dataset_scope_mismatch
+# [수정: 0 이영 · Codex] 2026-10-01T06:07:34+09:00 — 기술통계 수치 비교를 선언 오차·표현 정책을 보존하는 공통 함수로 결속한다.
+from .numeric_comparison import compare_numeric, require_integer_mean_precision
 
 # [수정: 전문가5] 2026-09-23 case36
 # 종류: 오류수정
@@ -58,8 +60,12 @@ def verify(c,df):
  try:
   if method in DESCRIPTIVE_METHODS:
    calc,meta=descriptive(fdf,c.column,method,c.weight_column,c.success_value)
+   # [수정: 0 이영 · Codex] 2026-10-01T06:07:34+09:00 — 큰 정수 mean의 반올림값을 보고값과 우연히 일치시키기 전에 정밀도 미지원으로 보류한다.
+   if method=="mean":
+    require_integer_mean_precision(pd.to_numeric(fdf[c.column],errors="coerce").dropna(),calc,c.tolerance)
    if c.current_value is None:return Status.REVIEW,f"{meta['expression']}={calc:.6g}; 보고 수치가 없어 비교 대신 검토가 필요합니다.",calc
-   delta=abs(calc-c.current_value);ftxt=', '.join(f"{x['column']}={x['value']}" for x in c.filters) or '없음';base=f"필터[{ftxt}] · {meta['expression']} · n={meta['n']} · 보고 {c.current_value:g} ↔ 재계산 {calc:.6g}; 차이 {delta:.6g}"
+   comparison=compare_numeric(calc,c.current_value,c.tolerance)
+   delta=comparison.delta;ftxt=', '.join(f"{x['column']}={x['value']}" for x in c.filters) or '없음';base=f"필터[{ftxt}] · {meta['expression']} · n={meta['n']} · 보고 {c.current_value:g} ↔ 재계산 {calc:.6g}; 차이 {delta:.6g}"
    # [수정: 전문가5] 2026-09-23 case36
    # 종류: 오류수정
    # 재현 방법: 보고 0.7, 재계산 0.8, tolerance 0.1은 이진 부동소수점에서 delta가 0.100000...이 되어 충돌했다.
@@ -67,7 +73,8 @@ def verify(c,df):
    # 변경 후: 경계값에서만 매우 작은 절대오차를 허용하는 isclose를 병행한다.
    # 왜: 표시 정밀도 차이가 아닌 부동소수점 표현 잔차로 수치충돌을 만들지 않기 위해.
    # 영향: tolerance보다 실질적으로 큰 차이는 기존처럼 CONFLICT다.
-   within=(delta<c.tolerance) or math.isclose(delta,c.tolerance,rel_tol=0.0,abs_tol=1e-12)
+   # [수정: 0 이영 · Codex] 2026-10-01T06:07:34+09:00 — 위 과거 이진 경계 보완을 decimal 표시 정책으로 대체한다. 0.8/0.7 오차0.1을 유지하며 오차0/1e-13을 1e-12로 넓히지 않는다.
+   within=comparison.within_tolerance
    return (Status.SUPPORTED,base+f' ≤ 허용오차 {c.tolerance:g}',calc) if within else (Status.CONFLICT,base+f' > 허용오차 {c.tolerance:g}',calc)
   if method in INFERENTIAL_METHODS:
    res=inferential(fdf,method,c.column,c.group_column,c.group_a,c.group_b,c.x_column,getattr(c,"mu0",0.0))
