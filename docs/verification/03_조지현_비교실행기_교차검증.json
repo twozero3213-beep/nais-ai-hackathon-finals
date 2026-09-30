@@ -1,0 +1,537 @@
+{
+  "reviewer": "03 조지현",
+  "checked_at_kst": "2026-10-01T04:06:37+09:00",
+  "source_commit": "f0746f8dd190b044f5c365d236867b10c7e44db4",
+  "scope": "공개 합성 C03·C04·C06 및 일시 사본; 모든 공급자 모의",
+  "actual_paid_model_calls": 0,
+  "source_files_sha256": {
+    "finals/sealed_runner.py": "756dfcccc2523860fb5d4873fcd950cd5c2e124dd5f24e01457acf464ba103d5",
+    "finals/sealed_evaluation_rules.json": "384b44fb6762fd9efd478ebad8b4699cd27e2852140a565312c5e5d7e8228196"
+  },
+  "original_evidence_hashes_unchanged": true,
+  "original_evidence_sha256": {
+    "registry.json": "d189fd2320c218836b1dbef2318d1150832fe494746916976bbdced778d4a9c9",
+    "expected.json": "12f13d21dc88e19c38cda5fce5c676f35e6baeb9e10d55418cfbb3f9ae40a9a7",
+    "seal.json": "58aab80952a8a1e02d5ebab80e7b4452ecb94be0db088720290e96c157f873bb",
+    "protocol.json": "ab8965b7323835c59d6fa3e2b90d0c2b35ed4ee722caa9b238eed13e2ff25b19",
+    "packets/C03.json": "e0bb00fe3a10c2a9c24809413b467611592db3853230841ec01cee8d07b7f026",
+    "packets/C04.json": "a08e66ba1d914b47b039621c518ea404368a8985bea3e2806f1953ea473a6ab5",
+    "packets/C06.json": "e69dbb6695b1c4fb1c53a10b6d85df0c6929540e5031559761610777e12a8f25",
+    "inputs/C03-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+    "inputs/C01-data.csv": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+    "inputs/C06-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+    "inputs/C07-data.csv": "b5c1aa1f4f62f84059c51501a003fbe96e710d61ad6d4cd3de230fe33714ebac",
+    "inputs/C06-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593",
+    "inputs/C04-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+    "inputs/C03-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593",
+    "inputs/C02-data.csv": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+    "inputs/C08-data.csv": "e7d0a4b89454c37c229b59aaf13d331f3842541b1bfd49edba2d956b98c60131",
+    "inputs/C04-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593",
+    "inputs/C05-data.csv": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+  },
+  "full_default_seal_check": {
+    "status": "BLOCKED",
+    "code": "SEALED_INPUT_MISSING_RESTORE_PRIVATE_BUNDLE"
+  },
+  "probes": [
+    {
+      "id": "UNRESOLVED_NOT_BLOCKED",
+      "expected": "BLOCK; value null",
+      "actual": {
+        "case_id": "C03",
+        "condition": "with_llm",
+        "execution_status": "EXECUTED",
+        "decision": "BLOCK",
+        "value": null,
+        "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
+        "elapsed_ms": 1.05,
+        "new_model_calls": 1,
+        "receipt": {
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 1
+          },
+          "request_id": "mock-audit",
+          "raw_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "provider": "mock",
+          "model": "MOCK_TEST_ONLY",
+          "mock": true,
+          "elapsed_ms": 0.05
+        },
+        "model_output": {
+          "method": "mean",
+          "column": "score",
+          "filters": [
+            {
+              "column": "group",
+              "value": "A"
+            }
+          ],
+          "missing_policy": "error",
+          "denominator": null,
+          "unit": null,
+          "unresolved": [
+            "분모를 확인하지 못함"
+          ],
+          "field_evidence": {
+            "method": null,
+            "column": null,
+            "filters": null,
+            "denominator": null,
+            "missing_policy": null,
+            "unit": null
+          }
+        },
+        "proposed_conditions": null,
+        "audit_reason": "MODEL_PROPOSAL_UNRESOLVED",
+        "human_approval": false,
+        "evaluation_scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "semantic_validation": {
+          "fields": {
+            "denominator": {
+              "status": "NOT_VERIFIED",
+              "proposed": null,
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            },
+            "unit": {
+              "status": "NOT_VERIFIED",
+              "proposed": null,
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            }
+          },
+          "verified": false,
+          "blocking_issues": [],
+          "scope": "registered_contract_comparison_not_independent_source_semantics"
+        },
+        "evidence_present": true,
+        "fields_differing_from_registered": [
+          "method",
+          "column",
+          "filters",
+          "denominator",
+          "missing_policy",
+          "unit"
+        ],
+        "expected_action": "ARITHMETIC_MISMATCH",
+        "expected_value": 15,
+        "decision_correct": false,
+        "value_correct": false,
+        "passed": false,
+        "stopping_correct": null,
+        "claimed_number_on_blocked_case": false,
+        "comparison_valid": true
+      },
+      "issue_reproduced": false
+    },
+    {
+      "id": "NUMBER_ON_BLOCKED_CASE_PASSES",
+      "expected": "passed false when blocked gold has value null but model claims a number",
+      "actual": {
+        "case_id": "C06",
+        "condition": "general_ai",
+        "execution_status": "EXECUTED",
+        "decision": "BLOCK",
+        "value": 7,
+        "input_sha256": "796a43a13971eda731501deefe6c473b3a2823c057588331fe5183cf26aa96fd",
+        "elapsed_ms": 0.91,
+        "new_model_calls": 1,
+        "receipt": {
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 1
+          },
+          "request_id": "mock-audit",
+          "raw_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "provider": "mock",
+          "model": "MOCK_TEST_ONLY",
+          "mock": true,
+          "elapsed_ms": 0.02
+        },
+        "model_output": {
+          "decision": "BLOCK",
+          "calculated_value": 7,
+          "evidence_location": null,
+          "reason": "모의 응답: 실제 모델 결과 아님"
+        },
+        "evidence_present": false,
+        "semantic_validation": {
+          "fields": {
+            "denominator": {
+              "status": "NOT_VERIFIED",
+              "proposed": null,
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            },
+            "unit": {
+              "status": "NOT_VERIFIED",
+              "proposed": null,
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            }
+          },
+          "verified": false,
+          "blocking_issues": [],
+          "scope": "registered_contract_comparison_not_independent_source_semantics"
+        },
+        "expected_action": "BLOCK",
+        "expected_value": null,
+        "decision_correct": true,
+        "value_correct": false,
+        "passed": false,
+        "stopping_correct": false,
+        "claimed_number_on_blocked_case": true,
+        "comparison_valid": true
+      },
+      "issue_reproduced": false
+    },
+    {
+      "id": "DUPLICATE_FILTER_OVERWRITE",
+      "expected": "reject duplicate filter columns; do not silently select last value",
+      "actual": {
+        "case_id": "C03",
+        "condition": "with_llm",
+        "execution_status": "EXECUTED",
+        "decision": "BLOCK",
+        "value": null,
+        "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
+        "elapsed_ms": 1.24,
+        "new_model_calls": 1,
+        "receipt": {
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 1
+          },
+          "request_id": "mock-audit",
+          "raw_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "provider": "mock",
+          "model": "MOCK_TEST_ONLY",
+          "mock": true,
+          "elapsed_ms": 0.04
+        },
+        "model_output": {
+          "method": "mean",
+          "column": "score",
+          "filters": [
+            {
+              "column": "group",
+              "value": "A"
+            },
+            {
+              "column": "group",
+              "value": "B"
+            }
+          ],
+          "missing_policy": "error",
+          "denominator": null,
+          "unit": null,
+          "unresolved": [],
+          "field_evidence": {
+            "method": null,
+            "column": null,
+            "filters": null,
+            "denominator": null,
+            "missing_policy": null,
+            "unit": null
+          }
+        },
+        "proposed_conditions": null,
+        "audit_reason": "MODEL_PROPOSAL_UNRESOLVED",
+        "human_approval": false,
+        "evaluation_scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "semantic_validation": {
+          "fields": {
+            "denominator": {
+              "status": "NOT_VERIFIED",
+              "proposed": null,
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            },
+            "unit": {
+              "status": "NOT_VERIFIED",
+              "proposed": null,
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            }
+          },
+          "verified": false,
+          "blocking_issues": [],
+          "scope": "registered_contract_comparison_not_independent_source_semantics"
+        },
+        "evidence_present": true,
+        "fields_differing_from_registered": [
+          "method",
+          "column",
+          "filters",
+          "denominator",
+          "missing_policy",
+          "unit"
+        ],
+        "expected_action": "ARITHMETIC_MISMATCH",
+        "expected_value": 15,
+        "decision_correct": false,
+        "value_correct": false,
+        "passed": false,
+        "stopping_correct": null,
+        "claimed_number_on_blocked_case": false,
+        "comparison_valid": true
+      },
+      "issue_reproduced": false
+    },
+    {
+      "id": "DENOMINATOR_UNIT_IGNORED",
+      "expected": "record and validate proposed denominator and unit; do not claim semantic extraction verified",
+      "actual": {
+        "case_id": "C03",
+        "condition": "with_llm",
+        "execution_status": "EXECUTED",
+        "decision": "BLOCK",
+        "value": null,
+        "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
+        "elapsed_ms": 0.92,
+        "new_model_calls": 1,
+        "receipt": {
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 1
+          },
+          "request_id": "mock-audit",
+          "raw_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "provider": "mock",
+          "model": "MOCK_TEST_ONLY",
+          "mock": true,
+          "elapsed_ms": 0.04
+        },
+        "model_output": {
+          "method": "mean",
+          "column": "score",
+          "filters": [
+            {
+              "column": "group",
+              "value": "A"
+            }
+          ],
+          "missing_policy": "error",
+          "denominator": "unknown population",
+          "unit": "unverified unit",
+          "unresolved": [],
+          "field_evidence": {
+            "method": null,
+            "column": null,
+            "filters": null,
+            "denominator": null,
+            "missing_policy": null,
+            "unit": null
+          }
+        },
+        "proposed_conditions": null,
+        "audit_reason": "MODEL_PROPOSAL_UNRESOLVED",
+        "human_approval": false,
+        "evaluation_scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "semantic_validation": {
+          "fields": {
+            "denominator": {
+              "status": "NOT_VERIFIED",
+              "proposed": "unknown population",
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            },
+            "unit": {
+              "status": "NOT_VERIFIED",
+              "proposed": "unverified unit",
+              "registered_contract": null,
+              "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+            }
+          },
+          "verified": false,
+          "blocking_issues": [],
+          "scope": "registered_contract_comparison_not_independent_source_semantics"
+        },
+        "evidence_present": true,
+        "fields_differing_from_registered": [
+          "method",
+          "column",
+          "filters",
+          "denominator",
+          "missing_policy",
+          "unit"
+        ],
+        "expected_action": "ARITHMETIC_MISMATCH",
+        "expected_value": 15,
+        "decision_correct": false,
+        "value_correct": false,
+        "passed": false,
+        "stopping_correct": null,
+        "claimed_number_on_blocked_case": false,
+        "comparison_valid": true
+      },
+      "issue_reproduced": false
+    },
+    {
+      "id": "INPUT_CHANGED_DURING_RUN",
+      "expected": "abort comparison on any mid-run sealed data change; keep initial immutable input for all paths",
+      "actual": {
+        "results": [
+          {
+            "case_id": "C03",
+            "condition": "without_llm",
+            "execution_status": "EXECUTED",
+            "decision": "ARITHMETIC_MISMATCH",
+            "value": 15.0,
+            "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요",
+            "semantic_validation": {
+              "fields": {
+                "denominator": {
+                  "status": "NOT_VERIFIED",
+                  "proposed": null,
+                  "registered_contract": null,
+                  "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+                },
+                "unit": {
+                  "status": "NOT_VERIFIED",
+                  "proposed": null,
+                  "registered_contract": null,
+                  "basis": "NO_SUPPORTED_REGISTERED_CONTRACT"
+                }
+              },
+              "verified": false,
+              "blocking_issues": [],
+              "scope": "registered_contract_comparison_not_independent_source_semantics"
+            },
+            "evidence_present": true,
+            "elapsed_ms": 2.57,
+            "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
+            "new_model_calls": 0,
+            "expected_action": "ARITHMETIC_MISMATCH",
+            "expected_value": 15,
+            "decision_correct": true,
+            "value_correct": true,
+            "passed": true,
+            "stopping_correct": null,
+            "claimed_number_on_blocked_case": false,
+            "comparison_valid": false
+          },
+          {
+            "case_id": "C03",
+            "condition": "general_ai",
+            "execution_status": "INVALIDATED",
+            "blocker": "SEALED_INPUT_CHANGED_DURING_RUN",
+            "decision": null,
+            "passed": null,
+            "model_output": {
+              "decision": "ARITHMETIC_MISMATCH",
+              "calculated_value": 15,
+              "evidence_location": null,
+              "reason": "모의 응답: 실제 모델 결과 아님"
+            },
+            "receipt": {
+              "usage": {
+                "input_tokens": 1,
+                "output_tokens": 1
+              },
+              "request_id": "mock-audit",
+              "raw_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "provider": "mock",
+              "model": "MOCK_TEST_ONLY",
+              "mock": true,
+              "elapsed_ms": 0.09
+            },
+            "new_model_calls": 1,
+            "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
+            "comparison_valid": false
+          },
+          {
+            "case_id": "C03",
+            "condition": "with_llm",
+            "execution_status": "NOT_RUN",
+            "blocker": "SEALED_INPUT_CHANGED_DURING_RUN",
+            "decision": null,
+            "passed": null,
+            "comparison_valid": false
+          }
+        ],
+        "provider_calls": 1,
+        "aborted": "SEALED_INPUT_CHANGED_DURING_RUN",
+        "comparison_valid": false,
+        "input_snapshot_sha256": "03e99b0baa9f7d1cd9413a08e2060c57a2c3e00d60ba0e196879c011db796d96",
+        "input_fingerprints": {
+          "inputs/C03-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+          "inputs/C03-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593"
+        },
+        "expected_sha256": "12f13d21dc88e19c38cda5fce5c676f35e6baeb9e10d55418cfbb3f9ae40a9a7",
+        "evaluation_rules_sha256": "d9abcfc4891d90d01caa8a8db1c35edb2c938d3d7b6715f32eefb2290822186e",
+        "score_scope": "arithmetic_and_stopping_only_not_full_semantic_verification",
+        "summary": {
+          "without_llm": {
+            "cells": 1,
+            "executed": 1,
+            "valid_executed": 0,
+            "passed": 0,
+            "failed": 0,
+            "invalidated": 1,
+            "errors": 0,
+            "not_run": 0,
+            "claimed_number_on_blocked_case": 0,
+            "evidence_present": 0,
+            "semantics_not_verified": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "median_elapsed_ms": null
+          },
+          "general_ai": {
+            "cells": 1,
+            "executed": 0,
+            "valid_executed": 0,
+            "passed": 0,
+            "failed": 0,
+            "invalidated": 1,
+            "errors": 0,
+            "not_run": 0,
+            "claimed_number_on_blocked_case": 0,
+            "evidence_present": 0,
+            "semantics_not_verified": 0,
+            "input_tokens": 1,
+            "output_tokens": 1,
+            "median_elapsed_ms": null
+          },
+          "with_llm": {
+            "cells": 1,
+            "executed": 0,
+            "valid_executed": 0,
+            "passed": 0,
+            "failed": 0,
+            "invalidated": 0,
+            "errors": 0,
+            "not_run": 1,
+            "claimed_number_on_blocked_case": 0,
+            "evidence_present": 0,
+            "semantics_not_verified": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "median_elapsed_ms": null
+          }
+        },
+        "condition_adapter": {
+          "version": 2,
+          "post_seal_extension": true,
+          "schema_sha256": "5fcc5ca705a81b390d1994e729b1dd45a445a6a6c26578ed07aa16c27776a47e",
+          "evidence_scope": "EXACT_QUOTES_IN_SHARED_SOURCE_EXCERPT_NOT_SEMANTIC_OR_HUMAN_APPROVAL",
+          "required_conditions": [
+            "method",
+            "column",
+            "filters",
+            "denominator",
+            "missing_policy",
+            "unit"
+          ],
+          "human_approval": false
+        }
+      },
+      "issue_reproduced": false
+    }
+  ],
+  "original_input_and_gold_modified": false,
+  "general_ai_advantage_measured": false,
+  "all_five_fixes_verified": true
+}
