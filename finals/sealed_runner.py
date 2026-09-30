@@ -32,7 +32,6 @@ for _path in (ROOT, ROOT / "finals"):
     if str(_path) not in sys.path:
         sys.path.insert(0, str(_path))
 from comparison import EVIDENCE, canonical, now, sha, verify_seal, write   # noqa: E402  finals/comparison.py
-from finals_privacy import sensitive_kinds                                   # noqa: E402
 from core.input_security import sensitive_content_kinds                      # noqa: E402
 from tools.case_registry import audit_registry                                # noqa: E402
 
@@ -363,7 +362,8 @@ def run_sealed(packets: dict, expected: dict, provider, *, evidence_dir: Path = 
                                 evidence_present=bool(registration.get("source_location") and registration.get("source_quote")),
                                 elapsed_ms=round((perf_counter() - local_started) * 1000, 2),
                                 input_sha256=input_sha, new_model_calls=0, **score(local["decision"], local["value"], gold)))
-            blocked_by_privacy = bool(sensitive_kinds(body))
+            # [수정: 0 이영 · Codex] 2026-10-01 05:04 KST — 인증값 라벨도 출력 검사와 같은 공통 탐지기로 차단하여 두 AI 경로의 외부 전송을 막는다.
+            blocked_by_privacy = bool(sensitive_content_kinds(body))
             for condition in conditions:
                 if aborted or calls >= max_calls:
                     results.append(not_run(case_id, condition, aborted or "CALL_BUDGET_EXHAUSTED"))
@@ -500,7 +500,8 @@ def dry_run(packets: dict) -> dict:
     for case_id, packet in packets.items():
         body = model_input(packet)
         size = len(json.dumps(body, ensure_ascii=False).encode("utf-8"))
-        kinds = list(sensitive_kinds(body))
+        # [수정: 0 이영 · Codex] 2026-10-01 05:04 KST — 실행 전 점검에도 실제 전송과 같은 경계를 적용하고 탐지 종류만 공개한다.
+        kinds = list(sensitive_content_kinds(body))
         tokens = size // 3            # 한글·CSV 혼합의 보수적 추정(글자 3바이트당 1토큰)
         rows.append({"case_id": case_id, "request_bytes": size, "estimated_input_tokens": tokens, "blocked_by_privacy": kinds})
         if not kinds:

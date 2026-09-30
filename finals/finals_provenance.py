@@ -13,6 +13,8 @@ CODE_FILES = (
     'finals/finals_provider.py', 'finals/finals_privacy.py', 'finals/finals_explain.py',
     'finals/finals_provenance.py', 'core/statistics.py', 'core/verifier.py',
     'core/normalization.py', 'core/typed_contracts.py', 'core/models.py',
+    # [수정: 0 이영 · Codex] 2026-10-01T05:06:33+09:00 — 본선이 재사용하는 공통 민감정보 정책도 실행 지문에 포함해 검사 정책 변경을 놓치지 않는다.
+    'core/input_security.py',
 )
 
 
