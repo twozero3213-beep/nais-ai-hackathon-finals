@@ -45,9 +45,11 @@ class Mock:
             output = {"decision": gold["action"], "calculated_value": gold["value"], "evidence_location": None, "reason": "모의"}
             output.update(self.general.get(case_id, {}))
         else:
+            # [수정: 0 이영 · Codex] 2026-10-01 02:58 KST — 기존 합성 봉인 원문에는 분모·단위 근거가 없다. null을 실행 성공으로 취급하던 시험을 실제 미확인으로 보존한다.
             output = {"method": registration["method"], "column": registration["column"],
                       "filters": [{"column": k, "value": str(v)} for k, v in registration["filters"].items()],
-                      "missing_policy": registration["missing_policy"], "denominator": None, "unit": None, "unresolved": []}
+                      "missing_policy": registration["missing_policy"], "denominator": None, "unit": None,
+                      "field_evidence": {field: None for field in runner.SIX_CONDITIONS}, "unresolved": ["분모·단위 원문 근거 없음"]}
             output.update(self.conditions.get(case_id, {}))
         return {"output": output, "usage": {"input_tokens": 100, "output_tokens": 20}, "provider": "openai", "model": "gpt-4.1-mini",
                 "request_id": "resp_mock", "raw_sha256": "0" * 64}
@@ -94,11 +96,12 @@ def test_model_input_has_no_expected_answer_and_both_ai_conditions_receive_the_s
     assert bodies[0] == bodies[1] and len(mock.calls) == 6
 
 
-def test_correct_answers_pass_in_all_three_conditions():
+def test_correct_baselines_pass_and_unsupported_extracted_conditions_stay_blocked():
     report = runner.run_sealed(packets(), EXPECTED, Mock())
-    for condition in ("without_llm", "general_ai", "with_llm"):
+    for condition in ("without_llm", "general_ai"):
         assert all(row["passed"] for row in cells(report, condition).values()), condition
-    assert cells(report, "with_llm")["C03"]["value"] == 15 and cells(report, "with_llm")["C04"]["value"] == 35
+    assert all(row["decision"] == "BLOCK" and row["value"] is None for row in cells(report, "with_llm").values())
+    assert report["summary"]["with_llm"]["passed"] == 1 and report["summary"]["with_llm"]["failed"] == 2
     assert report["summary"]["general_ai"]["passed"] == 3 and report["summary"]["with_llm"]["input_tokens"] == 300
     assert report["provider_calls"] == 6 and report["aborted"] is None
 
@@ -112,8 +115,8 @@ def test_wrong_answers_are_recorded_as_failures_and_never_hidden():
     assert not general["C03"]["passed"] and not general["C03"]["decision_correct"]
     assert general["C06"]["claimed_number_on_blocked_case"] and not general["C06"]["passed"]
     assert general["C04"]["passed"]
-    assert not with_llm["C03"]["passed"] and with_llm["C03"]["value"] == 35 and with_llm["C03"]["decision_correct"] and not with_llm["C03"]["value_correct"]
-    assert with_llm["C03"]["fields_differing_from_registered"] == ["filters"]
+    assert not with_llm["C03"]["passed"] and with_llm["C03"]["value"] is None and with_llm["C03"]["decision"] == "BLOCK"
+    assert with_llm["C03"]["fields_differing_from_registered"] == list(runner.SIX_CONDITIONS)
     assert report["summary"]["general_ai"]["failed"] == 2 and report["summary"]["general_ai"]["claimed_number_on_blocked_case"] == 1
 
 
@@ -122,7 +125,7 @@ def test_unknown_conditions_stop_the_model_path_without_a_calculation():
     with_llm = cells(runner.run_sealed(packets(), EXPECTED, mock), "with_llm")
     assert with_llm["C03"]["decision"] == "BLOCK" and with_llm["C03"]["audit_reason"] == "MODEL_PROPOSAL_UNRESOLVED" and not with_llm["C03"]["passed"]
     assert with_llm["C06"]["decision"] == "BLOCK" and with_llm["C06"]["passed"]          # 검증할 수 없는 사례에서 멈춘 것은 정답이다
-    assert with_llm["C03"]["fields_differing_from_registered"] == ["method", "column", "filters", "missing_policy"]
+    assert with_llm["C03"]["fields_differing_from_registered"] == list(runner.SIX_CONDITIONS)
 
 
 def test_provider_errors_are_recorded_and_the_run_aborts_after_consecutive_errors():
@@ -179,5 +182,7 @@ def test_main_requires_spend_confirmation_and_writes_a_complete_record(tmp_path,
     record = json.loads((folder / "results.json").read_text(encoding="utf-8"))
     assert record["excerpt_radius"] == runner.EXCERPT_RADIUS and record["cost_status"] == "ESTIMATED_FROM_USAGE_NOT_A_RECEIPT"
     assert record["contributor_version"] == 0 and len(record["seal_sha256"]) == 64 and len(record["runner_sha256"]) == 64
+    assert record["condition_adapter"]["version"] == 2 and record["condition_adapter"]["post_seal_extension"] is True
+    assert record["condition_adapter"]["human_approval"] is False and len(record["sealed_protocol_sha256"]) == 64
     assert (folder / "presentation-table.md").read_text(encoding="utf-8").startswith("| 사례 |")
     assert "sk-" not in json.dumps(record)

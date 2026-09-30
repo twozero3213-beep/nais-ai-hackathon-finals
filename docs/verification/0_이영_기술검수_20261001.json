@@ -1,0 +1,56 @@
+{
+  "_change_note": "2026-10-01T03:31:19+09:00 — 담당0 안전 경계·비교 계약·패키징 수정 후 최신 원격 기반 전체 제품 회귀의 실제 결과. 모델 성능·Cloud 완료와 구분.",
+  "recorded_at_kst": "2026-10-01T03:31:19+09:00",
+  "contributor_version": 0,
+  "tested_commit": "32b14efc3b647ec80413fbae5ff4eef6d453c99d",
+  "baseline_commit": "9d6c1effe26aba21004fa7dae4dbc37275440333",
+  "status": "TESTED_LOCAL_PENDING_PUSH",
+  "command": "python -X utf8 -m pytest tests finals/tests tools/test_product_metadata_guard.py -q --tb=short",
+  "result": {
+    "warnings": 1,
+    "passed": 1188,
+    "seconds": 235.81,
+    "skipped": 1,
+    "warning": "numpy overflow in explicit invalid-computation fail-closed test"
+  },
+  "raw_log_sha256": "23de856016a69af85250540fea282476ab5c178a7ee87e970fb17e746654b38a",
+  "raw_log_local_reference": "작업도구/0_이영_기술검수_20261001/0_이영_최종제품회귀.txt",
+  "focused_runs": [
+    {
+      "scope": "privacy/rbac/team final",
+      "passed": 484,
+      "seconds": 30.38
+    },
+    {
+      "scope": "sealed/persistence final",
+      "passed": 40,
+      "seconds": 11.86
+    },
+    {
+      "scope": "UI preintegration",
+      "passed": 16,
+      "seconds": 196.77
+    }
+  ],
+  "metadata": {
+    "checked_at_kst": "2026-10-01T03:24:03+09:00",
+    "status": "PASS",
+    "json_files": 35
+  },
+  "scope": [
+    "supplier input/output privacy",
+    "persistent logging privacy and numeric context",
+    "role normalization and unknown-role denial",
+    "team text/metadata storage",
+    "sealed six-condition/evidence gate and BLOCK numeric grading",
+    "reopen failure old-state clearing",
+    "original schema packaging and failure connection cleanup"
+  ],
+  "limits": [
+    "서로 다른 시험묶음 합산하지 않음",
+    "별도 실제모델/AI16칸 성능비교 미실행",
+    "정확배포SHA·최신윤리고지·전체Cloud종단 미확인",
+    "바이너리전체와 자유이름/주소의 개인정보검증 미보장",
+    "원봉인/기대값/과거실행/원자료지문 유지"
+  ]
+}

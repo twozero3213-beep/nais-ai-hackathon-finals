@@ -1,3 +1,4 @@
+# [수정: 0 이영 · Codex] 2026-10-01T03:51:17+09:00 — OneDrive AppTest 초기읽기3초 초과를 실제 확인해 UI시험 대기만60초로 통일; 인증 assertion은 유지한다.
 """Test-only fixtures: setup safety and real Streamlit authentication boundary."""
 # [작성: 0 이영] 2026-09-30 22:52 KST — 모의 비밀값으로 누락설정·오입력·네 팀원 로그인·로그아웃·권한 경계를 검증합니다.
 import importlib.util

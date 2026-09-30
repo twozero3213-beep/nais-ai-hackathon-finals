@@ -11,21 +11,32 @@ from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from .activity_privacy import ACTIVITY_TIME_FIELDS, activity_view
 from .paths import AUDIT_JSONL_PATH
+# [수정: 0 이영] 2026-10-01 03:11 KST — 개인정보·라벨 인증값의 공통 순수 입력 경계를 재사용하고 기존 로그 라벨 정제도 동일 정규식을 사용한다.
+from .input_security import CREDENTIAL_ASSIGNMENT, sensitive_content_kinds
 
 _FIELDS=("claim_id","contract_type","dataset_hash","state","rows_used","engine_version","app_version","actor","source")
 _SETUP_LOCK=threading.RLock()
-_ASSIGNMENT=re.compile(r'''(?i)\b(api[_-]?key|access[_-]?token|token|password|secret|authorization)\b(\s*["']?\s*[:=]\s*)(?:"[^"]*"|'[^']*'|[^\s,;\]}]+)''')
+_ASSIGNMENT=CREDENTIAL_ASSIGNMENT
 _BEARER=re.compile(r'(?i)\b(Bearer)\s+([^\s"\',;]+)')
 _PREFIXED_KEY=re.compile(r'\b(?:sk-[A-Za-z0-9_-]{8,}|ghp_[A-Za-z0-9_]{8,}|github_pat_[A-Za-z0-9_]{8,}|xox[baprs]-[A-Za-z0-9-]{8,})\b')
 _TIME_ASSIGNMENT=re.compile(r'''(?i)\b('''+'|'.join(sorted(ACTIVITY_TIME_FIELDS,key=len,reverse=True))+r''')\b(\s*["']?\s*[:=]\s*)(?:"[^"]*"|'[^']*'|[^\s,;\]}]+)''')
 
 
+def _sensitive_placeholder(value):
+    """Keep detection kinds, never retain the matched string or partial key body."""
+    kinds = sensitive_content_kinds(value)
+    return '[REDACTED: ' + ','.join(kinds) + ']' if kinds else value
+
+
 def _clean_object(value):
     if isinstance(value,dict):
-        return {key: ('[REDACTED]' if re.fullmatch(r'(?i)(?:api[_-]?key|access[_-]?token|token|password|secret|authorization)',str(key)) else _clean_object(item))
+        # [수정: 0 이영] 2026-10-01 02:53 KST — 민감 문자열만 종류로 대체하고 검산 수치·안전한 사건 필드는 보존한다. 키에 담긴 연락처도 표시용 사본에서 차단한다.
+        return {_sensitive_placeholder(str(key)): ('[REDACTED]' if re.fullmatch(r'(?i)(?:api[_-]?key|access[_-]?token|token|password|secret|authorization)',str(key)) else _clean_object(item))
                 for key,item in activity_view(value).items()}
     if isinstance(value,(list,tuple)):
         return [_clean_object(item) for item in value[:32]]
+    if isinstance(value,str):
+        return _sensitive_placeholder(value)
     return value
 
 
@@ -42,7 +53,8 @@ def _redact(value):
     value=_BEARER.sub(r'\1 [REDACTED]',value)
     value=_ASSIGNMENT.sub(r'\1\2"[REDACTED]"',value)
     value=_TIME_ASSIGNMENT.sub(r'\1\2"[ACTIVITY_TIME_REMOVED]"',value)
-    return _PREFIXED_KEY.sub('[REDACTED]',value)[:8192]
+    # [수정: 0 이영] 2026-10-01 02:53 KST — 자유 문장 로그에서도 연락처·주민등록번호·Google형 키·개인 키 본문을 종류만 남겨 차단한다.
+    return _sensitive_placeholder(_PREFIXED_KEY.sub('[REDACTED]',value))[:8192]
 
 
 def _safe_exception(exc_info):
@@ -68,8 +80,10 @@ def _file_logger(path,namespace,formatter):
 
 class JsonLineFormatter(logging.Formatter):
     def format(self,record):
+        # [수정: 0 이영] 2026-10-01 02:59 KST — 인자 없는 구조화 메시지는 repr로 바꾸기 전에 사본을 정제해 안전한 검산 수치와 JSON 구조를 유지한다.
+        message = record.getMessage() if record.args else record.msg
         payload={"level":record.levelname,
-                 "logger":record.name,"event":_redact(getattr(record,"event","LOG")),"message":_redact(record.getMessage())}
+                 "logger":record.name,"event":_redact(getattr(record,"event","LOG")),"message":_redact(message)}
         for key in _FIELDS:
             val=getattr(record,key,None)
             if val not in (None,""):payload[key]=_redact(val)

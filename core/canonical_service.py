@@ -18,9 +18,15 @@ def _sql_audit_hash(prev,entity_type,entity_id,event_type,actor_id,payload_json,
 class CanonicalService:
     def __init__(self,path,schema_path=None):
         self.path=str(Path(path)); Path(self.path).parent.mkdir(parents=True,exist_ok=True)
-        self.con=sqlite3.connect(self.path); self.con.create_function('eg_audit_hash',9,_sql_audit_hash,deterministic=True); self.con.execute('PRAGMA foreign_keys=ON'); self.con.execute('PRAGMA busy_timeout=5000'); self.con.execute('PRAGMA journal_mode=WAL')
-        schema_path=schema_path or Path(__file__).resolve().parents[1]/'db'/'schema_case80.sql'
-        self.con.executescript(Path(schema_path).read_text(encoding='utf-8')); self.con.commit()
+        self.con=sqlite3.connect(self.path)
+        # [수정: 0 이영 · Codex] 2026-10-01 03:12 KST — 누락·잘못된 스키마 초기화가 열린 연결을 남겨 Windows에서 임시 DB 삭제가 실패했다. 실패 시 연결을 닫고 원 예외를 유지한다.
+        try:
+            self.con.create_function('eg_audit_hash',9,_sql_audit_hash,deterministic=True); self.con.execute('PRAGMA foreign_keys=ON'); self.con.execute('PRAGMA busy_timeout=5000'); self.con.execute('PRAGMA journal_mode=WAL')
+            schema_path=schema_path or Path(__file__).resolve().parents[1]/'db'/'schema_case80.sql'
+            self.con.executescript(Path(schema_path).read_text(encoding='utf-8')); self.con.commit()
+        except Exception:
+            self.con.close()
+            raise
     def _audit(self,entity_type,entity_id,event_type,actor_id,payload,app_version,engine_version,created_at):
         prev=self.con.execute('SELECT event_hash FROM audit_events ORDER BY audit_id DESC LIMIT 1').fetchone(); prev=prev[0] if prev else ''
         fields={'entity_type':entity_type,'entity_id':entity_id,'event_type':event_type,'actor_id':actor_id,'payload':payload,'app_version':app_version,'engine_version':engine_version,'created_at':created_at}

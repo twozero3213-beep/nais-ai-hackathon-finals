@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "recorded_at_kst": "2026-10-01T03:36:53+09:00",
+  "recorded_at_kst": "2026-10-01T03:51:17+09:00",
   "finals_started_at_kst": "2026-09-30T17:55:37+09:00",
   "version_meaning": "담당자별 고정 작업 번호; 기능 릴리스나 의존성 버전과 별개",
   "contributors": [
@@ -34,7 +34,7 @@
     "imported_at": "자료를 작업에 실제 반영한 시각"
   },
   "upload_not_before_kst": "2026-09-30T17:40:00+09:00",
-  "_change_note": "2026-10-01T03:36:53+09:00 — 담당0 전체연동과4단계UI 새main반영. 원담당자 실행과 원출처 기록은 보존.",
+  "_change_note": "2026-10-01T03:51:17+09:00 — 전체연동·UI와 최신 기술검수 일반 병합. 원작성 실행기록과 담당번호 유지.",
   "official_project_started_at_kst": "2026-09-30T17:40:00+09:00",
   "submission_deadline_kst": "2026-10-01T09:20:00+09:00",
   "last_public_reference_upload": {

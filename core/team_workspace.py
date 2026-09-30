@@ -18,7 +18,7 @@ import urllib.parse
 import urllib.request
 import uuid
 from .models import Status
-from .input_security import safe_csv_export_bytes
+from .input_security import safe_csv_export_bytes, sensitive_content_kinds
 from .rbac import Role, can
 from tools.independent_replay import _load_json
 
@@ -38,10 +38,19 @@ def validate_upload(name, data):
         raise ValueError('이 파일 형식 또는 비밀 설정 파일은 올릴 수 없습니다.')
     if len(data)>MAX_BYTES:
         raise ValueError('파일당 최대 5 MiB입니다.')
+    # [수정: 0 이영] 2026-10-01 03:11 KST — 파일명도 저장되는 메타데이터이므로 공유 전에 민감 형태를 검사한다. 바이너리 본문 DLP를 수행한다고 주장하지 않는다.
+    if sensitive_content_kinds(name):
+        raise ValueError('개인정보 또는 인증 값 형태가 포함되어 업로드를 차단했습니다.')
     if Path(name).suffix.lower() not in {'.pdf','.png','.jpg','.jpeg'}:
-        text=data.decode('utf-8-sig',errors='replace')
-        if re.search(r'(?:sk-[A-Za-z0-9_-]{16,}|gh[pousr]_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN .*PRIVATE KEY-----)',text):
-            raise ValueError('비밀키로 보이는 값이 포함되어 업로드를 차단했습니다.')
+        # [수정: 0 이영] 2026-10-01 03:11 KST — BOM이 있는 UTF-16/32 텍스트도 실제 문자로 검사한다. 해독 불가 입력을 replacement로 숨겨 민감 검사에서 빠지게 하지 않는다.
+        encoding = ('utf-32' if data.startswith((b'\xff\xfe\x00\x00', b'\x00\x00\xfe\xff'))
+                    else 'utf-16' if data.startswith((b'\xff\xfe', b'\xfe\xff')) else 'utf-8-sig')
+        try:
+            text = data.decode(encoding, errors='strict')
+        except UnicodeError:
+            raise ValueError('텍스트 첨부는 UTF-8 또는 BOM이 있는 UTF-16/32 형식이어야 합니다.') from None
+        if sensitive_content_kinds(text):
+            raise ValueError('개인정보 또는 인증 값 형태가 포함되어 업로드를 차단했습니다.')
     return name
 
 
@@ -197,6 +206,9 @@ class Workspace:
         if not title.strip() or len(title)>120:raise ValueError('제목은 1~120자여야 합니다.')
         if status not in {'예정','진행 중','검토 요청','완료','차단'}:raise ValueError('지원하지 않는 진행 상태입니다.')
         if len(note)>10000:raise ValueError('진행 메모는 10,000자까지 저장할 수 있습니다.')
+        # [수정: 0 이영] 2026-10-01 03:11 KST — 확인 체크박스/UI를 우회해도 title/note/snapshot을 로컬 DB·GitHub에 저장하기 전에 공통 민감 검사를 강제한다. 원입력·기존 기록은 바꾸지 않는다.
+        if sensitive_content_kinds({'title': title, 'note': note, 'snapshot': snapshot}):
+            raise ValueError('개인정보 또는 인증 값 형태가 포함되어 팀 기록 저장을 차단했습니다.')
         if request_id is not None and (not isinstance(request_id,str) or not re.fullmatch(r'[a-f0-9]{32}',request_id)):
             raise ValueError('유효한 요청 ID가 필요합니다.')
         previous=None

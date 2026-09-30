@@ -305,6 +305,7 @@ def render():
     with st.expander("저장한 검토 기록 불러오기"):
         saved = st.text_area("검토 기록 JSON", key="ri_import_text")
         if st.button("기록 다시 열기", key="ri_import", disabled=not saved.strip()):
+            state.pop("reopened", None)
             try:
                 reopened = intake.reopen_report(saved)
                 if reopened.get("action") == "BLOCK":
