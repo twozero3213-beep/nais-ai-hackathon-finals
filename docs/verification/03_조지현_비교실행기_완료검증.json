@@ -85,5 +85,37 @@
     "배포 최신SHA·전체 Cloud 시연 미확인",
     "요금은 영수증 아닌 코드 단가 가정"
   ],
-  "publication_status": "COMMITTED_CODE_PENDING_PUSH"
+  "publication_status": "COMMITTED_CODE_PENDING_PUSH",
+  "post_intake_integration": {
+    "recorded_at_kst": "2026-10-01T04:14:05+09:00",
+    "tested_commit": "ff2a7b7347284f628bb3f5ed74d45e6b2d486142",
+    "integrated_remote_commit": "4202d122dd4747fa2afc22cee0a94c855754da91",
+    "reason": "업로드 준비 중 추가된 담당3의 검토 보류·승인 재확인·재생 결속 구현을 보존하고 다시 검사",
+    "full_tests": {
+      "passed": 1240,
+      "failures": 0,
+      "skipped": 0,
+      "warnings": 1,
+      "seconds": 39.1
+    },
+    "metadata": {
+      "contributor_version": 3,
+      "checked_at_kst": "2026-10-01T04:10:52+09:00",
+      "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크·현재 제품 표기",
+      "json_files_checked": 39,
+      "status": "PASS",
+      "failures": [],
+      "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님"
+    },
+    "raw_log_sha256": "230cf004000701b28e01ac32e6d8ad83967c488f7670b3a95ad9a564d3c3c654",
+    "raw_junit_sha256": "e795af0434acb4aaf8a63906c864f6042c8e3b3f78bde1b8944c7fa9fe95cf96",
+    "independent_crossvalidation_result": "docs/verification/03_조지현_비교실행기_교차검증.json",
+    "actual_paid_model_calls": 0,
+    "source_code_sha256": {
+      "finals/sealed_runner.py": "756dfcccc2523860fb5d4873fcd950cd5c2e124dd5f24e01457acf464ba103d5",
+      "finals/finals_pipeline.py": "45ce44d21ccc0a25d93414775008bb83da764a00b350476290017fea8343ee4b",
+      "finals/finals_explain.py": "3f37435c166174aefe99856f55d8dc2b2960114ae2e0bad4ce6b99ba6312c972",
+      "finals/app.py": "a41243d96399422fa0d7367fc0c740f6fd88be41bee65df2fa07cf21c35e6ba7"
+    }
+  }
 }

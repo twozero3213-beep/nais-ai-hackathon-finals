@@ -1,7 +1,7 @@
 {
   "reviewer": "03 조지현",
-  "checked_at_kst": "2026-10-01T04:06:37+09:00",
-  "source_commit": "f0746f8dd190b044f5c365d236867b10c7e44db4",
+  "checked_at_kst": "2026-10-01T04:10:54+09:00",
+  "source_commit": "ff2a7b7347284f628bb3f5ed74d45e6b2d486142",
   "scope": "공개 합성 C03·C04·C06 및 일시 사본; 모든 공급자 모의",
   "actual_paid_model_calls": 0,
   "source_files_sha256": {
@@ -44,7 +44,7 @@
         "decision": "BLOCK",
         "value": null,
         "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
-        "elapsed_ms": 1.05,
+        "elapsed_ms": 0.89,
         "new_model_calls": 1,
         "receipt": {
           "usage": {
@@ -56,7 +56,7 @@
           "provider": "mock",
           "model": "MOCK_TEST_ONLY",
           "mock": true,
-          "elapsed_ms": 0.05
+          "elapsed_ms": 0.04
         },
         "model_output": {
           "method": "mean",
@@ -135,7 +135,7 @@
         "decision": "BLOCK",
         "value": 7,
         "input_sha256": "796a43a13971eda731501deefe6c473b3a2823c057588331fe5183cf26aa96fd",
-        "elapsed_ms": 0.91,
+        "elapsed_ms": 0.88,
         "new_model_calls": 1,
         "receipt": {
           "usage": {
@@ -196,7 +196,7 @@
         "decision": "BLOCK",
         "value": null,
         "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
-        "elapsed_ms": 1.24,
+        "elapsed_ms": 1.01,
         "new_model_calls": 1,
         "receipt": {
           "usage": {
@@ -289,7 +289,7 @@
         "decision": "BLOCK",
         "value": null,
         "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
-        "elapsed_ms": 0.92,
+        "elapsed_ms": 0.99,
         "new_model_calls": 1,
         "receipt": {
           "usage": {
@@ -400,7 +400,7 @@
               "scope": "registered_contract_comparison_not_independent_source_semantics"
             },
             "evidence_present": true,
-            "elapsed_ms": 2.57,
+            "elapsed_ms": 2.38,
             "input_sha256": "2de2bae8c5104b6110c56dea7e3a08ddaafdbbfd9897e7234a33c6a0c38d9225",
             "new_model_calls": 0,
             "expected_action": "ARITHMETIC_MISMATCH",
