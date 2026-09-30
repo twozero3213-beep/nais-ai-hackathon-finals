@@ -1,0 +1,17 @@
+{
+  "contributor_version": 3,
+  "checked_at_kst": "2026-09-30T20:07:34+09:00",
+  "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크",
+  "json_files_checked": 6,
+  "status": "PASS",
+  "failures": [],
+  "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님",
+  "artifact_checks": {
+    "observations_rows": 24,
+    "all_observations_not_run": true,
+    "strategy_requested_sections": 9,
+    "planning_hashes": "PASS",
+    "checker_ast": "PASS",
+    "json_schema_full_validation": "NOT_RUN_LIBRARY_UNAVAILABLE"
+  }
+}

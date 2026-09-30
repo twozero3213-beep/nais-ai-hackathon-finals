@@ -1,0 +1,1360 @@
+{
+  "schema": 1,
+  "proposal": {
+    "origin": "ARCHIVED_MODEL_OUTPUT",
+    "claim_id": "RAW-ROWS",
+    "prediction": {
+      "claim_id": "RAW-ROWS",
+      "action": "EXECUTE",
+      "reason": "The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.",
+      "value": 344
+    },
+    "execution": {
+      "claimed_run": true,
+      "execution_state": "UNCONFIRMED",
+      "claim_status": "unsupported_claim",
+      "execution_log_sha256": null
+    },
+    "raw_output": "{\n  \"results\": [\n    {\n      \"claim_id\": \"RAW-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"CURATED-ROWS\",\n      \"action\": \"EXECUTE\",\n      \"reason\": \"The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.\",\n      \"value\": 344\n    },\n    {\n      \"claim_id\": \"RAW-WITH-CURATED\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table.\"\n    },\n    {\n      \"claim_id\": \"CURATED-WITH-RAW\",\n      \"action\": \"BLOCK\",\n      \"reason\": \"The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table.\"\n    }\n  ]\n}",
+    "raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+    "provenance": {
+      "provider": "OpenAI Codex CLI",
+      "model": "gpt-6-sol",
+      "run_id": "local-codex-exec-c4d881e3e23a5acb",
+      "created_at": "2026-09-25T12:40:01.461221+00:00",
+      "reasoning_effort": "medium",
+      "single_run_four_cases": true
+    },
+    "input_hashes": {
+      "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+      "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    },
+    "protocol_sha256": "078b771c1a99f228e280cdfb53fa16e930997d4c1563b2a5ededf10b325b38b9",
+    "observations_sha256": "d41a6c16e18552d3e76731940e02c04c1838ddae4f1764395c794174cadd0d99",
+    "trial_prompt_sha256": "c4d881e3e23a5acbd066855f7b0a191889a23507b8351b3616b7f5293ad4bfe4",
+    "protocol_binding": "legacy_artifact_association_not_run_attestation"
+  },
+  "mapping": {
+    "origin": "DEVELOPER_REGISTERED_MAPPING",
+    "metadata": {
+      "claim_id": "PENG-RAW-ROWS",
+      "source_pair_id": "palmerpenguins_reused_2022",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+      "claim_text": "penguins_raw: 344 individual penguins",
+      "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "missing_policy": "error",
+      "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+      "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+      "source_quote": "recorded completely or in part for 344 individual penguins",
+      "source_kind": "article_extract",
+      "scope_status": "EVALUATION_MAPPING",
+      "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+      "collected_at": "2026-09-28",
+      "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+      "license": "CC BY 4.0 (article text); CC0 (data)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+      "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+    },
+    "note": "동일 CSV 지문과 인용 부분문자열로 개발자가 연결한 기존 등록. AI가 원문위치·해시·분모를 생성했다는 증거가 아니며 의미 정답 승인 없음."
+  },
+  "stages": [
+    {
+      "stage": "MISSING_EVIDENCE",
+      "origin": "SYNTHETIC_FAULT",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "BLOCK",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "reason": "필수 문자열 필드: source_location"
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {},
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "7935b0348f72be1997bdbe4a1fa963a324b0118ae24703ff3b0bf8ccb18ef4e1",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "actual_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          }
+        ],
+        "content_sha256": "e462bd6c7e2e7d03ca0ea7cf04d6a64270bc8669f37a19f87ccf6feaf9578446"
+      },
+      "previous_sha256": "0186bc87a7edcf62deace2596a74a6ab014c02b7f95602ba5dd013a3f0777fc6",
+      "verifier_provenance_sha256": "523eb31986373a8a5772e129a068aa05f9c1a2ee5dc6ec32a55ce4c30636f0e3",
+      "repair": {
+        "field": "source_location",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "restore_from": "existing registered mapping",
+        "next_action": "빈 원문위치를 기존 등록값으로 복원 후 재검산; 새로운 의미 승인을 만들지 않음"
+      },
+      "stage_sha256": "2a6c2c17455020f27c290f0314ab51f97eeb7774240f9f4a5cef87ac8c247ff1"
+    },
+    {
+      "stage": "RESTORED_MAPPING",
+      "origin": "DEVELOPER_REGISTERED_MAPPING",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "ARITHMETIC_MATCH",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "value": 344.0,
+        "independent_value": 344.0,
+        "reported_value": 344.0,
+        "rows_used": 344,
+        "observations_used": 344,
+        "confirmation_source": "evaluation_mapping_not_human",
+        "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {},
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "1f4dbf52ff5fd50d7e237ac80d4f2a62d3fec605c618528c17793cd4ea605e21",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "actual_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          }
+        ],
+        "content_sha256": "ebcccf68e50dd36a947eff8861f76ca1e07f5847fd578ad31e4e1264ec3331ea"
+      },
+      "previous_sha256": "2a6c2c17455020f27c290f0314ab51f97eeb7774240f9f4a5cef87ac8c247ff1",
+      "verifier_provenance_sha256": "523eb31986373a8a5772e129a068aa05f9c1a2ee5dc6ec32a55ce4c30636f0e3",
+      "repair": {
+        "field": "source_location",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "restore_from": "existing registered mapping",
+        "next_action": "빈 원문위치를 기존 등록값으로 복원 후 재검산; 새로운 의미 승인을 만들지 않음"
+      },
+      "stage_sha256": "a6e599f260733097cc589e79c2d0e8aa5c8487a89f58a736f8699feac27725eb"
+    },
+    {
+      "stage": "RECHECKED",
+      "origin": "EXISTING_TWO_ENGINE_EXECUTION",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "ARITHMETIC_MATCH",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "value": 344.0,
+        "independent_value": 344.0,
+        "reported_value": 344.0,
+        "rows_used": 344,
+        "observations_used": 344,
+        "confirmation_source": "evaluation_mapping_not_human",
+        "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {},
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "1f4dbf52ff5fd50d7e237ac80d4f2a62d3fec605c618528c17793cd4ea605e21",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "actual_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          }
+        ],
+        "content_sha256": "ebcccf68e50dd36a947eff8861f76ca1e07f5847fd578ad31e4e1264ec3331ea"
+      },
+      "previous_sha256": "a6e599f260733097cc589e79c2d0e8aa5c8487a89f58a736f8699feac27725eb",
+      "verifier_provenance_sha256": "523eb31986373a8a5772e129a068aa05f9c1a2ee5dc6ec32a55ce4c30636f0e3",
+      "repair": {
+        "field": "source_location",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "restore_from": "existing registered mapping",
+        "next_action": "빈 원문위치를 기존 등록값으로 복원 후 재검산; 새로운 의미 승인을 만들지 않음"
+      },
+      "stage_sha256": "028b648f9fc5df092a76857fb59d82654b00a2a719369ce77e4b8ffe056a7c0c"
+    },
+    {
+      "stage": "INPUT_CHANGED",
+      "origin": "SYNTHETIC_CHANGE",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "BLOCK",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "reason": "등록 파일 해시 불일치"
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {},
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "1f4dbf52ff5fd50d7e237ac80d4f2a62d3fec605c618528c17793cd4ea605e21",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "actual_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "ac22f6c9eff66bebe236e8a9ecac3c8f701cf2ceb67dd1fd20eeb273a9c79a7b",
+                "status": "BLOCKED_INPUT",
+                "reason": "DECLARED_HASH_MISMATCH"
+              }
+            },
+            "status": "BLOCKED_INPUT"
+          }
+        ],
+        "content_sha256": "c4fc83c60f6abd88eb9bf214a6e6b9fa1a0d0592870aafab6d52e141a8e474fa"
+      },
+      "impact": {
+        "schema": 1,
+        "results": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "action": "UNCHANGED",
+            "changed_inputs": []
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "action": "BLOCKED_INPUT",
+            "changed_inputs": [
+              "data_bytes",
+              "data_consistency"
+            ]
+          }
+        ],
+        "counts": {
+          "ADDED": 0,
+          "REMOVED": 0,
+          "UNCHANGED": 1,
+          "REEXECUTION_REQUIRED": 0,
+          "BLOCKED_INPUT": 1
+        },
+        "human_approval": false,
+        "limitations": "Input identity and declared-hash consistency only; not source truth, human approval, arithmetic verification or generic-AI superiority. Rewriting content and all hashes together is not detected.",
+        "previous_sha256": "ebcccf68e50dd36a947eff8861f76ca1e07f5847fd578ad31e4e1264ec3331ea",
+        "current_sha256": "c4fc83c60f6abd88eb9bf214a6e6b9fa1a0d0592870aafab6d52e141a8e474fa"
+      },
+      "previous_sha256": "028b648f9fc5df092a76857fb59d82654b00a2a719369ce77e4b8ffe056a7c0c",
+      "verifier_provenance_sha256": "523eb31986373a8a5772e129a068aa05f9c1a2ee5dc6ec32a55ce4c30636f0e3",
+      "reuse_previous_result": false,
+      "stage_sha256": "fcea2930cab1632668e4a6b612502ff255393fa72f489669e9d2fd15d6aab8c4"
+    }
+  ],
+  "change_scenarios": [
+    {
+      "kind": "data_bytes_without_hash_update",
+      "origin": "SYNTHETIC_CHANGE",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {},
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "1f4dbf52ff5fd50d7e237ac80d4f2a62d3fec605c618528c17793cd4ea605e21",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "actual_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "ac22f6c9eff66bebe236e8a9ecac3c8f701cf2ceb67dd1fd20eeb273a9c79a7b",
+                "status": "BLOCKED_INPUT",
+                "reason": "DECLARED_HASH_MISMATCH"
+              }
+            },
+            "status": "BLOCKED_INPUT"
+          }
+        ],
+        "content_sha256": "c4fc83c60f6abd88eb9bf214a6e6b9fa1a0d0592870aafab6d52e141a8e474fa"
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "BLOCK",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "reason": "등록 파일 해시 불일치"
+      },
+      "impact": {
+        "schema": 1,
+        "results": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "action": "UNCHANGED",
+            "changed_inputs": []
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "action": "BLOCKED_INPUT",
+            "changed_inputs": [
+              "data_bytes",
+              "data_consistency"
+            ]
+          }
+        ],
+        "counts": {
+          "ADDED": 0,
+          "REMOVED": 0,
+          "UNCHANGED": 1,
+          "REEXECUTION_REQUIRED": 0,
+          "BLOCKED_INPUT": 1
+        },
+        "human_approval": false,
+        "limitations": "Input identity and declared-hash consistency only; not source truth, human approval, arithmetic verification or generic-AI superiority. Rewriting content and all hashes together is not detected.",
+        "previous_sha256": "ebcccf68e50dd36a947eff8861f76ca1e07f5847fd578ad31e4e1264ec3331ea",
+        "current_sha256": "c4fc83c60f6abd88eb9bf214a6e6b9fa1a0d0592870aafab6d52e141a8e474fa"
+      },
+      "reuse_previous_result": false,
+      "baseline_stage_sha256": "028b648f9fc5df092a76857fb59d82654b00a2a719369ce77e4b8ffe056a7c0c"
+    },
+    {
+      "kind": "source_bytes_with_hash_update",
+      "origin": "SYNTHETIC_CHANGE",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "0196b017fb9f2cc5ec5a3f933556bd8923c67b6b4f224b899b2c99653c6a4f63",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {},
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "0196b017fb9f2cc5ec5a3f933556bd8923c67b6b4f224b899b2c99653c6a4f63",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "c681b3bcbf8df69fd316b3726c2fa4ba370c63c348eeced4e0bea1e56a301007",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "0196b017fb9f2cc5ec5a3f933556bd8923c67b6b4f224b899b2c99653c6a4f63",
+                "actual_sha256": "0196b017fb9f2cc5ec5a3f933556bd8923c67b6b4f224b899b2c99653c6a4f63",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          }
+        ],
+        "content_sha256": "e8c647d489ac7849f6773696b3f07a8a86fdd155807a56abb632e50ea49960f9"
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "ARITHMETIC_MATCH",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "value": 344.0,
+        "independent_value": 344.0,
+        "reported_value": 344.0,
+        "rows_used": 344,
+        "observations_used": 344,
+        "confirmation_source": "evaluation_mapping_not_human",
+        "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+      },
+      "impact": {
+        "schema": 1,
+        "results": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "action": "UNCHANGED",
+            "changed_inputs": []
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "action": "REEXECUTION_REQUIRED",
+            "changed_inputs": [
+              "case_metadata",
+              "source_bytes",
+              "source_declared_hash"
+            ]
+          }
+        ],
+        "counts": {
+          "ADDED": 0,
+          "REMOVED": 0,
+          "UNCHANGED": 1,
+          "REEXECUTION_REQUIRED": 1,
+          "BLOCKED_INPUT": 0
+        },
+        "human_approval": false,
+        "limitations": "Input identity and declared-hash consistency only; not source truth, human approval, arithmetic verification or generic-AI superiority. Rewriting content and all hashes together is not detected.",
+        "previous_sha256": "ebcccf68e50dd36a947eff8861f76ca1e07f5847fd578ad31e4e1264ec3331ea",
+        "current_sha256": "e8c647d489ac7849f6773696b3f07a8a86fdd155807a56abb632e50ea49960f9"
+      },
+      "reuse_previous_result": false,
+      "baseline_stage_sha256": "028b648f9fc5df092a76857fb59d82654b00a2a719369ce77e4b8ffe056a7c0c"
+    },
+    {
+      "kind": "filter",
+      "origin": "SYNTHETIC_CHANGE",
+      "metadata": {
+        "claim_id": "PENG-RAW-ROWS",
+        "source_pair_id": "palmerpenguins_reused_2022",
+        "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+        "claim_text": "penguins_raw: 344 individual penguins",
+        "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "method": "count_rows",
+        "column": "",
+        "filters": {
+          "Species": "Adelie Penguin (Pygoscelis adeliae)"
+        },
+        "delimiter": ",",
+        "reported_value": 344,
+        "tolerance": 0,
+        "missing_policy": "error",
+        "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+        "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+        "source_quote": "recorded completely or in part for 344 individual penguins",
+        "source_kind": "article_extract",
+        "scope_status": "EVALUATION_MAPPING",
+        "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+        "collected_at": "2026-09-28",
+        "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+        "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+        "license": "CC BY 4.0 (article text); CC0 (data)",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+        "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+      },
+      "snapshot": {
+        "schema": 1,
+        "registry_metadata": {
+          "schema": 1
+        },
+        "registry_metadata_sha256": "67d6291b301412df4a6ca7808aeafac9d0587b06ece3c68e72bab0157cd9d52c",
+        "claims": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "metadata": {
+              "claim_id": "BAT-POSITIVE-N",
+              "source_pair_id": "bat_reused_2016",
+              "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_location": "Results / Identification of BAT positive patients",
+              "claim_text": "53 patients had metabolically active BAT",
+              "data_file": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+              "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Readout.bat": "1"
+              },
+              "delimiter": ",",
+              "reported_value": 53,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/bat/publisher_article.html",
+              "source_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+              "source_quote": "Metabolically active BAT was found in 53 patients",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR",
+              "collected_at": "2026-09-28",
+              "license": "CC BY-NC-ND 4.0 (dataset; noncommercial, no derivatives)",
+              "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "scope_note": "Existing author CSV and publisher extract reused byte-for-byte; count is positive scan records and article says no positive patient had more than one active scan.",
+              "source_capture_method": "Unmodified publisher HTML response body; bytes/hash match prior source-pair provenance.",
+              "source_original_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+              "source_retrieved_at": "2026-09-26T06:58:35Z (existing capture)"
+            },
+            "metadata_sha256": "efc522922809a77a3700f3898b7c07da48460912df45d5679e5c7b1be3d19049",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/bat/publisher_article.html",
+                "declared_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "actual_sha256": "c4882e75eef3db8587cc6117776ecaebe7d57511184229590b7437ab9ea7bb0e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/bat/bat.morphology.anonymized.csv",
+                "declared_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "actual_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "metadata": {
+              "claim_id": "PENG-RAW-ROWS",
+              "source_pair_id": "palmerpenguins_reused_2022",
+              "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+              "claim_text": "penguins_raw: 344 individual penguins",
+              "data_file": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+              "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+              "method": "count_rows",
+              "column": "",
+              "filters": {
+                "Species": "Adelie Penguin (Pygoscelis adeliae)"
+              },
+              "delimiter": ",",
+              "reported_value": 344,
+              "tolerance": 0,
+              "missing_policy": "error",
+              "source_file": "data/evaluation/public_case_sources/penguins_publisher.html",
+              "source_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+              "source_quote": "recorded completely or in part for 344 individual penguins",
+              "source_kind": "article_extract",
+              "scope_status": "EVALUATION_MAPPING",
+              "evidence_status": "REUSED_EXISTING_SOURCE_PAIR; ORIGINAL_HTML_CAPTURED_AND_HASH_MATCHES_PRIOR_CAPTURE",
+              "collected_at": "2026-09-28",
+              "source_original_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+              "source_capture_method": "Unmodified HTTP response body captured 2026-09-28; SHA256 equals the publisher HTML digest recorded in SOURCE_ATTRIBUTION.md (2026-09-25). Quote substring is present in the source HTML bytes.",
+              "license": "CC BY 4.0 (article text); CC0 (data)",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "data_original_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins_raw.csv",
+              "scope_note": "Author raw CSV from pinned upstream commit; row count only. No missingness or full paper claim."
+            },
+            "metadata_sha256": "6610a668afdd786af6a83ac3922223da6683163164a50f4f6299e8243eb0d263",
+            "references": {
+              "source": {
+                "path": "data/evaluation/public_case_sources/penguins_publisher.html",
+                "declared_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "actual_sha256": "6709038972ec7b55ad9ac68bcaf783758d3659b3d8c6c9ec9c030e8f10f3d71e",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              },
+              "data": {
+                "path": "data/evaluation/public_case_sources/penguins_author_raw.csv",
+                "declared_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "actual_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+                "status": "CONSISTENT",
+                "reason": "DECLARED_HASH_MATCH"
+              }
+            },
+            "status": "CONSISTENT"
+          }
+        ],
+        "content_sha256": "8c63d593b5939821e59c1d9e4f296b4452836ddef3fbc9db56e3527442323891"
+      },
+      "result": {
+        "claim_id": "PENG-RAW-ROWS",
+        "action": "ARITHMETIC_MISMATCH",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "value": 152.0,
+        "independent_value": 152.0,
+        "reported_value": 344.0,
+        "rows_used": 152,
+        "observations_used": 152,
+        "confirmation_source": "evaluation_mapping_not_human",
+        "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+      },
+      "impact": {
+        "schema": 1,
+        "results": [
+          {
+            "claim_id": "BAT-POSITIVE-N",
+            "action": "UNCHANGED",
+            "changed_inputs": []
+          },
+          {
+            "claim_id": "PENG-RAW-ROWS",
+            "action": "REEXECUTION_REQUIRED",
+            "changed_inputs": [
+              "case_metadata"
+            ]
+          }
+        ],
+        "counts": {
+          "ADDED": 0,
+          "REMOVED": 0,
+          "UNCHANGED": 1,
+          "REEXECUTION_REQUIRED": 1,
+          "BLOCKED_INPUT": 0
+        },
+        "human_approval": false,
+        "limitations": "Input identity and declared-hash consistency only; not source truth, human approval, arithmetic verification or generic-AI superiority. Rewriting content and all hashes together is not detected.",
+        "previous_sha256": "ebcccf68e50dd36a947eff8861f76ca1e07f5847fd578ad31e4e1264ec3331ea",
+        "current_sha256": "8c63d593b5939821e59c1d9e4f296b4452836ddef3fbc9db56e3527442323891"
+      },
+      "reuse_previous_result": false,
+      "baseline_stage_sha256": "028b648f9fc5df092a76857fb59d82654b00a2a719369ce77e4b8ffe056a7c0c"
+    }
+  ],
+  "input_snapshot_sha256": "36b802fe4193d5b9bcf87e896beda02e12522b7b8b306923140702663d1f0dd0",
+  "provenance": {
+    "source_revision": "srcsha256:ac960f22450e518488d9bae2f59e5888a0d2f45cebda072e3a0e89d5e6526df7",
+    "environment": {
+      "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "python.exe",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+      "packages": {
+        "pandas": "2.3.3",
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "statsmodels": "0.15.0",
+        "streamlit": "1.64.0",
+        "pypdf": "6.19.0"
+      },
+      "thread_env": {
+        "OMP_NUM_THREADS": "",
+        "OPENBLAS_NUM_THREADS": "",
+        "MKL_NUM_THREADS": "",
+        "NUMEXPR_NUM_THREADS": ""
+      }
+    }
+  },
+  "comparison_counts": {
+    "cases": 4,
+    "model_calls": 1,
+    "action_agreements": 4,
+    "product_arithmetic_matches": 2,
+    "model_arithmetic_matches": 2,
+    "blocked_replayable": 2,
+    "potential_overblocks": null
+  },
+  "new_model_calls": 0,
+  "human_approval": false,
+  "new_source_pairs": 0,
+  "scope": "Archived AI suggestion, developer mapping and explicitly synthetic faults. No semantic gold, full-paper reproduction or superiority.",
+  "limitations": "원출력은 2026-09-25 보관값이며 실행 로그 미확인. 합성 누락을 실제 AI 오류로 세지 않음. 명세 복원은 개발자 등록값 재사용. 지문은 자체결속이며 작성자 진실성 인증 아님."
+}

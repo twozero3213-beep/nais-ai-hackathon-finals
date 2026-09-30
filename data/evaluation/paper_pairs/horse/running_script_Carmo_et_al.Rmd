@@ -1,0 +1,778 @@
+---
+title: "Statistical Analysis Carmo et al - Horse behaviour"
+author: "Ruan Daros"
+date: "June/2022"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: 6
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: '6'
+editor_options:
+  chunk_output_type: console
+always_allow_html: yes
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+## Background
+
+Animal emotion research to date has focused more on negative than positive emotions.
+But with the explicit incorporation of positive welfare into the animal welfare 
+concept (Mellor, 2016) this area of research has seen significant development in 
+the past decade (Boissy et al 2007; Rault et al 2019). Animal behaviour studies 
+can indicate how an animal feels under a given circumstance (Weary et al., 2017) 
+and have been applied to study positive emotions successfully (e.g., van der Harst 
+and Spruijt, 2007; Yeates and Main, 2008).
+
+## Objectives and hypothesis
+
+The aims of this study are to assess the impact of positive reinforcement on horse
+anticipatory behaviour to enter a horse chute and evaluate horse facial movements 
+before and after receiving a food reward. Horses are expected to show marked
+anticipatory behaviour (e.g., more time close to the gate that leads to the horse 
+chute) during the positive reinforced phase compared to the habituation phase (no
+reinforcement applied) and facial expressions should be distinct before and after
+receiving a food reward.
+
+## Methods
+
+Data was collected in the last three weeks of February 2021. Week 1 being the
+baseline and habituation phase and weeks 2 and 3 the experimental phase. Data 
+was collected on the afternoons of Wed, Thu and Fri of each week. Horse behaviour
+was video recorded and further tabulated. Specifically, in the experimental phase
+half of the animals received positive reinforcement in week 2. The other half of 
+the animals were used as control and no reinforcement was applied. In week 3 a
+cross-over between the groups was applied (i.e. the half of the animals that
+received the food rewards in week 2 now became the control group).
+
+Video clips of the third day from the positive reinforcement (PR) and control
+phases were analyzed to extract the data regarding the facial action units (i.e.
+facial expression) of each animal. Interobserver reliability was calculated with
+data collected independently by LGC and LCW on 12 60-sec video clips of horses
+participating in the study. In our analysis we considered 35 action units described
+in Wathan et al., (2015). Most action units were considered events but some were
+considered states and duration of each one of these were calculated.
+
+## Statiscal approach
+
+Experimental design features include repeated measures, a baseline period and an
+experimental period with cross-over. This allows for two approaches - Btw / within
+subject. When repeated measures are used horse will be included as random effect
+in the GLMs. There are several outcomes of interest in this study, with several 
+types: binary, continuous (normal) and counts. When possible simpler statistical
+tests will be applied (eg. paired t-test for facial expression data).
+
+### Packages and custom functions
+```{r, message=F, warning=FALSE}
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(ggsignif)
+library(irr)
+library(emmeans)
+ORand95CI <- function(model, confint_method) {
+  
+  model_OR <- fixef(model)
+  
+  if (confint_method == "profile")
+    model_CI <- confint(model)
+  if (confint_method == "wald")
+    model_CI <- confint(model, method = "Wald")
+  
+  table <- round(data.frame(exp(model_OR), exp(model_CI[-1, ])), digits = 2)
+  names(table) <- c("OR", "LowerCI", "UpperCI")
+  
+  return(print(table))
+}
+
+```
+
+### Loading dataset & Wrangling & Descriptive stats
+
+```{r, warning=FALSE}
+#loading dataset and creating variables related to time closer to the gate
+raw <- read_csv("Dados_Laize_ISAE2021.csv") %>% 
+  mutate(TT_BEF = AREA1_ANTES + OUTRAS_ANTES,
+         TT_AFT = AREA1_DEPOIS + OUTRAS_DEPOIS,
+         PropT_A1_BEF = AREA1_ANTES/TT_BEF,
+         PropT_A1_AFT = AREA1_DEPOIS/TT_AFT,
+         rest_alltime = case_when(DESCANSO == "30-60" ~ "1",
+                                    is.na(DESCANSO) ~ "NA",
+                                    TRUE ~ "0"),
+         rest_never = case_when(DESCANSO == "0" ~ "1",
+                                  is.na(DESCANSO) ~ "NA",
+                                  TRUE ~ "0"),
+         rest_part_time = case_when(rest_alltime == "1" ~ "0",
+                                 rest_never == "1" ~ "0",
+                                 TRUE ~ "1"))
+
+# first day(s) of treatments has no impact on animal beh. thus we can create 
+# datasets that only the last day of the experiment. we also can compare PR vs
+# baseline when needed.
+
+#creating a dataset for comparing PR versus control (only last day of each)
+data_btw <- raw %>% 
+  filter(EXP_DAY != 4,
+         EXP_DAY != 5,
+         EXP_DAY != 7,
+         EXP_DAY != 8) %>% 
+  filter(GRUPO != "Baseline")
+
+# creating a dataset for baseline vs PR (only last day)
+data_wth <- raw %>% 
+  filter(EXP_DAY != 4,
+         EXP_DAY != 5,
+         EXP_DAY != 7,
+         EXP_DAY != 8) %>% 
+  filter(GRUPO != "Controle")
+
+# Importing EquiFACS data
+FACS <- read_csv("data_EquiFACS.csv")
+
+
+# We also further collected data on freq of all FACS and recalculated frequencies # We will import this dataset as well.
+FACS2 <- read_csv("data_EquiFACS_Extras_and_all_F.csv")
+
+#We have another set with all extras FACS and the AUH13 that wasnot complete in
+#the other sets
+FACS3 <- read_csv("EquiFACS_AUH13_And_Extras.csv")
+```
+
+## Results
+
+### Anticipatory behaviours
+
+Let's check if treatment had an effect on order arrival. For this comparison we
+can use all days from baseline against final two days of the PR phase.
+
+```{r}
+tmp_data <- raw %>% 
+  filter(GRUPO != "Controle") %>% 
+  filter(EXP_DAY != 4)
+
+arrival_order <- lmer(ORDEM ~ GRUPO + (1|NOME), data = tmp_data)
+summary(arrival_order, corr = F) #no effect of treatment on order of arrival)
+
+rm(tmp_data)
+```
+**No effect of PR on order arrival**
+
+Another behavior of interest is the number of times the animals entered the
+central area of the holding area and time in the central section of the holding
+area. Hypotheses: Cows anticipating a reward will enter (or spend more time in) 
+the center more often. In this case we can check the last day of control and PR
+phase, if they do note differ we can check experimental (PR only) vs baseline.
+
+```{r}
+# Control vs PR
+
+#model
+N_area1a <- lmer(N_AREA1 ~ GRUPO + (1|NOME), data = data_btw)
+summary(N_area1a, corr = F) #no effect
+
+# second approach experimental phase vs baseline
+
+N_area1b <- lmer(N_AREA1 ~ GRUPO + (1|NOME), data = data_wth)
+summary(N_area1b, corr = F) #still, no effect
+
+# Time in Area 1 (proportion of time will be used to avoid confounding)
+
+# model between exptal phase Area 1 before passing through the chute. Hypotheses:
+# Horses will stay for longer in A1 before
+prop_a1_befa <- lmer(PropT_A1_BEF ~ GRUPO + (1|NOME), data = data_btw)
+summary(prop_a1_befa, corr = F)
+
+#Proportion of time in area 1 before (comparison between baseline and PR)
+
+prop_a1_befb <- lmer(PropT_A1_BEF ~ GRUPO + (1|NOME), data = data_wth)
+summary(prop_a1_befb, corr = F)
+
+```
+**Most of the variables did not support the hypothesis.** However, when comparing
+the last day of the PR phase against baseline (all three days), we see a tendency.
+Horses spent 40% of the time in the central area before passing through the chute
+while they only spent 28% of the time in the central area before passing through
+the chute.
+
+### Behaviours in the chute
+
+Several behaviors were assessed upon horse entered the chute. Most of them were
+assessed as if they happened or not, thus they are binary. We will used mixed 
+log reg for those. A similar approach as used above of comparing between groups
+(control/PR) and comparing between baseline and PR will be applied.
+
+**NECK POSITION**
+Lowered neck represents horses being calm and relaxed, hyper elevated neck 
+represents attentive behavior. However hyper elevated neck was only seen 5
+times. Thus we will not check this behavior.
+
+```{r}
+#PR vs control
+lowered_necka <- glmer(NECK_ABAIXO ~ GRUPO + (1|NOME), 
+                    data = data_btw,
+                    family = binomial)
+summary(lowered_necka, corr = F)
+ORand95CI(lowered_necka, confint_method = "wald")
+## no effect. I also checked using the last 2 days of each phase. Same results
+
+#PR vs baseline
+lowered_neckb <- glmer(NECK_ABAIXO ~ GRUPO + (1|NOME), 
+                    data = data_wth,
+                    family = binomial)
+summary(lowered_neckb, corr = F) #also a tendency, but see CI below
+ORand95CI(lowered_neckb, confint_method = "profile")
+```
+Horses were less likely to show lowered neck during the exp phase compared to
+baseline. However PR did not differ from control.
+
+
+**TAIL MOVEMENT**
+
+```{r}
+#PR vs control
+movin_taila <- glmer(RABO_MOVIMENTO ~ GRUPO + (1|NOME), 
+                    data = data_btw,
+                    family = binomial)
+summary(movin_taila, corr = F)
+## no effect. I also checked using the last 2 days of each phase. Same results
+
+#PR vs baseline
+movin_tailb <- glmer(RABO_MOVIMENTO ~ GRUPO + (1|NOME), 
+                    data = data_wth,
+                    family = binomial)
+summary(movin_tailb, corr = F)
+## no effect. I also checked using the last 2 days of each phase. Same results
+```
+**No effects on tail movement**
+
+**RESTING**
+This variable was categorized as "no rest", "part time resting" and "resting all
+time". We will be looking at no rest and resting all time.
+
+```{r}
+#PR vs control
+model_rest_alla <- glmer(as.factor(rest_alltime) ~ GRUPO + (1|NOME),
+                    data = data_btw,
+                    family = binomial)
+summary(model_rest_alla, corr = F)
+## model did not fit
+
+#PR vs baseline
+model_rest_allb <- glmer(as.factor(rest_alltime) ~ GRUPO + (1|NOME), 
+                    data = data_wth,
+                    family = binomial)
+summary(model_rest_allb, corr = F)
+## no effect. I also checked using the last 2 days of each phase. Same results
+
+# NO REST
+#PR vs control
+model_no_rest_a <- glmer(as.factor(rest_never) ~ GRUPO + (1|NOME),
+                    data = data_btw,
+                    family = binomial)
+summary(model_no_rest_a, corr = F)
+## model did not fit
+
+#PR vs baseline
+model_no_rest_b <- glmer(as.factor(rest_never) ~ GRUPO + (1|NOME), 
+                    data = data_wth,
+                    family = binomial)
+summary(model_no_rest_b, corr = F)
+## no effect. I also checked using the last 2 days of each phase. Same results
+```
+**No effect on resting behavior**
+
+### Facial expression
+
+Facial action units were assessed using the ethogram by EquiFACS (Wathan et al
+2015). 
+
+#### Inter observer reliability
+
+Because facial expressions are subjective we need to assess interobserver
+reliability. There are several methodologies for that, but a simple one may be 
+the use or ICC from the irr package that allows for checking reliability of
+continuous variables. We will check if overall reliability of frequency and
+duration os FACS from 5 randomly select 60 sec video clips.
+```{r}
+icc <-read_csv("ICC_laize_lais.csv")
+event_freq <- select(icc, N_Laize, N_Lais)
+duration <- select(icc, Duration_Laize, Duration_Lais) %>% 
+  filter(!is.na(Duration_Laize))
+
+#ICC
+icc(event_freq, model="twoway", type="consistency")
+
+```
+There is consistency (ICC = 0.72) in the frequency of FACS observed by the two
+raters.
+
+### EquiFACS comparisons
+
+60 sec video clips were analyzed for extracting all FACS expressed by the animals
+in all phases of the study. Because the videos were collected after immediately
+after control or positive reinforcement we may use the last two day of each
+treatment. Most of the FACS variables will not be normally distributed, however
+all of them are continuous and linear regressions are quite robust to deal with 
+this type of data. Beside this analysis a second approach will also be
+used to further investigate the effects of treatment: for count data, mixed poisson
+will be used, while for continuous data that was extremely skewed we will drop 
+all zero values and re-run the mixed linear regression or use a gamma regression
+(as last resource).
+
+```{r, warning=FALSE, message=FALSE}
+df_facs <- FACS %>% filter(GROUP != "Baseline")
+
+
+#AU101 - state event
+summary(df_facs$AU101)
+hist(df_facs$AU101) 
+AU101 <- lmer(AU101 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AU101, corr = F) #suppressing output
+  emmeans(AU101, pairwise ~ GROUP)
+  AU101_p <- glmer(AU101 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU101_p, corr = F)
+
+
+#AU101 - point event 
+  AU101_f <- lmer(AU101_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU101_f, corr = F) #supress output
+  emmeans(AU101_f, pairwise ~ GROUP)
+
+  AU101_fp <- glmer(AU101_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU101_fp, corr = F)
+  ORand95CI(AU101_fp, confint_method = "wald")
+
+#AU143 - point event
+hist(df_facs$AU143)
+  AU143 <- lmer(AU143 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AU143, corr = F) #supress output
+  emmeans(AU143, pairwise ~ GROUP)
+
+  AU143_p <- glmer(AU143 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU143_p, corr = F)
+  exp(fixef(AU143_p))
+
+#AU145 - point event
+hist(df_facs$AU145) #pretty normal, no need for poisson
+  AU145 <- lmer(AU145 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AU145, corr = F) #supressing output
+  emmeans(AU145, pairwise ~ GROUP)
+  
+
+#AU47 - point event
+hist(df_facs$AU47) #more normal than skewed
+  AU47 <- lmer(AU47 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AU47, corr = F) #supressing output
+  emmeans(AU47, pairwise ~ GROUP)
+  #AU47_p <- glmer(AU47 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  #summary(AU47_p, corr = F) #supressing output, results not diff than lmer
+
+#AU5 - state event
+hist(df_facs$AU5) #skewed
+  AU5 <- lmer(AU5 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU5, corr = F)
+  emmeans(AU5, pairwise ~ GROUP)
+  #poisson model doesnt converge
+  #AU5_p <- glmer(AU5 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  #summary(AU5_p, corr = F)
+  #ORand95CI(AU5_p, confint_method = "wald")
+  
+#AU5 point event
+  AU5_f <- lmer(AU5_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU5_f, corr = F) #supress output
+  emmeans(AU5_f, pairwise ~ GROUP)
+  
+  AU5_fp <- glmer(AU5_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU5_fp, corr = F)
+  ORand95CI(AU5_fp, confint_method = "wald")
+  
+  
+#AD1 - state event
+summary(df_facs$AD1)
+  hist(df_facs$AD1) #skewed, must run poisson reg
+  AD1 <- lmer(AD1 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AD1, corr = F) #
+  emmeans(AD1, pairwise ~ GROUP)
+  AD1_p <- glmer(AD1 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AD1_p, corr = F) 
+  ORand95CI(AD1_p, confint_method = "wald")
+
+#AD1 - point event
+  AD1_f <- lmer(AD1_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AD1_f, corr = F) #supress output
+  emmeans(AD1_f, pairwise ~ GROUP)
+  
+  AD1_fp <- glmer(AD1_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AD1_fp, corr = F)
+  ORand95CI(AD1_fp, confint_method = "wald")
+  
+  
+#AU10
+summary(df_facs$AU10) #behaviour not observed in any horse
+
+#AU12 - state event
+hist(df_facs$AU12) #skewed, must check poission
+  AU12 <- lmer(AU12 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU12, corr = F)
+  emmeans(AU12, pairwise ~ GROUP) 
+  AU12_p <- glmer(AU12 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU12_p, corr = F) 
+  ORand95CI(AU12_p, confint_method = "wald")
+
+#AU12 - point event
+  AU12_f <- lmer(AU12_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU12_f, corr = F) #supress output
+  emmeans(AU12_f, pairwise ~ GROUP)
+  
+  AU12_fp <- glmer(AU12_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU12_fp, corr = F)
+  ORand95CI(AU12_fp, confint_method = "wald")
+
+
+#AU113 - state event
+summary(df_facs$AU113) #behavior not observed in any horse.
+
+#AUH13 - state event
+hist(df_facs$AUH13) #must check poisson
+  AUH13 <- lmer(AUH13 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AUH13, corr = F)
+  emmeans(AUH13, pairwise ~ GROUP)
+  #AUH13_p <- glmer(AUH13 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  #summary(AUH13_p, corr = F) #doesnt converge
+  #ORand95CI(AUH13_p, confint_method = "wald")
+
+#AUH13 - point event
+  AUH13_f <- lmer(AUH13_F ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AUH13_f, corr = F) #supress output
+  emmeans(AUH13_f, pairwise ~ GROUP)
+  
+  AUH13_fp <- glmer(AUH13_F ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  summary(AUH13_fp, corr = F)
+  ORand95CI(AUH13_fp, confint_method = "wald")
+  
+  
+#AU16 - point event
+hist(df_facs$AU16) #highly skewed
+  AU16 <- lmer(AU16 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU16, corr = F)
+  emmeans(AU16, pairwise ~ GROUP)
+  AU16_p <- glmer(AU16 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU16_p, corr = F)
+
+#AD160 (=AD160) - state event
+hist(df_facs$AD160) #no need for poisson
+  AU160 <- lmer(AD160 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU160, corr = F)
+  emmeans(AU160, pairwise ~ GROUP) 
+
+#AD160 (=AD160) - point event #Poisson model doesn't converge properly narrow CI
+  AD160_f <- lmer(AD160_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AD160_f, corr = F) #supress output
+  emmeans(AD160_f, pairwise ~ GROUP)
+  
+  #AD160_fp <- glmer(AD160_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  #summary(AD160_fp, corr = F)
+  #ORand95CI(AD160_fp, confint_method = "wald")
+
+#AU17 - point event
+hist(df_facs$AU17) #highly skewed
+  AU17 <- lmer(AU17 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU17, corr = F)
+  emmeans(AU17, pairwise ~ GROUP)
+  AU17_p <- glmer(AU17 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU17_p, corr = F)
+  ORand95CI(AU17_p, confint_method = "wald")
+  
+#AU18 - state event
+hist(df_facs$AU18) #must check poisson
+AU18 <- lmer(AU18 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU18, corr = F)
+  emmeans(AU18, pairwise ~ "GROUP")
+  AU18_p <- glmer(AU18 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU18_p, corr = F)
+  ORand95CI(AU18_p, confint_method = "wald")
+
+#AU18 - point event
+  AU18_f <- lmer(AU18_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU18_f, corr = F) #supress output
+  emmeans(AU18_f, pairwise ~ GROUP)
+  
+  AU18_fp <- glmer(AU18_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU18_fp, corr = F)
+  ORand95CI(AU18_fp, confint_method = "wald")
+  
+#AU122 - state event
+hist(df_facs$AU122) #skewed must check poisson
+  AU122 <- lmer(AU122 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU122, corr = F)
+  emmeans(AU122, pairwise ~ GROUP)
+  AU122_p <- glmer(AU122 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU122_p, corr = F)
+  ORand95CI(AU122_p, confint_method = "wald")
+
+#AU122 - point event
+  AU122_f <- lmer(AU122_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU122_f, corr = F) #supress output
+  emmeans(AU122_f, pairwise ~ GROUP)
+  
+  AU122_fp <- glmer(AU122_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU122_fp, corr = F)
+  ORand95CI(AU122_fp, confint_method = "wald")
+  
+#AU24 - point event
+hist(df_facs$AU24) #highly skewed
+  AU24 <- lmer(AU24 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AU24, corr = F)
+  emmeans(AU24, pairwise ~ GROUP)
+  AU24_p <- glmer(AU24 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU24_p, corr = F) #not signficant
+
+#AU25 - state event
+hist(df_facs$AU25) #skewed
+  AU25 <- lmer(AU25 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AU25, corr = F)
+  emmeans(AU25, pairwise ~ GROUP) 
+  AU25_p <- glmer(AU25 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU25_p, corr = F)
+  ORand95CI(AU25_p, confint_method = "wald")
+
+#AU25 - point event
+  AU25_f <- lmer(AU25_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU25_f, corr = F) #supress output
+  emmeans(AU25_f, pairwise ~ GROUP)
+  AU25_fp <- glmer(AU25_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU25_fp, corr = F)
+  ORand95CI(AU25_fp, confint_method = "wald")
+  
+  
+#AU26 - state event
+hist(df_facs$AU26) #skewed must check poisson
+  AU26 <- lmer(AU26 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AU26, corr = F) #suppress output
+  emmeans(AU26, pairwise ~ GROUP) 
+  AU26_p <- glmer(AU26 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AU26_p, corr = F)
+  ORand95CI(AU26_p, confint_method = "wald")
+  
+#AU26 - point event
+  AU26_f <- lmer(AU26_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU26_f, corr = F) #supress output
+  emmeans(AU26_f, pairwise ~ GROUP)
+  AU26_fp <- glmer(AU26_F ~ GROUP + (1|NAME), data = FACS2, family = "poisson")
+  summary(AU26_fp, corr = F) #tendency
+  ORand95CI(AU26_fp, confint_method = "wald") 
+  
+  
+#AU27 - state event
+hist(df_facs$AU27)
+AU27 <- lmer(AU27 ~ GROUP + (1|NAME), data = df_facs)
+summary(AU27, corr = F) #did not converge, control did not show this behavior
+emmeans::emmeans(AU27, specs = "GROUP") 
+
+#AU27 - point event
+  AU27_f <- lmer(AU27_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(AU27_f, corr = F) #did not converge, control did not show this behavior
+  emmeans(AU27_f, pairwise ~ GROUP)
+  
+#EAE101 (=AD101) - state event
+hist(df_facs$AD101) #skewed
+  AD101 <- lmer(AD101 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AD101, corr = F)
+  emmeans(AD101, pairwise ~ GROUP)
+  AD101_p <- glmer(AD101 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AD101_p, corr = F)
+  ORand95CI(AD101_p, confint_method = "wald")
+
+#EAE101 (=AD101) - state event
+  EAE101_f <- lmer(AD101_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(EAE101_f, corr = F) #supress output
+  emmeans(AU101_f, pairwise ~ GROUP)
+  #model doesnt converge
+  #EAE101_fp <- glmer(AD101_F ~ GROUP + (1|NAME), data = FACS2, 
+   #                  family = "poisson")
+  #summary(EAE101_fp, corr = F)
+  #ORand95CI(EAE101_fp, confint_method = "wald")  
+  
+  
+#EAE102 (=AD102) - state event
+hist(df_facs$AD102) #highly skewed
+  AD102 <- lmer(AD102 ~ GROUP + (1|NAME), data = df_facs)
+  summary(AD102, corr = F)
+  emmeans(AD102, pairwise ~ GROUP)
+  AD102_p <- glmer(AD102 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AD102_p, corr = F)
+  ORand95CI(AD102_p, confint_method = "wald")
+  
+#EAE102 (=AD102) - point event
+  EAE102_f <- lmer(AD102_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(EAE102_f, corr = F) #supress output
+  emmeans(EAE102_f, pairwise ~ GROUP)
+  #model doesnot converge
+  #EAE102_fp <- glmer(AD102_F ~ GROUP + (1|NAME), data = FACS2, 
+   #                  family = "poisson")
+  #summary(EAE102_fp, corr = F)
+  #ORand95CI(EAE102_fp, confint_method = "wald")
+
+#EAE103 (=AD103) - state event
+hist(df_facs$AD103) 
+AD103 <- lmer(AD103 ~ GROUP + (1|NAME), data = df_facs)
+summary(AD103, corr = F)
+emmeans(AD103, specs = "GROUP") #PR did not show this behavior
+#EAE103 - Point event
+EAE103_f <- lmer(AD103_F ~ GROUP + (1|NAME), data = FACS2)
+  summary(EAE103_f, corr = F) #supress output
+  emmeans(EAE103_f, pairwise ~ GROUP)
+
+#EAE104 (=AD104) - State event
+hist(df_facs$AD104) #highly skewed
+  AD104 <- lmer(AD104 ~ GROUP + (1|NAME), data = df_facs)
+  #summary(AD104, corr = F) #suppress output
+  emmeans(AD104, pairwise~GROUP)
+  AD104_p <- glmer(AD104 ~ GROUP + (1|NAME), data = df_facs, family = "poisson")
+  summary(AD104_p, corr = F)
+  ORand95CI(AD104_p, confint_method = "wald")
+  
+#EAE104 (=AD104) - point event
+  EAE104_f <- lmer(AD104_F ~ GROUP + (1|NAME), data = FACS2)
+  #summary(EAE104_f, corr = F) #supress output
+  emmeans(EAE104_f, pairwise ~ GROUP)
+  EAE104_fp <- glmer(AD104_F ~ GROUP + (1|NAME), data = FACS2, 
+                    family = "poisson")
+  summary(EAE104_fp, corr = F)
+  ORand95CI(EAE104_fp, confint_method = "wald")
+  
+  #AD29 and AD30
+#Both were not shown by any horse - no analysis needed
+  
+#AD133 - State event
+  hist(FACS3$AD133_D) #highly skewed
+  AD133 <- lmer(AD133_D ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD133, corr = F) #suppress output
+  emmeans(AD133, pairwise~GROUP)
+  AD133_p <- glmer(AD133_D ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  summary(AD133_p, corr = F)
+  ORand95CI(AD133_p, confint_method = "wald")
+  
+#AD133 - point event
+  hist(FACS3$AD133_F)
+  AD133_f <- lmer(AD133_F ~ GROUP + (1|NAME), data = FACS3)
+  summary(AD133_f, corr = F) #supress output
+  emmeans(AD133_f, pairwise ~ GROUP)
+  AD133_fp <- glmer(AD133_F ~ GROUP + (1|NAME), data = FACS3, 
+                    family = "poisson")
+  summary(AD133_fp, corr = F)
+  ORand95CI(AD133_fp, confint_method = "wald")
+  
+#AD38 - State event
+  hist(FACS3$AD38_D) #highly skewed
+  AD38 <- lmer(AD38_D ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD38, corr = F) #suppress output
+  emmeans(AD38, pairwise~GROUP)
+  AD38_p <- glmer(AD38_D ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  summary(AD38_p, corr = F)
+  ORand95CI(AD38_p, confint_method = "wald")
+  
+#AD38 - point event
+  hist(FACS3$AD38_F)
+  AD38_f <- lmer(AD38_F ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD38_f, corr = F) #supress output
+  emmeans(AD38_f, pairwise ~ GROUP)
+  AD38_fp <- glmer(AD38_F ~ GROUP + (1|NAME), data = FACS3, 
+                    family = "poisson")
+  summary(AD38_fp, corr = F)
+  ORand95CI(AD38_fp, confint_method = "wald")
+  
+#AD55 - State event
+  hist(FACS3$AD55_D) #highly skewed
+  AD55 <- lmer(AD55_D ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD55, corr = F) #suppress output
+  emmeans(AD55, pairwise~GROUP)
+  AD55_p <- glmer(AD55_D ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  summary(AD55_p, corr = F)
+  ORand95CI(AD55_p, confint_method = "wald")
+  
+#AD55 - point event
+  hist(FACS3$AD55_F)
+  AD55_f <- lmer(AD55_F ~ GROUP + (1|NAME), data = FACS3)
+  summary(AD55_f, corr = F) #supress output
+  emmeans(AD55_f, pairwise ~ GROUP)
+  AD55_fp <- glmer(AD55_F ~ GROUP + (1|NAME), data = FACS3, 
+                    family = "poisson")
+  summary(AD55_fp, corr = F)
+  ORand95CI(AD55_fp, confint_method = "wald")
+  
+  
+#AD56 - State event
+  hist(FACS3$AD56_D) #highly skewed
+  AD56 <- lmer(AD56_D ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD56, corr = F) #suppress output
+  emmeans(AD56, pairwise~GROUP)
+  AD56_p <- glmer(AD56_D ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  summary(AD56_p, corr = F)
+  ORand95CI(AD56_p, confint_method = "wald")
+  
+#AD56 - point event
+  hist(FACS3$AD56_F)
+  AD56_f <- lmer(AD56_F ~ GROUP + (1|NAME), data = FACS3)
+  summary(AD56_f, corr = F) #supress output
+  emmeans(AD56_f, pairwise ~ GROUP)
+  AD56_fp <- glmer(AD56_F ~ GROUP + (1|NAME), data = FACS3, 
+                    family = "poisson")
+  summary(AD56_fp, corr = F)
+  ORand95CI(AD56_fp, confint_method = "wald")
+  
+  
+  #AD57 - State event
+  hist(FACS3$AD57_D) #highly skewed
+  AD57 <- lmer(AD57_D ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD57, corr = F) #suppress output
+  emmeans(AD57, pairwise~GROUP)
+  #model failed to converger
+  #AD57_p <- glmer(AD57_D ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  #summary(AD57_p, corr = F)
+  #ORand95CI(AD57_p, confint_method = "wald")
+  
+#AD57 - point event
+  hist(FACS3$AD57_F)
+  AD57_f <- lmer(AD57_F ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD57_f, corr = F) #supress output
+  emmeans(AD57_f, pairwise ~ GROUP)
+  AD57_fp <- glmer(AD57_F ~ GROUP + (1|NAME), data = FACS3, 
+                    family = "poisson")
+  summary(AD57_fp, corr = F)
+  ORand95CI(AD57_fp, confint_method = "wald")
+  
+#AD58 - State event
+  hist(FACS3$AD58_D) #highly skewed
+  AD58 <- lmer(AD58_D ~ GROUP + (1|NAME), data = FACS3)
+  summary(AD58, corr = F) #suppress output
+  emmeans(AD58, pairwise~GROUP)
+  AD58_p <- glmer(AD58_D ~ GROUP + (1|NAME), data = FACS3, family = "poisson")
+  summary(AD58_p, corr = F)
+  ORand95CI(AD58_p, confint_method = "wald")
+  
+#AD58 - point event
+  hist(FACS3$AD58_F)
+  AD58_f <- lmer(AD58_F ~ GROUP + (1|NAME), data = FACS3)
+  #summary(AD58_f, corr = F) #supress output
+  emmeans(AD58_f, pairwise ~ GROUP)
+  AD58_fp <- glmer(AD58_F ~ GROUP + (1|NAME), data = FACS3, 
+                    family = "poisson")
+  summary(AD58_fp, corr = F)
+  ORand95CI(AD58_fp, confint_method = "wald")
+```
+
+**Several FACS differed between phases.** Note that some models did not converge
+and model fit was not ideal in many instances as the distribution was wacky...
+Other models could have been used, eg, gamma truncated though to my knowledge we
+do not have this implemented for mixed models in R.
+
+## END
+

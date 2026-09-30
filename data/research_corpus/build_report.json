@@ -1,0 +1,15 @@
+{
+  "status": "BUILT",
+  "records": 900,
+  "fulltext": 644,
+  "bibliography_only": 256,
+  "passages": 50091,
+  "splits": {
+    "development": 720,
+    "validation": 180
+  },
+  "parsed_fulltext": 644,
+  "parse_failures": 0,
+  "table_candidates": 29501,
+  "content_sha256": "9d579f6947888c17a10fe856a645d9c6955ec538dbe40c68bd7754c7fe05e49d"
+}

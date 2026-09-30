@@ -1,0 +1,20 @@
+{
+  "recorded_at_kst": "2026-10-01T02:26:11+09:00",
+  "contributor_label": "03",
+  "contributor_version": 3,
+  "case_id": "NORMAL-PENG-ROWS",
+  "mode": "ACTUAL_SAVED_MODEL_OUTPUT_REPLAY_NOT_NEW_MODEL_CALL",
+  "replay_file": "finals/data/finals/replays/0_이영_실제AI_정상사례_20261001_0004.json",
+  "replay_file_sha256": "3e407673383e07a7deaab151aef65962316b7329ecc92d7bbff60ba52627ea27",
+  "request_id": "resp_0cf5f96503ddc63e016abd24ee3d8487d09035d9acfc8bd065",
+  "original_usage": {
+    "input_tokens": 26281,
+    "output_tokens": 98
+  },
+  "current_model_calls": 0,
+  "state": "SUPPORTED_PREVIEW",
+  "calculated_value": 344.0,
+  "actual_human_approval": "NOT_PERFORMED",
+  "reopened_active": false,
+  "code_pipeline_sha256": "14b02d6e725a5d347aec8d8f2f2d8bdd6255729bd77b1ad22958f10fef33021d"
+}

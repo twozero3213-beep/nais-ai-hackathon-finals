@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "paper_url": "https://doi.org/10.4996/fireecology.1101106",
+      "source_file": "data/evaluation/team_chaewoo_20260929/forest_article_excerpt.txt",
+      "source_sha256": "cede98352ddf167288fd0d04dc2932f60b83cf11c016590c05ad899d86cce73b",
+      "source_quote": "comprising 517 wildfires.",
+      "source_location": "2015 paper p112 / Data; p113 explicitly links UCI dataset",
+      "source_kind": "article_extract",
+      "claim_text": "논문에 보고된 산불 사건 517건과 공개 CSV 행 수 대조",
+      "data_file": "data/evaluation/team_chaewoo_20260929/forestfires.csv",
+      "data_sha256": "0d6586a1fa52f55bef48578aef14eb97273f1e9330e1a53423df497a77065253",
+      "method": "count_rows",
+      "scope_status": "EVALUATION_MAPPING",
+      "reported_value": 517,
+      "tolerance": 0,
+      "filters": {},
+      "delimiter": ",",
+      "missing_policy": "error",
+      "claim_id": "FOREST-2015-N",
+      "scope_note": "Developer supplied full raw row mapping only; approved=false; no model performance or full-paper reproduction. CODE_MISSING and rain UNIT_CONFLICT retained."
+    }
+  ]
+}

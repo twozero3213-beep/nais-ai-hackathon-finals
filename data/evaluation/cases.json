@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "case_count": 6,
+  "cases": [
+    {
+      "claim_id": "PENG-ROWS",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "Main text: penguins_raw paragraph (article text line 26); Appendix B",
+      "claim_text": "penguins_raw data: 17 variables for 344 individual penguins",
+      "data_file": "data/evaluation/author_penguins_raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "oracle_mapping_supplied": false
+    },
+    {
+      "claim_id": "PENG-MISSING",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "Table 1 / text",
+      "claim_text": "Missing data values: 19",
+      "data_file": "data/penguins_public_benchmark.csv",
+      "data_sha256": "1867a776a83379df4219f227bb1effb967da12adb13732127c8c8d120434c29b",
+      "method": "missing_cells",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 19,
+      "tolerance": 0,
+      "oracle_mapping_supplied": false
+    },
+    {
+      "claim_id": "WINE-RED",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0167923609001377",
+      "source_location": "Methods: preprocessing",
+      "claim_text": "Red wine samples: 1599",
+      "data_file": "data/evaluation/winequality-red.csv",
+      "data_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ";",
+      "reported_value": 1599,
+      "tolerance": 0,
+      "oracle_mapping_supplied": true
+    },
+    {
+      "claim_id": "WINE-WHITE",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0167923609001377",
+      "source_location": "Methods: preprocessing",
+      "claim_text": "White wine samples: 4898",
+      "data_file": "data/evaluation/winequality-white.csv",
+      "data_sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ";",
+      "reported_value": 4898,
+      "tolerance": 0,
+      "oracle_mapping_supplied": true
+    },
+    {
+      "claim_id": "DINO-X",
+      "paper_url": "https://www.research.autodesk.com/publications/same-stats-different-graphs/",
+      "source_location": "Figure 5 caption; public CSV mirror",
+      "claim_text": "Datasaurus x mean approximately 54.26",
+      "data_file": "data/evaluation/datasaurus.csv",
+      "data_sha256": "febad7f618c51699815060a075ba80f13f6f1474e24e11d52ad5599ee269cc51",
+      "method": "mean",
+      "column": "x",
+      "filters": {
+        "dataset": "dino"
+      },
+      "delimiter": ",",
+      "reported_value": 54.26,
+      "tolerance": 0.01,
+      "oracle_mapping_supplied": true
+    },
+    {
+      "claim_id": "WINE-SVM",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0167923609001377",
+      "source_location": "Model results; raw CSV alone lacks executable confirmed training recipe",
+      "claim_text": "Predictive SVM result from paper",
+      "data_file": "data/evaluation/winequality-red.csv",
+      "data_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+      "method": "svm_model",
+      "column": "",
+      "filters": {},
+      "delimiter": ";",
+      "reported_value": null,
+      "tolerance": 0,
+      "oracle_mapping_supplied": false
+    }
+  ]
+}

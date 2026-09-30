@@ -1,0 +1,461 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article article-type="research-article" xml:lang="en" dtd-version="1.4"><?da-xref-anchor-style superscripted?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Am Med Inform Assoc</journal-id><journal-id journal-id-type="iso-abbrev">J Am Med Inform Assoc</journal-id><journal-id journal-id-type="pmc-domain-id">76</journal-id><journal-id journal-id-type="pmc-domain">jamia</journal-id><journal-id journal-id-type="publisher-id">jamia</journal-id><journal-title-group><journal-title>Journal of the American Medical Informatics Association : JAMIA</journal-title></journal-title-group><issn pub-type="ppub">1067-5027</issn><issn pub-type="epub">1527-974X</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC4681113</article-id><article-id pub-id-type="pmcid-ver">PMC4681113.2</article-id><article-id pub-id-type="pmcaid">4681113</article-id><article-id pub-id-type="pmcaiid">4713899</article-id><article-id pub-id-type="pmid">26063746</article-id><article-id pub-id-type="doi">10.1093/jamia/ocv028</article-id><article-id pub-id-type="publisher-id">ocv028</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="heading"><subject>Research and Applications</subject></subj-group></article-categories><title-group><article-title>Innovating to enhance clinical data management using non-commercial and open source solutions across a multi-center network supporting inpatient pediatric care and research in Kenya</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Tuti</surname><given-names initials="T">Timothy</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref><xref ref-type="corresp" rid="ocv028-COR1">*</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bitok</surname><given-names initials="M">Michael</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Paton</surname><given-names initials="C">Chris</given-names></name><xref ref-type="aff" rid="ocv028-AFF2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Makone</surname><given-names initials="B">Boniface</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Malla</surname><given-names initials="L">Lucas</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Muinga</surname><given-names initials="N">Naomi</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gathara</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>English</surname><given-names initials="M">Mike</given-names></name><xref ref-type="aff" rid="ocv028-AFF1">1</xref><xref ref-type="aff" rid="ocv028-AFF2">2</xref></contrib></contrib-group><aff id="ocv028-AFF1">
+<label><sup>1</sup></label>
+KEMRI-Wellcome Trust Research Programme, P. O. Box 43640 - 00100, Nairobi, Kenya
+</aff><aff id="ocv028-AFF2">
+<label><sup>2</sup></label>
+Nuffield Department of Medicine, University of Oxford John Radcliffe Hospital, Headington, Oxford, OX3 9DU, UK
+</aff><author-notes><corresp id="ocv028-COR1">
+Correspondence to Timothy Tuti KEMRI-Wellcome Trust Research Programme, P. O. Box 43640 - 00100, Nairobi, Kenya;
+</corresp></author-notes><pub-date pub-type="ppub"><month>1</month><year>2016</year></pub-date><pub-date iso-8601-date="2015-06-10" pub-type="epub"><day>10</day><month>6</month><year>2015</year></pub-date><volume>23</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">263479</issue-id><fpage>184</fpage><lpage>192</lpage><history><date date-type="received"><day>11</day><month>12</month><year>2014</year></date><date date-type="rev-recd"><day>3</day><month>3</month><year>2015</year></date><date date-type="accepted"><day>8</day><month>3</month><year>2015</year></date></history><pub-history><event event-type="pmc-release"><date><day>10</day><month>06</month><year>2015</year></date></event><event event-type="pmc-live"><date><day>29</day><month>02</month><year>2016</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-04-16 16:25:15.463"><day>16</day><month>04</month><year>2026</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">4681113</article-id><article-id pub-id-type="doi">10.1093/jamia/ocv028</article-id><article-id pub-id-type="manuscript-id">EMS65061</article-id><article-version>1</article-version><pub-date><day>10</day><month>06</month><year>2015</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">4713899</article-id><article-id pub-id-type="doi">10.1093/jamia/ocv028</article-id><article-version>2</article-version><pub-date><day>10</day><month>06</month><year>2015</year></pub-date></event></pub-history><permissions><copyright-statement>© The Author 2015. Published by Oxford University Press on behalf of the American Medical Informatics Association.</copyright-statement><copyright-year>2015</copyright-year><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="cc-by" xlink:href="http://creativecommons.org/licenses/by/4.0/"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ocv028.pdf"><?pdf-name ocv028.pdf?><?pdf-size 420782?><?pdf-md5 d698a851c0d71c937ce5ca5574520495?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:70f2/4713899/d698a851c0d7/ocv028.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ocv028.pdf"/><abstract><title>Abstract</title><p>
+<bold>Objective</bold>
+To share approaches and innovations adopted to deliver a relatively inexpensive clinical data management (CDM) framework within a low-income setting that aims to deliver quality pediatric data useful for supporting research, strengthening the information culture and informing improvement efforts in local clinical practice.
+</p><p>
+<bold>Materials and methods</bold>
+The authors implemented a CDM framework to support a Clinical Information Network (CIN) using Research Electronic Data Capture (REDCap), a noncommercial software solution designed for rapid development and deployment of electronic data capture tools. It was used for collection of standardized data from case records of multiple hospitals’ pediatric wards. R, an open-source statistical language, was used for data quality enhancement, analysis, and report generation for the hospitals.
+</p><p>
+<bold>Results</bold>
+In the first year of CIN, the authors have developed innovative solutions to support the implementation of a secure, rapid pediatric data collection system spanning 14 hospital sites with stringent data quality checks. Data have been collated on over 37 000 admission episodes, with considerable improvement in clinical documentation of admissions observed. Using meta-programming techniques in R, coupled with branching logic, randomization, data lookup, and Application Programming Interface (API) features offered by REDCap, CDM tasks were configured and automated to ensure quality data was delivered for clinical improvement and research use.
+</p><p>
+<bold>Conclusion</bold>
+A low-cost clinically focused but geographically dispersed quality CDM (Clinical Data Management) in a long-term, multi-site, and real world context can be achieved and sustained and challenges can be overcome through thoughtful design and implementation of open-source tools for handling data and supporting research.
+</p></abstract><kwd-group><kwd>clinical data management</kwd><kwd>open source</kwd><kwd>clinical research</kwd><kwd>quality assurance</kwd><kwd>metaprogramming</kwd></kwd-group><counts><page-count count="9"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro"><title>INTRODUCTION</title><p>
+The Kenya Medical Research Institute (KEMRI)-Wellcome Trust Research Programme’s Health Services Unit has engaged in a number of projects with the Kenyan Ministry of Health (MoH) since 2002 with work spanning evidence synthesis to develop national evidence-based clinical guidelines for pediatric care
+<xref rid="ocv028-B1" ref-type="bibr"><sup>1</sup></xref>
+, conducting pragmatic clinical trials, and surveys of the quality of care within hospitals
+<xref rid="ocv028-B2" ref-type="bibr"><sup>2</sup></xref>
+(KEMRI serves the same function as Medical Research Council in the United Kingdom and Center for Disease Control in the United States). This has helped evolve a unique platform of work focusing on implementing key interventions in Kenyan hospitals to improve the delivery of pediatric care across the country, the most recent of which is the Clinical Information Network (CIN). The CIN comprises a partnership between KEMRI, the MoH, The Kenya Paediatric Association, and 14 district-level hospitals that are spread out across the country. The aim of the network is to collect standardized routine data on pediatric admissions that will provide the basis for promoting adoption of evidence-based interventions, improving quality of care and, ultimately, support for pragmatic intervention trials designed with all stakeholders. CIN collects pediatric clinical data abstracted from medical records and data is in the domains of history, examination, laboratory investigations, diagnosis, treatment, and supportive care. A shared, standard pediatric admission record form developed in Kenya
+<xref rid="ocv028-B3" ref-type="bibr"><sup>3</sup></xref>
+and adopted by the MoH linked to a set of national clinical guidelines that define key symptoms, signs, illness definitions, and treatment strategies for the most common conditions provide the basis for core elements of the clinical process on admission The CIN focuses on these data, admission treatment, and investigations and discharge status. The design of the standard pediatric admission paper record was purposefully structured to focus on key clinical features central to care of common illnesses that are typically captured using binary or categorical fields (checkboxes, yes-no options).
+</p><p>Good clinical data management (CDM), also referred to as Data Quality Management, is the cornerstone of all these activities. For initiatives in low-resource settings such as this one, we argue that quality CDM in a long-term, multi-site, and real-world context can be achieved and sustained, and that challenges can be overcome by working closely with clinical teams and through thoughtful design and implementation of open-source tools for handling data. This paper outlines the approaches and innovations adopted to deliver good CDM within the CIN. Work with clinical teams that provides the basis for the network has been described elsewhere.</p></sec><sec><title>BACKGROUND AND SIGNIFICANCE</title><p>
+There is increasing recognition of the need for improving the quality of care and pragmatic research to evaluate the effectiveness of interventions in real-life practice as an essential component of evidence-informed policy making. A key component of both is the quality of data
+<xref rid="ocv028-B4" ref-type="bibr"><sup>4</sup></xref>
+. The aim of the CIN is to work within, and not parallel to, existing health systems and with the healthcare workers that provide routine care. Source documents for research must therefore be those used in practice rather than being specific study case report forms typically completed by an entirely separate study team. To achieve this goal a number of challenges must be overcome. These include:
+</p><list list-type="order"><list-item><p>Resource context: There is shortage of staffing in a typical public hospital, and most public hospitals do not have an information technology (IT) department or officer, have limited funds to pay software license fees, and may still have frequent power blackouts.</p></list-item><list-item><p>
+IT tnfrastructure: Most public health facilities in Kenya (and in CIN) do not have comprehensive electronic health record (EHR) systems. National implementations of EHRs, like Kenya electronic medical records (EMRs), are generally limited to vertical programs dealing with Human Immunodeficiency Virus targeting outpatient visits and systems to computerize billing. There are very few cases of their use for inpatient care where there are major challenges in managing the complex longitudinal patient data
+<xref rid="ocv028-B5" ref-type="bibr"><sup>5</sup></xref>
+. The stability of internet connections is generally poor, varies based on the geographical location of the health facility, and hospital computers are often not connected to the internet via the hospital network.
+</p></list-item><list-item><p>Pre-existing reporting structures: existing national District Health Information System (DHIS) (requirements must be satisfied (the DHIS aims to serve some of the most basic functions of systems such as the Health and Social Care Information Centre in the United Kingdom and Healthcare Cost and Utilization Project in the United States). Careful attention must therefore be paid to stakeholder needs when redesigning traditional medical records so that they meet the needs of clinical users and the wider health information system. Research may also introduce new needs. Currently, the DHIS2 used in Kenya and widely in Africa as a national reporting framework captures no data on process of care or treatment from inpatient settings; these data are critical to the monitoring of medical interventions and quality of care within CIN and require the development of new data tools to collect them.</p></list-item><list-item><p>
+Data collection tools: Traditional paper medical records in routine settings rarely support good data collection as there is little standardization of the data model. EMRs are poorly developed and so have not (and are not at present designed to) promote such inpatient standardization in Kenya or much of Africa
+<xref rid="ocv028-B3" ref-type="bibr"><sup>3</sup></xref><sup>,</sup><xref rid="ocv028-B6" ref-type="bibr"><sup>6</sup></xref>
+. Work with the MoH and hospitals by the research team in the past has enabled production of an agreed, standardized medical record form that is a good fit to routine workflows and addresses some of these problems (described elsewhere)
+<xref rid="ocv028-B3" ref-type="bibr"><sup>3</sup></xref>
+. This can then become the basis for data capture either by abstraction to a data system (as we now describe) or in future might provide the common data model as part of an EMR.
+</p></list-item></list><p>
+In the past, different platforms had been used to manage clinical data within the research team. They included an MS Access solution, an in-house open source solution using PHP/MySQL and the ZEND Framework, and OpenClinica 3.0 community edition
+<xref rid="ocv028-B7" ref-type="bibr"><sup>7</sup></xref>
+.
+</p><list list-type="order"><list-item><p>The first transition was from MS Access to a bespoke PHP/MySQL solution. In this phase, HSU was trying to overcome the limit on the number of variables a project could have. Also, the team wished to limit the costs associated with proprietary software, particularly due to planned multi-site use in resource-limited public institutions.</p></list-item><list-item><p>
+The second transition was from the bespoke PHP/MySQL solution to OpenClinica. While flexible, the PHP/MySQL solution required constant redevelopment and upgrading to keep up with the ever-evolving the research team projects’ needs. It was also not designed to support the rigorous requirements of CDM for a clinical trial. OpenClinica was implemented for a pragmatic multi-site clinical trial carried out at KEMRI
+<xref rid="ocv028-B8" ref-type="bibr"><sup>8</sup></xref>
+but seemed over-elaborate for long-term observational studies.
+</p></list-item></list><p>The research team’s previous experience with OpenClinica demonstrated the advantages of its use of an excel sheet to design data collection tools that enabled full participation of clinicians in database design and ease of sharing meta-data. Exploring other open source tools known to the research team and colleagues with this feature we opted to explore the use of Research Electronic Data Capture (REDCap) that was designed for observational studies and for attributes described in detail in the methodology.</p></sec><sec><title>OBJECTIVE</title><p>
+The research team therefore required a solution with the following characteristics: straightforward tool design and updating, accurate case-record capture (with flexible, well designed layouts), efficient and effective auto-collation of multi-site data, minimal cost of running the CDM solution, and that facilitated data quality assurance. This solution would have to implement data capture based on existing clinical tools while focusing on data required for practice adherent to the national evidence-based clinical guidelines for pediatric care
+<xref rid="ocv028-B9" ref-type="bibr"><sup>9</sup></xref><sup>,</sup><xref rid="ocv028-B10" ref-type="bibr"><sup>10</sup></xref>
+. The solution’s data entry component was not meant to be or function as an EMR.
+</p></sec><sec sec-type="methods"><title>METHODOLOGY</title><p>
+To meet the afore mentioned needs and overcome challenges in
+<xref rid="ocv028-T2" ref-type="table">Table 2</xref>
+, we adopted the REDCap Programme in three initial observational studies and further optimized this tool for the current CIN project (
+<xref rid="ocv028-T1" ref-type="table">Table 1</xref>
+).
+</p><table-wrap id="ocv028-T1" orientation="portrait" position="float"><label>Table 1</label><caption><p>Previous KEMRI – Wellcome Trust Programme’s projects and the respective CDM platforms/tools used</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th colspan="1" rowspan="1">Project</th><th colspan="1" rowspan="1">Study Type</th><th colspan="1" rowspan="1">Platform</th><th colspan="1" rowspan="1">Database</th><th colspan="1" rowspan="1">Additional Useful Features</th></tr></thead><tbody align="left"><tr><td colspan="1" rowspan="1">8 District Hospitals Study (2006–2008)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">MS Access</td><td colspan="1" rowspan="1">MS Access 2005</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">KNH Work (2008–2009)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">Zend Framework (PHP)</td><td colspan="1" rowspan="1">MySQL</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Electronic Paediatric Admission Record (EPAR) (2009–2010)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">Zend Framework (PHP)</td><td colspan="1" rowspan="1">MySQL</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Pneumonia Trial (2011–2013)</td><td colspan="1" rowspan="1">Clinical Trial</td><td colspan="1" rowspan="1">OpenClinica (JAVA)</td><td colspan="1" rowspan="1">PostgreSQL</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Pneumonia Observational Study (2012–2013)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">REDCap (PHP)</td><td colspan="1" rowspan="1">MySQL</td><td colspan="1" rowspan="1">Web API</td></tr><tr><td colspan="1" rowspan="1">Health Services, Implementation, Research and Clinical Excellence (SIRCLE): 22 Hospital Survey (2012)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">REDCap (PHP)</td><td colspan="1" rowspan="1">MySQL</td><td colspan="1" rowspan="1">Web API</td></tr><tr><td colspan="1" rowspan="1">GEF Surveys (Maternal, Neonatal, Pediatric) (2012–2014)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">REDCap (PHP)</td><td colspan="1" rowspan="1">MySQL</td><td colspan="1" rowspan="1">Web API</td></tr><tr><td colspan="1" rowspan="1">Clinical Information Network - Ongoing (2013)</td><td colspan="1" rowspan="1">Observational</td><td colspan="1" rowspan="1">REDCap (PHP)</td><td colspan="1" rowspan="1">MySQL</td><td colspan="1" rowspan="1">Web API</td></tr></tbody></table><table-wrap-foot><fn id="ocv028-TF2"><p>REDCap = Research Electronic Data Capture; API = application programming interface</p></fn><fn id="ocv028-TF3"><p>
+Each tool transition was aimed at trying to satisfy a specific set of CDM needs but each was associated with challenges as shown in
+<xref rid="ocv028-T2" ref-type="table">Table 2</xref>
+below, which prompted the search for a different solution for CDM across the CIN.
+</p></fn></table-wrap-foot></table-wrap><table-wrap id="ocv028-T2" orientation="portrait" position="float"><label>Table 2</label><caption><p>Challenges of key data management platforms previously used in KEMRI Wellcome Trust and factors necessitating transition to a different CDM solution</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th align="center" colspan="2" rowspan="1">Alternate Solutions Used and Challenges Leading Up to REDCap Selection</th></tr></thead><tbody align="left"><tr><td colspan="1" rowspan="6">MS Access</td><td colspan="1" rowspan="1">Double data entry of paper forms was cumbersome. It did not provide an opportunity to correct possible mistakes in the forms.</td></tr><tr><td colspan="1" rowspan="1">Inability to create tools with more than 255 fields.</td></tr><tr><td colspan="1" rowspan="1">Software is commercial: increased project costs due licenses for each study machine.</td></tr><tr><td colspan="1" rowspan="1">Cumbersome to update data collection tool. Requires re-design the data collection tool from scratch.</td></tr><tr><td colspan="1" rowspan="1">Ms Access at the time did not allow for a multi user interface to be created. Thus for several data entry clerks, each had to have access to local a dedicated copy of the database.</td></tr><tr><td colspan="1" rowspan="1">Use of Ms Access required one to have simple database management skills.</td></tr><tr><td colspan="1" rowspan="3">In-house open source solution (Zend Framework based)</td><td colspan="1" rowspan="1">Manual data transfer and extraction for analysis in a multi-site environment.</td></tr><tr><td colspan="1" rowspan="1">Updating the data collection tool still required personnel with specialized skills.</td></tr><tr><td colspan="1" rowspan="1">Changes to the structure of the project required reprogramming of the PHP solution creating a lag in implementing updates within the required time frame.</td></tr><tr><td colspan="1" rowspan="4">OpenClinica 3.0 Community Edition</td><td colspan="1" rowspan="1">Initial tool development process was complicated.</td></tr><tr><td colspan="1" rowspan="1">Training data clerks on how to use OpenClinica was a challenge.</td></tr><tr><td colspan="1" rowspan="1">Lack of system upgrades, data entry rule designer feature, a data mart (OpenClinica’s feature: allows export of clinical data in a readily accessible flat file for reporting and analysis), system patches, support for automated validation and data quality management for community edition.</td></tr><tr><td colspan="1" rowspan="1">Clinical trials oriented: may not be a good fit for observational studies.</td></tr></tbody></table><table-wrap-foot><fn id="ocv028-TF1"><p>REDCap = Research Electronic Data Capture.</p></fn></table-wrap-foot></table-wrap><p>
+REDCap is a novel workflow methodology and software solution designed for rapid development and deployment of electronic data capture tools to support clinical and translational research. The software was initially developed and deployed at Vanderbilt University
+<xref rid="ocv028-B11" ref-type="bibr"><sup>11</sup></xref>
+. It currently has collaborative support from a wide consortium of more than 1200 domestic and international partners, having deployed over 138 000 projects and over 188 000 users. REDCap has a simple enough interface for researchers to create data collection tools with minimal support from the data manager. This enables data managers to focus on optimizing data management procedures. REDCap was first installed (
+<xref rid="ocv028-T2" ref-type="table">Table 2</xref>
+) on 20 ultra-portable laptops for concurrent multi-site survey work with a synchronization module developed by the research team that allowed data to be transferred to a central server. Some of the general properties that were of key interest that were found in REDCap and that precluded the use of other popular open source solutions such as Epi Info and Epi Data included:
+</p><list list-type="order"><list-item><p>Low hardware specification and platform independence: REDCap is very lightweight with regards to processing power, memory or hard drive space and is compatible with all operating systems.</p></list-item><list-item><p>Secured and web-based: REDCap can be setup locally on a machine to allow data capture. When that machine is connected to a network/internet, it can be configured to securely transfer data to a remote REDCap installation. In settings where there is no internet connectivity, it allows offline data collection and use of an internet modem to send data to a remote REDCap installation periodically or when there is reliable connectivity. It supports secured web authentication, data logging, and secure sockets layer encryption.</p></list-item><list-item><p>Supports multi-site access: REDCap’s projects can be accessed by multiple users from multiple locations. Also, through an application programming interface (API), multiple remote instances can synchronize data to a central REDCap installation through the internet.</p></list-item><list-item><p>Allows fast and flexible development of data collection tools encompassing large numbers of variables and doesn’t require any technical skillset to implement.</p></list-item><list-item><p>Data management tools are fully customizable and allow for mid-study modifications without affecting previously collected data.</p></list-item></list><p>In response to the challenges outlined in the background section, a desktop computer running on Linux with R and REDCap installed, an internet modem, and an uninterrupted power supply (UPS) unit was provided for each hospital in CIN. These items would be serviced by the hospital’s IT or maintenance department in case of failure. The modem is used for sending data from sites that have poor or no internet connection. Because of the frequent unexpected power disruptions, the UPS protects the equipment against damage and data loss, and mitigates against disruption of data collection. A data clerk with health records information experience was seconded to the health records departments of all the CIN hospitals. They are co-supervised by both the hospital’s Health Records Information Officers and research data management officers.</p><sec><title>Clinical Information Network Data Collection</title><p>
+The standard clinical documentation records are structured
+<xref rid="ocv028-B12" ref-type="bibr"><sup>12–15</sup></xref>
+with the majority of the form providing binary or categorical options for clinicians to select. Patient treatment sheets and laboratory registers, additional source documents, are relatively standard across government hospitals. To guide collection of data comprehensive written guidance in the form of standard operating procedures is provided, a manual also used in primary training of clerks. This guidance and training have been refined during studies conducted over a number of years
+<xref rid="ocv028-B16" ref-type="bibr"><sup>16–18</sup></xref>
+enabling clerks to follow clear procedures to abstract data from the patient paper records directly into the electronic form with a minimum of interpretation required. The design of the CIN, however, provided a number of significant challenges for the research team. The CDM framework implemented to support CIN operates in the following way:
+</p><list list-type="order"><list-item><p>It provides support for daily CIN data collection by a single person with minimal training, although a supervisor would support them through telephone calls as required and visit every 2 months.</p></list-item><list-item><p>Based on the key fields of the patient record, the CDM framework provides for queueing of the record for full data or minimum data collection. When tagged for minimum data collection, only data required for HIS reporting would be collected. This allows focusing of data collection to specific clinical groups and permitted control of data capture workloads (see below).</p></list-item><list-item><p>As the data is being entered, The CDM should provide for synchronous data validation. The data clerk would receive message alerts for any input that was outside acceptable margins or did not conform to pre-specified CDM validation rules using pop-up messages. The CDM framework also provides support for both soft and hard error validation. One may override error alerts from soft validation while errors from hard validation would not allow data submission until they are resolved.</p></list-item><list-item><p>The CDM framework provides support for complementary data quality validation using R cleaning scripts (described below) run by the clerk at the end of each day as part of quality assurance measures. Execution of these scripts generates an error report, allowing the clerk to resolve any data discrepancies before data submission. These R scripts complement the data collection tool’s internal validation mechanisms by adding an extra layer of validation rules based on epidemiological constructs that are too complex to implement within the data collection tool—e.g., validation of classification of diagnosis, based on tuples of diagnoses the data clerk entered.</p></list-item><list-item><p>The framework provides web-based mechanisms to collate on KEMRI central servers anonymized data from all hospitals once the quality discrepancies had been resolved. At the data store, an automated R script provides secondary quality checks on the master data store, containing data from all sites and generates a daily error report. This report is used by the supervisor to provide daily feedback to data clerks at the site, allowing them to resolve further discrepancies observed if possible and resend the data. This serves as second line of quality verification.</p></list-item><list-item><p>The framework allows intermittent external data quality assurance exercises to be conducted bi-monthly by the supervisor who would undertake an independent, duplicate entry of a sample of records. Concordance evaluations are then carried out on the spot using R scripts to assess data collection accuracy. The results are then fed back to the clerk to ensure high quality of data is maintained.</p></list-item></list><p>
+Once the quality has been verified (after step 5 above), the data is profiled, coded and backed up onto a remote server. A clean master dataset is thus produced for analysis by statisticians and epidemiologists (see
+<xref ref-type="fig" rid="ocv028-F1">Figure 1</xref>
+below).
+</p><fig id="ocv028-F1" orientation="portrait" position="float"><label>Figure 1</label><caption><p>
+<bold>CIN's data management framework and workflow nature</bold>
+. Data entry into collection tool is after patient death/discharge.
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ocv028f1p.jpg"><?image-name ocv028f1p.jpg?><?image-size 121819?><?image-md5 d9210ec0074b679fbfe86fea1cc9f218?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1175?><?image-original-width 1950?><?image-scaled-height 470?><?image-scaled-width 780?><?image-cloudpmc-urn urn:cdn:blobs/70f2/4713899/d9210ec0074b/ocv028f1p.jpg?><?thumb-name ocv028f1p.gif?><?thumb-size 14386?><?thumb-md5 e2c12d3ac61fee365fb4a511fe9fc578?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 132?><?thumb-cloudpmc-urn urn:cdn:blobs/70f2/4713899/e2c12d3ac61f/ocv028f1p.gif?></graphic></fig><fig id="ocv028-F2" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Dehydration indicator documentation trends reflect level of documentation of five key clinical signs of all dehydration cases as recommended for assessment of severity and treatment according to national guidelines. Figure is from a routine hospital report now provided to CIN hospitals.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ocv028f2p.jpg"><?image-name ocv028f2p.jpg?><?image-size 91636?><?image-md5 d50c90345ada81c7209882ccaf04d996?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1104?><?image-original-width 1500?><?image-scaled-height 552?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/70f2/4713899/d50c90345ada/ocv028f2p.jpg?><?thumb-name ocv028f2p.gif?><?thumb-size 10824?><?thumb-md5 907c93098d018e780c78ae3679675587?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 108?><?thumb-cloudpmc-urn urn:cdn:blobs/70f2/4713899/907c93098d01/ocv028f2p.gif?></graphic></fig></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Key features and innovations supporting data collection</title><sec id="SEC1"><title>1. Randomization and branching logic</title><p>REDCap’s inbuilt randomization feature allows the technical team to be able to randomly select pre-specified fields for data collection. This feature has been activated for hospitals with extremely high workload, where patients being discharged are 2–3 times as many as the CIN daily discharge average for hospitals. Using this feature, the decision to collect a minimum dataset (180 variables) required for standard health information system reports or a full dataset (367 variables) on each new record being entered is decided at random ensuring a representative sample of records have a full set of data collected. This procedure reduces the time a clerk spends collecting data by half if the minimum dataset is being collected. This then allows us to balance workloads of different sites by varying the proportion of case records selected for full or minimum data collection while ensuring critical data is collected on all.</p><p>Branching (decision tree) logic is used to implement skip patterns in which data entered with values equal to predefined expressions triggers subsequent field selection/deselection in the same record. This feature allows researchers to map out a data collection path based on clinical pathways, depending on what clinical data the clerk was entering. It also allows us to manage data collection during leave periods, hospital strike periods and data collection for nonmedical pediatric admissions while guaranteeing that the minimum dataset per record required for health information system reporting is captured. For example, when dates of discharge fall between holiday periods, or when collecting data on a surgical patient, this feature can be used to require data collection for only the minimum dataset while hiding nonessential or irrelevant data fields.</p></sec><sec id="SEC2"><title>2. Data lookup feature</title><p>
+In the initial version of REDCap deployed to hospitals only a set of 18 common diagnoses were precoded to support structured input. As the nature and naming convention commonly used was not known at that stage, less common diagnoses were entered as free text. For similar reasons free-text entry was initially employed to capture data on use of less common drugs. After 6 months, a review of the data collected as free text was undertaken and used to inform the development of a plugin module for REDCap to allow for selection of pre-specified, standardly named responses (e.g., drug names) using a look-up table with auto-complete functionality. In the same way, we have been able to introduce the International Classification of Diseases (ICD-10)
+<xref rid="ocv028-B19" ref-type="bibr"><sup>19</sup></xref>
+coding for diagnosis fields. This latter development enables the system to provide routine health information reports to the hospital records office. These lookup features support automation of the coding of diagnosis to ICD-10 and of treatment data to generic drug names. The clerk uses the drop-down to select values from a list of entry options that are labeled based on local terms but stored as standardized nomenclature.
+</p></sec><sec id="SEC3"><title>3. Application Programming Interface</title><p>REDCap is a secure web application supporting Lightweight Directory Access Protocol (LDAP) authentication, data logging, data access groups and Secure Sockets Layer (SSL) encryption of data. Through REDCap’s web API (with a token hash representing the API project, username, and password), data can be pulled from a REDCap project and pushed to another REDCap setup or into a statistical environment for analysis. In our setting, the web API is used together with a synchronization module developed in PHP, JQuery and MySQL to push data collected in the field to the master dataset at the program’s servers. This ensures that at the end of every day the researchers have all the data that is at all sites giving us an opportunity to monitor data collection progress and data quality. In addition, the web API allows researchers to program R cleaning scripts to pull data from the REDCap setup in the local machine or a remote server into the R environment and perform quality analysis on the data and generate error reports at the end of each day. The clerk can then take action on the reports using prespecified guidelines in the standard operating procedures for data collection for the project.</p><p>
+Initially, the synchronization module utilizing REDCap’s web API worked well in collating the data in multiple sites for multiple projects but with the increased data transferred and with the large number of data entry fields for the project (367 per patient), the synchronization module
+<xref rid="ocv028-B20" ref-type="bibr"><sup>20</sup></xref>
+started to fail. With every synchronization request, the approach resulted in the entire data from the beginning of the project being sent. This caused a failure of synchronization because of limits in script execution time and poor internet connectivity in some regions. The research team therefore customized the requests made to REDCap’s web API by adding the ability to limit data to synchronize by date (selected by the clerk with default set to last 30 days) to resolve synchronization issues.
+</p></sec><sec id="SEC4"><title>4. Data checking and progression to meta-programming</title><p>
+In the early stages of using REDCap together with R, data quality control was through a manual approach. In this early approach, R cleaning scripts would be manually programmed to implement validation logic in REDCap. Data would then be downloaded from a REDCap project as a Comma Separated Values (CSV) file to a prespecified folder on the local machine and the R scripts would be executed to generate an error report. The data clerk in this early approach would then use the error reports to resolve any data discrepancy issues after which, he/she would securely compress the CSV data file and send it to the research team by email. In an update to the approach, the team now uses the REDCap’s web API to pull the metadata (data about a specific project’s individual variable names, variable types, structure and flow, variable validation rules) into R’s environment. From the metadata, R is able to auto-generate code and scripts that are used in data quality validation and hospital reporting and execute them. This in-turn delinks changes attributed to updates in the data collection tool to version specific quality validation procedures written in R and automates propagation of validation rules from REDCap as it is updated into R cleaning and reporting scripts. A summary of challenges encountered and some implemented and longer term solutions are detailed in
+<xref rid="ocv028-T3" ref-type="table">Table 3</xref>
+.
+</p><table-wrap id="ocv028-T3" orientation="portrait" position="float"><label>Table 3</label><caption><p>Summary of challenges encountered in implementing the Clinical Data Management (CDM) framework for CIN and solutions developed (normal text) or proposed (italicized text).</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th colspan="1" rowspan="1">Challenge</th><th colspan="1" rowspan="1">Details of Challenge</th><th colspan="1" rowspan="1">Long-term Solution</th></tr></thead><tbody align="left"><tr><td colspan="1" rowspan="1">Resource limitations</td><td colspan="1" rowspan="1">Internet connection challenges, staffing challenges, insufficient computers, power outages, software licensing costs</td><td colspan="1" rowspan="1">
+<list list-type="simple"><list-item><p>1. Hire a second clerk to each CIN hospital to support the network</p></list-item><list-item><p>2. Provide internet modem to all clerks to use to send data</p></list-item><list-item><p>3. Provide a computer to each hospital for data capture</p></list-item><list-item><p>4. Use open-source /freeware tools to support data capture—i.e., machine running on Ubuntu, REDCap for data capture, R for analysis</p></list-item><list-item><p>5. Use UPS units to mitigate effects of power outages</p></list-item></list>
+</td></tr><tr><td colspan="1" rowspan="1">Adoption of data codification standards</td><td colspan="1" rowspan="1">Use standard nomenclature to code variables used in pediatric data at point of data transfer from paper to electronic form</td><td colspan="1" rowspan="1">
+<list list-type="simple"><list-item><p>1. Use lookup lists for:</p></list-item><list-item><p>– Treatment fields to capture store generic drug name when brand name entered</p></list-item><list-item><p>– Diagnosis fields to capture values as their ICD-10 equivalent</p></list-item><list-item><p>2. Implement SNOMED-CT equivalent for all CIN variables and make the code book available when sharing data</p></list-item><list-item><p>3. Collaboration with Ministry of Health and Kenya Paediatric Association, hospital clinical staff to adopt a standard clinical data model for pediatric patients tied to SNOMED-CT / ICD-10</p></list-item></list>
+</td></tr><tr><td colspan="1" rowspan="1">Data synchronization</td><td colspan="1" rowspan="1">Automate data consolidation</td><td colspan="1" rowspan="1">
+<list list-type="simple"><list-item><p>1. Update synchronization module to allow data export in batches</p></list-item><list-item><p>2. Set the maximum limit of data transfer to observations not older than 30 days</p></list-item></list>
+</td></tr><tr><td colspan="1" rowspan="1">Data quality control</td><td colspan="1" rowspan="1">Ensuring good quality data is being captured</td><td colspan="1" rowspan="1">
+<list list-type="simple"><list-item><p>1. Create standard operating procedures for data collection</p></list-item><list-item><p>2. Use cleaning scripts to validate accuracy of data entered at the hospital level</p></list-item><list-item><p>3. Conduct bimonthly data quality assurance exercise, using a sample of previously entered records</p></list-item><list-item><p>4. Generate daily data quality reports and use them to go through any errors with data clerk over a telephone call</p></list-item></list>
+</td></tr><tr><td colspan="1" rowspan="1">Data collection tool creation and update</td><td colspan="1" rowspan="1">Integrate CIN data collection with routine job aides and work flows, allow for updates</td><td colspan="1" rowspan="1">
+<list list-type="simple"><list-item><p>1. Design data abstraction of paper records to REDCap tool to reflect CIN hospital workflow and to ensure data elements needed for DHIS reports included</p></list-item><list-item><p>2. Data entry from paper records to REDCap tool to happen after patient discharge/death</p></list-item><list-item><p>3. Update REDCap tool the same time as when conducting bimonthly data quality assurance exercise</p></list-item></list>
+</td></tr><tr><td colspan="1" rowspan="1">DHIS Reports for Ministry of Health</td><td colspan="1" rowspan="1">Generate and submit DHIS reports for each CIN hospitals directly to Ministry of Health</td><td colspan="1" rowspan="1">
+<list list-type="simple"><list-item><p>1. Create Script to Generate DHIS reports based on pre-specified cohort groups for pediatric care</p></list-item><list-item><p>
+2.
+<italic toggle="yes">Engage the Ministry of Health to allow automated submission of DHIS reports to the national HIS through the web API</italic>
+—this is still ongoing
+</p></list-item></list>
+</td></tr></tbody></table><table-wrap-foot><fn id="ocv028-TF4"><p>API = application programming interface</p></fn></table-wrap-foot></table-wrap></sec></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>
+We required a good CDM framework that was relatively easy to setup and deploy rapidly, provided ease of use in resource-limited settings by clerical staff with minimal training and that supports routine information system needs and research. When the research team was designing the new CDM framework, development efforts were iterative and involved input from technical support personnel, epidemiologists, statisticians, and healthcare providers. This approach and skillset ensured a dynamic CDM framework would be implemented that would reflect current clinical practices, deliver quality data for research, and meet the needs of hospitals involved in the study
+<xref rid="ocv028-B21" ref-type="bibr"><sup>21</sup></xref><sup>,</sup><xref rid="ocv028-B22" ref-type="bibr"><sup>22</sup></xref>
+. Data collection was designed around hospital workflow, and happens after patient discharge or death. It was purposefully implemented to be versatile based on current hospital practices especially in areas around patient discharge and death.
+</p><p>
+The research team has been involved in prior work on developing paper based tools and improving clinical documentation in partnership with Kenya’s MoH that facilitates the data collection described
+<xref rid="ocv028-B3" ref-type="bibr"><sup>3</sup></xref><sup>,</sup><xref rid="ocv028-B9" ref-type="bibr"><sup>9</sup></xref>
+. This element—working with clinicians to agree core components of good medical records—needs to be appreciated as replication elsewhere would need to also focus on such clinical components. Such clinical engagement also lays a foundation for development of EHRs that provide a common data platform that is meaningful to clinicians and that ultimately might be used to produce better information
+<xref rid="ocv028-B23" ref-type="bibr"><sup>23–25</sup></xref>
+. There are limitations to extrapolating our experience to development of EHRs which are a considerably greater task and were beyond the scope of this project but lessons learned about how data can be used locally should inform such developments.
+</p><p>
+In the implementation of the CDM framework, data clerks’ experience using electronic data collection tools was revealed to be a relevant factor and augmented by purposefully developed, comprehensive standard operation procedures, and an intensive 5-day training period that ensured quality data is collected
+<xref rid="ocv028-B21" ref-type="bibr"><sup>21</sup></xref>
+efficiently. This helped improve the quality of data capture. The data validation refereed to here is in reference to standard operating procedures for translating the paper record into electronic form, not the accuracy of clinician’s documentation.
+</p><p>
+The technical team did not undertake a comprehensive review of open source solutions before opting for REDCap as the tool of choice for the CDM described. In using REDCap the technical team has, however, been actively involved in, and benefited from, REDCap forums and other developer communities. This has allowed us to contribute to improvement and extension of REDCap features. Such activities resulted in solutions such as the data lookups and development of the synchronization module that augment REDCap. Consequently, we were better able to support structured data collection and limit the need for free text data entry
+<xref rid="ocv028-B26" ref-type="bibr"><sup>26</sup></xref>
+. When designing the synchronization module, due consideration had to be given to the limited technology infrastructure at study sites as it had an impact on data export activities. Other innovations have included an ability to randomly select records after a unique identifier has been created for different levels of data entry allowing a single clerk per hospital to capture representative data in high volume settings admitting over 4000 children per year.
+</p><p>
+The CDM framework was aimed at avoiding creation of parallel structures, common in vertical programs in low-income settings, and had to meet mandatory reporting requirements of the MoH
+<xref rid="ocv028-B24" ref-type="bibr"><sup>24</sup></xref><sup>,</sup><xref rid="ocv028-B27" ref-type="bibr"><sup>27</sup></xref>
+. In addition, because previous studies have shown most routinely collected data to be poor, it was important to introduce robust data quality assurance measures. This was achieved by innovative use of the open source statistical package R integrated with REDCap using statistical programming approaches to ensure the quality of health data collected in terms of completeness, correctness, and consistency
+<xref rid="ocv028-B27" ref-type="bibr"><sup>27–29</sup></xref>
+.
+</p><p>
+Key challenges that remain (
+<xref rid="ocv028-T3" ref-type="table">Table 3</xref>
+) include the lack of a facility for remotely updating REDCap tools at each location and the inability to programmatically push routine hospital reports into Kenya’s national DHIS2
+<xref rid="ocv028-B30" ref-type="bibr"><sup>30</sup></xref>
+implementation. This is because it has been configured to allow data submission only through online forms and file uploads while DHIS’s web API is disabled in Kenya’s national DHIS instance. The technical team also experienced difficulties integrating complex R computational models when running data analysis. R’s support for using multi-core systems and distributed computing is still insufficient for the needs of the project and, as the data produced grows, R’s ability to compute these analyses efficiently should grow with it. As it stands, we are exploring mechanisms of running the analysis using tools capable of complex computation in a big data environment such as Python
+<xref rid="ocv028-B31" ref-type="bibr"><sup>31</sup></xref>
+.
+</p><p>Longer term challenges include efforts within CIN to utilize standard nomenclature (e.g., Systematized Nomenclature of Medicine-Clinical Terms) for electronic data capture partly due to the lack of a detailed framework outside HIV programs to guide this at the national level in Kenya. Careful consideration given to design and use of standard terminology is particularly important in settings such as Kenya where EHR systems are beginning to emerge in a variety of forms and in geographically dispersed locations. Although there are at present no major legacy hospital EMR systems providing an opportunity to implement interoperability standards, this opportunity will be lost if delays result in the growth and spread of systems that do not have interoperability designed in. Careful attention now needs to be given to ensuring the development of interoperable EHRs that will support national health information requirements for routine system performance evaluation and research. Thus in most low-income settings no routine systems exist for regular monitoring of even the most basic aspects of inpatient quality of care, for example case specific inpatient mortality rates. In the research arena single site studies are the norm and data systems are typically withdrawn at the close of the study so that results may be hard to generalize while large scale health service evaluation research is largely absent.</p><p>
+At the heart of the data CIN collects are agreed good clinical practices that include a good quality initial patient evaluation—a process that was extensively tested with clinicians in prior work—linked to consensus developed national guidelines
+<xref rid="ocv028-B10" ref-type="bibr"><sup>10</sup></xref>
+. This work could contribute to the further development of the common data dictionary in KenyaEMR in the focus area of inpatient pediatrics and may provide a model for other inpatient clinical environments. We are in the process of contributing to consensus on SNOMED-CT archetypes for pediatric data, in partnership with local EHRs providers and pediatricians across CIN. This engagement also guides the recoding of medical data from local verbiage to standardized nomenclature and is inclusive of each individual hospital’s context (type of tests offered, equipment available, local pattern of disease, etc.). The initial work is focusing on patient history, examination, treatment and laboratory investigation data. Diagnosis data has already been coded using ICD-10. Such efforts will allow a copy of the original dataset to be kept with the agreed-upon codes applied onto the original dataset programmatically, resulting in a transformed dataset with standardized nomenclature being generated. Feedback on comparisons between the original dataset and the transformed data are evaluated recursively by the involved parties (pediatricians, health records information officers, health researchers, EHRs developers) until consensus is reached on the final dataset to be used.
+</p></sec><sec sec-type="conclusions"><title>CONCLUSION</title><p>The demand for data has never been greater. The expectations are even greater for data to be used in conducting locally applicable research and supporting quality and service delivery improvements. In low-income settings there is considerable pressure to contain the cost of data acquisition and still implement effective data management frameworks that produce quality data. These frameworks need to be inherently scalable, capable of handling, and sending large volumes of data efficiently and affordably even in areas with poor unreliable internet connectivity. This paper has set out to show how HSU is responding to this challenge to support high quality clinical observational studies and quality improvement using well-designed data management frameworks that utilize open source tools in the face of the challenges that exist in much of Africa.</p></sec><sec><title>Competing interests</title><p>None.</p></sec><sec><title>Contributors</title><p>The roles of the contributors were as follows: T.T., and M.B. drafted with the help of M.E. an initial version of this manuscript. All authors contributed to subsequent drafts and approved a final version of this paper.</p><p>The Clinical Information Network members who contributed to the conduct of the work, collection of data, data quality assurance and development of data management and reporting frameworks that form the basis of this report include: Wycliffe Nyachiro, George Mbevi, and Morris Ogero.</p></sec><sec><title>Funding</title><p>Funds from The Wellcome Trust (#097170) awarded to ME support T.T., MB, L.M., B.M., N.M. and D.G. Additional funds from a Wellcome Trust core grant awarded to the KEMRI-Wellcome Trust Research Programme (#092654) supported this work. The funders had no role in drafting or submitting this manuscript.</p></sec></body><back><ack><p>We would like to thank the MoH who gave permission for this work to be developed and have supported the implementation of the CIN together with the county health executives and all hospital management teams. Collaboration with officers from the Ministry of Health’s national Health Management Information System, the Monitoring and Evaluation Unit and the Maternal, Neonatal, Child and Adolescent Health Unit has been important to the initiation of the CIN. We are grateful to the Kenya Paediatric Association for promoting the aims of the CIN and the support they provide through their officers and membership. We also thank the hospital pediatricians and clinical teams on all the pediatric wards who provide care to the children for whom this project is designed. This work is also published with the permission of the Director of KEMRI.</p></ack><ref-list><title>REFERENCES</title><ref id="ocv028-B1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Agweyu</surname><given-names>A</given-names></name><name name-style="western"><surname>Opiyo</surname><given-names>N</given-names></name><name name-style="western"><surname>English</surname><given-names>M</given-names></name></person-group>
+.
+<article-title>Experience Developing National Evidence-based Clinical Guidelines for Childhood Pneumonia in a Low-Income Setting–Making the GRADE?</article-title><source>BMC Pediatr.</source><year>2012</year>
+;
+<volume>12</volume>
+:
+<fpage>1</fpage>
+.
+<pub-id pub-id-type="pmid">22208358</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2431-12-1</pub-id><pub-id pub-id-type="pmcid">PMC3268095</pub-id></mixed-citation></ref><ref id="ocv028-B2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>English</surname><given-names>M</given-names></name><etal/></person-group>
+.
+<article-title>Explaining the effects of a multifaceted intervention to improve inpatient care in rural Kenyan hospitals–interpretation based on retrospective examination of data from participant observation, quantitative and qualitative studies</article-title><italic toggle="yes">.</italic><source>Implement Sci.</source><year>2011</year>
+;
+<volume>6</volume>
+:
+<fpage>124</fpage>
+.
+<pub-id pub-id-type="pmid">22132875</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1748-5908-6-124</pub-id><pub-id pub-id-type="pmcid">PMC3248845</pub-id></mixed-citation></ref><ref id="ocv028-B3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Mwakyusa</surname><given-names>S</given-names></name><etal/></person-group>
+.
+<article-title>Implementation of a structured paediatric admission record for district hospitals in Kenya–results of a pilot study</article-title><italic toggle="yes">.</italic><source>BMC Int Health Hum Rights.</source><year>2006</year>
+;
+<volume>6</volume>
+:
+<fpage>9</fpage>
+.
+<pub-id pub-id-type="pmid">16857044</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1472-698X-6-9</pub-id><pub-id pub-id-type="pmcid">PMC1555611</pub-id></mixed-citation></ref><ref id="ocv028-B4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Hannan</surname><given-names>EL</given-names></name></person-group>
+.
+<article-title>Randomized Clinical Trials and Observational StudiesGuidelines for Assessing Respective Strengths and Limitations</article-title><italic toggle="yes">.</italic><source>JACC: Cardiovasc Inte.</source><year>2008</year>
+;
+<volume>1</volume>
+(
+<issue>3</issue>
+):
+<fpage>211</fpage>
+–
+<lpage>217</lpage>
+.
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jcin.2008.01.008</pub-id><pub-id pub-id-type="pmid">19463302</pub-id></mixed-citation></ref><ref id="ocv028-B5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Oluoch</surname><given-names>T</given-names></name><etal/></person-group>
+.
+<article-title>Better adherence to pre-antiretroviral therapy guidelines after implementing an electronic medical record system in rural Kenyan HIV clinics: a multicenter pre-post study</article-title><italic toggle="yes">.</italic><source>Int J Infect Dis.</source><year>2014</year>
+;
+<volume>33</volume>
+:
+<fpage>109</fpage>
+–
+<lpage>113</lpage>
+.
+<pub-id pub-id-type="pmid">25281905</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijid.2014.06.004</pub-id><pub-id pub-id-type="pmcid">PMC4987124</pub-id></mixed-citation></ref><ref id="ocv028-B6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Akanbi</surname><given-names>MO</given-names></name><etal/></person-group>
+.
+<article-title>Use of electronic health records in sub-Saharan Africa: progress and challenges</article-title>
+.
+<source>J Med Trop.</source><year>2012</year>
+;
+<volume>14</volume>
+(
+<issue>1</issue>
+):
+<fpage>1</fpage>
+–
+<lpage>6</lpage>
+.
+<pub-id pub-id-type="pmid">25243111</pub-id><pub-id pub-id-type="pmcid">PMC4167769</pub-id></mixed-citation></ref><ref id="ocv028-B7"><label>7</label><mixed-citation publication-type="other">
+<comment>
+OpenClinica LLC. OpenClinica Community Edition. 2014.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://community.openclinica.com/">https://community.openclinica.com/</ext-link>
+. Accessed December 5, 2014.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Agweyu</surname><given-names>A</given-names></name><etal/></person-group>
+.
+<article-title>Oral amoxicillin versus benzyl penicillin for severe pneumonia among Kenyan children: a pragmatic randomized controlled noninferiority trial</article-title><italic toggle="yes">.</italic><source>Clin Infect Dis.</source><year>2015</year>
+;
+<volume>60</volume>
+(
+<issue>8</issue>
+):
+<fpage>1216</fpage>
+–
+<lpage>1224</lpage>
+.
+<pub-id pub-id-type="pmid">25550349</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/cid/ciu1166</pub-id><pub-id pub-id-type="pmcid">PMC4370168</pub-id></mixed-citation></ref><ref id="ocv028-B9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ntoburi</surname><given-names>S</given-names></name><etal/></person-group>
+.
+<article-title>Development of paediatric quality of inpatient care indicators for low-income countries - A Delphi study</article-title>
+.
+<source>BMC Pediatr.</source><year>2010</year>
+;
+<volume>10</volume>
+:
+<fpage>90</fpage>
+.
+<pub-id pub-id-type="pmid">21144065</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2431-10-90</pub-id><pub-id pub-id-type="pmcid">PMC3022793</pub-id></mixed-citation></ref><ref id="ocv028-B10"><label>10</label><mixed-citation publication-type="journal">
+<collab>Ministry of Health, K.W.T.R. Programme., and K.P</collab>
+.
+<comment>
+Association. Basic Paediatric Protocols Booklet. 2013. Ministry of Health:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.idoc-africa.org">www.idoc-africa.org</ext-link>
+. Accessed December 17, 2014
+</comment>
+.
+</mixed-citation></ref><ref id="ocv028-B11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Harris</surname><given-names>PA</given-names></name><etal/></person-group>
+.
+<article-title>Research electronic data capture (REDCap)â€”A metadata-driven methodology and workflow process for providing translational research informatics support</article-title>
+.
+<source>J Biomed Inform.</source><year>2008</year>
+;
+<volume>42</volume>
+(
+<issue>2</issue>
+):
+<fpage>377</fpage>
+–
+<lpage>381</lpage>
+.
+<pub-id pub-id-type="pmid">18929686</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jbi.2008.08.010</pub-id><pub-id pub-id-type="pmcid">PMC2700030</pub-id></mixed-citation></ref><ref id="ocv028-B12"><label>12</label><mixed-citation publication-type="other">
+<comment>
+Ministry of Health. Discharge Summary Form. 2015.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.idoc-africa.org/images/documents/Hospital%20Discharge%20Summary%20Form.pdf">http://www.idoc-africa.org/images/documents/Hospital%20Discharge%20Summary%20Form.pdf</ext-link>
+. Accessed March 3, 2015.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B13"><label>13</label><mixed-citation publication-type="other">
+<comment>
+Ministry of Health. Paediatric Admission Record. 2015.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.idoc-africa.org/images/documents/ETAT/et_paed_tools/Paediatric%20Admission%20Record%20(Age%20over%207%20days)%20-%20Basic%20Version.pdf">http://www.idoc-africa.org/images/documents/ETAT/et_paed_tools/Paediatric%20Admission%20Record%20(Age%20over%207%20days)%20-%20Basic%20Version.pdf</ext-link>
+. Accessed March 3, 2015.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B14"><label>14</label><mixed-citation publication-type="other">
+<comment>
+Ministry of Health. Feeding Chart. 2015.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.idoc-africa.org/images/documents/Feeding%20&amp;%20Weight%20Chart%20(type%202).pdf">http://www.idoc-africa.org/images/documents/Feeding%20&amp;%20Weight%20Chart%20(type%202).pdf</ext-link>
+. Accessed March 3, 2015.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B15"><label>15</label><mixed-citation publication-type="other">
+<comment>
+Ministry of Health. Paediatric Fluids and Treatment Chart. 2015.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://idoc-africa.org/images/documents/2015/Paeds%20Treatment%20Chart_v1.pdf">http://idoc-africa.org/images/documents/2015/Paeds%20Treatment%20Chart_v1.pdf</ext-link>
+. Accessed March 3, 2015.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Aluvaala</surname><given-names>J</given-names></name><etal/></person-group>
+.
+<article-title>Assessment of neonatal care in clinical training facilities in Kenya</article-title>
+.
+<source>Arch Dis Child.</source><year>2015</year>
+;
+<volume>100</volume>
+(
+<issue>1</issue>
+):
+<fpage>42</fpage>
+–
+<lpage>47</lpage>
+.
+<pub-id pub-id-type="pmid">25138104</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/archdischild-2014-306423</pub-id><pub-id pub-id-type="pmcid">PMC4283661</pub-id></mixed-citation></ref><ref id="ocv028-B17"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Irimu</surname><given-names>GW</given-names></name><etal/></person-group>
+.
+<article-title>Explaining the uptake of paediatric guidelines in a Kenyan tertiary hospital–mixed methods research</article-title>
+.
+<source>BMC Health Serv Res.</source><year>2014</year>
+;
+<volume>14</volume>
+:
+<fpage>119</fpage>
+.
+<pub-id pub-id-type="pmid">24613001</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1472-6963-14-119</pub-id><pub-id pub-id-type="pmcid">PMC3975593</pub-id></mixed-citation></ref><ref id="ocv028-B18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ayieko</surname><given-names>P</given-names></name><etal/></person-group>
+.
+<article-title>A multifaceted intervention to implement guidelines and improve admission paediatric care in Kenyan district hospitals: a cluster randomised trial</article-title><italic toggle="yes">.</italic><source>PLoS Med.</source><year>2011</year>
+;
+<volume>8</volume>
+(
+<issue>4</issue>
+):
+<fpage>e1001018</fpage>
+.
+<pub-id pub-id-type="pmid">21483712</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pmed.1001018</pub-id><pub-id pub-id-type="pmcid">PMC3071366</pub-id></mixed-citation></ref><ref id="ocv028-B19"><label>19</label><mixed-citation publication-type="other">
+<comment>
+World Health Organisation. International Classification of Diseases (ICD). Classifications 2014.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.who.int/classifications/icd/en/">http://www.who.int/classifications/icd/en/</ext-link>
+. Accessed December 12, 2014.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B20"><label>20</label><mixed-citation publication-type="other">
+<comment>
+Kenya Medical Research Institute - Wellcome Trust Research Programme. REDCap Synchronization Module. 2013.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://41.220.124.237/sync/">http://41.220.124.237/sync/</ext-link>
+. Accessed December 17, 2014.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Tumusiime</surname><given-names>DK</given-names></name><etal/></person-group>
+.
+<article-title>Introduction of mobile phones for use by volunteer community health workers in support of integrated community case management in Bushenyi District, Uganda: development and implementation process</article-title><italic toggle="yes">.</italic><source>BMC Health Serv Res.</source><year>2014</year>
+;
+<volume>14</volume>
+(
+<issue>Suppl 1</issue>
+):
+<fpage>S2</fpage>
+.
+<pub-id pub-id-type="pmid">25079241</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1472-6963-14-S1-S2</pub-id><pub-id pub-id-type="pmcid">PMC4108866</pub-id></mixed-citation></ref><ref id="ocv028-B22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Omollo</surname><given-names>R</given-names></name><etal/></person-group>
+.
+<article-title>Innovative approaches to clinical data management in resource limited settings using open-source technologies</article-title><italic toggle="yes">.</italic><source>PLoS Negl Trop Dis.</source><year>2014</year>
+;
+<volume>8</volume>
+(
+<issue>9</issue>
+):
+<fpage>e3134</fpage>
+.
+<pub-id pub-id-type="pmid">25210976</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pntd.0003134</pub-id><pub-id pub-id-type="pmcid">PMC4161312</pub-id></mixed-citation></ref><ref id="ocv028-B23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Siika</surname><given-names>AM</given-names></name><etal/></person-group>
+.
+<article-title>An electronic medical record system for ambulatory care of HIV-infected patients in Kenya</article-title>
+.
+<source>Int J Med Inform.</source><year>2005</year>
+;
+<volume>74</volume>
+(
+<issue>5</issue>
+):
+<fpage>345</fpage>
+–
+<lpage>355</lpage>
+.
+<pub-id pub-id-type="pmid">15893257</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijmedinf.2005.03.002</pub-id></mixed-citation></ref><ref id="ocv028-B24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Tierney</surname><given-names>WM</given-names></name><etal/></person-group>
+.
+<article-title>Crossing the “digital divide:” implementing an electronic medical record system in a rural Kenyan health center to support clinical care and research</article-title>
+.
+<source>Proc AMIA Symp.</source><year>2002</year>
+:
+<fpage>792</fpage>
+–
+<lpage>795</lpage>
+.
+<pub-id pub-id-type="pmid">12463933</pub-id><pub-id pub-id-type="pmcid">PMC2244335</pub-id></mixed-citation></ref><ref id="ocv028-B25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chaulagai</surname><given-names>CN</given-names></name><etal/></person-group>
+.
+<article-title>Design and implementation of a health management information system in Malawi: issues, innovations and results</article-title><italic toggle="yes">.</italic><source>Health Policy Plan.</source><year>2005</year>
+;
+<volume>20</volume>
+(
+<issue>6</issue>
+):
+<fpage>375</fpage>
+–
+<lpage>384</lpage>
+.
+<pub-id pub-id-type="pmid">16143590</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/heapol/czi044</pub-id></mixed-citation></ref><ref id="ocv028-B26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Maokola</surname><given-names>W</given-names></name><etal/></person-group>
+.
+<article-title>Enhancing the routine health information system in rural southern Tanzania: successes, challenges and lessons learned</article-title><italic toggle="yes">.</italic><source>Trop Med Int Health.</source><year>2011</year>
+;
+<volume>16</volume>
+(
+<issue>6</issue>
+):
+<fpage>721</fpage>
+–
+<lpage>730</lpage>
+.
+<pub-id pub-id-type="pmid">21395928</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-3156.2011.02751.x</pub-id></mixed-citation></ref><ref id="ocv028-B27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Mate</surname><given-names>KS</given-names></name><etal/></person-group>
+.
+<article-title>Challenges for routine health system data management in a large public programme to prevent mother-to-child HIV transmission in South Africa</article-title><italic toggle="yes">.</italic><source>PLoS One.</source><year>2009</year>
+;
+<volume>4(5)</volume>
+:
+<fpage>e5483</fpage>
+.
+<pub-id pub-id-type="pmid">19434234</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0005483</pub-id><pub-id pub-id-type="pmcid">PMC2677154</pub-id></mixed-citation></ref><ref id="ocv028-B28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Hannan</surname><given-names>TJ</given-names></name><etal/></person-group>
+.
+<article-title>The Mosoriot medical record system: design and initial implementation of an outpatient electronic record system in rural Kenya</article-title><italic toggle="yes">.</italic><source>Int J Med Inform.</source><year>2000</year>
+;
+<volume>60(1)</volume>
+:
+<fpage>21</fpage>
+–
+<lpage>28</lpage>
+.
+<pub-id pub-id-type="pmid">10974639</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s1386-5056(00)00068-x</pub-id></mixed-citation></ref><ref id="ocv028-B29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chilundo</surname><given-names>B</given-names></name><name name-style="western"><surname>Sundby</surname><given-names>J</given-names></name><name name-style="western"><surname>Aanestad</surname><given-names>M</given-names></name></person-group>
+.
+<article-title>Analysing the quality of routine malaria data in Mozambique</article-title><italic toggle="yes">.</italic><source>Malar J.</source><year>2004</year>
+;
+<volume>3</volume>
+:
+<fpage>3</fpage>
+.
+<pub-id pub-id-type="pmid">14998435</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1475-2875-3-3</pub-id><pub-id pub-id-type="pmcid">PMC395838</pub-id></mixed-citation></ref><ref id="ocv028-B30"><label>30</label><mixed-citation publication-type="other">
+<comment>
+Health Information Systems Programme. District Health Information System. 1998 [cited November 20, 2014].
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.dhis2.org/">https://www.dhis2.org/</ext-link>
+. Accessed December 5, 2014.
+</comment>
+</mixed-citation></ref><ref id="ocv028-B31"><label>31</label><mixed-citation publication-type="other">
+<comment>
+Python Software Foundation,
+<italic toggle="yes">Python</italic>
+. 2014.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.python.org/">https://www.python.org/</ext-link>
+. Accessed December 5, 2014.
+</comment>
+</mixed-citation></ref></ref-list></back></article>

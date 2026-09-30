@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "scope": "DATASET_REGRESSION_ONLY",
+  "paper_gate": {
+    "schema": 1,
+    "manifest_sha256": "581b7d6c59d7db7e4b7937f3f8d727222d584ab6bc6232ae91e90304accef749",
+    "registration_bytes": 2744,
+    "registration_lines": 50,
+    "results": [
+      {
+        "claim_id": "GGPLOT2-MPG-ROWS",
+        "action": "BLOCK",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "reason": "출판 원문이 아닌 코드·큐레이터 기록: 원문 대조 필요"
+      },
+      {
+        "claim_id": "GGPLOT2-MIDWEST-ROWS",
+        "action": "BLOCK",
+        "source_scope_verified": false,
+        "full_paper_reproduced": false,
+        "reason": "출판 원문이 아닌 코드·큐레이터 기록: 원문 대조 필요"
+      }
+    ],
+    "scope": "개발자 등록 시험; 사람 정답·범용 AI 우위·논문 전체 재현 아님"
+  },
+  "product_engine": {
+    "schema": 1,
+    "mapping_scope": "evaluation oracle: supplied mappings enter typed contract; not autonomous extraction or human-approved gold",
+    "results": [
+      {
+        "rows_used": 234,
+        "observations_used": 234,
+        "claim_id": "GGPLOT2-MPG-ROWS",
+        "action": "EXECUTE",
+        "value": 234.0,
+        "verdict": "SUPPORTED",
+        "reason": "필터[없음] · row_count(all rows) · n=234 · 보고 234 ↔ 재계산 234; 차이 0 ≤ 허용오차 0",
+        "source_hash": "d3b426489bc03bbb96c9376cb1869a6166963d18b7bb7f6583388aa05b27725e",
+        "contract": {
+          "claim_id": "GGPLOT2-MPG-ROWS",
+          "contract_type": "DESCRIPTIVE",
+          "source_page": null,
+          "source_quote": "@format A data frame with 234 rows and 11 variables:",
+          "dataset_name": "mpg.csv",
+          "dataset_hash": "d3b426489bc03bbb96c9376cb1869a6166963d18b7bb7f6583388aa05b27725e",
+          "filters": [],
+          "human_confirmed": true,
+          "method": "row_count",
+          "method_confirmed": true,
+          "missing_policy": "drop",
+          "missing_policy_confirmed": true,
+          "analysis_spec": {
+            "population": "unspecified",
+            "estimand": "unspecified",
+            "missing_policy": "drop",
+            "variance_estimator": "unspecified",
+            "multiplicity_policy": "unspecified",
+            "multiplicity_count": 0,
+            "multiplicity_p_values": [],
+            "multiplicity_target_index": null,
+            "multiplicity_family_definition": "",
+            "reference_levels": {},
+            "interactions": [],
+            "transforms": {},
+            "human_confirmed": false
+          },
+          "variable": "__dataset__",
+          "aggregation": "row_count",
+          "tolerance": 0,
+          "weight_column": "",
+          "success_value": "1",
+          "reference_value": 0.0,
+          "alpha": 0.05
+        },
+        "confirmation_source": "evaluation_oracle_fixture_not_human"
+      },
+      {
+        "rows_used": 437,
+        "observations_used": 437,
+        "claim_id": "GGPLOT2-MIDWEST-ROWS",
+        "action": "EXECUTE",
+        "value": 437.0,
+        "verdict": "SUPPORTED",
+        "reason": "필터[없음] · row_count(all rows) · n=437 · 보고 437 ↔ 재계산 437; 차이 0 ≤ 허용오차 0",
+        "source_hash": "8c760e3d61220b425dd89cdfdb8af3d3a0d1c640ad2e409d84a03c7a2d9f9fbe",
+        "contract": {
+          "claim_id": "GGPLOT2-MIDWEST-ROWS",
+          "contract_type": "DESCRIPTIVE",
+          "source_page": null,
+          "source_quote": "@format A data frame with 437 rows and 28 variables:",
+          "dataset_name": "midwest.csv",
+          "dataset_hash": "8c760e3d61220b425dd89cdfdb8af3d3a0d1c640ad2e409d84a03c7a2d9f9fbe",
+          "filters": [],
+          "human_confirmed": true,
+          "method": "row_count",
+          "method_confirmed": true,
+          "missing_policy": "drop",
+          "missing_policy_confirmed": true,
+          "analysis_spec": {
+            "population": "unspecified",
+            "estimand": "unspecified",
+            "missing_policy": "drop",
+            "variance_estimator": "unspecified",
+            "multiplicity_policy": "unspecified",
+            "multiplicity_count": 0,
+            "multiplicity_p_values": [],
+            "multiplicity_target_index": null,
+            "multiplicity_family_definition": "",
+            "reference_levels": {},
+            "interactions": [],
+            "transforms": {},
+            "human_confirmed": false
+          },
+          "variable": "__dataset__",
+          "aggregation": "row_count",
+          "tolerance": 0,
+          "weight_column": "",
+          "success_value": "1",
+          "reference_value": 0.0,
+          "alpha": 0.05
+        },
+        "confirmation_source": "evaluation_oracle_fixture_not_human"
+      }
+    ]
+  },
+  "independent_engine": {
+    "schema": 1,
+    "results": [
+      {
+        "claim_id": "GGPLOT2-MPG-ROWS",
+        "source_hash": "d3b426489bc03bbb96c9376cb1869a6166963d18b7bb7f6583388aa05b27725e",
+        "action": "EXECUTE",
+        "value": 234,
+        "rows_used": 234,
+        "observations_used": 234
+      },
+      {
+        "claim_id": "GGPLOT2-MIDWEST-ROWS",
+        "source_hash": "8c760e3d61220b425dd89cdfdb8af3d3a0d1c640ad2e409d84a03c7a2d9f9fbe",
+        "action": "EXECUTE",
+        "value": 437,
+        "rows_used": 437,
+        "observations_used": 437
+      }
+    ]
+  },
+  "new_paper_reproductions": 0,
+  "human_approval": false,
+  "new_production_code_for_datasets": 0
+}

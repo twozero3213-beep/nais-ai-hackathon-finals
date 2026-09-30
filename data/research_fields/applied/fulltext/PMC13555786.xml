@@ -1,0 +1,1150 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Genet Mol Biol</journal-id><journal-id journal-id-type="iso-abbrev">Genet Mol Biol</journal-id><journal-id journal-id-type="pmc-domain-id">1440</journal-id><journal-id journal-id-type="pmc-domain">gmb</journal-id><journal-id journal-id-type="nlm-id">100883590</journal-id><journal-id journal-id-type="publisher-id">gmb</journal-id><journal-title-group><journal-title>Genetics and Molecular Biology</journal-title></journal-title-group><issn pub-type="ppub">1415-4757</issn><issn pub-type="epub">1678-4685</issn><?publisher_abbrev sbg?><publisher><publisher-name>Sociedade Brasileira de Genética</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13555786</article-id><article-id pub-id-type="pmcid-ver">PMC13555786.1</article-id><article-id pub-id-type="pmcaid">13555786</article-id><article-id pub-id-type="pmcaiid">13555786</article-id><article-id pub-id-type="pmid">42714267</article-id><article-id pub-id-type="doi">10.1590/1678-4685-GMB-2026-0016</article-id><article-id pub-id-type="other">00301</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Plant Genetics</subject></subj-group></article-categories><title-group><article-title>Chloroplast genome comparative analysis and phylogenetic
+relationships of 15 <italic toggle="yes">Syringa</italic> species (Oleaceae)</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Duan</surname><given-names initials="Y">Yuting</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn1" ref-type="author-notes">
+<sup>*</sup>
+</xref><role>conceived and designed the research</role><role>conducted the experiment</role><role>data analysis</role><role>wrote the manuscript</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yan</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn1" ref-type="author-notes">
+<sup>*</sup>
+</xref><role>conceived and designed the research</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yiluo</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><role>conducted the experiment</role><role>data analysis</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib><contrib contrib-type="author"><name name-style="western"><surname>Xu</surname><given-names initials="K">Kaige</given-names></name><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><role>conducted the experiment</role><role>data analysis</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="E">Erdong</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><role>conceived and designed the research</role><role>conducted the experiment</role><role>data analysis</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ding</surname><given-names initials="X">Xiaodong</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><role>conceived the study</role><role>wrote the manuscript</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5301-4658</contrib-id><name name-style="western"><surname>Zhang</surname><given-names initials="L">Lei</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><role>conceived the study</role><role>wrote the manuscript</role><role>read and approved the manuscript</role><role>read and agreed to the published version of the manuscript</role></contrib></contrib-group><aff id="aff1">
+<label>1</label>North Minzu University, School of Biological Science &amp;
+Engineering, Key Laboratory of Ecological Protection of Agro-Pastoral Ecotones in
+the Yellow River Basin, National Ethnic Affairs Commission of the People’s Republic
+of China, Yinchuan, China.</aff><aff id="aff2">
+<label>2</label>North Minzu University, Analysis and Testing Center of Ningxia Hui
+Autonomous Region, Yinchuan, China.</aff><author-notes><corresp id="c1">
+<label>Send correspondence to</label> Lei Zhang, North Minzu University, School
+of Biological Science &amp; Engineering, Key Laboratory of Ecological Protection
+of Agro-Pastoral Ecotones in the Yellow River Basin, National Ethnic Affairs
+Commission of the People’s Republic of China, Wenchang Road, number 204, 750021,
+Yinchuan, China. E-mail: 
+</corresp><fn fn-type="equal" id="fn1"><label>*</label><p>These authors contributed equally to this work.</p></fn><fn fn-type="edited-by" id="fn2"><p><bold>Associate Editor:</bold> Rogerio Margis</p></fn><fn fn-type="COI-statement" id="fn3"><p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p></fn></author-notes><pub-date date-type="pub" publication-format="electronic"><day>07</day><month>9</month><year>2026</year></pub-date><pub-date date-type="collection" publication-format="electronic"><year>2026</year></pub-date><volume>49</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">518427</issue-id><elocation-id>e20260016</elocation-id><history><date date-type="received"><day>10</day><month>2</month><year>2026</year></date><date date-type="accepted"><day>13</day><month>7</month><year>2026</year></date></history><pub-history><event event-type="pmc-release"><date><day>07</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>10</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-13 08:04:46.000"><day>13</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Sociedade Brasileira de
+Genética</copyright-statement><copyright-holder>Sociedade Brasileira de Genética</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>License information: This is an open-access article distributed under
+the terms of the Creative Commons Attribution License (type CC-BY), which
+permits unrestricted use, distribution and reproduction in any medium,
+provided the original article is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="1415-4757-GMB-49-3-e20260016.pdf"><?pdf-name 1415-4757-GMB-49-3-e20260016.pdf?><?pdf-size 6381390?><?pdf-md5 3501f799dc257edb1fa3df7130250e5f?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:3906/13555786/3501f799dc25/1415-4757-GMB-49-3-e20260016.pdf?></self-uri><abstract><title>Abstract</title><p>
+<italic toggle="yes">Syringa</italic> is a crucial shrub genus in the family Oleaceae, which
+has significant ornamental, economic, and medicinal value. However, research on
+the chloroplast genome (CPG) phylogeny and lineage diversification of this genus
+remains limited. In this study, all 15 <italic toggle="yes">Syringa</italic> CPGs exhibited a
+characteristic quadripartite structure, with genome lengths ranging from
+154,019-158,020 bp. These CPGs were highly conserved and moderately
+differentiated, each containing 130-132 genes. Analysis of inverted repeat (IR)
+boundaries indicated structural conservation, with six genes:
+<italic toggle="yes">rps</italic>19, <italic toggle="yes">rpl</italic>2, <italic toggle="yes">ycf</italic>1,
+<italic toggle="yes">trn</italic>N, <italic toggle="yes">ndh</italic>F, and <italic toggle="yes">trn</italic>H
+present at the IR/single-copy (SC) junctions. The small single copy (SSC) region
+displayed greater sequence variability than the IR regions.
+<italic toggle="yes">ycf</italic>1, <italic toggle="yes">ndh</italic>H,
+<italic toggle="yes">trn</italic>L-<italic toggle="yes">rpl</italic>32,
+<italic toggle="yes">ndh</italic>F-<italic toggle="yes">ycf</italic>1, and
+<italic toggle="yes">rbc</italic>L-<italic toggle="yes">acc</italic>D were identified as potential
+molecular markers and <italic toggle="yes">rps</italic>11, <italic toggle="yes">ycf</italic>2, and
+<italic toggle="yes">ycf</italic>4 may have contributed to the adaptive evolution of
+<italic toggle="yes">Syringa</italic>. Phylogenetic reconstruction based on whole CPG
+data supported the monophyly of the 15 species, which were divided into three
+distinct subclades. Molecular dating estimated that <italic toggle="yes">Syringa</italic>
+diverged from its sister genus approximately 58 million years ago, with most
+<italic toggle="yes">Syringa</italic> species diversifying further approximately 47.49
+million years ago during the Eocene. Our findings will hopefully stimulate
+further studies on this genus that may enhance biodiversity knowledge.</p></abstract><kwd-group><title>
+Keywords:
+</title><kwd>Syringa</kwd><kwd>chloroplast genome</kwd><kwd>comparative analysis</kwd><kwd>phylogenetic relationship</kwd><kwd>divergence time</kwd></kwd-group><funding-group><award-group award-type="contract"><funding-source>Ningxia innovative training program for college students </funding-source><award-id>S202511407030</award-id></award-group><award-group award-type="contract"><funding-source>North Minzu University </funding-source><award-id>CYX25272</award-id></award-group><award-group award-type="contract"><funding-source>Ningxia Natural Science Foundation </funding-source><award-id>2024AAC03160</award-id><award-id>2023BEG03062</award-id></award-group><funding-statement>This work is supported by the Ningxia innovative training program
+for college students (S202511407030), the graduate innovation project of North
+Minzu University (CYX25272), and the Ningxia Natural Science Foundation
+(2024AAC03160, 2023BEG03062).</funding-statement></funding-group><counts><fig-count count="6"/><table-count count="1"/><equation-count count="0"/><ref-count count="80"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>
+<italic toggle="yes">Syringa</italic> is a vital shrub genus within the Oleaceae family and
+comprises approximately 40 species distributed across Asia, including China, North
+Korea, and Japan as well as southeastern Europe. Within China, it is primarily
+native to southwestern regions and the provinces along the Yellow River (<xref rid="B4" ref-type="bibr">Chang et al., 1996</xref>; <xref rid="B51" ref-type="bibr">Wang et al., 2022</xref>). <italic toggle="yes">Syringa</italic> are not only
+valued as ornamentals plants but also offer economic benefits and significant
+medicinal properties (<xref rid="B79" ref-type="bibr">Zhu et al., 2021</xref>). They
+have been cultivated for centuries in China and Europe as decorative plants and
+sources of spice (<xref rid="B13" ref-type="bibr">Fiala and Vrugtman, 2008</xref>).
+Numerous studies have shown that these plants contain bioactive compounds such as
+terpenoids, which exhibit a range of therapeutic effects, including
+cardioprotective, neuroprotective, hypoglycemic, anti-influenza, antibacterial,
+anti-inflammatory, and antioxidant properties (<xref rid="B16" ref-type="bibr">Gao
+et al., 2020</xref>; <xref rid="B30" ref-type="bibr">Ma et al., 2020</xref>;
+<xref rid="B58" ref-type="bibr">Xu et al., 2025</xref>). Previous research on
+<italic toggle="yes">Syringa</italic> has primarily focused on their taxonomy (<xref rid="B33" ref-type="bibr">Qian et al., 2025</xref>), physiology (<xref rid="B54" ref-type="bibr">Xiao et al., 2015</xref>), breeding (<xref rid="B23" ref-type="bibr">Lattier and Contreras, 2017</xref>), and medicinal
+attributes (<xref rid="B77" ref-type="bibr">Zhang et al., 2014</xref>; <xref rid="B14" ref-type="bibr">Filipek et al., 2019</xref>; <xref rid="B32" ref-type="bibr">Peng et al., 2019</xref>). Despite their ornamental and medicinal
+significance, the key aspects of <italic toggle="yes">Syringa</italic> phylogeny, interspecific
+relationships, and evolutionary history remain poorly understood (<xref rid="B61" ref-type="bibr">Yang et al., 2023</xref>). Although researchers have
+explored the phylogenetic relationships within the genus using limited ITS and DNA
+barcode fragments (<xref rid="B26" ref-type="bibr">Li et al., 2002</xref>; <xref rid="B25" ref-type="bibr">Li <italic toggle="yes">et al</italic>., 2012</xref>; <xref rid="B6" ref-type="bibr">Cheng et al., 2025</xref>), the complete chloroplast
+genome (CPG) phylogeny and lineage diversification remains to be investigated.</p><p>Chloroplasts, are essential organelles in plants, which serve as the primary site of
+photosynthesis and are involved in critical processes such as carbon fixation (<xref rid="B35" ref-type="bibr">Qin et al., 2023</xref>; <xref rid="B27" ref-type="bibr">Li et al., 2025</xref>). They contain their own independent genetic
+system: the CPG, which is double-stranded and circular in most plants (<xref rid="B55" ref-type="bibr">Xie et al., 2020</xref>; <xref rid="B20" ref-type="bibr">Kassem, 2025</xref>). Compared with short DNA fragments, CPGs provide
+substantially more informative sites, which makes them particularly effective for
+analyzing nucleotide diversity and reconstructing phylogenetic relationships among
+closely related species (<xref rid="B9" ref-type="bibr">Daniell et al., 2016</xref>;
+<xref rid="B49" ref-type="bibr">Wang et al., 2023 a </xref>; <xref rid="B36" ref-type="bibr">Qin <italic toggle="yes">et al</italic>., 2025</xref>). CPGs range
+between 75 and 250 kb in length, with numerous copies per cell, and are generally
+maternally inherited in most plant species. Their structure is highly conserved in
+terms of both gene content and organization (<xref rid="B50" ref-type="bibr">Wang
+<italic toggle="yes">et al</italic>., 2023b</xref>; <xref rid="B45" ref-type="bibr">Shi
+et al., 2025</xref>). A typical CPG comprises four distinct regions: two
+single-copy regions: large single copy (LSC) and small single copy (SSC) and a pair
+of inverted repeat regions (IR):IRa and IRb (<xref rid="B43" ref-type="bibr">Ruf et
+al., 2019</xref>; <xref rid="B17" ref-type="bibr">Guo et al., 2025</xref>). CPGs
+have become valuable tools in comparative genomic and phylogenetic studies due to
+their structural simplicity, high conservation, and uniparental inheritance. They
+are increasingly being used to identify species, assess genetic and nucleotide
+diversity, resolve complex phylogenetic relationships, and infer evolutionary
+history (<xref rid="B31" ref-type="bibr">Nock et al., 2019</xref>; <xref rid="B37" ref-type="bibr">Quan et al., 2024</xref>).</p><p>Despite the availability of CPG data, few molecular phylogenetic studies have
+utilized to resolve infrafamilial relationships within <italic toggle="yes">Syringa</italic>.
+Existing studies have largely relied on one or a few molecular loci, or limited
+taxonomic coverage. Consequently, phylogenetic relationships and divergence
+timescales within the genus remain poorly resolved (<xref rid="B26" ref-type="bibr">Li et al., 2002</xref>, <xref rid="B25" ref-type="bibr">2012</xref>; <xref rid="B61" ref-type="bibr">Yang et al., 2023</xref>). In this study, we compared
+and analyzed 15 <italic toggle="yes">Syringa</italic> species. Our primary aims were to (1)
+reconstruct a robust phylogeny of the Oleaceae family using CPGs from 35 species,
+(2) estimate the divergence times of the <italic toggle="yes">Syringa</italic> clade, and (3)
+investigate the structural variations in CPGs across the sampled
+<italic toggle="yes">Syringa</italic> species.</p></sec><sec sec-type="materials|methods"><title>Material and Methods</title><sec><title>Plant material, DNA extraction, and sequencing</title><p>Thirty-seven CPGs from Oleaceae and related families were analyzed in this study
+(<xref rid="suppl3" ref-type="supplementary-material">Table S1</xref>). Of
+these, 35 CPGs were selected from Oleaceae, including 15 species of
+<italic toggle="yes">Syringa</italic>, and two additional CPGs from Lamiaceae were
+included as outgroups for phylogenetic reconstruction. Among the 37 CPGs,
+<italic toggle="yes">S. pinnatifolia</italic>, <italic toggle="yes">S. vulgaris</italic>, and
+<italic toggle="yes">S. pubescens</italic> were newly sequenced in this study and the
+remaining sequences were retrieved from the National Center for Biotechnology
+Information (NCBI; https://www.ncbi.nlm.nih.gov/: <xref rid="suppl3" ref-type="supplementary-material">Table S1</xref>). Leaf
+samples were collected from various locations throughout China. All plant
+materials were identified by Dr. Lei Zhang and voucher specimens were deposited
+in the Herbarium of North Minzu University (NMU; Yinchuan, China: <xref rid="suppl3" ref-type="supplementary-material">Table S1</xref>). Total DNA
+was extracted from the silica gel-dried leaves using the cetyltrimethylammonium
+bromide (CTAB) method (<xref rid="B1" ref-type="bibr">Allen et al.,
+2006</xref>). Sequencing libraries were prepared using the NEBNext DNA Library
+Kit (New England Biolabs, Ipswich, MA, USA) according to the manufacturer’s
+protocol. The DNA was randomly fragmented into approximately 350-bp inserts, and
+paired-end sequencing (150 bp) was performed using a NovaSeq 6000 platform
+(Illumina, San Diego, CA, USA).</p></sec><sec><title>Genome sequencing, assembly, and annotation</title><p>A minimum of two of 150-bp paired-end reads were generated per sample. Raw reads
+were filtered to remove those with quality scores below 7 or those containing
+more than 10% ambiguous nucleotides, thereby producing high-quality clean reads
+for downstream analyses. The filtered reads were assembled using NOVOPlasty
+v4.3.3 (<xref rid="B10" ref-type="bibr">Dierckxsens et al., 2017</xref>) with
+parameters set as k-mer = 39, read length = 150, and insert size = 350. The
+resulting contigs were aligned and merged into complete sequences using Geneious
+v11.0.3 (<xref rid="B21" ref-type="bibr">Kearse et al., 2012</xref>). The CPGs
+were annotated in Plann v1.1 (<xref rid="B19" ref-type="bibr">Huang and Cronk,
+2015</xref>) using the <italic toggle="yes">S.</italic> × <italic toggle="yes">persica</italic> CPG as
+a reference. Finally, circular genome maps were generated using OGDRAW v1.2
+(<xref rid="B28" ref-type="bibr">Lohse et al., 2013</xref>) and all newly
+annotated CPGs were submitted to GenBank (<xref rid="B44" ref-type="bibr">Sayers
+et al., 2020</xref>).</p></sec><sec><title>Genomic structural and divergent hotspot analysis</title><p>Structural variations and rearrangement events were analyzed across 15
+<italic toggle="yes">Syringa</italic> CPGs. Comparative analysis of these CPGs was
+performed using the mVISTA program (<xref rid="B15" ref-type="bibr">Frazer et
+al., 2004</xref>), with the annotated CPG of <italic toggle="yes">S.</italic> ×
+<italic toggle="yes">persica</italic> serving as a reference in the LAGAN alignment mode
+(<xref rid="B3" ref-type="bibr">Brudno et al., 2023</xref>). Following
+sequence alignment, nucleotide diversity (Pi) across the CPGs was calculated
+using DnaSP version 6.0 (<xref rid="B42" ref-type="bibr">Rozas et al.,
+2017</xref>).</p></sec><sec><title>Selection pressure analysis</title><p>We excluded protein-coding genes (PCGs) shorter than 300 bp. A total of 49 PCGs
+were chosen and aligned using the MUSCLE algorithm (<xref rid="B12" ref-type="bibr">Edgar, 2004</xref>). Stop codons were removed from the aligned
+sequences using MEGA 11 (<xref rid="B48" ref-type="bibr">Tamura et al.,
+2021</xref>). The resulting aligned sequences were converted to the PML
+format using PhyloSuite v1.2.2 (<xref rid="B72" ref-type="bibr">Zhang et al.,
+2020 a </xref>). To calculate the non-synonymous substitution rate (Ka),
+synonymous substitution rate (Ks), and ratio values (ω, Ka/Ks) of each PCG, we
+employed the Site Model (M0) using PAML v4.9 (<xref rid="B67" ref-type="bibr">Yang, 2007</xref>).</p></sec><sec><title>Phylogenetic inference and estimation of divergence time</title><p>Two datasets were constructed for phylogenetic reconstruction: a PCG set and a
+whole plastome set. PCGs were extracted from the 34 CPGs in GenBank format using
+custom Perl scripts, with the start and stop codons removed. After excluding
+potential pseudogenes, only the PCGs common to all species were retained. Each
+gene was aligned using PRANK v130410 (<xref rid="B29" ref-type="bibr">Löytynoja
+and Goldman, 2008</xref>) based on the translated amino acid sequences.
+Genes that were absent from any species were discarded and the remaining aligned
+sequences were concatenated into a supermatrix.</p><p>Phylogenetic analyses were conducted separately for the PCG and whole plastome
+datasets using both maximum likelihood (ML) and Bayesian inference (BI)
+approaches. ML analysis was performed using RAxML v8.1.24 (<xref rid="B47" ref-type="bibr">Stamatakis, 2014</xref>) under the GTR + Γ model, with the best
+tree identified via the rapid hill-climbing algorithm, and node support was
+assessed with 1,000 bootstrap replicates. The optimal substitution model (GTR +
+I + G) was selected using jModeltest, and BI was performed using MrBayes v3.2.6
+(<xref rid="B41" ref-type="bibr">Ronquist et al., 2012</xref>). The
+resulting phylogenies were visualized using FigTree v1.4.2 (<xref rid="B80" ref-type="bibr">Rambaut, 2012</xref>).</p><p>Divergence times were estimated from the plastome dataset using the MCMC tree in
+PAML v4 (<xref rid="B67" ref-type="bibr">Yang, 2007</xref>) under a
+relaxed-clock model and birth-death sampling process (<xref rid="B39" ref-type="bibr">Rannala and Yang, 2007</xref>). As fossil records for Oleaceae are
+limited, four secondary time constraints were applied: (1) 11.7-22.5 million
+years ago (Mya) for the split between <italic toggle="yes">Nestegis apetala</italic> and
+<italic toggle="yes">Notelaea microcarpa</italic> (<xref rid="B11" ref-type="bibr">Dupin
+et al., 2022</xref>); (2) 5.78-14.3 Mya for the divergence of
+<italic toggle="yes">Forestiera isabelae</italic> and <italic toggle="yes">Hesperelaea
+palmeri</italic> (<xref rid="B24" ref-type="bibr">Li et al., 2019</xref>);
+(3) 19.9-38.3 Mya for the split between <italic toggle="yes">Fraxinus chinensis</italic> and
+related species (<xref rid="B70" ref-type="bibr">Zhang et al., 2020 b </xref>);
+(4) 98.2-105 Mya for the root of the phylogeny, following previously established
+constraints (<xref rid="B40" ref-type="bibr">Roalson and Roberts,
+2016</xref>).</p><p>The GTR + Γ model was used, with the prior for the substitution rate (rgene) set
+to a gamma distribution Γ(2, 200, 1). The birth-death process was parameterized
+with species sampling and σ² values set to (1, 1, 0.1) and G (1, 10, 1),
+respectively. We ran two independent MCMC chains, where the first 2,000
+generations were discarded as burn-in; subsequently, and the output was sampled
+every 750 generations until 20,000 samples were obtained. Convergence was
+confirmed by comparing the two runs with random seeds, which yielded consistent
+results.</p></sec><sec><title>Ethics</title><p>The current investigation involved the collection of <italic toggle="yes">S.
+pubescens</italic>, <italic toggle="yes">S. vulgaris</italic>, and <italic toggle="yes">S.
+pinnatifolia</italic> specimens from publicly accessible land. Such
+collection for research purposes does not pose a threat to the local ecology.
+All voucher specimens were deposited in the Herbarium of North Minzu University
+(NMU), Yinchuan, Ningxia, People’s Republic of China, under the voucher numbers
+zlnmu2025100, zlnmu2021150, and zlnmu2024085, respectively. Taxonomic
+identification was confirmed by Dr. Lei Zhang.</p></sec></sec><sec sec-type="results"><title>Results</title><sec><title>
+Characteristics of <italic toggle="yes">Syringa</italic> CPGs
+</title><p>Following quality control and preprocessing, a minimum of 6 Gb of whole-genome
+sequencing data were obtained for <italic toggle="yes">S. pinnatifolia</italic>, <italic toggle="yes">S.
+pubescens</italic>, and <italic toggle="yes">S. vulgaris</italic>. Clean reads were used
+to assemble complete CPGs through a reference-guided approach. All 15
+<italic toggle="yes">Syringa</italic> CPGs exhibited their characteristic quadripartite
+circular structure consisting of LSC and SSC regions, separated by a pair of IR
+regions (<xref rid="f1" ref-type="fig">Figure 1</xref>; <xref rid="suppl4" ref-type="supplementary-material">Table S2</xref>). The total
+size of the CPGs ranged from 154,019 (<italic toggle="yes">S. pubescens</italic>) to 158,020
+bp (<italic toggle="yes">S. komarowii</italic> subsp. <italic toggle="yes">reflexa</italic>). The LSC
+region varied in length from 86,213 (<italic toggle="yes">S. pubescens</italic>) to 87,108 bp
+(<italic toggle="yes">S. reticulata</italic> subsp. <italic toggle="yes">amurensis</italic>), the SSC
+region ranged from 17,239 (<italic toggle="yes">S. reticulata</italic> subsp.
+<italic toggle="yes">amurensis</italic>) to 19,245 bp (<italic toggle="yes">S. pinetorum</italic>),
+and the IR regions from 25,046 (<italic toggle="yes">S. pubescens</italic>) to 25,897 bp
+(<italic toggle="yes">S. reticulata</italic> subsp. <italic toggle="yes">amurensis</italic>) (<xref rid="suppl4" ref-type="supplementary-material">Table S2</xref>). The GC
+content was highly conserved across all <italic toggle="yes">Syringa</italic> CPGs, and
+ranged from 37.9% to 38.0%. The IR regions showed higher GC content (42.9-43.4%)
+than the LSC (31.1-36.2%) and SSC (32.1-32.9%) regions (<xref rid="f1" ref-type="fig">Figure 1</xref>; <xref rid="suppl4" ref-type="supplementary-material">Table S2</xref>). Additionally, each CPG contained 130-132
+annotated genes, including 35-37 tRNAs and eight rRNAs (<xref rid="suppl4" ref-type="supplementary-material">Table S2</xref>).</p><p>
+<fig position="float" id="f1" orientation="portrait"><label>Figure 1 - </label><caption><title>Gene map of the CPGs of 15 <italic toggle="yes">Syringa</italic> species.
+Genes belonging to different functional groups are shown in
+different colors. The darker gray area in the inner circle indicates
+the GC content, and the lighter gray indicates the AT content of the
+genome. The thick lines indicate the extent of the inverted repeats
+(IRa and IRb) that separate the genomes into the small single-copy
+(SSC) and large single-copy (LSC) regions.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="1415-4757-GMB-49-3-e20260016-gf1.webp"><?image-name 1415-4757-GMB-49-3-e20260016-gf1.webp?><?image-size 154642?><?image-md5 1c488dd52a5791ee719d15e29376d078?><?image-image-server-status NEED_LOADING?><?image-original-height 1540?><?image-original-width 1600?><?image-scaled-height 1540?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/3906/13555786/1c488dd52a57/1415-4757-GMB-49-3-e20260016-gf1.webp?><?thumb-name 1415-4757-GMB-49-3-e20260016-gf1.gif?><?thumb-size 11041?><?thumb-md5 ad43e72d5c84af26740dcc5d3ce43686?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 192?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3906/13555786/ad43e72d5c84/1415-4757-GMB-49-3-e20260016-gf1.gif?></graphic></fig>
+</p></sec><sec><title>IR boundary analysis</title><p>The IR/single copy (SC) boundary regions were compared across the 15
+<italic toggle="yes">Syringa</italic> species (<xref rid="f2" ref-type="fig">Figure
+2</xref>). The CPGs showed high structural conservation, particularly in the
+size of the IR regions (25,420-25,897 bp) and organization of the IR/SC
+boundaries. Six genes were consistently present near these boundaries:
+<italic toggle="yes">rps</italic>19 and <italic toggle="yes">rpl</italic>2 between the LSC and IRb;
+<italic toggle="yes">ycf</italic>1, <italic toggle="yes">trn</italic>N, and <italic toggle="yes">ndh</italic>F
+between the IRb and SSC; <italic toggle="yes">ycf</italic>1 and <italic toggle="yes">trn</italic>N between
+the SSC and IRa; and <italic toggle="yes">rpl</italic>2 and <italic toggle="yes">trn</italic>H between the
+IRa and LSC. Notable variations were observed in the positioning of specific
+genes: The <italic toggle="yes">rpl</italic>2 gene spanned the LSC/IRb and IRa/LSC boundaries
+in <italic toggle="yes">S. oblata</italic> and <italic toggle="yes">S. reticulata</italic> subsp.
+<italic toggle="yes">amurensis</italic> but were entirely contained within the IR region
+in other species. <italic toggle="yes">rps</italic>19 spanned the LSC/IRb boundary in seven
+species, extending 1-3 bp into the IRb; in others, it resided entirely in the
+LSC. The SSC/IRb boundary was generally situated within <italic toggle="yes">ycf</italic>1
+and <italic toggle="yes">ndh</italic>F, except in <italic toggle="yes">S. fauriei</italic>, <italic toggle="yes">S.
+oblata</italic>, <italic toggle="yes">S. pinetorum</italic>, <italic toggle="yes">S.
+josikaea</italic>, and <italic toggle="yes">S. reticulata</italic> subsp.
+<italic toggle="yes">amurensis</italic>. The <italic toggle="yes">ycf</italic>1 gene extended into the
+SSC by 5 bp (<italic toggle="yes">S. pubescens</italic>) to 1,023 bp (<italic toggle="yes">S.
+villosa</italic> subsp. <italic toggle="yes">wolfii</italic>), whereas
+<italic toggle="yes">ndh</italic>F was located entirely in the SSC in eight species. At
+the SSC/IRa boundary, <italic toggle="yes">ycf</italic>1 consistently marked this transition.
+Further, <italic toggle="yes">trn</italic>N was invariably located within the IR region,
+577-1,685 bp from the nearest boundary and <italic toggle="yes">trn</italic>H was
+consistently present in the LSC at 12-638 bp from the IRa/LSC boundary. These
+results reflect both conserved features and lineage-specific structural
+variations in the IR/SC boundaries of <italic toggle="yes">Syringa</italic> CPGs.</p><p>
+<fig position="float" id="f2" orientation="portrait"><label>Figure 2 - </label><caption><title>Comparisons of the borders of the large single-copy (LSC), small
+single-copy (SSC), and inverted repeat (IR) regions among the CPGs
+of 15 <italic toggle="yes">Syringa</italic> species.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="1415-4757-GMB-49-3-e20260016-gf2.webp"><?image-name 1415-4757-GMB-49-3-e20260016-gf2.webp?><?image-size 288452?><?image-md5 d30ff70cdbe642c46d4cc2a9a4605bf6?><?image-image-server-status NEED_LOADING?><?image-original-height 2321?><?image-original-width 1600?><?image-scaled-height 2321?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/3906/13555786/d30ff70cdbe6/1415-4757-GMB-49-3-e20260016-gf2.webp?><?thumb-name 1415-4757-GMB-49-3-e20260016-gf2.gif?><?thumb-size 11584?><?thumb-md5 18de32f757eec2e7aabb1378d3c2ec41?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 138?><?thumb-cloudpmc-urn urn:cdn:blobs/3906/13555786/18de32f757ee/1415-4757-GMB-49-3-e20260016-gf2.gif?></graphic></fig>
+</p></sec><sec><title>Comparative genomics and divergence hotspots</title><p>The CPGs of 15 <italic toggle="yes">Syringa</italic> species were visually compared with those
+of <italic toggle="yes">S. pinnatifolia</italic> as a reference using the mVISTA online
+database. The results indicated that the CPGs were generally conserved, although
+variations were present in both non-coding and coding regions (<xref rid="f3" ref-type="fig">Figure 3</xref>). Regions exhibiting high sequence
+variation were mainly identified in the following intervals:
+<italic toggle="yes">trn</italic>H-<italic toggle="yes">psb</italic>A,
+<italic toggle="yes">psb</italic>I-<italic toggle="yes">trn</italic>G,
+<italic toggle="yes">atp</italic>H-<italic toggle="yes">atp</italic>I,
+<italic toggle="yes">pet</italic>N-<italic toggle="yes">psb</italic>M,
+<italic toggle="yes">psb</italic>C-<italic toggle="yes">trn</italic>S,
+<italic toggle="yes">psb</italic>Z-<italic toggle="yes">trn</italic>G,
+<italic toggle="yes">rbc</italic>L-<italic toggle="yes">acc</italic>D,
+<italic toggle="yes">psb</italic>E-<italic toggle="yes">pet</italic>L,
+<italic toggle="yes">ycf</italic>4-<italic toggle="yes">cem</italic>A,
+<italic toggle="yes">trn</italic>L-<italic toggle="yes">rpl</italic>32,
+<italic toggle="yes">rpl</italic>23-<italic toggle="yes">ycf</italic>2, and
+<italic toggle="yes">ndh</italic>F-<italic toggle="yes">ycf</italic>1 (<xref rid="f3" ref-type="fig">Figure 3</xref>). Among the coding regions, <italic toggle="yes">cem</italic>A,
+<italic toggle="yes">acc</italic>D, <italic toggle="yes">ndh</italic>F, <italic toggle="yes">rpl</italic>22,
+<italic toggle="yes">rps</italic>3, <italic toggle="yes">ycf</italic>4, <italic toggle="yes">clp</italic>P,
+<italic toggle="yes">ycf</italic>1, and <italic toggle="yes">ycf</italic>2 exhibited the greatest
+variability. No major rearrangements or insertions were observed in any of the
+15 CPGs (<xref rid="f3" ref-type="fig">Figure 3</xref>). To further assess the
+DNA polymorphisms, mutation hotspot regions were screened using DnaSP (<xref rid="f4" ref-type="fig">Figure 4</xref>). Pi values ranged from 0 to 0.07,
+reflecting a genome that was structurally conserved and compact, but contained
+highly variable regions. Subsequently, five mutation hotspots were identified as
+potential molecular markers. Among these, <italic toggle="yes">ycf</italic>1,
+<italic toggle="yes">ndh</italic>H, <italic toggle="yes">trn</italic>L-<italic toggle="yes">rpl</italic>32, and
+<italic toggle="yes">ndh</italic>F-<italic toggle="yes">ycf</italic>1 were located in the SSC region,
+and <italic toggle="yes">rbc</italic>L-<italic toggle="yes">acc</italic>D in the LSC region (<xref rid="f4" ref-type="fig">Figure 4</xref>).</p><p>
+<fig position="float" id="f3" orientation="portrait"><label>Figure 3 - </label><caption><title>Visualization of the CPG comparison of 15
+<italic toggle="yes">Syringa</italic> species using <italic toggle="yes">S.
+pinnatifolia</italic> as a reference. The horizontal axis
+represents the coordinates within the CPG, and the vertical axis
+indicates the percentage identity, ranging from 50% to 100%. The
+colors represent different regions: blue for exons, green for
+introns, and red for intergenic region.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="1415-4757-GMB-49-3-e20260016-gf3.webp"><?image-name 1415-4757-GMB-49-3-e20260016-gf3.webp?><?image-size 267606?><?image-md5 c4a513dd632cf7726860fd29c5c438da?><?image-image-server-status NEED_LOADING?><?image-original-height 1597?><?image-original-width 1600?><?image-scaled-height 1597?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/3906/13555786/c4a513dd632c/1415-4757-GMB-49-3-e20260016-gf3.webp?><?thumb-name 1415-4757-GMB-49-3-e20260016-gf3.gif?><?thumb-size 23766?><?thumb-md5 cdbcbcdafcca80f070bd2671c63301da?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3906/13555786/cdbcbcdafcca/1415-4757-GMB-49-3-e20260016-gf3.gif?></graphic></fig>
+</p><p>
+<fig position="float" id="f4" orientation="portrait"><label>Figure 4 - </label><caption><title>The nucleotide diversity (Pi), GC content, and gap proportion in
+the CPG sequences of 15 <italic toggle="yes">Syringa</italic> detected by sliding
+window analysis, using 600bp windows and a 200bp step size.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="1415-4757-GMB-49-3-e20260016-gf4.webp"><?image-name 1415-4757-GMB-49-3-e20260016-gf4.webp?><?image-size 58214?><?image-md5 7a45542e2a6e3f1ca70ac8b8ae195542?><?image-image-server-status NEED_LOADING?><?image-original-height 566?><?image-original-width 1599?><?image-scaled-height 566?><?image-scaled-width 1599?><?image-cloudpmc-urn urn:cdn:blobs/3906/13555786/7a45542e2a6e/1415-4757-GMB-49-3-e20260016-gf4.webp?><?thumb-name 1415-4757-GMB-49-3-e20260016-gf4.gif?><?thumb-size 5270?><?thumb-md5 c3584a5c6c41de84a9fb94521f76e8a2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 71?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3906/13555786/c3584a5c6c41/1415-4757-GMB-49-3-e20260016-gf4.gif?></graphic></fig>
+</p></sec><sec><title>Selection pressure analysis</title><p>To further investigate the selective pressures acting on PCGs, we performed Ka/Ks
+analysis using <italic toggle="yes">S. pinnatifolia</italic> as the reference species (<xref rid="f5" ref-type="fig">Figure 5</xref>). After excluding the PCGs with a
+Ka/Ks ratio of NA, 49 genes were retained for further analysis. The results
+indicated that most genes of the 15 <italic toggle="yes">Syringa</italic> species had a Ka/Ks
+ratio &lt; 1, suggesting that they had undergone purifying selection. However,
+three genes (<italic toggle="yes">rps</italic>11, <italic toggle="yes">ycf</italic>2, and
+<italic toggle="yes">ycf</italic>4) displayed Ka/Ks ratios significantly greater than one
+(1.5353, 1.1898, and 2.0750, respectively; <xref rid="suppl5" ref-type="supplementary-material">Tables S3</xref>, <xref rid="suppl6" ref-type="supplementary-material">S4</xref>), suggesting that
+they had experienced positive selection. Furthermore, these genes may have been
+critically involved in the adaptive evolution of <italic toggle="yes">Syringa</italic>
+species.</p><p>
+<fig position="float" id="f5" orientation="portrait"><label>Figure 5 - </label><caption><title>Results of the selective pressure analysis. (a) A bar chart
+showing the average Ka/Ks ratio for 49 CDS sequences across species,
+with two colors representing different types of selection: blue for
+purifying selection and orange for positive selection, with a
+baseline at Ka/Ks = 1. A heatmap of the 49 CDS sequences across 15
+species, normalized with simple linear interpolation, where the
+color gradient from blue to white to orange corresponds to the
+magnitude of the Ka/Ks ratio.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="1415-4757-GMB-49-3-e20260016-gf5.webp"><?image-name 1415-4757-GMB-49-3-e20260016-gf5.webp?><?image-size 67602?><?image-md5 c8af0930bf62fd95f4625b8fbada0e17?><?image-image-server-status NEED_LOADING?><?image-original-height 1169?><?image-original-width 1600?><?image-scaled-height 1169?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/3906/13555786/c8af0930bf62/1415-4757-GMB-49-3-e20260016-gf5.webp?><?thumb-name 1415-4757-GMB-49-3-e20260016-gf5.gif?><?thumb-size 12302?><?thumb-md5 07698b7cb1e2db6ad5e9d59ca1eea4a7?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 146?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3906/13555786/07698b7cb1e2/1415-4757-GMB-49-3-e20260016-gf5.gif?></graphic></fig>
+</p></sec><sec><title>Phylogenetic analysis and divergence time estimation</title><p>In this study, we reconstructed the phylogenetic relationships of Oleaceae using
+ML and BI approaches based on PCGs and whole CPG sequences. The dataset included
+32 Oleaceae accessions and two outgroup species (<italic toggle="yes">Pogostemon
+yatabeanus</italic> and <italic toggle="yes">Stachys byzantina</italic>). The resulting
+ML, BI, and BEAST MCC trees derived from PCGs showed highly consistent
+topologies (<xref rid="f6" ref-type="fig">Figure 6</xref>). A final concatenated
+alignment of 64 PCGs comprising 54,948 sites was obtained after trimming poorly
+aligned regions and gaps containing missing genes (<xref rid="suppl7" ref-type="supplementary-material">Table S5</xref>). Both ML and
+BI analyses yielded robust topologies, with most nodes showing high bootstrap
+support (BS &gt; 90%) and posterior probability (PP = 1) across the datasets
+(<xref rid="f6" ref-type="fig">Figure 6a </xref>). The 15
+<italic toggle="yes">Syringa</italic> species were resolved into three distinct clades:
+Clade I included <italic toggle="yes">S. komarowii</italic> subsp. <italic toggle="yes">reflexa</italic>,
+<italic toggle="yes">S. villosa</italic>, <italic toggle="yes">S. villosa</italic> subsp.
+<italic toggle="yes">wolfii</italic>, <italic toggle="yes">S. tomentella</italic> subsp.
+<italic toggle="yes">yunnanensis</italic>, <italic toggle="yes">S. pubescens</italic>, and <italic toggle="yes">S.
+reticulata</italic> subsp. <italic toggle="yes">amurensis</italic>; Clade II consisted of
+<italic toggle="yes">S. fauriei</italic>, <italic toggle="yes">S. pinnatifolia</italic>, and
+<italic toggle="yes">S. persica</italic> (BS = 100%; PP = 1); Clade III comprised
+<italic toggle="yes">S. oblata</italic> var. <italic toggle="yes">alba</italic>, <italic toggle="yes">S.
+vulgaris</italic>, and <italic toggle="yes">S. oblata</italic> (BS = 100%; PP = 1) (<xref rid="f6" ref-type="fig">Figure 6 a </xref>, <xref rid="suppl1" ref-type="supplementary-material">Figure S1a</xref>, and <xref rid="suppl1" ref-type="supplementary-material">Figure S1b</xref>). The
+divergence times within <italic toggle="yes">Syringa</italic> were estimated using a
+PCG-based gene tree with time constraints. The divergence between
+<italic toggle="yes">Syringa</italic> and its sister group was dated back approximately
+58 Mya. The crown age of all <italic toggle="yes">Syringa</italic> subclades was estimated to
+be approximately 47.49 Mya, indicating that the main diversification of the
+genus occurred during the Eocene (<xref rid="f6" ref-type="fig">Figure 6b
+</xref>, <xref rid="suppl2" ref-type="supplementary-material">Figure S2</xref>;
+<xref rid="t1" ref-type="table">Table 1</xref>).</p><p>
+<fig position="float" id="f6" orientation="portrait"><label>Figure 6 - </label><caption><title>Phylogeny, divergence time estimate for <italic toggle="yes">Syringa</italic>.
+(a) Cladogram of the maximum likelihood (ML) phylogenetic tree based
+on 64 protein-coding genes (PCGs). All main clades in both trees (ML
+and BI) are identical. Node labels are marked with the bootstrap
+values and Bayesian posterior probabilities (bootstrap
+value/posterior probability). The upper left shows the ML tree with
+branch length. (b) Maximum clade-credibility tree (MCC tree) from
+BEAST. Node labels represent estimated divergence times in millions
+of years. Stars indicate time constraints in this analysis.
+Geological periods are marked with background colors. Mya: million
+years ago; Pli: Pliocene; Ple: Pleistocene.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="1415-4757-GMB-49-3-e20260016-gf6.webp"><?image-name 1415-4757-GMB-49-3-e20260016-gf6.webp?><?image-size 84682?><?image-md5 ac5b25f5ad85d113cc93d4bbc0a7cedd?><?image-image-server-status NEED_LOADING?><?image-original-height 1071?><?image-original-width 1600?><?image-scaled-height 1071?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/3906/13555786/ac5b25f5ad85/1415-4757-GMB-49-3-e20260016-gf6.webp?><?thumb-name 1415-4757-GMB-49-3-e20260016-gf6.gif?><?thumb-size 5915?><?thumb-md5 0ef10dc33e731b71b660cb9d477c3039?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 134?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3906/13555786/0ef10dc33e73/1415-4757-GMB-49-3-e20260016-gf6.gif?></graphic></fig>
+</p><p>
+<table-wrap position="float" id="t1" orientation="portrait"><label>Table 1 - </label><caption><title>Estimated ages for <italic toggle="yes">Syringa</italic> subclades.</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Subclade name</th><th align="center" rowspan="1" colspan="1">Mean age (Mya)</th><th align="center" rowspan="1" colspan="1">95% highest posterior density interval
+(HPD)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Subclade 1</td><td align="center" rowspan="1" colspan="1">58.004</td><td align="center" rowspan="1" colspan="1">42.79-73.85</td></tr><tr><td align="left" rowspan="1" colspan="1">Subclade 2</td><td align="center" rowspan="1" colspan="1">47.492</td><td align="center" rowspan="1" colspan="1">33.23-62.62</td></tr><tr><td align="left" rowspan="1" colspan="1">Subclade 3</td><td align="center" rowspan="1" colspan="1">41.928</td><td align="center" rowspan="1" colspan="1">27.69-55.27</td></tr></tbody></table></table-wrap>
+</p></sec></sec><sec sec-type="discussion"><title>Discussion</title><p>The chloroplast is an essential organelle that plays crucial roles in the growth and
+development of plant cells (<xref rid="B75" ref-type="bibr">Zhang et al.,
+2024</xref>). In seed plants, the CPG generally ranges in size from 107 kb in
+Pinaceae to 170 kb in Geraniaceae, with the IR region typically spanning 20-30 kb
+(<xref rid="B76" ref-type="bibr">Zhang <italic toggle="yes">et al</italic>., 2012</xref>;
+<xref rid="B9" ref-type="bibr">Daniell et al., 2016</xref>). Most plant CPGs
+exhibit a conserved quadripartite structure, which consists of LSC and SSC regions
+separated by a pair of IRs (<xref rid="B45" ref-type="bibr">Shi et al., 2025</xref>;
+<xref rid="B52" ref-type="bibr">Wang et al., 2025</xref>). However, notable
+structural variations occur in certain lineages; for example, some species in the
+Fabaceae and Geraniaceae families have lost an entire IR region (<xref rid="B8" ref-type="bibr">Cui et al., 2024</xref>; <xref rid="B71" ref-type="bibr">Zhang <italic toggle="yes">et al</italic>., 2025</xref>). In the current study,
+comparative analysis revealed that the CPGs of the 15 <italic toggle="yes">Syringa</italic>
+species ranged from 154,019 (<italic toggle="yes">S. pubescens</italic>) to 158,020 bp
+(<italic toggle="yes">S. komarowii</italic> subsp. <italic toggle="yes">reflexa</italic>) (<xref rid="f1" ref-type="fig">Figure 1</xref>; <xref rid="suppl4" ref-type="supplementary-material">Table S2</xref>), placing them at the larger end of the size
+spectrum among the seed plant CPGs. All <italic toggle="yes">Syringa</italic> CPGs conformed to
+the typical quadripartite organization, comprising an LSC region (86,213-87,628 bp),
+an SSC region (17,239-21,180 bp), and two IR regions (24,468-25,897 bp). The GC
+content across the entire genome and within each structural region was highly
+conserved among <italic toggle="yes">Syringa</italic> species and consistent with the patterns
+observed in other vascular plants (<xref rid="suppl4" ref-type="supplementary-material">Table S2</xref>).</p><p>The IR region is the most conserved structural component of the plant CPG (<xref rid="B61" ref-type="bibr">Yang et al., 2023</xref>), characterized by highly
+consistent length, organization, and boundary positions relative to SC regions.
+Expansions or contractions of the IR region are recognized as major contributors to
+overall genome size variation and represent the primary mechanism for the formation
+of pseudogenes (<xref rid="B64" ref-type="bibr">Yang <italic toggle="yes">et al</italic>.,
+2020a</xref>; <xref rid="B73" ref-type="bibr">Zhang et al., 2020 b </xref>). In
+most plant species, such structural changes are reflected as minor positional shifts
+of the IR/SC boundaries near a limited set of conserved genes, which can
+occasionally lead to the pseudogenization of affected genes. The increased
+structural stability and higher GC content observed in IR regions have been
+attributed to mechanisms such as sequence conversion and enhanced DNA repair
+efficiency (<xref rid="B74" ref-type="bibr">Zhang <italic toggle="yes">et al</italic>.,
+2018</xref>; <xref rid="B63" ref-type="bibr">Yang <italic toggle="yes">et al</italic>.,
+2019</xref>; <xref rid="B55" ref-type="bibr">Xie et al., 2020</xref>). Previous
+studies have shown that chloroplast genes generally evolve slowly and maintain
+considerable sequence and structural conservation. IR expansions or contractions
+typically involve only minor changes, ranging from several to dozens of base pairs,
+and seldom alter the overall gene content (<xref rid="B20" ref-type="bibr">Kassem,
+2025</xref>; <xref rid="B36" ref-type="bibr">Qin et al., 2025</xref>).
+Consistent with these observations, our analysis of 15 CPGs within the highly
+conserved genus <italic toggle="yes">Syringa</italic> revealed no evidence of large-scale IR
+expansion or contraction. This observation further supports the structural stability
+of this genomic region.</p><p>Previous phylogenetic studies of <italic toggle="yes">Syringa</italic> have primarily used nuclear
+ribosomal DNA Internal Transcribed Spacer (ITS) regions and Inter-Simple Sequence
+Repeats (ISSR) markers (<xref rid="B26" ref-type="bibr">Li et al., 2002</xref>;
+<xref rid="B65" ref-type="bibr">Yang et al., 2020 b </xref>; <xref rid="B69" ref-type="bibr">Yao et al., 2021</xref>). However, very few
+phylogenetic studies have been based on CPG fragments. Highly variable regions in
+the CPG are particularly valuable for phylogenetics because they can be developed
+into molecular markers and aid in species delimitation (<xref rid="B68" ref-type="bibr">Yin et al., 2005</xref>; <xref rid="B56" ref-type="bibr">Xin et al.,
+2013</xref>; <xref rid="B62" ref-type="bibr">Yang <italic toggle="yes">et al</italic>.,
+2022</xref>; <xref rid="B38" ref-type="bibr">Ran et al., 2024</xref>). In the
+present study, we found that both the sequence and structure of the
+<italic toggle="yes">Syringa</italic> CPGs are highly conserved. mVISTA analysis revealed
+that most nucleotide variations occurred in non-coding regions, a pattern consistent
+with previous reports on angiosperms (<xref rid="B57" ref-type="bibr">Xing and Ree,
+2017</xref>; <xref rid="B7" ref-type="bibr">Crepet et al., 2024</xref>; <xref rid="B6" ref-type="bibr">Cheng et al., 2025</xref>). Through Pi analysis, we
+identified five highly variable regions (Pi &gt; 0.01), including two non-coding
+tRNA regions (<italic toggle="yes">ycf</italic>1 and <italic toggle="yes">ndh</italic>H) and three intergenic
+spacers (<italic toggle="yes">trn</italic>L-<italic toggle="yes">rpl</italic>32,
+<italic toggle="yes">ndh</italic>F-<italic toggle="yes">ycf</italic>1, and
+<italic toggle="yes">rbc</italic>L-<italic toggle="yes">acc</italic>D). These variable regions provide
+valuable genetic resources for future phylogenetic and phylogeographic studies on
+<italic toggle="yes">Syringa</italic>.</p><p>The evolutionary dynamics of substitution rates in cp genes have been increasingly
+clarified with the increasing availability of complete CPG sequences. Studies have
+generally indicated that non-synonymous substitution rates in photosynthesis-related
+genes differ significantly from those in housekeeping genes, reflecting stronger
+functional constraints on the photosynthetic machinery (<xref rid="B53" ref-type="bibr">Wu et al., 2017</xref>; <xref rid="B60" ref-type="bibr">Yan et al.,
+2019</xref>). Our findings are consistent with this pattern, as they show
+notably low Ka values for photosynthesis-related genes, further supporting the
+hypothesis that strong purifying selection acts on these genes (<xref rid="f5" ref-type="fig">Figure 5</xref>). Although most plant cp genes evolve slowly under
+purifying selection, certain genes, particularly those involved in photosynthesis
+and metabolic pathways, show evidence of positive selection (<xref rid="B46" ref-type="bibr">Silva et al., 2023</xref>). In this study, we identified three genes,
+<italic toggle="yes">rps</italic>11, <italic toggle="yes">ycf</italic>2, and <italic toggle="yes">ycf</italic>4, with
+Ka/Ks ratios significantly greater than 1, suggesting that they have undergone
+positive selection. Among these, <italic toggle="yes">rps</italic>11 encodes a small subunit
+ribosomal protein involved in chloroplast translation, which is essential for the
+synthesis of photosynthetic components. <italic toggle="yes">ycf</italic>2, the largest
+chloroplast gene in angiosperms, encodes a motor protein that generates ATP for
+inner membrane translocation and is critical for cell survival (<xref rid="B22" ref-type="bibr">Kikuchi et al., 2018</xref>). <italic toggle="yes">ycf</italic>4
+plays a key role in the assembly of photosystem I, and its dysfunction impairs
+photosynthetic electron transport. The widespread positive selection signature
+across diverse plant lineages (<xref rid="B5" ref-type="bibr">Chen et al.,
+2021</xref>; <xref rid="B66" ref-type="bibr">Yang et al., 2022</xref>)
+highlights its adaptive significance in various ecological contexts.</p><p>Plants CPGs are typically inherited maternally, resulting in a smaller effective
+population size than that of nuclear genomes. This characteristic leads to a shorter
+coalescence time of chloroplast haplotypes, making them particularly suitable for
+studying genetic variation and reconstructing the evolutionary history of
+chloroplasts (<xref rid="B18" ref-type="bibr">Guo et al., 2017</xref>; <xref rid="B75" ref-type="bibr">Zhang et al., 2024</xref>). Our study represents the
+first effort to establish a dated phylogeny for <italic toggle="yes">Syringa</italic> within
+Oleaceae using four fossil-based time constraints. We infer that the genus
+<italic toggle="yes">Syringa</italic> originated during the Oligocene and began to diversify
+during in the Eocene, followed by rapid radiation throughout the Pliocene and
+Pleistocene (<xref rid="f6" ref-type="fig">Figure 6 b </xref>). The
+Pliocene-Pleistocene period appears to play a crucial role in the speciation of
+<italic toggle="yes">Syringa</italic>, a pattern of rapid diversification also observed
+across numerous other East Asian plant groups (<xref rid="B57" ref-type="bibr">Xing
+and Ree, 2017</xref>; <xref rid="B78" ref-type="bibr">Zhao et al., 2022</xref>).
+This burst of speciation was likely driven by Pleistocene glacial-interglacial
+cycles and the associated climatic fluctuations. East Asia, which has been less
+severely affected by Quaternary glaciations, may have provided refugia to various
+plant groups that reduced extinction rates and promoted speciation (<xref rid="B2" ref-type="bibr">Axelrod et al., 1998</xref>; <xref rid="B59" ref-type="bibr">Yan et al., 2018</xref>; <xref rid="B34" ref-type="bibr">Qian and
+Ricklefs, 2000</xref>). The divergence timescale proposed in this study provides
+a foundational temporal framework for future ecological, evolutionary, and
+biogeographic studies of <italic toggle="yes">Syringa,</italic> an economically and ecologically
+significant genus. Although this study represents the first attempt to explore the
+phylogeny and divergence times of the genus <italic toggle="yes">Syringa</italic> based on 15
+species, the limited sample size imposes certain constraints on the findings.
+Moreover, the selected species may not fully represent the diversity within the
+genus, which could affect the generalizability and accuracy of the inferred
+phylogenetic relationships and divergence time estimates. Future studies should
+incorporate a broader range of <italic toggle="yes">Syringa</italic> species to enable more
+comprehensive and systematic investigations.</p></sec><sec sec-type="conclusions"><title>Conclusions</title><p>In the present study, we analyzed the complete CPGs of 15 <italic toggle="yes">Syringa</italic>
+species. All examined genomes exhibited a typical angiosperm quadripartite structure
+and contained 130-132 genes, including 85-88 PCGs, 35-37 tRNAs, and eight rRNAs.
+Genome organization was highly conserved, with the highest sequence variation
+observed in the SSC region compared with the IR regions. No major IR expansions,
+contractions, genomic rearrangements, or insertions were detected in these 15 CPGs.
+We identified five highly variable regions suitable for species delimitation within
+this genus. In addition, three genes (<italic toggle="yes">rps</italic>11, <italic toggle="yes">ycf</italic>2,
+and <italic toggle="yes">ycf</italic>4) showed signatures of positive selection, suggesting their
+critical roles in the adaptive evolution of <italic toggle="yes">Syringa</italic>. Phylogenetic
+analysis based on complete CPGs confirmed the monophyly of the 15
+<italic toggle="yes">Syringa</italic> species, which were resolved into three distinct
+clades. Molecular dating placed the divergence of <italic toggle="yes">Syringa</italic> from its
+sister genus at approximately 58 Mya during the Eocene, with initial diversification
+beginning around 47.49 Mya during the Oligocene. Overall, our findings provide a
+robust genomic framework and reliable divergence timescale for future research on
+<italic toggle="yes">Syringa</italic>. Our study also supports <italic toggle="yes">Syringa</italic>
+species identification and will facilitate further ecological, evolutionary, and
+applied studies of this economically and ecologically important genus.</p></sec><sec sec-type="supplementary-material"><title>Supplementary material</title><p>The following online material is available for this article:</p><supplementary-material id="suppl1" position="float" content-type="local-data" orientation="portrait"><label>Figure S1 -</label><caption><title>Phylogenetic tree based on 64 protein-coding genes (PCGs). </title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s1.pdf" id="d69e1265" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s1.pdf?><?suppdata-size 309823?><?suppdata-md5 b62943fd9ac5edf79270669f608db630?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/b62943fd9ac5/1415-4757-GMB-49-3-e20260016-s1.pdf?></media></supplementary-material><supplementary-material id="suppl2" position="float" content-type="local-data" orientation="portrait"><label>Figure S2 - </label><caption><title>Maximum clade-credibility tree (MCC tree) from BEAST. </title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s2.pdf" id="d69e1270" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s2.pdf?><?suppdata-size 332169?><?suppdata-md5 53a09908e693c4b795f75392c4339d70?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/53a09908e693/1415-4757-GMB-49-3-e20260016-s2.pdf?></media></supplementary-material><supplementary-material id="suppl3" position="float" content-type="local-data" orientation="portrait"><label>Table S1 - </label><caption><title>Species and data description of CPGs used in this study. </title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s3.pdf" id="d69e1275" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s3.pdf?><?suppdata-size 331639?><?suppdata-md5 b1c6aa366e106a7599f6e93c16cfc78e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/b1c6aa366e10/1415-4757-GMB-49-3-e20260016-s3.pdf?></media></supplementary-material><supplementary-material id="suppl4" position="float" content-type="local-data" orientation="portrait"><label>Table S2 -</label><caption><title>General information and comparison of chlorplast genomes of 15
+<italic toggle="yes">Syringa</italic> species. </title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s4.pdf" id="d69e1283" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s4.pdf?><?suppdata-size 234334?><?suppdata-md5 ca09bca5f160883690640edb45b61890?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/ca09bca5f160/1415-4757-GMB-49-3-e20260016-s4.pdf?></media></supplementary-material><supplementary-material id="suppl5" position="float" content-type="local-data" orientation="portrait"><label>Table S3 - </label><caption><title>The average Ka/Ks ratio for 49 gene sequences across 15
+<italic toggle="yes">Syringa</italic> species in this study. </title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s5.pdf" id="d69e1291" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s5.pdf?><?suppdata-size 327891?><?suppdata-md5 75939cb1b976044867074d4765d5797c?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/75939cb1b976/1415-4757-GMB-49-3-e20260016-s5.pdf?></media></supplementary-material><supplementary-material id="suppl6" position="float" content-type="local-data" orientation="portrait"><label>Table S4 - </label><caption><title>Results of the selective pressure analysis. </title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s6.pdf" id="d69e1296" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s6.pdf?><?suppdata-size 256473?><?suppdata-md5 8c2f0bedc20b8cef06c93a55603588a3?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/8c2f0bedc20b/1415-4757-GMB-49-3-e20260016-s6.pdf?></media></supplementary-material><supplementary-material id="suppl7" position="float" content-type="local-data" orientation="portrait"><label>Table S5 - </label><caption><title>Comparison of protein-coding genes.</title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="1415-4757-GMB-49-3-e20260016-s7.pdf" id="d69e1301" position="anchor" orientation="portrait"><?suppdata-name 1415-4757-GMB-49-3-e20260016-s7.pdf?><?suppdata-size 231480?><?suppdata-md5 077b2ea0b895d61f43121a78a2727991?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:3906/13555786/077b2ea0b895/1415-4757-GMB-49-3-e20260016-s7.pdf?></media></supplementary-material></sec></body><back><ack><title>Acknowledgments</title><p>The anonymous reviewers and editors are sincerely acknowledged.</p></ack><ref-list><title>References</title><ref id="B1"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Allen</surname><given-names>GC</given-names></name>
+<name name-style="western"><surname>Flores-Vergara</surname><given-names>MA</given-names></name>
+<name name-style="western"><surname>Krasnyanski</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Thompson</surname><given-names>WF</given-names></name>
+</person-group><year>2006</year><article-title>A modifed protocol for rapid DNA isolation from plant tissues
+using cetyltrimethylammonium bromide</article-title><source>Nat Protoc</source><volume>1</volume><fpage>2320</fpage><lpage>2325</lpage><pub-id pub-id-type="pmid">17406474</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nprot.2006.384</pub-id></element-citation></ref><ref id="B2"><element-citation publication-type="book"><person-group person-group-type="author">
+<name name-style="western"><surname>Axelrod</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Al-Shehbaz</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Raven</surname><given-names>P</given-names></name>
+</person-group><year>1998</year><part-title>History of the modern fora of China</part-title><person-group person-group-type="editor">
+<name name-style="western"><surname>Zhang</surname><given-names>AL</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>SG</given-names></name>
+</person-group><source>Floristic characteristics and diversity of East Asian plants</source><publisher-name>Higher Education Press</publisher-name><publisher-loc>Beijing</publisher-loc><fpage>43</fpage><lpage>55</lpage></element-citation></ref><ref id="B3"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Brudno</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Malde</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Poliakov</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Do</surname><given-names>CB</given-names></name>
+<name name-style="western"><surname>Couronne</surname><given-names>O</given-names></name>
+<name name-style="western"><surname>Dubchak</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Batzoglou</surname><given-names>S</given-names></name>
+</person-group><year>2023</year><article-title>Glocal alignment: Finding rearrangements during
+alignment</article-title><source>Bioinformatics</source><volume>19</volume><fpage>i54</fpage><lpage>i62</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btg1005</pub-id><pub-id pub-id-type="pmid">12855437</pub-id></element-citation></ref><ref id="B4"><element-citation publication-type="book"><person-group person-group-type="author">
+<name name-style="western"><surname>Chang</surname><given-names>MC</given-names></name>
+<name name-style="western"><surname>Qiu</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Green</surname><given-names>PS</given-names></name>
+</person-group><part-title>Syringa L</part-title><year>1996</year><person-group person-group-type="editor">
+<name name-style="western"><surname>Wu</surname><given-names>ZY</given-names></name>
+<name name-style="western"><surname>Raven</surname><given-names>PH</given-names></name>
+<name name-style="western"><surname>Hong</surname><given-names>DY</given-names></name>
+</person-group><source>Flora of China. Myrsinaceae through Loganiaceae</source><publisher-name>Science Press</publisher-name><publisher-loc>Beijing</publisher-loc><publisher-name>Missouri Botanical Garden Press</publisher-name><publisher-loc>St. Louis</publisher-loc><volume>15</volume><fpage>82</fpage><lpage>87</lpage></element-citation></ref><ref id="B5"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Zang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Shang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Liang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Zhu</surname><given-names>ML</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Tang</surname><given-names>XX</given-names></name>
+</person-group><year>2021</year><article-title>Comparative chloroplast genomes of Zosteraceae species provide
+adaptive evolution insights into seagrass</article-title><source>Front Plant Sci</source><volume>12</volume><elocation-id>741152</elocation-id><pub-id pub-id-type="pmid">34630493</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2021.741152</pub-id><pub-id pub-id-type="pmcid">PMC8495015</pub-id></element-citation></ref><ref id="B6"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Cheng</surname><given-names>SY</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>JR</given-names></name>
+<name name-style="western"><surname>Cui</surname><given-names>HX</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>YY</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>ZH</given-names></name>
+</person-group><year>2025</year><article-title>The complete chloroplast genome sequence of Syringa meyeri
+(Oleaceae)</article-title><source>Mitochondrial DNA Part B Resour</source><volume>10</volume><fpage>543</fpage><lpage>547</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/23802359.2025.2512866</pub-id><pub-id pub-id-type="pmcid">PMC12135084</pub-id><pub-id pub-id-type="pmid">40475209</pub-id></element-citation></ref><ref id="B7"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Crepet</surname><given-names>WL</given-names></name>
+<name name-style="western"><surname>Nixon</surname><given-names>KC</given-names></name>
+<name name-style="western"><surname>Gandolfo</surname><given-names>MA</given-names></name>
+</person-group><year>2024</year><article-title>Fossil evidence and phylogeny: The age of major angiosperm clades
+based on mesofossil and macrofossil evidence from cretaceous
+deposits</article-title><source>Am J Bot</source><volume>91</volume><fpage>1666</fpage><lpage>1682</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.3732/ajb.91.10.1666</pub-id><pub-id pub-id-type="pmid">21652316</pub-id></element-citation></ref><ref id="B8"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Cui</surname><given-names>JW</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>SW</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>YJ</given-names></name>
+<name name-style="western"><surname>Guo</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>
+</person-group><year>2024</year><article-title>The complete chloroplast genome of Erodium cicutarium (Linnaeus)
+l’Héritierex Aiton 1789 (Geraniaceae): Genome characterization and
+phylogenetic consideration</article-title><source>Mitochondrial DNA Part B Resour</source><volume>9</volume><fpage>1460</fpage><lpage>1465</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/23802359.2024.2420847</pub-id><pub-id pub-id-type="pmcid">PMC11504179</pub-id><pub-id pub-id-type="pmid">39464176</pub-id></element-citation></ref><ref id="B9"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Daniell</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Lin</surname><given-names>CS</given-names></name>
+<name name-style="western"><surname>Yu</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Chang</surname><given-names>WJ</given-names></name>
+</person-group><year>2016</year><article-title>Chloroplast genomes: Diversity, evolution, and applications in
+genetic engineering</article-title><source>Genome Biol</source><volume>17</volume><elocation-id>134</elocation-id><pub-id pub-id-type="pmid">27339192</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-016-1004-2</pub-id><pub-id pub-id-type="pmcid">PMC4918201</pub-id></element-citation></ref><ref id="B10"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Dierckxsens</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Mardulyn</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Smits</surname><given-names>G</given-names></name>
+</person-group><year>2017</year><article-title>NOVOPlasty: De novo assembly of organelle genomes from whole
+genome data</article-title><source>Nucleic Acids Res</source><volume>5</volume><elocation-id>e18</elocation-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw955</pub-id><pub-id pub-id-type="pmcid">PMC5389512</pub-id><pub-id pub-id-type="pmid">28204566</pub-id></element-citation></ref><ref id="B11"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Dupin</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Cynthia</surname><given-names>HW</given-names></name>
+<name name-style="western"><surname>Yohan</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Guillaume</surname><given-names>B</given-names></name>
+</person-group><year>2022</year><article-title>From the Mediterranean to the Pacific: Re-circumscription towards
+Notelaea s.l. and historical biogeography of a generic complex in Oleinae
+(Oleaceae)</article-title><source>Bot J Linn Soc</source><volume>200</volume><fpage>360</fpage><lpage>377</lpage></element-citation></ref><ref id="B12"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Edgar</surname><given-names>RC</given-names></name>
+</person-group><year>2004</year><article-title>MUSCLE: A multiple sequence alignment method with reduced time
+and space complexity</article-title><source>BMC Bioinformatics</source><volume>5</volume><elocation-id>113</elocation-id><pub-id pub-id-type="pmid">15318951</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-5-113</pub-id><pub-id pub-id-type="pmcid">PMC517706</pub-id></element-citation></ref><ref id="B13"><element-citation publication-type="book"><person-group person-group-type="author">
+<name name-style="western"><surname>Fiala</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Vrugtman</surname><given-names>F</given-names></name>
+</person-group><year>2008</year><source>Lilacs: A gardener’s encyclopedia</source><publisher-name>Timber Press Portland</publisher-name></element-citation></ref><ref id="B14"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Filipek</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Wyszomierska</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Michalak</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Kiss</surname><given-names>AK</given-names></name>
+</person-group><year>2019</year><article-title>Syringa vulgaris bark as a source of compounds affecting the
+release of inflammatory mediators from human neutrophils and
+monocytes/macrophages</article-title><source>Phytochem Lett</source><volume>30</volume><fpage>309</fpage><lpage>313</lpage></element-citation></ref><ref id="B15"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Frazer</surname><given-names>KA</given-names></name>
+<name name-style="western"><surname>Pachter</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Poliakov</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Rubin</surname><given-names>EM</given-names></name>
+<name name-style="western"><surname>Dubchak</surname><given-names>I</given-names></name>
+</person-group><year>2004</year><article-title>VISTA: Computational tools for comparative
+genomics</article-title><source>Nucleic Acids Res</source><volume>32</volume><fpage>W273</fpage><lpage>W279</lpage><pub-id pub-id-type="pmid">15215394</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkh458</pub-id><pub-id pub-id-type="pmcid">PMC441596</pub-id></element-citation></ref><ref id="B16"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Gao</surname><given-names>JQ</given-names></name>
+<name name-style="western"><surname>Jiao</surname><given-names>SG</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>JY</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Chai</surname><given-names>XY</given-names></name>
+</person-group><year>2020</year><article-title>Advances on terpenoids from genus Syringa</article-title><source>Chin J Chin Mater Med</source><volume>45</volume><fpage>2343</fpage><lpage>2352</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.19540/j.cnki.cjcmm.20200220.203</pub-id><pub-id pub-id-type="pmid">32495591</pub-id></element-citation></ref><ref id="B17"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Guo</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Xue</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>DD</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>LX</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>EQ</given-names></name>
+<name name-style="western"><surname>Cui</surname><given-names>XQ</given-names></name>
+<name name-style="western"><surname>Hou</surname><given-names>XG</given-names></name>
+</person-group><year>2025</year><article-title>Genetic diversity and population genetic structure of Paeonia
+suffruticosa by chloroplast DNA simple sequence repeats
+(cpSSRs)</article-title><source>Hortic Plant J</source><volume>11</volume><fpage>367</fpage><lpage>376</lpage></element-citation></ref><ref id="B18"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Guo</surname><given-names>XY</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>JQ</given-names></name>
+<name name-style="western"><surname>Hao</surname><given-names>GQ</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Mao</surname><given-names>KS</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>XJ</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Hu</surname><given-names>QJ</given-names></name>
+<name name-style="western"><surname>Al-Shehbaz</surname><given-names>IA</given-names></name>
+<etal/>
+</person-group><year>2017</year><article-title>Plastome phylogeny and early diversification of
+Brassicaceae</article-title><source>BMC Genomics</source><volume>18</volume><elocation-id>176</elocation-id><pub-id pub-id-type="pmid">28209119</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12864-017-3555-3</pub-id><pub-id pub-id-type="pmcid">PMC5312533</pub-id></element-citation></ref><ref id="B19"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Huang</surname><given-names>DI</given-names></name>
+<name name-style="western"><surname>Cronk</surname><given-names>QC</given-names></name>
+</person-group><year>2015</year><article-title>Plann: A command-line application for annotating plastome
+sequences</article-title><source>Appl Plant Sci</source><volume>3</volume><elocation-id>1500026</elocation-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3732/apps.1500026</pub-id><pub-id pub-id-type="pmcid">PMC4542940</pub-id><pub-id pub-id-type="pmid">26312193</pub-id></element-citation></ref><ref id="B20"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Kassem</surname><given-names>MA</given-names></name>
+</person-group><year>2025</year><article-title>Comparative analysis of chloroplast genomes across 20 plant
+species reveals evolutionary patterns in gene content, codon usage, and
+genome structure</article-title><source>Int J Plant Biol</source><volume>16</volume><elocation-id>105</elocation-id></element-citation></ref><ref id="B21"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Kearse</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Moir</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Wilson</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Stones-Havas</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Cheung</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Sturrock</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Buxton</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Cooper</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Markowitz</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Duran</surname><given-names>S</given-names></name>
+<etal/>
+</person-group><year>2012</year><article-title>Geneious basic: An integrated and extendable desktop software
+platform for the organization and analysis of sequence data</article-title><source>Bioinformatics</source><volume>28</volume><fpage>1647</fpage><lpage>1649</lpage><pub-id pub-id-type="pmid">22543367</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bts199</pub-id><pub-id pub-id-type="pmcid">PMC3371832</pub-id></element-citation></ref><ref id="B22"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Kikuchi</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Asakura</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Imai</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Nakahira</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Kotani</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Hashiguchi</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Nakai</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Takafuji</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Bédard</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Hirabayashi-Ishioka</surname><given-names>Y</given-names></name>
+<etal/>
+</person-group><year>2018</year><article-title>A ycf2-Ftshi heteromeric AAA-Atpase complex is required for
+chloroplast protein import</article-title><source>Plant Cell</source><volume>30</volume><fpage>2677</fpage><lpage>2703</lpage><pub-id pub-id-type="pmid">30309901</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1105/tpc.18.00357</pub-id><pub-id pub-id-type="pmcid">PMC6305978</pub-id></element-citation></ref><ref id="B23"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Lattier</surname><given-names>JD</given-names></name>
+<name name-style="western"><surname>Contreras</surname><given-names>RN</given-names></name>
+</person-group><year>2017</year><article-title>Ploidy and genome size in lilac species, cultivars, and
+interploid hybrids</article-title><source>J Am Soc Hortic Sci</source><volume>142</volume><fpage>355</fpage><lpage>366</lpage></element-citation></ref><ref id="B24"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>HT</given-names></name>
+<name name-style="western"><surname>Yi</surname><given-names>TS</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>LM</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>PF</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>DZ</given-names></name>
+</person-group><year>2019</year><article-title>Origin of angiosperms and the puzzle of the Jurassic
+gap</article-title><source>Nat Plants</source><volume>5</volume><fpage>461</fpage><lpage>470</lpage><pub-id pub-id-type="pmid">31061536</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41477-019-0421-0</pub-id></element-citation></ref><ref id="B25"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Goldman-Huertas</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Deyoung</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Alexander</surname><given-names>JJ</given-names></name>
+</person-group><year>2012</year><article-title>Phylogenetics and diversification of Syringa inferred from
+nuclear and plastid DNA sequences</article-title><source>Castanea</source><volume>77</volume><fpage>82</fpage><lpage>88</lpage></element-citation></ref><ref id="B26"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>JH</given-names></name>
+<name name-style="western"><surname>Alexander</surname><given-names>JH</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>DL</given-names></name>
+</person-group><year>2002</year><article-title>Paraphyletic Syringa (Oleaceae): Evidence from sequences of
+nuclear ribosomal DNA ITS and ETS regions</article-title><source>Syst Bot</source><volume>27</volume><fpage>592</fpage><lpage>597</lpage></element-citation></ref><ref id="B27"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>SC</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>LJ</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>BQ</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>YX</given-names></name>
+<name name-style="western"><surname>Lu</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Duan</surname><given-names>WX</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>XP</given-names></name>
+</person-group><year>2025</year><article-title>Chloroplast genome diversity and phylogenetic insights of
+Saccharum spontaneum across Southeast Asia</article-title><source>Plants People Planet</source><volume>7</volume><fpage>1834</fpage><lpage>1844</lpage></element-citation></ref><ref id="B28"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Lohse</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Drechsel</surname><given-names>O</given-names></name>
+<name name-style="western"><surname>Kahlau</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Bock</surname><given-names>R</given-names></name>
+</person-group><year>2013</year><article-title>Organellar Genome DRAW-a suite of tools for generating physical
+maps of plastid and mitochondrial genomes and visualizing expression data
+sets</article-title><source>Nucleic Acids Res</source><volume>41</volume><fpage>W575</fpage><lpage>W581</lpage><pub-id pub-id-type="pmid">23609545</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkt289</pub-id><pub-id pub-id-type="pmcid">PMC3692101</pub-id></element-citation></ref><ref id="B29"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Löytynoja</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Goldman</surname><given-names>N</given-names></name>
+</person-group><year>2008</year><article-title>Phylogeny-aware gap placement prevents errors in sequence
+alignment and evolutionary analysis</article-title><source>Science</source><volume>320</volume><fpage>1632</fpage><lpage>1635</lpage><pub-id pub-id-type="pmid">18566285</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1158395</pub-id></element-citation></ref><ref id="B30"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ma</surname><given-names>JY</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>SH</given-names></name>
+<name name-style="western"><surname>Jiao</surname><given-names>SG</given-names></name>
+<name name-style="western"><surname>Xing</surname><given-names>WW</given-names></name>
+<name name-style="western"><surname>Sun</surname><given-names>JJ</given-names></name>
+<name name-style="western"><surname>Luo</surname><given-names>YG</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>MW</given-names></name>
+<name name-style="western"><surname>Chai</surname><given-names>XY</given-names></name>
+</person-group><year>2020</year><article-title>Phytochemical and pharmacological progress on genus
+Syringa</article-title><source>Chin J Chin Mater Med</source><volume>45</volume><fpage>1833</fpage><lpage>1843</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.19540/j.cnki.cjcmm.20200224.202</pub-id><pub-id pub-id-type="pmid">32489067</pub-id></element-citation></ref><ref id="B31"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Nock</surname><given-names>CJ</given-names></name>
+<name name-style="western"><surname>Hardner</surname><given-names>CM</given-names></name>
+<name name-style="western"><surname>Montenegro</surname><given-names>JD</given-names></name>
+<name name-style="western"><surname>Termizi</surname><given-names>AA</given-names></name>
+<name name-style="western"><surname>Batley</surname><given-names>J</given-names></name>
+</person-group><year>2019</year><article-title>Wild origins of macadamia domestication identified through
+intraspecific chloroplast genome sequencing</article-title><source>Front Plant Sci</source><volume>10</volume><elocation-id>e334</elocation-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2019.00334</pub-id><pub-id pub-id-type="pmcid">PMC6438079</pub-id><pub-id pub-id-type="pmid">30949191</pub-id></element-citation></ref><ref id="B32"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Peng</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>RF</given-names></name>
+<name name-style="western"><surname>Du</surname><given-names>BZ</given-names></name>
+<name name-style="western"><surname>Jiao</surname><given-names>SG</given-names></name>
+<name name-style="western"><surname>Zhou</surname><given-names>XC</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>XL</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>SY</given-names></name>
+<name name-style="western"><surname>Tu</surname><given-names>PF</given-names></name>
+<name name-style="western"><surname>Chai</surname><given-names>XY</given-names></name>
+</person-group><year>2019</year><article-title>Alashanoids K-M, bioactive eremophilane sesquiterpenoids from
+Syringa pinnatifolia</article-title><source>J Asian Nat Prod Res</source><volume>21</volume><fpage>1161</fpage><lpage>1169</lpage><pub-id pub-id-type="pmid">31760800</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/10286020.2019.1694516</pub-id></element-citation></ref><ref id="B33"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Qian</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Zhai</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Cheng</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Yu</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Sun</surname><given-names>LW</given-names></name>
+<name name-style="western"><surname>Fang</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>SM</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>SQ</given-names></name>
+<etal/>
+</person-group><year>2025</year><article-title>Correlation between pollen morphology, karyotype, floral
+pigments, and scent components and morphological classification of 15
+species and hybrids of Syringa L</article-title><source>Sci Nat</source><volume>112</volume><elocation-id>15</elocation-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00114-025-01967-3</pub-id><pub-id pub-id-type="pmid">39907770</pub-id></element-citation></ref><ref id="B34"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Qian</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Ricklefs</surname><given-names>RE</given-names></name>
+</person-group><year>2000</year><article-title>Large-scale processes and the Asian bias in species diversity of
+temperate plants</article-title><source>Nature</source><volume>407</volume><fpage>180</fpage><lpage>182</lpage><pub-id pub-id-type="pmid">11001054</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/35025052</pub-id></element-citation></ref><ref id="B35"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Qin</surname><given-names>HH</given-names></name>
+<name name-style="western"><surname>Cai</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>CK</given-names></name>
+<name name-style="western"><surname>Zhou</surname><given-names>RX</given-names></name>
+<name name-style="western"><surname>Price</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Zhou</surname><given-names>SD</given-names></name>
+<name name-style="western"><surname>He</surname><given-names>XJ</given-names></name>
+</person-group><year>2023</year><article-title>The plastid genome of twenty-two species from Ferula, Talassia,
+and Soranthus: Comparative analysis, phylogenetic implications, and adaptive
+evolution</article-title><source>BMC Plant Biol</source><volume>23</volume><elocation-id>9</elocation-id><pub-id pub-id-type="pmid">36604614</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12870-022-04027-4</pub-id><pub-id pub-id-type="pmcid">PMC9814190</pub-id></element-citation></ref><ref id="B36"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Qin</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Dong</surname><given-names>YJ</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Peng</surname><given-names>YX</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>XP</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>XY</given-names></name>
+<name name-style="western"><surname>Zeng</surname><given-names>JX</given-names></name>
+<name name-style="western"><surname>Zhong</surname><given-names>GY</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>SW</given-names></name>
+<etal/>
+</person-group><year>2025</year><article-title>Comparative analysis of chloroplast genomes reveals molecular
+evolution and phylogenetic relationships within the Papilionoideae of
+Fabaceae</article-title><source>BMC Plant Biol</source><volume>25</volume><elocation-id>157</elocation-id><pub-id pub-id-type="pmid">39910427</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12870-025-06138-0</pub-id><pub-id pub-id-type="pmcid">PMC11800526</pub-id></element-citation></ref><ref id="B37"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Quan</surname><given-names>MH</given-names></name>
+<name name-style="western"><surname>Jiang</surname><given-names>XH</given-names></name>
+<name name-style="western"><surname>Xiao</surname><given-names>LQ</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Liang</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>GH</given-names></name>
+</person-group><year>2024</year><article-title>Reciprocal natural hybridization between Lycoris aurea and
+Lycoris radiata (Amaryllidaceae) identifed by morphological, karyotypic and
+chloroplast genomic data</article-title><source>BMC Plant Bio</source><volume>24</volume><elocation-id>14</elocation-id><pub-id pub-id-type="pmid">38163886</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12870-023-04681-2</pub-id><pub-id pub-id-type="pmcid">PMC10759762</pub-id></element-citation></ref><ref id="B38"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ran</surname><given-names>ZH</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Xiao</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>An</surname><given-names>MT</given-names></name>
+<name name-style="western"><surname>Yan</surname><given-names>C</given-names></name>
+</person-group><year>2024</year><article-title>Complete chloroplast genomes of 13 species of sect. Tuberculata
+Chang (Camellia L.): Genomic features, comparative analysis, and
+phylogenetic relationships</article-title><source>BMC Genomics</source><volume>25</volume><elocation-id>108</elocation-id><pub-id pub-id-type="pmid">38267876</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12864-024-09982-w</pub-id><pub-id pub-id-type="pmcid">PMC10809650</pub-id></element-citation></ref><ref id="B39"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Rannala</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>Z</given-names></name>
+</person-group><year>2007</year><article-title>Inferring speciation times under an episodic molecular
+clock</article-title><source>Syst Biol</source><volume>56</volume><fpage>453</fpage><lpage>466</lpage><pub-id pub-id-type="pmid">17558967</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/10635150701420643</pub-id></element-citation></ref><ref id="B40"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Roalson</surname><given-names>EH</given-names></name>
+<name name-style="western"><surname>Roberts</surname><given-names>WR</given-names></name>
+</person-group><year>2016</year><article-title>Distinct processes drive diversification in different clades of
+Gesneriaceae</article-title><source>Syst Biol</source><volume>65</volume><fpage>662</fpage><lpage>684</lpage><pub-id pub-id-type="pmid">26880147</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/sysbio/syw012</pub-id></element-citation></ref><ref id="B41"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ronquist</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Teslenko</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>van der Mark</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Ayres</surname><given-names>DL</given-names></name>
+<name name-style="western"><surname>Darling</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Hohna</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Larget</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Suchard</surname><given-names>MA</given-names></name>
+<name name-style="western"><surname>Huelsenbeck</surname><given-names>JP</given-names></name>
+</person-group><year>2012</year><article-title>MrBayes 3.2: Efficient Bayesian phylogenetic inference and model
+choice across a large model space</article-title><source>Syst Biol</source><volume>61</volume><fpage>539</fpage><lpage>542</lpage><pub-id pub-id-type="pmid">22357727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/sysbio/sys029</pub-id><pub-id pub-id-type="pmcid">PMC3329765</pub-id></element-citation></ref><ref id="B42"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Rozas</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Ferrer-Mata</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Sanchez-DelBarrio</surname><given-names>JC</given-names></name>
+<name name-style="western"><surname>Guirao-Rico</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Librado</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Ramos-Onsins</surname><given-names>SE</given-names></name>
+<name name-style="western"><surname>Sánchez-Gracia</surname><given-names>A</given-names></name>
+</person-group><year>2017</year><article-title>DnaSP 6: DNA sequence polymor-phism analysis of large data
+sets</article-title><source>Mol Biol Evol</source><volume>34</volume><fpage>3299</fpage><lpage>3302</lpage><pub-id pub-id-type="pmid">29029172</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msx248</pub-id></element-citation></ref><ref id="B43"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ruf</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Forner</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Hasse</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Kroop</surname><given-names>XN</given-names></name>
+<name name-style="western"><surname>Seeger</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Schollbach L Schadach</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Bock</surname><given-names>R</given-names></name>
+</person-group><year>2019</year><article-title>High-efficiency generation of fertile transplastomic Arabidopsis
+plants</article-title><source>Nat Plants</source><volume>5</volume><fpage>282</fpage><lpage>289</lpage><pub-id pub-id-type="pmid">30778165</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41477-019-0359-2</pub-id><pub-id pub-id-type="pmcid">PMC6420123</pub-id></element-citation></ref><ref id="B44"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Sayers</surname><given-names>EW</given-names></name>
+<name name-style="western"><surname>Cavanaugh</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Clark</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Ostell</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Pruitt</surname><given-names>KD</given-names></name>
+<name name-style="western"><surname>Karsch-Mizrachi</surname><given-names>I</given-names></name>
+</person-group><year>2020</year><part-title>GenBank</part-title><source>Nucleic Acids Res</source><volume>48</volume><fpage>D84</fpage><lpage>D86</lpage><pub-id pub-id-type="pmid">31665464</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkz956</pub-id><pub-id pub-id-type="pmcid">PMC7145611</pub-id></element-citation></ref><ref id="B45"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>YJ</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Wan</surname><given-names>XQ</given-names></name>
+<name name-style="western"><surname>Shi</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Wei</surname><given-names>Z</given-names></name>
+</person-group><year>2025</year><article-title>The population chloroplast genomes of Populus reveal the
+phylogenetic relationship between three new taxa of sect. Leucoides and
+their parents</article-title><source>BMC Genomics</source><volume>26</volume><elocation-id>156</elocation-id><pub-id pub-id-type="pmid">39962394</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12864-024-11099-z</pub-id><pub-id pub-id-type="pmcid">PMC11834202</pub-id></element-citation></ref><ref id="B46"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Silva</surname><given-names>SR</given-names></name>
+<name name-style="western"><surname>Miranda</surname><given-names>VFO</given-names></name>
+<name name-style="western"><surname>Michael</surname><given-names>TP</given-names></name>
+<name name-style="western"><surname>Płachno</surname><given-names>BJ</given-names></name>
+<name name-style="western"><surname>Matos</surname><given-names>RG</given-names></name>
+<name name-style="western"><surname>Adamec</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Pond</surname><given-names>SL</given-names></name>
+<name name-style="western"><surname>Lucaci</surname><given-names>AG</given-names></name>
+<name name-style="western"><surname>Pinheiro</surname><given-names>DG</given-names></name>
+<name name-style="western"><surname>Varani</surname><given-names>AM</given-names></name>
+</person-group><year>2023</year><article-title>The phylogenomics and evolutionary dynamics of the organellar
+genomes in Carnivorous utricularia and Genlisea species
+(Lentibulariaceae)</article-title><source>Mol Phylogenet Evol</source><volume>181</volume><elocation-id>107711</elocation-id><pub-id pub-id-type="pmid">36693533</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ympev.2023.107711</pub-id></element-citation></ref><ref id="B47"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Stamatakis</surname><given-names>A</given-names></name>
+</person-group><year>2014</year><article-title>RAxML version 8: A tool for phylogenetic analysis and
+postanalysis of large phylogenies</article-title><source>Bioinformatics</source><volume>30</volume><elocation-id>1312</elocation-id><pub-id pub-id-type="pmid">24451623</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btu033</pub-id><pub-id pub-id-type="pmcid">PMC3998144</pub-id></element-citation></ref><ref id="B48"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Tamura</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Stecher</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name>
+</person-group><year>2021</year><article-title>MEGA11 molecular evolutionary genetics analysis version
+11</article-title><source>Mol Biol Evol</source><volume>38</volume><fpage>3022</fpage><lpage>3027</lpage><pub-id pub-id-type="pmid">33892491</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msab120</pub-id><pub-id pub-id-type="pmcid">PMC8233496</pub-id></element-citation></ref><ref id="B49"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Bai</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Zheng</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Song</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Wen</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Guo</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Cheng</surname><given-names>GX</given-names></name>
+<name name-style="western"><surname>Yao</surname><given-names>WK</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>YM</given-names></name>
+<etal/>
+</person-group><year>2023</year><article-title>Comparative analysis of chloroplast genomes of 29 tomato
+germplasms: Genome structures, phylogenetic relationships, and adaptive
+evolution</article-title><source>Front Plant Sci</source><volume>14</volume><elocation-id>1179009</elocation-id><pub-id pub-id-type="pmid">37229122</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2023.1179009</pub-id><pub-id pub-id-type="pmcid">PMC10203424</pub-id></element-citation></ref><ref id="B50"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Jiang</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Guo</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Zhao</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Meng</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Xiao</surname><given-names>J</given-names></name>NiuY<name name-style="western"><surname>Sun</surname><given-names>YL</given-names></name>
+</person-group><year>2023</year><article-title>Comparative analysis of codon usage patterns in chloroplast
+genomes of ten Epimedium species</article-title><source>BMC Genom Data</source><volume>24</volume><elocation-id>3</elocation-id><pub-id pub-id-type="pmid">36624369</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12863-023-01104-x</pub-id><pub-id pub-id-type="pmcid">PMC9830715</pub-id></element-citation></ref><ref id="B51"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Lu</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>You</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Zang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>YQ</given-names></name>
+<name name-style="western"><surname>Ye</surname><given-names>JF</given-names></name>
+<name name-style="western"><surname>Lv</surname><given-names>ZM</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>ZY</given-names></name>
+<etal/>
+</person-group><year>2022</year><article-title>A chromosome-level genome of Syringa oblata provides new insights
+into chromosome formation in Oleaceae and evolutionary history of
+lilacs</article-title><source>Plant J</source><volume>111</volume><fpage>836</fpage><lpage>848</lpage><pub-id pub-id-type="pmid">35673966</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/tpj.15858</pub-id></element-citation></ref><ref id="B52"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>YS</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>EZ</given-names></name>
+<name name-style="western"><surname>Sun</surname><given-names>JH</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>ZX</given-names></name>
+<name name-style="western"><surname>Dong</surname><given-names>WP</given-names></name>
+</person-group><year>2025</year><article-title>Phylogenetic diversity and interspecies competition shaped
+species diversity in adaptive radiated Ligustrum (Oleaceae)</article-title><source>J Syst Evol</source><volume>63</volume><fpage>229</fpage><lpage>244</lpage></element-citation></ref><ref id="B53"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>CS</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>TJ</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>CW</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>YN</given-names></name>
+<name name-style="western"><surname>Chaw</surname><given-names>SM</given-names></name>
+</person-group><year>2017</year><article-title>Plastome evolution in the sole hemiparasitic genus Laurel dodder
+(Cassytha) and insights into the plastid phylogenomics of
+Lauraceae</article-title><source>Genome Biol Evol</source><volume>9</volume><fpage>2604</fpage><lpage>2614</lpage><pub-id pub-id-type="pmid">28985306</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/gbe/evx177</pub-id><pub-id pub-id-type="pmcid">PMC5737380</pub-id></element-citation></ref><ref id="B54"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xiao</surname><given-names>HG</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>CY</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Du</surname><given-names>DL</given-names></name>
+</person-group><year>2015</year><article-title>Insights into the differences in leaf functional traits of
+heterophyllous Syringa oblata under different light
+intensities</article-title><source>J For Res</source><volume>26</volume><fpage>613</fpage><lpage>621</lpage></element-citation></ref><ref id="B55"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xie</surname><given-names>HH</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Chang</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Xi</surname><given-names>ZX</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>XT</given-names></name>
+</person-group><year>2020</year><article-title>Comparative analysis of the complete chloroplast genomes of six
+threatened subgenus Gynopodium (Magnolia) species</article-title><source>BMC Genomics</source><volume>23</volume><elocation-id>716</elocation-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12864-022-08934-6</pub-id><pub-id pub-id-type="pmcid">PMC9583488</pub-id><pub-id pub-id-type="pmid">36261795</pub-id></element-citation></ref><ref id="B56"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xin</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Yao</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Zhou</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Han</surname><given-names>JP</given-names></name>
+<name name-style="western"><surname>Pang</surname><given-names>XH</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>R</given-names></name>
+<etal/>
+</person-group><year>2013</year><article-title>Super food Lycium barbarum (solanaceae) traceability via an
+internal transcribed spacer 2 barcode</article-title><source>Food Rev Int</source><volume>54</volume><fpage>1699</fpage><lpage>1704</lpage></element-citation></ref><ref id="B57"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xing</surname><given-names>YW</given-names></name>
+<name name-style="western"><surname>Ree</surname><given-names>RH</given-names></name>
+</person-group><year>2017</year><article-title>Uplift-driven diversifcation in the Hengduan Mountains, a
+temperate biodiversity hotspot</article-title><source>Proc Natl Acad Sci U S A</source><volume>114</volume><fpage>E3444</fpage><lpage>E3451</lpage><pub-id pub-id-type="pmid">28373546</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1616063114</pub-id><pub-id pub-id-type="pmcid">PMC5410793</pub-id></element-citation></ref><ref id="B58"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Kang</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Tai</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Ding</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>GD</given-names></name>
+<name name-style="western"><surname>Shen</surname><given-names>YR</given-names></name>
+<name name-style="western"><surname>Chai</surname><given-names>XY</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>XL</given-names></name>
+</person-group><year>2025</year><article-title>The stems of Syringa oblata Lindl. exert cardioprotective effects
+against acute myocardial ischemia by inhibiting the TLR4/MyD88/NF-κB and
+NLRP3 inflammasome signaling pathways in mice</article-title><source>J Ethnopharmacol</source><volume>344</volume><elocation-id>119563</elocation-id><pub-id pub-id-type="pmid">40015537</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jep.2025.119563</pub-id></element-citation></ref><ref id="B59"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yan</surname><given-names>HF</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>CY</given-names></name>
+<name name-style="western"><surname>Anderberg</surname><given-names>AA</given-names></name>
+<name name-style="western"><surname>Hao</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Ge</surname><given-names>XJ</given-names></name>
+<name name-style="western"><surname>Wiens</surname><given-names>JJ</given-names></name>
+</person-group><year>2018</year><article-title>What explains high plant richness in East Asia? Time and
+diversifcation in the tribe Lysimachieae (Primulaceae)</article-title><source>New Phytol</source><volume>219</volume><fpage>436</fpage><lpage>448</lpage><pub-id pub-id-type="pmid">29663397</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/nph.15144</pub-id></element-citation></ref><ref id="B60"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yan</surname><given-names>XK</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>TJ</given-names></name>
+<name name-style="western"><surname>Yuan</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Yan</surname><given-names>HF</given-names></name>
+<name name-style="western"><surname>Hao</surname><given-names>G</given-names></name>
+</person-group><year>2019</year><article-title>Chloroplast genomes and comparative analyses among thirteen taxa
+within Myrsinaceae s.str. clade (Myrsinoideae, Primulaceae)</article-title><source>Int J Mol Sci</source><volume>20</volume><elocation-id>4534</elocation-id><pub-id pub-id-type="pmid">31540236</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms20184534</pub-id><pub-id pub-id-type="pmcid">PMC6769889</pub-id></element-citation></ref><ref id="B61"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>CJ</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Guan</surname><given-names>QJ</given-names></name>
+<name name-style="western"><surname>Shen</surname><given-names>J</given-names></name>
+</person-group><year>2023</year><article-title>Analysis of the chloroplast genome and phylogenetic evolution of
+three species of Syringa</article-title><source>Mol Biol Rep</source><volume>50</volume><fpage>665</fpage><lpage>677</lpage><pub-id pub-id-type="pmid">36370298</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11033-022-08004-w</pub-id><pub-id pub-id-type="pmcid">PMC9884260</pub-id></element-citation></ref><ref id="B62"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Fu</surname><given-names>GF</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>ZQ</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Zhao</surname><given-names>JL</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>QJ</given-names></name>
+</person-group><year>2022</year><article-title>Chloroplast genome evolution in four montane Zingiberaceae taxa
+in China</article-title><source>Front Plant Sci</source><volume>12</volume><elocation-id>774482</elocation-id><pub-id pub-id-type="pmid">35082807</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2021.774482</pub-id><pub-id pub-id-type="pmcid">PMC8784687</pub-id></element-citation></ref><ref id="B63"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Jiao</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Fan</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>C</given-names></name>
+</person-group><year>2019</year><article-title>Complete chloroplast genome sequence and characteristics analysis
+of Vitis ficifolia</article-title><source>Acta Horticult Sin</source><volume>46</volume><fpage>635</fpage><lpage>648</lpage></element-citation></ref><ref id="B64"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>YX</given-names></name>
+<name name-style="western"><surname>Zhi</surname><given-names>LQ</given-names></name>
+<name name-style="western"><surname>Jia</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Zhong</surname><given-names>QY</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>ZL</given-names></name>
+<name name-style="western"><surname>Yue</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>ZH</given-names></name>
+</person-group><year>2020a</year><article-title>Nucleotide diversity and demographic history of Pinus bungeana,
+an endangered conifer species endemic in China</article-title><source>J Syst Evol</source><volume>58</volume><fpage>282</fpage><lpage>294</lpage></element-citation></ref><ref id="B65"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>YY</given-names></name>
+<name name-style="western"><surname>He</surname><given-names>RQ</given-names></name>
+<name name-style="western"><surname>Zheng</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Hu</surname><given-names>ZH</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Leng</surname><given-names>PS</given-names></name>
+</person-group><year>2020</year><article-title>Development of ESTSSR markers and association mapping with floral
+traits in Syringa oblata</article-title><source>BMC Plant Bio</source><volume>20</volume><elocation-id>436</elocation-id><pub-id pub-id-type="pmid">32957917</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12870-020-02652-5</pub-id><pub-id pub-id-type="pmcid">PMC7507607</pub-id></element-citation></ref><ref id="B66"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>WX</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>XH</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>LJ</given-names></name>
+<name name-style="western"><surname>Zhao</surname><given-names>TT</given-names></name>
+<name name-style="western"><surname>Liang</surname><given-names>LS</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>GX</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>QH</given-names></name>
+</person-group><year>2022</year><article-title>Plastome phylogenomics provide new perspective into the phylogeny
+and evolution of Betulaceae (Fagales)</article-title><source>BMC Plant Biol</source><volume>22</volume><elocation-id>611</elocation-id><pub-id pub-id-type="pmid">36566190</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12870-022-03991-1</pub-id><pub-id pub-id-type="pmcid">PMC9789603</pub-id></element-citation></ref><ref id="B67"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>ZH</given-names></name>
+</person-group><year>2007</year><article-title>PAML 4: Phylogenetic analysis by maximum
+likelihood</article-title><source>Mol Biol Evol</source><volume>24</volume><fpage>1586</fpage><lpage>1591</lpage><pub-id pub-id-type="pmid">17483113</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msm088</pub-id></element-citation></ref><ref id="B68"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yin</surname><given-names>XL</given-names></name>
+<name name-style="western"><surname>Fang</surname><given-names>KT</given-names></name>
+<name name-style="western"><surname>Liang</surname><given-names>YZ</given-names></name>
+<name name-style="western"><surname>Wong</surname><given-names>RN</given-names></name>
+<name name-style="western"><surname>Ha</surname><given-names>AWY</given-names></name>
+</person-group><year>2005</year><article-title>Assessing phylogenetic relationships of Lycium samples using RAPD
+and entropy theory</article-title><source>Acta Pharmacol Sin</source><volume>26</volume><fpage>1217</fpage><lpage>1224</lpage><pub-id pub-id-type="pmid">16174438</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1745-7254.2005.00197.x</pub-id></element-citation></ref><ref id="B69"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Yao</surname><given-names>RH</given-names></name>
+<name name-style="western"><surname>Wei</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Meng</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Jin</surname><given-names>MR</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>YL</given-names></name>
+<name name-style="western"><surname>Kou</surname><given-names>ZQ</given-names></name>
+<name name-style="western"><surname>Shi</surname><given-names>BS</given-names></name>
+</person-group><year>2021</year><article-title>Genetic relationship analysis of Syringa materials based on ISSR
+marker</article-title><source>J Hebei Agric Univ</source><volume>44</volume><fpage>48</fpage><lpage>56</lpage></element-citation></ref><ref id="B70"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>CF</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>TK</given-names></name>
+<name name-style="western"><surname>Luebert</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Xiang</surname><given-names>YZ</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Hu</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Rees</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Frohlich</surname><given-names>MW</given-names></name>
+<name name-style="western"><surname>Qi</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Weigend</surname><given-names>M</given-names></name>
+<etal/>
+</person-group><year>2020</year><article-title>Asterid phylogenomics/phylotranscriptomics uncover morphological
+evolutionary histories and support phylogenetic placement for numerous whole
+genome duplications</article-title><source>Mol Biol Evol</source><volume>37</volume><fpage>3188</fpage><lpage>3210</lpage><pub-id pub-id-type="pmid">32652014</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msaa160</pub-id></element-citation></ref><ref id="B71"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>CP</given-names></name>
+<name name-style="western"><surname>Zhao</surname><given-names>SL</given-names></name>
+<name name-style="western"><surname>Ablat</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Ding</surname><given-names>XD</given-names></name>
+<name name-style="western"><surname>Hu</surname><given-names>WC</given-names></name>
+</person-group><year>2025</year><article-title>The complete chloroplast genome of Oxytropis monophylla
+(Fabaceae): Insights into genome features and evolutionary
+relationships</article-title><source>Mitochondrial DNA Part B Resour</source><volume>10</volume><fpage>826</fpage><lpage>830</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/23802359.2025.2548846</pub-id><pub-id pub-id-type="pmcid">PMC12364091</pub-id><pub-id pub-id-type="pmid">40837252</pub-id></element-citation></ref><ref id="B72"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>FL</given-names></name>
+<name name-style="western"><surname>Jakovlic</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Zou</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>WX</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>GT</given-names></name>
+</person-group><year>2020</year><article-title>Phylosuite: An integrated and scalable desktop platform for
+streamlined molecular sequence data management and evolutionary
+phylogenetics studies</article-title><source>Mol Ecol Resour</source><volume>20</volume><fpage>348</fpage><lpage>355</lpage><pub-id pub-id-type="pmid">31599058</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1755-0998.13096</pub-id></element-citation></ref><ref id="B73"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>FJ</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Shu</surname><given-names>XC</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Zhuang</surname><given-names>WB</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name>
+</person-group><year>2020</year><article-title>Complete chloroplast genomes and comparative analyses of L.
+chinensis, L. anhuiensis, and L. aurea (Amaryllidaceae)</article-title><source>Int J Mol Sci</source><volume>21</volume><elocation-id>5729</elocation-id><pub-id pub-id-type="pmid">32785156</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms21165729</pub-id><pub-id pub-id-type="pmcid">PMC7461117</pub-id></element-citation></ref><ref id="B74"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Xi</surname><given-names>ZX</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>MC</given-names></name>
+<name name-style="western"><surname>Guo</surname><given-names>XY</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>T</given-names></name>
+</person-group><year>2018</year><article-title>Plastome phylogeny and lineage diversification of Salicaceae with
+focus on poplars and willows</article-title><source>Ecol Evol</source><volume>8</volume><fpage>7817</fpage><lpage>7823</lpage><pub-id pub-id-type="pmid">30250665</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.4261</pub-id><pub-id pub-id-type="pmcid">PMC6145263</pub-id></element-citation></ref><ref id="B75"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>SY</given-names></name>
+<name name-style="western"><surname>Yan</surname><given-names>HF</given-names></name>
+<name name-style="western"><surname>Wei</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>TJ</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Hao</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>QL</given-names></name>
+</person-group><year>2024</year><article-title>Plastid genome and its phylogenetic implications of Asiatic
+Spiraea (Rosaceae)</article-title><source>BMC Plant Biol</source><volume>24</volume><elocation-id>23</elocation-id><pub-id pub-id-type="pmid">38166728</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12870-023-04697-8</pub-id><pub-id pub-id-type="pmcid">PMC10763413</pub-id></element-citation></ref><ref id="B76"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>TW</given-names></name>
+<name name-style="western"><surname>Fang</surname><given-names>YJ</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>XM</given-names></name>
+<name name-style="western"><surname>Deng</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>XW</given-names></name>
+<name name-style="western"><surname>Hu</surname><given-names>SN</given-names></name>
+<name name-style="western"><surname>Yu</surname><given-names>J</given-names></name>
+</person-group><year>2012</year><article-title>The complete chloroplast and mitochondrial genome sequences of
+Boea hygrometrica: Insights into the evolution of plant organellar
+genomes</article-title><source>PLoS One</source><volume>7</volume><elocation-id>e30531</elocation-id><pub-id pub-id-type="pmid">22291979</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0030531</pub-id><pub-id pub-id-type="pmcid">PMC3264610</pub-id></element-citation></ref><ref id="B77"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>ZM</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Zeng</surname><given-names>XJ</given-names></name>
+<name name-style="western"><surname>Qiu</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Tang</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>GQ</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>GC</given-names></name>
+</person-group><year>2014</year><article-title>Sesquiterpenoids and lignans from the roots of Syringa
+pinnatifolia</article-title><source>Chem Pharm Bull</source><volume>62</volume><fpage>1009</fpage><lpage>1013</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1248/cpb.c14-00320</pub-id><pub-id pub-id-type="pmid">25273059</pub-id></element-citation></ref><ref id="B78"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhao</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Park</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>YQ</given-names></name>
+<name name-style="western"><surname>Nie</surname><given-names>ZL</given-names></name>
+<name name-style="western"><surname>Ge</surname><given-names>XJ</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Yan</surname><given-names>HF</given-names></name>
+</person-group><year>2022</year><article-title>Fingerprints of climatic changes through the late Cenozoic in
+southern Asian fora: Magnolia section Michelia
+(Magnoliaceae)</article-title><source>Ann Bot</source><volume>130</volume><fpage>41</fpage><lpage>52</lpage><pub-id pub-id-type="pmid">35460565</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/aob/mcac057</pub-id><pub-id pub-id-type="pmcid">PMC9295916</pub-id></element-citation></ref><ref id="B79"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhu</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Kuang</surname><given-names>H</given-names></name>
+</person-group><year>2021</year><article-title>Traditional uses, phytochemistry and pharmacology of genus
+Syringa: A comprehensive review</article-title><source>J Ethnopharmacol</source><volume>266</volume><elocation-id>113465</elocation-id><pub-id pub-id-type="pmid">33049343</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jep.2020.113465</pub-id></element-citation></ref></ref-list><ref-list><title>Internet Resources</title><ref id="B80"><element-citation publication-type="webpage"><person-group person-group-type="author">
+<name name-style="western"><surname>Rambaut</surname><given-names>A</given-names></name>
+</person-group><year>2012</year><source>FigTree v1. 4</source><comment> 4, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://tree.bio.ed.ac.uk/software/figtree" ext-link-type="uri">http://tree.bio.ed.ac.uk/software/figtree </ext-link>
+</comment><date-in-citation content-type="access-date" iso-8601-date="2026-05-20">20 May
+2026</date-in-citation></element-citation></ref></ref-list><sec sec-type="data-availability"><title>Data Availability</title><p> The three newly assembled and annotated CPGs have been submitted to the Genome
+Sequence Archive in National Genomics Data Center, China National Center for
+Bioinformation (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ngdc.cncb.ac.cn/genbase" ext-link-type="uri">https://ngdc.cncb.ac.cn/genbase</ext-link>), with accession numbers listed in
+Table S1. Other data generated or analyzed in our study are included in the
+supplementary files.</p></sec></back></article>

@@ -1,0 +1,621 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ejn70241" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Eur J Neurosci</journal-id><journal-id journal-id-type="iso-abbrev">Eur J Neurosci</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">8918110</journal-id><journal-id journal-id-type="publisher-id">EJN</journal-id><journal-title-group><journal-title>The European Journal of Neuroscience</journal-title></journal-title-group><issn pub-type="ppub">0953-816X</issn><issn pub-type="epub">1460-9568</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12404787</article-id><article-id pub-id-type="pmcid-ver">PMC12404787.1</article-id><article-id pub-id-type="pmcaid">12404787</article-id><article-id pub-id-type="pmcaiid">12404787</article-id><article-id pub-id-type="pmid">40897372</article-id><article-id pub-id-type="doi">10.1111/ejn.70241</article-id><article-id pub-id-type="publisher-id">EJN70241</article-id><article-id pub-id-type="other">EJN-2025-01-32422.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Report</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Report</subject></subj-group></article-categories><title-group><article-title>Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle</article-title></title-group><contrib-group><contrib id="ejn70241-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Liu</surname><given-names initials="Z">Zhuoxin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0001-3480-052X</contrib-id><xref rid="ejn70241-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ejn70241-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ejn70241-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib><contrib id="ejn70241-cr-0002" contrib-type="author"><name name-style="western"><surname>Givon</surname><given-names initials="S">Shachar</given-names></name><xref rid="ejn70241-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ejn70241-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ejn70241-cr-0003" contrib-type="author"><name name-style="western"><surname>Segev</surname><given-names initials="R">Ronen</given-names></name><xref rid="ejn70241-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ejn70241-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ejn70241-cr-0004" contrib-type="author"><name name-style="western"><surname>Donchin</surname><given-names initials="O">Opher</given-names></name><xref rid="ejn70241-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ejn70241-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ejn70241-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="ejn70241-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Mechatronics Engineering</named-content>
+<institution>Ben‐Gurion University of the Negev</institution>
+<city>Be'er Sheva</city>
+<country country="IL">Israel</country>
+</aff><aff id="ejn70241-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical Engineering</named-content>
+<institution>Ben‐Gurion University of the Negev</institution>
+<city>Be'er Sheva</city>
+<country country="IL">Israel</country>
+</aff><aff id="ejn70241-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">School of Brain Sciences and Cognition</named-content>
+<institution>Ben‐Gurion University of the Negev</institution>
+<city>Be'er Sheva</city>
+<country country="IL">Israel</country>
+</aff><aff id="ejn70241-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Life Sciences</named-content>
+<institution>Ben‐Gurion University of the Negev</institution>
+<city>Be'er Sheva</city>
+<country country="IL">Israel</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Zhuoxin Liu ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>02</day><month>9</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>9</month><year>2025</year></pub-date><volume>62</volume><issue seq="120">5</issue><issue-id pub-id-type="pmc-issue-id">495995</issue-id><issue-id pub-id-type="doi">10.1111/ejn.v62.5</issue-id><elocation-id>e70241</elocation-id><history>
+<date date-type="rev-recd"><day>29</day><month>7</month><year>2025</year></date>
+<date date-type="received"><day>21</day><month>1</month><year>2025</year></date>
+<date date-type="accepted"><day>13</day><month>8</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>02</day><month>09</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>03</day><month>09</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-09-03 16:25:26.420"><day>03</day><month>09</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">European Journal of Neuroscience</italic> published by Federation of European Neuroscience Societies and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EJN-62-0.pdf"><?pdf-name EJN-62-0.pdf?><?pdf-size 10678438?><?pdf-md5 16b7e0ca5230002dd060d284020c20ab?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:8e98/12404787/16b7e0ca5230/EJN-62-0.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EJN-62-0.pdf"/><abstract><title>ABSTRACT</title><p>Motor adaptation is crucial for animals to move in diverse environments, including fish. Here, we develop a novel experimental platform that allows for precise control of sensorimotor transformations and direct comparison with established paradigms used in mammalian studies. We show that goldfish operating a fish operated vehicle (FOV) adapt swimming behavior to achieve targets when vehicle movement is perturbed by a rotational transformation. Goldfish gradually adjusted their swimming patterns to compensate for the perturbation and had aftereffects when the perturbation was removed. Fish showed improved performance when the perturbation was reintroduced, although their initial learning rate in the second exposure was slower compared to the first exposure. These findings reveal that although goldfish can adapt to novel dynamics, their adaptation mechanisms may differ from those of mammals. This study broadens our understanding of motor adaptation across species, contributing to a more comprehensive view of motor learning in vertebrates.</p></abstract><abstract abstract-type="graphical"><p>A fish operated vehicle (FOV) is a mobile platform that enables fish to navigate by translating their swimming movements into vehicle motion. Goldfish operating a FOV adapt swimming behavior to achieve targets when vehicle movement is perturbed by a rotational transformation. Goldfish gradually adjusted their swimming patterns to compensate for the perturbation and had aftereffects when the perturbation is removed. Fish showed improved performance when the perturbation was reintroduced, although their initial learning rate in the second exposure was slower compared to the first exposure. These findings reveal that although goldfish can adapt to novel dynamics, their adaptation mechanisms may differ from those of mammals.<boxed-text position="anchor" content-type="graphic" id="ejn70241-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EJN-62-0-g003.jpg"><?image-name EJN-62-0-g003.jpg?><?image-size 56931?><?image-md5 048a070d845ce3e0feb5560f19846d38?><?image-image-server-status NEVER_LOAD?><?image-original-height 287?><?image-original-width 472?><?image-scaled-height 287?><?image-scaled-width 472?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/048a070d845c/EJN-62-0-g003.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ejn70241-kwd-0001">animal learning</kwd><kwd id="ejn70241-kwd-0002">fish</kwd><kwd id="ejn70241-kwd-0003">motor behavior</kwd><kwd id="ejn70241-kwd-0004">motor learning</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Israel Science Foundation</institution><institution-id institution-id-type="doi">10.13039/501100003977</institution-id></institution-wrap>
+</funding-source><award-id>824/21</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Human Frontiers Science Foundation</institution></institution-wrap>
+</funding-source><award-id>RGP0016/2019</award-id></award-group></funding-group><counts><fig-count count="9"/><table-count count="0"/><page-count count="15"/><word-count count="7900"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.2 mode:remove_FC converted:02.09.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ejn70241-cit-1001">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Givon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Segev</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Donchin</surname>
+</string-name>. <year>2025</year>. “<article-title>Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle</article-title>.” <source>European Journal of Neuroscience</source>
+<volume>62</volume>, no. <issue>5</issue>: <elocation-id>e70241</elocation-id>. <pub-id pub-id-type="doi">10.1111/ejn.70241</pub-id>.<pub-id pub-id-type="pmid">40897372</pub-id>
+<pub-id pub-id-type="pmcid">PMC12404787</pub-id></mixed-citation>
+</p><fn-group id="ejn70241-ntgp-0001"><fn fn-type="associateEditor" id="ejn70241-note-0001"><p>
+<bold>Associate Editor:</bold> Yoland Smith</p></fn><fn fn-type="funding" id="ejn70241-note-0002"><p>
+<bold>Funding:</bold> This work was supported by the Israel Science Foundation (824/21) and the Human Frontiers Science Foundation (RGP0016/2019).</p></fn></fn-group></notes></front><body id="ejn70241-body-0001"><def-list list-content="abbreviations" id="ejn70241-dl-0001"><title>Abbreviations</title><def-item><term id="ejn70241-li-0001">EAL</term><def id="ejn70241-li-0002"><p>estimated additional length</p></def></def-item><def-item><term id="ejn70241-li-0003">eff</term><def id="ejn70241-li-0004"><p>efficiency of the session</p></def></def-item><def-item><term id="ejn70241-li-0005">ET</term><def id="ejn70241-li-0006"><p>the distance from end point to target point</p></def></def-item><def-item><term id="ejn70241-li-0007">FOV</term><def id="ejn70241-li-0008"><p>fish operated vehicle</p></def></def-item><def-item><term id="ejn70241-li-0009">HDI</term><def id="ejn70241-li-0010"><p>highest density interval</p></def></def-item><def-item><term id="ejn70241-li-0011">MCMC</term><def id="ejn70241-li-0012"><p>Markov Chain Monte Carlo</p></def></def-item><def-item><term id="ejn70241-li-0013">ROPE</term><def id="ejn70241-li-0014"><p>region of practical equivalence</p></def></def-item><def-item><term id="ejn70241-li-0015">SE</term><def id="ejn70241-li-0016"><p>the distance from start point to end point</p></def></def-item></def-list><sec id="ejn70241-sec-0001"><label>1</label><title>Introduction</title><p>Animals routinely adapt to novel sensorimotor feedback. For example, humans can adapt to walking on split‐belt treadmills (Choi and Bastian <xref rid="ejn70241-bib-0010" ref-type="bibr">2007</xref>; Finley et al. <xref rid="ejn70241-bib-0016" ref-type="bibr">2013</xref>; Reisman et al. <xref rid="ejn70241-bib-0028" ref-type="bibr">2007</xref>), reaching for targets under artificially induced force‐fields (Donchin et al. <xref rid="ejn70241-bib-0014" ref-type="bibr">2003</xref>; Schween et al. <xref rid="ejn70241-bib-0031" ref-type="bibr">2020</xref>; Spampinato and Celnik <xref rid="ejn70241-bib-0033" ref-type="bibr">2021</xref>) or altered vestibular feedback (Blouin et al. <xref rid="ejn70241-bib-0039" ref-type="bibr">2015</xref>; Smith and Reynolds <xref rid="ejn70241-bib-0032" ref-type="bibr">2017</xref>; Welgampola and Colebatch <xref rid="ejn70241-bib-0036" ref-type="bibr">2001</xref>). Adaptation has also been shown in many other species (Grabowska et al. <xref rid="ejn70241-bib-0019" ref-type="bibr">2012</xref>; Herzfeld et al. <xref rid="ejn70241-bib-0020" ref-type="bibr">2018</xref>; Salem et al. <xref rid="ejn70241-bib-0030" ref-type="bibr">2022</xref>).</p><p>In aquatic environments, fish subjected to consistent flows require an ability to maintain stability. This stability can be achieved through self‐correcting mechanisms or actively with powered movements (Jindrich and Full <xref rid="ejn70241-bib-0021" ref-type="bibr">2002</xref>; Webb <xref rid="ejn70241-bib-0035" ref-type="bibr">2004</xref>). Prior studies have revealed mechanisms and strategies of fish learning to compensate for these effects in locomotion or eye movements (Aksay et al. <xref rid="ejn70241-bib-0003" ref-type="bibr">2007</xref>; Fernald <xref rid="ejn70241-bib-0015" ref-type="bibr">1988</xref>; McHenry and Liao <xref rid="ejn70241-bib-0027" ref-type="bibr">2014</xref>). In a recent study, Yang et al. (<xref rid="ejn70241-bib-0038" ref-type="bibr">2024</xref>) examined how weakly electric fish changed their refuge tracking behavior in response to an innovative experimental paradigm. The results imply that weakly electric fish adaptively retune their control system under augmented feedback for maintaining robust task‐level control performance. Thus, it seems fish can adapt to a variety of their behaviors in the face of a changing environment.</p><p>Here, we extend this research in several important directions. First, we use a well‐studied fish for which much anatomical information and many genetic tools are available (Blanco et al. <xref rid="ejn70241-bib-0008" ref-type="bibr">2018</xref>; Broglio et al. <xref rid="ejn70241-bib-0009" ref-type="bibr">2010</xref>; Salas et al. <xref rid="ejn70241-bib-0029" ref-type="bibr">2006</xref>) but for which adaptation has not yet been studied. Second, we study a paradigm in which the fish is controlling a vehicle (FOV), behavior that is not natural for a fish and for which there is no strong reason to expect hardwired adaptation mechanisms. Third, we explore whether fish adaptation shows savings, one of the hallmarks of adaptation in other animals (Albert et al. <xref rid="ejn70241-bib-0004" ref-type="bibr">2022</xref>).</p><p>The FOV is a self‐propelled platform whose motion is controlled by the fish placed in an onboard water tank; that is, it is basically a car that allows a fish to be mobile in a terrestrial environment. Control is mediated by an onboard camera and a computer vision system that detects the fish's position in real time and activates the vehicle motors accordingly. Whenever the fish is near one of the water tank walls and facing outwards, the FOV is automatically propelled in this direction. When this mapping is learned by the fish, it can drive the vehicle in a terrestrial environment.</p><p>The FOV provides a unique opportunity to study motor adaptation in fish, as its computerized control system can be modified to include constant distortions in the mapping between fish behavior and vehicle response (Crawford et al. <xref rid="ejn70241-bib-0012" ref-type="bibr">2020</xref>; Givon et al. <xref rid="ejn70241-bib-0018" ref-type="bibr">2022</xref>). This approach allows us to establish a motor adaptation paradigm that is comparatively reliable and comprehensive.</p><p>There are several basic properties of motor adaptation that we expect to see if motor adaptation in the FOV is equivalent to the widely established mechanisms of motor adaptation in other systems. Washout refers to the gradual decay or elimination of motor adaptation when the perturbation is removed. In addition, saving (also called “savings”) is the phenomenon where relearning occurs better and faster upon reexposure to a previously encountered perturbation (Maresch et al. <xref rid="ejn70241-bib-0025" ref-type="bibr">2020</xref>). Our study aims to address the following questions: Can goldfish learn from error while operating the vehicle with constant perturbation? Would fish in the FOV show an after‐effect in a washout session? Would fish relearn faster after the first adaptation? Can we observe persistent effects on fish swimming after the first adaptation? As we show, the answers to these questions are yes, yes, no, and yes essentially—establishing that goldfish adapt to perturbations in FOV control but raising the possibility that they do so with mechanisms that are different from classical adaptation in mammals. Our research contributes to the growing body of knowledge on fish motor adaptation and locomotion in altered environments, offering insights into the adaptive capabilities of aquatic organisms in novel situations. Furthermore, this study may help bridge the gap between our understanding of motor adaptation in fish and in higher vertebrates, potentially revealing evolutionary aspects of motor learning and control.</p></sec><sec sec-type="materials-and-methods" id="ejn70241-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ejn70241-sec-0003"><label>2.1</label><title>Animals</title><p>All the experiments were approved by the Ben‐Gurion University of the Negev Institutional Animal Care and Use Committee and were in accordance with the government regulations of the State of Israel. A total of 12 goldfish (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Carassius auratus</italic>
+</styled-content>), 15–18 cm in body length, and 80–120 g body weight were used in the study. The fish were housed in pairs in water tanks kept at room temperature with an artificial 12/12 h day‐night light cycle. The fish were relocated to the FOV water tank for experiments. For 2 weeks before beginning experiments, each fish was habituated to the food used as a reward.</p></sec><sec id="ejn70241-sec-0004"><label>2.2</label><title>Fish Operated Vehicle</title><p>The fish operated vehicle (FOV) is a custom‐built apparatus designed to allow a fish to control its movement within a defined arena. The FOV consists of a robust chassis measuring 40 × 40 × 19 cm, which supports a Perspex water tank (35 × 35 × 28 cm) positioned on a central platform. The tank is filled with water to a depth of 15 cm, a level chosen specifically to minimize surface waves caused by the vehicle's movement.</p><p>Four Brushed DC motors are mounted beneath the platform, each connected to one of four omni wheels (4″ OMNI, 595671, Actobotics) positioned on the sides of the chassis, enabling precise, omnidirectional movement (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1A</xref>). Above the tank, a Raspberry Pi 3B+ computer, a LIDAR sensor (RPLIDAR A2M8, Slamtec), and a power bank (10 Ah Type‐C 18W PD) are secured to a side pole extending 40 cm above the platform. A camera (C270 HD WEBCAM, Logitech) is mounted 20 cm inward from the pole, facing downward to capture the fish's position within the tank.</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Experimental setup and working hypothesis. (A) The fish operated vehicle is composed of a chassis with four electric motors equipped with omni wheels and a camera together with a LIDAR to collect data on fish relative position within the water tank and vehicle relative position in the arena. (B) View of a fish from the camera: fish orientation (orange) and FOV direction (blue). The FOV direction is controlled by the orientation of the fish. In the baseline/washout/final sessions, when the fish swims near a wall of the tank facing outward, the vehicle moves in the corresponding direction. In the rotation/savings sessions, the control system was adjusted to rotate the vehicle's movement direction 45° to the right relative to the direction the fish is facing. (C) The FOV and arena, bird's eye view. (D) The experiment includes five stages: baseline, rotation, washout, savings, and final. Each stage had corresponding sessions. Each session had six trials. The question mark in the early stage of Baseline represents the of behavior in a naive fish. The plots reflect the expected behavior at the beginning and end of each stage according to our working hypotheses. (E) The working hypothesis of the FOV experiment. If the fish are not able to adapt to the rotated perturbation, the performance will be like the dash reddish purple line. If the fish has savings, the performance will be like the solid sky blue line.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EJN-62-0-g004.jpg"><?image-name EJN-62-0-g004.jpg?><?image-size 135486?><?image-md5 b98cfcdf6a60aa1ad1014ade35da3717?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1495?><?image-original-width 1064?><?image-scaled-height 996?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/b98cfcdf6a60/EJN-62-0-g004.jpg?><?thumb-name EJN-62-0-g004.gif?><?thumb-size 15402?><?thumb-md5 207019a17766c3789400698067dbd9e0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 141?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/207019a17766/EJN-62-0-g004.gif?></graphic></fig><p>The core of the FOV's functionality lies in its computer vision system, which allows the fish to control the vehicle's movement. This system processes real‐time video from the downward‐facing camera, utilizing image segmentation and object detection to track the fish's position and orientation. When the fish swims near a wall of the tank facing outward, the vehicle moves in the corresponding direction (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1B</xref>). Conversely, the vehicle remains stationary when the fish faces inward. The Raspberry Pi continuously records both the fish's position within the tank and the vehicle's position within the room for subsequent analysis.</p><p>During specific experimental sessions involving rotation, the control system was adjusted to rotate the vehicle's movement direction 45° to the right relative to the direction the fish is facing. This modification was essential for studying the fish's response to altered movement cues.</p><p>For precise localization within the experimental arena, the LIDAR sensor mounted on the FOV records the vehicle's position at a frequency of 11.3 Hz (618 rpm) with an accuracy of less than 0.5 mm. For comprehensive data analysis, bird's eye view footage of the entire experiment is also recorded using a separate camera system placed approximately 4 m above the workspace. This camera captures video at 40 frames per second with a resolution of 1920 × 1342 pixels. These recordings are downsampled to 30 fps and resized to 720 × 480 pixels during processing, serving to validate the reliability and integrity of the data collected by the FOV. The camera attached to the water tank captures high‐resolution video (30 fps, 320 × 240) of the fish's position and pose within the water tank. This information is integrated with the LIDAR data in a control loop, which updates in real‐time at a rate of 12 fps to adjust the vehicle's movement based on the fish's behavior.</p><p>Detailed information on the vehicle's motor control system, response characteristics, and the behavioral arena can be found in a previous publication (Givon et al. <xref rid="ejn70241-bib-0018" ref-type="bibr">2022</xref>).</p></sec><sec id="ejn70241-sec-0005"><label>2.3</label><title>Trial Structure</title><p>Each trial begins with uncovering a bucket that covers the FOV's water tank between trials when the FOV is at the starting point (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1C</xref>). Control of the FOV is then transferred to the fish. When the fish successfully reaches the target, defined as the moment the vehicle contacts the pink board, the experimenter dispenses one food pellet into the water tank. After the fish consumes the pellet, the bucket is used to obscure visual feedback. The FOV is then manually returned to the starting point for the next trial. The maximum time given for the fish to bring the FOV to the target location is 3 min. A trial ends when any of the following conditions are met: Test time exceeds 3 min, the FOV reaches the test site boundaries, or the FOV successfully arrives at the target area. The fish is rewarded with food only upon successfully reaching the target.</p></sec><sec id="ejn70241-sec-0006"><label>2.4</label><title>Timeline of Experiment</title><p>Fish participated in experimental sessions on alternate days. In each experimental session, the fish had six trials. The sessions were grouped into five distinct stages: baseline, rotation, washout, savings, and final.</p><p>Individual fish exhibited significant variability in their ability to associate the food reward with the target during the baseline stages. To account for this, we established a maximum of 25 baseline sessions for fish to reach a criterion of performance. The criteria for advancing from the baseline to the rotation stage required the fish to maintain good performance standards (described in the data preprocessing section) for three consecutive sessions. Thus, the number of baseline sessions varied between fish, as each fish proceeded to the next stage once it reached the performance criteria. Of the 12 fish that began the 45° experiment, 8 completed the baseline (of the remaining fish, 3 died during baseline, and 1 failed to achieve baseline performance criteria). Of the four fish that began 90° experiment, three completed the baseline (one failed to achieve baseline performance criteria). All four fish that began −45° experiment completed the baseline. The −45° and 90° groups stopped at the washout stage. The difference between each group is the rotational perturbation size.</p><p>After the baseline, the 45° group experiments proceeded as follows:
+<list list-type="order" id="ejn70241-list-0001"><list-item id="ejn70241-li-0017"><p>Rotation stage: 15 sessions, in which FOV movement direction was rotated 45° relative to the direction commanded by the fish pose.</p></list-item><list-item id="ejn70241-li-0018"><p>Washout stage: 10 sessions, in which FOV movement was again the direction commanded by the fish pose.</p></list-item><list-item id="ejn70241-li-0019"><p>Savings stage: 15 sessions as in 1.</p></list-item><list-item id="ejn70241-li-0020"><p>Final stage: 10 sessions as in 2.</p></list-item></list>
+</p></sec><sec id="ejn70241-sec-0007"><label>2.5</label><title>Data Preprocessing</title><p>The raw data consist of the position in the arena provided by the LIDAR and the position and posture of the fish in the tank provided by the onboard camera. We set Time 0 to be the moment at which the fish appeared in the frame after the buckets was removed. Frames where no fish were detected were removed from analysis and later smoothed over. Then, based on the position information of the FOV, we can calculate some metrics of the FOV trace of each trial. In this paper, we characterize the performance of each trial based on three measures (Figure <xref rid="ejn70241-fig-0002" ref-type="fig">2</xref>):
+<list list-type="order" id="ejn70241-list-0002"><list-item id="ejn70241-li-0021"><p>Success/session: The number of food pellets the fish gets in a session. This was tested by testing whether <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math> was in the target area (where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math> is the final data point collected for the trial). The maximum success/session is 6 because there are six trials in each session.</p></list-item><list-item id="ejn70241-li-0022"><p>Angular error: the angle between the fish's actual trajectory and the ideal trajectory (measured at the end point). That is, using (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mrow></mml:math>) to indicate the first data point collected on each trial. The optimal angular error is 0°.<disp-formula id="ejn70241-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext mathvariant="italic">angular error</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi mathvariant="italic">arctan</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></list-item><list-item id="ejn70241-li-0023"><p>Distance traveled: The adjusted trajectory length calculation considers two possibilities. For successful trials, it is simply the actual trajectory length (solid blue line). For unsuccessful trials, the actual trajectory length is increased by an estimate of the additional trajectory that would be required to reach the target. This is done using <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced close=")" open="(" separators=","><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math> to indicate the current data point collected on the trial and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced close=")" open="(" separators=","><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math> to indicate the previous data point collected on the trial. Optimal distance traveled is 2.5 m from origin to target.<disp-formula id="ejn70241-disp-0002">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>length</mml:mtext><mml:mo>:</mml:mo><mml:mspace width="1em"/><mml:mi mathvariant="italic">len</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:munderover><mml:msqrt><mml:mrow><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></list-item></list>
+<disp-formula id="ejn70241-disp-0003">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-8" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfenced close="" open="{"><mml:mrow><mml:mspace width="0.25em"/><mml:mtable><mml:mtr><mml:mtd columnalign="center"><mml:mi mathvariant="italic">len</mml:mi></mml:mtd><mml:mtd columnalign="left"><mml:mtext>if trial successful</mml:mtext></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>d</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>EAL</mml:mi></mml:mtd><mml:mtd columnalign="left"><mml:mtext>otherwise</mml:mtext></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Measures of performance. For each trial, success is when the FOV arrives in the target area, fish gets food reward. Angular error is the angle between the direction form start point to end pint and the direction form start point to target point. Distance traveled is the total trajectory length of the successful trials. For failed trials, distance traveled is the total trajectory length plus the distance form end point to target point multiply efficiency (see Section <xref rid="ejn70241-sec-0002" ref-type="sec">2</xref>) of the fish in the session. SE, the distance from start point to end point. ET, the distance from end point to target point.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EJN-62-0-g006.jpg"><?image-name EJN-62-0-g006.jpg?><?image-size 26982?><?image-md5 26b188a1f0195c12c17f581f348e1887?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 475?><?image-original-width 995?><?image-scaled-height 317?><?image-scaled-width 663?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/26b188a1f019/EJN-62-0-g006.jpg?><?thumb-name EJN-62-0-g006.gif?><?thumb-size 3472?><?thumb-md5 8a6d074be6403ccf1c1f9e5b69ae2024?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 167?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/8a6d074be640/EJN-62-0-g006.gif?></graphic></fig><p>The adjusted length includes an estimated additional length (EAL) to compensate for the fact that unsuccessful trials can end far from the target. The EAL estimates the additional distance that would be traveled from the end of the trial to the target assuming the same efficiency as the fish has shown in other trials of that session. That is,<disp-formula id="ejn70241-disp-0004">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-9" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>distance from start to</mml:mtext><mml:mspace width="0.25em"/><mml:mi>end</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="italic">SE</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0005">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-10" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>distance from</mml:mtext><mml:mspace width="0.25em"/><mml:mi>end</mml:mi><mml:mspace width="0.25em"/><mml:mtext>to target</mml:mtext><mml:mo>,</mml:mo><mml:mi mathvariant="italic">ET</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0006">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-11" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>efficiency of the session</mml:mtext><mml:mo>,</mml:mo><mml:mi mathvariant="italic">eff</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>T</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>6</mml:mn></mml:msubsup><mml:mi mathvariant="italic">le</mml:mi><mml:msub><mml:mi>n</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>T</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>6</mml:mn></mml:munderover><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0007">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-12" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mtext>estimated additional length</mml:mtext><mml:mo>,</mml:mo><mml:mi mathvariant="italic">EAL</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>eff</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi mathvariant="italic">ET</mml:mi></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>For all measures, statistical analysis (described below) is performed at the level of individual trials. However, for presentation purposes, sessions are usually represented by the median across trials in that session.</p><p>Fish were moved from the baseline stage to the rotation stage when, on three consecutive days, the median performance of the 3 days included at least four successful trials, and the trials had median direction less than ± 15° and median length less than 4.5 m. Fish that did not reach this success criterion after 25 baseline sessions were removed from the experiment.</p></sec><sec id="ejn70241-sec-0008"><label>2.6</label><title>Statistical Analysis</title><p>The statistical results are based on a Bayesian regression. The model is described here in brief with detail provided in the <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">Supporting Information</xref> and all code and even more information available in Zenodo hosted notebooks and git repository. We followed a modern Bayesian workflow (Gelman et al. <xref rid="ejn70241-bib-0017" ref-type="bibr">2020</xref>; Maresch et al. <xref rid="ejn70241-bib-0025" ref-type="bibr">2020</xref>; Martin et al. <xref rid="ejn70241-bib-0026" ref-type="bibr">2021</xref>), which includes five stages: model selection, prior selection, sampling (we skipped posterior predictive tests here), and interpretation of the posterior distribution. Further details of the model, including full parameter lists, choices of prior, prior predictive checks, sampling diagnostics, and posterior predictive checks, are all available in the <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">Supporting Information</xref>. We explain the analysis by stepping through the different stages of the workflow and explain what was done in each one.</p><p>We report our results using the median and 94% HDI of the median. The HDI contains 94% of the distribution, in which every point has higher credibility than any points outside this range. Furthermore, for stage comparisons, we specified a region of practical equivalence (ROPE) of the groups. The ROPE for success is a difference of one success/session; the ROPE for the angular error is a difference of 5°; the ROPE for the distance is a difference of 2 m. These ROPEs are arbitrary, but we report the overlap of the posterior and the ROPE to give a general sense of the probability that differences are significantly different from 0. Unless otherwise indicated, brackets represent 94% HDI.
+<list list-type="simple" id="ejn70241-list-0003"><list-item id="ejn70241-li-0024"><label>1</label><p>Model selection</p></list-item></list>
+</p><p>We built our hierarchy models based on different measures of data. For each measure, the actual likelihood used was different—as appropriate for the different data types (Section <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">S1</xref>). For the success/session (Figure <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">S1</xref>, Section 2), we used a Poisson likelihood (so variance scaled with the median). For the angular error (Figure <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">S2</xref>, Section 6), we used a Student's <italic toggle="yes">t</italic> likelihood. For the distance traveled, we used a Gamma likelihood (Figure <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">S3</xref>, Section 7).<disp-formula id="ejn70241-disp-0008">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-13" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>Success</mml:mtext><mml:mo>/</mml:mo><mml:msub><mml:mtext>Session</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>∼</mml:mo><mml:mtext>Pois</mml:mtext><mml:mfenced close=")" open="("><mml:mrow><mml:mtext>rate</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0009">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-14" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mtext>Angular Error</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>∼</mml:mo><mml:msup><mml:mtext>Student</mml:mtext><mml:mo>′</mml:mo></mml:msup><mml:mi mathvariant="normal">s</mml:mi><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">t</mml:mi><mml:mfenced close=")" open="(" separators=",,"><mml:mrow><mml:mtext>mean</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>std</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mover accent="true"><mml:mi>σ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>df</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>ν</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0010">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-15" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mtext>Distance Traveled</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>∼</mml:mo><mml:mtext>Gamma</mml:mtext><mml:mfenced close=")" open="(" separators=","><mml:mrow><mml:mtext>mode</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>std</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mover accent="true"><mml:mi>σ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-16" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>ν</mml:mi></mml:mrow></mml:mrow></mml:math> is fixed across the data and has an exponential prior. The models assume that median performance on each session follows an exponential curve:<disp-formula id="ejn70241-disp-0011">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-17" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>μ</mml:mi></mml:msub><mml:mi>exp</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mo linebreak="goodbreak">−</mml:mo><mml:mfrac><mml:mi>ses</mml:mi><mml:msub><mml:mi>τ</mml:mi><mml:mi>μ</mml:mi></mml:msub></mml:mfrac></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>μ</mml:mi><mml:mo>,</mml:mo><mml:mo>∞</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>The actual spread of the data around this exponential curve is itself also modeled as an exponential:<disp-formula id="ejn70241-disp-0012">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-18" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mi>σ</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>σ</mml:mi></mml:msub><mml:mi>exp</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mo linebreak="goodbreak">−</mml:mo><mml:mfrac><mml:mi>ses</mml:mi><mml:msub><mml:mi>τ</mml:mi><mml:mi>μ</mml:mi></mml:msub></mml:mfrac></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>σ</mml:mi><mml:mrow><mml:mi>μ</mml:mi><mml:mo>,</mml:mo><mml:mo>∞</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>
+<list list-type="simple" continued-from="ejn70241-list-0003" id="ejn70241-list-0004"><list-item id="ejn70241-li-0025"><label>2</label><p>Prior selection</p></list-item></list>
+</p><p>We chose prior distributions that were appropriate to the nature of the parameter. Positive parameters use a Gamma prior, continuous parameters use normal priors, and the degrees of freedom use an exponential prior (which is traditional). Priors were generally determined in the spirit of empirical Bayes. Where possible, the center of the prior was set to the most reasonable value that could be guessed from the data. Then, the width of the prior was chosen to be broad enough to allow for unbiased estimates. We tuned the priors by sampling prior predictive distributions and changing the parameters to get datasets that include all reasonable data and exclude pathological possibilities (Figure <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">S4</xref>).
+<list list-type="simple" continued-from="ejn70241-list-0004" id="ejn70241-list-0005"><list-item id="ejn70241-li-0026"><label>3</label><p>Sampling</p></list-item></list>
+</p><p>We generated MCMC samples from the joint posterior distribution of the parameters using the PyMC Python package (5.12.0). Much of the initial analysis and presentation uses the Python package Arviz (0.18.0). We used 4 chains, 1000 tune, and 1000 draw (8000 total) samples. We used standard diagnostics to ensure that the chains converge to a unimodal distribution for all parameters and that the results are consistent across chains.
+<list list-type="simple" continued-from="ejn70241-list-0005" id="ejn70241-list-0006"><list-item id="ejn70241-li-0027"><label>4</label><p>Interpretation of the posterior distribution</p></list-item></list>
+</p><p>Once the model was fit to the data, we used the regression median as our basis for comparing performance across fish. In addition to presenting the learning curve for each measure, we also looked at three additional parameters to characterize fish learning:<disp-formula id="ejn70241-disp-0013">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-19" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>initial value</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>μ</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>μ</mml:mi><mml:mo>,</mml:mo><mml:mo>∞</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0014">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-20" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mtext>asymptotic performance</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>μ</mml:mi><mml:mo>,</mml:mo><mml:mo>∞</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="ejn70241-disp-0015">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-21" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>initial learning rate</mml:mtext><mml:mo linebreak="goodbreak">=</mml:mo><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>μ</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>μ</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>For each of these parameters, we calculated the HDI from the posterior distributions for each fish in each stage. Considering our model assumptions, we compared the values across fish and across stages.</p></sec></sec><sec sec-type="results" id="ejn70241-sec-0009"><label>3</label><title>Results</title><p>The experiments aimed to reveal adaptation of swimming pose in goldfish. The FOV is a custom‐built apparatus designed to allow a fish to control its movement within a defined arena (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1A,B</xref>). Fish received baseline training to control the FOV and drive it from a fixed origin to reach a pink target and receive a food reward (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1C</xref>). Then, the fish were subjected to rotation of the control of the vehicle such that the fish command to the vehicle was rotated by 45° for 15 sessions (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1D</xref>). Following the rotation sessions, the perturbation was removed for 10 sessions to test for washout. Finally, the fish were subjected to an additional savings stage (15 sessions) and a final washout (10 sessions). Using this experimental timeline, we can explore the characteristics of fish learning, aftereffects, and relearning (Figure <xref rid="ejn70241-fig-0001" ref-type="fig">1E</xref>). Of the 12 fish that began the experiment, 8 completed the baseline (3 of these died during baseline, and 1 did not succeed in achieving the baseline performance criteria).</p><sec id="ejn70241-sec-0010"><label>3.1</label><title>Goldfish Can Operate the FOV</title><p>Goldfish can drive the FOV, corroborating Givon et al. (<xref rid="ejn70241-bib-0018" ref-type="bibr">2022</xref>). In Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3A</xref>, initial baseline movements of the example fish can be seen to be unsuccessful, where late baseline movements generally reach the target; the direction also improves, and although some early baseline movements are short, when the length is adjusted for the distance from the target, the fish has clearly improved by the late baseline (Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3B</xref>). Fish show improvement in all measures during baseline.</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Goldfish can operate the vehicle. (A, B) The trace plots of the example fish. (C–E) Data and model parameters of success/session. (H, I) Data and model parameters of angular error. (F–K) Data and model parameters of the distance traveled. (C, I, F) Data of median value of each fish performance. The yellow lines are the medians of the measure of the fish in one session. The orange points are the last baseline sessions of the fish. The black line is the model estimation of the median performance across the fish. The gray patch is highest density interval (HDI) of the model estimation of the median performance. (D, G, J) Parameters we got from the model fit. IV, initial value of the performance. AP, asymptotic performance. We can compare the initial performance and asymptotic performance by these figures. (E, H, K) ILR. Initial learning rate, the learning rate of the first session. These plots reflect how fast is the motor adaptation of the FOV experiment.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="EJN-62-0-g005.jpg"><?image-name EJN-62-0-g005.jpg?><?image-size 158794?><?image-md5 80ba497efafdaaefbac9a5952b3ef4fa?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1471?><?image-original-width 1064?><?image-scaled-height 980?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/80ba497efafd/EJN-62-0-g005.jpg?><?thumb-name EJN-62-0-g005.gif?><?thumb-size 14481?><?thumb-md5 3b06fcb12544336ac550ae65c57fb524?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 138?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/3b06fcb12544/EJN-62-0-g005.gif?></graphic></fig><p>Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3C</xref> shows the success of the fish over all baseline trials. We calculated the high‐density‐intervals (HDI) form the posterior distributions for all stages. Across fish, the asymptotic performance improved from initial value 1.9 success/session (HDI 0.9–2.9) to 3.2 success/session (HDI 3.0–3.4, Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3D</xref>). The angular error became more consistent with an HDI that goes from −2.6° (HDI −12.5° to 6.9°) to −3.2° (HDI −4.5 to −1.9°) (Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3G</xref>), and distance traveled improved from 6.0 m (HDI 4.9–7.0) to 3.2 m (2.9–3.6) (Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3J</xref>). The baseline was completed in a median of 24 sessions (minimum: 12; maximum: 25). All the fish who completed the baseline went on to train in the rotation. Additional fish died along the way and the number of fish providing data for each stage was washout, 7 fish; saving, 7 fish; and final stage: 3 fish.</p></sec><sec id="ejn70241-sec-0011"><label>3.2</label><title>Goldfish Can Adapt to Rotation in Operating the FOV</title><p>In the rotation stage, we added a 45° perturbation between the mapping of the fish's orientation and the vehicle's direction of movement (as described in Section <xref rid="ejn70241-sec-0002" ref-type="sec">2</xref>). The objective of this rotation was to test if the fish could learn from the errors caused by the changed mapping. If the fish continues swimming towards the target, this will cause a 45° error in direction. This may also increase the length of the movement as the fish struggles to reach the target and may reduce the number of successes if the fish does not ultimately reach it. This situation is expected in the early rotation stage.</p><p>We hypothesized that fish will eventually adjust their orientation to counteract the effects of the perturbed mapping, causing the vehicle to go straight to the target again. If, on the other hand, the fish cannot learn the new control condition, we expect success to stay low, the size of the directional error to stay large, and potentially also the length of the movement to stay long.</p><p>The first two columns of Figure <xref rid="ejn70241-fig-0004" ref-type="fig">4</xref> allow comparison of baseline performance to performance in the rotation session. The data show that the example fish adapts to the rotation perturbation. The success improves from 1.4 to 3.7 success/session, angular error improves from 9.4° to −0.5°, and distance traveled improves from 6.4 to 3.7 m (Figure <xref rid="ejn70241-fig-0004" ref-type="fig">4B–D</xref>). These numbers are the estimated median from the model fit to the fish data, with the actual data values shown in the figure.</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Goldfish can adapt to rotation. (A) The trace plots of the example fish. (B–D) The colorful lines are the raw median data in one session of the performance of the example fish. The colorful points are the data from individual trial. The black lines are the model estimations of the median performance of the example fish. The gray patches are HDI of the model estimation of the median performance.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="EJN-62-0-g001.jpg"><?image-name EJN-62-0-g001.jpg?><?image-size 112250?><?image-md5 35922a3fe22a2394a6a7766d1637a3d8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1515?><?image-original-width 1064?><?image-scaled-height 1010?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/35922a3fe22a/EJN-62-0-g001.jpg?><?thumb-name EJN-62-0-g001.gif?><?thumb-size 5278?><?thumb-md5 90f75d60a4ed9eb8526ac5404851f8a8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 142?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/90f75d60a4ed/EJN-62-0-g001.gif?></graphic></fig><p>We can characterize the fish's adaptation using the initial learning rate and asymptotic performance. In this fish, for instance, the initial learning rate was an increase of 0.5 successes per session, a 2.0° improvement in median angular error per session, and a 0.5‐m improvement in distance traveled. The asymptotic performance values were 3.6 successes/session, −2.7° angular error<italic toggle="yes">,</italic> and a distance traveled of 3.2 m (compared to an optimal length of 2.5 m from origin to target).</p><p>The performance across 45° fish is shown in Figure <xref rid="ejn70241-fig-0005" ref-type="fig">5</xref>. The data show that across fish, we can see adaptation to the rotation perturbation. In this figure, each colored line is the median of the data for a fish, and the black line is the model estimate of the median across fish (the gray patch represents the HDI). The median success improves from 1.9 success/session (HDI 1.3–2.5) to 3.4 success/session (HDI 3.0–3.8), angular error improves from 11.4° (HDI 7.5°–15.8°) to 0.1° (HDI −1.3° to 1.3°), and distance numbers are the estimated median and the HDIs as taken from the model fit to the fish data, with the actual data values for individual fish shown with colored lines in the figure. Although the HDIs for all the measures overlap across fish, indicating some uncertainty, they have clearly moved in the expected direction, indicating fish have a general improvement in performance.</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Goldfish can adapt to 45° rotation. (A–C) The colorful lines are the raw median data in one session of the performance of across fish. The black lines are the model estimations of the median performance across fish. The gray patches are HDI of the model estimation of the median performance across fish.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="EJN-62-0-g009.jpg"><?image-name EJN-62-0-g009.jpg?><?image-size 104277?><?image-md5 6a84f1101e8d0923c7b0dbae65e3f2b0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1407?><?image-original-width 1064?><?image-scaled-height 938?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/6a84f1101e8d/EJN-62-0-g009.jpg?><?thumb-name EJN-62-0-g009.gif?><?thumb-size 4947?><?thumb-md5 cc4f258511563993730090b5ed5c6630?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 132?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/cc4f25851156/EJN-62-0-g009.gif?></graphic></fig><p>This improvement is also captured in the initial learning rate. Although the HDI of initial learning rate for each individual fish did overlap 0, the HDI for initial learning rate across fish for all measures did not. The initial learning rate was 0.58 success/session (HDI 0.1–1.1), −6.53° (HDI −13.1° to −1.8°) for median angular error per session, and −0.9 m (HDI −1.9 to −0.2 m) for distance traveled. Note that positive learning for success and negative learning for direction and length all indicate improved performance. Asymptotic values for all measures show a return to values near those at the end of baseline (success/session: rotation 3.5 success/session compared to baseline 3.2 success/session; angular error: −1.5° compared to −3.2°; distance traveled: 3.8 m compared to 3.2 m).</p><p>Figure <xref rid="ejn70241-fig-0005" ref-type="fig">5</xref> also shows after‐effects in all measures across all fish. Success/session initially dipped to 3.0 success/session (HDI 1.0–5.0), angular error showed a negative bias of −6° (HDI −17.2° to 3.3°), and distance traveled temporarily increased to 3.6 m (HDI 1.7–5.6) before returning to baseline levels (success/session: initial washout 3.5 compared to late baseline, 3.4; direction: −7.0° compared to −3.1°; length: 3.6 m compared to 3.4 m). The existence of aftereffects indicates the fish had formed an internal model of the rotation. Figure <xref rid="ejn70241-fig-0006" ref-type="fig">6</xref> shows the performance of 90° perturbation group. The median success during rotation sessions improves from 0 success/session (HDI 0.2–0.5) to 1.3 success/session (HDI 1.0–1.7), angular error improves from 57.0° (HDI 44.2°–70.2°) to 7.3° (HDI 5.3°–9.3°), and distance traveled improves from 11.6 m (HDI 10.0–11.6) to 4.6 m (HDI 4.1–5.0). The performance of −45°group is presented in Figure <xref rid="ejn70241-supitem-0001" ref-type="supplementary-material">S8</xref>.</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Goldfish can adapt to 90° rotation. (A–C) The colorful lines are the raw median data in one session of the performance of across fish. The black lines are the model estimations of the median performance across fish. The gray patches are HDI of the model estimation of the median performance across fish.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="EJN-62-0-g007.jpg"><?image-name EJN-62-0-g007.jpg?><?image-size 78199?><?image-md5 d6e9b94789878253eadf8e2a50b3333a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1395?><?image-original-width 1064?><?image-scaled-height 930?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/d6e9b9478987/EJN-62-0-g007.jpg?><?thumb-name EJN-62-0-g007.gif?><?thumb-size 3912?><?thumb-md5 8c05cdfb29e633d89fb4d3d62c30504a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 131?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/8c05cdfb29e6/EJN-62-0-g007.gif?></graphic></fig><p>Thus, goldfish adapt to changes in their control environment and exhibit both motor adaptation and aftereffects.</p></sec><sec id="ejn70241-sec-0012"><label>3.3</label><title>In Savings Stage, Performance Improves but There Is No Classical Savings</title><p>In motor learning, “savings” refers to faster or improved relearning of a previously acquired motor skill. To investigate whether goldfish exhibit savings in whole‐body motor adaptation, we exposed them to the same perturbation a second time, comparing their performance in the initial rotation stage to a subsequent “savings” stage.</p><p>The performance across fish is shown in Figure <xref rid="ejn70241-fig-0007" ref-type="fig">7B–D</xref>. We see that fish adapt to the second rotational perturbation. Success improves from 2.4 success/session (HDI 1.8–3.1) to 3.7 success/session (HDI 3.2–4.3), angular error improves from 11.0° (HDI 7.7–14.7) to −3.0° (HDI −4.3 to −1.6), and distance traveled improves from 5.1 m (HDI 4.2–5.9) to 3.6 m (HDI 3.1–4.0). Across fish, the learning rate in savings was 0.5 success/session (HDI 0.0–1.0), −2.4° (HDI −4.7° to −1.8°) for median angular error per session, and −0.4 m (HDI −0.9 to 0.0 m) for distance traveled. Similarly, asymptotic performance values were near those in baseline. The comparison of rotation and savings is shown in Figure <xref rid="ejn70241-fig-0008" ref-type="fig">8</xref> (success/session: initial learning rate of savings 0.5 compared to learning rate in rotation 0.6; angular error: −2.4 compared to −6.5; distance traveled: −0.4 compared to −0.9).</p><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Slight improvement in performance in saving stage. (A) The trace plots of the example fish. (B–D) The sky blue lines are the median performance in each saving session. The orange lines are the median performance in each final session. The reddish‐purple lines are the model estimations of the median performance across in the rotation stage. The yellow lines are the model estimations of the median performance across in the washout stage. The black lines are the model estimations of the median performance across fish. The gray patches are HDI of the model estimation of the median performance across fish. The plots are the comparison of the performance measures between the rotation stage and saving stage.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="EJN-62-0-g008.jpg"><?image-name EJN-62-0-g008.jpg?><?image-size 105081?><?image-md5 a93bbf42e8e2f421a26c6b9b9c80e12f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1485?><?image-original-width 1064?><?image-scaled-height 990?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/a93bbf42e8e2/EJN-62-0-g008.jpg?><?thumb-name EJN-62-0-g008.gif?><?thumb-size 4680?><?thumb-md5 36a7b541b1a86593f2ff51120c310a03?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 140?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/36a7b541b1a8/EJN-62-0-g008.gif?></graphic></fig><fig position="float" fig-type="FIGURE" id="ejn70241-fig-0008" orientation="portrait"><label>FIGURE 8</label><caption><p>Slight improvement in performance in saving stage. (A,B) The parameters of success/session model. (C,D) The parameters of angular error model. (E,F) The parameters of distance traveled model. (A,C,E) IV (initial value) versus AP (asymptotic performance) in rotation and savings stage. (B,D,F) Comparisons of ILR (initial learning rate) in rotation and savings stage.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="EJN-62-0-g002.jpg"><?image-name EJN-62-0-g002.jpg?><?image-size 86889?><?image-md5 8da2d8429a39501e6539ed030358ddb4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1434?><?image-original-width 1064?><?image-scaled-height 956?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8e98/12404787/8da2d8429a39/EJN-62-0-g002.jpg?><?thumb-name EJN-62-0-g002.gif?><?thumb-size 3930?><?thumb-md5 bf5ba27d4ccd8aec2e4917caf12e3185?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 135?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8e98/12404787/bf5ba27d4ccd/EJN-62-0-g002.gif?></graphic></fig><p>Thus, a split picture emerges. On the one hand, initial values in the savings session are better on all measures. This difference is small, well within the HDI, but it is consistent across measures. This reflects some level of savings. On the other hand, the learning rate in the savings session is actually smaller than the learning rate in the rotation session. This is not what we expected. However, the lower learning rate in the savings may, in fact, be related to the improved initial performance. Because initial performance in savings is better, there is simply less to learn.</p><p>In conclusion, despite showing better relearning performance in some measures during the savings stage, goldfish did not demonstrate significantly faster initial learning rates compared to the initial rotation stage. Therefore, we conclude that goldfish showed no clear evidence of savings in this whole‐body motor adaptation task.</p></sec><sec id="ejn70241-sec-0013"><label>3.4</label><title>Negative Correlation Between the Learning Rates in Perturbation Stages</title><p>Examination of the data underlying Figure <xref rid="ejn70241-fig-0008" ref-type="fig">8</xref> reveals a weak correlation between learning rates in the initial rotation and subsequent rerotation (savings) that is consistent across measures. The slope correlation between these two measures across fish is −0.327 (HDI −1.7, 0.07) for success/session,−0.193 (HDI −0.7 to 0.1) for angular error, and −0.172 (HDI −0.7 to 0.2) for distance traveled.</p><p>In conclusion, these findings highlight the complexity of motor learning in goldfish and emphasize the importance of considering individual variability in such studies. The observed patterns suggest that the fish's prior learning experience influences their subsequent learning potential, although not necessarily in the form of traditional savings.</p></sec></sec><sec sec-type="discussion" id="ejn70241-sec-0014"><label>4</label><title>Discussion</title><p>We tested whole‐body motor adaptation in goldfish while they operated the FOV. After training the fish to drive to a target area (Figure <xref rid="ejn70241-fig-0003" ref-type="fig">3</xref>), we introduced a perturbing mapping between their orientation and the FOV movement. Initially, the fish failed to perform the task, and the trajectory error was large. Then, over the course of several sessions, all fish that completed baseline training successfully adapted to operate the FOV to the target, demonstrating their ability to adapt to the rotated mapping (Figure <xref rid="ejn70241-fig-0005" ref-type="fig">5</xref>). Following the removal of the perturbation, we observed an aftereffect in which the fish made errors in the opposite direction (Figure <xref rid="ejn70241-fig-0005" ref-type="fig">5</xref>). This result suggests the formation of an internal model in the fish's brain that anticipates perturbation.</p><p>We also investigated whether goldfish exhibit savings in adaptation when facing the same perturbation a second time. Following the washout session, we reintroduced the same perturbation to the mapping (Figure <xref rid="ejn70241-fig-0007" ref-type="fig">7</xref>). Although the fish showed better overall performance relative to the first rotation stage, we did not observe a significant difference in learning rate (Figure <xref rid="ejn70241-fig-0008" ref-type="fig">8</xref>). This indicates that the fish did not show a faster adaptation. However, we do see better performance in initial value and asymptotic performance across all the measures.</p><p>There was a negative correlation in all three measures between learning rate in the initial rotation and in the savings. This suggests that fish that learn efficiently in the initial stage may have less room for improvement in subsequent exposures, whereas those that struggle initially have more potential for improvement in later learning phases.</p><p>In previous studies, fish have been shown to exhibit some basic properties of motor adaptation. For instance, Yang et al. (<xref rid="ejn70241-bib-0038" ref-type="bibr">2024</xref>) discovered that electric fish learn to retune their controllers to compensate for destabilizing dynamics and retain their learned controllers, showing a clear aftereffect. Similarly, Volotsky et al. (<xref rid="ejn70241-bib-0034" ref-type="bibr">2024</xref>) demonstrated the archerfish's ability to adapt its shooting to environmental changes, also observing an aftereffect after perturbation removal. However, these studies did not include a relearning stage after the washout stage, which is common in human motor adaptation studies. We did not see a clear savings effect, and this may suggest differences in motor adaptation mechanisms between fish and mammals (D'Elia and Dasen <xref rid="ejn70241-bib-0013" ref-type="bibr">2018</xref>; Lucon‐Xiccato et al. <xref rid="ejn70241-bib-0023" ref-type="bibr">2017</xref>; Spampinato and Celnik <xref rid="ejn70241-bib-0033" ref-type="bibr">2021</xref>).</p><p>There are several motor control studies that, either directly or indirectly, examined visual motor and subsequent postural compensations of zebrafish (Ahrens et al. <xref rid="ejn70241-bib-0002" ref-type="bibr">2012</xref>; Christie and Severi <xref rid="ejn70241-bib-0011" ref-type="bibr">2021</xref>; Xu et al. <xref rid="ejn70241-bib-0037" ref-type="bibr">2021</xref>). And in human studies (Ahmed and Wolpert <xref rid="ejn70241-bib-0001" ref-type="bibr">2009</xref>; Babič et al. <xref rid="ejn70241-bib-0005" ref-type="bibr">2016</xref>; Bakkum et al. <xref rid="ejn70241-bib-0006" ref-type="bibr">2020</xref>), there is support for the existence of separate mappings for posture and movement, which adapt independently but encode similar dynamics. In spite of the use of the optomotor response to study the motor adaptation of fish eye movements (Aksay et al. <xref rid="ejn70241-bib-0003" ref-type="bibr">2007</xref>; Beck et al. <xref rid="ejn70241-bib-0007" ref-type="bibr">2004</xref>; Major et al. <xref rid="ejn70241-bib-0024" ref-type="bibr">2004</xref>), it is time to test these computational ideas with the swimming posture of fish. With this motivation, we designed an experimental paradigm that exposes sensorimotor control mechanisms and the adaptation to the continuous water disturbance. We studied an unconstrained whole‐body motion where the fish subjects performed a specific posture swimming behavior that was methodologically subjected to nontrivial perturbations.</p><p>The use of the FOV represents a novel approach to studying fish locomotion, allowing for the creation of virtual flows through manipulation of its control system. This method avoids the need for man‐made water flows to disturb the fish (Jindrich and Full <xref rid="ejn70241-bib-0021" ref-type="bibr">2002</xref>; Liao <xref rid="ejn70241-bib-0022" ref-type="bibr">2007</xref>; Webb <xref rid="ejn70241-bib-0035" ref-type="bibr">2004</xref>), providing a new tool for investigating motor adaptation in aquatic organisms. However, it also raises important questions about the ecological validity of the task. The fact that some fish did not learn to operate the FOV in the baseline session suggests that the task may not be equally suitable for all individuals, pointing to the need for further research on individual differences in learning ability and their potential impact on adaptation.</p><p>In conclusion, our study employed a novel methodology and a motor adaptation framework to investigate the self‐correction process in goldfish. This approach sheds light on motor adaptation in vertebrates' free‐swimming behavior in altered flows, potentially opening new avenues for comparative studies of adaptation across species and taxa. Future research could focus on exploring the neural mechanisms underlying these differences in motor adaptation between fish and mammals, as well as investigating whether other fish species show similar patterns of adaptation and lack of savings.</p></sec><sec id="ejn70241-sec-0019"><title>Author Contributions</title><p>
+<bold>Zhuoxin Liu:</bold> conceptualization, data curation, formal analysis, investigation, methodology, visualization, writing – original draft. <bold>Shachar Givon:</bold> conceptualization, data curation, formal analysis, investigation, methodology, supervision, visualization, writing – review and editing. <bold>Ronen Segev:</bold> conceptualization, formal analysis, funding acquisition, investigation, methodology, project administration, resources, supervision, validation, visualization, writing – review and editing. <bold>Opher Donchin:</bold> conceptualization, formal analysis, funding acquisition, investigation, methodology, project administration, software, supervision, validation, visualization, writing – review and editing.</p></sec><sec sec-type="COI-statement" id="ejn70241-sec-0016"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="peer-review" id="ejn70241-sec-0020"><title>Peer Review</title><p>The peer review history for this article is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.webofscience.com/api/gateway/wos/peer-review/10.1111/ejn.70241" ext-link-type="uri">https://www.webofscience.com/api/gateway/wos/peer‐review/10.1111/ejn.70241</ext-link>.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ejn70241-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Data S1:</bold> Supporting Information.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EJN-62-0-s001.pdf" position="float" orientation="portrait"><?suppdata-name EJN-62-0-s001.pdf?><?suppdata-size 2947753?><?suppdata-md5 9b560ee05c7820661744950bddae0040?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:8e98/12404787/9b560ee05c78/EJN-62-0-s001.pdf?></media></supplementary-material></sec></body><back><ack id="ejn70241-sec-0015"><title>Acknowledgements</title><p>We gratefully acknowledge financial support from the Israel Science Foundation (Grant No. 824/21) and the Human Frontiers Science Foundation (Grant RGP0016/2019).</p></ack><sec sec-type="data-availability" id="ejn70241-sec-0018"><title>Data Availability Statement</title><p>The csv data generated during and/or analyzed during the current study are available in the data of the Bayesian model figshare repository with the identifiers (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.29626826" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.6084/m9.figshare.29626826</ext-link>). The code is archived in Zenodo (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.16367403" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.16367403</ext-link>).</p></sec><ref-list content-type="cited-references" id="ejn70241-bibl-0001"><title>References</title><ref id="ejn70241-bib-0001"><mixed-citation publication-type="journal" id="ejn70241-cit-0001">
+<string-name name-style="western">
+<surname>Ahmed</surname>, <given-names>A. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Wolpert</surname>
+</string-name>. <year>2009</year>. “<article-title>Transfer of Dynamic Learning Across Postures</article-title>.” <source>Journal of Neurophysiology</source>
+<volume>102</volume>, no. <issue>5</issue>: <fpage>2816</fpage>–<lpage>2824</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00532.2009</pub-id>.<pub-id pub-id-type="pmid">19710374</pub-id>
+<pub-id pub-id-type="pmcid">PMC2777835</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0002"><mixed-citation publication-type="journal" id="ejn70241-cit-0002">
+<string-name name-style="western">
+<surname>Ahrens</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Orger</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Brain‐Wide Neuronal Dynamics During Motor Adaptation in Zebrafish</article-title>.” <source>Nature</source>
+<volume>485</volume>, no. <issue>7399</issue>: <fpage>471</fpage>–<lpage>477</lpage>. <pub-id pub-id-type="doi">10.1038/nature11057</pub-id>.<pub-id pub-id-type="pmid">22622571</pub-id>
+<pub-id pub-id-type="pmcid">PMC3618960</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0003"><mixed-citation publication-type="journal" id="ejn70241-cit-0003">
+<string-name name-style="western">
+<surname>Aksay</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Olasagasti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Mensh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Goldman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Tank</surname>
+</string-name>. <year>2007</year>. “<article-title>Functional Dissection of Circuitry in a Neural Integrator</article-title>.” <source>Nature Neuroscience</source>
+<volume>10</volume>, no. <issue>4</issue>: <fpage>494</fpage>–<lpage>504</lpage>. <pub-id pub-id-type="doi">10.1038/nn1877</pub-id>.<pub-id pub-id-type="pmid">17369822</pub-id>
+<pub-id pub-id-type="pmcid">PMC2803116</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0004"><mixed-citation publication-type="journal" id="ejn70241-cit-0004">
+<string-name name-style="western">
+<surname>Albert</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Jang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Modchalingam</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Competition Between Parallel Sensorimotor Learning Systems</article-title>.” <source>eLife</source>
+<volume>11</volume>: <elocation-id>e65361</elocation-id>. <pub-id pub-id-type="doi">10.7554/eLife.65361</pub-id>.<pub-id pub-id-type="pmid">35225229</pub-id>
+<pub-id pub-id-type="pmcid">PMC9068222</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0005"><mixed-citation publication-type="journal" id="ejn70241-cit-0005">
+<string-name name-style="western">
+<surname>Babič</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Oztop</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kawato</surname>
+</string-name>. <year>2016</year>. “<article-title>Human Motor Adaptation in Whole Body Motion</article-title>.” <source>Scientific Reports</source>
+<volume>6</volume>, no. <issue>1</issue>: <elocation-id>32868</elocation-id>. <pub-id pub-id-type="doi">10.1038/srep32868</pub-id>.<pub-id pub-id-type="pmid">27608652</pub-id>
+<pub-id pub-id-type="pmcid">PMC5016968</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0006"><mixed-citation publication-type="journal" id="ejn70241-cit-0006">
+<string-name name-style="western">
+<surname>Bakkum</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Donelan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Marigold</surname>
+</string-name>. <year>2020</year>. “<article-title>Challenging Balance During Sensorimotor Adaptation Increases Generalization</article-title>.” <source>Journal of Neurophysiology</source>
+<volume>123</volume>, no. <issue>4</issue>: <fpage>1342</fpage>–<lpage>1354</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00687.2019</pub-id>.<pub-id pub-id-type="pmid">32130079</pub-id>
+<pub-id pub-id-type="pmcid">PMC7191513</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0007"><mixed-citation publication-type="journal" id="ejn70241-cit-0007">
+<string-name name-style="western">
+<surname>Beck</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gilland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Tank</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Baker</surname>
+</string-name>. <year>2004</year>. “<article-title>Quantifying the Ontogeny of Optokinetic and Vestibuloocular Behaviors in Zebrafish, Medaka, and Goldfish</article-title>.” <source>Journal of Neurophysiology</source>
+<volume>92</volume>, no. <issue>6</issue>: <fpage>3546</fpage>–<lpage>3561</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00311.2004</pub-id>.<pub-id pub-id-type="pmid">15269231</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0008"><mixed-citation publication-type="journal" id="ejn70241-cit-0008">
+<string-name name-style="western">
+<surname>Blanco</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Sundarrajan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. I.</given-names>
+<surname>Bertucci</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Unniappan</surname>
+</string-name>. <year>2018</year>. “<article-title>Why Goldfish? Merits and Challenges in Employing Goldfish as a Model Organism in Comparative Endocrinology Research</article-title>.” <source>General and Comparative Endocrinology</source>
+<volume>257</volume>: <fpage>13</fpage>–<lpage>28</lpage>. <pub-id pub-id-type="doi">10.1016/j.ygcen.2017.02.001</pub-id>.<pub-id pub-id-type="pmid">28185936</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0039"><mixed-citation publication-type="journal" id="ejn70241-cit-0039">
+<string-name name-style="western">
+<surname>Blouin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐P.</given-names>
+<surname>Bresciani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Guillaud</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Simoneau</surname>
+</string-name>. <year>2015</year>. “<article-title>Prediction in the Vestibular Control of Arm Movements</article-title>.” <source>Multisensory Research</source>
+<volume>28</volume>, no. <issue>5‐6</issue>: <fpage>487</fpage>–<lpage>505</lpage>. <pub-id pub-id-type="doi">10.1163/22134808-00002501</pub-id>.<pub-id pub-id-type="pmid">26595953</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0009"><mixed-citation publication-type="journal" id="ejn70241-cit-0009">
+<string-name name-style="western">
+<surname>Broglio</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Rodríguez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Gómez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Arias</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Salas</surname>
+</string-name>. <year>2010</year>. “<article-title>Selective Involvement of the Goldfish Lateral Pallium in Spatial Memory</article-title>.” <source>Behavioural Brain Research</source>
+<volume>210</volume>, no. <issue>2</issue>: <fpage>191</fpage>–<lpage>201</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbr.2010.02.031</pub-id>.<pub-id pub-id-type="pmid">20178818</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0010"><mixed-citation publication-type="journal" id="ejn70241-cit-0010">
+<string-name name-style="western">
+<surname>Choi</surname>, <given-names>J. T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Bastian</surname>
+</string-name>. <year>2007</year>. “<article-title>Adaptation Reveals Independent Control Networks for Human Walking</article-title>.” <source>Nature Neuroscience</source>
+<volume>10</volume>, no. <issue>8</issue>: <fpage>1055</fpage>–<lpage>1062</lpage>. <pub-id pub-id-type="doi">10.1038/nn1930</pub-id>.<pub-id pub-id-type="pmid">17603479</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0011"><mixed-citation publication-type="journal" id="ejn70241-cit-0011">
+<string-name name-style="western">
+<surname>Christie</surname>, <given-names>K. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Severi</surname>
+</string-name>. <year>2021</year>. “<article-title>Motor Behavior: A Feedforward Circuit for Zebrafish Escape</article-title>.” <source>Current Biology</source>
+<volume>31</volume>, no. <issue>15</issue>: <fpage>R965</fpage>–<lpage>R967</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2021.06.032</pub-id>.<pub-id pub-id-type="pmid">34375603</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0012"><mixed-citation publication-type="journal" id="ejn70241-cit-0012">
+<string-name name-style="western">
+<surname>Crawford</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Knouse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kent</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Enriched Environment Exposure Accelerates Rodent Driving Skills</article-title>.” <source>Behavioural Brain Research</source>
+<volume>378</volume>: <elocation-id>112309</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.bbr.2019.112309</pub-id>.<pub-id pub-id-type="pmid">31629004</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0013"><mixed-citation publication-type="journal" id="ejn70241-cit-0013">
+<string-name name-style="western">
+<surname>D'Elia</surname>, <given-names>K. P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Dasen</surname>
+</string-name>. <year>2018</year>. “<article-title>Development, Functional Organization, and Evolution of Vertebrate Axial Motor Circuits</article-title>.” <source>Neural Development</source>
+<volume>13</volume>, no. <issue>1</issue>: <elocation-id>10</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13064-018-0108-7</pub-id>.<pub-id pub-id-type="pmid">29855378</pub-id>
+<pub-id pub-id-type="pmcid">PMC5984435</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0014"><mixed-citation publication-type="journal" id="ejn70241-cit-0014">
+<string-name name-style="western">
+<surname>Donchin</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Francis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Shadmehr</surname>
+</string-name>. <year>2003</year>. “<article-title>Quantifying Generalization From Trial‐By‐Trial Behavior of Adaptive Systems That Learn With Basis Functions: Theory and Experiments in Human Motor Control</article-title>.” <source>Journal of Neuroscience</source>
+<volume>23</volume>, no. <issue>27</issue>: <fpage>9032</fpage>–<lpage>9045</lpage>. <pub-id pub-id-type="doi">10.1523/JNEUROSCI.23-27-09032.2003</pub-id>.<pub-id pub-id-type="pmid">14534237</pub-id>
+<pub-id pub-id-type="pmcid">PMC6740843</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0015"><mixed-citation publication-type="book" id="ejn70241-cit-0015">
+<string-name name-style="western">
+<surname>Fernald</surname>, <given-names>R. D.</given-names>
+</string-name>
+<year>1988</year>. “<part-title>Aquatic Adaptations in Fish Eyes</part-title>.” In <source>Sensory Biology of Aquatic Animals</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Atema</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Fay</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A. N.</given-names>
+<surname>Popper</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>W. N.</given-names>
+<surname>Tavolga</surname>
+</string-name>
+</person-group>, <fpage>435</fpage>–<lpage>466</lpage>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-1-4612-3714-3_18</pub-id>.</mixed-citation></ref><ref id="ejn70241-bib-0016"><mixed-citation publication-type="journal" id="ejn70241-cit-0016">
+<string-name name-style="western">
+<surname>Finley</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Bastian</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Gottschall</surname>
+</string-name>. <year>2013</year>. “<article-title>Learning to Be Economical: The Energy Cost of Walking Tracks Motor Adaptation</article-title>.” <source>Journal of Physiology</source>
+<volume>591</volume>, no. <issue>4</issue>: <fpage>1081</fpage>–<lpage>1095</lpage>. <pub-id pub-id-type="doi">10.1113/jphysiol.2012.245506</pub-id>.<pub-id pub-id-type="pmid">23247109</pub-id>
+<pub-id pub-id-type="pmcid">PMC3591716</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0017"><mixed-citation publication-type="miscellaneous" id="ejn70241-cit-0017">
+<string-name name-style="western">
+<surname>Gelman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vehtari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Simpson</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Bayesian Workflow</article-title>” (arXiv:2011.01808). arXiv. <pub-id pub-id-type="doi">10.48550/arXiv.2011.01808</pub-id>.</mixed-citation></ref><ref id="ejn70241-bib-0018"><mixed-citation publication-type="journal" id="ejn70241-cit-0018">
+<string-name name-style="western">
+<surname>Givon</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Samina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Ben‐Shahar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Segev</surname>
+</string-name>. <year>2022</year>. “<article-title>From Fish out of Water to New Insights on Navigation Mechanisms in Animals</article-title>.” <source>Behavioural Brain Research</source>
+<volume>419</volume>: <elocation-id>113711</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.bbr.2021.113711</pub-id>.<pub-id pub-id-type="pmid">34896210</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0019"><mixed-citation publication-type="journal" id="ejn70241-cit-0019">
+<string-name name-style="western">
+<surname>Grabowska</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Godlewska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Schmidt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Daun‐Gruhn</surname>
+</string-name>. <year>2012</year>. “<article-title>Quadrupedal Gaits in Hexapod Animals—Inter‐Leg Coordination in Free‐Walking Adult Stick Insects</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>215</volume>, no. <issue>24</issue>: <fpage>4255</fpage>–<lpage>4266</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.073643</pub-id>.<pub-id pub-id-type="pmid">22972892</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0020"><mixed-citation publication-type="journal" id="ejn70241-cit-0020">
+<string-name name-style="western">
+<surname>Herzfeld</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Kojima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Soetedjo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Shadmehr</surname>
+</string-name>. <year>2018</year>. “<article-title>Encoding of Error and Learning to Correct That Error by the Purkinje Cells of the Cerebellum</article-title>.” <source>Nature Neuroscience</source>
+<volume>21</volume>, no. <issue>5</issue>: <fpage>736</fpage>–<lpage>743</lpage>. <pub-id pub-id-type="doi">10.1038/s41593-018-0136-y</pub-id>.<pub-id pub-id-type="pmid">29662213</pub-id>
+<pub-id pub-id-type="pmcid">PMC6054128</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0021"><mixed-citation publication-type="journal" id="ejn70241-cit-0021">
+<string-name name-style="western">
+<surname>Jindrich</surname>, <given-names>D. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Full</surname>
+</string-name>. <year>2002</year>. “<article-title>Dynamic Stabilization of Rapid Hexapedal Locomotion</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>205</volume>, no. <issue>Pt 18</issue>: <fpage>2803</fpage>–<lpage>2823</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.205.18.2803</pub-id>.<pub-id pub-id-type="pmid">12177146</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0022"><mixed-citation publication-type="journal" id="ejn70241-cit-0022">
+<string-name name-style="western">
+<surname>Liao</surname>, <given-names>J. C.</given-names>
+</string-name>
+<year>2007</year>. “<article-title>A Review of Fish Swimming Mechanics and Behaviour in Altered Flows</article-title>.” <source>Philosophical Transactions of the Royal Society, B: Biological Sciences</source>
+<volume>362</volume>, no. <issue>1487</issue>: <fpage>1973</fpage>–<lpage>1993</lpage>. <pub-id pub-id-type="doi">10.1098/rstb.2007.2082</pub-id>.<pub-id pub-id-type="pmcid">PMC2442850</pub-id><pub-id pub-id-type="pmid">17472925</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0023"><mixed-citation publication-type="journal" id="ejn70241-cit-0023">
+<string-name name-style="western">
+<surname>Lucon‐Xiccato</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gatto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bisazza</surname>
+</string-name>. <year>2017</year>. “<article-title>Fish Perform Like Mammals and Birds in Inhibitory Motor Control Tasks</article-title>.” <source>Scientific Reports</source>
+<volume>7</volume>, no. <issue>1</issue>: <elocation-id>13144</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-017-13447-4</pub-id>.<pub-id pub-id-type="pmid">29030593</pub-id>
+<pub-id pub-id-type="pmcid">PMC5640690</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0024"><mixed-citation publication-type="journal" id="ejn70241-cit-0024">
+<string-name name-style="western">
+<surname>Major</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Aksay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Mensh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Seung</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Tank</surname>
+</string-name>. <year>2004</year>. “<article-title>Plasticity and Tuning by Visual Feedback of the Stability of a Neural Integrator</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>101</volume>, no. <issue>20</issue>: <fpage>7739</fpage>–<lpage>7744</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0401970101</pub-id>.<pub-id pub-id-type="pmcid">PMC419676</pub-id><pub-id pub-id-type="pmid">15136746</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0025"><mixed-citation publication-type="miscellaneous" id="ejn70241-cit-0025">
+<string-name name-style="western">
+<surname>Maresch</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Mudrik</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Donchin</surname>
+</string-name>. <year>2020</year>. “<article-title>Measures of Explicit and Implicit in Motor Learning: What We Know and What We Don't</article-title>”. OSF Preprints. <pub-id pub-id-type="doi">10.31219/osf.io/pzr7t</pub-id>.<pub-id pub-id-type="pmid">34214514</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0026"><mixed-citation publication-type="book" id="ejn70241-cit-0026">
+<string-name name-style="western">
+<surname>Martin</surname>, <given-names>O. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kumar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lao</surname>
+</string-name>. <year>2021</year>. <source>Bayesian Modeling and Computation in Python</source>. <edition>1st ed.</edition>
+<publisher-name>Chapman and Hall/CRC</publisher-name>. <pub-id pub-id-type="doi">10.1201/9781003019169</pub-id>.</mixed-citation></ref><ref id="ejn70241-bib-0027"><mixed-citation publication-type="book" id="ejn70241-cit-0027">
+<string-name name-style="western">
+<surname>McHenry</surname>, <given-names>M. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Liao</surname>
+</string-name>. <year>2014</year>. “<part-title>The Hydrodynamics of Flow Stimuli</part-title>.” In <source>The Lateral Line System</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Coombs</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bleckmann</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Fay</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A. N.</given-names>
+<surname>Popper</surname>
+</string-name>
+</person-group>, <fpage>73</fpage>–<lpage>98</lpage>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/2506_2013_13</pub-id>.</mixed-citation></ref><ref id="ejn70241-bib-0028"><mixed-citation publication-type="journal" id="ejn70241-cit-0028">
+<string-name name-style="western">
+<surname>Reisman</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Wityk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Silver</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Bastian</surname>
+</string-name>. <year>2007</year>. “<article-title>Locomotor Adaptation on a Split‐Belt Treadmill Can Improve Walking Symmetry Post‐Stroke</article-title>.” <source>Brain: A Journal of Neurology</source>
+<volume>130</volume>, no. <issue>Pt 7</issue>: <fpage>1861</fpage>–<lpage>1872</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awm035</pub-id>.<pub-id pub-id-type="pmid">17405765</pub-id>
+<pub-id pub-id-type="pmcid">PMC2977955</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0029"><mixed-citation publication-type="journal" id="ejn70241-cit-0029">
+<string-name name-style="western">
+<surname>Salas</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Broglio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Durán</surname>
+</string-name>, et al. <year>2006</year>. “<article-title>Neuropsychology of Learning and Memory in Teleost Fish</article-title>.” <source>Zebrafish</source>
+<volume>3</volume>, no. <issue>2</issue>: <fpage>157</fpage>–<lpage>171</lpage>. <pub-id pub-id-type="doi">10.1089/zeb.2006.3.157</pub-id>.<pub-id pub-id-type="pmid">18248258</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0030"><mixed-citation publication-type="journal" id="ejn70241-cit-0030">
+<string-name name-style="western">
+<surname>Salem</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Cellini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Kabutz</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Flies Trade Off Stability and Performance via Adaptive Compensation to Wing Damage</article-title>.” <source>Science Advances</source>
+<volume>8</volume>, no. <issue>46</issue>: <elocation-id>eabo0719</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.abo0719</pub-id>.<pub-id pub-id-type="pmid">36399568</pub-id>
+<pub-id pub-id-type="pmcid">PMC9674276</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0031"><mixed-citation publication-type="journal" id="ejn70241-cit-0031">
+<string-name name-style="western">
+<surname>Schween</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>McDougle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hegele</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Taylor</surname>
+</string-name>. <year>2020</year>. “<article-title>Assessing Explicit Strategies in Force Field Adaptation</article-title>.” <source>Journal of Neurophysiology</source>
+<volume>123</volume>, no. <issue>4</issue>: <fpage>1552</fpage>–<lpage>1565</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00427.2019</pub-id>.<pub-id pub-id-type="pmid">32208878</pub-id>
+<pub-id pub-id-type="pmcid">PMC7191530</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0032"><mixed-citation publication-type="journal" id="ejn70241-cit-0032">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>C. P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. F.</given-names>
+<surname>Reynolds</surname>
+</string-name>. <year>2017</year>. “<article-title>Vestibular Feedback Maintains Reaching Accuracy During Body Movement</article-title>.” <source>Journal of Physiology</source>
+<volume>595</volume>, no. <issue>4</issue>: <fpage>1339</fpage>–<lpage>1349</lpage>. <pub-id pub-id-type="doi">10.1113/JP273125</pub-id>.<pub-id pub-id-type="pmid">27730646</pub-id>
+<pub-id pub-id-type="pmcid">PMC5309371</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0033"><mixed-citation publication-type="journal" id="ejn70241-cit-0033">
+<string-name name-style="western">
+<surname>Spampinato</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Celnik</surname>
+</string-name>. <year>2021</year>. “<article-title>Multiple Motor Learning Processes in Humans: Defining Their Neurophysiological Bases</article-title>.” <source>Neuroscientist</source>
+<volume>27</volume>, no. <issue>3</issue>: <fpage>246</fpage>–<lpage>267</lpage>. <pub-id pub-id-type="doi">10.1177/1073858420939552</pub-id>.<pub-id pub-id-type="pmid">32713291</pub-id>
+<pub-id pub-id-type="pmcid">PMC8151555</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0034"><mixed-citation publication-type="journal" id="ejn70241-cit-0034">
+<string-name name-style="western">
+<surname>Volotsky</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Donchin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Segev</surname>
+</string-name>. <year>2024</year>. “<article-title>The Archerfish Uses Motor Adaptation in Shooting to Correct for Changing Physical Conditions</article-title>.” <source>eLife</source>
+<volume>12</volume>: <elocation-id>RP92909</elocation-id>. <pub-id pub-id-type="doi">10.7554/eLife.92909</pub-id>.<pub-id pub-id-type="pmid">38829209</pub-id>
+<pub-id pub-id-type="pmcid">PMC11147504</pub-id></mixed-citation></ref><ref id="ejn70241-bib-0035"><mixed-citation publication-type="journal" id="ejn70241-cit-0035">
+<string-name name-style="western">
+<surname>Webb</surname>, <given-names>P. W.</given-names>
+</string-name>
+<year>2004</year>. “<article-title>Response Latencies to Postural Disturbances in Three Species of Teleostean Fishes</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>207</volume>, no. <issue>6</issue>: <fpage>955</fpage>–<lpage>961</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.00854</pub-id>.<pub-id pub-id-type="pmid">14766954</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0036"><mixed-citation publication-type="journal" id="ejn70241-cit-0036">
+<string-name name-style="western">
+<surname>Welgampola</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Colebatch</surname>
+</string-name>. <year>2001</year>. “<article-title>Vestibulospinal Reflexes: Quantitative Effects of Sensory Feedback and Postural Task</article-title>.” <source>Experimental Brain Research</source>
+<volume>139</volume>, no. <issue>3</issue>: <fpage>345</fpage>–<lpage>353</lpage>. <pub-id pub-id-type="doi">10.1007/s002210100754</pub-id>.<pub-id pub-id-type="pmid">11545473</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0037"><mixed-citation publication-type="journal" id="ejn70241-cit-0037">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. N.</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐X.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hua</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Song</surname>
+</string-name>. <year>2021</year>. “<article-title>A Neuronal Circuit That Generates the Temporal Motor Sequence for the Defensive Response in Zebrafish Larvae</article-title>.” <source>Current Biology</source>
+<volume>31</volume>, no. <issue>15</issue>: <fpage>3343</fpage>–<lpage>3357.e4</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2021.06.054</pub-id>.<pub-id pub-id-type="pmid">34289386</pub-id>
+</mixed-citation></ref><ref id="ejn70241-bib-0038"><mixed-citation publication-type="journal" id="ejn70241-cit-0038">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Yared</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. S.</given-names>
+<surname>Fortune</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Cowan</surname>
+</string-name>. <year>2024</year>. “<article-title>Sensorimotor Adaptation to Destabilizing Dynamics in Weakly Electric Fish</article-title>.” <source>Current Biology</source>
+<volume>34</volume>, no. <issue>10</issue>: <fpage>2118</fpage>–<lpage>2131.e5</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2024.04.019</pub-id>.<pub-id pub-id-type="pmid">38692275</pub-id>
+</mixed-citation></ref></ref-list></back></article>

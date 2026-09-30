@@ -1,0 +1,19 @@
+{
+  "version": "V68",
+  "query": "research data",
+  "split": "development",
+  "warmup_requests": 1,
+  "measured_requests": 3,
+  "seconds": [
+    8.52331169997342,
+    8.395293300040066,
+    8.707799699855968
+  ],
+  "median_seconds": 8.52331169997342,
+  "result_digests": [
+    "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+    "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+    "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b"
+  ],
+  "conditions": "Separate Python process; one warmup then three sequential requests; other agent CPU tests paused by coordinator; OS/background processes not fully controlled"
+}

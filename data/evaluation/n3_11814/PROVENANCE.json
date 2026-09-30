@@ -1,0 +1,31 @@
+{
+  "paper_doi": "10.1038/sdata.2016.120",
+  "notice_doi": "10.1038/sdata.2017.119",
+  "authors": [
+    "Anjana Balakrishnan",
+    "Paolo A. Palma",
+    "Joshua Patenaude",
+    "Lorne Campbell"
+  ],
+  "team_contributor": "임도윤",
+  "team_ai_reported": "Claude; model ID is team supplied, not independently attested",
+  "source_license": "CC BY 4.0; OSF92qkx; full legal text ../author_analysis/dataset_LICENSE.txt",
+  "source_xml": [
+    {
+      "path": "data/paper_expansion/n3_fulltext/original/PMC5283063.xml",
+      "sha256": "7fa64cc78c0037eaa7eecf1e82098175bab62851e773d33fdac8296239b77d78",
+      "role": "original"
+    },
+    {
+      "path": "data/paper_expansion/n3_fulltext/notice/PMC5584394.xml",
+      "sha256": "03ad87f66a5c89080989b51cb2d663d48cfb57381ae33a1eedea5d131b2cfef3",
+      "role": "notice"
+    }
+  ],
+  "corrected_code_sha256": "e31af320539cffcf430c2f64b0d8fab25a0d22f0074679d5edb353613421791a",
+  "archived_code_sha256": "870616e468c171a5374ab6dd2489df507e774f295a5b09bbe09b32f5f6caaf6b",
+  "csv_conversion_verified": "Actual SAV to CSV regeneration: all4 SHA256 match",
+  "author_code_executed": false,
+  "raw_selection_verified": false,
+  "changes_notice": "Selected19 numeric columns copied unchanged from team conversion; declarative reverse-integer/complete-item mean executed at audit time. Publisher XML converted to text; author syntax appended, inspected only. No identifiers or full SAV in release."
+}

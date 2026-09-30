@@ -1,0 +1,409 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ene70672" xml:lang="en" article-type="review-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Eur J Neurol</journal-id><journal-id journal-id-type="iso-abbrev">Eur J Neurol</journal-id><journal-id journal-id-type="pmc-domain-id">4612</journal-id><journal-id journal-id-type="pmc-domain">ejneurol</journal-id><journal-id journal-id-type="nlm-id">9506311</journal-id><journal-id journal-id-type="publisher-id">ENE</journal-id><journal-title-group><journal-title>European Journal of Neurology</journal-title></journal-title-group><issn pub-type="ppub">1351-5101</issn><issn pub-type="epub">1468-1331</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13397866</article-id><article-id pub-id-type="pmcid-ver">PMC13397866.1</article-id><article-id pub-id-type="pmcaid">13397866</article-id><article-id pub-id-type="pmcaiid">13397866</article-id><article-id pub-id-type="pmid">42496021</article-id><article-id pub-id-type="doi">10.1111/ene.70672</article-id><article-id pub-id-type="publisher-id">ENE70672</article-id><article-id pub-id-type="other">8225020</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Invited Review</subject></subj-group><subj-group subj-group-type="heading"><subject>INVITED REVIEW</subject><subj-group subj-group-type="heading"><subject>Digital Health Research in Clinical Neurosciences</subject></subj-group></subj-group></article-categories><title-group><article-title>Accelerating Research on Brain Aging: Enabling Brain Imaging Data Sharing in the Open Science Landscape</article-title></title-group><contrib-group><contrib id="ene70672-cr-0001" contrib-type="author"><name name-style="western"><surname>Giehl</surname><given-names initials="K">Kathrin</given-names></name><xref rid="ene70672-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ene70672-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ene70672-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>van Eimeren</surname><given-names initials="T">Thilo</given-names></name><xref rid="ene70672-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ene70672-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="ene70672-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">University of Cologne</named-content>
+<institution>Faculty of Medicine and University Hospital Cologne, Department of Nuclear Medicine</institution>
+<city>Cologne</city>
+<country country="DE">Germany</country>
+</aff><aff id="ene70672-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Research Centre Juelich</named-content>
+<institution>Institute for Neuroscience and Medicine (INM‐II)</institution>
+<city>Juelich</city>
+<country country="DE">Germany</country>
+</aff><aff id="ene70672-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">University of Cologne</named-content>
+<institution>Faculty of Medicine and University Hospital Cologne, Department of Neurology</institution>
+<city>Cologne</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Thilo van Eimeren ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2026</year></pub-date><volume>33</volume><issue seq="480">7</issue><issue-id pub-id-type="pmc-issue-id">516537</issue-id><issue-id pub-id-type="doi">10.1111/ene.v33.7</issue-id><elocation-id>e70672</elocation-id><history>
+<date date-type="rev-recd"><day>22</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>31</day><month>7</month><year>2025</year></date>
+<date date-type="accepted"><day>02</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>24</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>25</day><month>07</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-07-25 13:25:16.543"><day>25</day><month>07</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">European Journal of Neurology</italic> published by John Wiley &amp; Sons Ltd on behalf of European Academy of Neurology.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ENE-33-e70672.pdf"><?pdf-name ENE-33-e70672.pdf?><?pdf-size 334103?><?pdf-md5 349a780ab276fa06bb2a9b106ff9859d?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:5ac2/13397866/349a780ab276/ENE-33-e70672.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ENE-33-e70672.pdf"/><abstract><title>ABSTRACT</title><p>The global burden of age‐associated diseases continues to grow. In particular, the accelerating impact of neurodegenerative diseases on individuals, communities and societies necessitates more effective approaches to diagnosis, prognosis and treatment of such disorders. Hence, the establishment of imaging biomarkers for early detection of disease, progression monitoring, and therapeutic evaluation is of utmost importance. Yet, despite the scientific consensus on the benefits of scientific collaboration and consequently medical innovation including biomarker development, substantial barriers for sharing neuroimaging data remain, demanding a transformation in how scientific data are generated, made accessible, re‐used and valued. These barriers range from technical and infrastructural limitations to legal and motivational challenges that hinder widespread adoption of open science practices. Here, we present a comprehensive overview of the current landscape of brain imaging data sharing in neurodegenerative disease research. We explore the status of preregistration, data harmonization and storage standardization, legal compliance, and researcher incentives. We highlight best practices before, during and after data generation and the pressing need for a coordinated strategy regarding simplified and unified legal frameworks compliant with the General Data Protection Regulation of the European Union. Finally, we advocate for the establishment of an academic credit system designed to reward data stewardship. Only with a combined effort from researchers, stakeholders and funding agencies including a sustained infrastructure investment and community education, the field can fully overcome inertia and move towards much‐desired open science, thereby fully leveraging shared data to improve patient outcomes and scientific discovery.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ene70672-kwd-0001">BIDS</kwd><kwd id="ene70672-kwd-0002">brain health</kwd><kwd id="ene70672-kwd-0003">European Health Data Space</kwd><kwd id="ene70672-kwd-0004">GDPR</kwd><kwd id="ene70672-kwd-0005">neuroimaging</kwd></kwd-group><counts><fig-count count="0"/><table-count count="1"/><page-count count="7"/><word-count count="4700"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.4 mode:remove_FC converted:24.07.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ene70672-body-0001"><sec id="ene70672-sec-0001"><label>1</label><title>Introduction</title><p>Neurodegenerative diseases such as Alzheimer's and Parkinson's disease affect millions globally and are increasing in prevalence with aging populations [<xref rid="ene70672-bib-0001" ref-type="bibr">1</xref>, <xref rid="ene70672-bib-0002" ref-type="bibr">2</xref>, <xref rid="ene70672-bib-0003" ref-type="bibr">3</xref>, <xref rid="ene70672-bib-0004" ref-type="bibr">4</xref>]. However, timely diagnosis, disease monitoring, and tracking the impact of novel, potentially disease‐modifying interventions remain elusive. Neuroimaging techniques, especially magnetic resonance imaging (MRI) and positron emission tomography (PET), have transformed our ability to visualize disease‐ and therapy‐related brain changes and derive biomarkers that support clinical and research objectives [<xref rid="ene70672-bib-0005" ref-type="bibr">5</xref>, <xref rid="ene70672-bib-0006" ref-type="bibr">6</xref>]. Sharing of neuroimaging data between individual scientists and institutes on a national, international, and global level can accelerate the development of suitable imaging biomarkers and foster the translation of recent scientific advances into clinical practice, ultimately improving patient care [<xref rid="ene70672-bib-0007" ref-type="bibr">7</xref>]. Yet, the potential of neuroimaging research is often undermined by fragmented datasets, siloed research efforts, and barriers to data accessibility [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. The open science movement seeks to address these challenges by promoting transparency, reproducibility, and the free exchange of research outputs, including raw neuroimaging data, offering several benefits [<xref rid="ene70672-bib-0007" ref-type="bibr">7</xref>, <xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>, <xref rid="ene70672-bib-0009" ref-type="bibr">9</xref>].</p><sec id="ene70672-sec-0002"><label>1.1</label><title>Improved Reproducibility</title><p>Making raw imaging data and detailed preprocessing pipelines accessible enables independent research teams to replicate findings and verify results. This transparency helps reduce methodological variability and guards against unintentional biases that may arise from undisclosed data handling or analysis procedures. Moreover, reproducibility fosters scientific integrity and builds public trust in the reliability of neuroimaging findings, which is particularly crucial in clinical research contexts where results may influence diagnostic and therapeutic decisions.</p></sec><sec id="ene70672-sec-0003"><label>1.2</label><title>Enhanced Machine Learning Performance</title><p>Machine learning and artificial intelligence (AI) applications in neuroimaging, such as (semi‐)automated diagnostics or disease progression modeling, demand vast and diverse labeled datasets to perform reliably. Data sharing allows researchers to compile large, heterogeneous training sets that improve model robustness and reduce overfitting, which is especially important when translating findings across populations and institutions. Greater generalizability makes these models more clinically useful and scalable, while shared benchmark datasets facilitate comparative evaluation and algorithm validation.</p></sec><sec id="ene70672-sec-0004"><label>1.3</label><title>Meta‐Analytic Insights</title><p>Integrating data from multiple studies through meta‐analysis can reveal consistent patterns that might remain undetected in individual datasets due to limited sample sizes or demographic variance. Pooled analyses increase statistical power, enable more nuanced subgroup investigations, and reduce the risk of false positives.</p></sec><sec id="ene70672-sec-0005"><label>1.4</label><title>Resource Efficiency</title><p>Reusing existing datasets minimizes redundant data collection efforts, conserves financial and human resources, and shortens the time between hypothesis generation and clinical application. Public investment in large‐scale imaging studies yields greater returns when data are accessible to a broader research community. Sharing also promotes interdisciplinary collaboration, allowing non‐imaging experts such as biostatisticians, computer scientists, and clinicians to engage with neuroimaging data and contribute new perspectives and methodologies.</p><p>Importantly, sharing brain imaging data in the Open Science framework is not merely a technical enhancement but a foundational shift in scientific culture. While it enables cross‐institutional collaboration, supports large‐scale AI applications, enhances statistical power, and democratizes access to research opportunities, the transformation firstly needs time, training, effort, and human as well as financial resources. Thus, systemic technical, legal, and motivational obstacles currently continue to hinder the full realization of its implementation and need to be overcome [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. Here, we evaluate the current challenges within the field of neuroimaging and offer recommendations to promote sustainable data sharing practices in neurodegenerative disease research at every stage of the scientific circle.</p></sec></sec><sec id="ene70672-sec-0006"><label>2</label><title>Before Data Collection</title><sec id="ene70672-sec-0007"><label>2.1</label><title>Preregistration: Enabling Transparency From the Start</title><p>Preregistration involves documenting key aspects of a research project such as hypotheses, study design, and planned analyses prior to data collection. This Open Science practice is an essential component of research transparency, helping to clearly distinguish between confirmatory and exploratory research. It requires researchers to define their intentions in advance, thereby minimizing the risk of data dredging, p‐hacking, and HARKing (hypothesizing after results are known), which can compromise the integrity of scientific findings [<xref rid="ene70672-bib-0010" ref-type="bibr">10</xref>, <xref rid="ene70672-bib-0011" ref-type="bibr">11</xref>]. Registered Reports go a step further by integrating preregistration into the peer review process [<xref rid="ene70672-bib-0012" ref-type="bibr">12</xref>]. In this model, journals review and provisionally accept study protocols before results are known, committing to publication as long as the proposed methodology is followed. This approach shifts the focus of evaluation from outcomes to methodological rigor, reducing publication bias and promoting the dissemination of null or negative results [<xref rid="ene70672-bib-0013" ref-type="bibr">13</xref>].</p><p>Despite broad conceptual support, actual uptake of preregistration within the neuroimaging community remains modest. Common barriers include time constraints, lack of familiarity with available platforms, and concerns about potential impacts on publication opportunities. Additionally, some researchers perceive preregistration as inflexible, fearing that necessary methodological changes may later be viewed unfavorably [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. To address these concerns, a variety of user‐friendly platforms and templates have emerged to facilitate the preregistration process. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://aspredicted.org" ext-link-type="uri">AsPredicted.org</ext-link> and the Open Science Framework [<xref rid="ene70672-bib-0014" ref-type="bibr">14</xref>] provide structured, intuitive workflows including dedicated templates for fMRI studies. Researchers can also choose between public or embargoed preregistrations, allowing for strategic flexibility. Crucially, deviations from the registered plan can be made, transparently reported, and justified in final publications. Beyond improving reproducibility, preregistration offers practical benefits: it encourages thoughtful planning, promotes resource efficiency, and provides a defensible record of research integrity. Funders and journals may accelerate its adoption by incentivizing preregistration through targeted calls, dedicated publication tracks, and recognition in grant evaluations. In a competitive research environment, such institutional support is vital to help embed preregistration as a routine scientific norm.</p></sec><sec id="ene70672-sec-0008"><label>2.2</label><title>Harmonization of Image Acquisition</title><p>Variability in scanner hardware, software versions, pulse sequences, and reconstruction algorithms complicates data harmonization across data acquisition sites. Therefore, redefining and sharing acquisition parameters and pipelines is crucial for multicentre studies and the reuse of neuroimaging data by collaborating research groups. Currently, full acquisition harmonization remains aspirational, but sharing acquisition and processing metrics accompanied by raw images offers the possibility to mitigate some variability within the data. Aiming to overcome some of the potential obstacles for sharing of acquisition parameters and processing protocols, initiatives such as the Quantitative Imaging Biomarkers Alliance (QIBA) and Harmonizing Brain Imaging Methods for Vascular Contributions to Neurodegeneration (HARNESS) offer acquisition protocols, rating scales, and analysis templates [<xref rid="ene70672-bib-0015" ref-type="bibr">15</xref>, <xref rid="ene70672-bib-0016" ref-type="bibr">16</xref>].</p></sec></sec><sec id="ene70672-sec-0009"><label>3</label><title>During Data Collection</title><sec id="ene70672-sec-0010"><label>3.1</label><title>Data Standardization and Storage</title><p>Another primary obstacle of data sharing in neuroimaging research is the lack of standardization in how neuroimaging data are structured, named, and annotated (i.e., “data‐level harmonization”) as well as processed and analyzed (i.e., “analysis‐level harmonization”).</p><p>Regarding data‐level harmonization, diverse directory formats, inconsistent file naming conventions, and insufficient metadata documentation impede the interoperability of datasets between institutions and software tools. This heterogeneity not only complicates collaboration, but also increases the risk of errors during data processing and interpretation. The Brain Imaging Data Structure (BIDS) addresses these issues by providing a community‐driven standard for organizing and describing neuroimaging data in a consistent, machine‐readable format [<xref rid="ene70672-bib-0017" ref-type="bibr">17</xref>, <xref rid="ene70672-bib-0018" ref-type="bibr">18</xref>]. Originally designed for MRI data, BIDS has expanded to encompass a wide range of modalities, including PET [<xref rid="ene70672-bib-0019" ref-type="bibr">19</xref>], Magnetoencephalography [<xref rid="ene70672-bib-0020" ref-type="bibr">20</xref>] and Electroencephalography [<xref rid="ene70672-bib-0021" ref-type="bibr">21</xref>]. Its modular architecture facilitates the addition of new imaging types, supporting evolving research needs. BIDS simplifies the sharing and reuse of datasets by ensuring compatibility with widely used neuroimaging software packages, such as Statistical Parametric Mapping, the FMRIB Software Library and FreeSurfer. BIDS‐compliant datasets can be readily processed through standardized, automated workflows using BIDS Apps, which encapsulate entire analysis pipelines [<xref rid="ene70672-bib-0022" ref-type="bibr">22</xref>]. This not only improves reproducibility but also reduces technical barriers for less experienced users. Despite widespread endorsement by the neuroimaging community, the adoption of BIDS in practice faces challenges [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. Many research groups struggle with the initial conversion of legacy datasets, particularly when metadata are incomplete or inconsistently recorded. In addition, the conversion to BIDS format requires technical know‐how and, in some cases, customized scripts or third‐party tools. To support the transition, a number of community‐developed resources have emerged. These include GitHub‐hosted tools for DICOM‐to‐BIDS conversion (e.g., HeuDiConv) [<xref rid="ene70672-bib-0023" ref-type="bibr">23</xref>], visual BIDS validators [<xref rid="ene70672-bib-0024" ref-type="bibr">24</xref>], example datasets [<xref rid="ene70672-bib-0025" ref-type="bibr">25</xref>] and comprehensive documentation [<xref rid="ene70672-bib-0026" ref-type="bibr">26</xref>]. Online tutorials and community forums further facilitate user onboarding.</p><p>But sustainable BIDS implementation requires more than open‐source tools; it also depends on dedicated personnel and structured training and thus institutional support. Institutions and funding agencies should invest in data stewards and research software engineers who can assist in BIDS compliance and metadata curation [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. Integrating BIDS training into graduate education and providing incentives for sharing BIDS‐formatted datasets will further drive adoption. In the long term, the widespread use of BIDS can transform neuroimaging research by promoting interoperability, enabling large‐scale analyses, and streamlining regulatory oversight. Combined with FAIR data principles [<xref rid="ene70672-bib-0027" ref-type="bibr">27</xref>, <xref rid="ene70672-bib-0028" ref-type="bibr">28</xref>], BIDS offers a robust framework for achieving transparency, efficiency, and replicability in brain imaging studies.</p><p>Beyond data organization, analysis‐level harmonization refers to the standardization of preprocessing pipelines, analytical workflows, and data derivates across studies. Even when datasets adhere to common formats such as BIDS, variability in preprocessing steps (e.g., motion correction, normalization, smoothing), software tools, parameter settings, and versioning can lead to substantial differences in downstream results. To address this, harmonization efforts must include not only standardized data structures but also consistent, well‐documented, and ideally version‐controlled analysis workflows. The use of containerized pipelines, open‐source tools, and shared benchmarking datasets can improve reproducibility and comparability across studies. In addition, the sharing of well‐characterized data derivatives, along with detailed descriptions of the pipelines used to generate them, can facilitate reuse and clinical translation [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>].</p><p>Several operational ecosystems already demonstrate how large‐scale neuroimaging data sharing can be successfully implemented. Platforms such as EBRAINS (ebrains.eu) provide integrated infrastructures for storing, accessing, and analyzing multimodal brain data across institutions, enabling cross‐border collaboration and reproducible workflows. Established consortia further highlight the value of structured governance and standardized protocols. The Alzheimer's Disease Neuroimaging Initiative (ADNI; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://adni.loni.usc.edu" ext-link-type="uri">adni.loni.usc.edu</ext-link>) and the Parkinson's Progression Markers Initiative (PPMI; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ppmi-info.org" ext-link-type="uri">ppmi‐info.org</ext-link>) have pioneered open, harmonized data‐sharing models that support biomarker discovery and translational research. Together, these initiatives show that effective data sharing relies not only on conceptual frameworks but also on robust governance and clear standards.</p></sec></sec><sec id="ene70672-sec-0011"><label>4</label><title>After Data Collection</title><sec id="ene70672-sec-0012"><label>4.1</label><title>Legal and Ethical Constraints</title><p>Protecting personal data, especially personal health data, is important. Within the European Union (EU), the EU General Data Protection Regulation (GDPR) sets the rules for personal data, including neuroimaging data [<xref rid="ene70672-bib-0029" ref-type="bibr">29</xref>]. However, implementation of the GDPR varies by country, creating uncertainty for researchers and their legal counselors. This variability affects data transfer agreements (DTAs), informed consent procedures, and Institutional Review Board approvals, ultimately delaying scientific collaboration and medical innovation including the development of new therapeutic strategies directly impacting patients' quality of life [<xref rid="ene70672-bib-0030" ref-type="bibr">30</xref>, <xref rid="ene70672-bib-0031" ref-type="bibr">31</xref>].</p><p>Under GDPR, pseudonymized data is still considered personal data, while fully anonymized data falls outside the regulation's scope. Thus, fully anonymized data can be shared much easier than pseudonymized data. However, in the context of research, full anonymization remains challenging and often a matter of debate. Firstly, for researchers invested in the ongoing creation of novel data sets, full anonymization of data right after their collection is not attractive nor feasible. Often a link to the data donor (i.e., the participant or patient) has to be maintained at least until the data collection is completed and the data base locked. Moreover, especially in the field of neuroimaging research, instant full anonymization might be not in the best interest of the patient. When undergoing neuroimaging, incidental findings are always a possibility, making contacting the patient an ethical necessity.</p><p>Secondly, it is currently debated how and when full anonymization could be reached. This issue relates to the interpretation of risk for re‐identification within the GDPR, which is based on an estimation. Data can be considered anonymous if the effort for re‐identification is estimated unreasonable. However, what is considered unreasonable often varies depending on the data at hand and legal representatives involved; a classic point of discussion e.g., is whether pseudonymized data that has been transferred to a collaborator without a subject identification list and is subsequently re‐coded can be considered anonymized as the risk of double re‐identification appears relatively low. Taken together, the risk‐based standard of the GDPR for re‐identification complicates compliance and gives ample opportunity for interpretation resulting in lengthy discussions between legal representatives of different institutions or universities, often delaying data transfer.</p><p>Initiatives like the Open Brain Consent offer GDPR‐compliant templates for informed consent and DTAs [<xref rid="ene70672-bib-0032" ref-type="bibr">32</xref>]. These tools can reduce administrative burdens and promote consistent practices. Engaging institutional legal departments early in study planning facilitates smoother ethics approval. Still, many institutions lack the internal legal expertise required to interpret GDPR provisions in the neuroimaging research context effectively, and ethics board reviews are often prolonged. To streamline compliance, a harmonized EU‐level manual or guidance document tailored to neuroimaging research is urgently needed to clarify expectations and procedures. Direct engagement and close collaboration with institutional data protection officers and legal representatives, and the use of standardized templates are essential for mitigating this legal bottleneck [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>].</p><p>An effective de‐identification strategy is crucial for balancing data utility and participant privacy. In neuroimaging, this process involves more than scrubbing identifiers from DICOM headers. Structural MRI images contain facial features that could potentially be reconstructed using deep learning [<xref rid="ene70672-bib-0033" ref-type="bibr">33</xref>], raising another level of privacy concerns. However, despite this theoretical risk, one should remember that to date there are no documented cases of malicious re‐identification from neuroimaging data [<xref rid="ene70672-bib-0034" ref-type="bibr">34</xref>]. Nevertheless, aiming to reduce re‐identification risk from structural neuroimaging data defacing algorithms can be applied to remove facial features from structural scans [<xref rid="ene70672-bib-0035" ref-type="bibr">35</xref>, <xref rid="ene70672-bib-0036" ref-type="bibr">36</xref>]. However, these tools can degrade image quality and interfere with some analytic pipelines. Alternative approaches include skull‐stripping, synthetic face generation, and robust metadata handling. Regardless of the method, anonymization must be tailored to the dataset and documented clearly to satisfy both ethical and legal standards. Beyond individual practices, community‐wide adoption of de‐identification protocols and standard risk assessments will ensure consistency and build trust among data contributors, users, and oversight bodies. The European Health Data Space initiative presents an opportunity to develop centralized standards and encourage cross‐border cooperation on privacy‐preserving data sharing [<xref rid="ene70672-bib-0037" ref-type="bibr">37</xref>].</p><p>In terms of privacy and legal aspects, a key, yet often underemphasized, aspect of neuroimaging data sharing is also the choice between centralized and federated data sharing architectures. In centralized models, data are transferred to a single repository, enabling standardized processing and efficient large‐scale analyses. While widely used in major consortia, such approaches require extensive legal agreements and raise concerns regarding data sovereignty, security, and compliance, particularly under the GDPR. Federated architectures, in contrast, allow data to remain at local sites while enabling joint analyses through distributed computing. Instead of transferring data, algorithms are deployed locally, and only aggregated results are shared. This approach reduces privacy risks and facilitates compliance with data protection regulations, making it especially suitable for sensitive clinical datasets. Federated models can help overcome key GDPR‐related barriers, including restrictions on cross‐border data transfer, while allowing institutions to retain control over their data. However, they require robust infrastructure, harmonized data standards, and secure communication protocols.</p><p>Related to this issue, questions around ownership and intellectual property (IP) present a further challenge in data sharing. Unlike a publication, where authorship clearly conveys ownership, data are often the product of collaborative efforts involving researchers, institutions, and funding bodies. Consequently, determining data ownership can be ambiguous. In most cases, institutions where data are collected retain IP rights. However, public funding agencies increasingly view data generated with taxpayer support as a public good. As such, they advocate for open access, though often permit embargo periods to allow original investigators time to publish primary findings. Clear licensing terms and DTAs are essential. These should specify usage rights, sharing restrictions, and responsibilities for derivative data. Allowing for controlled access rather than open distribution can address both privacy and IP concerns. Including statements about expected data use and attribution in consent forms and DTAs will foster transparency and trust. Ultimately, harmonized licensing frameworks that protect data providers' interests while promoting access are needed. Community consensus around principles for shared ownership and proper attribution will support more equitable and sustainable data sharing practices.</p></sec><sec id="ene70672-sec-0013"><label>4.2</label><title>Aligning Incentives With Open Science Calls for a Cultural Shift</title><p>Despite broad support for open science in principle, the current academic reward system is fundamentally misaligned with its demands, prioritizing publications over data sharing and thereby hindering practical implementation of open science practices [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. Reducing scientific performance indicators to publications neglects the labour‐intensive tasks of data acquisition, curation, documentation, and dissemination. In this respect, junior researchers and research support staff are particularly disadvantaged, receiving little credit for their essential roles in data acquisition and preparation. Scientific careers are traditionally advanced through first‐author publications in high‐impact journals. However, creating and maintaining high‐quality datasets demands substantial time, technical expertise, and infrastructure. All of those may go unrecognized under current evaluation metrics. Moreover, fears of data misuse, loss of competitive advantage, or lack of appropriate citation discourage many from sharing. To address this issue, a new incentive model that treats data generation and curation as primary scholarly outputs is required [<xref rid="ene70672-bib-0008" ref-type="bibr">8</xref>]. Practically, this could be archived in three steps: In an initial step, such as system should link datasets with unique publication identifiers (e.g., digital object identifiers) and associate them with the data creator, e.g., via a persistent researcher identifier such as ORCIDs. In a second step, evaluation criteria of funders and universities need to be revised in order to recognize data sets as primary scholarly outputs, thereby incorporating data sharing metrics into grant reviews, funding decisions, hiring processes and academic promotions. In a final step, implementation of sharable recognition is needed. This could be enabled by tracking dataset reuse and citations in bibliometric databases as well as the development of citation metrics that reflect dataset impact, visibility, and reuse frequency.</p><p>Such a system would make data creation contributions visible, measurable, and actively add to a researcher's measurable academic impact while specifically enabling recognition of technical staff, coordinators, and junior researchers whose work underpins successful data‐driven science. Importantly, funding agencies and institutions play a central role in operationalizing these changes. Grant review processes could explicitly evaluate prior data sharing contributions, while institutions could recognize and reward the development of high‐impact datasets as a distinct form of scholarly achievement. This would create tangible incentives for researchers to invest in high‐quality data curation and sharing. While the Global Research Council and major funding agencies are increasingly recognizing the need for updated assessment frameworks [<xref rid="ene70672-bib-0038" ref-type="bibr">38</xref>, <xref rid="ene70672-bib-0039" ref-type="bibr">39</xref>], these efforts currently remain to be translated into concrete policies to reward data sharing as a first‐class scholarly activity.</p></sec></sec><sec sec-type="conclusions" id="ene70672-sec-0014"><label>5</label><title>Conclusion</title><p>The sharing of brain imaging data is essential to medical advancement, e.g., in biomarker development for neurodegenerative diseases, and therefore the effective diagnosis and treatment of such conditions. Currently, systemic challenges remain; especially those relating to data standardization, data privacy, and incentives. However, the promise of neuroimaging to transform our understanding and treatment of neurodegenerative diseases hinges on collaborative, transparent, and equitable data sharing. Technical solutions exist, legal frameworks can be harmonized, and motivational incentives can be realigned, given a coordinated effort of researchers, institutions, funders, and policymakers (see Table <xref rid="ene70672-tbl-0001" ref-type="table">1</xref>). The next generation of neuroscientific discovery depends on the collective ability to make neuroimaging data not only accessible but also meaningful and rewarding to share. Institutional leadership, cross‐sector partnerships, and robust community engagement are critical to overcoming inertia and establishing open data as the norm rather than the exception.</p><table-wrap position="float" id="ene70672-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Policy recommendations and strategic priorities.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Support technical infrastructure and standardization</td><td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="bullet" id="ene70672-list-0001"><list-item id="ene70672-li-0001"><p>Expand funding for BIDS‐compatible repositories and tools</p></list-item><list-item id="ene70672-li-0002"><p>Maintain open‐source software for data conversion and validation</p></list-item><list-item id="ene70672-li-0003"><p>Encourage platforms that store and manage both raw and derivative imaging data</p></list-item></list>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Harmonize GDPR implementation</td><td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="bullet" id="ene70672-list-0002"><list-item id="ene70672-li-0004"><p>Develop EU‐level guidance specific to neuroimaging</p></list-item><list-item id="ene70672-li-0005"><p>Promote adoption of standard consent and DTA templates (e.g., Open Brain Consent)</p></list-item><list-item id="ene70672-li-0006"><p>Support ethics boards, data protection officers and legal representatives with specialized training in biomedical data governance</p></list-item></list>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Enhance researcher training and support</td><td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="bullet" id="ene70672-list-0003"><list-item id="ene70672-li-0007"><p>Integrate open science best practices into academic curricula</p></list-item><list-item id="ene70672-li-0008"><p>Fund dedicated roles (e.g., data stewards) to support compliance and quality control</p></list-item><list-item id="ene70672-li-0009"><p>Provide workshops and mentoring for implementing BIDS and FAIR principles</p></list-item></list>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Realign academic incentives</td><td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="bullet" id="ene70672-list-0004"><list-item id="ene70672-li-0010"><p>Promote use of persistent identifiers and track dataset reuse</p></list-item><list-item id="ene70672-li-0011"><p>Develop institutional policies that reward data transparency and collaboration</p></list-item><list-item id="ene70672-li-0012"><p>Recognize dataset contributions as primary scholarly outputs in tenure, promotion, and funding decisions</p></list-item></list>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Foster cultural change through leadership</td><td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="bullet" id="ene70672-list-0005"><list-item id="ene70672-li-0013"><p>Encourage consortia and funding bodies to set data sharing standards</p></list-item><list-item id="ene70672-li-0014"><p>Celebrate examples of impactful shared data initiatives (e.g., Alzheimer's Disease Neuroimaging Initiate, Parkinson's Progression Marker Initiative)</p></list-item><list-item id="ene70672-li-0015"><p>Build a community ethos that values collaboration, openness, and reproducibility</p></list-item></list>
+</td></tr></tbody></table></table-wrap></sec><sec id="ene70672-sec-0018"><title>Author Contributions</title><p>
+<bold>Kathrin Giehl:</bold> conceptualization, writing – original draft. <bold>Thilo van Eimeren:</bold> conceptualization, writing – review and editing, supervision.</p></sec><sec sec-type="COI-statement" id="ene70672-sec-0015"><title>Conflicts of Interest</title><p>Kathrin Giehl received a speaker fee from Synaptikon GmbH. Thilo van Eimeren received honoraria, stipends, or speaker fees from the Lundbeck Foundation, Gain Therapeutics, Orion Pharma, Lundbeck Pharma, Atheneum, and the International Movement Disorders Society. He receives materials from Life Molecular Imaging and Lilly Pharma. He owns stocks of the corporations NVIDIA, Microsoft, and I.B.M.</p></sec></body><back><ack id="ene70672-sec-19"><title>Acknowledgements</title><p>Open Access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="ene70672-sec-0017"><title>Data Availability Statement</title><p>Data sharing not applicable to this article as no datasets were generated or analysed during the current study.</p></sec><ref-list content-type="cited-references" id="ene70672-bibl-0001"><title>References</title><ref id="ene70672-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ene70672-cit-0001">
+<string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Bach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Ziegler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Deuschl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dodel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Doblhammer‐Reiter</surname>
+</string-name>, “<article-title>Projected Numbers of People With Movement Disorders in the Years 2030 and 2050</article-title>,” <source>Movement Disorders</source>
+<volume>26</volume> (<year>2011</year>): <fpage>2286</fpage>–<lpage>2290</lpage>.<pub-id pub-id-type="pmid">22021158</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/mds.23878</pub-id></mixed-citation></ref><ref id="ene70672-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ene70672-cit-0002">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Deuschl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Beghi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Fazekas</surname>
+</string-name>, et al., “<article-title>The Burden of Neurological Diseases in Europe: An Analysis for the Global Burden of Disease Study 2017</article-title>,” <source>Lancet Public Health</source>
+<volume>5</volume> (<year>2020</year>): <fpage>e551</fpage>–<lpage>e567</lpage>.<pub-id pub-id-type="pmid">33007212</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S2468-2667(20)30190-0</pub-id></mixed-citation></ref><ref id="ene70672-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ene70672-cit-0003">
+<string-name name-style="western">
+<given-names>E. R.</given-names>
+<surname>Dorsey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Elbaz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Nichols</surname>
+</string-name>, et al., “<article-title>Global, Regional, and National Burden of Parkinson's Disease, 1990–2016: A Systematic Analysis for the Global Burden of Disease Study 2016</article-title>,” <source>Lancet Neurology</source>
+<volume>17</volume> (<year>2018</year>): <fpage>939</fpage>–<lpage>953</lpage>.<pub-id pub-id-type="pmid">30287051</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(18)30295-3</pub-id><pub-id pub-id-type="pmcid">PMC6191528</pub-id></mixed-citation></ref><ref id="ene70672-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ene70672-cit-0004">
+<string-name name-style="western">
+<given-names>C. P.</given-names>
+<surname>Ferri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Prince</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Brayne</surname>
+</string-name>, et al., “<article-title>Global Prevalence of Dementia: A Delphi Consensus Study</article-title>,” <source>Lancet</source>
+<volume>366</volume> (<year>2005</year>): <fpage>2112</fpage>–<lpage>2117</lpage>.<pub-id pub-id-type="pmid">16360788</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(05)67889-0</pub-id><pub-id pub-id-type="pmcid">PMC2850264</pub-id></mixed-citation></ref><ref id="ene70672-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ene70672-cit-0005">
+<string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Hansson</surname>
+</string-name>, “<article-title>Biomarkers for Neurodegenerative Diseases</article-title>,” <source>Nature Medicine</source>
+<volume>27</volume> (<year>2021</year>): <fpage>954</fpage>–<lpage>963</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-021-01382-x</pub-id><pub-id pub-id-type="pmid">34083813</pub-id></mixed-citation></ref><ref id="ene70672-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ene70672-cit-0006">
+<string-name name-style="western">
+<given-names>C. G.</given-names>
+<surname>Schwarz</surname>
+</string-name>, “<article-title>Uses of Human MR and PET Imaging in Research of Neurodegenerative Brain Diseases</article-title>,” <source>Neurotherapeutics</source>
+<volume>18</volume> (<year>2021</year>): <fpage>661</fpage>–<lpage>672</lpage>.<pub-id pub-id-type="pmid">33723751</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s13311-021-01030-9</pub-id><pub-id pub-id-type="pmcid">PMC8423895</pub-id></mixed-citation></ref><ref id="ene70672-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ene70672-cit-0007">
+<string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Milham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. C.</given-names>
+<surname>Craddock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Son</surname>
+</string-name>, et al., “<article-title>Assessment of the Impact of Shared Brain Imaging Data on the Scientific Literature</article-title>,” <source>Nature Communications</source>
+<volume>9</volume> (<year>2018</year>): <elocation-id>2818</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-04976-1</pub-id><pub-id pub-id-type="pmcid">PMC6053414</pub-id><pub-id pub-id-type="pmid">30026557</pub-id></mixed-citation></ref><ref id="ene70672-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ene70672-cit-0008">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Giehl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐J.</given-names>
+<surname>Mutsaerts</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Aarts</surname>
+</string-name>, et al., “<article-title>Sharing Brain Imaging Data in the Open Science Era: How and Why?</article-title>,” <source>Lancet Digital Health</source>
+<volume>6</volume> (<year>2024</year>): <fpage>e526</fpage>–<lpage>e535</lpage>.<pub-id pub-id-type="pmid">38906618</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S2589-7500(24)00069-4</pub-id></mixed-citation></ref><ref id="ene70672-bib-0009"><label>9</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0009">
+<collab collab-type="authors">ALLEA</collab>
+, <article-title>“The European Code of Conduct for Research Integrity,”</article-title> (<year>2023</year>), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf" ext-link-type="uri">https://allea.org/wp‐content/uploads/2023/06/European‐Code‐of‐Conduct‐Revised‐Edition‐2023.pdf</ext-link>.</mixed-citation></ref><ref id="ene70672-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ene70672-cit-0010">
+<string-name name-style="western">
+<given-names>N. L.</given-names>
+<surname>Kerr</surname>
+</string-name>, “<article-title>HARKing: Hypothesizing After the Results Are Known</article-title>,” <source>Personality and Social Psychology Review</source>
+<volume>2</volume> (<year>1998</year>): <fpage>196</fpage>–<lpage>217</lpage>.<pub-id pub-id-type="pmid">15647155</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1207/s15327957pspr0203_4</pub-id></mixed-citation></ref><ref id="ene70672-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ene70672-cit-0011">
+<string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Simmons</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Nelson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Simonsohn</surname>
+</string-name>, “<article-title>False‐Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant</article-title>,” <source>Psychological Science</source>
+<volume>22</volume> (<year>2011</year>): <fpage>1359</fpage>–<lpage>1366</lpage>.<pub-id pub-id-type="pmid">22006061</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0956797611417632</pub-id></mixed-citation></ref><ref id="ene70672-bib-0012"><label>12</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0012">
+<string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Stewart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Rinke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>McGarrigle</surname>
+</string-name>, et al., <article-title>“Pre‐Registration and Registered Reports: A Primer From UKRN,”</article-title> (<year>2020</year>).</mixed-citation></ref><ref id="ene70672-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ene70672-cit-0013">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Rosenthal</surname>
+</string-name>, “<article-title>The File Drawer Problem and Tolerance for Null Results</article-title>,” <source>Psychological Bulletin</source>
+<volume>86</volume> (<year>1979</year>): <fpage>638</fpage>–<lpage>641</lpage>.</mixed-citation></ref><ref id="ene70672-bib-0014"><label>14</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0014">
+<article-title>“Open Science Framework (OSF),”</article-title> (<year>2012</year>), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://osf.io" ext-link-type="uri">https://osf.io</ext-link>.</mixed-citation></ref><ref id="ene70672-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="ene70672-cit-0015">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Shukla‐Dave</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. A.</given-names>
+<surname>Obuchowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. L.</given-names>
+<surname>Chenevert</surname>
+</string-name>, et al., “<article-title>Quantitative Imaging Biomarkers Alliance (QIBA) Recommendations for Improved Precision of DWI and DCE‐MRI Derived Biomarkers in Multicenter Oncology Trials</article-title>,” <source>Journal of Magnetic Resonance Imaging</source>
+<volume>49</volume> (<year>2019</year>): <fpage>e101</fpage>–<lpage>e121</lpage>.<pub-id pub-id-type="pmid">30451345</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jmri.26518</pub-id><pub-id pub-id-type="pmcid">PMC6526078</pub-id></mixed-citation></ref><ref id="ene70672-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ene70672-cit-0016">
+<string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Biessels</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>De Guio</surname>
+</string-name>, et al., “<article-title>Harmonizing Brain Magnetic Resonance Imaging Methods for Vascular Contributions to Neurodegeneration</article-title>,” <source>Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring</source>
+<volume>11</volume> (<year>2019</year>): <fpage>191</fpage>–<lpage>204</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.dadm.2019.01.002</pub-id><pub-id pub-id-type="pmcid">PMC6396326</pub-id><pub-id pub-id-type="pmid">30859119</pub-id></mixed-citation></ref><ref id="ene70672-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ene70672-cit-0017">
+<string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Poldrack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Markiewicz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Appelhoff</surname>
+</string-name>, et al., “<article-title>The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)</article-title>,” <source>Imaging Neuroscience</source>
+<volume>2</volume> (<year>2024</year>): <fpage>1</fpage>–<lpage>19</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1162/imag_a_00103</pub-id><pub-id pub-id-type="pmcid">PMC11415029</pub-id><pub-id pub-id-type="pmid">39308505</pub-id></mixed-citation></ref><ref id="ene70672-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ene70672-cit-0018">
+<string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Gorgolewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Auer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. D.</given-names>
+<surname>Calhoun</surname>
+</string-name>, et al., “<article-title>The Brain Imaging Data Structure, a Format for Organizing and Describing Outputs of Neuroimaging Experiments</article-title>,” <source>Scientific Data</source>
+<volume>3</volume> (<year>2016</year>): <fpage>1</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2016.44</pub-id><pub-id pub-id-type="pmcid">PMC4978148</pub-id><pub-id pub-id-type="pmid">27326542</pub-id></mixed-citation></ref><ref id="ene70672-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="ene70672-cit-0019">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Norgaard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Matheson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. D.</given-names>
+<surname>Hansen</surname>
+</string-name>, et al., “<article-title>PET‐BIDS, an Extension to the Brain Imaging Data Structure for Positron Emission Tomography</article-title>,” <source>Scientific Data</source>
+<volume>9</volume> (<year>2022</year>): <elocation-id>65</elocation-id>.<pub-id pub-id-type="pmid">35236846</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41597-022-01164-1</pub-id><pub-id pub-id-type="pmcid">PMC8891322</pub-id></mixed-citation></ref><ref id="ene70672-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ene70672-cit-0020">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Niso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Gorgolewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Bock</surname>
+</string-name>, et al., “<article-title>MEG‐BIDS, the Brain Imaging Data Structure Extended to Magnetoencephalography</article-title>,” <source>Scientific Data</source>
+<volume>5</volume> (<year>2018</year>): <fpage>1</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">29917016</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2018.110</pub-id><pub-id pub-id-type="pmcid">PMC6007085</pub-id></mixed-citation></ref><ref id="ene70672-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ene70672-cit-0021">
+<string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Pernet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Appelhoff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Gorgolewski</surname>
+</string-name>, et al., “<article-title>EEG‐BIDS, an Extension to the Brain Imaging Data Structure for Electroencephalography</article-title>,” <source>Scientific Data</source>
+<volume>6</volume> (<year>2019</year>): <elocation-id>103</elocation-id>.<pub-id pub-id-type="pmid">31239435</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41597-019-0104-8</pub-id><pub-id pub-id-type="pmcid">PMC6592877</pub-id></mixed-citation></ref><ref id="ene70672-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ene70672-cit-0022">
+<string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Gorgolewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Alfaro‐Almagro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Auer</surname>
+</string-name>, et al., “<article-title>BIDS Apps: Improving Ease of Use, Accessibility, and Reproducibility of Neuroimaging Data Analysis Methods</article-title>,” <source>PLoS Computational Biology</source>
+<volume>13</volume> (<year>2017</year>): <elocation-id>e1005209</elocation-id>.<pub-id pub-id-type="pmid">28278228</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pcbi.1005209</pub-id><pub-id pub-id-type="pmcid">PMC5363996</pub-id></mixed-citation></ref><ref id="ene70672-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ene70672-cit-0023">
+<string-name name-style="western">
+<given-names>Y. O.</given-names>
+<surname>Halchenko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Goncalves</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ghosh</surname>
+</string-name>, et al., “<article-title>HeuDiConv—Flexible DICOM Conversion Into Structured Directory Layouts</article-title>,” <source>Journal of Open Source Software</source>
+<volume>9</volume> (<year>2024</year>): <elocation-id>5839</elocation-id>.<pub-id pub-id-type="pmid">39323511</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.21105/joss.05839</pub-id><pub-id pub-id-type="pmcid">PMC11423922</pub-id></mixed-citation></ref><ref id="ene70672-bib-0024"><label>24</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0024">
+<article-title>“BIDS Validator,”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://bids-standard.github.io/bids-validator/" ext-link-type="uri">https://bids‐standard.github.io/bids‐validator/</ext-link>.</mixed-citation></ref><ref id="ene70672-bib-0025"><label>25</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0025">
+<article-title>“Bids‐Examples,”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/bids-standard/bids-examples" ext-link-type="uri">https://github.com/bids‐standard/bids‐examples</ext-link>.</mixed-citation></ref><ref id="ene70672-bib-0026"><label>26</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0026">
+<article-title>“The Brain Imaging Data Structure (BIDS) Specification – Introduction,”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://bids-specification.readthedocs.io/en/stable/introduction.html" ext-link-type="uri">https://bids‐specification.readthedocs.io/en/stable/introduction.html</ext-link>.</mixed-citation></ref><ref id="ene70672-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ene70672-cit-0027">
+<string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Wilkinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dumontier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. J.</given-names>
+<surname>Aalbersberg</surname>
+</string-name>, et al., “<article-title>The FAIR Guiding Principles for Scientific Data Management and Stewardship</article-title>,” <source>Scientific Data</source>
+<volume>3</volume> (<year>2016</year>): <fpage>1</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2016.18</pub-id><pub-id pub-id-type="pmcid">PMC4792175</pub-id><pub-id pub-id-type="pmid">26978244</pub-id></mixed-citation></ref><ref id="ene70672-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ene70672-cit-0028">
+<string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Wilkinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dumontier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Jan Aalbersberg</surname>
+</string-name>, et al., “<article-title>Addendum: The FAIR Guiding Principles for Scientific Data Management and Stewardship</article-title>,” <source>Scientific Data</source>
+<volume>6</volume> (<year>2019</year>): <elocation-id>6</elocation-id>.<pub-id pub-id-type="pmid">30890711</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41597-019-0009-6</pub-id><pub-id pub-id-type="pmcid">PMC6427092</pub-id></mixed-citation></ref><ref id="ene70672-bib-0029"><label>29</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0029">
+<collab collab-type="authors">Union E</collab>
+, <article-title>“Regulation (EU) 2016/679,”</article-title> (<year>2016</year>).</mixed-citation></ref><ref id="ene70672-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ene70672-cit-0030">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Peloquin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>DiMaio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bierer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Barnes</surname>
+</string-name>, “<article-title>Disruptive and Avoidable: GDPR Challenges to Secondary Research Uses of Data</article-title>,” <source>European Journal of Human Genetics</source>
+<volume>28</volume> (<year>2020</year>): <fpage>697</fpage>–<lpage>705</lpage>.<pub-id pub-id-type="pmid">32123329</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41431-020-0596-x</pub-id><pub-id pub-id-type="pmcid">PMC7411058</pub-id></mixed-citation></ref><ref id="ene70672-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ene70672-cit-0031">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Eiss</surname>
+</string-name>, “<article-title>Confusion Over Europe's Data‐Protection Law Is Stalling Scientific Progress</article-title>,” <source>Nature</source>
+<volume>584</volume> (<year>2020</year>): <fpage>498</fpage>–<lpage>499</lpage>.<pub-id pub-id-type="pmid">32843731</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/d41586-020-02454-7</pub-id></mixed-citation></ref><ref id="ene70672-bib-0032"><label>32</label><mixed-citation publication-type="book" id="ene70672-cit-0032">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Bannier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Barker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Borghesani</surname>
+</string-name>, et al., <source>The Open Brain Consent: Informing Research Participants and Obtaining Consent to Share Brain Imaging Data</source> (<publisher-name>Wiley Online Library</publisher-name>, <year>2021</year>), <fpage>1945</fpage>–<lpage>1951</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/hbm.25351</pub-id><pub-id pub-id-type="pmcid">PMC8046140</pub-id><pub-id pub-id-type="pmid">33522661</pub-id></mixed-citation></ref><ref id="ene70672-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ene70672-cit-0033">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Eke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. E.</given-names>
+<surname>Aasebø</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Akintoye</surname>
+</string-name>, et al., “<article-title>Pseudonymisation of Neuroimages and Data Protection: Increasing Access to Data While Retaining Scientific Utility</article-title>,” <source>Neuroimage: Reports</source>
+<volume>1</volume> (<year>2021</year>): <elocation-id>100053</elocation-id>.<pub-id pub-id-type="pmid">40568426</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ynirp.2021.100053</pub-id><pub-id pub-id-type="pmcid">PMC12172758</pub-id></mixed-citation></ref><ref id="ene70672-bib-0034"><label>34</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0034">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Jwa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Koyejo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Poldrack</surname>
+</string-name>, <article-title>“Demystifying the risk of reidentification in neuroimaging data–a technical and regulatory analysis,”</article-title> (<year>2023</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1162/imag_a_00111</pub-id><pub-id pub-id-type="pmcid">PMC12247609</pub-id><pub-id pub-id-type="pmid">40800528</pub-id></mixed-citation></ref><ref id="ene70672-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ene70672-cit-0035">
+<string-name name-style="western">
+<given-names>C. G.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. K.</given-names>
+<surname>Kremers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Wiste</surname>
+</string-name>, et al., “<article-title>Changing the Face of Neuroimaging Research: Comparing a New MRI de‐Facing Technique With Popular Alternatives</article-title>,” <source>NeuroImage</source>
+<volume>231</volume> (<year>2021</year>): <elocation-id>117845</elocation-id>.<pub-id pub-id-type="pmid">33582276</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuroimage.2021.117845</pub-id><pub-id pub-id-type="pmcid">PMC8154695</pub-id></mixed-citation></ref><ref id="ene70672-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ene70672-cit-0036">
+<string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Clunie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Flanders</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Taylor</surname>
+</string-name>, et al., “<article-title>Report of the Medical Image De‐Identification (MIDI) Task Group – Best Practices and Recommendations</article-title>,” <source>Arxiv</source> (<year>2025</year>): <elocation-id>2303.10473 v10473</elocation-id>.</mixed-citation></ref><ref id="ene70672-bib-0037"><label>37</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0037">
+<article-title>“European Health Data Space (EHDS) | Updates,”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.european-health-data-space.com" ext-link-type="uri">https://www.european‐health‐data‐space.com</ext-link>.</mixed-citation></ref><ref id="ene70672-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ene70672-cit-0038">
+<string-name name-style="western">
+<given-names>H. H.</given-names>
+<surname>Pierce</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Dev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Statham</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. E.</given-names>
+<surname>Bierer</surname>
+</string-name>, “<article-title>Credit data generators for data reuse</article-title>,” <source>Nature</source>
+<volume>570</volume> (<year>2019</year>): <fpage>30</fpage>–<lpage>32</lpage>.<pub-id pub-id-type="pmid">31164773</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/d41586-019-01715-4</pub-id></mixed-citation></ref><ref id="ene70672-bib-0039"><label>39</label><mixed-citation publication-type="miscellaneous" id="ene70672-cit-0039">
+<article-title>“Statement of Principles on Recognising and Rewarding Researchers,”</article-title> (<year>2023</year>), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://globalresearchcouncil.org/fileadmin//documents/GRC_Publications/SoP_Recognising_and_Rewarding_Researchers.pdf" ext-link-type="uri">https://globalresearchcouncil.org/fileadmin//documents/GRC_Publications/SoP_Recognising_and_Rewarding_Researchers.pdf</ext-link>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,42 @@
+{
+  "contributor_version": 3,
+  "checked_at_kst": "2026-09-30T20:03:57+09:00",
+  "scope": "작업 폴더 텍스트와 ZIP 내부 텍스트 패턴 점검; 실행 검증 아님",
+  "counts": {
+    "files_inventoried": 17523,
+    "binary_or_other_files_inventoried": 250,
+    "text_files_scanned": 17228,
+    "archive_member_items": 27164,
+    "archive_text_items_scanned": 26599,
+    "archives_scanned": 38,
+    "oversize_text_files": 7,
+    "private_named_files_excluded": 4,
+    "large_text_files_followup_scanned": 7,
+    "large_archive_text_items_followup_scanned": 11,
+    "oversize_text_files_remaining": 0
+  },
+  "text_files_with_date_tokens": 10007,
+  "text_files_with_version_tokens": 14839,
+  "text_files_with_invalid_calendar_candidates": 116,
+  "archive_items_with_invalid_calendar_candidates": 189,
+  "classification_rule": "날짜·버전 패턴은 검토 후보. 시험용 잘못된 날짜·논문 날짜·외부 규격은 자동 오류 판정하지 않음. ZIP 시각은 포장 메타데이터임.",
+  "invalid_calendar_candidate_review": {
+    "unique_content_items": 19,
+    "identifier_tokens_reviewed": {
+      "2026-80-02": 2,
+      "2024-31-02": 2,
+      "2012-13-10": 3,
+      "2013-14-10": 50,
+      "2025-26-02": 2,
+      "2022-11-51": 3,
+      "2013-14-12": 1,
+      "1998-13-04": 2,
+      "2005-20-04": 1,
+      "2020-35-12": 2
+    },
+    "context_candidates_unresolved": 0,
+    "limits": "문자열 패턴 검사. 모든 작업·논문 날짜의 사실성을 독립 검증한 결과가 아님.",
+    "manual_review_note": "나머지 2개 일치는 algae-2020-35-12-4.pdf 자료 링크의 파일 식별자. 실제 날짜 필드가 아님."
+  },
+  "reviewed_at_kst": "2026-09-30T20:07:34+09:00"
+}

@@ -1,0 +1,55 @@
+{
+  "claim_id": "MONARCH-SIZE-PC1-VARIANCE",
+  "decision": "BLOCK",
+  "reproduced": false,
+  "r_script_executed": false,
+  "integrity_ok": true,
+  "paper_population_explicit": false,
+  "population_binding": "Author R lines 440-461 identify common-garden adults and 96.4%; the paper Data Analysis paragraph does not explicitly name the PCA population.",
+  "paper_doi": "10.1073/pnas.2001283117",
+  "source_url": "https://www.sanramlab.org/pubs/Freedman_et_al_2020.pdf",
+  "source_location": "Materials and Methods, Data Analysis; PDF page 5 of 7, first paragraph",
+  "source_hashes": {
+    "adult_morphology.csv": "d85aec46430c571546504a2c6b8982fd187b8d60f2d0e517f890b46bc349a39b",
+    "wings_04.25.20.csv": "4208ca6ee43815c0da845fe59200b3ec1005cff0a778217b7eed4bf1c47a88f2",
+    "global_monarch_wing_morphology.R": "8a25e90d0f8054c26f3fd1ac8914d46787f02816493a44f38903f85c719df308"
+  },
+  "sample_audit": {
+    "raw_rows": 1076,
+    "right_area_observed_rows": 972,
+    "right_area_missing_rows": 104,
+    "complete_size_rows": 972
+  },
+  "size_pc1": {
+    "status": "MATCH_SCOPED_PCA",
+    "reported_percent": 96.4,
+    "computed_percent": 96.4087000405,
+    "percentage_point_difference": 0.0087000405,
+    "published_rounding_tolerance_percentage_points": 0.05,
+    "denominator_rows": 972,
+    "variables": [
+      "mean_available(LArea,RArea)",
+      "mean_available(LLength,RLength)",
+      "mean_available(LWidth,RWidth)"
+    ],
+    "population": "Common-garden adults; adult_morphology.csv with observed RArea",
+    "author_code_location": "global_monarch_wing_morphology.R lines 440-461",
+    "method": "Correlation PCA (author princomp cor=TRUE), available-side means",
+    "eigenvalues_descending": [
+      2.892261001215,
+      0.093271819156,
+      0.014467179629
+    ],
+    "population_csv_rows_sha256": "c045541b27e1d6f8dc0929681e0665278cdf2391cdf2834ddf46875e2c9d9460"
+  },
+  "blockers": [
+    {
+      "code": "PAPER_POPULATION_SCOPE_NOT_EXPLICIT",
+      "required": "Treat this as a numeric match scoped to the author common-garden code, not evidence that the museum/wild-caught population or all paper analyses were reproduced."
+    },
+    {
+      "code": "AUTHOR_R_ENVIRONMENT_NOT_EXECUTED",
+      "required": "Execute the pinned author script in a documented R/package environment and retain outputs before claiming full paper reproduction. Python translated only the size-PCA stage."
+    }
+  ]
+}

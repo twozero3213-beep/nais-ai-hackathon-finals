@@ -1,0 +1,10 @@
+Exact coefficient-row excerpts from Replication 1 Corrected Output.pdf
+Source: https://osf.io/download/7fptc/
+Original PDF SHA256: 568046a89cbcf9214357ca3c28dc2da5404db322f8787c19e854c19da2f1c93c
+Columns: B, Std. Error, Beta, t, Sig.
+Main-effect model, SES and condition rows:
+.126 .034 .213 3.742 .000
+.404 .125 .178 3.241 .001
+Interaction model, interaction row:
+.111 .066 .289 1.686 .093
+Mapping to variable names is a developer transcription, not semantic approval.

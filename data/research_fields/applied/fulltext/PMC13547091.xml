@@ -1,0 +1,737 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="mco270973" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">MedComm (2020)</journal-id><journal-id journal-id-type="iso-abbrev">MedComm (2020)</journal-id><journal-id journal-id-type="pmc-domain-id">4101</journal-id><journal-id journal-id-type="pmc-domain">mcomm</journal-id><journal-id journal-id-type="nlm-id">101769925</journal-id><journal-id journal-id-type="publisher-id">MCO2</journal-id><journal-title-group><journal-title>MedComm</journal-title></journal-title-group><issn pub-type="epub">2688-2663</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13547091</article-id><article-id pub-id-type="pmcid-ver">PMC13547091.1</article-id><article-id pub-id-type="pmcaid">13547091</article-id><article-id pub-id-type="pmcaiid">13547091</article-id><article-id pub-id-type="pmid">42707312</article-id><article-id pub-id-type="doi">10.1002/mco2.70973</article-id><article-id pub-id-type="publisher-id">MCO270973</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Bio‐Inspired Skin Reconstruction Using Intraoperative Autologous Epidermal Stem Cell–Enhanced Composite Grafts: A Randomized Trial</article-title></title-group><contrib-group><contrib id="mco270973-cr-0001" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Hu</surname><given-names initials="Z">Zhicheng</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="mco270973-cr-0002" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Yang</surname><given-names initials="H">Hao</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="mco270973-cr-0003" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Wang</surname><given-names initials="P">Peng</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="mco270973-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="mco270973-cr-0004" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Cao</surname><given-names initials="X">Xiaoling</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="mco270973-cr-0005" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Wang</surname><given-names initials="P">Peng</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="mco270973-cr-0006" contrib-type="author"><name name-style="western"><surname>Tang</surname><given-names initials="B">Bing</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="mco270973-cr-0007" contrib-type="author"><name name-style="western"><surname>Xu</surname><given-names initials="H">Hailin</given-names></name><xref rid="mco270973-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="mco270973-cr-0008" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Z">Zhiyong</given-names></name><xref rid="mco270973-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="mco270973-cr-0009" contrib-type="author"><name name-style="western"><surname>Huang</surname><given-names initials="S">Shaobin</given-names></name><xref rid="mco270973-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="mco270973-cr-0010" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="J">Jian</given-names></name><xref rid="mco270973-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="mco270973-cr-0011" contrib-type="author"><name name-style="western"><surname>Xue</surname><given-names initials="C">Chunli</given-names></name><xref rid="mco270973-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="mco270973-cr-0012" contrib-type="author"><name name-style="western"><surname>Zhou</surname><given-names initials="Q">Qiang</given-names></name><xref rid="mco270973-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="mco270973-cr-0013" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="X">Xiaohui</given-names></name><xref rid="mco270973-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="mco270973-cr-0014" contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="H">Honglin</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="mco270973-cr-0015" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="Y">Yi</given-names></name><xref rid="mco270973-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref><address></address></contrib><contrib id="mco270973-cr-0016" contrib-type="author" corresp="yes"><name name-style="western"><surname>Xie</surname><given-names initials="J">Julin</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="mco270973-cr-0017" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhu</surname><given-names initials="J">Jiayuan</given-names></name><xref rid="mco270973-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib></contrib-group><aff id="mco270973-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Burn and Wound Repair</named-content>
+<institution>First Affiliated Hospital of Sun Yat‐Sen University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Burns and Plastic Surgery</named-content>
+<institution>Linfen Central Hospital</institution>
+<city>Linfen</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Dermatology</named-content>
+<institution>Dermatology Hospital of Southern Medical University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Joint Surgery</named-content>
+<institution>The Third Affiliated Hospital of Guangzhou Medical University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Department of Plastic and Cosmetic Surgery</institution>
+<institution>Sixth Affiliated Hospital of Sun Yat‐Sen University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plastic and Reconstructive Surgery</named-content>
+<institution>Sun Yat‐Sen Memorial Hospital of Sun Yat‐Sen University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Burn Surgery</named-content>
+<institution>Huizhou Central People's Hospital</institution>
+<city>Huizhou</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Burn and Plastic Surgery</named-content>
+<institution>The First People's Hospital of Zhaoqing</institution>
+<city>Zhaoqing</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plastic Surgery &amp; Burn Surgery</named-content>
+<institution>Shenzhen Hospital</institution>
+<institution>Southern Medical University</institution>
+<city>Shenzhen</city>
+<country country="CN">China</country>
+</aff><aff id="mco270973-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Department of Burn and Plastic Surgery</named-content>
+<named-content content-type="organisation-division">Department of Wound Repair Surgery</named-content>
+<institution>Affiliated Hospital of Nantong University</institution>
+<city>Nantong</city>
+<country country="CN">China</country>
+</aff><pub-date pub-type="epub"><day>06</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>7</volume><issue seq="470">9</issue><issue-id pub-id-type="pmc-issue-id">519729</issue-id><issue-id pub-id-type="doi">10.1002/mco2.v7.9</issue-id><elocation-id>e70973</elocation-id><history>
+<date date-type="rev-recd"><day>02</day><month>4</month><year>2026</year></date>
+<date date-type="received"><day>10</day><month>12</month><year>2025</year></date>
+<date date-type="accepted"><day>14</day><month>7</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>06</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>08</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-08 15:11:16.850"><day>08</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">MedComm</italic> published by Sichuan International Medical Exchange &amp; Promotion Association (SCIMEA) and John Wiley &amp; Sons Australia, Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="MCO2-7-e70973.pdf"><?pdf-name MCO2-7-e70973.pdf?><?pdf-size 1549952?><?pdf-md5 bcbfb2dec6337cec4f5beb743705a110?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:3cf4/13547091/bcbfb2dec633/MCO2-7-e70973.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:MCO2-7-e70973.pdf"/><abstract><title>ABSTRACT</title><p>Full‐thickness wounds remain a major clinical challenge, and tissue‐engineered skin using epidermal stem cells (EpiSCs) offers a promising strategy for bio‐inspired reconstruction. In this randomized controlled trial, 232 patients with full‐thickness defects (≥ 9 cm<sup>2</sup>) received either standard treatment (acellular dermal matrix [ADM] + split‐thickness skin graft [STSG], <italic toggle="yes">n</italic> = 112) or cell therapy (ADM + STSG + EpiSC suspension, <italic toggle="yes">n</italic> = 120). Autologous EpiSCs were prepared intraoperatively in a single step, avoiding prolonged in vitro expansion. The primary outcome was 6‐month scar quality assessed by the Vancouver Scar Scale (VSS), while secondary outcomes included 2‐week healing and 3‐month recurrence. Compared with standard treatment, cell therapy produced significantly lower total VSS scores (median 3.0 vs. 6.0, <italic toggle="yes">p</italic> &lt; 0.001) and improved complete wound healing at 2 weeks (80/120 [66.7%] vs. 61/112 [54.5%]; adjusted odds ratios [OR] = 1.87, 95% confidence interval [CI] 1.06–3.28, <italic toggle="yes">p</italic> = 0.029). Complete healing at 2 weeks was associated with reduced 3‐month recurrence (adjusted OR = 0.26, 95% CI 0.09–0.75, <italic toggle="yes">p</italic> = 0.012). These findings support intraoperative EpiSC‐enhanced composite grafting as an effective and clinically translatable approach for rapid closure and improved long‐term scar outcomes.</p></abstract><abstract id="mco270973-abs-0001" abstract-type="graphical"><p>Full‐thickness skin defects remain a major reconstructive challenge. This randomized trial demonstrates that single‐stage composite grafting using intraoperatively prepared autologous EpiSC‐enriched suspensions is feasible. EpiSC augmentation improves complete wound healing and yields superior 6‐month scar outcomes compared with standard grafting, providing clinical evidence for a practical, cell‐based strategy for bio‐inspired skin reconstruction.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="MCO2-7-e70973-g003.webp"><?image-name MCO2-7-e70973-g003.webp?><?image-size 32978?><?image-md5 aa0c15f07c9daad70bf6cf7b570a74f1?><?image-image-server-status NEVER_LOAD?><?image-original-height 324?><?image-original-width 480?><?image-scaled-height 324?><?image-scaled-width 480?><?image-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/aa0c15f07c9d/MCO2-7-e70973-g003.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="mco270973-kwd-0001">cytokines</kwd><kwd id="mco270973-kwd-0002">epidermal stem cells</kwd><kwd id="mco270973-kwd-0003">regenerative medicine</kwd><kwd id="mco270973-kwd-0004">scar quality</kwd><kwd id="mco270973-kwd-0005">tissue‐engineered skin</kwd><kwd id="mco270973-kwd-0006">wound healing</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Sun Yat‐sen University Clinical Research 5010 Program</institution></institution-wrap>
+</funding-source><award-id>2013001</award-id><award-id>2017013</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>82572883</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>China Postdoctoral Science Foundation</institution><institution-id institution-id-type="doi">10.13039/501100002858</institution-id></institution-wrap>
+</funding-source><award-id>2025M772347</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Guangdong Provincial Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>2024A1515010485</award-id><award-id>2026A1515010501</award-id><award-id>2026A1515010461</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>Clinical Major Technology Project of Guangzhou Municipal Health Commission</institution></institution-wrap>
+</funding-source><award-id>2026P‐ZD025</award-id></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>High‐level Clinical Research Program of the First Affiliated Hospital of Sun Yat‐sen University</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0007"><funding-source>
+<institution-wrap><institution>Fundamental Research Program of Shanxi Province</institution></institution-wrap>
+</funding-source><award-id>202303021212368</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="4"/><page-count count="12"/><word-count count="8655"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:06.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="mco270973-sec-0010"><label>1</label><title>Introduction</title><p>Full‐thickness skin wounds, resulting from trauma, burns, surgery, or chronic diseases such as diabetes, are reported to pose ongoing challenges in clinical practice. These injuries, involving all layers of the skin, often result in both functional impairment and cosmetic concerns [<xref rid="mco270973-bib-0001" ref-type="bibr">1</xref>, <xref rid="mco270973-bib-0002" ref-type="bibr">2</xref>]. Currently, skin grafting is the most widely used strategy for managing full‐thickness wounds. Traditional grafting methods—including split‐thickness, medium‐thickness, full‐thickness, and composite grafts—each have benefits and limitations [<xref rid="mco270973-bib-0003" ref-type="bibr">3</xref>]. While split‐thickness grafts offer high engraftment and reduced donor site morbidity, they are prone to contraction [<xref rid="mco270973-bib-0004" ref-type="bibr">4</xref>]. Medium‐ and full‐thickness grafts provide better durability and appearance but involve greater donor site trauma [<xref rid="mco270973-bib-0005" ref-type="bibr">5</xref>]. Composite grafts reduce donor damage by integrating artificial dermal matrices, yet they suffer from delayed vascularization and lower initial success rates [<xref rid="mco270973-bib-0006" ref-type="bibr">6</xref>]. Overall, current techniques struggle to balance aesthetic and functional outcomes with donor site preservation [<xref rid="mco270973-bib-0007" ref-type="bibr">7</xref>], highlighting the need for novel therapies that minimize donor site injury while better replicating native skin structure and function.</p><p>In recent years, tissue‐engineered skin has emerged as a promising strategy for wound repair, gaining significant attention in regenerative medicine [<xref rid="mco270973-bib-0008" ref-type="bibr">8</xref>, <xref rid="mco270973-bib-0009" ref-type="bibr">9</xref>, <xref rid="mco270973-bib-0010" ref-type="bibr">10</xref>]. This approach typically combines scaffold structures with seed cells to address challenges such as delayed vascularization, which is a common issue with conventional composite grafts [<xref rid="mco270973-bib-0011" ref-type="bibr">11</xref>]. The incorporation of viable cells is believed to endow tissue‐engineered skin with functional properties that closely resemble those of native tissue. Among the various cellular options, epidermal stem cells (EpiSCs) have shown particular promise, as they may enhance wound healing outcomes while simultaneously reducing immune rejection and avoiding the ethical concerns associated with embryonic or allogeneic cell sources [<xref rid="mco270973-bib-0012" ref-type="bibr">12</xref>, <xref rid="mco270973-bib-0013" ref-type="bibr">13</xref>, <xref rid="mco270973-bib-0014" ref-type="bibr">14</xref>, <xref rid="mco270973-bib-0015" ref-type="bibr">15</xref>, <xref rid="mco270973-bib-0016" ref-type="bibr">16</xref>]. However, current tissue‐engineered skin is often viewed as technically complex, expensive, and time consuming, limiting their clinical application [<xref rid="mco270973-bib-0009" ref-type="bibr">9</xref>, <xref rid="mco270973-bib-0017" ref-type="bibr">17</xref>]. Overcoming these challenges, particularly through rapid and cost‐effective intraoperative isolation of EpiSCs, is essential for broader clinical adoption and the advancement of bio‐inspired skin reconstruction.</p><p>Our research group has long focused on the therapeutic application of EpiSCs for wound healing [<xref rid="mco270973-bib-0018" ref-type="bibr">18</xref>, <xref rid="mco270973-bib-0019" ref-type="bibr">19</xref>]. Early investigations suggested that autologous basal cell suspensions may significantly accelerate the repair of both acute and chronic wounds, with EpiSCs playing a central role (Figure <xref rid="mco270973-fig-0001" ref-type="fig">1</xref>) [<xref rid="mco270973-bib-0020" ref-type="bibr">20</xref>]. These cells are thought to promote angiogenesis, modulate immune responses, and support extracellular matrix remodeling, mainly through the release of exosomes and other bioactive substances [<xref rid="mco270973-bib-0021" ref-type="bibr">21</xref>, <xref rid="mco270973-bib-0022" ref-type="bibr">22</xref>, <xref rid="mco270973-bib-0023" ref-type="bibr">23</xref>]. Based on this discovery, we have developed a patented technology to rapidly obtain EpiSCs from split‐thickness skin and combine them with acellular allogeneic dermal matrices. After covering autologous split‐thickness skin graft (STSG), this allows for the rapid intraoperative preparation of tissue‐engineered skin, which has shown promising results in clinical applications (Figure <xref rid="mco270973-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="mco270973-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Workflow of autologous cell suspension enriched with EpiSCs for wound repair.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="MCO2-7-e70973-g001.webp"><?image-name MCO2-7-e70973-g001.webp?><?image-size 32138?><?image-md5 66f5f1673f510b930e9ad8f822a9c4a3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 595?><?image-original-width 840?><?image-scaled-height 595?><?image-scaled-width 840?><?image-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/66f5f1673f51/MCO2-7-e70973-g001.webp?><?thumb-name MCO2-7-e70973-g001.gif?><?thumb-size 12857?><?thumb-md5 caf3c55083f7fa91b3d264ad6645cacc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 142?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/caf3c55083f7/MCO2-7-e70973-g001.gif?></graphic></fig><fig position="float" fig-type="FIGURE" id="mco270973-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Representative therapeutic outcomes of wound repair using rapidly constructed tissue‐engineered skin based on autologous cell suspension enriched with EpiSCs. (A) A 23‐year‐old male patient presented with a residual wound on the dorsum of the right hand following a burn injury. (B) Wound repair using rapidly constructed tissue‐engineered skin. (C) Postoperative immediate photograph showing the wound site. (D) Photograph of the wound area 7 days post‐surgery. (E) Photograph of the wound area 14 days post‐surgery. (F) Photograph of the wound area 6 months post‐surgery.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="MCO2-7-e70973-g004.webp"><?image-name MCO2-7-e70973-g004.webp?><?image-size 38722?><?image-md5 e9695b9ffd2042db9e64ad3603e1f9c8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 428?><?image-original-width 840?><?image-scaled-height 428?><?image-scaled-width 840?><?image-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/e9695b9ffd20/MCO2-7-e70973-g004.webp?><?thumb-name MCO2-7-e70973-g004.gif?><?thumb-size 13043?><?thumb-md5 c7ef2c4f44e6ffd70aec49f29260f467?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 102?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/c7ef2c4f44e6/MCO2-7-e70973-g004.gif?></graphic></fig><p>To further investigate the mechanisms, we applied this rapidly constructed tissue‐engineered skin to repair full‐thickness skin wounds in rats. The results demonstrated that combining EpiSCs with acellular dermal matrix (ADM) significantly improved the angiogenesis process of skin grafts, enhancing the survival rate and healing effect of tissue‐engineered skin in vivo. Especially when using a combined strategy of ADM and autologous split‐thickness skin grafts, EpiSCs promoted angiogenesis, reduced skin graft contraction, and improved wound healing quality. Additionally, EpiSCs effectively promoted the regeneration of skin appendages such as hair follicles and sebaceous glands, thereby better reconstructing the structure and function of the skin. These findings further validate the potential of EpiSCs in repairing full‐thickness skin wounds [<xref rid="mco270973-bib-0024" ref-type="bibr">24</xref>].</p><p>This randomized controlled trial was therefore designed to evaluate the efficacy of intraoperatively prepared, EpiSCs‐enriched tissue‐engineered skin in the treatment of full‐thickness wounds. It was hypothesized that this strategy could improve wound healing outcomes, promote better graft integration, and reduce postoperative complications compared with conventional single‐stage composite grafting. The findings from this study may offer valuable insights into the clinical application of EpiSCs and their role in advancing regenerative strategies for complex skin defects.</p></sec><sec id="mco270973-sec-0020"><label>2</label><title>Results</title><sec id="mco270973-sec-0030"><label>2.1</label><title>Patient Enrollment and Study Flow</title><p>As shown in (Figure <xref rid="mco270973-fig-0003" ref-type="fig">3</xref>), a total of 271 patients were assessed for eligibility, with 232 patients successfully enrolled in the study. These patients were then randomized into two groups: 112 patients received standard treatment, and 120 patients received the cell therapy. At the 6‐month follow‐up, scar evaluation was completed for 103 patients in the standard treatment group and 109 patients in the cell therapy group. The follow‐up period extended up to 6 months, with key assessments at 2 weeks, 3 months, and 6 months post‐treatment. Of the 232 randomized patients, all completed the 2‐week assessment and were included in the analysis at that time point. At the 3‐month follow‐up, 214 patients completed the evaluation and were analyzed, and at the 6‐month follow‐up, 212 patients completed the evaluation and were analyzed. Therefore, analyses were conducted on a per‐protocol (PP) basis, including only participants who completed the assigned treatment and follow‐up at each time point.</p><fig position="float" fig-type="FIGURE" id="mco270973-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Clinical trial profile and study timeline.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="MCO2-7-e70973-g002.webp"><?image-name MCO2-7-e70973-g002.webp?><?image-size 33974?><?image-md5 34ee45a937cfa28dbf3ba585f2fcf0ef?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 595?><?image-original-width 840?><?image-scaled-height 595?><?image-scaled-width 840?><?image-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/34ee45a937cf/MCO2-7-e70973-g002.webp?><?thumb-name MCO2-7-e70973-g002.gif?><?thumb-size 8922?><?thumb-md5 bea1d491b82ea77bc80145a65537ce52?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 142?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3cf4/13547091/bea1d491b82e/MCO2-7-e70973-g002.gif?></graphic></fig></sec><sec id="mco270973-sec-0040"><label>2.2</label><title>Baseline Characteristics of Patients</title><p>The baseline characteristics of patients in the standard treatment group (N = 112) and the cell therapy group (N = 120) were compared to ensure the groups were comparable prior to treatment. The analysis included gender distribution, age, cause of the wound, location of the wound, and wound area (Table <xref rid="mco270973-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="mco270973-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Baseline characteristics of patients receiving standard treatment versus cell therapy.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1">Standard treatment (<italic toggle="yes">N</italic> = 112)</th><th align="center" rowspan="1" colspan="1">
+<p>Cell therapy</p>
+<p>(<italic toggle="yes">N</italic> = 120)</p>
+</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐value</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gender</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">1.000</td></tr><tr><td align="left" rowspan="1" colspan="1">Male</td><td align="center" rowspan="1" colspan="1">70 (62.5%)</td><td align="center" rowspan="1" colspan="1">75 (62.5%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="center" rowspan="1" colspan="1">42 (37.5%)</td><td align="center" rowspan="1" colspan="1">45 (37.5%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Age (years)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">0.246</td></tr><tr><td align="left" rowspan="1" colspan="1">&lt; 18</td><td align="center" rowspan="1" colspan="1">56 (50%)</td><td align="center" rowspan="1" colspan="1">53 (44.2%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">18–60</td><td align="center" rowspan="1" colspan="1">49 (43.8%)</td><td align="center" rowspan="1" colspan="1">52 (43.3%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&gt; 60</td><td align="center" rowspan="1" colspan="1">7 (6.2%)</td><td align="center" rowspan="1" colspan="1">15 (12.5%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cause of wound</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">0.117</td></tr><tr><td align="left" rowspan="1" colspan="1">Scar</td><td align="center" rowspan="1" colspan="1">51 (45.5%)</td><td align="center" rowspan="1" colspan="1">48 (40%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Ulcer</td><td align="center" rowspan="1" colspan="1">29 (25.9%)</td><td align="center" rowspan="1" colspan="1">46 (38.3%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Burn</td><td align="center" rowspan="1" colspan="1">32 (28.6%)</td><td align="center" rowspan="1" colspan="1">26 (21.7%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Location of wound</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">0.118</td></tr><tr><td align="left" rowspan="1" colspan="1">Upper limb</td><td align="center" rowspan="1" colspan="1">48 (42.9%)</td><td align="center" rowspan="1" colspan="1">39 (32.5%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Lower limbs</td><td align="center" rowspan="1" colspan="1">52 (46.4%)</td><td align="center" rowspan="1" colspan="1">61 (50.8%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Trunk</td><td align="center" rowspan="1" colspan="1">10 (8.9%)</td><td align="center" rowspan="1" colspan="1">11 (9.2%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Head and neck</td><td align="center" rowspan="1" colspan="1">2 (1.8%)</td><td align="center" rowspan="1" colspan="1">9 (7.5%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Area of wound (cm<sup>2</sup>)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">0.057</td></tr><tr><td align="left" rowspan="1" colspan="1">&lt; 30</td><td align="center" rowspan="1" colspan="1">50 (44.6%)</td><td align="center" rowspan="1" colspan="1">55 (45.8%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">30–50</td><td align="center" rowspan="1" colspan="1">27 (24.1%)</td><td align="center" rowspan="1" colspan="1">22 (18.3%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">50–100</td><td align="center" rowspan="1" colspan="1">12 (10.7%)</td><td align="center" rowspan="1" colspan="1">27 (22.5%)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&gt; 100</td><td align="center" rowspan="1" colspan="1">23 (20.5%)</td><td align="center" rowspan="1" colspan="1">16 (13.3%)</td><td align="center" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="mco270973-tbl1-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as <italic toggle="yes">n</italic> (%).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>The gender distribution was identical between the two groups, with 62.5% male and 37.5% female in both the standard treatment and cell therapy groups. This indicates that gender was well balanced across the groups, with a <italic toggle="yes">p</italic>‐value of 1.000, showing no significant difference. Patients were divided into three age groups: under 18 years, 18–60 years, and over 60 years. In the standard treatment group, 50% were under 18 years, 43.8% were between 18 and 60 years, and 6.2% were over 60 years. In the cell therapy group, 44.2% were under 18 years, 43.3% were between 18 and 60 years, and 12.5% were over 60 years. While there were slightly more patients over 60 years in the cell therapy group, the difference was not statistically significant (<italic toggle="yes">p</italic> = 0.246). The causes of wounds included scars, ulcers, and burns. In the standard treatment group, 45.5% of wounds were due to scars, 25.9% to ulcers, and 28.6% to burns. In the cell therapy group, 40% of wounds were due to scars, 38.3% to ulcers, and 21.7% to burns. Although there was a higher proportion of ulcers in the cell therapy group, this difference was not statistically significant (<italic toggle="yes">p</italic> = 0.117). Wounds were categorized based on their location: upper limb, lower limbs, trunk, and head and neck. In the standard treatment group, 42.9% of wounds were on the upper limb, 46.4% on the lower limbs, 8.9% on the trunk, and 1.8% on the head and neck. In the cell therapy group, 32.5% of wounds were on the upper limb, 50.8% on the lower limbs, 9.2% on the trunk, and 7.5% on the head and neck. No statistically significant between‐group difference was detected in the overall distribution of wound location (<italic toggle="yes">p</italic> = 0.118). Wound areas were categorized as less than 30 cm<sup>2</sup>, 30–50 cm<sup>2</sup>, 50–100 cm<sup>2</sup>, and greater than 100 cm<sup>2</sup>. In the standard treatment group, 44.6% of wounds were smaller than 30 cm<sup>2</sup>, 24.1% were 30–50 cm<sup>2</sup>, 10.7% were 50–100 cm<sup>2</sup>, and 20.5% were larger than 100 cm<sup>2</sup>. In the cell therapy group, 45.8% of wounds were smaller than 30 cm<sup>2</sup>, 18.3% were 30–50 cm<sup>2</sup>, 22.5% were 50–100 cm<sup>2</sup>, and 13.3% were larger than 100 cm<sup>2</sup>. No statistically significant between‐group difference was detected in the overall distribution of wound area, although the global comparison was close to the conventional significance threshold (<italic toggle="yes">p</italic> = 0.057).</p><p>The baseline characteristics of patients in the standard treatment and cell therapy groups were generally comparable, with no statistically significant differences in gender, age, cause of wound, wound location, or wound area. However, trends were observed in the distribution of wound causes, locations, and sizes, which may warrant further consideration in the interpretation of treatment outcomes. These findings suggest that any differences observed in treatment efficacy are likely attributable to the interventions rather than baseline disparities between the groups.</p></sec><sec id="mco270973-sec-0050"><label>2.3</label><title>Effect of Treatment on Wound Healing</title><p>A total of 232 patients were included in the study, with 141 achieving full wound healing within 2 weeks and 91 not fully healed (Table <xref rid="mco270973-tbl-0002" ref-type="table">2</xref>). The patients were divided into two groups based on the treatment method: standard treatment (<italic toggle="yes">n</italic> = 112) and cell therapy (<italic toggle="yes">n</italic> = 120).</p><table-wrap position="float" id="mco270973-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Univariable and multivariable analysis of factors influencing wound healing at 2 weeks.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">
+<p>Wound healing</p>
+<p>(2 weeks)</p>
+</th><th align="center" rowspan="1" colspan="1">
+<p>Not fully healed</p>
+<p>(<italic toggle="yes">N</italic> = 91)</p>
+</th><th align="center" rowspan="1" colspan="1">
+<p>Fully healed</p>
+<p>(<italic toggle="yes">N</italic> = 141)</p>
+</th><th align="center" rowspan="1" colspan="1">OR (univariable)</th><th align="center" rowspan="1" colspan="1">OR (multivariable)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Group</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Standard treatment</td><td align="center" rowspan="1" colspan="1">51 (56%)</td><td align="center" rowspan="1" colspan="1">61 (43.3%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Cell therapy</td><td align="center" rowspan="1" colspan="1">40 (44%)</td><td align="center" rowspan="1" colspan="1">80 (56.7%)</td><td align="center" rowspan="1" colspan="1">1.67 (0.98–2.84, <italic toggle="yes">p</italic> = 0.058)</td><td align="center" rowspan="1" colspan="1">1.87 (1.06–3.28, <italic toggle="yes">p</italic> = 0.029)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gender</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Male</td><td align="center" rowspan="1" colspan="1">65 (71.4%)</td><td align="center" rowspan="1" colspan="1">80 (56.7%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="center" rowspan="1" colspan="1">26 (28.6%)</td><td align="center" rowspan="1" colspan="1">61 (43.3%)</td><td align="center" rowspan="1" colspan="1">1.91 (1.08–3.35, <italic toggle="yes">p</italic> = 0.025)</td><td align="center" rowspan="1" colspan="1">1.83 (1.02–3.27, <italic toggle="yes">p</italic> = 0.042)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Age (years)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&lt; 18</td><td align="center" rowspan="1" colspan="1">36 (39.6%)</td><td align="center" rowspan="1" colspan="1">73 (51.8%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">18–60</td><td align="center" rowspan="1" colspan="1">46 (50.5%)</td><td align="center" rowspan="1" colspan="1">55 (39%)</td><td align="center" rowspan="1" colspan="1">0.59 (0.34–1.03, <italic toggle="yes">p</italic> = 0.064)</td><td align="center" rowspan="1" colspan="1">0.67 (0.36–1.26, <italic toggle="yes">p</italic> = 0.216)</td></tr><tr><td align="left" rowspan="1" colspan="1">&gt; 60</td><td align="center" rowspan="1" colspan="1">9 (9.9%)</td><td align="center" rowspan="1" colspan="1">13 (9.2%)</td><td align="center" rowspan="1" colspan="1">0.71 (0.28–1.82, <italic toggle="yes">p</italic> = 0.479)</td><td align="center" rowspan="1" colspan="1">0.76 (0.26–2.19, <italic toggle="yes">p</italic> = 0.607)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cause of wound</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Scar</td><td align="center" rowspan="1" colspan="1">34 (37.4%)</td><td align="center" rowspan="1" colspan="1">65 (46.1%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Ulcer</td><td align="center" rowspan="1" colspan="1">33 (36.3%)</td><td align="center" rowspan="1" colspan="1">42 (29.8%)</td><td align="center" rowspan="1" colspan="1">0.67 (0.36–1.23, <italic toggle="yes">p</italic> = 0.196)</td><td align="center" rowspan="1" colspan="1">0.78 (0.35–1.70, <italic toggle="yes">p</italic> = 0.529)</td></tr><tr><td align="left" rowspan="1" colspan="1">Burn</td><td align="center" rowspan="1" colspan="1">24 (26.4%)</td><td align="center" rowspan="1" colspan="1">34 (24.1%)</td><td align="center" rowspan="1" colspan="1">0.74 (0.38–1.44, <italic toggle="yes">p</italic> = 0.379)</td><td align="center" rowspan="1" colspan="1">0.80 (0.39–1.62, <italic toggle="yes">p</italic> = 0.529)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Location of wound</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Upper limb</td><td align="center" rowspan="1" colspan="1">28 (30.8%)</td><td align="center" rowspan="1" colspan="1">59 (41.8%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Lower limbs</td><td align="center" rowspan="1" colspan="1">49 (53.8%)</td><td align="center" rowspan="1" colspan="1">64 (45.4%)</td><td align="center" rowspan="1" colspan="1">0.62 (0.35–1.11, <italic toggle="yes">p</italic> = 0.108)</td><td align="center" rowspan="1" colspan="1">0.73 (0.37–1.43, <italic toggle="yes">p</italic> = 0.357)</td></tr><tr><td align="left" rowspan="1" colspan="1">Trunk</td><td align="center" rowspan="1" colspan="1">9 (9.9%)</td><td align="center" rowspan="1" colspan="1">12 (8.5%)</td><td align="center" rowspan="1" colspan="1">0.63 (0.24–1.68, <italic toggle="yes">p</italic> = 0.357)</td><td align="center" rowspan="1" colspan="1">0.62 (0.22–1.71, <italic toggle="yes">p</italic> = 0.355)</td></tr><tr><td align="left" rowspan="1" colspan="1">Head and neck</td><td align="center" rowspan="1" colspan="1">5 (5.5%)</td><td align="center" rowspan="1" colspan="1">6 (4.3%)</td><td align="center" rowspan="1" colspan="1">0.57 (0.16–2.03, <italic toggle="yes">p</italic> = 0.385)</td><td align="center" rowspan="1" colspan="1">0.53 (0.14–2.01, <italic toggle="yes">p</italic> = 0.350)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Area of wound (cm<sup>2</sup>)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&lt; 30</td><td align="center" rowspan="1" colspan="1">39 (42.9%)</td><td align="center" rowspan="1" colspan="1">66 (46.8%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">30–50</td><td align="center" rowspan="1" colspan="1">23 (25.3%)</td><td align="center" rowspan="1" colspan="1">26 (18.4%)</td><td align="center" rowspan="1" colspan="1">0.67 (0.34–1.33, <italic toggle="yes">p</italic> = 0.249)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">50–100</td><td align="center" rowspan="1" colspan="1">13 (14.3%)</td><td align="center" rowspan="1" colspan="1">26 (18.4%)</td><td align="center" rowspan="1" colspan="1">1.18 (0.54–2.56, <italic toggle="yes">p</italic> = 0.672)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&gt; 100</td><td align="center" rowspan="1" colspan="1">16 (17.6%)</td><td align="center" rowspan="1" colspan="1">23 (16.3%)</td><td align="center" rowspan="1" colspan="1">0.85 (0.40–1.80, <italic toggle="yes">p</italic> = 0.670)</td><td align="center" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="mco270973-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as <italic toggle="yes">n</italic> (column percentage) to illustrate the compositional distribution of covariates within each outcome cohort.</p></fn><fn id="mco270973-tbl2-note-0002"><p>Abbreviations: CI, confidence interval; OR, odds ratio.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>At 2 weeks, complete wound healing was achieved in 80 of 120 patients in the cell therapy group and 61 of 112 patients in the standard treatment group, corresponding to healing rates of 66.7% and 54.5%, respectively. Representative wound‐healing progression in both treatment groups is shown in Figure <xref rid="mco270973-supinfo-0001" ref-type="">S1</xref>. Univariable analysis showed a higher likelihood of complete healing in the cell therapy group (odds ratios [OR] = 1.67, 95% confidence interval [CI]: 0.98–2.84, <italic toggle="yes">p</italic> = 0.058), and this association reached statistical significance after adjustment (OR = 1.87, 95% CI: 1.06–3.28, <italic toggle="yes">p</italic> = 0.029). Gender was a significant predictor of wound healing. Females were more likely to achieve full wound healing compared to males. In the univariable analysis, the OR for females was 1.91 (95% CI: 1.08–3.35, <italic toggle="yes">p</italic> = 0.025). This finding remained significant in the multivariable analysis with an OR of 1.83 (95% CI: 1.02–3.27, <italic toggle="yes">p</italic> = 0.042). Age did not significantly affect the wound healing outcomes. Age was not significantly associated with complete wound healing. Compared with patients younger than 18 years, those aged 18–60 years showed a nonsignificant trend toward lower odds of complete healing in univariable analysis (OR = 0.59, 95% CI: 0.34–1.03, <italic toggle="yes">p</italic> = 0.064), which was attenuated after adjustment (OR = 0.67, 95% CI: 0.36–1.26, <italic toggle="yes">p</italic> = 0.216). This attenuation is likely attributable to confounding interactions with other demographic or treatment‐related variables within the adjusted model. The cause of the wound (scar, ulcer, or burn) did not significantly influence healing outcomes. Wound etiology was not significantly associated with complete healing. Compared with scar wounds, ulcers and burns were not associated with significantly different odds of healing in either univariable or multivariable analyses. Although forced into the multivariable model due to clinical relevance, the analysis confirmed no significant difference, yielding an OR of 0.78 (95% CI: 0.35–1.70, <italic toggle="yes">p</italic> = 0.529) for ulcers and an OR of 0.80 (95% CI: 0.39–1.62, <italic toggle="yes">p</italic> = 0.529) for burns, indicating no significant difference. The location of the wound also did not significantly impact the healing process. Wound location was not significantly associated with complete healing. In multivariable analysis, lower‐limb, trunk, and head‐and‐neck wounds did not differ significantly from upper‐limb wounds. Multivariable analysis confirmed the lack of significant association, with an OR of 0.73 (95% CI: 0.37–1.43, <italic toggle="yes">p</italic> = 0.357) for lower limb wounds compared to upper limb wounds. The area of the wound was not a significant factor in determining healing outcomes. Wound area was not significantly associated with complete healing in univariable analysis. Because none of the wound‐area categories approached the predefined <italic toggle="yes">p</italic> &lt; 0.10 threshold, wound area was not included in the multivariable model. In the univariable analysis, the ORs were 0.67 (95% CI: 0.34–1.33, <italic toggle="yes">p</italic> = 0.249) for wounds 30–50 cm<sup>2</sup>, 1.18 (95% CI: 0.54–2.56, <italic toggle="yes">p</italic> = 0.672) for wounds 50–100 cm<sup>2</sup>, and 0.85 (95% CI: 0.40–1.80, <italic toggle="yes">p</italic> = 0.670) for wounds greater than 100 cm<sup>2</sup>. Because these values did not approach the predefined <italic toggle="yes">p</italic> &lt; 0.10 threshold, wound area was excluded from the multivariable model.</p><p>In summary, the rapid construction of tissue‐engineered skin using EpiSCs demonstrated a significant positive effect on wound healing outcomes compared to standard treatment, particularly in female patients. Other factors, including age, wound cause, location, and size, were not significant predictors of healing success in this study.</p></sec><sec id="mco270973-sec-0060"><label>2.4</label><title>Long‐Term Outcomes of Tissue‐Engineered Skin in Wound Healing and Recurrence</title><p>The study evaluated factors associated with wound recurrence at 3 months post‐treatment (Table <xref rid="mco270973-tbl-0003" ref-type="table">3</xref>). A total of 214 patients were assessed, with 196 (91.6%) experiencing no recurrence of wounds and 18 (8.4%) experiencing recurrence.</p><table-wrap position="float" id="mco270973-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Univariable and multivariable analysis of factors influencing wound recurrence at 3 months.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">
+<p>Wound healing</p>
+<p>(3 months)</p>
+</th><th align="center" rowspan="1" colspan="1">
+<p>No recurrence of wounds</p>
+<p>(<italic toggle="yes">N</italic> = 196)</p>
+</th><th align="center" rowspan="1" colspan="1">
+<p>Recurrence of wounds</p>
+<p>(<italic toggle="yes">N</italic> = 18)</p>
+</th><th align="center" rowspan="1" colspan="1">OR (univariable)</th><th align="center" rowspan="1" colspan="1">OR (multivariable)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Wound healing (2 weeks)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Not fully healed</td><td align="center" rowspan="1" colspan="1">66 (33.7%)</td><td align="center" rowspan="1" colspan="1">12 (66.7%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Fully healed</td><td align="center" rowspan="1" colspan="1">130 (66.3%)</td><td align="center" rowspan="1" colspan="1">6 (33.3%)</td><td align="center" rowspan="1" colspan="1">0.25 (0.09–0.71, <italic toggle="yes">p</italic> = 0.009)</td><td align="center" rowspan="1" colspan="1">0.26 (0.09‐0.75, <italic toggle="yes">p</italic> = 0.012)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Group</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Standard treatment</td><td align="center" rowspan="1" colspan="1">93 (47.4%)</td><td align="center" rowspan="1" colspan="1">11 (61.1%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Cell therapy</td><td align="center" rowspan="1" colspan="1">103 (52.6%)</td><td align="center" rowspan="1" colspan="1">7 (38.9%)</td><td align="center" rowspan="1" colspan="1">0.57 (0.21–1.54, <italic toggle="yes">p</italic> = 0.272)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gender</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Male</td><td align="center" rowspan="1" colspan="1">121 (61.7%)</td><td align="center" rowspan="1" colspan="1">10 (55.6%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="center" rowspan="1" colspan="1">75 (38.3%)</td><td align="center" rowspan="1" colspan="1">8 (44.4%)</td><td align="center" rowspan="1" colspan="1">1.29 (0.49–3.42, <italic toggle="yes">p</italic> = 0.607)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Age (years)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&lt; 18</td><td align="center" rowspan="1" colspan="1">99 (50.5%)</td><td align="center" rowspan="1" colspan="1">7 (38.9%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">18–60</td><td align="center" rowspan="1" colspan="1">81 (41.3%)</td><td align="center" rowspan="1" colspan="1">8 (44.4%)</td><td align="center" rowspan="1" colspan="1">1.40 (0.49–4.02, <italic toggle="yes">p</italic> = 0.535)</td><td align="center" rowspan="1" colspan="1">0.79 (0.23–2.71, <italic toggle="yes">p</italic> = 0.711)</td></tr><tr><td align="left" rowspan="1" colspan="1">&gt; 60</td><td align="center" rowspan="1" colspan="1">16 (8.2%)</td><td align="center" rowspan="1" colspan="1">3 (16.7%)</td><td align="center" rowspan="1" colspan="1">2.65 (0.62–11.33, <italic toggle="yes">p</italic> = 0.188)</td><td align="center" rowspan="1" colspan="1">1.23 (0.21–7.36, <italic toggle="yes">p</italic> = 0.821)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cause of wound</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Scar</td><td align="center" rowspan="1" colspan="1">92 (46.9%)</td><td align="center" rowspan="1" colspan="1">5 (27.8%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Ulcer</td><td align="center" rowspan="1" colspan="1">56 (28.6%)</td><td align="center" rowspan="1" colspan="1">9 (50%)</td><td align="center" rowspan="1" colspan="1">2.96 (0.94–9.27, <italic toggle="yes">p</italic> = 0.063)</td><td align="center" rowspan="1" colspan="1">2.01 (0.48–8.39, <italic toggle="yes">p</italic> = 0.340)</td></tr><tr><td align="left" rowspan="1" colspan="1">Burn</td><td align="center" rowspan="1" colspan="1">48 (24.5%)</td><td align="center" rowspan="1" colspan="1">4 (22.2%)</td><td align="center" rowspan="1" colspan="1">1.53 (0.39–5.98, <italic toggle="yes">p</italic> = 0.538)</td><td align="center" rowspan="1" colspan="1">1.45 (0.34–6.10, <italic toggle="yes">p</italic> = 0.616)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Location of wound</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Upper limb</td><td align="center" rowspan="1" colspan="1">81 (41.3%)</td><td align="center" rowspan="1" colspan="1">5 (27.8%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Lower limbs</td><td align="center" rowspan="1" colspan="1">88 (44.9%)</td><td align="center" rowspan="1" colspan="1">12 (66.7%)</td><td align="center" rowspan="1" colspan="1">2.21 (0.75–6.54, <italic toggle="yes">p</italic> = 0.153)</td><td align="center" rowspan="1" colspan="1">1.68 (0.47–6.05, <italic toggle="yes">p</italic> = 0.428)</td></tr><tr><td align="left" rowspan="1" colspan="1">Trunk</td><td align="center" rowspan="1" colspan="1">18 (9.2%)</td><td align="center" rowspan="1" colspan="1">0 (0%)</td><td align="center" rowspan="1" colspan="1">0.00 (0.00–Inf, <italic toggle="yes">p</italic> = 0.992)</td><td align="center" rowspan="1" colspan="1">0.00 (0.00–Inf, <italic toggle="yes">p</italic> = 0.992)</td></tr><tr><td align="left" rowspan="1" colspan="1">Head and neck</td><td align="center" rowspan="1" colspan="1">9 (4.6%)</td><td align="center" rowspan="1" colspan="1">1 (5.6%)</td><td align="center" rowspan="1" colspan="1">1.80 (0.19–17.16, <italic toggle="yes">p</italic> = 0.609)</td><td align="center" rowspan="1" colspan="1">1.85 (0.18–18.66, <italic toggle="yes">p</italic> = 0.600)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Area of wound (cm<sup>2</sup>)</bold>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&lt; 30</td><td align="center" rowspan="1" colspan="1">87 (44.4%)</td><td align="center" rowspan="1" colspan="1">9 (50%)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">30–50</td><td align="center" rowspan="1" colspan="1">42 (21.4%)</td><td align="center" rowspan="1" colspan="1">4 (22.2%)</td><td align="center" rowspan="1" colspan="1">0.92 (0.27–3.16, <italic toggle="yes">p</italic> = 0.895)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">50–100</td><td align="center" rowspan="1" colspan="1">34 (17.3%)</td><td align="center" rowspan="1" colspan="1">2 (11.1%)</td><td align="center" rowspan="1" colspan="1">0.57 (0.12–2.77, <italic toggle="yes">p</italic> = 0.484)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&gt; 100</td><td align="center" rowspan="1" colspan="1">33 (16.8%)</td><td align="center" rowspan="1" colspan="1">3 (16.7%)</td><td align="center" rowspan="1" colspan="1">0.88 (0.22–3.45, <italic toggle="yes">p</italic> = 0.853)</td><td align="center" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="mco270973-tbl3-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as <italic toggle="yes">n</italic> (column percentage) to illustrate the compositional distribution of covariates within each outcome cohort.</p></fn><fn id="mco270973-tbl3-note-0002"><p>Abbreviations: CI, confidence interval; Inf, infinity; OR, odds ratio.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Patients who achieved full wound healing within the first 2 weeks had a significantly lower risk of wound recurrence at three months. Specifically, patients who achieved complete wound healing within the first 2 weeks had a lower 3‐month recurrence rate than those who did not achieve complete early healing (6/136 [4.4%] vs. 12/78 [15.4%]). Univariable analysis showed that early complete healing was associated with a significantly reduced risk of recurrence (OR = 0.25, 95% CI: 0.09–0.71, <italic toggle="yes">p</italic> = 0.009), and this association remained significant after adjustment (adjusted OR = 0.26, 95% CI: 0.09–0.75, <italic toggle="yes">p</italic> = 0.012). The study compared the effects of standard treatment versus tissue‐engineered skin therapy. Recurrence occurred in seven of 110 patients in the cell therapy group and 11 of 104 patients in the standard treatment group, corresponding to recurrence rates of 6.4% and 10.6%, respectively. Although numerically lower in the cell therapy group, this difference was not statistically significant (OR = 0.57, 95% CI: 0.21–1.54, <italic toggle="yes">p</italic> = 0.272). The lack of significance may suggest that while tissue‐engineered skin has potential benefits in reducing recurrence, further investigation with larger sample sizes is warranted. Gender was not significantly associated with wound recurrence in univariable analysis (OR = 1.29, 95% CI: 0.49–3.42, <italic toggle="yes">p</italic> = 0.607). Age was not a significant predictor of wound recurrence. Age was not a significant predictor of wound recurrence. In multivariable analysis, neither patients aged 18–60 years nor those older than 60 years differed significantly from patients younger than 18 years. Multivariable analysis showed no significant difference between age groups, with an OR of 0.79 (95% CI: 0.23–2.71, <italic toggle="yes">p</italic> = 0.711) for patients aged 18–60 years and an OR of 1.23 (95% CI: 0.21–7.36, <italic toggle="yes">p</italic> = 0.821) for those over 60 years. The cause of the wound, whether scar, ulcer, or burn, did not significantly impact recurrence. Wound etiology was not significantly associated with recurrence after adjustment. Although ulcers showed a nonsignificant trend toward higher odds of recurrence in univariable analysis (OR = 2.96, 95% CI: 0.94–9.27, <italic toggle="yes">p</italic> = 0.063), this association was attenuated in the multivariable model. The location of the wound did not significantly affect recurrence rates. Wound location was not significantly associated with recurrence. Lower‐limb wounds showed numerically higher odds of recurrence than upper‐limb wounds, but the difference was not statistically significant (OR = 1.68, 95% CI: 0.47–6.05, <italic toggle="yes">p</italic> = 0.428). Wound size was not a significant factor in predicting recurrence. Wound size was not significantly associated with recurrence in univariable analysis. Univariable analysis showed no significant differences across wound size categories, with an OR of 0.92 (95% CI: 0.27–3.16, <italic toggle="yes">p</italic> = 0.895) for wounds 30–50 cm<sup>2</sup> and an OR of 0.88 (95% CI: 0.22–3.45, <italic toggle="yes">p</italic> = 0.853) for wounds larger than 100 cm<sup>2</sup>.</p><p>The rapid construction of tissue‐engineered skin using EpiSCs significantly reduced the risk of wound recurrence, particularly when early wound healing was achieved within the first 2 weeks. While the trend toward reduced recurrence with cell therapy was observed, it did not reach statistical significance, indicating the need for further research. Other factors such as gender, age, wound cause, location, and size did not significantly impact recurrence rates in this cohort. These findings highlight the potential of tissue‐engineered skin in improving long‐term outcomes in wound healing and support further investigation into its clinical applications.</p></sec><sec id="mco270973-sec-0070"><label>2.5</label><title>Scar Assessment</title><p>The effectiveness of tissue‐engineered skin using EpiSCs in skin defect repair was evaluated by comparing scar characteristics between the standard treatment group (<italic toggle="yes">N</italic> = 103) and the cell therapy group (<italic toggle="yes">N</italic> = 109) at 6 months post‐treatment. The Vancouver Scar Scale (VSS) was used to assess four key parameters: pigmentation/color, height/thickness, vascularity, and pliability, as well as the total scar score (Table <xref rid="mco270973-tbl-0004" ref-type="table">4</xref>).</p><table-wrap position="float" id="mco270973-tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>Comparison of Vancouver Scar Scale scores between standard treatment and cell therapy groups.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">VSS domain</th><th align="center" rowspan="1" colspan="1">Standard treatment (N = 103)</th><th align="center" rowspan="1" colspan="1">
+<p>Cell therapy</p>
+<p>(N = 109)</p>
+</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐value</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Pigmentation</td><td align="center" rowspan="1" colspan="1">1.0 (0.0–2.0)</td><td align="center" rowspan="1" colspan="1">0.0 (0.0–1.0)</td><td align="center" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">Height</td><td align="center" rowspan="1" colspan="1">1.0 (1.0–2.0)</td><td align="center" rowspan="1" colspan="1">1.0 (0.0–1.0)</td><td align="center" rowspan="1" colspan="1">&lt; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">Vascularity</td><td align="center" rowspan="1" colspan="1">1.0 (1.0–2.0)</td><td align="center" rowspan="1" colspan="1">1.0 (0.0–1.0)</td><td align="center" rowspan="1" colspan="1">&lt; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">Pliability</td><td align="center" rowspan="1" colspan="1">2.0 (1.0–2.0)</td><td align="center" rowspan="1" colspan="1">1.0 (1.0–1.0)</td><td align="center" rowspan="1" colspan="1">&lt; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">Total VSS score</td><td align="center" rowspan="1" colspan="1">6.0 (4.0–8.0)</td><td align="center" rowspan="1" colspan="1">3.0 (2.0–4.0)</td><td align="center" rowspan="1" colspan="1">&lt; 0.001</td></tr></tbody></table><table-wrap-foot><fn id="mco270973-tbl4-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are presented as median (interquartile range).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>The cell therapy group exhibited significantly better outcomes in scar color, with a median score of 0.0 (interquartile range [IQR]: 0.0–1.0), compared to the standard treatment group, which had a median score of 1.0 (IQR: 0.0–2.0). The difference was statistically significant (<italic toggle="yes">p</italic> = 0.001), indicating a more favorable scar color in patients treated with cell therapy. Scar thickness was also significantly reduced in the cell therapy group, with a median score of 1.0 (IQR: 0.0–1.0), compared to a median score of 1.0 (IQR: 1.0–2.0) in the standard treatment group. The reduction in scar thickness with cell therapy was highly significant (<italic toggle="yes">p</italic> &lt; 0.001). The vascularity scores were notably lower in the cell therapy group, with a median score of 1.0 (IQR: 0.0–1.0), compared to 1.0 (IQR: 1.0–2.0) in the standard treatment group. This difference was statistically significant (<italic toggle="yes">p</italic> &lt; 0.001), suggesting that cell therapy leads to less vascularized scars. The cell therapy group showed a significant improvement in scar pliability, with a median score of 1.0 (IQR: 1.0–1.0), compared to 2.0 (IQR: 1.0–2.0) in the standard treatment group. The difference was statistically significant (<italic toggle="yes">p</italic> &lt; 0.001), indicating that scars were more pliable in the cell therapy group. When considering the total scar score, which combines all four parameters, the cell therapy group had a median score of 3.0 (IQR: 2.0–4.0), significantly lower than the median score of 6.0 (IQR: 4.0–8.0) in the standard treatment group (<italic toggle="yes">p</italic> &lt; 0.001). This comprehensive assessment demonstrates that cell therapy results in superior overall scar quality.</p><p>The results indicate that the rapid construction of tissue‐engineered skin using EpiSCs significantly improves scar outcomes in patients with skin defects. Compared to standard treatment, cell therapy leads to better scar color, reduced thickness, lower vascularity, and enhanced pliability, culminating in a significantly improved overall scar score. These findings highlight the potential of cell‐based therapies in enhancing the quality of wound healing and scar formation in clinical settings.</p></sec><sec id="mco270973-sec-0080"><label>2.6</label><title>Safety Outcomes</title><p>No adverse events (AEs) or serious adverse events (SAEs) related to the interventions were observed during hospitalization or throughout the 6‐month follow‐up. These findings suggest that the treatment was well tolerated and safe in all patients.</p></sec></sec><sec id="mco270973-sec-0090"><label>3</label><title>Discussion</title><p>This study demonstrates the significant potential of EpiSCs in the construction of tissue‐engineered skin, particularly for enhancing wound healing and improving scar quality. Our findings provide compelling evidence that the integration of EpiSCs into advanced therapeutic modalities offers a promising alternative to standard treatment approaches for full‐thickness skin defects.</p><p>The most noteworthy outcome of this study is the significantly higher wound healing rate observed in the cell therapy group compared to the standard treatment group. The complete wound healing rate at 2 weeks was 66.7% in the cell therapy group and 54.5% in the standard treatment group, supporting the regenerative potential of EpiSC‐enhanced therapy. Multivariable analysis further showed that patients receiving EpiSC‐enhanced therapy had higher adjusted odds of achieving complete wound healing (adjusted OR = 1.87, 95% CI: 1.06–3.28, <italic toggle="yes">p</italic> = 0.029). Although age, gender, wound etiology, and wound location were controlled for in the analysis, it is worth noting that female patients demonstrated a higher likelihood of complete wound healing. This finding aligns with previous studies suggesting that biological differences between genders may influence wound healing processes [<xref rid="mco270973-bib-0025" ref-type="bibr">25</xref>, <xref rid="mco270973-bib-0026" ref-type="bibr">26</xref>].</p><p>In addition to the improved healing rates, scar quality was markedly better in the cell therapy group, with significantly lower scores across multiple dimensions such as color, thickness, vascularization, and pliability. These results indicate that EpiSCs not only accelerate wound closure but also mitigate hypertrophic scarring, a major clinical concern [<xref rid="mco270973-bib-0027" ref-type="bibr">27</xref>, <xref rid="mco270973-bib-0028" ref-type="bibr">28</xref>]. The superior scar outcomes are consistent with the known anti‐fibrotic properties of stem cells [<xref rid="mco270973-bib-0029" ref-type="bibr">29</xref>, <xref rid="mco270973-bib-0030" ref-type="bibr">30</xref>], likely related to their ability to modulate the extracellular matrix and limit collagen accumulation. Importantly, reductions in VSS scores represent clinically meaningful improvements, reflecting reduced contracture and more natural appearance—factors directly linked to better functional recovery and cosmetic outcomes. These findings further support the therapeutic potential of stem cells in optimizing both function and aesthetics in wound repair.</p><p>Moreover, the absence of significant differences in healing outcomes based on wound location, size, or cause in our study is noteworthy. The consistent efficacy of EpiSCs‐based therapy across varying wound areas, including large defects (&gt; 100 cm<sup>2</sup>), demonstrates that this approach is not restricted by wound dimensions. This suggests that the intraoperative application of EpiSCs may be broadly applicable across different types of wounds, making it a versatile and robust option for a wide range of complex clinical scenarios [<xref rid="mco270973-bib-0031" ref-type="bibr">31</xref>, <xref rid="mco270973-bib-0032" ref-type="bibr">32</xref>].</p><p>Regarding recurrence, the 3‐month recurrence rate was numerically lower in the cell therapy group than in the standard treatment group (7/110 [6.4%] vs. 11/104 [10.6%]), but the difference did not reach statistical significance. This may be attributed to the relatively short follow‐up period of 6 months, which may not have been sufficient to capture long‐term recurrence patterns. Future studies with extended follow‐up are necessary to better understand the potential of EpiSCs in reducing wound recurrence over time. Despite the promising outcomes, the recurrence of wounds in a small subset of patients highlights the need for ongoing monitoring and optimization of the treatment protocols. While our study did not find a statistically significant difference in wound recurrence rates between the cell therapy and standard treatment groups, the observed trend suggests that further research with larger sample sizes and longer follow‐up periods is necessary to fully elucidate the long‐term benefits of EpiSCs‐based therapies. Importantly, beyond recurrence outcomes, our findings further support that EpiSC‐based therapy is not only effective in improving wound healing and scar quality, but also well tolerated without increasing the risk of treatment‐related AEs, consistent with previous clinical observations.</p><p>The results demonstrate that the intraoperative rapid preparation of EpiSCs‐based tissue‐engineered skin significantly enhances wound healing and scar quality, outperforming conventional composite skin grafting. Notably, improvements in scar appearance and VSS scores underscore its strong clinical potential. Given its dual benefits in function and aesthetics, this approach is particularly suitable for anatomically and cosmetically sensitive areas. Consistency with previous animal studies provides additional support for its clinical application [<xref rid="mco270973-bib-0024" ref-type="bibr">24</xref>]. Prior studies in burn patients have already highlighted the potential of epidermal cell–based therapies: for example, Gardien et al. reported that combining split‐thickness grafts with cultured epidermal cells accelerated re‐epithelialization and improved scar appearance and pliability at 12 months [<xref rid="mco270973-bib-0033" ref-type="bibr">33</xref>], while other series confirmed durable epidermal regeneration and scar improvement after cultured epithelial autografts in extensive burns. Similarly, in chronic nonhealing wounds, autologous non‐cultured epidermal or keratinocyte suspensions, as well as cultured keratinocyte grafts, have been shown to enhance closure rates and improve tissue quality [<xref rid="mco270973-bib-0034" ref-type="bibr">34</xref>, <xref rid="mco270973-bib-0035" ref-type="bibr">35</xref>, <xref rid="mco270973-bib-0036" ref-type="bibr">36</xref>, <xref rid="mco270973-bib-0037" ref-type="bibr">37</xref>, <xref rid="mco270973-bib-0038" ref-type="bibr">38</xref>, <xref rid="mco270973-bib-0039" ref-type="bibr">39</xref>]. Compared to previous strategies, the key innovation of our approach lies in the intraoperative rapid sorting and immediate application of high‐purity autologous EpiSCs, which circumvents the need for prolonged in vitro culture. Unlike traditional methods that rely on cultured epidermal cells or keratinocyte grafts, our approach constructs tissue‐engineered skin that achieves bio‐inspired repair, replicating the structure and function of native skin. This method produces functional skin superior to conventional composite grafts, resulting in better wound healing and scar quality, particularly in functionally and cosmetically sensitive areas. By preserving the therapeutic advantages of EpiSCs, our approach significantly enhances clinical feasibility and accessibility [<xref rid="mco270973-bib-0040" ref-type="bibr">40</xref>]. Beyond clinical efficacy, the economic implications and resource utilization of this approach present a major translational advantage. By completely bypassing the exorbitant costs, specialized GMP facility requirements, and time delays associated with traditional in vitro cell expansion (such as Cultured Epidermal Autografts [CEA]), our intraoperative strategy significantly reduces overall medical resource consumption. While the cell preparation process necessitates certain specialized surgical consumables, completing the extraction and transplantation immediately within a single surgical stage minimizes the need for prolonged hospital stays and staged procedures, thereby substantially alleviating the overarching economic burden on patients and healthcare systems.</p><p>A common consideration in regenerative therapies is the theoretical risk of unchecked cell replication. In this study, we addressed this concern fundamentally through our methodological design. Biologically, our intervention is equivalent to an autologous skin graft at the cellular level. The autologous adult EpiSCs are derived directly from the patient's own healthy skin and applied immediately during the intraoperative setting, entirely without the addition of any exogenous growth factors. Because these cells are unmanipulated and not subjected to prolonged in vitro expansion, the inherent risks of unchecked proliferation—often associated with traditional cultured stem cells—are fundamentally eliminated. Consistent with this biological rationale, all healed wounds followed a normal physiological trajectory. We observed no clinical evidence of overgranulation, pathological tissue proliferation, or severe hypertrophic scarring in the cell therapy group during the follow‐up period. While the current six‐month follow‐up provides reassuring structural stability data, ongoing multicenter studies with extended long‐term observation will be valuable for further evaluating late‐stage scar maturation and overall aesthetic outcomes.</p><p>Several limitations merit consideration. First, despite rigorous protocol adherence via established SOPs, the single‐center design and prolonged enrollment period highlight the need for future multicenter trials. Additionally, while the sample size and six‐month follow‐up were adequate for primary endpoints, extended observation in larger cohorts is necessary to fully assess long‐term durability, functional integration, and late‐stage recurrence. Finally, regarding scar assessment, the VSS provided a highly standardized and clinically validated morphological baseline throughout our study. To effectively mitigate the inherent observer bias associated with its semi‐quantitative nature, all evaluations were rigorously performed independently by two blinded clinicians. Nevertheless, we acknowledge that VSS is primarily clinician focused. The absence of Patient‐Reported Outcome Measures (PROMs, such as the POSAS scale) to capture the subjective patient experience, along with the lack of objective biophysical data, remains a limitation of this current design. Integrating comprehensive PROMs into our future prospective, multicenter trials will be essential to provide a multidimensional assessment, refine clinical interpretation, and optimize broader clinical adoption.</p></sec><sec id="mco270973-sec-0100"><label>4</label><title>Methods</title><sec id="mco270973-sec-0110"><label>4.1</label><title>Study Design and Participants</title><p>This prospective, randomized controlled trial was conducted at the First Affiliated Hospital of Sun Yat‐sen University between January 2014 and June 2023 to assess the efficacy of rapidly constructed EpiSC‐based tissue‐engineered skin in the repair of skin defects. A total of 232 patients were randomly assigned to receive either standard treatment (<italic toggle="yes">n</italic> = 112) or cell therapy (<italic toggle="yes">n</italic> = 120). To preserve statistical independence, only one target wound per patient was included for randomization and follow‐up. In patients with multiple eligible wounds, the wound expected to provide the greatest overall clinical benefit was selected. The study protocol (Supporting Information Material 1) was approved by the Medical Ethics Committee of the First Affiliated Hospital of Sun Yat‐sen University (Approval No. [2013]151), and written informed consent was obtained from all participants. The trial was registered at ClinicalTrials.gov (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT02070809">NCT02070809</ext-link>).</p></sec><sec id="mco270973-sec-0120"><label>4.2</label><title>Ethical Considerations</title><p>The study protocol was approved by the institutional review board. All participants provided written informed consent, which included disclosure that the technology used in this study is subject to a patent held by the investigators. Participants were informed that their decision to participate would not affect their access to standard treatment.</p></sec><sec id="mco270973-sec-0130"><label>4.3</label><title>Randomization and Blinding</title><p>Participants were randomly assigned in a 1:1 ratio to the standard treatment group or the cell therapy group. The randomization sequence was generated using a computer‐based algorithm with a permuted block randomization method, implemented in SPSS software (version 26.0, IBM Corp., Armonk, NY, USA). The sequence was produced by an independent statistician who was not involved in patient recruitment, treatment, or outcome assessment. Allocation concealment was ensured through the use of sequentially numbered, opaque, sealed envelopes, which were opened only after the patient had been deemed eligible and enrolled.</p><p>Blinding was maintained for both participants and outcome assessors. Patients were unaware of their treatment allocation, and the investigators responsible for evaluating wound healing, recurrence, and scar outcomes were blinded to group assignment. Treating clinicians could not be blinded due to the nature of the interventions; however, they did not participate in outcome assessments. These measures were implemented to minimize both selection bias and assessment bias, ensuring the integrity of the trial results.</p></sec><sec id="mco270973-sec-0140"><label>4.4</label><title>Inclusion Criteria</title><p>Eligible patients were those requiring skin grafting for full‐thickness skin defects caused by burns, ulcers, scars, or other conditions; had a wound area greater than 9 cm<sup>2</sup>; were willing to participate in the clinical trial and provide written informed consent; and were mentally capable of understanding and following medical instructions.</p></sec><sec id="mco270973-sec-0150"><label>4.5</label><title>Exclusion Criteria</title><p>Patients were excluded if they had a known allergy to trypsin or collagen; acute systemic infection, uncontrolled severe disease, or serious organ dysfunction; planned pregnancy during the study period or within 6 months after skin grafting; malignant tumors, autoimmune diseases, or use of high‐dose glucocorticoids, defined as ≥ 40 mg prednisone per day or an equivalent dose for ≥ 2 weeks; positive bacterial culture indicating wound infection; limb vascular neuropathy; an expected inability to survive during the study period; or participation in another clinical study within the previous 12 weeks.</p></sec><sec id="mco270973-sec-0160"><label>4.6</label><title>Interventions</title><p>Once a viable wound bed suitable for grafting had been established, surgical treatment was performed on (1) wounds with healthy granulation tissue formed after thorough debridement of burns or ulcers; and (2) surgically created fresh wounds following the excision of extensive scars or contracture release, where direct closure was not feasible due to tissue loss and skin grafting was required to achieve wound closure. Both the cell therapy group and the standard treatment group underwent a single‐stage surgical procedure.</p><p>Both groups underwent standardized STSG harvesting from donor sites, primarily the scalp or thighs, selected according to skin color matching and tissue availability, with a uniform graft thickness of 0.25 mm. In the standard treatment group, after wound bed preparation, the ADM was applied and immediately covered with the STSG. In the cell therapy group, the longest diameter and maximum width of the wound were measured using a sterile surgical ruler. Subsequently, a rectangular donor skin area was designed based on these measurements, and the same design method was used in the standard treatment group. An STSG was then harvested from this rectangular donor area using an electric dermatome. The length and width of the donor area were adjusted according to wound morphology to ensure that, after contour trimming of the graft, sufficient residual graft fragments corresponding to approximately ≥ 2.5% of the original wound area were available for cell preparation. These residual fragments were processed intraoperatively using the MYSEED kit (Guangzhou Myseed Medical Technology Co., Ltd., Guangzhou, China), a standardized cell isolation system, to obtain an EpiSC‐enriched basal cell suspension. The resulting cell suspension was prepared for immediate intraoperative application. During the grafting phase, approximately 1 mL of the suspension was allocated for every 35–45 cm<sup>2</sup> of the target area. The suspension was first sprayed onto the wound bed, followed by coverage with ADM. A second spray was applied onto the ADM surface, and finally, the STSG was overlaid. Postoperative care was identical for both groups: initial dressing changes were performed on Day 6, followed by daily or every‐other‐day changes based on graft adherence, continuing until complete healing was achieved.</p></sec><sec id="mco270973-sec-0170"><label>4.7</label><title>Outcome Measures</title><p>The primary outcome was scar quality, which was assessed using the VSS [<xref rid="mco270973-bib-0041" ref-type="bibr">41</xref>]. The scale consists of four items: pigmentation, vascularity, pliability, and height. Each item was evaluated and scored independently by two experienced, blinded clinicians to minimize observer bias, and the average scores were recorded for analysis. The total score ranges from 0 to 13 points, with lower scores indicating better scar quality and higher scores indicating poorer scar quality. Secondary outcomes included complete wound healing at 2 weeks and wound recurrence at 3 months post‐treatment. Complete healing was defined as complete epithelialization of the wound with no signs of infection or inflammation. Recurrence was defined as reopening or breakdown of the previously healed target wound within 3 months after treatment.</p></sec><sec id="mco270973-sec-0180"><label>4.8</label><title>Safety Assessment</title><p>AEs and SAEs unrelated to the predefined efficacy outcomes were monitored throughout hospitalization and at follow‐up visits (2 weeks, 3 months, and 6 months). Particular attention was given to allergic reactions to the EpiSCs preparation or ADM, systemic symptoms, and laboratory abnormalities. All AEs/SAEs were documented and assessed for severity and causality by the investigators, and reviewed by an independent monitoring committee.</p></sec><sec id="mco270973-sec-0190"><label>4.9</label><title>Sample Size Calculation</title><p>The sample size was calculated prior to the trial based on an expected improvement in scar quality with cell therapy. Using a two‐sided test with a significance level (α) of 0.05 and a power (1 − β) of 80% to detect a significant difference in the VSS scores between the two groups, the calculated sample size required was approximately 198 patients (99 per group). Accounting for an anticipated dropout rate of 15% during the 6‐month follow‐up period, approximately 233 patients would be required (198 ÷ 0.85 = 232.9). Ultimately, 232 patients were randomized, and 212 completed the 6‐month evaluation, exceeding the originally calculated minimum of 198 evaluable patients.</p></sec><sec id="mco270973-sec-0200"><label>4.10</label><title>Statistical Analysis</title><p>Statistical analyses were performed using SPSS software (version 26.0, IBM Corp., Armonk, NY, USA). Baseline characteristics between groups were compared using the chi‐square test for categorical variables and the Mann–Whitney <italic toggle="yes">U</italic> test for continuous variables. VSS scores were compared between groups using the Mann–Whitney <italic toggle="yes">U</italic> test due to their non‐normal distribution.</p><p>Binary logistic regression models were constructed to identify factors associated with wound healing at 2 weeks and wound recurrence at 3 months. Candidate variables included treatment group, sex, age, wound etiology, wound location, wound area, and wound healing status at 2 weeks (for the 3‐month recurrence model only). Variables with <italic toggle="yes">p</italic> &lt; 0.10 in univariable analysis were considered for inclusion in the multivariable model. Additionally, clinically important covariates known to influence wound healing outcomes—namely age, wound etiology, and wound location—were forced into the multivariable model regardless of their univariable significance levels to adjust for potential confounding. Multivariable analyses were performed using the Enter method, and adjusted ORs with 95% CIs were reported.</p><p>Analyses were primarily conducted on a PP basis, including only participants who completed the assigned treatment and follow‐up. Missing data were handled by listwise deletion. Continuous variables are presented as medians with IQR. A two‐sided <italic toggle="yes">p</italic> &lt; 0.05 was considered statistically significant.</p></sec></sec><sec id="mco270973-sec-0210"><title>Author Contributions</title><p>
+<bold>Zhicheng Hu</bold>: conceptualization, data curation, methodology, project administration, writing – original draft. <bold>Hao Yang</bold>: Data curation, formal analysis, methodology, writing – original draft. <bold>Peng Wang</bold>: conceptualization, data curation, project administration, writing – original draft. <bold>Xiaoling Cao</bold>: formal analysis, methodology, writing – original draft. <bold>Peng Wang</bold>: formal analysis, methodology, writing – original draft. <bold>Bing Tang</bold>: data curation, methodology. <bold>Hailin Xu</bold>: data curation, writing – review and editing. <bold>Zhiyong Wang</bold>: formal analysis, methodology, writing – review and editing. <bold>Shaobin Huang</bold>: methodology, writing – review and editing. <bold>Jian Zhang</bold>: data curation, writing – review and editing. <bold>Chunli Xue</bold>: data curation, writing – review and editing. <bold>Qiang Zhou</bold>: data curation, project administration, writing – review and editing. <bold>Xiaohui Li</bold>: writing – review and editing. <bold>Honglin Wu</bold>: writing – review and editing. <bold>Yi Zhang</bold>: supervision, writing – review and editing. <bold>Julin Xie</bold>: supervision, writing –review and editing. <bold>Jiayuan Zhu</bold>: supervision, funding acquisition, writing – review and editing. All authors have read and approved the final manuscript.</p></sec><sec id="mco270973-sec-0230"><title>Funding</title><p>This study was funded by the Sun Yat‐sen University Clinical Research 5010 Program (2013001, 2017013), the National Natural Science Foundation of China (82572883), the China Postdoctoral Science Foundation (2025M772347), the Guangdong Provincial Natural Science Foundation of China (2024A1515010485, 2026A1515010501, 2026A1515010461), the Clinical Major Technology Project of Guangzhou Municipal Health Commission (2026P‐ZD025), the High‐level Clinical Research Program of the First Affiliated Hospital of Sun Yat‐sen University, and the Fundamental Research Program of Shanxi Province (202303021212368).</p></sec><sec id="mco270973-sec-0240"><title>Ethics Statement</title><p>The study protocol was approved by the institutional ethics committee (Approval No. [2013]151). Informed consent was obtained from all participants in the study. The clinical trial was registered at ClinicalTrials.gov (Registration number: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT02070809">NCT02070809</ext-link>; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://clinicaltrials.gov" ext-link-type="uri">https://clinicaltrials.gov</ext-link>).</p></sec><sec sec-type="COI-statement" id="mco270973-sec-0250"><title>Conflicts of Interest</title><p>One or more authors hold a patent related to the technology described in this study. The details of this patent are disclosed here. Other authors have no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="mco270973-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="mco270973-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: mco270973‐sup‐0001‐SuppMat.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MCO2-7-e70973-s001.docx" position="float" orientation="portrait"><?suppdata-name MCO2-7-e70973-s001.docx?><?suppdata-size 101977827?><?suppdata-md5 f437f974e8edf8d5fb934b7c87e78a17?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:3cf4/13547091/f437f974e8ed/MCO2-7-e70973-s001.docx?></media></supplementary-material></sec></body><back><ack id="mco270973-sec-0220"><title>Acknowledgments</title><p>We would like to express our deepest gratitude to all the patients and their families for their participation and cooperation in this study. We also extend our sincere thanks to the clinical and nursing staff at the First Affiliated Hospital of Sun Yat‐sen University for their invaluable assistance with patient care and clinical data collection throughout the trial.</p></ack><sec sec-type="data-availability" id="mco270973-sec-0270"><title>Data Availability Statement</title><p>Data used to support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list id="mco270973-bibl-0001"><title>References</title><ref id="mco270973-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="mco270973-cite-0001">
+<string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. H.</given-names>
+<surname>Ngo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Leavesley</surname>
+</string-name>, et al., “<article-title>Recent Advances in the Design of Three‐Dimensional and Bioprinted Scaffolds for Full‐Thickness Wound Healing</article-title>,” <source>Tissue Engineering, Part B: Reviews</source>
+<volume>28</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>160</fpage>–<lpage>181</lpage>.<pub-id pub-id-type="pmid">33446047</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/ten.TEB.2020.0339</pub-id></mixed-citation></ref><ref id="mco270973-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="mco270973-cite-0002">
+<string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Sen</surname>
+</string-name>, “<article-title>Human Wound and Its Burden: Updated 2022 Compendium of Estimates</article-title>,” <source>Advances in Wound Care (New Rochelle)</source>
+<volume>12</volume>, no. <issue>12</issue> (<year>2023</year>): <fpage>657</fpage>–<lpage>670</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/wound.2023.0150</pub-id><pub-id pub-id-type="pmcid">PMC10615092</pub-id><pub-id pub-id-type="pmid">37756368</pub-id></mixed-citation></ref><ref id="mco270973-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="mco270973-cite-0003">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hierner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Degreef</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Vranckx</surname>
+</string-name>, et al., “<article-title>Skin Grafting and Wound Healing—The ″Dermato‐Plastic Team Approach</article-title>,” <source>Clinics in Dermatology</source>
+<volume>23</volume>, no. <issue>4</issue> (<year>2005</year>): <fpage>343</fpage>–<lpage>352</lpage>.<pub-id pub-id-type="pmid">16023929</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clindermatol.2004.07.028</pub-id></mixed-citation></ref><ref id="mco270973-bib-0004"><label>4</label><mixed-citation publication-type="book" id="mco270973-cite-0004">
+<string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Imahara</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Klein</surname>
+</string-name>, “<part-title>Skin grafts</part-title>,” in <source>Biomaterials for Treating Skin Loss</source>, ed. <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Orgill</surname>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Blanco</surname>
+</string-name>
+</person-group> (<publisher-name>Woodhead Publishing</publisher-name>, <year>2009</year>), <fpage>58</fpage>–<lpage>79</lpage>.</mixed-citation></ref><ref id="mco270973-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="mco270973-cite-0005">
+<string-name name-style="western">
+<given-names>L. E. T.</given-names>
+<surname>Morgenstjerne‐Schwenck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Knudsen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Prasad</surname>
+</string-name>, “<article-title>Efficacy and Safety of Skin Grafting in Treatment of Vasculitic Ulcer and Pyoderma Gangrenosum: A Systematic Review</article-title>,” <source>Wound Repair and Regeneration</source>
+<volume>29</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>240</fpage>–<lpage>253</lpage>.<pub-id pub-id-type="pmid">33377584</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/wrr.12882</pub-id></mixed-citation></ref><ref id="mco270973-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="mco270973-cite-0006">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Schlottmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Bucan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Vogt</surname>
+</string-name>, et al., “<article-title>A Short History of Skin Grafting in Burns: From the Gold Standard of Autologous Skin Grafting to the Possibilities of Allogeneic Skin Grafting With Immunomodulatory Approaches</article-title>,” <source>Medicina</source>
+<volume>57</volume>, no. <issue>3</issue> (<year>2021</year>): <fpage>225</fpage>.<pub-id pub-id-type="pmid">33801228</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/medicina57030225</pub-id><pub-id pub-id-type="pmcid">PMC7998351</pub-id></mixed-citation></ref><ref id="mco270973-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="mco270973-cite-0007">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Henn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Januszyk</surname>
+</string-name>, et al., “<article-title>Disrupting Mechanotransduction Decreases Fibrosis and Contracture in Split‐Thickness Skin Grafting</article-title>,” <source>Science Translational Medicine</source>
+<volume>14</volume>, no. <issue>645</issue> (<year>2022</year>): <elocation-id>eabj9152</elocation-id>.<pub-id pub-id-type="pmid">35584231</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.abj9152</pub-id></mixed-citation></ref><ref id="mco270973-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="mco270973-cite-0008">
+<string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Balavigneswaran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Selvaraj</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. K.</given-names>
+<surname>Vasudha</surname>
+</string-name>, et al., “<article-title>Tissue Engineered Skin Substitutes: A Comprehensive Review of Basic Design, Fabrication Using 3D Printing, Recent Advances and Challenges</article-title>,” <source>Biomaterials Advances</source>
+<volume>153</volume> (<year>2023</year>): <elocation-id>213570</elocation-id>.<pub-id pub-id-type="pmid">37540939</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bioadv.2023.213570</pub-id></mixed-citation></ref><ref id="mco270973-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="mco270973-cite-0009">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Haxho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lytvyn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Shelley</surname>
+</string-name>, et al., “<article-title>Wound Care—Part II: Tissue‐Engineered Skin Substitutes &amp; Other Advanced Wound Therapies</article-title>,” <source>Journal of the American Academy of Dermatology</source>
+<volume>95</volume> (<year>2026</year>): <fpage>605</fpage>–<lpage>620</lpage>.<pub-id pub-id-type="pmid">40543660</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jaad.2025.06.045</pub-id></mixed-citation></ref><ref id="mco270973-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="mco270973-cite-0010">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kianian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kaur</surname>
+</string-name>, et al., “<article-title>Autologous Skin Grafts, Versus Tissue‐engineered Skin Constructs: A Systematic Review and Meta‐Analysis</article-title>,” <source>Plastic and Reconstructive Surgery – Global Open</source>
+<volume>11</volume>, no. <issue>6</issue> (<year>2023</year>): <elocation-id>e5100</elocation-id>.<pub-id pub-id-type="pmid">37388427</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/GOX.0000000000005100</pub-id><pub-id pub-id-type="pmcid">PMC10303215</pub-id></mixed-citation></ref><ref id="mco270973-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="mco270973-cite-0011">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>du Rand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M. T.</given-names>
+<surname>Hunt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Feisst</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Sheppard</surname>
+</string-name>, “<article-title>Epidermolysis Bullosa: A Review of the Tissue‐Engineered Skin Substitutes Used to Treat Wounds</article-title>,” <source>Molecular Diagnosis &amp; Therapy</source>
+<volume>26</volume>, no. <issue>6</issue> (<year>2022</year>): <fpage>627</fpage>–<lpage>643</lpage>.<pub-id pub-id-type="pmid">36251245</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s40291-022-00613-2</pub-id><pub-id pub-id-type="pmcid">PMC9626425</pub-id></mixed-citation></ref><ref id="mco270973-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="mco270973-cite-0012">
+<string-name name-style="western">
+<given-names>Á.</given-names>
+<surname>Sierra‐Sánchez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Blasco‐Morente</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Arias‐Santiago</surname>
+</string-name>, “<article-title>Cellular Human Tissue‐Engineered Skin Substitutes Investigated for Deep and Difficult to Heal Injuries</article-title>,” <source>NPJ Regenerative Medicine</source>
+<volume>6</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>35</fpage>.<pub-id pub-id-type="pmid">34140525</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41536-021-00144-0</pub-id><pub-id pub-id-type="pmcid">PMC8211795</pub-id></mixed-citation></ref><ref id="mco270973-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="mco270973-cite-0013">
+<string-name name-style="western">
+<given-names>V. A.</given-names>
+<surname>Negri</surname>
+</string-name> and <string-name name-style="western">
+<given-names>F. M.</given-names>
+<surname>Watt</surname>
+</string-name>, “<article-title>Understanding Human Epidermal Stem Cells at Single‐Cell Resolution</article-title>,” <source>Journal of Investigative Dermatology</source>
+<volume>142</volume>, no. <issue>8</issue> (<year>2022</year>): <fpage>2061</fpage>–<lpage>2067</lpage>.<pub-id pub-id-type="pmid">35570025</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jid.2022.04.003</pub-id><pub-id pub-id-type="pmcid">PMC9826868</pub-id></mixed-citation></ref><ref id="mco270973-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="mco270973-cite-0014">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, et al., “<article-title>Epidermal Stem Cells: Skin Surveillance and Clinical Perspective</article-title>,” <source>Journal of Translational Medicine</source>
+<volume>22</volume>, no. <issue>1</issue> (<year>2024</year>): <fpage>779</fpage>.<pub-id pub-id-type="pmid">39169334</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12967-024-05600-1</pub-id><pub-id pub-id-type="pmcid">PMC11340167</pub-id></mixed-citation></ref><ref id="mco270973-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="mco270973-cite-0015">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Yan</surname>
+</string-name>, et al., “<article-title>New Insights Into Inflammatory Memory of Epidermal Stem Cells</article-title>,” <source>Frontiers in Immunology</source>
+<volume>14</volume> (<year>2023</year>): <elocation-id>1188559</elocation-id>.<pub-id pub-id-type="pmid">37325632</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fimmu.2023.1188559</pub-id><pub-id pub-id-type="pmcid">PMC10264694</pub-id></mixed-citation></ref><ref id="mco270973-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="mco270973-cite-0016">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Gadre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Markova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ebrahimkutty</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. M.</given-names>
+<surname>Bouzada</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. M.</given-names>
+<surname>Watt</surname>
+</string-name>, “<article-title>Emergence and Properties of Adult Mammalian Epidermal Stem Cells</article-title>,” <source>Developmental Biology</source>
+<volume>515</volume> (<year>2024</year>): <fpage>129</fpage>–<lpage>138</lpage>.<pub-id pub-id-type="pmid">39059680</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ydbio.2024.07.014</pub-id></mixed-citation></ref><ref id="mco270973-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="mco270973-cite-0017">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Charruyer</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ghadially</surname>
+</string-name>, “<article-title>Stem Cells and Tissue‐Engineered Skin</article-title>,” <source>Skin Pharmacology and Physiology</source>
+<volume>22</volume>, no. <issue>2</issue> (<year>2009</year>): <fpage>55</fpage>–<lpage>62</lpage>.<pub-id pub-id-type="pmid">19188753</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000178864</pub-id><pub-id pub-id-type="pmcid">PMC2709994</pub-id></mixed-citation></ref><ref id="mco270973-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="mco270973-cite-0018">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Liu</surname>
+</string-name>, et al., “<article-title>Randomized Clinical Trial of Autologous Skin Cell Suspension for Accelerating Re‐Epithelialization of Split‐Thickness Donor Sites</article-title>,” <source>British Journal of Surgery</source>
+<volume>104</volume>, no. <issue>7</issue> (<year>2017</year>): <fpage>836</fpage>–<lpage>842</lpage>.<pub-id pub-id-type="pmid">28379607</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/bjs.10508</pub-id></mixed-citation></ref><ref id="mco270973-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="mco270973-cite-0019">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Cao</surname>
+</string-name>, et al., “<article-title>Fibronectin Precoating Wound Bed Enhances the Therapeutic Effects of Autologous Epidermal Basal Cell Suspension for Full‐Thickness Wounds by Improving Epidermal Stem Cells' Utilization</article-title>,” <source>Stem Cell Research &amp; Therapy</source>
+<volume>10</volume>, no. <issue>1</issue> (<year>2019</year>): <fpage>154</fpage>.<pub-id pub-id-type="pmid">31506090</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13287-019-1236-7</pub-id><pub-id pub-id-type="pmcid">PMC6737622</pub-id></mixed-citation></ref><ref id="mco270973-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="mco270973-cite-0020">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Rat Epidermal Stem Cells Promote the Angiogenesis of Full‐Thickness Wounds</article-title>,” <source>Stem Cell Research &amp; Therapy</source>
+<volume>11</volume>, no. <issue>1</issue> (<year>2020</year>): <fpage>344</fpage>.<pub-id pub-id-type="pmid">32771044</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13287-020-01844-y</pub-id><pub-id pub-id-type="pmcid">PMC7414990</pub-id></mixed-citation></ref><ref id="mco270973-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="mco270973-cite-0021">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Theocharidis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. S.</given-names>
+<surname>Vlachos</surname>
+</string-name>, et al., “<article-title>Exosomes Derived From Epidermal Stem Cells Improve Diabetic Wound Healing</article-title>,” <source>Journal of Investigative Dermatology</source>
+<volume>142</volume>, no. <issue>9</issue> (<year>2022</year>): <fpage>2508</fpage>–<lpage>2517</lpage>.e13.<pub-id pub-id-type="pmid">35181300</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jid.2022.01.030</pub-id></mixed-citation></ref><ref id="mco270973-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="mco270973-cite-0022">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Epidermal Stem Cell Derived Exosomes Alleviate Excessive Autophagy Induced Endothelial Cell Apoptosis by Delivering miR200b‐3p to Diabetic Wounds</article-title>,” <source>Journal of Investigative Dermatology</source>
+<volume>144</volume>, no. <issue>5</issue> (<year>2024</year>): <fpage>1134</fpage>–<lpage>1147</lpage>.e2.<pub-id pub-id-type="pmid">37838331</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jid.2023.08.030</pub-id></mixed-citation></ref><ref id="mco270973-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="mco270973-cite-0023">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Analysis of miR‐203a‐3p/SOCS3‐Mediated Induction of M2 Macrophage Polarization to Promote Diabetic Wound Healing Based on Epidermal Stem Cell‐Derived Exosomes</article-title>,” <source>Diabetes Research and Clinical Practice</source>
+<volume>197</volume> (<year>2023</year>): <elocation-id>110573</elocation-id>.<pub-id pub-id-type="pmid">36764461</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.diabres.2023.110573</pub-id></mixed-citation></ref><ref id="mco270973-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="mco270973-cite-0024">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, et al., “<article-title>Single‐Stage Transplantation Combined With Epidermal Stem Cells Promotes the Survival of Tissue‐Engineered Skin by Inducing Early Angiogenesis</article-title>,” <source>Stem Cell Research &amp; Therapy</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>51</fpage>.<pub-id pub-id-type="pmid">36959609</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13287-023-03281-z</pub-id><pub-id pub-id-type="pmcid">PMC10035248</pub-id></mixed-citation></ref><ref id="mco270973-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="mco270973-cite-0025">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Campbell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Emmerson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Davies</surname>
+</string-name>, et al., “<article-title>Estrogen Promotes Cutaneous Wound Healing via Estrogen Receptor Beta Independent of Its Antiinflammatory Activities</article-title>,” <source>Journal of Experimental Medicine</source>
+<volume>207</volume>, no. <issue>9</issue> (<year>2010</year>): <fpage>1825</fpage>–<lpage>1833</lpage>.<pub-id pub-id-type="pmid">20733032</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.20100500</pub-id><pub-id pub-id-type="pmcid">PMC2931162</pub-id></mixed-citation></ref><ref id="mco270973-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="mco270973-cite-0026">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Rønø</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. H.</given-names>
+<surname>Engelholm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Lund</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Hald</surname>
+</string-name>, “<article-title>Gender Affects Skin Wound Healing in Plasminogen Deficient Mice</article-title>,” <source>PLoS One</source>
+<volume>8</volume>, no. <issue>3</issue> (<year>2013</year>): <elocation-id>e59942</elocation-id>.<pub-id pub-id-type="pmid">23527289</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0059942</pub-id><pub-id pub-id-type="pmcid">PMC3603995</pub-id></mixed-citation></ref><ref id="mco270973-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="mco270973-cite-0027">
+<string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Mony</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Harmon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hess</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. H.</given-names>
+<surname>Dorafshar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Shafikhani</surname>
+</string-name>, “<article-title>An Updated Review of Hypertrophic Scarring</article-title>,” <source>Cells</source>
+<volume>12</volume>, no. <issue>5</issue> (<year>2023</year>): <fpage>678</fpage>.<pub-id pub-id-type="pmid">36899815</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cells12050678</pub-id><pub-id pub-id-type="pmcid">PMC10000648</pub-id></mixed-citation></ref><ref id="mco270973-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="mco270973-cite-0028">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Shirakami</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Yamakawa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hayashida</surname>
+</string-name>, “<article-title>Strategies to Prevent Hypertrophic Scar Formation: A Review of Therapeutic Interventions Based on Molecular Evidence</article-title>,” <source>Burns Trauma</source>
+<volume>8</volume> (<year>2020</year>): <elocation-id>tkz003</elocation-id>.<pub-id pub-id-type="pmid">32341924</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/burnst/tkz003</pub-id><pub-id pub-id-type="pmcid">PMC7175766</pub-id></mixed-citation></ref><ref id="mco270973-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="mco270973-cite-0029">
+<string-name name-style="western">
+<given-names>W. M.</given-names>
+<surname>Jackson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Nesti</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Tuan</surname>
+</string-name>, “<article-title>Mesenchymal Stem Cell Therapy for Attenuation of Scar Formation During Wound Healing</article-title>,” <source>Stem Cell Research &amp; Therapy</source>
+<volume>3</volume>, no. <issue>3</issue> (<year>2012</year>): <fpage>20</fpage>.<pub-id pub-id-type="pmid">22668751</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/scrt111</pub-id><pub-id pub-id-type="pmcid">PMC3392767</pub-id></mixed-citation></ref><ref id="mco270973-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="mco270973-cite-0030">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Gao</surname>
+</string-name>, et al., “<article-title>Adipose Tissue‐Derived Stem Cells Suppress Hypertrophic Scar Fibrosis via the p38/MAPK Signaling Pathway</article-title>,” <source>Stem Cell Research &amp; Therapy</source>
+<volume>7</volume>, no. <issue>1</issue> (<year>2016</year>): <fpage>102</fpage>.<pub-id pub-id-type="pmid">27484727</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13287-016-0356-6</pub-id><pub-id pub-id-type="pmcid">PMC4970202</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC13037049"/></mixed-citation></ref><ref id="mco270973-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="mco270973-cite-0031">
+<string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. N.</given-names>
+<surname>Maan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐C.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>Tissue Engineering and Regenerative Repair in Wound Healing</article-title>,” <source>Annals of Biomedical Engineering</source>
+<volume>42</volume>, no. <issue>7</issue> (<year>2014</year>): <fpage>1494</fpage>–<lpage>1507</lpage>.<pub-id pub-id-type="pmid">24788648</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10439-014-1010-z</pub-id><pub-id pub-id-type="pmcid">PMC4144830</pub-id></mixed-citation></ref><ref id="mco270973-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="mco270973-cite-0032">
+<string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Cass</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Bullard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. G.</given-names>
+<surname>Sylvester</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. Y.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Longaker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. S.</given-names>
+<surname>Adzick</surname>
+</string-name>, “<article-title>Wound Size and Gestational Age Modulate Scar Formation in Fetal Wound Repair</article-title>,” <source>Journal of Pediatric Surgery</source>
+<volume>32</volume>, no. <issue>3</issue> (<year>1997</year>): <fpage>411</fpage>–<lpage>415</lpage>.<pub-id pub-id-type="pmid">9094005</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0022-3468(97)90593-5</pub-id></mixed-citation></ref><ref id="mco270973-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="mco270973-cite-0033">
+<string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Gardien</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Marck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Bloemen</surname>
+</string-name>, et al., “<article-title>Outcome of Burns Treated With Autologous Cultured Proliferating Epidermal Cells: A Prospective Randomized Multicenter Intrapatient Comparative Trial</article-title>,” <source>Cell Transplantation</source>
+<volume>25</volume>, no. <issue>3</issue> (<year>2016</year>): <fpage>437</fpage>–<lpage>448</lpage>.<pub-id pub-id-type="pmid">26419871</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3727/096368915X689569</pub-id></mixed-citation></ref><ref id="mco270973-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="mco270973-cite-0034">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, et al., “<article-title>Efficacy and Safety of Epidermal Cell Regeneration for Postoperative Non‐Healing Wounds: A Randomized, Partially Blinded, Parallel‐Controlled Trial</article-title>,” <source>Stem Cell Research &amp; Therapy</source>
+<volume>16</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>284</fpage>.<pub-id pub-id-type="pmid">40462225</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13287-025-04425-z</pub-id><pub-id pub-id-type="pmcid">PMC12135540</pub-id></mixed-citation></ref><ref id="mco270973-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="mco270973-cite-0035">
+<string-name name-style="western">
+<given-names>V. K.</given-names>
+<surname>Shukla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Tiwary</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Barnwal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Gulati</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. S.</given-names>
+<surname>Pandey</surname>
+</string-name>, “<article-title>Effect of Autologous Epidermal Cell Suspension Transplantation in Chronic Nonhealing Wounds: A Pilot Study</article-title>,” <source>Canadian Journal of Surgery</source>
+<volume>53</volume>, no. <issue>1</issue> (<year>2010</year>): <fpage>6</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="pmcid">PMC2810008</pub-id><pub-id pub-id-type="pmid">20100406</pub-id></mixed-citation></ref><ref id="mco270973-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="mco270973-cite-0036">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Barnwal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kant</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Yadav</surname>
+</string-name>, “<article-title>Autologous Non‐Cultured Keratinocyte Cell Suspension in Non‐Healing Diabetic Ulcers: A Preliminary Study</article-title>,” <source>Journal of Family Medicine &amp; Primary Care</source>
+<volume>9</volume>, no. <issue>9</issue> (<year>2020</year>): <fpage>4686</fpage>–<lpage>4691</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.4103/jfmpc.jfmpc_627_20</pub-id><pub-id pub-id-type="pmcid">PMC7652156</pub-id><pub-id pub-id-type="pmid">33209784</pub-id></mixed-citation></ref><ref id="mco270973-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="mco270973-cite-0037">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Johnsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Ermuth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Tanczos</surname>
+</string-name>, et al., “<article-title>Treatment of Therapy‐Refractive Ulcera Cruris of Various Origins With Autologous Keratinocytes in Fibrin Sealant</article-title>,” <source>Vasa</source>
+<volume>34</volume>, no. <issue>1</issue> (<year>2005</year>): <fpage>25</fpage>–<lpage>29</lpage>.<pub-id pub-id-type="pmid">15786934</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1024/0301-1526.34.1.25</pub-id></mixed-citation></ref><ref id="mco270973-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="mco270973-cite-0038">
+<string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Costanzo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Streit</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Braathen</surname>
+</string-name>, “<article-title>Autologous Suction Blister Grafting for Chronic Leg Ulcers</article-title>,” <source>Journal of the European Academy of Dermatology and Venereology</source>
+<volume>22</volume>, no. <issue>1</issue> (<year>2008</year>): <fpage>7</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="pmid">18181967</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1468-3083.2007.02148.x</pub-id></mixed-citation></ref><ref id="mco270973-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="mco270973-cite-0039">
+<string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Blok</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Vink</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>de Boer</surname>
+</string-name>, et al., “<article-title>Autologous Skin Substitute for Hard‐to‐Heal Ulcers: Retrospective Analysis on Safety, Applicability, and Efficacy in an Outpatient and Hospitalized Setting</article-title>,” <source>Wound Repair and Regeneration</source>
+<volume>21</volume>, no. <issue>5</issue> (<year>2013</year>): <fpage>667</fpage>–<lpage>676</lpage>.<pub-id pub-id-type="pmid">23926998</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/wrr.12082</pub-id></mixed-citation></ref><ref id="mco270973-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="mco270973-cite-0040">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Weng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xia</surname>
+</string-name>, et al., “<article-title>3D Bioprinting for Skin Tissue Engineering: Current Status and Perspectives</article-title>,” <source>Journal of Tissue Engineering</source>
+<volume>12</volume> (<year>2021</year>): <elocation-id>20417314211028574</elocation-id>.<pub-id pub-id-type="pmid">34345398</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/20417314211028574</pub-id><pub-id pub-id-type="pmcid">PMC8283073</pub-id></mixed-citation></ref><ref id="mco270973-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="mco270973-cite-0041">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sullivan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kermode</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>McIver</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Courtemanche</surname>
+</string-name>, “<article-title>Rating the Burn Scar</article-title>,” <source>Journal of Burn Care &amp; Rehabilitation</source>
+<volume>11</volume>, no. <issue>3</issue> (<year>1990</year>): <fpage>256</fpage>–<lpage>260</lpage>.<pub-id pub-id-type="pmid">2373734</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00004630-199005000-00014</pub-id></mixed-citation></ref></ref-list></back></article>

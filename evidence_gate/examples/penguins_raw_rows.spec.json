@@ -1,0 +1,27 @@
+{
+  "spec_version": 2,
+  "claim_id": "PENG-RAW-ROWS",
+  "method": "row_count",
+  "reported_value": 344,
+  "variable": null,
+  "filters": [],
+  "missing_policy": "not_applicable",
+  "missing_tokens": null,
+  "denominator": "penguins_raw 전체 자료 행",
+  "unit": "개체 수",
+  "data_fingerprint": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+  "tolerance": 0,
+  "source_location": {
+    "source_id": "RJ-2022-020",
+    "locator": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+    "quote": "recorded completely or in part for 344 individual penguins"
+  },
+  "field_evidence": {},
+  "unresolved": [],
+  "outcome": null,
+  "predictors": null,
+  "reported": null,
+  "reported_df": null,
+  "data_id_column": null,
+  "reference_ids_source": null
+}

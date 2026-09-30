@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "claim_id": "RAW-ROWS",
+      "action": "EXECUTE",
+      "reason": "The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.",
+      "value": 344
+    },
+    {
+      "claim_id": "CURATED-ROWS",
+      "action": "EXECUTE",
+      "reason": "The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.",
+      "value": 344
+    },
+    {
+      "claim_id": "RAW-WITH-CURATED",
+      "action": "BLOCK",
+      "reason": "The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table."
+    },
+    {
+      "claim_id": "CURATED-WITH-RAW",
+      "action": "BLOCK",
+      "reason": "The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table."
+    }
+  ]
+}

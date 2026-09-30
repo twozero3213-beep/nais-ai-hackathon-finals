@@ -1,0 +1,162 @@
+{
+  "contributor": "1 이채우",
+  "started_at_kst": "2026-10-01T01:32:56+09:00",
+  "finished_at_kst": "2026-10-01T01:32:58+09:00",
+  "base_commit": "e548312c62653868898c70c7e389a9e8a6660ae0",
+  "local_changes_present": true,
+  "python": "3.12.14",
+  "platform": "Windows",
+  "protocol_sha256": "8dbb390de6c6671e7dcc25faef9155a7038846d9a3a7bd8bfd6afff7a0c372ba",
+  "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+  "source_sha256": "021e5f976a6678d2ba36604cfbc55bca5af2fee6132229e9b144fde25086db63",
+  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+  "code_sha256": {
+    "tools/1_verify_bat_paper.py": "f4e372e7f5d80a34fa8b025ad64669db18e97b78dfa40e9a8a212cf0db3295b6",
+    "finals/finals_cases.py": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+    "finals/finals_pipeline.py": "f5277172a3e787f5f28d89cbb6a353a1fcf35a14220934f9f024ef9861eef8a6",
+    "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+    "evidence_gate/gate.py": "d5f75343a9cd15656197b63d2b34b37208e036cb33a3c979e15079f2ead82ba2",
+    "evidence_gate/spec.py": "7a7a5a171162bf744995361943f835d265935543f1ab55f0fd88c2bc139de9fa",
+    "evidence_gate/compute.py": "a427cfd8a8568aa6f40061990fb6eb2cb272030ac5b58d8ab7df95ab172d0736"
+  },
+  "independent_calculation": {
+    "total_rows": 1060,
+    "selected_rows": 53,
+    "age_missing": 0,
+    "duplicate_positive_ids": 0,
+    "age_sum": "2614",
+    "mean_age": "49.32075471698113207547169811"
+  },
+  "claims": [
+    {
+      "claim_id": "BAT-POSITIVE-N",
+      "reported_value": 53,
+      "pipeline_state": "SUPPORTED_PREVIEW",
+      "pipeline_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 53.0,
+        "calculated_value": 53.0,
+        "reported_value": 53,
+        "delta": 0.0,
+        "tolerance": 0,
+        "within_tolerance": true,
+        "selected_rows": 53,
+        "expected_denominator": 53,
+        "denominator_matches": true,
+        "meta": {
+          "n": 53,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "gate_result": {
+        "claim_id": "BAT-POSITIVE-N",
+        "method": "row_count",
+        "verdict": "MATCH",
+        "reason_code": "COMPUTED",
+        "spec_sha256": "af5245b028467aa91d6ababf5cd0e1f61693afaa971693f609a2de20d0ee9bb1",
+        "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+        "computed": 53,
+        "reported": 53,
+        "tolerance": 0,
+        "details": {
+          "rows_selected": 53
+        }
+      },
+      "validation_valid": true,
+      "source_valid": true,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "export_sha256": "0cfeeb8c1b7ae8081c8e0b1bb3f9939f876cba88e3773b10df99849fc2b58ba8",
+      "reopen_state": "IMPORTED_REVIEW",
+      "reopen_approval_active": false,
+      "tamper_error": "REPORT_INTEGRITY_MISMATCH"
+    },
+    {
+      "claim_id": "BAT-POSITIVE-MEAN-AGE",
+      "reported_value": 49.32,
+      "pipeline_state": "SUPPORTED_PREVIEW",
+      "pipeline_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 49.320754716981135,
+        "calculated_value": 49.320754716981135,
+        "reported_value": 49.32,
+        "delta": 0.0007547169811346066,
+        "tolerance": 0.005,
+        "within_tolerance": true,
+        "selected_rows": 53,
+        "expected_denominator": 53,
+        "denominator_matches": true,
+        "meta": {
+          "n": 53,
+          "expression": "mean(Age.y)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "gate_result": {
+        "claim_id": "BAT-POSITIVE-MEAN-AGE",
+        "method": "mean",
+        "verdict": "MATCH",
+        "reason_code": "COMPUTED",
+        "spec_sha256": "23713048ae1572b2d40d92b11b5669f62d0881a536c7cede2a1f407a11048bb4",
+        "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+        "computed": 49.320754716981135,
+        "reported": 49.32,
+        "tolerance": 0.005,
+        "details": {
+          "rows_selected": 53,
+          "rows_used": 53,
+          "rows_dropped_missing": 0,
+          "dropped_data_rows": []
+        }
+      },
+      "validation_valid": true,
+      "source_valid": true,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "export_sha256": "628732b51be0a5f26c57e4734bd67c2c3224ee9701bbe37a649980d57c9696b5",
+      "reopen_state": "IMPORTED_REVIEW",
+      "reopen_approval_active": false,
+      "tamper_error": "REPORT_INTEGRITY_MISMATCH"
+    }
+  ],
+  "controlled_changed_filter": {
+    "state": "BLOCKED_CHANGED_INPUT",
+    "can_approve": false
+  },
+  "checks": {
+    "positive_records_53": true,
+    "positive_subject_ids_unique": true,
+    "no_selected_age_missing": true,
+    "mean_matches_paper_rounding": true,
+    "both_engines_match": true,
+    "source_and_conditions_valid": true,
+    "denominators_match": true,
+    "no_human_approval_created": true,
+    "reopen_requires_review": true,
+    "tampered_report_blocked": true,
+    "changed_filter_blocked": true
+  },
+  "elapsed_seconds": 1.0299,
+  "success": true,
+  "model_calls": 0,
+  "limitations": [
+    "No general AI comparison",
+    "No actual human approval",
+    "No whole-paper or clinical validation",
+    "Conditions were registered by people, not inferred by a model",
+    "Changed filter and report tampering are controlled tests, not errors in the paper"
+  ]
+}

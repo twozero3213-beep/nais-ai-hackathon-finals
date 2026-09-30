@@ -1,0 +1,27 @@
+{
+  "spec_version": 2,
+  "claim_id": "A2-PRIMATE-TIP-ALIGNMENT",
+  "method": "row_alignment",
+  "reported_value": null,
+  "variable": null,
+  "filters": [],
+  "missing_policy": "not_applicable",
+  "missing_tokens": null,
+  "denominator": null,
+  "unit": null,
+  "data_fingerprint": "b40a0d3a6178bacc330e22712d841f26ba5234badc3a6e60ca97525345ab8ece",
+  "tolerance": 0,
+  "source_location": {
+    "source_id": "doi:10.1093/evolut/qpad182",
+    "locator": "Retraction and replacement notice (PMC10870990), paragraph on the specific nature of the error",
+    "quote": "did not appropriately match tree tip labels with the data set"
+  },
+  "field_evidence": {},
+  "unresolved": [],
+  "outcome": null,
+  "predictors": null,
+  "reported": null,
+  "reported_df": null,
+  "data_id_column": "Species",
+  "reference_ids_source": "AndersonDrew/Primate_ARE 0217d9d StuffUsed/treeall.nex translate 목록"
+}

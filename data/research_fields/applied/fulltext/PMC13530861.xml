@@ -1,0 +1,1082 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece374252" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13530861</article-id><article-id pub-id-type="pmcid-ver">PMC13530861.1</article-id><article-id pub-id-type="pmcaid">13530861</article-id><article-id pub-id-type="pmcaiid">13530861</article-id><article-id pub-id-type="pmid">42682835</article-id><article-id pub-id-type="doi">10.1002/ece3.74252</article-id><article-id pub-id-type="publisher-id">ECE374252</article-id><article-id pub-id-type="other">ECE-2026-02-00507.R2</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Community Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>The Individual and Interactive Effects of Climate, Land Use and Nutrient Enrichment on Macroinvertebrate Dynamics in South African Rivers</article-title></title-group><contrib-group><contrib id="ece374252-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Fanteso</surname><given-names initials="B">Buntu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2159-857X</contrib-id><xref rid="ece374252-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="ece374252-cr-0002" contrib-type="author"><name name-style="western"><surname>Dalu</surname><given-names initials="T">Tatenda</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9019-7702</contrib-id><xref rid="ece374252-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece374252-cr-0003" contrib-type="author"><name name-style="western"><surname>Wasserman</surname><given-names initials="R">Ryan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4162-1503</contrib-id><xref rid="ece374252-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece374252-cr-0004" contrib-type="author"><name name-style="western"><surname>Kadye</surname><given-names initials="W">Wilbert</given-names></name><xref rid="ece374252-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="ece374252-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ece374252-cr-0005" contrib-type="author"><name name-style="western"><surname>Mpopetsi</surname><given-names initials="P">Pule</given-names></name><xref rid="ece374252-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ece374252-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Jackson</surname><given-names initials="M">Michelle</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2227-1111</contrib-id><xref rid="ece374252-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece374252-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address></address></contrib></contrib-group><aff id="ece374252-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>University of Oxford</institution>
+<city>Oxford</city>
+<country country="GB">UK</country>
+</aff><aff id="ece374252-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Invasion Biology, School for Climate Studies</named-content>
+<institution>Stellenbosch University</institution>
+<city>Stellenbosch</city>
+<country country="ZA">South Africa</country>
+</aff><aff id="ece374252-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Zoology and Entomology</named-content>
+<institution>Rhodes University</institution>
+<city>Makhanda</city>
+<country country="ZA">South Africa</country>
+</aff><aff id="ece374252-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">School of Biology and Environmental Sciences</named-content>
+<institution>University of Mpumalanga</institution>
+<city>Nelspruit</city>
+<country country="ZA">South Africa</country>
+</aff><aff id="ece374252-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ichthyology and Fisheries Science</named-content>
+<institution>Rhodes University</institution>
+<city>Makhanda</city>
+<country country="ZA">South Africa</country>
+</aff><aff id="ece374252-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Somerville College</named-content>
+<institution>University of Oxford</institution>
+<city>Oxford</city>
+<country country="GB">UK</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Buntu Fanteso ()<break/>
+Michelle Jackson ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>8</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>16</volume><issue seq="620">9</issue><issue-id pub-id-type="pmc-issue-id">520317</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v16.9</issue-id><elocation-id>e74252</elocation-id><history>
+<date date-type="rev-recd"><day>14</day><month>8</month><year>2026</year></date>
+<date date-type="received"><day>23</day><month>2</month><year>2026</year></date>
+<date date-type="accepted"><day>20</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>31</day><month>08</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>02</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-02 15:12:23.550"><day>02</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-16-e74252.pdf"><?pdf-name ECE3-16-e74252.pdf?><?pdf-size 2417415?><?pdf-md5 48ed1648c1f4e1e3882a32f5f6e15277?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:4ede/13530861/48ed1648c1f4/ECE3-16-e74252.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-16-e74252.pdf"/><abstract><title>ABSTRACT</title><p>Freshwater ecosystems are increasingly degraded by multiple stressors arising from climate change and local anthropogenic pressures. However, the potentially important interactive effects of stressors are not well understood. While there is growing evidence of multiple stressor effects from experimental studies, there is a need for more field‐based studies to provide complementary insights where there is high biological variability and context dependencies. We conducted an extensive survey of benthic macroinvertebrate communities across 30 streams in South Africa to examine responses to both the single and interactive effects of climate, human land cover and nutrient enrichment. We sampled macroinvertebrates and physicochemical variables at each site during the cold–dry and hot–wet seasons. Land use was classified using the 2022 South African National Landcover (SANCL) data. We used temperature and rainfall data from the South African Weather Service (SAWS) as climate proxies. Ammonium was the most pervasive stressor, acting both independently and in interaction with climate and human land cover to influence macroinvertebrate community dynamics, including independent effects on Ephemeroptera, Plecoptera and Trichoptera (EPT) richness and mean biomass (mg) and in interaction with human land cover to negatively affect overall and EPT abundance. The interaction of human land cover and rainfall, as well as ammonium, rainfall and season interaction showed positive effects on mean body size, indicating that rainfall is an important stressor in modulating the effects. Overall, our study suggests that both the individual and interactive effects of climate and anthropogenic stressors shape freshwater macroinvertebrate community dynamics. Our study highlights that reducing nutrient inputs and effective land use management would go a long way towards conserving freshwater invertebrates.</p></abstract><abstract abstract-type="graphical"><p>This study uses macroinvertebrate data from 30 streams in South Africa to understand how multiple climate‐ and anthropogenic‐related stressors shape their distribution. Both single and interactive terms shaped community composition, with stressor interactions dominating responses. Overall, we found context‐dependent interactions and highlight that managing land use and pollution remains a key focus of freshwater conservation.<boxed-text position="anchor" content-type="graphic" id="ece374252-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-16-e74252-g005.webp"><?image-name ECE3-16-e74252-g005.webp?><?image-size 10712?><?image-md5 b9b043aee984c1fb32b257fd8ceb2ce0?><?image-image-server-status NEVER_LOAD?><?image-original-height 347?><?image-original-width 331?><?image-scaled-height 347?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/4ede/13530861/b9b043aee984/ECE3-16-e74252-g005.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece374252-kwd-0001">climate change</kwd><kwd id="ece374252-kwd-0002">freshwater ecosystems</kwd><kwd id="ece374252-kwd-0003">land use</kwd><kwd id="ece374252-kwd-0004">multiple stressors</kwd><kwd id="ece374252-kwd-0005">nutrient enrichment</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Africa Oxford Initiatie (AfOx)</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>National Research Foundation</institution><institution-id institution-id-type="doi">10.13039/501100001321</institution-id></institution-wrap>
+</funding-source><award-id>TTK240409213108</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Rhodes Trust</institution></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="5"/><table-count count="1"/><page-count count="12"/><word-count count="8700"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:01.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ece374252-body-0001"><sec id="ece374252-sec-0001"><label>1</label><title>Introduction</title><p>Freshwater environments are increasingly exposed to multiple stressors associated with climate change, nutrient enrichment, and land‐use alterations (Fouchy et al. <xref rid="ece374252-bib-0028" ref-type="bibr">2019</xref>; Lin et al. <xref rid="ece374252-bib-0043" ref-type="bibr">2021</xref>; Oberdorff <xref rid="ece374252-bib-0059" ref-type="bibr">2022</xref>), making them among the most threatened ecosystems on the planet (Saqira et al. <xref rid="ece374252-bib-0066" ref-type="bibr">2024</xref>). These stressors modify habitat structure, resource availability and water quality, leading to shifts in the biological composition of freshwater ecosystems (Spears et al. <xref rid="ece374252-bib-0071" ref-type="bibr">2022</xref>; Feio et al. <xref rid="ece374252-bib-0026" ref-type="bibr">2023</xref>). Importantly, stressors rarely occur in isolation in freshwater ecosystems; instead, they commonly interact in complex ways, making it challenging to accurately predict ecological responses (Jackson et al. <xref rid="ece374252-bib-0034" ref-type="bibr">2016</xref>; Macaulay et al. <xref rid="ece374252-bib-0049" ref-type="bibr">2021</xref>; Brasseur et al. <xref rid="ece374252-bib-0011" ref-type="bibr">2022</xref>). Understanding stressor interactions is, therefore, a central challenge in freshwater ecosystems and a growing priority for effective management and conservation decisions (Birk et al. <xref rid="ece374252-bib-0081" ref-type="bibr">2020</xref>).</p><p>Land use change from human activities is the primary driver of global biodiversity loss (Cabernard et al. <xref rid="ece374252-bib-0014" ref-type="bibr">2024</xref>; Ma et al. <xref rid="ece374252-bib-0048" ref-type="bibr">2025</xref>). In freshwater ecosystems, human land use degrades habitats, resulting in shifts in community composition with effects that can vary seasonally (Matomela et al. <xref rid="ece374252-bib-0053" ref-type="bibr">2021</xref>; Dalu et al. <xref rid="ece374252-bib-0021" ref-type="bibr">2022</xref>; Gücker et al. <xref rid="ece374252-bib-0029" ref-type="bibr">2024</xref>; Wang et al. <xref rid="ece374252-bib-0075" ref-type="bibr">2025</xref>). Similarly, the elevated nutrient inputs associated with anthropogenic land use determine ecological conditions by promoting primary production, often leading to algal growth, hypoxia, and altering resource availability (Partani et al. <xref rid="ece374252-bib-0084" ref-type="bibr">2024</xref>). Nutrient enrichment accounts for 35% of the variation in ecological status in European waters (Polazzo et al. <xref rid="ece374252-bib-0063" ref-type="bibr">2022</xref>) and 34% in African rivers (Nkwasa et al. <xref rid="ece374252-bib-0058" ref-type="bibr">2024</xref>). Climate change shifts thermal and hydrological patterns, affecting biomass and community dynamics (Woodward et al. <xref rid="ece374252-bib-0076" ref-type="bibr">2010</xref>). These stressors can interact, leading to additive (combined effects of the stressors equal the sum of their individual effects), synergistic (combined effects are greater than additive) or antagonistic (combined effects are smaller than the additive effects) effects (Bao et al. <xref rid="ece374252-bib-0006" ref-type="bibr">2024</xref>; Parker et al. <xref rid="ece374252-bib-0061" ref-type="bibr">2024</xref>).</p><p>Despite progress in understanding multiple stressors in freshwater ecosystems, a recent systematic review of multiple‐stressor research highlights pronounced geographical biases, particularly in African freshwater ecosystems, which remain underrepresented in multiple‐stressor studies (Orr et al. <xref rid="ece374252-bib-0083" ref-type="bibr">2024</xref>). There is also a lack of high‐order or three‐way interaction studies, and understanding the mechanisms for the complex interactions remains a challenge in ecological research (Taniwaki et al. <xref rid="ece374252-bib-0073" ref-type="bibr">2017</xref>). The role of temporal dynamics, such as seasonal differences, in freshwater responses to multiple stressors also remains underexplored (Jackson et al. <xref rid="ece374252-bib-0035" ref-type="bibr">2021</xref>; Segurado et al. <xref rid="ece374252-bib-0068" ref-type="bibr">2021</xref>; He et al. <xref rid="ece374252-bib-0031" ref-type="bibr">2023</xref>). Additionally, most research has relied on controlled experimental approaches, with limited evidence from field surveys, limiting our mechanistic understanding of stressor interactions across diverse and heterogeneous ecosystems (Emmons et al. <xref rid="ece374252-bib-0025" ref-type="bibr">2025</xref>). Additional research from real‐world field surveys is therefore required to advance our understanding of multiple stressors in freshwater ecosystems, considering the significant variability and context dependencies in these environments.</p><p>A past study in South Africa found that river food webs varied across climatic and land‐use gradients (Jackson et al. <xref rid="ece374252-bib-0033" ref-type="bibr">2020</xref>). However, the study did not account for nutrient enrichment, despite its strong influence on South African freshwater ecosystems (Adams et al. <xref rid="ece374252-bib-0002" ref-type="bibr">2020</xref>; Mararakanye et al. <xref rid="ece374252-bib-0052" ref-type="bibr">2022</xref>). We build on this work by quantifying nutrient enrichment (ammonium, phosphate, nitrate) as a stressor and using different response variables—we focus on macroinvertebrate community metrics (i.e., taxa abundance, taxa richness, Ephemeroptera, Plecoptera and Trichoptera (EPT) abundance, EPT richness, Simpson's diversity index, mean body size and biomass). We sample many of the same sites as Jackson et al. (<xref rid="ece374252-bib-0033" ref-type="bibr">2020</xref>) but also expand the spatial scale and scope by introducing new streams to gain a more comprehensive insight. We address the following broad questions: (i) do climate, human land cover and nutrient enrichment independently affect macroinvertebrate communities across a stressor gradient? and (ii) do climate, human land cover, and nutrient enrichment stressors interact, leading to significant two‐way and high‐order interactions? If so, what is the nature of the interactions and do these interactions vary with seasons?</p></sec><sec sec-type="materials-and-methods" id="ece374252-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece374252-sec-0003"><label>2.1</label><title>Macroinvertebrate Sampling and Processing</title><p>Macroinvertebrates were sampled from 30 first‐ and second‐order streams across a latitudinal gradient, covering five provinces and 10 ecoregions in South Africa (Figure <xref rid="ece374252-fig-0001" ref-type="fig">1</xref>), to represent diverse climatic conditions, including variation in temperature and rainfall. Ecoregions were defined as large areas that support distinct biological communities (Abell et al. <xref rid="ece374252-bib-0001" ref-type="bibr">2008</xref>). Balanced representation among ecoregions was not achieved due to logical constraints and site accessibility, resulting in an unequal number of sampled sites across ecoregions. All sites were sampled in August 2023 and April 2024, representing the cool–dry and hot–wet seasons, respectively. One site, however, was not sampled during the hot–wet season due to logistical challenges. Macroinvertebrates were sampled in riffles with a Surber sampler (25 cm × 25 cm, 250 μm mesh size). All samples in each stream (<italic toggle="yes">n</italic> = 5) were preserved in 70% ethanol. Macroinvertebrates were measured and identified using regional keys to family level, except for the oligochaetes and nematodes, which were identified to subclass level. We calculated the body mass value of each individual using the allometric equation <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mo>×</mml:mo><mml:msup><mml:mi>L</mml:mi><mml:mi>b</mml:mi></mml:msup></mml:mrow></mml:mrow></mml:math>, where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>b</mml:mi></mml:mrow></mml:mrow></mml:math> are taxon‐specific constants derived from published length‐mass regressions (Benke et al. <xref rid="ece374252-bib-0010" ref-type="bibr">1999</xref>), and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:mrow></mml:math> is body length (mm). Mean biomass for each taxon was then calculated by multiplying its abundance by the mean body size of its individuals.</p><fig position="float" fig-type="FIGURE" id="ece374252-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Study site locations, covering 10 ecoregions and five provinces: Eastern Cape, Free State, Gauteng, Mpumalanga and Limpopo. The arrows show the geographic location of each province in South Africa.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-16-e74252-g001.webp"><?image-name ECE3-16-e74252-g001.webp?><?image-size 125804?><?image-md5 bfd77608cd878c2bfdefb8b49e6e89f6?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 743?><?image-original-width 1064?><?image-scaled-height 743?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/4ede/13530861/bfd77608cd87/ECE3-16-e74252-g001.webp?><?thumb-name ECE3-16-e74252-g001.gif?><?thumb-size 14233?><?thumb-md5 5f08775019ce28a43f978d4b23fd9057?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 140?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/4ede/13530861/5f08775019ce/ECE3-16-e74252-g001.gif?></graphic></fig></sec><sec id="ece374252-sec-0004"><label>2.2</label><title>Stressor Classification</title><p>In each sampling season, water quality variables (i.e., pH, conductivity (μS/cm), total dissolved solids (TDS) (mg/L) and water temperature (°C)) were measured at each of the 30 sites (<italic toggle="yes">n</italic> = 3) using a Hanna Combo Tester HI98129 (Hanna Instruments, Romania) to characterise site conditions. At each site, water samples (<italic toggle="yes">n</italic> = 3) were collected for nutrient analysis (i.e., ammonium, phosphate, and nitrate) using a Hanna multiparameter photometer (HI83300) in the laboratory.</p><p>We characterised human land cover as a percentage at each sampled site using the 2022 South African National Landcover (SANLC) data, which consists of 73 land use classes at 20 m resolution (available on <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.dffe.gov.za/egis" ext-link-type="uri">https://www.dffe.gov.za/egis</ext-link>). To quantify the percentage, we used ArcGIS Pro to delineate a 500 m‐wide polygon on each side of the stream (Theodoropoulos et al. <xref rid="ece374252-bib-0074" ref-type="bibr">2015</xref>) and extending 1 km upstream, as previous studies have shown that 1 km buffers are critical in influencing water quality (Brumberg et al. <xref rid="ece374252-bib-0013" ref-type="bibr">2021</xref>; Łaszewski et al. <xref rid="ece374252-bib-0040" ref-type="bibr">2022</xref>; Zhu et al. <xref rid="ece374252-bib-0080" ref-type="bibr">2024</xref>). We extracted the land‐use classes within the delineated polygon and calculated the percentage cover of human land cover. Human land cover was characterised by urban and agricultural features, including settlements, plantations and farmland.</p><p>Climate data were obtained from the South African Weather Service (SAWS), recorded from 17 weather stations. We selected annual rainfall as in Carvallo et al. (<xref rid="ece374252-bib-0016" ref-type="bibr">2022</xref>) and mean daily maximum temperature data as representations of climate variability. We calculated climate variables for the 12 months before each sampling season, 12 months before August 2023 for the cool–dry season and 12 months before April 2024 for the hot–wet season. The August 2023 sampling period coincided with the eighth hottest year on record (1951–2024), with a mean annual temperature of 0.36°C above the 1991–2020 climatological reference period (South African Weather Service <xref rid="ece374252-bib-0069" ref-type="bibr">2023</xref>). In contrast, the April 2024 sampling season coincided with the hottest year on record since 1951, with temperatures 0.9°C above the same 1991–2020 baseline. National rainfall was near normal, but the north–western interior experienced well‐below normal rainfall, while coastal and eastern regions, including Mpumalanga province, where some of the study sites are located, received well‐above normal rainfall (South African Weather Service <xref rid="ece374252-bib-0070" ref-type="bibr">2024</xref>).</p></sec><sec id="ece374252-sec-0005"><label>2.3</label><title>Statistical Analysis</title><p>All statistical analyses were done in R version 4.4.2 (R Core Development Team <xref rid="ece374252-bib-0064" ref-type="bibr">2024</xref>). Season (hot–wet or cool–dry) was a fixed categorical variable with all other variables continuous (temperature, rainfall, ammonium, phosphate, nitrate and human land cover). We calculated seven community‐level macroinvertebrate metrics (1. taxa abundance, 2. taxa richness, 3. Ephemeroptera, Plecoptera and Trichoptera (EPT) abundance, 4. EPT richness, 5. Simpson's diversity Index (SDI), 6. mean body size (mg) and 7. community biomass (mg)) to represent macroinvertebrate community dynamics. Next, we square‐root‐transformed the relative abundance data for the macroinvertebrate communities to reduce the influence of highly abundant taxa. We applied nonmetric multidimensional scaling (NMDS) with Bray–Curtis dissimilarities to visualise variation in community composition. Absolute abundance data were retained for all subsequent statistical models. The NMDS was conducted using the meta–MDS function in the <italic toggle="yes">vegan</italic> package (Oksanen et al. <xref rid="ece374252-bib-0060" ref-type="bibr">2025</xref>). We used the Shepard's plot and coefficient of determination (<italic toggle="yes">R</italic>
+<sup>2</sup>) to evaluate the strength and reliability of the NMDS ordination.</p><p>We ran permutational multivariate analysis of variance (PERMANOVA) with 999 permutations using the ‘adonis2’ function to test if communities differed between sites and the main effects of the predictor variables. The environmental variables explaining variation were overlaid using the <italic toggle="yes">envfit</italic> function, selecting variables that have significant effects at <italic toggle="yes">p</italic> &lt; 0.05. A post hoc exploration using Similarity percentage analysis (SIMPER) and Spearman's rank correlations was used to calculate the contribution of each taxon to the variation in macroinvertebrate composition.</p><p>We investigated multicollinearity using the variance inflation factor in the vif function from the ‘<italic toggle="yes">car</italic>’ package. The vif values for all stressor variables included in the General linear mixed effects models (GLMMs) were &lt; 5, indicating no collinearity issues (Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S1</xref>). GLMMs were used to analyse the relationships between the response and stressor variables mentioned above using the ‘glmmTMB’ function of the ‘<italic toggle="yes">glmmTMB</italic>’ package (Aguiar Jr. et al. <xref rid="ece374252-bib-0003" ref-type="bibr">2015</xref>; Brooks et al. <xref rid="ece374252-bib-0012" ref-type="bibr">2017</xref>). We applied a Negative binomial for taxa and EPT abundance to account for overdispersion and a Poisson model for taxa and EPT richness. We used the Gamma distribution with a log link for Simpson's diversity index, mean body size and community biomass. A summary of the model specifications is in Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S3</xref>. Model diagnostic checks were performed using the <italic toggle="yes">DHARMa</italic> package for overdispersion and outliers. We looked at all possible predictor combinations of our 6 continuous variables (human land cover, ammonium, phosphate, nitrate, temperature and rainfall) and 1 categorical variable (season [hot–wet or cool–dry]) and picked the best model for each response variable based on Akaike information criterion (AIC<sub>c</sub>) using the dredge function in the <italic toggle="yes">MuMIn</italic> package (Bartoń <xref rid="ece374252-bib-0008" ref-type="bibr">2026</xref>; Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S2</xref>). AIC<sub>c</sub> selects the most parsimonious model and provides the balance between overfitting and underfitting (Altwegg et al. <xref rid="ece374252-bib-0005" ref-type="bibr">2006</xref>). We retained models with the lowest AIC<sub>c</sub> values as the best predictors of responses and also considered models within two units of the top‐ranked model (ΔAIC<sub>c</sub> ≤ 2) for inference. If the best‐fit and ΔAIC<sub>c</sub> ≤ 2 models were statistically significant (<italic toggle="yes">p</italic> &lt; 0.05), we interpreted and reported all such models. Random effects for ecoregion and site were considered to account for the hierarchical sampling design. Including the random effects also accounted for the five sites that had incomplete nutrient enrichment data for one season (due to missing samples and instrument failure) and were, therefore, excluded from the analysis for that season only. The resulting models were response ~ predictor (1|Site) + (1|Ecoregion) for the main effects, response ~ predictor 1 × predictor 2 (1|Site) + (1|Ecoregion) for the two‐way interaction, and response ~ predictor 1 × predictor 2 × predictor 3 (1|Site) + (1|Ecoregion) for the three‐way interaction. Season was further added to the main and interaction models to test the influence of seasonal differences on stressor interaction.</p><p>We computed marginal and conditional <italic toggle="yes">R</italic>
+<sup>2</sup> values (Nakagawa and Schielzeth <xref rid="ece374252-bib-0082" ref-type="bibr">2012</xref>) for each mixed‐effects model. To account for zero variance associated with random effects, which can inflate AIC<sub>c</sub>, lead to singular fits and unreliable estimates of marginal and conditional <italic toggle="yes">R</italic>
+<sup>2</sup>, we used the VarCorr() function in the <italic toggle="yes">lme4</italic> package to estimate the variance explained by each random effect (Bates et al. <xref rid="ece374252-bib-0009" ref-type="bibr">2015</xref>). If only one random effect explained zero variance, it was removed to simplify the model. If both random effects explained zero variance, they were removed from the model following the approach of Ehlman et al. (<xref rid="ece374252-bib-0023" ref-type="bibr">2020</xref>), leading to a simplified general linear model (GLM). The specific random effects included in the modelling for each response variable are summarised in Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S3</xref>. Considering that AIC<sub>c</sub> models need to be fitted using maximum likelihood (ML) to be comparable across different random effect structures (Pinheiro and Bates <xref rid="ece374252-bib-0062" ref-type="bibr">2000</xref>), we did not make any additional adjustments in our analysis, as the glmmTMB fits by ML by default. As described by Brooks et al. (<xref rid="ece374252-bib-0012" ref-type="bibr">2017</xref>), the log‐likelihoods are calculated consistently in <italic toggle="yes">glmmTMB</italic>, which allows comparison of likelihood‐based model comparison metrics to remain statistically valid even when random effect structure differs between models. Model estimates are reported as the Beta (<italic toggle="yes">β</italic>) coefficient from the GLMMs, representing the direction of each stressor's variable and interactions with the response variable for the interpretation of the direction of interaction terms.</p></sec></sec><sec sec-type="results" id="ece374252-sec-0006"><label>3</label><title>Results</title><sec id="ece374252-sec-0007"><label>3.1</label><title>Environmental Characteristics of Streams</title><p>Environmental conditions varied across streams and seasons, reflecting site‐specific characteristics (Table <xref rid="ece374252-tbl-0001" ref-type="table">1</xref>). Mean water temperature was 16°C (range 11°C–23°C) in the cold–dry season and 20°C (range 16°C–32°C) in the hot–wet season. Water pH was generally neutral to alkaline, ranging from 7.0 to 8.5 in the cool–dry season and from 6.8 to 7.9 in the hot–wet season. Mean total dissolved solids (TDS) were 320 mg/L in the cool–dry season and 255 mg/L in the hot–wet season. Conductivity ranged from 29.9–2414.3 μS/cm in the cool–dry season and 23.3–2237.7 μS/cm in the hot–wet season. The percentage of human land cover ranged from 0% to 63%, with a mean ± standard deviation of 11% ± 14%, suggesting considerable variation in human land cover across the sampled sites. These environmental variables provide important context for interpreting how abiotic conditions influence stream macroinvertebrate communities. Additional information about the environmental characteristics of the streams is provided in Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S4</xref>.</p><table-wrap position="float" id="ece374252-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Variation in environmental variables over the two sampling seasons in the 30 sampled sites given as mean ± standard deviation (with range in brackets).</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Environmental variables</th><th align="center" colspan="2" valign="bottom" rowspan="1">Season</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Cool–dry</th><th align="center" valign="bottom" rowspan="1" colspan="1">Hot–wet</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">pH</td><td align="center" valign="top" rowspan="1" colspan="1">7.8 ± 0.5 (7–8.5)</td><td align="center" valign="top" rowspan="1" colspan="1">7.5 ± 0.4 (6.8–8.0)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Water temperature</td><td align="center" valign="top" rowspan="1" colspan="1">16.1 ± 2.7 (10.8–22.7) °C</td><td align="center" valign="top" rowspan="1" colspan="1">19.6 ± 3.5 (15.8–31.6) °C</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Total dissolved solids</td><td align="center" valign="top" rowspan="1" colspan="1">320.3 ± 295.0 (0–1027.3) mg/L</td><td align="center" valign="top" rowspan="1" colspan="1">255.1 ± 257.3 (1.29–1063.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Conductivity</td><td align="center" valign="top" rowspan="1" colspan="1">702.8 ± 620.0 (29.9–2414.3)</td><td align="center" valign="top" rowspan="1" colspan="1">687.4 ± 631.9 (23.31–2237.7)</td></tr></tbody></table></table-wrap></sec><sec id="ece374252-sec-0008"><label>3.2</label><title>Community Composition</title><p>A total of 10,816 macroinvertebrates belonging to 59 families were identified, with Chironomidae, Simuliidae, Baetidae, Caenidae and Hydropsychidae as the dominant groups. The NMDS plot had a stress value of 0.133, indicating good and reliable representation of the abundance data, and the Shepard diagram confirmed this pattern (<italic toggle="yes">R</italic>
+<sup>2</sup> = 0.902; Figure <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S1</xref>). Our analysis showed that pH, ammonium, and human land cover were the variables strongly associated with the variation in community composition (Figure <xref rid="ece374252-fig-0002" ref-type="fig">2</xref>). PERMANOVA confirmed this pattern for human land cover (PERMANOVA, pseudo‐<italic toggle="yes">F</italic> = 2.872, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.052, <italic toggle="yes">p</italic> = 0.002) and pH (PERMANOVA, pseudo‐<italic toggle="yes">F</italic> = 3.117, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.057, <italic toggle="yes">p</italic> &lt; 0.001). The full PERMANOVA results are summarised in Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S5</xref>.</p><fig position="float" fig-type="FIGURE" id="ece374252-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Non‐metric multidimensional scaling (NMDS) ordination based on Bray–Curtis dissimilarity. Envifit vectors show the environmental variables associated with community abundance (<italic toggle="yes">p</italic> &lt; 0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECE3-16-e74252-g004.webp"><?image-name ECE3-16-e74252-g004.webp?><?image-size 61542?><?image-md5 3e2b93738a7fce9e25502551f263b72b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1058?><?image-original-width 1064?><?image-scaled-height 1058?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/4ede/13530861/3e2b93738a7f/ECE3-16-e74252-g004.webp?><?thumb-name ECE3-16-e74252-g004.gif?><?thumb-size 7375?><?thumb-md5 7bca0577c50c97afd776cc0d477505fe?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 199?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/4ede/13530861/7bca0577c50c/ECE3-16-e74252-g004.gif?></graphic></fig></sec><sec id="ece374252-sec-0009"><label>3.3</label><title>General Linear Models</title><p>Simpson's diversity index declined significantly with increasing human land cover (AIC<sub>c</sub> = 7.3, <italic toggle="yes">β</italic> = −0.007 ± 0.001, <italic toggle="yes">p</italic> &lt; 0.001; Figure <xref rid="ece374252-fig-0003" ref-type="fig">3a</xref>), while EPT richness declined with increasing ammonium concentration (AIC<sub>c</sub> = 200.2, <italic toggle="yes">β</italic> = −0.038 ± 0.012, <italic toggle="yes">p</italic> = 0.002; Figure <xref rid="ece374252-fig-0003" ref-type="fig">3b</xref>). Mean biomass was best explained by temperature; however, this was not statistically significant (<italic toggle="yes">p</italic> &gt; 0.05). The human land cover × temperature and human land cover × ammonium × temperature were within two AIC<sub>c</sub> units (ΔAIC<sub>c</sub> ≤ 1.9). However, within these models, only the main effects of ammonium were statistically significant (<italic toggle="yes">β</italic> = 1.024 ± 0.507, <italic toggle="yes">p</italic> &lt; 0.044; Figure <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S2</xref>), implying no evidence for interactive effects; instead, mean biomass increased with ammonium concentration. Post‐hoc analysis using Spearman rank correlations revealed that this positive effect was primarily driven by pollution‐tolerant taxa such as Chironomidae, Micronectidae and Corixidae (Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S6</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374252-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Main effects of (a) % of human land cover on Simpson's diversity index; and main effects of ammonium on (b) EPT richness. The solid blue line and shaded grey area are predicting the fitting and 95% confidence intervals from the GLMMs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECE3-16-e74252-g003.webp"><?image-name ECE3-16-e74252-g003.webp?><?image-size 20216?><?image-md5 c9cf311c1c5bd9c6af602e16f5b64098?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 554?><?image-original-width 1064?><?image-scaled-height 554?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/4ede/13530861/c9cf311c1c5b/ECE3-16-e74252-g003.webp?><?thumb-name ECE3-16-e74252-g003.gif?><?thumb-size 4578?><?thumb-md5 27a004295697affe0ef02fe025d291a3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 104?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/4ede/13530861/27a004295697/ECE3-16-e74252-g003.gif?></graphic></fig><p>The interactive effects of human land cover and ammonium were the best‐fit model for taxa abundance (AIC<sub>c</sub> = 660.7, <italic toggle="yes">β</italic> = −0.003 ± 0.001, <italic toggle="yes">p</italic> = 0.004; Figure <xref rid="ece374252-fig-0004" ref-type="fig">4a</xref>) and EPT abundance (AIC<sub>c</sub> = 545.4, <italic toggle="yes">β</italic> = −0.038 ± 0.012, <italic toggle="yes">p</italic> &lt; 0.002; Figure <xref rid="ece374252-fig-0004" ref-type="fig">4b</xref>) indicating that the effects of ammonium on these two responses depended on the level of human land cover. SIMPER showed that the decline in taxa abundance with high ammonium and high human land cover was driven by the decline in the most abundant taxa (i.e., Chironomidae, Simuliidae, Caenidae, and Baetidae; Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S7</xref>).</p><fig position="float" fig-type="FIGURE" id="ece374252-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Interactive effects of (a) ammonium and human land cover on taxa abundance, (b) ammonium and human land cover on EPT abundance, (c) rainfall and human land use on mean body size. Here, rainfall and human land cover are categorised into low and high to simplify visualisation trends, but in the models, we used continuous data.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ECE3-16-e74252-g002.webp"><?image-name ECE3-16-e74252-g002.webp?><?image-size 40508?><?image-md5 fe85e90cda84befd6aee6ff45c3aca86?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1115?><?image-original-width 1064?><?image-scaled-height 1115?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/4ede/13530861/fe85e90cda84/ECE3-16-e74252-g002.webp?><?thumb-name ECE3-16-e74252-g002.gif?><?thumb-size 8531?><?thumb-md5 c68b8f4e9f4d03f4cd1e1a4414ecafff?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 191?><?thumb-cloudpmc-urn urn:cdn:blobs/4ede/13530861/c68b8f4e9f4d/ECE3-16-e74252-g002.gif?></graphic></fig><p>The intercept had the lowest AIC<sub>c</sub> for taxa richness, suggesting limited evidence for effects of the stressors on taxa richness (Table <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S2</xref>). Mean body size was best predicted by human land cover × rainfall (AIC<sub>c</sub> = 95.9, <italic toggle="yes">β</italic> = 0.001 ± 0.001, <italic toggle="yes">p</italic> = 0.01; Figure <xref rid="ece374252-fig-0004" ref-type="fig">4c</xref>). The ammonium × rainfall × season model was within 2 AIC<sub>c</sub> units and statistically significant (ΔAIC<sub>c</sub> = 1.6; <italic toggle="yes">β</italic> = −0.003 ± 0.001, <italic toggle="yes">p</italic> = 0.002; Figure <xref rid="ece374252-supitem-0001" ref-type="supplementary-material">S3</xref>), suggesting that interactive effects of ammonium and rainfall varied with season on mean body size. <italic toggle="yes">DHARMa</italic> identified outliers for this interactive model on mean body size; however, excluding the outliers did not change the statistical significance of the model.</p></sec></sec><sec sec-type="discussion" id="ece374252-sec-0010"><label>4</label><title>Discussion</title><p>Freshwater biodiversity is increasingly threatened by the combined effects of multiple stressors, and understanding their interactions is crucial in the context of global environmental change (Kefford et al. <xref rid="ece374252-bib-0037" ref-type="bibr">2023</xref>). Our study demonstrates that both the single and interactive effects of multiple stressors associated with climate and anthropogenic stressors play an important role in driving macroinvertebrate community dynamics in freshwater ecosystems in South Africa. Ammonium was the most pervasive stressor with negative consequences for metrics for both macroinvertebrate abundance and richness. We found independent effects of ammonium on EPT richness and mean biomass, and of human cover on Simpson's diversity index, but no independent effects of climate stressors. We found no high‐order interactions; instead, all interactions were two‐way. For instance, human land cover determined the scale of the effects of ammonium on invertebrate abundance.</p><sec id="ece374252-sec-0011"><label>4.1</label><title>Independent Effects</title><p>Modification of natural land use to agricultural and urban land use is strongly associated with the homogenisation of macroinvertebrate taxa and the loss of diversity (Lu et al. <xref rid="ece374252-bib-0047" ref-type="bibr">2022</xref>; Mahmud et al. <xref rid="ece374252-bib-0050" ref-type="bibr">2024</xref>; Rumschlag et al. <xref rid="ece374252-bib-0065" ref-type="bibr">2023</xref>). In our study, the percentage of human land cover translated into clear negative effects on Simpson's diversity index. This can be attributed to increased runoff and nutrient inputs, including the deposition of contaminants from urban and agricultural streams (Chen et al. <xref rid="ece374252-bib-0017" ref-type="bibr">2025</xref>; Wang et al. <xref rid="ece374252-bib-0075" ref-type="bibr">2025</xref>). Our study only quantified land use within 1 km from the sampled points, yet considerable effects on Simpson's diversity were still evident. This suggests that even moderate levels of human land cover are sufficient to trigger changes in diversity in freshwater ecosystems, consistent with previous research that macroinvertebrates show greater sensitivity to urban and agricultural land use, with ecological thresholds of 2%–10% and 15%–40%, respectively, with pronounced responses within 1–5 km (Xie et al. <xref rid="ece374252-bib-0077" ref-type="bibr">2025</xref>). Therefore, managing land use change within freshwaters remains an important conservation effort under multiple stressors.</p><p>We found negative effects of ammonium on EPT richness, however, it is important to note that ammonium in this study reflects conditions at the time of sampling rather than long–term patterns, which limits generalising short‐term effects to long‐term patterns. Nevertheless, these short‐term effects provide another important mechanism for why responses to stressors involving nutrient enrichment may vary between short‐term and long‐term contexts and may account for the inconsistencies observed across ecological studies. The negative effects of nutrient enrichment on macroinvertebrate communities are a common and widely reported trend in freshwater studies (e.g., Lin et al. <xref rid="ece374252-bib-0043" ref-type="bibr">2021</xref>; Birk et al. <xref rid="ece374252-bib-0081" ref-type="bibr">2020</xref>; Lourenço et al. <xref rid="ece374252-bib-0045" ref-type="bibr">2023</xref>). Our findings are therefore consistent with numerous studies (e.g., Let et al. <xref rid="ece374252-bib-0042" ref-type="bibr">2022</xref>; Nessel et al. <xref rid="ece374252-bib-0057" ref-type="bibr">2023</xref>; Barasa et al. <xref rid="ece374252-bib-0007" ref-type="bibr">2025</xref>) that have found nutrient enrichment to be strongly associated with declines in EPT abundance and richness. Potential mechanisms for such effects include nutrient enrichment leading to shifts from diatom‐dominated assemblages to cyanobacteria‐dominated communities. This shift disrupts consumer‐resource interactions, and reduces dissolved oxygen. Collectively, these processes alter stream conditions and changes in community composition (Elser et al. <xref rid="ece374252-bib-0024" ref-type="bibr">2007</xref>; Isbell et al. <xref rid="ece374252-bib-0032" ref-type="bibr">2013</xref>). The EPT taxa are highly sensitive to low oxygen and increased organic loading, so such nutrient‐driven changes lead to reduced survival and reduce the ability of macroinvertebrates to coexist, ultimately lowering EPT richness, instead, promoting a stable, low‐diversity state (Downing et al. <xref rid="ece374252-bib-0022" ref-type="bibr">2012</xref>). In contrast, we found positive effects of ammonium on mean biomass, suggesting that the effects of nutrient enrichment on freshwater ecosystems differ with ecological responses. However, post‐hoc analysis revealed that this increase was driven by pollution‐tolerant taxa such as Chironomidae and Micronectidae, consistent with previous research (e.g., Cortelezzi et al. <xref rid="ece374252-bib-0020" ref-type="bibr">2015</xref>; Neijnens et al. <xref rid="ece374252-bib-0055" ref-type="bibr">2024</xref>), which demonstrated that in freshwater ecosystems, nutrient enrichment leads to increased abundance of stress‐tolerant species. The dominance of pollution‐tolerant taxa likely reflects ecological degradation and has potential negative effects on freshwater ecosystem functioning and processes.</p></sec><sec id="ece374252-sec-0012"><label>4.2</label><title>Stressor Interaction</title><p>Total taxa and EPT abundance were reduced under conditions of both high concentrations of ammonium and a high percentage of human land cover, suggesting that these two stressors exacerbate each other's negative effects. Two potential interacting mechanisms may explain these findings. First, land use changes degrade freshwater habitats through the removal of riparian vegetation (Fierro et al. <xref rid="ece374252-bib-0027" ref-type="bibr">2017</xref>; Zermeño‐Hernández et al. <xref rid="ece374252-bib-0079" ref-type="bibr">2020</xref>), the sedimentation of aquatic ecosystems (Liu et al. <xref rid="ece374252-bib-0044" ref-type="bibr">2017</xref>), and the homogenisation of stream substrates (Camana et al. <xref rid="ece374252-bib-0015" ref-type="bibr">2024</xref>), and alterations in flow (Cooper et al. <xref rid="ece374252-bib-0019" ref-type="bibr">2013</xref>; Kayitesi et al. <xref rid="ece374252-bib-0036" ref-type="bibr">2022</xref>). Second, natural land use is known to modulate nutrient input, support freshwater biodiversity (Sargac et al. <xref rid="ece374252-bib-0067" ref-type="bibr">2021</xref>), and mitigate diffuse pollution (Cole et al. <xref rid="ece374252-bib-0018" ref-type="bibr">2020</xref>). By implication, modification of natural land use diminishes these important functions, further degrading freshwater ecosystems, leading to reduced abundance of macroinvertebrate communities. The decline in EPT abundance is consistent with a previous study showing that nutrient enrichment and human land use interact and disproportionately affect sensitive taxa (Lee et al. <xref rid="ece374252-bib-0041" ref-type="bibr">2020</xref>; Gücker et al. <xref rid="ece374252-bib-0029" ref-type="bibr">2024</xref>; Chen et al. <xref rid="ece374252-bib-0017" ref-type="bibr">2025</xref>). These findings highlight the importance of land use management and reductions in nutrient input to manage freshwater ecosystems in the face of growing multiple stressors in freshwater ecosystems. These two stressors are intertwined, as human land cover in the form of agricultural and urban land cover contributes to ammonium concentrations in riverine ecosystems. Understanding their interaction is crucial in the management of freshwater ecosystems as it allows us to account for ammonium associated with non‐point source (i.e., agricultural and urban land cover) and from other sources, which can be disregarded if we consider one stressor alone. Future studies can employ methods that allow accurate disentanglement of different land use patterns and nutrient enrichment effects to advance our understanding of the interactive effects of point‐source and non‐point source pollution.</p><p>Both the human land cover × rainfall and ammonium × rainfall × season interactions showed positive effects on mean body size, indicating that rainfall is an important stressor in modulating the effects. Human land use and nutrient input are important pathways for food resources for macroinvertebrates in freshwater ecosystems (Wang et al. <xref rid="ece374252-bib-0075" ref-type="bibr">2025</xref>). However, excess nutrient input can have negative effects, leading to simplification of community structure (Xie et al. <xref rid="ece374252-bib-0078" ref-type="bibr">2024</xref>), and our findings show that rainfall and hot–wet seasons can buffer against this dynamic. The observed increase in mean body size in our study may be explained by higher rainfall and a hot–wet season, flushing excess nutrients, mitigating the accumulation of excess nutrients, while maintaining conditions that support larger body size in macroinvertebrate communities. These positive findings contrast with previous research reporting negative effects of higher nutrients and higher runoff leading to declines in macroinvertebrates (Mantyka‐Pringle et al. <xref rid="ece374252-bib-0051" ref-type="bibr">2014</xref>). However, Mantyka‐Pringle et al. (<xref rid="ece374252-bib-0051" ref-type="bibr">2014</xref>) focused on macroinvertebrate abundance, suggesting that macroinvertebrate metrics can respond differently to the same stressors.</p><p>Our findings on the interactive effects of climate, land use and nutrient enrichment provided evidence for both independent effects and interactive effects, contrasting previous research, which has shown that non‐interactive effects are more common in field‐based than in experimental studies in freshwater ecosystems (Gutiérrez‐Cánovas et al. <xref rid="ece374252-bib-0030" ref-type="bibr">2022</xref>; Lourenço et al. <xref rid="ece374252-bib-0046" ref-type="bibr">2025</xref>). We highlighted that nutrient enrichment, specifically ammonium concentration, contributed significantly more to macroinvertebrate responses than did human land cover and climate stressors. We found no effects of temperature across all seven responses, despite sampling in seasons that coincided with the hottest years on record. This implies that local stressors are the major drivers of macroinvertebrate dynamics in freshwater ecosystems.</p></sec><sec id="ece374252-sec-0013"><label>4.3</label><title>Scale‐Dependent Ecological Responses to Interacting Stressors</title><p>By revisiting a subset of the streams originally surveyed by Jackson et al. (<xref rid="ece374252-bib-0033" ref-type="bibr">2020</xref>) in 2014–2015, we were able to evaluate the temporal consistency of ecological responses to climate and land‐use stressors almost a decade later. Although the two studies focused on different levels of biological organisation, food‐web structure quantified using stable isotopes in the earlier study and community composition and body‐size distributions in the present study, both examined the ecological consequences of the same overarching environmental drivers. This comparison therefore provides a rare opportunity to assess whether ecological responses to multiple stressors are consistent across organisational levels and through time. Jackson et al. (<xref rid="ece374252-bib-0033" ref-type="bibr">2020</xref>) reported significant independent effects of both land use and climate stressors on food‐web structure, whereas our analyses revealed no independent effects of climate stressors and only limited independent effects of land use, restricted to Simpson's diversity. Despite these differences, both studies identified non‐additive interactions among stressors, highlighting the importance of considering stressor combinations rather than individual drivers in isolation. Notably, however, the direction of these interactions differed, with Jackson et al. (<xref rid="ece374252-bib-0033" ref-type="bibr">2020</xref>) observing negative interactive effects on isotopic uniqueness, whereas we found positive interactive effects on mean body size. Such contrasting outcomes suggest that responses to multiple stressors are highly dependent on the ecological attribute being measured and may vary among levels of biological organisation.</p><p>Additional differences emerged in the factors regulating community structure, where Jackson et al. (<xref rid="ece374252-bib-0033" ref-type="bibr">2020</xref>) observed that seasonal variation was a dominant driver of invertebrate abundance, whereas in the present study taxa abundance was primarily explained by interactions between land use and ammonium concentrations. Furthermore, seasonal variability modified the influence of human land cover and nutrient enrichment on mean body size, indicating that temporal environmental fluctuations can alter the strength and direction of anthropogenic stressor effects. These findings demonstrate that ecological responses observed at the food‐web level do not necessarily translate to community‐level or trait‐based responses, even within the same ecosystems. Our findings support the growing recognition that the effects of multiple anthropogenic stressors are rarely universal, instead varying across ecological scales, levels of biological organisation, and environmental contexts. Therefore, caution is warranted when extrapolating findings from a single level of biological organisation to ecosystem‐wide responses. Conservation and management strategies should therefore adopt a multi‐level ecological perspective that explicitly recognises the potential for divergent responses among species, communities, and food webs under interacting environmental stressors.</p></sec><sec id="ece374252-sec-0014"><label>4.4</label><title>Limitations and Future Research</title><p>The results observed in this study may be limited by how the stressors were quantified. Nutrient enrichment stressors were assessed from samples collected during the study sampling period, rather than long‐term monitoring data, as was available for temperature and rainfall, with two sites missing samples and three additional sites excluded due to instrument failure. As such, they may not fully capture temporal variability. Nonetheless, they remain highly informative as they capture short‐term nutrient conditions affecting macroinvertebrate communities and therefore provide insights into immediate ecological responses to nutrient exposure even under ongoing long‐term climatic changes. Future research could examine the patterns using long‐term data and consider other metrics such as functional traits, population dynamics and species‐specific responses. The results of this study may also be limited by the spatial coverage of the classified land use. Future studies can use multiple distance ranges to examine the degree to which effects vary with the increasing extent of classified land use.</p></sec><sec id="ece374252-sec-0015"><label>4.5</label><title>Conclusion and Management Implications</title><p>Managing freshwater ecosystems in the face of global change requires a clear understanding of how multiple stressors shape biological communities (Emmons et al. <xref rid="ece374252-bib-0025" ref-type="bibr">2025</xref>; Kong et al. <xref rid="ece374252-bib-0039" ref-type="bibr">2025</xref>; Spiller et al. <xref rid="ece374252-bib-0072" ref-type="bibr">2025</xref>). Considering the important role of macroinvertebrate communities on stream ecosystem functioning and processes, this study advances our understanding of their responses to multiple stressors, which is important for freshwater conservation. Our study demonstrates that ecological responses in natural ecosystems were not driven by single effects alone; rather, stressors interacted, producing context‐dependent biological outcomes. Importantly, climate‐related stressors had no main effects but interacted to shape responses, while anthropogenic stressors showed independent effects. These findings highlight the combined and context‐dependent effects of multiple stressors in freshwater ecosystems and emphasise that management decisions based on individual stressors might not be enough to conserve freshwater ecosystems under global change. Here, we show that management strategies should prioritise reductions in nutrient input and improve catchment land management, while also recognising context‐dependencies in stressor interactions, considering the antagonistic responses.</p></sec></sec><sec id="ece374252-sec-0020"><title>Author Contributions</title><p>
+<bold>Buntu Fanteso:</bold> conceptualization (lead), data curation (lead), formal analysis (lead), funding acquisition (lead), investigation (lead), methodology (lead), project administration (lead), validation (lead), visualization (lead), writing – original draft (lead), writing – review and editing (lead). <bold>Tatenda Dalu:</bold> conceptualization (equal), data curation (equal), funding acquisition (equal), resources (equal), supervision (supporting), writing – review and editing (equal). <bold>Ryan Wasserman:</bold> resources (equal), writing – review and editing (equal). <bold>Wilbert Kadye:</bold> funding acquisition (equal), resources (equal), writing – review and editing (equal). <bold>Pule Mpopetsi:</bold> data curation (supporting), writing – review and editing (equal). <bold>Michelle Jackson:</bold> conceptualization (equal), funding acquisition (equal), supervision (lead), writing – review and editing (equal).</p></sec><sec sec-type="COI-statement" id="ece374252-sec-0019"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece374252-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1:</bold> Shepard plot on the observed dissimilarity vs. ordination distance showing how well the NMDS plot represents the macroinvertebrate community abundance.</p><p>
+<bold>Table S1:</bold> Variance inflation factor (VIF) metrics of the predictor and water quality variables. VIF = 1 shows no multicollinearity; 1 &lt; VIF &lt; 5 indicates little collinearity, but no further investigation is needed and VIF ≥ 5 shows high collinearity and warrants investigation.</p><p>
+<bold>Table S2:</bold> Best fit model selection for the effects of climate, human land cover, season and nutrient enrichment on different ecological responses. The best model for each response and the models within two AIC units of the best‐fit model are highlighted in yellow. The Conditional <italic toggle="yes">R</italic>
+<sup>2</sup> and Marginal <italic toggle="yes">R</italic>
+<sup>2</sup> are left blank for candidate models where they explained zero variance.</p><p>
+<bold>Table S3:</bold> Best‐fit models, distribution and random effect choices for each of the seven response variables.</p><p>
+<bold>Table S4:</bold> Site information for the 30 sites.</p><p>
+<bold>Table S5:</bold>: Randomisation test of the main effects.</p><p>
+<bold>Figure S2:</bold> Ammonium effects on mean biomass.</p><p>
+<bold>Figure S3:</bold> Ammonium, rainfall and season interaction on mean body size.</p><p>
+<bold>Table S6:</bold> Taxa contributing to biomass increase with ammonium.</p><p>
+<bold>Table S7:</bold> Taxa contribution to the interactive effects of ammonium and human land cover.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-16-e74252-s001.docx" position="float" orientation="portrait"><?suppdata-name ECE3-16-e74252-s001.docx?><?suppdata-size 400222?><?suppdata-md5 04bffb965414fddbd1ec13c414f4d592?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:4ede/13530861/04bffb965414/ECE3-16-e74252-s001.docx?></media></supplementary-material></sec></body><back><ack id="ece374252-sec-0016"><title>Acknowledgements</title><p>We acknowledge financial support from the Rhodes Trust, National Research Foundation (TTK240409213108) and Africa Oxford Initiatie (AfOx), which supported the fieldwork. We are grateful to the members of Aquatic Systems Research Group (ASRG), particularly Stanford Masimini Nkosi, Fannie Mfaniseni Masina and Linton Fhatuwani Munyai, who were involved in data collection. We thank Siphamandla Fanteso for assistance during both sampling seasons and Thandeka Mashazi for assistance during the first season. We are grateful to the South African Weather Service for providing climate data.</p></ack><sec sec-type="data-availability" id="ece374252-sec-0018"><title>Data Availability Statement</title><p>The data supporting the study is made available on figshare: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://figshare.com/s/6afd5485ca7d035f9050" ext-link-type="uri" specific-use="software is-supplemented-by">https://figshare.com/s/6afd5485ca7d035f9050</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece374252-bibl-0001"><title>References</title><ref id="ece374252-bib-0001"><mixed-citation publication-type="journal" id="ece374252-cit-0001">
+<string-name name-style="western">
+<surname>Abell</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Thieme</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Revenga</surname>
+</string-name>, et al. <year>2008</year>. “<article-title>Freshwater Ecoregions of the World: A New Map of Biogeographic Units for Freshwater Biodiversity Conservation</article-title>.” <source>Bioscience</source>
+<volume>58</volume>, no. <issue>5</issue>: <fpage>403</fpage>–<lpage>414</lpage>. <pub-id pub-id-type="doi">10.1641/B580507</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0002"><mixed-citation publication-type="journal" id="ece374252-cit-0002">
+<string-name name-style="western">
+<surname>Adams</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Taljaard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>van Niekerk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lemley</surname>
+</string-name>. <year>2020</year>. “<article-title>Nutrient Enrichment as a Threat to the Ecological Resilience and Health of South African Microtidal Estuaries</article-title>.” <source>African Journal of Aquatic Science</source>
+<volume>45</volume>, no. <issue>1–2</issue>: <fpage>23</fpage>–<lpage>40</lpage>. <pub-id pub-id-type="doi">10.2989/16085914.2019.1677212</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0003"><mixed-citation publication-type="journal" id="ece374252-cit-0003">
+<string-name name-style="western">
+<surname>Aguiar</surname>, <given-names>T. R.</given-names>, <suffix>Jr.</suffix>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Rasera</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Parron</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Brito</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Ferreira</surname>
+</string-name>. <year>2015</year>. “<article-title>Nutrient Removal Effectiveness by Riparian Buffer Zones in Rural Temperate Watersheds: The Impact of No‐Till Crops Practices</article-title>.” <source>Agricultural Water Management</source>
+<volume>149</volume>: <fpage>74</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1016/j.agwat.2014.10.031</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0005"><mixed-citation publication-type="journal" id="ece374252-cit-0005">
+<string-name name-style="western">
+<surname>Altwegg</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Eng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Caspersen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. R.</given-names>
+<surname>Anholt</surname>
+</string-name>. <year>2006</year>. “<article-title>Functional Response and Prey Defence Level in an Experimental Predator–Prey System</article-title>.” <source>Evolutionary Ecology Research</source>
+<volume>8</volume>, no. <issue>1</issue>: <fpage>115</fpage>–<lpage>128</lpage>.</mixed-citation></ref><ref id="ece374252-bib-0006"><mixed-citation publication-type="journal" id="ece374252-cit-0006">
+<string-name name-style="western">
+<surname>Bao</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Heino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xiong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2024</year>. “<article-title>Disentangling the Effects of Multiple Stressors on Freshwater Macroinvertebrates: A Quantitative Analysis of Experimental Studies</article-title>.” <source>Ecological Indicators</source>
+<volume>169</volume>: <elocation-id>112880</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2024.112880</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0007"><mixed-citation publication-type="journal" id="ece374252-cit-0007">
+<string-name name-style="western">
+<surname>Barasa</surname>, <given-names>C. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Simiyu Muse</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Khazenzi</surname>
+</string-name>. <year>2025</year>. “<article-title>Human Activities Influence on Distribution of Ephemeroptera, Plecoptera, and Trichoptera (EPT) in a Tropical Riverine Ecosystem in Kenya</article-title>.” <source>Journal of Freshwater Ecology</source>
+<volume>40</volume>, no. <issue>1</issue>: <elocation-id>2539125</elocation-id>. <pub-id pub-id-type="doi">10.1080/02705060.2025.2539125</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0008"><mixed-citation publication-type="miscellaneous" id="ece374252-cit-0008">
+<string-name name-style="western">
+<surname>Bartoń</surname>, <given-names>K.</given-names>
+</string-name>
+<year>2026</year>. <article-title>“MuMIn: Multi‐Model Inference (Version 1.48.19).” [Computer Software]</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/web/packages/MuMIn/index.html" ext-link-type="uri">https://cran.r‐project.org/web/packages/MuMIn/index.html</ext-link>.</mixed-citation></ref><ref id="ece374252-bib-0009"><mixed-citation publication-type="journal" id="ece374252-cit-0009">
+<string-name name-style="western">
+<surname>Bates</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mächler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bolker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Walker</surname>
+</string-name>. <year>2015</year>. “<article-title>Fitting Linear Mixed‐Effects Models Using lme4</article-title>.” <source>Journal of Statistical Software</source>
+<volume>67</volume>: <fpage>1</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v067.i01</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0010"><mixed-citation publication-type="journal" id="ece374252-cit-0010">
+<string-name name-style="western">
+<surname>Benke</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Huryn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Smock</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Wallace</surname>
+</string-name>. <year>1999</year>. “<article-title>Length–Mass Relationships for Freshwater Macroinvertebrates in North America With Particular Reference to the Southeastern United States</article-title>.” <source>Journal of the North American Benthological Society</source>
+<volume>18</volume>, no. <issue>3</issue>: <fpage>308</fpage>–<lpage>343</lpage>. <pub-id pub-id-type="doi">10.2307/1468447</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0081"><mixed-citation publication-type="journal" id="ece374252-cit-0081">
+<string-name name-style="western">
+<surname>Birk</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chapman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Carvalho</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Impacts of Multiple Stressors on Freshwater Biota Across Spatial Scales and Ecosystems</article-title>.” <source>Nature Ecology &amp; Evolution</source>
+<volume>4</volume>, no. <issue>8</issue>: <fpage>1060</fpage>–<lpage>1068</lpage>. <pub-id pub-id-type="doi">10.1038/s41559-020-1216-4</pub-id>.<pub-id pub-id-type="pmid">32541802</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0011"><mixed-citation publication-type="journal" id="ece374252-cit-0011">
+<string-name name-style="western">
+<surname>Brasseur</surname>, <given-names>M. V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Beermann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Elbrecht</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Impacts of Multiple Anthropogenic Stressors on the Transcriptional Response of Gammarus Fossarum in a Mesocosm Field Experiment</article-title>.” <source>BMC Genomics</source>
+<volume>23</volume>, no. <issue>1</issue>: <fpage>816</fpage>. <pub-id pub-id-type="doi">10.1186/s12864-022-09050-1</pub-id>.<pub-id pub-id-type="pmid">36482300</pub-id>
+<pub-id pub-id-type="pmcid">PMC9733165</pub-id></mixed-citation></ref><ref id="ece374252-bib-0012"><mixed-citation publication-type="journal" id="ece374252-cit-0012">
+<string-name name-style="western">
+<surname>Brooks</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kristensen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>van Benthem</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>glmmTMB Balances Speed and Flexibility Among Packages for Zero‐Inflated Generalized Linear Mixed Modeling</article-title>.” <source>R Journal</source>
+<volume>9</volume>: <elocation-id>378</elocation-id>.</mixed-citation></ref><ref id="ece374252-bib-0013"><mixed-citation publication-type="journal" id="ece374252-cit-0013">
+<string-name name-style="western">
+<surname>Brumberg</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Beirne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. N.</given-names>
+<surname>Broadbent</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Riparian Buffer Length Is More Influential Than Width on River Water Quality: A Case Study in Southern Costa Rica</article-title>.” <source>Journal of Environmental Management</source>
+<volume>286</volume>: <elocation-id>112132</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jenvman.2021.112132</pub-id>.<pub-id pub-id-type="pmid">33621848</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0014"><mixed-citation publication-type="journal" id="ece374252-cit-0014">
+<string-name name-style="western">
+<surname>Cabernard</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pfister</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hellweg</surname>
+</string-name>. <year>2024</year>. “<article-title>Biodiversity Impacts of Recent Land‐Use Change Driven by Increases in Agri‐Food Imports</article-title>.” <source>Nature Sustainability</source>
+<volume>7</volume>, no. <issue>11</issue>: <fpage>1512</fpage>–<lpage>1524</lpage>. <pub-id pub-id-type="doi">10.1038/s41893-024-01433-4</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0015"><mixed-citation publication-type="journal" id="ece374252-cit-0015">
+<string-name name-style="western">
+<surname>Camana</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. C. G.</given-names>
+<surname>Ortega</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. L.</given-names>
+<surname>Brejão</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Melo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Dias</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. G.</given-names>
+<surname>Becker</surname>
+</string-name>. <year>2024</year>. “<article-title>A Global Meta‐Analysis of the Effects of Land Use on the Diversity of Stream Fish and Macroinvertebrates</article-title>.” <source>Aquatic Sciences</source>
+<volume>86</volume>, no. <issue>3</issue>: <elocation-id>86</elocation-id>. <pub-id pub-id-type="doi">10.1007/s00027-024-01099-2</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0016"><mixed-citation publication-type="journal" id="ece374252-cit-0016">
+<string-name name-style="western">
+<surname>Carvallo</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Strickland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kinard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. K.</given-names>
+<surname>Reese</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hogan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Patrick</surname>
+</string-name>. <year>2022</year>. “<article-title>Structure and Functional Composition of Macroinvertebrate Communities in Coastal Plain Streams Across a Precipitation Gradient</article-title>.” <source>Freshwater Biology</source>
+<volume>67</volume>: <fpage>1725</fpage>–<lpage>1738</lpage>. <pub-id pub-id-type="doi">10.1111/fwb.13968</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0017"><mixed-citation publication-type="journal" id="ece374252-cit-0017">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lin</surname>
+</string-name>. <year>2025</year>. “<article-title>Impacts of Land Use and Water Quality on Macroinvertebrate Diversity Under Human Disturbance in the Lake Chaohu Basin, China</article-title>.” <source>Ecology and Evolution</source>
+<volume>15</volume>, no. <issue>11</issue>: <elocation-id>e72415</elocation-id>. <pub-id pub-id-type="doi">10.1002/ece3.72415</pub-id>.<pub-id pub-id-type="pmid">41179350</pub-id>
+<pub-id pub-id-type="pmcid">PMC12572828</pub-id></mixed-citation></ref><ref id="ece374252-bib-0018"><mixed-citation publication-type="journal" id="ece374252-cit-0018">
+<string-name name-style="western">
+<surname>Cole</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Stockan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Helliwell</surname>
+</string-name>. <year>2020</year>. “<article-title>Managing Riparian Buffer Strips to Optimise Ecosystem Services: A Review</article-title>.” <source>Agriculture, Ecosystems &amp; Environment</source>
+<volume>296</volume>: <elocation-id>106891</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.agee.2020.106891</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0019"><mixed-citation publication-type="journal" id="ece374252-cit-0019">
+<string-name name-style="western">
+<surname>Cooper</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>Lake</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sabater</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Melack</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Sabo</surname>
+</string-name>. <year>2013</year>. “<article-title>The Effects of Land Use Changes on Streams and Rivers in Mediterranean Climates</article-title>.” <source>Hydrobiologia</source>
+<volume>719</volume>, no. <issue>1</issue>: <fpage>383</fpage>–<lpage>425</lpage>. <pub-id pub-id-type="doi">10.1007/s10750-012-1333-4</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0020"><mixed-citation publication-type="journal" id="ece374252-cit-0020">
+<string-name name-style="western">
+<surname>Cortelezzi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ocón</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. V. L.</given-names>
+<surname>van Oosterom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Cepeda</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Capítulo</surname>
+</string-name>. <year>2015</year>. “<article-title>Nutrient Enrichment Effect on Macroinvertebrates in a Lowland Stream of Argentina</article-title>.” <source>Iheringia, Série Zoologia</source>
+<volume>105</volume>: <fpage>228</fpage>–<lpage>234</lpage>. <pub-id pub-id-type="doi">10.1590/1678-476620151052228234</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0021"><mixed-citation publication-type="journal" id="ece374252-cit-0021">
+<string-name name-style="western">
+<surname>Dalu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Mwedzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Wasserman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. C.</given-names>
+<surname>Madzivanzira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Nhiwatiwa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. N.</given-names>
+<surname>Cuthbert</surname>
+</string-name>. <year>2022</year>. “<article-title>Land Use Effects on Water Quality, Habitat, and Macroinvertebrate and Diatom Communities in African Highland Streams</article-title>.” <source>Science of the Total Environment</source>
+<volume>846</volume>: <elocation-id>157346</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.157346</pub-id>.<pub-id pub-id-type="pmid">35842162</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0022"><mixed-citation publication-type="journal" id="ece374252-cit-0022">
+<string-name name-style="western">
+<surname>Downing</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. H.</given-names>
+<surname>van Nes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. M.</given-names>
+<surname>Mooij</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Scheffer</surname>
+</string-name>. <year>2012</year>. “<article-title>The Resilience and Resistance of an Ecosystem to a Collapse of Diversity</article-title>.” <source>PLoS One</source>
+<volume>7</volume>, no. <issue>9</issue>: <elocation-id>e46135</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0046135</pub-id>.<pub-id pub-id-type="pmid">23029410</pub-id>
+<pub-id pub-id-type="pmcid">PMC3459835</pub-id></mixed-citation></ref><ref id="ece374252-bib-0023"><mixed-citation publication-type="journal" id="ece374252-cit-0023">
+<string-name name-style="western">
+<surname>Ehlman</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Torresdal</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. F.</given-names>
+<surname>Fraser</surname>
+</string-name>. <year>2020</year>. “<article-title>Altered Visual Environment Affects a Tropical Freshwater Fish Assemblage Through Impacts on Predator–Prey Interactions</article-title>.” <source>Freshwater Biology</source>
+<volume>65</volume>, no. <issue>2</issue>: <fpage>316</fpage>–<lpage>324</lpage>. <pub-id pub-id-type="doi">10.1111/fwb.13425</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0024"><mixed-citation publication-type="journal" id="ece374252-cit-0024">
+<string-name name-style="western">
+<surname>Elser</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. E. S.</given-names>
+<surname>Bracken</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Cleland</surname>
+</string-name>, et al. <year>2007</year>. “<article-title>Global Analysis of Nitrogen and Phosphorus Limitation of Primary Producers in Freshwater, Marine and Terrestrial Ecosystems</article-title>.” <source>Ecology Letters</source>
+<volume>10</volume>, no. <issue>12</issue>: <fpage>1135</fpage>–<lpage>1142</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2007.01113.x</pub-id>.<pub-id pub-id-type="pmid">17922835</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0025"><mixed-citation publication-type="journal" id="ece374252-cit-0025">
+<string-name name-style="western">
+<surname>Emmons</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Cashman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Fanelli</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Stressor‐Driven Changes in Freshwater Biological Indicators Inform Spatial Management Strategies Using Expert Knowledge, Observational Data, and Hierarchical Models</article-title>.” <source>Ecological Indicators</source>
+<volume>174</volume>: <elocation-id>113501</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2025.113501</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0026"><mixed-citation publication-type="journal" id="ece374252-cit-0026">
+<string-name name-style="western">
+<surname>Feio</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Hughes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R. Q.</given-names>
+<surname>Serra</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Fish and Macroinvertebrate Assemblages Reveal Extensive Degradation of the World's Rivers</article-title>.” <source>Global Change Biology</source>
+<volume>29</volume>, no. <issue>2</issue>: <fpage>355</fpage>–<lpage>374</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.16439</pub-id>.<pub-id pub-id-type="pmid">36131677</pub-id>
+<pub-id pub-id-type="pmcid">PMC10091732</pub-id></mixed-citation></ref><ref id="ece374252-bib-0027"><mixed-citation publication-type="journal" id="ece374252-cit-0027">
+<string-name name-style="western">
+<surname>Fierro</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bertrán</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tapia</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Effects of Local Land‐Use on Riparian Vegetation, Water Quality, and the Functional Organization of Macroinvertebrate Assemblages</article-title>.” <source>Science of the Total Environment</source>
+<volume>609</volume>: <fpage>724</fpage>–<lpage>734</lpage>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2017.07.197</pub-id>.<pub-id pub-id-type="pmid">28763669</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0028"><mixed-citation publication-type="book" id="ece374252-cit-0028">
+<string-name name-style="western">
+<surname>Fouchy</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>McClain</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Conallin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>O'Brien</surname>
+</string-name>. <year>2019</year>. “<part-title>Multiple Stressors in African Freshwater Systems</part-title>.” In <source>Multiple Stressors in River Ecosystems</source>, <fpage>179</fpage>–<lpage>191</lpage>. <publisher-name>Elsevier</publisher-name>. <pub-id pub-id-type="doi">10.1016/B978-0-12-811713-2.00010-8</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0029"><mixed-citation publication-type="journal" id="ece374252-cit-0029">
+<string-name name-style="western">
+<surname>Gücker</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Brauns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. T. B.</given-names>
+<surname>Santos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. P. C.</given-names>
+<surname>de Carvalho</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I. G.</given-names>
+<surname>Boëchat</surname>
+</string-name>. <year>2024</year>. “<article-title>Contrasting Effects of Agriculture and Urban Land Use on Macroinvertebrate Secondary Production in Neotropical Streams</article-title>.” <source>Ecological Indicators</source>
+<volume>162</volume>: <elocation-id>112039</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2024.112039</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0030"><mixed-citation publication-type="journal" id="ece374252-cit-0030">
+<string-name name-style="western">
+<surname>Gutiérrez‐Cánovas</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Arias‐Real</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Bruno</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Multiple‐Stressors Effects on Iberian Freshwaters: A Review of Current Knowledge and Future Research Priorities</article-title>.” <source>Limnetica</source>
+<volume>41</volume>, no. <issue>2</issue>: <elocation-id>1</elocation-id>. <pub-id pub-id-type="doi">10.23818/limn.41.15</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0031"><mixed-citation publication-type="journal" id="ece374252-cit-0031">
+<string-name name-style="western">
+<surname>He</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Arora</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Mansour</surname>
+</string-name>. <year>2023</year>. “<article-title>Multispecies Assemblages and Multiple Stressors: Synthesizing the State of Experimental Research in Freshwaters</article-title>.” <source>WIREs Water</source>
+<volume>10</volume>, no. <issue>3</issue>: <elocation-id>e1641</elocation-id>. <pub-id pub-id-type="doi">10.1002/wat2.1641</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0032"><mixed-citation publication-type="journal" id="ece374252-cit-0032">
+<string-name name-style="western">
+<surname>Isbell</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Reich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Tilman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Hobbie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Polasky</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Binder</surname>
+</string-name>. <year>2013</year>. “<article-title>Nutrient Enrichment, Biodiversity Loss, and Consequent Declines in Ecosystem Productivity</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>110</volume>, no. <issue>29</issue>: <fpage>11911</fpage>–<lpage>11916</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1310880110</pub-id>.<pub-id pub-id-type="pmid">23818582</pub-id>
+<pub-id pub-id-type="pmcid">PMC3718098</pub-id></mixed-citation></ref><ref id="ece374252-bib-0033"><mixed-citation publication-type="journal" id="ece374252-cit-0033">
+<string-name name-style="western">
+<surname>Jackson</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. E.</given-names>
+<surname>Fourie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Dalu</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Food Web Properties Vary With Climate and Land Use in South African Streams</article-title>.” <source>Functional Ecology</source>
+<volume>34</volume>, no. <issue>8</issue>: <fpage>1653</fpage>–<lpage>1665</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2435.13601</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0034"><mixed-citation publication-type="journal" id="ece374252-cit-0034">
+<string-name name-style="western">
+<surname>Jackson</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J. G.</given-names>
+<surname>Loewen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Vinebrooke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. T.</given-names>
+<surname>Chimimba</surname>
+</string-name>. <year>2016</year>. “<article-title>Net Effects of Multiple Stressors in Freshwater Ecosystems: A Meta‐Analysis</article-title>.” <source>Global Change Biology</source>
+<volume>22</volume>, no. <issue>1</issue>: <fpage>180</fpage>–<lpage>189</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.13028</pub-id>.<pub-id pub-id-type="pmid">26149723</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0035"><mixed-citation publication-type="journal" id="ece374252-cit-0035">
+<string-name name-style="western">
+<surname>Jackson</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pawar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Woodward</surname>
+</string-name>. <year>2021</year>. “<article-title>The Temporal Dynamics of Multiple Stressor Effects: From Individuals to Ecosystems</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>36</volume>, no. <issue>5</issue>: <fpage>402</fpage>–<lpage>410</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2021.01.005</pub-id>.<pub-id pub-id-type="pmid">33583600</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0036"><mixed-citation publication-type="journal" id="ece374252-cit-0036">
+<string-name name-style="western">
+<surname>Kayitesi</surname>, <given-names>N. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Guzha</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Mariethoz</surname>
+</string-name>. <year>2022</year>. “<article-title>Impacts of Land Use Land Cover Change and Climate Change on River Hydro‐Morphology—A Review of Research Studies in Tropical Regions</article-title>.” <source>Journal of Hydrology</source>
+<volume>615</volume>: <elocation-id>128702</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jhydrol.2022.128702</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0037"><mixed-citation publication-type="journal" id="ece374252-cit-0037">
+<string-name name-style="western">
+<surname>Kefford</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Nichols</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Duncan</surname>
+</string-name>. <year>2023</year>. “<article-title>The Cumulative Impacts of Anthropogenic Stressors Vary Markedly Along Environmental Gradients</article-title>.” <source>Global Change Biology</source>
+<volume>29</volume>, no. <issue>3</issue>: <fpage>590</fpage>–<lpage>602</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.16435</pub-id>.<pub-id pub-id-type="pmid">36114730</pub-id>
+<pub-id pub-id-type="pmcid">PMC10087255</pub-id></mixed-citation></ref><ref id="ece374252-bib-0039"><mixed-citation publication-type="journal" id="ece374252-cit-0039">
+<string-name name-style="western">
+<surname>Kong</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Orr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Meidl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Rillig</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Yang</surname>
+</string-name>. <year>2025</year>. “<article-title>Ecosystems Have Multiple Interacting Processes That Buffer Against Co‐Occurring Stressors</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>40</volume>, no. <issue>5</issue>: <fpage>479</fpage>–<lpage>488</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2025.03.002</pub-id>.<pub-id pub-id-type="pmid">40155304</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0040"><mixed-citation publication-type="journal" id="ece374252-cit-0040">
+<string-name name-style="western">
+<surname>Łaszewski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fedorczyk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Stępniewski</surname>
+</string-name>. <year>2022</year>. “<article-title>The Impact of Land Cover on Selected Water Quality Parameters in Polish Lowland Streams During the Non‐Vegetative Period</article-title>.” <source>Water</source>
+<volume>14</volume>, no. <issue>20</issue>: <elocation-id>3295</elocation-id>. <pub-id pub-id-type="doi">10.3390/w14203295</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0041"><mixed-citation publication-type="journal" id="ece374252-cit-0041">
+<string-name name-style="western">
+<surname>Lee</surname>, <given-names>J.‐W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐W.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐J.</given-names>
+<surname>An</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐J.</given-names>
+<surname>Hwang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.‐Y.</given-names>
+<surname>Kim</surname>
+</string-name>. <year>2020</year>. “<article-title>An Estimated Structural Equation Model to Assess the Effects of Land Use on Water Quality and Benthic Macroinvertebrates in Streams of the Nam–Han River System, South Korea</article-title>.” <source>International Journal of Environmental Research and Public Health</source>
+<volume>17</volume>, no. <issue>6</issue>: <elocation-id>2116</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijerph17062116</pub-id>.<pub-id pub-id-type="pmid">32209987</pub-id>
+<pub-id pub-id-type="pmcid">PMC7143456</pub-id></mixed-citation></ref><ref id="ece374252-bib-0042"><mixed-citation publication-type="journal" id="ece374252-cit-0042">
+<string-name name-style="western">
+<surname>Let</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Černý</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Nováková</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Ložek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bláha</surname>
+</string-name>. <year>2022</year>. “<article-title>Effects of Trace Metals and Municipal Wastewater on the Ephemeroptera, Plecoptera, and Trichoptera of a Stream Community</article-title>.” <source>Biology</source>
+<volume>11</volume>, no. <issue>5</issue>: <elocation-id>648</elocation-id>. <pub-id pub-id-type="doi">10.3390/biology11050648</pub-id>.<pub-id pub-id-type="pmid">35625376</pub-id>
+<pub-id pub-id-type="pmcid">PMC9137756</pub-id></mixed-citation></ref><ref id="ece374252-bib-0043"><mixed-citation publication-type="journal" id="ece374252-cit-0043">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>McGowan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Capo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Shen</surname>
+</string-name>. <year>2021</year>. “<article-title>Synergistic Impacts of Nutrient Enrichment and Climate Change on Long‐Term Water Quality and Ecological Dynamics in Contrasting Shallow‐Lake Zones</article-title>.” <source>Limnology and Oceanography</source>
+<volume>66</volume>, no. <issue>9</issue>: <fpage>3271</fpage>–<lpage>3286</lpage>. <pub-id pub-id-type="doi">10.1002/lno.11878</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0044"><mixed-citation publication-type="journal" id="ece374252-cit-0044">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. O.</given-names>
+<surname>Duodu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Goonetilleke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. A.</given-names>
+<surname>Ayoko</surname>
+</string-name>. <year>2017</year>. “<article-title>Influence of Land Use Configurations on River Sediment Pollution</article-title>.” <source>Environmental Pollution</source>
+<volume>229</volume>: <fpage>639</fpage>–<lpage>646</lpage>. <pub-id pub-id-type="doi">10.1016/j.envpol.2017.06.076</pub-id>.<pub-id pub-id-type="pmid">28689152</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0045"><mixed-citation publication-type="journal" id="ece374252-cit-0045">
+<string-name name-style="western">
+<surname>Lourenço</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gutiérrez‐Cánovas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Carvalho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Cássio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pascoal</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Pace</surname>
+</string-name>. <year>2023</year>. “<article-title>Non‐Interactive Effects Drive Multiple Stressor Impacts on the Taxonomic and Functional Diversity of Atlantic Stream Macroinvertebrates</article-title>.” <source>Environmental Research</source>
+<volume>229</volume>: <elocation-id>115965</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envres.2023.115965</pub-id>.<pub-id pub-id-type="pmid">37105281</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0046"><mixed-citation publication-type="journal" id="ece374252-cit-0046">
+<string-name name-style="western">
+<surname>Lourenço</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Rocha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Rocha</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. V.</given-names>
+<surname>Madureira</surname>
+</string-name>. <year>2025</year>. “<article-title>A Double Challenge for Fish: The Combined Stress of Warming and Pharmaceuticals in Aquatic Systems</article-title>.” <source>Journal of Xenobiotics</source>
+<volume>15</volume>, no. <issue>6</issue>: <elocation-id>190</elocation-id>. <pub-id pub-id-type="doi">10.3390/jox15060190</pub-id>.<pub-id pub-id-type="pmid">41283428</pub-id>
+<pub-id pub-id-type="pmcid">PMC12641760</pub-id></mixed-citation></ref><ref id="ece374252-bib-0047"><mixed-citation publication-type="journal" id="ece374252-cit-0047">
+<string-name name-style="western">
+<surname>Lu</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Zheng</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yin</surname>
+</string-name>. <year>2022</year>. “<article-title>Effect of Different Land Use Types on the Taxonomic and Functional Diversity of Macroinvertebrates in an Urban Area of Northern China</article-title>.” <source>Water</source>
+<volume>14</volume>, no. <issue>23</issue>: <elocation-id>3793</elocation-id>. <pub-id pub-id-type="doi">10.3390/w14233793</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0048"><mixed-citation publication-type="journal" id="ece374252-cit-0048">
+<string-name name-style="western">
+<surname>Ma</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kratina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Ledger</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>O'Gorman</surname>
+</string-name>. <year>2025</year>. “<article-title>Network Rewiring Conserves the Topology of Drought‐Impaired Food Webs</article-title>.” <source>Communications Biology</source>
+<volume>8</volume>, no. <issue>1</issue>: <fpage>1641</fpage>. <pub-id pub-id-type="doi">10.1038/s42003-025-09035-2</pub-id>.<pub-id pub-id-type="pmid">41286269</pub-id>
+<pub-id pub-id-type="pmcid">PMC12644991</pub-id></mixed-citation></ref><ref id="ece374252-bib-0049"><mixed-citation publication-type="journal" id="ece374252-cit-0049">
+<string-name name-style="western">
+<surname>Macaulay</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Hageman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Piggott</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. P. D.</given-names>
+<surname>Juvigny‐Khenafou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Matthaei</surname>
+</string-name>. <year>2021</year>. “<article-title>Warming and Imidacloprid Pulses Determine Macroinvertebrate Community Dynamics in Experimental Streams</article-title>.” <source>Global Change Biology</source>
+<volume>27</volume>, no. <issue>21</issue>: <fpage>5469</fpage>–<lpage>5490</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.15856</pub-id>.<pub-id pub-id-type="pmid">34418243</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0050"><mixed-citation publication-type="journal" id="ece374252-cit-0050">
+<string-name name-style="western">
+<surname>Mahmud</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Lahti</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Habig</surname>
+</string-name>. <year>2024</year>. “<article-title>The Impact of Land Use and Human Population Density on Benthic Macroinvertebrate Diversity in a Highly Urbanized River</article-title>.” <source>Cities and the Environment (CATE)</source>
+<volume>17</volume>, no. <issue>1</issue>: <elocation-id>5</elocation-id>. <pub-id pub-id-type="doi">10.15365/cate.2024.170105</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0051"><mixed-citation publication-type="journal" id="ece374252-cit-0051">
+<string-name name-style="western">
+<surname>Mantyka‐Pringle</surname>, <given-names>C. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. G.</given-names>
+<surname>Martin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. B.</given-names>
+<surname>Moffatt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Linke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Rhodes</surname>
+</string-name>. <year>2014</year>. “<article-title>Understanding and Predicting the Combined Effects of Climate Change and Land‐Use Change on Freshwater Macroinvertebrates and Fish</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>51</volume>, no. <issue>3</issue>: <fpage>572</fpage>–<lpage>581</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2664.12236</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0052"><mixed-citation publication-type="journal" id="ece374252-cit-0052">
+<string-name name-style="western">
+<surname>Mararakanye</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Le Roux</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Franke</surname>
+</string-name>. <year>2022</year>. “<article-title>Long‐Term Water Quality Assessments Under Changing Land Use in a Large Semi‐Arid Catchment in South Africa</article-title>.” <source>Science of the Total Environment</source>
+<volume>818</volume>: <elocation-id>151670</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2021.151670</pub-id>.<pub-id pub-id-type="pmid">34843793</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0053"><mixed-citation publication-type="journal" id="ece374252-cit-0053">
+<string-name name-style="western">
+<surname>Matomela</surname>, <given-names>N. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Chakona</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. T.</given-names>
+<surname>Kadye</surname>
+</string-name>. <year>2021</year>. “<article-title>Comparative Assessment of Macroinvertebrate Communities Within Three Afromontane Headwater Streams Influenced by Different Land Use Patterns</article-title>.” <source>Ecological Indicators</source>
+<volume>129</volume>: <elocation-id>107972</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2021.107972</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0082"><mixed-citation publication-type="journal" id="ece374252-cit-0082">
+<string-name name-style="western">
+<surname>Nakagawa</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Schielzeth</surname>
+</string-name>. <year>2012</year>. “<article-title>A General and Simple Method for Obtaining <italic toggle="yes">R</italic>
+<sup>2</sup> From Generalized Linear Mixed‐Effects Models</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>4</volume>, no. <issue>2</issue>: <fpage>133</fpage>–<lpage>142</lpage>. <pub-id pub-id-type="doi">10.1111/j.2041-210x.2012.00261.x</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0055"><mixed-citation publication-type="journal" id="ece374252-cit-0055">
+<string-name name-style="western">
+<surname>Neijnens</surname>, <given-names>F. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Moreira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. M. J.</given-names>
+<surname>de Jonge</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Effects of Nutrient Enrichment on Freshwater Macrophyte and Invertebrate Abundance: A Meta‐Analysis</article-title>.” <source>Global Change Biology</source>
+<volume>30</volume>, no. <issue>1</issue>: <elocation-id>e17094</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.17094</pub-id>.<pub-id pub-id-type="pmid">38273479</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0057"><mixed-citation publication-type="journal" id="ece374252-cit-0057">
+<string-name name-style="western">
+<surname>Nessel</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Konnovitch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. Q.</given-names>
+<surname>Romero</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>González</surname>
+</string-name>. <year>2023</year>. “<article-title>Decline of Insects and Arachnids Driven by Nutrient Enrichment: A Meta‐Analysis</article-title>.” <source>Ecology</source>
+<volume>104</volume>, no. <issue>2</issue>: <elocation-id>e3897</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.3897</pub-id>.<pub-id pub-id-type="pmid">36217891</pub-id>
+<pub-id pub-id-type="pmcid">PMC10078409</pub-id></mixed-citation></ref><ref id="ece374252-bib-0058"><mixed-citation publication-type="miscellaneous" id="ece374252-cit-0058">
+<string-name name-style="western">
+<surname>Nkwasa</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Chawanda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Nakkazi</surname>
+</string-name>, et al. <year>2024</year>. <article-title>“One Third of African Rivers Fail to Meet the ‘Good Ambient Water Quality’ Nutrient Targets (SSRN Scholarly Paper No. 4829742)</article-title>.” Social Science Research Network. <pub-id pub-id-type="doi">10.2139/ssrn.4829742</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0059"><mixed-citation publication-type="journal" id="ece374252-cit-0059">
+<string-name name-style="western">
+<surname>Oberdorff</surname>, <given-names>T.</given-names>
+</string-name>
+<year>2022</year>. “<article-title>Time for Decisive Actions to Protect Freshwater Ecosystems From Global Changes</article-title>.” <source>Knowledge &amp; Management of Aquatic Ecosystems</source>
+<volume>423</volume>: <elocation-id>19</elocation-id>. <pub-id pub-id-type="doi">10.1051/kmae/2022017</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0060"><mixed-citation publication-type="miscellaneous" id="ece374252-cit-0060">
+<string-name name-style="western">
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. L.</given-names>
+<surname>Simpson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. G.</given-names>
+<surname>Blanchet</surname>
+</string-name>, et al. <year>2025</year>. <article-title>“vegan: Community Ecology Package</article-title> (Version 2.7‐1).” [Computer Software]. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/web/packages/vegan/index.html" ext-link-type="uri">https://cran.r‐project.org/web/packages/vegan/index.html</ext-link>.</mixed-citation></ref><ref id="ece374252-bib-0083"><mixed-citation publication-type="journal" id="ece374252-cit-0083">
+<string-name name-style="western">
+<surname>Orr</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Macaulay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mordente</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Studying Interactions Among Anthropogenic Stressors in Freshwater Ecosystems: A Systematic Review of 2396 Multiple‐Stressor Experiments</article-title>.” <source>Ecology Letters</source>
+<volume>27</volume>, no. <issue>6</issue>: <elocation-id>e14463</elocation-id>. <pub-id pub-id-type="doi">10.1111/ele.14463</pub-id>.<pub-id pub-id-type="pmid">38924275</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0061"><mixed-citation publication-type="journal" id="ece374252-cit-0061">
+<string-name name-style="western">
+<surname>Parker</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Britton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. D.</given-names>
+<surname>Green</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Jackson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Andreou</surname>
+</string-name>. <year>2024</year>. “<article-title>Microplastic‐Stressor Responses Are Rarely Synergistic in Freshwater Fishes: A Meta‐Analysis</article-title>.” <source>Science of the Total Environment</source>
+<volume>947</volume>: <elocation-id>174566</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2024.174566</pub-id>.<pub-id pub-id-type="pmid">38986705</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0084"><mixed-citation publication-type="journal" id="ece374252-cit-0084">
+<string-name name-style="western">
+<surname>Partani</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Danandeh Mehr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Bostanmaneshrad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Arzhangi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Pourrostami Niavol</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.‐P.</given-names>
+<surname>Nachtnebel</surname>
+</string-name>. <year>2024</year>. “<article-title>Determining the Main Driver of Hypoxia Potential in Freshwater Inland Lakes</article-title>.” <source>Journal of Cleaner Production</source>
+<volume>458</volume>: <elocation-id>142521</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jclepro.2024.142521</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0062"><mixed-citation publication-type="book" id="ece374252-cit-0062">
+<person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Pinheiro</surname>, <given-names>J. C.</given-names>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Bates</surname>
+</string-name>
+</person-group>, eds. <year>2000</year>. “<part-title>Fitting Nonlinear Mixed‐Effects Models</part-title>.” In <source>Mixed‐Effects Models in S and S‐PLUS</source>, <fpage>337</fpage>–<lpage>421</lpage>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/0-387-22747-4_8</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0063"><mixed-citation publication-type="journal" id="ece374252-cit-0063">
+<string-name name-style="western">
+<surname>Polazzo</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. B. O.</given-names>
+<surname>Dos Anjos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Arenas‐Sánchez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Romo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Vighi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rico</surname>
+</string-name>. <year>2022</year>. “<article-title>Effect of Multiple Agricultural Stressors on Freshwater Ecosystems: The Role of Community Structure, Trophic Status, and Biodiversity–Functioning Relationships on Ecosystem Responses</article-title>.” <source>Science of the Total Environment</source>
+<volume>807</volume>, no. <issue>Pt 3</issue>: <elocation-id>151052</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2021.151052</pub-id>.<pub-id pub-id-type="pmid">34749964</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0064"><mixed-citation publication-type="book" id="ece374252-cit-0064">
+<collab collab-type="authors">R Core Development Team</collab>
+. <year>2024</year>. <source>R: A Language and Environment for Statistical Computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.scirp.org/reference/referencespapers?referenceid=3887298" ext-link-type="uri">https://www.scirp.org/reference/referencespapers?referenceid=3887298</ext-link>.</mixed-citation></ref><ref id="ece374252-bib-0065"><mixed-citation publication-type="journal" id="ece374252-cit-0065">
+<string-name name-style="western">
+<surname>Rumschlag</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Mahon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. K.</given-names>
+<surname>Jones</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Density Declines, Richness Increases, and Composition Shifts in Stream Macroinvertebrates</article-title>.” <source>Science Advances</source>
+<volume>9</volume>, no. <issue>18</issue>: <elocation-id>eadf4896</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.adf4896</pub-id>.<pub-id pub-id-type="pmid">37134169</pub-id>
+<pub-id pub-id-type="pmcid">PMC10156106</pub-id></mixed-citation></ref><ref id="ece374252-bib-0066"><mixed-citation publication-type="journal" id="ece374252-cit-0066">
+<string-name name-style="western">
+<surname>Saqira</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Chariton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. C.</given-names>
+<surname>Hose</surname>
+</string-name>. <year>2024</year>. “<article-title>Multiple Stressors Unpredictably Affect Primary Producers and Decomposition in a Model Freshwater Ecosystem</article-title>.” <source>Environmental Pollution</source>
+<volume>347</volume>: <elocation-id>123680</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envpol.2024.123680</pub-id>.<pub-id pub-id-type="pmid">38467363</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0067"><mixed-citation publication-type="journal" id="ece374252-cit-0067">
+<string-name name-style="western">
+<surname>Sargac</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Burdon</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Forested Riparian Buffers Change the Taxonomic and Functional Composition of Stream Invertebrate Communities in Agricultural Catchments</article-title>.” <source>Water</source>
+<volume>13</volume>, no. <issue>8</issue>: <elocation-id>8</elocation-id>. <pub-id pub-id-type="doi">10.3390/w13081028</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0068"><mixed-citation publication-type="journal" id="ece374252-cit-0068">
+<string-name name-style="western">
+<surname>Segurado</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Ferreira</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Branco</surname>
+</string-name>. <year>2021</year>. “<article-title>Assessing the Effects of Multiple Stressors on Aquatic Systems Across Temporal and Spatial Scales: From Measurement to Management</article-title>.” <source>Water</source>
+<volume>13</volume>, no. <issue>24</issue>: <elocation-id>3549</elocation-id>. <pub-id pub-id-type="doi">10.3390/w13243549</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0069"><mixed-citation publication-type="book" id="ece374252-cit-0069">
+<collab collab-type="authors">South African Weather Service</collab>
+. <year>2023</year>. <source>Annual State of the Climate of South Africa 2022</source>.</mixed-citation></ref><ref id="ece374252-bib-0070"><mixed-citation publication-type="book" id="ece374252-cit-0070">
+<collab collab-type="authors">South African Weather Service</collab>
+. <year>2024</year>. <source>Annual State of the Climate of South Africa 2023</source>.</mixed-citation></ref><ref id="ece374252-bib-0071"><mixed-citation publication-type="journal" id="ece374252-cit-0071">
+<string-name name-style="western">
+<surname>Spears</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chapman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Carvalho</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Assessing Multiple Stressor Effects to Inform Climate Change Management Responses in Three European Catchments</article-title>.” <source>Inland Waters</source>
+<volume>12</volume>, no. <issue>1</issue>: <fpage>94</fpage>–<lpage>106</lpage>. <pub-id pub-id-type="doi">10.1080/20442041.2020.1827891</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0072"><mixed-citation publication-type="journal" id="ece374252-cit-0072">
+<string-name name-style="western">
+<surname>Spiller</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Comte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Geldmann</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Iversen</surname>
+</string-name>. <year>2025</year>. “<article-title>The Interconnected Nature of Multiple Threats Is Impacting Freshwater Biodiversity</article-title>.” <source>Biology Letters</source>
+<volume>21</volume>, no. <issue>2</issue>: <elocation-id>20240544</elocation-id>. <pub-id pub-id-type="doi">10.1098/rsbl.2024.0544</pub-id>.<pub-id pub-id-type="pmid">39904376</pub-id>
+<pub-id pub-id-type="pmcid">PMC11793959</pub-id></mixed-citation></ref><ref id="ece374252-bib-0073"><mixed-citation publication-type="journal" id="ece374252-cit-0073">
+<string-name name-style="western">
+<surname>Taniwaki</surname>, <given-names>R. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Piggott</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. F. B.</given-names>
+<surname>Ferraz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Matthaei</surname>
+</string-name>. <year>2017</year>. “<article-title>Climate Change and Multiple Stressors in Small Tropical Streams</article-title>.” <source>Hydrobiologia</source>
+<volume>793</volume>, no. <issue>1</issue>: <fpage>41</fpage>–<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1007/s10750-016-2907-3</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0074"><mixed-citation publication-type="journal" id="ece374252-cit-0074">
+<string-name name-style="western">
+<surname>Theodoropoulos</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Aspridis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Iliopoulou‐Georgudaki</surname>
+</string-name>. <year>2015</year>. “<article-title>The Influence of Land Use on Freshwater Macroinvertebrates in a Regulated and Temporary Mediterranean River Network</article-title>.” <source>Hydrobiologia</source>
+<volume>751</volume>, no. <issue>1</issue>: <fpage>201</fpage>–<lpage>213</lpage>. <pub-id pub-id-type="doi">10.1007/s10750-015-2187-3</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0075"><mixed-citation publication-type="journal" id="ece374252-cit-0075">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zhao</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Effects of Different Land Use Types on Macroinvertebrate Community Structure and Diversity in the Middle Reaches of the Yellow River Basin</article-title>.” <source>Ecological Indicators</source>
+<volume>179</volume>: <elocation-id>114259</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2025.114259</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0076"><mixed-citation publication-type="journal" id="ece374252-cit-0076">
+<string-name name-style="western">
+<surname>Woodward</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Perkins</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Brown</surname>
+</string-name>. <year>2010</year>. “<article-title>Climate Change and Freshwater Ecosystems: Impacts Across Multiple Levels of Organization</article-title>.” <source>Philosophical Transactions of the Royal Society, B: Biological Sciences</source>
+<volume>365</volume>, no. <issue>1549</issue>: <fpage>2093</fpage>–<lpage>2106</lpage>. <pub-id pub-id-type="doi">10.1098/rstb.2010.0055</pub-id>.<pub-id pub-id-type="pmcid">PMC2880135</pub-id><pub-id pub-id-type="pmid">20513717</pub-id></mixed-citation></ref><ref id="ece374252-bib-0077"><mixed-citation publication-type="journal" id="ece374252-cit-0077">
+<string-name name-style="western">
+<surname>Xie</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Identifying Critical Land Use Thresholds for Biodiversity Conservation in China's Lake Ecosystems</article-title>.” <source>Environmental Science &amp; Technology</source>
+<volume>59</volume>, no. <issue>11</issue>: <fpage>5431</fpage>–<lpage>5442</lpage>. <pub-id pub-id-type="doi">10.1021/acs.est.4c09911</pub-id>.<pub-id pub-id-type="pmid">39998118</pub-id>
+</mixed-citation></ref><ref id="ece374252-bib-0078"><mixed-citation publication-type="journal" id="ece374252-cit-0078">
+<string-name name-style="western">
+<surname>Xie</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Jin</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Land Use and River–Lake Connectivity: Biodiversity Determinants of Lake Ecosystems</article-title>.” <source>Environmental Science and Ecotechnology</source>
+<volume>21</volume>: <elocation-id>100434</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ese.2024.100434</pub-id>.<pub-id pub-id-type="pmid">38989258</pub-id>
+<pub-id pub-id-type="pmcid">PMC11233910</pub-id></mixed-citation></ref><ref id="ece374252-bib-0079"><mixed-citation publication-type="journal" id="ece374252-cit-0079">
+<string-name name-style="western">
+<surname>Zermeño‐Hernández</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Benítez‐Malvido</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Suazo‐Ortuño</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Méndez‐Toribio</surname>
+</string-name>. <year>2020</year>. “<article-title>Impact of Adjacent Land Use on the Ecological Condition of Riparian Habitats: The Relation Between Condition and Vegetation Properties</article-title>.” <source>Applied Vegetation Science</source>
+<volume>23</volume>, no. <issue>4</issue>: <fpage>610</fpage>–<lpage>621</lpage>. <pub-id pub-id-type="doi">10.1111/avsc.12508</pub-id>.</mixed-citation></ref><ref id="ece374252-bib-0080"><mixed-citation publication-type="journal" id="ece374252-cit-0080">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Shen</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Multiple Scale Impacts of Land Use Intensity on Water Quality in the Chishui River Source Area</article-title>.” <source>Ecological Indicators</source>
+<volume>166</volume>: <elocation-id>112396</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2024.112396</pub-id>.</mixed-citation></ref></ref-list></back></article>

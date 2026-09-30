@@ -1,0 +1,76 @@
+{
+  "schema": "NAIS_FIXED_DEMO_EXPECTATIONS_1",
+  "scope": "미리 고정한 합성 4행·8조건의 등록 산술 및 차단 검사. 실제 논문 재현·사람 정답·AI 비교·정확도 아님.",
+  "expected_basis": "손계산: 전체 4행, A군 (10+20)/2=15, B군 (30+40)/2=35. 누락 위치·다른 자료지문·미지원 방법·PENDING 범위는 계산 전 차단한다.",
+  "synthetic": true,
+  "human_approval": false,
+  "new_model_calls": 0,
+  "inputs": {
+    "source_text": "SYNTHETIC FIXTURE, NOT A REAL PAPER. The table has four rows. Group A mean is 15. Group B mean is 35.\n",
+    "csv_text": "group,score\nA,10\nA,20\nB,30\nB,40\n"
+  },
+  "baseline_registration": {
+    "paper_url": "https://example.invalid/nais-synthetic-fixture",
+    "source_quote": "The table has four rows. Group A mean is 15. Group B mean is 35.",
+    "source_location": "Synthetic fixture paragraph 1",
+    "source_kind": "article_extract",
+    "claim_text": "Synthetic fixture: group A mean is 15.",
+    "method": "mean",
+    "column": "score",
+    "filters": {"group": "A"},
+    "reported_value": 15,
+    "tolerance": 0,
+    "missing_policy": "error",
+    "scope_status": "EVALUATION_MAPPING"
+  },
+  "cases": [
+    {
+      "id": "G01",
+      "label": "정상 행 수",
+      "overrides": {"method": "count_rows", "filters": {}, "reported_value": 4, "claim_text": "Synthetic fixture: four rows."},
+      "expected": {"action": "ARITHMETIC_MATCH", "value": 4, "independent_value": 4, "rows_used": 4, "observations_used": 4, "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G02",
+      "label": "정상 A군 평균",
+      "overrides": {},
+      "expected": {"action": "ARITHMETIC_MATCH", "value": 15, "independent_value": 15, "rows_used": 2, "observations_used": 2, "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G03",
+      "label": "보고값만 16으로 변경",
+      "overrides": {"reported_value": 16},
+      "expected": {"action": "ARITHMETIC_MISMATCH", "value": 15, "independent_value": 15, "rows_used": 2, "observations_used": 2, "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G04",
+      "label": "근거 위치 누락",
+      "overrides": {"source_location": ""},
+      "expected": {"action": "BLOCK", "no_calculation": true, "reason_contains": "source_location", "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G05",
+      "label": "등록 자료 지문 변조",
+      "overrides": {"data_sha256": "0000000000000000000000000000000000000000000000000000000000000000"},
+      "expected": {"action": "BLOCK", "no_calculation": true, "reason_contains": "해시 불일치", "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G06",
+      "label": "미지원 median 방법",
+      "overrides": {"method": "median"},
+      "expected": {"action": "BLOCK", "no_calculation": true, "reason_contains": "미지원 분석방법", "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G07",
+      "label": "등록 범위 미확정",
+      "overrides": {"scope_status": "PENDING"},
+      "expected": {"action": "BLOCK", "no_calculation": true, "reason_contains": "모집단·조건 확인 대기", "source_scope_verified": false, "full_paper_reproduced": false}
+    },
+    {
+      "id": "G08",
+      "label": "필터 A에서 B로 변경",
+      "overrides": {"filters": {"group": "B"}},
+      "expected": {"action": "ARITHMETIC_MISMATCH", "value": 35, "independent_value": 35, "rows_used": 2, "observations_used": 2, "source_scope_verified": false, "full_paper_reproduced": false}
+    }
+  ]
+}

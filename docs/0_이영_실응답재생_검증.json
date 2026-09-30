@@ -1,0 +1,14 @@
+{
+  "_change_note": "2026-10-01T01:20:32+09:00 — 저장된 실응답 재생을 네트워크·유료 호출 없이 검증한다.",
+  "artifact": "finals/data/finals/replays/0_이영_실제AI_정상사례_20261001_0004.json",
+  "artifact_sha256": "3e407673383e07a7deaab151aef65962316b7329ecc92d7bbff60ba52627ea27",
+  "source_report_sha256": "160ad869af20d70bb04ab3251aa150219ebb48a337435077b94c82513b5d67d9",
+  "case_id": "NORMAL-PENG-ROWS",
+  "mode": "replay",
+  "state": "SUPPORTED_PREVIEW",
+  "actual_model_output": true,
+  "llm_executed": false,
+  "new_provider_calls": 0,
+  "human_approval": "PENDING",
+  "seal_comparison_complete": false
+}

@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "version": "V69",
+  "scope": "Local retrieval source integrity/options, not research reproduction",
+  "summary": {
+    "records": 900,
+    "fulltext": 644,
+    "bibliography_only": 256,
+    "passages": 50091,
+    "splits": {
+      "development": 720,
+      "validation": 180
+    },
+    "parsed_fulltext": 644,
+    "parse_failures": 0,
+    "table_candidates": 29501
+  },
+  "content_sha256": "9d579f6947888c17a10fe856a645d9c6955ec538dbe40c68bd7754c7fe05e49d",
+  "corpus_file_sha256": "fb8de6c5112709069f42ba2b7e34ed5fc6267d0a2750cc0759334b4cc31e157c",
+  "actual_source_checks": [
+    {
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": false
+    },
+    {
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": true
+    },
+    {
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": true
+    },
+    {
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": true
+    },
+    {
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": true
+    },
+    {
+      "source_files_hashed": 644,
+      "source_bytes_hashed": 98035492,
+      "reconstruction_cache_hit": true
+    }
+  ],
+  "source_verification": {
+    "status": "PASS",
+    "records": 900,
+    "fulltext": 644,
+    "bibliography_only": 256,
+    "passages": 50091,
+    "splits": {
+      "development": 720,
+      "validation": 180
+    },
+    "parsed_fulltext": 644,
+    "parse_failures": 0,
+    "table_candidates": 29501,
+    "content_sha256": "9d579f6947888c17a10fe856a645d9c6955ec538dbe40c68bd7754c7fe05e49d",
+    "validation_scope": "All selected source bytes hashed every request; reconstruction reused only for verified matching snapshots; not authentication or reproduction",
+    "source_files_hashed": 644,
+    "source_bytes_hashed": 98035492,
+    "reconstruction_cache_hit": true
+  },
+  "regression": {
+    "fail_before": "4 failed,1 passed in1.05s: missing explicit table/boundary/synonym paths",
+    "core_with_prior": "V69 core9+V68 core19 passed28 in1.08s before final lock case",
+    "ui_with_prior": "V69 UI1+V68 UI9 passed10 in26.16s",
+    "final_focused": "V69 core10+V68 core19+V69 UI1 passed30 in7.64s",
+    "small_scale": "Synthetic XML approximately5xbytes, all actual bytes still checked; not duplicated900papers",
+    "race": "Warm identical-size/mtime byte change blocked; root isolation; failed cache not published; cold same-byte snapshot; 4queued requests isolated; returned-dict mutation does not leak"
+  },
+  "performance_report": "data/research_corpus/performance_report.json",
+  "implementation_sha256": {
+    "core/research_corpus.py": "4a755078d716e48f80519eb69035c74350e6e1b4a6d2abf5cda7e147405a4895",
+    "core/paper_library_ui.py": "b9afac76998412c058b870209c668de620d85bfd9552732bad49a6db3fca6bcf",
+    "tools/research_corpus.py": "7f20cf3503d9a875237286b9826de42b7e434b24748edee6ad3804d433335aff",
+    "tests/test_v69.py": "f6466dee74ded507fabff4a6a34dfde06b3755016b02c49207126b6cf8dbab10",
+    "tests/test_v69_ui.py": "f336a78c1085fd590edc91f71389bcb85056be1f63a417defacc54524fc64cf8"
+  },
+  "all_owned_sessions": "Completed exit0; no network collection; core/UI/tests frozen",
+  "comment_only_revision": {
+    "changed_at": "2026-09-27T14:24:12.943042+09:00",
+    "files": [
+      "core/research_corpus.py",
+      "core/paper_library_ui.py",
+      "tools/research_corpus.py"
+    ],
+    "scope": "Only V69 change-history comments; executable statements unchanged",
+    "py_compile": "PASS 3 changed files, exit0"
+  }
+}

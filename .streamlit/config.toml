@@ -1,0 +1,12 @@
+# [수정: 0 이영] 2026-09-30 23:50 KST — 참고 HTML의 밝은 배경과 파란 주색을 전체 페이지 기본 테마에 맞춘다.
+[theme]
+base = "light"
+primaryColor = "#246FE0"
+backgroundColor = "#F9FAFB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#191F28"
+[server]
+maxUploadSize = 10
+enableStaticServing = true
+[browser]
+gatherUsageStats = false

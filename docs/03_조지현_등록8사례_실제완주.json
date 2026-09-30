@@ -1,0 +1,263 @@
+{
+  "recorded_at_kst": "2026-10-01T02:26:10+09:00",
+  "contributor_label": "03",
+  "contributor_version": 3,
+  "code_pipeline_sha256": "14b02d6e725a5d347aec8d8f2f2d8bdd6255729bd77b1ad22958f10fef33021d",
+  "scope": "REGISTERED_MANUAL_FUNCTIONAL_RUN_NOT_MODEL_COMPARISON",
+  "model_calls": 0,
+  "actual_human_approval": "NOT_PERFORMED",
+  "cases": [
+    {
+      "case_id": "NORMAL-PENG-ROWS",
+      "category": "normal",
+      "state": "SUPPORTED_PREVIEW",
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 344.0,
+        "calculated_value": 344.0,
+        "reported_value": 344,
+        "delta": 0.0,
+        "tolerance": 0,
+        "within_tolerance": true,
+        "selected_rows": 344,
+        "expected_denominator": 344,
+        "denominator_matches": true,
+        "meta": {
+          "n": 344,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "can_approve": true,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.77,
+      "input_bindings": {
+        "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+        "source_sha256": "c427d0c3726a920e3f459c1c9d3bf7f786d52bcd772b1e10a7938c3b488ed583",
+        "proposal_sha256": "7aac29dc43e40ea1d190022a3da6fbdfb6bebc67447e6c40c60743d97f2e2703"
+      },
+      "saved_sha256": "ad83149f9afd51bfbc151d411a56c16d79e6d6a77ece1c17fce3558e6282595b",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "NORMAL-BAT-MEAN",
+      "category": "normal",
+      "state": "SUPPORTED_PREVIEW",
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 49.320754716981135,
+        "calculated_value": 49.320754716981135,
+        "reported_value": 49.32,
+        "delta": 0.0007547169811346066,
+        "tolerance": 0.005,
+        "within_tolerance": true,
+        "selected_rows": 53,
+        "expected_denominator": 53,
+        "denominator_matches": true,
+        "meta": {
+          "n": 53,
+          "expression": "mean(Age.y)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "can_approve": true,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 7.02,
+      "input_bindings": {
+        "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+        "source_sha256": "021e5f976a6678d2ba36604cfbc55bca5af2fee6132229e9b144fde25086db63",
+        "proposal_sha256": "34664587dde2e11d875de1e5f30267e69c48d245eac531a7ec8f23e425a648d7"
+      },
+      "saved_sha256": "0349fa51682501ffc8999aa74809d353299235f5404d8eaf37ff66a5172bf88e",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "MISMATCH-PENG-DROP1",
+      "category": "mismatch",
+      "state": "CONFLICT_PREVIEW",
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 343.0,
+        "calculated_value": 343.0,
+        "reported_value": 344,
+        "delta": 1.0,
+        "tolerance": 0,
+        "within_tolerance": false,
+        "selected_rows": 343,
+        "expected_denominator": 344,
+        "denominator_matches": false,
+        "meta": {
+          "n": 343,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "can_approve": false,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.49,
+      "input_bindings": {
+        "data_sha256": "d37747e7394163ae81894d397d1192fa9ffebaacf493098caf190dd261505580",
+        "source_sha256": "c427d0c3726a920e3f459c1c9d3bf7f786d52bcd772b1e10a7938c3b488ed583",
+        "proposal_sha256": "7aac29dc43e40ea1d190022a3da6fbdfb6bebc67447e6c40c60743d97f2e2703"
+      },
+      "saved_sha256": "121a94be53826c536cde458d0798fd3398e60d59ed65c1da0b980e297f4851c3",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "MISMATCH-PENG-DROP2",
+      "category": "mismatch",
+      "state": "CONFLICT_PREVIEW",
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 342.0,
+        "calculated_value": 342.0,
+        "reported_value": 344,
+        "delta": 2.0,
+        "tolerance": 0,
+        "within_tolerance": false,
+        "selected_rows": 342,
+        "expected_denominator": 344,
+        "denominator_matches": false,
+        "meta": {
+          "n": 342,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "can_approve": false,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.47,
+      "input_bindings": {
+        "data_sha256": "46e7709ebe8a57c500819726d23f67ac9fa8c5c2e7c77379711ecca04f75740d",
+        "source_sha256": "c427d0c3726a920e3f459c1c9d3bf7f786d52bcd772b1e10a7938c3b488ed583",
+        "proposal_sha256": "7aac29dc43e40ea1d190022a3da6fbdfb6bebc67447e6c40c60743d97f2e2703"
+      },
+      "saved_sha256": "51e30d2a654c189dbb7d50319befe8ab81d1c27c61bdbfa814f819c1a3b8b575",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "MISSING-PUBLISHER",
+      "category": "evidence_missing",
+      "state": "MISSING",
+      "calculation": {
+        "executed": false
+      },
+      "can_approve": false,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.45,
+      "input_bindings": {
+        "data_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+        "source_sha256": "341adcd3e5aafb529878988bf8c1f8e23d2d7e331453a1f391497cafcb0d0846",
+        "proposal_sha256": "fd75a281df892f0122dead59352c7c000083a85f94194ce41bf48c5d42ca71ce"
+      },
+      "saved_sha256": "1aeddc4645da60607c74cf76cc714d04f460771bdc258a31ae485a9cb3e0137d",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "MISSING-MISSING-POLICY",
+      "category": "evidence_missing",
+      "state": "MISSING",
+      "calculation": {
+        "executed": false
+      },
+      "can_approve": false,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.45,
+      "input_bindings": {
+        "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+        "source_sha256": "021e5f976a6678d2ba36604cfbc55bca5af2fee6132229e9b144fde25086db63",
+        "proposal_sha256": "d36e9c3f5c98510647b697ae6a40b613aa9f3bed9068cd4ad34b6081607a72e1"
+      },
+      "saved_sha256": "57320a7af4f33d868e4d504fd2a4dfe2e726dd7606655bf0f3c67b96a4d89491",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "CHANGED-PENG-CSV",
+      "category": "data_changed",
+      "state": "BLOCKED_CHANGED_INPUT",
+      "calculation": {
+        "executed": false
+      },
+      "can_approve": false,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.47,
+      "input_bindings": {
+        "data_sha256": "d37747e7394163ae81894d397d1192fa9ffebaacf493098caf190dd261505580",
+        "source_sha256": "c427d0c3726a920e3f459c1c9d3bf7f786d52bcd772b1e10a7938c3b488ed583",
+        "proposal_sha256": "7aac29dc43e40ea1d190022a3da6fbdfb6bebc67447e6c40c60743d97f2e2703"
+      },
+      "saved_sha256": "c3a2e6d48870ac5ee5f9a965948accd43d85fd7639007836a88825698dd66f1f",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    },
+    {
+      "case_id": "CHANGED-BAT-CONTRACT",
+      "category": "data_changed",
+      "state": "BLOCKED_CHANGED_INPUT",
+      "calculation": {
+        "executed": false
+      },
+      "can_approve": false,
+      "human_approval": {
+        "status": "PENDING",
+        "approved": false
+      },
+      "llm_executed": false,
+      "elapsed_ms": 0.85,
+      "input_bindings": {
+        "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+        "source_sha256": "021e5f976a6678d2ba36604cfbc55bca5af2fee6132229e9b144fde25086db63",
+        "proposal_sha256": "e9507a06baada4d5cc720b55c1127dac1ce425f007b1bd2ce0ec69bf9ae851ea"
+      },
+      "saved_sha256": "8df21963c33fd369665e1901d1e5efa2b9e49dc261b1e39e09a2cfeb96e1dec9",
+      "reopened_state": "IMPORTED_REVIEW",
+      "reopened_active": false
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "schema": 1,
+  "provenance": {
+    "submission": "조지현_20260929_v2",
+    "paper_manifest_sha256": "5daa846f08f18fbb73a10bc88a0accc1215cca383c364e12b58127c75ddf35f9",
+    "sources_sha256": "0f53b036e316e191dae51f2240be6ea658074f87265801bec4fa9a6f37dc36ef",
+    "combined_manifest_sha256": "2d3cd524269d4d34f2f12b0a4624b8a1399c5b19a70ed3242a4a44760163d846"
+  },
+  "counts": {
+    "compared_existing": 900,
+    "submitted": 20,
+    "unique_submitted": 20,
+    "new": 20,
+    "duplicate": 0,
+    "submission_xml_not_imported": 15,
+    "submission_fulltext_missing": 5
+  },
+  "duplicate_dois": [],
+  "papers": [
+    {
+      "doi": "10.1038/s41467-022-30729-2",
+      "original_doi": "10.1038/s41467-022-30729-2",
+      "title": "The timing of unprecedented hydrological drought under climate change",
+      "title_ko_unverified": "기후변화에 따른 전례 없는 수문학적 가뭄의 발생 시점",
+      "field": "environment_climate",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41467-022-30729-2",
+      "public_urls": [
+        "https://doi.org/10.1038/s41467-022-30729-2",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9239996/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ENV-A1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1073/pnas.2113947119",
+      "original_doi": "10.1073/pnas.2113947119",
+      "title": "Pharmaceutical pollution of the world’s rivers",
+      "title_ko_unverified": "전 세계 하천의 의약품 오염",
+      "field": "environment_climate",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1073/pnas.2113947119",
+      "public_urls": [
+        "https://doi.org/10.1073/pnas.2113947119",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8872717/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ENV-A2",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41467-021-22314-w",
+      "original_doi": "10.1038/s41467-021-22314-w",
+      "title": "Evidence of anthropogenic impacts on global drought frequency, duration, and intensity",
+      "title_ko_unverified": "전 지구 가뭄 빈도·지속기간·강도에 대한 인위적 영향의 증거",
+      "field": "environment_climate",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41467-021-22314-w",
+      "public_urls": [
+        "https://doi.org/10.1038/s41467-021-22314-w",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115225/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ENV-R1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1093/treephys/tpab135",
+      "original_doi": "10.1093/treephys/tpab135",
+      "title": "Drought affects the fate of non-structural carbohydrates in hinoki cypress",
+      "title_ko_unverified": "가뭄이 편백의 비구조성 탄수화물 운명에 미치는 영향",
+      "field": "environment_climate",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1093/treephys/tpab135",
+      "public_urls": [
+        "https://doi.org/10.1093/treephys/tpab135"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+      ],
+      "license_text_locator": "crossref message.license[].URL",
+      "submission_paper_id": "ENV-U1",
+      "submission_fulltext_status": "NOT_ACQUIRED",
+      "fulltext_block_reason": "FULLTEXT_NOT_ACQUIRED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41598-023-28154-6",
+      "original_doi": "10.1038/s41598-023-28154-6",
+      "title": "Effects of emission trading scheme (ETS) on change rate of carbon emission",
+      "title_ko_unverified": "배출권거래제(ETS)가 탄소배출 변화율에 미치는 효과",
+      "field": "economy_society",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41598-023-28154-6",
+      "public_urls": [
+        "https://doi.org/10.1038/s41598-023-28154-6",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9845311/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ECO-A1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1001/jamanetworkopen.2024.15445",
+      "original_doi": "10.1001/jamanetworkopen.2024.15445",
+      "title": "Costs of Drug Development and Research and Development Intensity in the US, 2000-2018",
+      "title_ko_unverified": "미국 신약 개발 비용과 연구개발 집약도, 2000–2018",
+      "field": "economy_society",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1001/jamanetworkopen.2024.15445",
+      "public_urls": [
+        "https://doi.org/10.1001/jamanetworkopen.2024.15445",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11214120/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ECO-A2",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1073/pnas.1918128117",
+      "original_doi": "10.1073/pnas.1918128117",
+      "title": "The European Union Emissions Trading System reduced CO\n                    <sub>2</sub>\n                    emissions despite low prices",
+      "title_ko_unverified": "EU 배출권거래제는 낮은 가격에도 CO2 배출을 줄였다",
+      "field": "economy_society",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1073/pnas.1918128117",
+      "public_urls": [
+        "https://doi.org/10.1073/pnas.1918128117",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7183178/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ECO-R1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1080/14693062.2018.1437018",
+      "original_doi": "10.1080/14693062.2018.1437018",
+      "title": "The impact of the Tokyo Metropolitan Emissions Trading Scheme on reducing greenhouse gas emissions: findings from a facility-based study",
+      "title_ko_unverified": "도쿄도 배출권거래제가 온실가스 배출 감축에 미친 영향",
+      "field": "economy_society",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1080/14693062.2018.1437018",
+      "public_urls": [
+        "https://doi.org/10.1080/14693062.2018.1437018"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [],
+      "license_text_locator": "crossref message.license[].URL",
+      "submission_paper_id": "ECO-U1",
+      "submission_fulltext_status": "NOT_ACQUIRED",
+      "fulltext_block_reason": "FULLTEXT_NOT_ACQUIRED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1186/s12909-022-03377-9",
+      "original_doi": "10.1186/s12909-022-03377-9",
+      "title": "Effect of active learning and online discussions on the academic performances of dental students",
+      "title_ko_unverified": "능동학습과 온라인 토론이 치과대학생의 학업성과에 미치는 효과",
+      "field": "education_learning",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1186/s12909-022-03377-9",
+      "public_urls": [
+        "https://doi.org/10.1186/s12909-022-03377-9",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9035504/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "EDU-A1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1111/1475-5890.12240",
+      "original_doi": "10.1111/1475-5890.12240",
+      "title": "Inequalities in Children's Experiences of Home Learning during the COVID‐19 Lockdown in England*",
+      "title_ko_unverified": "코로나19 봉쇄 기간 잉글랜드 아동의 가정학습 경험 불평등",
+      "field": "education_learning",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1111/1475-5890.12240",
+      "public_urls": [
+        "https://doi.org/10.1111/1475-5890.12240",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7753283/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "EDU-A2",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1186/s12909-021-02881-8",
+      "original_doi": "10.1186/s12909-021-02881-8",
+      "title": "A comparison of team-based learning and lecture-based learning on clinical reasoning and classroom engagement: a cluster randomized controlled trial",
+      "title_ko_unverified": "팀기반학습과 강의식 학습의 임상추론·수업 참여 비교",
+      "field": "education_learning",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1186/s12909-021-02881-8",
+      "public_urls": [
+        "https://doi.org/10.1186/s12909-021-02881-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8379851/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "EDU-R1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1080/10494820.2019.1619593",
+      "original_doi": "10.1080/10494820.2019.1619593",
+      "title": "Student perceptions of online active learning practices and online learning climate predict online course engagement",
+      "title_ko_unverified": "온라인 능동학습 실천과 온라인 학습 분위기에 대한 학생 인식의 예측력",
+      "field": "education_learning",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1080/10494820.2019.1619593",
+      "public_urls": [
+        "https://doi.org/10.1080/10494820.2019.1619593"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [],
+      "license_text_locator": "crossref message.license[].URL",
+      "submission_paper_id": "EDU-U1",
+      "submission_fulltext_status": "NOT_ACQUIRED",
+      "fulltext_block_reason": "FULLTEXT_NOT_ACQUIRED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41598-024-60301-5",
+      "original_doi": "10.1038/s41598-024-60301-5",
+      "title": "The positive impact of smoking cessation on fracture risk in a nationwide cohort study",
+      "title_ko_unverified": "전국 코호트 연구에서 금연이 골절 위험에 미치는 긍정적 영향",
+      "field": "health_life",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41598-024-60301-5",
+      "public_urls": [
+        "https://doi.org/10.1038/s41598-024-60301-5",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11061176/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "HLT-A1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41591-022-01909-w",
+      "original_doi": "10.1038/s41591-022-01909-w",
+      "title": "Symptoms and risk factors for long COVID in non-hospitalized adults",
+      "title_ko_unverified": "비입원 성인의 롱코비드 증상과 위험요인",
+      "field": "health_life",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41591-022-01909-w",
+      "public_urls": [
+        "https://doi.org/10.1038/s41591-022-01909-w",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9388369/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "HLT-A2",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1007/s10654-020-00612-9",
+      "original_doi": "10.1007/s10654-020-00612-9",
+      "title": "Smoking cessation and incident dementia in elderly Japanese: the Ohsaki Cohort 2006 Study",
+      "title_ko_unverified": "일본 고령자의 금연과 치매 발생: 오사키 코호트 2006 연구",
+      "field": "health_life",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1007/s10654-020-00612-9",
+      "public_urls": [
+        "https://doi.org/10.1007/s10654-020-00612-9",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7525275/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "HLT-R1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1002/cncr.29851",
+      "original_doi": "10.1002/cncr.29851",
+      "title": "Smoking, cessation, and cessation counseling in patients with cancer: A population‐based analysis",
+      "title_ko_unverified": "암 환자의 흡연·금연·금연상담: 인구기반 분석",
+      "field": "health_life",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1002/cncr.29851",
+      "public_urls": [
+        "https://doi.org/10.1002/cncr.29851"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      ],
+      "license_text_locator": "crossref message.license[].URL",
+      "submission_paper_id": "HLT-U1",
+      "submission_fulltext_status": "NOT_ACQUIRED",
+      "fulltext_block_reason": "FULLTEXT_NOT_ACQUIRED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41467-022-29987-x",
+      "original_doi": "10.1038/s41467-022-29987-x",
+      "title": "Corrosion as the origin of limited lifetime of vanadium oxide-based aqueous zinc ion batteries",
+      "title_ko_unverified": "바나듐 산화물 기반 수계 아연이온전지의 제한된 수명 원인으로서의 부식",
+      "field": "engineering_energy",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41467-022-29987-x",
+      "public_urls": [
+        "https://doi.org/10.1038/s41467-022-29987-x",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9061739/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ENG-A1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41467-021-24912-0",
+      "original_doi": "10.1038/s41467-021-24912-0",
+      "title": "Efficient and selective photocatalytic CH4 conversion to CH3OH with O2 by controlling overoxidation on TiO2",
+      "title_ko_unverified": "과산화 제어를 통한 O2 이용 CH4→CH3OH 고효율·고선택 광촉매 전환",
+      "field": "engineering_energy",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41467-021-24912-0",
+      "public_urls": [
+        "https://doi.org/10.1038/s41467-021-24912-0",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8329221/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ENG-A2",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1038/s41467-020-15235-7",
+      "original_doi": "10.1038/s41467-020-15235-7",
+      "title": "Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning",
+      "title_ko_unverified": "기계학습으로 임피던스 분광에서 리튬이온전지 열화 패턴 식별",
+      "field": "engineering_energy",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1038/s41467-020-15235-7",
+      "public_urls": [
+        "https://doi.org/10.1038/s41467-020-15235-7",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7136228/"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "license_text_locator": "front/article-meta/permissions/license (article XML)",
+      "submission_paper_id": "ENG-R1",
+      "submission_fulltext_status": "AVAILABLE",
+      "fulltext_block_reason": "REDISTRIBUTION_NOT_VERIFIED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    },
+    {
+      "doi": "10.1109/tsg.2016.2578950",
+      "original_doi": "10.1109/tsg.2016.2578950",
+      "title": "Modeling of Lithium-Ion Battery Degradation for Cell Life Assessment",
+      "title_ko_unverified": "셀 수명 평가를 위한 리튬이온전지 열화 모델링",
+      "field": "engineering_energy",
+      "source_group": "team_jihyun_20260929",
+      "fulltext_status": "CITATION_METADATA_ONLY",
+      "source_url": "https://doi.org/10.1109/tsg.2016.2578950",
+      "public_urls": [
+        "https://doi.org/10.1109/tsg.2016.2578950"
+      ],
+      "license": "UNVERIFIED_SUBMISSION_POINTER_ONLY",
+      "license_urls": [
+        "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      ],
+      "license_text_locator": "crossref message.license[].URL",
+      "submission_paper_id": "ENG-U1",
+      "submission_fulltext_status": "NOT_ACQUIRED",
+      "fulltext_block_reason": "FULLTEXT_NOT_ACQUIRED",
+      "metadata_provenance": [
+        "paper_manifest.csv",
+        "sources.csv"
+      ],
+      "raw_data_download_status": "NOT_TESTED",
+      "reproduction_status": "NOT_TESTED",
+      "human_review": "UNREVIEWED",
+      "automatic_execution": false
+    }
+  ]
+}

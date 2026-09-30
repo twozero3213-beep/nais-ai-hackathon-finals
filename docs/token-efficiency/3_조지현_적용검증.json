@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "contributor_version": 3,
+  "contributor_name": "조지현",
+  "recorded_at_kst": "2026-09-30T20:48:43+09:00",
+  "code_base_commit": "7a65154fc0bec227350b4d528f940384a272a8e1",
+  "input": {
+    "name": "graphify-out.zip",
+    "bytes": 68447,
+    "sha256": "7371926f2a9e5f92727f27f0a89712a82e6f18e74644adf2633d6e8e71c4b823"
+  },
+  "change_reason": "사용자 요청에 따른 토큰 효율 운영 원칙의 프로젝트 적용",
+  "verification_scope": "ZIP 지문·그래프 구조·변경 문서 링크·담당 번호·JSON·선택된 KST 필드·diff 공백 검사",
+  "graph": {
+    "nodes": 154,
+    "links": 188,
+    "hyperedges": 4,
+    "communities": 12,
+    "dangling_endpoint_edges": 0
+  },
+  "remaining_issues": [
+    "동일 업무의 실제 입력·출력·캐시·보조 호출·지연·정확성 비교 미측정",
+    "영상 전사 원문과 첨부 인계의 실측 원본 미포함",
+    "제품 앱·모델 호출·논문 재현 미검증"
+  ],
+  "measured_token_savings": null,
+  "reported_session_usage": null,
+  "publication_verification": "이 기록의 GitHub 반영 여부는 push 이후 origin/main 커밋 일치와 Git 기록으로 확인",
+  "validation": {
+    "checked_at_kst": "2026-09-30T20:48:45+09:00",
+    "metadata": {
+      "contributor_version": 3,
+      "checked_at_kst": "2026-09-30T20:48:44+09:00",
+      "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크",
+      "json_files_checked": 8,
+      "status": "PASS",
+      "failures": [],
+      "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님"
+    },
+    "internal_links": "PASS",
+    "diff_check_exit_code": 0,
+    "status": "PASS",
+    "failures": []
+  }
+}

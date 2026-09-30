@@ -1,0 +1,21 @@
+{
+  "measured_at_utc": "2026-09-25T14:51:48.149849+00:00",
+  "line_counts_including_comments_and_blank_lines": {
+    "tools/case_registry.py": 96,
+    "tests/test_v60_registry.py": 87,
+    "data/evaluation/registered_cases.json": 88,
+    "tools/reproduce_horse.py": 102,
+    "tools/reproduce_monarch.py": 114
+  },
+  "new_paper_specific_python_lines": 0,
+  "new_shared_registry_python_lines": 96,
+  "paper_references": 4,
+  "independent_existing_data_pairs": 3,
+  "new_independent_data_pairs": 0,
+  "arithmetic_match_cases": 1,
+  "blocked_cases": 3,
+  "one_local_registry_run_seconds_excluding_imports": 0.0627992000663653,
+  "human_onboarding_seconds": null,
+  "human_onboarding_note": "Not prospectively timed. Local computer execution time is not human review/onboarding time. Research and source reconciliation remain manual.",
+  "scope": "Shared evaluator added in V60; zero paper-specific Python lines does not mean zero implementation cost. Only count_rows, mean, missing_cells reuse two pre-existing engines; PCA/GLMM use separate dedicated paths and are blocked in this registry."
+}

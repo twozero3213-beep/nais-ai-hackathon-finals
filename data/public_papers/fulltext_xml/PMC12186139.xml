@@ -1,0 +1,911 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="gcb70312" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Glob Chang Biol</journal-id><journal-id journal-id-type="iso-abbrev">Glob Chang Biol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9888746</journal-id><journal-id journal-id-type="publisher-id">GCB</journal-id><journal-title-group><journal-title>Global Change Biology</journal-title></journal-title-group><issn pub-type="ppub">1354-1013</issn><issn pub-type="epub">1365-2486</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12186139</article-id><article-id pub-id-type="pmcid-ver">PMC12186139.1</article-id><article-id pub-id-type="pmcaid">12186139</article-id><article-id pub-id-type="pmcaiid">12186139</article-id><article-id pub-id-type="pmid">40552430</article-id><article-id pub-id-type="doi">10.1111/gcb.70312</article-id><article-id pub-id-type="publisher-id">GCB70312</article-id><article-id pub-id-type="other">GCB-25-1322.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Simulating Lightning‐Induced Tree Mortality in the Dynamic Global Vegetation Model <styled-content style="fixed-case" toggle="no">LPJ</styled-content>‐<styled-content style="fixed-case" toggle="no">GUESS</styled-content>
+</article-title></title-group><contrib-group><contrib id="gcb70312-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Krause</surname><given-names initials="A">Andreas</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3345-2989</contrib-id><xref rid="gcb70312-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="gcb70312-cr-0002" contrib-type="author"><name name-style="western"><surname>Gregor</surname><given-names initials="K">Konstantin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3513-3607</contrib-id><xref rid="gcb70312-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gcb70312-cr-0003" contrib-type="author"><name name-style="western"><surname>Meyer</surname><given-names initials="BF">Benjamin F.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6193-2923</contrib-id><xref rid="gcb70312-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gcb70312-cr-0004" contrib-type="author"><name name-style="western"><surname>Rammig</surname><given-names initials="A">Anja</given-names></name><xref rid="gcb70312-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="gcb70312-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Technical University of Munich</named-content>
+<institution>TUM School of Life Sciences</institution>
+<city>Freising</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Andreas Krause ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>6</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>6</month><year>2025</year></pub-date><volume>31</volume><issue seq="560">6</issue><issue-id pub-id-type="pmc-issue-id">491261</issue-id><issue-id pub-id-type="doi">10.1111/gcb.v31.6</issue-id><elocation-id>e70312</elocation-id><history>
+<date date-type="rev-recd"><day>30</day><month>5</month><year>2025</year></date>
+<date date-type="received"><day>10</day><month>4</month><year>2025</year></date>
+<date date-type="accepted"><day>04</day><month>6</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>24</day><month>06</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>25</day><month>06</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-06-25 12:25:29.367"><day>25</day><month>06</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Global Change Biology</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="GCB-31-e70312.pdf"><?pdf-name GCB-31-e70312.pdf?><?pdf-size 5852176?><?pdf-md5 5433bb254e764638c748a567fb28ab35?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:8546/12186139/5433bb254e76/GCB-31-e70312.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:GCB-31-e70312.pdf"/><abstract><title>ABSTRACT</title><p>Lightning is an important yet often overlooked disturbance agent in forest ecosystems. Recent research conducted in Panama suggests that lightning is a major cause of large tree mortality in tropical forests. However, lightning‐induced tree mortality is not included in state‐of‐the‐art ecosystem models. Here, we implement a general lightning mortality module in the dynamic global vegetation model LPJ‐GUESS to explore the impacts of lightning on forests at local and global scales. Lightning mortality was implemented stochastically in dependency of local cloud‐to‐ground lightning density and simulated forest structure based on findings from the Panamanian forest. For this site, LPJ‐GUESS adequately simulates the average number of trees of different size classes killed per lightning strike, with a total of 2.9 simulated versus 3.2 observed. The model also captures the estimated contribution of lightning to the overall mortality of large trees (21% simulated vs. 24% observed). Applying the new model version to other tropical and temperate forests for which observation‐based estimates on lightning mortality exist, LPJ‐GUESS reproduces estimated impacts in some forests but simulates substantially lower impacts for others. Global simulations driven by two alternative products of cloud‐to‐ground lightning densities suggest that lightning kills 301–340 million trees annually, thereby causing 0.21–0.30 GtC yr.<sup>−1</sup> of dead biomass (2.1%–2.9% of total killed biomass). The simulations also reveal that the global biomass would be 1.3%–1.7% higher in a world without lightning. Spatially, simulated lightning mortality is largest in the tropical forests of Africa. Although our simulations suggest an important role of lightning in forest ecosystems on a global scale, more data on lightning‐induced tree mortality across different forest types would be desirable for more accurate model calibration and evaluation. Given the anticipated increase in future lightning activity, incorporating lightning mortality into ecosystem models is needed to obtain more reliable projections of terrestrial vegetation dynamics and carbon cycling.</p></abstract><abstract abstract-type="graphical"><p>Lightning plays a bigger role in killing trees than many people realize, especially in the tropics. We have added lightning‐induced tree mortality to a global vegetation model, showing it could kill over 300 million trees annually and significantly affect forest structure and carbon storage. The results highlight the need to include lightning mortality in forest and climate models, especially as lightning activity is expected to increase with climate change.<boxed-text position="anchor" content-type="graphic" id="gcb70312-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="GCB-31-e70312-g003.jpg"><?image-name GCB-31-e70312-g003.jpg?><?image-size 26087?><?image-md5 65ace3b2b61409744660be59e5239a6f?><?image-image-server-status NEVER_LOAD?><?image-original-height 238?><?image-original-width 331?><?image-scaled-height 238?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/65ace3b2b614/GCB-31-e70312-g003.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="gcb70312-kwd-0001">atmosphere‐vegetation interactions</kwd><kwd id="gcb70312-kwd-0002">carbon cycle</kwd><kwd id="gcb70312-kwd-0003">disturbance</kwd><kwd id="gcb70312-kwd-0004">ecosystem modelling</kwd><kwd id="gcb70312-kwd-0005">flash</kwd><kwd id="gcb70312-kwd-0006">forest dynamics</kwd><kwd id="gcb70312-kwd-0007">lightning strike</kwd><kwd id="gcb70312-kwd-0008">tree death</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Deutsche Forschungsgemeinschaft
+</institution><institution-id institution-id-type="doi">10.13039/501100001659</institution-id></institution-wrap></funding-source><award-id>536753546</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="14"/><word-count count="10000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.7 mode:remove_FC converted:24.06.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="gcb70312-cit-1001">
+<string-name name-style="western">
+<surname>Krause</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Gregor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. F.</given-names>
+<surname>Meyer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rammig</surname>
+</string-name>. <year>2025</year>. “<article-title>Simulating Lightning‐Induced Tree Mortality in the Dynamic Global Vegetation Model <styled-content style="fixed-case" toggle="no">LPJ</styled-content>‐<styled-content style="fixed-case" toggle="no">GUESS</styled-content>
+</article-title>.” <source>Global Change Biology</source>
+<volume>31</volume>, no. <issue>6</issue>: <elocation-id>e70312</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.70312</pub-id>.<pub-id pub-id-type="pmid">40552430</pub-id></mixed-citation>
+</p><fn-group id="gcb70312-ntgp-0001"><fn fn-type="funding" id="gcb70312-note-0001"><p>
+<bold>Funding:</bold> This work was supported by Deutsche Forschungsgemeinschaft, 536753546.</p></fn></fn-group></notes></front><body id="gcb70312-body-0001"><sec id="gcb70312-sec-0001"><label>1</label><title>Introduction</title><p>Forest ecosystems currently store 870 ± 61 GtC in vegetation and soils and take up an additional 3.5 ± 0.4 GtC each year, equivalent to 45% of anthropogenic fossil fuel emissions (Pan et al. <xref rid="gcb70312-bib-0050" ref-type="bibr">2024</xref>). The balance between carbon assimilation (i.e., photosynthesis) and carbon loss (i.e., mortality and turnover) determines how much carbon is sequestered in biomass. Understanding the drivers of tree mortality is thus crucial to adequately project forest dynamics and carbon storage in a changing climate. However, there is still a considerable knowledge gap of how and why trees die (Senf et al. <xref rid="gcb70312-bib-0062" ref-type="bibr">2025</xref>). Pugh et al. (<xref rid="gcb70312-bib-0057" ref-type="bibr">2019</xref>) estimated that stand‐replacing disturbances—discrete events causing the death of all trees over an area of 0.1 ha or larger—account for 12% of global biomass turnover due to tree mortality. The remaining mortality occurs on a smaller scale, where one or a few trees die while neighbouring trees survive. A solid understanding of mortality at sub‐stand scales is therefore essential for comprehending forest dynamics.</p><p>Lightning has long been known to be a small‐scale disturbance in forests (Anderson <xref rid="gcb70312-bib-0001" ref-type="bibr">1964</xref>; Brünig and Brünig <xref rid="gcb70312-bib-0005" ref-type="bibr">1964</xref>; Taylor <xref rid="gcb70312-bib-0065" ref-type="bibr">1974</xref>; Whittaker et al. <xref rid="gcb70312-bib-0067" ref-type="bibr">1998</xref>). However, the detection and adequate quantification of direct (i.e., non‐fire) lightning‐caused tree mortality is highly challenging. Visual signs of lightning strikes are often lacking (or already beyond recognition due to advanced wood decomposition), tree death sometimes occurs slowly, and most reports rely on post hoc surveys or anecdotal evidence of the most conspicuous events (Yanoviak et al. <xref rid="gcb70312-bib-0069" ref-type="bibr">2017</xref>; Zoletto et al. <xref rid="gcb70312-bib-0072" ref-type="bibr">2023</xref>). As a consequence, without prior knowledge of the lightning strike, lightning mortality is often overlooked or erroneously attributed to other causes such as storms, droughts, or biotic agents. A research team recently addressed these issues by combining a camera‐based lightning detection system with subsequent drone and ground‐based field surveys in an old‐growth tropical forest in Barro Colorado Island (BCI), Panama (Yanoviak et al. <xref rid="gcb70312-bib-0069" ref-type="bibr">2017</xref>). They found that cloud‐to‐ground (CG) lightning strikes often do not only affect the directly struck tree but also adjacent trees via “flashovers,” that is, electricity crossing an air gap between neighboring tree crowns. On average, each lightning strike killed 3.5 trees (diameter &gt; 10 cm) within 1 year, including 0.94 large trees (diameter &gt; 60 cm) (Yanoviak et al. <xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>). Lightning mortality increased with tree diameter and decreased with distance from the directly struck tree. Comparing lightning mortality rates with background mortality rates in this forest, the authors estimated that lightning is responsible for at least 4.5% of total tree mortality and 40.5% of large tree mortality. Although the former number is confirmed by a previous study conducted in Central Amazonia (Fontes et al. <xref rid="gcb70312-bib-0020" ref-type="bibr">2018</xref>), the authors call these numbers conservative as the assumed lightning density might be underestimated, trees killed from lightning‐crushed trees were not counted as killed by lightning, and some lightning‐damaged trees will only die in the long term (increasing the estimated contribution to large tree mortality to 50.3%). Extrapolating these findings to all tropical forests using local lightning densities, Gora et al. (<xref rid="gcb70312-bib-0024" ref-type="bibr">2020</xref>) estimated that lightning annually kills 194 million trees &gt; 1 cm in diameter, including 126 million &gt; 10 cm. Furthermore, lightning is also a major disturbance in other forest types. In some temperate conifer forests, lightning is estimated to be the dominant cause of mortality (Outcalt <xref rid="gcb70312-bib-0048" ref-type="bibr">2008</xref>; Palik and Pederson <xref rid="gcb70312-bib-0049" ref-type="bibr">1996</xref>; Platt et al. <xref rid="gcb70312-bib-0056" ref-type="bibr">1988</xref>), and may kill up to 4.7% of the largest trees each year (Yanoviak et al. <xref rid="gcb70312-bib-0070" ref-type="bibr">2015</xref>). Nevertheless, no quantification about the global ecological importance of lightning mortality currently exists.</p><p>Dynamic global vegetation models (DGVMs) are tools that are widely used to simulate terrestrial ecosystems under prescribed environmental conditions. They do so by simulating processes such as tree establishment, growth, competition, and mortality. However, even though DGVMs are constantly refined, their representation of tree mortality is still relatively rudimentary. In many models, wildfire is the only disturbance explicitly simulated, sometimes taking lightning as an ignition source into account (Felsberg et al. <xref rid="gcb70312-bib-0018" ref-type="bibr">2018</xref>; Krause et al. <xref rid="gcb70312-bib-0038" ref-type="bibr">2014</xref>; Rabin et al. <xref rid="gcb70312-bib-0058" ref-type="bibr">2017</xref>). Despite recent research revealing the devastating impacts of lightning strikes on trees, to our knowledge, no DGVM or similar model represents lightning‐caused tree mortality (Veraverbeke et al. <xref rid="gcb70312-bib-0066" ref-type="bibr">2025</xref>). The absence of lightning mortality in DGVMs may cause biases in simulated vegetation dynamics and carbon stocks and challenges the reliability of future simulations, given that most climate models project lightning activity to increase in a warmer world, albeit with considerable uncertainty (e.g., Clark et al. <xref rid="gcb70312-bib-0012" ref-type="bibr">2017</xref>; Finney et al. <xref rid="gcb70312-bib-0019" ref-type="bibr">2018</xref>; Krause et al. <xref rid="gcb70312-bib-0038" ref-type="bibr">2014</xref>). Therefore, representing lightning mortality in DGVMs is crucial to improve their accuracy and usefulness in simulating vegetation response to environmental change.</p><p>Here, we address this issue by implementing lightning mortality in the well‐established DGVM LPJ‐GUESS (Smith et al. <xref rid="gcb70312-bib-0064" ref-type="bibr">2014</xref>) to investigate the ecological impacts of lightning at local and global scales. With our simulations, we want to answer the following research questions: (1) Can LPJ‐GUESS reproduce observed lightning‐induced tree mortality in the BCI forest in Panama and other forest sites? (2) How many trees are annually killed by lightning globally? (3) How important is lightning in comparison to other causes of tree mortality in different regions? (4) How does lightning affect forest carbon storage, structure, and composition globally?</p></sec><sec sec-type="materials-and-methods" id="gcb70312-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="gcb70312-sec-0003"><label>2.1</label><title>The <styled-content style="fixed-case" toggle="no">LPJ</styled-content>‐<styled-content style="fixed-case" toggle="no">GUESS</styled-content> Model</title><p>The LPJ‐GUESS DGVM simulates vegetation dynamics and associated carbon, nitrogen, and water fluxes according to environmental conditions (Smith et al. <xref rid="gcb70312-bib-0064" ref-type="bibr">2014</xref>). It is frequently used for various purposes, for example, for estimating the terrestrial carbon sink (Friedlingstein et al. <xref rid="gcb70312-bib-0021" ref-type="bibr">2023</xref>), quantifying the global impacts of forest disturbances (Pugh et al. <xref rid="gcb70312-bib-0057" ref-type="bibr">2019</xref>), optimizing forest management strategies (Gregor et al. <xref rid="gcb70312-bib-0028" ref-type="bibr">2024</xref>), and isolating the contributions of individual environmental drivers to terrestrial carbon uptake (Krause et al. <xref rid="gcb70312-bib-0037" ref-type="bibr">2020</xref>). LPJ‐GUESS represents an excellent tool to explore the impacts of lightning on forest ecosystems at large spatial scales due to its regional‐to‐global applicability and its within‐stand representation of forest structure and population dynamics. The model is driven by daily surface temperature, short‐wave radiation, precipitation, wind speed, relative humidity, annual atmospheric CO<sub>2</sub> concentration, and nitrogen deposition. Vegetation diversity is represented by 12 plant functional types (PFTs) which distinguish groups of plants based on characteristics such as growth form, light demand, and bioclimatic limits. Woody PFTs are represented by age cohorts, with all individuals of a cohort sharing the same properties. For each grid cell, a number of replicate patches is simulated to account for vegetation heterogeneity within the grid cell, which is induced by stochastic processes related to tree establishment and mortality. The main mortality mechanisms are background mortality, growth efficiency mortality, wildfires, and patch‐destroying disturbances. Background mortality is calculated from a PFT‐specific longevity, with mortality probability increasing with cohort age (see Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S1</xref>). Growth efficiency mortality occurs if the 5‐year mean growth efficiency of a cohort falls below a PFT‐specific threshold and is particularly relevant for young cohorts competing for light. Wildfire mortality is computed using the SIMFIRE‐BLAZE module, which translates fireline intensities (estimated from fuel load and fire weather parameters) into survival probabilities, taking into account tree size and biome type (Rabin et al. <xref rid="gcb70312-bib-0058" ref-type="bibr">2017</xref>; Nieradzik et al., in preparation). Generic disturbances represent large‐scale mortality events (e.g., windthrows) that occur stochastically with a prescribed probability, resulting in the complete loss of vegetation within the affected patch. Unburned dead biomass is transferred to the litter, where it decomposes according to the CENTURY model (Parton et al. <xref rid="gcb70312-bib-0053" ref-type="bibr">1993</xref>). The organic nitrogen leaves the system via leaching, volatilization by wildfires, or as gaseous soil emissions, or is mineralized and taken up again by plants.</p></sec><sec id="gcb70312-sec-0004"><label>2.2</label><title>Observed Lightning Mortality in the <styled-content style="fixed-case" toggle="no">BCI</styled-content> Forest</title><p>In the BCI forest in Panama, lightning strikes that hit a tree often spread to neighbouring trees and can reach trees up to 45 m away from the struck tree (Yanoviak et al. <xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>). Consequently, a single lightning strike often results in the death of multiple trees over the course of several months. To increase the robustness of our implementation, we here applied an updated dataset by Richards et al. (<xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>) consisting of 97 lightning strikes that occurred during the wet seasons of 2015–2020. Compared to the dataset of Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) it has the advantage to (1) be based on additional lightning strikes, (2) explicitly report mortality rates of the directly struck trees, and (3) also include tiny trees with a diameter between 1 and 10 cm. As the dataset does not include trees not affected by lightning, we selected all lightning strikes within the BCI forest (for which data about each individual exists from plot surveys) for which the location could be unambiguously identified in the plot and which were surveyed at least 346 days post‐strike (23 strikes) to compute the mortality rates of neighbouring trees. For the mortality rates of directly struck trees, we also included strikes outside of the BCI forest plot (79 strikes). For strikes with multiple surveys after 346 days, we selected the earliest survey (the mean of the earliest surveys was 422 days after the strike). We then computed the average tree mortality rate per strike for different size classes (large trees: &gt; 60 cm diameter; medium trees: 30–60 cm; small trees: 10–30 cm; tiny trees: 1–10 cm) and distances from the strike location (directly struck, 0–10 m, 10–20 m, 20–30 m, 30–40 m, 40–45 m). We computed the mortality rates by dividing the number of trees killed by lightning by the number of living trees within the distance zones according to the plot survey from 2015 (Condit et al. <xref rid="gcb70312-bib-0013" ref-type="bibr">2019</xref>). Overall, lightning impacts were somewhat lower compared to the findings by Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>), for example, only 3.2 trees &gt; 10 cm were killed per strike compared to 3.5 in Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>). However, the updated dataset confirms that mortality rates increase with tree diameter and decrease with distance from the struck tree (Figure <xref rid="gcb70312-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="gcb70312-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Average lightning‐induced tree mortality rates for different size classes and distances from the strike location from the BCI forest. The number shows the total number of trees per size class and distance zone.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="GCB-31-e70312-g006.jpg"><?image-name GCB-31-e70312-g006.jpg?><?image-size 33719?><?image-md5 7f990b0b2dfb4eded6c7e7e90b4dd6b9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 696?><?image-original-width 1064?><?image-scaled-height 464?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/7f990b0b2dfb/GCB-31-e70312-g006.jpg?><?thumb-name GCB-31-e70312-g006.gif?><?thumb-size 3017?><?thumb-md5 1922638d61b801d5d93de5912a6ac6ff?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 122?><?thumb-cloudpmc-urn urn:cdn:blobs/8546/12186139/1922638d61b8/GCB-31-e70312-g006.gif?></graphic></fig></sec><sec id="gcb70312-sec-0005"><label>2.3</label><title>Implementation of Lightning Mortality in <styled-content style="fixed-case" toggle="no">LPJ</styled-content>‐<styled-content style="fixed-case" toggle="no">GUESS</styled-content>
+</title><p>Lightning mortality was implemented at the patch level. The first step in this process was determining how many lightning strikes reached a patch in a given year. To this end, we used binomial probability to calculate the number of lightning strikes hitting a patch based on the prescribed lightning density of the grid cell. If agriculture existed in a grid cell, we assumed equal lightning densities over the natural (i.e., tree‐covered) and agricultural land, although agriculture itself was not affected by lightning. Each lightning strike can kill not only the directly struck tree but also neighboring trees. We therefore did not only consider lightning strikes inside the patch (area 1000 m<sup>2</sup>) but also strikes within the neighborhood that have the potential to kill trees within the patch (i.e., up to 45 m from the patch edge) (Figure <xref rid="gcb70312-fig-0002" ref-type="fig">2</xref>). Although this increased the target area for lightning strikes from 1000 to 12,406 m<sup>2</sup> (radius increases from 17.8 to 62.8 m), patches are still only rarely affected by lightning even in regions with high lightning densities (e.g., for the 12.7 flashes yr.<sup>−1</sup> km<sup>−2</sup> reported in Panama, the probability for at least one lightning strike hitting a given patch or its neighbourhood is less than 15% each year, see Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S2a</xref>). Additionally, most strikes occur far from the patch center, meaning that the high‐damage zones close to the strike location often lie outside of the patch area (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S2b,c</xref>). In tropical forests, LPJ‐GUESS tends to generate limited heterogeneity within patches, typically with only a few cohorts/size classes per patch. To address this, we combined five patches for our lightning mortality calculations to represent a more realistic forest structure (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S3</xref>). This approach assumed that each cohort from the five patches exists in all five patches, but with reduced tree densities. We assumed that each lightning strike that occurred in any of the five patches hits an individual of the tallest cohort across all five patches (which can in principle also be a small or even tiny tree), taking into account that lightning tends to strike the tallest trees (Outcalt <xref rid="gcb70312-bib-0048" ref-type="bibr">2008</xref>; Richards et al. <xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>). For the other cohorts, we assumed each strike would also occur on their respective patch but reduced cohort density by a factor of five. For each strike and cohort, we computed the number of individuals in each distance zone from the lightning location by multiplying the reduced cohort density by the area of the respective zone located inside the patch and applied the respective observed mortality rates from the BCI forest (Figure <xref rid="gcb70312-fig-0001" ref-type="fig">1</xref>). For non‐tropical broadleaf and coniferous PFTs, we assumed a 50% and 80% higher lightning vulnerability, respectively, compared to tropical PFTs (implemented via a PFT‐specific parameter). This assumption is based on their higher electrical resistance (Gora et al. <xref rid="gcb70312-bib-0023" ref-type="bibr">2017</xref>) and the fact that conifers tend to be more prone to lightning than hardwood trees (Baker <xref rid="gcb70312-bib-0002" ref-type="bibr">1973</xref>; Yanoviak et al. <xref rid="gcb70312-bib-0070" ref-type="bibr">2015</xref>).</p><fig position="float" fig-type="FIGURE" id="gcb70312-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Schematic representation of lightning strikes in LPJ‐GUESS. A strike can kill trees up to 45 m away from the strike location (Richards et al. <xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>; Yanoviak et al. <xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>). We thus consider not only strikes within a patch but also strikes in the neighbourhood of the patch which are still near enough to kill trees within the patch. In this example, the tree density is 0 for tiny trees, 0.006 individuals per m<sup>2</sup> for small trees, 0.012 for medium trees, and 0.004 for large trees.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="GCB-31-e70312-g002.jpg"><?image-name GCB-31-e70312-g002.jpg?><?image-size 86570?><?image-md5 1389b520d0561f6829e155965d3b63c8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 892?><?image-original-width 1064?><?image-scaled-height 594?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/1389b520d056/GCB-31-e70312-g002.jpg?><?thumb-name GCB-31-e70312-g002.gif?><?thumb-size 4306?><?thumb-md5 23d666b0941c15e12e1c50f47cde6f19?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 84?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8546/12186139/23d666b0941c/GCB-31-e70312-g002.gif?></graphic></fig></sec><sec id="gcb70312-sec-0006"><label>2.4</label><title>Global Cloud‐To‐Ground Lightning Densities</title><p>For the global simulations we accounted for the uncertainty in lightning densities by using two different gridded CG lightning datasets (Figure <xref rid="gcb70312-fig-0003" ref-type="fig">3</xref>). The first one was derived by multiplying total lightning densities as observed by the space‐born Lightning Imaging Sensor and the Optical Transient Detector (LIS/OTD) (Cecil et al. <xref rid="gcb70312-bib-0008" ref-type="bibr">2014</xref>) with CG fractions as simulated by the chemistry‐climate model EMAC (Pérez‐Invernón et al. <xref rid="gcb70312-bib-0054" ref-type="bibr">2023</xref>, <xref rid="gcb70312-bib-0055" ref-type="bibr">2022</xref>), the latter bilinearly interpolated from the original 2.8° × 2.8° resolution to 0.5° × 0.5° to match the spatial resolution of LIS/OTD. LIS/OTD detect near‐infrared emissions at 777.4‐nm wavelength scattered by lightning through the clouds and emerged from cloud tops. The high‐latitude data comes exclusively from OTD (which was active between 1995 and 2000), while areas within ±38° were also observed by LIS (active between 1998 and 2014). This means that LIS/OTD lightning densities are most robust in the tropics. We used the high‐resolution full climatology (HRFC) (Cecil <xref rid="gcb70312-bib-0007" ref-type="bibr">2025</xref>). According to LIS/OTD, most lightning occurs in the tropics, especially Africa (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S4a</xref>). However, the tropics are characterized by low CG ratios according to EMAC (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S4b</xref>). The resulting CG lightning product reveals maxima in central Africa, southern South America and northern India (Figure <xref rid="gcb70312-fig-0003" ref-type="fig">3a</xref>).</p><fig position="float" fig-type="FIGURE" id="gcb70312-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Cloud‐to‐ground lightning densities according to LIS/OTD‐EMAC (i.e., LIS/OTD total lightning densities multiplied by EMAC cloud‐to‐ground fractions) (a) and ENTLN (b).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="GCB-31-e70312-g001.jpg"><?image-name GCB-31-e70312-g001.jpg?><?image-size 160858?><?image-md5 503ef6df063ce2f66def955feb08c345?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1164?><?image-original-width 1064?><?image-scaled-height 776?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/503ef6df063c/GCB-31-e70312-g001.jpg?><?thumb-name GCB-31-e70312-g001.gif?><?thumb-size 7055?><?thumb-md5 1c0ac6f57279b78e43741774522312c3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 109?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8546/12186139/1c0ac6f57279/GCB-31-e70312-g001.gif?></graphic></fig><p>The second dataset was the ground‐based Earth Networks Total Lightning Network (ENTLN) dataset (Zhu et al. <xref rid="gcb70312-bib-0071" ref-type="bibr">2022</xref>), which was provided by Earth Networks (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.earthnetworks.com/" ext-link-type="uri">https://www.earthnetworks.com/</ext-link>). This dataset, which also includes observations from the World Wide Lightning Location Network (Rodger et al. <xref rid="gcb70312-bib-0060" ref-type="bibr">2004</xref>), is able to distinguish between CG and intra‐cloud lightning flashes. We constructed a gridded 0.5° × 0.5° product by counting all CG flashes that occurred inside a grid‐cell and dividing by grid‐cell area. ENTLN data was available for the 01/2012–05/2021 period; however, the capture efficiency of ENTLN increased over time due to an increasing number of sensors. As lightning frequency over land showed no obvious trend between 06/2015 and 05/2021 (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S5</xref>), we assumed no major change in detection efficiency since then and computed the climatology over this time period. Overall, both products have a comparable annual global lightning frequency (286 million vs. 328 million) and a similar lightning distribution (<italic toggle="yes">r</italic> = 0.68), with ENTLN having more lightning in the tropics and LIS/OTD‐EMAC having more lightning in mid‐high latitudes (Figure <xref rid="gcb70312-fig-0003" ref-type="fig">3a+b</xref>).</p></sec><sec id="gcb70312-sec-0007"><label>2.5</label><title>Model Evaluation</title><p>We compared our simulation results with the observed size distribution of trees directly hit by lightning, the observed number of trees on average killed per lightning strike, and the estimated contribution of lightning to total tree mortality in Panama (Richards et al. <xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>). For the size distribution of trees directly hit by lightning, we considered all lightning strikes in the dataset that had information on tree diameter (<italic toggle="yes">n</italic> = 96). For the average number of trees killed by lightning, we included all directly hit trees (<italic toggle="yes">n</italic> = 79) but for neighboring trees, we only included strikes from the BCI forest (<italic toggle="yes">n</italic> = 23) to be consistent with our calculated mortality rates. For the contribution of lightning to total tree mortality, we scaled the estimated contribution of Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) by the updated number of trees killed per strike (Richards et al. <xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>) divided by the original number of trees killed per strike (Yanoviak et al. <xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>). For additional model evaluation, we also compared our BCI simulations to estimates on the contribution of lightning to total killed woody biomass (Gora et al. <xref rid="gcb70312-bib-0022" ref-type="bibr">2021</xref>), forest biomass (Chave et al. <xref rid="gcb70312-bib-0009" ref-type="bibr">2003</xref>), net primary productivity (Condit et al. <xref rid="gcb70312-bib-0014" ref-type="bibr">2013</xref>), tree densities of different size classes, and the annual mortality per size class in this forest (Condit et al. <xref rid="gcb70312-bib-0013" ref-type="bibr">2019</xref>).</p><p>Furthermore, we also evaluated simulated lightning impacts in other forests for which estimates on lightning mortality exist (Table <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S1</xref>). To this end, we compared the simulated average number of trees killed per lightning strike to estimates for sites in the Peruvian Amazon (Gora and Yanoviak <xref rid="gcb70312-bib-0027" ref-type="bibr">2020</xref>), Brazilian Central Amazon (Magnusson et al. <xref rid="gcb70312-bib-0043" ref-type="bibr">1996</xref>), and Uganda (Zoletto et al. <xref rid="gcb70312-bib-0072" ref-type="bibr">2023</xref>). Furthermore, we compared LPJ‐GUESS simulations to the estimated fraction of large trees annually killed by lightning in the Peruvian Amazon (Gora and Yanoviak <xref rid="gcb70312-bib-0027" ref-type="bibr">2020</xref>) and to the estimated annual lightning mortality and the contribution of lightning to total tree mortality for another site in the Brazilian Central Amazon (Fontes et al. <xref rid="gcb70312-bib-0020" ref-type="bibr">2018</xref>). To assess the applicability of our lightning mortality implementation for extratropical forests, we also compared simulated lightning impacts to estimates from several forest sites in the US: Florida and South Carolina (Outcalt <xref rid="gcb70312-bib-0048" ref-type="bibr">2008</xref>), Michigan (Yanoviak et al. <xref rid="gcb70312-bib-0070" ref-type="bibr">2015</xref>), California (Das et al. <xref rid="gcb70312-bib-0017" ref-type="bibr">2016</xref>), three forests in Texas (Conner et al. <xref rid="gcb70312-bib-0015" ref-type="bibr">1991</xref>), and two forests in Georgia (Palik and Pederson <xref rid="gcb70312-bib-0049" ref-type="bibr">1996</xref>; Platt et al. <xref rid="gcb70312-bib-0056" ref-type="bibr">1988</xref>).</p></sec><sec id="gcb70312-sec-0008"><label>2.6</label><title>Simulation Setup</title><p>We ran LPJ‐GUESS for the BCI forest, the three Amazon sites, and the US sites to evaluate our implementation at the site level. For the BCI forest, we also conducted three sensitivity experiments in which we (a) merged 10 instead of five patches for the lightning mortality calculation; (b) did not merge any patches; (c) did not include lightning mortality. For all site experiments, we ran single 0.5° × 0.5° grid cells under potential natural vegetation with 1000 patches (5000 for the BCI site) to reduce the influence of stochasticity arising from the fact that lightning strikes rarely hit a patch. Cloud‐to‐ground lightning density was taken from the values reported in the studies or—if not provided—from ENTLN, using the lightning density from the 0.1° × 0.1° cell around the site coordinates (see Table <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S1</xref>). We used daily climate forcing from CRU‐JRA‐v2.5 (Harris and Jones <xref rid="gcb70312-bib-0030" ref-type="bibr">2020</xref>; Harris et al. <xref rid="gcb70312-bib-0031" ref-type="bibr">2020</xref>; Kobayashi et al. <xref rid="gcb70312-bib-0036" ref-type="bibr">2015</xref>), atmospheric CO<sub>2</sub> from the Global Carbon Budget (Friedlingstein et al. <xref rid="gcb70312-bib-0021" ref-type="bibr">2023</xref>), and nitrogen deposition from Lamarque et al. (<xref rid="gcb70312-bib-0041" ref-type="bibr">2013</xref>). The total simulation period was 1901–2023, following a 500‐year spin‐up to bring carbon pools to equilibrium. The generic disturbance interval was set to 150 years, the same value as used for the global simulations.</p><p>For the global simulations we used the gridded lightning densities derived from either LIS/OTD‐EMAC or ENTLN as input to LPJ‐GUESS. We also conducted a global simulation without lightning. Input climate, atmospheric CO<sub>2</sub>, and nitrogen deposition were from the same datasets as used for the local simulations. As large parts of the globe are managed by humans we accounted for historical land‐use changes by applying net land‐use transitions from the Global Carbon Budget (Chini et al. <xref rid="gcb70312-bib-0011" ref-type="bibr">2021</xref>). Primary land was represented by 35 patches, whereas secondary land (i.e., abandoned agricultural land) was represented by five patches for computational reasons. The value of the disturbance interval (150 years) was chosen so that simulated potential terrestrial biomass (805 GtC over the 2000–2023 period) was well within the ~600–1000 GtC range estimated in other studies (Mo et al. <xref rid="gcb70312-bib-0073" ref-type="bibr">2023</xref>). Simulated potential gross primary productivity over the 2000–2023 period was 135 Gt yr.<sup>−1</sup>, slightly lower than the 142 GtC yr.<sup>−1</sup> recently estimated by Krause et al. (<xref rid="gcb70312-bib-0039" ref-type="bibr">2022</xref>).</p></sec></sec><sec sec-type="results" id="gcb70312-sec-0009"><label>3</label><title>Results</title><sec id="gcb70312-sec-0010"><label>3.1</label><title>
+<styled-content style="fixed-case" toggle="no">BCI</styled-content> Simulations</title><p>In the BCI forest, LPJ‐GUESS adequately reproduces observed lightning impacts as well as other forest characteristics such as biomass and tree densities (Figure <xref rid="gcb70312-fig-0004" ref-type="fig">4</xref>, Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S6</xref>). The model agrees with the observations that around 85% of all lightning strikes hit large trees, with the remaining strikes mostly hitting medium‐sized trees (Figure <xref rid="gcb70312-fig-0004" ref-type="fig">4a</xref>). It should be noted that this good agreement is largely a result of lightning strikes hitting the tallest cohort of five patches (see Methods). In comparison, hitting the tallest cohort of 10 patches instead leads to 95% of all strikes hitting large trees, whereas hitting the tallest cohort of single patches results in only 33% of lightning strikes hitting large trees (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S6</xref>). Each lightning strike is simulated to kill on average 2.9 trees (diameter &gt; 10 cm), compared to 3.2 trees in the observations (Figure <xref rid="gcb70312-fig-0004" ref-type="fig">4b</xref>). The number of small trees killed per strike is underestimated (1.3 vs. 1.8) while the number of medium‐sized trees is slightly overestimated (1.0 vs. 0.84) and the number of large trees is captured well by the model (0.62 vs. 0.57). These patterns are also reflected in the simulated contributions of lightning mortality to the total mortality of trees (Figure <xref rid="gcb70312-fig-0004" ref-type="fig">4c</xref>): the simulated contribution for small trees is much lower than estimated from observations (1.4% vs. 2.8%), while for medium‐sized trees it is substantially higher (11% vs. 5.2%) and a good agreement for large trees (21% vs. 24%). Overall, lightning is simulated to cause 13.7% of the total killed biomass (Figure <xref rid="gcb70312-fig-0004" ref-type="fig">4d</xref>), which is similar to the 12.9% contribution to total woody biomass mortality estimated from observations.</p><fig position="float" fig-type="FIGURE" id="gcb70312-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Simulated lightning impacts in the BCI forest compared to the observations from Richards et al. (<xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>). Proportion of lightning strikes hitting trees of different size classes (a), average number of trees killed per lightning strike for different size classes (b), percentage of dead trees killed by lightning for different size classes (c), and simulated contributions of different mortality causes to total killed biomass (d) averaged over the 2004–2023 period. The error bars represent the variability (1 <italic toggle="yes">σ</italic>) across five simulations, each consisting of 1000 patches.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="GCB-31-e70312-g005.jpg"><?image-name GCB-31-e70312-g005.jpg?><?image-size 92346?><?image-md5 fb4898482eb9f54562f167276e86c62f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 940?><?image-original-width 1064?><?image-scaled-height 626?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/fb4898482eb9/GCB-31-e70312-g005.jpg?><?thumb-name GCB-31-e70312-g005.gif?><?thumb-size 3875?><?thumb-md5 6f6ae25ed269579073914513807c485b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 88?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8546/12186139/6f6ae25ed269/GCB-31-e70312-g005.gif?></graphic></fig><p>At patch level, lightning strikes frequently cause carbon losses, though these losses are generally less severe than those resulting from patch‐destroying disturbances (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S7a</xref>). The disappearance of the tallest tree cohort is often linked to lightning strikes, with the lost biomass gradually recovering over subsequent decades (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S7b</xref>). However, in our simulations, lightning mortality typically has limited effects on the amount of light reaching the forest floor, and new cohorts tend to establish only after the most severe events (e.g., the two strikes in 1969/1970 in patches 11–15, see Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S7c</xref>). Instead, the establishment of new cohorts in Panama is more commonly triggered by large‐scale disturbances, especially for shade‐intolerant PFTs.</p></sec><sec id="gcb70312-sec-0011"><label>3.2</label><title>Other Site Simulations</title><p>Comparing our simulation results to estimates on lightning mortality from other forest sites yields large variations in simulated and observed lightning impacts across sites (Figure <xref rid="gcb70312-fig-0005" ref-type="fig">5</xref>). LPJ‐GUESS simulates substantially lower numbers of trees killed per strike than estimated in two studies in the Amazon, while for the Uganda site the model slightly overestimates the number of killed trees per strike (Figure <xref rid="gcb70312-fig-0005" ref-type="fig">5a</xref>). Concerning the annual fraction of trees killed by lightning each year, observed impacts are reproduced for some sites in the US (Florida, South Carolina) but underestimated by the model for other sites (Figure <xref rid="gcb70312-fig-0005" ref-type="fig">5b</xref>). Similarly, the contribution of lightning to the total mortality is roughly captured for some sites (Angelina, Sam Houston, Sierra Nevada) but severely underestimated for other sites for which the observations sometimes suggest contributions of more than 50% (Figure <xref rid="gcb70312-fig-0005" ref-type="fig">5c</xref>). Interestingly, despite a limited local lightning density, LPJ‐GUESS simulates a much larger contribution for the Georgia B site than for the other sites. However, this can largely be explained by stochasticity as the relevant size classes (&gt; 30 cm diameter) only occur on a small fraction of the patches.</p><fig position="float" fig-type="FIGURE" id="gcb70312-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Simulated average number of trees killed per strike (a), percentage of trees annually killed by lightning (b), and percentage of dead trees killed by lightning (c) compared to literature estimates in three Amazonian, one African, and several US forest sites. We assumed trees with unknown mortality cause to not have been killed by lightning. Note that the <italic toggle="yes">y</italic>‐axis is discontinuous in (c).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="GCB-31-e70312-g004.jpg"><?image-name GCB-31-e70312-g004.jpg?><?image-size 68651?><?image-md5 f329849da477657282dd3e1158856918?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 971?><?image-original-width 1064?><?image-scaled-height 647?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/f329849da477/GCB-31-e70312-g004.jpg?><?thumb-name GCB-31-e70312-g004.gif?><?thumb-size 2641?><?thumb-md5 912666289a9af497e4dd161786deba8e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 91?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8546/12186139/912666289a9a/GCB-31-e70312-g004.gif?></graphic></fig></sec><sec id="gcb70312-sec-0012"><label>3.3</label><title>Global Simulations</title><p>Globally, 286–328 million lightning strikes hit the Earth's surface each year, 196–204 million of which occur over ice‐free land areas. According to our simulations, this results in the annual death of 301–340 million trees (diameter &gt; 10 cm) over the 2004–2023 period (160–234 million in the tropics within ±23.5°), including 24–36 million large trees (Figure <xref rid="gcb70312-fig-0006" ref-type="fig">6a</xref>). For comparison, around 50 billion trees are annually killed by natural causes, including 581 million large trees. Although lightning is thus responsible for 0.61%–0.69% of all tree death, this fraction is much higher for large trees (4.1%–6.3%, Figure <xref rid="gcb70312-fig-0006" ref-type="fig">6b</xref>). This is not only because of the higher susceptibility of large trees to lightning but also because large trees are simulated to occur mostly in the tropics where lightning densities are high. Overall, lightning is responsible for a dead biomass of 0.21–0.30 GtC yr.<sup>−1</sup>, corresponding to 2.1%–2.9% of the total biomass killed by natural causes (Figure <xref rid="gcb70312-fig-0006" ref-type="fig">6c</xref>). Interestingly, this amount is comparable to the 0.34 GtC annually lost due to wildfires (excluding litter combustion). The largest contribution of lightning to total killed biomass is found in Central Africa (Figure <xref rid="gcb70312-fig-0006" ref-type="fig">6d</xref>), consistent with the lightning hotspot in this region (Figure <xref rid="gcb70312-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="gcb70312-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Simulated global lightning mortality. Total number of killed trees (a) and percentage of trees killed by lightning (b) for different size classes, contribution of lightning to total killed biomass (c), and maps of the contribution of lightning to total killed biomass (d). (c, d) show the mean of the LIS/OTD‐EMAC and ENTLN simulations.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="GCB-31-e70312-g007.jpg"><?image-name GCB-31-e70312-g007.jpg?><?image-size 83694?><?image-md5 0dedeb3e9d2ff2aa01258df78d04a69f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 775?><?image-original-width 1064?><?image-scaled-height 516?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8546/12186139/0dedeb3e9d2f/GCB-31-e70312-g007.jpg?><?thumb-name GCB-31-e70312-g007.gif?><?thumb-size 4082?><?thumb-md5 5cf37d07a311f059312a370108992353?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 109?><?thumb-cloudpmc-urn urn:cdn:blobs/8546/12186139/5cf37d07a311/GCB-31-e70312-g007.gif?></graphic></fig><p>Comparing these global simulations with a simulation without lightning mortality, lightning turns out to have small but noticeable impacts on vegetation carbon storage and structure (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S8</xref>). Concerning total living biomass, the presence of lightning reduces present‐day vegetation carbon by 6.9–9.3 GtC, equivalent to a reduction of 1.3%–1.7%. This is largely due to a reduction in broadleaved biomass, while conifers, despite their higher lightning vulnerability, are hardly affected by lightning due to the low lightning densities in the boreal zone. Lightning slightly increases the number of small trees but reduces the number of medium‐sized and, in particular, the number of large trees (by 2.3%–3.0% or 882/1143 million trees).</p></sec></sec><sec sec-type="discussion" id="gcb70312-sec-0013"><label>4</label><title>Discussion</title><sec id="gcb70312-sec-0014"><label>4.1</label><title>Lightning Impacts</title><p>In this study, we implemented a lightning‐caused tree mortality module into the LPJ‐GUESS model to investigate the direct impacts of lightning strikes (i.e., not by wildfire ignitions) on forest ecosystems. Aligning with the limited number of observations, our simulations suggest that lightning is an important cause of tree mortality in many regions, causing 0.21–0.30 GtC of dead biomass each year at a global scale. The largest impacts were simulated in tropical Africa, where lightning density is high and large trees, which are most vulnerable to lightning, prevail. The simulated number of tropical trees killed by lightning (160–234 million) is higher than the 126 million trees estimated by Gora et al. (<xref rid="gcb70312-bib-0024" ref-type="bibr">2020</xref>) who also used ENTLN lightning densities (2013–2018 though) and lightning mortality data from Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) but excluded savannahs and shrublands. Indeed, the simulated lightning impacts in our study may be underestimated for two reasons: (1) LPJ‐GUESS tends to simulate lower lightning mortalities than estimated in other tropical and temperate forests (even though some estimates might be biased towards high lightning mortality, for example, by looking only at forest gaps created by lightning); (2) we only consider mortality directly associated with lightning strikes but neither growth reductions (Camarero et al. <xref rid="gcb70312-bib-0006" ref-type="bibr">2020</xref>) nor long‐term premature mortality (Yanoviak et al. <xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) or secondary biotic mortality of trees damaged but not directly killed by lightning. On the other hand, the number of trees killed per strike is higher when only considering neighboring trees from inside the BCI forest (which we did to compute lightning mortality rates) than when including killed trees from all strikes (3.2 vs. 2.6). This may indicate that strikes inside the BCI forest were, by chance, more destructive than a typical strike in the region (and thus our lightning mortality rates too high) but could also be a result of sampling biases or higher tree densities compared to nearby forests. Overall, our results can be regarded as a first rough estimate of the global ecological importance of lightning, indicating that ecosystem models should account for lightning mortality to more reliably simulate forest dynamics and terrestrial carbon cycling.</p></sec><sec id="gcb70312-sec-0015"><label>4.2</label><title>Applicability of Our Implementation at Global Scale and Ways Forward</title><p>Our implementation of lightning‐induced tree mortality in LPJ‐GUESS adequately reproduces observed lightning impacts in the BCI forest, especially for large trees which store substantial amounts of carbon (Figure <xref rid="gcb70312-fig-0004" ref-type="fig">4</xref>). Deviations between model results and observation‐based estimates for small and medium‐sized trees for this site are likely partly related to how the other mortality mechanisms in LPJ‐GUESS work: small trees have a far higher mortality rate than in the observations because of high growth efficiency mortality under competition for light, but once trees reach their “middle‐age” lifespan, their mortality is lower than in the observations (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S6</xref>). For large trees which are typically 150–300 years old (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S9</xref>), background mortality becomes increasingly important as they mature (see Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S1</xref>). This is likely the reason why no giant trees &gt; 100 cm in diameter are simulated by the model, even when switching off lightning mortality (Figure <xref rid="gcb70312-supitem-0001" ref-type="supplementary-material">S6</xref>), while in reality these trees make up 17% of the total biomass (Chave et al. <xref rid="gcb70312-bib-0009" ref-type="bibr">2003</xref>).</p><p>Concerning the transferability to other forest types, Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) reasoned that lightning is a major cause of tree mortality in various tropical forests. However, Gora et al. (<xref rid="gcb70312-bib-0026" ref-type="bibr">2023</xref>) highlighted that the severity of lightning damage may vary depending on forest complexity, such as the presence of lianas (which are not represented in LPJ‐GUESS). Additionally, Zoletto et al. (<xref rid="gcb70312-bib-0072" ref-type="bibr">2023</xref>) reported a lower mortality rate (7 out of 20) among trees directly struck by lightning in Uganda, and the simulated number of trees killed per strike was slightly higher than observed (Figure <xref rid="gcb70312-fig-0005" ref-type="fig">5a</xref>). On the other hand, LPJ‐GUESS simulates a lower number of trees killed per strike than reported in Brazil and Peru. However, it is likely that these gap‐focused studies only detected the more severe lightning strikes and thus overestimated the average impact of a strike (Gora and Yanoviak <xref rid="gcb70312-bib-0027" ref-type="bibr">2020</xref>). We thus assume that our lightning mortality module can also be applied elsewhere in the tropics even though more observational data especially from the African rainforest would be highly valuable to confirm the high simulated lightning impacts in this region.</p><p>For temperate and boreal forests, no systematic studies comparable to Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) and Richards et al. (<xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>) exist. Instead, estimates on lightning mortality in these regions are typically based on post hoc surveys conducted at infrequent intervals. One pattern observed in both temperate and tropical forests is large trees being more often hit by lightning than smaller trees (e.g., Outcalt <xref rid="gcb70312-bib-0048" ref-type="bibr">2008</xref>; Palik and Pederson <xref rid="gcb70312-bib-0049" ref-type="bibr">1996</xref>; Platt et al. <xref rid="gcb70312-bib-0056" ref-type="bibr">1988</xref>), suggesting that at least this aspect of our implementation is also suitable for extratropical forests. Unfortunately, most of the temperate forest studies were conducted in pine forests in the US, potentially because lightning damage to pines is easily recognized due to its characteristic longitudinal scars (Baker <xref rid="gcb70312-bib-0002" ref-type="bibr">1973</xref>). The issue is further complicated by the fact that lightning‐damaged conifers are often colonized by bark beetles (e.g., Conner et al. <xref rid="gcb70312-bib-0015" ref-type="bibr">1991</xref>; Outcalt <xref rid="gcb70312-bib-0048" ref-type="bibr">2008</xref>), making it difficult to attribute tree death to a single mortality agent. Consequently, a comparison of estimated versus simulated lightning mortality is challenging in these forests and the applicability of our implementation more uncertain than in the tropics. Although the lower‐than‐estimated simulated lightning mortality in several US forests (Figure <xref rid="gcb70312-fig-0005" ref-type="fig">5b+c</xref>) suggests that our approach might underestimate the vulnerability of extratropical forests to lightning, it does not necessarily imply poor model performance. Deviations from field observations might be caused by survey errors (due to the challenges mentioned in the introduction), exaggerations (e.g., for the Michigan forest lightning mortality apparently was set equal to lightning damage), small sample size or stochasticity (e.g., the Brazilian B estimate was derived from a single year of observations in which one lightning event was documented that killed three trees), differences in forest structure (e.g., average observed tree diameter was 34 cm in Florida while no trees &gt; 30 cm were simulated by LPJ‐GUESS), or erroneous local lightning densities. Additionally, LPJ‐GUESS simulates broadleaved PFTs (which have a lower lightning susceptibility than conifers) to outperform needleleaved PFTs in some of the US sites, while in reality most of these forests are dominated by pine species. These forests might thus not be captured well by our global PFT approach.</p><p>In any case, more field observations, especially from non‐pine forests and from regions outside the US, are needed to improve the representation of lightning mortality in DGVMs or Earth System Models for global applications (Veraverbeke et al. <xref rid="gcb70312-bib-0066" ref-type="bibr">2025</xref>). Ideally, these would involve systematic lightning monitoring systems as in Yanoviak et al. (<xref rid="gcb70312-bib-0069" ref-type="bibr">2017</xref>) but could be complemented by post hoc surveys using drones (Gora and Yanoviak <xref rid="gcb70312-bib-0027" ref-type="bibr">2020</xref>) or regular ground surveys. Real‐time lightning monitoring would be particularly important to accurately assess the number of killed trees and the typical area of effect of a lightning strike in different forest types. Although single tree deaths per strike seem to be common in temperate forests, group mortality events have also been reported (e.g., Outcalt <xref rid="gcb70312-bib-0048" ref-type="bibr">2008</xref>; Palik and Pederson <xref rid="gcb70312-bib-0049" ref-type="bibr">1996</xref>) but it needs to be quantified how common these really are. The importance of environmental factors, such as soil moisture, terrain, or peak flash current, on lightning damage also requires more investigation (Mäkelä et al. <xref rid="gcb70312-bib-0044" ref-type="bibr">2009</xref>). For instance, individual strikes tend to cause more damage in valleys than on ridges, possibly because the higher lightning frequency on ridges promotes the survival of lightning‐tolerant tree species (Gora et al. <xref rid="gcb70312-bib-0025" ref-type="bibr">2025</xref>). In temperate and boreal forests, the timing of lightning strikes during the season may also play a role, as trees struck during cooler periods tend to have a higher survival rate (Baker <xref rid="gcb70312-bib-0002" ref-type="bibr">1973</xref>). Moreover, gaining more knowledge about the lightning susceptibility of different tree species and the influence of tree vitality—potentially weakened by more frequent droughts—is needed to reliably project changes in forest composition under changing lightning activity. Existing studies already suggest that conifers are more likely to be struck and/or more prone to lightning than broadleaved trees (Yanoviak et al. <xref rid="gcb70312-bib-0070" ref-type="bibr">2015</xref>) and species with denser wood tend to be more tolerant of lightning strikes (Richards et al. <xref rid="gcb70312-bib-0059" ref-type="bibr">2022</xref>). These patterns are somewhat reflected in our lightning vulnerability parameters of different PFTs, but poorly constrained quantitatively by empirical evidence. Additionally, there are known differences between species that are grouped into one PFT in LPJ‐GUESS. For instance, oak seems to be more often struck by lightning than beech and pine more often than spruce (Covert <xref rid="gcb70312-bib-0016" ref-type="bibr">1924</xref>). However, such differences cannot be captured by our global PFT approach and would require the representation of actual tree species as, for example, possible in the European version of LPJ‐GUESS (Lindeskog et al. <xref rid="gcb70312-bib-0042" ref-type="bibr">2021</xref>).</p></sec><sec id="gcb70312-sec-0016"><label>4.3</label><title>Uncertainties in Global Lightning Activity</title><p>Another key uncertainty in quantifying the global impacts of lightning on terrestrial ecosystems is limited knowledge about how much lightning occurs in different regions around the globe. We address this uncertainty by using two gridded products of CG lightning. The first one (LIS/OTD‐EMAC) is a combination of satellite‐derived total lightning densities with CG fractions from a chemistry‐climate model. Notably, LIS/OTD is planned to be merged with its “successor” ISS LIS (Blakeslee et al. <xref rid="gcb70312-bib-0003" ref-type="bibr">2020</xref>), which will make lightning densities more robust in mid‐high latitudes. Nevertheless, having to convert total lightning to CG lightning will remain a source of uncertainty. Although climate models generally agree on CG fractions increasing with latitude (e.g., Krause et al. <xref rid="gcb70312-bib-0038" ref-type="bibr">2014</xref>), simulated global spatial patterns need to be confirmed via independent estimates as available for some regions (e.g., Boccippio et al. <xref rid="gcb70312-bib-0004" ref-type="bibr">2001</xref>). The lower lightning densities in LIS/OTD‐EMAC compared to ENTLN in the tropics suggest that EMAC might underestimate the CG fraction in this region. The ground‐based ENTLN product thus represents a valuable alternative lightning input as it can distinguish between CG and cloud‐to‐cloud lightning. It has the disadvantage that its detection efficiency depends on the sensor density and may thus differ across space and time. However, global lightning frequency in this dataset was relatively stable over our selected period (2015–2021) and slightly higher than for LIS/OTD‐EMAC, suggesting that ENTLN captures most CG strikes.</p><p>Additionally, lightning impacts are sensitive to changes in lightning frequency over time. We here applied lightning climatologies over the entire simulation period because the time series products of LIS/OTD and ENTLN only cover a few years and for LIS/OTD show no obvious trend (Cecil et al. <xref rid="gcb70312-bib-0008" ref-type="bibr">2014</xref>). However, there is some evidence that thunderstorm activity has increased in several regions around the world over the last decades (Harel and Price <xref rid="gcb70312-bib-0029" ref-type="bibr">2020</xref>; Kaplan and Lau <xref rid="gcb70312-bib-0035" ref-type="bibr">2021</xref>; Simon et al. <xref rid="gcb70312-bib-0063" ref-type="bibr">2023</xref>) and is expected to further increase in a warmer world (Clark et al. <xref rid="gcb70312-bib-0012" ref-type="bibr">2017</xref>; Krause et al. <xref rid="gcb70312-bib-0038" ref-type="bibr">2014</xref>; Pérez‐Invernón et al. <xref rid="gcb70312-bib-0054" ref-type="bibr">2023</xref>), at least in extratropical regions (Chen et al. <xref rid="gcb70312-bib-0010" ref-type="bibr">2021</xref>; Finney et al. <xref rid="gcb70312-bib-0019" ref-type="bibr">2018</xref>; Romps et al. <xref rid="gcb70312-bib-0061" ref-type="bibr">2014</xref>). This might increase lightning‐induced mortality, shift forest composition and structure, and reduce overall vegetation carbon storage. Accordingly, Yanoviak et al. (<xref rid="gcb70312-bib-0068" ref-type="bibr">2020</xref>) estimate a 9%–18% increase in large tree mortality for a 25%–50% increase in lightning frequency based on simple upscaling of their findings. However, this approach does not account for the concurrent impacts and interplay of changes in other environmental drivers. A consequent next step is to run the lightning‐enabled LPJ‐GUESS version with consistent scenarios of climate change, atmospheric CO<sub>2</sub>, nitrogen deposition, land‐use change, and associated changes in lightning frequency to obtain a more accurate perspective of how future forests might look like in the face of global environmental change and to better quantify the risk that the land carbon sink might turn into a carbon source.</p></sec><sec id="gcb70312-sec-0017"><label>4.4</label><title>Other Disturbances</title><p>In this study we focus on the direct impacts of lightning strikes on trees. However, lightning can influence terrestrial ecosystems in manifold ways. The importance of lightning as a wildfire ignition source is relatively well understood (e.g., Menezes et al. <xref rid="gcb70312-bib-0045" ref-type="bibr">2022</xref>) and already included in some ecosystem models (e.g., Felsberg et al. <xref rid="gcb70312-bib-0018" ref-type="bibr">2018</xref>). However, the currently available fire modules in the standard LPJ‐GUESS version do not account for lightning ignitions (Rabin et al. <xref rid="gcb70312-bib-0058" ref-type="bibr">2017</xref>). This is particularly problematic in remote regions like the boreal forest where lightning‐ignited fires are responsible for most of the total burned area (Janssen et al. <xref rid="gcb70312-bib-0032" ref-type="bibr">2023</xref>). Additionally, lightning‐damaged trees are prone to subsequent disturbances such as windthrows, pathogens, or insect attacks (Johnson <xref rid="gcb70312-bib-0033" ref-type="bibr">1966</xref>; Parlato et al. <xref rid="gcb70312-bib-0052" ref-type="bibr">2020</xref>; Taylor <xref rid="gcb70312-bib-0065" ref-type="bibr">1974</xref>). In this regard, LPJ‐GUESS provides a unique opportunity to study the interactions and combined ecological impacts of various disturbances as the new lightning mortality module could be coupled with existing modules of storm damage (Lagergren et al. <xref rid="gcb70312-bib-0040" ref-type="bibr">2012</xref>), bark beetle outbreaks (Jönsson et al. <xref rid="gcb70312-bib-0034" ref-type="bibr">2012</xref>), wildfires (Rabin et al. <xref rid="gcb70312-bib-0058" ref-type="bibr">2017</xref>), frost damage (Meyer, Buras, et al. <xref rid="gcb70312-bib-0046" ref-type="bibr">2024</xref>), and droughts (Meyer, Darela‐Filho, et al. <xref rid="gcb70312-bib-0047" ref-type="bibr">2024</xref>; Papastefanou et al. <xref rid="gcb70312-bib-0051" ref-type="bibr">2024</xref>).</p></sec></sec><sec sec-type="conclusions" id="gcb70312-sec-0018"><label>5</label><title>Conclusions</title><p>Lightning is an important disturbance in forest ecosystems. However, direct (i.e., not fire‐related) lightning mortality is so far often underestimated and consequently neglected in computer models used to study how forest ecosystems respond to environmental changes. By implementing a lightning mortality module into the ecosystem model LPJ‐GUESS, we find that lightning kills around 320 million trees each year, thereby causing ~0.25 GtC of dead biomass. These findings confirm existing studies arguing that lightning mortality is an important cause of tree mortality in many forests. Clearly, there is a need to better understand the ecological impacts of lightning in different forest types. Our simulations provide a first estimate of lightning‐induced tree mortality and associated carbon impacts at a global scale. Nevertheless, it is important to extend field data on lightning‐induced tree mortality and to incorporate lightning mortality into additional vegetation models to confirm our findings.</p></sec><sec id="gcb70312-sec-0022"><title>Author Contributions</title><p>
+<bold>Andreas Krause:</bold> conceptualization, formal analysis, funding acquisition, investigation, methodology, project administration, software, visualization, writing – original draft. <bold>Konstantin Gregor:</bold> methodology, writing – review and editing. <bold>Benjamin F. Meyer:</bold> methodology, writing – review and editing. <bold>Anja Rammig:</bold> conceptualization, supervision, writing – review and editing.</p></sec><sec sec-type="COI-statement" id="gcb70312-sec-8002"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="gcb70312-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Data S1
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCB-31-e70312-s001.pdf" position="float" orientation="portrait"><?suppdata-name GCB-31-e70312-s001.pdf?><?suppdata-size 2279863?><?suppdata-md5 86ac44ea3c4f38aec55f8241738cd73a?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:8546/12186139/86ac44ea3c4f/GCB-31-e70312-s001.pdf?></media></supplementary-material></sec></body><back><ack id="gcb70312-sec-0019"><title>Acknowledgements</title><p>This study was funded by Deutsche Forschungsgemeinschaft (German Research Foundation) via the FlashForest project (flashforest.eu; project number 536753546). We thank Earth Networks for sharing their lightning data and the LIS/OTD, EMAC and BCI teams for making their datasets publicly available. The LPJ‐GUESS model development is led by Lund University (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://web.nateko.lu.se/lpj-guess/" ext-link-type="uri">https://web.nateko.lu.se/lpj‐guess/</ext-link>). The global LPJ‐GUESS simulations were conducted on the facilities of the Leibniz Supercomputing Centre. We thank Laynara Lugli for her feedback on the manuscript. Open Access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="gcb70312-sec-0021"><title>Data Availability Statement</title><p>The LPJ‐GUESS model code and the data that support the findings of this study are openly available in Figshare at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.29255384.v1" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.6084/m9.figshare.29255384.v1</ext-link>. LIS/OTD lightning data were obtained from NASA at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5067/LIS/LIS-OTD/DATA302" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5067/LIS/LIS‐OTD/DATA302</ext-link>. EMAC model output were obtained from Zenodo at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.6627112" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.6627112</ext-link>. ENTLN lightning data are freely available for scientific use from Earth Networks upon request at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.earthnetworks.com/" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.earthnetworks.com/</ext-link>. Panama lightning mortality and census data were obtained from Dryad at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5061/dryad.gf1vhhmsp" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.gf1vhhmsp</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.15146/5xcp-0d46" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.15146/5xcp‐0d46</ext-link>, respectively.</p></sec><ref-list content-type="cited-references" id="gcb70312-bibl-0001"><title>References</title><ref id="gcb70312-bib-0001"><mixed-citation publication-type="journal" id="gcb70312-cit-0001">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>J. A. R.</given-names>
+</string-name>
+<year>1964</year>. “<article-title>Observations on Climatic Damage in Peat Swamp Forest in Sarawak</article-title>.” <source>Commonwealth Forestry Review</source>
+<volume>43</volume>: <fpage>145</fpage>–<lpage>158</lpage>.</mixed-citation></ref><ref id="gcb70312-bib-0002"><mixed-citation publication-type="journal" id="gcb70312-cit-0002">
+<string-name name-style="western">
+<surname>Baker</surname>, <given-names>W. W.</given-names>
+</string-name>
+<year>1973</year>. “<article-title>Longevity of Lightning‐Struck Trees and Notes on Wildlife</article-title>.” <source>Annual Tall Timbers Fire Ecology Conference</source>
+<volume>13</volume>: <fpage>497</fpage>–<lpage>504</lpage>.</mixed-citation></ref><ref id="gcb70312-bib-0003"><mixed-citation publication-type="journal" id="gcb70312-cit-0003">
+<string-name name-style="western">
+<surname>Blakeslee</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Lang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Koshak</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Three Years of the Lightning Imaging Sensor Onboard the International Space Station: Expanded Global Coverage and Enhanced Applications</article-title>.” <source>Journal of Geophysical Research: Atmospheres</source>
+<volume>125</volume>, no. <issue>16</issue>: <elocation-id>e2020JD032918</elocation-id>. <pub-id pub-id-type="doi">10.1029/2020JD032918</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0004"><mixed-citation publication-type="journal" id="gcb70312-cit-0004">
+<string-name name-style="western">
+<surname>Boccippio</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Cummins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Christian</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Goodman</surname>
+</string-name>. <year>2001</year>. “<article-title>Combined Satellite‐ and Surface‐Based Estimation of the Intracloud‐Cloud‐To‐Ground Lightning Ratio Over the Continental United States</article-title>.” <source>Monthly Weather Review</source>
+<volume>129</volume>, no. <issue>1</issue>: <fpage>108</fpage>–<lpage>122</lpage>. <pub-id pub-id-type="doi">10.1175/1520-0493(2001)129&lt;0108:Csasbe&gt;2.0.Co;2</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0005"><mixed-citation publication-type="journal" id="gcb70312-cit-0005">
+<string-name name-style="western">
+<surname>Brünig</surname>, <given-names>E. F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>F. E.</given-names>
+<surname>Brünig</surname>
+</string-name>. <year>1964</year>. “<article-title>A Study of Damage Attributed to Lightning in Two Areas of Shorea Albida Forest in Sarawak</article-title>.” <source>Commonwealth Forestry Review</source>
+<volume>43</volume>: <fpage>134</fpage>–<lpage>144</lpage>.</mixed-citation></ref><ref id="gcb70312-bib-0006"><mixed-citation publication-type="journal" id="gcb70312-cit-0006">
+<string-name name-style="western">
+<surname>Camarero</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Pueyo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Sánchez‐Moreno</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Calvin</surname>
+</string-name>. <year>2020</year>. “<article-title>Dating Lightning: Dendrochronological and Magnetic Analyses of Lightning Scars</article-title>.” <source>Dendrochronologia</source>
+<volume>62</volume>: <elocation-id>125727</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.dendro.2020.125727</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0007"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0007">
+<string-name name-style="western">
+<surname>Cecil</surname>, <given-names>D.</given-names>
+</string-name>
+<year>2025</year>. <article-title>“LIS/OTD 0.5 Degree High Resolution Full Climatology (HRFC).”</article-title>
+<pub-id pub-id-type="doi">10.5067/LIS/LIS-OTD/DATA302</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0008"><mixed-citation publication-type="journal" id="gcb70312-cit-0008">
+<string-name name-style="western">
+<surname>Cecil</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Buechler</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Blakeslee</surname>
+</string-name>. <year>2014</year>. “<article-title>Gridded Lightning Climatology From TRMM‐LIS and OTD: Dataset Description</article-title>.” <source>Atmospheric Research</source>
+<volume>135</volume>: <fpage>404</fpage>–<lpage>414</lpage>. <pub-id pub-id-type="doi">10.1016/j.atmosres.2012.06.028</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0009"><mixed-citation publication-type="journal" id="gcb70312-cit-0009">
+<string-name name-style="western">
+<surname>Chave</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Condit</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Caspersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. B.</given-names>
+<surname>Foster</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Hubbell</surname>
+</string-name>. <year>2003</year>. “<article-title>Spatial and Temporal Variation of Biomass in a Tropical Forest: Results From a Large Census Plot in Panama</article-title>.” <source>Journal of Ecology</source>
+<volume>91</volume>, no. <issue>2</issue>: <fpage>240</fpage>–<lpage>252</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2745.2003.00757.x</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0010"><mixed-citation publication-type="journal" id="gcb70312-cit-0010">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Romps</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Seeley</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Future Increases in Arctic Lightning and Fire Risk for Permafrost Carbon</article-title>.” <source>Nature Climate Change</source>
+<volume>11</volume>, no. <issue>5</issue>: <fpage>404</fpage>. <pub-id pub-id-type="doi">10.1038/s41558-021-01011-y</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0011"><mixed-citation publication-type="journal" id="gcb70312-cit-0011">
+<string-name name-style="western">
+<surname>Chini</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hurtt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sahajpal</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Land‐Use Harmonization Datasets for Annual Global Carbon Budgets</article-title>.” <source>Earth System Science Data</source>
+<volume>13</volume>, no. <issue>8</issue>: <fpage>4175</fpage>–<lpage>4189</lpage>. <pub-id pub-id-type="doi">10.5194/essd-13-4175-2021</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0012"><mixed-citation publication-type="journal" id="gcb70312-cit-0012">
+<string-name name-style="western">
+<surname>Clark</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Ward</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. M.</given-names>
+<surname>Mahowald</surname>
+</string-name>. <year>2017</year>. “<article-title>Parameterization‐Based Uncertainty in Future Lightning Flash Density</article-title>.” <source>Geophysical Research Letters</source>
+<volume>44</volume>, no. <issue>6</issue>: <fpage>2893</fpage>–<lpage>2901</lpage>. <pub-id pub-id-type="doi">10.1002/2017gl073017</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0013"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0013">
+<string-name name-style="western">
+<surname>Condit</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Perez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Aguilar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Foster</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Hubbell</surname>
+</string-name>. <year>2019</year>. <article-title>“Complete Data From the Barro Colorado 50‐ha Plot: 423617 Trees, 35 Years, 2019 Version.”</article-title>
+<pub-id pub-id-type="doi">10.15146/5xcp-0d46</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0014"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0014">
+<string-name name-style="western">
+<surname>Condit</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Windsor</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Hubbell</surname>
+</string-name>. <year>2013</year>. <article-title>“NPP Tropical Forest: Barro Colorado, Panama, 1969–2000.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://daac.ornl.gov" ext-link-type="uri">http://daac.ornl.gov</ext-link>.</mixed-citation></ref><ref id="gcb70312-bib-0015"><mixed-citation publication-type="journal" id="gcb70312-cit-0015">
+<string-name name-style="western">
+<surname>Conner</surname>, <given-names>R. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Rudolph</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Kulhavy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Snow</surname>
+</string-name>. <year>1991</year>. “<article-title>Causes of Mortality of Red‐Cockaded Woodpecker Cavity Trees</article-title>.” <source>Journal of Wildlife Management</source>
+<volume>55</volume>, no. <issue>3</issue>: <fpage>531</fpage>–<lpage>537</lpage>. <pub-id pub-id-type="doi">10.2307/3808986</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0016"><mixed-citation publication-type="journal" id="gcb70312-cit-0016">
+<string-name name-style="western">
+<surname>Covert</surname>, <given-names>R. N.</given-names>
+</string-name>
+<year>1924</year>. “<article-title>Why an Oak Is Often Struck by Lightning: A Method of Protecting Trees Against Lightning</article-title>.” <source>Monthly Weather Review</source>
+<volume>52</volume>: <fpage>492</fpage>–<lpage>493</lpage>. <pub-id pub-id-type="doi">10.1175/1520-0493(1924)52&lt;492:WAOIOS&gt;2.0.CO;2</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0017"><mixed-citation publication-type="journal" id="gcb70312-cit-0017">
+<string-name name-style="western">
+<surname>Das</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. L.</given-names>
+<surname>Stephenson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. P.</given-names>
+<surname>Davis</surname>
+</string-name>. <year>2016</year>. “<article-title>Why Do Trees Die? Characterizing the Drivers of Background Tree Mortality</article-title>.” <source>Ecology</source>
+<volume>97</volume>, no. <issue>10</issue>: <fpage>2616</fpage>–<lpage>2627</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.1497</pub-id>.<pub-id pub-id-type="pmid">27859135</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0018"><mixed-citation publication-type="journal" id="gcb70312-cit-0018">
+<string-name name-style="western">
+<surname>Felsberg</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kloster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wilkenskjeld</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Krause</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lasslop</surname>
+</string-name>. <year>2018</year>. “<article-title>Lightning Forcing in Global Fire Models: The Importance of Temporal Resolution</article-title>.” <source>Journal of Geophysical Research‐Biogeosciences</source>
+<volume>123</volume>, no. <issue>1</issue>: <fpage>168</fpage>–<lpage>177</lpage>. <pub-id pub-id-type="doi">10.1002/2017jg004080</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0019"><mixed-citation publication-type="journal" id="gcb70312-cit-0019">
+<string-name name-style="western">
+<surname>Finney</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Doherty</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Wild</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Stevenson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>MacKenzie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Blyth</surname>
+</string-name>. <year>2018</year>. “<article-title>A Projected Decrease in Lightning Under Climate Change</article-title>.” <source>Nature Climate Change</source>
+<volume>8</volume>, no. <issue>3</issue>: <fpage>210</fpage>. <pub-id pub-id-type="doi">10.1038/s41558-018-0072-6</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0020"><mixed-citation publication-type="journal" id="gcb70312-cit-0020">
+<string-name name-style="western">
+<surname>Fontes</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. Q.</given-names>
+<surname>Chambers</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Higuchi</surname>
+</string-name>. <year>2018</year>. “<article-title>Revealing the Causes and Temporal Distribution of Tree Mortality in Central Amazonia</article-title>.” <source>Forest Ecology and Management</source>
+<volume>424</volume>: <fpage>177</fpage>–<lpage>183</lpage>. <pub-id pub-id-type="doi">10.1016/j.foreco.2018.05.002</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0021"><mixed-citation publication-type="journal" id="gcb70312-cit-0021">
+<string-name name-style="western">
+<surname>Friedlingstein</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>O'Sullivan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Jones</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Global Carbon Budget 2023</article-title>.” <source>Earth System Science Data</source>
+<volume>15</volume>, no. <issue>12</issue>: <fpage>5301</fpage>–<lpage>5369</lpage>. <pub-id pub-id-type="doi">10.5194/essd-15-5301-2023</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0022"><mixed-citation publication-type="journal" id="gcb70312-cit-0022">
+<string-name name-style="western">
+<surname>Gora</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Burchfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gutierrez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2021</year>. “<article-title>The Contributions of Lightning to Biomass Turnover, Gap Formation and Plant Mortality in a Tropical Forest</article-title>.” <source>Ecology</source>
+<volume>102</volume>, no. <issue>12</issue>: <elocation-id>e03541</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.3541</pub-id>.<pub-id pub-id-type="pmid">34582567</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0023"><mixed-citation publication-type="journal" id="gcb70312-cit-0023">
+<string-name name-style="western">
+<surname>Gora</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Burchfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Schnitzer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2017</year>. “<article-title>Effects of Lightning on Trees: A Predictive Model Based on In Situ Electrical Resistivity</article-title>.” <source>Ecology and Evolution</source>
+<volume>7</volume>, no. <issue>20</issue>: <fpage>8523</fpage>–<lpage>8534</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.3347</pub-id>.<pub-id pub-id-type="pmid">29075468</pub-id>
+<pub-id pub-id-type="pmcid">PMC5648650</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0024"><mixed-citation publication-type="journal" id="gcb70312-cit-0024">
+<string-name name-style="western">
+<surname>Gora</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Burchfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. C.</given-names>
+<surname>Muller‐Landau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2020</year>. “<article-title>Pantropical Geography of Lightning‐Caused Disturbance and Its Implications for Tropical Forests</article-title>.” <source>Global Change Biology</source>
+<volume>26</volume>, no. <issue>9</issue>: <fpage>5017</fpage>–<lpage>5026</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.15227</pub-id>.<pub-id pub-id-type="pmid">32564481</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0025"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0025">
+<string-name name-style="western">
+<surname>Gora</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. S. K.</given-names>
+<surname>Ngute</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Batumike</surname>
+</string-name>, et al. <year>2025</year>. <article-title>“Lightning‐Caused Disturbance Frequency and Severity Varies With Topography in an Afromontane Forest.”</article-title>
+<italic toggle="yes">bioRxiv</italic>. <pub-id pub-id-type="doi">10.1101/2025.05.13.653675</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0026"><mixed-citation publication-type="journal" id="gcb70312-cit-0026">
+<string-name name-style="western">
+<surname>Gora</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Schnitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Burchfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gutierrez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2023</year>. “<article-title>Lianas Increase Lightning‐Caused Disturbance Severity in a Tropical Forest</article-title>.” <source>New Phytologist</source>
+<volume>238</volume>, no. <issue>5</issue>: <fpage>1865</fpage>–<lpage>1875</lpage>. <pub-id pub-id-type="doi">10.1111/nph.18856</pub-id>.<pub-id pub-id-type="pmid">36951173</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0027"><mixed-citation publication-type="journal" id="gcb70312-cit-0027">
+<string-name name-style="western">
+<surname>Gora</surname>, <given-names>E. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2020</year>. “<article-title>Lightning‐Caused Disturbance in the Peruvian Amazon</article-title>.” <source>Biotropica</source>
+<volume>52</volume>, no. <issue>5</issue>: <fpage>813</fpage>–<lpage>817</lpage>. <pub-id pub-id-type="doi">10.1111/btp.12826</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0028"><mixed-citation publication-type="journal" id="gcb70312-cit-0028">
+<string-name name-style="western">
+<surname>Gregor</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. P. O.</given-names>
+<surname>Reyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Nagel</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Reconciling the EU Forest, Biodiversity, and Climate Strategies</article-title>.” <source>Global Change Biology</source>
+<volume>30</volume>, no. <issue>8</issue>: <elocation-id>e17431</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.17431</pub-id>.<pub-id pub-id-type="pmid">39092769</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0029"><mixed-citation publication-type="journal" id="gcb70312-cit-0029">
+<string-name name-style="western">
+<surname>Harel</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Price</surname>
+</string-name>. <year>2020</year>. “<article-title>Thunderstorm Trends Over Africa</article-title>.” <source>Journal of Climate</source>
+<volume>33</volume>, no. <issue>7</issue>: <fpage>2741</fpage>–<lpage>2755</lpage>. <pub-id pub-id-type="doi">10.1175/Jcli-D-18-0781.1</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0030"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0030">
+<string-name name-style="western">
+<surname>Harris</surname>, <given-names>I.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jones</surname>
+</string-name>. <year>2020</year>. <article-title>“CRU TS4.03: Climatic Research Unit (CRU) Time‐Series (TS) Version 4.03 of High‐Resolution Gridded Data of Month‐by‐Month Variation in Climate (Jan. 1901‐ Dec. 2018).”</article-title>
+</mixed-citation></ref><ref id="gcb70312-bib-0031"><mixed-citation publication-type="journal" id="gcb70312-cit-0031">
+<string-name name-style="western">
+<surname>Harris</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Osborn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jones</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Lister</surname>
+</string-name>. <year>2020</year>. “<article-title>Version 4 of the CRU TS Monthly High‐Resolution Gridded Multivariate Climate Dataset</article-title>.” <source>Scientific Data</source>
+<volume>7</volume>, no. <issue>1</issue>: <fpage>109</fpage>. <pub-id pub-id-type="doi">10.1038/s41597-020-0453-3</pub-id>.<pub-id pub-id-type="pmid">32246091</pub-id>
+<pub-id pub-id-type="pmcid">PMC7125108</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0032"><mixed-citation publication-type="journal" id="gcb70312-cit-0032">
+<string-name name-style="western">
+<surname>Janssen</surname>, <given-names>T. A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Finney</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Extratropical Forests Increasingly at Risk due to Lightning Fires</article-title>.” <source>Nature Geoscience</source>
+<volume>16</volume>, no. <issue>12</issue>: <fpage>1136</fpage>–<lpage>1144</lpage>. <pub-id pub-id-type="doi">10.1038/s41561-023-01322-z</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0033"><mixed-citation publication-type="journal" id="gcb70312-cit-0033">
+<string-name name-style="western">
+<surname>Johnson</surname>, <given-names>P. C.</given-names>
+</string-name>
+<year>1966</year>. “<article-title>Attractiveness of Lightning‐Struck Ponderosa Pine Trees to <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Dendroctonus brevicomis</italic>
+</styled-content> (Coleoptera – Scolytidae)</article-title>.” <source>Annals of the Entomological Society of America</source>
+<volume>59</volume>, no. <issue>3</issue>: <elocation-id>615</elocation-id>. <pub-id pub-id-type="doi">10.1093/aesa/59.3.615</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0034"><mixed-citation publication-type="journal" id="gcb70312-cit-0034">
+<string-name name-style="western">
+<surname>Jönsson</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Schroeder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lagergren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Anderbrant</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Smith</surname>
+</string-name>. <year>2012</year>. “<article-title>Guess the Impact of Ips Typographus‐An Ecosystem Modelling Approach for Simulating Spruce Bark Beetle Outbreaks</article-title>.” <source>Agricultural and Forest Meteorology</source>
+<volume>166</volume>: <fpage>188</fpage>–<lpage>200</lpage>. <pub-id pub-id-type="doi">10.1016/j.agrformet.2012.07.012</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0035"><mixed-citation publication-type="journal" id="gcb70312-cit-0035">
+<string-name name-style="western">
+<surname>Kaplan</surname>, <given-names>J. O.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. H. K.</given-names>
+<surname>Lau</surname>
+</string-name>. <year>2021</year>. “<article-title>The WGLC Global Gridded Lightning Climatology and Time Series</article-title>.” <source>Earth System Science Data</source>
+<volume>13</volume>, no. <issue>7</issue>: <fpage>3219</fpage>–<lpage>3237</lpage>. <pub-id pub-id-type="doi">10.5194/essd-13-3219-2021</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0036"><mixed-citation publication-type="journal" id="gcb70312-cit-0036">
+<string-name name-style="western">
+<surname>Kobayashi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ota</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Harada</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>The JRA‐55 Reanalysis: General Specifications and Basic Characteristics</article-title>.” <source>Journal of the Meteorological Society of Japan</source>
+<volume>93</volume>, no. <issue>1</issue>: <fpage>5</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.2151/jmsj.2015-001</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0037"><mixed-citation publication-type="journal" id="gcb70312-cit-0037">
+<string-name name-style="western">
+<surname>Krause</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Arneth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Anthoni</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rammig</surname>
+</string-name>. <year>2020</year>. “<article-title>Legacy Effects From Historical Environmental Changes Dominate Future Terrestrial Carbon Uptake</article-title>.” <source>Earths Future</source>
+<volume>8</volume>, no. <issue>10</issue>: <elocation-id>e2020EF001674</elocation-id>. <pub-id pub-id-type="doi">10.1029/2020EF001674</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0038"><mixed-citation publication-type="journal" id="gcb70312-cit-0038">
+<string-name name-style="western">
+<surname>Krause</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kloster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wilkenskjeld</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Paeth</surname>
+</string-name>. <year>2014</year>. “<article-title>The Sensitivity of Global Wildfires to Simulated Past, Present, and Future Lightning Frequency</article-title>.” <source>Journal of Geophysical Research‐Biogeosciences</source>
+<volume>119</volume>, no. <issue>3</issue>: <fpage>312</fpage>–<lpage>322</lpage>. <pub-id pub-id-type="doi">10.1002/2013jg002502</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0039"><mixed-citation publication-type="journal" id="gcb70312-cit-0039">
+<string-name name-style="western">
+<surname>Krause</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Papastefanou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Gregor</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Quantifying the Impacts of Land Cover Change on Gross Primary Productivity Globally</article-title>.” <source>Scientific Reports</source>
+<volume>12</volume>, no. <issue>1</issue>: <fpage>18398</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-022-23120-0</pub-id>.<pub-id pub-id-type="pmid">36319733</pub-id>
+<pub-id pub-id-type="pmcid">PMC9626452</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0040"><mixed-citation publication-type="journal" id="gcb70312-cit-0040">
+<string-name name-style="western">
+<surname>Lagergren</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Jonsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Blennow</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Smith</surname>
+</string-name>. <year>2012</year>. “<article-title>Implementing Storm Damage in a Dynamic Vegetation Model for Regional Applications in Sweden</article-title>.” <source>Ecological Modelling</source>
+<volume>247</volume>: <fpage>71</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2012.08.011</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0041"><mixed-citation publication-type="journal" id="gcb70312-cit-0041">
+<string-name name-style="western">
+<surname>Lamarque</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Dentener</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>McConnell</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Multi‐Model Mean Nitrogen and Sulfur Deposition From the Atmospheric Chemistry and Climate Model Intercomparison Project (ACCMIP): Evaluation of Historical and Projected Future Changes</article-title>.” <source>Atmospheric Chemistry and Physics</source>
+<volume>13</volume>, no. <issue>16</issue>: <fpage>7997</fpage>–<lpage>8018</lpage>. <pub-id pub-id-type="doi">10.5194/acp-13-7997-2013</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0042"><mixed-citation publication-type="journal" id="gcb70312-cit-0042">
+<string-name name-style="western">
+<surname>Lindeskog</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lagergren</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Accounting for Forest Management in the Estimation of Forest Carbon Balance Using the Dynamic Vegetation Model LPJ‐GUESS (v4.0, r9710): Implementation and Evaluation of Simulations for Europe</article-title>.” <source>Geoscientific Model Development</source>
+<volume>14</volume>, no. <issue>10</issue>: <fpage>6071</fpage>–<lpage>6112</lpage>. <pub-id pub-id-type="doi">10.5194/gmd-14-6071-2021</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0043"><mixed-citation publication-type="journal" id="gcb70312-cit-0043">
+<string-name name-style="western">
+<surname>Magnusson</surname>, <given-names>W. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Lima</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>de Lima</surname>
+</string-name>. <year>1996</year>. “<article-title>Group Lightning Mortality of Trees in a Neotropical Forest</article-title>.” <source>Journal of Tropical Ecology</source>
+<volume>12</volume>: <fpage>899</fpage>–<lpage>903</lpage>. <pub-id pub-id-type="doi">10.1017/S0266467400010166</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0044"><mixed-citation publication-type="journal" id="gcb70312-cit-0044">
+<string-name name-style="western">
+<surname>Mäkelä</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Karvinen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Porjo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mäkelä</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Tuomi</surname>
+</string-name>. <year>2009</year>. “<article-title>Attachment of Natural Lightning Flashes to Trees: Preliminary Statistical Characteristics</article-title>.” <source>Journal of Lightning Research</source>
+<volume>1</volume>: <fpage>9</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.2174/1652803400901010009</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0045"><mixed-citation publication-type="journal" id="gcb70312-cit-0045">
+<string-name name-style="western">
+<surname>Menezes</surname>, <given-names>L. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>de Oliveira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. L. M.</given-names>
+<surname>Santos</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Lightning Patterns in the Pantanal: Untangling Natural and Anthropogenic‐Induced Wildfires</article-title>.” <source>Science of the Total Environment</source>
+<volume>820</volume>: <elocation-id>153021</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.153021</pub-id>.<pub-id pub-id-type="pmid">35026277</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0046"><mixed-citation publication-type="journal" id="gcb70312-cit-0046">
+<string-name name-style="western">
+<surname>Meyer</surname>, <given-names>B. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Buras</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Gregor</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Frost Matters: Incorporating Late‐Spring Frost Into a Dynamic Vegetation Model Regulates Regional Productivity Dynamics in European Beech Forests</article-title>.” <source>Biogeosciences</source>
+<volume>21</volume>, no. <issue>5</issue>: <fpage>1355</fpage>–<lpage>1370</lpage>. <pub-id pub-id-type="doi">10.5194/bg-21-1355-2024</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0047"><mixed-citation publication-type="journal" id="gcb70312-cit-0047">
+<string-name name-style="western">
+<surname>Meyer</surname>, <given-names>B. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Darela‐Filho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Gregor</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Simulating the Drought Response of European Tree Species With the Dynamic Vegetation Model LPJ‐GUESS (v4.1, 97c552c5)</article-title>.” <source>EGUsphere</source>: <fpage>1</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.5194/egusphere-2024-3352</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0073"><mixed-citation publication-type="journal" id="gcb70312-cit-0073">
+<string-name name-style="western">
+<surname>Mo</surname>, <given-names>L. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Zohner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Reich</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Integrated Global Assessment of the Natural Forest Carbon Potential</article-title>.” <source>Nature</source>
+<volume>624</volume>, no. <issue>7990</issue>: <fpage>92</fpage>–<lpage>101</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-023-06723-z</pub-id>.<pub-id pub-id-type="pmid">37957399</pub-id>
+<pub-id pub-id-type="pmcid">PMC10700142</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0048"><mixed-citation publication-type="journal" id="gcb70312-cit-0048">
+<string-name name-style="western">
+<surname>Outcalt</surname>, <given-names>K. W.</given-names>
+</string-name>
+<year>2008</year>. “<article-title>Lightning, Fire and Longleaf Pine: Using Natural Disturbance to Guide Management</article-title>.” <source>Forest Ecology and Management</source>
+<volume>255</volume>, no. <issue>8–9</issue>: <fpage>3351</fpage>–<lpage>3359</lpage>. <pub-id pub-id-type="doi">10.1016/j.foreco.2008.02.016</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0049"><mixed-citation publication-type="journal" id="gcb70312-cit-0049">
+<string-name name-style="western">
+<surname>Palik</surname>, <given-names>B. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Pederson</surname>
+</string-name>. <year>1996</year>. “<article-title>Overstory Mortality and Canopy Disturbances in Longleaf Pine Ecosystems</article-title>.” <source>Canadian Journal of Forest Research</source>
+<volume>26</volume>, no. <issue>11</issue>: <fpage>2035</fpage>–<lpage>2047</lpage>. <pub-id pub-id-type="doi">10.1139/x26-229</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0050"><mixed-citation publication-type="journal" id="gcb70312-cit-0050">
+<string-name name-style="western">
+<surname>Pan</surname>, <given-names>Y. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Birdsey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O. L.</given-names>
+<surname>Phillips</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>The Enduring World Forest Carbon Sink</article-title>.” <source>Nature</source>
+<volume>631</volume>, no. <issue>8021</issue>: <fpage>563</fpage>–<lpage>569</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-024-07602-x</pub-id>.<pub-id pub-id-type="pmid">39020035</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0051"><mixed-citation publication-type="journal" id="gcb70312-cit-0051">
+<string-name name-style="western">
+<surname>Papastefanou</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. A. M.</given-names>
+<surname>Pugh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Buras</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Simulated Sensitivity of the Amazon Rainforest to Extreme Drought</article-title>.” <source>Environmental Research Letters</source>
+<volume>19</volume>, no. <issue>12</issue>: <fpage>124072</fpage>. <pub-id pub-id-type="doi">10.1088/1748-9326/ad8f48</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0052"><mixed-citation publication-type="journal" id="gcb70312-cit-0052">
+<string-name name-style="western">
+<surname>Parlato</surname>, <given-names>B. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Gora</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2020</year>. “<article-title>Lightning Damage Facilitates Beetle Colonization of Tropical Trees</article-title>.” <source>Annals of the Entomological Society of America</source>
+<volume>113</volume>, no. <issue>6</issue>: <fpage>447</fpage>–<lpage>451</lpage>. <pub-id pub-id-type="doi">10.1093/aesa/saaa015</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0053"><mixed-citation publication-type="journal" id="gcb70312-cit-0053">
+<string-name name-style="western">
+<surname>Parton</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M. O.</given-names>
+<surname>Scurlock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Ojima</surname>
+</string-name>, et al. <year>1993</year>. “<article-title>Observations and Modeling of Biomass and Soil Organic‐Matter Dynamics for the Grassland Biome Worldwide</article-title>.” <source>Global Biogeochemical Cycles</source>
+<volume>7</volume>, no. <issue>4</issue>: <fpage>785</fpage>–<lpage>809</lpage>. <pub-id pub-id-type="doi">10.1029/93gb02042</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0054"><mixed-citation publication-type="journal" id="gcb70312-cit-0054">
+<string-name name-style="western">
+<surname>Pérez‐Invernón</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Gordillo‐Vázquez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Huntrieser</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jöckel</surname>
+</string-name>. <year>2023</year>. “<article-title>Variation of Lightning‐Ignited Wildfire Patterns Under Climate Change</article-title>.” <source>Nature Communications</source>
+<volume>14</volume>: <fpage>739</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-023-36500-5</pub-id>.<pub-id pub-id-type="pmcid">PMC9918523</pub-id><pub-id pub-id-type="pmid">36765048</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0055"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0055">
+<string-name name-style="western">
+<surname>Pérez‐Invernón</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Gordillo‐Vázquez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jöckel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Huntrieser</surname>
+</string-name>. <year>2022</year>. <article-title>“Monthly Averaged Lightning and LCC Lightning Data Extracted From Present‐Day (2009‐2011) and Projected (2090‐2095) EMAC Simulations (T42L90MA Resolution).”</article-title>
+<pub-id pub-id-type="doi">10.5281/zenodo.6627112</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0056"><mixed-citation publication-type="journal" id="gcb70312-cit-0056">
+<string-name name-style="western">
+<surname>Platt</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. W.</given-names>
+<surname>Evans</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Rathbun</surname>
+</string-name>. <year>1988</year>. “<article-title>The Population‐Dynamics of a Long‐Lived Conifer (<italic toggle="yes">Pinus palustris</italic>)</article-title>.” <source>American Naturalist</source>
+<volume>131</volume>, no. <issue>4</issue>: <fpage>491</fpage>–<lpage>525</lpage>. <pub-id pub-id-type="doi">10.1086/284803</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0057"><mixed-citation publication-type="journal" id="gcb70312-cit-0057">
+<string-name name-style="western">
+<surname>Pugh</surname>, <given-names>T. A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Arneth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kautz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Poulter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Smith</surname>
+</string-name>. <year>2019</year>. “<article-title>Important Role of Forest Disturbances in the Global Biomass Turnover and Carbon Sinks</article-title>.” <source>Nature Geoscience</source>
+<volume>12</volume>: <fpage>730</fpage>–<lpage>735</lpage>. <pub-id pub-id-type="doi">10.1038/s41561-019-0427-2</pub-id>.<pub-id pub-id-type="pmcid">PMC6718285</pub-id><pub-id pub-id-type="pmid">31478009</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0058"><mixed-citation publication-type="journal" id="gcb70312-cit-0058">
+<string-name name-style="western">
+<surname>Rabin</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Melton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lasslop</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>The Fire Modeling Intercomparison Project (FireMIP), Phase 1: Experimental and Analytical Protocols With Detailed Model Descriptions</article-title>.” <source>Geoscientific Model Development</source>
+<volume>10</volume>, no. <issue>3</issue>: <fpage>1175</fpage>–<lpage>1197</lpage>. <pub-id pub-id-type="doi">10.5194/gmd-10-1175-2017</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0059"><mixed-citation publication-type="journal" id="gcb70312-cit-0059">
+<string-name name-style="western">
+<surname>Richards</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Gora</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gutierrez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Burchfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Yanoviak</surname>
+</string-name>. <year>2022</year>. “<article-title>Tropical Tree Species Differ in Damage and Mortality From Lightning</article-title>.” <source>Nature Plants</source>
+<volume>8</volume>, no. <issue>9</issue>: <fpage>1007</fpage>–<lpage>1013</lpage>. <pub-id pub-id-type="doi">10.1038/s41477-022-01230-x</pub-id>.<pub-id pub-id-type="pmid">35995834</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0060"><mixed-citation publication-type="journal" id="gcb70312-cit-0060">
+<string-name name-style="western">
+<surname>Rodger</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Brundell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Dowden</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. R.</given-names>
+<surname>Thomson</surname>
+</string-name>. <year>2004</year>. “<article-title>Location Accuracy of Long Distance VLF Lightning Location Network</article-title>.” <source>Annales Geophysicae</source>
+<volume>22</volume>, no. <issue>3</issue>: <fpage>747</fpage>–<lpage>758</lpage>. <pub-id pub-id-type="doi">10.5194/angeo-22-747-2004</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0061"><mixed-citation publication-type="journal" id="gcb70312-cit-0061">
+<string-name name-style="western">
+<surname>Romps</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Seeley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Vollaro</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Molinari</surname>
+</string-name>. <year>2014</year>. “<article-title>Projected Increase in Lightning Strikes in the United States Due to Global Warming</article-title>.” <source>Science</source>
+<volume>346</volume>, no. <issue>6211</issue>: <fpage>851</fpage>–<lpage>854</lpage>. <pub-id pub-id-type="doi">10.1126/science.1259100</pub-id>.<pub-id pub-id-type="pmid">25395536</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0062"><mixed-citation publication-type="journal" id="gcb70312-cit-0062">
+<string-name name-style="western">
+<surname>Senf</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Esquivel‐Muelbert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A. M.</given-names>
+<surname>Pugh</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Towards a Global Understanding of Tree Mortality</article-title>.” <source>New Phytologist</source>
+<volume>245</volume>: <fpage>2377</fpage>–<lpage>2392</lpage>. <pub-id pub-id-type="doi">10.1111/nph.20407</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0063"><mixed-citation publication-type="journal" id="gcb70312-cit-0063">
+<string-name name-style="western">
+<surname>Simon</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Mayr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Morgenstern</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Umlauf</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zeileis</surname>
+</string-name>. <year>2023</year>. “<article-title>Amplification of Annual and Diurnal Cycles of Alpine Lightning</article-title>.” <source>Climate Dynamics</source>
+<volume>61</volume>: <fpage>4125</fpage>–<lpage>4137</lpage>. <pub-id pub-id-type="doi">10.1007/s00382-023-06786-8</pub-id>.<pub-id pub-id-type="pmid">37854482</pub-id>
+<pub-id pub-id-type="pmcid">PMC10579137</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0064"><mixed-citation publication-type="journal" id="gcb70312-cit-0064">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Warlind</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Arneth</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Implications of Incorporating N Cycling and N Limitations on Primary Production in an Individual‐Based Dynamic Vegetation Model</article-title>.” <source>Biogeosciences</source>
+<volume>11</volume>, no. <issue>7</issue>: <fpage>2027</fpage>–<lpage>2054</lpage>. <pub-id pub-id-type="doi">10.5194/bg-11-2027-2014</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0065"><mixed-citation publication-type="miscellaneous" id="gcb70312-cit-0065">
+<string-name name-style="western">
+<surname>Taylor</surname>, <given-names>A. R.</given-names>
+</string-name>
+<year>1974</year>. <article-title>“Ecological Aspects of Lightning in Forests.”</article-title> In <italic toggle="yes">Proceedings of the Tall Timbers Fire Ecology Conference</italic>, 13, 455–482.</mixed-citation></ref><ref id="gcb70312-bib-0066"><mixed-citation publication-type="journal" id="gcb70312-cit-0066">
+<string-name name-style="western">
+<surname>Veraverbeke</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. A. J.</given-names>
+<surname>Janssen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Brambleby</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Zoletto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>van der Sande</surname>
+</string-name>. <year>2025</year>. “<article-title>Lightning Impacts on Global Forest and Carbon Dynamics: Current Understanding and Knowledge Gaps</article-title>.” <source>Global Change Biology</source>
+<volume>31</volume>, no. <issue>4</issue>: <elocation-id>e70179</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.70179</pub-id>.<pub-id pub-id-type="pmid">40193140</pub-id>
+<pub-id pub-id-type="pmcid">PMC11975185</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0067"><mixed-citation publication-type="journal" id="gcb70312-cit-0067">
+<string-name name-style="western">
+<surname>Whittaker</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. F.</given-names>
+<surname>Schmitt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Partomihardjo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Bush</surname>
+</string-name>. <year>1998</year>. “<article-title>Stand Biomass and Tree Mortality From Permanent Forest Plots on Krakatau, Indonesia, 1989–1995</article-title>.” <source>Biotropica</source>
+<volume>30</volume>, no. <issue>4</issue>: <fpage>519</fpage>–<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1111/j.1744-7429.1998.tb00092.x</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0068"><mixed-citation publication-type="journal" id="gcb70312-cit-0068">
+<string-name name-style="western">
+<surname>Yanoviak</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Gora</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Lightning Is a Major Cause of Large Tree Mortality in a Lowland Neotropical Forest</article-title>.” <source>New Phytologist</source>
+<volume>225</volume>, no. <issue>5</issue>: <fpage>1936</fpage>–<lpage>1944</lpage>. <pub-id pub-id-type="doi">10.1111/nph.16260</pub-id>.<pub-id pub-id-type="pmid">31610011</pub-id>
+</mixed-citation></ref><ref id="gcb70312-bib-0069"><mixed-citation publication-type="journal" id="gcb70312-cit-0069">
+<string-name name-style="western">
+<surname>Yanoviak</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Gora</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Burchfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Detto</surname>
+</string-name>. <year>2017</year>. “<article-title>Quantification and Identification of Lightning Damage in Tropical Forests</article-title>.” <source>Ecology and Evolution</source>
+<volume>7</volume>, no. <issue>14</issue>: <fpage>5111</fpage>–<lpage>5122</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.3095</pub-id>.<pub-id pub-id-type="pmid">28770051</pub-id>
+<pub-id pub-id-type="pmcid">PMC5528236</pub-id></mixed-citation></ref><ref id="gcb70312-bib-0070"><mixed-citation publication-type="journal" id="gcb70312-cit-0070">
+<string-name name-style="western">
+<surname>Yanoviak</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Gora</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Fredley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Muzika</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. P.</given-names>
+<surname>Carson</surname>
+</string-name>. <year>2015</year>. “<article-title>Direct Effects of Lightning in Temperate Forests: A Review and Preliminary Survey in a Hemlock‐Hardwood Forest of the Northern United States</article-title>.” <source>Canadian Journal of Forest Research</source>
+<volume>45</volume>, no. <issue>10</issue>: <fpage>1258</fpage>–<lpage>1268</lpage>. <pub-id pub-id-type="doi">10.1139/cjfr-2015-0081</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0071"><mixed-citation publication-type="journal" id="gcb70312-cit-0071">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>Y. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Stock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lapierre</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>DiGangi</surname>
+</string-name>. <year>2022</year>. “<article-title>Upgrades of the Earth Networks Total Lightning Network in 2021</article-title>.” <source>Remote Sensing</source>
+<volume>14</volume>, no. <issue>9</issue>: <fpage>1</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.3390/rs14092209</pub-id>.</mixed-citation></ref><ref id="gcb70312-bib-0072"><mixed-citation publication-type="journal" id="gcb70312-cit-0072">
+<string-name name-style="western">
+<surname>Zoletto</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>van der Sande</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>van der Sleen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Sheil</surname>
+</string-name>. <year>2023</year>. “<article-title>Lightning Scars on Tropical Trees‐Evidence and Opportunities</article-title>.” <source>Ecology and Evolution</source>
+<volume>13</volume>, no. <issue>6</issue>: <elocation-id>e10210</elocation-id>. <pub-id pub-id-type="doi">10.1002/ece3.10210</pub-id>.<pub-id pub-id-type="pmid">37332514</pub-id>
+<pub-id pub-id-type="pmcid">PMC10271212</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,15 @@
+# NAIS Evidence Gate 0
+
+Public research verification discovery files. No sign-in or key needed for these files.
+- Catalog: https://nais-evidence-gate-team.streamlit.app/app/static/agent.json
+- Reproducible example results: https://nais-evidence-gate-team.streamlit.app/app/static/examples.json
+- GET contract: https://nais-evidence-gate-team.streamlit.app/app/static/openapi.json
+
+Read examples_sha256 in agent.json to verify examples.json bytes. Check version and built_at.
+The example re-runs a fixed public penguin row-count and synthetic changes with an unaffected control.
+SYNTHETIC_CHANGE is a deliberate test, not an observed error in a paper or another AI.
+approved=false remains false. Arithmetic agreement is not full-paper approval.
+These static files cannot accept questions or execute tools. For execution, install the project and
+configure an MCP-capable local host to run python -m tools.research_mcp in the project directory.
+Other modules and boundaries are in agent.json. They use stdio, not this website as a remote MCP URL.
+Private tasks, team records, secrets and participant-level research responses are not published.

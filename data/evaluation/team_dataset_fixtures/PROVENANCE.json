@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "bcc697687e266d7a99712ed39167866122419891b85b624a11a44851f57e6e8e",
+  "original_candidate_status": "CANDIDATE_VERIFIED (not adopted as global verification)",
+  "accepted_dataset_fixtures": 2,
+  "new_paper_reproductions": 0,
+  "license_url": "https://raw.githubusercontent.com/tidyverse/ggplot2/main/LICENSE.md",
+  "license_sha256": "d0d27ea76915e01a39a00c59fe2112c5836100526c9b2a3bc28cf65d6c2ba3dd",
+  "source_sha256": "3755c6d942eb135fe3fa327cbfb09af7258de162a6ad0134dbe422fffed8f706",
+  "source_original_url": "https://raw.githubusercontent.com/tidyverse/ggplot2/main/R/data.R",
+  "upstream_note": "midwest source warns descriptions are speculative; row count does not verify units/descriptions. mpg duplicate observations preserved.",
+  "excluded": [
+    "team source-code rollback",
+    "gapminder missing dataset/source snapshot",
+    "candidate global verified flag",
+    "pytest cache",
+    "unverified paper success counts"
+  ]
+}

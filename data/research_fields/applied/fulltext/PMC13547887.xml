@@ -1,0 +1,1144 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="emi70402" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Environ Microbiol</journal-id><journal-id journal-id-type="iso-abbrev">Environ Microbiol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">100883692</journal-id><journal-id journal-id-type="publisher-id">EMI</journal-id><journal-title-group><journal-title>Environmental Microbiology</journal-title></journal-title-group><issn pub-type="ppub">1462-2912</issn><issn pub-type="epub">1462-2920</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13547887</article-id><article-id pub-id-type="pmcid-ver">PMC13547887.1</article-id><article-id pub-id-type="pmcaid">13547887</article-id><article-id pub-id-type="pmcaiid">13547887</article-id><article-id pub-id-type="pmid">42702966</article-id><article-id pub-id-type="doi">10.1111/1462-2920.70402</article-id><article-id pub-id-type="publisher-id">EMI70402</article-id><article-id pub-id-type="other">2778870</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Induced Dysbiosis Modifies Physiological Responses to Warming in a Temperate Sponge</article-title></title-group><contrib-group><contrib id="emi70402-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Broadribb</surname><given-names initials="M">Manon</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5012-0778</contrib-id><xref rid="emi70402-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="emi70402-cr-0002" contrib-type="author"><name name-style="western"><surname>Thomas</surname><given-names initials="T">Torsten</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9557-3001</contrib-id><xref rid="emi70402-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="emi70402-cr-0003" contrib-type="author"><name name-style="western"><surname>Rogers</surname><given-names initials="A">Alice</given-names></name><xref rid="emi70402-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="emi70402-cr-0004" contrib-type="author"><name name-style="western"><surname>Bell</surname><given-names initials="JJ">James J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9996-945X</contrib-id><xref rid="emi70402-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="emi70402-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">School of Biological Sciences</named-content>
+<institution>Victoria University of Wellington</institution>
+<city>Wellington</city>
+<country country="NZ">New Zealand</country>
+</aff><aff id="emi70402-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Marine Science and Innovation</named-content>
+<institution>School of Biological, Earth and Environmental Sciences, University of New South Wales</institution>
+<city>Sydney</city>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Manon Broadribb ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>06</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="ppub"><month>9</month><year>2026</year></pub-date><volume>28</volume><issue seq="80">9</issue><issue-id pub-id-type="pmc-issue-id">521035</issue-id><issue-id pub-id-type="doi">10.1111/emi.v28.9</issue-id><elocation-id>e70402</elocation-id><history>
+<date date-type="rev-recd"><day>26</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>06</day><month>11</month><year>2025</year></date>
+<date date-type="accepted"><day>07</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>07</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>08</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-08 00:07:06.380"><day>08</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Environmental Microbiology</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EMI-28-e70402.pdf"><?pdf-name EMI-28-e70402.pdf?><?pdf-size 3345664?><?pdf-md5 73f23c60e9afd71b463564995aafb145?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:f969/13547887/73f23c60e9af/EMI-28-e70402.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EMI-28-e70402.pdf"/><abstract><title>ABSTRACT</title><p>Marine sponges host complex and specific microbiomes, yet the role of these microbial symbionts in sponge responses to acute environmental stress is not fully understood. We investigated how altering the microbiome influences physiological responses to temperature in the temperate calcareous sponge <italic toggle="no">Rowella lancifera</italic> under simulated marine heatwave (MHW) conditions. Sponges were treated with broad‐spectrum antibiotics to disrupt their microbiome and then exposed to sub‐lethal MHW temperatures. Microbial community composition was analysed using 16S rRNA gene sequencing, including assessing diversity and differential abundance, while sponge physiological response to temperature was quantified via respiration rates. Antibiotic treatment significantly altered microbial community structure but did not independently induce a physiological response. Heat exposure increased respiration rates, with a stronger response observed in microbiome‐altered sponges. Multivariate analyses revealed a relationship between microbial community structure and respiration rate, suggesting an association between microbiome composition and host physiological responses. Overall, these findings indicate that sponge‐microbe symbioses may play a role in modulating physiological responses to increased temperatures. As MHWs become more frequent and severe under climate change, understanding sponge‐microbe partnerships will be important for predicting responses of sponges and the stability of benthic ecosystems.</p></abstract><abstract abstract-type="graphical"><p>We investigated how microbiome disruption affects the physiological response of the calcareous sponge <italic toggle="no">Rowella lancifera</italic> to simulated marine heatwave conditions. Antibiotic‐induced microbiome changes amplified physiological responses to increased temperatures, linking microbial stability to host performance. Results highlight that maintaining healthy sponge–microbe symbioses is important for future resilience under intensifying marine heatwaves.<boxed-text position="anchor" content-type="graphic" id="emi70402-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EMI-28-e70402-g005.webp"><?image-name EMI-28-e70402-g005.webp?><?image-size 16354?><?image-md5 9d4b4827fb5335384234086231b016ba?><?image-image-server-status NEVER_LOAD?><?image-original-height 216?><?image-original-width 390?><?image-scaled-height 216?><?image-scaled-width 390?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/9d4b4827fb53/EMI-28-e70402-g005.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="emi70402-kwd-0001">benthic ecosystems</kwd><kwd id="emi70402-kwd-0002">climate change resilience</kwd><kwd id="emi70402-kwd-0003">marine heatwaves</kwd><kwd id="emi70402-kwd-0004">marine sponges</kwd><kwd id="emi70402-kwd-0005">microbiome dysbiosis</kwd><kwd id="emi70402-kwd-0006">physiological response</kwd><kwd id="emi70402-kwd-0007">sponge‐microbe symbioses</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Victoria University of Wellington</institution><institution-id institution-id-type="doi">10.13039/501100001538</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>George Mason Charitable Trust</institution></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="7"/><table-count count="4"/><page-count count="16"/><word-count count="11300"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:07.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="emi70402-body-0001"><sec id="emi70402-sec-0001"><label>1</label><title>Introduction</title><p>Sponges are important members of benthic communities, with diverse functional roles in temperate, tropical, and polar ecosystems (Bell et al. <xref rid="emi70402-bib-0008" ref-type="bibr">2023</xref>). As sessile filter feeders, they process large volumes of seawater, removing microorganisms, particulate organic matter (POM) and dissolved organic matter (DOM) (Pile and Young <xref rid="emi70402-bib-0063" ref-type="bibr">2006</xref>; Lacoue‐Labarthe et al. <xref rid="emi70402-bib-0045" ref-type="bibr">2016</xref>; Riisgård and Larsen <xref rid="emi70402-bib-0071" ref-type="bibr">2022</xref>). This activity facilitates nutrient cycling, supports primary productivity, and mediates energy transfer between benthic and pelagic systems, known as the “sponge loop” (de Goeij et al. <xref rid="emi70402-bib-0038" ref-type="bibr">2013</xref>; Rix et al. <xref rid="emi70402-bib-0072" ref-type="bibr">2017</xref>). Many sponge species also function as ecosystem engineers by modifying substrates, stabilising sediments and providing complex habitats for other organisms (Bell et al. <xref rid="emi70402-bib-0008" ref-type="bibr">2023</xref>; Schönberg <xref rid="emi70402-bib-0075" ref-type="bibr">2016</xref>; Harris et al. <xref rid="emi70402-bib-0042" ref-type="bibr">2021</xref>).</p><p>A defining feature of sponges is their close and often highly specific relationships with diverse microbial communities, including bacteria, archaea, and eukaryotic microbes (Thomas et al. <xref rid="emi70402-bib-0084" ref-type="bibr">2016</xref>; Yang et al. <xref rid="emi70402-bib-0093" ref-type="bibr">2019</xref>). The stability and specificity of these associations are central to sponge health and resilience, with microbial symbionts contributing significantly to metabolism and ecological success (Webster and Taylor <xref rid="emi70402-bib-0089" ref-type="bibr">2012</xref>; Pita et al. <xref rid="emi70402-bib-0064" ref-type="bibr">2018</xref>; Slaby et al. <xref rid="emi70402-bib-0076" ref-type="bibr">2019</xref>). These symbionts perform essential metabolic functions such as nitrogen fixation, nitrification, denitrification, sulfur cycling, vitamin synthesis and secondary metabolite production (Webster and Taylor <xref rid="emi70402-bib-0089" ref-type="bibr">2012</xref>; Fan et al. <xref rid="emi70402-bib-0030" ref-type="bibr">2012</xref>; Lurgi et al. <xref rid="emi70402-bib-0050" ref-type="bibr">2019</xref>; Díez‐Vives and Riesgo <xref rid="emi70402-bib-0025" ref-type="bibr">2024</xref>).</p><p>Microbial symbionts can thus expand the metabolic capabilities of their hosts (González‐Pech et al. <xref rid="emi70402-bib-0040" ref-type="bibr">2024</xref>), a phenomenon referred to as “phenotype expansion,” where host–microbe interactions enable organisms such as macroalgae and marine invertebrates to occupy a broader range of ecological niches (Parkinson and Baums <xref rid="emi70402-bib-0061" ref-type="bibr">2014</xref>; DeWeese and Osborne <xref rid="emi70402-bib-0024" ref-type="bibr">2021</xref>). Enhanced metabolic capacity may also improve tolerance to environmental stressors. For instance, shifts in microbial communities have been correlated with certain corals' ability to withstand extreme temperatures, ocean acidification, and pollution (Cameron et al. <xref rid="emi70402-bib-0018" ref-type="bibr">2022</xref>; Pei et al. <xref rid="emi70402-bib-0062" ref-type="bibr">2022</xref>; Wuitchik et al. <xref rid="emi70402-bib-0092" ref-type="bibr">2024</xref>). However, manipulative experiments that go beyond correlative observation are currently lacking in marine invertebrates with the exception of corals (Ezzat et al. <xref rid="emi70402-bib-0029" ref-type="bibr">2021</xref>; Connelly et al. <xref rid="emi70402-bib-0022" ref-type="bibr">2022</xref>), and are needed to further establish and ascertain the role microbiomes play in the stress response of their hosts.</p><p>Marine heatwaves (MHWs) are increasing in frequency, duration and intensity due to anthropogenic climate change (Oliver et al. <xref rid="emi70402-bib-0057" ref-type="bibr">2018</xref>). Their impacts span from individual species effects to ecosystem‐wide disruptions (Eakin et al. <xref rid="emi70402-bib-0026" ref-type="bibr">2010</xref>; Thomsen et al. <xref rid="emi70402-bib-0085" ref-type="bibr">2019</xref>). Sponges show a range of responses to increased temperatures, such as changes in respiration rate (Strano et al. <xref rid="emi70402-bib-0081" ref-type="bibr">2022</xref>), spicule deformation (Ribeiro et al. <xref rid="emi70402-bib-0069" ref-type="bibr">2021</xref>), reduced pumping (Massaro et al. <xref rid="emi70402-bib-0051" ref-type="bibr">2012</xref>), bleaching and mortality (Bell et al. <xref rid="emi70402-bib-0009" ref-type="bibr">2024</xref>) and importantly, shifts in microbial composition (Bell et al. <xref rid="emi70402-bib-0009" ref-type="bibr">2024</xref>; Fan et al. <xref rid="emi70402-bib-0031" ref-type="bibr">2013</xref>; Strano et al. <xref rid="emi70402-bib-0082" ref-type="bibr">2023</xref>).</p><p>There is increasing evidence that environmental stressors can destabilise sponge–microbe symbioses, leading to microbial dysbiosis—a shift in community composition that can impair host health (Strano et al. <xref rid="emi70402-bib-0082" ref-type="bibr">2023</xref>; Botté et al. <xref rid="emi70402-bib-0015" ref-type="bibr">2023</xref>; de Castro‐Fernández et al. <xref rid="emi70402-bib-0019" ref-type="bibr">2023</xref>). Dysbiosis may involve loss of microbial diversity, a decline in the abundance of core symbionts and/or the rise of opportunistic and pathogenic taxa (Posadas et al. <xref rid="emi70402-bib-0065" ref-type="bibr">2022</xref>; Gastaldi et al. <xref rid="emi70402-bib-0036" ref-type="bibr">2024</xref>; Efremova et al. <xref rid="emi70402-bib-0027" ref-type="bibr">2024</xref>), undermining key functions and potentially increasing host susceptibility to disease (Slaby et al. <xref rid="emi70402-bib-0076" ref-type="bibr">2019</xref>). Experimental disruption of the microbiome in sponges has been achieved using bacteriophages and antibiotics (Schmittmann et al. <xref rid="emi70402-bib-0074" ref-type="bibr">2022</xref>; Steiner et al. <xref rid="emi70402-bib-0078" ref-type="bibr">2024</xref>), though studies exploring how this influences physiological responses to temperature have not yet been performed. Understanding the role of microbial symbionts in the thermal tolerance of sponges is therefore critical to predicting their responses to future MHWs.</p><p>This study investigated the individual and combined effects of increased temperatures and experimentally induced microbiome disruption on respiration rate in the calcareous temperate sponge <italic toggle="yes">Rowella lancifera</italic>. This species was chosen due to its apparent resilience during the extreme 2022 MHWs in New Zealand, which caused bleaching and mortality in other sympatric sponges (Bell et al. <xref rid="emi70402-bib-0009" ref-type="bibr">2024</xref>). We used broad‐spectrum antibiotics to first disrupt the microbiome and then compared the responses of microbiome‐intact and microbiome‐disrupted individuals under simulated MHW conditions. We hypothesised that: (1) Antibiotics would significantly alter the microbiome; (2) sponges with intact microbiomes would exhibit measurable physiological responses under simulated MHW conditions; and (3) these responses would be exacerbated in microbiome‐disrupted individuals. We assessed microbial community changes following antibiotic and heat treatment and measured sponge respiration rates as changes in respiration are widely used in the literature to quantify physiological responses to stressors, including thermal exposure, in sponges (Strano et al. <xref rid="emi70402-bib-0081" ref-type="bibr">2022</xref>; Bennett et al. <xref rid="emi70402-bib-0011" ref-type="bibr">2017</xref>; Ramsby et al. <xref rid="emi70402-bib-0068" ref-type="bibr">2018</xref>; Bosch‐Belmar et al. <xref rid="emi70402-bib-0013" ref-type="bibr">2023</xref>; Beepat et al. <xref rid="emi70402-bib-0006" ref-type="bibr">2021</xref>). Because metabolic rates are intrinsically temperature‐dependent in ectotherms (Brown et al. <xref rid="emi70402-bib-0016" ref-type="bibr">2004</xref>), increased respiration reflects elevated metabolic demand and may indicate stress when temperatures approach physiological limits. Combined, we aimed to evaluate the importance of dysbiosis in sponge responses to elevated temperature.</p></sec><sec sec-type="methods" id="emi70402-sec-0002"><label>2</label><title>Methods</title><sec id="emi70402-sec-0003"><label>2.1</label><title>Sponge Collection and Maintenance</title><p>
+<italic toggle="yes">R. lancifera</italic> sponges (<italic toggle="yes">n</italic> = 36) of roughly the same size (~5 cm length, ~2 cm diameter) were collected using SCUBA from approximately 15 m depth at Bradshaw Sound, Doubtful Sound, Southern New Zealand (45°17.103′ S 167°02.034′ E; Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S1</xref>) on the 13th of January 2024. Dive knives were used to pry the sponges gently from the substrate whilst keeping the base intact to minimise damage to the sponge. Sponges were then placed into zip lock bags whilst still underwater to ensure no contact with the air, and transferred into thermally insulated bins after the dive was completed. The bins contained seawater collected from the sampling site and were set up with aquarium aerators to ensure the water remained oxygenated, with temperature monitored and regulated at 16°C–17°C, and water changed regularly throughout transportation. On the following day sponges were transferred into large carrying containers, again with fresh seawater, and secured in a cooler for transportation back to the Victoria University Coastal Ecology Laboratory (VUCEL), a roughly 6 h journey.</p><p>Once they arrived at VUCEL, sponges were placed into 4 L tanks (<italic toggle="yes">n</italic> = 3 per tank) and attached to small ceramic tiles using aluminium wire, ensuring they were attached in an upright position with the base of the sponge on the tile. As sponges feed on POM, DOM and pico‐, nano‐ and microplankton (Ribes et al. <xref rid="emi70402-bib-0070" ref-type="bibr">1999</xref>), tanks were set up to allow a flow of 10 μm filtered seawater for the duration of the acclimation and experimental periods (flow rate: 12 ± 1 L h<sup>−1</sup>). Water temperature in the tanks during the acclimation period was set to 16°C for all tanks to match the water temperature that the sponges were collected from. Sponges were allowed to acclimate to laboratory conditions for 14 days before the experiment began. Tanks were opaque with lids to minimise any impacts of light and external contamination.</p></sec><sec id="emi70402-sec-0004"><label>2.2</label><title>Experimental Conditions</title><p>Three experimental treatments (heatwave, antibiotics, and antibiotics + heatwave) and a control were designed to examine the separate and interactive effects of simulated MHW conditions and artificial microbiome disruption on the physiological responses of <italic toggle="yes">R. lancifera</italic> (Figure <xref rid="emi70402-fig-0001" ref-type="fig">1</xref>). <italic toggle="yes">N</italic> = 3 sponges were placed in 12 4 L treatment tanks each containing a small aquarium pump (1.5 W, 180 L/h flow, AYNEFY, Shenzhen, China) to keep water circulating throughout the experiment. Tanks were kept in 40 L water baths (<italic toggle="yes">n</italic> = 3 tanks per water bath) that contained two large pumps to circulate water (10 W, 700 L/h flow, Jebao, China). Water temperature in the water baths was controlled by an aquarium controller system (Apex Classic, Neptune Systems, Morgan Hill, CA, USA), connected to aquarium heaters (200 W, Eheim, Germany) and two chillers (HC‐500A, Hailea, China) (Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S2</xref>). Water temperature of the individual treatment tanks was also checked twice daily and the water baths once daily by a YSI Pro30 probe (Total Lab Systems, Auckland, NZ) and the control system was calibrated accordingly.</p><fig position="float" fig-type="FIGURE" id="emi70402-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Schematic representation of the experimental timeline, showing days during which different treatments were administered, and days during which physiological measurements and tissue samples were taken.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EMI-28-e70402-g006.webp"><?image-name EMI-28-e70402-g006.webp?><?image-size 48166?><?image-md5 11b28de261ecd380a8393b3adb37df4c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 450?><?image-original-width 1064?><?image-scaled-height 450?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/11b28de261ec/EMI-28-e70402-g006.webp?><?thumb-name EMI-28-e70402-g006.gif?><?thumb-size 6031?><?thumb-md5 4cd5a2e459e17f9ff46b5aa670aad68e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 85?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f969/13547887/4cd5a2e459e1/EMI-28-e70402-g006.gif?></graphic></fig></sec><sec id="emi70402-sec-0005"><label>2.3</label><title>Antibiotic Treatment</title><p>After the initial acclimation phase of 14 days, antibiotics were administered (Figure <xref rid="emi70402-fig-0001" ref-type="fig">1</xref>). For the antibiotic treatment, 6 tanks from the same two water baths (to avoid any contamination) were treated with antibiotics at the following concentrations: nalidixic acid (200 mg/L), neomycin (200 mg/L), ampicillin (200 mg/L), rifampicin (50 mg/L) and polymyxin B (8 mg/L). These antibiotics and concentrations were based on a previous study aiming to disrupt the microbiome of the sponge <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Halichondria panicea</italic>
+</styled-content> (Schmittmann et al. <xref rid="emi70402-bib-0074" ref-type="bibr">2022</xref>), and their efficacy was tested on <italic toggle="yes">R. lancifera</italic> in preliminary laboratory trials. Antibiotics were administered in solution once per day for three days at 7 am, before which the inflow to all tanks including controls was turned off, and the outflow blocked to keep the antibiotic solution within the tank. The inflow was turned back on at 7 pm, and outflow released, which gave 12 h of antibiotic treatment followed by 12 h of water flow before the process was repeated. To ensure that 12 h without flow would not cause sponges to be re‐filtering waste products, we carried out preliminary trials to calculate average pumping rate for <italic toggle="yes">R. lancifera</italic> and used this to infer the minimum time it would take one sponge to filter 4 L of water (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S1</xref>).</p></sec><sec id="emi70402-sec-0006"><label>2.4</label><title>
+<styled-content style="fixed-case" toggle="no">MHW</styled-content> Treatment</title><p>Following the antibiotic treatment, <italic toggle="yes">n</italic> = 6 untreated sponges and <italic toggle="yes">n</italic> = 6 antibiotic‐treated sponges were exposed to a simulated MHW peaking at 20°C (Figure <xref rid="emi70402-fig-0001" ref-type="fig">1</xref>). This peak was based on consecutive recent heatwaves in the Fiordland Marine Area in the summers of 2022 and 2023 which peaked at 20.3°C and 19.95°C, respectively (Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S2</xref>), and a previous study which found 20°C to be a sublethal, response‐inducing temperature for <italic toggle="yes">R. lancifera</italic> (Broadribb et al. <xref rid="emi70402-bib-0097" ref-type="bibr">2026</xref>). Temperature was first raised by 1°C per day for 3 days to 19°C. Treatment tanks were then kept at 19°C for 3 days, and finally the temperature was increased by a further 1°C (over one day) to reach the peak of the simulated MHW at 20°C. Temperatures in treatment tanks remained at 20°C for 3 days. The temperature was then dropped by 2°C per day for 2 days to 16°C where it remained for the duration of the recovery period (6 days). Daily temperature regimes are listed in Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S2</xref>. Buoyant weight and respiration rates of all sponges were measured on T0, T1, T2, T3, T4 and TEnd (Figure <xref rid="emi70402-fig-0001" ref-type="fig">1</xref>).</p></sec><sec id="emi70402-sec-0007"><label>2.5</label><title>Microbial Community Analysis</title><p>Samples of all sponges (0.5 cm<sup>3</sup>) were taken with a sterile scalpel and forceps at T0, T1, T4, TEnd (Figure <xref rid="emi70402-fig-0001" ref-type="fig">1</xref>) before being placed in DESS (DMSO‐EDTA‐saturated salt solution) and stored at −80°C. DNA was then extracted using the DNEasy PowerSoil Pro Kit following the manufacturer's instructions (Qiagen, Hilden, Germany). Nanodrop and gel electrophoresis on 1% agarose were used to assess the concentration and check the quality of the extracted DNA.</p><p>Amplicon library construction and sequencing were performed by the Ramaciotti Centre for Genomics at the University of New South Wales, Australia on the MiSeq V2 platform (Illumina). To target the V4 region of the 16S rRNA gene of bacteria and archaea, the modified primers 515f (5′‐GTGYCAGCMGCCGCGGTAA‐3′) (Parada et al. <xref rid="emi70402-bib-0060" ref-type="bibr">2016</xref>), and 806r (5′‐GGACTACNVGGGTWTCTAAT‐3′) (Apprill et al. <xref rid="emi70402-bib-0003" ref-type="bibr">2015</xref>), containing Illumina overhang adapter sequences were used. For library preparation, extracted DNA was PCR amplified with 12.5 μL of EconoTaq PLUS GREEN 2X Master Mix (Lucigen, Middleton, WI, USA) 1 μL of each primer (10 μM) and 2 μL of DNA in a 25 μL final reaction solution. PCR conditions were 94°C for 3 min for initial denaturation, followed by 30 cycles of denaturation at 94°C for 45 s, annealing at 50°C for 60 s, and elongation at 72°C for 90 s, and a final extension at 72°C for 10 min. PCR products were run on a DNA gel to confirm correct amplification and cleaned with AMPure XP beads (Beckman Coulter, Brea, CA, USA). An indexing PCR was carried out with Illumina DNA/RNA UD indexes with the following conditions: Activation at 95°C for 3 min, followed by 8 cycles of 95°C for 30 s, 55°C for 30 s, and 72°C for 30 s, and a final extension at 72°C for 5 min. After the indexing PCR, a gel was run for quality control and all samples were normalised using a SequelPrep normalisation kit (Thermo Fisher, Waltham, MA, USE). An equal volume was taken from all samples and pooled, the pool was cleaned with AMPure XP beads and quantified with Qubit and a Tapestation before finally being sequenced with a Miseq v2 2x250bp run.</p><p>Raw sequences were filtered, trimmed, and primers were removed using USEARCH v.11.0.667 and Trimmomatic v.0.38 as previously described by Strano et al. (Strano et al. <xref rid="emi70402-bib-0082" ref-type="bibr">2023</xref>). Amplicon sequence variants (ASVs) were generated using UNOISE3, and chimeras were removed with UCHIME2 in reference mode using the SILVA database release 132. For taxonomic assignment of ASVs, the Bayesian Last Common Ancestor (BLCA) algorithm was applied with SILVA release 132 (Gao et al. <xref rid="emi70402-bib-0034" ref-type="bibr">2017</xref>; Quast et al. <xref rid="emi70402-bib-0066" ref-type="bibr">2013</xref>; Yilmaz et al. <xref rid="emi70402-bib-0094" ref-type="bibr">2014</xref>).</p></sec><sec id="emi70402-sec-0008"><label>2.6</label><title>Buoyant Weight and Respiration Rate</title><p>Buoyant weight was measured in order to standardise sponge respiration rate using a digital scale (A&amp;D FX‐200i) following the methods of Osinga (Osinga et al. <xref rid="emi70402-bib-0059" ref-type="bibr">1999</xref>) whereby the scale was placed on a platform above a basin filled with seawater at the corresponding treatment temperature, and a hanger attached to the scale in such a way that the sponge placed on the hanger below the scale would remain fully submerged during weighing. At the end of the experiment the surviving sponges (<italic toggle="yes">n</italic> = 29) were dried for 72 h at 60°C and then combusted at 500°C for five hours. A linear regression was then carried out to convert previous buoyant weight measurements to ash‐free dry weight (AFDW) (Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S4</xref>).</p><p>Respiration rates were measured as per Strano et al. (Strano et al. <xref rid="emi70402-bib-0082" ref-type="bibr">2023</xref>). Nine sponges per measurement round (all sponges from the same treatment or control to avoid potential contamination) were separately placed in sealed 250 mL cylindrical glass respiration chambers with oxygen sensor spots (PreSens SP‐PSt3‐NAU, Regensburg, Germany) attached to their inner surface. A submersible magnetic stirrer maintained continual water movement inside the respiration chambers, and chambers were maintained in a thermally controlled water bath with temperatures corresponding to given experimental conditions for the duration of the respiration measurements. After 15 min of acclimation (which was a sufficient period to acclimatise sponges according to preliminary trials), oxygen concentration inside the chambers was measured every 15 min for 45 min, using a Fibox 4 oxygen probe (PreSens). To record possible microbial respiration in seawater, one blank measurement of seawater alone was included for every incubation. Sponge respiration rate was then standardised to sponge ash‐free dry weight (mgO<sub>2</sub> gAFDW<sup>−1</sup> h<sup>−1</sup>), as suggested by Bell et al. (Bell et al. <xref rid="emi70402-bib-0007" ref-type="bibr">2020</xref>).</p></sec><sec id="emi70402-sec-0009"><label>2.7</label><title>Survival and Health Monitoring</title><p>Sponges were monitored daily for the duration of the experiment. Sponges showing signs of necrosis and/or severe tissue degradation were removed from their tanks to ensure they did not impact other sponges in the experiment. This resulted in the removal of six sponges throughout the experimental period (Control = 1, Antibiotic = 1, Heatwave = 3, Antibiotic + Heatwave = 1).</p></sec><sec id="emi70402-sec-0010"><label>2.8</label><title>Statistical Analyses</title><p>All statistical data analyses were performed in R version 4.3.3 (R Core Team <xref rid="emi70402-bib-0067" ref-type="bibr">2024</xref>). For multiple comparisons, <italic toggle="yes">p</italic>‐values were corrected using the Benjamini‐Hochberg (BH) procedure (Benjamini and Hochberg <xref rid="emi70402-bib-0010" ref-type="bibr">1995</xref>). The corrected <italic toggle="yes">p</italic>‐values were used to determine statistical significance at an alpha level of 0.05. Plots were created using ‘ggplot2’ (Wickham <xref rid="emi70402-bib-0091" ref-type="bibr">2016</xref>).</p><p>At T1, after antibiotic treatment but before heatwave treatment, we grouped together sponges in control and heatwave tanks as a control group, and antibiotic and antibiotic + heatwave tanks as solely antibiotic‐treated sponges. ASV data was normalised using total sum scaling in order to give relative microbial abundances. Differences in microbial communities were visualised using nMDS (non‐multidimensional scaling) plots (R package <italic toggle="yes">vegan</italic>) (Oksanen et al. <xref rid="emi70402-bib-0056" ref-type="bibr">2025</xref>), based on Bray‐Curtis dissimilarities (adonis2, <italic toggle="yes">vegan</italic>) (Oksanen et al. <xref rid="emi70402-bib-0056" ref-type="bibr">2025</xref>). Statistical differences in community structure were then analysed using permutational multivariate analysis of variance (PERMANOVA) (Anderson <xref rid="emi70402-bib-0001" ref-type="bibr">2001</xref>), and differences in dispersion of communities around their group centroids were evaluated using permutational multivariate analysis of dispersion (PERMDISP) (Anderson <xref rid="emi70402-bib-0002" ref-type="bibr">2006</xref>), in both cases using 9999 unrestricted permutations. Alpha diversity indices of microbial communities (Peilou's evenness, ASV richness, and Shannon diversity) were calculated on read numbers rarefied to the minimum sequencing depth using 100 iterations, via the <italic toggle="yes">phyloseq_mult_raref_div</italic> function (R package <italic toggle="yes">metagMisc</italic>) (Mikryukov <xref rid="emi70402-bib-0053" ref-type="bibr">2020</xref>). Differences in diversity indices between treatments at each time point were then explored using linear models and estimated marginal means, on data which was square root transformed to fit normality assumptions (<italic toggle="yes">lm</italic>, r package <italic toggle="yes">stats</italic> (R Core Team <xref rid="emi70402-bib-0067" ref-type="bibr">2024</xref>); <italic toggle="yes">emmeans</italic>, r package <italic toggle="yes">emmeans</italic> (Lenth <xref rid="emi70402-bib-0048" ref-type="bibr">2025</xref>)). To identify significant changes in the abundance of specific microbial families the ANCOM‐BC2 package was used on raw ASV data (Lin and Peddada <xref rid="emi70402-bib-0049" ref-type="bibr">2023</xref>).</p><p>For respiration rate analysis we used a linear mixed‐effects model with normally distributed errors and random intercepts (lmer, <italic toggle="yes">lme4</italic> package) (Bates et al. <xref rid="emi70402-bib-0005" ref-type="bibr">2015</xref>). In the mixed models, treatment and time were considered fixed effects, whilst experimental tank and sponge individual were considered random effects. The experimental tank effect was included to address pseudo‐replication. For these models, fixed‐ and random‐effect terms were tested using the function anova and ranova (R package <italic toggle="yes">lmerTest</italic>) (Kuznetsova et al. <xref rid="emi70402-bib-0044" ref-type="bibr">2017</xref>), respectively, whilst <italic toggle="yes">post hoc</italic> pairwise comparisons were computed on estimated marginal means using emmeans (R package <italic toggle="yes">emmeans</italic>) (Lenth <xref rid="emi70402-bib-0048" ref-type="bibr">2025</xref>). Respiration rates were log (x + 1) transformed to meet normality assumptions. The goodness of fit, normality and homoscedasticity of the errors were checked for the model by inspecting plots of the normalised residuals and the quantile‐quantile plots.</p><p>We used the <italic toggle="yes">mvabund</italic> package in R (Wang et al. <xref rid="emi70402-bib-0088" ref-type="bibr">2012</xref>) to assess the relationship between ASV counts and respiration rate across all sponge individuals. Low‐abundance ASVs were filtered based on prevalence (&lt; 10% of samples) and total read counts (&lt; 200). A negative binomial manyglm was fitted using log(x + 1) transformed respiration rate as the predictor to reduce skew and improve model fit. Significance was tested via likelihood‐based methods, and ASV‐level <italic toggle="yes">p</italic>‐values were BH corrected. To validate these findings across taxonomic resolution, the analysis was repeated at the family level by aggregating ASV counts into family‐level abundances and applying the same <italic toggle="yes">mvabund</italic> workflow.</p></sec></sec><sec sec-type="results" id="emi70402-sec-0011"><label>3</label><title>Results</title><sec id="emi70402-sec-0012"><label>3.1</label><title>Impact of Antibiotics and <styled-content style="fixed-case" toggle="no">MHW</styled-content> on Microbial Communities</title><p>In order to define the impact of antibiotic and temperature treatments on the bacterial and archaeal communities of <italic toggle="yes">Rowella lancifera</italic> (Figure <xref rid="emi70402-fig-0001" ref-type="fig">1</xref>), we performed 16S rRNA gene sequencing. A total of 44,431,304 raw reads, 2,443,917 clean reads (with 181,554 ± 67,636 as mean and s.d. of reads per sample) and 1466 ASVs were obtained for the V4 region of the 16S rRNA gene from sponges under each treatment at T0, T1, T4 and TEnd (Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S5</xref>).</p><p>PERMANOVA showed microbial community structure to be affected by both treatment and time, with a significant interaction effect (Table <xref rid="emi70402-tbl-0001" ref-type="table">1</xref>). We found microbial communities differed significantly between at least two time points under all treatments, including under control conditions (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S5</xref>; Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S7</xref>). For this reason, moving forward we only discuss results from analyses between treatments at each time point, and not within treatments through time.</p><table-wrap position="float" id="emi70402-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>PERMANOVA table of results showing effect of time, treatment, and their interaction on microbial community structure of sponges. Model was run on Bray‐Curtis dissimilarities using 9999 permutations on log transformed data.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">DF</th><th align="center" valign="bottom" rowspan="1" colspan="1">SS</th><th align="center" valign="bottom" rowspan="1" colspan="1">MS</th><th align="center" valign="bottom" rowspan="1" colspan="1">Pseudo‐F</th><th align="center" valign="bottom" rowspan="1" colspan="1">R2</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Treatment</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">1.8187</td><td align="center" valign="top" rowspan="1" colspan="1">0.6062</td><td align="center" valign="top" rowspan="1" colspan="1">6.8050</td><td align="center" valign="top" rowspan="1" colspan="1">0.2042</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0002" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">1.0204</td><td align="center" valign="top" rowspan="1" colspan="1">0.5102</td><td align="center" valign="top" rowspan="1" colspan="1">5.7270</td><td align="center" valign="top" rowspan="1" colspan="1">0.1146</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0002" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Treatment × Time</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">0.6320</td><td align="center" valign="top" rowspan="1" colspan="1">0.1580</td><td align="center" valign="top" rowspan="1" colspan="1">1.7735</td><td align="center" valign="top" rowspan="1" colspan="1">0.0710</td><td align="center" valign="top" rowspan="1" colspan="1">0.0121<xref rid="emi70402-note-0001" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Residuals</td><td align="center" valign="top" rowspan="1" colspan="1">61</td><td align="center" valign="top" rowspan="1" colspan="1">5.4343</td><td align="center" valign="top" rowspan="1" colspan="1">0.0891</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">0.6102</td><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Total</td><td align="center" valign="top" rowspan="1" colspan="1">70</td><td align="center" valign="top" rowspan="1" colspan="1">8.9054</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">1.0000</td><td align="center" valign="top" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot id="emi70402-ntgp-0001"><fn id="emi70402-note-0001"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn><fn id="emi70402-note-0002"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.01.</p></fn></table-wrap-foot></table-wrap><p>When looking at individual time points, microbial community structure was affected by treatment at T1, T4 and TEnd (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S3</xref>, Figure <xref rid="emi70402-fig-0002" ref-type="fig">2</xref>). At T0, after acclimation and before any treatment had been administered, microbial communities did not differ between sponges in any treatment tanks (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S3</xref>). At T1, after antibiotic treatment, microbial communities differed significantly between control and antibiotic‐treated sponges (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S3</xref>). PERMDISP results showed significant differences in dispersion of microbial communities around their group centroids between control and antibiotic‐treated sponges (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S4</xref>; Figure <xref rid="emi70402-fig-0002" ref-type="fig">2</xref> and Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S6</xref>), meaning significant PERMANOVA results at this time point were potentially due to differences in dispersion.</p><fig position="float" fig-type="FIGURE" id="emi70402-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Non‐metric multidimensional scaling (nMDS) plot of microbial communities under different treatments at each time point. Large points represent group centroids, small points represent individual samples, and ellipses represent 95% confidence around the centroid. NB at T1 after antibiotic treatment, but before temperature treatment, control and heatwave sponges were grouped as ‘control’, and antibiotic and antibiotic + heatwave sponges were grouped as ‘antibiotic’.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EMI-28-e70402-g001.webp"><?image-name EMI-28-e70402-g001.webp?><?image-size 17078?><?image-md5 0fd19cf4e2d87fc980cf584fa060bde0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 292?><?image-original-width 1064?><?image-scaled-height 292?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/0fd19cf4e2d8/EMI-28-e70402-g001.webp?><?thumb-name EMI-28-e70402-g001.gif?><?thumb-size 3381?><?thumb-md5 84a5576d17b66867019eae0dd2e4a9bf?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 55?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f969/13547887/84a5576d17b6/EMI-28-e70402-g001.gif?></graphic></fig><p>Post hoc pairwise analysis showed that at T4, microbial community structure differed significantly between all treatments except between antibiotic and antibiotic + heatwave, and between control and heatwave‐treated sponges (Figure <xref rid="emi70402-fig-0002" ref-type="fig">2</xref>; Table <xref rid="emi70402-tbl-0002" ref-type="table">2</xref>). At this time point, divergence in community composition was greater between control and antibiotic‐treated sponges compared to T1 (Figure <xref rid="emi70402-fig-0002" ref-type="fig">2</xref>; Table <xref rid="emi70402-tbl-0002" ref-type="table">2</xref> and Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S3</xref>). At TEnd, significant differences were observed between control and antibiotic, control and antibiotic + heatwave, antibiotic and heatwave, antibiotic + heatwave and heatwave, and control and heatwave‐treated sponges. No significant difference was found between antibiotic and antibiotic + heatwave treatments (Figure <xref rid="emi70402-fig-0002" ref-type="fig">2</xref>; Table <xref rid="emi70402-tbl-0002" ref-type="table">2</xref>). No differences in dispersion of microbial communities from their group centroids between treatments were detected at T1 or TEnd (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S4</xref>; Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S6</xref>).</p><table-wrap position="float" id="emi70402-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Post hoc pairwise analyses of PERMANOVA results showing differences in microbial community composition between treatments at T4 and TEnd.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Time</th><th align="center" valign="bottom" rowspan="1" colspan="1">Pairs</th><th align="center" valign="bottom" rowspan="1" colspan="1">DF</th><th align="center" valign="bottom" rowspan="1" colspan="1">SS</th><th align="center" valign="bottom" rowspan="1" colspan="1">F value</th><th align="center" valign="bottom" rowspan="1" colspan="1">R<sup>2</sup>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> (BH)</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="6" valign="top" colspan="1">T4</td><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic vs. Antibiotic + Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.1112</td><td align="center" valign="top" rowspan="1" colspan="1">0.8431</td><td align="center" valign="top" rowspan="1" colspan="1">0.0778</td><td align="center" valign="top" rowspan="1" colspan="1">0.5092</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic vs. Control</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.4472</td><td align="center" valign="top" rowspan="1" colspan="1">4.5473</td><td align="center" valign="top" rowspan="1" colspan="1">0.3126</td><td align="center" valign="top" rowspan="1" colspan="1">0.0226<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic vs. Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.4935</td><td align="center" valign="top" rowspan="1" colspan="1">4.1911</td><td align="center" valign="top" rowspan="1" colspan="1">0.2953</td><td align="center" valign="top" rowspan="1" colspan="1">0.0226<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic + Heatwave vs. Control</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.3170</td><td align="center" valign="top" rowspan="1" colspan="1">4.0254</td><td align="center" valign="top" rowspan="1" colspan="1">0.2870</td><td align="center" valign="top" rowspan="1" colspan="1">0.0234<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic + Heatwave vs. Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.2983</td><td align="center" valign="top" rowspan="1" colspan="1">3.0389</td><td align="center" valign="top" rowspan="1" colspan="1">0.2331</td><td align="center" valign="top" rowspan="1" colspan="1">0.0226<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Control vs. Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.1269</td><td align="center" valign="top" rowspan="1" colspan="1">1.9636</td><td align="center" valign="top" rowspan="1" colspan="1">0.1641</td><td align="center" valign="top" rowspan="1" colspan="1">0.0715</td></tr><tr><td align="left" rowspan="6" valign="top" colspan="1">TEnd</td><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic vs. Antibiotic + Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.0822</td><td align="center" valign="top" rowspan="1" colspan="1">0.6586</td><td align="center" valign="top" rowspan="1" colspan="1">0.0618</td><td align="center" valign="top" rowspan="1" colspan="1">0.7363</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic vs. Control</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.4460</td><td align="center" valign="top" rowspan="1" colspan="1">5.6739</td><td align="center" valign="top" rowspan="1" colspan="1">0.3620</td><td align="center" valign="top" rowspan="1" colspan="1">0.0060<xref rid="emi70402-note-0004" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic vs. Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.5142</td><td align="center" valign="top" rowspan="1" colspan="1">4.4668</td><td align="center" valign="top" rowspan="1" colspan="1">0.3088</td><td align="center" valign="top" rowspan="1" colspan="1">0.0206<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic + Heatwave vs. Control</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.5198</td><td align="center" valign="top" rowspan="1" colspan="1">5.6331</td><td align="center" valign="top" rowspan="1" colspan="1">0.3603</td><td align="center" valign="top" rowspan="1" colspan="1">0.0060<xref rid="emi70402-note-0004" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Antibiotic + Heatwave vs. Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.4683</td><td align="center" valign="top" rowspan="1" colspan="1">3.6362</td><td align="center" valign="top" rowspan="1" colspan="1">0.2667</td><td align="center" valign="top" rowspan="1" colspan="1">0.0206<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Control vs. Heatwave</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">0.1562</td><td align="center" valign="top" rowspan="1" colspan="1">1.8922</td><td align="center" valign="top" rowspan="1" colspan="1">0.1591</td><td align="center" valign="top" rowspan="1" colspan="1">0.0409<xref rid="emi70402-note-0003" ref-type="table-fn">*</xref>
+</td></tr></tbody></table><table-wrap-foot id="emi70402-ntgp-0002"><fn id="emi70402-note-0003"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn><fn id="emi70402-note-0004"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.01.</p></fn></table-wrap-foot></table-wrap><p>Linear mixed effect models found that treatment, and the interaction between treatment and time, significantly affected ASV richness, whereas time alone had no effect (Table <xref rid="emi70402-tbl-0003" ref-type="table">3</xref>). Pielou's evenness and Shannon diversity were affected by time, treatment, and their interaction (Table <xref rid="emi70402-tbl-0003" ref-type="table">3</xref>). ASV richness was significantly lower in antibiotic‐treated sponges compared to controls at T1, T4, and TEnd, and lower than heatwave‐treated sponges at T4. At TEnd, ASV richness was also significantly lower in heatwave and antibiotic + heatwave treated sponges compared to controls (Figure <xref rid="emi70402-fig-0003" ref-type="fig">3</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S6</xref>). Pielou's evenness was significantly higher in antibiotic, heatwave, and antibiotic + heatwave treated sponges when compared to controls at T4, and remained higher in antibiotic‐treated sponges compared to heatwave‐treated sponges at T4 and TEnd. At TEnd, evenness was also higher in antibiotic + heatwave treatments compared to control and heatwave treatments (Figure <xref rid="emi70402-fig-0003" ref-type="fig">3</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S7</xref>). Shannon diversity did not differ between control and antibiotic treatments at T1, but was higher in heatwave, antibiotic, and antibiotic + heatwave treatments at T4. At TEnd, Shannon diversity was higher in antibiotic and antibiotic + heatwave treatments compared to heatwave alone (Figure <xref rid="emi70402-fig-0003" ref-type="fig">3</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S8</xref>).</p><table-wrap position="float" id="emi70402-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Results from linear mixed effect models showing effects of time, treatment and their interaction on (A) species richness, (B) Pielou's evenness, and (C) Shannon diversity of sponge microbial communities.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">DF</th><th align="center" valign="bottom" rowspan="1" colspan="1">SS</th><th align="center" valign="bottom" rowspan="1" colspan="1">MS</th><th align="center" valign="bottom" rowspan="1" colspan="1">F value</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" colspan="6" valign="top" rowspan="1">(A) Richness</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Treatment</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">53.5884</td><td align="center" valign="top" rowspan="1" colspan="1">17.8628</td><td align="center" valign="top" rowspan="1" colspan="1">6.1631</td><td align="center" valign="top" rowspan="1" colspan="1">0.0013<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Time</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">17.9874</td><td align="center" valign="top" rowspan="1" colspan="1">8.9937</td><td align="center" valign="top" rowspan="1" colspan="1">3.1030</td><td align="center" valign="top" rowspan="1" colspan="1">0.0546</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Treatment × Time</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">35.8656</td><td align="center" valign="top" rowspan="1" colspan="1">8.9664</td><td align="center" valign="top" rowspan="1" colspan="1">3.0936</td><td align="center" valign="top" rowspan="1" colspan="1">0.0256<xref rid="emi70402-note-0005" ref-type="table-fn">*</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(B) Evenness</td><td align="center" valign="top" rowspan="1" colspan="1">DF</td><td align="center" valign="top" rowspan="1" colspan="1">SS</td><td align="center" valign="top" rowspan="1" colspan="1">MS</td><td align="center" valign="top" rowspan="1" colspan="1">F value</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Treatment</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">0.1852</td><td align="center" valign="top" rowspan="1" colspan="1">0.0617</td><td align="center" valign="top" rowspan="1" colspan="1">22.9104</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Time</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">0.1285</td><td align="center" valign="top" rowspan="1" colspan="1">0.0643</td><td align="center" valign="top" rowspan="1" colspan="1">23.8497</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Treatment × Time</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">0.0535</td><td align="center" valign="top" rowspan="1" colspan="1">0.0134</td><td align="center" valign="top" rowspan="1" colspan="1">4.9626</td><td align="center" valign="top" rowspan="1" colspan="1">0.0016<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(C) Shannon</td><td align="center" valign="top" rowspan="1" colspan="1">DF</td><td align="center" valign="top" rowspan="1" colspan="1">SS</td><td align="center" valign="top" rowspan="1" colspan="1">MS</td><td align="center" valign="top" rowspan="1" colspan="1">F value</td><td align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Treatment</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">0.2995</td><td align="center" valign="top" rowspan="1" colspan="1">0.0998</td><td align="center" valign="top" rowspan="1" colspan="1">8.1149</td><td align="center" valign="top" rowspan="1" colspan="1">0.0003<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Time</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">0.8109</td><td align="center" valign="top" rowspan="1" colspan="1">0.4054</td><td align="center" valign="top" rowspan="1" colspan="1">32.9583</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Treatment × Time</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">0.3360</td><td align="center" valign="top" rowspan="1" colspan="1">0.0840</td><td align="center" valign="top" rowspan="1" colspan="1">6.8287</td><td align="center" valign="top" rowspan="1" colspan="1">0.0002<xref rid="emi70402-note-0006" ref-type="table-fn">**</xref>
+</td></tr></tbody></table><table-wrap-foot id="emi70402-ntgp-0003"><fn id="emi70402-note-0005"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn><fn id="emi70402-note-0006"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.01.</p></fn></table-wrap-foot></table-wrap><fig position="float" fig-type="FIGURE" id="emi70402-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Box and whisker plot of median (with 25th, 50th and 75th percentile, plus outliers), species richness, Pielou's evenness, Shannon diversity and Simpson's diversity (based on samples rarefied to the minimum read depth) of sponge microbial communities at different time points throughout the experiment, split between treatments. *a = control and heatwave treatments differ significantly, *b = control and antibiotic treatments differ significantly, *c = control and antibiotic + heatwave treatments differ significantly, *d = heatwave and antibiotic treatments differ significantly, and *e = heatwave and antibiotic + heatwave treatments differ significantly.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="EMI-28-e70402-g003.webp"><?image-name EMI-28-e70402-g003.webp?><?image-size 41786?><?image-md5 018789fe1d1ee779c7c979eb1b8dd013?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 816?><?image-original-width 1004?><?image-scaled-height 816?><?image-scaled-width 1004?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/018789fe1d1e/EMI-28-e70402-g003.webp?><?thumb-name EMI-28-e70402-g003.gif?><?thumb-size 9970?><?thumb-md5 34a53e4c07b35e73db6b5fdcdc134021?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 163?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f969/13547887/34a53e4c07b3/EMI-28-e70402-g003.gif?></graphic></fig></sec><sec id="emi70402-sec-0013"><label>3.2</label><title>Taxonomic Changes in Microbiome During <styled-content style="fixed-case" toggle="no">MHW</styled-content> Differ With Antibiotic Treatment</title><p>At all timepoints, under all treatments, the microbial family with the highest relative read abundance was <italic toggle="yes">Nitrosopumilaceae</italic>, making up between 32.6% and 62.0% of the total reads. At T1, the microbial family with the second highest relative read abundance under control conditions was <italic toggle="yes">Rhodospirillaceae</italic>, making up between 10.7% and 13.9% of total reads, whereas under antibiotic treatment this was <italic toggle="yes">Ga0077536</italic>, making up between 14.5% and 18.0% of the total reads. Other abundant families across the majority of times and treatments included <italic toggle="yes">Nitrospinaceae, GCA‐014175295, GLO‐3</italic> and <italic toggle="yes">Thiohalobacteraceae</italic> (Figure <xref rid="emi70402-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="emi70402-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Relative read abundance of the most abundant microbial families at each time point under each treatment. It should be noted that at T1, antibiotic treatment had been administered, but there had been no heatwave treatment, so “heatwave” sponges are under the same conditions as control sponges at this time point, and “antibiotic + heatwave” sponges were under the same conditions as antibiotic‐treated sponges at this time point.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="EMI-28-e70402-g004.webp"><?image-name EMI-28-e70402-g004.webp?><?image-size 78266?><?image-md5 4f166d74b67bdfbd9aa8ae71dc543d74?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1017?><?image-original-width 1064?><?image-scaled-height 1017?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/4f166d74b67b/EMI-28-e70402-g004.webp?><?thumb-name EMI-28-e70402-g004.gif?><?thumb-size 17957?><?thumb-md5 8922082596f3633adbb62f8f501c9c5b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 191?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f969/13547887/8922082596f3/EMI-28-e70402-g004.gif?></graphic></fig><p>In terms of changes in relative abundances, after antibiotic treatment but before heatwave treatment at T1, ANCOM‐BC2 analysis showed significant differences in the relative read abundance of 23 microbial families between control and antibiotic‐treated sponges. Of these, the ones with the highest relative read abundances were <italic toggle="yes">Flavobacteriaceae, Schleiferiaceae, Alteromonadaceae, Rhodobacteraceae, UBA868, Pelagibacteraceae, Pirellulaceae</italic> and <italic toggle="yes">Enterobacteriaceae</italic> (Figure <xref rid="emi70402-fig-0004" ref-type="fig">4</xref>). All families which differed significantly at this time point increased in relative read abundance in the antibiotic‐treated samples, except <italic toggle="yes">Aestuariivirgaceae</italic>, which decreased (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S9</xref>; Figure <xref rid="emi70402-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="emi70402-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Results from ANCOMBC analysis showing differentially abundant microbial families between treatments at (A) T1, (B) T4 and (C) TEnd. Log fold changes are on the natural log scale and indicate changes in relative read abundance. NB at T1 after antibiotic treatment, but before temperature treatment, control and heatwave sponges were grouped as ‘control’, and antibiotic and antibiotic + heatwave sponges were grouped as ‘antibiotic’, so A shows differences between only control and antibiotic‐treated sponges.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="EMI-28-e70402-g007.webp"><?image-name EMI-28-e70402-g007.webp?><?image-size 221768?><?image-md5 4febaa1d9df75421b20614dc34b3e690?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1672?><?image-original-width 1064?><?image-scaled-height 1672?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/4febaa1d9df7/EMI-28-e70402-g007.webp?><?thumb-name EMI-28-e70402-g007.gif?><?thumb-size 8502?><?thumb-md5 2167eb531fc2d5200cd687ed90a7aecd?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 127?><?thumb-cloudpmc-urn urn:cdn:blobs/f969/13547887/2167eb531fc2/EMI-28-e70402-g007.gif?></graphic></fig><p>At T4, there were nine microbial families which differed in relative read abundance between control and antibiotic‐treated sponges, however none of these except <italic toggle="yes">Aestuariivirgaceae</italic> were the same families which had differed at T1, and conversely to T1 no families significantly increased in relative read abundance under antibiotic treatment, but instead all decreased (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S10</xref>; Figure <xref rid="emi70402-fig-0005" ref-type="fig">5</xref>). Of those which differed, the families with the highest relative read abundance were <italic toggle="yes">Rhodospirillaceae, NAC60‐12</italic> and <italic toggle="yes">Thiohalobacteraceae</italic> (Figure <xref rid="emi70402-fig-0004" ref-type="fig">4</xref>). Only one microbial family, <italic toggle="yes">Akkermansiaceae</italic>, differed significantly in relative read abundance between control and heatwave conditions at T4, and decreased under heatwave conditions (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S10</xref>; Figure <xref rid="emi70402-fig-0005" ref-type="fig">5</xref>). The microbial families which differed under antibiotic + heatwave treatment when compared to control conditions were the same as those which differed under antibiotic treatment alone, except <italic toggle="yes">Sphingomonadaceae</italic> and <italic toggle="yes">Endozoicomonadaceae</italic>, which did not differ under heatwave + antibiotic treatment yet decreased under antibiotic treatment alone, and <italic toggle="yes">GLO‐3</italic>, which did not differ under antibiotic treatment alone but decreased in relative read abundance under antibiotic + heatwave conditions (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S10</xref>; Figure <xref rid="emi70402-fig-0005" ref-type="fig">5</xref>).</p><p>At TEnd (i.e., after recovery), there were fewer microbial families that differed in relative read abundance between treatments when compared to previous time points, suggesting recovery from dysbiosis and heat treatment. Interestingly, <italic toggle="yes">Akkermansiaceae</italic> no longer differed between control and heatwave or control and antibiotic‐treated sponges, however it was still significantly less abundant in antibiotic + heatwave treated sponges when compared to control sponges, suggesting slower recovery under combined treatments (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S12</xref>; Figure <xref rid="emi70402-fig-0004" ref-type="fig">4</xref>). Additionally, the family <italic toggle="yes">Tenderiaceae</italic> had a significantly lower read abundance at this time point under antibiotic and antibiotic + heatwave conditions when compared to control sponges, despite not having differed significantly between any treatments at previous time points, pointing to some latent effects of the antibiotic treatment (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S12</xref>; Figure <xref rid="emi70402-fig-0004" ref-type="fig">4</xref>).</p></sec><sec id="emi70402-sec-0014"><label>3.3</label><title>Respiration Analysis Shows Differential Response During <styled-content style="fixed-case" toggle="no">MHW</styled-content>
+</title><p>A linear mixed effects model showed that time, treatment, and the interactions between treatment and time all significantly affected sponge respiration rate (Table <xref rid="emi70402-tbl-0004" ref-type="table">4</xref>). Pairwise comparisons between time points showed that respiration rate did not differ significantly between any treatments at T1, T2, or T3 (Figure <xref rid="emi70402-fig-0006" ref-type="fig">6</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S12</xref>). At T4, respiration rate of heatwave‐treated sponges was significantly higher than that of control sponges, and respiration rate of sponges under antibiotic + heatwave treatment was significantly higher than those of antibiotic‐treated sponges and control sponges (Figure <xref rid="emi70402-fig-0006" ref-type="fig">6</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S12</xref>). Although respiration rates did not differ significantly between heatwave and antibiotic + heatwave treatments, the estimated difference in respiration between antibiotic + heatwave and control sponges was larger than that between heatwave and control sponges (Figure <xref rid="emi70402-fig-0006" ref-type="fig">6</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S12</xref>). Interestingly at TEnd, antibiotic‐treated sponges had significantly lower respiration rates compared to heatwave‐treated sponges, despite respiration rates not differing between any other pairs of treatments (Figure <xref rid="emi70402-fig-0006" ref-type="fig">6</xref>; Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S12</xref>).</p><table-wrap position="float" id="emi70402-tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>Results from linear mixed effect models showing effects of time, treatment and their interaction on sponge respiration rate.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">DF</th><th align="center" valign="bottom" rowspan="1" colspan="1">SS</th><th align="center" valign="bottom" rowspan="1" colspan="1">MS</th><th align="center" valign="bottom" rowspan="1" colspan="1">F value</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> (BH)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Treatment</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">0.0967</td><td align="center" valign="top" rowspan="1" colspan="1">0.0322</td><td align="center" valign="top" rowspan="1" colspan="1">4.8709</td><td align="center" valign="top" rowspan="1" colspan="1">0.0042<xref rid="emi70402-note-0008" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">0.4155</td><td align="center" valign="top" rowspan="1" colspan="1">0.1039</td><td align="center" valign="top" rowspan="1" colspan="1">15.7008</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0008" ref-type="table-fn">**</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Treatment × Time</td><td align="center" valign="top" rowspan="1" colspan="1">10</td><td align="center" valign="top" rowspan="1" colspan="1">0.2706</td><td align="center" valign="top" rowspan="1" colspan="1">0.0271</td><td align="center" valign="top" rowspan="1" colspan="1">4.0896</td><td align="center" valign="top" rowspan="1" colspan="1">0.0001<xref rid="emi70402-note-0008" ref-type="table-fn">**</xref>
+</td></tr></tbody></table><table-wrap-foot id="emi70402-ntgp-0004"><fn id="emi70402-note-0007"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn><fn id="emi70402-note-0008"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.01.</p></fn></table-wrap-foot></table-wrap><fig position="float" fig-type="FIGURE" id="emi70402-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Median respiration rate (with 25th and 75th percentile, plus outliers) of sponges under each treatment at each time point throughout the experimental period. *a = control and heatwave treatments differ significantly, *b = control and antibiotic + heatwave treatments differ significantly, and *c = antibiotic and antibiotic + heatwave treatments differ significantly.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="EMI-28-e70402-g002.webp"><?image-name EMI-28-e70402-g002.webp?><?image-size 22104?><?image-md5 d49ff0819c0a533c27bececb0204c0cb?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 801?><?image-original-width 1064?><?image-scaled-height 801?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/f969/13547887/d49ff0819c0a/EMI-28-e70402-g002.webp?><?thumb-name EMI-28-e70402-g002.gif?><?thumb-size 6077?><?thumb-md5 0b4dea428cc17fec5bedcfbd6cc44557?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 151?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f969/13547887/0b4dea428cc1/EMI-28-e70402-g002.gif?></graphic></fig></sec><sec id="emi70402-sec-0015"><label>3.4</label><title>Changes in Specific Microbiome Members Correlate With Physiological Responses</title><p>Univariate tests identified 18 ASVs with read counts that significantly correlated with respiration rate. However, after Benjamini‐Hochberg correction, none of the correlations remained significant (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S13</xref>), suggesting that the observed differences in community structure may be driven by multiple, modest changes across ASVs rather than a small number of strongly responsive ASVs. When ASV counts were aggregated at the family level, we identified eight families with read counts significantly correlated to respiration rate, all of which remained significant after <italic toggle="yes">p</italic>‐value correction. These families were <italic toggle="yes">SOKP01, Akkermanciaceae</italic>, and <italic toggle="yes">UBA8477</italic> (all negatively correlated with respiration rate), and <italic toggle="yes">Rhodospirillaceae, Desulfobacteraceae</italic>, <italic toggle="yes">UBA2595</italic>, <italic toggle="yes">Alteromonadaceae</italic>, and <italic toggle="yes">Schleiferiaceae</italic> (all positively correlated with respiration rate) (Table <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S14</xref>; Figure <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">S8</xref>). Of these, <italic toggle="yes">Akkermansiacea, Rhodospirillaceae, Alteromonadaceae</italic> and <italic toggle="yes">Schleiferiaceae</italic> all differed significantly between treatments at least at one time point (Figure <xref rid="emi70402-fig-0004" ref-type="fig">4</xref>).</p></sec></sec><sec sec-type="discussion" id="emi70402-sec-0016"><label>4</label><title>Discussion</title><p>This study aimed to disentangle the individual and combined effects of marine heatwaves (MHWs) and experimentally induced microbiome disruption on the physiological responses of the temperate sponge <italic toggle="yes">Rowella lancifera</italic>. Our results show that while antibiotic treatment and MHW conditions individually altered microbial diversity and community structure, their combined effects resulted in distinct physiological and microbial responses compared to either treatment alone. These findings suggest that microbial community composition may play a role in sponge physiological responses to thermal exposure, with implications for predicting sponge health and ecosystem functioning under future climate scenarios.</p><sec id="emi70402-sec-0017"><label>4.1</label><title>Antibiotic Treatment Causes Dysbiosis</title><p>Exposure to antibiotics caused significant changes to the microbial communities associated with <italic toggle="yes">R. lancifera</italic>, including reduced ASV richness, increased community dispersion, and shifts in overall microbial community structure. The increase in dispersion of microbial communities between antibiotic‐treated sponge individuals is consistent with the “Anna Karenina principle,” whereby healthy microbiomes tend to be similar, whilst those in a dysbiotic state exhibit greater variability and unique characteristics (Zaneveld et al. <xref rid="emi70402-bib-0095" ref-type="bibr">2017</xref>). This is also supported by the decrease in ASV richness seen after antibiotic treatment, which is also seen the microbiomes of other marine invertebrates (Connelly et al. <xref rid="emi70402-bib-0023" ref-type="bibr">2023</xref>; Griffin et al. <xref rid="emi70402-bib-0041" ref-type="bibr">2021</xref>). Interestingly, ASV evenness increased as a result of antibiotic treatment, indicating a loss of dominant and potentially functionally important microbial taxa. This could open up ecological niches, allowing opportunistic microbes to colonise or increase in abundance (Webster and Taylor <xref rid="emi70402-bib-0089" ref-type="bibr">2012</xref>; Gardères et al. <xref rid="emi70402-bib-0035" ref-type="bibr">2015</xref>). The increases seen in the relative read abundance of certain microbial families including <italic toggle="yes">Arcobacteraceae</italic>, <italic toggle="yes">Pelagibacteraceae</italic>, <italic toggle="yes">Flavobacteriaceae</italic> and <italic toggle="yes">Rhodobacteraceae</italic>, some of which are known to contain disease‐causing genera (Buchan et al. <xref rid="emi70402-bib-0017" ref-type="bibr">2005</xref>; Collado and Figueras <xref rid="emi70402-bib-0021" ref-type="bibr">2011</xref>; Starliper <xref rid="emi70402-bib-0077" ref-type="bibr">2011</xref>) immediately after antibiotic treatment could be evidence of an increase in opportunistic bacteria filling niches opened up by the initial effects of antibiotic treatment. This response supports previous findings that sponge‐associated microbiomes, although generally stable, can be sensitive to external disruption (Pita et al. <xref rid="emi70402-bib-0064" ref-type="bibr">2018</xref>; Fan et al. <xref rid="emi70402-bib-0030" ref-type="bibr">2012</xref>; Erwin et al. <xref rid="emi70402-bib-0028" ref-type="bibr">2012</xref>; Morrow et al. <xref rid="emi70402-bib-0055" ref-type="bibr">2016</xref>).</p></sec><sec id="emi70402-sec-0018"><label>4.2</label><title>Marine Heatwaves Alone Cause Minor Changes to Native Microbiome</title><p>Unlike the antibiotic treatment, which increased community dispersion and caused immediate disruption to the sponge microbiome, heat exposure led to more structured microbiome changes that did not become apparent until the recovery period. The lesser impact of temperature on community structure when compared to antibiotic treatment suggests that the MHW treatment may have selectively impacted thermally sensitive taxa, rather than causing a random community collapse (Bell et al. <xref rid="emi70402-bib-0009" ref-type="bibr">2024</xref>; Strano et al. <xref rid="emi70402-bib-0082" ref-type="bibr">2023</xref>; de Castro‐Fernández et al. <xref rid="emi70402-bib-0019" ref-type="bibr">2023</xref>). These taxon‐specific effects are also supported by the fact that many microbial families differed significantly between control and antibiotic‐treated sponges, yet only <italic toggle="yes">Akkermansiaceae</italic> significantly decreased under MHW conditions alone when compared to controls. Our results suggest that mild thermal exposure alone may not be sufficient to substantially alter the native microbiome of <italic toggle="yes">R. lancifera</italic>, which has also been observed in other sponge species (de Castro‐Fernández et al. <xref rid="emi70402-bib-0019" ref-type="bibr">2023</xref>; Strand et al. <xref rid="emi70402-bib-0080" ref-type="bibr">2017</xref>). In many sponge species, the microbial community remains stable across spatial and temporal gradients, even under changing environmental conditions (Thomas et al. <xref rid="emi70402-bib-0084" ref-type="bibr">2016</xref>; Steinert et al. <xref rid="emi70402-bib-0079" ref-type="bibr">2017</xref>; Glasl et al. <xref rid="emi70402-bib-0037" ref-type="bibr">2018</xref>; Lamb and Watts <xref rid="emi70402-bib-0046" ref-type="bibr">2023</xref>). However, as we are likely to see an increase in frequency and intensity of MHW events in the future (Oliver et al. <xref rid="emi70402-bib-0057" ref-type="bibr">2018</xref>), and we did see some delayed responses in terms of shifts in microbial community structure after MHW exposure, the microbiome of <italic toggle="yes">R. lancifera</italic> may still be impacted under future ocean conditions.</p></sec><sec id="emi70402-sec-0019"><label>4.3</label><title>Sponge Physiological Response During <styled-content style="fixed-case" toggle="no">MHW</styled-content> and Microbial Dysbiosis</title><p>We found an increase in respiration rate in sponges under MHW conditions when compared to controls. Increased respiration rate has often been recorded in sponges under elevated temperature conditions, and as a result increased respiration rates are often used as a measure of physiological response to environmental change (Strano et al. <xref rid="emi70402-bib-0081" ref-type="bibr">2022</xref>; Bennett et al. <xref rid="emi70402-bib-0011" ref-type="bibr">2017</xref>; Ramsby et al. <xref rid="emi70402-bib-0068" ref-type="bibr">2018</xref>). While respiration increases with temperature due to metabolic acceleration (Brown et al. <xref rid="emi70402-bib-0016" ref-type="bibr">2004</xref>), elevated respiration under thermal exposure has been associated with physiological dysfunction in sponges when considered alongside other indicators. For example, increased oxygen consumption under elevated temperature has been linked to reduced biomass, altered cellular processes, and upregulation of stress‐related proteins, indicating disruption of cellular homeostasis (Bosch‐Belmar et al. <xref rid="emi70402-bib-0013" ref-type="bibr">2023</xref>). Similarly, elevated temperatures can decouple metabolic demand from energy acquisition, with respiration remaining high while feeding rates decline, resulting in a negative energy balance that may impair long‐term survival (Beepat et al. <xref rid="emi70402-bib-0006" ref-type="bibr">2021</xref>). Together, these findings suggest that increased respiration may reflect heightened energetic demand under thermal exposure and, when coupled with additional physiological changes, can be indicative of stress.</p><p>Interestingly, although antibiotic treatment did cause shifts in the sponges' microbial community structure, this effect alone did not induce responses in the form of increased respiration. This lack of response suggests that <italic toggle="yes">R. lancifera</italic> is able to manage short‐term shifts in microbial community structure without any detrimental effects. This has been seen in previous studies where microbiomes have shifted naturally in response to external stressors (Gastaldi et al. <xref rid="emi70402-bib-0036" ref-type="bibr">2024</xref>; Vargas et al. <xref rid="emi70402-bib-0087" ref-type="bibr">2021</xref>). Some sponge species show a degree of microbiome plasticity or functional redundancy, which may allow them to recover from microbial disruptions (Sacristán‐Soriano et al. <xref rid="emi70402-bib-0073" ref-type="bibr">2020</xref>; Freeman et al. <xref rid="emi70402-bib-0032" ref-type="bibr">2021</xref>). This redundancy can help maintain essential microbial functions, such as nutrient cycling, chemical defence and immune modulation, even if specific microbial taxa are lost (Pita et al. <xref rid="emi70402-bib-0064" ref-type="bibr">2018</xref>; Gantt et al. <xref rid="emi70402-bib-0033" ref-type="bibr">2019</xref>). Such plasticity could enhance sponge resilience by enabling microbial community restructuring in response to environmental change (Erwin et al. <xref rid="emi70402-bib-0028" ref-type="bibr">2012</xref>; Björk et al. <xref rid="emi70402-bib-0012" ref-type="bibr">2013</xref>).</p><p>Respiration rates increased under heatwave treatments, consistent with the well‐established temperature dependence of metabolic rates in ectotherms (Brown et al. <xref rid="emi70402-bib-0016" ref-type="bibr">2004</xref>). While elevated respiration is often associated with physiological responses to environmental stressors in sponges (Strano et al. <xref rid="emi70402-bib-0081" ref-type="bibr">2022</xref>; Bennett et al. <xref rid="emi70402-bib-0011" ref-type="bibr">2017</xref>; Ramsby et al. <xref rid="emi70402-bib-0068" ref-type="bibr">2018</xref>; Bosch‐Belmar et al. <xref rid="emi70402-bib-0013" ref-type="bibr">2023</xref>; Beepat et al. <xref rid="emi70402-bib-0006" ref-type="bibr">2021</xref>), increased respiration alone cannot distinguish between thermodynamic acceleration of metabolism and physiological stress. Notably, respiration rates did not differ significantly between heatwave and antibiotic + heatwave treatments, suggesting that temperature was the primary driver of the observed response. However, the larger estimated difference in respiration between control and antibiotic + heatwave‐treated sponges compared with control and heatwave‐treated sponges indicates that microbiome disruption may have influenced the magnitude of the physiological response to warming. Further work integrating additional stress markers would be needed to determine whether microbiome disruption alters sponge thermal tolerance.</p></sec><sec id="emi70402-sec-0020"><label>4.4</label><title>Microbial Groups That Correlated With Physiological Response</title><p>Many families were impacted by antibiotic treatment, MHW exposure, or a combination of the two. However, the family <italic toggle="yes">Akkermansiaceae</italic> was the only to differ significantly between control and heatwave conditions alone, and was also one of the few families whose abundance was negatively correlated with respiration rate. Although microbes from the family <italic toggle="yes">Akkermansiaceae</italic> have not been functionally investigated in marine sponges, they are abundant in marine sediments and plankton blooms, and have recently been found a certain species of octocorals and kelps, where they were noted for their genetic potential for the degradation of sulphated methyl pentoses, dissimilatory nitrate and nitrite reduction, and urea hydrolysis (Orellana et al. <xref rid="emi70402-bib-0058" ref-type="bibr">2022</xref>; Weigel et al. <xref rid="emi70402-bib-0090" ref-type="bibr">2022</xref>; Monti et al. <xref rid="emi70402-bib-0054" ref-type="bibr">2023</xref>). Interestingly, this family is well described in vertebrate guts, including some marine vertebrates, where they facilitate the breakdown of mucin (Cheutin et al. <xref rid="emi70402-bib-0020" ref-type="bibr">2021</xref>; González et al. <xref rid="emi70402-bib-0039" ref-type="bibr">2023</xref>). Although sponges do not produce mucins, they possess mucin‐like molecules that play roles in microbial management and waste expulsion (Lang et al. <xref rid="emi70402-bib-0047" ref-type="bibr">2007</xref>; McGrath et al. <xref rid="emi70402-bib-0052" ref-type="bibr">2017</xref>; Bakshani et al. <xref rid="emi70402-bib-0004" ref-type="bibr">2018</xref>). If any of these important functions were impacted by a reduced abundance of microbes of the family <italic toggle="yes">Akkermansiaceae</italic>, then this could have negative consequences on the physiology of the sponge, including its respiration rate. Importantly, this family recovered after antibiotic treatment alone, and after MHW treatment alone, but was still significantly less abundant in sponges subjected to both treatments, highlighting the fact that dysbiosis has the potential to impact the resilience and recovery potential of <italic toggle="yes">R. lancifera</italic> to future MHW conditions.</p><p>The relative abundance of family <italic toggle="yes">Rhodospirillaceae</italic> also significantly (albeit positively) correlated with respiration rate and decreased in both antibiotic and antibiotic + heatwave treated sponges when compared to controls. <italic toggle="yes">Rhodospirillaceae</italic> are well described in sponge microbiomes and have the genetic capacity for aerobic sulfur oxidation and anaerobic denitrification (Karimi et al. <xref rid="emi70402-bib-0043" ref-type="bibr">2018</xref>; Sugden et al. <xref rid="emi70402-bib-0083" ref-type="bibr">2022</xref>). Increased respiration by the sponge will likely limit oxygen availability for the members of the family <italic toggle="yes">Rhodospirillaceae</italic>, which would then undertake heterotrophic denitrification over sulfur oxidation, which in turn would impact the S and N homeostasis in the microbiome. Further works is however required to understand how this could directly impact the sponge.</p></sec></sec><sec sec-type="conclusions" id="emi70402-sec-0021"><label>5</label><title>Conclusion</title><p>Our study suggests that the microbial community of the temperate sponge <italic toggle="yes">R. lancifera</italic> is associated with physiological responses to environmental change and is among the first studies to experimentally examine this relationship in a marine sponge. While both MHWs and antibiotic‐induced dysbiosis independently altered microbial community structure, temperature was the primary driver of changes in respiration rates. Although respiration rates did not differ significantly between heatwave and antibiotic + heatwave treatments at TEnd, the larger estimated difference in respiration between control and antibiotic + heatwave‐treated sponges at T4 suggests that microbiome disruption may influence short‐term physiological responses to warming. These findings highlight the potential importance of microbial‐mediated functions in maintaining host homeostasis and suggest that future increases in the frequency of anthropogenic stressors may affect sponge health and ecosystem functioning through microbial community disruption. There are likely to be cases in the future where dysbiosis occurs naturally in sponges as a result of direct and indirect anthropogenic impacts, including ocean acidification (Ribes et al. <xref rid="emi70402-bib-0070" ref-type="bibr">1999</xref>; Botté et al. <xref rid="emi70402-bib-0014" ref-type="bibr">2019</xref>), pollution (Gastaldi et al. <xref rid="emi70402-bib-0036" ref-type="bibr">2024</xref>; Vad et al. <xref rid="emi70402-bib-0086" ref-type="bibr">2022</xref>), and warming (Bell et al. <xref rid="emi70402-bib-0009" ref-type="bibr">2024</xref>; Strano et al. <xref rid="emi70402-bib-0082" ref-type="bibr">2023</xref>; Vargas et al. <xref rid="emi70402-bib-0087" ref-type="bibr">2021</xref>), potentially altering sponge responses to additional stressors such as MHWs. As climate change continues to intensify, understanding the role of sponge‐associated microbial communities may be important for predicting the resilience of benthic marine ecosystems.</p></sec><sec id="emi70402-sec-0029"><title>Author Contributions</title><p>
+<bold>James J. Bell:</bold> conceptualization, funding acquisition, writing – review and editing, methodology, supervision. <bold>Alice Rogers:</bold> writing – review and editing, supervision. <bold>Torsten Thomas:</bold> conceptualization, writing – review and editing, methodology. <bold>Manon Broadribb:</bold> conceptualization, investigation, writing – original draft, methodology, writing – review and editing, formal analysis, data curation.</p></sec><sec id="emi70402-sec-0023"><title>Funding</title><p>This work was supported by Victoria University of Wellington and George Mason Charitable Trust.</p></sec><sec id="emi70402-sec-0024"><title>Ethics Statement</title><p>The authors have nothing to report.</p></sec><sec sec-type="conclusions" id="emi70402-sec-0025"><title>Consent</title><p>The authors have nothing to report.</p></sec><sec sec-type="COI-statement" id="emi70402-sec-0026"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="emi70402-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1:</bold> Map of New Zealand and the Fiordland Marine Area showing the position of our sponge collection site in Bradshaw Sound, Doubtful Sound.</p><p>
+<bold>Figure S2:</bold> Schematic representation of experimental set up with flow through and temperature control systems.</p><p>
+<bold>Figure S3:</bold> Daily mean SST (black line) based on NOAA OISST data from the 1/4° area closest to my sampling sites between May 2020 and March 2023. The black dashed line indicates the climatological mean (calculated over the 1st January 1993 to 1st June 2023), the orange dashed line marks the 90th percentile threshold for a moderate MHW, and the red dashed line marks the strong MHW threshold, defined as the 90th percentile plus the difference between the climatological mean and the 90th percentile (Hobday et al. <xref rid="emi70402-bib-0096" ref-type="bibr">2018</xref>).</p><p>
+<bold>Figure S4:</bold> Regression of sponge ash‐free dry weight against buoyant weight, used to calculate ash‐free dry weight from buoyant weight measurements taken throughout the experiment.</p><p>
+<bold>Figure S5:</bold> Rarefaction curves representing the number of OTUs obtained for each of the sponges at T1, T4 and TEnd under each treatment.</p><p>
+<bold>Figure S6:</bold> Median distance (with 5th, 25th, 75th and 95th percentile, plus outliers) of microbial community samples to group centroids under each treatment at each time point.</p><p>
+<bold>Figure S7:</bold> Non‐metric multidimensional scaling (nMDS) plot of microbial communities at different time points under (A) control conditions, (B) heatwave treatment, (C) antibiotic treatment, and (D) antibiotic + heatwave treatment. Large points represent group centroids, small points represent individual samples, and ellipses represent 95% confidence around the centroid. NB at T0 all treatment tanks were under control conditions, and at T1 only antibiotic treatment had been administered. By T4 both antibiotic treatment and heat stress had been administered.</p><p>
+<bold>Figure S8:</bold> Scatter plots with trendlines showing the relationship between respiration rate and total read count of microbial families. Families plotted are those where the relationship was significant.</p><p>
+<bold>Table S1:</bold> Calculation of average time for <italic toggle="yes">R. lancifera</italic> to pump 4 L of water (i.e., one full treatment tank) to inform antibiotic incubation time without flow. Flow rate = oscula area × excurrent velocity × 0.0036 to give L/h. Hours before change = volume of tank/flow rate.</p><p>
+<bold>Table S2:</bold> Experimental phases by day and date, including temperature regime for heatwave and heatwave + antibiotic treated sponges. Control sponges and antibiotic treated sponges remained at 16°C throughout the experiment.</p><p>
+<bold>Table S3:</bold> Main results from PERMANOVA tests to show effect of treatment on microbial community structure at different time points throughout the experimental period. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S4:</bold> Results from PERMDISP analysis showing differences in dispersion of microbial communities from their group centroids between treatments at T4 and TEnd. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S5:</bold> Post hoc pairwise analyses of PERMANOVA results showing differences in microbial communities between time points under each treatment. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S6:</bold> Table of results from post hoc pairwise analyses of differences in mean ASV richness between microbial communities of sponges under different treatments at each time point.* = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S7:</bold> Table of results from post hoc pairwise analyses of differences in mean Pielou's evenness microbial communities of sponges under different treatments at each time point. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S8:</bold> Table of results from post hoc pairwise analyses of differences in mean Shannon diversity between microbial communities of sponges under different treatments at each time point. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S9:</bold> Results from ANCOMBC analysis showing differentially abundant microbial families between control and antibiotic treated sponges at T1. Log fold changes are on the natural log scale and indicate differences in antibiotic treated sponges when compared to control sponges. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S10:</bold> Results from ANCOMBC analysis showing differentially abundant microbial families between all treatments at T4. Log fold changes are on the natural log scale and indicate differences in antibiotic treated sponges when compared to control sponges. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S11:</bold> Results from ANCOMBC analysis showing differentially abundant microbial families between treatments at TEnd. Log fold changes are on the natural log scale and indicate differences in antibiotic treated sponges when compared to control sponges. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S12:</bold> Table of results from post hoc pairwise analyses of differences in mean respiration rate between sponges under different treatments at each time point. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S13:</bold> Results from multivariate GLM showing correlations between individual ASV read counts and respiration rate. ASVs listed are those which were significantly correlated with respiration rate before <italic toggle="yes">p</italic>‐value correction. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p><p>
+<bold>Table S14:</bold> Results from multivariate GLM showing correlations between individual family read counts and respiration rate. Families listed are those which were significantly correlated with respiration rate before <italic toggle="yes">p</italic>‐value correction. * = <italic toggle="yes">p</italic> &lt; 0.05, ** = <italic toggle="yes">p</italic> &lt; 0.01.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EMI-28-e70402-s001.docx" position="float" orientation="portrait"><?suppdata-name EMI-28-e70402-s001.docx?><?suppdata-size 1876570?><?suppdata-md5 2726c908c28e8480f6e44c45853ec1d1?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f969/13547887/2726c908c28e/EMI-28-e70402-s001.docx?></media></supplementary-material></sec></body><back><ack id="emi70402-sec-0022"><title>Acknowledgements</title><p>We would like to thank Victoria University of Wellington and the George Mason Charitable Trust for their financial support with both data collection and analysis. We would like to thank New Zealand Department of Conservation for facilitating field work. Open access publishing facilitated by Victoria University of Wellington, as part of the Wiley ‐ Victoria University of Wellington agreement via the Council of Australasian University Librarians.</p></ack><sec sec-type="data-availability" id="emi70402-sec-0028"><title>Data Availability Statement</title><p>The datasets generated and/or analysed during the current study, along with the R scripts used for data analysis, are available in the figshare repository, doi: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.30204412" ext-link-type="uri">10.6084/m9.figshare.30204412</ext-link>. The raw 16S rRNA gene amplicon sequencing data generated in this study have been deposited in the NCBI Sequence Read Archive (SRA) under BioSample accession numbers SAMN52852118–SAMN52852212, as part of BioProject PRJNA1347189. Associated metadata are available within the BioSample records and in the <xref rid="emi70402-supitem-0001" ref-type="supplementary-material">Supporting Information</xref> accompanying this article.</p></sec><ref-list content-type="cited-references" id="emi70402-bibl-0001"><title>References</title><ref id="emi70402-bib-0001"><mixed-citation publication-type="journal" id="emi70402-cit-0001">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>M. J.</given-names>
+</string-name>
+<year>2001</year>. “<article-title>A New Method for Non‐Parametric Multivariate Analysis of Variance</article-title>.” <source>Austral Ecology</source>
+<volume>26</volume>: <fpage>32</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.1111/j.1442-9993.2001.01070.pp.x</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0002"><mixed-citation publication-type="journal" id="emi70402-cit-0002">
+<string-name name-style="western">
+<surname>Anderson</surname>, <given-names>M. J.</given-names>
+</string-name>
+<year>2006</year>. “<article-title>Distance‐Based Tests for Homogeneity of Multivariate Dispersions</article-title>.” <source>Biometrics</source>
+<volume>62</volume>: <fpage>245</fpage>–<lpage>253</lpage>. <pub-id pub-id-type="doi">10.1111/j.1541-0420.2005.00440.x</pub-id>.<pub-id pub-id-type="pmid">16542252</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0003"><mixed-citation publication-type="journal" id="emi70402-cit-0003">
+<string-name name-style="western">
+<surname>Apprill</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>McNally</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Parsons</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Weber</surname>
+</string-name>. <year>2015</year>. “<article-title>Minor Revision to V4 Region SSU rRNA 806R Gene Primer Greatly Increases Detection of SAR11 Bacterioplankton</article-title>.” <source>Aquatic Microbial Ecology</source>
+<volume>75</volume>: <fpage>129</fpage>–<lpage>137</lpage>. <pub-id pub-id-type="doi">10.3354/ame01753</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0004"><mixed-citation publication-type="journal" id="emi70402-cit-0004">
+<string-name name-style="western">
+<surname>Bakshani</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Morales‐Garcia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Althaus</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Evolutionary Conservation of the Antimicrobial Function of Mucus: A First Defence Against Infection</article-title>.” <source>NPJ Biofilms Microbiomes</source>
+<volume>4</volume>: <fpage>14</fpage>. <pub-id pub-id-type="doi">10.1038/s41522-018-0057-2</pub-id>.<pub-id pub-id-type="pmid">30002868</pub-id>
+<pub-id pub-id-type="pmcid">PMC6031612</pub-id></mixed-citation></ref><ref id="emi70402-bib-0005"><mixed-citation publication-type="journal" id="emi70402-cit-0005">
+<string-name name-style="western">
+<surname>Bates</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mächler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Bolker</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Fitting Linear Mixed‐Effects Models Using lme4</article-title>.” <source>Journal of Statistical Software</source>
+<volume>67</volume>: <fpage>1</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v067.i01</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0006"><mixed-citation publication-type="journal" id="emi70402-cit-0006">
+<string-name name-style="western">
+<surname>Beepat</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Davy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Oakley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mashini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Peng</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Bell</surname>
+</string-name>. <year>2021</year>. “<article-title>Increased Cellular Detoxification, Cytoskeletal Activities and Protein Transport Explain Physiological Stress in a Lagoon Sponge</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>224</volume>, no. <issue>22</issue>: <elocation-id>jeb242820</elocation-id>. <pub-id pub-id-type="doi">10.1242/jeb.242820</pub-id>.<pub-id pub-id-type="pmid">34661236</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0007"><mixed-citation publication-type="journal" id="emi70402-cit-0007">
+<string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>McGrath</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. M.</given-names>
+<surname>Kandler</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Interocean Patterns in Shallow Water Sponge Assemblage Structure and Function</article-title>.” <source>Biological Reviews</source>
+<volume>95</volume>: <fpage>1720</fpage>–<lpage>1758</lpage>. <pub-id pub-id-type="doi">10.1111/brv.12637</pub-id>.<pub-id pub-id-type="pmid">32812691</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0009"><mixed-citation publication-type="journal" id="emi70402-cit-0009">
+<string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Micaroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Strano</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Marine Heatwave‐Driven Mass Mortality and Microbial Community Reorganisation in an Ecologically Important Temperate Sponge</article-title>.” <source>Global Change Biology</source>
+<volume>30</volume>: <elocation-id>e17417</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.17417</pub-id>.<pub-id pub-id-type="pmid">39105285</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0008"><mixed-citation publication-type="journal" id="emi70402-cit-0008">
+<string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Strano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Broadribb</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Sponge Functional Roles in a Changing World</article-title>.” <source>Advances in Marine Biology</source>
+<volume>95</volume>: <fpage>27</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1016/bs.amb.2023.07.002</pub-id>.<pub-id pub-id-type="pmid">37923539</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0010"><mixed-citation publication-type="journal" id="emi70402-cit-0010">
+<string-name name-style="western">
+<surname>Benjamini</surname>, <given-names>Y.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hochberg</surname>
+</string-name>. <year>1995</year>. “<article-title>Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing</article-title>.” <source>Journal of the Royal Statistical Society. Series B, Statistical Methodology</source>
+<volume>57</volume>: <fpage>289</fpage>–<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1111/j.2517-6161.1995.tb02031.x</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0011"><mixed-citation publication-type="journal" id="emi70402-cit-0011">
+<string-name name-style="western">
+<surname>Bennett</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Altenrath</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Woods</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Interactive Effects of Temperature and pCO<sub>2</sub> on Sponges: From the Cradle to the Grave</article-title>.” <source>Global Change Biology</source>
+<volume>23</volume>: <fpage>2031</fpage>–<lpage>2046</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.13474</pub-id>.<pub-id pub-id-type="pmid">27550825</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0012"><mixed-citation publication-type="journal" id="emi70402-cit-0012">
+<string-name name-style="western">
+<surname>Björk</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Díez‐Vives</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Coma</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Specificity and Temporal Dynamics of Complex Bacteria–Sponge Symbiotic Interactions</article-title>.” <source>Ecology</source>
+<volume>94</volume>: <fpage>2781</fpage>–<lpage>2791</lpage>. <pub-id pub-id-type="doi">10.1890/13-0557.1</pub-id>.<pub-id pub-id-type="pmid">24597224</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0013"><mixed-citation publication-type="journal" id="emi70402-cit-0013">
+<string-name name-style="western">
+<surname>Bosch‐Belmar</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Milanese</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sarà</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Mobilia</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sarà</surname>
+</string-name>. <year>2023</year>. “<article-title>Effect of Acute Thermal Stress Exposure on Ecophysiological Traits of the Mediterranean Sponge <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Chondrilla nucula</italic>
+</styled-content>: Implications for Climate Change</article-title>.” <source>Biology</source>
+<volume>3</volume>, no. <issue>1</issue>: <elocation-id>9</elocation-id>. <pub-id pub-id-type="doi">10.3390/biology13010009</pub-id>.<pub-id pub-id-type="pmcid">PMC10813260</pub-id><pub-id pub-id-type="pmid">38248440</pub-id></mixed-citation></ref><ref id="emi70402-bib-0015"><mixed-citation publication-type="journal" id="emi70402-cit-0015">
+<string-name name-style="western">
+<surname>Botté</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Engelberts</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Future Ocean Conditions Induce Necrosis, Microbial Dysbiosis and Nutrient Cycling Imbalance in the Reef Sponge <italic toggle="yes">Stylissa flabelliformis</italic>
+</article-title>.” <source>ISME Communications</source>
+<volume>3</volume>: <elocation-id>65</elocation-id>. <pub-id pub-id-type="doi">10.1038/s43705-023-00247-3</pub-id>.<pub-id pub-id-type="pmid">37311801</pub-id>
+<pub-id pub-id-type="pmcid">PMC10264452</pub-id></mixed-citation></ref><ref id="emi70402-bib-0014"><mixed-citation publication-type="journal" id="emi70402-cit-0014">
+<string-name name-style="western">
+<surname>Botté</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Abdul Wahab</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Changes in the Metabolic Potential of the Sponge Microbiome Under Ocean Acidification</article-title>.” <source>Nature Communications</source>
+<volume>10</volume>: <fpage>4134</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-019-12156-y</pub-id>.<pub-id pub-id-type="pmcid">PMC6742649</pub-id><pub-id pub-id-type="pmid">31515490</pub-id></mixed-citation></ref><ref id="emi70402-bib-0097"><mixed-citation publication-type="journal" id="emi70402-cit-0097">
+<string-name name-style="western">
+<surname>Broadribb</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rogers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Thomas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Micaroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Strano</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bell</surname>
+</string-name>. <year>2026</year>. “<article-title>Differing Temperature Regimes Have no Impact on the Heat Stress Response of Shallow and Upper‐Mesophotic Populations of a Temperate Calcareous Sponge</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>293</volume>, no. <issue>2064</issue>: <elocation-id>20251103</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2025.1103</pub-id>.<pub-id pub-id-type="pmid">41633513</pub-id></mixed-citation></ref><ref id="emi70402-bib-0016"><mixed-citation publication-type="journal" id="emi70402-cit-0016">
+<string-name name-style="western">
+<surname>Brown</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Gillooly</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Allen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. M.</given-names>
+<surname>Savage</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. B.</given-names>
+<surname>West</surname>
+</string-name>. <year>2004</year>. “<article-title>Toward a Metabolic Theory of Ecology</article-title>.” <source>Ecology</source>
+<volume>85</volume>, no. <issue>7</issue>: <fpage>1771</fpage>–<lpage>1789</lpage>. <pub-id pub-id-type="doi">10.1890/03-9000</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0017"><mixed-citation publication-type="journal" id="emi70402-cit-0017">
+<string-name name-style="western">
+<surname>Buchan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>González</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Moran</surname>
+</string-name>. <year>2005</year>. “<article-title>Overview of the Marine Roseobacter Lineage</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>71</volume>: <fpage>5665</fpage>–<lpage>5677</lpage>. <pub-id pub-id-type="doi">10.1128/AEM.71.10.5665-5677.2005</pub-id>.<pub-id pub-id-type="pmid">16204474</pub-id>
+<pub-id pub-id-type="pmcid">PMC1265941</pub-id></mixed-citation></ref><ref id="emi70402-bib-0018"><mixed-citation publication-type="journal" id="emi70402-cit-0018">
+<string-name name-style="western">
+<surname>Cameron</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Reymond</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bijma</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Impacts of Warming and Acidification on Coral Calcification Linked to Photosymbiont Loss and Deregulation of Calcifying Fluid pH</article-title>.” <source>Journal of Marine Science and Engineering</source>
+<volume>10</volume>: <elocation-id>1106</elocation-id>. <pub-id pub-id-type="doi">10.3390/jmse10081106</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0020"><mixed-citation publication-type="journal" id="emi70402-cit-0020">
+<string-name name-style="western">
+<surname>Cheutin</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Villéger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. C.</given-names>
+<surname>Hicks</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Microbial Shift in the Enteric Bacteriome of Coral Reef Fish Following Climate‐Driven Regime Shifts</article-title>.” <source>Microorganisms</source>
+<volume>9</volume>: <elocation-id>1711</elocation-id>. <pub-id pub-id-type="doi">10.3390/microorganisms9081711</pub-id>.<pub-id pub-id-type="pmid">34442789</pub-id>
+<pub-id pub-id-type="pmcid">PMC8398123</pub-id></mixed-citation></ref><ref id="emi70402-bib-0021"><mixed-citation publication-type="journal" id="emi70402-cit-0021">
+<string-name name-style="western">
+<surname>Collado</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Figueras</surname>
+</string-name>. <year>2011</year>. “<article-title>Taxonomy, Epidemiology, and Clinical Relevance of the Genus <italic toggle="yes">Arcobacter</italic>
+</article-title>.” <source>Clinical Microbiology Reviews</source>
+<volume>24</volume>: <fpage>174</fpage>–<lpage>192</lpage>. <pub-id pub-id-type="doi">10.1128/CMR.00034-10</pub-id>.<pub-id pub-id-type="pmid">21233511</pub-id>
+<pub-id pub-id-type="pmcid">PMC3021208</pub-id></mixed-citation></ref><ref id="emi70402-bib-0022"><mixed-citation publication-type="journal" id="emi70402-cit-0022">
+<string-name name-style="western">
+<surname>Connelly</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>McRae</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Martin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Traylor‐Knowles</surname>
+</string-name>. <year>2022</year>. “<article-title>Antibiotics Alter <italic toggle="yes">Pocillopora</italic> Coral‐Symbiodiniaceae‐Bacteria Interactions and Cause Microbial Dysbiosis During Heat Stress</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>8</volume>: <elocation-id>814124</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2021.814124</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0023"><mixed-citation publication-type="journal" id="emi70402-cit-0023">
+<string-name name-style="western">
+<surname>Connelly</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Snyder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Palacio‐Castro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. R.</given-names>
+<surname>Gillette</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Baker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Traylor‐Knowles</surname>
+</string-name>. <year>2023</year>. “<article-title>Antibiotics Reduce Pocillopora Coral‐Associated Bacteria Diversity, Decrease Holobiont Oxygen Consumption and Activate Immune Gene Expression</article-title>.” <source>Molecular Ecology</source>
+<volume>32</volume>, no. <issue>16</issue>: <fpage>4677</fpage>–<lpage>4694</lpage>. <pub-id pub-id-type="doi">10.1111/mec.17049</pub-id>.<pub-id pub-id-type="pmid">37317893</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0019"><mixed-citation publication-type="journal" id="emi70402-cit-0019">
+<string-name name-style="western">
+<surname>de Castro‐Fernández</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Ballesté</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Angulo‐Preckler</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>How Does Heat Stress Affect Sponge Microbiomes? Structure and Resilience of Microbial Communities of Marine Sponges From Different Habitats</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>9</volume>: <elocation-id>1072696</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2022.1072696</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0038"><mixed-citation publication-type="journal" id="emi70402-cit-0038">
+<string-name name-style="western">
+<surname>de Goeij</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Van Oevelen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J. A.</given-names>
+<surname>Vermeij</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Surviving in a Marine Desert: The Sponge Loop Retains Resources Within Coral Reefs</article-title>.” <source>Science</source>
+<volume>342</volume>, no. <issue>6154</issue>: <fpage>108</fpage>–<lpage>110</lpage>. <pub-id pub-id-type="doi">10.1126/science.1241981</pub-id>.<pub-id pub-id-type="pmid">24092742</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0024"><mixed-citation publication-type="journal" id="emi70402-cit-0024">
+<string-name name-style="western">
+<surname>DeWeese</surname>, <given-names>K. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Osborne</surname>
+</string-name>. <year>2021</year>. “<article-title>Understanding the Metabolome and Metagenome as Extended Phenotypes: The Next Frontier in Macroalgae Domestication and Improvement</article-title>.” <source>Journal of the World Aquaculture Society</source>
+<volume>52</volume>: <fpage>1009</fpage>–<lpage>1030</lpage>. <pub-id pub-id-type="doi">10.1111/jwas.12782</pub-id>.<pub-id pub-id-type="pmid">34732977</pub-id>
+<pub-id pub-id-type="pmcid">PMC8562568</pub-id></mixed-citation></ref><ref id="emi70402-bib-0025"><mixed-citation publication-type="journal" id="emi70402-cit-0025">
+<string-name name-style="western">
+<surname>Díez‐Vives</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Riesgo</surname>
+</string-name>. <year>2024</year>. “<article-title>High Compositional and Functional Similarity in the Microbiome of Deep‐Sea Sponges</article-title>.” <source>ISME Journal</source>
+<volume>18</volume>: <fpage>1</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1093/ismejo/wrad030</pub-id>.<pub-id pub-id-type="pmcid">PMC10837836</pub-id><pub-id pub-id-type="pmid">38365260</pub-id></mixed-citation></ref><ref id="emi70402-bib-0026"><mixed-citation publication-type="journal" id="emi70402-cit-0026">
+<string-name name-style="western">
+<surname>Eakin</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Morgan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. F.</given-names>
+<surname>Heron</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Caribbean Corals in Crisis: Record Thermal Stress, Bleaching, and Mortality in 2005</article-title>.” <source>PLoS One</source>
+<volume>5</volume>: <elocation-id>e13969</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0013969</pub-id>.<pub-id pub-id-type="pmid">21125021</pub-id>
+<pub-id pub-id-type="pmcid">PMC2981599</pub-id></mixed-citation></ref><ref id="emi70402-bib-0027"><mixed-citation publication-type="journal" id="emi70402-cit-0027">
+<string-name name-style="western">
+<surname>Efremova</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Mazzella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mirasole</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Divergent Morphological and Microbiome Strategies of Two Neighbor Sponges to Cope With Low pH in Mediterranean CO<sub>2</sub> Vents</article-title>.” <source>Science of the Total Environment</source>
+<volume>916</volume>: <elocation-id>170171</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2024.170171</pub-id>.<pub-id pub-id-type="pmid">38246375</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0028"><mixed-citation publication-type="journal" id="emi70402-cit-0028">
+<string-name name-style="western">
+<surname>Erwin</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Pita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>López‐Legentil</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Stability of Sponge‐Associated Bacteria Over Large Seasonal Shifts in Temperature and Irradiance</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>78</volume>: <fpage>7358</fpage>–<lpage>7368</lpage>. <pub-id pub-id-type="doi">10.1128/AEM.02035-12</pub-id>.<pub-id pub-id-type="pmid">22885741</pub-id>
+<pub-id pub-id-type="pmcid">PMC3457113</pub-id></mixed-citation></ref><ref id="emi70402-bib-0029"><mixed-citation publication-type="journal" id="emi70402-cit-0029">
+<string-name name-style="western">
+<surname>Ezzat</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Merolla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Clements</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Thermal Stress Interacts With Surgeonfish Feces to Increase Coral Susceptibility to Dysbiosis and Reduce Tissue Regeneration</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>12</volume>: <elocation-id>620458</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2021.620458</pub-id>.<pub-id pub-id-type="pmid">33841351</pub-id>
+<pub-id pub-id-type="pmcid">PMC8027513</pub-id></mixed-citation></ref><ref id="emi70402-bib-0031"><mixed-citation publication-type="journal" id="emi70402-cit-0031">
+<string-name name-style="western">
+<surname>Fan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Simister</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Marine Microbial Symbiosis Heats Up: The Phylogenetic and Functional Response of a Sponge Holobiont to Thermal Stress</article-title>.” <source>ISME Journal</source>
+<volume>7</volume>: <fpage>991</fpage>–<lpage>1002</lpage>. <pub-id pub-id-type="doi">10.1038/ismej.2012.165</pub-id>.<pub-id pub-id-type="pmid">23283017</pub-id>
+<pub-id pub-id-type="pmcid">PMC3635241</pub-id></mixed-citation></ref><ref id="emi70402-bib-0030"><mixed-citation publication-type="journal" id="emi70402-cit-0030">
+<string-name name-style="western">
+<surname>Fan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Reynolds</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Functional Equivalence and Evolutionary Convergence in Complex Communities of Microbial Sponge Symbionts</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>109</volume>: <fpage>E1878</fpage>–<lpage>E1887</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1203287109</pub-id>.<pub-id pub-id-type="pmid">22699508</pub-id>
+<pub-id pub-id-type="pmcid">PMC3390844</pub-id></mixed-citation></ref><ref id="emi70402-bib-0032"><mixed-citation publication-type="journal" id="emi70402-cit-0032">
+<string-name name-style="western">
+<surname>Freeman</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. G.</given-names>
+<surname>Easson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. L.</given-names>
+<surname>Fiore</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Sponge–Microbe Interactions on Coral Reefs: Multiple Evolutionary Solutions to a Complex Environment</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>8</volume>: <elocation-id>705053</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2021.705053</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0033"><mixed-citation publication-type="journal" id="emi70402-cit-0033">
+<string-name name-style="western">
+<surname>Gantt</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>McMurray</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Stubler</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Testing the Relationship Between Microbiome Composition and Flux of Carbon and Nutrients in Caribbean Coral Reef Sponges</article-title>.” <source>Microbiome</source>
+<volume>7</volume>: <elocation-id>124</elocation-id>. <pub-id pub-id-type="doi">10.1186/s40168-019-0739-x</pub-id>.<pub-id pub-id-type="pmid">31466521</pub-id>
+<pub-id pub-id-type="pmcid">PMC6716902</pub-id></mixed-citation></ref><ref id="emi70402-bib-0034"><mixed-citation publication-type="journal" id="emi70402-cit-0034">
+<string-name name-style="western">
+<surname>Gao</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Revanna</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>A Bayesian Taxonomic Classification Method for 16S rRNA Gene Sequences With Improved Species‐Level Accuracy</article-title>.” <source>BMC Bioinformatics</source>
+<volume>18</volume>: <fpage>247</fpage>. <pub-id pub-id-type="doi">10.1186/s12859-017-1670-4</pub-id>.<pub-id pub-id-type="pmid">28486927</pub-id>
+<pub-id pub-id-type="pmcid">PMC5424349</pub-id></mixed-citation></ref><ref id="emi70402-bib-0035"><mixed-citation publication-type="journal" id="emi70402-cit-0035">
+<string-name name-style="western">
+<surname>Gardères</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bedoux</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Koutsouveli</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Lipopolysaccharides From Commensal and Opportunistic Bacteria: Characterization and Response of the Immune System of the Host Sponge <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Suberites domuncula</italic>
+</styled-content>
+</article-title>.” <source>Marine Drugs</source>
+<volume>13</volume>: <fpage>4985</fpage>–<lpage>5006</lpage>. <pub-id pub-id-type="doi">10.3390/md13084985</pub-id>.<pub-id pub-id-type="pmid">26262625</pub-id>
+<pub-id pub-id-type="pmcid">PMC4557011</pub-id></mixed-citation></ref><ref id="emi70402-bib-0036"><mixed-citation publication-type="journal" id="emi70402-cit-0036">
+<string-name name-style="western">
+<surname>Gastaldi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Pankey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Svendsen</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Holobiont Dysbiosis or Acclimatation? Shift in the Microbial Taxonomic Diversity and Functional Composition of a Cosmopolitan Sponge Subjected to Chronic Pollution in a Patagonian Bay</article-title>.” <source>PeerJ</source>
+<volume>12</volume>: <elocation-id>e17707</elocation-id>. <pub-id pub-id-type="doi">10.7717/peerj.17707</pub-id>.<pub-id pub-id-type="pmid">39184395</pub-id>
+<pub-id pub-id-type="pmcid">PMC11344537</pub-id></mixed-citation></ref><ref id="emi70402-bib-0037"><mixed-citation publication-type="journal" id="emi70402-cit-0037">
+<string-name name-style="western">
+<surname>Glasl</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Bourne</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Exploring the Diversity‐Stability Paradigm Using Sponge Microbial Communities</article-title>.” <source>Scientific Reports</source>
+<volume>8</volume>: <fpage>8425</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-018-26641-9</pub-id>.<pub-id pub-id-type="pmid">29849034</pub-id>
+<pub-id pub-id-type="pmcid">PMC5976656</pub-id></mixed-citation></ref><ref id="emi70402-bib-0039"><mixed-citation publication-type="journal" id="emi70402-cit-0039">
+<string-name name-style="western">
+<surname>González</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Morales‐Olavarria</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Vidal‐Veuthey</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Insights Into Early Evolutionary Adaptations of the <italic toggle="yes">Akkermansia</italic> Genus to the Vertebrate Gut</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>14</volume>: <elocation-id>1238580</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2023.1238580</pub-id>.<pub-id pub-id-type="pmid">37779688</pub-id>
+<pub-id pub-id-type="pmcid">PMC10540074</pub-id></mixed-citation></ref><ref id="emi70402-bib-0040"><mixed-citation publication-type="journal" id="emi70402-cit-0040">
+<string-name name-style="western">
+<surname>González‐Pech</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V. Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Garcia</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>The Evolution, Assembly, and Dynamics of Marine Holobionts</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>16</volume>: <fpage>443</fpage>–<lpage>466</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-marine-022123-104345</pub-id>.<pub-id pub-id-type="pmid">37552896</pub-id></mixed-citation></ref><ref id="emi70402-bib-0041"><mixed-citation publication-type="journal" id="emi70402-cit-0041">
+<string-name name-style="western">
+<surname>Griffin</surname>, <given-names>T. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Pierce</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Nigro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Holohan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Ward</surname>
+</string-name>. <year>2021</year>. “<article-title>An Examination of the Use of Antibiotics as a Method to Experimentally Perturb the Microbiota of Suspension‐Feeding Bivalves</article-title>.” <source>Invertebrate Biology</source>
+<volume>140</volume>, no. <issue>4</issue>: <elocation-id>e12352</elocation-id>. <pub-id pub-id-type="doi">10.1111/ivb.12352</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0042"><mixed-citation publication-type="journal" id="emi70402-cit-0042">
+<string-name name-style="western">
+<surname>Harris</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Davy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Bell</surname>
+</string-name>. <year>2021</year>. “<article-title>Benthic Community Composition of Temperate Mesophotic Ecosystems (TMEs) in New Zealand: Sponge Domination and Contribution to Habitat Complexity</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>671</volume>: <fpage>21</fpage>–<lpage>43</lpage>. <pub-id pub-id-type="doi">10.3354/meps13758</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0096"><mixed-citation publication-type="journal" id="emi70402-cit-0096">
+<string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sen Gupta</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Categorizing and Naming Marine Heatwaves</article-title>.” <source>Oceanography</source>
+<volume>31</volume>, no. <issue>2</issue>: <fpage>162</fpage>–<lpage>173</lpage>. <pub-id pub-id-type="doi">10.5670/oceanog.2018.205</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0043"><mixed-citation publication-type="journal" id="emi70402-cit-0043">
+<string-name name-style="western">
+<surname>Karimi</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Slaby</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Soares</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Metagenomic Binning Reveals Versatile Nutrient Cycling and Distinct Adaptive Features in Alphaproteobacterial Symbionts of Marine Sponges</article-title>.” <source>FEMS Microbiology Ecology</source>
+<volume>94</volume>: <elocation-id>fiy074</elocation-id>. <pub-id pub-id-type="doi">10.1093/femsec/fiy074</pub-id>.<pub-id pub-id-type="pmid">29701776</pub-id></mixed-citation></ref><ref id="emi70402-bib-0044"><mixed-citation publication-type="journal" id="emi70402-cit-0044">
+<string-name name-style="western">
+<surname>Kuznetsova</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Brockhoff</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. H. B.</given-names>
+<surname>Christensen</surname>
+</string-name>. <year>2017</year>. “<article-title>
+<italic toggle="yes">lmerTest</italic> Package: Tests in Linear Mixed Effects Models</article-title>.” <source>Journal of Statistical Software</source>
+<volume>82</volume>: <fpage>1</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v082.i13</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0045"><mixed-citation publication-type="journal" id="emi70402-cit-0045">
+<string-name name-style="western">
+<surname>Lacoue‐Labarthe</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Warnau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Beaugeard</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Trophic Transfer of Radioisotopes in Mediterranean Sponges Through Bacteria Consumption</article-title>.” <source>Chemosphere</source>
+<volume>144</volume>: <fpage>1885</fpage>–<lpage>1892</lpage>. <pub-id pub-id-type="doi">10.1016/j.chemosphere.2015.10.046</pub-id>.<pub-id pub-id-type="pmid">26544727</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0046"><mixed-citation publication-type="journal" id="emi70402-cit-0046">
+<string-name name-style="western">
+<surname>Lamb</surname>, <given-names>C. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. E. M.</given-names>
+<surname>Watts</surname>
+</string-name>. <year>2023</year>. “<article-title>Microbiome Species Diversity and Seasonal Stability of Two Temperate Marine Sponges <italic toggle="yes">Hymeniacidon perlevis</italic> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Suberites massa</italic>
+</styled-content>
+</article-title>.” <source>Environmental Microbiomes</source>
+<volume>18</volume>: <elocation-id>14</elocation-id>. <pub-id pub-id-type="doi">10.1186/s40793-023-00508-7</pub-id>.<pub-id pub-id-type="pmcid">PMC10251714</pub-id><pub-id pub-id-type="pmid">37291644</pub-id></mixed-citation></ref><ref id="emi70402-bib-0047"><mixed-citation publication-type="journal" id="emi70402-cit-0047">
+<string-name name-style="western">
+<surname>Lang</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. C.</given-names>
+<surname>Hansson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Samuelsson</surname>
+</string-name>. <year>2007</year>. “<article-title>Gel‐Forming Mucins Appeared Early in Metazoan Evolution</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>104</volume>: <fpage>16209</fpage>–<lpage>16214</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0705984104</pub-id>.<pub-id pub-id-type="pmcid">PMC2042186</pub-id><pub-id pub-id-type="pmid">17911254</pub-id></mixed-citation></ref><ref id="emi70402-bib-0048"><mixed-citation publication-type="miscellaneous" id="emi70402-cit-0048">
+<string-name name-style="western">
+<surname>Lenth</surname>, <given-names>R.</given-names>
+</string-name>
+<year>2025</year>. <article-title>“Emmeans: Estimated Marginal Means, Aka Least‐Squares Means [R package].”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://rvlenth.github.io/emmeans/" ext-link-type="uri">https://rvlenth.github.io/emmeans/</ext-link>.</mixed-citation></ref><ref id="emi70402-bib-0049"><mixed-citation publication-type="journal" id="emi70402-cit-0049">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Peddada</surname>
+</string-name>. <year>2023</year>. “<article-title>Multigroup Analysis of Compositions of Microbiomes With Covariate Adjustments and Repeated Measures</article-title>.” <source>Nature Methods</source>
+<volume>21</volume>: <fpage>83</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1038/s41592-023-02092-7</pub-id>.<pub-id pub-id-type="pmid">38158428</pub-id>
+<pub-id pub-id-type="pmcid">PMC10776411</pub-id></mixed-citation></ref><ref id="emi70402-bib-0050"><mixed-citation publication-type="journal" id="emi70402-cit-0050">
+<string-name name-style="western">
+<surname>Lurgi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Thomas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Wemheuer</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Modularity and Predicted Functions of the Global Sponge‐Microbiome Network</article-title>.” <source>Nature Communications</source>
+<volume>10</volume>: <fpage>992</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-019-08925-4</pub-id>.<pub-id pub-id-type="pmcid">PMC6397258</pub-id><pub-id pub-id-type="pmid">30824706</pub-id></mixed-citation></ref><ref id="emi70402-bib-0051"><mixed-citation publication-type="journal" id="emi70402-cit-0051">
+<string-name name-style="western">
+<surname>Massaro</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Weisz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Hill</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Behavioral and Morphological Changes Caused by Thermal Stress in the Great Barrier Reef Sponge <italic toggle="yes">Rhopaloeides odorabile</italic>
+</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>416–417</volume>: <fpage>55</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1016/j.jembe.2012.02.008</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0052"><mixed-citation publication-type="journal" id="emi70402-cit-0052">
+<string-name name-style="western">
+<surname>McGrath</surname>, <given-names>E. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Jompa</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Adaptive Mechanisms and Physiological Effects of Suspended and Settled Sediment on Barrel Sponges</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>496</volume>: <fpage>74</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1016/j.jembe.2017.07.013</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0053"><mixed-citation publication-type="miscellaneous" id="emi70402-cit-0053">
+<string-name name-style="western">
+<surname>Mikryukov</surname>, <given-names>V.</given-names>
+</string-name>
+<year>2020</year>. <article-title>“metagMisc: Miscellaneous Functions for Metagenomic Analysis [R package].”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=metagMisc" ext-link-type="uri">https://cran.r‐project.org/package=metagMisc</ext-link>.</mixed-citation></ref><ref id="emi70402-bib-0054"><mixed-citation publication-type="journal" id="emi70402-cit-0054">
+<string-name name-style="western">
+<surname>Monti</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giorgi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Kemp</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Spatial, Temporal and Network Analyses Provide Insights Into the Dynamics of the Bacterial Communities Associated With Two Species of Caribbean Octocorals and Indicate Possible Key Taxa</article-title>.” <source>Symbiosis</source>
+<volume>90</volume>: <fpage>91</fpage>–<lpage>104</lpage>. <pub-id pub-id-type="doi">10.1007/s13199-023-00923-x</pub-id>.<pub-id pub-id-type="pmcid">PMC10238251</pub-id><pub-id pub-id-type="pmid">37360551</pub-id></mixed-citation></ref><ref id="emi70402-bib-0055"><mixed-citation publication-type="journal" id="emi70402-cit-0055">
+<string-name name-style="western">
+<surname>Morrow</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. L.</given-names>
+<surname>Fiore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Lesser</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Environmental Drivers of Microbial Community Shifts in the Giant Barrel Sponge, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Xestospongia muta</italic>
+</styled-content>, Over a Shallow to Mesophotic Depth Gradient</article-title>.” <source>Environmental Microbiology</source>
+<volume>18</volume>: <fpage>2025</fpage>–<lpage>2038</lpage>. <pub-id pub-id-type="doi">10.1111/1462-2920.13226</pub-id>.<pub-id pub-id-type="pmid">26769079</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0056"><mixed-citation publication-type="miscellaneous" id="emi70402-cit-0056">
+<string-name name-style="western">
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. L.</given-names>
+<surname>Simpson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. G.</given-names>
+<surname>Blanchet</surname>
+</string-name>, et al. <year>2025</year>. <article-title>“Vegan: Community Ecology Package [R package].”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=vegan" ext-link-type="uri">https://cran.r‐project.org/package=vegan</ext-link>.</mixed-citation></ref><ref id="emi70402-bib-0057"><mixed-citation publication-type="journal" id="emi70402-cit-0057">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Donat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Longer and More Frequent Marine Heatwaves Over the Past Century</article-title>.” <source>Nature Communications</source>
+<volume>9</volume>: <fpage>1324</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-018-03732-9</pub-id>.<pub-id pub-id-type="pmcid">PMC5893591</pub-id><pub-id pub-id-type="pmid">29636482</pub-id></mixed-citation></ref><ref id="emi70402-bib-0058"><mixed-citation publication-type="journal" id="emi70402-cit-0058">
+<string-name name-style="western">
+<surname>Orellana</surname>, <given-names>L. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. T.</given-names>
+<surname>Ben</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ferraro</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Verrucomicrobiota Are Specialist Consumers of Sulfated Methyl Pentoses During Diatom Blooms</article-title>.” <source>ISME Journal</source>
+<volume>16</volume>: <fpage>630</fpage>–<lpage>641</lpage>. <pub-id pub-id-type="doi">10.1038/s41396-021-01105-7</pub-id>.<pub-id pub-id-type="pmid">34493810</pub-id>
+<pub-id pub-id-type="pmcid">PMC8857213</pub-id></mixed-citation></ref><ref id="emi70402-bib-0059"><mixed-citation publication-type="journal" id="emi70402-cit-0059">
+<string-name name-style="western">
+<surname>Osinga</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Redeker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>de Beukelaar</surname>
+</string-name>, et al. <year>1999</year>. “<article-title>Measurements of Sponge Growth by Projected Body Area and Underwater Weight</article-title>.” <source>Memoirs of the Queensland Museum</source>
+<volume>44</volume>: <fpage>419</fpage>–<lpage>426</lpage>.</mixed-citation></ref><ref id="emi70402-bib-0060"><mixed-citation publication-type="journal" id="emi70402-cit-0060">
+<string-name name-style="western">
+<surname>Parada</surname>, <given-names>A. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Needham</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Fuhrman</surname>
+</string-name>. <year>2016</year>. “<article-title>Every Base Matters: Assessing Small Subunit rRNA Primers for Marine Microbiomes With Mock Communities, Time Series and Global Field Samples</article-title>.” <source>Environmental Microbiology</source>
+<volume>18</volume>: <fpage>1403</fpage>–<lpage>1414</lpage>. <pub-id pub-id-type="doi">10.1111/1462-2920.13023</pub-id>.<pub-id pub-id-type="pmid">26271760</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0061"><mixed-citation publication-type="journal" id="emi70402-cit-0061">
+<string-name name-style="western">
+<surname>Parkinson</surname>, <given-names>J. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I. B.</given-names>
+<surname>Baums</surname>
+</string-name>. <year>2014</year>. “<article-title>The Extended Phenotypes of Marine Symbioses: Ecological and Evolutionary Consequences of Intraspecific Genetic Diversity in Coral‐Algal Associations</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>5</volume>: <elocation-id>445</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2014.00445</pub-id>.<pub-id pub-id-type="pmid">25202306</pub-id>
+<pub-id pub-id-type="pmcid">PMC4142987</pub-id></mixed-citation></ref><ref id="emi70402-bib-0062"><mixed-citation publication-type="journal" id="emi70402-cit-0062">
+<string-name name-style="western">
+<surname>Pei</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Coral and Its Symbionts Responses to the Typical Global Marine Pollutant BaP by 4D‐Proteomics Approach</article-title>.” <source>Environmental Pollution</source>
+<volume>307</volume>: <elocation-id>119440</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envpol.2022.119440</pub-id>.<pub-id pub-id-type="pmid">35623566</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0063"><mixed-citation publication-type="journal" id="emi70402-cit-0063">
+<string-name name-style="western">
+<surname>Pile</surname>, <given-names>A. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Young</surname>
+</string-name>. <year>2006</year>. “<article-title>The Natural Diet of a Hexactinellid Sponge: Benthic–Pelagic Coupling in a Deep‐Sea Microbial Food Web</article-title>.” <source>Deep Sea Research Part I: Oceanographic Research Papers</source>
+<volume>53</volume>: <fpage>1148</fpage>–<lpage>1156</lpage>. <pub-id pub-id-type="doi">10.1016/j.dsr.2006.03.008</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0064"><mixed-citation publication-type="journal" id="emi70402-cit-0064">
+<string-name name-style="western">
+<surname>Pita</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rix</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Slaby</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>The Sponge Holobiont in a Changing Ocean: From Microbes to Ecosystems</article-title>.” <source>Microbiome</source>
+<volume>6</volume>: <fpage>46</fpage>. <pub-id pub-id-type="doi">10.1186/s40168-018-0428-1</pub-id>.<pub-id pub-id-type="pmid">29523192</pub-id>
+<pub-id pub-id-type="pmcid">PMC5845141</pub-id></mixed-citation></ref><ref id="emi70402-bib-0065"><mixed-citation publication-type="journal" id="emi70402-cit-0065">
+<string-name name-style="western">
+<surname>Posadas</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. I. P.</given-names>
+<surname>Baquiran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A. L.</given-names>
+<surname>Nada</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Microbiome Diversity and Host Immune Functions Influence Survivorship of Sponge Holobionts Under Future Ocean Conditions</article-title>.” <source>ISME Journal</source>
+<volume>16</volume>: <fpage>58</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1038/s41396-021-01050-5</pub-id>.<pub-id pub-id-type="pmid">34218251</pub-id>
+<pub-id pub-id-type="pmcid">PMC8692459</pub-id></mixed-citation></ref><ref id="emi70402-bib-0066"><mixed-citation publication-type="journal" id="emi70402-cit-0066">
+<string-name name-style="western">
+<surname>Quast</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Pruesse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Yilmaz</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>The SILVA Ribosomal RNA Gene Database Project: Improved Data Processing and Web‐Based Tools</article-title>.” <source>Nucleic Acids Research</source>
+<volume>41</volume>: <fpage>D590</fpage>–<lpage>D596</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gks1219</pub-id>.<pub-id pub-id-type="pmid">23193283</pub-id>
+<pub-id pub-id-type="pmcid">PMC3531112</pub-id></mixed-citation></ref><ref id="emi70402-bib-0067"><mixed-citation publication-type="book" id="emi70402-cit-0067">
+<collab collab-type="authors">R Core Team</collab>
+. <year>2024</year>. <source>R: A Language and Environment for Statistical Computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.R-project.org/" ext-link-type="uri">https://www.R‐project.org/</ext-link>.</mixed-citation></ref><ref id="emi70402-bib-0068"><mixed-citation publication-type="journal" id="emi70402-cit-0068">
+<string-name name-style="western">
+<surname>Ramsby</surname>, <given-names>B. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. O.</given-names>
+<surname>Hoogenboom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. A.</given-names>
+<surname>Smith</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>The Bioeroding Sponge <italic toggle="yes">Cliona orientalis</italic> Will Not Tolerate Future Projected Ocean Warming</article-title>.” <source>Scientific Reports</source>
+<volume>8</volume>: <elocation-id>7265</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-018-26535-w</pub-id>.<pub-id pub-id-type="pmid">29844349</pub-id>
+<pub-id pub-id-type="pmcid">PMC5974012</pub-id></mixed-citation></ref><ref id="emi70402-bib-0069"><mixed-citation publication-type="journal" id="emi70402-cit-0069">
+<string-name name-style="western">
+<surname>Ribeiro</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Padua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Barno</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Assessing Skeleton and Microbiome Responses of a Calcareous Sponge Under Thermal and pH Stresses</article-title>.” <source>ICES Journal of Marine Science</source>
+<volume>78</volume>: <fpage>855</fpage>–<lpage>866</lpage>. <pub-id pub-id-type="doi">10.1093/icesjms/fsaa231</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0070"><mixed-citation publication-type="journal" id="emi70402-cit-0070">
+<string-name name-style="western">
+<surname>Ribes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Coma</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Gili</surname>
+</string-name>. <year>1999</year>. “<article-title>Natural Diet and Grazing Rate of the Temperate Sponge <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Dysidea avara</italic>
+</styled-content> (Demospongiae, Dendroceratida) Throughout an Annual Cycle</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>176</volume>: <fpage>179</fpage>–<lpage>190</lpage>. <pub-id pub-id-type="doi">10.3354/meps176179</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0071"><mixed-citation publication-type="journal" id="emi70402-cit-0071">
+<string-name name-style="western">
+<surname>Riisgård</surname>, <given-names>H. U.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>Larsen</surname>
+</string-name>. <year>2022</year>. “<article-title>Filtration Rates and Scaling in Demosponges</article-title>.” <source>Journal of Marine Science and Engineering</source>
+<volume>10</volume>: <elocation-id>643</elocation-id>. <pub-id pub-id-type="doi">10.3390/jmse10050643</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0072"><mixed-citation publication-type="journal" id="emi70402-cit-0072">
+<string-name name-style="western">
+<surname>Rix</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>de Goeij</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>van Oevelen</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Differential Recycling of Coral and Algal Derived Dissolved Organic Matter via the Sponge Loop</article-title>.” <source>Functional Ecology</source>
+<volume>31</volume>: <fpage>778</fpage>–<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2435.12758</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0073"><mixed-citation publication-type="journal" id="emi70402-cit-0073">
+<string-name name-style="western">
+<surname>Sacristán‐Soriano</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Turon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hill</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Microbiome Structure of Ecologically Important Bioeroding Sponges (Family Clionaidae): The Role of Host Phylogeny and Environmental Plasticity</article-title>.” <source>Coral Reefs</source>
+<volume>39</volume>: <fpage>1285</fpage>–<lpage>1298</lpage>. <pub-id pub-id-type="doi">10.1007/s00338-020-01962-2</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0074"><mixed-citation publication-type="journal" id="emi70402-cit-0074">
+<string-name name-style="western">
+<surname>Schmittmann</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rahn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Busch</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Stability of a Dominant Sponge‐Symbiont in Spite of Antibiotic‐Induced Microbiome Disturbance</article-title>.” <source>Environmental Microbiology</source>
+<volume>24</volume>: <fpage>6392</fpage>–<lpage>6410</lpage>. <pub-id pub-id-type="doi">10.1111/1462-2920.16249</pub-id>.<pub-id pub-id-type="pmid">36250983</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0075"><mixed-citation publication-type="journal" id="emi70402-cit-0075">
+<string-name name-style="western">
+<surname>Schönberg</surname>, <given-names>C. H. L.</given-names>
+</string-name>
+<year>2016</year>. “<article-title>Happy Relationships Between Marine Sponges and Sediments – A Review and Some Observations From Australia</article-title>.” <source>Journal of the Marine Biological Association of the UK</source>
+<volume>96</volume>: <fpage>493</fpage>–<lpage>514</lpage>. <pub-id pub-id-type="doi">10.1017/S0025315415001411</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0076"><mixed-citation publication-type="book" id="emi70402-cit-0076">
+<string-name name-style="western">
+<surname>Slaby</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Franke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rix</surname>
+</string-name>, et al. <year>2019</year>. “<part-title>Marine Sponge Holobionts in Health and Disease</part-title>.” In <source>Symbiotic Microbiomes of Coral Reefs Sponges and Corals</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. B.</given-names>
+<surname>Rösler</surname>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>V. M.</given-names>
+<surname>Rützler</surname>
+</string-name>
+</person-group>, <fpage>81</fpage>–<lpage>104</lpage>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-94-024-1612-1_7</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0077"><mixed-citation publication-type="journal" id="emi70402-cit-0077">
+<string-name name-style="western">
+<surname>Starliper</surname>, <given-names>C. E.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>Bacterial Coldwater Disease of Fishes Caused by <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Flavobacterium psychrophilum</italic>
+</styled-content>
+</article-title>.” <source>Journal of Advanced Research</source>
+<volume>2</volume>: <fpage>97</fpage>–<lpage>108</lpage>. <pub-id pub-id-type="doi">10.1016/j.jare.2010.04.001</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0078"><mixed-citation publication-type="journal" id="emi70402-cit-0078">
+<string-name name-style="western">
+<surname>Steiner</surname>, <given-names>L. X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Schmittmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rahn</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Phage‐Induced Disturbance of a Marine Sponge Microbiome</article-title>.” <source>Environmental Microbiomes</source>
+<volume>19</volume>: <fpage>97</fpage>. <pub-id pub-id-type="doi">10.1186/s40793-024-00637-7</pub-id>.<pub-id pub-id-type="pmcid">PMC11590407</pub-id><pub-id pub-id-type="pmid">39593141</pub-id></mixed-citation></ref><ref id="emi70402-bib-0079"><mixed-citation publication-type="journal" id="emi70402-cit-0079">
+<string-name name-style="western">
+<surname>Steinert</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rohde</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Janussen</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Host‐Specific Assembly of Sponge‐Associated Prokaryotes at High Taxonomic Ranks</article-title>.” <source>Scientific Reports</source>
+<volume>7</volume>: <fpage>2542</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-017-02656-6</pub-id>.<pub-id pub-id-type="pmid">28566699</pub-id>
+<pub-id pub-id-type="pmcid">PMC5451456</pub-id></mixed-citation></ref><ref id="emi70402-bib-0080"><mixed-citation publication-type="journal" id="emi70402-cit-0080">
+<string-name name-style="western">
+<surname>Strand</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Whalan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. S.</given-names>
+<surname>Webster</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>The Response of a Boreal Deep‐Sea Sponge Holobiont to Acute Thermal Stress</article-title>.” <source>Scientific Reports</source>
+<volume>7</volume>: <elocation-id>1030</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-017-01091-x</pub-id>.<pub-id pub-id-type="pmid">28533520</pub-id>
+<pub-id pub-id-type="pmcid">PMC5440399</pub-id></mixed-citation></ref><ref id="emi70402-bib-0081"><mixed-citation publication-type="journal" id="emi70402-cit-0081">
+<string-name name-style="western">
+<surname>Strano</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Micaroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Davy</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Near‐Future Extreme Temperatures Affect Physiology, Morphology and Recruitment of the Temperate Sponge <italic toggle="yes">Crella incrustans</italic>
+</article-title>.” <source>Science of the Total Environment</source>
+<volume>823</volume>: <elocation-id>153466</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.153466</pub-id>.<pub-id pub-id-type="pmid">35124025</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0082"><mixed-citation publication-type="journal" id="emi70402-cit-0082">
+<string-name name-style="western">
+<surname>Strano</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Micaroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Thomas</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Marine Heatwave Conditions Drive Carryover Effects in a Temperate Sponge Microbiome and Developmental Performance</article-title>.” <source>Proceedings of the Royal Society B</source>
+<volume>290</volume>: <elocation-id>20222539</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2022.2539</pub-id>.<pub-id pub-id-type="pmid">37282536</pub-id>
+<pub-id pub-id-type="pmcid">PMC10244974</pub-id></mixed-citation></ref><ref id="emi70402-bib-0083"><mixed-citation publication-type="journal" id="emi70402-cit-0083">
+<string-name name-style="western">
+<surname>Sugden</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Holert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Cardenas</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Microbiome of the Freshwater Sponge <italic toggle="yes">Ephydatia muelleri</italic> Shares Compositional and Functional Similarities With Those of Marine Sponges</article-title>.” <source>ISME Journal</source>
+<volume>16</volume>: <fpage>2503</fpage>–<lpage>2512</lpage>. <pub-id pub-id-type="doi">10.1038/s41396-022-01296-7</pub-id>.<pub-id pub-id-type="pmid">35906397</pub-id>
+<pub-id pub-id-type="pmcid">PMC9562138</pub-id></mixed-citation></ref><ref id="emi70402-bib-0084"><mixed-citation publication-type="journal" id="emi70402-cit-0084">
+<string-name name-style="western">
+<surname>Thomas</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Moitinho‐Silva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lurgi</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Diversity, Structure and Convergent Evolution of the Global Sponge Microbiome</article-title>.” <source>Nature Communications</source>
+<volume>7</volume>: <elocation-id>11870</elocation-id>. <pub-id pub-id-type="doi">10.1038/ncomms11870</pub-id>.<pub-id pub-id-type="pmcid">PMC4912640</pub-id><pub-id pub-id-type="pmid">27306690</pub-id></mixed-citation></ref><ref id="emi70402-bib-0085"><mixed-citation publication-type="journal" id="emi70402-cit-0085">
+<string-name name-style="western">
+<surname>Thomsen</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Mondardini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Alestra</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Local Extinction of Bull Kelp (<italic toggle="yes">Durvillaea</italic> spp.) due to a Marine Heatwave</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>6</volume>: <elocation-id>84</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2019.00084</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0086"><mixed-citation publication-type="journal" id="emi70402-cit-0086">
+<string-name name-style="western">
+<surname>Vad</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Duran Suja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Summers</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Marine Sponges in a Snowstorm – Extreme Sensitivity of a Sponge Holobiont to Marine Oil Snow and Chemically Dispersed Oil Pollution</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>13</volume>: <elocation-id>909853</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2022.909853</pub-id>.<pub-id pub-id-type="pmid">35910618</pub-id>
+<pub-id pub-id-type="pmcid">PMC9335075</pub-id></mixed-citation></ref><ref id="emi70402-bib-0087"><mixed-citation publication-type="journal" id="emi70402-cit-0087">
+<string-name name-style="western">
+<surname>Vargas</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Leiva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Wörheide</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Short‐Term Exposure to High‐Temperature Water Causes a Shift in the Microbiome of the Common Aquarium Sponge <italic toggle="yes">Lendenfeldia chondrodes</italic>
+</article-title>.” <source>Microbial Ecology</source>
+<volume>81</volume>: <fpage>213</fpage>–<lpage>222</lpage>. <pub-id pub-id-type="doi">10.1007/s00248-020-01556-z</pub-id>.<pub-id pub-id-type="pmid">32767091</pub-id>
+<pub-id pub-id-type="pmcid">PMC7794106</pub-id></mixed-citation></ref><ref id="emi70402-bib-0088"><mixed-citation publication-type="journal" id="emi70402-cit-0088">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Y. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Naumann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. T.</given-names>
+<surname>Wright</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>
+<italic toggle="yes">Mvabund</italic> – An R Package for Model‐Based Analysis of Multivariate Abundance Data</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>3</volume>: <fpage>471</fpage>–<lpage>474</lpage>. <pub-id pub-id-type="doi">10.1111/j.2041-210X.2012.00190.x</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0089"><mixed-citation publication-type="journal" id="emi70402-cit-0089">
+<string-name name-style="western">
+<surname>Webster</surname>, <given-names>N. S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Taylor</surname>
+</string-name>. <year>2012</year>. “<article-title>Marine Sponges and Their Microbial Symbionts: Love and Other Relationships</article-title>.” <source>Environmental Microbiology</source>
+<volume>14</volume>: <fpage>335</fpage>–<lpage>346</lpage>. <pub-id pub-id-type="doi">10.1111/j.1462-2920.2011.02460.x</pub-id>.<pub-id pub-id-type="pmid">21443739</pub-id>
+</mixed-citation></ref><ref id="emi70402-bib-0090"><mixed-citation publication-type="journal" id="emi70402-cit-0090">
+<string-name name-style="western">
+<surname>Weigel</surname>, <given-names>B. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. K.</given-names>
+<surname>Miranda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>Fogarty</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Functional Insights Into the Kelp Microbiome From Metagenome‐Assembled Genomes</article-title>.” <source>mSystems</source>
+<volume>7</volume>: <elocation-id>e01422‐21</elocation-id>. <pub-id pub-id-type="doi">10.1128/msystems.01422-21</pub-id>.<pub-id pub-id-type="pmid">35642511</pub-id>
+<pub-id pub-id-type="pmcid">PMC9238374</pub-id></mixed-citation></ref><ref id="emi70402-bib-0091"><mixed-citation publication-type="book" id="emi70402-cit-0091">
+<string-name name-style="western">
+<surname>Wickham</surname>, <given-names>H.</given-names>
+</string-name>
+<year>2016</year>. <source>ggplot2: Elegant Graphics for Data Analysis</source>. <publisher-name>Springer</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-3-319-24277-4</pub-id>.</mixed-citation></ref><ref id="emi70402-bib-0092"><mixed-citation publication-type="journal" id="emi70402-cit-0092">
+<string-name name-style="western">
+<surname>Wuitchik</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. E.</given-names>
+<surname>Aichelman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. F.</given-names>
+<surname>Atherton</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Photosymbiosis Reduces the Environmental Stress Response Under a Heat Challenge in a Facultatively Symbiotic Coral</article-title>.” <source>Scientific Reports</source>
+<volume>14</volume>: <fpage>1</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1038/s41598-024-66057-2</pub-id>.<pub-id pub-id-type="pmid">38969663</pub-id>
+<pub-id pub-id-type="pmcid">PMC11226616</pub-id></mixed-citation></ref><ref id="emi70402-bib-0093"><mixed-citation publication-type="journal" id="emi70402-cit-0093">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. M. M.</given-names>
+<surname>Franco</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2019</year>. “<article-title>Uncovering the Hidden Marine Sponge Microbiome by Applying a Multi‐Primer Approach</article-title>.” <source>Scientific Reports</source>
+<volume>9</volume>: <fpage>1</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-42694-w</pub-id>.<pub-id pub-id-type="pmid">30996336</pub-id>
+<pub-id pub-id-type="pmcid">PMC6470215</pub-id></mixed-citation></ref><ref id="emi70402-bib-0094"><mixed-citation publication-type="journal" id="emi70402-cit-0094">
+<string-name name-style="western">
+<surname>Yilmaz</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. W.</given-names>
+<surname>Parfrey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Yarza</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>The SILVA and All‐Species Living Tree Project (LTP) Taxonomic Frameworks</article-title>.” <source>Nucleic Acids Research</source>
+<volume>42</volume>: <fpage>D643</fpage>–<lpage>D648</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkt1209</pub-id>.<pub-id pub-id-type="pmid">24293649</pub-id>
+<pub-id pub-id-type="pmcid">PMC3965112</pub-id></mixed-citation></ref><ref id="emi70402-bib-0095"><mixed-citation publication-type="journal" id="emi70402-cit-0095">
+<string-name name-style="western">
+<surname>Zaneveld</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>McMinds</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. V.</given-names>
+<surname>Thurber</surname>
+</string-name>. <year>2017</year>. “<article-title>Stress and Stability: Applying the Anna Karenina Principle to Animal Microbiomes</article-title>.” <source>Nature Microbiology</source>
+<volume>2</volume>: <elocation-id>17121</elocation-id>. <pub-id pub-id-type="doi">10.1038/nmicrobiol.2017.121</pub-id>.<pub-id pub-id-type="pmid">28836573</pub-id></mixed-citation></ref></ref-list></back></article>

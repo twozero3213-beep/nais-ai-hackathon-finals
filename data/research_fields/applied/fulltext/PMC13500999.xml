@@ -1,0 +1,957 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="joph7498511" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Ophthalmol</journal-id><journal-id journal-id-type="iso-abbrev">J Ophthalmol</journal-id><journal-id journal-id-type="pmc-domain-id">1195</journal-id><journal-id journal-id-type="pmc-domain">jophth</journal-id><journal-id journal-id-type="nlm-id">101524199</journal-id><journal-id journal-id-type="publisher-id">JOPH</journal-id><journal-title-group><journal-title>Journal of Ophthalmology</journal-title></journal-title-group><issn pub-type="ppub">2090-004X</issn><issn pub-type="epub">2090-0058</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13500999</article-id><article-id pub-id-type="pmcid-ver">PMC13500999.1</article-id><article-id pub-id-type="pmcaid">13500999</article-id><article-id pub-id-type="pmcaiid">13500999</article-id><article-id pub-id-type="pmid">42639289</article-id><article-id pub-id-type="doi">10.1155/joph/7498511</article-id><article-id pub-id-type="publisher-id">JOPH7498511</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Models Estimating the Effects of Changes in the Concentration of Specific Climatic Pollutants and Temperature on the Prevalence of Acute Ophthalmic Inflammatory Conditions: A Retrospective Cross‐Sectional Observational Study</article-title></title-group><contrib-group><contrib id="cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Sarnat-Kucharczyk</surname><given-names initials="M">Monika</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7826-2906</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address></address></contrib><contrib id="cr-0002" contrib-type="author"><name name-style="western"><surname>Wyględowska-Promieńska</surname><given-names initials="D">Dorota</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5336-3460</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0003" contrib-type="author"><name name-style="western"><surname>Patel</surname><given-names initials="S">Sudi</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8242-7256</contrib-id><xref rid="aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib></contrib-group><contrib-group><contrib id="cr-0004" contrib-type="editor"><name name-style="western"><surname>Szentmáry</surname><given-names initials="N">Nóra</given-names></name><address></address></contrib></contrib-group><aff id="aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ophthalmology</named-content>, <named-content content-type="organisation-division">Faculty of Medical Sciences in Katowice</named-content>, <institution>Medical University of Silesia</institution>, <city>Katowice</city>, <country>Poland</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://sum.edu.pl" ext-link-type="uri">sum.edu.pl</ext-link>
+</aff><aff id="aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Kornel Gibinski University Clinical Centre</institution>, <city>Katowice</city>, <country>Poland</country>
+</aff><aff id="aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Cataract and Refractive Surgery</named-content>, <institution>University Eye Clinic Svjetlost</institution>, <city>Zagreb</city>
+<postal-code>10000</postal-code>, <country>Croatia</country>
+</aff><pub-date pub-type="epub"><day>23</day><month>8</month><year>2026</year></pub-date><pub-date pub-type="collection"><year>2026</year></pub-date><volume>2026</volume><issue-id pub-id-type="pmc-issue-id">504003</issue-id><elocation-id>7498511</elocation-id><history>
+<date date-type="rev-recd"><day>02</day><month>7</month><year>2026</year></date>
+<date date-type="received"><day>05</day><month>11</month><year>2025</year></date>
+<date date-type="accepted"><day>10</day><month>7</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>23</day><month>08</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>25</day><month>08</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-25 22:00:43.410"><day>25</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">Copyright © 2026 Monika Sarnat-Kucharczyk et al. Journal of Ophthalmology published by John Wiley &amp; Sons Ltd.</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JOPH-2026-7498511.pdf"><?pdf-name JOPH-2026-7498511.pdf?><?pdf-size 579918?><?pdf-md5 3c43b11542ccd0fef4929d6493a60685?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:31f3/13500999/3c43b11542cc/JOPH-2026-7498511.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JOPH-2026-7498511.pdf"/><abstract><sec id="sec-0001"><title>Background</title><p>Air pollution is a major environmental health risk linked to systemic and ocular diseases, including conjunctivitis, keratitis, and dry eye disease. Pollutants such as particulate matter, nitrogen oxides, and diesel exhaust particles have been associated with an increased prevalence of acute ophthalmic inflammatory conditions (AOICs). Identifying key pollutants may help reduce the prevalence of AOICs.</p></sec><sec id="sec-0002"><title>Aim</title><p>The aim of this study was to investigate the relationship between atmospheric pollution and AOICs by identifying pollutants with the most consistent impact on AOIC prevalence, developing predictive models to estimate their composite effect, and assessing model accuracy.</p></sec><sec id="sec-0003"><title>Methods</title><p>This retrospective study analyzed cases of AOICs from the Eye Emergency Department in Katowice (2011–2019). Diagnoses were classified into subgroups using ICD‐10 codes and ophthalmologic evaluation. Annual prevalence was correlated with average pollutant levels and temperature via linear and multiple regression. Significant associations informed predictive models, assessed for accuracy using limits of agreement (±1.96 × SD), with <italic toggle="yes">p</italic> &lt; 0.05 as the significance threshold.</p></sec><sec id="sec-0004"><title>Results</title><p>Between 2011 and 2019, over 60,000 cases of AOICs were identified among nearly 95,000 emergency visits. The most frequent diagnoses included conjunctivitis (46.8%), keratitis (26.4%), and blepharitis (14.1%). Multiple regression analyses revealed that the prevalence of several AOIC subtypes was significantly associated with mean annual concentrations of specific pollutants and/or temperature.</p></sec><sec id="sec-0005"><title>Conclusion</title><p>Formaldehyde, CO, SO<sub>2</sub>, PM<sub>2</sub>.<sub>5</sub>, and PM<sub>10</sub> were significantly linked to inflammatory ocular conditions, with stronger associations after excluding noninflammatory cases and conjunctivitis. These findings highlight the role of environmental monitoring in predicting or reducing serious eye inflammation, supporting further large‐scale research.</p></sec></abstract><kwd-group><title>Keywords</title><kwd id="kwd-0001">acute ophthalmic inflammatory conditions</kwd><kwd id="kwd-0002">air pollution</kwd><kwd id="kwd-0003">temperature</kwd></kwd-group><counts><fig-count count="1"/><table-count count="4"/><ref-count count="45"/><page-count count="12"/><word-count count="6767"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:24.08.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="joph7498511-cit-2001">
+<string-name name-style="western">
+<surname>Sarnat‐Kucharczyk</surname>, <given-names>Monika</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wyględowska‐Promieńska</surname>, <given-names>Dorota</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Patel</surname>, <given-names>Sudi</given-names>
+</string-name>, 
+<article-title>Models Estimating the Effects of Changes in the Concentration of Specific Climatic Pollutants and Temperature on the Prevalence of Acute Ophthalmic Inflammatory Conditions: A Retrospective Cross‐Sectional Observational Study</article-title>, 
+<source>Journal of Ophthalmology</source>, <volume>2026</volume>, <elocation-id>7498511</elocation-id>, 12 pages, <year>2026</year>. 
+<pub-id pub-id-type="doi">10.1155/joph/7498511</pub-id>
+<pub-id pub-id-type="pmcid">PMC13500999</pub-id><pub-id pub-id-type="pmid">42639289</pub-id></mixed-citation>
+</p><fn-group><fn id="note-0001"><p>
+<bold>Academic Editor:</bold> Nóra Szentmáry</p></fn></fn-group></notes></front><body><sec id="sec-0006"><title>1. Introduction</title><p>Air pollution poses a serious threat to human health, and studies have confirmed the negative impact of pollution on various systemic and ocular diseases [<xref rid="bib-0001" ref-type="bibr">1</xref>–<xref rid="bib-0003" ref-type="bibr">3</xref>]. Despite its various types, air pollution is increasingly recognized as a significant environmental factor that is gaining attention among researchers due to its widespread health consequences affecting multiple organs [<xref rid="bib-0004" ref-type="bibr">4</xref>–<xref rid="bib-0006" ref-type="bibr">6</xref>]. Air pollution also poses a particularly severe threat to children. According to WHO data, approximately 1 in 10 deaths among children under the age of five is attributed to exposure to air pollution [<xref rid="bib-0007" ref-type="bibr">7</xref>]. Air pollutants encompass particulate matter (PM), diesel exhaust particles (DEPs), and various gases, including hydrocarbons, nitrogen oxides (NOx—primarily nitric oxide [NO] and nitrogen dioxide [NO<sub>2</sub>]), sulfur dioxide (SO<sub>2</sub>), and carbon monoxide (CO). PM is categorized based on its diameter: PM<sub>10</sub> ranges from 2 to 10 μm, while PM<sub>2.5</sub> measures between 0.5 and 2.5 μm. PM<sub>10</sub> primarily consists of dust, pollen, and mold, whereas PM<sub>2.5</sub> includes combustion byproducts, organic compounds, and metallic particles. DEPs belong to the category of ultrafine PM, with a diameter of less than 0.1 μm.</p><p>Harmful airborne particles have been linked to conditions such as dry eye disease (DED), glaucoma, cataracts, conjunctivitis, age‐related macular degeneration, and corneal inflammation [<xref rid="bib-0008" ref-type="bibr">8</xref>–<xref rid="bib-0010" ref-type="bibr">10</xref>].</p><p>A recent paper [<xref rid="bib-0011" ref-type="bibr">11</xref>] reported on the associations between local atmospheric levels of a range of pollutants, annual temperatures, and the prevalence of acute ophthalmic inflammatory conditions (AOICs). Significant, direct and positive correlations were detected between a host of pollutants and the prevalence of individual AOICs. This suggests that it may be possible to curtail the prevalence of AOICs by reducing the levels of airborne pollutants. A practical solution would be to identify the specific pollutant or combination of pollutants that have the greatest impact on individual AOICs.</p><p>The study was conducted in Katowice, the largest academic and healthcare center in the Silesian Voivodeship, Southern Poland [<xref rid="bib-0012" ref-type="bibr">12</xref>]. The city is located within a densely populated and highly urbanized region with a long history of coal mining, metallurgy, and energy production [<xref rid="bib-0013" ref-type="bibr">13</xref>]. Consequently, air pollution has been a major environmental and public health concern in this area for decades. Silesian Voivodeship has the highest population density in Poland (∼379 inhabitants/km<sup>2</sup>) and is the most industrialized and urbanized region of the country. Although pollutant concentrations have decreased over time, exceedances of PM limits continue to be reported in Katowice and surrounding municipalities.</p><p>Previous studies have reported associations between air pollution and ocular diseases in different geographical settings. In Japan [<xref rid="bib-0014" ref-type="bibr">14</xref>], exposure to airborne PM was associated with increased rates of allergic conjunctivitis and ocular surface irritation. In Brazil [<xref rid="bib-0015" ref-type="bibr">15</xref>], chronic exposure to traffic‐related air pollution was linked to tear film instability and ocular surface changes. Similarly, systematic reviews have demonstrated associations between air pollution and DED, conjunctivitis, and blepharitis [<xref rid="bib-0016" ref-type="bibr">16</xref>, <xref rid="bib-0017" ref-type="bibr">17</xref>]. However, the strength and direction of these associations vary between studies, likely reflecting differences in climate, pollutant composition, industrial activity, population characteristics, and study design.</p><p>While previous studies have primarily examined individual ocular disorders or selected ocular surface outcomes, the present study addresseses this gap by evaluating the relationship between environmental factors and the overall prevalence of AOICs and by exploring whether these associations can be incorporated into predictive models.</p><p>Furthermore, evidence from heavily industrialized regions of Central and Eastern Europe is limited. Therefore, data obtained from the Silesian region may provide valuable additional insight into any relationship between environmental pollution and ocular inflammation.</p><p>We hypothesized that variations in environmental conditions may influence the prevalence of AOICs and that these relationships could be incorporated into predictive models.</p><p>The aim of this study was to:<list list-type="simple"><list-item><label>i.</label><p>Identify the specific atmospheric pollutants that have the most consistent impact on AOICs;</p></list-item><list-item><label>ii.</label><p>Determine whether models could be formulated to predict the composite effect of specific atmospheric pollutants on the prevalence of AOICs;</p></list-item><list-item><label>iii.</label><p>Determine the likely accuracy and margin of error associated with any predictive models.</p></list-item></list>
+</p></sec><sec id="sec-0007"><title>2. Methods</title><sec id="sec-0008"><title>2.1. Study Design and Setting</title><p>A retrospective cross‐sectional observational study of AOICs was conducted on patients who presented to the Eye Emergency Department at the Professor K. Gibinski University Clinical Center, Medical University of Silesia, Katowice, Poland, between 01/01/2011 and 31/12/2019. The hospital is a tertiary referral academic center serving the Silesian Voivodeship in southern Poland. This is the most densely populated region in Poland, with approximately 4.3 million inhabitants, and has a long history of heavy industrial activity, mining, and energy production. Katowice is located within the Upper Silesian metropolitan area, one of the largest metropolitan areas in Central Europe. The region has historically been affected by elevated levels of air pollution, making it a relevant setting for investigating potential associations between environmental factors and ophthalmic disease.</p><p>The period 2020–23 was excluded because of the disruption arising from the COVID–19 pandemic that resulted in a conspicuous decline in emergency department attendance during this period.</p></sec><sec id="sec-0009"><title>2.2. Participants</title><p>Medical records were reviewed annually. The analysis proceeded in three stages: (1) the total number of patients presenting each year was documented, (2) cases diagnosed with AOICs were identified, and (3) these cases were categorized into the following diagnostic subgroups: blepharitis, orbital inflammation, lacrimal system inflammation, conjunctivitis, keratitis, uveitis with retinitis, endophthalmitis, optic neuritis, and scleritis. Inclusion criteria were based on diagnoses coded according to the International Classification of Diseases, 10th Revision (ICD‐10), as summarized in Table <xref rid="tbl-0001" ref-type="table">1</xref>, and on detailed clinical assessments performed by ophthalmologists at the time of presentation. These data were derived from a previous study [<xref rid="bib-0011" ref-type="bibr">11</xref>].</p><table-wrap position="float" id="tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>International Classification of Disease (ICD) codes and descriptions during the study period [<xref rid="bib-0007" ref-type="bibr">7</xref>].</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1">Condition</th><th align="center" rowspan="1" colspan="1">ICD‐10 code</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Blepharitis</td><td align="center" rowspan="1" colspan="1">H01.0, H01.001, H01.002, H01.003, H01.004, H01.005, H01.006, H01.009, H01.011, H01.012, H01.013, H01.014, H01.015, H01.016, H01.019, H01.021, H01.022, H01.023, H01.024, H01.025, H01.026, H01.029</td></tr><tr><td align="left" rowspan="1" colspan="1">Lacrimal system inflammation</td><td align="center" rowspan="1" colspan="1">H04.0, H04.001, H04.002, H04.003, H04.009, H04.011, H04.012, H04.013, H04.019, H04.101, H04.102, H04.103, H04.109, H04.301, H04.302, H04.303, H04.309, H04.401, H04.402, H04.403, H04.409, H04.411, H04.412, H04.413, H04.419, H04.201, H04.202, H04.203, H04.209</td></tr><tr><td align="left" rowspan="1" colspan="1">Orbital inflammation</td><td align="center" rowspan="1" colspan="1">H05.0, H05.001, H05.002, H05.003, H05.009, H05.101, H05.102, H05.103, H05.109</td></tr><tr><td align="left" rowspan="1" colspan="1">Conjunctivitis</td><td align="center" rowspan="1" colspan="1">H10.0, H10.011, H10.012, H10.013, H10.019, H10.021, H10.022, H10.023, H10.029, H10.101, H10.102, H10.103, H10.109, H10.201, H10.202, H10.203, H10.209, H10.401, H10.402, H10.403, H10.409, H10.801, H10.802, H10.803, H10.809, H10.901, H10.902, H10.903, H10.909, H10.301, H10.302, H10.303, H10.309, H10.5</td></tr><tr><td align="left" rowspan="1" colspan="1">Scleritis</td><td align="center" rowspan="1" colspan="1">H15.0, H15.001, H15.002, H15.003, H15.009, H15.101, H15.102, H15.103, H15.109, H15.201, H15.202, H15.203, H15.209</td></tr><tr><td align="left" rowspan="1" colspan="1">Keratitis</td><td align="center" rowspan="1" colspan="1">H16.0, H16.001, H16.002, H16.003, H16.004, H16.011, H16.012, H16.013, H16.014, H16.021, H16.022, H16.023, H16.024, H16.031, H16.032, H16.033, H16.034, H16.041, H16.042, H16.043, H16.044, H16.051, H16.052, H16.053, H16.054, H16.101, H16.102, H16.103, H16.104, H16.201, H16.202, H16.203, H16.204, H16.211, H16.212, H16.213, H16.214, H16.221, H16.222, H16.223, H16.224, H16.231, H16.232, H16.233, H16.234, H16.301, H16.302, H16.303, H16.304, H16.311, H16.312, H16.313, H16.314, H16.8, H16.9</td></tr><tr><td align="left" rowspan="1" colspan="1">Uveitis with retinitis</td><td align="center" rowspan="1" colspan="1">H30.9, H30.00, H30.01, H30.02, H30.03, H30.10, H30.11, H30.12, H30.13, H30.20, H30.21, H30.22, H30.23, H30.90, H30.91, H30.92, H30.93</td></tr><tr><td align="left" rowspan="1" colspan="1">Endophthalmitis</td><td align="center" rowspan="1" colspan="1">H44.0, H44.021, H44.022, H44.023, H44.029, H44.031, H44.032, H44.033, H44.039, H44.041, H44.042, H44.043, H44.049, H44.091, H44.092, H44.093, H44.099</td></tr><tr><td align="left" rowspan="1" colspan="1">Optic neuritis</td><td align="center" rowspan="1" colspan="1">H46.0, H46.00, H46.01, H46.02, H46.03, H46.1, H46.11, H46.12, H46.13</td></tr></tbody></table></table-wrap></sec><sec id="sec-0010"><title>2.3. Variables and Data Sources</title><sec id="sec-0011"><title>2.3.1. Temperature</title><p>Annual average temperature data were obtained from official online sources, including national‐level statistics for Poland provided by the International Energy Agency (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.iea.org/articles/poland-climate-resilience-policy-indicator" ext-link-type="uri">https://www.iea.org/articles/poland-climate-resilience-policy-indicator</ext-link>) and regional data for Silesia from Weather and Climate (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://weatherandclimate.com/poland/silesia" ext-link-type="uri">https://weatherandclimate.com/poland/silesia</ext-link>) [<xref rid="bib-0018" ref-type="bibr">18</xref>, <xref rid="bib-0019" ref-type="bibr">19</xref>].</p></sec><sec id="sec-0012"><title>2.3.2. Pollution</title><p>Data on air pollutant levels for the Silesian region were obtained from the official reports published online by the Chief Inspectorate of Environmental Protection (Główny Inspektorat Ochrony Środowiska–GIOŚ) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gov.pl/web/gios-en" ext-link-type="uri">https://www.gov.pl/web/gios-en</ext-link>), covering the period from 2010 to 2019 [<xref rid="bib-0020" ref-type="bibr">20</xref>]. Air pollution data were analyzed at the regional level. Annual mean concentrations reported by GIOŚ were used as measures of population‐level environmental exposure in the Silesian Voivodeship. These annual values were matched with the corresponding annual prevalence of AOICs recorded at the Eye Emergency Department. The objective was to identify composite associations between environmental factors and the annual prevalence of AOICs rather than to assess individual patient response to exposure.</p><p>The pollutants reported by GIOŚ and considered for inclusion in this study are summarized in Table <xref rid="tbl-0002" ref-type="table">2</xref>.</p><table-wrap position="float" id="tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Pollutants considered and listed by chief inspectorate of environmental protection [<xref rid="bib-0010" ref-type="bibr">10</xref>].</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1">Pollutant</th><th align="center" rowspan="1" colspan="1">Abbreviation</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Sulfur dioxide (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">SO<sub>2</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Nitric oxide (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">NO</td></tr><tr><td align="left" rowspan="1" colspan="1">Nitrogen dioxide (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">NO<sub>2</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Nitrogen oxides (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">NO<sub>x</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Carbon monoxide (mg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">CO</td></tr><tr><td align="left" rowspan="1" colspan="1">Ozone (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">O<sub>3</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Benzene (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">C<sub>6</sub>H<sub>6</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Particulate matter in suspended dust with a diameter ≤ 10 microns (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">PM<sub>10</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Particulate matter in suspended dust with a diameter ≤ 2.5 microns (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">PM<sub>2.5</sub>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Lead in suspended dust particles with a diameter ≤ 10 microns (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">Pb(PM<sub>10</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Arsenic in suspended dust particles with a diameter ≤ 10 microns (ng/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">As(PM<sub>10</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Cadmium in suspended dust particles with a diameter ≤ 10 microns (ng/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">Cd(PM<sub>10</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Nickel in suspended dust particles with a diameter ≤ 10 microns (ng/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">Ni(PM<sub>10</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Benzo(a)pyrene in suspended dust particles with a diameter ≤ 10 microns (ng/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">BaP(PM<sub>10</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Polycyclic aromatic hydrocarbons (PAHs) in suspended dust particles with a diameter ≤ 10 microns (ng/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">PAHs(PM<sub>10</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Ions in PM<sub>2.5</sub> in suspended dust particles with a diameter ≤ 2.5 microns (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">Ions(PM<sub>2.5</sub>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Total gaseous mercury (ng/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">Hg(TGM)</td></tr><tr><td align="left" rowspan="1" colspan="1">Formaldehyde (μg/m<sup>3</sup>)</td><td align="center" rowspan="1" colspan="1">Not abbreviated</td></tr></tbody></table></table-wrap></sec></sec><sec id="sec-0013"><title>2.4. Efforts to Address Potential Sources of Bias</title><p>All patients presenting with AOICs that attended the emergency department between 2011 and 2019 were included to minimize selection bias. Diagnoses were consistently classified using ICD‐10 codes and confirmed by ophthalmologic evaluation to reduce misclassification. Annual average pollutant concentrations were used to limit the effect of short‐term variability. Potential confounding by seasonal viral infections or allergies could not be entirely excluded, but the large sample size and standardized diagnostic criteria helped to mitigate this risk.</p></sec><sec id="sec-0014"><title>2.5. Study Size</title><p>All available cases of AOICs presenting to the Eye Emergency Department in Katowice between 2011 and 2019 were included. No formal sample size calculation was performed, as the study included all eligible cases during the study period. The large number of cases (&gt; 60,000) ensured adequate power for regression analyses.</p></sec><sec id="sec-0015"><title>2.6. Quantitative Variables</title><p>Pollutant concentrations (formaldehyde, CO, SO<sub>2</sub>, PM<sub>2</sub>.<sub>5</sub>, and PM<sub>10</sub>) and mean annual temperature were analyzed as continuous variables using annual average values obtained from environmental monitoring stations. The outcome was the annual prevalence of AOICs, calculated as the proportion of cases among all emergency visits for each year. No categorical groupings were applied, as continuous modeling allowed a more precise assessment of linear associations.</p></sec><sec id="sec-0016"><title>2.7. Data and Statistical Analysis</title><p>Data were organized in Excel spreadsheets (Microsoft Corp., Redmond, WA, USA). Data sets for the prevalence of all AOICs, and each AOIC, among the total number attending the Emergency Department each year, was analyzed using linear regression analysis to determine the significance of any correlation between the following:<list list-type="simple"><list-item><label>i.</label><p>prevalence of all AOICs and of each AOIC, in relation to the mean annual concentration of each pollutant and mean annual temperature.</p></list-item><list-item><label>ii.</label><p>prevalence of each AOIC after excluding (a) all noninflammatory conditions and (b) all noninflammatory conditions and conjunctivitis, in relation to the mean annual concentration of each pollutant and mean annual temperature.</p></list-item></list>
+</p><p>For each AOIC outcome, simple linear regression analyses were first performed to assess associations with individual pollutants and mean annual temperature. Variables showing statistically significant associations (<italic toggle="yes">p</italic> &lt; 0.05) were subsequently entered into multiple linear regression models. Separate models were developed for each AOIC subtype. Model performance was evaluated using the coefficient of determination (<italic toggle="yes">r</italic>
+<sup>2</sup>), and statistical significance was set at <italic toggle="yes">p</italic> &lt; 0.05.</p><p>If a significant correlation was detected between the prevalence of an AOIC and the concentrations of pollutants and mean annual temperature, the resulting regression equation was used to estimate the limits of agreement (LoA) between estimated and observed prevalence values over the period 2011 to 2019.</p><p>Nonparametric tests were applied when data were not normally distributed (Kolmogorov–Smirnov test for normality). Changes and differences were considered statistically significant at <italic toggle="yes">p</italic> &lt; 0.05.</p><p>No formal missing data imputation was required. Annual average pollutant concentrations were obtained from official regional monitoring reports, which provide complete datasets for each year. Clinical data were based on medical records coded with ICD‐10 at the time of presentation, and all eligible cases were included.</p><p>No sampling strategy was used, as all eligible emergency department visits during the study period were included. Therefore, no weighting or adjustments for sampling design were necessary in the analyses.</p><p>Sensitivity analyses were conducted by excluding noninflammatory cases and conjunctivitis, the most frequent and clinically less severe subgroup. The associations between pollutant concentrations and AOICs prevalence persisted and were strengthened in these restricted models, indicating the robustness of the findings.</p></sec></sec><sec id="sec-0017"><title>3. Results</title><p>A total of 94,836 patients attended the emergency department between 01/01/2011 and 31/12/2019. Of this total, 60,586 (63.9%) presented with AOICs. The recorded cases included 8533 of blepharitis (14.1%), 436 of orbital inflammation (0.7%), 611 of lacrimal system inflammation (1.0%), 28,326 of conjunctivitis (46.8%), 16,002 of keratitis (26.4%), 3419 of uveitis with retinitis (5.6%), 198 of endophthalmitis (0.3%), 2594 of optic neuritis (4.3%), and 467 of scleritis (0.8%). As this was a retrospective study based on routinely collected medical records, there was no active patient recruitment and thus no nonparticipation. No individual‐level demographic or social characteristics were available, as the analysis was based exclusively on aggregated annual diagnostic data extracted from hospital records. All exposures (pollutant concentrations and temperature) and the outcome (the annual AOICs prevalence) were analyzed as continuous variables. No categorization was applied, and therefore no category boundaries are reported. Table <xref rid="tbl-0003" ref-type="table">3</xref> shows the significant associations between mean annual concentrations of pollutants and/or temperature and the prevalence of AOICs. The cells marked plus (i.e., a direct positive correlation) or minus (i.e., a negative correlation) identify the pollutants that were included in the regression analysis. The prevalence (<italic toggle="yes">y</italic>) of all AOICs among all the cases that attended the emergency department was significantly associated with the mean annual concentration of formaldehyde. This association is best described by Equation (1) in Table <xref rid="tbl-0004" ref-type="table">4</xref>. Conjunctivitis was the cause of inflammation in over 46% of all AOICs. The high volume of conjunctivitis cases could obscure the detection of significant associations involving less common AOICs. Therefore, the analysis was repeated after excluding noninflammatory conditions and conjunctivitis.</p><table-wrap position="float" id="tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>The significant (<italic toggle="yes">p</italic> &lt; 0.05) correlation coefficients [<italic toggle="yes">r</italic>] between mean annual atmospheric concentration of pollutants, atmospheric temperature, and the prevalence of specific acute inflammatory conditions among all cases attending with an ophthalmic inflammatory condition over the period 2011–2019.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"> </th><th align="center" rowspan="1" colspan="1">All</th><th align="center" rowspan="1" colspan="1">Bleph</th><th align="center" rowspan="1" colspan="1">LSI</th><th align="center" rowspan="1" colspan="1">Orbital</th><th align="center" rowspan="1" colspan="1">Con</th><th align="center" rowspan="1" colspan="1">Scl</th><th align="center" rowspan="1" colspan="1">Ker</th><th align="center" rowspan="1" colspan="1">U and R</th><th align="center" rowspan="1" colspan="1">Endo</th><th align="center" rowspan="1" colspan="1">ON</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">SO<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">+●</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">NO<sub>2</sub>
+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">NOx</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">CO</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">+●</td><td align="center" rowspan="1" colspan="1">—+●</td><td align="center" rowspan="1" colspan="1">+●</td><td align="center" rowspan="1" colspan="1">+●</td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">PM<sub>10</sub>
+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">PM<sub>2.5</sub>
+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+●</td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">Pb(PM<sub>10</sub>)</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td></tr><tr><td align="left" rowspan="1" colspan="1">As(PM<sub>10</sub>)</td><td align="center" rowspan="1" colspan="1">—●</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td></tr><tr><td align="left" rowspan="1" colspan="1">BaP(PM<sub>10</sub>)</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—●</td></tr><tr><td align="left" rowspan="1" colspan="1">PAHs(PM<sub>10</sub>)</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+●</td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">Formaldehyde</td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">+</td><td align="center" rowspan="1" colspan="1">—</td></tr><tr><td align="left" rowspan="1" colspan="1">Temperature</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—●</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1">—●</td><td align="center" rowspan="1" colspan="1">—</td><td align="center" rowspan="1" colspan="1"> </td></tr></tbody></table><table-wrap-foot><fn id="note-0002"><p>
+<italic toggle="yes">Note:</italic> + = Significant positive correlation between mean annual atmospheric concentration of pollutant or temperature and the prevalence of the acute ophthalmic inflammatory condition. — = Significant negative correlation between mean annual atmospheric concentration of pollutant or temperature and the prevalence of the acute ophthalmic inflammatory condition. ● Sign of significant correlation after excluding all cases of conjunctivitis. Bleph, blepharitis; Orbital, orbital inflammation; Con, conjunctivitis; Scl, scleritis; Ker, keratitis; U and R, uveitis with retinitis; Endo, endophthalmitis.</p></fn><fn id="note-0003"><p>Abbreviations: LSI, lacrimal system inflammation; ON, optic neuritis.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>Statistically significant least squares expressions between mean annual prevalence of ophthalmic inflammatory condition (<italic toggle="yes">y</italic>), mean annual atmospheric concentrations of pollutants and temperature among cases attended between 2011 and 2019, mean (±sd, 95% CI limits), and limits of agreement between the estimated and actual prevalence values.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1">Condition</th><th align="center" rowspan="1" colspan="1">Expressions and associated correlation coefficients</th><th align="center" rowspan="1" colspan="1">Actual mean (±sd, 95% CI limits)</th><th align="center" rowspan="1" colspan="1">Estimated mean (±sd, 95% CI limits)</th><th align="center" rowspan="1" colspan="1">LoA</th></tr></thead><tbody><tr><td colspan="5" align="left" rowspan="1">
+<italic toggle="yes">Section 1: As a percentage of all cases (inflammatory and noninflammatory)</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 1.999<italic toggle="yes">x</italic>
+<sub>1</sub> + 58.021, <italic toggle="yes">r</italic>
+<sup>2</sup>= 0.629</p></list-item><list-item><p>Equation (1)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">64.05 (±2.46, 62.44–65.66)</td><td align="center" rowspan="1" colspan="1">64.05 (±2.46, 62.45–65.65)</td><td align="center" rowspan="1" colspan="1">±4.61</td></tr><tr><td align="left" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 76.66<italic toggle="yes">x</italic>
+<sub>2</sub> − 0.765<italic toggle="yes">x</italic>
+<sub>3</sub> + 0.732, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.711</p></list-item><list-item><p>Equation (A)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">30.25 (±3.49, 27.97–32.53)</td><td align="center" rowspan="1" colspan="1">31.84 (±3.10, 29.21–33.87)</td><td align="center" rowspan="1" colspan="1">±3.69</td></tr><tr><td align="left" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 102.75<italic toggle="yes">x</italic>
+<sub>2</sub> − 0.503<italic toggle="yes">x</italic>
+<sub>3</sub> − 0.544<italic toggle="yes">x</italic>
+<sub>4</sub> + 5.080, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.766.</p></list-item><list-item><p>Equation (B)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">30.25 (±3.49, 27.97–32.53)</td><td align="center" rowspan="1" colspan="1">30.25 (±3.04, 28.27–32.23)</td><td align="center" rowspan="1" colspan="1">±3.31</td></tr><tr><td align="left" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 55.61<italic toggle="yes">x</italic>
+<sub>2</sub> + 0.970<italic toggle="yes">x</italic>
+<sub>4</sub> − 8.862, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.703<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>.</p></list-item><list-item><p>Equation (2)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">30.25 (±3.49, 27.97–32.53)</td><td align="center" rowspan="1" colspan="1">30.26 (±2.93, 28.35–32.17)</td><td align="center" rowspan="1" colspan="1">±3.71</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 0.127<italic toggle="yes">x</italic>
+<sub>3</sub>+ 4.929<italic toggle="yes">x</italic>
+<sub>5</sub> + 1.950, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.675<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>.</p></list-item><list-item><p>Equation (3)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">3.64 (±0.38, 3.39–3.89)</td><td align="center" rowspan="1" colspan="1">3.63 (±0.36, 3.42–3.84)</td><td align="center" rowspan="1" colspan="1">±0.37</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 0.059<italic toggle="yes">x</italic>
+<sub>3</sub> + 2.330<italic toggle="yes">x</italic>
+<sub>5</sub> − 0.249<italic toggle="yes">x</italic>
+<sub>4</sub> + 5.377, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.739<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>.</p></list-item><list-item><p>Equation (4)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">3.64 (±0.38, 3.39–3.89)</td><td align="center" rowspan="1" colspan="1">3.64 (±0.34, 3.42–3.86)</td><td align="center" rowspan="1" colspan="1">±0.29</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 0.037<italic toggle="yes">x</italic>
+<sub>1</sub> + 0.003<italic toggle="yes">x</italic>
+<sub>4</sub> + 0.073<italic toggle="yes">x</italic>
+<sub>6</sub> − 0.044<italic toggle="yes">x</italic>
+<sub>7</sub> + 0.010<italic toggle="yes">x</italic>
+<sub>3</sub> − 0.399, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.744</p></list-item><list-item><p>Equation (C)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.22 (±0.09, 0.16–0.28)</td><td align="center" rowspan="1" colspan="1">0.18 (±0.09, 0.12–0.24)</td><td align="center" rowspan="1" colspan="1">±0.08</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 0.037<italic toggle="yes">x</italic>
+<sub>1</sub> − 0.069<italic toggle="yes">x</italic>
+<sub>4</sub> + 0.026<italic toggle="yes">x</italic>
+<sub>6</sub> − 0.035<italic toggle="yes">x</italic>
+<sub>3</sub> + 0.437, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.814</p></list-item><list-item><p>Equation (D)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.22 (±0.09, 0.16–0.28)</td><td align="center" rowspan="1" colspan="1">0.32 (±0.07, 0.27–0.37)</td><td align="center" rowspan="1" colspan="1">±0.23</td></tr><tr style="border-bottom:solid 1px #000000"><td colspan="5" rowspan="1">  </td></tr><tr><td colspan="5" align="left" rowspan="1">
+<italic toggle="yes">Section 2: As a percentage of all inflammatory cases only</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 69.51<italic toggle="yes">x</italic>
+<sub>2</sub> + 1.328<italic toggle="yes">x</italic>
+<sub>4</sub> − 2.905, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.704<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (5)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">47.15 (±4.30, 44.34–49.96)</td><td align="center" rowspan="1" colspan="1">47.17 (±3.62, 44.81–49.53)</td><td align="center" rowspan="1" colspan="1">±4.60</td></tr><tr><td align="left" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 78.467<italic toggle="yes">x</italic>
+<sub>2</sub> − 0.594<italic toggle="yes">x</italic>
+<sub>3</sub> + 13.027, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.682</p></list-item><list-item><p>Equation (<sup>∗∗</sup>)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">47.15 (±4.30, 44.34–49.96)</td><td align="center" rowspan="1" colspan="1">47.16 (±3.53, 44.85–49.47)</td><td align="center" rowspan="1" colspan="1">±4.75</td></tr><tr><td align="left" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 2.535<italic toggle="yes">x</italic>
+<sub>3</sub> + 3.970<italic toggle="yes">x</italic>
+<sub>4</sub> − 23.763, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.659<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (6)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">47.15 (±4.30, 44.34–49.96)</td><td align="center" rowspan="1" colspan="1">47.18 (±3.52, 44.88–49.48)</td><td align="center" rowspan="1" colspan="1">±4.80</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 0.136<italic toggle="yes">x</italic>
+<sub>3</sub> + 16.427<italic toggle="yes">x</italic>
+<sub>7</sub> + 3.539, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.704<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (7)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">5.68 (±0.52, 5.34–6.02)</td><td align="center" rowspan="1" colspan="1">5.67 (±0.44, 5.38–5.96)</td><td align="center" rowspan="1" colspan="1">±0.56</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 0.03<italic toggle="yes">x</italic>
+<sub>3</sub> + 12.381<italic toggle="yes">x</italic>
+<sub>5</sub> − 0.388<italic toggle="yes">x</italic>
+<sub>4</sub> + 8.874, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.804<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (8)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">5.68 (±0.52, 5.34–6.02)</td><td align="center" rowspan="1" colspan="1">5.67 (±0.47, 5.36–5.98)</td><td align="center" rowspan="1" colspan="1">±0.44</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 13.80<italic toggle="yes">x</italic>
+<sub>5</sub> − 0.449<italic toggle="yes">x</italic>
+<sub>4</sub> + 9.815, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.799<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (9)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">5.68 (±0.52, 5.34–6.02)</td><td align="center" rowspan="1" colspan="1">5.67 (±0.47, 5.36–5.98)</td><td align="center" rowspan="1" colspan="1">±0.44</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 0.054<italic toggle="yes">x</italic>
+<sub>3</sub> − 0.427<italic toggle="yes">x</italic>
+<sub>4</sub> + 9.346, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.773<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (10)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">5.68 (±0.52, 5.34–6.02)</td><td align="center" rowspan="1" colspan="1">5.67 (±0.46, 5.37–5.97)</td><td align="center" rowspan="1" colspan="1">±0.48</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 0.059<italic toggle="yes">x</italic>
+<sub>1</sub> − 0.087<italic toggle="yes">x</italic>
+<sub>4</sub> + 1.034, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.687<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (11)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.34 (±0.14, 0.25–0.43)</td><td align="center" rowspan="1" colspan="1">0.31 (±0.12, 0.24–0.38)</td><td align="center" rowspan="1" colspan="1">±0.21</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 0.027<italic toggle="yes">x</italic>
+<sub>6</sub> − 0.059<italic toggle="yes">x</italic>
+<sub>4</sub> + 0.139, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.766<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (12)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.34 (±0.14, 0.25–0.43)</td><td align="center" rowspan="1" colspan="1">0.35 (±0.12, 0.27–0.43)</td><td align="center" rowspan="1" colspan="1">±0.13</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 0.012<italic toggle="yes">x</italic>
+<sub>7</sub>  − 0.087<italic toggle="yes">x</italic>
+<sub>4</sub> + 0.700, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.675<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (13)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.34 (±0.14, 0.25–0.43)</td><td align="center" rowspan="1" colspan="1">0.32 (±0.12, 0.24–0.40)</td><td align="center" rowspan="1" colspan="1">±0.25</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>1</sub> = 0.045<italic toggle="yes">x</italic>
+<sub>1</sub>  + 0.042<italic toggle="yes">x</italic>
+<sub>6</sub>  − 0.059<italic toggle="yes">x</italic>
+<sub>3</sub>  − 0.121<italic toggle="yes">x</italic>
+<sub>4</sub> + 0.872 <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.914</p></list-item><list-item><p>Equation (D)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.34 (±0.14, 0.25–0.43)</td><td align="center" rowspan="1" colspan="1">0.31 (±0.13, 0.43–0.39)</td><td align="center" rowspan="1" colspan="1">±0.24</td></tr><tr style="border-bottom:solid 1px #000000"><td colspan="5" rowspan="1">  </td></tr><tr><td colspan="5" align="left" rowspan="1">
+<italic toggle="yes">Section 3: As a percentage of all inflammatory cases excluding conjunctivitis</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 0.823<italic toggle="yes">x</italic>
+<sub>3</sub> + 4.133<italic toggle="yes">x</italic>
+<sub>2</sub> − 0.146<italic toggle="yes">x</italic>
+<sub>7</sub> − 0.270<italic toggle="yes">x</italic>
+<sub>4</sub> + 7.044, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.943</td><td align="center" rowspan="1" colspan="1">10.84 (±1.53, 9.84–11.84)</td><td align="center" rowspan="1" colspan="1">10.32 (±1.73, 9.19–11.45)</td><td align="center" rowspan="1" colspan="1">±1.01</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 0.688<italic toggle="yes">x</italic>
+<sub>3</sub> − 2.07<italic toggle="yes">x</italic>
+<sub>2</sub> + 3.588, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.910</td><td align="center" rowspan="1" colspan="1">10.84 (±1.53, 9.84–11.84)</td><td align="center" rowspan="1" colspan="1">10.83 (±1.46, 9.87–11.79)</td><td align="center" rowspan="1" colspan="1">±0.92</td></tr><tr><td align="left" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 0.772<italic toggle="yes">x</italic>
+<sub>3</sub> + 6.455<italic toggle="yes">x</italic>
+<sub>2</sub> − 0.162<italic toggle="yes">x</italic>
+<sub>7</sub> + 4.880, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.936</p></list-item><list-item><p>Equation (<sup>∗∗∗</sup>)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">10.84 (±1.53, 9.84–11.84)</td><td align="center" rowspan="1" colspan="1">10.82 (±1.49, 9.85–11.79)</td><td align="center" rowspan="1" colspan="1">±0.78</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic> = 0.151<italic toggle="yes">x</italic>
+<sub>1</sub> + 0.028<italic toggle="yes">x</italic>
+<sub>7</sub> − 1.021, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.891<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (14)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.64 (±0.29, 0.45–0.83)</td><td align="center" rowspan="1" colspan="1">0.56 (±0.28, 0.36–0.76)</td><td align="center" rowspan="1" colspan="1">±0.50</td></tr><tr><td align="left" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 0.126<italic toggle="yes">x</italic>
+<sub>1</sub> + 0.029<italic toggle="yes">x</italic>
+<sub>7</sub> + 0.082<italic toggle="yes">x</italic>
+<sub>4</sub> − 1.643, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.847<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (15)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">0.64 (±0.29, 0.45–0.83</td><td align="center" rowspan="1" colspan="1">0.75 (±0.24, 0.58–0.92)</td><td align="center" rowspan="1" colspan="1">±0.53</td></tr><tr><td align="left" rowspan="1" colspan="1">V</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 13.976 − 0.446<italic toggle="yes">x</italic>
+<sub>1</sub> − 0.115<italic toggle="yes">x</italic>
+<sub>7</sub>, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.843<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (16)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">7.95 (±1.05, 7.26–8.64)</td><td align="center" rowspan="1" colspan="1">7.95 (±0.96, 7.32–8.58)</td><td align="center" rowspan="1" colspan="1">±0.75</td></tr><tr><td align="left" rowspan="1" colspan="1">VI</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 5.676 − 0.187<italic toggle="yes">x</italic>
+<sub>1</sub> − 0.070<italic toggle="yes">x</italic>
+<sub>8</sub>, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.814<xref rid="note-0005" ref-type="table-fn">
+<sup>∗</sup>
+</xref>
+</p></list-item><list-item><p>Equation (17)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">1.83 (±0.47, 1.52–2.14)</td><td align="center" rowspan="1" colspan="1">1.92 (±0.48, 1.61–2.23)</td><td align="center" rowspan="1" colspan="1">±0.62</td></tr><tr><td align="left" rowspan="1" colspan="1">VI</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 8.089 − 0.168<italic toggle="yes">x</italic>
+<sub>1</sub> − 0.073<italic toggle="yes">x</italic>
+<sub>8</sub> − 10.990<italic toggle="yes">x</italic>
+<sub>2</sub> + 0.291<italic toggle="yes">x</italic>
+<sub>3</sub>, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.988</p></list-item><list-item><p>Equation (E)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">1.83 (±0.47, 1.52–2.14)</td><td align="center" rowspan="1" colspan="1">1.97 (±0.61, 1.57–2.37)</td><td align="center" rowspan="1" colspan="1">±0.80</td></tr><tr><td align="left" rowspan="1" colspan="1">VII</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple"><list-item><p>
+<italic toggle="yes">y</italic>
+<sub>2</sub> = 35.826<italic toggle="yes">x</italic>
+<sub>2</sub> + 31.162, <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.495.</p></list-item><list-item><p>Equation (18)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">50.03 (±3.09, 48.01–52.04)</td><td align="center" rowspan="1" colspan="1">50.03 (±2.18, 48.61–51.45)</td><td align="center" rowspan="1" colspan="1">±4.30</td></tr></tbody></table><table-wrap-foot><fn id="note-0004"><p>
+<italic toggle="yes">Note:</italic> LoA = limits of agreement between estimated and actual prevalence values (±1.96SD), <italic toggle="yes">x</italic>
+<sub>1</sub> = mean annual atmospheric concentration of formaldehyde, <italic toggle="yes">x</italic>
+<sub>2</sub> = mean annual atmospheric concentration of CO, <italic toggle="yes">x</italic>
+<sub>3</sub> = mean annual atmospheric concentration of SO2, <italic toggle="yes">x</italic>
+<sub>4</sub> = mean annual temperature, <italic toggle="yes">x</italic>
+<sub>5</sub> = mean annual atmospheric concentration of Pb(PM10), <italic toggle="yes">x</italic>
+<sub>6</sub> = mean annual atmospheric concentration of PM2.5, <italic toggle="yes">x</italic>
+<sub>7</sub> = mean annual atmospheric concentration of PM10, <italic toggle="yes">x</italic>
+<sub>8</sub> = mean annual atmospheric concentration of NOx. I = all inflammatory conditions. II = conjunctivitis, III = uveitis with retinitis, IV = endophthalmitis, V = optic neuritis, VI = lacrimal system inflammations, VII = keratitis, <italic toggle="yes">y</italic> = [Total number of all inflammatory cases/Total number of all cases that attended the emergency department] × 100%, <italic toggle="yes">y</italic>
+<sub>1</sub> = [Total number of cases/total number of all inflammatory cases] × 100%, <italic toggle="yes">y</italic>
+<sub>2</sub> = [Total number of cases/total number of all inflammatory cases excluding conjunctivitis] × 100%, <italic toggle="yes">n</italic> = 9, <italic toggle="yes">p</italic> &lt; 0.05.</p></fn><fn id="note-0005"><p>
+<sup>∗</sup>Expressions where all variance inflation factors (VIF) were below 4. The VIF values are Equation (2), 1.77 (for both variables); Equation (3), 1.77 (for both variables); Equation (4), 3.69 (<italic toggle="yes">x</italic>
+<sub>4</sub>), 3.92 (<italic toggle="yes">x</italic>
+<sub>3</sub>), 1.83 (<italic toggle="yes">x</italic>
+<sub>5</sub>); Equation (5), 1.74 (for both variables); Equation (6), 3.56 (for both variables); Equation (7), 1.77 (for both variables); Equation (8), 3.92 (<italic toggle="yes">x</italic>
+<sub>3</sub>), 3.69 (<italic toggle="yes">x</italic>
+<sub>4</sub>), 1.83 (<italic toggle="yes">x</italic>
+<sub>5</sub>); Equation (9), 1.66 (for both variables); Equation (10), 2.56 (for both variables); Equation (11), 1.70 (for both variables); Equation (12), 2.00 (for both variables); Equation (13), 1.79 (for both variables); Equation (14), 1.92 (for both variables); Equation (15), 2.30 (<italic toggle="yes">x</italic>
+<sub>1</sub>), 1.93 (<italic toggle="yes">x</italic>
+<sub>6</sub>), 1.34 (<italic toggle="yes">x</italic>
+<sub>4</sub>); Equation (16), 1.92 (for both variables); Equation (17), 2.20 (for both variables).</p></fn></table-wrap-foot></table-wrap><p>Multiple linear regression analyses revealed that the prevalence of conjunctivitis, uveitis with retinitis, endophthalmitis, optic neuritis, lacrimal system inflammation, and keratitis was significantly associated with mean annual concentrations of various pollutants and/or temperature. The expressions describing these significant associations are shown in Table <xref rid="tbl-0004" ref-type="table">4</xref>.</p><p>The actual and estimated prevalence of the AOICs, according to the best‐fitting expressions, are presented in Table <xref rid="tbl-0004" ref-type="table">4</xref>. The mean difference between the actual and estimated values, and the LoA (LoA = 1.96 ×SD) between these values are also noted in Table <xref rid="tbl-0004" ref-type="table">4</xref>. The variance inflation factors (VIFs) of some variables in the tabled expressions are above 15. These results can be interpreted as having high levels of multicollinearity where the concentration of pollutants and/or temperature should not be considered as independent variables [<xref rid="bib-0021" ref-type="bibr">21</xref>–<xref rid="bib-0023" ref-type="bibr">23</xref>]. The likelihood of a multicollinearity problem is low when the VIF values are below 4, and these expressions are marked with a caret (<sup>∗</sup>) in Table <xref rid="tbl-0004" ref-type="table">4</xref>. The corresponding VIF values are included in the notes accompanying Table <xref rid="tbl-0004" ref-type="table">4</xref>.</p><p>Multiple linear regression analyses did not reveal any significant association between the prevalence of scleritis, orbital inflammation, or blepharitis and mean pollutant levels and/or temperature.</p></sec><sec id="sec-0018"><title>4. Discussion</title><p>Previous studies on pollution and ophthalmological conditions tended to focus on DED, conjunctivitis, and ocular surface disorders [<xref rid="bib-0014" ref-type="bibr">14</xref>, <xref rid="bib-0015" ref-type="bibr">15</xref>, <xref rid="bib-0017" ref-type="bibr">17</xref>]. In contrast, the present study evaluated a broad spectrum of AOICs and identified significant associations with atmospheric pollutants, including formaldehyde, SO<sub>2</sub>, CO, PM<sub>10</sub>, and PM<sub>2.5</sub>. These findings are generally consistent with earlier reports linking air pollution to ocular inflammation, while extending previous observations to less frequently studied conditions such as endophthalmitis, optic neuritis, and lacrimal inflammation. Bourcier et al. analyzed emergency ophthalmology visits in relation to air pollution and weather conditions using regression‐based time‐series methods [<xref rid="bib-0024" ref-type="bibr">24</xref>]. Khalaila et al. investigated the association between ambient temperature, PM, and conjunctivitis‐related emergency department visits using a case‐crossover design and conditional logistic regression models [<xref rid="bib-0025" ref-type="bibr">25</xref>]. Wang et al. evaluated the short‐term effects of air pollutants on emergency room visits for eye diseases using generalized additive models (GAMs) with a quasi‐Poisson regression link and lagged exposure analyses [<xref rid="bib-0026" ref-type="bibr">26</xref>].</p><p>However, these studies primarily focused on estimating associations, relative risks, or odds ratios rather than developing predictive equations. In contrast, the present study developed multivariable regression equations incorporating temperature and multiple pollutants, enabling direct estimation of the expected frequency of AOICs under different environmental conditions.</p><p>Previous studies have attempted to develop predictive models linking environmental factors and ocular diseases. Youn et al. developed a regression‐based prediction model for DED incidence using air pollutants (PM<sub>10</sub>, NO<sub>2</sub>, SO<sub>2</sub>, and CO) and meteorological variables, including temperature and humidity [<xref rid="bib-0027" ref-type="bibr">27</xref>]. Similarly, Seo et al. proposed a conjunctivitis outpatient rate prediction model incorporating environmental and meteorological factors [<xref rid="bib-0028" ref-type="bibr">28</xref>]. Unlike these studies, which focused on single ocular disorders, our models encompass a broad spectrum of AOICs.</p><p>Among the pollutants evaluated, formaldehyde emerged as the most consistent predictor of the overall prevalence of AOICs. Therefore, its potential role deserves particular attention. The concentration of formaldehyde is the single atmospheric factor associated with the prevalence of all AOICs. According to Equation (1) in Table <xref rid="tbl-0004" ref-type="table">4</xref> (Section 1) and Figure <xref rid="fig-0001" ref-type="fig">1</xref>, reducing the concentration of formaldehyde to zero should reduce the prevalence of all ophthalmic inflammatory conditions from 64% to 58%. The LoA of Equation (1), ±4.61%, can be interpreted as indicative of the confidence that can be placed on the estimated 6% reduction. Table <xref rid="tbl-0003" ref-type="table">3</xref> shows the prevalence of some AOICs correlated positively, while others correlated negatively, with atmospheric pollutant levels. This diversity of correlations will impact on the confidence of Equation (1). Tables <xref rid="tbl-0003" ref-type="table">3</xref> and <xref rid="tbl-0004" ref-type="table">4</xref> show that, besides temperature, the chief pollutants associated with the prevalence of the various ophthalmic inflammatory conditions are SO<sub>2</sub>, CO, PM<sub>10</sub>, and PM<sub>2.5</sub>.</p><fig position="float" fig-type="FIGURE" id="fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Estimated changes in the prevalence of selected conditions on condition levels of selected pollutants are nullified. Notes: I, prevalence over the period 2011–19. II, estimated prevalence after removing all traces of the noted pollutant(s). (A) Prevalence of all ocular inflammatory cases in population attending emergency eye department (Table <xref rid="tbl-0004" ref-type="table">4</xref>, Equation (1)). (B) Prevalence of keratitis among the ocular inflammatory cases after excluding all cases of conjunctivitis (Table <xref rid="tbl-0004" ref-type="table">4</xref>, Equation (18)). (C) Prevalence of conjunctivitis among all ocular inflammatory cases (Table <xref rid="tbl-0004" ref-type="table">4</xref>, Equation (<sup>∗∗</sup>)). (D) Prevalence of uveitis with retinitis among the ocular inflammatory cases after excluding all cases of conjunctivitis (Table <xref rid="tbl-0004" ref-type="table">4</xref>, Equation (<sup>∗∗∗</sup>)).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="JOPH-2026-7498511-g001.webp"><?image-name JOPH-2026-7498511-g001.webp?><?image-size 13554?><?image-md5 8dacb20f4d0a05c407c04d7b2e7c2f3a?><?image-image-server-status NEVER_LOAD?><?image-original-height 364?><?image-original-width 600?><?image-scaled-height 364?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/31f3/13500999/8dacb20f4d0a/JOPH-2026-7498511-g001.webp?><?thumb-name JOPH-2026-7498511-g001.gif?><?thumb-size 2538?><?thumb-md5 521153496f58fdecb5959e3adac91aff?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/31f3/13500999/521153496f58/JOPH-2026-7498511-g001.gif?></graphic></fig><p>To our knowledge, few studies have specifically examined the relationship between formaldehyde exposure and AOICs. Previous research has primarily focused on ocular irritation [<xref rid="bib-0029" ref-type="bibr">29</xref>], ocular surface inflammation [<xref rid="bib-0030" ref-type="bibr">30</xref>], and corneal injury [<xref rid="bib-0031" ref-type="bibr">31</xref>]. In contrast, evidence regarding the role of formaldehyde in ophthalmic inflammatory conditions remains limited. Formaldehyde is known to induce oxidative stress and inflammatory responses in exposed tissues, which may provide a biological explanation for the consistent associations observed in the present study [<xref rid="bib-0029" ref-type="bibr">29</xref>]. Therefore, the consistent association between formaldehyde and the prevalence of AOICs observed in the present study should be considered hypothesis‐generating and warrants further investigation.</p><p>Atmospheric temperatures are affected by pollutants that are naturally occurring and those released by industrial activity. Atmospheric temperature and pollutant concentrations are interrelated and therefore should not be considered mutually independent factors. Thus, the outcomes of multiple linear regression analyses, noted in Table <xref rid="tbl-0004" ref-type="table">4</xref>, are expected to demonstrate relatively high VIF values. Nevertheless, a model with high VIF may still provide useful predictions when the associated correlation coefficient is high, or its predictions closely match actual results. The associations identified for individual AOICs are discussed below, beginning with conjunctivitis, the most common inflammatory condition in our cohort.</p><sec id="sec-0019"><title>4.1. Conjunctivitis</title><p>The observed positive association between conjunctivitis and CO concentration may reflect the irritative and proinflammatory effects of air pollutants on the ocular surface [<xref rid="bib-0032" ref-type="bibr">32</xref>]. Although CO is not a strong irritant at typical environmental levels, it often appears alongside other pollutants from traffic or industrial sources and may serve as an indicator of overall air pollution exposure [<xref rid="bib-0033" ref-type="bibr">33</xref>]. Similarly, the positive correlation with temperature may contribute to the seasonal patterns, with warmer months facilitating greater pollutant dispersion or increased exposure due to behavioral factors such as outdoor activity [<xref rid="bib-0034" ref-type="bibr">34</xref>]. These findings are consistent with previous studies linking air quality and weather conditions to fluctuations in conjunctival inflammation, particularly in urban environments [<xref rid="bib-0025" ref-type="bibr">25</xref>, <xref rid="bib-0035" ref-type="bibr">35</xref>, <xref rid="bib-0036" ref-type="bibr">36</xref>]. Figure <xref rid="fig-0001" ref-type="fig">1</xref> shows that reducing the ambient levels of CO and SO<sub>2</sub> has the potential to reduce the prevalence of conjunctivitis in the population attending the emergency eye hospital.</p><p>For example, Equation (2), A and B in Table <xref rid="tbl-0004" ref-type="table">4</xref> suggest that reducing atmospheric levels of these pollutants to zero could lower the prevalence of conjunctivitis. According to these models, the prevalence among all emergency cases would decrease from 30.25% (±3.49) to less than 1% at a mean annual temperature of 10°C. However, according to Equations (5) and (6), in Section 2 of Table <xref rid="tbl-0004" ref-type="table">4</xref>, reducing atmospheric levels of CO and SO<sub>2</sub> could lower the prevalence of conjunctivitis among all AOICs from an average of 47.15% (±4.30) to between 10.4% and 15.9% for a mean annual temperature of 10°C. Although the estimates vary, they show the same trend. Any strategy adopted to reduce the prevalence of conjunctivitis among all ophthalmic inflammatory cases will, by definition, be met with a concurrent rise in the prevalence of other conditions. Beyond conjunctivitis, significant associations were also identified for deeper inflammatory ocular disorders, particularly uveitis with retinitis.</p></sec><sec id="sec-0020"><title>4.2. Uveitis With Retinitis</title><p>Figure <xref rid="fig-0001" ref-type="fig">1</xref> shows that reducing exposure to CO, SO<sub>2</sub>, and PM<sub>10</sub> should lower the prevalence of uveitis with retinitis. Exposure to SO<sub>2</sub> and PM<sub>10</sub> was significantly associated with the prevalence of uveitis with retinitis, whereas higher temperatures were linked to lower prevalence values. The association with PM supports the results from a study based in China [<xref rid="bib-0037" ref-type="bibr">37</xref>]. However, the association with uveitis was stronger for PM<sub>2.5</sub> as opposed to PM<sub>10</sub> levels. The particularly strong influence of lead (Pb(PM<sub>10</sub>)) may suggest a toxic‐inflammatory mechanism involving oxidative stress or direct disruption of the blood–ocular barrier [<xref rid="bib-0038" ref-type="bibr">38</xref>]. Similar associations between heavy metal exposure and retinal inflammation have been reported in environmental and toxicological studies [<xref rid="bib-0004" ref-type="bibr">4</xref>, <xref rid="bib-0034" ref-type="bibr">34</xref>, <xref rid="bib-0035" ref-type="bibr">35</xref>, <xref rid="bib-0039" ref-type="bibr">39</xref>]. On a closer examination, the corresponding models in Section 2 of Table <xref rid="tbl-0004" ref-type="table">4</xref> generate conflicting estimates. According to Equations (3) and (7), reducing the atmospheric levels of the noted pollutants to zero should reduce the overall prevalence of uveitis with retinitis about 2%. However, according to Equations (4) and (8), reducing the levels of these pollutants to zero would have little impact on the prevalence when the mean annual temperature is approximately 10°C. The prevalence values are expected to rise when there is a concurrent fall in ambient temperature levels. This aligns with the findings that anterior uveitis cases rise during cooler winter months [<xref rid="bib-0040" ref-type="bibr">40</xref>]. Unlike uveitis, endophthalmitis has rarely been investigated in relation to environmental pollution.</p></sec><sec id="sec-0021"><title>4.3. Endophthalmitis</title><p>Endophthalmitis is generally considered as a possible complication of intraocular surgery. To our knowledge, published studies investigating the effects of air pollution have primarily focused on ocular surface disorders, conjunctivitis, DED, allergic eye disease, and uveitis [<xref rid="bib-0004" ref-type="bibr">4</xref>, <xref rid="bib-0007" ref-type="bibr">7</xref>, <xref rid="bib-0008" ref-type="bibr">8</xref>, <xref rid="bib-0037" ref-type="bibr">37</xref>, <xref rid="bib-0041" ref-type="bibr">41</xref>]. Evidence regarding endophthalmitis remains scarce. Nevertheless, according to Equation (C), the prevalence of endophthalmitis can be estimated within ±0.08% using the mean temperature and the concentrations of formaldehyde, SO<sub>2</sub>, PM<sub>10</sub>, and PM<sub>2.5</sub>. Equations (11)–(15) indicate that reducing the levels of formaldehyde, PM<sub>10</sub>, and PM<sub>2.5</sub> should reduce the prevalence of endophthalmitis among inflammatory cases. According to Equation (D), there is a tendency toward a negative association with temperature and SO<sub>2</sub> levels. Higher temperatures and SO<sub>2</sub> levels were associated with lower estimated prevalence. Although SO<sub>2</sub> is generally considered a harmful pollutant, its negative correlation with endophthalmitis rates may result from complex interactions with other environmental factors or an ecological bias [<xref rid="bib-0042" ref-type="bibr">42</xref>]. Higher temperatures may reduce the viability of certain pathogens or influence human behavioral patterns, such as increased ventilation, thereby decreasing the risk of infections [<xref rid="bib-0043" ref-type="bibr">43</xref>, <xref rid="bib-0044" ref-type="bibr">44</xref>]. This must be viewed with caution because according to Equation (C), the association with temperature and SO<sub>2</sub> levels is positive. Turning to Equations (14) and (15), an association with SO<sub>2</sub> levels was observed, and a positive association with temperature was observed, after excluding all cases of conjunctivitis. The high number of conjunctivitis cases (<italic toggle="yes">n</italic> = 28,326) appears to overshadow any links between endophthalmitis (<italic toggle="yes">n</italic> = 198) and environmental factors. Beyond these conditions, significant associations were also identified for several less common inflammatory ocular disorders.</p></sec><sec id="sec-0022"><title>4.4. Other Conditions</title><p>Further stratification of the dataset by the exclusion of both conjunctivitis and noninflammatory trauma cases revealed statistically significant regression models for optic neuritis, lacrimal inflammation, and keratitis. The models in Section 3 of Table <xref rid="tbl-0004" ref-type="table">4</xref> demonstrate high correlations (<italic toggle="yes">r</italic>
+<sup>2</sup> up to 0.988) with selected air pollutants, including formaldehyde, CO, SO<sub>2</sub>, and PM<sub>10</sub>. The prominence of keratitis in this group is highlighted in Figure <xref rid="fig-0001" ref-type="fig">1</xref>, and according to Equation (18), nullifying the concentration of CO has the potential to reduce this prevalence to under 32%. The observed association between air pollutants and optic neuritis is consistent with the hypothesis that airborne toxins may contribute to optic nerve inflammation through immune‐mediated or neurotoxic mechanisms [<xref rid="bib-0045" ref-type="bibr">45</xref>]. Equation (16) suggests that environmental exposures to formaldehyde and PM<sub>10</sub> may disproportionately influence the prevalence of optic neuritis by targeting anatomically deeper ocular tissues. The stepwise narrowing of the case group enhanced the visibility of pollutant–disease associations. These findings underscore the importance of focusing on well‐defined inflammatory entities when investigating environmental influences on ocular morbidity, particularly those involving intraocular or neuro‐ophthalmic structures. Turning to Equation (17) and E, these models for the prevalence of lacrimal inflammation also include NO<sub>x</sub>. To date, there is limited published information directly linking air pollution with lacrimal system inflammation. While the impact of air pollution on the ocular surface, tear film stability, and dry eye symptoms is documented [<xref rid="bib-0007" ref-type="bibr">7</xref>, <xref rid="bib-0041" ref-type="bibr">41</xref>], deeper periocular structures such as the lacrimal gland and nasolacrimal duct have received little attention in this context. The associations observed in this study suggest that these less frequently studied inflammatory conditions may be strongly influenced by environmental factors than previously recognized. However, Table <xref rid="tbl-0003" ref-type="table">3</xref> shows that the prevalence of optic neuritis and lacrimal inflammation is mainly negatively correlated with the concentrations of the selected air pollutants, and Equations (16), (17) and E predict increased prevalence of these conditions when pollutant levels approach zero. This implies that higher levels of the specified pollutants could offer some protection against these inflammatory conditions. On a purely speculative basis, lowering these pollutant levels may trigger events culminating in either optic neuritis or lacrimal inflammation.</p><p>These findings suggest that specific environmental pollutants, including formaldehyde, CO, SO<sub>2</sub>, PM<sub>2.5</sub>, and PM<sub>10</sub>, are significantly associated with the prevalence of various inflammatory ocular conditions. The strength and consistency of these associations increased when the analysis was limited to less common inflammatory conditions after excluding noninflammatory conditions and conjunctivitis. These results highlight the importance of environmental monitoring and its potential role in predicting or mitigating the risk of serious ocular inflammation. Further research is warranted to confirm these associations in larger cohorts and to explore underlying pathophysiological mechanisms.</p></sec></sec><sec id="sec-0023"><title>5. Clinical Implications</title><p>This study indicates that certain air pollutants, particularly SO<sub>2</sub>, CO, PM<sub>10</sub>, and PM<sub>2.5</sub>, may significantly contribute to the development of inflammatory ocular diseases such as uveitis with retinitis, endophthalmitis, optic neuritis, and lacrimal inflammation. The improved strength and clarity of regression models after excluding noninflammatory and nonspecific conditions, such as conjunctivitis, suggest that these environmental factors have a more pronounced effect on deeper, more severe ocular inflammation. Clinicians should consider environmental exposure as a relevant risk factor, especially in susceptible individuals or in areas with high levels of air pollution. Preventive strategies, such as patient education and closer monitoring during periods of poor air quality, may help reduce the burden of environmentally driven ocular inflammation.</p><sec id="sec-0024"><title>5.1. Study Limitations</title><p>This retrospective, single‐center study is subject to certain limitations. Diagnostic classification was based on existing medical records, which may vary in completeness and accuracy. Yearly aggregation of cases limited temporal resolution and precluded analysis of short‐term environmental effects. Additionally, exposure to air pollutants was estimated from regional monitoring stations and not linked to individual patient locations. Finally, as an ecological study, the analysis did not account for individual‐level confounders such as age, comorbidities, or socioeconomic factors. Therefore, the observed associations should not be interpreted as evidence of causal relationships between environmental factors and AOICs prevalence.</p></sec></sec><sec id="sec-0025"><title>6. Future Directions</title><p>Future studies should explore the observed associations in larger, multicenter cohorts and include individual‐level clinical data to better account for potential confounders. More precise exposure assessment, based on residential data or personal monitoring, may improve model accuracy. Prospective research is also needed to clarify causal links and to better understand the biological mechanisms through which air pollutants contribute to inflammatory eye diseases.</p></sec><sec id="sec-0026"><title>7. Conclusion</title><p>Formaldehyde, CO, SO<sub>2</sub>, PM<sub>2</sub>.<sub>5</sub>, and PM<sub>10</sub> were significantly linked to inflammatory ocular conditions, with stronger associations after excluding noninflammatory cases and conjunctivitis. These findings highlight the importance of environmental monitoring in predicting or reducing serious eye inflammation, supporting further large‐scale research.</p></sec><sec id="sec-0027"><title>Author Contributions</title><p>Conceptualization: Monika Sarnat‐Kucharczyk and Sudi Patel; data curation: Monika Sarnat‐Kucharczyk and Sudi Patel; formal analysis: Monika Sarnat‐Kucharczyk and Sudi Patel; investigation: Monika Sarnat‐Kucharczyk, Sudi Patel, and Dorota Wyględowska‐Promieńska; methodology: Sudi Patel; project administration: Monika Sarnat‐Kucharczyk and Sudi Patel; resources: Monika Sarnat‐Kucharczyk; software: Monika Sarnat‐Kucharczyk and Sudi Patel; supervision: Monika Sarnat‐Kucharczyk, Sudi Patel, and Dorota Wyględowska‐Promieńska; validation: Monika Sarnat‐Kucharczyk, Sudi Patel, and Dorota Wyględowska‐Promieńska; visualization: Monika Sarnat‐Kucharczyk, Sudi Patel, and Dorota Wyględowska‐Promieńska; writing–original draft: Monika Sarnat‐Kucharczyk and Sudi Patel; writing–review and editing: Monika Sarnat‐Kucharczyk, Sudi Patel, and Dorota Wyględowska‐Promieńska.</p></sec><sec id="sec-0029"><title>Funding</title><p>This research did not receive any specific grant from funding agencies in the public, commercial, or not‐for‐profit sectors.</p></sec><sec id="sec-0030"><title>Disclosure</title><p>The authors have nothing to report.</p></sec><sec id="sec-0031"><title>Ethics Statement</title><p>No animal studies are presented in this manuscript. In accordance with the Bioethics Committee of the Medical University of Silesia, retrospective data analysis is not classified as a medical experiment and, therefore, does not require the approval of the Bioethics Committee. The studies were conducted in accordance with the local legislation and institutional requirements. Written informed consent for participation was not required from the participants or the participants’ legal guardians/next of kin in accordance with the national legislation and institutional requirements. No potentially identifiable images or data are presented in this study.</p></sec><sec sec-type="COI-statement" id="sec-0032"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec id="sec-0035"><title>Supporting Information</title><p>Additional supporting information can be found online in the Supporting Information section.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="link-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information</bold> STROBE Statement—Checklist of items that should be included in reports of cross‐sectional studies.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JOPH-2026-7498511-s001.docx" position="float" orientation="portrait"><?suppdata-name JOPH-2026-7498511-s001.docx?><?suppdata-size 33609?><?suppdata-md5 498d9a56c79501fc15321625cdbd8631?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:31f3/13500999/498d9a56c795/JOPH-2026-7498511-s001.docx?></media></supplementary-material></sec></body><back><ack id="sec-0028"><title>Acknowledgments</title><p>
+<italic toggle="yes">Declaration of Generative AI and AI-Assisted Technologies in the Writing Process</italic>. No generative AI was used in the preparation of this manuscript.</p></ack><sec sec-type="data-availability" id="sec-0034"><title>Data Availability Statement</title><p>The original contributions presented in the study are included within the article; further inquiries can be directed to the corresponding author.</p></sec><ref-list><ref id="bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cit-0001">
+<string-name name-style="western">
+<surname>Lederer</surname>
+<given-names>A. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fredriksen</surname>
+<given-names>P. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nkeh-Chungag</surname>
+<given-names>B. N.</given-names>
+</string-name> et al., <article-title>Cardiovascular Effects of Air Pollution: Current Evidence From Animal and Human Studies</article-title>, <source>American Journal of Physiology-Heart and Circulatory Physiology</source>. (<year>2021</year>) <volume>320</volume>, no. 4, <fpage>H1417</fpage>–<lpage>H1439</lpage>, <pub-id pub-id-type="doi">10.1152/ajpheart.00706.2020</pub-id>.<pub-id pub-id-type="pmid">33513082</pub-id>
+</mixed-citation></ref><ref id="bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cit-0002">
+<string-name name-style="western">
+<surname>Cao</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z.-R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ni</surname>
+<given-names>Q.-Y.</given-names>
+</string-name> et al., <article-title>Emerging Roles of Air Pollution and Meteorological Factors in Autoimmune Eye Diseases</article-title>, <source>Environmental Research</source>. (<year>2023</year>) <volume>231</volume>, <pub-id pub-id-type="doi">10.1016/j.envres.2023.116116</pub-id>.<pub-id pub-id-type="pmid">37182831</pub-id></mixed-citation></ref><ref id="bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cit-0003">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bian</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yin</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>X.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Mu</surname>
+<given-names>G.</given-names>
+</string-name>, <article-title>The Effect of Air Pollution on the Occurrence of Nonspecific Conjunctivitis</article-title>, <source>Journal of Ophthalmology</source>. (<year>2016</year>) <volume>2016</volume>, <fpage>3628762</fpage>–<lpage>3628763</lpage>, <pub-id pub-id-type="doi">10.1155/2016/3628762</pub-id>.<pub-id pub-id-type="pmid">27313867</pub-id>
+<pub-id pub-id-type="pmcid">PMC4904094</pub-id></mixed-citation></ref><ref id="bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cit-0004">
+<string-name name-style="western">
+<surname>Bai</surname>
+<given-names>Y.-C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C.-Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>C.-L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lai</surname>
+<given-names>J. N.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wei</surname>
+<given-names>J. C. C.</given-names>
+</string-name>, <article-title>Association Between Air Pollution and the Risk of Uveitis: A Nationwide, Population-Based Cohort Study</article-title>, <source>Frontiers in Immunology</source>. (<year>2021</year>) <volume>12</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2021.613893</pub-id>.<pub-id pub-id-type="pmcid">PMC8013994</pub-id><pub-id pub-id-type="pmid">33815370</pub-id></mixed-citation></ref><ref id="bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cit-0005">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>L.</given-names>
+</string-name> et al., <article-title>The Impact of Short-Term Exposure to Criteria Air Pollutants on Sleep Disturbance Among Young Adults: A Nationwide Analysis in 261 Chinese Cities</article-title>, <source>Environmental Research</source>. (<year>2025</year>) <volume>264</volume>, <pub-id pub-id-type="doi">10.1016/j.envres.2024.120316</pub-id>.<pub-id pub-id-type="pmid">39521264</pub-id></mixed-citation></ref><ref id="bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cit-0006">
+<string-name name-style="western">
+<surname>Chua</surname>
+<given-names>S. Y. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Warwick</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Peto</surname>
+<given-names>T.</given-names>
+</string-name> et al., <article-title>Association of Ambient Air Pollution With Age-Related Macular Degeneration and Retinal Thickness in UK Biobank</article-title>, <source>British Journal of Ophthalmology</source>. (<year>2022</year>) <volume>106</volume>, no. 5, <fpage>705</fpage>–<lpage>711</lpage>, <pub-id pub-id-type="doi">10.1136/bjophthalmol-2020-316218</pub-id>.<pub-id pub-id-type="pmid">33495162</pub-id>
+</mixed-citation></ref><ref id="bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cit-0007">
+<string-name name-style="western">
+<surname>Miyazaki</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fukagawa</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fukushima</surname>
+<given-names>A.</given-names>
+</string-name> et al., <article-title>Air Pollution Significantly Associated With Severe Ocular Allergic Inflammatory Diseases</article-title>, <source>Scientific Reports</source>. (<year>2019</year>) <volume>9</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/s41598-019-54841-4</pub-id>.<pub-id pub-id-type="pmcid">PMC6890742</pub-id><pub-id pub-id-type="pmid">31796815</pub-id></mixed-citation></ref><ref id="bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cit-0008">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Choi</surname>
+<given-names>Y.-H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>M. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Paik</surname>
+<given-names>H. J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>D. H.</given-names>
+</string-name>, <article-title>Different Adverse Effects of Air Pollutants on Dry Eye Disease: Ozone, PM2.5, and PM10</article-title>, <source>Environmental Pollution</source>. (<year>2020</year>) <volume>265</volume>, <pub-id pub-id-type="doi">10.1016/j.envpol.2020.115039</pub-id>.<pub-id pub-id-type="pmid">32806456</pub-id></mixed-citation></ref><ref id="bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cit-0009">
+<string-name name-style="western">
+<surname>Lu</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xia</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Guo</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>Short-Term Exposure to Air Pollution and Conjunctivitis Outpatient Visits: A Multi-City Study in China</article-title>, <source>Environmental Pollution</source>. (<year>2019</year>) <volume>254</volume>, <pub-id pub-id-type="doi">10.1016/j.envpol.2019.113030</pub-id>.<pub-id pub-id-type="pmid">31554141</pub-id></mixed-citation></ref><ref id="bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cit-0010">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Oh</surname>
+<given-names>I.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Sim</surname>
+<given-names>C. S.</given-names>
+</string-name>, <article-title>Astigmatism Associated With Allergic Conjunctivitis in Urban School Children</article-title>, <source>Journal of Ophthalmology</source>. (<year>2019</year>) <volume>2019</volume>, <fpage>9453872</fpage>–<lpage>9453878</lpage>, <pub-id pub-id-type="doi">10.1155/2019/9453872</pub-id>.<pub-id pub-id-type="pmid">31827915</pub-id>
+<pub-id pub-id-type="pmcid">PMC6885257</pub-id></mixed-citation></ref><ref id="bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cit-0011">
+<string-name name-style="western">
+<surname>Sarnat-Kucharczyk</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wyględowska-Promieńska</surname>
+<given-names>D.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Patel</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>The Impact of Air Temperature and Pollution on Admissions for Acute Ophthalmic Inflammation at the Emergency Eye Department in Katowice, Poland, From 2011 to 2023</article-title>, <source>Clinical Ophthalmology</source>. (<year>2025</year>) <volume>19</volume>, <fpage>1247</fpage>–<lpage>1261</lpage>, <pub-id pub-id-type="doi">10.2147/OPTH.S515938</pub-id>.<pub-id pub-id-type="pmid">40230388</pub-id>
+<pub-id pub-id-type="pmcid">PMC11995999</pub-id></mixed-citation></ref><ref id="bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cit-0012">
+<string-name name-style="western">
+<surname>Kobza</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Geremek</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Dul</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>Characteristics of Air Quality and Sources Affecting High Levels of PM10 and PM2.5 in Poland, Upper Silesia Urban Area</article-title>, <source>Environmental Monitoring and Assessment</source>. (<year>2018</year>) <volume>190</volume>, no. 9, <pub-id pub-id-type="doi">10.1007/s10661-018-6797-x</pub-id>.<pub-id pub-id-type="pmcid">PMC6096885</pub-id><pub-id pub-id-type="pmid">30109439</pub-id></mixed-citation></ref><ref id="bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cit-0013">
+<string-name name-style="western">
+<surname>Kaleta</surname>
+<given-names>D.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Kozielska</surname>
+<given-names>B.</given-names>
+</string-name>, <article-title>Spatial and Temporal Volatility of PM2.5, PM10 and PM10-Bound B[A]P Concentrations and Assessment of the Exposure of the Population of Silesia in 2018–2021</article-title>, <source>International Journal of Environmental Research and Public Health</source>. (<year>2022</year>) <volume>20</volume>, no. 1, <pub-id pub-id-type="doi">10.3390/ijerph20010138</pub-id>.<pub-id pub-id-type="pmcid">PMC9819630</pub-id><pub-id pub-id-type="pmid">36612461</pub-id></mixed-citation></ref><ref id="bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cit-0014">
+<string-name name-style="western">
+<surname>Mimura</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ichinose</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yamagami</surname>
+<given-names>S.</given-names>
+</string-name> et al., <article-title>Airborne Particulate Matter (PM2.5) and the Prevalence of Allergic Conjunctivitis in Japan</article-title>, <source>Science of the Total Environment</source>. (<year>2014</year>) <volume>487</volume>, <fpage>493</fpage>–<lpage>499</lpage>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2014.04.057</pub-id>.<pub-id pub-id-type="pmid">24802272</pub-id>
+</mixed-citation></ref><ref id="bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cit-0015">
+<string-name name-style="western">
+<surname>Novaes</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Saldiva</surname>
+<given-names>P. H. do N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Matsuda</surname>
+<given-names>M.</given-names>
+</string-name> et al., <article-title>The Effects of Chronic Exposure to Traffic Derived Air Pollution on the Ocular Surface</article-title>, <source>Environmental Research</source>. (<year>2010</year>) <volume>110</volume>, <fpage>372</fpage>–<lpage>374</lpage>, <pub-id pub-id-type="doi">10.1016/j.envres.2010.03.003</pub-id>.<pub-id pub-id-type="pmid">20338555</pub-id>
+</mixed-citation></ref><ref id="bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cit-0016">
+<string-name name-style="western">
+<surname>Ehret</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sauer</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Speeg-Schatz</surname>
+<given-names>C.</given-names>
+</string-name> et al., <article-title>Ocular Surface and Outdoor Air Pollution: A Systematic Review</article-title>, <source>Journal Français d’Ophtalmologie</source>. (<year>2022</year>) <volume>45</volume>, <fpage>784</fpage>–<lpage>802</lpage>, <pub-id pub-id-type="doi">10.1016/j.jfo.2022.02.007</pub-id>.<pub-id pub-id-type="pmid">35853756</pub-id></mixed-citation></ref><ref id="bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cit-0017">
+<string-name name-style="western">
+<surname>Mandell</surname>
+<given-names>J. T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Idarraga</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kumar</surname>
+<given-names>N.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Galor</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>Impact of Air Pollution and Weather on Dry Eye</article-title>, <source>Journal of Clinical Medicine</source>. (<year>2020</year>) <volume>9</volume>, no. 11, <pub-id pub-id-type="doi">10.3390/jcm9113740</pub-id>.<pub-id pub-id-type="pmcid">PMC7699870</pub-id><pub-id pub-id-type="pmid">33233863</pub-id></mixed-citation></ref><ref id="bib-0018"><label>18</label><mixed-citation publication-type="miscellaneous" id="cit-0018">
+<article-title>Poland Climate Resilience Policy Indicator</article-title>, <year>2025</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.iea.org/articles/poland-climate-resilience-policy-indicator" ext-link-type="uri">https://www.iea.org/articles/poland-climate-resilience-policy-indicator</ext-link>.</mixed-citation></ref><ref id="bib-0019"><label>19</label><mixed-citation publication-type="miscellaneous" id="cit-0019">
+<article-title>Silesia, Poland Climate</article-title>, <year>2025</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://weatherandclimate.com/poland/silesia#google_vignette" ext-link-type="uri">https://weatherandclimate.com/poland/silesia#google_vignette</ext-link>.</mixed-citation></ref><ref id="bib-0020"><label>20</label><mixed-citation publication-type="book" id="cit-0020">
+<article-title>Chief Inspectorate of Environmental Protection, Poland</article-title>, <year>2025</year>, <publisher-name>Główny Inspektorat Ochrony Środowiska–GIOŚ</publisher-name>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gov.pl/web/gios-en" ext-link-type="uri">https://www.gov.pl/web/gios-en</ext-link>.</mixed-citation></ref><ref id="bib-0021"><label>21</label><mixed-citation publication-type="book" id="cit-0021">
+<string-name name-style="western">
+<surname>Allison</surname>
+<given-names>P.</given-names>
+</string-name>, <source>Multiple Regression: A Primer</source>, <year>1999</year>, <publisher-name>Pine Forge Press</publisher-name>.</mixed-citation></ref><ref id="bib-0022"><label>22</label><mixed-citation publication-type="miscellaneous" id="cit-0022">
+<string-name name-style="western">
+<surname>Allison</surname>
+<given-names>P.</given-names>
+</string-name>, <article-title>When Can You Safely Ignore Multicollinearity? Statistical Horizons</article-title>, <year>2012</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://statisticalhorizons.com/multicollinearity/" ext-link-type="uri">https://statisticalhorizons.com/multicollinearity/</ext-link>.</mixed-citation></ref><ref id="bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cit-0023">
+<string-name name-style="western">
+<surname>Johnston</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jones</surname>
+<given-names>K.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Manley</surname>
+<given-names>D.</given-names>
+</string-name>, <article-title>Confounding and Collinearity in Regression Analysis: A Cautionary Tale and an Alternative Procedure, Illustrated by Studies of British Voting Behaviour</article-title>, <source>Quality and Quantity</source>. (<year>2018</year>) <volume>52</volume>, no. 4, <fpage>1957</fpage>–<lpage>1976</lpage>, <pub-id pub-id-type="doi">10.1007/s11135-017-0584-6</pub-id>.<pub-id pub-id-type="pmid">29937587</pub-id>
+<pub-id pub-id-type="pmcid">PMC5993839</pub-id></mixed-citation></ref><ref id="bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cit-0024">
+<string-name name-style="western">
+<surname>Bourcier</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Viboud</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cohen</surname>
+<given-names>J.-C.</given-names>
+</string-name> et al., <article-title>Effects of Air Pollution and Climatic Conditions on the Frequency of Ophthalmological Emergency Examinations</article-title>, <source>British Journal of Ophthalmology</source>. (<year>2003</year>) <volume>87</volume>, <fpage>809</fpage>–<lpage>811</lpage>, <pub-id pub-id-type="doi">10.1136/bjo.87.7.809</pub-id>.<pub-id pub-id-type="pmid">12812873</pub-id>
+<pub-id pub-id-type="pmcid">PMC1771754</pub-id></mixed-citation></ref><ref id="bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cit-0025">
+<string-name name-style="western">
+<surname>Khalaila</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Coreanu</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Vodonos</surname>
+<given-names>A.</given-names>
+</string-name> et al., <article-title>Association Between Ambient Temperature, Particulate Air Pollution and Emergency Room Visits for Conjunctivitis</article-title>, <source>BMC Ophthalmology</source>. (<year>2021</year>) <volume>21</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s12886-021-01854-1</pub-id>.<pub-id pub-id-type="pmcid">PMC7903634</pub-id><pub-id pub-id-type="pmid">33627098</pub-id></mixed-citation></ref><ref id="bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cit-0026">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ge</surname>
+<given-names>H.</given-names>
+</string-name> et al., <article-title>Association Between Air Pollution and Emergency Room Visits for Eye Diseases and Effect Modification by Temperature in Beijing, China</article-title>, <source>Environmental Science and Pollution Research International</source>. (<year>2022</year>) <volume>29</volume>, no. 15, <fpage>22613</fpage>–<lpage>22622</lpage>, <pub-id pub-id-type="doi">10.1007/s11356-021-17304-w</pub-id>.<pub-id pub-id-type="pmid">34792769</pub-id>
+</mixed-citation></ref><ref id="bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cit-0027">
+<string-name name-style="western">
+<surname>Youn</surname>
+<given-names>J.-S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Seo</surname>
+<given-names>J.-W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Park</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Park</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jeon</surname>
+<given-names>K. J.</given-names>
+</string-name>, <article-title>Prediction Model for Dry Eye Syndrome Incidence Rate Using Air Pollutants and Meteorological Factors in South Korea: Analysis of Sub-Region Deviations</article-title>, <source>International Journal of Environmental Research and Public Health</source>. (<year>2020</year>) <volume>17</volume>, no. 14, <pub-id pub-id-type="doi">10.3390/ijerph17144969</pub-id>.<pub-id pub-id-type="pmcid">PMC7399894</pub-id><pub-id pub-id-type="pmid">32664192</pub-id></mixed-citation></ref><ref id="bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cit-0028">
+<string-name name-style="western">
+<surname>Seo</surname>
+<given-names>J.-W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Youn</surname>
+<given-names>J.-S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Park</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Joo</surname>
+<given-names>C. K.</given-names>
+</string-name>, <article-title>Development of a Conjunctivitis Outpatient Rate Prediction Model Incorporating Ambient Ozone and Meteorological Factors in South Korea</article-title>, <source>Frontiers in Pharmacology</source>. (<year>2018</year>) <volume>9</volume>, <pub-id pub-id-type="doi">10.3389/fphar.2018.01135</pub-id>.<pub-id pub-id-type="pmcid">PMC6189411</pub-id><pub-id pub-id-type="pmid">30356707</pub-id></mixed-citation></ref><ref id="bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cit-0029">
+<string-name name-style="western">
+<surname>Vazquez-Ferreiro</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Carrera Hueso</surname>
+<given-names>F. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Alvarez Lopez</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Diaz-Rey</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Martinez-Casal</surname>
+<given-names>X.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Ramón Barrios</surname>
+<given-names>M. A.</given-names>
+</string-name>, <article-title>Evaluation of Formaldehyde as an Ocular Irritant: A Systematic Review and Meta-Analysis</article-title>, <source>Cutaneous and Ocular Toxicology</source>. (<year>2019</year>) <volume>38</volume>, no. 2, <fpage>169</fpage>–<lpage>175</lpage>, <pub-id pub-id-type="doi">10.1080/15569527.2018.1561709</pub-id>.<pub-id pub-id-type="pmid">30585508</pub-id>
+</mixed-citation></ref><ref id="bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cit-0030">
+<string-name name-style="western">
+<surname>Vitoux</surname>
+<given-names>M.-A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kessal</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Baudouin</surname>
+<given-names>C.</given-names>
+</string-name> et al., <article-title>Formaldehyde Gas Exposure Increases Inflammation in an in Vitro Model of Dry Eye</article-title>, <source>Toxicological Sciences</source>. (<year>2018</year>) <volume>165</volume>, no. 1, <fpage>108</fpage>–<lpage>117</lpage>, <pub-id pub-id-type="doi">10.1093/toxsci/kfy125</pub-id>.<pub-id pub-id-type="pmid">29860525</pub-id>
+</mixed-citation></ref><ref id="bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cit-0031">
+<string-name name-style="western">
+<surname>Lai</surname>
+<given-names>L.-J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hsu</surname>
+<given-names>W.-H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>A. M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>J. H.</given-names>
+</string-name>, <article-title>Ocular Injury by Transient Formaldehyde Exposure in a Rabbit Eye Model</article-title>, <source>PLoS One</source>. (<year>2013</year>) <volume>8</volume>, no. 6, <pub-id pub-id-type="doi">10.1371/journal.pone.0066649</pub-id>.<pub-id pub-id-type="pmcid">PMC3688594</pub-id><pub-id pub-id-type="pmid">23818956</pub-id></mixed-citation></ref><ref id="bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cit-0032">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>C.-C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chiu</surname>
+<given-names>C.-C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>P.-Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>K. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hsu</surname>
+<given-names>S. K.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>K. C.</given-names>
+</string-name>, <article-title>The Adverse Effects of Air Pollution on the Eye: A Review</article-title>, <source>International Journal of Environmental Research and Public Health</source>. (<year>2022</year>) <volume>19</volume>, no. 3, <pub-id pub-id-type="doi">10.3390/ijerph19031186</pub-id>.</mixed-citation></ref><ref id="bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cit-0033">
+<string-name name-style="western">
+<surname>Nakhjiri</surname>
+<given-names>A.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Kakroodi</surname>
+<given-names>A. A.</given-names>
+</string-name>, <article-title>Air Pollution in Industrial Clusters: A Comprehensive Analysis and Prediction Using Multi-Source Data</article-title>, <source>Ecological Informatics</source>. (<year>2024</year>) <volume>80</volume>, <pub-id pub-id-type="doi">10.1016/j.ecoinf.2024.102504</pub-id>.</mixed-citation></ref><ref id="bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cit-0034">
+<string-name name-style="western">
+<surname>Abdul-Nabi</surname>
+<given-names>S. S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Al Karaki</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Khalil</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>El Zahran</surname>
+<given-names>T.</given-names>
+</string-name>, <article-title>Climate Change and Its Environmental and Health Effects From 2015 to 2022: A Scoping Review</article-title>, <source>Heliyon</source>. (<year>2025</year>) <volume>11</volume>, no. 3, <pub-id pub-id-type="doi">10.1016/j.heliyon.2025.e42315</pub-id>.<pub-id pub-id-type="pmcid">PMC11835584</pub-id><pub-id pub-id-type="pmid">39975822</pub-id></mixed-citation></ref><ref id="bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cit-0035">
+<string-name name-style="western">
+<surname>Gui</surname>
+<given-names>S.-Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Qiao</surname>
+<given-names>J.-C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X.-C.</given-names>
+</string-name> et al., <article-title>Long-Term Effects of Meteorological Factors and Extreme Weather on Daily Outpatient Visits for Conjunctivitis From 2013 to 2020: A Time-Series Study in Urumqi, China</article-title>, <source>Environmental Science and Pollution Research International</source>. (<year>2023</year>) <volume>30</volume>, no. 20, <fpage>58041</fpage>–<lpage>58057</lpage>, <pub-id pub-id-type="doi">10.1007/s11356-023-26335-4</pub-id>.<pub-id pub-id-type="pmid">36977878</pub-id>
+<pub-id pub-id-type="pmcid">PMC10047460</pub-id></mixed-citation></ref><ref id="bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cit-0036">
+<string-name name-style="western">
+<surname>Nam</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shin</surname>
+<given-names>M. Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Han</surname>
+<given-names>J. Y.</given-names>
+</string-name> et al., <article-title>Correlation Between Air Pollution and Prevalence of Conjunctivitis in South Korea Using Analysis of Public Big Data</article-title>, <source>Scientific Reports</source>. (<year>2022</year>) <volume>12</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/s41598-022-13344-5</pub-id>.<pub-id pub-id-type="pmcid">PMC9203752</pub-id><pub-id pub-id-type="pmid">35710775</pub-id></mixed-citation></ref><ref id="bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cit-0037">
+<string-name name-style="western">
+<surname>Tan</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pan</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kijlstra</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>P.</given-names>
+</string-name>, <article-title>Association Between Fine Particulate Air Pollution and the Onset of Uveitis in Mainland China</article-title>, <source>Ocular Immunology and Inflammation</source>. (<year>2022</year>) <volume>30</volume>, no. 7-8, <fpage>1810</fpage>–<lpage>1815</lpage>, <pub-id pub-id-type="doi">10.1080/09273948.2021.1960381</pub-id>.<pub-id pub-id-type="pmid">34379033</pub-id>
+</mixed-citation></ref><ref id="bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cit-0038">
+<string-name name-style="western">
+<surname>Sanders</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Buchner</surname>
+<given-names>V.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Tchounwou</surname>
+<given-names>P.</given-names>
+</string-name>, <article-title>Neurotoxic Effects and Biomarkers of Lead Exposure: A Review</article-title>, <source>Reviews on Environmental Health</source>. (<year>2009</year>) <volume>24</volume>, no. 1, <fpage>15</fpage>–<lpage>45</lpage>, <pub-id pub-id-type="doi">10.1515/reveh.2009.24.1.15</pub-id>.<pub-id pub-id-type="pmid">19476290</pub-id>
+<pub-id pub-id-type="pmcid">PMC2858639</pub-id></mixed-citation></ref><ref id="bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cit-0039">
+<string-name name-style="western">
+<surname>Patnaik</surname>
+<given-names>J. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dye-Robinson</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>James</surname>
+<given-names>K. A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kahook</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>Association Between Particulate Matter Pollutants and Ophthalmology Visits for Ocular Surface Irritation and Allergy</article-title>, <source>Clinical Ophthalmology</source>. (<year>2024</year>) <volume>18</volume>, <fpage>3263</fpage>–<lpage>3270</lpage>, <pub-id pub-id-type="doi">10.2147/OPTH.S485199</pub-id>.<pub-id pub-id-type="pmid">39555215</pub-id>
+<pub-id pub-id-type="pmcid">PMC11569711</pub-id></mixed-citation></ref><ref id="bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cit-0040">
+<string-name name-style="western">
+<surname>Gómez-Mariscal</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>De Arriba</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Revenga</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>González-López</surname>
+<given-names>J. J.</given-names>
+</string-name>, <article-title>Do Season and Environment Have a Role in the Incidence of Anterior Uveitis Attacks?</article-title>, <source>Ocular Immunology and Inflammation</source>. (<year>2020</year>) <volume>28</volume>, no. 5, <fpage>786</fpage>–<lpage>790</lpage>, <pub-id pub-id-type="doi">10.1080/09273948.2019.1636092</pub-id>.<pub-id pub-id-type="pmid">31418617</pub-id>
+</mixed-citation></ref><ref id="bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cit-0041">
+<string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>J.-Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>Y.-C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hsieh</surname>
+<given-names>C.-J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tseng</surname>
+<given-names>C. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Yiin</surname>
+<given-names>L. M.</given-names>
+</string-name>, <article-title>Association Between Dry Eye Disease, Air Pollution and Weather Changes in Taiwan</article-title>, <source>International Journal of Environmental Research and Public Health</source>. (<year>2018</year>) <volume>15</volume>, no. 10, <pub-id pub-id-type="doi">10.3390/ijerph15102269</pub-id>.<pub-id pub-id-type="pmcid">PMC6210160</pub-id><pub-id pub-id-type="pmid">30332806</pub-id></mixed-citation></ref><ref id="bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cit-0042">
+<string-name name-style="western">
+<surname>Afifa</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Arshad</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hussain</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ashraf</surname>
+<given-names>M. H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Saleem</surname>
+<given-names>M. Z.</given-names>
+</string-name>, <article-title>Air Pollution and Climate Change as Grand Challenges to Sustainability</article-title>, <source>Science of the Total Environment</source>. (<year>2024</year>) <volume>928</volume>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2024.172370</pub-id>.<pub-id pub-id-type="pmid">38604367</pub-id></mixed-citation></ref><ref id="bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cit-0043">
+<string-name name-style="western">
+<surname>Baylis</surname>
+<given-names>M.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Risley</surname>
+<given-names>C.</given-names>
+</string-name>, <article-title>Infectious Diseases, Climate Change Effects on</article-title>, <source>Infectious Diseases</source>. (<year>2012</year>) <fpage>117</fpage>–<lpage>146</lpage>, <pub-id pub-id-type="doi">10.1007/978-1-4614-5719-0_6</pub-id>.22591189
+</mixed-citation></ref><ref id="bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cit-0044">
+<string-name name-style="western">
+<surname>Redder</surname>
+<given-names>C.</given-names>
+</string-name>, <article-title>How Ventilation Behaviour Contributes to Seasonality in Airborne Disease Transmission</article-title>, <source>GMS Hygiene and Infection Control</source>. (<year>2022</year>) <volume>17</volume>, <pub-id pub-id-type="doi">10.3205/dgkh000414</pub-id>.<pub-id pub-id-type="pmcid">PMC9285111</pub-id><pub-id pub-id-type="pmid">35909652</pub-id></mixed-citation></ref><ref id="bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cit-0045">
+<string-name name-style="western">
+<surname>Lane</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Oyster</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Luo</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>H.</given-names>
+</string-name>, <article-title>The Effects of Air Pollution on Neurological Diseases: a Narrative Review on Causes and Mechanisms</article-title>, <source>Toxics</source>. (<year>2025</year>) <volume>13</volume>, no. 3, <pub-id pub-id-type="doi">10.3390/toxics13030207</pub-id>.<pub-id pub-id-type="pmcid">PMC11946816</pub-id><pub-id pub-id-type="pmid">40137534</pub-id></mixed-citation></ref></ref-list></back></article>

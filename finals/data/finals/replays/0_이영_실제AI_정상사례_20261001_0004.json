@@ -1,0 +1,36 @@
+{
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "request_id": "resp_0cf5f96503ddc63e016abd24ee3d8487d09035d9acfc8bd065",
+  "raw_sha256": "4317f2e5c3e3ae745584acf206a68d1b4ea76abbccee180ef0576e609dad9558",
+  "usage": {
+    "input_tokens": 26281,
+    "output_tokens": 98
+  },
+  "mock": false,
+  "output": {
+    "claim_text": "penguins_raw: 344 individual penguins",
+    "reported_value": 344,
+    "source_quote": "recorded completely or in part for 344 individual penguins",
+    "source_location": "Main text, section The palmerpenguins R package / penguins_raw paragraph",
+    "method": "row_count",
+    "column": "__dataset__",
+    "filters": [],
+    "denominator": {
+      "rule": "all_rows",
+      "expected_n": 344
+    },
+    "missing_policy": "error",
+    "unit": "individuals",
+    "tolerance": 0
+  },
+  "case_id": "NORMAL-PENG-ROWS",
+  "input_payload_sha256": "2fcabb210ae67434d55b9e4f89d6950afed368fc837d78aafe2fdb93489c1f2c",
+  "input_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+  "source_sha256": "c427d0c3726a920e3f459c1c9d3bf7f786d52bcd772b1e10a7938c3b488ed583",
+  "original_recorded_at_kst": "2026-10-01T00:04:12+09:00",
+  "original_finished_at_kst": "2026-10-01T00:04:19+09:00",
+  "saved_at_kst": "2026-10-01T01:20:12+09:00",
+  "source_report_sha256": "160ad869af20d70bb04ab3251aa150219ebb48a337435077b94c82513b5d67d9",
+  "_change_note": "실제 정상 기능 사례의 첫 조건 후보와 공급자 영수증을 그대로 저장한 공개 재생용 파생물. 과거 실출력이며 새 호출·봉인 비교·사람 승인 또는 새 정책으로 생성한 응답이 아니다."
+}

@@ -1,0 +1,71 @@
+{
+  "approved": false,
+  "built_at": "2026-09-30T15:05:40.222751+00:00",
+  "cases": [
+    {
+      "doi": "10.1038/sdata.2016.120",
+      "id": "n3_11814",
+      "label": "탐욕과 사회경제적 지위 4개 반복연구 계수 검산",
+      "scope": "4개 반복연구의 원래·정정 회귀계수 8개씩 산술 대조; 원자료 행 선택·변수 의미·모형 가정은 미확인."
+    },
+    {
+      "doi": "10.32614/RJ-2022-020",
+      "id": "public_penguins",
+      "label": "팔머 펭귄 원자료 행 수",
+      "scope": "등록된 원자료 행 수 주장 1건의 산술 확인."
+    },
+    {
+      "doi": "10.1371/journal.pone.0149458",
+      "id": "public_bat",
+      "label": "갈색지방(BAT) 양성 기록 수와 평균 연령",
+      "scope": "논문에 기록된 갈색지방 양성 하위집단 주장 2건의 산술 확인."
+    },
+    {
+      "doi": "10.1371/journal.pone.0313991",
+      "id": "public_covid_fair",
+      "label": "COVID FAIR URL 수와 평균 점수",
+      "scope": "등록된 FAIR 필터 하위집단 주장 2건의 산술 확인; 저자 코드는 실행하지 않음."
+    }
+  ],
+  "endpoints": {
+    "agent.json": "https://nais-evidence-gate-team.streamlit.app/app/static/agent.json",
+    "examples.json": "https://nais-evidence-gate-team.streamlit.app/app/static/examples.json",
+    "llms.txt": "https://nais-evidence-gate-team.streamlit.app/app/static/llms.txt",
+    "openapi.json": "https://nais-evidence-gate-team.streamlit.app/app/static/openapi.json"
+  },
+  "examples_sha256": "8219e6b5ed97cb0382ae0a206be6449480832f354a77dc3946af9f2be1efb90b",
+  "limitations": [
+    "These GET files are release snapshots; they do not execute a question or search.",
+    "Run stdio modules from an installed project in an MCP-capable local host. No public remote MCP endpoint is provided.",
+    "Descriptions and arithmetic agreement are not scientific approval. Unknown conditions remain unresolved.",
+    "Private tasks, member identities, credentials, raw participant responses and team workspaces are excluded.",
+    "No paid language model call or generic-AI superiority is established by these examples."
+  ],
+  "mcp": [
+    {
+      "module": "tools.research_mcp",
+      "purpose": "Located local evidence search and fixed registered arithmetic",
+      "transport": "stdio"
+    },
+    {
+      "module": "tools.discovery_mcp",
+      "purpose": "Bounded public paper metadata discovery",
+      "transport": "stdio"
+    },
+    {
+      "module": "tools.aihub_mcp",
+      "purpose": "AI Hub metadata, own approved credential required",
+      "transport": "stdio"
+    },
+    {
+      "module": "tools.data_sources_mcp",
+      "purpose": "Bounded public and satellite metadata/observations, some providers require own credentials",
+      "transport": "stdio"
+    }
+  ],
+  "name": "NAIS Evidence Gate",
+  "purpose": "Read located evidence, understand unresolved conditions, and re-run supported research calculations.",
+  "schema_version": 1,
+  "transport": "PUBLIC_STATIC_HTTPS_GET",
+  "version": "0"
+}

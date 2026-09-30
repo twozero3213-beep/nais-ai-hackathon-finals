@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_NOT_SEALED",
+  "comparison_execution_status": "NOT_RUN",
+  "deadline_kst": "2026-10-01T09:20:00+09:00",
+  "feature_freeze_kst": "2026-10-01T06:20:00+09:00",
+  "source_archive_sha256": "aa0093c5743a7dd79ebee26133856a4acd46a97f3bb8431e72acd4b968cb01b9",
+  "conditions": [
+    "general_ai",
+    "without_llm",
+    "with_llm"
+  ],
+  "cases": [
+    {
+      "id": "C01",
+      "type": "정상",
+      "base": "PENG-RAW-ROWS",
+      "variant": "펭귄 전체 행 수 등록",
+      "expected_kind": "ARITHMETIC_MATCH",
+      "expected_value": 344
+    },
+    {
+      "id": "C02",
+      "type": "정상",
+      "base": "BAT-POSITIVE-N",
+      "variant": "갈색지방 양성 기록 수 등록",
+      "expected_kind": "ARITHMETIC_MATCH",
+      "expected_value": 53
+    },
+    {
+      "id": "C03",
+      "type": "계산불일치",
+      "base": "fixed_demo_expectations/G03",
+      "variant": "합성 A군 보고값16; 손계산15",
+      "expected_kind": "ARITHMETIC_MISMATCH",
+      "expected_value": 15
+    },
+    {
+      "id": "C04",
+      "type": "계산불일치",
+      "base": "fixed_demo_expectations/G08",
+      "variant": "합성 B군 보고값15; 손계산35",
+      "expected_kind": "ARITHMETIC_MISMATCH",
+      "expected_value": 35
+    },
+    {
+      "id": "C05",
+      "type": "근거부족",
+      "base": "PENG-RAW-ROWS",
+      "variant": "원문 위치 삭제",
+      "expected_kind": "BLOCK",
+      "expected_value": null
+    },
+    {
+      "id": "C06",
+      "type": "근거부족",
+      "base": "fixed_demo_expectations/G07",
+      "variant": "분모·대상 범위 근거 삭제; 미확정 범위",
+      "expected_kind": "BLOCK",
+      "expected_value": null
+    },
+    {
+      "id": "C07",
+      "type": "자료변경",
+      "base": "PENG-RAW-ROWS",
+      "variant": "복사 CSV 첫 자료행 제거; 등록 지문·보고서 보존",
+      "expected_kind": "STALE_BLOCK",
+      "expected_value": null
+    },
+    {
+      "id": "C08",
+      "type": "자료변경",
+      "base": "PENG-RAW-ROWS",
+      "variant": "CSV 바이트만 줄끝 LF/CRLF 교체; 등록 지문·보고서 보존",
+      "expected_kind": "STALE_BLOCK",
+      "expected_value": null
+    }
+  ],
+  "shared_prompt": "주어진 원문·현재 CSV·등록 결과와 지문이 있는 경우 이를 함께 확인하여, 이 정량 주장과 등록 결과를 지금 사용할 수 있는지 답하세요. 사용한 근거 위치, 계산값과 보고값, 계산 또는 보류 이유를 구분하세요. 확실하지 않은 조건은 추측하지 마세요.",
+  "shared_conditions": {
+    "time_limit_seconds": 120,
+    "model_calls_cap_per_case": 2,
+    "output_tokens_cap_per_call": 1800,
+    "same_model_for_ai_conditions": true,
+    "same_exact_input_package": true,
+    "same_readonly_tools": true,
+    "fresh_session_per_case": true,
+    "no_hidden_answer_in_inputs": true,
+    "allowed_tools": [
+      "read_named_source",
+      "read_named_csv",
+      "count_rows",
+      "mean",
+      "sha256"
+    ],
+    "no_arbitrary_paths_or_code": true,
+    "actual_model_id": null,
+    "provider": null,
+    "currency_budget_cap": null,
+    "external_transfer_permission_status": "NOT_CONFIRMED",
+    "human_review_seconds_cap_per_case": 120
+  },
+  "expected_value_basis": "등록의 보고값 및 합성 손계산. 공식 비교 전 독립 참조 검토·봉인 필요. 새 비교 성과가 아님.",
+  "fixture_seal": {
+    "status": "NOT_RUN",
+    "input_manifest_sha256": null,
+    "expected_sha256": null,
+    "prompt_sha256": null,
+    "frozen_code_commit": null
+  },
+  "change_case_rule": "등록 결과 무효화가 필수. 현 자료에서 근거 재검토 후 새 계산·새 보고서 생성은 허용하며 올바른 대응으로 기록한다.",
+  "numeric_origin_rule": "source_quoted / tool_computed / model_estimated / unknown을 구분한다.",
+  "rerun_rule": "모든 시도 보존. 사례·기준 불변, 코드 변경·재실행은 새 run_id. 실패만 골라 최종 표를 만들지 않는다.",
+  "contributor_version": 3,
+  "recorded_at_kst": "2026-09-30T20:00:57+09:00",
+  "manual_mapping_rule": "동일 원문·CSV로 수동 경로만 사람 후보 작성을 수행. 새 사람 입력은 작업 영수증으로 남기며 준비 시간·수정 수를 비교에 포함. 등록 명세를 제공하는 사례는 세 조건 모두에 동일 제공. 정답 참조 파일은 모든 조건에서 숨김.",
+  "fair_scoring_rule": "정확한 새 재계산과 근거 검토, 또는 조건 미확정의 이유 있는 보류 모두 사전 정의한 허용 답에 따라 판정. 일반 AI가 올바르게 멈추거나 더 좋은 결과를 내면 그대로 기록.",
+  "future_work_duration_assumption": "팀 역할 배치는 가정이며 실제 담당 확인과 지출 상한 확정 후 모델 실행"
+}

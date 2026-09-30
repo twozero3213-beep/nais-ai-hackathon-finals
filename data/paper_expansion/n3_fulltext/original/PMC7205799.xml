@@ -1,0 +1,675 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">J Cell Mol Med</journal-id><journal-id journal-id-type="iso-abbrev">J. Cell. Mol. Med</journal-id><journal-id journal-id-type="pmc-domain-id">2233</journal-id><journal-id journal-id-type="pmc-domain">jcmmopen</journal-id><journal-id journal-id-type="nlm-id">101083777</journal-id><journal-id journal-id-type="publisher-id">JCMM</journal-id><journal-title-group><journal-title>Journal of Cellular and Molecular Medicine</journal-title></journal-title-group><issn pub-type="ppub">1582-1838</issn><issn pub-type="epub">1582-4934</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7205799</article-id><article-id pub-id-type="pmcid-ver">PMC7205799.1</article-id><article-id pub-id-type="pmcaid">7205799</article-id><article-id pub-id-type="pmcaiid">7205799</article-id><article-id pub-id-type="pmid">32198978</article-id><article-id pub-id-type="doi">10.1111/jcmm.15171</article-id><article-id pub-id-type="publisher-id">JCMM15171</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Long non‐coding RNA Sox2 overlapping transcript (SOX2OT) promotes multiple myeloma progression via microRNA‐143‐3p/c‐MET axis</article-title><alt-title alt-title-type="right-running-head">Long non‐coding RNA Sox2 overlapping transcript (SOX2OT) promotes multiple myeloma progression via microRNA‐143‐3p/c‐MET axis</alt-title><alt-title alt-title-type="left-running-head">TIANHUA et al.</alt-title></title-group><contrib-group><contrib id="jcmm15171-cr-0001" contrib-type="author"><name name-style="western"><surname>Tianhua</surname><given-names initials="Y">Yu</given-names></name><xref ref-type="aff" rid="jcmm15171-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="jcmm15171-cr-0002" contrib-type="author"><name name-style="western"><surname>Dianqiu</surname><given-names initials="L">Li</given-names></name><xref ref-type="aff" rid="jcmm15171-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="jcmm15171-cr-0003" contrib-type="author"><name name-style="western"><surname>Xuanhe</surname><given-names initials="Z">Zhang</given-names></name><xref ref-type="aff" rid="jcmm15171-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="jcmm15171-cr-0004" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhe</surname><given-names initials="Z">Zhang</given-names></name><xref ref-type="aff" rid="jcmm15171-aff-0004">
+<sup>4</sup>
+</xref><address></address></contrib><contrib id="jcmm15171-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Dongmei</surname><given-names initials="G">Gao</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0374-3139</contrib-id><xref ref-type="aff" rid="jcmm15171-aff-0005">
+<sup>5</sup>
+</xref><address></address></contrib></contrib-group><aff id="jcmm15171-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Departments of Blood Transfusion</named-content>
+<institution>China‐Japan Union Hospital of Jilin University</institution>
+<city>Changchun</city>
+<country country="CN">China</country>
+</aff><aff id="jcmm15171-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Ultrasonography Department</named-content>
+<institution>China‐Japan Union Hospital of Jilin University</institution>
+<city>Changchun</city>
+<country country="CN">China</country>
+</aff><aff id="jcmm15171-aff-0003">
+<label><sup>3</sup></label>
+<institution>Shihezi University</institution>
+<city>Shihezi</city>
+<country country="CN">China</country>
+</aff><aff id="jcmm15171-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Radiation Oncology</named-content>
+<institution>China‐Japan Union Hospital of Jilin University</institution>
+<city>Changchun</city>
+<country country="CN">China</country>
+</aff><aff id="jcmm15171-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Department of Otorhinolaryngology</named-content>
+<institution>The First Hospital of Jilin University</institution>
+<city>Changchun</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Zhang Zhe, Department of Radiation Oncology, China‐Japan Union Hospital of Jilin University, 126 Xiantai Street, Changchun 130033, China.<break/>
+Email: <break/>
+Gao Dongmei, Department of Otorhinolaryngology, The First Hospital of Jilin University, 71 Xinmin Street, Changchun 130021, China.<break/>
+Email:<break/></corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>3</month><year>2020</year></pub-date><pub-date pub-type="ppub"><month>5</month><year>2020</year></pub-date><volume>24</volume><issue>9</issue><issue-id pub-id-type="pmc-issue-id">357285</issue-id><issue-id pub-id-type="doi">10.1111/jcmm.v24.9</issue-id><fpage>5185</fpage><lpage>5194</lpage><history><date date-type="received"><day>08</day><month>1</month><year>2019</year></date><date date-type="rev-recd"><day>03</day><month>1</month><year>2020</year></date><date date-type="accepted"><day>22</day><month>2</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>05</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>11</day><month>05</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-07-28 08:25:32.400"><day>28</day><month>07</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2020 The Authors. <italic toggle="yes">Journal of Cellular and Molecular Medicine</italic> published by Foundation for Cellular and Molecular Medicine and John Wiley &amp; Sons Ltd</copyright-statement><license license-type="creativeCommonsBy"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JCMM-24-5185.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JCMM-24-5185.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" journal-id="J Cell Mol Med" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10826430"><article-title>Retraction: Long non‐coding <styled-content style="fixed-case" toggle="no">RNA</styled-content> Sox2 overlapping transcript (<styled-content style="fixed-case" toggle="no">SOX2OT</styled-content>) promotes multiple myeloma progression via <styled-content style="fixed-case" toggle="no">microRNA</styled-content>‐143‐3p/<styled-content style="fixed-case" toggle="no">c‐MET</styled-content> axis</article-title><volume>28</volume><issue seq="280">2</issue><date><day>28</day><month>12</month><year>2023</year></date><elocation-id>e18102</elocation-id><source>Journal of Cellular and Molecular Medicine</source><pub-id pub-id-type="pmcid">PMC10826430</pub-id><pub-id pub-id-type="pmid">38153182</pub-id></related-article><abstract id="jcmm15171-abs-0001"><title>Abstract</title><p>Long non‐coding RNA Sox2 overlapping transcript (SOX2OT) was reported to be involved in progression of multiple cancers. However, the role and mechanism of SOX2OT in multiple myeloma (MM) has yet to be unravelled. In the present study, elevated SOX2OT levels are reported in MM cell lines and patient samples as compared to normal plasma cells (nPCs) and healthy donors, respectively. Knock‐down of SOX2OT led to a significant inhibition of cell proliferation, arrested cells at G0/G1 phase and induced cell apoptosis in MM samples in vitro, as well as slowed the growth of tumours in vivo. Additionally, our data indicated that SOX2OT functioned as a competing endogenous RNA (ceRNA) in MM cells that regulated miR‐144‐3p expression. Repression of miR‐144‐3p reversed the inhibition of MM development due to SOX2OT knock‐down. Our data also revealed that SOX2OT regulated the expression of the cellular‐mesenchymal to epithelial transition factor (<italic toggle="yes">c‐MET</italic>, a known target of miR‐143‐3p) by functioning as a sponge of miR‐144‐3p in MM samples. These data support that SOX2OT promotes MM progression through regulating the miR‐144‐3p/c‐MET axis, suggesting that SOX2OT might be as a potential therapeutic target for MM.</p></abstract><kwd-group><kwd id="jcmm15171-kwd-0001">c‐MET</kwd><kwd id="jcmm15171-kwd-0002">lncRNA</kwd><kwd id="jcmm15171-kwd-0003">miR‐144‐3p</kwd><kwd id="jcmm15171-kwd-0004">multiple myeloma</kwd><kwd id="jcmm15171-kwd-0005">SOX2OT</kwd></kwd-group><counts><fig-count count="7"/><table-count count="1"/><page-count count="10"/><word-count count="5487"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.8.1 mode:remove_FC converted:07.05.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jcmm15171-cit-1001">
+<string-name name-style="western">
+<surname>Tianhua</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dianqiu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xuanhe</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhe</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dongmei</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Long non‐coding RNA Sox2 overlapping transcript (SOX2OT) promotes multiple myeloma progression via microRNA‐143‐3p/c‐MET axis</article-title>. <source xml:lang="en">J Cell Mol Med</source>. <year>2020</year>;<volume>24</volume>:<fpage>5185</fpage>–<lpage>5194</lpage>. <pub-id pub-id-type="doi">10.1111/jcmm.15171</pub-id>
+<pub-id pub-id-type="pmcid">PMC7205799</pub-id><pub-id pub-id-type="pmid">32198978</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC10826430"/></mixed-citation>
+</p><fn-group id="jcmm15171-ntgp-0001"><fn fn-type="equal" id="jcmm15171-note-0001"><p>Tianhua and Dianqiu contributed equally to the work.</p></fn></fn-group></notes></front><body id="jcmm15171-body-0001"><sec id="jcmm15171-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Multiple myeloma (MM) is a disorder of the hematopoietic system involving the proliferation of cancerous plasma cells in the bone marrow.<xref rid="jcmm15171-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> Despite recent advances in therapeutic interventions for MM and supportive strategies such as modulation of the immune system, inhibitors of the proteasome and stem cell therapy, the prognosis remains grim for MM patients due to the high incidence of relapse and resistance.<xref rid="jcmm15171-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>, <xref rid="jcmm15171-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref> Therefore, understanding of the mechanisms associated with MM is needed to allow development of more effective treatment strategies.</p><p>Long non‐coding RNAs (lncRNAs) are more than 200 nucleotides in length that lack of protein‐coding capabilities.<xref rid="jcmm15171-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref> lncRNAs have been reported to play a vital role in various cellular processes including proliferation, death, apoptosis and invasion,<xref rid="jcmm15171-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref>, <xref rid="jcmm15171-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref> and reports have implicated lncRNA dysregulation in tumorigenesis, metastasis, disease diagnosis and prognosis of various cancers.<xref rid="jcmm15171-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref>, <xref rid="jcmm15171-bib-0008" ref-type="ref">
+<sup>8</sup>
+</xref> several studies report that aberrant lncRNAs are involved in the spread and advent of MM and may serve as useful biomarkers for therapy and prognosis.<xref rid="jcmm15171-bib-0009" ref-type="ref">
+<sup>9</sup>
+</xref>, <xref rid="jcmm15171-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref> Therefore, searching for novel targets from lncRNAs might be a promising therapeutic option for the treatment of MM.</p><p>SOX2 overlapping transcript (SOX2OT), located on chromosome 3q26.3, is a lncRNA transcribed in the same orientation as SOX2 that is embedded in an intron of the SOX2OT gene.<xref rid="jcmm15171-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref> SOX2OT has attracted growing attention due to its important role on the tumorigenesis of breast,<xref rid="jcmm15171-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref> gastric,<xref rid="jcmm15171-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref> ovary,<xref rid="jcmm15171-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref> lung,<xref rid="jcmm15171-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> pancreatic ductal adenocarcinoma,<xref rid="jcmm15171-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> colorectal cancer<xref rid="jcmm15171-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref> and so on,<xref rid="jcmm15171-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref>, <xref rid="jcmm15171-bib-0018" ref-type="ref">
+<sup>18</sup>
+</xref> suggesting that SOX2OT could serve as diagnosis marker and therapy target for various cancers. However, the precise role of this lncRNA in MM has yet to be determined.</p><p>Some lncRNAs were reported to serve as competing endogenous RNAs (ceRNAs) for sponging microRNAs (miRNAs) through their miRNAs response element (MREs), and sequester miRNAs away from their targets.<xref rid="jcmm15171-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref> The role of SOX2OT in the initiation and progression of oncogenesis via targeting several miRNAs, including miR‐363,<xref rid="jcmm15171-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref> miR‐194‐5p,<xref rid="jcmm15171-bib-0021" ref-type="ref">
+<sup>21</sup>
+</xref> miR‐132,<xref rid="jcmm15171-bib-0022" ref-type="ref">
+<sup>22</sup>
+</xref> miR‐122<xref rid="jcmm15171-bib-0023" ref-type="ref">
+<sup>23</sup>
+</xref> and miR‐211,<xref rid="jcmm15171-bib-0024" ref-type="ref">
+<sup>24</sup>
+</xref> has been reported. These studies suggested that SOX2OT could function as a ceRNA for sponging miRNAs. Through Starbase 2.0, we predicted that miR‐144‐3p could bind with SOX2OT. Growing evidence has suggested that miR‐144‐3p functioned as a tumour suppressor in various types of cancers by regulating cell proliferation, cell migration, migration apoptosis and angiogenesis.<xref rid="jcmm15171-bib-0025" ref-type="ref">
+<sup>25</sup>
+</xref>, <xref rid="jcmm15171-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>, <xref rid="jcmm15171-bib-0027" ref-type="ref">
+<sup>27</sup>
+</xref>, <xref rid="jcmm15171-bib-0028" ref-type="ref">
+<sup>28</sup>
+</xref> A recent publication showed that miR‐144‐3p inhibited MM cell proliferation and induced cell apoptosis by targeting c‐MET (cellular‐mesenchymal to epithelial transition factor).<xref rid="jcmm15171-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref> However, the association with SOX2OT, miR‐143‐3p and c‐MET in MM remains unclear.</p><p>In this study, we explored the role and expression of SOX2OT in MM biology. We also examined the mechanism of regulation among SOX2OT, miR‐144‐3p and <italic toggle="yes">c‐MET.</italic> These results shed new light on a potential therapeutic intervention for MM.</p></sec><sec sec-type="materials-and-methods" id="jcmm15171-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="jcmm15171-sec-0003"><label>2.1</label><title>Patients</title><p>Thirty‐six MM patients (newly diagnosed IgG) were recruited from the China‐Japan Union Hospital of Jilin University during January 2014 to December 2017. All participants signed their informed consent. The mean age of MM patients was 57 (range: 38‐78 years), whereas the mean age of controls was 56.5 (range: 34‐75 years). Routine physical examinations were conducted. Samples from the bone marrow of 12 normal healthy donors (as control) and 36 MM patients were subjected to snap‐freezing in liquid nitrogen and stored at −80°C till further studies. All procedures were approved by the Institute Research Ethics Committee of Jilin University (Changchun, China).</p></sec><sec id="jcmm15171-sec-0004"><label>2.2</label><title>Cell culture and assays</title><p>Four MM cell lines of human origin (ARP‐1, MM1S, U266 and NCI‐H929) and normal plasma cells (nPCs) were obtained from the American Type Culture Collection (ATCC, USA) and were maintained in RPMI‐1640 medium (KeyGEN Biotech) supplemented with 10% foetal bovine serum (FBS; Gibco), 100 U/mL penicillin and 100 mg/mL streptomycin in a 37°C humidified incubator with 5% CO<sub>2</sub>.</p><p>Short‐hairpin RNA (shRNA) targeting SOX2OT (sh‐SOX2OT) along with corresponding non‐targeting sequences (sh‐NC) was synthesized and inserted into the pGPU6/GFP/Neo vector (Gene‐Pharma, Shanghai, China). MM1S cells were transfected using Lipofectamine 2000 (Thermo Fisher Scientific) as per prescribed protocols. G418 (0.5 mg/mL; Sigma‐Aldrich) was used for selection of stably transfected cells. Mimics of miR‐144‐3p, the negative control mimics (miR‐NC) and the inhibitors of miR‐144‐3p (miR‐144‐3p in) with its negative control inhibitor (miR‐NC in) were obtained from Gene‐Pharma (Guangzhou, China). Transfection was done using the same method mentioned above. The efficiency of transfection was assessed by real‐time quantitative polymerase chain reaction (qRT‐PCR) 48 hours after transfection.</p></sec><sec id="jcmm15171-sec-0005"><label>2.3</label><title>Real‐time quantitative PCR (qRT‐PCR)</title><p>Total RNA was extracted from cells and samples using with TRIzol reagent from Tiangen. Next, cDNA was synthesized using Qiagen's One Step PrimeScript cDNA kit (Hilden) as per the provided protocol. qPCR was performed using the SYBR Premix Ex Taq™ kit (TaKaRa) under the Applied Biosystems 7900 Sequence Detection (Applied Biosystems) as per prescribed instructions. TaqMan miRNA assay kits (Thermo Fisher Scientific) were used to assess levels of miR‐144‐3p. U6 was used as an internal control for miR‐144‐3p, and GAPDH was used for <italic toggle="yes">SOX2OT</italic> and <italic toggle="yes">c‐MET</italic> transcripts. The 2<sup>−ΔΔCt</sup> method was applied to normalize levels of study mRNA as compared to the controls. The primers used in this study are listed in Table <xref rid="jcmm15171-tbl-0001" ref-type="table">1</xref>.</p><table-wrap id="jcmm15171-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Real‐time PCR primers used for mRNA or miRNA expression analysis</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Target gene</th><th align="left" valign="top" rowspan="1" colspan="1">Prime(5′‐3′)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">U6</td><td align="left" rowspan="1" colspan="1">
+<p>F‐ TCCGATCGTGAAGCGTTC</p>
+<p>R‐ GTGCAGGGTCCGAGGT</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">miR‐144‐3p</td><td align="left" rowspan="1" colspan="1">
+<p>F‐ GCGCGCTACAGTATAGATGATG</p>
+<p>R‐ GCTGTCAACGATACGCTACG</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">SOX2OT</td><td align="left" rowspan="1" colspan="1">
+<p>F‐ GCTCGTGG‐CTTAGGAGATTG</p>
+<p>R‐ CTGGCAAA‐GCATGAGGAACT</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">c‐MET</td><td align="left" rowspan="1" colspan="1">
+<p>F‐ TGC ACA GTT GGT CCT GCC ATG A</p>
+<p>R‐ CAG CCA TAG GAC CGT ATT TCG G</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">GAPDH</td><td align="left" rowspan="1" colspan="1">
+<p>F‐ AAGGTGAAGGTCGGAGTCAA</p>
+<p>R‐AATGAAGGGGTCATTGATGG</p>
+</td></tr></tbody></table><table-wrap-foot id="jcmm15171-ntgp-0002"><fn id="jcmm15171-note-0002"><p>Abbreviations: F, forward; mRNA, messenger RNA; PCR, polymerase chain reaction; R, reverse.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="jcmm15171-sec-0006"><label>2.4</label><title>Detection of cell proliferation capacity</title><p>MM1S cell proliferation was examined using a CCK‐8 kit (Cell counting kit‐8, Dojindo Molecular Technologies) according to manufacturer's protocols. Transfected cells were seeded into a 96‐well plate at 5.0 × 10<sup>3</sup> per well and cultured for 24‐72 hours. This was followed by administration of 10 μL CCK‐8 reagent at culture incubation conditions discussed above for 4 hours. The absorbance at 450 nm was then recorded on a microplate reader (Bio‐Rad).</p></sec><sec id="jcmm15171-sec-0007"><label>2.5</label><title>Flow cytometry assay to study cell apoptosis and cycle</title><p>To study cell cycle, transfected cells were harvested followed by an overnight suspension in ice‐cold 70% ethanol at 4°C. Cells were then washed twice using phosphate buffered saline (PBS) and incubated in 100 mg/mL propidium iodide (PI) from Beyotime (Beijing, China) along with RNase A (50 mg/mL, Beyotime) at 37°C for 30 minutes. The stages of the cell cycle were detected using the FACS Caliburflow cytometer (BD Biosciences) and the FlowJo7.6 analysis software tool.</p><p>The Annexin V‐FITC/PI Apoptosis Detection Kit (CWBIO) was used to assess apoptosis. To summarize, transfected cells were harvested and stained with fluorescein isothiocyanate (FITC)‐Annexin V and propidium iodide (PI) according to the instructions prescribed. The cell apoptosis ratio was determined using FACS Caliburflow cytometer (BD Biosciences) and the FlowJo7.6 analysis software tool (BD Biosciences).</p></sec><sec id="jcmm15171-sec-0008"><label>2.6</label><title>Assay of luciferase reporter</title><p>Analysis with the Starbase2.0 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://starbase.sysu.edu.cn/">http://starbase.sysu.edu.cn/</ext-link>) predicted that SOX2OT would target miR‐144‐3p. The wild‐type sequence of SOX2OT including the potential site that targets miR‐144‐3p was synthesized and fused with the luciferase reporter vector pmirGLO from Promega and named: WT‐SOX2OT. The mutant sequence of SOX2OT was synthesized, then fused into the luciferase reporter vector pmirGLO and named: MT‐SOX2OT. Lipofectamine 2000 was utilized to cotransfect plasmids with WT‐SOX2OT or MT‐SOX2OT and miR‐144‐3p mimics or miR‐NC into MM1S cells for reporter activity assay. Luciferase activity 48 hours after transfection was assessed using the dual luciferase reporter assay system (Promega).</p></sec><sec id="jcmm15171-sec-0009"><label>2.7</label><title>RNA immunoprecipitation assay</title><p>RNA immunoprecipitation (RIP) assay was performed using the Magna RIP RNA‐Binding Protein Immunoprecipitation Kit (Millipore) following prescribed protocols. Briefly, cells transfected with miR‐143‐3p mimic or miR‐NC were washed with pre‐cooled PBS and resuspended in lysis buffer. Cells were then incubated with RIP buffer containing argonaute2 (Ago2) antibody (or IgG antibody (both from Abcam) overnight. The enrichment of SOX2OT was measured from purified RNA using qRT‐PCR.</p></sec><sec id="jcmm15171-sec-0010"><label>2.8</label><title>Tumour formation in mice models</title><p>A total of 20 male 4‐ to 6‐week‐old BALB/c‐nude mice were obtained from the Laboratory Animal Center of Jilin University at China and were housed individually under standard conditions in our laboratory. MM models were established by subcutaneous injection of MM1S cells which had been subjected to sh‐SOX2OT or sh‐NC transfection. Tumour volume was calculated every fifth day using the formula: Volume (<italic toggle="yes">V</italic>) = 0.5 × <italic toggle="yes">a</italic> × <italic toggle="yes">b</italic>
+<sup>2</sup>, where <italic toggle="yes">a</italic> is the widest length and <italic toggle="yes">b</italic> represents perpendicular diameter. On the 30th day after injection, mice were killed and xenograft tumours were excised and weighed. A portion of these samples were fixed with 10% buffer formalin and stained for detecting Ki‐67 expression. The remaining tumour tissue samples underwent RNA extraction using RNA Trizol for further detecting SOX2OT, miR‐144‐3p and <italic toggle="yes">c‐MET</italic> mRNA expression by qRT‐PCR.</p></sec><sec id="jcmm15171-sec-0011"><label>2.9</label><title>Immunohistochemistry assay</title><p>Expression of Ki‐67 was examined using immunohistochemistry (IHC) of mouse subcutaneous tumours as described previously.<xref rid="jcmm15171-bib-0030" ref-type="ref">
+<sup>30</sup>
+</xref> Ki‐67 antibody and secondary antibody were sourced from Santa Cruz Biotechnology Inc.</p></sec><sec id="jcmm15171-sec-0012"><label>2.10</label><title>Statistical analyses</title><p>Data were presented as mean ± standard deviation (SD) of three independent experiments and processed using SPSS 19.0 software. Analysis among groups was performed using Student's <italic toggle="yes">t</italic> test or one‐way ANOVA. Correlation between SOX2OT and miR‐144‐3p/c‐MET was performed using Pearson's correlation analysis in the patient samples. <italic toggle="yes">P</italic> &lt; .05 was considered significant.</p></sec></sec><sec sec-type="results" id="jcmm15171-sec-0013"><label>3</label><title>RESULTS</title><sec id="jcmm15171-sec-0014"><label>3.1</label><title>Up‐regulation of SOX2OT in MM samples and cell lines</title><p>SOX2OT expression was measured in MM marrow samples (n = 36) as well as in control donor samples (n = 12) to characterize the role of SOX2OT in MM. qRT‐PCR showed that SOX2OT levels were higher in MM samples than in healthy samples (Figure <xref rid="jcmm15171-fig-0001" ref-type="fig">1A</xref>; <italic toggle="yes">P</italic> &lt; .05). Additionally, the four human MM cell lines (ARP‐1, MM1S, U266, and NCI‐H929) had higher levels of SOX2OT than nPCs cells (Figure <xref rid="jcmm15171-fig-0001" ref-type="fig">1B</xref>). As MM1S cells had the highest SOX2OT expression, we selected MM1S cells for further experiments. These observations showed that SOX2OT expression is increased in patient samples and MM cell lines.</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>SOX2OT was up‐regulated in multiple myeloma (MM) samples and cell lines. A, Relative expression of SOX2OT in bone marrow from MM patients and healthy donors was determined by qRT‐PCR. GAPDH was used as an internal control. B, Relative expression of SOX2OT was examined four human MM cell lines (NCI‐H929, U266, MM1S and ARP‐1) and normal plasma cells (nPCs) by qRT‐PCR. GAPDH was used as an internal control. All data are presented as mean ± SD for at least three independent experiments, *<italic toggle="yes">P</italic> &lt; .05, **<italic toggle="yes">P</italic> &lt; .01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-1" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g001.jpg"/></fig></sec><sec id="jcmm15171-sec-0015"><label>3.2</label><title>Knock‐down of SOX2OT suppressed proliferation of MM cells and induced apoptosis</title><p>MM1S cells were transfected with sh‐SOX2OT or sh‐NC to assess the role of SOX2OT in modulating MM cell cycle and apoptosis. As expected, knock‐down of SOX2OT caused a significant reduction in MM1S cells (Figure <xref rid="jcmm15171-fig-0002" ref-type="fig">2A</xref>). CCK‐8 assays showed that SOX2OT knock‐down obviously decreased cell viability of MM1S cells (Figure <xref rid="jcmm15171-fig-0002" ref-type="fig">2B</xref>; <italic toggle="yes">P</italic> &lt; .05). Flow cytometry was performed to assess whether SOX2OT regulated the cell cycle or induced cell apoptosis. Analysis of the cell cycle revealed that MM cells arrested at G0/G1 phase when SOX2OT was knocked down, and the proportion of cells arrested at S phase was reduced (Figure <xref rid="jcmm15171-fig-0002" ref-type="fig">2C</xref>; <italic toggle="yes">P</italic> &lt; .05). Assays for apoptosis revealed an increase in apoptotic MM cells due to silencing of SOX2OT (Figure <xref rid="jcmm15171-fig-0002" ref-type="fig">2C</xref>; <italic toggle="yes">P</italic> &lt; .05). Hence, these observations show that SOT2OT knock‐down impaired proliferation and induced apoptosis in MM1S cells.</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Knock‐down of SOX2OT suppressed MM cells proliferation and induced cell apoptosis. A, Relative expression of SOX2OT was examined in MM1S cells transfected with sh‐NC or sh‐SOX2OT by qRT‐PCR. GAPDH was used as an internal control. B‐D, Cell proliferation, cycle arrest and apoptosis were determined in MM1S cells transfected with sh‐NC or sh‐SOX2OT. All data are presented as mean ± SD for at least three independent experiments, *<italic toggle="yes">P</italic> &lt; .05, **<italic toggle="yes">P</italic> &lt; .01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-3" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g002.jpg"/></fig></sec><sec id="jcmm15171-sec-0016"><label>3.3</label><title>SOX2OT acts as a molecular sponge for miR‐144‐3p in MM cells</title><p>We used bioinformatics tool (Starbase 2.0, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://starbase.sysu.edu.cn/">http://starbase.sysu.edu.cn/</ext-link>) to predict miRNA that interacts with SOX2OT, revealing a potential miR‐144‐3p binding site in 3′UTR SOX2OT (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3A</xref>). To confirm this, we performed a luciferase reporter assay in MM1S cells. We found that overexpression of miR‐144‐3p significantly reduced the luciferase activity of WT‐SOX2OT, not but that of MT‐SOX2OT (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3B</xref>). An anti‐Ago2 RIP assay showed that endogenous SOX2OT was pulled down specifically in miR‐144‐3p overexpressed cells compared with miR‐NC group (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3C</xref>). Moreover, overexpression of miR‐144‐3p significantly reduced SOX2OT expression (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3D</xref>), and knock‐down of SOX2OT obviously increased miR‐144‐3p expression in MM1S cells (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3E</xref>). Moreover, we determined miR‐144‐3p expression in MM patient bone marrow and cell lines. The results revealed that the expression of miR‐144‐3p was lower in bone marrows of MM patients and MM cell lines than that of health donors and nPCs, respectively (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3F</xref>,<xref rid="jcmm15171-fig-0003" ref-type="fig">G</xref>). Furthermore, the expression of SOX2OT and miR‐144‐3p was negatively correlated in patient bone marrow (Figure <xref rid="jcmm15171-fig-0003" ref-type="fig">3H</xref>). Taken together, these data suggest that SOX2OT functions as a molecular sponge for miR‐144‐3p in MM.</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>SOX2OT was a molecular sponge for miR‐144‐3p in MM cells. A, Schematic representation of the predicted binding sites between miR‐144‐3p and SOX2OT, and the mutagenesis design for the reporter assay. B, Luciferase activity was examined in MM1S cells after cotransfection with miR‐144‐3p mimic/miR‐NC mimic and reported plasmid WT‐SOX2OT or MT‐SOX2OT. C, The anti‐Ago2 RIP assay with miR‐144‐3p mimics revealed that both miR‐144‐3p and SOX2OT were enriched in Ago2 precipitate compared to control (IgG) in MM1S cells. GAPDH was used as an internal control. D, Relative expression of SOX2OT was measured in MM1S cells transfected with miR‐144‐3p mimic or miR‐NC by qRT‐PCR. GAPDH was used as an internal control. E, Relative expression of miR‐144‐3p was measured in MM1S cells transfected with sh‐SOX2OT or sh‐NC by qRT‐PCR. U6 was used as an internal control. F, Relative expression of miR‐144‐3p was measured in bone marrow from MM patients and healthy donors by qRT‐PCR. U6 was used as an internal control. G, Relative expression of miR‐144‐3p was examined four human MM cell lines (NCI‐H929, U266, MM1S and ARP‐1) and nPCs by qRT‐PCR. U6 was used as an internal control. H, Correlation between SOX2OT expression and miR‐144‐3p expression in bone marrow from MM patients was analysed by Pearson's correlation analysis. All data are presented as mean ± SD for at least three independent experiments, *<italic toggle="yes">P</italic> &lt; .05, **<italic toggle="yes">P</italic> &lt; .01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-5" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g003.jpg"/></fig></sec><sec id="jcmm15171-sec-0017"><label>3.4</label><title>miR‐144‐3p inhibition alleviated SOX2OT knock‐down mediated inhibition of MM growth</title><p>To further explore whether SOX2OT exerts biological functions through miR‐144‐3p, we used rescue experiments by inhibiting miR‐144‐3p expression in SOX2OT knock‐down cells (Figure <xref rid="jcmm15171-fig-0004" ref-type="fig">4A</xref>). CCK8 assay showed reduced MM1S cell proliferation due to knock‐down of SOX2OT, and this effect was to some degree reversed by a miR‐144‐3p inhibitor (Figure <xref rid="jcmm15171-fig-0004" ref-type="fig">4B</xref>). Flow cytometry assays demonstrated that SOX2OT silencing causes a G1/G0 arrest, as well as induction of apoptosis in MM1S cells, and these results were also partially reversed in miR‐144‐3p inhibitor transfected cells (Figure <xref rid="jcmm15171-fig-0004" ref-type="fig">4C</xref>,<xref rid="jcmm15171-fig-0004" ref-type="fig">D</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>miR‐144‐3p inhibitor reversed the inhibitory effect of SOX2OT knock‐down on MM progression. A, Relative expression of miR‐144‐3p was measured in MM1S cells transfected with sh‐NC, sh‐SOX2OT with (without) miR‐144‐3p inhibitor(miR‐144‐3p in) by qRT‐PCR. U6 was used as an internal control. B‐D, Cell proliferation, cycle arrest and apoptosis were determined in MM1S cells transfected with sh‐NC, sh‐SOX2OT with (without) miR‐144‐3p in. All data are presented as mean ± SD for at least three independent experiments, *<italic toggle="yes">P</italic> &lt; .05, **<italic toggle="yes">P</italic> &lt; .01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-7" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g004.jpg"/></fig></sec><sec id="jcmm15171-sec-0018"><label>3.5</label><title>SOX2OT modulated expression of c‐MET via miR‐144‐3p regulation in MM cell lines</title><p>Cellular‐mesenchymal to epithelial transition factor <italic toggle="yes">(c‐MET)</italic>, a known oncogene that promotes cancer progression in various cancers, has been shown to be a direct target of miR‐144‐3p in MM.<xref rid="jcmm15171-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref> Thus, we investigated whether SOX2OT regulated c‐MET expression in MM cells depended on miR‐144‐3p. We found that SOX2OT knock‐down caused a significant reduction in <italic toggle="yes">c‐MET</italic> levels, which were partially restored by miR‐144‐3p inhibitor in MM1S cells (Figure <xref rid="jcmm15171-fig-0005" ref-type="fig">5A</xref>). We then analysed the correlations among the expression levels of SOX2OT, miR‐144‐3p and <italic toggle="yes">c‐MET</italic> in MM specimens. qRT‐PCR analysis revealed a higher level of <italic toggle="yes">c‐MET</italic> in MM samples than in controls (Figure <xref rid="jcmm15171-fig-0005" ref-type="fig">5B</xref>). Further, Pearson's correlation analysis revealed that <italic toggle="yes">c‐MET</italic> expression was positively correlated with SOX2OT expression (Figure <xref rid="jcmm15171-fig-0005" ref-type="fig">5C</xref>) and negatively correlated with miR‐144‐3p in bone marrow specimens from MM (Figure <xref rid="jcmm15171-fig-0005" ref-type="fig">5D</xref>). These results suggest that SOX2OT negatively regulates miR‐144‐3p, leading to increase c‐MET expression in MM cells.</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0005" orientation="portrait" position="float"><label>FIGURE 5</label><caption><p>SOX2OT modulated c‐MET expression by regulating miR‐144‐3p in MM cell lines. A, Relative expression of <italic toggle="yes">c‐MET</italic> mRNA was measured in MM1S cells transfected with sh‐NC, sh‐SOX2OT with (without) miR‐144‐3p in by qRT‐PCR. GAPDH was used as an internal control. B, Relative expression of <italic toggle="yes">c‐MET</italic> mRNA was measured in bone marrow from MM patients and healthy donors by qRT‐PCR. GAPDH was used as an internal control. C, Correlation between SOX2OT expression and <italic toggle="yes">c‐MET</italic> expression in bone marrow from MM patients was analysed by Pearson's correlation analysis. D, Correlation between miR‐144‐3p expression and <italic toggle="yes">c‐MET</italic> expression in bone marrow from MM patients was analysed by Pearson's correlation analysis. All data are presented as mean ± SD for at least three independent experiments, *<italic toggle="yes">P</italic> &lt; .05, **<italic toggle="yes">P</italic> &lt; .01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-9" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g005.jpg"/></fig></sec><sec id="jcmm15171-sec-0019"><label>3.6</label><title>Knock‐down of SOX2OT caused in vivo tumour suppression</title><p>Nude mice were injected with sh‐SOX2OT or sh‐NC‐transfected MM1S cells to study the function of SOX2OT on in vivo tumour growth. Xenograft tumour growth was examined every five days after inoculation. We found notably slower growth of tumours in the sh‐SOX2OT group as compared to the sh‐NC groups (Figure <xref rid="jcmm15171-fig-0006" ref-type="fig">6A</xref>, <italic toggle="yes">P</italic> &lt; .05). At 30th day post‐injection, mice were killed and the tumours were excised and weighed. The results showed a notable decrease in tumour weight and size in the sh‐SOX2OT group as compared to the sh‐NC group (Figure <xref rid="jcmm15171-fig-0006" ref-type="fig">6B</xref>,<xref rid="jcmm15171-fig-0006" ref-type="fig">C</xref>). Further, IHC revealed a decrease in the number of cells positive for Ki‐67 in the sh‐SOX2OT group compared to the sh‐NC group (Figure <xref rid="jcmm15171-fig-0006" ref-type="fig">6D</xref>). Moreover, qRT‐PCR examined the relative levels of SOX2OT, miR‐144‐3p and <italic toggle="yes">c‐MET</italic> expression in these xenografts tumour. The sh‐SOX2OT group showed a clear reduction in SOX2OT and <italic toggle="yes">c‐MET</italic> expression along with an elevation of miR‐144‐3p expression as compared to the sh‐NC group (Figure <xref rid="jcmm15171-fig-0006" ref-type="fig">6E</xref>). These data imply that SOX2OT knock‐down inhibits the growth of MM tumours in vivo.</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0006" orientation="portrait" position="float"><label>FIGURE 6</label><caption><p>Knock‐down of SOX2OT suppressed tumour growth in vivo. A, The tumour volume was measured every 5 d until mice killed. B, The tumour image. C, The tumours weight was measured. D, The Ki‐67 expression was determined in xenograft tumour by IHC. E, Relative expression of SOX2OT, miR‐144‐3p and <italic toggle="yes">c‐MET</italic> mRNA was measured in xenograft tumour tissues by qRT‐PCR. All data are presented as mean ± SD for at least three independent experiments, *<italic toggle="yes">P</italic> &lt; .05, **<italic toggle="yes">P</italic> &lt; .01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-11" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g006.jpg"/></fig></sec></sec><sec sec-type="discussion" id="jcmm15171-sec-0020"><label>4</label><title>DISCUSSION</title><p>The involvement of lncRNAs either as oncogenes or as tumour suppressors in the initiation and progression of MM has been pinpointed by a growing amount of research.<xref rid="jcmm15171-bib-0009" ref-type="ref">
+<sup>9</sup>
+</xref>, <xref rid="jcmm15171-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref> For example, MEG3 serves as a tumour suppressor in MM to sponge miR‐181a and in turn regulate HOXA11, thus serving as a ceRNA.<xref rid="jcmm15171-bib-0031" ref-type="ref">
+<sup>31</sup>
+</xref> The growth of MM is supported by FEZF1‐AS1 via regulation of the miR‐610/Akt3 pathway.<xref rid="jcmm15171-bib-0032" ref-type="ref">
+<sup>32</sup>
+</xref> Another study showed that the PTEN/PI3K/AKT pathway is activated by targeting KLF10 through miR‐410 accumulation as induced by a loss of lncRNA OIP5‐AS1 ultimately leading to promotion cell proliferation and inhibition of cell apoptosis.<xref rid="jcmm15171-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref> Promotion MM cell proliferation and reduction in apoptosis was caused by Metastasis‐associated lung adenocarcinoma transcript 1 (MALAT1).<xref rid="jcmm15171-bib-0034" ref-type="ref">
+<sup>34</sup>
+</xref> The current study showed an up‐regulation of SOX2OT in MM samples as compared to controls. Knock‐down of SOX2OT reduced MM cell proliferation and induced cell apoptosis in vitro, along with an impairment of tumour growth in vivo. Further examination indicated that SOX2OT directly targeted miR‐144‐3p, which regulated c‐MET expression in MM cells. These observations support the potential role of SOX2OT as a therapeutic intervention in MM.</p><p>Numerous prior studies have implicated the up‐regulation of SOX2OT, a well‐known oncogenic lncRNA, in regulating cell proliferation, cycle arrest, apoptosis, migration, invasion and metastasis in multiple types of cancers.<xref rid="jcmm15171-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref>, <xref rid="jcmm15171-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>, <xref rid="jcmm15171-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>, <xref rid="jcmm15171-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref>, <xref rid="jcmm15171-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref>, <xref rid="jcmm15171-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref> However, the exact role and mechanism of this molecule has yet to be characterized in MM. This study showed an up‐regulation of SOX2OT in MM tumour specimens as well as cell lines as compared to their respective controls. Additionally, knock‐down of SOX2OT could suppress the growth of MM both in vitro and in vivo<italic toggle="yes">,</italic> as evaluated by CCK‐8 assay and by establishing xenograft tumours in nude mice. Cell apoptosis assays showed that knock‐down of SOX2OT induced MM cell apoptosis. This suggests that SOX2OT serves as an oncogene in MM progression.</p><p>We then investigated the miRNAs targeted by SOX2OT to assess its mechanism of action. Bioinformatics analysis showed a potential site for miR‐144‐3p to bind to SOX2OT, and further examination using luciferase and RIP assays supported SOX2OT as a direct target of miR‐144‐3p in MM cells. Our study has shown that the level of SOX2OT was reduced in the MM1S cells overexpressing miR‐144‐3p, whereas knock‐down of SOX2OT caused a notable increase in miR‐144‐3p. A negative correlation was observed between SOX2OT and miR‐144‐3p in MM bone marrow samples. Moreover, the growth inhibition due to knock‐down of SOX2OT was reversed by a miR‐144‐3p inhibitor in MM cells. These observations indicate that SOX2OT mediates its tumour‐promoting effects in MM cells through miR‐144‐3p. This study opens up new avenues of research into the pathway by which SOX2OT regulates miR‐144‐3p in tumorigenesis.</p><p>It was well known that lncRNAs, mRNAs and pseudogenes can communicate with each other by competing for MREs of miRNAs.<xref rid="jcmm15171-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref>, <xref rid="jcmm15171-bib-0036" ref-type="ref">
+<sup>36</sup>
+</xref>, <xref rid="jcmm15171-bib-0037" ref-type="ref">
+<sup>37</sup>
+</xref> As previously mentioned, the oncogenic role of SOX2OT was attributed to its ability to sponge out miR‐144‐3p in MM cells. c‐MET as a direct target of miR‐144‐3p has been previously confirmed in MM.<xref rid="jcmm15171-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref> c‐MET, a transmembrane receptor tyrosine kinase, was reported to be the receptor for hepatocyte growth factor (HGF).<xref rid="jcmm15171-bib-0038" ref-type="ref">
+<sup>38</sup>
+</xref>
+<italic toggle="yes">c‐Met</italic> has been identified to be up‐regulated and function as an oncogene in a variety of malignant including MM.<xref rid="jcmm15171-bib-0039" ref-type="ref">
+<sup>39</sup>
+</xref> Previous studies showed that inhibition of c‐MET by inhibitor or siRNA expression significantly inhibited MM progression by inhibiting cell proliferation and invasion.<xref rid="jcmm15171-bib-0040" ref-type="ref">
+<sup>40</sup>
+</xref>, <xref rid="jcmm15171-bib-0041" ref-type="ref">
+<sup>41</sup>
+</xref>, <xref rid="jcmm15171-bib-0042" ref-type="ref">
+<sup>42</sup>
+</xref> Thus, we further investigated whether SOX2OT could serve as a ceRNA to regulate <italic toggle="yes">c‐MET</italic> expression through competitive combination with miR‐144‐3p. Our results revealed that SOX2OT‐knock‐down in the MM1S cells significantly suppressed the levels of <italic toggle="yes">c‐MET</italic>, and this trend was rescued by miR‐144‐3p inhibitor. In addition, we found that <italic toggle="yes">c‐MET</italic> expression was up‐regulated in MM marrow samples and was positively correlated with SOX2OT. Therefore, the SOX2OT/miR‐144‐3p/c‐MET axis may function as an important player in MM progression.</p><p>In summary, the present study provides evidence that SOX2OT promotes MM progression through sponging miR‐144‐3p to regulate c‐MET (Figure <xref rid="jcmm15171-fig-0007" ref-type="fig">7</xref>). This provides novel insights into a critical role of SOX2OT as a miRNA sponge in MM and sheds new light on SOX2OT as a new a therapeutic target for MM.</p><fig fig-type="FIGURE" xml:lang="en" id="jcmm15171-fig-0007" orientation="portrait" position="float"><label>FIGURE 7</label><caption><p>Summary of the regulatory mechanism of SOX2OT in multiple myeloma</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-13" position="float" orientation="portrait" xlink:href="JCMM-24-5185-g007.jpg"/></fig></sec><sec sec-type="COI-statement" id="jcmm15171-sec-0021"><title>CONFLICT OF INTEREST</title><p>The authors declare that they have no conflicts of interest.</p></sec><sec id="jcmm15171-sec-0022"><title>AUTHOR CONTRIBUTIONS</title><p>YT and LD designed the research directions and performed experimental contents. ZX contributed a lot to literature research and data analysis. ZZ and GD controlled the overall experimental direction.</p></sec></body><back><sec sec-type="data-availability" id="jcmm15171-sec-0024"><title>DATA AVAILABILITY STATEMENT</title><p>The data used to support the findings of this study are included within the article.</p></sec><ref-list content-type="cited-references" id="jcmm15171-bibl-0001"><title>REFERENCES</title><ref id="jcmm15171-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0001">
+<string-name name-style="western">
+<surname>Torre</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bray</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siegel</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferlay</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lortet‐Tieulent</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jemal</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Global cancer statistics, 2012</article-title>. <source xml:lang="en">CA Cancer J Clin</source>. <year>2015</year>;<volume>65</volume>(<issue>2</issue>):<fpage>87</fpage>‐<lpage>108</lpage>.<pub-id pub-id-type="pmid">25651787</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3322/caac.21262</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0002">
+<string-name name-style="western">
+<surname>Hideshima</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Richardson</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>
+<given-names>KC</given-names>
+</string-name>. <article-title>Mechanism of action of proteasome inhibitors and deacetylase inhibitors and the biological basis of synergy in multiple myeloma</article-title>. <source xml:lang="en">Mol Cancer Ther</source>. <year>2011</year>;<volume>10</volume>:<fpage>2034</fpage>‐<lpage>2042</lpage>.<pub-id pub-id-type="pmid">22072815</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-11-0433</pub-id><pub-id pub-id-type="pmcid">PMC5527560</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0003">
+<string-name name-style="western">
+<surname>Alexander</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mink</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adami</surname>
+<given-names>HO</given-names>
+</string-name>, et al. <article-title>Multiple myeloma: a review of the epidemiologic literature</article-title>. <source xml:lang="en">Int J Cancer</source>. <year>2007</year>;<volume>120</volume>(<issue>Suppl 12</issue>):<fpage>40</fpage>‐<lpage>61</lpage>.<pub-id pub-id-type="pmid">17405120</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.22718</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0004">
+<string-name name-style="western">
+<surname>Kornienko</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guenzl</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barlow</surname>
+<given-names>DP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pauler</surname>
+<given-names>FM</given-names>
+</string-name>. <article-title>Gene regulation by the act of long non‐coding RNA transcription</article-title>. <source xml:lang="en">BMC Biol</source>. <year>2013</year>;<volume>11</volume>:<fpage>59</fpage>.<pub-id pub-id-type="pmid">23721193</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1741-7007-11-59</pub-id><pub-id pub-id-type="pmcid">PMC3668284</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0005">
+<string-name name-style="western">
+<surname>Wilusz</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sunwoo</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spector</surname>
+<given-names>DL</given-names>
+</string-name>. <article-title>Long noncoding RNAs: functional surprises from the RNA world</article-title>. <source xml:lang="en">Gene Dev</source>. <year>2009</year>;<volume>23</volume>:<fpage>1494</fpage>‐<lpage>1504</lpage>.<pub-id pub-id-type="pmid">19571179</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.1800909</pub-id><pub-id pub-id-type="pmcid">PMC3152381</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0006">
+<string-name name-style="western">
+<surname>Ponting</surname>
+<given-names>CP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oliver</surname>
+<given-names>PL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reik</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>Evolution and functions of long noncoding RNAs</article-title>. <source xml:lang="en">Cell</source>. <year>2009</year>;<volume>136</volume>:<fpage>629</fpage>‐<lpage>641</lpage>.<pub-id pub-id-type="pmid">19239885</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2009.02.006</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0007">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Long noncoding RNAs act as regulators of autophagy in cancer</article-title>. <source xml:lang="en">Pharmacol Res</source>. <year>2018</year>;<volume>129</volume>:<fpage>151</fpage>‐<lpage>155</lpage>.<pub-id pub-id-type="pmid">29133213</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.phrs.2017.11.009</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0008">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yuan</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>LncRNA: a link between RNA and cancer</article-title>. <source xml:lang="en">Biochim Biophys Acta</source>. <year>2014</year>;<volume>1839</volume>:<fpage>1097</fpage>‐<lpage>1109</lpage>.<pub-id pub-id-type="pmid">25159663</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbagrm.2014.08.012</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0009">
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Identification and validation of potential prognostic lncRNA biomarkers for predicting survival in patients with multiple myeloma</article-title>. <source xml:lang="en">J Exp Clin Cancer Res</source>. <year>2015</year>;<volume>34</volume>:<fpage>102</fpage>.<pub-id pub-id-type="pmid">26362431</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13046-015-0219-5</pub-id><pub-id pub-id-type="pmcid">PMC4567800</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0010">
+<string-name name-style="western">
+<surname>Shahryari</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rafiee</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fouani</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Two novel splice variants of SOX2OT, SOX2OT‐S1, and SOX2OT‐S2 are coupregulated with SOX2 and OCT4 in esophageal squamous cell carcinoma</article-title>. <source xml:lang="en">Stem Cell</source>. <year>2014</year>;<volume>32</volume>:<fpage>126</fpage>‐<lpage>134</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/stem.1542</pub-id><pub-id pub-id-type="pmid">24105929</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0011">
+<string-name name-style="western">
+<surname>Askarian‐Amiri</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seyfoddin</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smart</surname>
+<given-names>CE</given-names>
+</string-name>, et al. <article-title>Emerging role of long non‐coding RNA SOX2OT in SOX2 regulation in breast cancer</article-title>. <source xml:lang="en">PLoS ONE</source>. <year>2014</year>;<volume>9</volume>:<elocation-id>e102140</elocation-id>.<pub-id pub-id-type="pmid">25006803</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0102140</pub-id><pub-id pub-id-type="pmcid">PMC4090206</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0012">
+<string-name name-style="western">
+<surname>Farhangian</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jahandoost</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mowla</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khalili</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Differential expression of long non‐coding RNA SOX2OT in gastric adenocarcinoma</article-title>. <source xml:lang="en">Cancer Biomark</source>. <year>2018</year>;<volume>23</volume>:<fpage>221</fpage>‐<lpage>225</lpage>.<pub-id pub-id-type="pmid">30198866</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/CBM-181325</pub-id><pub-id pub-id-type="pmcid">PMC13078528</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0013">
+<string-name name-style="western">
+<surname>Han</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhan</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Long non‐coding RNA SOX2OT promotes cell proliferation and motility in human ovarian cancer</article-title>. <source xml:lang="en">Exp Ther Med</source>. <year>2018</year>;<volume>15</volume>:<fpage>2182</fpage>‐<lpage>2188</lpage>.<pub-id pub-id-type="pmid">29434823</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/etm.2017.5618</pub-id><pub-id pub-id-type="pmcid">PMC5776615</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0014">
+<string-name name-style="western">
+<surname>Hou</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>A long noncoding RNA Sox2ot regulates lung cancer cell proliferation and is a prognostic indicator of poor survival</article-title>. <source xml:lang="en">Int J Biochem Cell Biol</source>. <year>2014</year>;<volume>53</volume>:<fpage>380</fpage>‐<lpage>388</lpage>.<pub-id pub-id-type="pmid">24927902</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.biocel.2014.06.004</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0015">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Tumor‐derived exosomal lnc‐Sox2ot promotes EMT and stemness by acting as a ceRNA in pancreatic ductal adenocarcinoma</article-title>. <source xml:lang="en">Oncogene</source>. <year>2018</year>;<volume>37</volume>:<fpage>3822</fpage>‐<lpage>3838</lpage>.<pub-id pub-id-type="pmid">29643475</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41388-018-0237-9</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0016">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yan</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Enhanced expression of long non‐coding RNA Sox2ot promoted cell proliferation and motility in colorectal cancer</article-title>. <source xml:lang="en">Minerva Med</source>. <year>2016</year>;<volume>107</volume>:<fpage>279</fpage>‐<lpage>286</lpage>.<pub-id pub-id-type="pmid">27353770</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0017">
+<string-name name-style="western">
+<surname>Saghaeian Jazi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Samaei</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mowla</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arefnezhad</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kouhsar</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>SOX2OT knockdown derived changes in mitotic regulatory gene network of cancer cells</article-title>. <source xml:lang="en">Cancer Cell Int</source>. <year>2018</year>;<volume>18</volume>:<fpage>129</fpage>.<pub-id pub-id-type="pmid">30202240</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12935-018-0618-8</pub-id><pub-id pub-id-type="pmcid">PMC6126007</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0018">
+<string-name name-style="western">
+<surname>Shafiee</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aleyasin</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vasei</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Semnani</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mowla</surname>
+<given-names>SJ</given-names>
+</string-name>. <article-title>Down‐regulatory effects of miR‐211 on long non‐coding RNA SOX2OT and SOX2 genes in esophageal squamous cell carcinoma</article-title>. <source xml:lang="en">Cell J</source>. <year>2016</year>;<volume>17</volume>:<fpage>593</fpage>‐<lpage>600</lpage>.<pub-id pub-id-type="pmid">26862518</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.22074/cellj.2016.3811</pub-id><pub-id pub-id-type="pmcid">PMC4746409</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0019">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>KC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chang</surname>
+<given-names>HY</given-names>
+</string-name>. <article-title>Molecular mechanisms of long noncoding RNAs</article-title>. <source xml:lang="en">Mol Cell</source>. <year>2011</year>;<volume>43</volume>:<fpage>904</fpage>‐<lpage>914</lpage>.<pub-id pub-id-type="pmid">21925379</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2011.08.018</pub-id><pub-id pub-id-type="pmcid">PMC3199020</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0020">
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuai</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Long noncoding RNA SOX2OT accelerates the carcinogenesis of Wilms' tumor through ceRNA through miR‐363/FOXP4 axis</article-title>. <source xml:lang="en">DNA Cell Biol</source>. <year>2018</year>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/dna.2018.4420</pub-id><pub-id pub-id-type="pmid">30481065</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0021">
+<string-name name-style="western">
+<surname>Wei</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ding</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodriguez</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Del Mar Requena Mullor</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>The SOX2OT/miR‐194‐5p axis regulates cell proliferation and mobility of gastric cancer through suppressing epithelial‐mesenchymal transition</article-title>. <source xml:lang="en">Oncol Lett</source>. <year>2018</year>;<volume>16</volume>:<fpage>6361</fpage>‐<lpage>6368</lpage>.<pub-id pub-id-type="pmid">30405772</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ol.2018.9433</pub-id><pub-id pub-id-type="pmcid">PMC6202518</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0022">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tang</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Long noncoding RNA Sox2 overlapping transcript (SOX2OT) promotes non‐small‐cell lung cancer migration and invasion via sponging microRNA 132 (miR‐132)</article-title>. <source xml:lang="en">Onco Targets Ther</source>. <year>2018</year>;<volume>11</volume>:<fpage>5269</fpage>‐<lpage>5278</lpage>.<pub-id pub-id-type="pmid">30214232</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/OTT.S168654</pub-id><pub-id pub-id-type="pmcid">PMC6124792</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC8502026"/></mixed-citation></ref><ref id="jcmm15171-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0023">
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Knockdown of SOX2OT inhibits the malignant biological behaviors of glioblastoma stem cells via up‐regulating the expression of miR‐194‐5p and miR‐122</article-title>. <source xml:lang="en">Mol Cancer</source>. <year>2017</year>;<volume>16</volume>:<fpage>171</fpage>.<pub-id pub-id-type="pmid">29132362</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12943-017-0737-1</pub-id><pub-id pub-id-type="pmcid">PMC5683208</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0024">
+<string-name name-style="western">
+<surname>Yin</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhuang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chang</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Downregulation of long noncoding RNA Sox2ot protects PC‐12 cells from hydrogen peroxide‐induced injury in spinal cord injury via regulating the miR‐211‐myeloid cell leukemia‐1 isoform2 axis</article-title>. <source xml:lang="en">J Cell Biochem</source>. <year>2018</year>;<volume>119</volume>:<fpage>9675</fpage>‐<lpage>9684</lpage>.<pub-id pub-id-type="pmid">30145837</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jcb.27280</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0025">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>WH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>YL</given-names>
+</string-name>, et al. <article-title>MiR‐144‐3p inhibits the proliferation and metastasis of pediatric Wilms' tumor cells by regulating Girdin</article-title>. <source xml:lang="en">Eur Rev Med Pharmacol Sci</source>. <year>2018</year>;<volume>22</volume>:<fpage>7671</fpage>‐<lpage>7678</lpage>.<pub-id pub-id-type="pmid">30536309</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.26355/eurrev_201811_16384</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0026">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiao</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pan</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>miR‐144‐3p serves as a tumor suppressor for renal cell carcinoma and inhibits its invasion and metastasis by targeting MAP3K8</article-title>. <source xml:lang="en">Biochem Biophys Res Commun</source>. <year>2016</year>;<volume>480</volume>:<fpage>87</fpage>‐<lpage>93</lpage>.<pub-id pub-id-type="pmid">27717821</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbrc.2016.10.004</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0027">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deng</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Downregulated miR‐144‐3p contributes to progression of lung adenocarcinoma through elevating the expression of EZH2</article-title>. <source xml:lang="en">Cancer Med</source>. <year>2018</year>;<volume>7</volume>:<fpage>5554</fpage>‐<lpage>5566</lpage>.<pub-id pub-id-type="pmid">30280514</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cam4.1714</pub-id><pub-id pub-id-type="pmcid">PMC6246953</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0028">
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>ZX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>
+<given-names>YX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dong</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>miR‐144‐3p serves as a tumor suppressor by targeting FZD7 and predicts the prognosis of human glioblastoma</article-title>. <source xml:lang="en">Eur Rev Med Pharmacol Sci</source>. <year>2017</year>;<volume>21</volume>:<fpage>4079</fpage>‐<lpage>4086</lpage>.<pub-id pub-id-type="pmid">29028093</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0029">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xie</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>MiR‐144‐3p inhibits cell proliferation and induces apoptosis in multiple myeloma by targeting c‐Met</article-title>. <source xml:lang="en">Am J Transl Res</source>. <year>2017</year>;<volume>9</volume>:<fpage>2437</fpage>‐<lpage>2446</lpage>.<pub-id pub-id-type="pmid">28559994</pub-id><pub-id pub-id-type="pmcid">PMC5446526</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0030">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gu</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Long non‐coding RNA CCAT1 promotes multiple myeloma progression by acting as a molecular sponge of miR‐181a‐5p to modulate HOXA1 expression</article-title>. <source xml:lang="en">Cell Cycle</source>. <year>2018</year>;<volume>17</volume>:<fpage>319</fpage>‐<lpage>329</lpage>.<pub-id pub-id-type="pmid">29228867</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/15384101.2017.1407893</pub-id><pub-id pub-id-type="pmcid">PMC5914888</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC10446770"/></mixed-citation></ref><ref id="jcmm15171-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0031">
+<string-name name-style="western">
+<surname>Shen</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bai</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Long non‐coding RNA MEG3 functions as a competing endogenous RNA to regulate HOXA11 expression by sponging miR‐181a in multiple myeloma</article-title>. <source xml:lang="en">Cell Physiol Biochem</source>. <year>2018</year>;<volume>49</volume>:<fpage>87</fpage>‐<lpage>100</lpage>.<pub-id pub-id-type="pmid">30134227</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000492846</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0032">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>QY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Long non‐coding RNA FEZF1‐AS1 promotes cell growth in multiple myeloma via miR‐610/Akt3 axis</article-title>. <source xml:lang="en">Biomed Pharmacother</source>. <year>2018</year>;<volume>103</volume>:<fpage>1727</fpage>‐<lpage>1732</lpage>.<pub-id pub-id-type="pmid">29864963</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.biopha.2018.04.094</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0033">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>LncRNA OIP5‐AS1 loss‐induced microRNA‐410 accumulation regulates cell proliferation and apoptosis by targeting KLF10 via activating PTEN/PI3K/AKT pathway in multiple myeloma</article-title>. <source xml:lang="en">Cell Death Dis</source>. <year>2017</year>;<volume>8</volume>:<elocation-id>e2975</elocation-id>.<pub-id pub-id-type="pmid">28796257</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/cddis.2017.358</pub-id><pub-id pub-id-type="pmcid">PMC5596549</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0034">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Down‐regulation of long non‐coding RNA MALAT1 by RNA interference inhibits proliferation and induces apoptosis in multiple myeloma</article-title>. <source xml:lang="en">Clin Exp Pharmacol Physiol</source>. <year>2017</year>;<volume>44</volume>:<fpage>1032</fpage>‐<lpage>1041</lpage>.<pub-id pub-id-type="pmid">28664617</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1440-1681.12804</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0035">
+<string-name name-style="western">
+<surname>Karreth</surname>
+<given-names>FA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pandolfi</surname>
+<given-names>PP</given-names>
+</string-name>. <article-title>ceRNA cross‐talk in cancer: when ce‐bling rivalries go awry</article-title>. <source xml:lang="en">Cancer Discov</source>. <year>2013</year>;<volume>3</volume>:<fpage>1113</fpage>‐<lpage>1121</lpage>.<pub-id pub-id-type="pmid">24072616</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0202</pub-id><pub-id pub-id-type="pmcid">PMC3801300</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0036">
+<string-name name-style="western">
+<surname>Mercer</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dinger</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mattick</surname>
+<given-names>JS</given-names>
+</string-name>. <article-title>Long non‐coding RNAs: insights into functions</article-title>. <source xml:lang="en">Nat Rev Genet</source>. <year>2009</year>;<volume>10</volume>:<fpage>155</fpage>‐<lpage>159</lpage>.<pub-id pub-id-type="pmid">19188922</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg2521</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0037">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Competing endogenous RNA networks in human cancer: hypothesis, validation, and perspectives</article-title>. <source xml:lang="en">Oncotarget</source>. <year>2016</year>;<volume>7</volume>:<fpage>13479</fpage>‐<lpage>13490</lpage>.<pub-id pub-id-type="pmid">26872371</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.7266</pub-id><pub-id pub-id-type="pmcid">PMC4924655</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0038">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jin</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Function of the c‐Met receptor tyrosine kinase in carcinogenesis and associated therapeutic opportunities</article-title>. <source xml:lang="en">Mol Cancer</source>. <year>2018</year>;<volume>17</volume>:<fpage>45</fpage>.<pub-id pub-id-type="pmid">29455668</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12943-018-0796-y</pub-id><pub-id pub-id-type="pmcid">PMC5817860</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0039">
+<string-name name-style="western">
+<surname>Slordahl</surname>
+<given-names>TS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Denayer</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moen</surname>
+<given-names>SH</given-names>
+</string-name>, et al. <article-title>Anti‐c‐MET Nanobody –‐ a new potential drug in multiple myeloma treatment</article-title>. <source xml:lang="en">Eur J Haematol</source>. <year>2013</year>;<volume>91</volume>:<fpage>399</fpage>‐<lpage>410</lpage>.<pub-id pub-id-type="pmid">23952536</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ejh.12185</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0040">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Targeting c‐met receptor tyrosine kinase by the DNA aptamer SL1 as a potential novel therapeutic option for myeloma</article-title>. <source xml:lang="en">J Cell Mol Med</source>. <year>2018</year>;<volume>22</volume>:<fpage>5978</fpage>‐<lpage>5990</lpage>.<pub-id pub-id-type="pmid">30353654</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jcmm.13870</pub-id><pub-id pub-id-type="pmcid">PMC6237600</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0041">
+<string-name name-style="western">
+<surname>Que</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chuang</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Knockdown of c‐Met enhances sensitivity to bortezomib in human multiple myeloma U266 cells via inhibiting Akt/mTOR activity</article-title>. <source xml:lang="en">APMIS</source>. <year>2012</year>;<volume>120</volume>(<issue>3</issue>):<fpage>195</fpage>‐<lpage>203</lpage>.<pub-id pub-id-type="pmid">22339676</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1600-0463.2011.02836.x</pub-id></mixed-citation></ref><ref id="jcmm15171-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="jcmm15171-cit-0042">
+<string-name name-style="western">
+<surname>Phillip</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stellrecht</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nimmanapalli</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gandhi</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>Targeting MET transcription as a therapeutic strategy in multiple myeloma</article-title>. <source xml:lang="en">Cancer Chemother Pharmacol</source>. <year>2009</year>;<volume>63</volume>:<fpage>587</fpage>‐<lpage>597</lpage>.<pub-id pub-id-type="pmid">18509644</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00280-008-0770-2</pub-id><pub-id pub-id-type="pmcid">PMC2892885</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

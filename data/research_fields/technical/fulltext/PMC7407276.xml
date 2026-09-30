@@ -1,0 +1,1629 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Gigascience</journal-id><journal-id journal-id-type="iso-abbrev">Gigascience</journal-id><journal-id journal-id-type="pmc-domain-id">2056</journal-id><journal-id journal-id-type="pmc-domain">gigasci</journal-id><journal-id journal-id-type="nlm-id">101596872</journal-id><journal-id journal-id-type="publisher-id">gigascience</journal-id><journal-title-group><journal-title>GigaScience</journal-title></journal-title-group><issn pub-type="epub">2047-217X</issn><?publisher_abbrev oup?><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7407276</article-id><article-id pub-id-type="pmcid-ver">PMC7407276.1</article-id><article-id pub-id-type="pmcaid">7407276</article-id><article-id pub-id-type="pmcaiid">7407276</article-id><article-id pub-id-type="pmid">32761097</article-id><article-id pub-id-type="doi">10.1093/gigascience/giaa082</article-id><article-id pub-id-type="publisher-id">giaa082</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Technical Note</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/SCI00960</subject><subject>AcademicSubjects/SCI02254</subject></subj-group></article-categories><title-group><article-title>Genomic data imputation with variational auto-encoders</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6174-1975</contrib-id><name name-style="western"><surname>Qiu</surname><given-names initials="YL">Yeping Lina</given-names></name><aff>
+<institution>Stanford Center for Biomedical Informatics Research, Department of Medicine, Stanford University</institution>, Stanford, CA 94305, <country country="US">USA</country></aff><aff>
+<institution>Department of Electrical Engineering, Stanford University</institution>, Stanford, CA 94305, <country country="US">USA</country></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zheng</surname><given-names initials="H">Hong</given-names></name><aff>
+<institution>Stanford Center for Biomedical Informatics Research, Department of Medicine, Stanford University</institution>, Stanford, CA 94305, <country country="US">USA</country></aff></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9965-5466</contrib-id><name name-style="western"><surname>Gevaert</surname><given-names initials="O">Olivier</given-names></name><aff>
+<institution>Stanford Center for Biomedical Informatics Research, Department of Medicine, Stanford University</institution>, Stanford, CA 94305, <country country="US">USA</country></aff><aff>
+<institution>Department of Biomedical Data Science, Stanford University</institution>, Stanford, CA 94305, <country country="US">USA</country></aff><xref ref-type="corresp" rid="cor1"/></contrib></contrib-group><author-notes><corresp id="cor1"><bold>Correspondence address</bold>. Olivier Gevaert, PhD Stanford Center for Biomedical Informatics Research (BMIR) Department of Medicine, Stanford University 1265 Welch Rd, Stanford, CA 94305-5479, USA; E-mail: </corresp></author-notes><pub-date pub-type="epub" iso-8601-date="2020-08-06"><day>06</day><month>8</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2020</year></pub-date><volume>9</volume><issue>8</issue><issue-id pub-id-type="pmc-issue-id">362381</issue-id><elocation-id>giaa082</elocation-id><history><date date-type="received"><day>27</day><month>2</month><year>2020</year></date><date date-type="rev-recd"><day>14</day><month>5</month><year>2020</year></date><date date-type="accepted"><day>03</day><month>7</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>06</day><month>08</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>10</day><month>08</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-11-03 04:25:18.180"><day>03</day><month>11</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2020. Published by Oxford University Press.</copyright-statement><copyright-year>2020</copyright-year><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="cc-by" xlink:href="http://creativecommons.org/licenses/by/4.0/"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="giaa082.pdf"><?pdf-name giaa082.pdf?><?pdf-size 1394774?><?pdf-md5 8be8aeb4b7a8dc86ac2acda808116914?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:9002/7407276/8be8aeb4b7a8/giaa082.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082.pdf"/><abstract><title>Abstract</title><sec id="abs1"><title>Background</title><p>As missing values are frequently present in genomic data, practical methods to handle missing data are necessary for downstream analyses that require complete data sets. State-of-the-art imputation techniques, including methods based on singular value decomposition and K-nearest neighbors, can be computationally expensive for large data sets and it is difficult to modify these algorithms to handle certain cases not missing at random.</p></sec><sec id="abs2"><title>Results</title><p>In this work, we use a deep-learning framework based on the variational auto-encoder (VAE) for genomic missing value imputation and demonstrate its effectiveness in transcriptome and methylome data analysis. We show that in the vast majority of our testing scenarios, VAE achieves similar or better performances than the most widely used imputation standards, while having a computational advantage at evaluation time. When dealing with data missing not at random (e.g., few values are missing), we develop simple yet effective methodologies to leverage the prior knowledge about missing data. Furthermore, we investigate the effect of varying latent space regularization strength in VAE on the imputation performances and, in this context, show why VAE has a better imputation capacity compared to a regular deterministic auto-encoder.</p></sec><sec id="abs3"><title>Conclusions</title><p>We describe a deep learning imputation framework for transcriptome and methylome data using a VAE and show that it can be a preferable alternative to traditional methods for data imputation, especially in the setting of large-scale data and certain missing-not-at-random scenarios.</p></sec></abstract><kwd-group kwd-group-type="keywords"><kwd>imputation</kwd><kwd>variational auto-encoder</kwd><kwd>deep learning</kwd></kwd-group><funding-group><award-group award-type="grant"><funding-source><institution-wrap><institution>National Institute of Biomedical Imaging and Bioengineering</institution><institution-id institution-id-type="DOI">10.13039/100000070</institution-id></institution-wrap></funding-source></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>National Institutes of Health</institution><institution-id institution-id-type="DOI">10.13039/100000002</institution-id></institution-wrap></funding-source><award-id>R01 EB020527</award-id><award-id>R56 EB020527</award-id></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>National Cancer Institute</institution><institution-id institution-id-type="DOI">10.13039/100000054</institution-id></institution-wrap></funding-source></award-group></funding-group><counts><page-count count="12"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>The massive and diverse data sets in genomics have provided researchers with a rich resource to study the molecular basis of diseases. The profiling of gene expression and DNA methylation have enabled the identification of cancer driver genes or biomarkers [<xref rid="bib1" ref-type="bibr">1–6</xref>]. Many such studies on cancer genomics require complete data sets [<xref rid="bib7" ref-type="bibr">7</xref>]. However, missing values are frequently present in these data due to various reasons, including low resolution, missing probes, and artifacts [<xref rid="bib8" ref-type="bibr">8</xref>, <xref rid="bib9" ref-type="bibr">9</xref>]. Therefore, practical methods to handle missing data in genomic data sets are needed for effective downstream analyses.</p><p>One way to complete the data matrices is to ignore missing values by removing the entire feature if any of the samples has a missing value in that feature, but this is usually not a good strategy, as the feature may contain useful information for other samples. The most preferable way to handle missing data is to impute their values in the pre-processing step. Many approaches have been proposed for this purpose [<xref rid="bib10" ref-type="bibr">10</xref>], including replacement using average values, estimation using the weighted K-nearest neighbor (KNN) method [<xref rid="bib11" ref-type="bibr">11</xref>, <xref rid="bib12" ref-type="bibr">12</xref>], and estimation using singular value decomposition (SVD)–based methods [<xref rid="bib11" ref-type="bibr">11</xref>]. KNN and SVD are 2 techniques that have been commonly used as benchmarks against new developments [<xref rid="bib13" ref-type="bibr">13</xref>, <xref rid="bib14" ref-type="bibr">14</xref>]. KNN imputes the missing value of a feature in a given sample with the weighted average of the feature values in a number of similar samples, as calculated by some distance measure. SVD attempts to estimate data structure from the entire input, including the samples with missing values, and fill in the missing values iteratively according to the global structure. For this reason, SVD is inefficient on large matrices in practice, since new decompositions have to be estimated for each missing sample, which is a very time-consuming process. However, SVD serves as an important benchmarking method to determine how well other, faster methods perform compare to SVD.</p><p>In recent years, a branch of machine learning which emerged based on big data and deep artificial neural network architectures, usually referred to as deep learning, has advanced rapidly and shown great potential for applications in bioinformatics [<xref rid="bib15" ref-type="bibr">15</xref>]. Deep learning has been applied in areas including genomics studies [<xref rid="bib16" ref-type="bibr">16–18</xref>], biomedical imaging [<xref rid="bib19" ref-type="bibr">19</xref>], and biomedical signal processing [<xref rid="bib20" ref-type="bibr">20</xref>]. Auto-encoders (AE) operate on a deep learning–based model that forms the basis of various frameworks for missing value imputation, and AEs have shown promising results for genomic data, imaging data, and industrial data applications [<xref rid="bib21" ref-type="bibr">21–26</xref>]. However, a simple AE without regularization is rarely ranked among the competitors for data imputation [<xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib28" ref-type="bibr">28</xref>]. When a simple AE only focuses on creating output close to the input without any constraints, the model may overfit on the training data instead of learning the latent structure, such as dependencies and regularities characteristic of the data distribution [<xref rid="bib22" ref-type="bibr">22</xref>], which makes it unlikely to impute well when given new samples. A denoising auto-encoder (DAE) is a type of auto-encoder that specifically uses noise corruption to the input to create robust latent features [<xref rid="bib22" ref-type="bibr">22</xref>]. DAE has been extensively used in the application of data imputation [<xref rid="bib23" ref-type="bibr">23</xref>, <xref rid="bib27" ref-type="bibr">27</xref>]. The corrupting noise introduced in the DAE can be in many different forms, such as masking noise, Gaussian noise, and salt-and-pepper noise [<xref rid="bib30" ref-type="bibr">29</xref>].</p><p>Variational auto-encoders (VAE) are probabilistic auto-encoders that have wide applications in image and text generation [<xref rid="bib31" ref-type="bibr">30–32</xref>]. VAE learns the distributions of latent space variables that make the model generate output similar to the input. VAE has primarily been used as a powerful generative tool, having the ability to produce realistic fake contents in images, sound signal, or texts that highly resemble the real-life contents that they learn from. The generative power is made possible by regularizing the latent space [<xref rid="bib33" ref-type="bibr">32</xref>]. Constraining the latent space distributions to be close to a standard Gaussian helps to achieve a smooth latent space where 2 close points in the latent space should lead to similar reconstructions, and any point sampled from the latent space should give a meaningful reconstruction [<xref rid="bib34" ref-type="bibr">33</xref>]. VAE has been applied in genomic contexts, such as latent space learning of gene expression data [<xref rid="bib35" ref-type="bibr">34</xref>]. In addition, recent works have applied VAE on single-cell RNA sequencing data for clustering, batch correction, and differential expression analysis [<xref rid="bib36" ref-type="bibr">35</xref>, <xref rid="bib37" ref-type="bibr">36</xref>]. However, VAE has not been extensively studied for genomic data imputation for bulk RNA expression and DNA methylation data, while large amounts of retrospective genomic and epigenomic data are available through databases like the Gene Expression Omnibus (GEO) [<xref rid="bib38" ref-type="bibr">37</xref>] and the Short Read Archive (SRA) [<xref rid="bib39" ref-type="bibr">38</xref>].</p><p>Here, we examine the VAE mechanism and its application to genomic missing value imputation with bulk transcriptome and methylome data. We show that for both missing completely at random (MCAR) and missing not at random (MNAR) cases in transcriptome data and methylome data, VAE achieves similar or better performances than the de facto standards, and thus is a strong alternative to traditional methods for data imputation [<xref rid="bib40" ref-type="bibr">39</xref>]. We demonstrate that in a MNAR scenario where the missing data distribution is not the same as the seen data, a shift correction method can be implemented to improve VAE's extrapolation performance. Furthermore, we investigate the effect of latent space regularization on imputation with a generalization of the variational auto-encoder: <inline-formula><tex-math id="M1"><?equation-image-name M1.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M1.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE [<xref rid="bib41" ref-type="bibr">40</xref>]. In the context of <inline-formula><tex-math id="M2"><?equation-image-name M2.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M2.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE results, we provide insights on why VAE can achieve good imputation performance compared to a regular, deterministic AE.</p></sec><sec sec-type="materials|methods" id="sec2"><title>Materials and Methods</title><sec id="sec2-1"><title>Data sets</title><p>We use 2 data sets to perform data imputation: pan-cancer RNA sequencing data from The Cancer Genome Atlas (TCGA) data sets [<xref rid="bib2" ref-type="bibr">2</xref>, <xref rid="bib42" ref-type="bibr">41</xref>, <xref rid="bib43" ref-type="bibr">42</xref>] and DNA methylation data [<xref rid="bib44" ref-type="bibr">43–46</xref>]. Both data sets contain only numeric values. The RNA sequencing data is expressed in reads per kilobase of transcript, per million mapped reads, which is a normalized unit of transcript expression. The DNA methylation data is obtained from bisulfite sequencing, and it contains the numeric values of the methylation level at each 5'—C—phosphate—G—3' (CpG) site. The RNA sequencing data has a feature dimension of 20,531 genes. There are 15% of the genes containing more or less NA values, while the remaining 85% of the genes are complete. Within the 15% of the genes who have missing values, on average 8.5% of the values are missing. The NA values are introduced in the Synapse pre-processing pipeline, where genes with mostly 0 reads or with residual batch effects after batch correction were removed from the adjusted samples and replaced with NAs. In order to have a ground truth to evaluate the missing value imputation frameworks, we remove the 15% of genes with NA values in our pre-processing, which results in a feature dimension of 17,176 genes. We then normalize the data by log transformation and z-score transformation. We use 667 glioma patient samples, including those with glioblastoma (GBM) and low-grade glioma (LGG), to train and test the missing value imputation framework. In pre-processing the DNA methylation data, we remove the NA values, and normalize the data by negative log transformation and z-score transformation. We use the smallest chromosome subset (Chromosome 22) so that the resulting data dimension is not prohibitive for benchmarking different computation methods. The resulting data has 21,220 CpG sites and 206 samples.</p></sec><sec id="sec2-2"><title>Missing data simulations</title><p>Each data set is split into 80% for training and 20% for hold-out testing. The training data set is further split 80/20%, where 20% is the validation data set for hyper-parameter tuning. After hyper-parameters are selected, the entire training set is used for training. The sample split for the RNA sequencing data set is stratified by the glioma subtypes (LGG versus GBM), and the split is random for the DNA methylation data since the samples are homogenous. The training data is a complete data set without missing values. Missing values are introduced to the testing data in 2 forms: MCAR and MNAR (Table <xref rid="tbl1" ref-type="table">1</xref>) [<xref rid="bib48" ref-type="bibr">47</xref>].</p><table-wrap id="tbl1" orientation="portrait" position="float"><label>Table 1:</label><caption><p>Simulation experiments on RNA sequencing data and DNA methylation data.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Data</th><th rowspan="1" colspan="1">Missing type</th><th rowspan="1" colspan="1">Missing scenario</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">RNA sequencing data</td><td rowspan="1" colspan="1">MCAR</td><td rowspan="1" colspan="1">5% completely random missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">10% completely random missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">30% completely random missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MNAR</td><td rowspan="1" colspan="1">50% random missing in genes with the highest 10% guanine-cytosine content (GC) content</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">5% genes are entirely missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">50% random missing in genes with the lowest 10% expression level</td></tr><tr><td rowspan="1" colspan="1">DNA methylation data</td><td rowspan="1" colspan="1">MCAR</td><td rowspan="1" colspan="1">5% completely random missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">10% completely random missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">30% completely random missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MNAR</td><td rowspan="1" colspan="1">5% CpG sites are entirely missing</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">50% random missing in CpG sites with coverage lower than 6 reads</td></tr></tbody></table></table-wrap><p>In the MCAR cases, we randomly mask a number of elements in each row by replacing the original values with NAs. To test a range of missing severity, we make the number of masked elements amount to 5%, 10%, and 30% of the total number of elements, respectively.</p><p>Each of the MNAR simulations is motivated by a different real-world condition specific to either gene expression data or methylation data. For the gene expression data, we simulate 3 MNAR scenarios, each of which has 5% of the total data values missing. In the first scenario, the masked values are concentrated at certain genes. Such genes are selected based on their GC content, which is the percentage of nitrogenous bases on a RNA fragment that are either guanine (G) or cytosine (C). GC content that is too high or too low influences RNA sequencing coverage, and potentially results in missing values from these genes [<xref rid="bib49" ref-type="bibr">48</xref>]. We select genes with GC content at the highest 10% and randomly mask half of these values. In the second simulation case, certain genes are masked entirely. In some pre-processing pipelines of RNA sequencing data, genes with residual batch effects after batch correction are replaced with NAs in the adjusted samples. Such pre-processing may give rise to the MNAR case where some genes are entirely missing in some samples. We randomly select 5% of the genes and mask all values from these genes in the testing data; as a result, the corrupted data miss all values for specific genes. The third scenario is based on gene expression level. When the RNA sequencing depth is relatively low, it is relatively easy to miss genes that have low expression levels, because the reads generated from those genes are too few to be captured during sequencing [<xref rid="bib50" ref-type="bibr">49</xref>]. Therefore, we consider a possible scenario where lowly expressed genes are prone to be missing. In the testing data, we first choose gene expression values at the lowest 10% quantile, and then randomly mask half of these values.</p><p>For the DNA methylation data, we simulate 2 MNAR scenarios. The first scenario is completely missing certain CpG sites, which is similar to the second MNAR case in gene expression data, where we select 5% of the features and mask them entirely in the testing data. In the second case, we mask CpG sites that have less coverage than a certain threshold. Some CpG sites may have very few reads mapped to them, which undermines the confidence in the measurement of methylation level. Thus, we choose an arbitrary coverage threshold of 6 reads for the methylation status of a CpG site to be confidently determined. Methylation levels of CpGs with fewer than 6 reads mapped to them are treated as missing values in the analysis here.</p><p>For each simulation scenario described above, we create 10 random trials to measure the average imputation performance. The uncorrupted testing data is used to compute the imputation root mean squared error (RMSE).</p></sec><sec id="sec2-3"><title>Variational auto-encoder</title><p>An AE is an unsupervised deep neural network that is trained to reconstruct an input <italic toggle="yes">X</italic> by learning a function <inline-formula><tex-math id="M3"><?equation-image-name M3.gif?><?equation-image-status READY?><?equation-image-md5 b7aeb24a11b86fc20347fc459695a17c?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/b7aeb24a11b8/M3.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${h_{w,\ b}}( X ) \approx X$\end{document}</tex-math></inline-formula>. This is done by minimizing the loss function between the input <italic toggle="yes">X</italic> and the network's output <inline-formula><tex-math id="M4"><?equation-image-name M4.gif?><?equation-image-status READY?><?equation-image-md5 a4c9965ee7df57431ff404bccd144b82?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/a4c9965ee7df/M4.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$X^{\prime}$\end{document}</tex-math></inline-formula>:<inline-formula><tex-math id="M5"><?equation-image-name M5.gif?><?equation-image-status READY?><?equation-image-md5 9b941a36aafd757714e1449731c3432f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/9b941a36aafd/M5.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\ L( {X,\ X^{\prime}} )$\end{document}</tex-math></inline-formula>. The most common loss function is the RMSE:
+<disp-formula id="equ1"><label>(1)</label><tex-math id="M6"><?equation-image-name M6.gif?><?equation-image-status READY?><?equation-image-md5 6826ade4c16a06b7b5612278d5330248?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/6826ade4c16a/M6.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+L\ \left( {X,X^{\prime}} \right) = \sqrt {{{\left| {\left| {X - X^{\prime}} \right|} \right|}^2}} \
+\end{equation*}$$\end{document}</tex-math></disp-formula></p><p>An auto-encoder consists of an encoder and a decoder. The encoder transforms the input to a latent representation, often such that the latent representation is in a much smaller dimension than the input [<xref rid="bib51" ref-type="bibr">50</xref>]. The decoder then maps the latent embedding to the reconstruction of <italic toggle="yes">X</italic>. An auto-encoder is often used as a dimensional reduction technique to learn useful representations of data [<xref rid="bib52" ref-type="bibr">51</xref>].</p><p>While in a regular auto-encoder the latent space is encoded and then decoded deterministically—that is, there is no probabilistic modeling of the latent space—a VAE learns a probability distribution in the latent space. VAE is often used as a generative model by sampling from the learned latent space distribution and generating new samples that are similar in nature to the original data [<xref rid="bib33" ref-type="bibr">32</xref>]. The assumption of VAE is that in the distribution of data X, <inline-formula><tex-math id="M7"><?equation-image-name M7.gif?><?equation-image-status READY?><?equation-image-md5 86c9f589adbe9acc5281c08ccdee9d20?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/86c9f589adbe/M7.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P( X )$\end{document}</tex-math></inline-formula> is related to the distribution of the latent variable z, <inline-formula><tex-math id="M8"><?equation-image-name M8.gif?><?equation-image-status READY?><?equation-image-md5 1d1888f3c2dead8cef8c271d0c00a9cc?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/1d1888f3c2de/M8.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P( z )$\end{document}</tex-math></inline-formula> by
+<disp-formula id="equ2"><label>(2)</label><tex-math id="M9"><?equation-image-name M9.gif?><?equation-image-status READY?><?equation-image-md5 5bfdcc0000117d0bac29872ec68696d0?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/5bfdcc000011/M9.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+{P_\theta }\ \left( X \right) = \smallint {P_\theta }\left( {X{\rm{|}}z} \right)P\left( z \right)dz\
+\end{equation*}$$\end{document}</tex-math></disp-formula></p><p>Here, <inline-formula><tex-math id="M10"><?equation-image-name M10.gif?><?equation-image-status READY?><?equation-image-md5 5818cad0236350f1c927a02a43ef4964?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/5818cad02363/M10.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }( X )$\end{document}</tex-math></inline-formula>, also known as the marginal likelihood, is the probability of each data point in X under the entire generative process, parametrized by <inline-formula><tex-math id="M11"><?equation-image-name M11.gif?><?equation-image-status READY?><?equation-image-md5 edd700580a15597cfa6d9d815ad4671e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/edd700580a15/M11.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\theta $\end{document}</tex-math></inline-formula>. The model aims to maximize <inline-formula><tex-math id="M12"><?equation-image-name M12.gif?><?equation-image-status READY?><?equation-image-md5 5818cad0236350f1c927a02a43ef4964?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/5818cad02363/M12.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }( X )$\end{document}</tex-math></inline-formula> by optimizing the parameter <inline-formula><tex-math id="M13"><?equation-image-name M13.gif?><?equation-image-status READY?><?equation-image-md5 edd700580a15597cfa6d9d815ad4671e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/edd700580a15/M13.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\theta $\end{document}</tex-math></inline-formula> so as to approximate the true distribution of data. In practice, <inline-formula><tex-math id="M14"><?equation-image-name M14.gif?><?equation-image-status READY?><?equation-image-md5 033447e7add5d707c633c76a35b8a13e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/033447e7add5/M14.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }(X|z)$\end{document}</tex-math></inline-formula> will be nearly 0 for most z, and it is therefore more practical to learn a distribution <inline-formula><tex-math id="M15"><?equation-image-name M15.gif?><?equation-image-status READY?><?equation-image-md5 2d70b54a3e0c31cc32a076afce5b27c2?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2d70b54a3e0c/M15.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${Q_\phi }(z|X)$\end{document}</tex-math></inline-formula>, which gives rise to a z that is likely to produce X, and then compute <inline-formula><tex-math id="M16"><?equation-image-name M16.gif?><?equation-image-status READY?><?equation-image-md5 86c9f589adbe9acc5281c08ccdee9d20?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/86c9f589adbe/M16.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P( X )$\end{document}</tex-math></inline-formula> from <inline-formula><tex-math id="M17"><?equation-image-name M17.gif?><?equation-image-status READY?><?equation-image-md5 9f964f690ae1add5549c99e4258e6816?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/9f964f690ae1/M17.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${E_{z\sim{Q_\phi }}}P( {X{\rm{|}}z} ).\ {P_\theta }$\end{document}</tex-math></inline-formula> (X) and <inline-formula><tex-math id="M18"><?equation-image-name M18.gif?><?equation-image-status READY?><?equation-image-md5 39db5e08e5bd6ab0e352b063049bfb2f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/39db5e08e5bd/M18.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${E_{z\sim{Q_\phi }}}P( {X{\rm{|}}z} )$\end{document}</tex-math></inline-formula> can be shown to have the following relationship [<xref rid="bib33" ref-type="bibr">32</xref>]:
+<disp-formula id="equ3"><label>(3)</label><tex-math id="M19"><?equation-image-name M19.gif?><?equation-image-status READY?><?equation-image-md5 e489b4dfda2352ac467e3990c36d6a43?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/e489b4dfda23/M19.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{eqnarray*}
+log{P_\theta }( X ) - D[{Q_\phi }(z|X)||{P_\theta }(z|X)] =&amp;&amp; {{E_{z\sim{Q_\phi }}}\ } [log{P_\theta }(X|z)] \nonumber \\
+&amp;&amp; - D [{Q_\phi }(z|X)||P( z )]
+\end{eqnarray*}$$\end{document}</tex-math></disp-formula></p><p>The left side of (<xref ref-type="disp-formula" rid="equ3">3</xref>) is the quantity we want to maximize, <inline-formula><tex-math id="M20"><?equation-image-name M20.gif?><?equation-image-status READY?><?equation-image-md5 daefa6763517cf28d7aa46c9e0500ed8?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/daefa6763517/M20.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log {P_\theta }( X )$\end{document}</tex-math></inline-formula>, plus an error term, which is the Kullback-Liebler divergence between the approximated posterior distribution <inline-formula><tex-math id="M21"><?equation-image-name M21.gif?><?equation-image-status READY?><?equation-image-md5 2d70b54a3e0c31cc32a076afce5b27c2?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2d70b54a3e0c/M21.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${Q_\phi }( {z{\rm{|}}X} )$\end{document}</tex-math></inline-formula> and the true posterior distribution <inline-formula><tex-math id="M22"><?equation-image-name M22.gif?><?equation-image-status READY?><?equation-image-md5 6afb2f77015511b742c9c3d14d9d57ff?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/6afb2f770155/M22.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }( {z{\rm{|}}X} )$\end{document}</tex-math></inline-formula>. The Kullback-Liebler divergence is a measure of how 1 distribution is different from another, and is always non-negative. Thus, maximizing the log likelihood log <inline-formula><tex-math id="M23"><?equation-image-name M23.gif?><?equation-image-status READY?><?equation-image-md5 86c9f589adbe9acc5281c08ccdee9d20?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/86c9f589adbe/M23.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P( X )$\end{document}</tex-math></inline-formula> can be achieved by maximizing the evidence lower bound (ELBO):
+<disp-formula id="equ4"><label>(4)</label><tex-math id="M24"><?equation-image-name M24.gif?><?equation-image-status READY?><?equation-image-md5 69fa947e64946b516e3cd6d41fc29b90?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/69fa947e6494/M24.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+{\textit ELBO}\ = \log {P_\theta }\left( X \right)\ - \mathcal{D}[{Q_\phi }(z|X)|{\rm{|}}{P_\theta }\left( {z{\rm{|}}X} \right){\rm{]}}
+\end{equation*}$$\end{document}</tex-math></disp-formula></p><p>The right side of (<xref ref-type="disp-formula" rid="equ3">3</xref>) is something we can optimize by a gradient descent algorithm. <inline-formula><tex-math id="M25"><?equation-image-name M25.gif?><?equation-image-status READY?><?equation-image-md5 033447e7add5d707c633c76a35b8a13e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/033447e7add5/M25.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }( {X{\rm{|}}z} )$\end{document}</tex-math></inline-formula> is modeled by the decoder network of the VAE parametrized by <inline-formula><tex-math id="M26"><?equation-image-name M26.gif?><?equation-image-status READY?><?equation-image-md5 edd700580a15597cfa6d9d815ad4671e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/edd700580a15/M26.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\theta $\end{document}</tex-math></inline-formula>, and <inline-formula><tex-math id="M27"><?equation-image-name M27.gif?><?equation-image-status READY?><?equation-image-md5 2a4e93156dc8fd4dc54aa4b545802788?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2a4e93156dc8/M27.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${Q_\phi }(z|X$\end{document}</tex-math></inline-formula>) is modeled by the encoder network parametrized by <inline-formula><tex-math id="M28"><?equation-image-name M28.gif?><?equation-image-status READY?><?equation-image-md5 dbad5f9d7f55b89bdfb479db045fb482?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/dbad5f9d7f55/M28.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\phi $\end{document}</tex-math></inline-formula>. For continuous value inputs, <inline-formula><tex-math id="M29"><?equation-image-name M29.gif?><?equation-image-status READY?><?equation-image-md5 033447e7add5d707c633c76a35b8a13e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/033447e7add5/M29.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }( {X{\rm{|}}z} )$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math id="M30"><?equation-image-name M30.gif?><?equation-image-status READY?><?equation-image-md5 2a4e93156dc8fd4dc54aa4b545802788?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2a4e93156dc8/M30.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${Q_\phi }(z|X$\end{document}</tex-math></inline-formula>) are most commonly assumed to be Gaussian distributions [<xref rid="bib34" ref-type="bibr">33</xref>]. <inline-formula><tex-math id="M31"><?equation-image-name M31.gif?><?equation-image-status READY?><?equation-image-md5 1d1888f3c2dead8cef8c271d0c00a9cc?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/1d1888f3c2de/M31.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P( z )$\end{document}</tex-math></inline-formula> is fixed prior to distribution and is assumed to be a standard multivariate normal distribution <inline-formula><tex-math id="M32"><?equation-image-name M32.gif?><?equation-image-status READY?><?equation-image-md5 d29ad5b27a2c4de096a94cffbf03cfd6?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/d29ad5b27a2c/M32.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mathcal{N}( {0,\ I} )$\end{document}</tex-math></inline-formula>. The first term,<inline-formula><tex-math id="M33"><?equation-image-name M33.gif?><?equation-image-status READY?><?equation-image-md5 2f7bdd29e6483b8c4208a1698cf20add?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2f7bdd29e648/M33.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${E_{z\sim{Q_\phi }}}[log{P_\theta }(X|z)]$\end{document}</tex-math></inline-formula>, is the expectation of the log probability of X given the encoder's output. Maximizing this term is equivalent to minimizing the reconstruction error of the AE. The second term, <inline-formula><tex-math id="M34"><?equation-image-name M34.gif?><?equation-image-status READY?><?equation-image-md5 c9c6df4b6e0f4602d436806da889b16f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/c9c6df4b6e0f/M34.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$D[{Q_\phi }(z|X)||P( z )]$\end{document}</tex-math></inline-formula>, is the divergence between the approximated posterior distribution <inline-formula><tex-math id="M35"><?equation-image-name M35.gif?><?equation-image-status READY?><?equation-image-md5 2d70b54a3e0c31cc32a076afce5b27c2?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2d70b54a3e0c/M35.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${Q_\phi }(z|X)$\end{document}</tex-math></inline-formula> and the prior <inline-formula><tex-math id="M36"><?equation-image-name M36.gif?><?equation-image-status READY?><?equation-image-md5 1d1888f3c2dead8cef8c271d0c00a9cc?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/1d1888f3c2de/M36.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P( z )$\end{document}</tex-math></inline-formula>, and minimizing this term can be considered as adding a regularization term to prevent overfitting.</p><p>VAE is trained with the training data that follows a standard Gaussian distribution after z-score transformation. We impute missing values in the testing data with a trained VAE by an iterative process. Initially, the missing values are replaced with random values sampled from a standard Gaussian distribution. Then, the following sequence of steps are repeated until an empirically determined iteration threshold is reached: compute the latent variable z distribution given input X with the encoder; take the mean of latent variable distribution as the input to the decoder and compute the distribution of reconstructed data <inline-formula><tex-math id="M37"><?equation-image-name M37.gif?><?equation-image-status READY?><?equation-image-md5 bea32223860fc6ac78342c67d6378b3f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/bea32223860f/M37.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{X}$\end{document}</tex-math></inline-formula>; take the mean of the reconstructed data distribution as the reconstructed values; replace the missing values with reconstructed values; and leave non-missing values unchanged. The testing data should be scaled by the model's training data mean and variance before the imputation iterations, and should be inverse scaled after imputation.</p></sec><sec id="sec2-4"><title>VAE imputation with shift correction</title><p>Regular implementation of VAE has an underlying assumption that the training data follows the same distribution as testing data. Below, we will discuss how to modify this assumption to better impute MNAR scenarios.</p><p>Since the VAE learns the data distribution from the training data, the output of imputation also follows the learned distribution, which is similar to the training data. When the missing values are drawn from a different distribution than the training data, the imputation performance will drop due to the distribution shift. In the MNAR simulations where half of the lowest 10% of values are masked, the missing values are considered to be shifted from the original training data to a smaller mean.</p><p>The lowest-value-missing scenario represents a common type of missing values in biomedical data. When certain experimental conditions (e.g., low RNA sequencing depth) allow us to make assumptions that the majority of missing values are low-expression values, we essentially have prior knowledge that the distribution of missing values is shifted to the end of lower values. We can therefore use VAE with the shift-correction implementation. Recall that in (<xref ref-type="disp-formula" rid="equ3">3</xref>), the underlying assumption is that the training data follows a Gaussian distribution X ∼ <inline-formula><tex-math id="M38"><?equation-image-name M38.gif?><?equation-image-status READY?><?equation-image-md5 ad500648aa2e1c3d6dc9a88d7ce55656?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/ad500648aa2e/M38.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mathcal{N}( {\mu ,\ \sigma } )$\end{document}</tex-math></inline-formula>, where <italic toggle="yes">μ</italic> and <inline-formula><tex-math id="M39"><?equation-image-name M39.gif?><?equation-image-status READY?><?equation-image-md5 2aabd379ce4aada1c5e60e331efa0786?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2aabd379ce4a/M39.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\sigma $\end{document}</tex-math></inline-formula> are the outputs of the decoder network that represent the mean and variance, respectively, of the observed training data, as well as the missing data. When the lowest values are missing, the learnt distribution has a larger mean than the actual missing data, causing the reconstructed <inline-formula><tex-math id="M40"><?equation-image-name M40.gif?><?equation-image-status READY?><?equation-image-md5 bea32223860fc6ac78342c67d6378b3f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/bea32223860f/M40.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{X}$\end{document}</tex-math></inline-formula> to have larger values. To correct this, we modify the assumption of training data distribution to follow <inline-formula><tex-math id="M41"><?equation-image-name M41.gif?><?equation-image-status READY?><?equation-image-md5 ea52b77c7b66c35109c5c2ea91ab4c2d?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/ea52b77c7b66/M41.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mathcal{N}( {\mu + \lambda \sigma ,\ \sigma } )$\end{document}</tex-math></inline-formula>, where <inline-formula><tex-math id="M42"><?equation-image-name M42.gif?><?equation-image-status READY?><?equation-image-md5 522dcb2e50632349e9bbba4b0a2414bf?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/522dcb2e5063/M42.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mu $\end{document}</tex-math></inline-formula> and <inline-formula><tex-math id="M43"><?equation-image-name M43.gif?><?equation-image-status READY?><?equation-image-md5 2aabd379ce4aada1c5e60e331efa0786?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2aabd379ce4a/M43.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\sigma $\end{document}</tex-math></inline-formula> are the outputs of the decoder network that represent the mean and variance, respectively, of the missing data, and <inline-formula><tex-math id="M44"><?equation-image-name M44.gif?><?equation-image-status READY?><?equation-image-md5 95c7c0c413ff1fd8daea2f980615e58e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/95c7c0c413ff/M44.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\lambda $\end{document}</tex-math></inline-formula> is a hyperparameter. The mean of the observed training data is then shifted to <inline-formula><tex-math id="M45"><?equation-image-name M45.gif?><?equation-image-status READY?><?equation-image-md5 a93806c77a2fe6c224944cf754a742b3?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/a93806c77a2f/M45.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mu + \lambda \sigma $\end{document}</tex-math></inline-formula>. VAE with shift correction is recommended for use when certain experimental conditions warrant the assumption that missing values are concentrated on the lower end of the data distribution. However, when such assumptions are unknown or the pattern of missing data is more likely to be random, the standard VAE without shift correction is recommended for use.</p><p>To test the lowest 10% missing case, we simulate a 10% lowest-value-missing scenario on the validation data set, and select the shift correction parameter value that produces the smallest validation error. In reality, we may not know the actual ranges and amounts of low values missing in the testing data, and thus cannot simulate the situation on the validation data precisely. For a range of the lowest-value-missing scenarios where half of the lowest 5%, 10%, 20%, and 30% values are missing, we impute with a single <inline-formula><tex-math id="M46"><?equation-image-name M46.gif?><?equation-image-status READY?><?equation-image-md5 95c7c0c413ff1fd8daea2f980615e58e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/95c7c0c413ff/M46.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\lambda $\end{document}</tex-math></inline-formula>, which is selected based on the lowest 10% missing case. We thereby determine whether it is possible to select <inline-formula><tex-math id="M47"><?equation-image-name M47.gif?><?equation-image-status READY?><?equation-image-md5 95c7c0c413ff1fd8daea2f980615e58e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/95c7c0c413ff/M47.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\lambda $\end{document}</tex-math></inline-formula> without precise knowledge of the missing scenario in the testing data.</p></sec><sec id="sec2-5"><title>
+<italic toggle="yes">β</italic>–variational auto-encoder</title><p>
+<italic toggle="yes">β</italic>-VAE is a generalization of the VAE with a focus to discover interpretable factorized latent factors [<xref rid="bib41" ref-type="bibr">40</xref>]. A hyperparameter beta is introduced to the VAE loss to balance the reconstruction loss term with the regularization loss term. The loss of <inline-formula><tex-math id="M48"><?equation-image-name M48.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M48.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE is defined as:
+<disp-formula id="equ5"><label>(5)</label><tex-math id="M49"><?equation-image-name M49.gif?><?equation-image-status READY?><?equation-image-md5 b44e475f0549dfbbaeb5694cd286476d?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/b44e475f0549/M49.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+{L_{\beta - {\rm{VAE}}}} = \ - {E_{z\sim{Q_\phi }}}\left[ {log{P_\theta }\left( {X{\rm{|}}z} \right)} \right] + \beta \mathcal{D}[{Q_\phi }(z|X)|{\rm{|}}P\left( z \right){\rm{]}}
+\end{equation*}$$\end{document}</tex-math></disp-formula>where <inline-formula><tex-math id="M50"><?equation-image-name M50.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M50.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> is a hyperparameter.</p><p>
+<inline-formula><tex-math id="M51"><?equation-image-name M51.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M51.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE (<inline-formula><tex-math id="M52"><?equation-image-name M52.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M52.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> &gt; 1) has been shown to perform better than VAE in certain image generation tasks and has attracted increasing research interest [<xref rid="bib53" ref-type="bibr">52</xref>]. However, no prior work has investigated the effect of <inline-formula><tex-math id="M53"><?equation-image-name M53.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M53.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> on imputation. Since VAE can be considered as a special case of <inline-formula><tex-math id="M54"><?equation-image-name M54.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M54.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE, we extend our study to <inline-formula><tex-math id="M55"><?equation-image-name M55.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M55.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE with a varying <inline-formula><tex-math id="M56"><?equation-image-name M56.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M56.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> to further understand the effect of regularization on VAE imputation and to investigate the potential possibility of increasing its performance.</p><p>When <inline-formula><tex-math id="M57"><?equation-image-name M57.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M57.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> is 1, it is the same as VAE. When <inline-formula><tex-math id="M58"><?equation-image-name M58.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M58.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> &gt; 1, a stronger regularization is enforced, and the resulting latent space is smoother and more disentangled, which is a preferred property in certain learning tasks because more disentangled latent space has greater encoding efficiency [<xref rid="bib41" ref-type="bibr">40</xref>].</p><p>In comparison, when <inline-formula><tex-math id="M59"><?equation-image-name M59.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M59.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula> = 0, the regularization term is effectively removed. With the regularization term removed, the loss function only consists of the reconstruction loss term:
+<disp-formula id="equ6"><label>(6)</label><tex-math id="M60"><?equation-image-name M60.gif?><?equation-image-status READY?><?equation-image-md5 ec66b87d3e99980ebabf2679e03b0754?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/ec66b87d3e99/M60.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+\ {L_{{\rm{VA}}{{\rm{E}}^{\prime}}}} = \ - {E_{z\sim{Q_\phi }}}\left[ {og{P_\theta }\left( {X{\rm{|}}z} \right)} \right]
+\end{equation*}$$\end{document}</tex-math></disp-formula>which resembles the reconstruction loss function of a simple AE without any regularization. This can usually be expressed in the mean squared error between the input <italic toggle="yes">X</italic> and the reconstruction<inline-formula><tex-math id="M61"><?equation-image-name M61.gif?><?equation-image-status READY?><?equation-image-md5 a4c9965ee7df57431ff404bccd144b82?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/a4c9965ee7df/M61.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\rm{\ }}X{\rm{^{\prime}}}$\end{document}</tex-math></inline-formula> [<xref rid="bib54" ref-type="bibr">53</xref>]:
+<disp-formula id="equ7"><label>(7)</label><tex-math id="M62"><?equation-image-name M62.gif?><?equation-image-status READY?><?equation-image-md5 c69d7a6b6d3d0637c10b1e5909e6d188?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/c69d7a6b6d3d/M62.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+L\ \left( {X,X^{\prime}} \right) = \left\| {X - X^{\prime}} \right\|_2^2
+\end{equation*}$$\end{document}</tex-math></disp-formula></p><p>However, the loss of VAE without the regularization term as shown in (<xref ref-type="disp-formula" rid="equ6">6</xref>) has a key difference from the loss of a simple AE shown in (<xref ref-type="disp-formula" rid="equ7">7</xref>). If (6) is viewed from a deterministic perspective, it is easy to distinguish the difference.</p><p>With the assumption that <inline-formula><tex-math id="M63"><?equation-image-name M63.gif?><?equation-image-status READY?><?equation-image-md5 2bfb826ac7b4bab20edd8e1374d6dbbb?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/2bfb826ac7b4/M63.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${P_\theta }$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math id="M64"><?equation-image-name M64.gif?><?equation-image-status READY?><?equation-image-md5 de39996e6ff8536dd2125ebe63808474?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/de39996e6ff8/M64.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${Q_\phi }$\end{document}</tex-math></inline-formula>are Gaussian distributions,
+<disp-formula><tex-math id="M65"><?equation-image-name M65.gif?><?equation-image-status READY?><?equation-image-md5 1990014c38ddbd0f5c97933a20768019?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/1990014c38dd/M65.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+{P_\theta }\ \left( {X{\rm{|}}z} \right)\sim\ N\ \left( {X{\rm{|}}{\mu _\theta }\left( z \right),\ diag\left( {{\sigma _\theta }\left( z \right)} \right)} \right),
+\end{equation*}$$\end{document}</tex-math></disp-formula><disp-formula><tex-math id="M66"><?equation-image-name M66.gif?><?equation-image-status READY?><?equation-image-md5 4b2e88ca0937b9b7120a95ee721aeed8?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/4b2e88ca0937/M66.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+{Q_\phi }\ \left( {z{\rm{|}}X} \right)\sim\ N\ (z|{\mu _\phi }\left( X \right),\ diag\left( {{\sigma _\phi }\left( X \right)} \right))
+\end{equation*}$$\end{document}</tex-math></disp-formula>the loss in (6) can be computed as the mean squared error between inputs and their mean reconstructions output by the decoder [<xref rid="bib34" ref-type="bibr">33</xref>]:
+<disp-formula id="equ8"><label>(8)</label><tex-math id="M67"><?equation-image-name M67.gif?><?equation-image-status READY?><?equation-image-md5 302ed2c7d08fb316d35a7b9803c07f3f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/302ed2c7d08f/M67.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+\ {L_{{\rm{VA}}{{\rm{E}}^{\prime}}}} = \left\| {X - {\mu _\theta }\left( z \right)} \right\|_2^2
+\end{equation*}$$\end{document}</tex-math></disp-formula></p><p>Unlike the deterministic reconstruction <inline-formula><tex-math id="M68"><?equation-image-name M68.gif?><?equation-image-status READY?><?equation-image-md5 a4c9965ee7df57431ff404bccd144b82?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/a4c9965ee7df/M68.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$X^{\prime}$\end{document}</tex-math></inline-formula> in (<xref ref-type="disp-formula" rid="equ7">7</xref>), <italic toggle="yes">z</italic> in (<xref ref-type="disp-formula" rid="equ8">8</xref>) is stochastic. However, the stochasticity of <italic toggle="yes">z</italic> can be relegated to a random variable that does not depend on <inline-formula><tex-math id="M69"><?equation-image-name M69.gif?><?equation-image-status READY?><?equation-image-md5 47062a3de84866eea32ed6c0be5c9151?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/47062a3de848/M69.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\phi ,$\end{document}</tex-math></inline-formula> so that we can view (8) from a deterministic perspective. Using the reparameterization trick [<xref rid="bib33" ref-type="bibr">32</xref>], <italic toggle="yes">z</italic> can be represented by:
+<disp-formula id="equ9"><label>(9)</label><tex-math id="M70"><?equation-image-name M70.gif?><?equation-image-status READY?><?equation-image-md5 75cc691884ebcd8fa7f42dbfc2e0b975?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/75cc691884eb/M70.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+z\ = {\mu _\phi }\ \left( X \right) + {\sigma _\phi }\left( X \right)\ \odot \ \varepsilon ,\ \varepsilon \sim \mathcal{N}\left( {0,\ I} \right)
+\end{equation*}$$\end{document}</tex-math></disp-formula>where <inline-formula><tex-math id="M71"><?equation-image-name M71.gif?><?equation-image-status READY?><?equation-image-md5 19a719214a21f40a313a783445fe1cea?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/19a719214a21/M71.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\odot$\end{document}</tex-math></inline-formula> is the element-wise product. Therefore, the input to the decoder can be considered as the output of encoder <inline-formula><tex-math id="M72"><?equation-image-name M72.gif?><?equation-image-status READY?><?equation-image-md5 0583bfe7ab846504cbaa3a780d6e6621?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0583bfe7ab84/M72.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\mu _\phi }( X )$\end{document}</tex-math></inline-formula> corrupted by a random Gaussian noise <inline-formula><tex-math id="M73"><?equation-image-name M73.gif?><?equation-image-status READY?><?equation-image-md5 b2bc129adef341a36e63296472f98033?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/b2bc129adef3/M73.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\varepsilon $\end{document}</tex-math></inline-formula> multiplied by <inline-formula><tex-math id="M74"><?equation-image-name M74.gif?><?equation-image-status READY?><?equation-image-md5 26965655f1b533f84a344c3255ff7f5d?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/26965655f1b5/M74.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\sigma _\phi }( X )$\end{document}</tex-math></inline-formula>. Consequently, the loss in (8) can be considered as the loss of a deterministic AE, which has noise injected to the latent space. In contrast, noise is not present in the deterministic regular AE loss in (7).</p><p>We perform 3 random missing experiments (5%, 10%, and 30% missing) with <inline-formula><tex-math id="M75"><?equation-image-name M75.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M75.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE and vary the hyperparameter <inline-formula><tex-math id="M76"><?equation-image-name M76.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M76.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> between 0, 1, 4, and 10 to evaluate how <inline-formula><tex-math id="M77"><?equation-image-name M77.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M77.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> affects imputation accuracies. This will help us understand the VAE mechanism and how to use it in imputation.</p></sec><sec id="sec2-6"><title>Model parameter and hyper-parameter tuning</title><p>Model parameter tuning and hyper-parameter tuning are conducted on the validation data set. The latent dimension is usually several magnitudes smaller than the input dimension in AE implementations, but there is no golden rule to determine its size. We test 3 latent dimension sizes: 50, 200, and 400. Furthermore, we test 2 architectures with 3 or 5 hidden layers. The hidden layers adjacent to the bottleneck layer have 10-fold size increases, and each adjacent layer outwards after that has a constant size increase factor. For example, for a 5–hidden layer VAE with a latent size of 50, the hidden layer dimensions are 3,000, 500, 50, 500, and 3,000, with input and output dimensions of 17,176; for a 3–hidden layer VAE with a latent size of 200, the hidden layer dimensions are 2,000, 200, and 2,000. We found that 5 hidden layers show better performance than 3 hidden layers, and that latent dimensions of 200 and 400 produce similar performances that are both better than 50. We therefore use a VAE with 5 hidden layers of dimensions of 6,000, 2,000, 200, 2,000, and 6,000 in our subsequent experiments. <xref ref-type="supplementary-material" rid="sup13">Supplementary Figure S1</xref> shows the performance differences of the 6 different model architectures described above. The Rectified Linear Unit (ReLU) function is used as the activation function on the hidden layers.</p><p>We use the Adam optimizer and search for optimal learning rates on a grid of 1e-5, 5e-5, 1e-4, and 5e-4. A learning rate of 5e-5 is selected after the grid search. We find that model performance is not very sensitive to batch size, and use a batch size of 250 and training epochs of 250. The number of iterations to perform the iterative imputation is also determined empirically. The imputed values are found to converge very quickly, and results remain mostly stable after 2 or 3 iterations. We use 3 as the iteration threshold.</p></sec><sec id="sec2-7"><title>Evaluation methods</title><p>To evaluate the VAE imputation framework, we compare it to the other most commonly used missing-value estimation methods: a KNN method and an iterative SVD-based method. We also construct a baseline using the mean-value imputation method. KNN selects K number of samples that are most similar to the target sample with a missing gene based on Euclidean distance, and which all have values present in that gene. Imputation is a weighted average of the values of that gene in those K samples. We chose K = 10 in our evaluations based on a study that reported that K values in the range of 10–25 gave the best imputation results [<xref rid="bib11" ref-type="bibr">11</xref>]. Next, the SVD method decomposes the data matrix to a linear combination of eigengenes and corresponding coefficients. Genes are regressed against L most significant eigengenes, during which process the missing genes are not used [<xref rid="bib55" ref-type="bibr">54</xref>]. The obtained coefficients are linearly multiplied by eigengenes to get a reconstruction with missing genes filled. This process is repeated until the total change in the matrix reaches a certain threshold. The reconstruction performance of SVD depends on the number of eigengenes selected for regression. We test a range of values and determine that the optimal performance is reached by full-rank reconstruction. Hence, we use full-rank SVD in our evaluations. The mean-value imputation method fills in the missing elements of each feature with the mean value of that feature across all non-missing samples.</p><p>We evaluate the RMSE of the imputed data and uncorrupted ground truth,
+<disp-formula><tex-math id="M78"><?equation-image-name M78.gif?><?equation-image-status READY?><?equation-image-md5 311fc2683c70b6b02c9b7b23872c35c5?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/311fc2683c70/M78.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}
+{\textit RMSE}\ = \frac{{\mathop \sum \nolimits_{i = 1}^{{n_{missing}}} \sqrt {{{\left( {{x_i} - x_i^{\prime}} \right)}^2}} }}{{{n_{missing}}}}\
+\end{equation*}$$\end{document}</tex-math></disp-formula></p><p>where <inline-formula><tex-math id="M79"><?equation-image-name M79.gif?><?equation-image-status READY?><?equation-image-md5 33edb5511ae28d8254c04abcf264a863?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/33edb5511ae2/M79.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${x_i}$\end{document}</tex-math></inline-formula> is the ground truth of the masked value, and <inline-formula><tex-math id="M80"><?equation-image-name M80.gif?><?equation-image-status READY?><?equation-image-md5 55217917a1febb0f19501524cc709b7c?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/55217917a1fe/M80.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i^{\prime}\ $\end{document}</tex-math></inline-formula>is the reconstructed value for the masked value.</p><p>To further evaluate the imputation effect on a biomedical analysis, we compare the univariate correlation to clinical variables on the RNA sequencing data imputed by different methods. We conduct this analysis with the TCGA glioma cohort containing both LGG and GBM samples, and use 2 clinical variables: tumor histologic grade and survival time. The tumor grade and survival information for each brain tumor patient are publicly available [<xref rid="bib56" ref-type="bibr">55</xref>]. The histologic grade variable in the TCGA brain tumor data contains 3 levels: Grade II, III, and IV, indicating increasing levels of tumor malignancy. We directly use the grade value as an ordinal variable of 3 levels, and calculate the Spearman correlation coefficient between each gene and the grade variable. The survival time is a continuous variable measured in months, and the vital status indicates whether the patient was dead or alive when the study concluded. With this information, we perform a Cox regression on each gene with respect to the survival outcome, and compute the univariate coefficient of each gene. A concordance index is computed between the coefficient obtained from the imputed data by each method and the coefficients obtained from the ground truth. A higher concordance index indicates better resemblance to the true data.</p></sec></sec><sec sec-type="results" id="sec3"><title>Results</title><sec id="sec3-1"><title>RMSE of imputation on RNA sequencing data</title><p>We inspect the RMSEs in different simulated missing scenarios by different imputation methods. The significant scores are calculated using the Wilcoxon test with the “ggsignif” package in R. First, we evaluate the MCAR cases at varying percentages: 5%, 10%, and 30% random elements in the testing data were masked, and models were compared on the reconstruction RMSE. VAE achieves better RMSEs than KNN in all tested missing scenarios, and reaches similar or better performances than SVD in most scenarios (Fig. <xref ref-type="fig" rid="fig1">1a</xref>).</p><fig id="fig1" orientation="portrait" position="float"><label>Figure 1:</label><caption><p>Imputation RMSE on the gene expression data for (<bold>a</bold>) MCAR cases of 5%, 10%, and 30%; (<bold>b</bold>) half of the highest 10% of GC content genes missing a case; (<bold>c</bold>) 5% of genes entirely missing a case; and (<bold>d</bold>) half of the lowest 10% of values missing a case. The numbers above bars show the Wilcoxon test significant scores between VAE or VAE with shift correction and other methods.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="giaa082fig1.jpg"><?image-name giaa082fig1.jpg?><?image-size 100364?><?image-md5 5ee9bf71c760d03af5abd6eb48b66415?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 970?><?image-original-width 1377?><?image-scaled-height 485?><?image-scaled-width 688?><?image-cloudpmc-urn urn:cdn:blobs/9002/7407276/5ee9bf71c760/giaa082fig1.jpg?><?thumb-name giaa082fig1.gif?><?thumb-size 14551?><?thumb-md5 17f074c74e83eefa0511185404c2d595?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 113?><?thumb-cloudpmc-urn urn:cdn:blobs/9002/7407276/17f074c74e83/giaa082fig1.gif?></graphic></fig><p>In the first MNAR simulation case, the masked values are confined to certain genes that have the highest 10% of GC content. Genes whose GC content is in the top 10% contain 50% random missing values in the testing data. VAE shows better reconstruction RMSE than KNN, and also achieves a slight advantage over SVD (Fig. <xref ref-type="fig" rid="fig1">1b</xref>). In the second case, 5% of genes are masked entirely in the testing data. VAE again shows the lowest mean RMSE among competing methods (Fig. <xref ref-type="fig" rid="fig1">1c</xref>). Each method may have different performance on different genes. <xref ref-type="supplementary-material" rid="sup13">Supplementary Table 1</xref> provides insight on the imputation results for individual genes, showing the RMSEs obtained from each method for each individual gene from 1 experimental trial.</p><p>The final MNAR case is based on the gene expression values. The extreme values at the lowest 10% quantile are masked 50% randomly in the testing data. As a result, the observed values in the testing data shift its distribution from the training data, and result in a decreased performance of imputation. However, with shift-correction implementation, VAE again achieves similar or better imputation accuracy than other methods (Fig. <xref ref-type="fig" rid="fig1">1d</xref>).</p></sec><sec id="sec3-2"><title>The shift correction is robust to a range of low percentage-missing scenarios</title><p>We further investigate the robustness of the shift correction parameter against a range of missing percentages on the lowest values. The shift correction parameter is selected based on a 10% lowest-value-missing scenario simulated on the validation data. We use the same selected parameter to test on a range of missing scenarios, where half of the lowest 5%, 10%, 20%, and 30% of values are missing. All methods show worse prediction errors for smaller thresholds of missing values, because smaller thresholds indicate that the missing values are concentrated to smaller values, leading to larger shifts in data distribution. We show that in these tested scenarios the shift-correction VAE consistently achieves better results than KNN and SVD with the same <inline-formula><tex-math id="M81"><?equation-image-name M81.gif?><?equation-image-status READY?><?equation-image-md5 95c7c0c413ff1fd8daea2f980615e58e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/95c7c0c413ff/M81.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\lambda $\end{document}</tex-math></inline-formula> (Fig. <xref ref-type="fig" rid="fig2">2</xref>). Therefore, <inline-formula><tex-math id="M82"><?equation-image-name M82.gif?><?equation-image-status READY?><?equation-image-md5 95c7c0c413ff1fd8daea2f980615e58e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/95c7c0c413ff/M82.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\lambda $\end{document}</tex-math></inline-formula> selection does not need to exactly match the actual missing percentage, which is an advantage in real-world implementations.</p><fig id="fig2" orientation="portrait" position="float"><label>Figure 2:</label><caption><p>RMSE with 95% confidence intervals for simulations where half of the lowest 5%, 10%, 20%, and 30% of values are missing. VAE shift-correction results are achieved using a single <inline-formula><tex-math id="M83"><?equation-image-name M83.gif?><?equation-image-status READY?><?equation-image-md5 95c7c0c413ff1fd8daea2f980615e58e?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/95c7c0c413ff/M83.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\lambda $\end{document}</tex-math></inline-formula>, which is selected based on the lowest 10% of missing cases.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="giaa082fig2.jpg"><?image-name giaa082fig2.jpg?><?image-size 68808?><?image-md5 5783fb2c8d8545a351fd7e7034bc1293?><?image-image-server-status NEVER_LOAD?><?image-original-height 452?><?image-original-width 757?><?image-scaled-height 452?><?image-scaled-width 757?><?image-cloudpmc-urn urn:cdn:blobs/9002/7407276/5783fb2c8d85/giaa082fig2.jpg?><?thumb-name giaa082fig2.gif?><?thumb-size 11240?><?thumb-md5 b148f06c83c864e210b3d35a98882605?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 133?><?thumb-cloudpmc-urn urn:cdn:blobs/9002/7407276/b148f06c83c8/giaa082fig2.gif?></graphic></fig></sec><sec id="sec3-3"><title>RMSE of imputation on DNA methylation data</title><p>For the imputation on DNA methylation data, the KNN, SVD, and VAE methods show similar performance when compared to the gene expression data. These 3 methods also show better performance than imputing with a column mean. For MCAR and block missing cases, VAE has similar performance as SVD, followed by KNN (Fig. <xref ref-type="fig" rid="fig3">3a</xref>, <xref ref-type="fig" rid="fig3">b</xref>). For the low-coverage missing case, VAE achieves a better RMSE than SVD and KNN (Fig. <xref ref-type="fig" rid="fig3">3c</xref>).</p><fig id="fig3" orientation="portrait" position="float"><label>Figure 3:</label><caption><p>Imputation RMSE on the DNA methylation data for (<bold>a</bold>) MCAR cases of 5%, 10%, and 30%; (<bold>b</bold>) 5% of genes entirely missing; and (<bold>c</bold>) half of the coverage &lt;6 CpG sites missing. The numbers above bars show the Wilcoxon test significant scores between VAE and other methods.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="giaa082fig3.jpg"><?image-name giaa082fig3.jpg?><?image-size 85686?><?image-md5 ec51cffc178dd8e986ba7996e95f45d8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 879?><?image-original-width 1351?><?image-scaled-height 439?><?image-scaled-width 675?><?image-cloudpmc-urn urn:cdn:blobs/9002/7407276/ec51cffc178d/giaa082fig3.jpg?><?thumb-name giaa082fig3.gif?><?thumb-size 13386?><?thumb-md5 a1919b06b17ce45c877b277f21c483e3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 122?><?thumb-cloudpmc-urn urn:cdn:blobs/9002/7407276/a1919b06b17c/giaa082fig3.gif?></graphic></fig></sec><sec id="sec3-4"><title>Correlation with clinical phenotypes</title><p>We investigate how closely the imputed data resembles the true data in terms of univariate correlation with respect to clinical variables. A higher concordance index between the correlation coefficients obtained from the imputed data and the coefficients obtained from the ground truth likely indicates the imputation method is better at preserving the original data's univariate properties.</p><p>The ground truth of univariate Spearman correlations to histologic grade ranges from -1 to 1, with 46% of the genes having an absolute correlation value of 0.3 or greater. The majority of ground truth Cox regression coefficients with respect to survival outcomes is in the range of -5 and 5, with 72% of the genes having an absolute coefficient value of 0.3 or greater.</p><p>Table <xref rid="tbl2" ref-type="table">2</xref> contains the concordance indices from 3 imputation methods, as well as a random imputation baseline. Random imputation is performed by filling the missing values by random sampling the training data distribution. It shows that VAE and SVD are similar, and VAE and SVD achieve better concordance indices than KNN for both grade and survival outcome correlations. This suggests that VAE and SVD imputed data likely have better resemblances to true data in the context of a biomedical analysis for molecular biologists interested in specific genes in the presence of missing values. Fig. <xref ref-type="fig" rid="fig4">4</xref> illustrates a pairwise difference between the coefficients obtained from the ground truth and the coefficients obtained from the imputed data by KNN and VAE, respectively, and shows sharper peaks around 0 for VAE in all cases for histology and in most cases for survival. The pairwise differences are mostly distributed around 0, and a smaller variance around the 0 indicates that the pairwise differences are smaller overall. In each missing scenario VAE has a smaller variance than KNN across 10 trials (all <italic toggle="yes">P</italic> values &lt; 0.005 in 2-sample <italic toggle="yes">t</italic>-tests).</p><fig id="fig4" orientation="portrait" position="float"><label>Figure 4:</label><caption><p>Pairwise difference between the coefficients obtained from the ground truth and the coefficients obtained from the imputed data by KNN and VAE: (<bold>a</bold>) Spearman correlation coefficients with histologic grade; and (<bold>b</bold>) regression coefficients with survival outcome.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="giaa082fig4.jpg"><?image-name giaa082fig4.jpg?><?image-size 135279?><?image-md5 0a58e98925ffc9a1dd45abe8315ed405?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1482?><?image-original-width 1229?><?image-scaled-height 740?><?image-scaled-width 614?><?image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0a58e98925ff/giaa082fig4.jpg?><?thumb-name giaa082fig4.gif?><?thumb-size 19790?><?thumb-md5 fac615c9db23538f868c5c41c34b90db?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 121?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/9002/7407276/fac615c9db23/giaa082fig4.gif?></graphic></fig><table-wrap id="tbl2" orientation="portrait" position="float"><label>Table 2:</label><caption><p>Correlation with clinical phenotypes</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">KNN</th><th rowspan="1" colspan="1">VAE</th><th rowspan="1" colspan="1">SVD</th><th rowspan="1" colspan="1">Random</th></tr><tr><th colspan="5" rowspan="1">Spearman correlation coefficient with tumor histologic grade</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">10% random missing</td><td rowspan="1" colspan="1">0.980 <inline-formula><tex-math id="M84"><?equation-image-name M84.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M84.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td><td rowspan="1" colspan="1">0.982 <inline-formula><tex-math id="M85"><?equation-image-name M85.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M85.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td><td rowspan="1" colspan="1">0.982 <inline-formula><tex-math id="M86"><?equation-image-name M86.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M86.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td><td rowspan="1" colspan="1">0.950 <inline-formula><tex-math id="M87"><?equation-image-name M87.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M87.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td></tr><tr><td rowspan="1" colspan="1">Highest GC content missing</td><td rowspan="1" colspan="1">0.949 <inline-formula><tex-math id="M88"><?equation-image-name M88.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M88.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M89"><?equation-image-name M89.gif?><?equation-image-status READY?><?equation-image-md5 61886627556408ba911c5b63c6f058a8?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/618866275564/M89.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.002$\end{document}</tex-math></inline-formula></td><td rowspan="1" colspan="1">0.958 <inline-formula><tex-math id="M90"><?equation-image-name M90.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M90.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td><td rowspan="1" colspan="1">0.958 <inline-formula><tex-math id="M91"><?equation-image-name M91.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M91.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td><td rowspan="1" colspan="1">0.816 <inline-formula><tex-math id="M92"><?equation-image-name M92.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M92.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.006</td></tr><tr><td rowspan="1" colspan="1">Entire genes missing</td><td rowspan="1" colspan="1">0.918 <inline-formula><tex-math id="M93"><?equation-image-name M93.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M93.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.005</td><td rowspan="1" colspan="1">0.932 <inline-formula><tex-math id="M94"><?equation-image-name M94.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M94.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.004</td><td rowspan="1" colspan="1">0.939 <inline-formula><tex-math id="M95"><?equation-image-name M95.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M95.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.005</td><td rowspan="1" colspan="1">0.500 <inline-formula><tex-math id="M96"><?equation-image-name M96.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M96.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M97"><?equation-image-name M97.gif?><?equation-image-status READY?><?equation-image-md5 177bb1e3b036b1f95eb311d6309979e4?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/177bb1e3b036/M97.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.004$\end{document}</tex-math></inline-formula></td></tr><tr><td rowspan="1" colspan="1">Lowest value missing</td><td rowspan="1" colspan="1">0.977 <inline-formula><tex-math id="M98"><?equation-image-name M98.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M98.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M99"><?equation-image-name M99.gif?><?equation-image-status READY?><?equation-image-md5 65675f0afe9b27250ecb345bed5012db?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/65675f0afe9b/M99.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.001$\end{document}</tex-math></inline-formula></td><td rowspan="1" colspan="1">0.983 <inline-formula><tex-math id="M100"><?equation-image-name M100.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M100.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M101"><?equation-image-name M101.gif?><?equation-image-status READY?><?equation-image-md5 65675f0afe9b27250ecb345bed5012db?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/65675f0afe9b/M101.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.001$\end{document}</tex-math></inline-formula></td><td rowspan="1" colspan="1">0.986 <inline-formula><tex-math id="M102"><?equation-image-name M102.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M102.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.000</td><td rowspan="1" colspan="1">0.906 <inline-formula><tex-math id="M103"><?equation-image-name M103.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M103.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M104"><?equation-image-name M104.gif?><?equation-image-status READY?><?equation-image-md5 742480748557faabce140c915f54bd1f?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/742480748557/M104.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.007$\end{document}</tex-math></inline-formula></td></tr><tr><td colspan="5" rowspan="1">Cox regression coefficient with survival outcome</td></tr><tr><td rowspan="1" colspan="1">10% random missing</td><td rowspan="1" colspan="1">0.969 <inline-formula><tex-math id="M105"><?equation-image-name M105.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M105.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.002</td><td rowspan="1" colspan="1">0.974 <inline-formula><tex-math id="M106"><?equation-image-name M106.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M106.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.001</td><td rowspan="1" colspan="1">0.972 <inline-formula><tex-math id="M107"><?equation-image-name M107.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M107.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.002</td><td rowspan="1" colspan="1">0.873 <inline-formula><tex-math id="M108"><?equation-image-name M108.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M108.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.050</td></tr><tr><td rowspan="1" colspan="1">Highest GC content missing</td><td rowspan="1" colspan="1">0.917 <inline-formula><tex-math id="M109"><?equation-image-name M109.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M109.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M110"><?equation-image-name M110.gif?><?equation-image-status READY?><?equation-image-md5 a7a98d8784b9d7c4f3a42f4b64e1954b?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/a7a98d8784b9/M110.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.006$\end{document}</tex-math></inline-formula></td><td rowspan="1" colspan="1">0.931 <inline-formula><tex-math id="M111"><?equation-image-name M111.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M111.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.004</td><td rowspan="1" colspan="1">0.933 <inline-formula><tex-math id="M112"><?equation-image-name M112.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M112.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.006</td><td rowspan="1" colspan="1">0.717 <inline-formula><tex-math id="M113"><?equation-image-name M113.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M113.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.016</td></tr><tr><td rowspan="1" colspan="1">Entire genes missing</td><td rowspan="1" colspan="1">0.851 <inline-formula><tex-math id="M114"><?equation-image-name M114.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M114.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.004</td><td rowspan="1" colspan="1">0.881 <inline-formula><tex-math id="M115"><?equation-image-name M115.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M115.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.005</td><td rowspan="1" colspan="1">0.906 <inline-formula><tex-math id="M116"><?equation-image-name M116.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M116.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.006</td><td rowspan="1" colspan="1">0.508 <inline-formula><tex-math id="M117"><?equation-image-name M117.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M117.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M118"><?equation-image-name M118.gif?><?equation-image-status READY?><?equation-image-md5 cb95c33f6086191c416adecae9fc2edb?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/cb95c33f6086/M118.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.010$\end{document}</tex-math></inline-formula></td></tr><tr><td rowspan="1" colspan="1">Lowest value missing</td><td rowspan="1" colspan="1">0.963 <inline-formula><tex-math id="M119"><?equation-image-name M119.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M119.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M120"><?equation-image-name M120.gif?><?equation-image-status READY?><?equation-image-md5 61886627556408ba911c5b63c6f058a8?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/618866275564/M120.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.002$\end{document}</tex-math></inline-formula></td><td rowspan="1" colspan="1">0.971 <inline-formula><tex-math id="M121"><?equation-image-name M121.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M121.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M122"><?equation-image-name M122.gif?><?equation-image-status READY?><?equation-image-md5 61886627556408ba911c5b63c6f058a8?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/618866275564/M122.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.002$\end{document}</tex-math></inline-formula></td><td rowspan="1" colspan="1">0.976 <inline-formula><tex-math id="M123"><?equation-image-name M123.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M123.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> 0.002</td><td rowspan="1" colspan="1">0.842 <inline-formula><tex-math id="M124"><?equation-image-name M124.gif?><?equation-image-status READY?><?equation-image-md5 0d32b5caaf7cc10ff8e5cb1059022b45?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/0d32b5caaf7c/M124.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\pm $\end{document}</tex-math></inline-formula> <inline-formula><tex-math id="M125"><?equation-image-name M125.gif?><?equation-image-status READY?><?equation-image-md5 79201347eed48adb392d7258a5368b71?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/79201347eed4/M125.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.013$\end{document}</tex-math></inline-formula></td></tr></tbody></table></table-wrap></sec><sec id="sec3-5"><title>Imputation time for new samples</title><p>The computation time for SVD or KNN to impute a single sample scales linearly with the dimension of the entire data matrix; in comparison, a VAE model can be pre-trained and applied directly to any given new sample to impute missing values. Once a VAE model is trained, the time to impute a new sample is almost negligible. VAE thus has the benefit of reducing the computational cost, especially at evaluation time.</p><p>Benchmark experiments are done on a 20 core cluster with Intel Xeon 2.40 GHz CPUs, where the 3 methods are used to impute 100 samples in a gene expression matrix that consists of 6,600 samples and 17,176 genes. It takes an average of 2,800 seconds to train the VAE network. In terms of evaluation time, the KNN method takes 8,400 seconds on average, while SVD takes 36,900 seconds and VAE takes only 60 seconds, showing that VAE is several orders of magnitude faster at evaluation time.</p></sec><sec id="sec3-6"><title>
+<italic toggle="yes">β</italic>-VAE and deterministic auto-encoder</title><p>We perform 3 random missing experiments with <inline-formula><tex-math id="M126"><?equation-image-name M126.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M126.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE and vary the hyperparameter <inline-formula><tex-math id="M127"><?equation-image-name M127.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M127.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> between 0, 1, 4, and 10. Figure <xref ref-type="fig" rid="fig5">5</xref> shows that imputation results are similar for <inline-formula><tex-math id="M128"><?equation-image-name M128.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M128.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula>= 0 and <inline-formula><tex-math id="M129"><?equation-image-name M129.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M129.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula>= 1, while increasing <inline-formula><tex-math id="M130"><?equation-image-name M130.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M130.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> to larger values worsens the prediction accuracies.</p><fig id="fig5" orientation="portrait" position="float"><label>Figure 5:</label><caption><p>Imputation RMSE of <inline-formula><tex-math id="M131"><?equation-image-name M131.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M131.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE with 5%, 10%, and 30% random missing values of gene expression, with <inline-formula><tex-math id="M132"><?equation-image-name M132.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M132.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> = 0, 1, 4, and 10, denoting the increasing strength of regularization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="giaa082fig5.jpg"><?image-name giaa082fig5.jpg?><?image-size 49293?><?image-md5 4227d97aec3116716b75d40c7d042a02?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 712?><?image-original-width 1099?><?image-scaled-height 474?><?image-scaled-width 732?><?image-cloudpmc-urn urn:cdn:blobs/9002/7407276/4227d97aec31/giaa082fig5.jpg?><?thumb-name giaa082fig5.gif?><?thumb-size 11392?><?thumb-md5 e84c9c263540bfe9208b5605c92930be?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 123?><?thumb-cloudpmc-urn urn:cdn:blobs/9002/7407276/e84c9c263540/giaa082fig5.gif?></graphic></fig><p>The fact that <inline-formula><tex-math id="M133"><?equation-image-name M133.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M133.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> &gt; 1 produces worse imputation errors leads us to the hypothesis that the total loss of VAE, shown on the right side of (<xref ref-type="disp-formula" rid="equ3">3</xref>) and consisting of the reconstruction loss and regularization loss, may be considered a tradeoff between reconstruction quality and latent space coding efficiency. If a greater emphasis is put on latent space regularization, the reconstruction quality suffers. We conclude that stronger regularization does not help VAE's imputation performance.</p><p>Furthermore, when <inline-formula><tex-math id="M134"><?equation-image-name M134.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M134.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\rm{\beta \ }}$\end{document}</tex-math></inline-formula>= 0, the imputation performance is similar to vanilla VAE (<inline-formula><tex-math id="M135"><?equation-image-name M135.gif?><?equation-image-status READY?><?equation-image-md5 232b9e08cd653f99ac50cfdd389773e4?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/232b9e08cd65/M135.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\rm{\beta \ }} = {\rm{\ }}1)$\end{document}</tex-math></inline-formula>. Therefore, for imputation, removing latent space regularization will not affect performance. From previous discussion in the <inline-formula><tex-math id="M136"><?equation-image-name M136.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M136.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE method section, the loss of <inline-formula><tex-math id="M137"><?equation-image-name M137.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M137.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE with <inline-formula><tex-math id="M138"><?equation-image-name M138.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M138.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula>= 0 looks similar to that of a simple AE, but the key difference is that noise is injected to the latent space for <inline-formula><tex-math id="M139"><?equation-image-name M139.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M139.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE (<inline-formula><tex-math id="M140"><?equation-image-name M140.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M140.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula>= 0). We find that with a simple AE, the imputation iterations cannot converge and the resulting RMSE is very large (not shown because of non-convergence). This suggests that the noise injection to the latent space enables the imputation ability of the VAE.</p></sec></sec><sec sec-type="discussion" id="sec4"><title>Discussion</title><p>We have described a deep-learning imputation framework for transcriptome and methylome data using a VAE. We implement a shift-correction method to improve VAE imputation performance on a commonly encountered MNAR scenario. We demonstrate that the proposed framework is competitive with SVD, which is a time-inefficient method for real-world scenarios. We also show that VAE outperforms KNN in multiple scenarios, such as when using bulk transcriptome and methylome data. VAE thus can be an important tool to analyze the large amounts of publicly available data from thousands of studies, including RNA sequencing and microarray data that are publicly available in the Gene Expression omnibus [<xref rid="bib38" ref-type="bibr">37</xref>].</p><p>We provide insights on the effect of latent space regularization on imputation performance. We show that increasing latent space regularization in the VAE implementation leads to larger errors, and thus should be avoided in the imputation tasks. In addition, the regularization of latent space can be removed without affecting VAE's performance in imputation.</p><p>We also found that noise addition to the latent space largely helps VAE's good imputation performance, compared to a regular deterministic AE. The method of noise injection during training is reminiscent of DAEs. However, the noise additions for VAE and DAE are different. First, the noise in VAE depends on the input, whereas the DAE noise is independent of the input. Second, although noise additions to intermediate layers have been proposed in stacked DAEs for the purpose of representation learning [<xref rid="bib30" ref-type="bibr">29</xref>], in most data imputation applications noise has only been added to the input layer of DAE [<xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib57" ref-type="bibr">56</xref>]. In contrast, noise is added to the latent space layer in VAE. It is not in the scope of this paper to evaluate how different noise addition schemes impact imputation and to compare their performances. However, this may be worth exploring in future work.</p><p>Finally, in the context of imputing large data sets with high dimensional features, VAE has the potential benefit of reducing the computational cost at evaluation time, compared to SVD and KNN. This is because an AE model can be pre-trained and applied directly to new samples, while SVD and KNN require computing the entire matrix each time a new sample is given.</p></sec><sec id="h1content1595360267309"><title>Conclusion</title><p>In future work, it may be interesting to investigate VAE's application on single-cell RNA sequencing data, which has different missing scenarios than bulk RNA sequencing data. In addition, it may also be of interest to fully understand the effect of <inline-formula><tex-math id="M141"><?equation-image-name M141.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M141.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> in <inline-formula><tex-math id="M142"><?equation-image-name M142.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M142.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>-VAE when <inline-formula><tex-math id="M143"><?equation-image-name M143.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M143.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula> is in the range from 0 to 1. Based on the hypothesis that there is a trade-off between reconstruction quality and desired latent space property regulated by <inline-formula><tex-math id="M144"><?equation-image-name M144.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M144.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta $\end{document}</tex-math></inline-formula>, it can be expected that removing the regularization term (<inline-formula><tex-math id="M145"><?equation-image-name M145.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M145.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula>= 0) may even improve the vanilla VAE's (<inline-formula><tex-math id="M146"><?equation-image-name M146.gif?><?equation-image-status READY?><?equation-image-md5 f5e0e8aa5fabbad67de69a5e03cc4170?><?equation-image-cloudpmc-urn urn:cdn:blobs/9002/7407276/f5e0e8aa5fab/M146.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\beta \ $\end{document}</tex-math></inline-formula>= 1) imputation performance. It is worth noting that such phenomenon did not occur, which invites further study.</p></sec><sec id="sec6"><title>Availability of source code and requirements</title><p>Project name: Genomic data imputation with variational auto-encoders</p><p>Project home page: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/gevaertlab/BetaVAEImputation">https://github.com/gevaertlab/BetaVAEImputation</ext-link>.</p><p>Operating system(s): Platform independent</p><p>Programming language: Python</p><p>Other requirements: Python 3.6.6 or higher, Pytorch 0.4.1</p><p>License: BSD 3-Clause License</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:SCR_018730">RRID:SCR_018730</ext-link>
+</p><p>BiotoolsID: betavaeimputation</p></sec><sec sec-type="materials" id="h1content1595360796440"><title>Availability of supporting data and materials</title><p>All data used in this manuscript are publicly available.</p><p>Gene expression data is version 2 of the adjusted pan-cancer gene expression data obtained from Synapse (synapse ID syn4976369) [<xref rid="bib58" ref-type="bibr">57</xref>]. Clinical data of TCGA LGG/GBM can be found in <xref ref-type="supplementary-material" rid="sup13">Supplementary Table S1</xref> in Ceccarelli et al. [<xref rid="bib56" ref-type="bibr">55</xref>]. DNA methylation data is the WGBS data for BLUEPRINT methylomes (2016 release) obtained from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://rnbeads.org/">rnbeads.org</ext-link> [<xref rid="bib59" ref-type="bibr">58</xref>].</p><p>An archival copy of the code and supporting data is available via the <italic toggle="yes">GigaScience</italic> repository, GigaDB [<xref rid="bib60" ref-type="bibr">59</xref>].</p></sec><sec id="h1content1595360884874"><title>Abbreviations</title><p>AE: auto-encoder; C: cytosine; CPU: central processing unit; DAE: denoising auto-encoder; G: guanine; GBM: glioblastoma; KNN: K-nearest neighbor; LGG: low-grade glioma; MCAR: missing completely at random; MNAR: missing not at random; RMSE: root mean squared error; SVD: singular value decomposition; TCGA: The Cancer Genome Atlas; VAE: variational auto-encoder.</p></sec><sec id="sec8"><title>Competing interests</title><p>The authors declare that they have no competing interests.</p></sec><sec id="sec9"><title>Funding</title><p>Research reported in this publication was supported by the Fund for Innovation in Cancer Informatics (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.the-ici-fund.org">www.the-ici-fund.org</ext-link>); the National Institute of Biomedical Imaging and Bioengineering of the National Institutes of Health (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.nibib.nih.gov/">https://www.nibib.nih.gov/</ext-link>) grant numbers R01 EB020527 and R56 EB020527; and the National Cancer Institute (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cancer.gov/">https://www.cancer.gov/</ext-link>) grant numbers U01 CA217851 and U01 CA199241, all to O.G. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The funders had no role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sup1" position="float" orientation="portrait"><label>giaa082_GIGA-D-20-00059_Original_Submission</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_giga-d-20-00059_original_submission.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_giga-d-20-00059_original_submission.pdf?><?suppdata-size 1161229?><?suppdata-md5 83ef73bde4b3d8fe21ece16c717597b0?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/83ef73bde4b3/giaa082_giga-d-20-00059_original_submission.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup2" position="float" orientation="portrait"><label>giaa082_GIGA-D-20-00059_Revision_1</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_giga-d-20-00059_revision_1.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_giga-d-20-00059_revision_1.pdf?><?suppdata-size 1665888?><?suppdata-md5 a6189872e5ab2781324a2a2c39ac639e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/a6189872e5ab/giaa082_giga-d-20-00059_revision_1.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup3" position="float" orientation="portrait"><label>giaa082_GIGA-D-20-00059_Revision_2</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_giga-d-20-00059_revision_2.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_giga-d-20-00059_revision_2.pdf?><?suppdata-size 2009507?><?suppdata-md5 54c873cf8370571e7f3690ec5de2e398?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/54c873cf8370/giaa082_giga-d-20-00059_revision_2.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup4" position="float" orientation="portrait"><label>giaa082_GIGA-D-20-00059_Revision_3</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_giga-d-20-00059_revision_3.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_giga-d-20-00059_revision_3.pdf?><?suppdata-size 1995742?><?suppdata-md5 91799a44623b7d3d9e6a54293104b9f7?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/91799a44623b/giaa082_giga-d-20-00059_revision_3.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup5" position="float" orientation="portrait"><label>giaa082_Response_to_Reviewer_Comments_Original_Submission</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_response_to_reviewer_comments_original_submission.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_response_to_reviewer_comments_original_submission.pdf?><?suppdata-size 92334?><?suppdata-md5 e0c145b5b07be4b86932549ea8a2ab27?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/e0c145b5b07b/giaa082_response_to_reviewer_comments_original_submission.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup6" position="float" orientation="portrait"><label>giaa082_Response_to_Reviewer_Comments_Revision_1</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_response_to_reviewer_comments_revision_1.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_response_to_reviewer_comments_revision_1.pdf?><?suppdata-size 60243?><?suppdata-md5 3ca15e6c7521fdbd6293b951d760ac06?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/3ca15e6c7521/giaa082_response_to_reviewer_comments_revision_1.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup7" position="float" orientation="portrait"><label>giaa082_Response_to_Reviewer_Comments_Revision_2</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_response_to_reviewer_comments_revision_2.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_response_to_reviewer_comments_revision_2.pdf?><?suppdata-size 36264?><?suppdata-md5 64dab3ab73a53e471c7371059103bcc8?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/64dab3ab73a5/giaa082_response_to_reviewer_comments_revision_2.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup8" position="float" orientation="portrait"><label>giaa082_Reviewer_1_Report_Original_Submission</label><caption><p>Gregory Way -- 4/9/2020 Reviewed</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_reviewer_1_report_original_submission.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_reviewer_1_report_original_submission.pdf?><?suppdata-size 216797?><?suppdata-md5 c0b4edf12e0a26ed03712a6c190036ea?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/c0b4edf12e0a/giaa082_reviewer_1_report_original_submission.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup9" position="float" orientation="portrait"><label>giaa082_Reviewer_1_Report_Revision_1</label><caption><p>Gregory Way -- 5/31/2020 Reviewed</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_reviewer_1_report_revision_1.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_reviewer_1_report_revision_1.pdf?><?suppdata-size 205802?><?suppdata-md5 1b646f2c81741d972478b55e515cc339?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/1b646f2c8174/giaa082_reviewer_1_report_revision_1.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup10" position="float" orientation="portrait"><label>giaa082_Reviewer_2_Report_Original_Submission</label><caption><p>Natalie Davidson -- 4/21/2020 Reviewed</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_reviewer_2_report_original_submission.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_reviewer_2_report_original_submission.pdf?><?suppdata-size 210831?><?suppdata-md5 b67bd19504679a6b6732614e5930a6cd?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/b67bd1950467/giaa082_reviewer_2_report_original_submission.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup11" position="float" orientation="portrait"><label>giaa082_Reviewer_2_Report_Revision_1</label><caption><p>Natalie Davidson -- 5/27/2020 Reviewed</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_reviewer_2_report_revision_1.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_reviewer_2_report_revision_1.pdf?><?suppdata-size 204906?><?suppdata-md5 b523f2990255f3529259419adfbb663b?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/b523f2990255/giaa082_reviewer_2_report_revision_1.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup12" position="float" orientation="portrait"><label>giaa082_Reviewer_2_Report_Revision_2</label><caption><p>Natalie Davidson -- 6/16/2020 Reviewed</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_reviewer_2_report_revision_2.pdf" position="float" orientation="portrait"><?suppdata-name giaa082_reviewer_2_report_revision_2.pdf?><?suppdata-size 202564?><?suppdata-md5 e64df8a2351e3ac41bd193b9cdee0902?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9002/7407276/e64df8a2351e/giaa082_reviewer_2_report_revision_2.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sup13" position="float" orientation="portrait"><label>giaa082_Supplemental_Figure_and_Table</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="giaa082_supplemental_figure_and_table.zip" position="float" orientation="portrait"><?suppdata-name giaa082_supplemental_figure_and_table.zip?><?suppdata-size 24375?><?suppdata-md5 1697ac6fbdd48ae8544dc3eb8c4a469a?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type zip?><?suppdata-cloudpmc-urn urn:app:9002/7407276/1697ac6fbdd4/giaa082_supplemental_figure_and_table.zip?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><sec id="h1content1595360677921" sec-type="supplementary-material"><title>Supplementary Data</title><p>
+<bold>Figure S1</bold>. Model performances for 6 architectures: 3 hidden layers with latent sizes of 50, 200, and 400, and 5 hidden layers with latent sizes of 50, 200, and 400. Experiments are conducted on a simulated 10% random missing case.</p><p>
+<bold>Table S1</bold>. RMSEs from each method for each individual gene from 1 experimental trial in the second MNAR scenario for RNA sequencing data.</p></sec><ref-list id="ref1"><title>References</title><ref id="bib1"><label>1.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Kulis</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Esteller</surname><given-names>M</given-names></name></person-group>
+<article-title>DNA methylation and cancer</article-title>. <source>Adv Genet</source>. <year>2010</year>;<volume>70</volume>:<fpage>27</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">20920744</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/B978-0-12-380866-0.60002-2</pub-id></mixed-citation></ref><ref id="bib2"><label>2.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Tomczak</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Czerwinska</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Wiznerowicz</surname><given-names>M</given-names></name></person-group>
+<article-title>The Cancer Genome Atlas (TCGA): an immeasurable source of knowledge</article-title>. <source>Contemp Oncol (Pozn)</source>. <year>2015</year>;<volume>19</volume>(<issue>1A</issue>):<fpage>A68</fpage>–<lpage>77</lpage>.<pub-id pub-id-type="pmid">25691825</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.5114/wo.2014.47136</pub-id><pub-id pub-id-type="pmcid">PMC4322527</pub-id></mixed-citation></ref><ref id="bib3"><label>3.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Byron</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Van Keuren-Jensen</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Engelthaler</surname><given-names>DM</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Translating RNA sequencing into clinical diagnostics: opportunities and challenges</article-title>. <source>Nat Rev Genet</source>. <year>2016</year>;<volume>17</volume>(<issue>5</issue>):<fpage>257</fpage>–<lpage>71</lpage>.<pub-id pub-id-type="pmid">26996076</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg.2016.10</pub-id><pub-id pub-id-type="pmcid">PMC7097555</pub-id></mixed-citation></ref><ref id="bib4"><label>4.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Litovkin</surname><given-names>K</given-names></name>, <name name-style="western"><surname>VanEynde</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Joniau</surname><given-names>S</given-names></name><etal>et al.</etal></person-group>
+<article-title>DNA methylation-guided prediction of clinical failure in high-risk prostate cancer</article-title>. <source>PLOS One</source>. <year>2015</year>;<volume>10</volume>(<issue>6</issue>):<fpage>e0130651</fpage>.<pub-id pub-id-type="pmid">26086362</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0130651</pub-id><pub-id pub-id-type="pmcid">PMC4472347</pub-id></mixed-citation></ref><ref id="bib5"><label>5.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Gevaert</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Tibshirani</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Plevritis</surname><given-names>SK</given-names></name></person-group>
+<article-title>Pancancer analysis of DNA methylation-driven genes using MethylMix</article-title>. <source>Genome Biol</source>. <year>2015</year>;<volume>16</volume>:<fpage>1</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">25631659</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-014-0579-8</pub-id><pub-id pub-id-type="pmcid">PMC4365533</pub-id></mixed-citation></ref><ref id="bib6"><label>6.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Zheng</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Brennan</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Hernaez</surname><given-names>M</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Benchmark of long non-coding RNA quantification for RNA sequencing of cancer samples</article-title>. <source>GigaScience</source>. <year>2019</year>;<volume>8</volume>(<issue>12</issue>),<pub-id pub-id-type="doi">10.1093/gigascience/giz145</pub-id>.<pub-id pub-id-type="pmcid">PMC6897288</pub-id><pub-id pub-id-type="pmid">31808800</pub-id></mixed-citation></ref><ref id="bib7"><label>7.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Champion</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Brennan</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Croonenborghs</surname><given-names>T</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Module analysis captures pancancer genetically and epigenetically deregulated cancer driver genes for smoking and antiviral response</article-title>. <source>EBioMedicine</source>. <year>2018</year>;<volume>27</volume>:<fpage>156</fpage>–<lpage>66</lpage>.<pub-id pub-id-type="pmid">29331675</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2017.11.028</pub-id><pub-id pub-id-type="pmcid">PMC5828545</pub-id></mixed-citation></ref><ref id="bib8"><label>8.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Libbrecht</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>Noble</surname><given-names>WS</given-names></name></person-group>
+<article-title>Machine learning applications in genetics and genomics</article-title>. <source>Nat Rev Genet</source>. <year>2015</year>;<volume>16</volume>(<issue>6</issue>):<fpage>321</fpage>–<lpage>32</lpage>.<pub-id pub-id-type="pmid">25948244</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg3920</pub-id><pub-id pub-id-type="pmcid">PMC5204302</pub-id></mixed-citation></ref><ref id="bib9"><label>9.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Baghfalaki</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Ganjali</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Berridge</surname><given-names>D</given-names></name></person-group>
+<article-title>Missing value imputation for RNA-sequencing data using statistical models: a comparative study</article-title>. <source>JSTA</source>. <year>2016</year>;<volume>15</volume>:<fpage>221</fpage>–<lpage>36</lpage>.</mixed-citation></ref><ref id="bib10"><label>10.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Moorthy</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Jaber</surname><given-names>AN</given-names></name>, <name name-style="western"><surname>Ismail</surname><given-names>MA</given-names></name><etal>et al.</etal></person-group>
+<article-title>Missing-values imputation algorithms for microarray gene expression data</article-title>. In <source>Microarray Bioinformatics</source>, <year>2019</year>, pp. <fpage>255</fpage>–<lpage>66</lpage>.. <publisher-name>Springer</publisher-name>: <publisher-loc>Humana, New York</publisher-loc>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-4939-9442-7_12</pub-id><pub-id pub-id-type="pmid">31115893</pub-id></mixed-citation></ref><ref id="bib11"><label>11.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Troyanskaya</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Cantor</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sherlock</surname><given-names>G</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Missing value estimation methods for DNA microarrays</article-title>. <source>Bioinformatics</source>. <year>2001</year>;<volume>17</volume>(<issue>6</issue>):<fpage>520</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">11395428</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/17.6.520</pub-id></mixed-citation></ref><ref id="bib12"><label>12.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Faisal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tutz</surname><given-names>G</given-names></name></person-group>
+<article-title>Missing value imputation for gene expression data by tailored nearest neighbors</article-title>. <source>Stat Appl Genet Mol Biol</source>. <year>2017</year>;<volume>16</volume>(<issue>2</issue>):<fpage>95</fpage>–<lpage>106</lpage>.<pub-id pub-id-type="pmid">28593876</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1515/sagmb-2015-0098</pub-id></mixed-citation></ref><ref id="bib13"><label>13.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Smaragdis</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Raj</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Shashanka</surname><given-names>M</given-names></name></person-group>
+<article-title>Missing data imputation for time-frequency representations of audio signals</article-title>. <source>J Sign Process Syst</source>. <year>2011</year>;<volume>65</volume>(<issue>3</issue>):<fpage>361</fpage>–<lpage>70</lpage>.</mixed-citation></ref><ref id="bib14"><label>14.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Yu</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>W</given-names></name></person-group>
+<article-title>Incorporating nonlinear relationships in microarray missing value imputation</article-title>. <source>IEEE/ACM Trans Comput Biol Bioinf</source>. <year>2010</year>;<volume>8</volume>(<issue>3</issue>):<fpage>723</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1109/TCBB.2010.73</pub-id><pub-id pub-id-type="pmcid">PMC3624752</pub-id><pub-id pub-id-type="pmid">20733236</pub-id></mixed-citation></ref><ref id="bib15"><label>15.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Min</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Yoon</surname><given-names>S</given-names></name></person-group>
+<article-title>Deep learning in bioinformatics</article-title>. <source>Brief Bioinform</source>. <year>2017</year>;<volume>18</volume>(<issue>5</issue>):<fpage>851</fpage>–<lpage>69</lpage>.<pub-id pub-id-type="pmid">27473064</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bib/bbw068</pub-id></mixed-citation></ref><ref id="bib16"><label>16.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Narayan</surname><given-names>R</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Gene expression inference with deep learning</article-title>. <source>Bioinformatics</source>. <year>2016</year>;<volume>32</volume>(<issue>12</issue>):<fpage>1832</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">26873929</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btw074</pub-id><pub-id pub-id-type="pmcid">PMC4908320</pub-id></mixed-citation></ref><ref id="bib17"><label>17.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Leung</surname><given-names>MK</given-names></name>, <name name-style="western"><surname>Xiong</surname><given-names>HY</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>LJ</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Deep learning of the tissue-regulated splicing code</article-title>. <source>Bioinformatics</source>. <year>2014</year>;<volume>30</volume>(<issue>12</issue>):<fpage>i121</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">24931975</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btu277</pub-id><pub-id pub-id-type="pmcid">PMC4058935</pub-id></mixed-citation></ref><ref id="bib18"><label>18.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Arisdakessian</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Poirion</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Yunits</surname><given-names>B</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>DeepImpute: an accurate, fast, and scalable deep neural network method to impute single-cell RNA-seq data</article-title>. <source>Genome Biol</source>. <year>2019</year>;<volume>20</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>14</lpage>.<pub-id pub-id-type="pmid">31627739</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-019-1837-6</pub-id><pub-id pub-id-type="pmcid">PMC6798445</pub-id></mixed-citation></ref><ref id="bib19"><label>19.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chen</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Mahjoubfar</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Tai</surname><given-names>L-C</given-names></name><etal>et al.</etal></person-group>
+<article-title>Deep learning in label-free cell classification</article-title>. <source>Sci Rep</source>. <year>2016</year>;<volume>6</volume>:<fpage>21471</fpage>.<pub-id pub-id-type="pmid">26975219</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep21471</pub-id><pub-id pub-id-type="pmcid">PMC4791545</pub-id></mixed-citation></ref><ref id="bib20"><label>20.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Wulsin</surname><given-names>DF</given-names></name>, <name name-style="western"><surname>Gupta</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Mani</surname><given-names>R</given-names></name><etal>et al.</etal></person-group>
+<article-title>Modeling electroencephalography waveforms with semi-supervised deep belief nets: fast classification and anomaly measurement</article-title>. <source>J Neural Eng</source>. <year>2011</year>;<volume>8</volume>(<issue>3</issue>):<fpage>036015</fpage>.<pub-id pub-id-type="pmid">21525569</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1088/1741-2560/8/3/036015</pub-id><pub-id pub-id-type="pmcid">PMC3193936</pub-id></mixed-citation></ref><ref id="bib21"><label>21.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Jaques</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Sano</surname><given-names>A</given-names></name>, <etal>et al.</etal></person-group>, <article-title>Multimodal autoencoder: A deep learning approach to filling in missing sensor data and enabling better mood prediction</article-title>. In: <source>Seventh International Conference on Affective Computing and Intelligent Interaction (ACII)</source>, <year>2017</year> p. <fpage>202</fpage>–<lpage>8</lpage>., <publisher-name>IEEE</publisher-name>.</mixed-citation></ref><ref id="bib22"><label>22.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Vincent</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Larochelle</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Bengio</surname><given-names>Y</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Extracting and composing robust features with denoising autoencoders</article-title>, <comment>In: Programs and Abstracts of the 25th International Conference on Machine Learning, Helsinki, Finland</comment>, <year>2008</year> p. <fpage>1096</fpage>–<lpage>103</lpage>., <publisher-name>ACM</publisher-name>, <publisher-loc>Helsinki</publisher-loc>.</mixed-citation></ref><ref id="bib23"><label>23.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Beaulieu-Jones</surname><given-names>BK</given-names></name>, <name name-style="western"><surname>Moore</surname><given-names>JH</given-names></name></person-group>
+<article-title>Missing data imputation in the electronic health record using deeply learned autoencoders</article-title>. <source>Pac Symp Biocomput</source>. <year>2017</year>;<volume>22</volume>:<fpage>207</fpage>–<lpage>18</lpage>.<pub-id pub-id-type="pmid">27896976</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1142/9789813207813_0021</pub-id><pub-id pub-id-type="pmcid">PMC5144587</pub-id></mixed-citation></ref><ref id="bib24"><label>24.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>McCoy</surname><given-names>JT</given-names></name>, <name name-style="western"><surname>Kroon</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Auret</surname><given-names>L</given-names></name></person-group>
+<article-title>Variational autoencoders for missing data imputation with application to a simulated milling circuit</article-title>. <source>IFAC-PapersOnLine</source>. <year>2018</year>;<volume>51</volume>(<issue>21</issue>):<fpage>141</fpage>–<lpage>6</lpage>.</mixed-citation></ref><ref id="bib25"><label>25.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Mattei</surname><given-names>P-A</given-names></name>, <name name-style="western"><surname>Frellsen</surname><given-names>J</given-names></name></person-group>
+<article-title>MIWAE: Deep generative modelling and imputation of incomplete data sets</article-title>. In: Programs and Abstracts of the <source>International Conference on Machine Learning</source>, <year>2019</year> p. <fpage>4413</fpage>–<lpage>23</lpage>., <publisher-loc>Long Beach, CA, USA</publisher-loc>.</mixed-citation></ref><ref id="bib26"><label>26.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Eraslan</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Simon</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Mircea</surname><given-names>M</given-names></name><etal>et al.</etal></person-group>
+<article-title>Single-cell RNA-seq denoising using a deep count autoencoder</article-title>. <source>Nat Commun</source>. <year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>14</lpage>.<pub-id pub-id-type="pmid">30674886</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-07931-2</pub-id><pub-id pub-id-type="pmcid">PMC6344535</pub-id></mixed-citation></ref><ref id="bib27"><label>27.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Costa</surname><given-names>AF</given-names></name>, <name name-style="western"><surname>Santos</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Soares</surname><given-names>JP</given-names></name><etal>et al.</etal></person-group>
+<article-title>Missing data imputation via denoising autoencoders: the untold story</article-title>. In: Program and abstracts of the <source>International Symposium on Intelligent Data Analysis</source>, <year>2018</year> p. <fpage>87</fpage>–<lpage>98</lpage>., <publisher-name>Springer, Cham</publisher-name>.</mixed-citation></ref><ref id="bib28"><label>28.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Garciarena</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Santana</surname><given-names>R</given-names></name></person-group>
+<article-title>An extensive analysis of the interaction between missing data types, imputation methods, and supervised classifiers</article-title>. <source>Expert Syst Appl</source>. <year>2017</year>;<volume>89</volume>:<fpage>52</fpage>–<lpage>65</lpage>.</mixed-citation></ref><ref id="bib30"><label>29.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Vincent</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Larochelle</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Lajoie</surname><given-names>I</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Stacked denoising autoencoders: learning useful representations in a deep network with a local denoising criterion</article-title>. <source>J Mach Learn Res</source>. <year>2010</year>;<volume>11</volume>:<fpage>3371</fpage>–<lpage>408</lpage>.</mixed-citation></ref><ref id="bib31"><label>30.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Yeh</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Lim</surname><given-names>TY</given-names></name><etal>et al.</etal></person-group>
+<article-title>Semantic image inpainting with deep generative models</article-title>. In: <source>Programs and Abstracts of the IEEE Conference on Computer Vision and Pattern Recognition</source>, <year>2017</year>, <fpage>5485</fpage>–<lpage>93</lpage>.</mixed-citation></ref><ref id="bib32"><label>31.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Hu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>X</given-names></name><etal>et al.</etal></person-group>
+<article-title>Toward controlled generation of text</article-title>, <year>2017</year>, <comment>arXiv preprint (arXiv:1703.00955)</comment>.</mixed-citation></ref><ref id="bib33"><label>32.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Kingma</surname><given-names>DP</given-names></name>, <name name-style="western"><surname>Welling</surname><given-names>M</given-names></name></person-group>
+<article-title>Auto-encoding variational bayes</article-title>, <year>2013</year>, <comment>arXiv preprint (arXiv:1312.6114)</comment>.</mixed-citation></ref><ref id="bib34"><label>33.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ghosh</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Sajjadi</surname><given-names>MSM</given-names></name>, <name name-style="western"><surname>Vergari</surname><given-names>A</given-names></name><etal>et al.</etal></person-group>
+<article-title>From variational to deterministic autoencoders</article-title>, <year>2019</year>, <comment>arXiv preprint (arXiv:1903.12436)</comment>.</mixed-citation></ref><ref id="bib35"><label>34.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Way</surname><given-names>GP</given-names></name>, <name name-style="western"><surname>Greene</surname><given-names>C.</given-names></name></person-group>
+<article-title>Extracting a biologically relevant latent space from cancer transcriptomes with variational autoencoders</article-title>, <source>Pac Symp Biocomput</source>. <year>2018</year>;<volume>23</volume>:<fpage>80</fpage>–<lpage>91</lpage>.<pub-id pub-id-type="pmid">29218871</pub-id><pub-id pub-id-type="pmcid">PMC5728678</pub-id></mixed-citation></ref><ref id="bib36"><label>35.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Grønbech</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Vording</surname><given-names>MF</given-names></name>, <name name-style="western"><surname>Timshel</surname><given-names>P</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>scVAE: Variational auto-encoders for single-cell gene expression data</article-title>, <source>Bioinformatics</source>. <year>2018</year>, <comment><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi-org.stanford.idm.oclc.org/10.1093/bioinformatics/btaa293">https://doi-org.stanford.idm.oclc.org/10.1093/bioinformatics/btaa293</ext-link></comment>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btaa293</pub-id><pub-id pub-id-type="pmid">32415966</pub-id></mixed-citation></ref><ref id="bib37"><label>36.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Lopez</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Regier</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Cole</surname><given-names>MB</given-names></name><etal>et al.</etal></person-group>
+<article-title>Deep generative modeling for single-cell transcriptomics</article-title>. <source>Nat Methods</source>. <year>2018</year>;<volume>15</volume>(<issue>12</issue>):<fpage>1053</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">30504886</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41592-018-0229-2</pub-id><pub-id pub-id-type="pmcid">PMC6289068</pub-id></mixed-citation></ref><ref id="bib38"><label>37.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Barrett</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Wilhite</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Ledoux</surname><given-names>P</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>NCBI GEO: archive for function KKKGBKBK Tal genomics data sets—update</article-title>. <source>Nucleic Acids Res</source>. <year>2012</year>;<volume>41</volume>(<issue>D1</issue>):<fpage>D991</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">23193258</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gks1193</pub-id><pub-id pub-id-type="pmcid">PMC3531084</pub-id></mixed-citation></ref><ref id="bib39"><label>38.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Wheeler</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Barrett</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Benson</surname><given-names>DA</given-names></name><etal>et al.</etal></person-group>
+<article-title>Database resources of the national center for biotechnology information</article-title>. <source>Nucleic Acids Res</source>. <year>2006</year>;<volume>35</volume>(<issue>Suppl 1</issue>):<fpage>D5</fpage>–<lpage>D12</lpage>.<pub-id pub-id-type="pmid">17170002</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkl1031</pub-id><pub-id pub-id-type="pmcid">PMC1781113</pub-id></mixed-citation></ref><ref id="bib40"><label>39.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Aghdam</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Baghfalaki</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Khosravi</surname><given-names>P</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>The ability of different imputation methods to preserve the significant genes and pathways in cancer</article-title>. <source>Genom Proteom Bioinf</source>. <year>2017</year>;<volume>15</volume>(<issue>6</issue>):<fpage>396</fpage>–<lpage>404</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.gpb.2017.08.003</pub-id><pub-id pub-id-type="pmcid">PMC5828654</pub-id><pub-id pub-id-type="pmid">29247873</pub-id></mixed-citation></ref><ref id="bib41"><label>40.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Higgins</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Matthey</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Pal</surname><given-names>A</given-names></name><etal>et al.</etal></person-group>
+<article-title>beta-VAE: Learning basic visual concepts with a constrained variational framework</article-title>. <source>ICLR</source>. <year>2017</year>;<volume>2</volume>(<issue>5</issue>):<fpage>6</fpage>.</mixed-citation></ref><ref id="bib42"><label>41.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Malta</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Sokolov</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gentles</surname><given-names>AJ</given-names></name>,<etal>et al.</etal></person-group>,<article-title>Machine learning identifies stemness features associated with oncogenic dedifferentiation</article-title>. <source>Cell</source>. <year>2018</year>;<volume>173</volume>(<issue>2</issue>):<fpage>338</fpage>–<lpage>54</lpage>..<comment>e15</comment>.<pub-id pub-id-type="pmid">29625051</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2018.03.034</pub-id><pub-id pub-id-type="pmcid">PMC5902191</pub-id></mixed-citation></ref><ref id="bib43"><label>42.</label><mixed-citation publication-type="journal">
+<comment>Synapse.org. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.synapse.org/#!Synapse:syn4976369.2">https://www.synapse.org/#!Synapse:syn4976369.2</ext-link>. Accessed 1 Sept</comment>ember <year>2019</year>.</mixed-citation></ref><ref id="bib44"><label>43.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Stunnenberg</surname><given-names>HG</given-names></name>, <name name-style="western"><surname>Hirst</surname><given-names>M</given-names></name>, <collab>International Human Epigenome Consortium</collab></person-group>
+<article-title>The International Human Epigenome Consortium: a blueprint for scientific collaboration and discovery</article-title>. <source>Cell</source>. <year>2016</year>;<volume>167</volume>(<issue>5</issue>):<fpage>1145</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">27863232</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2016.11.007</pub-id></mixed-citation></ref><ref id="bib45"><label>44.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Gevaert</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Tibshirani</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Plevritis</surname><given-names>SK</given-names></name></person-group>
+<article-title>Pancancer analysis of DNA methylation-driven genes using MethylMix</article-title>. <source>Genome Biol</source>. <year>2015</year>;<volume>16</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">25631659</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-014-0579-8</pub-id><pub-id pub-id-type="pmcid">PMC4365533</pub-id></mixed-citation></ref><ref id="bib46"><label>45.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Campbell</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Yau</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Bowlby</surname><given-names>R</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Genomic, pathway network, and immunologic features distinguishing squamous carcinomas</article-title>. <source>Cell Rep</source>. <year>2018</year>;<volume>23</volume>(<issue>1</issue>):<fpage>194</fpage>–<lpage>212</lpage>..<comment>e6</comment>.<pub-id pub-id-type="pmid">29617660</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2018.03.063</pub-id><pub-id pub-id-type="pmcid">PMC6002769</pub-id></mixed-citation></ref><ref id="bib47"><label>46.</label><mixed-citation publication-type="journal">
+<comment>Rnbeads.org. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.rnbeads.org/methylomes.html">https://www.rnbeads.org/methylomes.html</ext-link>. Accessed 15 Sept</comment>ember <year>2019</year>.</mixed-citation></ref><ref id="bib48"><label>47.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Little</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Rubin</surname><given-names>DB</given-names></name></person-group>
+<source>Statistical analysis with missing data. Vol. 793</source>, <year>2019</year>, <publisher-name>John Wiley &amp; Sons</publisher-name>: <publisher-loc>Hoboken, New Jersey</publisher-loc>.</mixed-citation></ref><ref id="bib49"><label>48.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chen</surname><given-names>YC</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>CH</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Effects of GC bias in next-generation-sequencing data on de novo genome assembly</article-title>. <source>PLOS One</source>. <year>2013</year>;<volume>8</volume>(<issue>4</issue>):<fpage>e62856</fpage>.<pub-id pub-id-type="pmid">23638157</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0062856</pub-id><pub-id pub-id-type="pmcid">PMC3639258</pub-id></mixed-citation></ref><ref id="bib50"><label>49.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Conesa</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Madrigal</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Tarazona</surname><given-names>S</given-names></name><etal>et al.</etal></person-group>
+<article-title>A survey of best practices for RNA-seq data analysis</article-title>. <source>Genome Biol</source>. <year>2016</year>;<volume>17</volume>:<fpage>13</fpage>.<pub-id pub-id-type="pmid">26813401</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-016-0881-8</pub-id><pub-id pub-id-type="pmcid">PMC4728800</pub-id></mixed-citation></ref><ref id="bib51"><label>50.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Ballard</surname><given-names>DH</given-names></name></person-group>
+<article-title>Modular learning in neural networks</article-title>. In: <source>Programs and Abstracts of the Sixth National Conference on Artificial Intelligence, Volume 1</source>, <year>1987</year> p. <fpage>279</fpage>–<lpage>84</lpage>.. <publisher-name>Seattle, Washington: AAAI Press</publisher-name>.</mixed-citation></ref><ref id="bib52"><label>51.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name name-style="western"><surname>Sakurada</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Yairi</surname><given-names>T</given-names></name></person-group>
+<article-title>Anomaly detection using autoencoders with nonlinear dimensionality reduction</article-title>. In: <source>Programs and Abstracts of the MLSDA 2014 2nd Workshop on Machine Learning for Sensory Data Analysis</source>, <year>2014</year>, p. <fpage>4</fpage>–<lpage>11</lpage>., <publisher-loc>Gold Coast, Australia:</publisher-loc><publisher-name>ACM</publisher-name>.</mixed-citation></ref><ref id="bib53"><label>52.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Burgess</surname><given-names>CP</given-names></name>, <name name-style="western"><surname>Higgins</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Pal</surname><given-names>A</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Understanding disentangling in <italic toggle="yes">β</italic>-VAE</article-title>, <year>2018</year>
+<comment>arXiv preprint (arXiv:1804.03599)</comment>.</mixed-citation></ref><ref id="bib54"><label>53.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Kramer</surname><given-names>MA</given-names></name></person-group>
+<article-title>Nonlinear principal component analysis using autoassociative neural networks</article-title>. <source>AIChE J</source>. <year>1991</year>;<volume>37</volume>(<issue>2</issue>):<fpage>233</fpage>–<lpage>43</lpage>.</mixed-citation></ref><ref id="bib55"><label>54.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Hastie</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Tibshirani</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Sherlock</surname><given-names>G</given-names></name><etal>et al.</etal></person-group>
+<article-title>Imputing missing data for gene expression arrays</article-title>. <year>1999</year>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.web.stanford.edu/~hastie/Papers/missing.pdf">http://www.web.stanford.edu/~hastie/Papers/missing.pdf</ext-link>.</mixed-citation></ref><ref id="bib56"><label>55.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ceccarelli</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Barthel</surname><given-names>FP</given-names></name>, <name name-style="western"><surname>Malta</surname><given-names>TM</given-names></name>, <etal>et al.</etal></person-group>
+<article-title>Molecular profiling reveals biologically discrete subsets and pathways of progression in diffuse glioma</article-title>. <source>Cell</source>. <year>2016</year>;<volume>164</volume>(<issue>3</issue>):<fpage>550</fpage>–<lpage>63</lpage>.<pub-id pub-id-type="pmid">26824661</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.12.028</pub-id><pub-id pub-id-type="pmcid">PMC4754110</pub-id></mixed-citation></ref><ref id="bib57"><label>56.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Gondara</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>K</given-names></name></person-group>
+<article-title>Multiple imputation using deep denoising autoencoders</article-title>, <year>2017</year>
+<comment>arXiv preprint (arXiv:1705.02737)</comment>.</mixed-citation></ref><ref id="bib58"><label>57.</label><mixed-citation publication-type="journal">
+<comment><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://synapse.org/">Synapse.org</ext-link>. TCGA PancanAtlas Data, ID syn4976369.2. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.synapse.org/#!Synapse:syn4976369.2">https://www.synapse.org/#!Synapse:syn4976369.2</ext-link>. Accessed 1 July 2020</comment>.</mixed-citation></ref><ref id="bib59"><label>58.</label><mixed-citation publication-type="journal">
+<comment>RnBeads. R package for comprehensive analysis of DNA methylation data. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.rnbeads.org/methylomes.html">https://www.rnbeads.org/methylomes.html</ext-link>. Accessed 1 July 2020</comment>.</mixed-citation></ref><ref id="bib60"><label>59.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Qiu</surname><given-names>YQ</given-names></name>, <name name-style="western"><surname>Zheng</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Gevaert</surname><given-names>O</given-names></name></person-group>
+<article-title>Supporting data for “Genomic data imputation with variational autoencoders.”</article-title>. <source>GigaScience Database</source>. <year>2020</year>
+<pub-id pub-id-type="doi">10.5524/100769</pub-id>.<pub-id pub-id-type="pmcid">PMC7407276</pub-id><pub-id pub-id-type="pmid">32761097</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,54 @@
+{
+ "source_file": "retraction_watch.csv (user upload, 2026-09-28)",
+ "source_sha256": "384bc3a28eabf15211f7bb33faff43a5aa20c1f003f7ca03806404c9b08b5836",
+ "rows": 72684,
+ "funnel": [
+  [
+   "전체 레코드",
+   72684
+  ],
+  [
+   "오류 사유 포함",
+   4461
+  ],
+  [
+   "부정행위·표절·페이퍼밀·심사조작 사유 동반 제외",
+   3686
+  ],
+  [
+   "철회·정정만(우려표명·복원 제외)",
+   3617
+  ],
+  [
+   "원 논문 DOI 있음",
+   3382
+  ],
+  [
+   "기존 900편과 중복(제외)",
+   0
+  ],
+  [
+   "원 논문 DOI 중복 제거 후",
+   3342
+  ]
+ ],
+ "error_reasons": [
+  "Error in Analyses",
+  "Error in Data",
+  "Error in Results and/or Conclusions",
+  "Results Not Reproducible"
+ ],
+ "exclude_pattern": "Paper Mill|Peer Review|Computer-Aided|Rogue Editor|Plagiarism|Duplication|Falsification|Fabrication|Manipulation|Misconduct|Hoax|Forged|Salami|Taken from|Taken via|Citation|Referencing",
+ "priority_rules": {
+  "P1": "HSC/SOC/BLS + PMID + orig_year>=2012 + (Error in Analyses or Correction)",
+  "P2": "HSC/SOC/BLS + PMID + orig_year>=2012",
+  "P3": "rest"
+ },
+ "not_checked": [
+  "original paper OA/license",
+  "fulltext availability",
+  "whether corrected numbers are stated in notice",
+  "Retraction Watch data license"
+ ],
+ "created_at": "2026-09-28T10:29:55+00:00"
+}

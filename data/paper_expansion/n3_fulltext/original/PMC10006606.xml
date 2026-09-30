@@ -1,0 +1,848 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="phy215627" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Physiol Rep</journal-id><journal-id journal-id-type="iso-abbrev">Physiol Rep</journal-id><journal-id journal-id-type="pmc-domain-id">2252</journal-id><journal-id journal-id-type="pmc-domain">physrep</journal-id><journal-id journal-id-type="nlm-id">101607800</journal-id><journal-id journal-id-type="publisher-id">PHY2</journal-id><journal-title-group><journal-title>Physiological Reports</journal-title></journal-title-group><issn pub-type="epub">2051-817X</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10006606</article-id><article-id pub-id-type="pmcid-ver">PMC10006606.1</article-id><article-id pub-id-type="pmcaid">10006606</article-id><article-id pub-id-type="pmcaiid">10006606</article-id><article-id pub-id-type="pmid">36905154</article-id><article-id pub-id-type="doi">10.14814/phy2.15627</article-id><article-id pub-id-type="publisher-id">PHY215627</article-id><article-id pub-id-type="other">PHY2-2022-11-0486.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Microvascular resistance reserve in the presence of functionally significant epicardial stenosis and changes after revascularization</article-title><alt-title alt-title-type="left-running-head">Hanyu et al.</alt-title></title-group><contrib-group><contrib id="phy215627-cr-0001" contrib-type="author"><name name-style="western"><surname>Hanyu</surname><given-names initials="Y">Yoshihiro</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7525-2673</contrib-id><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0002" contrib-type="author"><name name-style="western"><surname>Hoshino</surname><given-names initials="M">Masahiro</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0003" contrib-type="author"><name name-style="western"><surname>Usui</surname><given-names initials="E">Eisuke</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0004" contrib-type="author"><name name-style="western"><surname>Sugiyama</surname><given-names initials="T">Tomoyo</given-names></name><xref rid="phy215627-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="phy215627-cr-0005" contrib-type="author"><name name-style="western"><surname>Kanaji</surname><given-names initials="Y">Yoshihisa</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0006" contrib-type="author"><name name-style="western"><surname>Hada</surname><given-names initials="M">Masahiro</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0007" contrib-type="author"><name name-style="western"><surname>Nagamine</surname><given-names initials="T">Tatsuhiro</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0008" contrib-type="author"><name name-style="western"><surname>Nogami</surname><given-names initials="K">Kai</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0009" contrib-type="author"><name name-style="western"><surname>Ueno</surname><given-names initials="H">Hiroki</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0010" contrib-type="author"><name name-style="western"><surname>Sayama</surname><given-names initials="K">Kodai</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0011" contrib-type="author"><name name-style="western"><surname>Matsuda</surname><given-names initials="K">Kazuki</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0012" contrib-type="author"><name name-style="western"><surname>Sakamoto</surname><given-names initials="T">Tatsuya</given-names></name><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="phy215627-cr-0013" contrib-type="author"><name name-style="western"><surname>Yonetsu</surname><given-names initials="T">Taishi</given-names></name><xref rid="phy215627-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="phy215627-cr-0014" contrib-type="author"><name name-style="western"><surname>Sasano</surname><given-names initials="T">Tetsuo</given-names></name><xref rid="phy215627-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="phy215627-cr-0015" contrib-type="author" corresp="yes"><name name-style="western"><surname>Kakuta</surname><given-names initials="T">Tsunekazu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4004-5292</contrib-id><xref rid="phy215627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib></contrib-group><aff id="phy215627-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Division of Cardiovascular Medicine</named-content>
+<institution>Tsuchiura Kyodo General Hospital</institution>
+<city>Ibaraki</city>
+<country country="JP">Japan</country>
+</aff><aff id="phy215627-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Interventional Cardiology</named-content>
+<institution>Tokyo Medical and Dental University</institution>
+<city>Tokyo</city>
+<country country="JP">Japan</country>
+</aff><aff id="phy215627-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Cardiovascular Medicine</named-content>
+<institution>Tokyo Medical and Dental University</institution>
+<city>Tokyo</city>
+<country country="JP">Japan</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Tsunekazu Kakuta, Department of Cardiology, Tsuchiura Kyodo General Hospital, 4‐1‐1 Otsuno, Tsuchiura City, Ibaraki 300‐0028, Japan.<break/>
+Email: 
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>3</month><year>2023</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2023</year></pub-date><volume>11</volume><issue seq="130">5</issue><issue-id pub-id-type="pmc-issue-id">430303</issue-id><issue-id pub-id-type="doi">10.1002/phy2.v11.5</issue-id><elocation-id>e15627</elocation-id><history><date date-type="rev-recd"><day>07</day><month>2</month><year>2023</year></date><date date-type="received"><day>28</day><month>11</month><year>2022</year></date><date date-type="accepted"><day>09</day><month>2</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>10</day><month>03</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>12</day><month>03</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-10-02 17:25:25.297"><day>02</day><month>10</month><year>2023</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2023 The Authors. <italic toggle="yes">Physiological Reports</italic> published by Wiley Periodicals LLC on behalf of The Physiological Society and the American Physiological Society.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="PHY2-11-e15627.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:PHY2-11-e15627.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" xml:lang="en" xlink:title="retraction" vol="11" journal-id="Physiol Rep" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10523255"><article-title>Retraction statement: Hanyu, Y., Hoshino, M., Usui, E., Sugiyama, T., Kanaji, Y., Hada, M., Nagamine, T., Nogami, K., Ueno, H., Sayama, K., Matsuda, K., Sakamoto, T., Yonetsu, T., Sasano, T., &amp; Kakuta, T. (2023). Microvascular resistance reserve in the presence of functionally significant epicardial stenosis and changes after revascularization. Physiological Reports, 11, e15627</article-title><volume>11</volume><issue seq="120">18</issue><date><day>27</day><month>9</month><year>2023</year></date><elocation-id>e15830</elocation-id><source>Physiological Reports</source><pub-id pub-id-type="doi">10.14814/phy2.15830</pub-id><pub-id pub-id-type="pmcid">PMC10523255</pub-id><pub-id pub-id-type="pmid">37753715</pub-id></related-article><abstract><title>Abstract</title><p>In the presence of functionally significant epicardial lesions, microvascular resistance reserve (MRR) calculation needs incorporation of collateral flow. Coronary fractional flow reserve (FFR<sub>
+<italic toggle="no">cor</italic>
+</sub>) requiring coronary wedge pressure (P<sub>
+<italic toggle="no">w</italic>
+</sub>), which is an essential part of the true MRR calculation, is reportedly estimated by myocardial FFR (FFR<sub>
+<italic toggle="no">myo</italic>
+</sub>) not requiring P<sub>
+<italic toggle="no">w</italic>
+</sub> measurement. We sought to find an equation to calculate MRR without the need for P<sub>
+<italic toggle="no">w</italic>
+</sub>. Furthermore, we assessed changes in MRR after percutaneous coronary intervention (PCI). An equation to estimate FFR<sub>
+<italic toggle="no">cor</italic>
+</sub> was developed from a cohort of 230 patients who underwent physiological measurements and PCI. Corrected MRR was calculated using this equation and compared with true MRR in 115 patients of the different set of the validation cohort. True MRR was calculated using FFR<sub>
+<italic toggle="no">cor</italic>
+</sub>. FFR<sub>
+<italic toggle="no">cor</italic>
+</sub> and FFR<sub>
+<italic toggle="no">myo</italic>
+</sub> showed a strong linear relationship (<italic toggle="no">r</italic>
+<sup>2</sup> = 0.86) and an equation was FFR<sub>
+<italic toggle="no">cor</italic>
+</sub> = 1.36 × FFR<sub>
+<italic toggle="no">myo</italic>
+</sub> – 0.34. This equation provided no significant difference between corrected MRR and true MRR in the validation cohort. Pre‐PCI lower coronary flow reserve and higher index of microcirculatory resistance were independent predictors of pre‐PCI decreased true MRR. True MRR significantly decreased after PCI. In conclusion, MRR can be accurately corrected using an equation for FFR<sub>
+<italic toggle="no">cor</italic>
+</sub> estimation without P<sub>
+<italic toggle="no">w</italic>
+</sub>.</p></abstract><abstract abstract-type="graphical"><p>Corrected MRR was calculated using measured MRR (MRRapp) and estimated FFRcor by the equation: corrected MRR = MRRapp × (FFRmyo/FFRcor) = MRRapp × FFRmyo/(1.36 × FFRmyo−0.34). There is no significant difference between true MRR and corrected MRR in the validation cohort.<boxed-text position="anchor" content-type="graphic" id="phy215627-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="PHY2-11-e15627-g007.jpg"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="phy215627-kwd-0001">chronic coronary syndrome</kwd><kwd id="phy215627-kwd-0002">coronary flow reserve</kwd><kwd id="phy215627-kwd-0003">fractional flow reserve</kwd><kwd id="phy215627-kwd-0004">microvascular resistance reserve</kwd><kwd id="phy215627-kwd-0005">percutaneous coronary intervention</kwd></kwd-group><counts><fig-count count="7"/><table-count count="2"/><page-count count="11"/><word-count count="5318"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2023</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.6 mode:remove_FC converted:11.03.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="PHY215627-cit-2001">
+<string-name name-style="western">
+<surname>Hanyu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoshino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Usui</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sugiyama</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kanaji</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hada</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagamine</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nogami</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ueno</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sayama</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matsuda</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sakamoto</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yonetsu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sasano</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kakuta</surname>, <given-names>T.</given-names>
+</string-name> (<year>2023</year>). <article-title>Microvascular resistance reserve in the presence of functionally significant epicardial stenosis and changes after revascularization</article-title>. <source>Physiological Reports</source>, <volume>11</volume>, <elocation-id>e15627</elocation-id>. <pub-id pub-id-type="doi">10.14814/phy2.15627</pub-id>
+<pub-id pub-id-type="pmcid">PMC10006606</pub-id><pub-id pub-id-type="pmid">36905154</pub-id><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC10523255"/></mixed-citation>
+</p><fn-group id="phy215627-ntgp-0001"><fn fn-type="equal" id="phy215627-note-0001"><p>Yoshihiro Hanyu and Masahiro Hoshino contributed equally to this work and shared the first authorship.</p></fn></fn-group></notes></front><body id="phy215627-body-0001"><sec id="phy215627-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Microvascular dysfunction has been increasingly acknowledged as a relevant cause of myocardial ischemia. (Camici et al., <xref rid="phy215627-bib-0003" ref-type="bibr">2015</xref>; Camici &amp; Crea, <xref rid="phy215627-bib-0002" ref-type="bibr">2007</xref>; Crea et al., <xref rid="phy215627-bib-0004" ref-type="bibr">2014</xref>) Nonetheless, limited practical tools are available to quantify coronary microvascular function, particularly in the presence of significant epicardial coronary artery stenosis. (Fearon et al., <xref rid="phy215627-bib-0007" ref-type="bibr">2003</xref>; Kelshiker et al., <xref rid="phy215627-bib-0009" ref-type="bibr">2022</xref>; Layland et al., <xref rid="phy215627-bib-0010" ref-type="bibr">2013</xref>; Travieso et al., <xref rid="phy215627-bib-0021" ref-type="bibr">2022</xref>). Recently, microvascular resistance reserve (MRR), as an index specific for the assessment of microcirculation, has been proposed. (de Bruyne et al., <xref rid="phy215627-bib-0006" ref-type="bibr">2021</xref>) MRR has been reported to be independent of autoregulation and myocardial mass and an operator‐independent measure of the absolute value of microvascular resistance reserve. (de Bruyne et al., <xref rid="phy215627-bib-0006" ref-type="bibr">2021</xref>) The theoretical framework of MRR and its derivation by physiological measures have been presented. The authors indicated that MRR should be corrected in the presence of significant epicardial stenosis as described for the index of microcirculatory resistance (IMR) correction by Aarnoudse et al. and Yong et al. (Aarnoudse et al., <xref rid="phy215627-bib-0001" ref-type="bibr">2004</xref>; Fearon et al., <xref rid="phy215627-bib-0008" ref-type="bibr">2013</xref>) Epicardial stenosis and microvascular dysfunction may coexist. (Taqueti &amp; Di Carli, <xref rid="phy215627-bib-0018" ref-type="bibr">2018</xref>) Identification or discrimination of these factors relevant to myocardial ischemia is challenging but might contribute to tailored management and therapeutic strategy for patients with chronic coronary syndrome. Thus, we sought to derive the equation of linear regression from estimating coronary fractional flow reserve (FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>) in the derivation cohort and to validate the derived method for corrected MRR values using calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> and apparent value of MRR (MRR<sub>
+<italic toggle="yes">app</italic>
+</sub>) in the different set of the validation cohort. We then compared these corrected MRR values with those corrected using Yong's equation, (Yong et al., <xref rid="phy215627-bib-0022" ref-type="bibr">2013</xref>) if Yong's equation is valid for the correction of MRR. We also assessed the changes in MRR after percutaneous coronary intervention (PCI) in the combined study population of derivation and validation. We further evaluated pre‐PCI cut‐off values of true MRR corresponding to coronary flow reserve (CFR), IMR, and resistive reserve ratio (RRR) threshold values. Predictive factors for pre‐PCI low true MRR values were also evaluated.</p></sec><sec sec-type="methods" id="phy215627-sec-0002"><label>2</label><title>METHODS</title><sec id="phy215627-sec-0003"><label>2.1</label><title>Study design and patient population</title><p>The derivation cohort was chosen from our institutional PCI database (Figure <xref rid="phy215627-fig-0001" ref-type="fig">1</xref>). The age and sex‐matched validation cohort was also identified from this database in the same fashion described below. The present analysis was performed in a post hoc manner. Two hundred and thirty patients of the derivation cohort were randomly chosen from the all‐comers institutional elective PCI registry database enrolling our regular clinical population according to the following inclusion criteria: age &gt;20 years old with chronic coronary syndrome and the detection of an identifiable, single de novo culprit lesion located in the proximal portion of a native coronary artery and symptomatic ischemia or objective ischemia according to non‐invasive stress testing and/or fractional flow reserve (FFR) measurements. Exclusion criteria included angiographically significant left main disease, renal insufficiency with baseline serum creatinine level &gt;1.5 mg/dL, cardiomyopathy, and congestive heart failure. All patients underwent FFR‐guided PCI and pre‐ and post‐PCI physiological assessments with accessible data quality. After PCI, we further excluded patients with periprocedural myocardial infarction as defined by the Fourth Universal Definition of Myocardial Infarction, (Thygesen et al., <xref rid="phy215627-bib-0020" ref-type="bibr">2018</xref>) based on a blood sample taken an average of 20–24 h, symptoms, and other objective findings after PCI completion, because such events have been reported to affect post‐PCI physiological measurements. (Silvain et al., <xref rid="phy215627-bib-0017" ref-type="bibr">2021</xref>) Patients with minor cardiac troponin elevation, without other manifestations required by definition mentioned above, were included in the final analysis. The age and sex‐matched validation cohort of 115 patients was similarly identified from the institutional registry. A representative case undergoing FFR‐guided PCI with pre‐ and post‐PCI angiograms and physiological data are shown in Figure <xref rid="phy215627-fig-0002" ref-type="fig">2</xref>. This study was conducted in compliance with the institutional ethics committee guidelines and received its approval (TKGH #2022FY83). The present study also complied with the Declaration of Helsinki for the investigation of human beings, and all patients provided written informed consent before the institutional registry enrollment for future investigations. Prompt optimal medical therapy was initiated in all patients before PCI.</p><fig position="float" fig-type="FIGURE" id="phy215627-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Study flow chart. Abbreviations: CABG, coronary artery bypass grafting; CCS, chronic coronary syndrome; PCI, percutaneous coronary intervention.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="PHY2-11-e15627-g001.jpg"/></fig><fig position="float" fig-type="FIGURE" id="phy215627-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Representative case with CCS who underwent FFR‐guided PCI with pre‐ and post‐PCI physiological evaluations. A 70‐year‐old man with CCS underwent FFR‐guided second‐generation drug‐eluting stent implantation in the right coronary artery with pre‐ and post‐intervention physiological evaluations. Abbreviations: CFR, coronary flow reserve; FFR, fractional flow reserve; FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>, coronary fractional flow reserve; FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub>, myocardial fractional flow reserve; IMR, index of microcirculatory resistance; MRR, microvascular resistance reserve; PCI, percutaneous coronary intervention; RRR, resistive reserve ratio. Other abbreviations are shown in Figure <xref rid="phy215627-fig-0001" ref-type="fig">1</xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="PHY2-11-e15627-g006.jpg"/></fig></sec><sec id="phy215627-sec-0004"><label>2.2</label><title>Pre‐ and <styled-content style="fixed-case" toggle="no">post‐PCI</styled-content> physiological measurements and analysis</title><p>Coronary angiography and PCI procedure were performed by standard techniques. Coronary angiograms were analyzed quantitatively using a CMS‐MEDIS system (Medis Medical Imaging Systems). The PCI techniques and imaging devices, such as intravascular ultrasound or optical coherence tomography, and stent type (drug‐eluting stent) were at the interventionalists' discretion. Pre‐ and post‐PCI FFR, CFR, and IMR measurements were performed, as previously described. (de Bruyne et al., <xref rid="phy215627-bib-0005" ref-type="bibr">2001</xref>; Fearon et al., <xref rid="phy215627-bib-0007" ref-type="bibr">2003</xref>; Matsuda et al., <xref rid="phy215627-bib-0013" ref-type="bibr">2016</xref>; Pijls et al., <xref rid="phy215627-bib-0015" ref-type="bibr">1996</xref>) Briefly, coronary physiological measurements were obtained by a 6F guiding catheter via radial approach using a pressure–temperature sensor guidewire and analyzing systems (PressureWire X Guidewire, Abbott Laboratories, Il, USA, RadiAnalyzer, St, Jude Medical, St Paul, Minnesota, UAS and CoroFlow, Coroventis Research AB, Uppsala, Sweden). After the administration of a bolus of intracoronary nitrate (200 μg), the wire sensor was advanced and positioned as far distally in the target vessel as practical. Hyperemia was induced by infusion of adenosine or adenosine triphosphate into an antecubital vein at a rate of 140 μg/kg/min or 160 μg/kg/min, respectively. FFR was calculated as the ratio of distal coronary pressure to proximal pressure at stable hyperemia. CFR was obtained using the thermodilution method as the ratio of resting transit time divided by hyperemic transit time (T<sub>
+<italic toggle="yes">mn</italic>
+</sub>). IMR was calculated as the distal coronary pressure at maximal hyperemia divided by the inverse of the hyperemic T<sub>
+<italic toggle="yes">mn</italic>
+</sub>. RRR was calculated by CFR adjusted using the ratio between resting and hyperemic distal coronary pressure. (Lee et al., <xref rid="phy215627-bib-0012" ref-type="bibr">2020</xref>) The P<sub>
+<italic toggle="yes">a</italic>
+</sub>, P<sub>
+<italic toggle="yes">d</italic>
+</sub>, and P<sub>
+<italic toggle="yes">w</italic>
+</sub> were recorded during balloon dilatation during PCI. Post‐PCI physiological measurements were also performed in a similar manner after post‐stenting high‐pressure dilatation using a noncompliant balloon and/or additional stenting guided by physiological and intravascular imaging at the operators' discretion and when the operator considered as final as the PCI procedure.</p></sec><sec id="phy215627-sec-0005"><label>2.3</label><title>Formula derivation and <styled-content style="fixed-case" toggle="no">MRR</styled-content> correction</title><p>As reported in the study by Yong et al., the regression formula between FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> and FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> of best fit by a straight line was obtained in the derivation cohort. This formula was tested in the validation cohort. MRR is defined as the ratio of true resting to hyperemic microvascular resistance (R<sub>
+<italic toggle="yes">μ</italic>
+</sub>), as recently described. (de Bruyne et al., <xref rid="phy215627-bib-0006" ref-type="bibr">2021</xref>) The theoretical framework of calculating resting R<sub>
+<italic toggle="yes">μ</italic>
+</sub>, hyperemic R<sub>
+<italic toggle="yes">μ</italic>
+</sub>, MRR, and the relationship between FFR, CFR, and MRR was shown by de Bruyne et al. (<xref rid="phy215627-bib-0006" ref-type="bibr">2021</xref>) Briefly, MRR is defined by the following equation:<disp-formula id="phy215627-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mi>MRR</mml:mi><mml:mo>=</mml:mo><mml:mtext>resting</mml:mtext><mml:mspace width="0.25em"/><mml:msub><mml:mi mathvariant="normal">R</mml:mi><mml:mi>μ</mml:mi></mml:msub><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:mtext>hyperemic</mml:mtext><mml:mspace width="0.25em"/><mml:msub><mml:mi mathvariant="normal">R</mml:mi><mml:mi>μ</mml:mi></mml:msub><mml:mo> </mml:mo><mml:mo>=</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">rest</mml:mtext></mml:mrow></mml:msub><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">Q</mml:mi><mml:mtext mathvariant="italic">rest</mml:mtext></mml:msub><mml:mo> </mml:mo><mml:mo>÷</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>d</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">hyper</mml:mtext></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">Q</mml:mi><mml:mi mathvariant="italic">max</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mspace width="2pc"/><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="normal">Q</mml:mi><mml:mi mathvariant="italic">max</mml:mi></mml:msub><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">Q</mml:mi><mml:mtext mathvariant="italic">rest</mml:mtext></mml:msub></mml:mrow></mml:mfenced><mml:mo> </mml:mo><mml:mo>×</mml:mo><mml:mo> </mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">rest</mml:mtext></mml:mrow></mml:msub><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>d</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">hyper</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> and P<sub>
+<italic toggle="yes">d</italic>, <italic toggle="yes">hyper</italic>
+</sub> are resting aortic and hyperemic distal coronary pressure, respectively, and Q<sub>
+<italic toggle="yes">rest</italic>
+</sub> and Q<sub>
+<italic toggle="yes">max</italic>
+</sub> are the resting and hyperemic absolute coronary blood flow. This equation can also be described using CFR and FFR by the following equation:<disp-formula id="phy215627-disp-0002">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>MRR</mml:mi><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>CFR</mml:mi><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:mi>FFR</mml:mi></mml:mrow></mml:mfenced><mml:mo> </mml:mo><mml:mo>×</mml:mo><mml:mo> </mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">rest</mml:mtext></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">hyper</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where FFR indicates FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub>. As suggested by De Bruyne et al., true MRR, in the presence of significant epicardial stenosis, should be derived by correcting MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> and can be expressed by the following:<disp-formula id="phy215627-disp-0003">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mtext>True</mml:mtext><mml:mspace width="0.25em"/><mml:mi>MRR</mml:mi><mml:mo>=</mml:mo><mml:mi>CFR</mml:mi><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi>FFR</mml:mi><mml:mi mathvariant="italic">cor</mml:mi></mml:msub><mml:mo> </mml:mo><mml:mo>×</mml:mo><mml:mo> </mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">rest</mml:mtext></mml:mrow></mml:msub><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi mathvariant="normal">P</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mtext mathvariant="italic">hyper</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mspace width="2.7636363636363632em"/><mml:mo>=</mml:mo><mml:msub><mml:mi>MRR</mml:mi><mml:mi mathvariant="italic">app</mml:mi></mml:msub><mml:mo> </mml:mo><mml:mo>×</mml:mo><mml:mo> </mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>FFR</mml:mi><mml:mi mathvariant="italic">myo</mml:mi></mml:msub><mml:mo> </mml:mo><mml:mo>/</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi>FFR</mml:mi><mml:mi mathvariant="italic">cor</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where true MRR and MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> represent corrected MRR and measured MRR, respectively. Consequently, using the formula of the relationship between FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> and FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>, we can obtain a corrected MRR. In the validation cohort, we also compared true MRR values with corrected MRR values using Yong's equation (Yong et al., <xref rid="phy215627-bib-0022" ref-type="bibr">2013</xref>) if there is no statistically significant difference between these two values obtained by each of the two equations for FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> estimation. We summarized definitions of all physiological parameters below. We further assessed the changes in MRR values in the total cohort, including both derivation and validation cohorts (345 patients) after PCI.</p><p>CFR = Q<sub>
+<italic toggle="yes">max</italic>
+</sub> / Q<sub>
+<italic toggle="yes">rest</italic>
+</sub> ≈ T<sub>
+<italic toggle="yes">mn, rest</italic>
+</sub> / T<sub>
+<italic toggle="yes">mn</italic>, <italic toggle="yes">hyper</italic>
+</sub>
+</p><p>Calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> = 1.36 × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> – 0.34</p><p>Measured FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> = FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> = (P<sub>
+<italic toggle="yes">d, hyper</italic>
+</sub> − P<sub>
+<italic toggle="yes">w</italic>
+</sub>) / (P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub> − P<sub>
+<italic toggle="yes">w</italic>
+</sub>)</p><p>IMR<sub>
+<italic toggle="yes">rest</italic>
+</sub> = (P<sub>
+<italic toggle="yes">d, rest</italic>
+</sub> – P<sub>
+<italic toggle="yes">v</italic>
+</sub>) / Q<sub>
+<italic toggle="yes">rest</italic>
+</sub> ≈ P<sub>
+<italic toggle="yes">d, rest</italic>
+</sub> × T<sub>
+<italic toggle="yes">mn, rest</italic>
+</sub>
+</p><p>IMR<sub>
+<italic toggle="yes">hyper</italic>
+</sub> = (P<sub>d<italic toggle="yes">, hyper</italic>
+</sub> – P<sub>v</sub>) / Q<sub>
+<italic toggle="yes">max</italic>
+</sub> ≈ P<sub>
+<italic toggle="yes">d, hyper</italic>
+</sub> × T<sub>
+<italic toggle="yes">mn</italic>, <italic toggle="yes">hyper</italic>
+</sub>
+</p><p>IMR = Corrected IMR = P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub> × T<sub>
+<italic toggle="yes">mn</italic>, <italic toggle="yes">hyper</italic>
+</sub> × (P<sub>
+<italic toggle="yes">d, hyper</italic>
+</sub> − P<sub>
+<italic toggle="yes">w</italic>
+</sub>) / (P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub> − P<sub>
+<italic toggle="yes">w</italic>
+</sub>)</p><p>MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> = Measured MRR</p><p>= CFR × (P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> / P<sub>
+<italic toggle="yes">d, hyper</italic>
+</sub>)</p><p>= (CFR / FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub>) × (P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> / P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub>)</p><p>Corrected MRR = CFR / (1.36 × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> − 0.34) × (P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> / P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub>)</p><p>Corrected MRR by Yong's formula = CFR / (1.34 × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> − 0.32) × (P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> / P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub>)</p><p>True MRR = (CFR / FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>) × (P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> / P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub>)</p><p>RRR = IMR<sub>
+<italic toggle="yes">rest</italic>
+</sub> / IMR<sub>
+<italic toggle="yes">hyper</italic>
+</sub>
+</p><p>P<sub>
+<italic toggle="yes">a</italic>
+</sub> = aortic pressure (mmHg)</p><p>P<sub>
+<italic toggle="yes">a, rest</italic>
+</sub> = aortic pressure under resting conditions</p><p>P<sub>
+<italic toggle="yes">a, hyper</italic>
+</sub> = aortic pressure at maximum hyperemia</p><p>P<sub>
+<italic toggle="yes">d</italic>
+</sub> = distal coronary pressure (mmHg)</p><p>P<sub>
+<italic toggle="yes">d, rest</italic>
+</sub> = distal coronary pressure under resting conditions</p><p>P<sub>
+<italic toggle="yes">d, hyper</italic>
+</sub> = distal coronary pressure at maximum hyperemia</p><p>P<sub>
+<italic toggle="yes">v</italic>
+</sub> = mean right atrial pressure (mmHg)</p><p>Q = coronary blood flow (ml/min)</p><p>Q<sub>
+<italic toggle="yes">rest</italic>
+</sub> = coronary blood flow under resting conditions</p><p>Q<sub>
+<italic toggle="yes">max</italic>
+</sub> = maximum coronary blood flow at maximum hyperemia</p><p>R<sub>
+<italic toggle="yes">μ</italic>
+</sub> = microvascular resistance (WU)</p><p>R<sub>
+<italic toggle="yes">μ, rest</italic>
+</sub> = microvascular resistance under resting conditions</p><p>R<sub>
+<italic toggle="yes">μ, hyper</italic>
+</sub> = microvascular resistance at maximum hyperemia</p><p>T<sub>
+<italic toggle="yes">mn</italic>
+</sub> = mean transit time (s)</p><p>T<sub>
+<italic toggle="yes">mn, rest</italic>
+</sub> = mean transit time under resting conditions</p><p>T<sub>
+<italic toggle="yes">mn</italic>, <italic toggle="yes">hyper</italic>
+</sub> = mean transit time at maximum hyperemia</p></sec><sec id="phy215627-sec-0006"><label>2.4</label><title>Statistical analysis</title><p>Statistical analyses were performed using R version 4.0.3 (The R Foundation for Statistical Computing) and SPSS version 25.0 (IBM Corporation). Categorical data were expressed as numbers and percentages and compared by the chi‐square or Fisher's exact tests. Continuous data were expressed as median (interquartile range) and analyzed using the Mann–Whitney <italic toggle="yes">U</italic> test. Paired <italic toggle="yes">t</italic>‐tests were used to compare the different methods for FFR and MRR values. Pearson's correlation analyses were used to evaluate the relationship between variables. Bland–Altman analyses we applied to test for agreement. The kappa statistic was used to test the interrater reliability of MRR values before and after PCI. Receiver operating characteristic curves were analyzed to assess the best cut‐off values of pre‐PCI true MRR corresponding to the CFR, IMR, and RRR cut‐off values, respectively. The optimal cut‐off value was determined by the Youden index. Univariable and multivariable logistic regression analyses were performed to predict pre‐PCI decreased true MRR. A value of <italic toggle="yes">p</italic> &lt; 0.05 was considered statistically significant.</p></sec></sec><sec sec-type="results" id="phy215627-sec-0007"><label>3</label><title>RESULTS</title><sec id="phy215627-sec-0008"><label>3.1</label><title>Baseline patient characteristics, angiographical, and physiological findings</title><p>Baseline patients' characteristics, angiographic, and physiological data in the derivation and validation cohorts are shown in Table <xref rid="phy215627-tbl-0001" ref-type="table">1</xref>. The median age of the total study population was 70 (63–75), and 85.0% were men. No significant differences in coronary risk factors are observed between the derivation and validation cohorts. The median pre‐PCI FFR and CFR were 0.71 and 1.97, respectively. The median post‐PCI FFR and CFR were 0.87 and 2.52, respectively. No significant differences in pre‐PCI and post‐PCI physiological indices are observed between the derivation and validation cohorts.</p><table-wrap position="float" id="phy215627-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Patients' clinical, angiographic, and physiological characteristics.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="." span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1">Overall (<italic toggle="yes">N</italic> = 345)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Derivation cohort (<italic toggle="yes">N</italic> = 230)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Validation cohort (<italic toggle="yes">N</italic> = 115)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> value</th></tr></thead><tbody valign="top"><tr><td align="left" colspan="5" valign="top" rowspan="1">
+<bold>Baseline characteristics</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age</td><td align="char" valign="top" rowspan="1" colspan="1">70 (63–75)</td><td align="char" valign="top" rowspan="1" colspan="1">71 (63–75)</td><td align="char" valign="top" rowspan="1" colspan="1">70 (63–76)</td><td align="char" valign="top" rowspan="1" colspan="1">0.38</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="char" valign="top" rowspan="1" colspan="1">293 (84.9)</td><td align="char" valign="top" rowspan="1" colspan="1">200 (87.0)</td><td align="char" valign="top" rowspan="1" colspan="1">93 (80.8)</td><td align="char" valign="top" rowspan="1" colspan="1">0.15</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">BMI</td><td align="char" valign="top" rowspan="1" colspan="1">24.7 (22.4–26.7)</td><td align="char" valign="top" rowspan="1" colspan="1">24.7 (22.5–26.6)</td><td align="char" valign="top" rowspan="1" colspan="1">24.5 (26.9)</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hypertension</td><td align="char" valign="top" rowspan="1" colspan="1">262 (75.9)</td><td align="char" valign="top" rowspan="1" colspan="1">180 (78.2)</td><td align="char" valign="top" rowspan="1" colspan="1">82 (71.3)</td><td align="char" valign="top" rowspan="1" colspan="1">0.19</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Diabetes mellitus</td><td align="char" valign="top" rowspan="1" colspan="1">155 (44.9)</td><td align="char" valign="top" rowspan="1" colspan="1">108 (46.9)</td><td align="char" valign="top" rowspan="1" colspan="1">47 (40.8)</td><td align="char" valign="top" rowspan="1" colspan="1">0.30</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Dyslipidemia</td><td align="char" valign="top" rowspan="1" colspan="1">193 (55.9)</td><td align="char" valign="top" rowspan="1" colspan="1">126 (54.8)</td><td align="char" valign="top" rowspan="1" colspan="1">67 (58.2)</td><td align="char" valign="top" rowspan="1" colspan="1">0.57</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Family history</td><td align="char" valign="top" rowspan="1" colspan="1">52 (15.1)</td><td align="char" valign="top" rowspan="1" colspan="1">32 (13.9)</td><td align="char" valign="top" rowspan="1" colspan="1">19 (16.5)</td><td align="char" valign="top" rowspan="1" colspan="1">0.52</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LDL‐cholesterol</td><td align="char" valign="top" rowspan="1" colspan="1">84 (65–107)</td><td align="char" valign="top" rowspan="1" colspan="1">84 (64–106)</td><td align="char" valign="top" rowspan="1" colspan="1">86 (67–115)</td><td align="char" valign="top" rowspan="1" colspan="1">0.44</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Smoking</td><td align="char" valign="top" rowspan="1" colspan="1">224 (64.9)</td><td align="char" valign="top" rowspan="1" colspan="1">150 (65.2)</td><td align="char" valign="top" rowspan="1" colspan="1">74 (64.3)</td><td align="char" valign="top" rowspan="1" colspan="1">0.91</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">eGFR</td><td align="char" valign="top" rowspan="1" colspan="1">65.9 (51.8–78.3)</td><td align="char" valign="top" rowspan="1" colspan="1">66.5 (52.8–77.8)</td><td align="char" valign="top" rowspan="1" colspan="1">65.4 (51.8–81.1)</td><td align="char" valign="top" rowspan="1" colspan="1">0.92</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LVEF</td><td align="char" valign="top" rowspan="1" colspan="1">63 (54–68)</td><td align="char" valign="top" rowspan="1" colspan="1">63 (54–69)</td><td align="char" valign="top" rowspan="1" colspan="1">62 (55–67)</td><td align="char" valign="top" rowspan="1" colspan="1">0.44</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SYNTAX score (pre‐PCI, per pts)</td><td align="char" valign="top" rowspan="1" colspan="1">9 (5–14)</td><td align="char" valign="top" rowspan="1" colspan="1">8 (5–13)</td><td align="char" valign="top" rowspan="1" colspan="1">9 (5.5–14.5)</td><td align="char" valign="top" rowspan="1" colspan="1">0.17</td></tr><tr><td align="left" colspan="5" valign="top" rowspan="1">
+<bold>Angiographical data (pre‐PCI)</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Target vessel (RCA/LAD/LCX)</td><td align="char" valign="top" rowspan="1" colspan="1">65/204/76 (19/59/22)</td><td align="char" valign="top" rowspan="1" colspan="1">43/138/49 (19/60/21)</td><td align="char" valign="top" rowspan="1" colspan="1">22/66/27 (19/57/24)</td><td align="char" valign="top" rowspan="1" colspan="1">0.85</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Lesion length</td><td align="char" valign="top" rowspan="1" colspan="1">10.0 (7.2–13.9)</td><td align="char" valign="top" rowspan="1" colspan="1">9.9 (7.1–13.6)</td><td align="char" valign="top" rowspan="1" colspan="1">10.4 (7.5–14.2)</td><td align="char" valign="top" rowspan="1" colspan="1">0.24</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Diameter stenosis</td><td align="char" valign="top" rowspan="1" colspan="1">58.8 (49.3–67.6)</td><td align="char" valign="top" rowspan="1" colspan="1">58.6 (50.1–67.6)</td><td align="char" valign="top" rowspan="1" colspan="1">59.5 (48.7–67.3)</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Reference diameter</td><td align="char" valign="top" rowspan="1" colspan="1">2.5 (2.2–2.9)</td><td align="char" valign="top" rowspan="1" colspan="1">2.5 (2.2–2.9)</td><td align="char" valign="top" rowspan="1" colspan="1">2.5 (2.2–2.9)</td><td align="char" valign="top" rowspan="1" colspan="1">0.89</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Minimum lumen diameter</td><td align="char" valign="top" rowspan="1" colspan="1">1.0 (0.8–1.3)</td><td align="char" valign="top" rowspan="1" colspan="1">1.0 (0.8–1.3)</td><td align="char" valign="top" rowspan="1" colspan="1">1.0 (0.8–1.3)</td><td align="char" valign="top" rowspan="1" colspan="1">0.94</td></tr><tr><td align="left" colspan="5" valign="top" rowspan="1">
+<bold>Physiological indices</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pre‐PCI FFR</td><td align="char" valign="top" rowspan="1" colspan="1">0.71 (0.63–0.76)</td><td align="char" valign="top" rowspan="1" colspan="1">0.71 (0.63–0.76)</td><td align="char" valign="top" rowspan="1" colspan="1">0.70 (0.64–0.76)</td><td align="char" valign="top" rowspan="1" colspan="1">0.70</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pre‐PCI CFR</td><td align="char" valign="top" rowspan="1" colspan="1">1.97 (1.37–2.75)</td><td align="char" valign="top" rowspan="1" colspan="1">1.96 (1.35–2.70)</td><td align="char" valign="top" rowspan="1" colspan="1">2.0 (1.40–2.87)</td><td align="char" valign="top" rowspan="1" colspan="1">0.96</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pre‐PCI IMR</td><td align="char" valign="top" rowspan="1" colspan="1">20.2 (14.8–30.2)</td><td align="char" valign="top" rowspan="1" colspan="1">20.4 (15.0–30.1)</td><td align="char" valign="top" rowspan="1" colspan="1">19.5 (14.4–32.1)</td><td align="char" valign="top" rowspan="1" colspan="1">0.62</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">T<sub>
+<italic toggle="yes">mn</italic>
+</sub> at rest (pre‐PCI)</td><td align="char" valign="top" rowspan="1" colspan="1">0.89 (0.57–1.25)</td><td align="char" valign="top" rowspan="1" colspan="1">0.89 (0.57–1.28)</td><td align="char" valign="top" rowspan="1" colspan="1">0.91 (0.56–1.16)</td><td align="char" valign="top" rowspan="1" colspan="1">0.59</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">T<sub>
+<italic toggle="yes">mn</italic>
+</sub> at hyperemia (pre‐PCI)</td><td align="char" valign="top" rowspan="1" colspan="1">0.42 (0.29–0.65)</td><td align="char" valign="top" rowspan="1" colspan="1">0.44 (0.28–0.63)</td><td align="char" valign="top" rowspan="1" colspan="1">0.41 (0.29–0.80)</td><td align="char" valign="top" rowspan="1" colspan="1">0.86</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Post‐PCI FFR</td><td align="char" valign="top" rowspan="1" colspan="1">0.87 (0.82–0.92)</td><td align="char" valign="top" rowspan="1" colspan="1">0.87 (0.82–0.92)</td><td align="char" valign="top" rowspan="1" colspan="1">0.87 (0.82–0.92)</td><td align="char" valign="top" rowspan="1" colspan="1">0.89</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Post‐PCI CFR</td><td align="char" valign="top" rowspan="1" colspan="1">2.52 (1.7–3.42)</td><td align="char" valign="top" rowspan="1" colspan="1">2.53 (1.70–3.44)</td><td align="char" valign="top" rowspan="1" colspan="1">2.43 (1.72–3.40)</td><td align="char" valign="top" rowspan="1" colspan="1">0.91</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Post‐PCI IMR</td><td align="char" valign="top" rowspan="1" colspan="1">19.6 (13.7–28.5)</td><td align="char" valign="top" rowspan="1" colspan="1">20.1 (14.8–27.3)</td><td align="char" valign="top" rowspan="1" colspan="1">19.2 (13.0–29.4)</td><td align="char" valign="top" rowspan="1" colspan="1">0.36</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">T<sub>
+<italic toggle="yes">mn</italic>
+</sub> at rest (post‐PCI)</td><td align="char" valign="top" rowspan="1" colspan="1">0.71 (0.46–1.04)</td><td align="char" valign="top" rowspan="1" colspan="1">0.72 (0.48–1.05)</td><td align="char" valign="top" rowspan="1" colspan="1">0.66 (0.46–1.02)</td><td align="char" valign="top" rowspan="1" colspan="1">0.51</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">T<sub>
+<italic toggle="yes">mn</italic>
+</sub> at hyperemia (post‐PCI)</td><td align="char" valign="top" rowspan="1" colspan="1">0.28 (0.20–0.40)</td><td align="char" valign="top" rowspan="1" colspan="1">0.28 (0.21–0.40)</td><td align="char" valign="top" rowspan="1" colspan="1">0.26 (0.19–0.44)</td><td align="char" valign="top" rowspan="1" colspan="1">0.43</td></tr></tbody></table><table-wrap-foot id="phy215627-ntgp-0002"><fn id="phy215627-note-0002"><p>
+<italic toggle="yes">Note</italic>: Values are <italic toggle="yes">n</italic> (%) or median (first quartile, third quartile). Abbreviations: BMI, body mass index; CFR, coronary flow reserve; eGFR, estimated glomerular filtration rate; FFR, fractional flow reserve; IMR, index of microcirculatory resistance; LAD, left anterior descending artery; LCX, left circumflex artery; LDL, low‐density lipoprotein; LVEF, left ventricular ejection fraction; PCI, percutaneous coronary intervention; RCA, right coronary artery; T<sub>
+<italic toggle="yes">mn</italic>
+</sub>, mean transit time.</p></fn><fn id="phy215627-note-0003"><p>Abbreviations: BMI, body mass index; CFR, coronary flow reserve; eGFR, estimated glomerular filtration rate; FFR, fractional flow reserve; IMR, index of microcirculatory resistance; LAD, left anterior descending artery; LCX, left circumflex artery; LDL, low‐density lipoprotein; LVEF, left ventricular ejection fraction; PCI, percutaneous coronary intervention; RCA, right coronary artery; T<sub>
+<italic toggle="yes">mn</italic>
+</sub>, mean transit time.</p></fn></table-wrap-foot></table-wrap></sec><sec id="phy215627-sec-0009"><label>3.2</label><title>Derivation of the equation for <styled-content style="fixed-case" toggle="no">FFR<sub>cor</sub>
+</styled-content> using <styled-content style="fixed-case" toggle="no">FFR<sub>myo</sub>
+</styled-content>, and its validation</title><p>The formula to estimate FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> using FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> in the derivation cohort was obtained as follows:<disp-formula id="phy215627-disp-0004">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>FFR</mml:mi><mml:mi mathvariant="italic">cor</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1.36</mml:mn><mml:mo>×</mml:mo><mml:msub><mml:mi>FFR</mml:mi><mml:mi mathvariant="italic">myo</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:mn>0.34</mml:mn><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mi>r</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>=</mml:mo><mml:mn>0.86</mml:mn><mml:mo>,</mml:mo><mml:mi>p</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0.001</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>when (Figure <xref rid="phy215627-fig-0003" ref-type="fig">3</xref>) this equation was applied in the validation cohort, no significant difference was detected between measured and calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> (0.59 ± 0.14 vs. 0.59 ± 0.13, <italic toggle="yes">p</italic> = 0.661; Figure <xref rid="phy215627-fig-0004" ref-type="fig">4a</xref>), and good correlation was observed between these two variables (<italic toggle="yes">r</italic>
+<sup>2</sup> = 0.90, <italic toggle="yes">p</italic> &lt; 0.001; Figure <xref rid="phy215627-fig-0004" ref-type="fig">4b,c</xref>).</p><fig position="float" fig-type="FIGURE" id="phy215627-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Derivation of the method to Calculate FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>. Linear regression analysis of measured FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> versus FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> in the derivation Cohort. Abbreviations are shown in Figure <xref rid="phy215627-fig-0002" ref-type="fig">2</xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="PHY2-11-e15627-g005.jpg"/></fig><fig position="float" fig-type="FIGURE" id="phy215627-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Validation of the method to calculate FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>. (a). Comparison between measured FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> and calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>. No significant difference was detected between the measured FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> and the calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>. (b). Linear regression of measured FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> versus calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>. (c). Corresponding Bland–Altman plot. The Red line denotes the bias of the agreement, and the green lines represent standard deviations of the bias. Abbreviations are shown in Figure <xref rid="phy215627-fig-0002" ref-type="fig">2</xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="PHY2-11-e15627-g003.jpg"/></fig></sec><sec id="phy215627-sec-0010"><label>3.3</label><title>Corrected <styled-content style="fixed-case" toggle="no">MRR</styled-content> calculation using the above equation and comparison with true <styled-content style="fixed-case" toggle="no">MRR</styled-content> values and those corrected by Yong's equation</title><p>Corrected MRR was calculated using measured MRR (MRR<sub>
+<italic toggle="yes">app</italic>
+</sub>) and calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> by the above‐described equation: MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> × (FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> / FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>), where FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> = 1.36 × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> − 0.34. No significant difference between true MRR and corrected MRR (4.13 ± 1.71 vs. 4.04 ± 1.53, <italic toggle="yes">p</italic> = 0.187) was detected (Figure <xref rid="phy215627-fig-0005" ref-type="fig">5a</xref>). There was also a good correlation and agreement between these two variables (Figure <xref rid="phy215627-fig-0005" ref-type="fig">5b,c</xref>). As seen from the equation for FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> calculation, this equation is no more valid when FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> is equal to or less than 0.25 since the denominator is close to zero or a negative number. Corrected MRR was significantly higher than MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> (4.04 ± 1.53 vs. 3.42 ± 1.35, <italic toggle="yes">p</italic> &lt; 0.001).</p><fig position="float" fig-type="FIGURE" id="phy215627-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Validation of the method to correct MRR. (a). Comparison between measured true MRR and corrected MRR. No significant difference was observed between true MRR and corrected MRR. (b). Linear regression of true MRR versus corrected MRR. (c). Corresponding Bland–Altman plot. The Red line denotes the bias of the agreement, and the green lines represent standard deviations of the bias. Abbreviations are shown in Figure <xref rid="phy215627-fig-0002" ref-type="fig">2</xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="PHY2-11-e15627-g002.jpg"/></fig><p>When MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> was corrected using Yong's equation, Yong's equation‐derived corrected MRR was significantly different from those corrected by our equation (3.99 ± 1.51 vs. 4.04 ± 1.53, <italic toggle="yes">p</italic> &lt; 0.001) and also showed a significant difference from true MRR in the validation cohort (3.99 ± 1.51 vs. 4.13 ± 1.71, <italic toggle="yes">p</italic> = 0.046).</p></sec><sec id="phy215627-sec-0011"><label>3.4</label><title>True <styled-content style="fixed-case" toggle="no">MRR</styled-content> cut‐off values corresponding to <styled-content style="fixed-case" toggle="no">CFR</styled-content>, <styled-content style="fixed-case" toggle="no">IMR</styled-content>, and <styled-content style="fixed-case" toggle="no">RRR</styled-content> cut‐off values</title><p>Pre‐PCI true MRR showed significant correlation with CFR (<italic toggle="yes">r</italic>
+<sup>2</sup> = 0.53, <italic toggle="yes">p</italic> &lt; 0.001) and RRR (<italic toggle="yes">r</italic>
+<sup>2</sup> = 0.63, <italic toggle="yes">p</italic> &lt; 0.001), respectively. The best cut‐off values of pre‐PCI true MRR corresponding to CFR = 2.0 and 2.5 were 3.27 (area under the curve [AUC] = 0.86, 95% confidence interval [CI] 0.82–0.90, <italic toggle="yes">p</italic> &lt; 0.001) and 4.08 (AUC = 0.90, 95% CI 0.87–0.93, <italic toggle="yes">p</italic> &lt; 0.001), respectively. There was also a significant correlation between true MRR and IMR, although less robust (<italic toggle="yes">r</italic>
+<sup>2</sup> = 0.10, <italic toggle="yes">p</italic> &lt; 0.001). The best cut‐off values of pre‐PCI true MRR, corresponding to IMR = 25.0 and RRR = 3.5 were 4.61 (AUC = 0.64, 95% CI 0.58–0.70, <italic toggle="yes">p</italic> &lt; 0.001) and 4.08 (AUC = 0.92, 95% CI 0.90–0.95, <italic toggle="yes">p</italic> &lt; 0.001), respectively.</p></sec><sec id="phy215627-sec-0012"><label>3.5</label><title>Change in <styled-content style="fixed-case" toggle="no">MRR</styled-content> and the relationship between <styled-content style="fixed-case" toggle="no">MRR</styled-content>, <styled-content style="fixed-case" toggle="no">CFR,</styled-content> and <styled-content style="fixed-case" toggle="no">RRR</styled-content> after <styled-content style="fixed-case" toggle="no">PCI</styled-content>
+</title><p>Post‐PCI true MRR values significantly decreased (4.14 ± 1.78 vs. 3.70 ± 1.87, <italic toggle="yes">p</italic> &lt; 0.001; Figure <xref rid="phy215627-fig-0006" ref-type="fig">6</xref>). Notably, a relatively low agreement was observed between pre‐ and post‐PCI true MRR values when categorized by the best cut‐off value corresponding to CFR values of 2.5 (kappa = 0.238). There remained a significant correlation between post‐PCI true MRR and RRR (<italic toggle="yes">r</italic>
+<sup>2</sup> = 0.97, <italic toggle="yes">p</italic> &lt; 0.001).</p><fig position="float" fig-type="FIGURE" id="phy215627-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Changes in MRR values after PCI. True MRR significantly decreased after PCI. Abbreviations are shown in Figure <xref rid="phy215627-fig-0002" ref-type="fig">2</xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="PHY2-11-e15627-g004.jpg"/></fig></sec><sec id="phy215627-sec-0013"><label>3.6</label><title>Determinants of the <styled-content style="fixed-case" toggle="no">pre‐PCI</styled-content> low true <styled-content style="fixed-case" toggle="no">MRR</styled-content> values</title><p>Table <xref rid="phy215627-tbl-0002" ref-type="table">2</xref> shows the univariate and multivariate logistic regression analyses to predict the target vessels with pre‐PCI decreased true MRR (MRR &lt; 4.08, threshold corresponding to CFR = 2.5). Pre‐PCI higher IMR and lower CFR were independent predictors of the vessels with decreased pre‐PCI true MRR.</p><table-wrap position="float" id="phy215627-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Univariate and multivariate logistic regression analysis for predicting pre‐PCI decreased true MRR (MRR &lt; 4.08).</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="center" span="1"/><col align="char" char="." span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"/><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Univariate analysis</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Multivariate analysis</th><th align="center" valign="bottom" rowspan="1" colspan="1"/></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> value</th><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> value</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Age</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="center" valign="top" rowspan="1" colspan="1">1.02–1.07</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="char" valign="top" rowspan="1" colspan="1">0.79</td><td align="center" valign="top" rowspan="1" colspan="1">0.44–1.40</td><td align="char" valign="top" rowspan="1" colspan="1">0.45</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">BMI</td><td align="char" valign="top" rowspan="1" colspan="1">0.92</td><td align="center" valign="top" rowspan="1" colspan="1">0.87–0.99</td><td align="char" valign="top" rowspan="1" colspan="1">0.015</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hypertension</td><td align="char" valign="top" rowspan="1" colspan="1">1.10</td><td align="center" valign="top" rowspan="1" colspan="1">0.67–1.80</td><td align="char" valign="top" rowspan="1" colspan="1">0.71</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Diabetes Mellitus</td><td align="char" valign="top" rowspan="1" colspan="1">1.16</td><td align="center" valign="top" rowspan="1" colspan="1">0.76–1.77</td><td align="char" valign="top" rowspan="1" colspan="1">0.50</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">HbA1c</td><td align="char" valign="top" rowspan="1" colspan="1">1.03</td><td align="center" valign="top" rowspan="1" colspan="1">0.85–1.25</td><td align="char" valign="top" rowspan="1" colspan="1">0.75</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Baseline Hs‐TnI</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="center" valign="top" rowspan="1" colspan="1">1.00–1.00</td><td align="char" valign="top" rowspan="1" colspan="1">0.70</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">eGFR</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="center" valign="top" rowspan="1" colspan="1">0.99–1.00</td><td align="char" valign="top" rowspan="1" colspan="1">0.62</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Log (NT‐pro BNP)</td><td align="char" valign="top" rowspan="1" colspan="1">1.20</td><td align="center" valign="top" rowspan="1" colspan="1">1.06–1.36</td><td align="char" valign="top" rowspan="1" colspan="1">0.005</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LVEF</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td><td align="center" valign="top" rowspan="1" colspan="1">0.97–1.01</td><td align="char" valign="top" rowspan="1" colspan="1">0.53</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">E/e'</td><td align="char" valign="top" rowspan="1" colspan="1">1.09</td><td align="center" valign="top" rowspan="1" colspan="1">1.03–1.15</td><td align="char" valign="top" rowspan="1" colspan="1">0.0014</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Rest P<sub>
+<italic toggle="yes">d</italic>
+</sub>/P<sub>
+<italic toggle="yes">a</italic>
+</sub>
+</td><td align="char" valign="top" rowspan="1" colspan="1">0.18</td><td align="center" valign="top" rowspan="1" colspan="1">0.020–1.69</td><td align="char" valign="top" rowspan="1" colspan="1">0.13</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pre‐PCI FFR</td><td align="char" valign="top" rowspan="1" colspan="1">2.70</td><td align="center" valign="top" rowspan="1" colspan="1">0.29–25.20</td><td align="char" valign="top" rowspan="1" colspan="1">0.38</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pre‐PCI CFR</td><td align="char" valign="top" rowspan="1" colspan="1">0.10</td><td align="center" valign="top" rowspan="1" colspan="1">0.063–0.016</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001</td><td align="center" valign="top" rowspan="1" colspan="1">0.12</td><td align="center" valign="top" rowspan="1" colspan="1">0.070–0.19</td><td align="center" valign="top" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pre‐PCI IMR</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="center" valign="top" rowspan="1" colspan="1">1.02–1.06</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001</td><td align="center" valign="top" rowspan="1" colspan="1">1.03</td><td align="center" valign="top" rowspan="1" colspan="1">1.00–1.06</td><td align="center" valign="top" rowspan="1" colspan="1">0.029</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Coronary wedge pressure</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td><td align="center" valign="top" rowspan="1" colspan="1">0.96–1.01</td><td align="char" valign="top" rowspan="1" colspan="1">0.32</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SYNTAX score</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.99–1.05</td><td align="char" valign="top" rowspan="1" colspan="1">0.26</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot id="phy215627-ntgp-0003"><fn id="phy215627-note-0004"><p>Abbreviations: BMI, body mass index; CFR, coronary flow reserve; CI, confidence interval; E/e', early mitral flow velocity to early mitral annular velocity; eGFR, estimated glomerular filtration rate; FFR, fractional flow reserve; HR, hazard ratio; IMR, index of microcirculatory resistance; LVEF, left ventricular ejection fraction; MRR, microvascular resistance reserve; PCI, percutaneous coronary intervention.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec sec-type="discussion" id="phy215627-sec-0014"><label>4</label><title>DISCUSSION</title><p>In this study, we first sought to derive the equation for estimating FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> without knowing P<sub>
+<italic toggle="yes">w</italic>
+</sub>, as shown in the study by Yong et al. (Yong et al., <xref rid="phy215627-bib-0022" ref-type="bibr">2013</xref>) in the presence of FFR‐verified functionally significant stenosis for MRR correction. Then, we calculated corrected MRR values using MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> and calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> values using the derived formula, as suggested by de Bruyne et al. (<xref rid="phy215627-bib-0006" ref-type="bibr">2021</xref>) We validated these corrected MRR values in comparison with true MRR values in the validation cohort. We further evaluated the true pre‐PCI MRR cut‐off values corresponding to reported CFR, IMR, and RRR threshold values in the presence of functionally significant stenosis. We also evaluated the agreement of MRR for the assessment of microvascular dysfunction in comparison with IMR and between pre‐ and post‐PCI MRR values. Finally, the changes in true MRR after uncomplicated PCI were assessed, and predictors of lower pre‐PCI true MRR were explored.</p><p>The important findings of this study are as follows; (1) FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> can be accurately estimated by the equation as follows: FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> = 1.36 × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> – 0.34, showing better performance compared with Yong's formula; (2) in the presence of functionally significant stenosis, corrected MRR can be accurately calculated by the equation as follows: corrected MRR = MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> × (FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> / FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub>) = (MRR<sub>
+<italic toggle="yes">app</italic>
+</sub> × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub>) / (1.36 × FFR<sub>
+<italic toggle="yes">myo</italic>
+</sub> – 0.34); (3) corrected MRR was significantly higher than MRR<sub>
+<italic toggle="yes">app</italic>
+</sub>; (4) true MRR cut‐off values in the presence of significant stenosis corresponding to CFR = 2.0 and 2.5 were 3.27 and 4.08, respectively; (5) true MRR cut‐off values corresponding to IMR = 25 was 4.61; (6) true MRR cut‐off value corresponding to RRR = 3.5 was 4.08; (7) true MRR values significantly decreased after PCI and were virtually identical with CFR, while agreement of true MRR before and after PCI was relatively low; (8) pre‐PCI higher IMR values and lower CFR values were independent predictors of low pre‐PCI true MRR.</p><p>This is the first study that derived the equation for corrected MRR values in the presence of functionally significant stenosis and validated the equation in the different validation cohort. We also proposed true MRR cut‐off values corresponding to reported CFR, IMR, and RRR cut‐off values, respectively. Furthermore, we presented that the true MRR significantly decreased after uncomplicated PCI, although the agreement between pre‐ and post‐PCI MRR was not high. Recent studies indicate that coronary microvascular dysfunction is a prevalent cause of myocardial ischemia and is associated with poor outcomes. (Fearon et al., <xref rid="phy215627-bib-0008" ref-type="bibr">2013</xref>; Lee et al., <xref rid="phy215627-bib-0011" ref-type="bibr">2016</xref>) Microvascular dysfunction is difficult to be visualized and may coexist with obstructive epicardial coronary disease, (Taqueti &amp; Di Carli, <xref rid="phy215627-bib-0018" ref-type="bibr">2018</xref>; Taqueti et al., <xref rid="phy215627-bib-0019" ref-type="bibr">2015</xref>) contributing to myocardial ischemia. After successful PCI, preexisting coronary microvascular dysfunction (CMD) or altered microvascular function might emerge and impact the occurrence of ischemic symptoms or adverse events (Misawa et al., <xref rid="phy215627-bib-0014" ref-type="bibr">2022</xref>; Sechtem et al., <xref rid="phy215627-bib-0016" ref-type="bibr">2020</xref>; Taqueti et al., <xref rid="phy215627-bib-0019" ref-type="bibr">2015</xref>) There has been limited data regarding the impact of CMD on prognosis in patients with obstructive epicardial coronary lesions or its behavior after elective PCI. MRR has recently been proposed by Bruyne et al., as defined as the ratio of true resting to hyperemic microvascular resistance. MRR should be corrected in the presence of significant epicardial disease. Our results indicated the wide distribution of MRR and relatively low agreement with IMR before PCI, suggesting that MRR might discriminate the extent of coexisting microvascular dysfunction (MVD) differently from IMR in the presence of significant obstructive disease, although further studies are needed. A strong linear correlation was observed between MRR and CFR. In contrast, a less robust relationship was detected between MRR and IMR, indicating that these two measures for MVD may complementarily provide clinical information about MVD, as suggested above. Further studies are needed to clarify if MRR may provide prognostic information independently of CFR, IMR, or RRR, and whether these indices could be used to discriminate or clarify the relative contribution of myocardial ischemia due to epicardial stenosis and MVD in the presence of significant epicardial disease. Our study provides the clinical characteristics of MRR and true MRR cut‐off values corresponding to CFR, IMR, and RRR cut‐off values to classify the relevance of MVD by these metrics by proposing the reference cut‐off values of each index. Further investigations using these indices for elucidating the clinical significance of CMD in the presence of significant epicardial stenosis were warranted.</p></sec><sec id="phy215627-sec-0015"><label>5</label><title>LIMITATIONS</title><p>This study was a single‐center retrospective analysis of registered patients' data and pertained to an observational nature; thus, its inherent limitation exists. Rigorous exclusion criteria and the protocol for inclusion limited the number of study patients and may have resulted in a certain level of further selection bias. In the report by Bruyne et al., absolute coronary flow and microvascular resistance measurements were performed using intracoronary continuous saline infusion method for the theoretical framework and MRR validation. In contrast, this study used the thermodilution method (de Bruyne et al., <xref rid="phy215627-bib-0006" ref-type="bibr">2021</xref>) for CFR and IMR. Currently, both RayFlow® catheter (HEXACATH, Paris, France) and an 0.014” dual pressure and Doppler flow velocity sensor guidewire (ComboWire XT, Philips Volcano) are not commercially available in Japan.</p></sec><sec sec-type="conclusions" id="phy215627-sec-0016"><label>6</label><title>CONCLUSION</title><p>As proposed, without needing P<sub>
+<italic toggle="yes">w</italic>
+</sub> in the presence of significant epicardial stenosis, true MRR can be accurately calculated using calculated FFR<sub>
+<italic toggle="yes">cor</italic>
+</sub> and measured MRR. Pre‐PCI lower CFR and higher IMR were independent predictors of pre‐PCI decreased MRR. Proposed true MRR cut‐off values corresponding to CFR and IMR thresholds representing microvascular dysfunction need to be validated in clinical studies.</p></sec><sec id="phy215627-sec-0018"><title>FUNDING INFORMATION</title><p>None.</p></sec><sec sec-type="COI-statement" id="phy215627-sec-0019"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors have no conflict of interest to declare.</p></sec><sec id="phy215627-sec-1000"><title>ETHICS STATEMENT</title><p>Ethical approval was granted by the Tsuchiura Kyodo General Hospital institutional ethics committee (2022FY83) on September 28/2022.</p></sec></body><back><ack id="phy215627-sec-0017"><title>ACKNOWLEDGMENTS</title><p>None.</p></ack><ref-list content-type="cited-references" id="phy215627-bibl-0001"><title>REFERENCES</title><ref id="phy215627-bib-0001"><mixed-citation publication-type="journal" id="phy215627-cit-0001">
+<string-name name-style="western">
+<surname>Aarnoudse</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fearon</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manoharan</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Geven</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van de Vosse</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rutten</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Bruyne</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pijls</surname>, <given-names>N. H.</given-names>
+</string-name> (<year>2004</year>). <article-title>Epicardial stenosis severity does not affect minimal microcirculatory resistance</article-title>. <source>Circulation</source>, <volume>110</volume>, <fpage>2137</fpage>–<lpage>2142</lpage>.<pub-id pub-id-type="pmid">15466646</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/01.CIR.0000143893.18451.0E</pub-id></mixed-citation></ref><ref id="phy215627-bib-0002"><mixed-citation publication-type="journal" id="phy215627-cit-0002">
+<string-name name-style="western">
+<surname>Camici</surname>, <given-names>P. G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Crea</surname>, <given-names>F.</given-names>
+</string-name> (<year>2007</year>). <article-title>Coronary microvascular dysfunction</article-title>. <source>The New England Journal of Medicine</source>, <volume>356</volume>, <fpage>830</fpage>–<lpage>840</lpage>.<pub-id pub-id-type="pmid">17314342</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMra061889</pub-id></mixed-citation></ref><ref id="phy215627-bib-0003"><mixed-citation publication-type="journal" id="phy215627-cit-0003">
+<string-name name-style="western">
+<surname>Camici</surname>, <given-names>P. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>d'Amati</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rimoldi</surname>, <given-names>O.</given-names>
+</string-name> (<year>2015</year>). <article-title>Coronary microvascular dysfunction: Mechanisms and functional assessment</article-title>. <source>Nature Reviews. Cardiology</source>, <volume>12</volume>, <fpage>48</fpage>–<lpage>62</lpage>.<pub-id pub-id-type="pmid">25311229</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrcardio.2014.160</pub-id></mixed-citation></ref><ref id="phy215627-bib-0004"><mixed-citation publication-type="journal" id="phy215627-cit-0004">
+<string-name name-style="western">
+<surname>Crea</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Camici</surname>, <given-names>P. G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bairey Merz</surname>, <given-names>C. N.</given-names>
+</string-name> (<year>2014</year>). <article-title>Coronary microvascular dysfunction: An update</article-title>. <source>European Heart Journal</source>, <volume>35</volume>, <fpage>1101</fpage>–<lpage>1111</lpage>.<pub-id pub-id-type="pmid">24366916</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/eurheartj/eht513</pub-id><pub-id pub-id-type="pmcid">PMC4006091</pub-id></mixed-citation></ref><ref id="phy215627-bib-0005"><mixed-citation publication-type="journal" id="phy215627-cit-0005">
+<string-name name-style="western">
+<surname>de Bruyne</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pijls</surname>, <given-names>N. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wievegg</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Heyndrickx</surname>, <given-names>G. R.</given-names>
+</string-name> (<year>2001</year>). <article-title>Coronary thermodilution to assess flow reserve: Experimental validation</article-title>. <source>Circulation</source>, <volume>104</volume>, <fpage>2003</fpage>–<lpage>2006</lpage>.<pub-id pub-id-type="pmid">11673336</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/hc4201.099223</pub-id></mixed-citation></ref><ref id="phy215627-bib-0006"><mixed-citation publication-type="journal" id="phy215627-cit-0006">
+<string-name name-style="western">
+<surname>de Bruyne</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pijls</surname>, <given-names>N. H. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallinoro</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Candreva</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fournier</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Keulards</surname>, <given-names>D. C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sonck</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van't Veer</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barbato</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bartunek</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vanderheyden</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wyffels</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Vos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>El Farissi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tonino</surname>, <given-names>P. A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muller</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Collet</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fearon</surname>, <given-names>W. F.</given-names>
+</string-name> (<year>2021</year>). <article-title>Microvascular resistance reserve for assessment of coronary microvascular function: JACC technology corner</article-title>. <source>Journal of the American College of Cardiology</source>, <volume>78</volume>, <fpage>1541</fpage>–<lpage>1549</lpage>.<pub-id pub-id-type="pmid">34620412</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jacc.2021.08.017</pub-id></mixed-citation></ref><ref id="phy215627-bib-0007"><mixed-citation publication-type="journal" id="phy215627-cit-0007">
+<string-name name-style="western">
+<surname>Fearon</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balsam</surname>, <given-names>L. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farouque</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caffarelli</surname>, <given-names>A. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robbins</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fitzgerald</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yock</surname>, <given-names>P. G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Yeung</surname>, <given-names>A. C.</given-names>
+</string-name> (<year>2003</year>). <article-title>Novel index for invasively assessing the coronary microcirculation</article-title>. <source>Circulation</source>, <volume>107</volume>, <fpage>3129</fpage>–<lpage>3132</lpage>.<pub-id pub-id-type="pmid">12821539</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/01.CIR.0000080700.98607.D1</pub-id></mixed-citation></ref><ref id="phy215627-bib-0008"><mixed-citation publication-type="journal" id="phy215627-cit-0008">
+<string-name name-style="western">
+<surname>Fearon</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Low</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yong</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGeoch</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berry</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shah</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ho</surname>, <given-names>M. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loh</surname>, <given-names>J. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Oldroyd</surname>, <given-names>K. G.</given-names>
+</string-name> (<year>2013</year>). <article-title>Prognostic value of the index of microcirculatory resistance measured after primary percutaneous coronary intervention</article-title>. <source>Circulation</source>, <volume>127</volume>, <fpage>2436</fpage>–<lpage>2441</lpage>.<pub-id pub-id-type="pmid">23681066</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/CIRCULATIONAHA.112.000298</pub-id><pub-id pub-id-type="pmcid">PMC5429864</pub-id></mixed-citation></ref><ref id="phy215627-bib-0009"><mixed-citation publication-type="journal" id="phy215627-cit-0009">
+<string-name name-style="western">
+<surname>Kelshiker</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seligman</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Howard</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rahman</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foley</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nowbar</surname>, <given-names>A. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rajkumar</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shun‐Shin</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahmad</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sen</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Lamee</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Petraco</surname>, <given-names>R.</given-names>
+</string-name> (<year>2022</year>). <article-title>Coronary flow reserve and cardiovascular outcomes: A systematic review and meta‐analysis</article-title>. <source>European Heart Journal</source>, <volume>43</volume>, <fpage>1582</fpage>–<lpage>1593</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/eurheartj/ehab775</pub-id><pub-id pub-id-type="pmcid">PMC9020988</pub-id><pub-id pub-id-type="pmid">34849697</pub-id></mixed-citation></ref><ref id="phy215627-bib-0010"><mixed-citation publication-type="journal" id="phy215627-cit-0010">
+<string-name name-style="western">
+<surname>Layland</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrick</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McEntegart</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahmed</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Payne</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McClure</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sood</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGeoch</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macisaac</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whitbourn</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oldroyd</surname>, <given-names>K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Berry</surname>, <given-names>C.</given-names>
+</string-name> (<year>2013</year>). <article-title>Vasodilatory capacity of the coronary microcirculation is preserved in selected patients with non‐ST‐segment‐elevation myocardial infarction</article-title>. <source>Circulation. Cardiovascular Interventions</source>, <volume>6</volume>, <fpage>231</fpage>–<lpage>236</lpage>.<pub-id pub-id-type="pmid">23756697</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/CIRCINTERVENTIONS.112.000180</pub-id></mixed-citation></ref><ref id="phy215627-bib-0011"><mixed-citation publication-type="journal" id="phy215627-cit-0011">
+<string-name name-style="western">
+<surname>Lee</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jung</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hwang</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Na</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doh</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nam</surname>, <given-names>C. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shin</surname>, <given-names>E. S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Koo</surname>, <given-names>B. K.</given-names>
+</string-name> (<year>2016</year>). <article-title>Coronary flow reserve and microcirculatory resistance in patients with intermediate coronary stenosis</article-title>. <source>Journal of the American College of Cardiology</source>, <volume>67</volume>, <fpage>1158</fpage>–<lpage>1169</lpage>.<pub-id pub-id-type="pmid">26965536</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jacc.2015.12.053</pub-id></mixed-citation></ref><ref id="phy215627-bib-0012"><mixed-citation publication-type="journal" id="phy215627-cit-0012">
+<string-name name-style="western">
+<surname>Lee</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>, <given-names>K. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hwang</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doh</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nam</surname>, <given-names>C. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shin</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoshino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murai</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yonetsu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mejia‐Renteria</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kakuta</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Escaned</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <collab collab-type="authors">International Collaboration of Comprehensive Physiologic Assessment, I</collab>
+. (<year>2020</year>). <article-title>Prognostic implications of resistive reserve ratio in patients with coronary artery disease</article-title>. <source>Journal of the American Heart Association</source>, <volume>9</volume>, <elocation-id>e015846</elocation-id>.<pub-id pub-id-type="pmid">32306809</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/JAHA.119.015846</pub-id><pub-id pub-id-type="pmcid">PMC7428535</pub-id></mixed-citation></ref><ref id="phy215627-bib-0013"><mixed-citation publication-type="journal" id="phy215627-cit-0013">
+<string-name name-style="western">
+<surname>Matsuda</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murai</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kanaji</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Usui</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Araki</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Niida</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ichijyo</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamaya</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yonetsu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Isobe</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kakuta</surname>, <given-names>T.</given-names>
+</string-name> (<year>2016</year>). <article-title>Prevalence and clinical significance of discordant changes in fractional and coronary flow reserve after elective percutaneous coronary intervention</article-title>. <source>Journal of the American Heart Association</source>, <volume>5</volume>, <elocation-id>e004400</elocation-id>.<pub-id pub-id-type="pmid">27899365</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/JAHA.116.004400</pub-id><pub-id pub-id-type="pmcid">PMC5210426</pub-id></mixed-citation></ref><ref id="phy215627-bib-0014"><mixed-citation publication-type="journal" id="phy215627-cit-0014">
+<string-name name-style="western">
+<surname>Misawa</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kanaji</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sugiyama</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoshino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamaguchi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hada</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagamine</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teng</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nogami</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ueno</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yasui</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sayama</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matsuda</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yonetsu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sasano</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kakuta</surname>, <given-names>T.</given-names>
+</string-name> (<year>2022</year>). <article-title>Effect of percutaneous coronary intervention on global hemodynamics and the prevalence of residual microvascular dysfunction</article-title>. <source>Microcirculation</source>, <volume>29</volume>, <elocation-id>e12745</elocation-id>.<pub-id pub-id-type="pmid">34897893</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/micc.12745</pub-id></mixed-citation></ref><ref id="phy215627-bib-0015"><mixed-citation publication-type="journal" id="phy215627-cit-0015">
+<string-name name-style="western">
+<surname>Pijls</surname>, <given-names>N. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Bruyne</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peels</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Voort</surname>, <given-names>P. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonnier</surname>, <given-names>H. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bartunek</surname>, <given-names>J. K. J. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Koolen</surname>, <given-names>J. J.</given-names>
+</string-name> (<year>1996</year>). <article-title>Measurement of fractional flow reserve to assess the functional severity of coronary‐artery stenoses</article-title>. <source>The New England Journal of Medicine</source>, <volume>334</volume>, <fpage>1703</fpage>–<lpage>1708</lpage>.<pub-id pub-id-type="pmid">8637515</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJM199606273342604</pub-id></mixed-citation></ref><ref id="phy215627-bib-0016"><mixed-citation publication-type="journal" id="phy215627-cit-0016">
+<string-name name-style="western">
+<surname>Sechtem</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Godo</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lanza</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shimokawa</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sidik</surname>, <given-names>N.</given-names>
+</string-name> (<year>2020</year>). <article-title>Coronary microvascular dysfunction in stable ischaemic heart disease (non‐obstructive coronary artery disease and obstructive coronary artery disease)</article-title>. <source>Cardiovascular Research</source>, <volume>116</volume>, <fpage>771</fpage>–<lpage>786</lpage>.<pub-id pub-id-type="pmid">31958128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/cvr/cvaa005</pub-id></mixed-citation></ref><ref id="phy215627-bib-0017"><mixed-citation publication-type="journal" id="phy215627-cit-0017">
+<string-name name-style="western">
+<surname>Silvain</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zeitouni</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paradies</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>, <given-names>H. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ndrepepa</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavallini</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feldman</surname>, <given-names>D. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sharma</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mehilli</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gili</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barbato</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tarantini</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ooi</surname>, <given-names>S. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>von Birgelen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jaffe</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thygesen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montalescot</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bulluck</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hausenloy</surname>, <given-names>D. J.</given-names>
+</string-name> (<year>2021</year>). <article-title>Procedural myocardial injury, infarction and mortality in patients undergoing elective PCI: A pooled analysis of patient‐level data</article-title>. <source>European Heart Journal</source>, <volume>42</volume>, <fpage>323</fpage>–<lpage>334</lpage>.<pub-id pub-id-type="pmid">33257958</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/eurheartj/ehaa885</pub-id><pub-id pub-id-type="pmcid">PMC7850039</pub-id></mixed-citation></ref><ref id="phy215627-bib-0018"><mixed-citation publication-type="journal" id="phy215627-cit-0018">
+<string-name name-style="western">
+<surname>Taqueti</surname>, <given-names>V. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Di Carli</surname>, <given-names>M. F.</given-names>
+</string-name> (<year>2018</year>). <article-title>Coronary microvascular disease pathogenic mechanisms and therapeutic options: JACC state‐of‐the‐art review</article-title>. <source>Journal of the American College of Cardiology</source>, <volume>72</volume>, <fpage>2625</fpage>–<lpage>2641</lpage>.<pub-id pub-id-type="pmid">30466521</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jacc.2018.09.042</pub-id><pub-id pub-id-type="pmcid">PMC6296779</pub-id></mixed-citation></ref><ref id="phy215627-bib-0019"><mixed-citation publication-type="journal" id="phy215627-cit-0019">
+<string-name name-style="western">
+<surname>Taqueti</surname>, <given-names>V. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hachamovitch</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murthy</surname>, <given-names>V. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Naya</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foster</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hainer</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dorbala</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blankstein</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Di Carli</surname>, <given-names>M. F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Global coronary flow reserve is associated with adverse cardiovascular events independently of luminal angiographic severity and modifies the effect of early revascularization</article-title>. <source>Circulation</source>, <volume>131</volume>, <fpage>19</fpage>–<lpage>27</lpage>.<pub-id pub-id-type="pmid">25400060</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/CIRCULATIONAHA.114.011939</pub-id><pub-id pub-id-type="pmcid">PMC4286486</pub-id></mixed-citation></ref><ref id="phy215627-bib-0020"><mixed-citation publication-type="journal" id="phy215627-cit-0020">
+<string-name name-style="western">
+<surname>Thygesen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alpert</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jaffe</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chaitman</surname>, <given-names>B. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bax</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morrow</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>H. D.</given-names>
+</string-name>, &amp; <collab collab-type="authors">Executive Group on Behalf of the Joint European Society of Cardiology/American College of Cardiology/American Heart Association/World Heart Federation Task Force for the Universal Definition of Myocardial, I</collab>
+. (<year>2018</year>). <article-title>Fourth universal definition of myocardial infarction (2018)</article-title>. <source>Circulation</source>, <volume>138</volume>, <fpage>e618</fpage>–<lpage>e651</lpage>.<pub-id pub-id-type="pmid">30571511</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/CIR.0000000000000617</pub-id></mixed-citation></ref><ref id="phy215627-bib-0021"><mixed-citation publication-type="journal" id="phy215627-cit-0021">
+<string-name name-style="western">
+<surname>Travieso</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jeronimo‐Baza</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Faria</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shabbir</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mejia‐Renteria</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Escaned</surname>, <given-names>J.</given-names>
+</string-name> (<year>2022</year>). <article-title>Invasive evaluation of coronary microvascular dysfunction</article-title>. <source>Journal of Nuclear Cardiology</source>, <volume>29</volume>, <fpage>2474</fpage>–<lpage>2486</lpage>.<pub-id pub-id-type="pmid">35618991</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s12350-022-02997-4</pub-id><pub-id pub-id-type="pmcid">PMC9553758</pub-id></mixed-citation></ref><ref id="phy215627-bib-0022"><mixed-citation publication-type="journal" id="phy215627-cit-0022">
+<string-name name-style="western">
+<surname>Yong</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Layland</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fearon</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ho</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shah</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daniels</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whitbourn</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macisaac</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kritharides</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ng</surname>, <given-names>M. K.</given-names>
+</string-name> (<year>2013</year>). <article-title>Calculation of the index of microcirculatory resistance without coronary wedge pressure measurement in the presence of epicardial stenosis</article-title>. <source>JACC. Cardiovascular Interventions</source>, <volume>6</volume>, <fpage>53</fpage>–<lpage>58</lpage>.<pub-id pub-id-type="pmid">23347861</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jcin.2012.08.019</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

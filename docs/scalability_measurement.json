@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "measured_at_utc": "2026-09-26T07:05:40.211831+00:00",
+  "snapshotcontent_sha256": "5d22100cd47bd1a33fca9aff05ff2ff86a86d17c46f8f5c0bd92dcfa77c56eb9",
+  "manifest_sha256": "7b019c287c2d008dddbc252ac126a546a06c3d0cb5a3d1da8e3f6e5e48632c33",
+  "manifest_bytes": 7352,
+  "manifest_lines": 124,
+  "case_count": 5,
+  "case_top_level_field_count": 101,
+  "unique_dataset_contents": 2,
+  "unique_dataset_references": 2,
+  "unique_source_data_pairs": 2,
+  "dataset_count_definition": "registered SHA256 content identities; references use (path, data hash), source/data pairs use (source hash, data hash). Renamed identical CSVs count once as contents. These counts do not certify independent papers or datasets; invalid/missing non-string fields are excluded.",
+  "source_code_changes_required": 0,
+  "source_code_changes_basis": "preconfigured mapping config only; supported count_rows/mean/missing_cells use existing shared engines; excludes shared case63 implementation cost, source acquisition, unsupported methods and human scope review",
+  "registration_time_measured": false,
+  "measurement_scope": "local machine execution of preconfigured mappings, not human registration time or a general paper reproducibility benchmark",
+  "clock": "time.perf_counter",
+  "cold": {
+    "runs": 1,
+    "fresh_process_wall_seconds": 5.3942109000636265,
+    "import_and_audit_seconds": 4.58993959997315,
+    "definition": "fresh Python process; OS filesystem cache is not cleared; wall includes process startup and output"
+  },
+  "warm": {
+    "repeats": 3,
+    "warmup_seconds": 0.2824444000143558,
+    "seconds": [
+      0.2663838999578729,
+      0.2689816999481991,
+      0.259027500054799
+    ],
+    "median_seconds": 0.2663838999578729,
+    "definition": "same process after imports and one excluded warmup; includes file reads, hashing and both engines"
+  },
+  "environment": {
+    "python": "3.13.14 (main, Jul 18 2026, 17:10:39) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+    "packages": {
+      "pandas": "2.3.3",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1"
+    }
+  },
+  "results_identical": true,
+  "result_sha256": "f4883169fc60c0f8cc309fcfcc6749c1d8f0f2cec66d62425f63cdfe704b95bc",
+  "status_counts": {
+    "ARITHMETIC_MATCH": 3,
+    "ARITHMETIC_MISMATCH": 1,
+    "BLOCK": 1
+  },
+  "per_case_status_counts": {
+    "PENG-ROWS": {
+      "ARITHMETIC_MATCH": 3
+    },
+    "BAT-POSITIVE-MEAN-AGE": {
+      "ARITHMETIC_MATCH": 3
+    },
+    "BAT-POSITIVE-N": {
+      "ARITHMETIC_MATCH": 3
+    },
+    "BAT-POSITIVE-MALE-N": {
+      "ARITHMETIC_MISMATCH": 3
+    },
+    "BAT-OVERALL-MEAN-AGE-PENDING": {
+      "BLOCK": 3
+    }
+  },
+  "results": [
+    {
+      "claim_id": "PENG-ROWS",
+      "action": "ARITHMETIC_MATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "value": 344.0,
+      "independent_value": 344.0,
+      "reported_value": 344.0,
+      "rows_used": 344,
+      "observations_used": 344,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    },
+    {
+      "claim_id": "BAT-POSITIVE-MEAN-AGE",
+      "action": "ARITHMETIC_MATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "value": 49.320754716981135,
+      "independent_value": 49.320754716981135,
+      "reported_value": 49.32,
+      "rows_used": 53,
+      "observations_used": 53,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    },
+    {
+      "claim_id": "BAT-POSITIVE-N",
+      "action": "ARITHMETIC_MATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "value": 53.0,
+      "independent_value": 53.0,
+      "reported_value": 53.0,
+      "rows_used": 53,
+      "observations_used": 53,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    },
+    {
+      "claim_id": "BAT-POSITIVE-MALE-N",
+      "action": "ARITHMETIC_MISMATCH",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "value": 16.0,
+      "independent_value": 16.0,
+      "reported_value": 17.0,
+      "rows_used": 16,
+      "observations_used": 16,
+      "confirmation_source": "evaluation_mapping_not_human",
+      "reason": "산술 대조만 완료; 원문과 모집단의 의미 연결은 사람 확인 필요"
+    },
+    {
+      "claim_id": "BAT-OVERALL-MEAN-AGE-PENDING",
+      "action": "BLOCK",
+      "source_scope_verified": false,
+      "full_paper_reproduced": false,
+      "reason": "모집단·조건 확인 대기: 1060 scan rows but 1031 unique patient Study.ID. Paper wording individuals requires a deduplication/weighting decision not expressible by existing exact-string filters. Do not count scan-weighted numeric agreement as confirmed patient-level mapping."
+    }
+  ]
+}

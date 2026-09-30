@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "registration_scope": "DATASET_REGRESSION_ONLY: package docs are intentionally blocked by the paper registry. oracle_mapping_supplied means developer-supplied deterministic test mapping, never human gold. Existing production engines used without changing source-kind gate.",
+  "cases": [
+    {
+      "claim_id": "GGPLOT2-MPG-ROWS",
+      "paper_url": "https://github.com/tidyverse/ggplot2/blob/main/R/data.R",
+      "source_quote": "@format A data frame with 234 rows and 11 variables:",
+      "source_kind": "package_source_doc",
+      "source_sha256": "3755c6d942eb135fe3fa327cbfb09af7258de162a6ad0134dbe422fffed8f706",
+      "data_sha256": "d3b426489bc03bbb96c9376cb1869a6166963d18b7bb7f6583388aa05b27725e",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 234,
+      "tolerance": 0,
+      "source_file": "data/evaluation/team_dataset_fixtures/ggplot2_data_snapshot.txt",
+      "data_file": "data/evaluation/team_dataset_fixtures/mpg.csv",
+      "source_location": "R/data.R @format for mpg",
+      "claim_text": "@format A data frame with 234 rows and 11 variables:",
+      "scope_status": "EVALUATION_MAPPING",
+      "oracle_mapping_supplied": true,
+      "scope_note": "Developer mapping for package dataset arithmetic regression only; not a publisher paper, human approval or semantic gold.",
+      "license": "MIT; repository license bundled; upstream source provenance caveats retained"
+    },
+    {
+      "claim_id": "GGPLOT2-MIDWEST-ROWS",
+      "paper_url": "https://github.com/tidyverse/ggplot2/blob/main/R/data.R",
+      "source_quote": "@format A data frame with 437 rows and 28 variables:",
+      "source_kind": "package_source_doc",
+      "source_sha256": "3755c6d942eb135fe3fa327cbfb09af7258de162a6ad0134dbe422fffed8f706",
+      "data_sha256": "8c760e3d61220b425dd89cdfdb8af3d3a0d1c640ad2e409d84a03c7a2d9f9fbe",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 437,
+      "tolerance": 0,
+      "source_file": "data/evaluation/team_dataset_fixtures/ggplot2_data_snapshot.txt",
+      "data_file": "data/evaluation/team_dataset_fixtures/midwest.csv",
+      "source_location": "R/data.R @format for midwest",
+      "claim_text": "@format A data frame with 437 rows and 28 variables:",
+      "scope_status": "EVALUATION_MAPPING",
+      "oracle_mapping_supplied": true,
+      "scope_note": "Developer mapping for package dataset arithmetic regression only; not a publisher paper, human approval or semantic gold.",
+      "license": "MIT; repository license bundled; upstream source provenance caveats retained"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "_change_note": "2026-10-01T02:14:51+09:00 — 최신 팀원 승인·개인정보 보완과 우리 서버 AI·정책·UI를 함께 검증한 실제 전체 실행. 별도 집중 시험과 합산하지 않는다.",
+  "version": 0,
+  "executed_at_kst": "2026-10-01T02:14:51+09:00",
+  "command": "python -m pytest tests finals/tests tools/test_product_metadata_guard.py -q",
+  "python": "3.13.14",
+  "streamlit": "1.64.0",
+  "passed": 729,
+  "skipped": 1,
+  "warnings": 1,
+  "elapsed_seconds": 201.5,
+  "skip_reason": "A2 저자 원파일 환경 미설정",
+  "warning_reason": "합성 극단값 overflow의 fail-closed 시험",
+  "new_paid_model_calls": 0,
+  "sealed_comparison_complete": false,
+  "human_final_approval_complete": false,
+  "test_output_sha256": "ba9e31010069654d7e85696ab4d1a0b5ada0947e459de9eb64f5fe469c08543c",
+  "junit_sha256": "bee03d3a721859a7170d6848532302b1b554bb178269a0eeb357043678212da6",
+  "source_hashes": {
+    "finals/app.py": "7c79d8f98cc2d4b9d251361fadb676ffa5a51696eb27a6e37a7c20463062749a",
+    "finals/finals_provider.py": "d5ecb2424232653bc4aec4d23558132c3e683e16e2418ab8ba51c44a5d131480",
+    "finals/finals_pipeline.py": "6d5cb9cdde2c411b4863fc39b74254e27758a5024635f93d31d747a8292f8905",
+    "core/research_agent.py": "f513248c0cbb6b9428fbfa4ab25b0e9f1e58060cf4cc00b5216c2a5539734eed",
+    "core/research_assistant_ui.py": "ff0a4eda8af309a1b1a30b872dd903a4946488d272fc70eb192b343b5d1e976a",
+    "core/team_knowledge.py": "c4b33d69871be1a284eb96cb275fcfcd98a2a7b53cc7e0eb635f695327da79c2",
+    "evidence_gate/gate.py": "d5f75343a9cd15656197b63d2b34b37208e036cb33a3c979e15079f2ead82ba2",
+    "evidence_gate/align.py": "78d3b6499b4b6367fd52f0586ba9b5066c6bb692f70f538873a042695ba0ad89",
+    "evidence_gate/demo_a2.py": "e9c97b20e8f5dc8c047773b02492894de40cee3c392918a7710833b690dd0bd2",
+    "evidence_gate/__main__.py": "a87bbff9bc7c3ee8601f7bdc4579d92ff752bff6b7c0f1f181f841bed35083aa"
+  }
+}

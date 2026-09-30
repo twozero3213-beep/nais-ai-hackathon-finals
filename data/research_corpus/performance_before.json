@@ -1,0 +1,53 @@
+{
+  "version": "V68 implementation on unchanged V69 input",
+  "single": [
+    {
+      "query": "research data",
+      "split": "development",
+      "seconds": 10.734330999897793,
+      "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+      "count": 10
+    },
+    {
+      "query": "research data",
+      "split": "development",
+      "seconds": 9.203789999941364,
+      "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+      "count": 10
+    }
+  ],
+  "sequential_seconds": 19.938687599962577,
+  "four_concurrent": [
+    {
+      "query": "research data",
+      "split": "development",
+      "seconds": 31.472518400056288,
+      "result_digest": "60fe93108481d976e3de6b5e9270decbba0b565b3f42eaaef2ea1a7737432d5b",
+      "count": 10
+    },
+    {
+      "query": "climate model",
+      "split": "validation",
+      "seconds": 30.093929500086233,
+      "result_digest": "838fb078cb2ac53cb265364300fb26fa8840802c0943a797a6bd437d2cc952d9",
+      "count": 10
+    },
+    {
+      "query": "statistical inference",
+      "split": "development",
+      "seconds": 24.815023500006646,
+      "result_digest": "d367640e45074f4d82825ac0b1625d1d350648aa1a7f005ca390d63345a7dd20",
+      "count": 10
+    },
+    {
+      "query": "metadata",
+      "split": "validation",
+      "seconds": 29.104996599955484,
+      "result_digest": "42e5e7db86a3b5a39984740eb7b5b556169f9067d268ca0cc7ccbeea97323ba7",
+      "count": 10
+    }
+  ],
+  "four_wall_seconds": 31.569109400035813,
+  "corpus_sha256": "387cc319c722f84bce2b03979ab1ed4d77c94631154f18662541ce8b94a4acb1",
+  "conditions": "Same interpreter/root/queries; integrity enabled; no team-write/upload workload; OS filesystem cache uncontrolled"
+}

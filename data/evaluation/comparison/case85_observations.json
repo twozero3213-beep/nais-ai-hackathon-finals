@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "model_runs": [
+    {
+      "claim_id": "RAW-ROWS",
+      "raw_output_file": "model_raw.json",
+      "raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "parsed_output": {
+        "claim_id": "RAW-ROWS",
+        "action": "EXECUTE",
+        "reason": "The supplied CSV is the 17-variable penguins_raw table; counting all rows gives 344.",
+        "value": 344
+      },
+      "provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      }
+    },
+    {
+      "claim_id": "CURATED-ROWS",
+      "raw_output_file": "model_raw.json",
+      "raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "parsed_output": {
+        "claim_id": "CURATED-ROWS",
+        "action": "EXECUTE",
+        "reason": "The supplied CSV is the 8-variable curated penguins table; counting all rows gives 344.",
+        "value": 344
+      },
+      "provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      }
+    },
+    {
+      "claim_id": "RAW-WITH-CURATED",
+      "raw_output_file": "model_raw.json",
+      "raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "parsed_output": {
+        "claim_id": "RAW-WITH-CURATED",
+        "action": "BLOCK",
+        "reason": "The claim concerns the 17-variable penguins_raw table, but the supplied CSV is the 8-variable curated penguins table."
+      },
+      "provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      }
+    },
+    {
+      "claim_id": "CURATED-WITH-RAW",
+      "raw_output_file": "model_raw.json",
+      "raw_output_sha256": "faae7cca0d70163a704f0160cfa402c03d122d016b271abfeda3d4ccc5c1c65e",
+      "parsed_output": {
+        "claim_id": "CURATED-WITH-RAW",
+        "action": "BLOCK",
+        "reason": "The claim concerns the 8-variable curated penguins table, but the supplied CSV is the 17-variable penguins_raw table."
+      },
+      "provenance": {
+        "provider": "OpenAI Codex CLI",
+        "model": "gpt-6-sol",
+        "run_id": "local-codex-exec-c4d881e3e23a5acb",
+        "created_at": "2026-09-25T12:40:01.461221+00:00",
+        "reasoning_effort": "medium",
+        "single_run_four_cases": true
+      }
+    }
+  ],
+  "product_results_file": "case85_product_results.json",
+  "trial_prompt_file": "trial_prompt.txt",
+  "trial_prompt_sha256": "c4d881e3e23a5acbd066855f7b0a191889a23507b8351b3616b7f5293ad4bfe4",
+  "command": "codex exec -m gpt-6-sol -c model_reasoning_effort=medium --sandbox read-only --ephemeral",
+  "historical_model_output_reused": true,
+  "product_evaluation": {
+    "evaluated_at_utc": "2026-09-28T12:16:40.477032+00:00",
+    "source_revision": "srcsha256:99f2060db5488ce534bbd3804a00dd5f368e13f8478e006d6652b3508d9d7d2c",
+    "app_version": "85.0.0",
+    "engine_version": "rule-engine-v85",
+    "product_mapping_sha256": "86d73a9d631bd8008b56d334fa2f21a1e6814fce1b7c5b07235978afabfaccc4"
+  },
+  "new_model_calls": 0,
+  "_change_note": "공개 파일명 변경의 운영 포인터를 현재 경로에 연결. 보관 모델 원출력·계산값·과거 실행시각은 유지하고 새 모델 호출은 하지 않았다."
+}

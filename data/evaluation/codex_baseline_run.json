@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "adapter_note": "source_hash copied from frozen cases.json; action and value unchanged from codex_baseline_raw.json",
+  "results": [
+    {
+      "claim_id": "PENG-ROWS",
+      "action": "EXECUTE",
+      "value": 344,
+      "reason": "penguin_article_text.txt states the raw dataset has 344 observations; author_penguins_raw.csv has 344 rows.",
+      "source_hash": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    },
+    {
+      "claim_id": "PENG-MISSING",
+      "action": "EXECUTE",
+      "value": 19,
+      "reason": "The article describes 19 missing cells in the eight-column curated dataset; penguins_public_benchmark.csv has 19 empty cells.",
+      "source_hash": "1867a776a83379df4219f227bb1effb967da12adb13732127c8c8d120434c29b"
+    },
+    {
+      "claim_id": "WINE-RED",
+      "action": "EXECUTE",
+      "value": 1599,
+      "reason": "winequality-red.csv has 1,599 data rows; its SHA-256 matches the specified file.",
+      "source_hash": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+    },
+    {
+      "claim_id": "WINE-WHITE",
+      "action": "EXECUTE",
+      "value": 4898,
+      "reason": "winequality-white.csv has 4,898 data rows; its SHA-256 matches the specified file.",
+      "source_hash": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+    },
+    {
+      "claim_id": "DINO-X",
+      "action": "EXECUTE",
+      "value": 54.26327323943662,
+      "reason": "The mean x across 142 dino rows in datasaurus.csv is 54.26327323943662.",
+      "source_hash": "febad7f618c51699815060a075ba80f13f6f1474e24e11d52ad5599ee269cc51"
+    },
+    {
+      "claim_id": "WINE-SVM",
+      "action": "BLOCK",
+      "value": null,
+      "reason": "winequality-red.csv alone does not specify the SVM training and evaluation conditions needed to reproduce a predictive result.",
+      "source_hash": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+streamlit==1.64.0
+pandas==2.3.3
+numpy==2.5.3
+scipy==1.18.1
+statsmodels==0.15.0
+jsonschema==4.26.0
+pypdf==6.19.0
+pytest==8.4.2

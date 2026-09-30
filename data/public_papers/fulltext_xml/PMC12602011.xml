@@ -1,0 +1,1476 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="eap70130" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Appl</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Appl</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9889808</journal-id><journal-id journal-id-type="publisher-id">EAP</journal-id><journal-title-group><journal-title>Ecological Applications</journal-title></journal-title-group><issn pub-type="ppub">1051-0761</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12602011</article-id><article-id pub-id-type="pmcid-ver">PMC12602011.1</article-id><article-id pub-id-type="pmcaid">12602011</article-id><article-id pub-id-type="pmcaiid">12602011</article-id><article-id pub-id-type="pmid">41213275</article-id><article-id pub-id-type="doi">10.1002/eap.70130</article-id><article-id pub-id-type="publisher-id">EAP70130</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Phenology‐informed decline risk of estuarine fishes and their prey suggests potential for future trophic mismatches</article-title><alt-title alt-title-type="right-running-head">Phenology‐informed decline risk of estuarine fishes and their prey suggests potential for future trophic mismatches</alt-title><alt-title alt-title-type="left-running-head">Fournier et al.</alt-title></title-group><contrib-group><contrib id="eap70130-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Fournier</surname><given-names initials="RJ">Robert J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9494-2776</contrib-id><xref rid="eap70130-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address></address></contrib><contrib id="eap70130-cr-0002" contrib-type="author"><name name-style="western"><surname>Marino</surname><given-names initials="TC">Tyler C.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-1604-9060</contrib-id><xref rid="eap70130-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70130-cr-0003" contrib-type="author"><name name-style="western"><surname>Carlson</surname><given-names initials="SM">Stephanie M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3055-6483</contrib-id><xref rid="eap70130-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70130-cr-0004" contrib-type="author"><name name-style="western"><surname>Ruhí</surname><given-names initials="A">Albert</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4011-6457</contrib-id><xref rid="eap70130-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="eap70130-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Environmental Science, Policy, and Management</named-content>
+<institution>University of California Berkeley</institution>
+<city>Berkeley</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Robert J. Fournier<break/>
+Email: 
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>11</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>10</month><year>2025</year></pub-date><volume>35</volume><issue seq="250">7</issue><issue-id pub-id-type="pmc-issue-id">500340</issue-id><issue-id pub-id-type="doi">10.1002/eap.v35.7</issue-id><elocation-id>e70130</elocation-id><history>
+<date date-type="rev-recd"><day>21</day><month>7</month><year>2025</year></date>
+<date date-type="received"><day>03</day><month>3</month><year>2025</year></date>
+<date date-type="accepted"><day>28</day><month>8</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>10</day><month>11</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>11</day><month>11</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-11-12 12:25:12.940"><day>12</day><month>11</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Ecological Applications</italic> published by Wiley Periodicals LLC on behalf of The Ecological Society of America.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EAP-35-e70130.pdf"><?pdf-name EAP-35-e70130.pdf?><?pdf-size 10298913?><?pdf-md5 647d6ad2cf31ce4bfe632589b7c33566?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:7094/12602011/647d6ad2cf31/EAP-35-e70130.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EAP-35-e70130.pdf"/><abstract><title>Abstract</title><p>Conservation scientists have long used population viability analysis (PVA) on species count data to quantify critical decline risk, thereby informing conservation actions. These assessments typically focus on a single species rather than assemblages and assume that risk is consistent within a given life stage (e.g., across the different seasons or months of a year). However, assessing risk at overly broad temporal or spatial scales may obscure diverging population declines between predators and prey, potentially disrupting biotic interactions. In this study, we used time‐series‐based PVA for age‐0 forage fishes and their potential zooplankton prey for each month of the year in the San Francisco Estuary, over 1995–2023 (<italic toggle="no">N</italic> = 175 time series). The PVA were parameterized using Multivariate Autoregressive (MAR) models that estimate long‐term population trends and variability (i.e., process error) for each population. We found widespread negative population trends across fish species (56.8%) and observed that critical decline risk is often higher in months when species peak in abundance compared to “shoulder” months. Although current decline risk is somewhat balanced between predators and their prey (mean 23.7% for fish and 21.1% for zooplankton), our time‐series models indicate trophic levels are poised to diverge over the next 10 years, with fish generally accumulating risk faster than their prey. Additionally, zooplankton showed 11.2% higher uncertainty about their near‐term critical decline risk relative to fish. These observations suggest strong, previously unreported potential for future trophic mismatches. Our results underscore the need to assess risk over finer temporal scales within and across trophic levels to better understand vulnerability, and thus inform conservation of imperiled species. Our approach is transferable and highlights the benefits of time‐series‐based PVA to understand risk of food‐web collapse in the face of climate‐induced phenological shifts.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="eap70130-kwd-0001">estuaries</kwd><kwd id="eap70130-kwd-0002">food webs</kwd><kwd id="eap70130-kwd-0003">phenology</kwd><kwd id="eap70130-kwd-0004">population viability analysis</kwd><kwd id="eap70130-kwd-0005">time series analysis</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>California Department of Fish and Wildlife</institution><institution-id institution-id-type="doi">10.13039/100006238</institution-id></institution-wrap>
+</funding-source><award-id>Q2196006</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="19"/><word-count count="11000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:10.11.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="eap70130-cit-9001">
+<string-name name-style="western">
+<surname>Fournier</surname>, <given-names>Robert J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Tyler C.</given-names>
+<surname>Marino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Stephanie M.</given-names>
+<surname>Carlson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Albert</given-names>
+<surname>Ruhí</surname>
+</string-name>. <year>2025</year>. “<article-title>Phenology‐Informed Decline Risk of Estuarine Fishes and Their Prey Suggests Potential for Future Trophic Mismatches</article-title>.” <source>Ecological Applications</source>
+<volume>35</volume>(<issue>7</issue>): <elocation-id>e70130</elocation-id>. <pub-id pub-id-type="doi">10.1002/eap.70130</pub-id>
+<pub-id pub-id-type="pmid">41213275</pub-id></mixed-citation>
+</p><fn-group id="eap70130-ntgp-0001"><fn id="eap70130-note-0001"><p>
+<bold>Handling Editor:</bold> Angee Doerr</p></fn></fn-group></notes></front><body id="eap70130-body-0001"><sec id="eap70130-sec-0001"><title>INTRODUCTION</title><p>Global climate change challenges current efforts to conserve and manage biodiversity (IPBES, <xref rid="eap70130-bib-0050" ref-type="bibr">2019</xref>). Severe population declines and local extirpation can drive permanent shifts in community composition and destabilize whole food webs (O'Gorman &amp; Emmerson, <xref rid="eap70130-bib-0069" ref-type="bibr">2009</xref>; Seifert et al., <xref rid="eap70130-bib-0089" ref-type="bibr">2015</xref>). Though conservation actions attempting to bolster population recovery are widespread geographically across both animal and plant systems (Havens et al., <xref rid="eap70130-bib-0041" ref-type="bibr">2014</xref>; Mawdsley et al., <xref rid="eap70130-bib-0066" ref-type="bibr">2009</xref>; Swaisgood, <xref rid="eap70130-bib-0095" ref-type="bibr">2007</xref>), quantifying extinction risk in species with complex life cycles remains challenging (e.g., Daly et al., <xref rid="eap70130-bib-0026" ref-type="bibr">2021</xref>; Sánchez‐Hernández et al., <xref rid="eap70130-bib-0109" ref-type="bibr">2019</xref>). For instance, determining the effects of a given stressor (e.g., temperature, salinity) on individual survival or performance must account for the differential sensitivities across life stages (Komoroske et al., <xref rid="eap70130-bib-0059" ref-type="bibr">2014</xref>). Additionally, species phenology (e.g., the timing of migration, breeding, or niche shifts) can cause the strength of important biotic interactions to vary through time and across space (Werner &amp; Gilliam, <xref rid="eap70130-bib-0104" ref-type="bibr">1984</xref>). Thus, accounting for community‐level dynamics, including how predators and prey coexist in space and time, is essential for improving conservation outcomes of at‐risk species.</p><p>Population viability analysis (PVA) is a widely used tool to assess threats to species persistence, forecast population trends, and guide recovery (Akçakaya &amp; Sjögren‐Gulve, <xref rid="eap70130-bib-0001" ref-type="bibr">2000</xref>). Historically, these models have taken many forms—from demographic assessments to minimum viable population size estimates to mechanistic, covariate‐driven simulations (Gerber &amp; González‐Suárez, <xref rid="eap70130-bib-0036" ref-type="bibr">2010</xref>). PVA allows conservation practitioners to assess population performance by estimating the cumulative probability of exceeding a critical decline threshold, often termed “quasi‐extinction” (Fagan &amp; Holmes, <xref rid="eap70130-bib-0029" ref-type="bibr">2006</xref>). However, these models generally have strict data requirements and are difficult to effectively parameterize without a robust understanding of demographic and environmental processes (Chaudhary &amp; Oli, <xref rid="eap70130-bib-0017" ref-type="bibr">2020</xref>). To circumvent this shortcoming, statistical methods were developed that estimate the convergent properties of stochastic systems and allow for quasi‐extinction forecasting even when the underlying mechanistic processes are poorly understood (Holmes et al., <xref rid="eap70130-bib-0044" ref-type="bibr">2007</xref>). Such models use repeated sampling of a population (i.e., a time series of count data) to assess inherent growth rates and process‐driven population variability. In addition to applications estimating quasi‐extinction probabilities under different scenarios (e.g., Ruhi et al., <xref rid="eap70130-bib-0082" ref-type="bibr">2018</xref>; Ruhí et al., <xref rid="eap70130-bib-0083" ref-type="bibr">2016</xref>), these methods can also infer metapopulation spatial structure and associated risk (e.g., Holmes &amp; Semmens, <xref rid="eap70130-bib-0043" ref-type="bibr">2004</xref>; Ward et al., <xref rid="eap70130-bib-0103" ref-type="bibr">2010</xref>). Given the increasing availability of long‐term biomonitoring datasets, understanding the potential and limitations of statistical approaches to species extinction forecasting is an important endeavor of conservation science.</p><p>Despite advances in time series‐based PVA, current approaches primarily use annual data (Hampton et al., <xref rid="eap70130-bib-0039" ref-type="bibr">2013</xref>; Holmes et al., <xref rid="eap70130-bib-0045" ref-type="bibr">2014</xref>). As such, species with sub‐yearly phenological patterns (e.g., hatching dynamics, age‐0 migrations; Bogner et al., <xref rid="eap70130-bib-0010" ref-type="bibr">2016</xref>) might display temporal patterns of critical decline risk not captured by a coarser scale approach. Moreover, while it is possible to examine species interactions using multivariate time series models (e.g., Hampton et al., <xref rid="eap70130-bib-0040" ref-type="bibr">2006</xref>; Peterson et al., <xref rid="eap70130-bib-0073" ref-type="bibr">2017</xref>), estimation of interaction strengths often conflicts with estimation of PVA parameters (i.e., intrinsic growth rate or “lambda,” Holmes et al., <xref rid="eap70130-bib-0045" ref-type="bibr">2014</xref>). However, food‐web dynamics that might be critical to population performance can be assessed indirectly—by comparing fine‐scale patterns of risk of a predator versus that of its prey. While statistically challenging, it is ecologically important to consider decline risk within the context of community‐level interactions, especially in environments where population persistence may be influenced by climate‐induced changes in species phenology.</p><p>Estuaries are dynamic ecosystems with levels of biological productivity comparable to tropical rainforests and coral reefs (Cai, <xref rid="eap70130-bib-0012" ref-type="bibr">2011</xref>). Estuarine systems provide high socioeconomic value, facilitate important ecosystem services and govern many nearshore physical and biological processes (Barbier et al., <xref rid="eap70130-bib-0004" ref-type="bibr">2011</xref>; Robins et al., <xref rid="eap70130-bib-0079" ref-type="bibr">2016</xref>). For many taxa, estuaries often represent important nursery grounds (Beck et al., <xref rid="eap70130-bib-0008" ref-type="bibr">2001</xref>; Colombano et al., <xref rid="eap70130-bib-0024" ref-type="bibr">2020</xref>), refuge habitats (Simenstad et al., <xref rid="eap70130-bib-0090" ref-type="bibr">1982</xref>), and migration corridors (Koeller et al., <xref rid="eap70130-bib-0058" ref-type="bibr">2009</xref>; Otero et al., <xref rid="eap70130-bib-0070" ref-type="bibr">2014</xref>). However, the transitional nature of estuaries makes them highly vulnerable to environmental change, as degradation to both the marine and freshwater bookends has the potential to disrupt estuarine communities (Gillanders et al., <xref rid="eap70130-bib-0038" ref-type="bibr">2011</xref>; Lauchlan &amp; Nagelkerken, <xref rid="eap70130-bib-0062" ref-type="bibr">2020</xref>). Indeed, many estuarine systems globally are experiencing climate‐induced shifts in temperature and salinity regimes that can strongly impact population dynamics (Ghalambor et al., <xref rid="eap70130-bib-0037" ref-type="bibr">2021</xref>; Langan et al., <xref rid="eap70130-bib-0061" ref-type="bibr">2021</xref>; Scanes et al., <xref rid="eap70130-bib-0087" ref-type="bibr">2020</xref>). As estuaries often act as temporary or transitional habitats for key life stages, many taxa have developed population cycles that maintain historical synchrony between interacting species (Marques et al., <xref rid="eap70130-bib-0065" ref-type="bibr">2006</xref>). However, warming and salinization appear to be altering phenological patterns in estuarine food webs—with the potential to disrupt historically synchronous population cycles between predators and prey (Asch et al., <xref rid="eap70130-bib-0003" ref-type="bibr">2019</xref>; Chevillot et al., <xref rid="eap70130-bib-0019" ref-type="bibr">2017</xref>; Fournier et al., <xref rid="eap70130-bib-0035" ref-type="bibr">2024</xref>). This is especially important for juvenile fishes, as global change drivers that disrupt community compositions could lead to recruitment failures that erode the nursery function of estuarine ecosystems (Colombano et al., <xref rid="eap70130-bib-0023" ref-type="bibr">2022</xref>).</p><p>The San Francisco Estuary is one of the largest and most ecologically significant estuaries in North America, draining approximately 40% of California's fresh waters (Cloern &amp; Jassby, <xref rid="eap70130-bib-0021" ref-type="bibr">2012</xref>). The estuary spans a wide salinity gradient from the Pacific Ocean to the confluence of the Sacramento and San Joaquin rivers and is highly affected by both hydroclimatic variability and large‐scale water diversions for agricultural and municipal use (Reis et al., <xref rid="eap70130-bib-0078" ref-type="bibr">2019</xref>). In the past decade, the estuary has experienced steadily increasing water temperatures (Bashevkin et al., <xref rid="eap70130-bib-0006" ref-type="bibr">2022</xref>), and long‐term droughts have decreased freshwater inputs into the Delta, resulting in increased salinity levels in the upper estuary (Barros et al., <xref rid="eap70130-bib-0005" ref-type="bibr">2024</xref>). Additionally, invasions of Asian clams (<italic toggle="yes">Potamocorbula amurensis</italic> and <italic toggle="yes">Corbicula fluminea</italic>) in the late 1980s dramatically eroded planktonic populations (Kimmerer et al., <xref rid="eap70130-bib-0056" ref-type="bibr">1994</xref>), leading to dietary shifts of planktivores (Feyrer et al., <xref rid="eap70130-bib-0111" ref-type="bibr">2003</xref>). These and other environmental changes have resulted in large‐scale collapses of pelagic fish populations throughout the estuary (Cloern &amp; Jassby, <xref rid="eap70130-bib-0021" ref-type="bibr">2012</xref>; Quiñones &amp; Moyle, <xref rid="eap70130-bib-0077" ref-type="bibr">2014</xref>). Often referred to as the “pelagic organism decline (POD),” forage fish populations have shown precipitous drops even during periods of relatively moderate abiotic stress (Sommer et al., <xref rid="eap70130-bib-0092" ref-type="bibr">2007</xref>). Though the mechanistic causes of this decline remain poorly understood, recruitment failure, increased mortality, habitat degradation, and limited food availability have been identified as main drivers—especially for juvenile forage fish (Feyrer et al., <xref rid="eap70130-bib-0112" ref-type="bibr">2007</xref>; Mac Nally et al., <xref rid="eap70130-bib-0064" ref-type="bibr">2010</xref>; Sommer et al., <xref rid="eap70130-bib-0092" ref-type="bibr">2007</xref>). These trends underscore the need to better understand the dynamics of forage fishes in the first year of their life (i.e., age‐0), as well as of their food sources.</p><p>Here, we sought to assess spatial and temporal patterns of critical decline risk of fish, and their suite of potential prey in the San Francisco Estuary. As age‐0 estuarine fishes display seasonally varying abundance patterns that might coincide with periods of population vulnerability (i.e., higher quasi‐extinction risk), we sought to examine critical decline risk at sub‐annual scales. To that end, we used long‐term monitoring data to conduct time‐series‐based PVA for each month of the year for age‐0 forage fishes and zooplankton taxa across different regions of the San Francisco Estuary spanning a broad environmental gradient. We hypothesized that (1) long‐term population trends and variability around those trends would vary across fish species, creating ample variation in the probability of them crossing critical decline thresholds (hereafter, <italic toggle="yes">critical decline risk</italic>); (2) critical decline risk in a given species would also vary across the year, with months that historically concentrated high abundance of age‐0 being relatively safer than “shoulder” months when species have historically shown lower abundances; (3) patterns of critical decline risk—and uncertainty around risk estimates—during high abundance windows might differ between fish predators and their potential suite of prey, and this risk might accumulate at different rates over the next decade as steep population declines in fishes might cause risk to outpace zooplankton taxa; and (4) different regions of the estuary may vary in community‐level risk trends, with variation likely being associated with the longitudinal estuarine gradient (i.e., higher in more variable, seawards regions than in more stable, landwards regions). By examining these questions, we aimed to understand how critical decline risk of estuarine fishes may vary intra‐annually and over space—a critical step to anticipate vulnerability of predator–prey interactions along environmental gradients.</p></sec><sec sec-type="methods" id="eap70130-sec-0002"><title>METHODS</title><sec id="eap70130-sec-0003"><title>Fish and plankton surveys</title><p>We gathered long‐term monitoring data for fishes and zooplankton in the San Francisco Estuary. For fishes, we used data provided by the California Department of Fish and Wildlife Bay Study (CDFW, <xref rid="eap70130-bib-0014" ref-type="bibr">2024</xref>, Figure <xref rid="eap70130-fig-0001" ref-type="fig">1</xref>). This program has conducted monthly sampling of fishes at fixed stations throughout the estuary since 1980. Fish sampling is conducted using two tow nets: an otter trawl to target benthic species and a midwater trawl to target pelagic species. During each sampling event, captured individuals are counted, identified, and measured. Additionally, sampling effort is quantified to standardize catch metrics. Our analysis focused on age‐0 fishes captured in the midwater trawl. For zooplankton, we used data collected by the Interagency Ecological Program's Environmental Monitoring Program, EMP (CDWR, <xref rid="eap70130-bib-0015" ref-type="bibr">2024</xref>). The EMP has been sampling zooplankton at fixed stations monthly since 1971, using three types of sampling gear: a macrozooplankton net (505‐μm mesh), a mesozooplankton net (160‐μm mesh), and a teel pump with 43‐μm mesh. In order to target taxa that might be readily consumed by age‐0 forage fishes, we limited our analysis to zooplankton captured in the mesozooplankton net. We filtered each time series to include only monthly surveys after January 1995, as this period maximizes overlap in consistent sampling of fish and zooplankton.</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Map of the San Francisco Estuary, California, USA. Regions are shown as color‐coded polygons, with core fish and zooplankton sampling stations shown as black triangles and white circles, respectively. Along the longitudinal axis of the estuarine gradient, and depending on hydroclimatic conditions, salinity can range from polyhaline (18–30 PSU in the Central Bay, which is connected to the Pacific Ocean) to brackish and fresh (0–5 PSU in the Delta).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EAP-35-e70130-g001.jpg"><?image-name EAP-35-e70130-g001.jpg?><?image-size 98819?><?image-md5 c94fe350df8d166091cd37f5c3dd0f9e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 822?><?image-original-width 1064?><?image-scaled-height 548?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/c94fe350df8d/EAP-35-e70130-g001.jpg?><?thumb-name EAP-35-e70130-g001.gif?><?thumb-size 12379?><?thumb-md5 d5e52220a67c5c2409bc639c50414ecb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 103?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/d5e52220a67c/EAP-35-e70130-g001.gif?></graphic></fig></sec><sec id="eap70130-sec-0004"><title>Data screening</title><p>We assessed data completeness iteratively, to achieve an optimal trade‐off between maximizing data density in the species stations retained and avoiding exclusion of transient or migratory fishes that are only seasonally present in parts of the estuary. We ultimately retained time series with 234 and 50 nonzero detections for zooplankton and fishes, respectively. We then calculated high abundance windows for each fish species by identifying the months that represent most of the mean annual catch for that species in a region (≥80%). In situations where the high abundance windows contained gaps of no more than 1 month, we also included the “skipped” month to obtain an uninterrupted window. This process resulted in seven fish species being retained across 52 stations, and 10 zooplankton genera at 16 stations. Fish and zooplankton stations were assigned to six predefined estuarine regions that have been commonly used for research and management purposes, encompassing from the marine to the freshwater bookend (CDFW, <xref rid="eap70130-bib-0014" ref-type="bibr">2024</xref>, Colombano et al., <xref rid="eap70130-bib-0023" ref-type="bibr">2022</xref>; Figure <xref rid="eap70130-fig-0001" ref-type="fig">1</xref>). In four of the estuarine regions (i.e., <italic toggle="yes">Delta, Confluence, Suisun, San Pablo</italic>), both fish and potential zooplankton prey were retained. Finally, we broke each year into its constituent months to create 12 annual‐scale, month‐specific time series for each species/station pair (i.e., one time series representing all January data for each year and one representing February data). For subsequent analysis on phenology‐informed risk (see below), we kept all species‐station‐month strata as long as a species was historically present with some regularity (i.e., in ≥30% of the years), achieving higher retention rates than in past work (e.g., Colombano et al., <xref rid="eap70130-bib-0023" ref-type="bibr">2022</xref>; Pak et al., <xref rid="eap70130-bib-0072" ref-type="bibr">2023</xref>). Ultimately, we ended up with 155 time series models of fish and 203 of zooplankton, each relevant to a specific taxa, region, and month (Figure <xref rid="eap70130-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Flow chart of analyses. We illustrate the data inputs, series modeling steps, and critical decline risk outputs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EAP-35-e70130-g003.jpg"><?image-name EAP-35-e70130-g003.jpg?><?image-size 119380?><?image-md5 9f8508ffae5926f57e7b3ea7ec4534d7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1854?><?image-original-width 1064?><?image-scaled-height 1235?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/9f8508ffae59/EAP-35-e70130-g003.jpg?><?thumb-name EAP-35-e70130-g003.gif?><?thumb-size 11142?><?thumb-md5 53889aabcc7d6d21fecb4b27cfad9311?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 174?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/53889aabcc7d/EAP-35-e70130-g003.gif?></graphic></fig></sec><sec id="eap70130-sec-0005"><title>Time series modeling and risk calculation</title><p>With these time series, we fitted Multivariate Autoregressive (MAR) models on catch per unit effort (CPUE) estimates using the R “MARSS” package (Holmes et al., <xref rid="eap70130-bib-0045" ref-type="bibr">2014</xref>). Here, we used the multivariate structure of MAR models to describe population trajectories within regions. Thus, after grouping the 62 stations into six regions, we built a MAR model for each species‐region‐month stratum. MAR models, unlike state‐space variations of them (e.g., MARSS), do not account for observation error. We acknowledge that observation error is prevalent in biomonitoring data, and metrics‐dependent on process error might be inflated if process error is forced to absorb observation error (Kery et al., <xref rid="eap70130-bib-0055" ref-type="bibr">2009</xref>; Knape &amp; de Valpine, <xref rid="eap70130-bib-0057" ref-type="bibr">2011</xref>). However, variation in data density prevented more complex (MARSS) models from converging for some species. To avoid introducing uneven bias across taxa, we opted to apply a consistent MAR modeling framework to all species, rather than correcting for observation error in some but not others. We also examined how parameter estimates changed when observation error was explicitly modeled. These comparisons suggest that overall patterns were generally robust across taxa to the exclusion of observation error (see examination of these trends in Appendix <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S1</xref>: Section <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S2</xref>). We note, however, that although detectability may vary over time and among species (e.g., Huntsman et al., <xref rid="eap70130-bib-0048" ref-type="bibr">2022</xref>; Sommer et al., <xref rid="eap70130-bib-0093" ref-type="bibr">2011</xref>), relative trends in abundance can still be informative for management even without explicit correction—especially when monitoring protocols and gear remain consistent (as is the case in the San Francisco Estuary; e.g., Peterson &amp; Barajas, <xref rid="eap70130-bib-0074" ref-type="bibr">2018</xref>). In this context, we interpret our trend estimates as conservative indicators of relative change between predator and prey rather than absolute abundance (and therefore risk). The general structure of our MAR models, in matrix notation, followed:<disp-formula id="eap70130-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>U</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>W</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mspace width="0.5em"/><mml:mtext>where</mml:mtext><mml:mspace width="0.25em"/><mml:msub><mml:mi>W</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>~</mml:mo><mml:mi mathvariant="italic">MVN</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>Q</mml:mi></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> is log <italic toggle="yes">x</italic> + 1 transformed CPUE for that species (one time series per station, univariate or multivariate depending on how many stations are represented in that region); <italic toggle="yes">U</italic> captures the long‐term trend of that regional population, and <italic toggle="yes">W</italic>
+<sub>
+<italic toggle="yes">t</italic>
+</sub> is an error term drawn from a multivariate normal distribution of mean 0 and process error variance/covariance <italic toggle="yes">Q</italic>. For all models, we estimated a single <italic toggle="yes">U</italic> across stations within a region. Similarly, we assumed process error variance to be equal across stations. After estimating <italic toggle="yes">U</italic> and <italic toggle="yes">Q</italic> via maximum‐likelihood (and obtaining 95% CIs for each parameter), we calculated the risk of a species experiencing a 90% population decline (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:mrow></mml:math>) over a given time horizon (<italic toggle="yes">T</italic>) up to 10 years from present. This quasi‐extinction probability (<italic toggle="yes">P</italic>
+<sub>
+<italic toggle="yes">e</italic>
+</sub>), referred to throughout as “critical decline risk,” is estimated by using the inverse Gaussian distribution of first passage times for Brownian motion with drift (Dennis et al., <xref rid="eap70130-bib-0028" ref-type="bibr">1991</xref>; Fieberg &amp; Ellner, <xref rid="eap70130-bib-0031" ref-type="bibr">2000</xref>; See &amp; Holmes, <xref rid="eap70130-bib-0088" ref-type="bibr">2015</xref>), where<disp-formula id="eap70130-disp-0002">
+<label>(2)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi mathvariant="normal">ϕ</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mi mathvariant="normal">μ</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>V</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>exp</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mn>2</mml:mn><mml:mi mathvariant="normal">μ</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:mfenced><mml:mi mathvariant="normal">ϕ</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mo linebreak="goodbreak">−</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mi mathvariant="normal">μ</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>V</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="eap70130-disp-0003">
+<label>(3)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi mathvariant="normal">μ</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>U</mml:mi><mml:msqrt><mml:mrow><mml:mi>T</mml:mi><mml:mo>/</mml:mo><mml:mi>Q</mml:mi></mml:mrow></mml:msqrt><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="eap70130-disp-0004">
+<label>(4)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>a</mml:mi><mml:mo>/</mml:mo><mml:mi>Q</mml:mi><mml:msqrt><mml:mi>T</mml:mi></mml:msqrt><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>with <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi mathvariant="normal">ϕ</mml:mi></mml:mrow></mml:mrow></mml:math> representing the standard normal cumulative distribution function (notation in the above equations have been modified to maintain consistency with MAR parameter notation). Because decline risk can be driven by low population growth potential and/or by high stochasticity, we calculated critical decline risk using across three different scenarios: (1) <italic toggle="yes">baseline risk</italic>, using the maximum‐likelihood estimates for <italic toggle="yes">U</italic> and <italic toggle="yes">Q</italic>; (2) <italic toggle="yes">best case scenario risk</italic>, using the upper end of the bootstrapped CI for <italic toggle="yes">U</italic>, and the lower end of the CI surrounding <italic toggle="yes">Q</italic> (i.e., high growth rate and low process error variance), and (3) <italic toggle="yes">worst case scenario risk</italic>, using the lowest end of the CI surrounding <italic toggle="yes">U</italic> and the highest end of the CI surrounding <italic toggle="yes">Q</italic> (i.e., low or negative intrinsic growth, high process error variance).</p></sec><sec id="eap70130-sec-0006"><title>Hypothesis testing</title><p>To test the hypothesis that long‐term population trends (<italic toggle="yes">U</italic>) and variability around those trends (<italic toggle="yes">Q</italic>) would vary across fish species, we plotted <italic toggle="yes">U</italic> and <italic toggle="yes">Q</italic> values estimated by MAR models and tested whether systematic differences existed across fish <italic toggle="yes">species</italic> and <italic toggle="yes">regions</italic>, using analysis of variance (ANOVA). We also examined the correlation (Pearson's <italic toggle="yes">R</italic>) between these two parameters to understand whether species with declining trends tended to also be more variable or, if on the contrary, <italic toggle="yes">U</italic> and <italic toggle="yes">Q</italic> varied independently across species and regions.</p><p>To test the hypothesis that critical decline risk in a given species would also vary across the year, we assessed the “phenology” of critical decline risk throughout the year for age‐0 forage fishes by plotting monthly risk estimates for each species in each region. We then performed Pearson correlation tests between decline risk and mean population size for each species, pooling data across regions, to assess if these two variables were related—and if so, whether “shoulder” months tended to be safer than months when species have historically shown higher abundances (or vice versa).</p><p>To compare how critical decline risk compares between fish (predators) and their suite of zooplankton prey, we examined current critical decline risk during key months of the year (i.e., the months that collectively concentrate 80% of a species' abundance). To this end, we calculated the mean risk for all months identified as high abundance windows for each region. In addition, we calculated the mean decline risk for each zooplankton during the high abundance window of each fish predator—creating paired predator/prey probabilities in each region. Because the age‐0 fishes in our models are capable of eating many or all of the zooplankton in our models (e.g., Jungbluth et al., <xref rid="eap70130-bib-0054" ref-type="bibr">2021</xref>), we did not make assumptions about prey preferences and instead assumed that each fish species could potentially consume any commonly co‐occurring zooplankton. To assess if fish predator and prey risk during high abundance windows differed, we used ANOVA with “current” critical decline risk (that is, the probability of crossing a 90% decline threshold) as a response variable, and taxonomic <italic toggle="yes">group</italic> (fish or zooplankton) and <italic toggle="yes">region</italic> (if present in more than one region) as predictors. We ran an ANOVA model for each fish species and its paired assemblage of potential zooplankton prey.</p><p>To test whether risk is predicted to accumulate at different rates between fish and zooplankton over the next decade, we calculated risk divergence into the future for each fish predator and their set of prey (as previously) across a 10‐year projection. Using analysis of covariance (ANCOVA), we tested whether logit‐transformed risk was explained by taxonomic <italic toggle="yes">group</italic> (fish vs. zooplankton) and/or <italic toggle="yes">region</italic>, using <italic toggle="yes">time</italic> into the future as a covariate (i.e., number of <italic toggle="yes">years</italic>, 1–10). We also considered potential interactions between these terms. A significant interaction between <italic toggle="yes">time</italic> and <italic toggle="yes">group</italic> would indicate a widening (or closing) gap between predator and prey risk—implying mismatch potential. Triple interactions between <italic toggle="yes">time</italic>, <italic toggle="yes">group</italic>, and <italic toggle="yes">region</italic> allowed testing whether diverging gaps in risk between fish and their prey were region‐specific. This analysis also allowed assessing how trends might scale up to the broader regional food webs across the estuary, by modeling risk estimates for the whole community as a function of taxonomic <italic toggle="yes">group</italic>, <italic toggle="yes">time</italic>, <italic toggle="yes">region</italic>, and <italic toggle="yes">fish predator</italic> identity (to cluster individual food webs). Finally, we used the same ANCOVA model structures to estimate the difference in risk between “best case” and “worst case” scenarios. This last analysis allowed for assessing the implications of assuming trends (<italic toggle="yes">U</italic>) and process error (<italic toggle="yes">Q</italic>) on the lower or higher ends that the data supported—and thus the conservation implications of population uncertainty (see Appendix <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S1</xref>: Section <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S3</xref> for more detail on how we assessed uncertainty through our models).</p></sec></sec><sec sec-type="results" id="eap70130-sec-0007"><title>RESULTS</title><sec id="eap70130-sec-0008"><title>Quantifying population trends and variability</title><p>Our models produced a wide range of maximum‐likelihood estimates for fish intrinsic growth rates (long‐term population trends, <italic toggle="yes">U</italic>) and process error variance (variability around these trends, <italic toggle="yes">Q</italic>, Figure <xref rid="eap70130-fig-0003" ref-type="fig">3</xref>). Moreover, these variables showed a strong association with each other (Pearson's <italic toggle="yes">R</italic>: 0.207, <italic toggle="yes">p</italic> = 0.009). Specifically, population processes with stronger long‐term growth rates (<italic toggle="yes">U</italic>) also tended to exhibit, overall, higher variability (<italic toggle="yes">Q</italic>). Across the assemblage, we tended to see negative growth rates (median ± SD: −0.003 ± 0.074) that varied by <italic toggle="yes">species</italic> (<italic toggle="yes">F</italic>
+<sub>6,15.055</sub>, <italic toggle="yes">p</italic> &lt; 0.001). However, positive population trajectories were also possible (positive: 43.1%, negative: 56.8%, range: −0.167 to +0.199). Process error variance, which measures the inherent variability of the population associated with environmental stochasticity, varied strongly by <italic toggle="yes">species</italic> (<italic toggle="yes">F</italic>
+<sub>6,32.065</sub>, <italic toggle="yes">p</italic> &lt; 0.001), <italic toggle="yes">region</italic> (<italic toggle="yes">F</italic>
+<sub>5,10.685</sub>, <italic toggle="yes">p</italic> &lt; 0.001), and the interaction between <italic toggle="yes">species</italic> and <italic toggle="yes">region</italic> (<italic toggle="yes">F</italic>
+<sub>10,3.717</sub>, <italic toggle="yes">p</italic> &lt; 0.001). Notably, Longfin Smelt (<italic toggle="yes">Spirinchus thaleichthys</italic>) displayed nearly ubiquitous declining trajectories and had relatively small levels of process error variance. Conversely, Northern Anchovy (<italic toggle="yes">Engraulis mordax</italic>) showed more positive population growth but did so with very high levels of process error variance (Figure <xref rid="eap70130-fig-0003" ref-type="fig">3</xref>). Overall, in agreement with our hypothesis, we observed wide variation in population risk, driven by both spatial variation (regions) and individual species characteristics.</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Diversity of population trajectories within and across species. The biplot represents intrinsic growth rates (<italic toggle="yes">U</italic>), versus estimated process error variance (<italic toggle="yes">Q</italic>) estimated by the multivariate autoregressive (MAR) models. For growth rates, values below zero indicate year‐to‐year declines in population estimates for that month and region, while values above zero indicate positive trends. For process error variance, higher values indicate stronger year‐to‐year fluctuations in population estimates for that month and region. Each point represents a species in a given region for each month of the year. We fitted standard ellipses to each species to display the diversity of species‐level trajectories. See Appendix <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S8</xref> for additional visualizations of these data.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EAP-35-e70130-g002.jpg"><?image-name EAP-35-e70130-g002.jpg?><?image-size 81470?><?image-md5 5a9cd7e5f094e1c779e78d90cf6f87ea?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 855?><?image-original-width 1064?><?image-scaled-height 570?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/5a9cd7e5f094/EAP-35-e70130-g002.jpg?><?thumb-name EAP-35-e70130-g002.gif?><?thumb-size 10442?><?thumb-md5 70cedd8db715e625dc8ce2518b2b186a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/70cedd8db715/EAP-35-e70130-g002.gif?></graphic></fig></sec><sec id="eap70130-sec-0009"><title>Phenology of risk</title><p>Fishes showed fluctuating patterns of critical decline risk throughout the year, despite critical decline risks being low overall (mean: 26.8%) (Figure <xref rid="eap70130-fig-0004" ref-type="fig">4</xref>). Moreover, taxa in regions at the high end of the salinity gradient (i.e., San Pablo Bay) often were at higher mean risk (San Pablo Bay = 28.3%) than those in lower salinity zones (Delta = 22.2%, Confluence = 20.9%, Suisun Bay = 19.6%). For monthly estimates of risk for all zooplankton taxa, see Appendix <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S10</xref>. We also modeled risk dynamics in the high‐salinity zones of the Central and South Bays and found high mean risk probabilities (Central 36.6%, South 32.1%, Appendix <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S9</xref>). However, as these regions do not have zooplankton monitoring, we excluded them from additional analysis. Notably, no species showed a negative association between monthly risk and abundance–the hypothesized pattern in which species have less risk of critical decline in the months that concentrate more of their relative abundance.</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Phenology of risk. Monthly risk that an age‐0 fish species would experience a 90% population decline for that month in each region. Points are scaled by percentage of mean annual catch. High abundance windows, that is, months that contain 80% of the mean annual catch–are in saturated tones while off‐window months are desaturated. Gaps indicate that a species often had zero abundance for that month and region and were thus not modeled.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="EAP-35-e70130-g004.jpg"><?image-name EAP-35-e70130-g004.jpg?><?image-size 131803?><?image-md5 f43a67b52b7a761486170f87147b1744?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1409?><?image-original-width 1064?><?image-scaled-height 939?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/f43a67b52b7a/EAP-35-e70130-g004.jpg?><?thumb-name EAP-35-e70130-g004.gif?><?thumb-size 11204?><?thumb-md5 c23a1396cb161284ba9b3b4581b7119f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 132?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/c23a1396cb16/EAP-35-e70130-g004.gif?></graphic></fig></sec><sec id="eap70130-sec-0010"><title>Implications for trophic dynamics in current and future scenarios</title><p>We found that critical decline risk was relatively low (mean 21.59%) when we examined paired predator–prey assemblages within their high abundance windows one time step into the future (Figure <xref rid="eap70130-fig-0005" ref-type="fig">5</xref>). Though individual zooplankton taxa showed variable patterns of risk in the near term, no fish predator showed significantly divergent decline risk than its corresponding prey assemblage. However, American Shad predator/prey assemblages showed differential patterns by region, with lower critical decline risks associated with San Pablo Bay (<italic toggle="yes">F</italic>
+<sub>3,4.629</sub>, <italic toggle="yes">p</italic> = 0.002).</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Mean critical decline risk of fish during their high abundance windows paired with the potential suite of zooplankton prey within that same window. Points represent probabilities calculated from maximum‐likelihood parameter estimates. Lower bound represents “best case scenario” wherein decline risks are calculated with the most positive population trend and lowest amount of process error variance. Upper bound represents “worst case scenario” calculated with the most negative population trend and highest amount of process error variance.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="EAP-35-e70130-g007.jpg"><?image-name EAP-35-e70130-g007.jpg?><?image-size 138085?><?image-md5 ab83ac7db85ca64fbdc1cc6b73c10418?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1075?><?image-original-width 1064?><?image-scaled-height 716?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/ab83ac7db85c/EAP-35-e70130-g007.jpg?><?thumb-name EAP-35-e70130-g007.gif?><?thumb-size 14293?><?thumb-md5 4afb9c826432c8d5b9614eb44a799077?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 101?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/4afb9c826432/EAP-35-e70130-g007.gif?></graphic></fig><p>Despite this “balanced” risk between fish and their prey currently, as we projected critical decline risk into the next decade, we found widespread divergence between fishes and their zooplankton prey across different regions of the estuary (<italic toggle="yes">F</italic>
+<sub>3,33.265</sub>, <italic toggle="yes">p</italic> &lt; 0.001 for the group by region interaction; see next section for community‐level trends). Among individual fishes, all except the Threadfin Shad displayed differential risk compared to their prey assemblages (Figure <xref rid="eap70130-fig-0006" ref-type="fig">6</xref>), but this often varied by region. Throughout the 10‐year projection, we also found strong regional differences in American Shad (<italic toggle="yes">F</italic>
+<sub>3,48.51</sub>, <italic toggle="yes">p</italic> &lt; 0.001), Northern Anchovy (<italic toggle="yes">F</italic>
+<sub>1,22.671</sub>, <italic toggle="yes">p</italic> &lt; 0.001), and Longfin Smelt food webs (<italic toggle="yes">F</italic>
+<sub>1,10.557</sub>, <italic toggle="yes">p</italic> = 0.001), as well as <italic toggle="yes">group</italic> by <italic toggle="yes">region</italic> interactions for all three of these fish predators (American Shad <italic toggle="yes">F</italic>
+<sub>3,8.321</sub>, <italic toggle="yes">p</italic> &lt; 0.001; Northern Anchovy <italic toggle="yes">F</italic>
+<sub>1,12.746</sub>, <italic toggle="yes">p</italic> = 0.02; Longfin Smelt <italic toggle="yes">F</italic>
+<sub>1,13.563</sub>, <italic toggle="yes">p</italic> &lt; 0.001). Overall, we saw support for our hypothesis that fishes display higher levels of risk than their zooplankton prey into the future, but these estuary‐level trends are a function of dynamics across all sub regions and predominantly driven by strong divergence in San Pablo Bay.</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Projection of critical decline risk 10 years into the future. We projected out 10 years from present for fish (solid line) in their high population window and the mean risk of their zooplankton prey assemblage (dashed line) during that same window. Bands represent the range between best case and worst case scenarios. Asterisks represent significant differences between fishes and zooplankton (American Shad, <italic toggle="yes">F</italic>
+<sub>1,8.721</sub>, <italic toggle="yes">p</italic> = 0.004; Threadfin Shad, <italic toggle="yes">F</italic>
+<sub>1,3.681</sub>, <italic toggle="yes">p</italic> = 0.057; Jack Silverside, <italic toggle="yes">F</italic>
+<sub>1,52.744</sub>, <italic toggle="yes">p</italic> &lt; 0.001; Pacific Herring, <italic toggle="yes">F</italic>
+<sub>1,19.192</sub>, <italic toggle="yes">p</italic> &lt; 0.01; Northern Anchovy, <italic toggle="yes">F</italic>
+<sub>1,22.016</sub>, <italic toggle="yes">p</italic> &lt; 0.001; Striped Bass, <italic toggle="yes">F</italic>
+<sub>1,22.117</sub>, <italic toggle="yes">p</italic> &lt; 0.001; Longfin Smelt, <italic toggle="yes">F</italic>
+<sub>1,10.652</sub>, <italic toggle="yes">p</italic> = 0.0015).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="EAP-35-e70130-g005.jpg"><?image-name EAP-35-e70130-g005.jpg?><?image-size 129589?><?image-md5 28a6b80d7b42088c92f4e48b4ca46a5c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1060?><?image-original-width 1064?><?image-scaled-height 706?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/28a6b80d7b42/EAP-35-e70130-g005.jpg?><?thumb-name EAP-35-e70130-g005.gif?><?thumb-size 14990?><?thumb-md5 70a06ac7ba37af6654e2641c1986b353?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 100?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/70a06ac7ba37/EAP-35-e70130-g005.gif?></graphic></fig></sec><sec id="eap70130-sec-0011"><title>Community‐scale observations</title><p>Divergences between fish and zooplankton critical decline risks also manifested at the community level, with zooplankton assemblages throughout the estuary having lower mean decline risk than fishes (<italic toggle="yes">F</italic>
+<sub>1,29.458</sub>, <italic toggle="yes">p</italic> &lt; 0.01). However, these differences are predominantly driven by patterns in San Pablo Bay (Region effect <italic toggle="yes">F</italic>
+<sub>3,57.025</sub>, <italic toggle="yes">p</italic> &lt; 0.001, Figure <xref rid="eap70130-fig-0007" ref-type="fig">7</xref>). Moreover, we found the rate of divergence in trends between groups was unique to each region of the estuary (<italic toggle="yes">F</italic>
+<sub>3,32.268</sub>, <italic toggle="yes">p</italic> = 0.006 for the <italic toggle="yes">group by region</italic> interaction), as well as unique to each predator/prey assemblage (<italic toggle="yes">F</italic>
+<sub>6,9.291</sub>, <italic toggle="yes">p</italic> &lt; 0.01 for <italic toggle="yes">fish predator identity</italic>). Despite the higher baseline critical decline risk in fish assemblages, uncertainty (i.e., the difference between risk from best case and worst case scenario projections) was higher for zooplankton relative to fish (<italic toggle="yes">F</italic>
+<sub>1,33.688</sub>, <italic toggle="yes">p</italic> &lt; 0.001) and accumulated differently between trophic groups (<italic toggle="yes">F</italic>
+<sub>1,11.054</sub>, <italic toggle="yes">p</italic> &lt; 0.001 for the <italic toggle="yes">group</italic> by <italic toggle="yes">time</italic> interaction). Moreover, uncertainty varied by <italic toggle="yes">region</italic> (<italic toggle="yes">F</italic>
+<sub>3,100.639</sub>, <italic toggle="yes">p</italic> &lt; 0.001), and <italic toggle="yes">groups</italic> in each <italic toggle="yes">region</italic> accumulated risk differentially through time (<italic toggle="yes">F</italic>
+<sub>3,7.763</sub>, <italic toggle="yes">p</italic> &lt; 0.001 for the triple interaction between <italic toggle="yes">group, time</italic>, and <italic toggle="yes">region</italic>). This interaction indicates that a wider range of critical decline outcomes are possible for zooplankton across the estuary. Overall, these results suggest that patterns of risk can scale up from individual predator/prey assemblages to the community level. However, local conditions—notably the salinity gradient—control how these patterns might manifest into the future. For additional exploration and visualization of our results, see the companion app “Fish‐Zooplankton Risk Explorer” <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://baydelta.shinyapps.io/Fish-Zooplankton-Risk-Explorer/" ext-link-type="uri">https://baydelta.shinyapps.io/Fish‐Zooplankton‐Risk‐Explorer/</ext-link>.</p><fig position="float" fig-type="FIGURE" id="eap70130-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Accumulation of community‐wide risk across regions of the estuary. We display mean decline risk for all predators (orange, solid line) and their paired prey assemblages (green, dashed line) in each region during high abundance windows projected out for 10 years. Individual taxa are represented by desaturated lines. Bands represent the mean range between best case and worst case scenarios (see <xref rid="eap70130-sec-0002" ref-type="sec">
+<italic toggle="yes">Methods</italic>
+</xref> for details).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="EAP-35-e70130-g006.jpg"><?image-name EAP-35-e70130-g006.jpg?><?image-size 101845?><?image-md5 3184f21bd010d91a00f0c0383e07c2d3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1299?><?image-original-width 1064?><?image-scaled-height 866?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/7094/12602011/3184f21bd010/EAP-35-e70130-g006.jpg?><?thumb-name EAP-35-e70130-g006.gif?><?thumb-size 11780?><?thumb-md5 d4a8b7fac3f6fc85ce6eab6b4d380cb8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 122?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7094/12602011/d4a8b7fac3f6/EAP-35-e70130-g006.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="eap70130-sec-0012"><title>DISCUSSION</title><p>Conservation scientists often quantify extinction risk to triage populations and prioritize the allocation of limited resources. However, these estimates often assume that decline risk is consistent within relatively small temporal and spatial scales (Coulson et al., <xref rid="eap70130-bib-0025" ref-type="bibr">2001</xref>). Moreover, PVAs are usually explored within the context of a single species and assessments of risk across food webs are comparatively rare (Sabo, <xref rid="eap70130-bib-0084" ref-type="bibr">2008</xref>). Here, we sought to evaluate how critical decline risk for age‐0 forage fishes and their potential prey varies throughout the year across the San Francisco Estuary. Both forage fishes and their zooplankton prey were characterized by periods of concentrated abundance within years, emphasizing the importance of considering decline risk at sub‐yearly scales. We found that many focal fish species showed negative population growth and that critical decline risk was variable across months within the first year of life. Additionally, we found that predator and prey decline risk diverged across a 10‐year projection, suggesting a potential for future trophic mismatches. However, these divergent patterns were most pronounced in one region of the estuary (San Pablo Bay), indicating that local environmental factors might drive disruptions to the food web. Our findings underscore the need to consider fine‐scale temporal and spatial variation in risk in estuarine taxa. The observed widening gaps in risk and uncertainty around risk between trophic levels advance the notion that phenological shifts and associated trophic mismatches are an emergent, yet largely underappreciated consequence of global change on ecological communities (Cohen et al., <xref rid="eap70130-bib-0022" ref-type="bibr">2018</xref>; Fournier et al., <xref rid="eap70130-bib-0035" ref-type="bibr">2024</xref>).</p><sec id="eap70130-sec-0013"><title>Widely declining fish population trajectories</title><p>There is growing evidence that the capacity of the San Francisco Estuary to support forage fish populations has substantially diminished in recent decades (Rosenfield &amp; Baxter, <xref rid="eap70130-bib-0081" ref-type="bibr">2007</xref>). The resulting pelagic organism decline has been marked by dramatic collapses in forage fish populations (Sommer et al., <xref rid="eap70130-bib-0092" ref-type="bibr">2007</xref>), and these declining abundances are reflected across our MAR models (Figure <xref rid="eap70130-fig-0003" ref-type="fig">3</xref>). Previous applications of time series modeling in this system have identified strong negative trends at the population level driven by a variety of environmental factors, including water clarity and the variable position of the 2‰ isohaline zone, <italic toggle="yes">X</italic>
+<sub>2</sub> (Mac Nally et al., <xref rid="eap70130-bib-0064" ref-type="bibr">2010</xref>). Understanding the causes and consequences of these declines requires linking abundance trends to probabilistic estimates of extinction outcomes.</p><p>Our critical decline risk calculations are based on two primary measures of population dynamics: intrinsic growth rates and process‐driven variability. Over half of all fish time series (56.8%) displayed negative intrinsic growth rates, commonly resulting in increased critical decline risk—a high near‐term probability that the species will no longer be present, that month, in that region of the estuary. Notably, the Longfin Smelt, a native osmerid that was historically abundant in the San Francisco Estuary (Tempel et al., <xref rid="eap70130-bib-0096" ref-type="bibr">2021</xref>), exhibited nearly ubiquitous patterns of negative growth across regions and months (Figure <xref rid="eap70130-fig-0003" ref-type="fig">3</xref>). Declines of Longfin Smelt are well established (Nobriga &amp; Rosenfield, <xref rid="eap70130-bib-0110" ref-type="bibr">2016</xref>), and habitat degradation and successive recruitment failures have led to its recent Federal listing under the Endangered Species Act (USFWS, <xref rid="eap70130-bib-0099" ref-type="bibr">2024</xref>). In this case, the strongly negative growth rates identified by our models likely drive the observed patterns of critical decline risk. Conversely, taxa with highly variable population dynamics can still exhibit high decline risk even with positive growth trends. For instance, the Northern Anchovy often maintained positive growth rates but did so in a highly variable manner (Figure <xref rid="eap70130-fig-0003" ref-type="fig">3</xref>). This predominantly marine species opportunistically uses estuarine habitats (Allen et al., <xref rid="eap70130-bib-0002" ref-type="bibr">2006</xref>). Populations tend to show boom‐and‐bust dynamics, with recruitment often tied to lower delta outflow, and juvenile abundance positively correlating with drought conditions that increase system salinity (Colombano et al., <xref rid="eap70130-bib-0023" ref-type="bibr">2022</xref>). A strong reliance on environmental stochasticity to maintain abundance levels is reflected in high population variance, increasing the likelihood of a critical decline event. Overall, both the overall negative growth rates and high population variance identified by our time series models illustrate an assemblage in flux.</p></sec><sec id="eap70130-sec-0014"><title>Phenology of risk</title><p>Fish recruitment to adult life stages (and fisheries) is often highly sensitive to fluctuations in early life survivorship (Fournier et al., <xref rid="eap70130-bib-0034" ref-type="bibr">2021</xref>; Hjort, <xref rid="eap70130-bib-0042" ref-type="bibr">1914</xref>; Winemiller &amp; Rose, <xref rid="eap70130-bib-0105" ref-type="bibr">1992</xref>), and our models revealed that age‐0 critical decline risk was not uniform across months. The dynamic environmental conditions of estuaries can disproportionately impact juvenile fishes that rear in these nursery habitats (Jenkins et al., <xref rid="eap70130-bib-0052" ref-type="bibr">2022</xref>; Morrongiello et al., <xref rid="eap70130-bib-0067" ref-type="bibr">2014</xref>). For example, seasonal changes in delta outflow and salinity can alter resource availability during key growth periods (Reis et al., <xref rid="eap70130-bib-0078" ref-type="bibr">2019</xref>). Additionally, widespread anthropogenic alteration of breeding and rearing habitats throughout the San Francisco Estuary has negatively affected early life stages of estuarine fishes (Cloern &amp; Jassby, <xref rid="eap70130-bib-0021" ref-type="bibr">2012</xref>). Despite our expectation that critical decline risk would be higher during months with historically low abundances, we did not observe that pattern and found that critical decline risk was similar across high abundance and low abundance windows for age‐0 fishes. Low juvenile survivorship is often offset by increased fecundity, which helps to buffer mortality (Winemiller &amp; Rose, <xref rid="eap70130-bib-0106" ref-type="bibr">1993</xref>) and likely explains the observed risk patterns. Moreover, density‐dependent resource exploitation during high abundance windows might affect population performance more acutely than density‐independent factors in other parts of the growth season (DeAngelis et al., <xref rid="eap70130-bib-0027" ref-type="bibr">1993</xref>).</p><p>Spawning and hatching are key phenological events, the timing of which tends to be highly sensitive to environmental change (Hovel et al., <xref rid="eap70130-bib-0046" ref-type="bibr">2017</xref>; Lawrence et al., <xref rid="eap70130-bib-0063" ref-type="bibr">1997</xref>). Our analyses and risk estimates focused on these high abundance windows. If environmental conditions during these periods become unsuitable, estuarine taxa might respond by advancing or delaying their phenology (Asch et al., <xref rid="eap70130-bib-0003" ref-type="bibr">2019</xref>; Chevillot et al., <xref rid="eap70130-bib-0019" ref-type="bibr">2017</xref>). However, estuarine fishes might be limited in their abilities to phenologically track changing environmental conditions long‐term (Fournier et al., <xref rid="eap70130-bib-0035" ref-type="bibr">2024</xref>). Moreover, desynchronization between a population and its key resource base can destabilize food webs (Stenseth &amp; Mysterud, <xref rid="eap70130-bib-0094" ref-type="bibr">2002</xref>; Zhemchuzhnikov et al., <xref rid="eap70130-bib-0108" ref-type="bibr">2021</xref>). Our results highlight the need to closely monitor decline risk during the key periods when a species is present, as assuming risk consistency could mislead managers to overlook potentially impactful moments of heightened risk.</p></sec><sec id="eap70130-sec-0015"><title>A widening gap in risk, and risk uncertainty, between fishes and their prey</title><p>While PVA are generally considered within single species contexts, we sought to pair fish predators with their potential prey assemblage during important phenological windows. Though near‐term patterns of decline risk were similar between predators and their prey, we observed that risk diverged when considering a 10‐year time horizon. Predators and prey often fluctuate together in lagged cycles (Chesson, <xref rid="eap70130-bib-0018" ref-type="bibr">1978</xref>) and typically reach equilibrium over evolutionary timescales (Smith &amp; Slatkin, <xref rid="eap70130-bib-0091" ref-type="bibr">1973</xref>). While predictable disturbances can stabilize trophic interactions (Vasseur &amp; Fox, <xref rid="eap70130-bib-0101" ref-type="bibr">2009</xref>), strong environmental fluctuations driven by global change might disrupt these relationships (Bretagnolle &amp; Gillis, <xref rid="eap70130-bib-0011" ref-type="bibr">2010</xref>). Additionally, phenological shifts that decouple historically synchronous species can cause trophic mismatches that destabilize food webs (Thakur, <xref rid="eap70130-bib-0098" ref-type="bibr">2020</xref>; Varpe &amp; Fiksen, <xref rid="eap70130-bib-0100" ref-type="bibr">2010</xref>), and phenological trends between estuarine predators and prey could be diverging (Fournier et al., <xref rid="eap70130-bib-0035" ref-type="bibr">2024</xref>).</p><p>Our projections indicated that fishes often exhibited higher rates of decline than their prey over a 10‐year period. If predators are extirpated during key phenological windows while their prey persist, the resulting trophic release of zooplankton taxa might increase the likelihood of harmful algal blooms directly (depending on the zooplankter) or indirectly through cascading phytoplankton release (Jachowski et al., <xref rid="eap70130-bib-0051" ref-type="bibr">2020</xref>). Conversely, Striped Bass, a non‐native but well‐established species in the San Francisco Estuary, often showed lower critical decline risk than the prey taxa it consumes. Despite its high diet adaptability (Young et al., <xref rid="eap70130-bib-0107" ref-type="bibr">2022</xref>), significant declines in prey assemblages during key phenological periods might still result in population declines (Nobriga &amp; Feyrer, <xref rid="eap70130-bib-0068" ref-type="bibr">2008</xref>). Indeed, altered patterns of prey availability are thought to be a significant driver of the estuary's POD (Sommer et al., <xref rid="eap70130-bib-0092" ref-type="bibr">2007</xref>). Importantly, we observed different levels of risk uncertainty (i.e., the difference between best case and worst case scenarios) between fishes and zooplankton throughout the estuary. In general, zooplankton exhibited a wider range of possible trajectories than fishes. The fast generation times and boom‐and‐bust cycles characteristic of many zooplankton taxa, including the widespread genera examined in our model, complicate precise estimates of decline risk (Lane, <xref rid="eap70130-bib-0060" ref-type="bibr">1975</xref>). Moreover, biotic controls on plankton populations not assessed by our models (e.g., grazing pressure by invasive bivalves, Nichols et al., <xref rid="eap70130-bib-0013" ref-type="bibr">1990</xref>) might further destabilize zooplankton prey pools. Thus, while the aggregate stability of the assemblage might facilitate prey‐switching (Potts et al., <xref rid="eap70130-bib-0075" ref-type="bibr">2016</xref>), large‐scale collapses predicted by our “worst case” models would likely destabilize whole food webs.</p><p>In our study, we found that the strongly divergent trends (i.e., “widening risk gaps” between fishes and their prey) occurred in a single region of the estuary, San Pablo Bay. This region is near the Pacific Ocean and has the highest salinity levels in the study area. Consequently, long‐term droughts that shift the salinity gradient upriver, coupled with the influence of recent marine heatwaves, might make this region especially vulnerable to hydroclimatic fluctuations (Sanford et al., <xref rid="eap70130-bib-0085" ref-type="bibr">2019</xref>). As fishes and plankton have variable tolerances to environmental conditions such as increased temperature or salinity (Beitinger et al., <xref rid="eap70130-bib-0009" ref-type="bibr">2000</xref>; Qasim et al., <xref rid="eap70130-bib-0076" ref-type="bibr">1972</xref>), harsher conditions in this region might differentially influence decline risk. Although individual taxa might display variable levels of risk, a diversity of trends might promote community‐level stability (Ovaskainen et al., <xref rid="eap70130-bib-0071" ref-type="bibr">2013</xref>). At the estuary‐wide scale, the taxonomic richness of forage fishes appears to facilitate portfolio effects that enhance community resilience despite declines of individual taxa (Colombano et al., <xref rid="eap70130-bib-0023" ref-type="bibr">2022</xref>). Additionally, spatial insurance may allow individual subregions to bolster the metapopulation when local conditions become unsuitable elsewhere. Indeed, previous time series analyses have been used to infer metapopulation structure and identify subpopulations that disproportionately impact regional decline risk (Sarremejane et al., <xref rid="eap70130-bib-0086" ref-type="bibr">2021</xref>; Ward et al., <xref rid="eap70130-bib-0103" ref-type="bibr">2010</xref>). Similarly, except for Striped Bass, the divergent patterns we observed in San Pablo Bay appear to be localized, as other subregions throughout the estuary show similar risk for fishes and their prey. Thus, management strategies that either mitigate risk in San Pablo Bay, or enhance the capacity of other subregions to serve as refuge habitats, might confer food‐web stability throughout the region.</p></sec><sec id="eap70130-sec-0016"><title>Limitations and future directions</title><p>The increasing availability of biological monitoring data makes time series‐based approaches a suitable alternative to traditional, mechanistic PVA (Chaudhary &amp; Oli, <xref rid="eap70130-bib-0017" ref-type="bibr">2020</xref>; Holmes et al., <xref rid="eap70130-bib-0044" ref-type="bibr">2007</xref>). Here, we leveraged long‐term monitoring data for age‐0 forage fishes and their zooplankton prey in the San Francisco Estuary to assess critical decline risk across multiple scenarios. Nonetheless, these methodologies have limitations. First, we explored sub‐annual trends by breaking the time series into its constituent months. While this fine‐scale analysis revealed when in a given season a particular fish may be more likely to disappear, this approach assumes that seasonal patterns remain consistent across years—an assumption that does not account for the high interannual variability in estuaries. Other commonly used parametric time series approaches, such as MAR/MARSS models with seasonal fixed effects or seasonal ARIMAs, would face similar limitations, as they also assume seasonal stationarity. More flexible methods, such as time‐frequency approaches (e.g., wavelets) or nonparametric models (e.g., GAMs), could address this issue but come with trade‐offs. For instance, wavelet approaches would require vastly higher frequency sampling than biomonitoring programs (like those we used) provide, and nonparametric models tend to lack the process‐based parameters needed for PVA. Another key consideration is that our month‐specific approach effectively partitions a single time series into 12 separate series, thereby limiting the influence of temporal autocorrelation. Similar strategies are commonly applied in hydrology and other physical sciences to understand whether particular months or seasons are more sensitive to environmental processes (Chalise et al., <xref rid="eap70130-bib-0016" ref-type="bibr">2021</xref>; Cloern, <xref rid="eap70130-bib-0020" ref-type="bibr">2019</xref>; Testa et al., <xref rid="eap70130-bib-0097" ref-type="bibr">2018</xref>). Given that estuarine systems respond dynamically to environmental drivers, methods that allow for seasonal flexibility in ecological processes are appropriate. Second, our critical decline metrics might be inflated because they are derived solely from process error while observation error is not assessed (Knape &amp; de Valpine, <xref rid="eap70130-bib-0057" ref-type="bibr">2011</xref>). However, these estimates remain valuable because our modeling approach predominantly examines trend divergence over the absolute magnitude of risk to ameliorate any potential bias inconsistency across fish species and their potential prey (but see Appendix <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S1</xref>: Section <xref rid="eap70130-supitem-0001" ref-type="supplementary-material">S2</xref>). Furthermore, the probability of not detecting a species in a given month (i.e., “extinction” from an observation standpoint) is still critical, as it may prompt management and conservation actions, even if the species was not detected due to imperfect observation rather than true absence (e.g., Delta Smelt, Rose et al., <xref rid="eap70130-bib-0080" ref-type="bibr">2013</xref>). Third, direct biotic interactions are difficult to estimate. We sought to ameliorate this shortcoming by calculating average risk of prey within phenological windows bespoke to each fish species. However, these indirect methods might not fully assess increases in decline risk due to prey availability and altered prey pools are predicted to influence pelagic organism population collapses (Cloern &amp; Jassby, <xref rid="eap70130-bib-0021" ref-type="bibr">2012</xref>; Sommer et al., <xref rid="eap70130-bib-0092" ref-type="bibr">2007</xref>). The age‐0 fishes included in our models are capable of consuming many of the common zooplankton prey species found within the estuary (Howe et al., <xref rid="eap70130-bib-0047" ref-type="bibr">2014</xref>; Jungbluth et al., <xref rid="eap70130-bib-0054" ref-type="bibr">2021</xref>; Nobriga &amp; Feyrer, <xref rid="eap70130-bib-0068" ref-type="bibr">2008</xref>). Though these species might exhibit varying levels of prey selectivity among the zooplankton in our models (Nobriga &amp; Feyrer, <xref rid="eap70130-bib-0068" ref-type="bibr">2008</xref>), high‐resolution diet data were not available for all fish species. Thus, we did not make any assumptions about prey preferences. While this approach suffices to quantify mismatch potential, further studies directly linking predators and their specific prey by assessing species‐specific predator preferences and prey vulnerability would greatly improve our ability to constrain realized (as opposed to potential) trophic mismatches. Finally, our models examined spatial dynamics by assessing decline risk at subregional scales. In doing so, we found that San Pablo Bay has elevated mismatch risk relative to other regions of the estuary. As migration through the estuary is common for many of our focal taxa, explicit examinations of metapopulation structure might enhance our understanding of whole‐estuary ecological dynamics.</p></sec><sec id="eap70130-sec-0017"><title>Concluding remarks</title><p>The richness and complex life cycles of estuarine biota often complicate management and conservation efforts in these dynamic ecosystems (Jha et al., <xref rid="eap70130-bib-0053" ref-type="bibr">2008</xref>; Lauchlan &amp; Nagelkerken, <xref rid="eap70130-bib-0062" ref-type="bibr">2020</xref>). Here, we used a novel quantitative approach to estimate critical decline risk in a community context. Contrary to what is typically assumed, we found that even within a given species and life stage, critical decline risk can be highly variable across months of the year–suggesting high potential for climate‐induced trophic mismatches (Visser, <xref rid="eap70130-bib-0102" ref-type="bibr">2022</xref>). Because predator–prey dynamics and food limitation have been linked to the ongoing fish population declines in the San Francisco Estuary (Baxter et al., <xref rid="eap70130-bib-0007" ref-type="bibr">2008</xref>; Cloern &amp; Jassby, <xref rid="eap70130-bib-0021" ref-type="bibr">2012</xref>), our results are directly relevant to conservation efforts in this system. Notably, our approach could be transferred to other estuaries with similar long‐term datasets on species abundances across trophic levels. A more robust understanding of fine‐scale temporal dynamics within food webs should help design more effective conservation strategies for vulnerable populations undergoing climate‐change‐induced phenological shifts.</p></sec></sec><sec sec-type="COI-statement" id="eap70130-sec-0021"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="eap70130-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Appendix S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EAP-35-e70130-s001.pdf" position="float" orientation="portrait"><?suppdata-name EAP-35-e70130-s001.pdf?><?suppdata-size 4582899?><?suppdata-md5 7e5239cc6778e33906ef46200ae9e3be?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:7094/12602011/7e5239cc6778/EAP-35-e70130-s001.pdf?></media></supplementary-material></sec></body><back><ack id="eap70130-sec-0018"><title>ACKNOWLEDGMENTS</title><p>We thank Denise Colombano (Delta Stewardship Council), Noah Knowles (USGS), and Lisa Lucas (USGS) for providing insight on the ecological dynamics of the San Francisco Estuary. We thank the many field personnel who collected the data for each monitoring program (CDFW Bay Study, IEP Environmental Monitoring Program). Funding for this work was provided by the California Department of Fish and Wildlife grant award Q2196006, “Climate‐driven food web mismatches in the San Francisco Estuary.”</p></ack><sec sec-type="data-availability" id="eap70130-sec-0020"><title>DATA AVAILABILITY STATEMENT</title><p>Data and metadata (Fournier et al., <xref rid="eap70130-bib-0032" ref-type="bibr">2025a</xref>) are available in Dryad at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5061/dryad.4j0zpc8nd" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.4j0zpc8nd</ext-link>. Code (Fournier et al., <xref rid="eap70130-bib-0033" ref-type="bibr">2025b</xref>) is available in Zenodo at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.13800013" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.13800013</ext-link>. Raw abundance time series data (CDFW Bay Study and IEP Environmental Monitoring Program Zooplankton Study) were accessed via the California Department of Fish and Wildlife and California Department of Water Resources. For additional exploration and visualization of the results, see the companion app “Fish‐Zooplankton Risk Explorer” at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://baydelta.shinyapps.io/Fish-Zooplankton-Risk-Explorer/" ext-link-type="uri">https://baydelta.shinyapps.io/Fish‐Zooplankton‐Risk‐Explorer/</ext-link>.</p></sec><ref-list id="eap70130-bibl-0001" content-type="cited-references"><title>REFERENCES</title><ref id="eap70130-bib-0001"><mixed-citation publication-type="journal" id="eap70130-cit-0001">
+<string-name name-style="western">
+<surname>Akçakaya</surname>, <given-names>H. R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Sjögren‐Gulve</surname>
+</string-name>. <year>2000</year>. “<article-title>Population Viability Analyses in Conservation Planning: An Overview</article-title>.” <source>Ecological Bulletins</source>: <fpage>9</fpage>–<lpage>21</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0002"><mixed-citation publication-type="book" id="eap70130-cit-0002">
+<string-name name-style="western">
+<surname>Allen</surname>, <given-names>L. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Pondella</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Horn</surname>
+</string-name>. <year>2006</year>. <source>The Ecology of Marine Fishes: California and Adjacent Waters</source>. <publisher-loc>Oakland, CA</publisher-loc>: <publisher-name>University of California Press</publisher-name>.</mixed-citation></ref><ref id="eap70130-bib-0003"><mixed-citation publication-type="journal" id="eap70130-cit-0003">
+<string-name name-style="western">
+<surname>Asch</surname>, <given-names>R. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Stock</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Sarmiento</surname>
+</string-name>. <year>2019</year>. “<article-title>Climate Change Impacts on Mismatches between Phytoplankton Blooms and Fish Spawning Phenology</article-title>.” <source>Global Change Biology</source>
+<volume>25</volume>(<issue>8</issue>): <fpage>2544</fpage>–<lpage>2559</lpage>.<pub-id pub-id-type="pmid">31152499</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.14650</pub-id></mixed-citation></ref><ref id="eap70130-bib-0004"><mixed-citation publication-type="journal" id="eap70130-cit-0004">
+<string-name name-style="western">
+<surname>Barbier</surname>, <given-names>E. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Hacker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Kennedy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. W.</given-names>
+<surname>Koch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Stier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. R.</given-names>
+<surname>Silliman</surname>
+</string-name>. <year>2011</year>. “<article-title>The Value of Estuarine and Coastal Ecosystem Services</article-title>.” <source>Ecological Monographs</source>
+<volume>81</volume>(<issue>2</issue>): <fpage>169</fpage>–<lpage>193</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0005"><mixed-citation publication-type="journal" id="eap70130-cit-0005">
+<string-name name-style="western">
+<surname>Barros</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hartman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Bashevkin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Burdi</surname>
+</string-name>. <year>2024</year>. “<article-title>Years of Drought and Salt: Decreasing Flows Determine the Distribution of Zooplankton Resources in the San Francisco Estuary</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>22</volume>(<issue>1</issue>).</mixed-citation></ref><ref id="eap70130-bib-0006"><mixed-citation publication-type="journal" id="eap70130-cit-0006">
+<string-name name-style="western">
+<surname>Bashevkin</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Mahardja</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Brown</surname>
+</string-name>. <year>2022</year>. “<article-title>Warming in the Upper San Francisco Estuary: Patterns of Water Temperature Change from Five Decades of Data</article-title>.” <source>Limnology and Oceanography</source>
+<volume>67</volume>(<issue>5</issue>): <fpage>1065</fpage>–<lpage>1080</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0007"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0007">
+<string-name name-style="western">
+<surname>Baxter</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Breuer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chotkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Feyrer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gingras</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Herbold</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mueller‐Solger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nobriga</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sommer</surname>
+</string-name>. <year>2008</year>. <article-title>“Pelagic Organism Decline Progress Report: 2007 Synthesis of Results.”</article-title> Interagency Ecological Program for the San Francisco Estuary.</mixed-citation></ref><ref id="eap70130-bib-0008"><mixed-citation publication-type="journal" id="eap70130-cit-0008">
+<string-name name-style="western">
+<surname>Beck</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Heck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Able</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Childers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. B.</given-names>
+<surname>Eggleston</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Gillanders</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Halpern</surname>
+</string-name>, et al. <year>2001</year>. “<article-title>The Identification, Conservation, and Management of Estuarine and Marine Nurseries for Fish and Invertebrates: A Better Understanding of the Habitats that Serve as Nurseries for Marine Species and the Factors that Create Site‐Specific Variability in Nursery Quality Will Improve Conservation and Management of these Areas</article-title>.” <source>Bioscience</source>
+<volume>51</volume>(<issue>8</issue>): <fpage>633</fpage>–<lpage>641</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0009"><mixed-citation publication-type="journal" id="eap70130-cit-0009">
+<string-name name-style="western">
+<surname>Beitinger</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Bennett</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. W.</given-names>
+<surname>McCauley</surname>
+</string-name>. <year>2000</year>. “<article-title>Temperature Tolerances of North American Freshwater Fishes Exposed to Dynamic Changes in Temperature</article-title>.” <source>Environmental Biology of Fishes</source>
+<volume>58</volume>: <fpage>237</fpage>–<lpage>275</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0010"><mixed-citation publication-type="journal" id="eap70130-cit-0010">
+<string-name name-style="western">
+<surname>Bogner</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Kaemingk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Wuellner</surname>
+</string-name>. <year>2016</year>. “<article-title>Consequences of Hatch Phenology on Stages of Fish Recruitment</article-title>.” <source>PLoS One</source>
+<volume>11</volume>(<issue>10</issue>): <elocation-id>e0164980</elocation-id>.<pub-id pub-id-type="pmid">27764216</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0164980</pub-id><pub-id pub-id-type="pmcid">PMC5072656</pub-id></mixed-citation></ref><ref id="eap70130-bib-0011"><mixed-citation publication-type="journal" id="eap70130-cit-0011">
+<string-name name-style="western">
+<surname>Bretagnolle</surname>, <given-names>V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Gillis</surname>
+</string-name>. <year>2010</year>. “<article-title>Predator–Prey Interactions and Climate Change</article-title>.” <source>Effects of Climate Change on Birds</source>: <fpage>227</fpage>–<lpage>248</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0012"><mixed-citation publication-type="journal" id="eap70130-cit-0012">
+<string-name name-style="western">
+<surname>Cai</surname>, <given-names>W.‐J.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>Estuarine and Coastal Ocean Carbon Paradox: CO<sub>2</sub> Sinks or Sites of Terrestrial Carbon Incineration?</article-title>” <source>Annual Review of Marine Science</source>
+<volume>3</volume>(<issue>1</issue>): <fpage>123</fpage>–<lpage>145</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-marine-120709-142723</pub-id><pub-id pub-id-type="pmid">21329201</pub-id></mixed-citation></ref><ref id="eap70130-bib-0014"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0014">
+<collab collab-type="authors">CDFW</collab>
+. <year>2024</year>. <article-title>“California Department of Fish and Wildlife San Francisco Bay study: Long‐Term Fish and Water Quality Monitoring Data.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://filelib.wildlife.ca.gov/Public/BayStudy/" ext-link-type="uri">https://filelib.wildlife.ca.gov/Public/BayStudy/</ext-link>
+</mixed-citation></ref><ref id="eap70130-bib-0015"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0015">
+<collab collab-type="authors">CDWR</collab>
+. <year>2024</year>. <article-title>“Interagency Ecological Monitoring Program.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://iep.ca.gov/Science-Synthesis-Service/Monitoring-Programs/EMP" ext-link-type="uri">https://iep.ca.gov/Science-Synthesis-Service/Monitoring-Programs/EMP</ext-link>
+</mixed-citation></ref><ref id="eap70130-bib-0016"><mixed-citation publication-type="journal" id="eap70130-cit-0016">
+<string-name name-style="western">
+<surname>Chalise</surname>, <given-names>D. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sankarasubramanian</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2021</year>. “<article-title>Dams and Climate Interact to Alter River Flow Regimes across the United States</article-title>.” <source>Earth's Future</source>
+<volume>9</volume>(<issue>4</issue>): <elocation-id>e2020EF001816</elocation-id>.</mixed-citation></ref><ref id="eap70130-bib-0017"><mixed-citation publication-type="journal" id="eap70130-cit-0017">
+<string-name name-style="western">
+<surname>Chaudhary</surname>, <given-names>V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. K.</given-names>
+<surname>Oli</surname>
+</string-name>. <year>2020</year>. “<article-title>A Critical Appraisal of Population Viability Analysis</article-title>.” <source>Conservation Biology</source>
+<volume>34</volume>(<issue>1</issue>): <fpage>26</fpage>–<lpage>40</lpage>.<pub-id pub-id-type="pmid">31435956</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.13414</pub-id></mixed-citation></ref><ref id="eap70130-bib-0018"><mixed-citation publication-type="journal" id="eap70130-cit-0018">
+<string-name name-style="western">
+<surname>Chesson</surname>, <given-names>P.</given-names>
+</string-name>
+<year>1978</year>. “<article-title>Predator‐Prey Theory and Variability</article-title>.” <source>Annual Review of Ecology and Systematics</source>
+<volume>9</volume>: <fpage>323</fpage>–<lpage>347</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0019"><mixed-citation publication-type="journal" id="eap70130-cit-0019">
+<string-name name-style="western">
+<surname>Chevillot</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Drouineau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Lambert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Carassou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Sautour</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lobry</surname>
+</string-name>. <year>2017</year>. “<article-title>Toward a Phenological Mismatch in Estuarine Pelagic Food Web?</article-title>” <source>PLoS One</source>
+<volume>12</volume>(<issue>3</issue>): <elocation-id>0173752</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0173752</pub-id><pub-id pub-id-type="pmcid">PMC5371289</pub-id><pub-id pub-id-type="pmid">28355281</pub-id></mixed-citation></ref><ref id="eap70130-bib-0020"><mixed-citation publication-type="journal" id="eap70130-cit-0020">
+<string-name name-style="western">
+<surname>Cloern</surname>, <given-names>J. E.</given-names>
+</string-name>
+<year>2019</year>. “<article-title>Patterns, Pace, and Processes of Water‐Quality Variability in a Long‐Studied Estuary</article-title>.” <source>Limnology and Oceanography</source>
+<volume>64</volume>(<issue>S1</issue>): <fpage>S192</fpage>–<lpage>S208</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0021"><mixed-citation publication-type="journal" id="eap70130-cit-0021">
+<string-name name-style="western">
+<surname>Cloern</surname>, <given-names>J. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Jassby</surname>
+</string-name>. <year>2012</year>. “<article-title>Drivers of Change in Estuarine‐Coastal Ecosystems: Discoveries from Four Decades of Study in San Francisco Bay</article-title>.” <source>Reviews of Geophysics</source>
+<volume>50</volume>(<issue>4</issue>).</mixed-citation></ref><ref id="eap70130-bib-0022"><mixed-citation publication-type="journal" id="eap70130-cit-0022">
+<string-name name-style="western">
+<surname>Cohen</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Lajeunesse</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Rohr</surname>
+</string-name>. <year>2018</year>. “<article-title>A Global Synthesis of Animal Phenological Responses to Climate Change</article-title>.” <source>Nature Climate Change</source>
+<volume>8</volume>(<issue>3</issue>): <fpage>224</fpage>–<lpage>228</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0023"><mixed-citation publication-type="journal" id="eap70130-cit-0023">
+<string-name name-style="western">
+<surname>Colombano</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Carlson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Hobbs</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2022</year>. “<article-title>Four Decades of Climatic Fluctuations and Fish Recruitment Stability across a Marine‐Freshwater Gradient</article-title>.” <source>Global Change Biology</source>
+<volume>28</volume>(<issue>17</issue>): <fpage>5104</fpage>–<lpage>5120</lpage>.<pub-id pub-id-type="pmid">35583053</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.16266</pub-id><pub-id pub-id-type="pmcid">PMC9545339</pub-id></mixed-citation></ref><ref id="eap70130-bib-0024"><mixed-citation publication-type="journal" id="eap70130-cit-0024">
+<string-name name-style="western">
+<surname>Colombano</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Manfree</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. O.</given-names>
+<surname>Teejay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Durand</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Moyle</surname>
+</string-name>. <year>2020</year>. “<article-title>Estuarine‐Terrestrial Habitat Gradients Enhance Nursery Function for Resident and Transient Fishes in the San Francisco Estuary</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>637</volume>: <fpage>141</fpage>–<lpage>157</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0025"><mixed-citation publication-type="journal" id="eap70130-cit-0025">
+<string-name name-style="western">
+<surname>Coulson</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>Mace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Hudson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Possingham</surname>
+</string-name>. <year>2001</year>. “<article-title>The Use and Abuse of Population Viability Analysis</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>16</volume>(<issue>5</issue>): <fpage>219</fpage>–<lpage>221</lpage>.<pub-id pub-id-type="pmid">11301139</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0169-5347(01)02137-1</pub-id></mixed-citation></ref><ref id="eap70130-bib-0026"><mixed-citation publication-type="journal" id="eap70130-cit-0026">
+<string-name name-style="western">
+<surname>Daly</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Filmalter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Peel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. Q.</given-names>
+<surname>Mann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lea</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Clarke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. D.</given-names>
+<surname>Cowley</surname>
+</string-name>. <year>2021</year>. “<article-title>Ontogenetic Shifts in Home Range Size of a Top Predatory Reef‐Associated Fish (<italic toggle="yes">Caranx ignobilis</italic>): Implications for Conservation</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>664</volume>: <fpage>165</fpage>–<lpage>182</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0027"><mixed-citation publication-type="journal" id="eap70130-cit-0027">
+<string-name name-style="western">
+<surname>DeAngelis</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shuter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ridgway</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Scheffer</surname>
+</string-name>. <year>1993</year>. “<article-title>Modeling Growth and Survival in an Age‐0 Fish Cohort</article-title>.” <source>Transactions of the American Fisheries Society</source>
+<volume>122</volume>(<issue>5</issue>): <fpage>927</fpage>–<lpage>941</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0028"><mixed-citation publication-type="journal" id="eap70130-cit-0028">
+<string-name name-style="western">
+<surname>Dennis</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Munholland</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Scott</surname>
+</string-name>. <year>1991</year>. “<article-title>Estimation of Growth and Extinction Parameters for Endangered Species</article-title>.” <source>Ecological Monographs</source>
+<volume>61</volume>(<issue>2</issue>): <fpage>115</fpage>–<lpage>143</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0029"><mixed-citation publication-type="journal" id="eap70130-cit-0029">
+<string-name name-style="western">
+<surname>Fagan</surname>, <given-names>W. F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Holmes</surname>
+</string-name>. <year>2006</year>. “<article-title>Quantifying the Extinction Vortex</article-title>.” <source>Ecology Letters</source>
+<volume>9</volume>(<issue>1</issue>): <fpage>51</fpage>–<lpage>60</lpage>.<pub-id pub-id-type="pmid">16958868</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1461-0248.2005.00845.x</pub-id></mixed-citation></ref><ref id="eap70130-bib-0111"><mixed-citation publication-type="journal" id="eap70130-cit-0111">
+<string-name name-style="western">
+<surname>Feyrer</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Herbold</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Matern</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Moyle</surname>
+</string-name>. <year>2003</year>. “<article-title>Dietary Shifts in a Stressed Fish Assemblage: Consequences of a Bivalve Invasion in the San Francisco Estuary</article-title>.” <source>Environmental Biology of Fishes</source>
+<volume>67</volume>(<issue>3</issue>): <fpage>277</fpage>–<lpage>288</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0112"><mixed-citation publication-type="journal" id="eap70130-cit-0112">
+<string-name name-style="western">
+<surname>Feyrer</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Nobriga</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. R.</given-names>
+<surname>Sommer</surname>
+</string-name>. <year>2007</year>. “<article-title>Multidecadal Trends for Three Declining Fish Species: Habitat Patterns and Mechanisms in the San Francisco Estuary, California, USA</article-title>.” <source>Canadian Journal of Fisheries and Aquatic Sciences</source>
+<volume>64</volume>(<issue>4</issue>): <fpage>723</fpage>–<lpage>734</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0031"><mixed-citation publication-type="journal" id="eap70130-cit-0031">
+<string-name name-style="western">
+<surname>Fieberg</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Ellner</surname>
+</string-name>. <year>2000</year>. “<article-title>When Is It Meaningful to Estimate an Extinction Probability?</article-title>” <source>Ecology</source>
+<volume>81</volume>(<issue>7</issue>): <fpage>2040</fpage>–<lpage>2047</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0032"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0032">
+<string-name name-style="western">
+<surname>Fournier</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Marino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Carlson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2025a</year>. <article-title>“Phenology‐Informed Decline Risk of Estuarine Fishes and Their Prey Suggests Potential for Future Trophic Mismatches [Dataset].”</article-title> Dryad. <pub-id pub-id-type="doi">10.5061/dryad.4j0zpc8nd</pub-id>
+<pub-id pub-id-type="pmid">41213275</pub-id></mixed-citation></ref><ref id="eap70130-bib-0033"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0033">
+<string-name name-style="western">
+<surname>Fournier</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Marino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Carlson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2025b</year>. <article-title>“Phenology‐Informed Decline Risk of Estuarine Fishes and Their Prey Suggests Potential for Future Trophic Mismatches.”</article-title> Zenodo. <pub-id pub-id-type="doi">10.5281/zenodo.13800013</pub-id>
+<pub-id pub-id-type="pmid">41213275</pub-id></mixed-citation></ref><ref id="eap70130-bib-0034"><mixed-citation publication-type="journal" id="eap70130-cit-0034">
+<string-name name-style="western">
+<surname>Fournier</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. R.</given-names>
+<surname>Bond</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Magoulick</surname>
+</string-name>. <year>2021</year>. “<article-title>Modeling Effects of Disturbance across Life History Strategies of Stream Fishes</article-title>.” <source>Oecologia</source>
+<volume>196</volume>(<issue>2</issue>): <fpage>413</fpage>–<lpage>425</lpage>.<pub-id pub-id-type="pmid">34018009</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-021-04941-8</pub-id></mixed-citation></ref><ref id="eap70130-bib-0035"><mixed-citation publication-type="journal" id="eap70130-cit-0035">
+<string-name name-style="western">
+<surname>Fournier</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Colombano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Latour</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Carlson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2024</year>. “<article-title>Long‐Term Data Reveal Widespread Phenological Change across Major US Estuarine Food Webs</article-title>.” <source>Ecology Letters</source>
+<volume>27</volume>(<issue>12</issue>): <elocation-id>e14441</elocation-id>.<pub-id pub-id-type="pmid">39738977</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ele.14441</pub-id><pub-id pub-id-type="pmcid">PMC11686945</pub-id></mixed-citation></ref><ref id="eap70130-bib-0036"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0036">
+<string-name name-style="western">
+<surname>Gerber</surname>, <given-names>L. R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>González‐Suárez</surname>
+</string-name>. <year>2010</year>. <article-title>“Population Viability Analysis: Origins and Contributions.”</article-title>
+</mixed-citation></ref><ref id="eap70130-bib-0037"><mixed-citation publication-type="journal" id="eap70130-cit-0037">
+<string-name name-style="western">
+<surname>Ghalambor</surname>, <given-names>C. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. S.</given-names>
+<surname>Gross</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. D.</given-names>
+<surname>Grosholtz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Jeffries</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Largier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>McCormick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sommer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Velotta</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Whitehead</surname>
+</string-name>. <year>2021</year>. “<article-title>Ecological Effects of Climate‐Driven Salinity Variation in the San Francisco Estuary: Can we Anticipate and Manage the Coming Changes?</article-title>” <source>San Francisco Estuary and Watershed Science</source>
+<volume>19</volume>(<issue>2</issue>).</mixed-citation></ref><ref id="eap70130-bib-0038"><mixed-citation publication-type="journal" id="eap70130-cit-0038">
+<string-name name-style="western">
+<surname>Gillanders</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. S.</given-names>
+<surname>Elsdon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>Halliday</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. P.</given-names>
+<surname>Jenkins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Robins</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Valesini</surname>
+</string-name>. <year>2011</year>. “<article-title>Potential Effects of Climate Change on Australian Estuaries and Fish Utilising Estuaries: A Review</article-title>.” <source>Marine and Freshwater Research</source>
+<volume>62</volume>(<issue>9</issue>): <fpage>1115</fpage>–<lpage>1131</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0039"><mixed-citation publication-type="journal" id="eap70130-cit-0039">
+<string-name name-style="western">
+<surname>Hampton</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Holmes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. P.</given-names>
+<surname>Scheef</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Scheuerell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Katz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Pendleton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>Ward</surname>
+</string-name>. <year>2013</year>. “<article-title>Quantifying Effects of Abiotic and Biotic Drivers on Community Dynamics with Multivariate Autoregressive (MAR) Models</article-title>.” <source>Ecology</source>
+<volume>94</volume>(<issue>12</issue>): <fpage>2663</fpage>–<lpage>2669</lpage>.<pub-id pub-id-type="pmid">24597213</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/13-0996.1</pub-id></mixed-citation></ref><ref id="eap70130-bib-0040"><mixed-citation publication-type="journal" id="eap70130-cit-0040">
+<string-name name-style="western">
+<surname>Hampton</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Scheuerell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Schindler</surname>
+</string-name>. <year>2006</year>. “<article-title>Coalescence in the Lake Washington Story: Interaction Strengths in a Planktonic Food Web</article-title>.” <source>Limnology and Oceanography</source>
+<volume>51</volume>(<issue>5</issue>): <fpage>2042</fpage>–<lpage>2051</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0041"><mixed-citation publication-type="journal" id="eap70130-cit-0041">
+<string-name name-style="western">
+<surname>Havens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. T.</given-names>
+<surname>Kramer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. O.</given-names>
+<surname>Guerrant</surname>, <suffix>Jr.</suffix>
+</string-name>
+<year>2014</year>. “<article-title>Getting Plant Conservation Right (or Not): The Case of the United States</article-title>.” <source>International Journal of Plant Sciences</source>
+<volume>175</volume>(<issue>1</issue>): <fpage>3</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0042"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0042">
+<string-name name-style="western">
+<surname>Hjort</surname>, <given-names>J.</given-names>
+</string-name>
+<year>1914</year>. <article-title>“Fluctuations in the Great Fisheries of Northern Europe Viewed in the Light of Biological Research.”</article-title>
+</mixed-citation></ref><ref id="eap70130-bib-0043"><mixed-citation publication-type="book" id="eap70130-cit-0043">
+<string-name name-style="western">
+<surname>Holmes</surname>, <given-names>E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Semmens</surname>
+</string-name>. <year>2004</year>. “<part-title>Viability Analysis for Endangered Metapopulations: A Diffusion Approximation Approach</part-title>.” In <source>Ecology, Genetics and Evolution of Metapopulations</source>
+<fpage>565</fpage>–<lpage>597</lpage>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>Elsevier</publisher-name>.</mixed-citation></ref><ref id="eap70130-bib-0044"><mixed-citation publication-type="journal" id="eap70130-cit-0044">
+<string-name name-style="western">
+<surname>Holmes</surname>, <given-names>E. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Sabo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. V.</given-names>
+<surname>Viscido</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. F.</given-names>
+<surname>Fagan</surname>
+</string-name>. <year>2007</year>. “<article-title>A Statistical Approach to Quasi‐Extinction Forecasting</article-title>.” <source>Ecology Letters</source>
+<volume>10</volume>(<issue>12</issue>): <fpage>1182</fpage>–<lpage>1198</lpage>.<pub-id pub-id-type="pmid">17803676</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1461-0248.2007.01105.x</pub-id></mixed-citation></ref><ref id="eap70130-bib-0045"><mixed-citation publication-type="journal" id="eap70130-cit-0045">
+<string-name name-style="western">
+<surname>Holmes</surname>, <given-names>E. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>Ward</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Scheuerell</surname>
+</string-name>. <year>2014</year>. “<article-title>Analysis of Multivariate Time‐Series Using the MARSS Package</article-title>.” <source>NOAA Fisheries, Northwest Fisheries Science Center</source>
+<volume>2725</volume>: <fpage>98112</fpage>.</mixed-citation></ref><ref id="eap70130-bib-0046"><mixed-citation publication-type="journal" id="eap70130-cit-0046">
+<string-name name-style="western">
+<surname>Hovel</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Carlson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. P.</given-names>
+<surname>Quinn</surname>
+</string-name>. <year>2017</year>. “<article-title>Climate Change Alters the Reproductive Phenology and Investment of a Lacustrine Fish, the Three‐Spine Stickleback</article-title>.” <source>Global Change Biology</source>
+<volume>23</volume>(<issue>6</issue>): <fpage>2308</fpage>–<lpage>2320</lpage>.<pub-id pub-id-type="pmid">27901297</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.13531</pub-id></mixed-citation></ref><ref id="eap70130-bib-0047"><mixed-citation publication-type="journal" id="eap70130-cit-0047">
+<string-name name-style="western">
+<surname>Howe</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Simenstad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Toft</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Cordell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Bollens</surname>
+</string-name>. <year>2014</year>. “<article-title>Macroinvertebrate Prey Availability and Fish Diet Selectivity in Relation to Environmental Variables in Natural and Restoring North San Francisco Bay Tidal Marsh Channels</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>12</volume>(<issue>1</issue>).</mixed-citation></ref><ref id="eap70130-bib-0048"><mixed-citation publication-type="journal" id="eap70130-cit-0048">
+<string-name name-style="western">
+<surname>Huntsman</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Mahardja</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Bashevkin</surname>
+</string-name>. <year>2022</year>. “<article-title>Relative Bias in Catch among Long‐Term Fish Monitoring Surveys within the San Francisco Estuary</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>20</volume>(<issue>1</issue>).</mixed-citation></ref><ref id="eap70130-bib-0050"><mixed-citation publication-type="book" id="eap70130-cit-0050">
+<collab collab-type="authors">IPBES</collab>
+. <year>2019</year>. <source>Intergovernmental Science‐Policy Platform on Biodiversity and Ecosystem Services. Summary for Policy Makers of the Global Assessment Report on Biodiversity and Ecosystem Services of the Intergovernmental Science‐Policy Platform on Biodiversity and Ecosystem Services</source>. <publisher-loc>Bonn, Germany</publisher-loc>: <publisher-name>IPBES Secretariat</publisher-name>.</mixed-citation></ref><ref id="eap70130-bib-0051"><mixed-citation publication-type="journal" id="eap70130-cit-0051">
+<string-name name-style="western">
+<surname>Jachowski</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Butler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. Y.</given-names>
+<surname>Eng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Gigliotti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Harris</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Williams</surname>
+</string-name>. <year>2020</year>. “<article-title>Identifying Mesopredator Release in Multi‐Predator Systems: A Review of Evidence from North America</article-title>.” <source>Mammal Review</source>
+<volume>50</volume>(<issue>4</issue>): <fpage>367</fpage>–<lpage>381</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0052"><mixed-citation publication-type="journal" id="eap70130-cit-0052">
+<string-name name-style="western">
+<surname>Jenkins</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Coleman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Barrow</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Morrongiello</surname>
+</string-name>. <year>2022</year>. “<article-title>Environmental Drivers of Fish Population Dynamics in an Estuarine Ecosystem of South‐Eastern Australia</article-title>.” <source>Fisheries Management and Ecology</source>
+<volume>29</volume>(<issue>5</issue>): <fpage>693</fpage>–<lpage>707</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0053"><mixed-citation publication-type="journal" id="eap70130-cit-0053">
+<string-name name-style="western">
+<surname>Jha</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Nath</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Srivastava</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Satpathy</surname>
+</string-name>. <year>2008</year>. “<article-title>Estuarine Fisheries Management Options and Strategies</article-title>.” <source>CIFRI Policy Papers</source>
+<volume>3</volume>: <fpage>1</fpage>–<lpage>23</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0054"><mixed-citation publication-type="journal" id="eap70130-cit-0054">
+<string-name name-style="western">
+<surname>Jungbluth</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Burns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Grimaldo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Slaughter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Katla</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Kimmerer</surname>
+</string-name>. <year>2021</year>. “<article-title>Feeding Habits and Novel Prey of Larval Fishes in the Northern San Francisco Estuary</article-title>.” <source>Environmental DNA</source>
+<volume>3</volume>(<issue>6</issue>): <fpage>1059</fpage>–<lpage>1080</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0055"><mixed-citation publication-type="journal" id="eap70130-cit-0055">
+<string-name name-style="western">
+<surname>Kery</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Dorazio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Soldaat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Van Strien</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zuiderwijk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Royle</surname>
+</string-name>. <year>2009</year>. “<article-title>Trend Estimation in Populations with Imperfect Detection</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>46</volume>(<issue>6</issue>): <fpage>1163</fpage>–<lpage>1172</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0056"><mixed-citation publication-type="journal" id="eap70130-cit-0056">
+<string-name name-style="western">
+<surname>Kimmerer</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gartside</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Orsi</surname>
+</string-name>. <year>1994</year>. “<article-title>Predation by an Introduced Clam as the Likely Cause of Substantial Declines in Zooplankton of San Francisco Bay</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>113</volume>: <fpage>81</fpage>–<lpage>93</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0057"><mixed-citation publication-type="journal" id="eap70130-cit-0057">
+<string-name name-style="western">
+<surname>Knape</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>de Valpine</surname>
+</string-name>. <year>2011</year>. “<article-title>Effects of Weather and Climate on the Dynamics of Animal Population Time Series</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>278</volume>(<issue>1708</issue>): <fpage>985</fpage>–<lpage>992</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2010.1333</pub-id><pub-id pub-id-type="pmcid">PMC3049023</pub-id><pub-id pub-id-type="pmid">20880886</pub-id></mixed-citation></ref><ref id="eap70130-bib-0058"><mixed-citation publication-type="journal" id="eap70130-cit-0058">
+<string-name name-style="western">
+<surname>Koeller</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Fuentes‐Yaco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Platt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sathyendranath</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Richards</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Ouellet</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Aschan</surname>
+</string-name>. <year>2009</year>. “<article-title>Basin‐Scale Coherence in Phenology of Shrimps and Phytoplankton in the North Atlantic Ocean</article-title>.” <source>Science</source>
+<volume>324</volume>(<issue>5928</issue>): <fpage>791</fpage>–<lpage>793</lpage>.<pub-id pub-id-type="pmid">19423827</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1170987</pub-id></mixed-citation></ref><ref id="eap70130-bib-0059"><mixed-citation publication-type="journal" id="eap70130-cit-0059">
+<string-name name-style="western">
+<surname>Komoroske</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Connon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lindberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Castillo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hasenbein</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Fangue</surname>
+</string-name>. <year>2014</year>. “<article-title>Ontogeny Influences Sensitivity to Climate Change Stressors in an Endangered Fish</article-title>.” <source>Conservation Physiology</source>
+<volume>2</volume>(<issue>1</issue>): <elocation-id>cou008</elocation-id>.<pub-id pub-id-type="pmid">27293629</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/conphys/cou008</pub-id><pub-id pub-id-type="pmcid">PMC4806739</pub-id></mixed-citation></ref><ref id="eap70130-bib-0060"><mixed-citation publication-type="journal" id="eap70130-cit-0060">
+<string-name name-style="western">
+<surname>Lane</surname>, <given-names>P. A.</given-names>
+</string-name>
+<year>1975</year>. “<article-title>The Dynamics of Aquatic Systems: A Comparative Study of the Structure of Four Zooplankton Communities</article-title>.” <source>Ecological Monographs</source>
+<volume>45</volume>(<issue>4</issue>): <fpage>307</fpage>–<lpage>336</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0061"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0061">
+<string-name name-style="western">
+<surname>Langan</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Puggioni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Oviatt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Henderson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Collie</surname>
+</string-name>. <year>2021</year>. <article-title>“Climate alters the Migration Phenology of Coastal Marine Species.”</article-title> Marine Ecology Progress Series, Vol. 660, pp. 1–18.</mixed-citation></ref><ref id="eap70130-bib-0062"><mixed-citation publication-type="journal" id="eap70130-cit-0062">
+<string-name name-style="western">
+<surname>Lauchlan</surname>, <given-names>S. S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Nagelkerken</surname>
+</string-name>. <year>2020</year>. “<article-title>Species Range Shifts along Multistressor Mosaics in Estuarine Environments under Future Climate</article-title>.” <source>Fish and Fisheries</source>
+<volume>21</volume>(<issue>1</issue>): <fpage>32</fpage>–<lpage>46</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0063"><mixed-citation publication-type="journal" id="eap70130-cit-0063">
+<string-name name-style="western">
+<surname>Lawrence</surname>, <given-names>R. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Mattson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Haack</surname>
+</string-name>. <year>1997</year>. “<article-title>White Spruce and the Spruce Budworm: Defining the Phenological Window of Susceptibility</article-title>.” <source>The Canadian Entomologist</source>
+<volume>129</volume>(<issue>2</issue>): <fpage>291</fpage>–<lpage>318</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0064"><mixed-citation publication-type="journal" id="eap70130-cit-0064">
+<string-name name-style="western">
+<surname>Mac Nally</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Thomson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Kimmerer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Feyrer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Newman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sih</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Fleishman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Culberson</surname>
+</string-name>. <year>2010</year>. “<article-title>Analysis of Pelagic Species Decline in the Upper San Francisco Estuary Using Multivariate Autoregressive Modeling (MAR)</article-title>.” <source>Ecological Applications</source>
+<volume>20</volume>(<issue>5</issue>): <fpage>1417</fpage>–<lpage>1430</lpage>.<pub-id pub-id-type="pmid">20666258</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/09-1724.1</pub-id></mixed-citation></ref><ref id="eap70130-bib-0065"><mixed-citation publication-type="journal" id="eap70130-cit-0065">
+<string-name name-style="western">
+<surname>Marques</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>U. M.</given-names>
+<surname>Azeiteiro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Marques</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Neto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. Â.</given-names>
+<surname>Pardal</surname>
+</string-name>. <year>2006</year>. “<article-title>Zooplankton and Ichthyoplankton Communities in a Temperate Estuary: Spatial and Temporal Patterns</article-title>.” <source>Journal of Plankton Research</source>
+<volume>28</volume>(<issue>3</issue>): <fpage>297</fpage>–<lpage>312</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0066"><mixed-citation publication-type="journal" id="eap70130-cit-0066">
+<string-name name-style="western">
+<surname>Mawdsley</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>O'Malley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Ojima</surname>
+</string-name>. <year>2009</year>. “<article-title>A Review of Climate‐Change Adaptation Strategies for Wildlife Management and Biodiversity Conservation</article-title>.” <source>Conservation Biology</source>
+<volume>23</volume>(<issue>5</issue>): <fpage>1080</fpage>–<lpage>1089</lpage>.<pub-id pub-id-type="pmid">19549219</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1523-1739.2009.01264.x</pub-id></mixed-citation></ref><ref id="eap70130-bib-0067"><mixed-citation publication-type="journal" id="eap70130-cit-0067">
+<string-name name-style="western">
+<surname>Morrongiello</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. T.</given-names>
+<surname>Walsh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Gray</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Stocks</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Crook</surname>
+</string-name>. <year>2014</year>. “<article-title>Environmental Change Drives Long‐Term Recruitment and Growth Variation in an Estuarine Fish</article-title>.” <source>Global Change Biology</source>
+<volume>20</volume>(<issue>6</issue>): <fpage>1844</fpage>–<lpage>1860</lpage>.<pub-id pub-id-type="pmid">24510897</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.12545</pub-id></mixed-citation></ref><ref id="eap70130-bib-0013"><mixed-citation publication-type="journal" id="eap70130-cit-0013">
+<string-name name-style="western">
+<surname>Nichols</surname>, <given-names>F. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Thompson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Schemel</surname>
+</string-name>
+<year>1990</year>. “<article-title>Remarkable Invasion of San Francisco Bay (California, USA), by the Asian clam Potamocorbula amurensis. II, Displacement of a former community</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>66</volume>: <fpage>95</fpage>–<lpage>101</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0068"><mixed-citation publication-type="journal" id="eap70130-cit-0068">
+<string-name name-style="western">
+<surname>Nobriga</surname>, <given-names>M. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Feyrer</surname>
+</string-name>. <year>2008</year>. “<article-title>Diet Composition in San Francisco Estuary Striped Bass: Does Trophic Adaptability Have its Limits?</article-title>” <source>Environmental Biology of Fishes</source>
+<volume>83</volume>: <fpage>495</fpage>–<lpage>503</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0110"><mixed-citation publication-type="journal" id="eap70130-cit-0110">
+<string-name name-style="western">
+<surname>Nobriga</surname>, <given-names>M. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Rosenfield</surname>
+</string-name>. <year>2016</year>. “<article-title>Population Dynamics of an Estuarine Forage Fish: Disaggregating Forces Driving Long‐Term Decline of Longfin Smelt in California's San Francisco Estuary</article-title>.” <source>Transactions of the American Fisheries Society</source>
+<volume>145</volume>(<issue>1</issue>): <fpage>44</fpage>–<lpage>58</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0069"><mixed-citation publication-type="journal" id="eap70130-cit-0069">
+<string-name name-style="western">
+<surname>O'Gorman</surname>, <given-names>E. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Emmerson</surname>
+</string-name>. <year>2009</year>. “<article-title>Perturbations to Trophic Interactions and the Stability of Complex Food Webs</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>106</volume>(<issue>32</issue>): <fpage>13393</fpage>–<lpage>13398</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0903682106</pub-id><pub-id pub-id-type="pmcid">PMC2726361</pub-id><pub-id pub-id-type="pmid">19666606</pub-id></mixed-citation></ref><ref id="eap70130-bib-0070"><mixed-citation publication-type="journal" id="eap70130-cit-0070">
+<string-name name-style="western">
+<surname>Otero</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>L'Abée‐Lund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Castro‐Santos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Leonardsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. O.</given-names>
+<surname>Storvik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Jonsson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Vøllestad</surname>
+</string-name>. <year>2014</year>. “<article-title>Basin‐Scale Phenology and Effects of Climate Variability on Global Timing of Initial Seaward Migration of Atlantic Salmon (<italic toggle="yes">Salmo salar</italic>)</article-title>.” <source>Global Change Biology</source>
+<volume>20</volume>(<issue>1</issue>): <fpage>61</fpage>–<lpage>75</lpage>.<pub-id pub-id-type="pmid">23966281</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.12363</pub-id></mixed-citation></ref><ref id="eap70130-bib-0071"><mixed-citation publication-type="journal" id="eap70130-cit-0071">
+<string-name name-style="western">
+<surname>Ovaskainen</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Skorokhodova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yakovleva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sukhov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kutenkov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Kutenkova</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. D. M.</given-names>
+<surname>Delgado</surname>
+</string-name>. <year>2013</year>. “<article-title>Community‐Level Phenological Response to Climate Change</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>110</volume>(<issue>33</issue>): <fpage>13434</fpage>–<lpage>13439</lpage>.<pub-id pub-id-type="pmid">23901098</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1305533110</pub-id><pub-id pub-id-type="pmcid">PMC3746850</pub-id></mixed-citation></ref><ref id="eap70130-bib-0072"><mixed-citation publication-type="journal" id="eap70130-cit-0072">
+<string-name name-style="western">
+<surname>Pak</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Colombano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Greiner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Hobbs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Carlson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2023</year>. “<article-title>Disentangling Abiotic and Biotic Controls of Age‐0 Pacific Herring Population Stability across the San Francisco Estuary</article-title>.” <source>Ecosphere</source>
+<volume>14</volume>(<issue>5</issue>): <elocation-id>e4440</elocation-id>.</mixed-citation></ref><ref id="eap70130-bib-0073"><mixed-citation publication-type="journal" id="eap70130-cit-0073">
+<string-name name-style="western">
+<surname>Peterson</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. T.</given-names>
+<surname>Parsons</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Bethea</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. B.</given-names>
+<surname>Driggers</surname>, <suffix>III</suffix>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Latour</surname>
+</string-name>. <year>2017</year>. “<article-title>Community Interactions and Density Dependence in the Southeast United States Coastal Shark Complex</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>579</volume>: <fpage>81</fpage>–<lpage>96</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0074"><mixed-citation publication-type="journal" id="eap70130-cit-0074">
+<string-name name-style="western">
+<surname>Peterson</surname>, <given-names>J. T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Barajas</surname>
+</string-name>. <year>2018</year>. “<article-title>An Evaluation of Three Fish Surveys in the San Francisco Estuary, California, 1995–2015</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>16</volume>(<issue>4</issue>).</mixed-citation></ref><ref id="eap70130-bib-0075"><mixed-citation publication-type="journal" id="eap70130-cit-0075">
+<string-name name-style="western">
+<surname>Potts</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Bealey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Childs</surname>
+</string-name>. <year>2016</year>. “<article-title>Assessing Trophic Adaptability Is Critical for Understanding the Response of Predatory Fishes to Climate Change: A Case Study of <italic toggle="yes">Pomatomus saltatrix</italic> in a Global Hotspot</article-title>.” <source>African Journal of Marine Science</source>
+<volume>38</volume>(<issue>4</issue>): <fpage>539</fpage>–<lpage>547</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0076"><mixed-citation publication-type="journal" id="eap70130-cit-0076">
+<string-name name-style="western">
+<surname>Qasim</surname>, <given-names>S. Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M. A.</given-names>
+<surname>Bhattathiri</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V. P.</given-names>
+<surname>Devassy</surname>
+</string-name>. <year>1972</year>. “<article-title>The Influence of Salinity on the Rate of Photosynthesis and Abundance of some Tropical Phytoplankton</article-title>.” <source>Marine Biology</source>
+<volume>12</volume>: <fpage>200</fpage>–<lpage>206</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0077"><mixed-citation publication-type="journal" id="eap70130-cit-0077">
+<string-name name-style="western">
+<surname>Quiñones</surname>, <given-names>R. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. B.</given-names>
+<surname>Moyle</surname>
+</string-name>. <year>2014</year>. “<article-title>Climate Change Vulnerability of Freshwater Fishes of the San Francisco Bay Area</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>12</volume>(<issue>3</issue>).</mixed-citation></ref><ref id="eap70130-bib-0078"><mixed-citation publication-type="journal" id="eap70130-cit-0078">
+<string-name name-style="western">
+<surname>Reis</surname>, <given-names>G. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Howard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Rosenfield</surname>
+</string-name>. <year>2019</year>. “<article-title>Clarifying Effects of Environmental Protections on Freshwater Flows To—And Water Exports From—The San Francisco Bay Estuary</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>17</volume>(<issue>1</issue>).</mixed-citation></ref><ref id="eap70130-bib-0079"><mixed-citation publication-type="journal" id="eap70130-cit-0079">
+<string-name name-style="western">
+<surname>Robins</surname>, <given-names>P. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Skov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Lewis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Giménez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Davies</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Malham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Neill</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>McDonald</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Whitton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Jackson</surname>
+</string-name>. <year>2016</year>. “<article-title>Impact of Climate Change on UK Estuaries: A Review of Past Trends and Potential Projections</article-title>.” <source>Estuarine, Coastal and Shelf Science</source>
+<volume>169</volume>: <fpage>119</fpage>–<lpage>135</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0080"><mixed-citation publication-type="journal" id="eap70130-cit-0080">
+<string-name name-style="western">
+<surname>Rose</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Kimmerer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. P.</given-names>
+<surname>Edwards</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Bennett</surname>
+</string-name>. <year>2013</year>. “<article-title>Individual‐Based Modeling of Delta Smelt Population Dynamics in the Upper San Francisco Estuary: I. Model Description and Baseline Results</article-title>.” <source>Transactions of the American Fisheries Society</source>
+<volume>142</volume>(<issue>5</issue>): <fpage>1238</fpage>–<lpage>1259</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0081"><mixed-citation publication-type="journal" id="eap70130-cit-0081">
+<string-name name-style="western">
+<surname>Rosenfield</surname>, <given-names>J. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Baxter</surname>
+</string-name>. <year>2007</year>. “<article-title>Population Dynamics and Distribution Patterns of Longfin Smelt in the San Francisco Estuary</article-title>.” <source>Transactions of the American Fisheries Society</source>
+<volume>136</volume>(<issue>6</issue>): <fpage>1577</fpage>–<lpage>1592</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0082"><mixed-citation publication-type="journal" id="eap70130-cit-0082">
+<string-name name-style="western">
+<surname>Ruhi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. H.</given-names>
+<surname>McDaniel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Batzer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Sabo</surname>
+</string-name>. <year>2018</year>. “<article-title>Detrimental Effects of a Novel Flow Regime on the Functional Trajectory of an Aquatic Invertebrate Metacommunity</article-title>.” <source>Global Change Biology</source>
+<volume>24</volume>(<issue>8</issue>): <fpage>3749</fpage>–<lpage>3765</lpage>.<pub-id pub-id-type="pmid">29665147</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.14133</pub-id></mixed-citation></ref><ref id="eap70130-bib-0083"><mixed-citation publication-type="journal" id="eap70130-cit-0083">
+<string-name name-style="western">
+<surname>Ruhí</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Olden</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Sabo</surname>
+</string-name>. <year>2016</year>. “<article-title>Declining Streamflow Induces Collapse and Replacement of Native Fish in the American Southwest</article-title>.” <source>Frontiers in Ecology and the Environment</source>
+<volume>14</volume>(<issue>9</issue>): <fpage>465</fpage>–<lpage>472</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0084"><mixed-citation publication-type="journal" id="eap70130-cit-0084">
+<string-name name-style="western">
+<surname>Sabo</surname>, <given-names>J. L.</given-names>
+</string-name>
+<year>2008</year>. “<article-title>Population Viability and Species Interactions: Life outside the Single‐Species Vacuum</article-title>.” <source>Biological Conservation</source>
+<volume>141</volume>(<issue>1</issue>): <fpage>276</fpage>–<lpage>286</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0109"><mixed-citation publication-type="journal" id="eap70130-cit-0109">
+<string-name name-style="western">
+<surname>Sánchez‐Hernández</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Nunn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Adams</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Amundsen</surname>
+</string-name>. <year>2019</year>. “<article-title>Causes and Consequences of Ontogenetic Dietary Shifts: A Global Synthesis Using Fish Models</article-title>.” <source>Biological Reviews</source>
+<volume>94</volume>(<issue>2</issue>): <fpage>539</fpage>–<lpage>554</lpage>.<pub-id pub-id-type="pmid">30251433</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/brv.12468</pub-id></mixed-citation></ref><ref id="eap70130-bib-0085"><mixed-citation publication-type="journal" id="eap70130-cit-0085">
+<string-name name-style="western">
+<surname>Sanford</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Sones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>García‐Reyes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Goddard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Largier</surname>
+</string-name>. <year>2019</year>. “<article-title>Widespread Shifts in the Coastal Biota of Northern California during the 2014–2016 Marine Heatwaves</article-title>.” <source>Scientific Reports</source>
+<volume>9</volume>(<issue>1</issue>): <elocation-id>4216</elocation-id>.<pub-id pub-id-type="pmid">30862867</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-019-40784-3</pub-id><pub-id pub-id-type="pmcid">PMC6414504</pub-id></mixed-citation></ref><ref id="eap70130-bib-0086"><mixed-citation publication-type="journal" id="eap70130-cit-0086">
+<string-name name-style="western">
+<surname>Sarremejane</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Stubbington</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>England</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Sefton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Eastman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Parry</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ruhi</surname>
+</string-name>. <year>2021</year>. “<article-title>Drought Effects on Invertebrate Metapopulation Dynamics and Quasi‐Extinction Risk in an Intermittent River Network</article-title>.” <source>Global Change Biology</source>
+<volume>27</volume>(<issue>17</issue>): <fpage>4024</fpage>–<lpage>4039</lpage>.<pub-id pub-id-type="pmid">34032337</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.15720</pub-id></mixed-citation></ref><ref id="eap70130-bib-0087"><mixed-citation publication-type="journal" id="eap70130-cit-0087">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. R.</given-names>
+<surname>Scanes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Ross</surname>
+</string-name>. <year>2020</year>. “<article-title>Climate Change Rapidly Warms and Acidifies Australian Estuaries</article-title>.” <source>Nature Communications</source>
+<volume>11</volume>(<issue>1</issue>): <fpage>1803</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-15550-z</pub-id><pub-id pub-id-type="pmcid">PMC7156424</pub-id><pub-id pub-id-type="pmid">32286277</pub-id></mixed-citation></ref><ref id="eap70130-bib-0088"><mixed-citation publication-type="journal" id="eap70130-cit-0088">
+<string-name name-style="western">
+<surname>See</surname>, <given-names>K. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Holmes</surname>
+</string-name>. <year>2015</year>. “<article-title>Reducing Bias and Improving Precision in Species Extinction Forecasts</article-title>.” <source>Ecological Applications</source>
+<volume>25</volume>(<issue>4</issue>): <fpage>1157</fpage>–<lpage>1165</lpage>.<pub-id pub-id-type="pmid">26465049</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/14-2003.1</pub-id></mixed-citation></ref><ref id="eap70130-bib-0089"><mixed-citation publication-type="journal" id="eap70130-cit-0089">
+<string-name name-style="western">
+<surname>Seifert</surname>, <given-names>L. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Weithoff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Gaedke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Vos</surname>
+</string-name>. <year>2015</year>. “<article-title>Warming‐Induced Changes in Predation, Extinction and Invasion in an Ectotherm Food Web</article-title>.” <source>Oecologia</source>
+<volume>178</volume>: <fpage>485</fpage>–<lpage>496</lpage>.<pub-id pub-id-type="pmid">25564019</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-014-3211-4</pub-id></mixed-citation></ref><ref id="eap70130-bib-0090"><mixed-citation publication-type="book" id="eap70130-cit-0090">
+<string-name name-style="western">
+<surname>Simenstad</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Fresh</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. O.</given-names>
+<surname>Salo</surname>
+</string-name>. <year>1982</year>. “<part-title>The Role of Puget Sound and Washington Coastal Estuaries in the Life History of Pacific Salmon: An Unappreciated Function</part-title>.” In <source>Estuarine comparisons</source>
+<fpage>343</fpage>–<lpage>364</lpage>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="eap70130-bib-0091"><mixed-citation publication-type="journal" id="eap70130-cit-0091">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>J. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Slatkin</surname>
+</string-name>. <year>1973</year>. “<article-title>The Stability of Predator‐Prey Systems</article-title>.” <source>Ecology</source>
+<volume>54</volume>(<issue>2</issue>): <fpage>384</fpage>–<lpage>391</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0092"><mixed-citation publication-type="journal" id="eap70130-cit-0092">
+<string-name name-style="western">
+<surname>Sommer</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Armor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Baxter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Breuer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chotkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Culberson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Feyrer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gingras</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Herbold</surname>
+</string-name>. <year>2007</year>. “<article-title>The Collapse of Pelagic Fishes in the Upper San Francisco Estuary: El Colapso de los Peces Pelagicos en la Cabecera del Estuario San Francisco</article-title>.” <source>Fisheries</source>
+<volume>32</volume>(<issue>6</issue>): <fpage>270</fpage>–<lpage>277</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0093"><mixed-citation publication-type="journal" id="eap70130-cit-0093">
+<string-name name-style="western">
+<surname>Sommer</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Mejia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hieb</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Baxter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Loboschefsky</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Loge</surname>
+</string-name>. <year>2011</year>. “<article-title>Long‐Term Shifts in the Lateral Distribution of Age‐0 Striped Bass in the San Francisco Estuary</article-title>.” <source>Transactions of the American Fisheries Society</source>
+<volume>140</volume>(<issue>6</issue>): <fpage>1451</fpage>–<lpage>1459</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0094"><mixed-citation publication-type="journal" id="eap70130-cit-0094">
+<string-name name-style="western">
+<surname>Stenseth</surname>, <given-names>N. C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mysterud</surname>
+</string-name>. <year>2002</year>. “<article-title>Climate, Changing Phenology, and Other Life History Traits: Nonlinearity and Match–Mismatch to the Environment</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>99</volume>(<issue>21</issue>): <fpage>13379</fpage>–<lpage>13381</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.212519399</pub-id><pub-id pub-id-type="pmcid">PMC129680</pub-id><pub-id pub-id-type="pmid">12370424</pub-id></mixed-citation></ref><ref id="eap70130-bib-0095"><mixed-citation publication-type="journal" id="eap70130-cit-0095">
+<string-name name-style="western">
+<surname>Swaisgood</surname>, <given-names>R. R.</given-names>
+</string-name>
+<year>2007</year>. “<article-title>Current Status and Future Directions of Applied Behavioral Research for Animal Welfare and Conservation</article-title>.” <source>Applied Animal Behaviour Science</source>
+<volume>102</volume>(<issue>3–4</issue>): <fpage>139</fpage>–<lpage>162</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0096"><mixed-citation publication-type="journal" id="eap70130-cit-0096">
+<string-name name-style="western">
+<surname>Tempel</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Malinich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Burns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Barros</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Burdi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Hobbs</surname>
+</string-name>. <year>2021</year>. “<article-title>The Value of Long‐Term Monitoring of the San Francisco Estuary for Delta Smelt and Longfin Smelt</article-title>.” <source>California Fish and Game</source>
+<volume>107</volume>: <fpage>148</fpage>–<lpage>171</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0097"><mixed-citation publication-type="journal" id="eap70130-cit-0097">
+<string-name name-style="western">
+<surname>Testa</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. M.</given-names>
+<surname>Kemp</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. R.</given-names>
+<surname>Boynton</surname>
+</string-name>. <year>2018</year>. “<article-title>Season‐Specific Trends and Linkages of Nitrogen and Oxygen Cycles in Chesapeake Bay</article-title>.” <source>Limnology and Oceanography</source>
+<volume>63</volume>(<issue>5</issue>): <fpage>2045</fpage>–<lpage>2064</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0098"><mixed-citation publication-type="journal" id="eap70130-cit-0098">
+<string-name name-style="western">
+<surname>Thakur</surname>, <given-names>M. P.</given-names>
+</string-name>
+<year>2020</year>. “<article-title>Climate Warming and Trophic Mismatches in Terrestrial Ecosystems: The Green–Brown Imbalance Hypothesis</article-title>.” <source>Biology Letters</source>
+<volume>16</volume>(<issue>2</issue>): <elocation-id>20190770</elocation-id>.</mixed-citation></ref><ref id="eap70130-bib-0099"><mixed-citation publication-type="miscellaneous" id="eap70130-cit-0099">
+<collab collab-type="authors">USFWS</collab>
+. <year>2024</year>. <article-title>“Docket No. FWS–R8–ES–2022–0082.”</article-title>
+</mixed-citation></ref><ref id="eap70130-bib-0100"><mixed-citation publication-type="journal" id="eap70130-cit-0100">
+<string-name name-style="western">
+<surname>Varpe</surname>, <given-names>Ø.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Ø.</given-names>
+<surname>Fiksen</surname>
+</string-name>. <year>2010</year>. “<article-title>Seasonal Plankton–Fish Interactions: Light Regime, Prey Phenology, and Herring Foraging</article-title>.” <source>Ecology</source>
+<volume>91</volume>(<issue>2</issue>): <fpage>311</fpage>–<lpage>318</lpage>.<pub-id pub-id-type="pmid">20391994</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/08-1817.1</pub-id></mixed-citation></ref><ref id="eap70130-bib-0101"><mixed-citation publication-type="journal" id="eap70130-cit-0101">
+<string-name name-style="western">
+<surname>Vasseur</surname>, <given-names>D. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. W.</given-names>
+<surname>Fox</surname>
+</string-name>. <year>2009</year>. “<article-title>Phase‐Locking and Environmental Fluctuations Generate Synchrony in a Predator–Prey Community</article-title>.” <source>Nature</source>
+<volume>460</volume>(<issue>7258</issue>): <fpage>1007</fpage>–<lpage>1010</lpage>.<pub-id pub-id-type="pmid">19626006</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08208</pub-id></mixed-citation></ref><ref id="eap70130-bib-0102"><mixed-citation publication-type="book" id="eap70130-cit-0102">
+<string-name name-style="western">
+<surname>Visser</surname>, <given-names>M.</given-names>
+</string-name>
+<year>2022</year>. “<part-title>Phenology: Climate Change Is Shifting the Rhythm of Nature</part-title>.” In <source>Frontiers 2022: Noise, Blazes and Mismatches: Emerging Issues of Environmental Concern</source>
+<fpage>41</fpage>–<lpage>58</lpage>. <publisher-loc>Nairob</publisher-loc>: <publisher-name>United Nations Environment Programme (UNEP)</publisher-name>.</mixed-citation></ref><ref id="eap70130-bib-0103"><mixed-citation publication-type="journal" id="eap70130-cit-0103">
+<string-name name-style="western">
+<surname>Ward</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chirakkal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>González‐Suárez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Aurioles‐Gamboa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Holmes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Gerber</surname>
+</string-name>. <year>2010</year>. “<article-title>Inferring Spatial Structure from Time‐Series Data: Using Multivariate State‐Space Models to Detect Metapopulation Structure of California Sea Lions in the Gulf of California, Mexico</article-title>.” <source>Journal of Applied Ecology</source>
+<volume>47</volume>(<issue>1</issue>): <fpage>47</fpage>–<lpage>56</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0104"><mixed-citation publication-type="journal" id="eap70130-cit-0104">
+<string-name name-style="western">
+<surname>Werner</surname>, <given-names>E. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Gilliam</surname>
+</string-name>. <year>1984</year>. “<article-title>The Ontogenetic Niche and Species Interactions in Size‐Structured Populations</article-title>.” <source>Annual Review of Ecology and Systematics</source>
+<volume>15</volume>: <fpage>393</fpage>–<lpage>425</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0105"><mixed-citation publication-type="journal" id="eap70130-cit-0105">
+<string-name name-style="western">
+<surname>Winemiller</surname>, <given-names>K. O.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Rose</surname>
+</string-name>. <year>1992</year>. “<article-title>Patterns of Life‐History Diversification in North American Fishes: Implications for Population Regulation</article-title>.” <source>Canadian Journal of Fisheries and Aquatic Sciences</source>
+<volume>49</volume>(<issue>10</issue>): <fpage>2196</fpage>–<lpage>2218</lpage>.</mixed-citation></ref><ref id="eap70130-bib-0106"><mixed-citation publication-type="journal" id="eap70130-cit-0106">
+<string-name name-style="western">
+<surname>Winemiller</surname>, <given-names>K. O.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Rose</surname>
+</string-name>. <year>1993</year>. “<article-title>Why Do Most Fish Produce So Many Tiny Offspring?</article-title>” <source>The American Naturalist</source>
+<volume>142</volume>(<issue>4</issue>): <fpage>585</fpage>–<lpage>603</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1086/285559</pub-id><pub-id pub-id-type="pmid">19425962</pub-id></mixed-citation></ref><ref id="eap70130-bib-0107"><mixed-citation publication-type="journal" id="eap70130-cit-0107">
+<string-name name-style="western">
+<surname>Young</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Feyrer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Smith</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Valentine</surname>
+</string-name>. <year>2022</year>. “<article-title>Habitat‐Specific Foraging by Striped Bass (<italic toggle="yes">Morone saxatilis</italic>) in the San Francisco Estuary, California: Implications for Tidal Restoration</article-title>.” <source>San Francisco Estuary and Watershed Science</source>
+<volume>20</volume>(<issue>3</issue>).</mixed-citation></ref><ref id="eap70130-bib-0108"><mixed-citation publication-type="journal" id="eap70130-cit-0108">
+<string-name name-style="western">
+<surname>Zhemchuzhnikov</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. S.</given-names>
+<surname>Versluijs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. K.</given-names>
+<surname>Lameris</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Reneerkens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Both</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>van Gils</surname>
+</string-name>. <year>2021</year>. “<article-title>Exploring the Drivers of Variation in Trophic Mismatches: A Systematic Review of Long‐Term Avian Studies</article-title>.” <source>Ecology and Evolution</source>
+<volume>11</volume>(<issue>9</issue>): <fpage>3710</fpage>–<lpage>3725</lpage>.<pub-id pub-id-type="pmid">33976770</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ece3.7346</pub-id><pub-id pub-id-type="pmcid">PMC8093693</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,96 @@
+{
+  "recorded_at_kst": "2026-10-01T02:21:51+09:00",
+  "contributor_label": "03",
+  "contributor_name": "조지현",
+  "contributor_version": 3,
+  "commit_prefix": "[3 조지현]",
+  "latest_team_base_commit": "dcd39c862f450a572e766ea51dc85f5d2c7108a5",
+  "previous_published_own_commit": "e548312c62653868898c70c7e389a9e8a6660ae0",
+  "team_commits_reviewed": 13,
+  "team_source_index": "03_조지현_팀원변경_대조기록.json",
+  "final_full_tests": {
+    "passed": 678,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "duration_seconds": 28.65,
+    "exit_code": 0,
+    "started_at_kst": "2026-10-01T02:16:15.507996+09:00",
+    "warning": "Intentional overflow fail-closed test"
+  },
+  "rounding_regression_before_fix": {
+    "failed": 2,
+    "deselected": 9,
+    "seconds": 1.45
+  },
+  "functional_cases": {
+    "count": 8,
+    "mode": "MANUAL_REGISTERED_FUNCTIONAL",
+    "comparison": "NOT_MODEL_COMPARISON",
+    "saved_reports_reopened_with_approval_inactive": 8
+  },
+  "bat_validation": {
+    "checks_passed": 11,
+    "checks_total": 11,
+    "actual_run_started_at_kst": "2026-10-01T02:09:16+09:00",
+    "actual_run_finished_at_kst": "2026-10-01T02:09:17+09:00",
+    "result_sha256": "51996c1ebfff13b3341c3c315fa2f4a87f060d9af527c35685ff88230230ef0b",
+    "dependencies_match_current_bytes": true,
+    "reuse_reason": "All tool-listed source byte hashes match; actual earlier result reused without replacing event times"
+  },
+  "a2_public_input_sha256": {
+    "S5-primdfall.csv": "b40a0d3a6178bacc330e22712d841f26ba5234badc3a6e60ca97525345ab8ece",
+    "treeall.nex": "85abccce8dcf2437f17f2566dd01f84b84ba6fda8e4d5fec96c43368a4d0659f"
+  },
+  "a2_scope": "Hash-verified cached public author bytes, synthetic automated approval test only, no raw files included",
+  "standards": {
+    "contributor_identity": "PASS",
+    "new_work_dates": "ACTUAL_KST",
+    "original_paper_experiment_git_dates": "PRESERVED",
+    "unconfirmed_annotation_times": 15,
+    "source_data_and_sealed_inputs": "UNCHANGED",
+    "code_change_reasons": "COMMENTED",
+    "metadata": {
+      "contributor_version": 3,
+      "checked_at_kst": "2026-10-01T02:17:31+09:00",
+      "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크·현재 제품 표기",
+      "json_files_checked": 25,
+      "status": "PASS",
+      "failures": [],
+      "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님"
+    },
+    "repository_hygiene": "PASS_0_FINDINGS",
+    "diff_check": "PASS",
+    "reported_metrics": "ACTUAL_EXECUTIONS_ONLY",
+    "secrets_and_private_paths": "NO_FINDINGS_IN_REPO_HYGIENE",
+    "human_approval": "NO_ACTUAL_HUMAN_APPROVAL_CREATED"
+  },
+  "code_sha256": {
+    "finals/app.py": "8ace00fa9f5e540275cc40ffffd39bafec2fb6287c7884120807df2c3a504c21",
+    "finals/finals_explain.py": "c1ef20a9e189c16604a66fbad85da24c57615a110e3f94a114cb40bff58fb65d",
+    "finals/finals_notice.py": "bccf820a6d9c02722ede471635ecc861f8e869743d3bd28b971dc2f99226a0ee",
+    "finals/finals_pipeline.py": "ad862b56eb3b629c4b1c1e0e5eca651a72705d3d40c41afbf65a11a90baec3fb",
+    "finals/finals_privacy.py": "bbd454e62bcb7dd5365de9756db05c251d80015918397700faccb9e25fefc4a7",
+    "finals/finals_provider.py": "64e0066766059a08010a726bb2f5284a11a04f2b4a08e476c832f8a1cbcc3285",
+    "finals/tests/test_3_review_bindings.py": "42b710e6c25cd202960d024939f1dd381bd2c79311cdd457bb084ff67a8d8a4c",
+    "finals/tests/test_finals_explain.py": "0b83122497c32b448c56e71577862bfcb5e9074c4d78ea6708aa8cf6432b9580",
+    "finals/tests/test_finals_privacy.py": "7d317ec65ead751092338df46ed33edf57adc644968cec27e1477ac677337476"
+  },
+  "logs_sha256": {
+    "nais03_publish_final.log": "99eec6b4ac16ad81268965536a7a0810893e45d180d3f96984e407838c3029ad",
+    "nais03_publish_final.xml": "d449c050780acf9e9e6c8b6439603f84f626dfa0eaf1d8f42185be46d458d126",
+    "nais03_publish_rounding_before.log": "dd6e19c9bed57190d56c4987cd6b5541f2c3a5fd16f34b9d99d3cbe338812fea",
+    "nais03_publish_metadata.log": "88205fb825978654fc57766019672cba9ca0c49e29a83d65c7f58b3adcd2bbf9",
+    "nais03_publish_hygiene.log": "671865abb7f805641d46b6a96149266653b9493f88f2ed1883bc6a7e52ff7165"
+  },
+  "model_calls": 0,
+  "live_external_api_calls_this_update": 0,
+  "actual_human_approval": "NOT_PERFORMED",
+  "remote_publication": "USER_AUTHORIZED_PREPUBLICATION_CHECK_PASS",
+  "limitations": [
+    "No general AI superiority comparison",
+    "No deployed full-flow verification",
+    "No actual user approval or institutional identity authentication",
+    "A2 raw data not distributed; CI without external cache may skip this one test"
+  ]
+}

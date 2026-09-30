@@ -1,0 +1,22 @@
+{
+  "_change_note": "2026-10-01T02:20:51+09:00 — 전체729회귀 이후 추가된 원격 arXiv 연결잠금·자료변경 설명의 영향 시험을 따로 기록한다.",
+  "version": 0,
+  "executed_at_kst": "2026-10-01T02:20:51+09:00",
+  "merge_target_sha": "88f0f5fe9c009baea0a366d26bee2ea1a87f9941",
+  "scope": [
+    "tests/test_integration_http.py",
+    "finals/tests/test_finals_explain.py",
+    "finals/tests/test_finals_ui.py",
+    "finals/tests/test_finals_privacy.py",
+    "tests/test_repo_hygiene.py"
+  ],
+  "passed": 66,
+  "elapsed_seconds": 64.13,
+  "new_paid_model_calls": 0,
+  "source_sha256": {
+    "core/integration_http.py": "4f7665f13ba23b5a75516c930a32ea756d2fdb4a92c5cd850058b0e6ef064db1",
+    "finals/app.py": "afc2795906d9f957ec4c16e285240f65e138eabce3247bbe30000b56a1fa2af7",
+    "finals/finals_explain.py": "76013f437c573b3bca9aeaf3680e2975c88ea51e541c515da35c59c14b781a09"
+  },
+  "stdout_sha256": "c7ae312501dde498e7d8f0fb2df83a19ff8aeccf53a3f9f5779440ea45cb24cd"
+}

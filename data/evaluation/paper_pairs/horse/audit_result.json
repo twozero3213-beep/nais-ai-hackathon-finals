@@ -1,0 +1,100 @@
+{
+  "claim_id": "HORSE-LOWERED-NECK-OR",
+  "decision": "BLOCK",
+  "reproduced": false,
+  "computed_or": null,
+  "reported": {
+    "or": 0.05,
+    "ci95_printed": [
+      0.0,
+      0.56
+    ],
+    "p_printed": 0.05
+  },
+  "source_location": "Carmo et al. 2023, section 3.2, printed page 9; Abstract, page 1",
+  "specification": "data/evaluation/paper_pairs/horse/claim_spec.json",
+  "integrity_ok": true,
+  "source_hashes": {
+    "Dados_Laize_ISAE2021.csv": "33bf5378de32b8c54c412ed4ea929f45174bc1981031f194813daed92f1fcbde",
+    "running_script_Carmo_et_al.Rmd": "bef787092de1ca6764f48fd0fcc2ffb26c12952b334a82d74d54af421cecae60"
+  },
+  "sample_audit": {
+    "raw_rows": 117,
+    "filtered_rows": 52,
+    "model_rows": 50,
+    "horses": 13,
+    "groups": {
+      "Baseline": {
+        "rows": 39,
+        "observed": 38,
+        "events": 16,
+        "missing": 1
+      },
+      "Experimental": {
+        "rows": 13,
+        "observed": 12,
+        "events": 1,
+        "missing": 1
+      }
+    },
+    "excluded_missing": [
+      {
+        "csv_row": 19,
+        "horse": "Magic",
+        "day": 9,
+        "group": "Experimental"
+      },
+      {
+        "csv_row": 83,
+        "horse": "Troia",
+        "day": 1,
+        "group": "Baseline"
+      }
+    ]
+  },
+  "table3_elevated_neck": {
+    "claim_id": "HORSE-TABLE3-ELEVATED-NECK",
+    "source_location": "Carmo et al. 2023, Table 3, printed page 8, Elevated neck column",
+    "status": "MATCH_DESCRIPTIVE_ONLY",
+    "groups": {
+      "Experimental": {
+        "rows": 39,
+        "observed": 37,
+        "events": 1,
+        "missing": 2
+      },
+      "Controle": {
+        "rows": 39,
+        "observed": 38,
+        "events": 4,
+        "missing": 1
+      }
+    },
+    "limitation": "Observed binary event totals only; missing records are excluded and disclosed, not treated as zero. Does not reproduce lowered-neck OR, CI, p or other table columns.",
+    "event_csv_rows": {
+      "Experimental": [
+        61
+      ],
+      "Controle": [
+        46,
+        104,
+        105,
+        106
+      ]
+    }
+  },
+  "blockers": [
+    {
+      "code": "MODEL_NOT_EXECUTED",
+      "required": "Execute lme4::glmer(NECK_ABAIXO ~ GRUPO + (1|NOME), family=binomial, data=data_wth); retain coefficient, standard error and Wald z p-value."
+    },
+    {
+      "code": "ENVIRONMENT_NOT_PINNED",
+      "required": "Record R and lme4/readr versions, factor contrast/reference, na.action, optimizer and nAGQ. Paper states R 4.0.4; local Rmd has no package lock/sessionInfo."
+    },
+    {
+      "code": "MODEL_DIAGNOSTICS_MISSING",
+      "required": "Retain convergence/singularity diagnostics and profile likelihood CI, then compare unrounded results to the printed two-decimal OR, CI and p. Installing R alone must not clear this gate."
+    }
+  ]
+}

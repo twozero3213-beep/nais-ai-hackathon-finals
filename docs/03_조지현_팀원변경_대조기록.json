@@ -1,0 +1,1322 @@
+{
+  "recorded_at_kst": "2026-10-01T02:08:17+09:00",
+  "contributor_label": "03",
+  "contributor_version": 3,
+  "base_commit": "ae4a74c24c75eff53ecc88807f82fde43f780f32",
+  "new_team_commits": [
+    "ae4a74c24c75eff53ecc88807f82fde43f780f32 2026-10-01T01:56:52+09:00 [0 이영] feat: 개인정보·AI 윤리 안전장치와 화면 고지 (모의 심사 활용성 피드백)",
+    "30e4a4a269fe53e3960692e0a96605c99043b70d 2026-10-01T01:48:05+09:00 [0 이영] 최신 작업과 본선 문서 통합",
+    "5855591a948f6cae2966fda3ea9d5e60e6b82fd1 2026-10-01T01:45:31+09:00 [0 이영] 본선 문서 표기 정리",
+    "7c546d2d3562610e8d8ea0ae753b4965c2024227 2026-10-01T01:43:49+09:00 [0 이영] 승인된 현재 발표 대본과 실행 범위 연결",
+    "a1d175cb552c848517fca9193233914f2590463b 2026-10-01T01:42:29+09:00 [01 이채우][작업번호 1] docs: BAT 실제 검산 결과와 승인 보완 검증",
+    "e5e93e880f3be4cbdf7db2d68f6f94e638012167 2026-10-01T01:41:32+09:00 [0 이영] fix: 지문 고정 경로 줄바꿈 보존·Streamlit 매직 결함 수정과 재발 방지 검사",
+    "f39c92f89ddcb50dfd351bc6e5de4bcb20871f8a 2026-10-01T01:41:17+09:00 [01 이채우][작업번호 1] feat: 공개 BAT 논문 수치 재현 검산 도구",
+    "4a7643f7a6d96ae7fbebce2126fd04180fe67254 2026-10-01T01:39:55+09:00 [01 이채우][작업번호 1] test: 승인 지문 누락·변경·충돌 회귀 검증",
+    "09af8f89c0be4b88ab93d060b213ec47db99cea8 2026-10-01T01:38:55+09:00 [01 이채우][작업번호 1] fix: 승인에 자료·명세·참조 지문 결속",
+    "ef7b1d4f41473f212b485872b710bbf99f87704d 2026-10-01T01:37:11+09:00 [01 이채우][작업번호 1] fix: 검산 원자료의 바이트 지문 보존",
+    "a219f1065834cddfefc8425cd00a8e3802e8cd6a 2026-10-01T01:34:30+09:00 [0 이영] 공개 연구 API·RSS와 공용 MCP 연동 확장"
+  ],
+  "team_changed_file_index": [
+    {
+      "path": ".gitattributes",
+      "bytes": 677,
+      "read": true,
+      "remote_base_sha256": "7ae110c369722e0420530aacb1503e68f6ef8fcb8bb19806484841d3e94aa882",
+      "working_sha256": "7ae110c369722e0420530aacb1503e68f6ef8fcb8bb19806484841d3e94aa882"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1018,
+      "read": true,
+      "remote_base_sha256": "96bd28bbddee913492bbacfbf6eaef78a0f7773c5f09aa67ce49968212fb8124",
+      "working_sha256": "96bd28bbddee913492bbacfbf6eaef78a0f7773c5f09aa67ce49968212fb8124"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 20988,
+      "read": true,
+      "remote_base_sha256": "5caff353df405fc794ef90b517a3571806743a02fd54e57eec0eea44ce7664c5",
+      "working_sha256": "5caff353df405fc794ef90b517a3571806743a02fd54e57eec0eea44ce7664c5"
+    },
+    {
+      "path": "TEAM_VERSIONS.json",
+      "bytes": 1428,
+      "read": true,
+      "remote_base_sha256": "b396e79cad3fcbd93d842e53f2b9c7ca529074833d4c7c2d9810487fc8754871",
+      "working_sha256": "ecedbe945ae4fcf016585df5aecf14657b630f3f8b81cea4b0d267ddc896f44c"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 2,
+      "read": true,
+      "remote_base_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "working_sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "path": "core/integration_http.py",
+      "bytes": 6451,
+      "read": true,
+      "functions": [
+        "_reserve_slot",
+        "_constant",
+        "_pairs",
+        "_request",
+        "get_json",
+        "get_xml"
+      ],
+      "remote_base_sha256": "0931ce79b86aedb0f7116c077c425e2fa7a4838361fc7b3fab65440b6e132647",
+      "working_sha256": "0931ce79b86aedb0f7116c077c425e2fa7a4838361fc7b3fab65440b6e132647"
+    },
+    {
+      "path": "core/paper_rankings.py",
+      "bytes": 6704,
+      "read": true,
+      "functions": [
+        "fetch_view_rankings",
+        "render_rankings"
+      ],
+      "remote_base_sha256": "dfc16f63b399d69d04b763fc76448bcc98e8f6c1e7d230c4455332f18e16ecaa",
+      "working_sha256": "dfc16f63b399d69d04b763fc76448bcc98e8f6c1e7d230c4455332f18e16ecaa"
+    },
+    {
+      "path": "core/publication_extensions.py",
+      "bytes": 14431,
+      "read": true,
+      "functions": [
+        "_doi",
+        "_pmid",
+        "_text",
+        "_result",
+        "_date",
+        "_updates",
+        "_relations",
+        "_work",
+        "publication_updates",
+        "_tag",
+        "_children",
+        "_find",
+        "_element_text",
+        "_xml_date",
+        "pubmed_record"
+      ],
+      "remote_base_sha256": "739ca2f355fa40903ce29a534f8900b75906944979653db3497128dac8442952",
+      "working_sha256": "739ca2f355fa40903ce29a534f8900b75906944979653db3497128dac8442952"
+    },
+    {
+      "path": "core/repository_extensions.py",
+      "bytes": 20522,
+      "read": true,
+      "functions": [
+        "_text",
+        "_number",
+        "_doi",
+        "_url",
+        "_license",
+        "_checksum",
+        "_failure",
+        "_provenance",
+        "_success",
+        "_request",
+        "_error",
+        "_input",
+        "_related",
+        "_base",
+        "_zenodo",
+        "_figshare",
+        "_dataverse",
+        "repository_record",
+        "search_repository"
+      ],
+      "remote_base_sha256": "32e4a8cecd15d63f2c772d12397e6b4b3aa74d40d5ce756f4695ddeeb8b608a3",
+      "working_sha256": "32e4a8cecd15d63f2c772d12397e6b4b3aa74d40d5ce756f4695ddeeb8b608a3"
+    },
+    {
+      "path": "core/scholar_discovery.py",
+      "bytes": 2307,
+      "read": true,
+      "functions": [
+        "scholar_discovery"
+      ],
+      "remote_base_sha256": "d5a38ba2b22ff5c557b57a6918b0a4e1b33559e30ce5a25d0d1bb95f64d08999",
+      "working_sha256": "d5a38ba2b22ff5c557b57a6918b0a4e1b33559e30ce5a25d0d1bb95f64d08999"
+    },
+    {
+      "path": "core/scholarly_feeds.py",
+      "bytes": 10194,
+      "read": true,
+      "functions": [
+        "_plain",
+        "_tag",
+        "_child",
+        "_text",
+        "_safe_link",
+        "_published",
+        "_entry_link",
+        "_parse_items",
+        "get_feed",
+        "__init__",
+        "handle_starttag",
+        "handle_endtag",
+        "handle_data"
+      ],
+      "remote_base_sha256": "8c49a8c92a155da0e40fcb53a86f381a8c2a42a0dae5b88d5b6cb714dd8727c9",
+      "working_sha256": "8c49a8c92a155da0e40fcb53a86f381a8c2a42a0dae5b88d5b6cb714dd8727c9"
+    },
+    {
+      "path": "docs/0_이영_본선실행안.md",
+      "bytes": 43738,
+      "read": true,
+      "remote_base_sha256": "18818fd1db4aacd22bfad6e897852e59d4e5448a7bdd4fa27689c82f05d5fe9f",
+      "working_sha256": "18818fd1db4aacd22bfad6e897852e59d4e5448a7bdd4fa27689c82f05d5fe9f"
+    },
+    {
+      "path": "docs/0_이영_연구연동확장.md",
+      "bytes": 6381,
+      "read": true,
+      "remote_base_sha256": "6abe64380ef665a5f91d482c51ea89f5c01e6e890aa2151df43cd46c21b73ab0",
+      "working_sha256": "6abe64380ef665a5f91d482c51ea89f5c01e6e890aa2151df43cd46c21b73ab0"
+    },
+    {
+      "path": "docs/3_조지현_필요성_차별점_사례팩트체크.md",
+      "bytes": 22310,
+      "read": true,
+      "remote_base_sha256": "0ce9bb733a4ad8e10e7ccb5abe8dac06622c9f576fdbc9eebf8fc76f6a74574d",
+      "working_sha256": "0ce9bb733a4ad8e10e7ccb5abe8dac06622c9f576fdbc9eebf8fc76f6a74574d"
+    },
+    {
+      "path": "docs/finals-review-20260930.md",
+      "bytes": 15687,
+      "read": true,
+      "remote_base_sha256": "be98be58a54f3389f604df70a9481014b8be477fe75f100473d135cf1875773d",
+      "working_sha256": "be98be58a54f3389f604df70a9481014b8be477fe75f100473d135cf1875773d"
+    },
+    {
+      "path": "docs/verification/1_bat_protocol.json",
+      "bytes": 857,
+      "read": true,
+      "remote_base_sha256": "8dbb390de6c6671e7dcc25faef9155a7038846d9a3a7bd8bfd6afff7a0c372ba",
+      "working_sha256": "8dbb390de6c6671e7dcc25faef9155a7038846d9a3a7bd8bfd6afff7a0c372ba"
+    },
+    {
+      "path": "docs/verification/1_bat_result.json",
+      "bytes": 5986,
+      "read": true,
+      "remote_base_sha256": "f5b76b884d07598ec4c87c473373c03c12941bc7820a54292c24786aaa72a87a",
+      "working_sha256": "f5b76b884d07598ec4c87c473373c03c12941bc7820a54292c24786aaa72a87a"
+    },
+    {
+      "path": "docs/verification/1_검산과승인보완.md",
+      "bytes": 6425,
+      "read": true,
+      "remote_base_sha256": "33e721baafc8f1e03fe4ef2ba02004c3bfd02aada7abb8d798c977ea47c92626",
+      "working_sha256": "33e721baafc8f1e03fe4ef2ba02004c3bfd02aada7abb8d798c977ea47c92626"
+    },
+    {
+      "path": "evidence_gate/__main__.py",
+      "bytes": 5126,
+      "read": true,
+      "functions": [
+        "_strict_json",
+        "_blocked",
+        "main",
+        "pairs",
+        "refuse"
+      ],
+      "remote_base_sha256": "a87bbff9bc7c3ee8601f7bdc4579d92ff752bff6b7c0f1f181f841bed35083aa",
+      "working_sha256": "a87bbff9bc7c3ee8601f7bdc4579d92ff752bff6b7c0f1f181f841bed35083aa"
+    },
+    {
+      "path": "evidence_gate/align.py",
+      "bytes": 3731,
+      "read": true,
+      "functions": [
+        "reference_ids_sha256",
+        "_duplicates",
+        "normalization_candidates",
+        "diagnose",
+        "reorder_indices"
+      ],
+      "remote_base_sha256": "78d3b6499b4b6367fd52f0586ba9b5066c6bb692f70f538873a042695ba0ad89",
+      "working_sha256": "78d3b6499b4b6367fd52f0586ba9b5066c6bb692f70f538873a042695ba0ad89"
+    },
+    {
+      "path": "evidence_gate/demo_a2.py",
+      "bytes": 6869,
+      "read": true,
+      "functions": [
+        "fetch",
+        "_without_line",
+        "run",
+        "summary",
+        "main",
+        "step"
+      ],
+      "remote_base_sha256": "e9c97b20e8f5dc8c047773b02492894de40cee3c392918a7710833b690dd0bd2",
+      "working_sha256": "e9c97b20e8f5dc8c047773b02492894de40cee3c392918a7710833b690dd0bd2"
+    },
+    {
+      "path": "evidence_gate/gate.py",
+      "bytes": 10459,
+      "read": true,
+      "functions": [
+        "_within",
+        "_spec_digest",
+        "_result",
+        "evaluate",
+        "_scalar",
+        "_ols",
+        "_approval",
+        "_alignment"
+      ],
+      "remote_base_sha256": "d5f75343a9cd15656197b63d2b34b37208e036cb33a3c979e15079f2ead82ba2",
+      "working_sha256": "d5f75343a9cd15656197b63d2b34b37208e036cb33a3c979e15079f2ead82ba2"
+    },
+    {
+      "path": "finals/app.py",
+      "bytes": 23751,
+      "read": true,
+      "functions": [
+        "_int_env",
+        "public_snapshot",
+        "state_of",
+        "approved",
+        "invalidate_review",
+        "notice_error",
+        "reset_case",
+        "health_record"
+      ],
+      "remote_base_sha256": "8b5d26109ad53583544c87e319a257223a3250739e84e30f8046966af6d5e4c8",
+      "working_sha256": "f430ba7305babb76eeefee5fdfb0f2f676702a42627d11453dbf2f288193f3d4"
+    },
+    {
+      "path": "finals/finals_explain.py",
+      "bytes": 6564,
+      "read": true,
+      "functions": [
+        "reason_text",
+        "reasons",
+        "_number",
+        "calculation_summary"
+      ],
+      "remote_base_sha256": "f942dd899b75981debf15cdd122d32315a49f8b866e42a60526642691c0d8a01",
+      "working_sha256": "348a6ab1e90a6be630cf4babf21c64735206029cd3f1f04478a38f1350cbbc6f"
+    },
+    {
+      "path": "finals/finals_notice.py",
+      "bytes": 5806,
+      "read": true,
+      "functions": [],
+      "remote_base_sha256": "5e2a00daa065becbd35588d8ecfe41779e331a4a05c19603dc74c9ff45fad8de",
+      "working_sha256": "bccf820a6d9c02722ede471635ecc861f8e869743d3bd28b971dc2f99226a0ee"
+    },
+    {
+      "path": "finals/finals_pipeline.py",
+      "bytes": 34384,
+      "read": true,
+      "functions": [
+        "now_kst",
+        "_canonical",
+        "_sha",
+        "_input_bindings",
+        "_bindings_match",
+        "_unique",
+        "_strict_json",
+        "_public_text",
+        "_commit",
+        "_claim",
+        "_validation",
+        "_calculate",
+        "_new_report",
+        "_log_run",
+        "_step",
+        "_model_call",
+        "_safe_error",
+        "_shared_payload",
+        "freeze_case",
+        "_run_general_ai",
+        "run_case",
+        "run_case_manual",
+        "run_case_ai",
+        "approve_report",
+        "recheck_changed_input",
+        "export_report",
+        "reopen_report",
+        "report_to_json"
+      ],
+      "remote_base_sha256": "1a15bee2011c0089481c41b8f56a2a0e868c9cd98a13a3cb29abce1a04124ae8",
+      "working_sha256": "ad862b56eb3b629c4b1c1e0e5eca651a72705d3d40c41afbf65a11a90baec3fb"
+    },
+    {
+      "path": "finals/finals_privacy.py",
+      "bytes": 3457,
+      "read": true,
+      "functions": [
+        "_text",
+        "sensitive_kinds",
+        "is_public_text",
+        "describe"
+      ],
+      "remote_base_sha256": "83beb0d0803332c53569f9ebda02ff656d5e578a7ea0ff3d08c5ad13df4506e8",
+      "working_sha256": "bbd454e62bcb7dd5365de9756db05c251d80015918397700faccb9e25fefc4a7"
+    },
+    {
+      "path": "finals/finals_provider.py",
+      "bytes": 10315,
+      "read": true,
+      "functions": [
+        "_api_key",
+        "live_allowed",
+        "_call_limit",
+        "availability",
+        "is_available",
+        "_unique",
+        "_strict_json",
+        "request_schema",
+        "complete_json",
+        "reject"
+      ],
+      "remote_base_sha256": "4333eb9a995691b7475f7d28d4ca45e865b99304b8184ec666a8ec6136b1d1e1",
+      "working_sha256": "64e0066766059a08010a726bb2f5284a11a04f2b4a08e476c832f8a1cbcc3285"
+    },
+    {
+      "path": "finals/tests/test_finals_privacy.py",
+      "bytes": 8083,
+      "read": true,
+      "functions": [
+        "test_personal_data_and_secret_shapes_are_detected_by_kind_only",
+        "test_ordinary_research_text_and_numbers_are_not_flagged",
+        "test_every_registered_case_payload_sent_to_the_model_is_free_of_personal_data",
+        "test_provider_blocks_personal_data_before_any_connection",
+        "test_provider_does_not_read_the_key_file_when_live_ai_is_off",
+        "test_approval_reason_with_personal_data_is_rejected_with_a_distinct_code",
+        "test_candidate_json_with_personal_data_is_blocked_as_sensitive_content",
+        "test_new_error_codes_have_korean_explanations_without_values",
+        "test_notice_covers_the_official_ethics_questions_and_mentions_only_implemented_controls",
+        "test_screen_shows_the_notice_and_blocks_an_approval_reason_with_personal_data",
+        "never"
+      ],
+      "remote_base_sha256": "ad99d3f4e02317bdb5510a73f64f409ef4d115ff5653c363a47f3af9040f6611",
+      "working_sha256": "7d317ec65ead751092338df46ed33edf57adc644968cec27e1477ac677337476"
+    },
+    {
+      "path": "requirements-research-mcp.txt",
+      "bytes": 189,
+      "read": true,
+      "remote_base_sha256": "f7acd49510cd1fcbfa17bc3319b40dbca7c86ee71dc2554a62425fff9af3ddc2",
+      "working_sha256": "f7acd49510cd1fcbfa17bc3319b40dbca7c86ee71dc2554a62425fff9af3ddc2"
+    },
+    {
+      "path": "tests/test_1_approval_binding.py",
+      "bytes": 8334,
+      "read": true,
+      "functions": [
+        "sha",
+        "setUp",
+        "run_approval",
+        "test_bound_approval_matches_and_preserves_bindings_for_replay",
+        "test_each_missing_null_or_empty_binding_blocks",
+        "test_data_change_with_updated_registration_expires_approval",
+        "test_spec_change_expires_approval_with_same_data_and_reference",
+        "test_reference_change_expires_approval_even_when_rows_are_aligned",
+        "test_embedded_newline_cannot_collide_with_identifier_boundary",
+        "test_no_approval_remains_pending",
+        "test_normalization_requires_same_three_bindings",
+        "test_invalid_approval_blocks",
+        "test_cli_direct_consent_binds_all_three_inputs",
+        "test_demo_requires_explicit_consent_and_approver"
+      ],
+      "remote_base_sha256": "076febe9fdea43bdbada82915bad799972c9a00f740068db576566ff3109dd55",
+      "working_sha256": "076febe9fdea43bdbada82915bad799972c9a00f740068db576566ff3109dd55"
+    },
+    {
+      "path": "tests/test_align_nexus.py",
+      "bytes": 7726,
+      "read": true,
+      "functions": [
+        "spec_for",
+        "bound_approval",
+        "test_missing",
+        "test_duplicate",
+        "test_order",
+        "test_notation_candidates_are_only_proposed",
+        "test_ambiguous_notation_is_not_proposed",
+        "test_blocked_until_approved",
+        "test_approved_pair_applies",
+        "test_unoffered_pair_is_rejected",
+        "test_approval_bound_to_other_inputs_is_stale",
+        "test_translate_order_quotes_and_trailing_text",
+        "test_tree_tips_must_match_translate",
+        "test_taxlabels_fallback_and_bad_header",
+        "test_cli_with_nexus_and_approval",
+        "test_five_states"
+      ],
+      "remote_base_sha256": "989cfe0f0c29fc37f79a468667fba83f5b2a63170eb4555c219e589af51c075e",
+      "working_sha256": "989cfe0f0c29fc37f79a468667fba83f5b2a63170eb4555c219e589af51c075e"
+    },
+    {
+      "path": "tests/test_gate.py",
+      "bytes": 9246,
+      "read": true,
+      "functions": [
+        "sha",
+        "spec_for",
+        "setUp",
+        "test_fixture_is_pinned_bytes",
+        "test_c01_344_rows_match",
+        "test_changed_reported_value_mismatch",
+        "test_c05_removed_source_location_blocks",
+        "test_c07_c08_changed_bytes_block_and_prior_result_not_reused",
+        "test_mean_with_na_tokens_matches_independent_mean",
+        "test_bad_values_stop_with_row_numbers",
+        "test_filter_selects_rows",
+        "ols_data",
+        "test_ols_match_needs_review_mismatch",
+        "test_row_alignment_order_membership_and_approval",
+        "test_append_only_and_cli"
+      ],
+      "remote_base_sha256": "c444612403e0d93e8ebd90543e7901976c8aa96596f759f539d8fa24ca267361",
+      "working_sha256": "c444612403e0d93e8ebd90543e7901976c8aa96596f759f539d8fa24ca267361"
+    },
+    {
+      "path": "tests/test_gate_boundaries.py",
+      "bytes": 9865,
+      "read": true,
+      "functions": [
+        "spec_for",
+        "test_method_array_is_blocked_not_raised",
+        "test_nonfinite_reported_value_is_blocked_not_raised",
+        "test_huge_integer_is_not_a_number_and_does_not_overflow",
+        "test_finite_mean_near_float_limit_does_not_overflow",
+        "test_gate_reports_mean_of_huge_values",
+        "_fit",
+        "test_ols_is_accurate_for_large_predictor_offset",
+        "test_ols_matches_hand_computation",
+        "test_badly_scaled_but_independent_predictors_are_not_called_singular",
+        "test_true_collinearity_and_constant_predictor_still_block",
+        "spec",
+        "test_unbound_approval_is_blocked_without_granting_approval",
+        "test_partially_bound_approval_is_blocked",
+        "test_bound_approval_is_recorded_with_its_own_hashes_and_expires_when_reference_changes",
+        "test_cli_binds_the_approval_it_creates",
+        "run_cli",
+        "test_duplicate_keys_in_spec_are_refused",
+        "test_nan_literal_in_spec_is_refused",
+        "test_malformed_method_returns_block_exit_code"
+      ],
+      "remote_base_sha256": "0bb346b30925a2ba9820c6e1b2533a9ff3935772ac7640ad82e62fdf512da7ec",
+      "working_sha256": "0bb346b30925a2ba9820c6e1b2533a9ff3935772ac7640ad82e62fdf512da7ec"
+    },
+    {
+      "path": "tests/test_integration_http.py",
+      "bytes": 2700,
+      "read": true,
+      "functions": [
+        "setUp",
+        "response",
+        "fetch",
+        "test_provenance_and_cache_preserve_observation",
+        "test_no_external_or_sensitive_target",
+        "test_http_error_is_not_empty_success",
+        "test_nonfinite_duplicate_and_oversize_responses_fail",
+        "test_external_xml_entity_is_rejected",
+        "test_deep_json_is_a_failure_response"
+      ],
+      "remote_base_sha256": "925bb2778693ac14b9a60d3d9f3f955f810c553ffa3c6d0b2b2a689713d1d4bf",
+      "working_sha256": "925bb2778693ac14b9a60d3d9f3f955f810c553ffa3c6d0b2b2a689713d1d4bf"
+    },
+    {
+      "path": "tests/test_publication_extensions.py",
+      "bytes": 13767,
+      "read": true,
+      "functions": [
+        "envelope",
+        "work",
+        "test_doi_credentials_urls_and_oversize_rejected_without_network",
+        "test_reverse_update_lookup_preserves_sources_dates_and_identity",
+        "test_http_success_is_not_semantic_success",
+        "test_notice_requires_identity_and_reverse_link",
+        "test_notice_queries_are_bounded_and_self_links_are_not_followed",
+        "test_no_updates_is_not_retraction_absence_or_verification",
+        "pubmed_xml",
+        "test_invalid_pmid_never_reaches_network",
+        "test_pubmed_preserves_exact_relation_direction_without_private_text",
+        "test_pubmed_http200_requires_exact_primary_identity",
+        "test_pubmed_dates_and_no_relation_do_not_prove_retraction_absence",
+        "test_retracted_publication_type_is_a_signal_without_comments_relation",
+        "test_transport_failure_does_not_look_like_empty_metadata",
+        "test_input_notice_forward_update_is_not_followed_or_reversed",
+        "test_pubmed_namespace_and_book_identity",
+        "test_pubmed_relation_without_target_preserves_signal_and_flags_truncation",
+        "test_pubmed_narrative_comments_are_not_update_signals",
+        "fake",
+        "fake",
+        "fake",
+        "fake"
+      ],
+      "remote_base_sha256": "67ea80837099984af868982a8fd0b02e92bd2c7a0f76fab7537e682d5629ed50",
+      "working_sha256": "67ea80837099984af868982a8fd0b02e92bd2c7a0f76fab7537e682d5629ed50"
+    },
+    {
+      "path": "tests/test_repo_hygiene.py",
+      "bytes": 5236,
+      "read": true,
+      "functions": [
+        "scan",
+        "test_clean_tree_passes",
+        "test_only_mixed_line_endings_in_one_code_file_are_flagged",
+        "test_secret_shaped_strings_are_flagged_except_obvious_test_fixtures",
+        "test_local_absolute_paths_are_flagged_unless_marked",
+        "test_version_marker_replacement_inside_an_api_path_is_flagged",
+        "test_emails_are_flagged_except_placeholders",
+        "test_reserved_tld_fixtures_and_url_userinfo_are_not_emails",
+        "test_broken_and_duplicate_key_json_is_flagged",
+        "test_config_drift_is_flagged",
+        "test_streamlit_expression_statements_are_flagged_but_calls_and_docstrings_are_not",
+        "test_protected_data_and_sealed_inputs_are_not_touched"
+      ],
+      "remote_base_sha256": "496c21d36235edd6c36783a1f40e3e2b4fcd2f6182252e847801aba418c5bd78",
+      "working_sha256": "496c21d36235edd6c36783a1f40e3e2b4fcd2f6182252e847801aba418c5bd78"
+    },
+    {
+      "path": "tests/test_repository_extensions.py",
+      "bytes": 12852,
+      "read": true,
+      "functions": [
+        "envelope",
+        "zenodo",
+        "figshare",
+        "dataverse",
+        "stub",
+        "test_invalid_identifier_never_calls_network",
+        "test_zenodo_concept_version_restricted_custom_license_and_privacy",
+        "test_figshare_exact_version_and_supplied_checksum_separate",
+        "test_dataverse_fixed_host_published_version_algorithm_and_privacy",
+        "test_dataverse_pinned_version_binds_response",
+        "test_malformed_or_unpublished_dataverse_response_fails",
+        "test_missing_file_checksum_is_explicit_unverified_metadata",
+        "test_provider_identity_and_requested_version_mismatch_fail",
+        "test_doi_identity_collision_fails_even_when_numeric_id_matches",
+        "test_missing_access_flag_does_not_infer_public_download",
+        "test_unversioned_figshare_doi_can_resolve_latest_version_doi",
+        "test_invalid_search_has_no_network",
+        "test_zenodo_search_quotes_syntax_and_preserves_total",
+        "test_dataverse_search_does_not_claim_unfetched_file_details",
+        "test_figshare_get_search_requires_exact_doi",
+        "test_over_limit_or_malformed_search_response_fails",
+        "test_transport_failure_does_not_echo_raw_provider_error",
+        "test_unsupported_provider_never_reflects_private_input",
+        "request"
+      ],
+      "remote_base_sha256": "367983eaf658b27dc015eb93c0b76913f7f6cdec019b92674214bc18a9a50b80",
+      "working_sha256": "367983eaf658b27dc015eb93c0b76913f7f6cdec019b92674214bc18a9a50b80"
+    },
+    {
+      "path": "tests/test_scholar_discovery.py",
+      "bytes": 1041,
+      "read": true,
+      "functions": [
+        "test_encoded_query_and_evidence_boundary",
+        "test_private_or_invalid_query_rejected"
+      ],
+      "remote_base_sha256": "b88f99d3e6d9dbaaba8f776ff96c3a7a1ed6cdbbc775738dd833b9821f43986f",
+      "working_sha256": "b88f99d3e6d9dbaaba8f776ff96c3a7a1ed6cdbbc775738dd833b9821f43986f"
+    },
+    {
+      "path": "tests/test_scholarly_feeds.py",
+      "bytes": 11327,
+      "read": true,
+      "functions": [
+        "_install",
+        "test_arxiv_single_combined_get_preserves_guid_announcement_and_hash",
+        "test_atom_id_published_updated_are_distinct_and_skip_non_alternate",
+        "test_atom_updated_only_does_not_become_published",
+        "test_duplicate_ids_and_canonical_links_do_not_spend_limit",
+        "test_unsafe_links_excluded",
+        "test_sanitizes_escaped_and_xml_child_scripts",
+        "test_unzoned_or_invalid_date_is_not_invented",
+        "test_invalid_limit_makes_no_request",
+        "test_unknown_provider_makes_no_request",
+        "test_limit_ten_and_kisti_fixed_address",
+        "test_valid_empty_holiday_feed_is_success",
+        "test_failure_is_disabled_with_observed_error",
+        "test_invalid_feed_shape_is_disabled",
+        "test_biorxiv_rdf_rss1_sibling_items_dc_identifier_and_date",
+        "test_rdf_about_id_prism_date_and_duplicate_link",
+        "test_rdf_without_rss1_channel_is_not_a_valid_feed",
+        "mock_get_xml"
+      ],
+      "remote_base_sha256": "81e561b60797f2e1bce1af04cf1526c4fe752ac7b8abe859849b9289d24db903",
+      "working_sha256": "81e561b60797f2e1bce1af04cf1526c4fe752ac7b8abe859849b9289d24db903"
+    },
+    {
+      "path": "tools/1_verify_bat_paper.py",
+      "bytes": 8759,
+      "read": true,
+      "functions": [
+        "sha",
+        "write_json",
+        "run"
+      ],
+      "remote_base_sha256": "f4e372e7f5d80a34fa8b025ad64669db18e97b78dfa40e9a8a212cf0db3295b6",
+      "working_sha256": "f4e372e7f5d80a34fa8b025ad64669db18e97b78dfa40e9a8a212cf0db3295b6"
+    },
+    {
+      "path": "tools/repo_hygiene.py",
+      "bytes": 8378,
+      "read": true,
+      "functions": [
+        "streamlit_magic",
+        "iter_text_files",
+        "check",
+        "_no_duplicates",
+        "main"
+      ],
+      "remote_base_sha256": "9e682dcac7b59d394618c6860b5a6c7290d49c629ab01ebccefb150549a94bed",
+      "working_sha256": "9e682dcac7b59d394618c6860b5a6c7290d49c629ab01ebccefb150549a94bed"
+    },
+    {
+      "path": "tools/research_extensions_mcp.py",
+      "bytes": 3616,
+      "read": true,
+      "functions": [
+        "integration_catalog",
+        "repository_record",
+        "search_repository",
+        "publication_updates",
+        "pubmed_record",
+        "scholarly_feed",
+        "scholar_discovery"
+      ],
+      "remote_base_sha256": "f3c435f26309b784a72daf498e4b17c9d3700499a0087ab148e03fb7707b02e8",
+      "working_sha256": "f3c435f26309b784a72daf498e4b17c9d3700499a0087ab148e03fb7707b02e8"
+    }
+  ],
+  "annotation_corrections": [
+    {
+      "file": "finals/finals_privacy.py",
+      "original_annotation": "2026-10-01 02:05 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_notice.py",
+      "original_annotation": "2026-10-01 02:15 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_pipeline.py",
+      "original_annotation": "2026-10-01 02:08 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_pipeline.py",
+      "original_annotation": "2026-10-01 02:08 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_pipeline.py",
+      "original_annotation": "2026-10-01 02:08 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_provider.py",
+      "original_annotation": "2026-10-01 02:10 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_provider.py",
+      "original_annotation": "2026-10-01 02:10 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/finals_explain.py",
+      "original_annotation": "2026-10-01 02:12 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/app.py",
+      "original_annotation": "2026-10-01 02:18 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/app.py",
+      "original_annotation": "2026-10-01 02:18 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/app.py",
+      "original_annotation": "2026-10-01 02:18 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/tests/test_finals_privacy.py",
+      "original_annotation": "2026-10-01 02:22 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation time later than the commit containing the file",
+      "reviewed_at_kst": "2026-10-01T02:08:17+09:00"
+    },
+    {
+      "file": "finals/app.py",
+      "original_annotation": "2026-10-01 02:22 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit containing this file",
+      "reviewed_at_kst": "2026-10-01T02:13:04+09:00"
+    },
+    {
+      "file": "finals/finals_explain.py",
+      "original_annotation": "2026-10-01 02:20 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit containing this file",
+      "reviewed_at_kst": "2026-10-01T02:13:04+09:00"
+    },
+    {
+      "file": "finals/tests/test_finals_explain.py",
+      "original_annotation": "2026-10-01 02:22 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit containing this file",
+      "reviewed_at_kst": "2026-10-01T02:13:04+09:00"
+    },
+    {
+      "file": "docs/0_이영_AI윤리와거버넌스.md",
+      "original_annotation": "2026-10-01 02:35 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit",
+      "reviewed_at_kst": "2026-10-01T02:36:15+09:00"
+    },
+    {
+      "file": "docs/0_이영_개인정보점검.md",
+      "original_annotation": "2026-10-01 02:30 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit",
+      "reviewed_at_kst": "2026-10-01T02:36:15+09:00"
+    },
+    {
+      "file": "docs/0_이영_출처기록.md",
+      "original_annotation": "2026-10-01 02:45 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit",
+      "reviewed_at_kst": "2026-10-01T02:36:15+09:00"
+    },
+    {
+      "file": "tools/provenance_survey.py",
+      "original_annotation": "2026-10-01 02:45 KST",
+      "original_authored_at": "UNCONFIRMED",
+      "reason": "Annotation later than the source commit",
+      "reviewed_at_kst": "2026-10-01T02:36:15+09:00"
+    }
+  ],
+  "annotation_source_preserved": true,
+  "github": "AUTHORIZED_FOR_THIS_UPDATE",
+  "additional_team_commits": [
+    "dcd39c862f450a572e766ea51dc85f5d2c7108a5 2026-10-01T02:08:24+09:00 [0 이영] fix: 자료 변경 재검산 화면에 '무엇이 바뀌었나'를 보여 주고 차단 판정과 모순되는 '일치합니다' 문장을 없앰",
+    "a868f55e405c40316cad1dd6b554e82a5a38db0f 2026-10-01T02:06:31+09:00 [0 이영] arXiv 공유 단일 연결과 호출 경계 보완"
+  ],
+  "final_integration_base": "ca1b8f54bff861c995fa009fd31c630d0be4e9f4",
+  "additional_reviewed_at_kst": "2026-10-01T02:13:04+09:00",
+  "additional_team_changed_file_index": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 22593,
+      "remote_base_sha256": "068ac1f06f5d47464f0b7ab3d26b43847bda5f60da3dda99ecacd2805d016fe1",
+      "read": true
+    },
+    {
+      "path": "core/integration_http.py",
+      "bytes": 8318,
+      "remote_base_sha256": "4f7665f13ba23b5a75516c930a32ea756d2fdb4a92c5cd850058b0e6ef064db1",
+      "read": true,
+      "functions": [
+        "_arxiv_connection_guard",
+        "_reserve_slot",
+        "_constant",
+        "_pairs",
+        "_request",
+        "get_json",
+        "get_xml"
+      ]
+    },
+    {
+      "path": "docs/0_이영_연구연동확장.md",
+      "bytes": 8338,
+      "remote_base_sha256": "5c0b11f0ea309f405bc75be272096db3d6d01af2886a87bb2e985e6263cbaba8",
+      "read": true
+    },
+    {
+      "path": "finals/app.py",
+      "bytes": 23826,
+      "remote_base_sha256": "66693b2ed257f2b7f26173a09e5ad192c66d7a44be25df24075871cd22c23470",
+      "read": true,
+      "functions": [
+        "_int_env",
+        "public_snapshot",
+        "state_of",
+        "approved",
+        "invalidate_review",
+        "notice_error",
+        "reset_case",
+        "health_record"
+      ]
+    },
+    {
+      "path": "finals/finals_explain.py",
+      "bytes": 8460,
+      "remote_base_sha256": "76013f437c573b3bca9aeaf3680e2975c88ea51e541c515da35c59c14b781a09",
+      "read": true,
+      "functions": [
+        "reason_text",
+        "reasons",
+        "_number",
+        "calculation_summary",
+        "change_summary"
+      ]
+    },
+    {
+      "path": "finals/tests/test_finals_explain.py",
+      "bytes": 7107,
+      "remote_base_sha256": "9c3cbabf28715b3439412249d169f2303f63446191c4b652cfb2d9f01a56bd58",
+      "read": true,
+      "functions": [
+        "test_known_codes_become_plain_korean_and_unknown_codes_are_kept_verbatim",
+        "test_reasons_are_deduplicated_in_order_across_report_sections",
+        "test_calculation_summary_covers_match_conflict_and_denominator_mismatch",
+        "app_factory",
+        "_text",
+        "test_screen_explains_why_a_case_is_held",
+        "test_screen_summarises_a_supported_case",
+        "test_deprecated_container_width_argument_is_gone_from_shipped_ui_code",
+        "test_change_summary_explains_what_changed_and_is_empty_without_a_change",
+        "test_change_scene_replaces_the_contradictory_match_sentence_with_what_changed",
+        "create"
+      ]
+    },
+    {
+      "path": "tests/test_integration_http.py",
+      "bytes": 8065,
+      "remote_base_sha256": "f38a2bdff914d0f043602219131ab79916239a0f25b47d52fce97a2a0a8ea83e",
+      "read": true,
+      "functions": [
+        "setUp",
+        "response",
+        "fetch",
+        "test_provenance_and_cache_preserve_observation",
+        "test_no_external_or_sensitive_target",
+        "test_http_error_is_not_empty_success",
+        "test_nonfinite_duplicate_and_oversize_responses_fail",
+        "test_external_xml_entity_is_rejected",
+        "test_deep_json_is_a_failure_response",
+        "test_arxiv_connections_serialize_until_close_without_blocking_other_hosts",
+        "test_arxiv_guard_contention_fails_with_bounded_wait_and_no_http",
+        "test_arxiv_http_error_releases_guard_after_connection_close",
+        "acquire",
+        "__init__",
+        "request",
+        "getresponse",
+        "close",
+        "read"
+      ]
+    }
+  ],
+  "scope": "Source review snapshot; final publish evidence is recorded separately",
+  "following_remote_commits": [
+    "56c973160330388664e6932e3c59e161aefe0bb4 2026-10-01T02:20:52+09:00 [0 이영] 최신 팀 웹 설명과 arXiv 연결 보완 통합",
+    "65357aec3d8977ea659fea696f5794d0d9aef84c 2026-10-01T02:14:56+09:00 [0 이영] 팀원 승인·개인정보 개선과 웹 AI·자동 통합 검증",
+    "88f0f5fe9c009baea0a366d26bee2ea1a87f9941 2026-10-01T02:11:52+09:00 [0 이영] 현재 자료 설명의 지문 갱신",
+    "56ab5eff667d6a29a983757e7a27781ace08d03f 2026-10-01T02:01:07+09:00 [0 이영] 팀원 승인 보완과 서버 AI·웹 변경 통합",
+    "f32e4267f7a545a588213091e70468f425fd8667 2026-10-01T01:35:06+09:00 [0 이영] 팀 OpenAI 연결과 심사 정책·실응답 재생 검증",
+    "0a934defefc0396700ebdbf7a49f8d160832c6bc 2026-10-01T00:56:07+09:00 [0 이영] 웹 배포 확인과 검산 결과 화면 수정",
+    "f5982caf0ce42ff8151bfa63799de3de5d388b33 2026-10-01T00:43:59+09:00 [0 이영] 팀 웹사이트 배포와 검산·공개자료 통합",
+    "3b8015a0c697ce0ab6d298229218bb31b73631e5 2026-09-30T23:52:54+09:00 [0 이영] 본선 문서 정리",
+    "5d2585a7d6814d82171e81e682ffd5b49b0440df 2026-09-30T23:34:15+09:00 [1 이채우] docs: 통합 현황·기능 경계·원출처와 협업 순서",
+    "4d5a20a0c44f794bf18f5e45deeeb029bc8e9b49 2026-09-30T23:21:52+09:00 [0 이영] 본선 집중 시연과 팀 기능 통합",
+    "7a8ceae1f3afe31e5d00b07b10fbb87b58b9754c 2026-09-30T23:05:24+09:00 [0 이영] 본선 현재 파일"
+  ],
+  "following_remote_reviewed_at_kst": "2026-10-01T02:29:36+09:00",
+  "following_remote_index": [
+    {
+      "path": ".streamlit/secrets.toml.example",
+      "bytes": 1594,
+      "remote_base_sha256": "ac25c7da6a4ada0b30eb1f09f5f98abb78005a0ba62a403e755ef0c44b7436a0",
+      "read": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 26687,
+      "remote_base_sha256": "4f5cbbc591ca44147c32a5317a6e6a61cba417151678eeb504d8cb5ee3e48d31",
+      "read": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 9541,
+      "remote_base_sha256": "0c92632d1ee891ef652c73cdc9530e973293a09ca02166721339bd00e813e2c3",
+      "read": true
+    },
+    {
+      "path": "core/research_agent.py",
+      "bytes": 18954,
+      "remote_base_sha256": "f513248c0cbb6b9428fbfa4ab25b0e9f1e58060cf4cc00b5216c2a5539734eed",
+      "read": true,
+      "functions": [
+        "_post_messages",
+        "_bounded_text",
+        "prepare_evidence",
+        "_decode_message",
+        "_validate_draft",
+        "_string_list",
+        "run_research_agent",
+        "search_evidence"
+      ]
+    },
+    {
+      "path": "core/research_assistant_ui.py",
+      "bytes": 21496,
+      "remote_base_sha256": "ff0a4eda8af309a1b1a30b872dd903a4946488d272fc70eb192b343b5d1e976a",
+      "read": true,
+      "functions": [
+        "provider_settings",
+        "search_evidence",
+        "run_research_agent",
+        "input_signature",
+        "_clear_result",
+        "_redact",
+        "_display_report",
+        "_registered_replay",
+        "_metadata_watch",
+        "render_research_assistant"
+      ]
+    },
+    {
+      "path": "data/0_이영_공개사본지문.json",
+      "bytes": 500176,
+      "remote_base_sha256": "f857e7f3b719c85c2642bb3b353dc59988b6fe8eee6dac290bcbbd4efee989fd",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_10분통합_설정.json",
+      "bytes": 701,
+      "remote_base_sha256": "4f6f474c3bef1bf745f941197d0ad74ca3b40b041ffc93584a43477b9d7f28b1",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_Cloud_배포검증.json",
+      "bytes": 1018,
+      "remote_base_sha256": "8bb167c06cdd6b9ea366b2ea1e02e00694c540ee2ccb9196e01b44f743f4ba07",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_실응답재생_검증.json",
+      "bytes": 660,
+      "remote_base_sha256": "647d2c7c7bfc9fd665c7d7530b0b70dd05c3035a71db74f5e0c829e6afada7cb",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_심사피드백_반영.md",
+      "bytes": 4768,
+      "remote_base_sha256": "043880798237385ecd72c6d94394834e2f9543ae25c111ea2498b305d33eb9a8",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_웹배포.md",
+      "bytes": 7414,
+      "remote_base_sha256": "012ca77d77daf618d521bde53efca5de250d24f36eba29f155c4131e23023fbc",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_웹사이트_배포완료.jpg",
+      "bytes": 45990,
+      "remote_base_sha256": "c5ff9162efa98173c3b7a7c1ad2cecbd6c4929fea0fabc156117820e2baab0cf",
+      "read": true,
+      "visual_review": "TEAM_RESEARCH_DESK_DEPLOYMENT_SCREENSHOT_NOT_CURRENT_DEPLOYMENT_VERIFICATION"
+    },
+    {
+      "path": "docs/0_이영_최종공개통합_검증.json",
+      "bytes": 1931,
+      "remote_base_sha256": "0021c67c062bf847439b45b00bba5360c807ea5cd9d50389cfafb43fb2789cbc",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_팀추가자료_반영범위.md",
+      "bytes": 3519,
+      "remote_base_sha256": "4eb3642b99bdff6e27a0c840cca889df1540aa802bd08962cb8454abc854488a",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_후속원격통합_검증.json",
+      "bytes": 994,
+      "remote_base_sha256": "c5b2c8f9cb2eab8a2314c6bb7048a5bb2845c8b178b4c481e34c7ad40e20a9ac",
+      "read": true
+    },
+    {
+      "path": "finals/app.py",
+      "bytes": 24622,
+      "remote_base_sha256": "afc2795906d9f957ec4c16e285240f65e138eabce3247bbe30000b56a1fa2af7",
+      "read": true,
+      "functions": [
+        "_int_env",
+        "public_snapshot",
+        "state_of",
+        "approved",
+        "invalidate_review",
+        "notice_error",
+        "reset_case",
+        "health_record"
+      ]
+    },
+    {
+      "path": "finals/data/finals/replays/0_이영_실제AI_정상사례_20261001_0004.json",
+      "bytes": 1673,
+      "remote_base_sha256": "3e407673383e07a7deaab151aef65962316b7329ecc92d7bbff60ba52627ea27",
+      "read": true
+    },
+    {
+      "path": "finals/finals_pipeline.py",
+      "bytes": 35101,
+      "remote_base_sha256": "6d5cb9cdde2c411b4863fc39b74254e27758a5024635f93d31d747a8292f8905",
+      "read": true,
+      "functions": [
+        "now_kst",
+        "_canonical",
+        "_sha",
+        "_unique",
+        "_strict_json",
+        "_public_text",
+        "_commit",
+        "_claim",
+        "_validation",
+        "_calculate",
+        "_new_report",
+        "_log_run",
+        "_step",
+        "_model_call",
+        "_safe_error",
+        "_shared_payload",
+        "freeze_case",
+        "_run_general_ai",
+        "run_case",
+        "run_case_manual",
+        "run_case_ai",
+        "approve_report",
+        "recheck_changed_input",
+        "export_report",
+        "reopen_report",
+        "report_to_json"
+      ]
+    },
+    {
+      "path": "finals/finals_provider.py",
+      "bytes": 14195,
+      "remote_base_sha256": "d5ecb2424232653bc4aec4d23558132c3e683e16e2418ab8ba51c44a5d131480",
+      "read": true,
+      "functions": [
+        "_validated_key",
+        "_server_secret_key",
+        "_api_key",
+        "paid_call_allowed",
+        "live_allowed",
+        "_call_limit",
+        "availability",
+        "is_available",
+        "_unique",
+        "_strict_json",
+        "request_schema",
+        "complete_json",
+        "reject"
+      ]
+    },
+    {
+      "path": "finals/tests/test_0_이영_팀정책연동.py",
+      "bytes": 5817,
+      "remote_base_sha256": "7a2f9e133a8d1d022811837e7afba9805d7a10654f606db5d69821d9ef6b0448",
+      "read": true,
+      "functions": [
+        "clear_knowledge_cache",
+        "mock_provider",
+        "test_both_ai_modes_receive_same_team_policy_and_auditable_prompt_hashes",
+        "test_missing_or_duplicate_key_knowledge_blocks_before_provider",
+        "test_invalid_policy_shape_or_size_blocks_before_provider",
+        "test_manual_calculation_needs_no_ai_policy_and_still_requires_human_review",
+        "complete"
+      ]
+    },
+    {
+      "path": "finals/tests/test_finals_guards.py",
+      "bytes": 12779,
+      "remote_base_sha256": "a5c366b2d36e874118e340edd93a32581e2d88cac2072115f97b9b758d7522c3",
+      "read": true,
+      "functions": [
+        "message",
+        "transport",
+        "test_key_is_read_only_from_environment_or_labeled_line",
+        "test_live_call_is_refused_unless_explicitly_allowed",
+        "test_availability_reports_whether_live_is_allowed",
+        "test_process_wide_call_budget_stops_before_connecting",
+        "_keywords",
+        "test_request_schema_drops_length_and_range_keywords_but_keeps_structure",
+        "test_request_schema_keeps_property_names_that_look_like_keywords",
+        "test_reasoning_items_are_skipped_not_treated_as_failure",
+        "test_denominator_mismatch_blocks_approval",
+        "test_receipt_check_follows_provider_constants",
+        "test_expected_denominator_comes_from_registered_data_not_a_magic_number",
+        "test_new_registered_claim_with_a_filter_gets_its_own_denominator",
+        "test_each_run_writes_one_structured_log_line_without_document_text",
+        "live_app",
+        "test_live_button_disabled_until_operator_allows_live_ai",
+        "test_live_button_stops_after_session_cap",
+        "test_import_failure_is_logged_not_silently_swallowed",
+        "__init__",
+        "read",
+        "__init__",
+        "request",
+        "getresponse",
+        "close",
+        "install",
+        "forbidden",
+        "wrong_denominator",
+        "fake",
+        "create",
+        "broken"
+      ]
+    },
+    {
+      "path": "finals/tests/test_finals_ui.py",
+      "bytes": 9825,
+      "remote_base_sha256": "ee12a9da7614ca64dfa75f4ef999b68aeb715547c6958df7728b1c1951d714dc",
+      "read": true,
+      "functions": [
+        "app_factory",
+        "compute",
+        "approve",
+        "test_registered_cases_visible_and_unavailable_ai_keeps_manual_path",
+        "test_normal_manual_calculation_requires_direct_confirmation_and_reason",
+        "test_blocked_conditions_never_enable_approval",
+        "test_editing_candidate_invalidates_calculation_and_approval",
+        "test_changed_input_blocks_reuse_after_approval",
+        "test_report_reopens_as_record_without_new_approval",
+        "test_replay_requires_saved_actual_response",
+        "test_paid_ai_ui_requires_team_login_and_transfer_consent",
+        "test_live_operator_gate_and_session_limit",
+        "test_live_default_has_no_run_count_cap",
+        "create"
+      ]
+    },
+    {
+      "path": "tests/test_0_이영_openai_team.py",
+      "bytes": 17517,
+      "remote_base_sha256": "b1f73ffc5a6f3ffbb347b635b57a5e9933599b60aa86acfefeb28c2fa7cb926b",
+      "read": true,
+      "functions": [
+        "isolate_runtime",
+        "test_cloud_secret_formats",
+        "test_invalid_cloud_key_type_fails_closed",
+        "test_environment_priority_and_absent_key",
+        "mock_http",
+        "test_responses_fixed_host_model_strict_store_and_actual_usage",
+        "test_http_failure_never_reads_body_or_retries",
+        "test_key_reflection_and_smaller_budget_are_blocked",
+        "fake_openai",
+        "test_openai_two_roles_strict_validation_real_usage_and_no_approval",
+        "test_model_output_errors_block_without_approval_or_key_leak",
+        "test_provider_exception_is_sanitized_and_not_retried",
+        "test_invalid_call_configuration_stops_before_transport",
+        "test_anthropic_default_remains_two_messages",
+        "test_paid_gate_checks_existing_operating_roles",
+        "test_paid_gate_rejects_public_local_missing_hash_and_bad_identity",
+        "test_ui_provider_settings_keep_server_key_and_legacy_anthropic",
+        "prepare_ui",
+        "test_ui_blocks_unauthed_even_when_key_and_enabled_exist",
+        "test_ui_explicit_consent_openai_selection_and_redacted_report",
+        "test_blank_example_and_no_real_configuration",
+        "test_ui_rechecks_team_authentication_immediately_before_call",
+        "test_live_disabled_blocks_before_network",
+        "test_live_zero_or_exhausted_budget_blocks_before_network",
+        "test_default_negative_count_limit_unlimited_with_live_opt_in",
+        "complete",
+        "post",
+        "run",
+        "authorized",
+        "forbidden",
+        "forbidden",
+        "read",
+        "__init__",
+        "request",
+        "getresponse",
+        "close"
+      ]
+    },
+    {
+      "path": "tests/test_0_이영_team_generate.py",
+      "bytes": 3935,
+      "remote_base_sha256": "6be77252da5f945ddec4d0a1f1818a38c9cbb27e3824552a145de73a6a855b5e",
+      "read": true,
+      "functions": [
+        "test_bundle_hashes_roles_individual_instructions_and_no_output",
+        "test_generator_retries_weak_and_duplicate_inputs",
+        "test_generation_exhaustion_creates_no_files",
+        "test_exclusive_write_preserves_existing_file",
+        "test_private_output_rejects_product_checkout",
+        "test_generate_main_outputs_paths_only_and_never_getpass",
+        "test_failure_cleans_only_new_bundle",
+        "fail_second"
+      ]
+    },
+    {
+      "path": "tools/0_이영_팀접속설정.py",
+      "bytes": 10729,
+      "remote_base_sha256": "33019f48f45d76ce3d8b7d556a0c7f3ccea33e5dc5a69efc6a195a2e87246a3f",
+      "read": true,
+      "functions": [
+        "validate_password",
+        "collect_password_hashes",
+        "render_secrets",
+        "create_secrets",
+        "_write_private_file",
+        "generate_access_bundle",
+        "main"
+      ]
+    }
+  ],
+  "final_added_document_commit": "ca1b8f54bff861c995fa009fd31c630d0be4e9f4 2026-10-01T02:29:08+09:00 [0 이영] docs: AI 윤리·개인정보 점검·출처 기록 문서와 출처 분류 도구 (모의 심사 활용성·실현가능성 피드백)",
+  "final_added_document_index": [
+    {
+      "path": "docs/0_이영_AI윤리와거버넌스.md",
+      "remote_base_sha256": "626f6a13a9d6813c377a2dc06ad78355220c682f132973a39fc70723b6bd399a",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_개인정보점검.md",
+      "remote_base_sha256": "0da9652822ebaece1985ba4716206d4eefb0984c317632b3dcc83abf53f6fdd8",
+      "read": true
+    },
+    {
+      "path": "docs/0_이영_출처기록.md",
+      "remote_base_sha256": "f3977730cbcc9031168bdba4fa5f96cb9130a9cffd54ea7c00a7fa2bd329f33b",
+      "read": true
+    },
+    {
+      "path": "tools/provenance_survey.py",
+      "remote_base_sha256": "83998d178dfd9422a2796d1f619addfe6364f4ea2ea9fb4f8c2bb9e82f51211a",
+      "read": true
+    }
+  ],
+  "final_document_reviewed_at_kst": "2026-10-01T02:36:15+09:00"
+}

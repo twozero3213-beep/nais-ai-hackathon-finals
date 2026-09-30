@@ -1,0 +1,24 @@
+{
+  "contributor": "1 이채우",
+  "paper_doi": "10.1371/journal.pone.0149458",
+  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+  "author_revision": "b02a0e302e36717b095abf9b1586a7398704f014",
+  "source_location": "Results / Identification of BAT positive patients",
+  "data_sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+  "filter": {
+    "Readout.bat": "1"
+  },
+  "column": "Age.y",
+  "expected_n": 53,
+  "reported_mean": "49.32",
+  "tolerance": "0.005",
+  "missing_policy": "error",
+  "unit": "years",
+  "scope": "Registered conditions, two descriptive statistics; not a blinded evaluation",
+  "controlled_checks": [
+    "registered filter change blocks",
+    "saved report tampering blocks"
+  ],
+  "model_calls": 0,
+  "human_approval": "NOT_PERFORMED"
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "status": "EXPLORATORY_NOT_SCORED",
+  "cases": [
+    {
+      "claim_id": "RAW-ROWS",
+      "source_file": "paper_excerpt.txt",
+      "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+      "csv_file": "raw.csv",
+      "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins_raw contains 17 variables and 344 individuals\nCSV: raw.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 17-variable penguins_raw table.\n",
+      "prompt_sha256": "1785cbf2b52df7dba181bf4059405a165d14d106c66e1292e42dde58b68fc0bb",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    },
+    {
+      "claim_id": "CURATED-ROWS",
+      "source_file": "paper_excerpt.txt",
+      "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+      "csv_file": "curated.csv",
+      "csv_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins contains 8 variables and 344 observations\nCSV: curated.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the 8-variable curated penguins table.\n",
+      "prompt_sha256": "38869148b71ab500cb55546cb30afe4ca8461bf8c724bc3b470d6e04de0bc4df",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    },
+    {
+      "claim_id": "RAW-WITH-CURATED",
+      "source_file": "paper_excerpt.txt",
+      "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+      "csv_file": "curated.csv",
+      "csv_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins_raw contains 17 variables and 344 individuals\nCSV: curated.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 8-variable curated penguins table.\n",
+      "prompt_sha256": "96c1225cf041fdb5c63fbf07868a3990605509e527d99b46211378c684bcda30",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    },
+    {
+      "claim_id": "CURATED-WITH-RAW",
+      "source_file": "paper_excerpt.txt",
+      "source_sha256": "afc24064f975ce69e020c024a3f346db664a4139cd418d7a93581f686086c911",
+      "csv_file": "raw.csv",
+      "csv_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "prompt": "Article source: R Journal RJ-2022-020, penguins_raw/penguins paragraph. You are given an author CSV and a pre-specified method. Assess whether this exact paper claim matches this exact dataset scope. If scope conflicts, block even if arithmetic is possible. Never silently reinterpret the claim. Reply only JSON with action BLOCK or EXECUTE, and finite numeric value only when EXECUTE. Do not call a result independently verified.\nClaim: penguins contains 8 variables and 344 observations\nCSV: raw.csv\nMethod: count_rows; column: entire dataset; filters: none; missing policy: retain all rows. Dataset scope: the supplied CSV is the 17-variable penguins_raw table.\n",
+      "prompt_sha256": "21aa212b1644fdfd7d0d41a2fff45cc0c630e22b4fb958003264b5589c596cc4",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "mapping_scope": "supplied_fixture_not_human_confirmed"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "scope": "AUTHOR_ANALYSIS_DATASET_ONLY",
+  "source_sha256": "425c5aab314dc2ba4de93b626339e6db893ecfa01ecea9a0371625ffaeeeb558",
+  "data_sha256": "9a0fa7a8d47d780b4fd8616895373df1d2186f9ed6646e3bf44196ac29d7ae86",
+  "raw_selection_verified": false,
+  "conclusion_allowed": false,
+  "semantic_verified": false,
+  "assumptions_verified": false,
+  "results": [
+    {
+      "model_id": "corrected_main_effects",
+      "action": "COEFFICIENT_MATCH",
+      "n": 264,
+      "residual_df": 256,
+      "terms": {
+        "SES_LadderCode": {
+          "product": 0.1259427844171005,
+          "independent": 0.12594278441710022,
+          "reported": 0.126,
+          "tolerance": 0.0005,
+          "engines_agree": true,
+          "matches_reported": true
+        },
+        "Condition_OriginalCode": {
+          "product": 0.40402680845894023,
+          "independent": 0.40402680845894057,
+          "reported": 0.404,
+          "tolerance": 0.0005,
+          "engines_agree": true,
+          "matches_reported": true
+        }
+      }
+    },
+    {
+      "model_id": "corrected_interaction",
+      "action": "COEFFICIENT_MATCH",
+      "n": 264,
+      "residual_df": 255,
+      "terms": {
+        "SES_ConditionOriginalCode": {
+          "product": 0.11115986713618412,
+          "independent": 0.1111598671361843,
+          "reported": 0.111,
+          "tolerance": 0.0005,
+          "engines_agree": true,
+          "matches_reported": true
+        }
+      }
+    }
+  ],
+  "limitation": "저자 분석자료의 계수 산술대조만 수행. 원자료 제외절차·공변량 의미·통계가정·다중비교·논문 결론·AI우위는 검증하지 않음."
+}

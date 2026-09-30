@@ -1,0 +1,37 @@
+{
+  "age_empty": 0,
+  "age_not_directly_numeric": 1,
+  "age_single_number_parse": 294,
+  "age_normalized_retained_mismatch": 0,
+  "unknown_prompt_condition": 1,
+  "wrong_attention_known_condition": 28,
+  "unknown_condition_retained": 0,
+  "wrong_attention_retained": 2,
+  "empty_age_retained": 0,
+  "normalized_candidate_n": 264,
+  "normalized_candidate_equals_sav": false,
+  "normalized_candidate_only": 2,
+  "normalized_author_only": 2,
+  "ethnicity_covariate_joint": [
+    {
+      "raw_european": 1.0,
+      "derived_covariate": 0.0,
+      "count": 174
+    },
+    {
+      "raw_european": null,
+      "derived_covariate": 1.0,
+      "count": 34
+    },
+    {
+      "raw_european": null,
+      "derived_covariate": 0.0,
+      "count": 55
+    },
+    {
+      "raw_european": 1.0,
+      "derived_covariate": 1.0,
+      "count": 1
+    }
+  ]
+}

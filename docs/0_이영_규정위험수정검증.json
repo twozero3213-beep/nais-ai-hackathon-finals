@@ -1,0 +1,97 @@
+{
+  "contributor_version": 0,
+  "checked_at_kst": "2026-10-01T01:08:24+09:00",
+  "_change_note": "첨부 안내문10쪽 재대조·공개 최신 웹 통합 기준 규정/자료 설명 보완과 실제 회귀시험 범위를 기록. 원문·편입·팀 작업 사실과 본선 개발 기록은 보존.",
+  "official_notice": {
+    "sha256": "11d247e5be653289c7431a65735d1ee4e8367f367981f42c8cd48fef637e4768",
+    "pages": 10,
+    "evaluation_page": 3,
+    "schedule_page": 4,
+    "development_and_submissions_page": 6,
+    "mentor_boundary_page": 7,
+    "ai_tools_page": 8
+  },
+  "base_remote_commit": "f5982caf0ce42ff8151bfa63799de3de5d388b33",
+  "document_corrections": [
+    "공식 시작17:40·팀 Git 시작17:55:37·제출09:20 구분",
+    "06:20 팀 동결 목표와 공식 마감 구분",
+    "4명 팀의 역할 제안·사람 확인 여부 구분",
+    "연락처 제거 공개 HTML 사본을 원문 바이트 그대로라고 한 설명 정정",
+    "현재 업로더 VERSION 동적 링크",
+    "Data.gov 공식 API 표기 예외의 범위 제한 및 제품 표기 검출 유지"
+  ],
+  "code_fixes_already_present": {
+    "files": [
+      "core/typed_contracts.py",
+      "core/executor.py",
+      "core/analysis_spec.py",
+      "core/models.py",
+      "core/proposal_intake.py",
+      "core/statistics.py",
+      "core/gates.py",
+      "core/pdf_claims.py",
+      "core/research_data_sources.py"
+    ],
+    "core_defects": 9,
+    "ast_equal_to_independently_tested_candidate": true,
+    "included_by_remote_web_integration": true,
+    "duplicate_code_port": false,
+    "live_datagov_http_test": "NOT_RUN"
+  },
+  "fresh_validation": {
+    "checked_at_kst": "2026-10-01T01:06:27+09:00",
+    "command_scope": "tests/test_finals_audit_contracts.py tests/test_finals_audit_statistics.py tools/test_product_metadata_guard.py",
+    "passed": 74,
+    "seconds": 18.97,
+    "metadata_status": "PASS",
+    "metadata_json_files": 19,
+    "planning_hashes_verified": 4,
+    "whitespace_check": "PASS"
+  },
+  "previous_independent_product_suite": {
+    "passed": 157,
+    "skipped": 1,
+    "seconds": 29.81,
+    "scope": "웹 통합 전 제품 범위; 새 웹·대규모 자료 전체 시험으로 주장하지 않음",
+    "skip_reason": "저자 A2 원본 경로 EVIDENCE_GATE_A2_DIR 미설정"
+  },
+  "team_web_validation_report": {
+    "passed": 425,
+    "skipped": 1,
+    "seconds": 198.63,
+    "source": "CHANGELOG.md의 f5982ca 팀 실행 기록",
+    "rerun_by_this_audit": false,
+    "combined_with_audit_test_counts": false
+  },
+  "actual_ai_status": {
+    "normal_case_condition_extraction": "팀 원격 README상 2026-10-01 00:04 KST 실제 OpenAI 조건 추출1건 완료",
+    "human_approval": "PENDING",
+    "sealed_three_condition_comparison": "NOT_CONFIRMED",
+    "fresh_paid_model_calls_by_this_audit": 0
+  },
+  "remaining_human_checks": [
+    "안내문6쪽 사전코드 편입 허용 범위 운영진 해석",
+    "봉인된3조건비교·실제 사람승인·최종 발표기능 실제구현 대응",
+    "클라우드 전체 동선·데모영상·실제제출 접수 확인"
+  ],
+  "history_limits": {
+    "accepted_root": "7a8ceae1f3afe31e5d00b07b10fbb87b58b9754c",
+    "old_sha_server_urls": "기존 HTTP200 관측; 이번에는 재조회하지 않음",
+    "repository_delete_allowed": false,
+    "history_rewrite_by_this_audit": false
+  },
+  "retained_facts": [
+    "원자료 작성/관측/발행일",
+    "현재 원자료·공개사본 지문",
+    "출처·편입 사실·팀 원 작성자 기록",
+    "실패·미실행·미완료 판정"
+  ],
+  "integrated_remote_commit": "50c54605b162d23051f08ef2cce83f987f133983",
+  "integrated_at_kst": "2026-10-01T01:12:33+09:00",
+  "cloud_status": {
+    "status": "팀 신규 배포 기록상 공개 서버 등록자료344행 계산·미승인 확인",
+    "evidence": "CHANGELOG.md 2026-10-01T00:56:06+09:00 / docs/0_이영_웹배포.md",
+    "independently_exercised_by_this_audit": false,
+    "complete_ai_approval_video_submission": "NOT_CONFIRMED"
+  }
+}

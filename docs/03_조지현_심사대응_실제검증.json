@@ -1,0 +1,48 @@
+{
+  "_change_note": "2026-10-01T01:25:27+09:00 — 담당3 조지현: 현재 팀 코드에서 미결속 승인 차단 후 전체 제품 시험을 실제 실행. 원실험·문헌 시각 보존.",
+  "recorded_at_kst": "2026-10-01T01:25:27+09:00",
+  "contributor_version": 3,
+  "local_display_label": "03",
+  "baseline_commit": "97543a75f9bc5037b68f6e09bcab07a4f3a16701",
+  "scope": "tests + finals/tests + tools/test_product_metadata_guard.py; Mac local full product suite",
+  "counts": {
+    "tests": 480,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "passed": 479,
+  "warnings": 1,
+  "elapsed_seconds": 22.28,
+  "exit_code": 0,
+  "python": "3.13.5",
+  "packages": {
+    "pytest": "8.4.2",
+    "streamlit": "1.64.0",
+    "pandas": "2.3.3",
+    "numpy": "2.5.3"
+  },
+  "targeted_suite": {
+    "passed": 40,
+    "skipped": 1,
+    "elapsed_seconds": 0.06
+  },
+  "skip_reason": "EVIDENCE_GATE_A2_DIR 미설정: A2 저자 원파일 시험 미실행",
+  "warning_reason": "의도한 fail-closed sum overflow 시험의 NumPy RuntimeWarning",
+  "raw_log_sha256": "721cf9bc65fe1ed8fc13652dca28740dbcea04f501f97f241eb9c93da49c9b58",
+  "junit_sha256": "94ea0e0698790390ac586161aec7eae920b126b46edd219cc8c227cee53fee5f",
+  "changed_code_sha256": {
+    "evidence_gate/gate.py": "afb21e013dbe99ea826093ac3799e733f5a9ea816aafc3a680221eda5394d27f",
+    "tests/test_gate.py": "424d89b3422d03df67c5f0f0a285a0a689408917eec6b110dc617dfc9a6abfc2",
+    "tests/test_gate_boundaries.py": "6fc68360b6c1c442b7a29221d8c1a18a4c1bf1c6527684e19a59a42fe220dc57",
+    "tests/test_align_nexus.py": "7e1d4f0abc55904182287c37012784a2a9ef1bb1a013b5f2ee00e96c92f71e51"
+  },
+  "live_model_calls": 0,
+  "actual_human_approval": "NOT_RUN; automated synthetic approval fixtures",
+  "cloud_validation": "NOT_RUN_THIS_CHANGE",
+  "limits": [
+    "별도 로컬 엔진16개·과거1623개·팀 기존425개와 합산 금지",
+    "API 직접 재정렬 승인에 두 입력 지문이 필수; 기존 미결속 호출자는 직접 다시 승인해야 함",
+    "명세 전체 지문 결속·사용자 신원 인증·서명은 이 명령행 보완의 범위 밖"
+  ]
+}

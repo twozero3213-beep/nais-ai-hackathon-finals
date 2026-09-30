@@ -1,0 +1,21 @@
+{
+  "_change_note": "2026-10-01T00:59:06+09:00 — 실제 외부 Chrome Cloud UI와 원격 SHA 확인 결과를 기록한다. 비밀값·관리자 이메일 없음.",
+  "recorded_at_kst": "2026-10-01T00:59:06+09:00",
+  "url": "https://nais-evidence-gate-finals.streamlit.app/",
+  "deployment_commit": "f5982caf0ce42ff8151bfa63799de3de5d388b33",
+  "entrypoint": "0_이영_웹사이트.py",
+  "cloud_python": "3.13.15",
+  "cloud_streamlit": "1.64.0",
+  "checks": {
+    "research_desk_six_tabs": "PASS",
+    "verify_source_data_rows": 344,
+    "normal_manual_state": "SUPPORTED_PREVIEW",
+    "normal_human_approval": "PENDING",
+    "changed_input_state": "BLOCKED_CHANGED_INPUT",
+    "changed_approval_button": "DISABLED"
+  },
+  "team_workspace": "CREDENTIAL_CONFIG_REQUIRED",
+  "cloud_openai": "NOT_CONFIGURED",
+  "screenshot": "0_이영_웹사이트_배포완료.jpg",
+  "limits": "Cloud 개인 로그인·유료 AI·봉인16칸비교·지속 저장은 이 영수증의 검증 범위가 아님."
+}

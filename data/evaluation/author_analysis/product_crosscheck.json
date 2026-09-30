@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "basis": "author cleaned analysis data; does not establish original exclusion criteria",
+  "results": [
+    {
+      "model": "covariates_no_interaction",
+      "product_result": {
+        "method": "linear_regression",
+        "n": 264,
+        "predictors": [
+          "Age",
+          "Gender",
+          "Religiousness",
+          "PoliticalOrientation",
+          "EuropeanNonEuropean",
+          "SES_LadderCode",
+          "Condition_OriginalCode"
+        ],
+        "terms": {
+          "Age": {
+            "estimate": -0.021946973364496882,
+            "se": 0.005028904423534005,
+            "statistic": -4.364165932800509,
+            "p_value": 1.8526114757515233e-05,
+            "ci95_beta": [
+              -0.031850263539336385,
+              -0.012043683189657378
+            ]
+          },
+          "Gender": {
+            "estimate": -0.2682685260269086,
+            "se": 0.1295671685148027,
+            "statistic": -2.0704977125147224,
+            "p_value": 0.0394083358660888,
+            "ci95_beta": [
+              -0.5234217679397282,
+              -0.013115284114089076
+            ]
+          },
+          "Religiousness": {
+            "estimate": -0.005846948932679296,
+            "se": 0.031772621543781854,
+            "statistic": -0.1840247561763939,
+            "p_value": 0.8541397167356516,
+            "ci95_beta": [
+              -0.06841594294476071,
+              0.05672204507940211
+            ]
+          },
+          "PoliticalOrientation": {
+            "estimate": 0.12260012029055377,
+            "se": 0.04084579217970346,
+            "statistic": 3.001536112977497,
+            "p_value": 0.0029516963698539545,
+            "ci95_beta": [
+              0.042163568248761246,
+              0.2030366723323463
+            ]
+          },
+          "EuropeanNonEuropean": {
+            "estimate": 0.19038850505516824,
+            "se": 0.19200576889789647,
+            "statistic": 0.9915770038993555,
+            "p_value": 0.32234020460133816,
+            "ci95_beta": [
+              -0.18772344229872345,
+              0.56850045240906
+            ]
+          },
+          "SES_LadderCode": {
+            "estimate": 0.1259427844171005,
+            "se": 0.03365389286135607,
+            "statistic": 3.7422946859653634,
+            "p_value": 0.00022514800654877104,
+            "ci95_beta": [
+              0.05966905191996204,
+              0.19221651691423897
+            ]
+          },
+          "Condition_OriginalCode": {
+            "estimate": 0.40402680845894023,
+            "se": 0.12464322384441744,
+            "statistic": 3.2414662907247638,
+            "p_value": 0.0013468566596059267,
+            "ci95_beta": [
+              0.1585701622196197,
+              0.6494834546982607
+            ]
+          }
+        },
+        "intercept": 2.078008577063731,
+        "r_squared": 0.23817100971332028,
+        "converged": true,
+        "assumptions": [
+          "complete-case analysis",
+          "\ubaa8\ud615 specification/\uc794\ucc28\u00b7\uc120\ud615\uc131\u00b7\uacf5\uc120\uc131\uc740 \ubcc4\ub3c4 \uac80\ud1a0 \ud544\uc694"
+        ]
+      },
+      "max_absolute_difference": 2.6645352591003757e-14
+    },
+    {
+      "model": "covariates_with_interaction",
+      "product_result": {
+        "method": "linear_regression",
+        "n": 264,
+        "predictors": [
+          "Age",
+          "Gender",
+          "Religiousness",
+          "PoliticalOrientation",
+          "EuropeanNonEuropean",
+          "SES_LadderCode",
+          "Condition_OriginalCode",
+          "SES_ConditionOriginalCode"
+        ],
+        "terms": {
+          "Age": {
+            "estimate": -0.023008524267863806,
+            "se": 0.0050503269823003105,
+            "statistic": -4.555848432883833,
+            "p_value": 8.094467731825326e-06,
+            "ci95_beta": [
+              -0.03295418657530583,
+              -0.013062861960421782
+            ]
+          },
+          "Gender": {
+            "estimate": -0.2933555622723965,
+            "se": 0.12995852549052628,
+            "statistic": -2.257301405699479,
+            "p_value": 0.024835740448527828,
+            "ci95_beta": [
+              -0.5492842601629944,
+              -0.03742686438179865
+            ]
+          },
+          "Religiousness": {
+            "estimate": -0.000629376893000258,
+            "se": 0.03180988756563464,
+            "statistic": -0.019785574271573233,
+            "p_value": 0.9842298981599179,
+            "ci95_beta": [
+              -0.06327292470174066,
+              0.062014170915740144
+            ]
+          },
+          "PoliticalOrientation": {
+            "estimate": 0.11933219301859811,
+            "se": 0.04074580031488114,
+            "statistic": 2.928699205719509,
+            "p_value": 0.0037117696296162126,
+            "ci95_beta": [
+              0.03909105778151031,
+              0.1995733282556859
+            ]
+          },
+          "EuropeanNonEuropean": {
+            "estimate": 0.1775738678972087,
+            "se": 0.19146979279697582,
+            "statistic": 0.9274249755181925,
+            "p_value": 0.35458289488890216,
+            "ci95_beta": [
+              -0.1994896188648413,
+              0.5546373546592587
+            ]
+          },
+          "SES_LadderCode": {
+            "estimate": 0.07517107762794113,
+            "se": 0.04507356121458486,
+            "statistic": 1.6677421442266103,
+            "p_value": 0.09659443963282394,
+            "ci95_beta": [
+              -0.013592762892716215,
+              0.16393491814859848
+            ]
+          },
+          "Condition_OriginalCode": {
+            "estimate": -0.17802312892795447,
+            "se": 0.3669392114427917,
+            "statistic": -0.48515700523793565,
+            "p_value": 0.6279815108011866,
+            "ci95_beta": [
+              -0.9006403965146224,
+              0.5445941386587134
+            ]
+          },
+          "SES_ConditionOriginalCode": {
+            "estimate": 0.11115986713618412,
+            "se": 0.06594187214218801,
+            "statistic": 1.6857250715674894,
+            "p_value": 0.0930719507947154,
+            "ci95_beta": [
+              -0.018700158669115757,
+              0.241019892941484
+            ]
+          }
+        },
+        "intercept": 2.410052989968052,
+        "r_squared": 0.2465671151455281,
+        "converged": true,
+        "assumptions": [
+          "complete-case analysis",
+          "\ubaa8\ud615 specification/\uc794\ucc28\u00b7\uc120\ud615\uc131\u00b7\uacf5\uc120\uc131\uc740 \ubcc4\ub3c4 \uac80\ud1a0 \ud544\uc694"
+        ]
+      },
+      "max_absolute_difference": 8.704148513061227e-14
+    }
+  ]
+}

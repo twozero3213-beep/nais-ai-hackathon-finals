@@ -1,0 +1,677 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="fsn372355" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Food Sci Nutr</journal-id><journal-id journal-id-type="iso-abbrev">Food Sci Nutr</journal-id><journal-id journal-id-type="pmc-domain-id">2357</journal-id><journal-id journal-id-type="pmc-domain">fsn</journal-id><journal-id journal-id-type="nlm-id">101605473</journal-id><journal-id journal-id-type="publisher-id">FSN3</journal-id><journal-title-group><journal-title>Food Science &amp; Nutrition</journal-title></journal-title-group><issn pub-type="epub">2048-7177</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13555400</article-id><article-id pub-id-type="pmcid-ver">PMC13555400.1</article-id><article-id pub-id-type="pmcaid">13555400</article-id><article-id pub-id-type="pmcaiid">13555400</article-id><article-id pub-id-type="pmid">42719115</article-id><article-id pub-id-type="doi">10.1002/fsn3.72355</article-id><article-id pub-id-type="publisher-id">FSN372355</article-id><article-id pub-id-type="other">7132332</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></subj-group></article-categories><title-group><article-title>A Comparative Study on β‐ODAP Level, Polyphenolic Content and Antioxidant Activity Across Three <italic toggle="no">Lathyrus sativus</italic> L. Cultivars</article-title></title-group><contrib-group><contrib id="fsn372355-cr-0001" contrib-type="author"><name name-style="western"><surname>Gentile</surname><given-names initials="G">Giulia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0007-6070-5490</contrib-id><xref rid="fsn372355-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn372355-cr-0002" contrib-type="author"><name name-style="western"><surname>Marinaccio</surname><given-names initials="L">Lorenza</given-names></name><xref rid="fsn372355-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="fsn372355-cr-0003" contrib-type="author"><name name-style="western"><surname>Procino</surname><given-names initials="E">Eleonora</given-names></name><xref rid="fsn372355-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn372355-cr-0004" contrib-type="author"><name name-style="western"><surname>Cichelli</surname><given-names initials="A">Angelo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2987-5738</contrib-id><xref rid="fsn372355-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="fsn372355-cr-0005" contrib-type="author"><name name-style="western"><surname>Mollica</surname><given-names initials="A">Adriano</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7242-4860</contrib-id><xref rid="fsn372355-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fsn372355-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="fsn372355-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Stefanucci</surname><given-names initials="A">Azzurra</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7525-2913</contrib-id><xref rid="fsn372355-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fsn372355-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address></address></contrib></contrib-group><aff id="fsn372355-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>University of Chieti‐Pescara “G. d'Annunzio”</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><aff id="fsn372355-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Innovative Technologies in Medicine and Dentistry</named-content>
+<institution>University “G. d'Annunzio” of Chieti‐Pescara</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><aff id="fsn372355-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>SCM Nutraceutici Universitari Srl</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Azzurra Stefanucci ()<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>9</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>14</volume><issue seq="800">9</issue><issue-id pub-id-type="pmc-issue-id">520349</issue-id><issue-id pub-id-type="doi">10.1002/fsn3.v14.9</issue-id><elocation-id>e72355</elocation-id><history>
+<date date-type="rev-recd"><day>13</day><month>8</month><year>2026</year></date>
+<date date-type="received"><day>11</day><month>3</month><year>2026</year></date>
+<date date-type="accepted"><day>26</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>09</day><month>09</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>10</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-10 15:11:28.953"><day>10</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Food Science &amp; Nutrition</italic> published by Wiley Periodicals LLC.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="FSN3-14-e72355.pdf"><?pdf-name FSN3-14-e72355.pdf?><?pdf-size 873663?><?pdf-md5 0ef788df0670d681bdf88075cbe50c2d?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:fb52/13555400/0ef788df0670/FSN3-14-e72355.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:FSN3-14-e72355.pdf"/><abstract><title>ABSTRACT</title><p>Grass pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.) is an old crop highly resistant to climate changes and drought. Despite its nutritional benefits, it represents a source of β‐ODAP, a non‐protein amino acid which causes neurolathyrism. This study aims to determine the β‐ODAP content of three different Italian cultivars of grass pea collected in Umbria and Puglia. An aqueous extraction of each grass pea sample was carried out and analyzed by High Performance Liquid Chromatography (HPLC) with a Diode Array Detector (DAD) after Fmoc‐derivatization to quantify β‐ODAP. Furthermore, the polyphenolic content and antioxidant activity of each grass pea sample have been evaluated by performing spectrophotometric analysis. The β‐ODAP content ranged from 0.01 mg/g to 0.037 mg/g of grass pea powder, resulting in being higher in the biological cultivar. Sample C (Puglia grass pea) showed the best antioxidant activity. Overall, these results encourage the cultivation of this crop and prompt further studies on the biofunctional properties of this resistant legume.</p></abstract><abstract abstract-type="graphical"><p>β‐ODAP content in three diverse <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L. cultivars.<boxed-text position="anchor" content-type="graphic" id="fsn372355-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="FSN3-14-e72355-g002.webp"><?image-name FSN3-14-e72355-g002.webp?><?image-size 10330?><?image-md5 8337e13a51440ffcd50c7bc41c221988?><?image-image-server-status NEVER_LOAD?><?image-original-height 281?><?image-original-width 392?><?image-scaled-height 281?><?image-scaled-width 392?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/8337e13a5144/FSN3-14-e72355-g002.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="fsn372355-kwd-0001">β‐ODAP</kwd><kwd id="fsn372355-kwd-0002">anti‐nutrients</kwd><kwd id="fsn372355-kwd-0003">antioxidant activity</kwd><kwd id="fsn372355-kwd-0004">neurolathyrism</kwd><kwd id="fsn372355-kwd-0005">polyphenols</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>NextGenerationEU</institution><institution-id institution-id-type="doi">10.13039/100031478</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="8"/><table-count count="1"/><page-count count="9"/><word-count count="6200"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:09.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="fsn372355-body-0001"><sec id="fsn372355-sec-0001"><label>1</label><title>Introduction</title><p>Grass pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.) belongs to the family of <italic toggle="yes">Fabaceae</italic> (<italic toggle="yes">Leguminosae</italic>). This legume is highly resistant to climate change and to drought conditions; so as it is commonly known as a “survival food”, easily available in dry seasons and at low prices (Lambein et al. <xref rid="fsn372355-bib-0022" ref-type="bibr">2019</xref>; Miah et al. <xref rid="fsn372355-bib-0029" ref-type="bibr">2024</xref>).</p><p>The symbiotic relationship with <italic toggle="yes">Rhizobia</italic> makes this plant even more interesting; indeed, <italic toggle="yes">Rhizobia</italic> is a bacteria able to fix atmospheric nitrogen in the soil, transforming nitrogen gas into chemical compounds which can be absorbed and used for the synthesis of macromolecules (e.g., nucleic acids and proteins) by plants. In this way the application of fertilizers is unnecessary resulting in being economically advantageous and convenient in terms of annual crop rotation (Asrat et al. <xref rid="fsn372355-bib-0003" ref-type="bibr">2023</xref>; Kebede <xref rid="fsn372355-bib-0019" ref-type="bibr">2021</xref>).</p><p>Grass pea represents one of the most ancient crops; it is cultivated in Europe, Asia, and Africa and used for cereal supplementation, livestock feed, and human consumption (Gentile et al. <xref rid="fsn372355-bib-0011" ref-type="bibr">2025</xref>; Lambein et al. <xref rid="fsn372355-bib-0022" ref-type="bibr">2019</xref>; Miah et al. <xref rid="fsn372355-bib-0029" ref-type="bibr">2024</xref>). This cultivation, recognized as an “orphan legume crop” is underrated in comparison with other commercial crops, but it has a significant value in terms of nutritional benefits and economical aspects. Actually, grass pea is rich in proteins (18%–34%) and total fatty acids lower than 2% (58% of which are polyunsaturated fatty acids) (Simões et al. <xref rid="fsn372355-bib-0036" ref-type="bibr">2023</xref>).</p><p>The proteins contained in the seeds comprise globulins (66%), glutelins (15%), albumins (14%) and prolamins (5%) (Chandna and Matta <xref rid="fsn372355-bib-0006" ref-type="bibr">1994</xref>; Lambein et al. <xref rid="fsn372355-bib-0022" ref-type="bibr">2019</xref>). In terms of amino acid profile, as the majority of grain legumes, grass pea contains low quantities of methionine and cysteine (Iqbal et al. <xref rid="fsn372355-bib-0015" ref-type="bibr">2006</xref>). On the contrary, it is rich in lysine, generally low in cereals, which is an essential amino acid crucial in protein synthesis and in human nutrition (Matthews <xref rid="fsn372355-bib-0028" ref-type="bibr">2020</xref>).</p><p>Moreover, grass pea is a dietary source of L‐homoarginine (hArg), becoming an example of potential functional food (Lambein et al. <xref rid="fsn372355-bib-0022" ref-type="bibr">2019</xref>; Llorent‐Martínez et al. <xref rid="fsn372355-bib-0025" ref-type="bibr">2017</xref>; Singh and Rao <xref rid="fsn372355-bib-0037" ref-type="bibr">2013</xref>). Recent studies reported the correlation between low levels of hArg and the increased risk of cardiovascular disease (Karetnikova et al. <xref rid="fsn372355-bib-0018" ref-type="bibr">2019</xref>).</p><p>On the other hand, grass pea is also known as a source of anti‐nutritional factors and ODAP (N‐oxalyl‐L‐α,β‐diaminopropionic acid) (Urga et al. <xref rid="fsn372355-bib-0043" ref-type="bibr">2012</xref>). The non‐protein amino acid β‐ODAP (β‐N‐oxalyl‐L‐α,β‐diaminopropionic acid) is a neurotoxin responsible for the onset of neurolathyrism, a neurological disorder (Simões et al. <xref rid="fsn372355-bib-0036" ref-type="bibr">2023</xref>) (Figure <xref rid="fsn372355-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Structure of β‐ODAP.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="FSN3-14-e72355-g001.webp"><?image-name FSN3-14-e72355-g001.webp?><?image-size 4462?><?image-md5 d0c0ffa9d8f2a64b0e879c9dc3156605?><?image-image-server-status NEVER_LOAD?><?image-original-height 279?><?image-original-width 592?><?image-scaled-height 279?><?image-scaled-width 592?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/d0c0ffa9d8f2/FSN3-14-e72355-g001.webp?><?thumb-name FSN3-14-e72355-g001.gif?><?thumb-size 2586?><?thumb-md5 d3a4a46c9b76bf1ec718503716110063?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 94?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/d3a4a46c9b76/FSN3-14-e72355-g001.gif?></graphic></fig><p>In humans, neurolathyrism causes spastic paraparesis which affects mainly the Betz cells as well as the corticospinal tracts (Ludolph and Spencer <xref rid="fsn372355-bib-0026" ref-type="bibr">1996</xref>; Ravindranath <xref rid="fsn372355-bib-0034" ref-type="bibr">2002</xref>). The β‐ODAP content in <italic toggle="yes">Lathyrus</italic> seeds is &lt; 0.2 g/100 g; the overconsumption of grass pea can lead to β‐ODAP accumulation in the central nervous system causing convulsions (Miah et al. <xref rid="fsn372355-bib-0029" ref-type="bibr">2024</xref>).</p><p>While the anti‐nutritional factor cannot be eliminated, it is sufficient to soak and cook the grass pea to reduce its concentration (Linee guida per una sana alimentazione <xref rid="fsn372355-bib-0024" ref-type="bibr">2017</xref>). Different techniques have been reported in literature to determine the content of β‐ODAP, for example, spectrophotometric, mass spectrometric, HPLC methods (Emmrich et al. <xref rid="fsn372355-bib-0009" ref-type="bibr">2019</xref>; Miah et al. <xref rid="fsn372355-bib-0029" ref-type="bibr">2024</xref>). Many researchers apply a pre‐column derivatization to analyze amino acids, using different derivatization groups such as 9‐fluorenylmethyl chloroformate (Fmoc‐Cl), ophthalaldehyde (OPA), and dansyl chloride, etc. (Jámbor and Molnár‐Perl <xref rid="fsn372355-bib-0016" ref-type="bibr">2009</xref>; Pencheva et al. <xref rid="fsn372355-bib-0031" ref-type="bibr">2022</xref>; Thippeswamy et al. <xref rid="fsn372355-bib-0042" ref-type="bibr">2007</xref>). Some of these cannot differentiate β‐ODAP from its isomer α‐ODAP, naturally present in &lt; 5% amount, and it is not neurotoxic.</p><p>Besides the β‐ODAP content of grass pea, this legume has also been investigated for its polyphenols composition and antioxidant properties (Rybiński et al. <xref rid="fsn372355-bib-0048" ref-type="bibr">2018</xref>; Starzyńska‐Janiszewska et al. <xref rid="fsn372355-bib-0040" ref-type="bibr">2008</xref>). Indeed, polyphenols are gaining attention in the last decades for their health promoting effects due to their antioxidant properties (Pastor‐Cavada et al. <xref rid="fsn372355-bib-0030" ref-type="bibr">2009</xref>).</p><p>Considering the growing interest for such resistant and ancient crop, in this work the content of β‐ODAP of three diverse grass pea cultivars has been determined applying a well‐established pre‐derivatization procedure with Fmoc‐Cl following HPLC‐DAD technique, with the aim to investigate the influence of different soil composition in amino acid enrichment. We selected three types of samples, specifically, two varieties of decorticated grass pea belonging to non‐biological crops from Umbria and Puglia and a decorticated grass pea belonging to a biological crop from Umbria, due to their easy availability in the regional local market and the optimum price‐quality ratio. Furthermore, these are among few Italian regions that still cultivate this legume, for which a traditional history of culinary consumption is well known. A comparative analysis was carried out to determine the difference in terms of total phenolic content (TPC), total flavonoid content (TFC), and antioxidant properties among the different grass pea samples.</p></sec><sec sec-type="materials-and-methods" id="fsn372355-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="fsn372355-sec-0003"><label>2.1</label><title>Reagents and Materials</title><p>β‐ODAP ≥ 98% (HPLC), Fmoc chloride (for HPLC derivatization, ≥ 99.0%), Sodium acetate anhydrous (≥ 99.0%), Gallic acid monohydrate (≥ 99% HPLC), Sodium carbonate powder (≥ 99.5%, ACS reagent), Potassium Persulfate (99.99% trace metals basis), Iron(III) chloride hexahydrate (ACS reagent, 97%), 2,2′‐azino‐bis(3‐ethylbenzothiazoline‐6‐solfonic acid) diammonium salt (≥ 98% (HPLC), chromogenic, powder), (±)‐6‐hydroxy‐2,5,7,8‐tetra‐methylchromane‐2‐carboxylic acid (97%), 2,4,6‐Tris(2‐pyridyl)‐<italic toggle="yes">s</italic>‐triazine (for spectrophotometric det. of Fe, ≥ 99.0% HPLC), 2,2‐Diphenyl‐1‐picrylhydrazyl (powder), Acetic Acid (glacial, ACS reagent, ≥ 99.7%) Water (HPLC Plus), Acetonitrile (≥ 99.9%, HPLC), Ethanol puriss. 96.0%–97.2%, Ethyl acetate puriss. p.a. ACS reagent ≥ 99.5% (GC), Hexane puriss. p.a. ACS reagent ≥ 99% (GC), Acetone (ACS reagent, ≥ 99.5%) were all purchased from Sigma‐Aldrich (Milan, Italy). Folin‐Ciocalteau's reagent (for analysis of phenols) and Methanol (Reag. Ph. Eur. for HPLC—gradient grade) were purchased from VWR Chemicals BDH (Milan, Italy). Rutin trihydrate was purchased from Santa Cruz Biotechnology (Heidelberg, Germany). Aluminum chloride puriss. p.a., anhydrous, crystallized, ≥ 99.0% (AT) was purchased from Honeywell Fluka (Segrate, Italy).</p><p>A Rotavapor R‐80 BUCHI (Cornaredo, Italy) was used for solvent evaporation. An Agilent Technologies 1100 Series with ALS (G1313A), Degasser (G1379A), Bin Pump (G1312A), Col Comp (G1316A), and DAD (G1315C) was used for the analysis (Santa Clara, CA, United States). A Jasco V‐730 UV–Vis Spectrophotometer (Cremella, Italy) was used for the determination of TPC and TFC and to perform the antioxidant assays.</p></sec><sec id="fsn372355-sec-0004"><label>2.2</label><title>Matrix and Sample Preparation</title><p>In this study, two varieties of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L. seeds (decorticated grass pea) belonging to a non‐biological and a biological crop cultivated in the area of Colfiorito (Foligno, Umbria, Italy) and a non‐biological decorticated grass pea cultivated in the Murgia Barese area (Bari, Puglia, Italy) have been purchased from local farmers. The biological crop was cultivated according to the organic farming regulations, which include restrictions on the application of fertilizers and other agricultural practices. The non‐biological crops were cultivated following the conventional agricultural practices, allowing the use of authorized fertilizers and plant protection products. For the sake of clarity, each sample has been renamed as sample A (Umbria grass pea from a non‐biological crop), sample B (Umbria grass pea from a biological crop), and sample C (Puglia grass pea from a non‐biological crop) as described in Figure <xref rid="fsn372355-fig-0002" ref-type="fig">2</xref>. The three samples of grass pea were triturated in a blender and lyophilized. The decorticated grass pea powders were stored at −20°C until their extraction.</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Diverse grass peas examined in this study: (A) Umbria grass pea belonging to non‐biological crop, (B) Umbria grass pea belonging to a biological crop, (C) Puglia grass pea belonging to a non‐biological crop.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="FSN3-14-e72355-g005.webp"><?image-name FSN3-14-e72355-g005.webp?><?image-size 40314?><?image-md5 ad78e7ecc4b975b33cf6bab469c13c11?><?image-image-server-status NEED_LOADING?><?image-original-height 363?><?image-original-width 1064?><?image-scaled-height 363?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/ad78e7ecc4b9/FSN3-14-e72355-g005.webp?><?thumb-name FSN3-14-e72355-g005.gif?><?thumb-size 11383?><?thumb-md5 e44de6b4cb5b055e9890bcb761202ca5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 68?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/e44de6b4cb5b/FSN3-14-e72355-g005.gif?></graphic></fig></sec><sec id="fsn372355-sec-0005"><label>2.3</label><title>Extraction Procedure</title><p>Approximately 500 mg of decorticated grass pea powder (503.5 mg of sample A; 500.7 mg of sample B; 505.1 mg of sample C) was mixed with 3 mL of water and stirred at room temperature for 1 h. The solution was centrifuged at 4400 rpm for 20 min and then filtered through a 0.45 μm diameter filter. Finally, the filtered solution was lyophilized. The final yield was expressed as:<disp-formula id="fsn372355-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">mg</mml:mi><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">extract</mml:mtext></mml:mrow><mml:mrow><mml:mi mathvariant="italic">mg</mml:mi><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">grass</mml:mtext><mml:mspace width="0.25em"/><mml:mi mathvariant="italic">pea</mml:mi><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">powder</mml:mtext></mml:mrow></mml:mfrac></mml:mfenced><mml:mo linebreak="goodbreak">×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec><sec id="fsn372355-sec-0006"><label>2.4</label><title>Derivatization of the β‐<styled-content style="fixed-case" toggle="no">ODAP</styled-content> Analytical Standard and Grass Pea Extracts</title><p>To derivatize the analytical standard and the samples, the method reported by Geda et al. was followed with slight modifications (Figure <xref rid="fsn372355-fig-0003" ref-type="fig">3</xref>) (Geda et al. <xref rid="fsn372355-bib-0010" ref-type="bibr">1993</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Workflow of β‐ODAP derivatization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="FSN3-14-e72355-g003.webp"><?image-name FSN3-14-e72355-g003.webp?><?image-size 72374?><?image-md5 c9314cdea794e0f64612f6fdf9d628ba?><?image-image-server-status NEED_LOADING?><?image-original-height 1772?><?image-original-width 998?><?image-scaled-height 1772?><?image-scaled-width 998?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/c9314cdea794/FSN3-14-e72355-g003.webp?><?thumb-name FSN3-14-e72355-g003.gif?><?thumb-size 7460?><?thumb-md5 c4185f78d1f86cb177f449f974edf485?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 113?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/c4185f78d1f8/FSN3-14-e72355-g003.gif?></graphic></fig><p>A solution of Fmoc‐Cl in acetone (0.2 M) was freshly prepared prior each sample derivatization. β‐ODAP analytical standard or the dried extract (7.0 mg) was mixed with 2 mL of borate buffer (0.025 M, pH 9.6), 2 mL of acetone and 0.2 mL of Fmoc‐Cl in acetone (0.2 M). The solution was stirred at room temperature for 1 h. Then, 4 mL of <italic toggle="yes">n</italic>‐hexane: ethyl acetate (1:1) was added and stirred for 2 min. The aqueous phase was separated from the organic one and filtered by a 0.45 μm filter. After solvent removal by rotary evaporation and high vacuum (1.5 h), the Fmoc‐derivatized dried product was conserved at −20°C until the analysis.</p></sec><sec id="fsn372355-sec-0007"><label>2.5</label><title>
+<styled-content style="fixed-case" toggle="no">HPLC</styled-content> Analysis</title><p>The analyses have been performed by using a HPLC‐DAD (Agilent 1100 Series) with a reversed‐phase C18 analytical column (5 μm particle size, 150 × 3.0 mm). The HPLC analyses were carried out following Geda et al. in isocratic conditions using as mobile phase sodium acetate (0.05 M, pH 3)/acetonitrile (72:28 <italic toggle="yes">v/v</italic>) (Geda et al. <xref rid="fsn372355-bib-0010" ref-type="bibr">1993</xref>). The flow rate was set to 1 mL/min, the injection volume was 2 μL, the column temperature was maintained at 23°C. The analysis was run for 10 min. The determination and quantification of β‐ODAP were performed at 254 nm after its Fmoc‐derivatization. The calibration graph was obtained plotting the area vs the concentration (mg L<sup>−1</sup>) considering a range between 5 and 1000 mg L<sup>−1</sup>. The calibration graph had a <italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.998. After each analysis, 100% acetonitrile was used to flush the column and a re‐equilibration with the mobile phase was performed before the injection of the next sample. Each Fmoc‐derivatised extract was redissolved in water (1 mg/mL) to perform the HPLC analyses.</p></sec><sec id="fsn372355-sec-0008"><label>2.6</label><title>Folin Ciocalteu Assay</title><p>The determination of TPC was performed by applying the Folin–Ciocalteu assay following Singleton &amp; Rossi with slight modifications (Raposo et al. <xref rid="fsn372355-bib-0033" ref-type="bibr">2024</xref>; Singleton and Rossi <xref rid="fsn372355-bib-0038" ref-type="bibr">1965</xref>). In brief, 0.25 mL of extract (solubilized in H<sub>2</sub>O) was mixed with 1.25 mL of Folin reagent diluted 1:10. After 5 min (room temperature in the dark), 1 mL of Na<sub>2</sub>CO<sub>3</sub> 7.5% (<italic toggle="yes">p/v</italic>) was added. The samples were incubated for 90 min at room temperature in dark conditions, and the absorbance was read at 760 nm. The assay was performed in triplicate for each extract. A calibration curve using gallic acid as an external standard was prepared in a concentration range of 5–100 mg L<sup>−1</sup> (<italic toggle="yes">y</italic> = 0.0106<italic toggle="yes">x</italic> + 0.0109, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0,9997). The results were expressed as mg GAE/g DW (GAE: gallic acid equivalents; DW: dry weight of grass pea).</p></sec><sec id="fsn372355-sec-0009"><label>2.7</label><title>Aluminum Chloride Assay</title><p>The evaluation of the TFC was conducted by performing the aluminum chloride assay (Arvouet‐Grand et al. <xref rid="fsn372355-bib-0002" ref-type="bibr">1994</xref>). The dried extracts were resolubilized in a mixture of MeOH:H<sub>2</sub>O 80:20, sonicated, and filtered (0.45 μm). The sample (1 mL) was mixed with a solution of AlCl<sub>3</sub> 2% in methanol (1 mL) and incubated for 30 min at room temperature in the dark. The absorbance of each sample was read at 415 nm. A sample blank (sample mixed with methanol without AlCl<sub>3</sub>) was necessary to correct the sample absorbance. A calibration curve was prepared using rutin as an external standard (5–75 mg L<sup>−1</sup>) (<italic toggle="yes">y</italic> = 0.0149<italic toggle="yes">x</italic> − 0.0326, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0,9993). The results, expressed as mg RE/g DW (RE: rutin equivalents), are the media of three experiments.</p></sec><sec id="fsn372355-sec-0010"><label>2.8</label><title>
+<styled-content style="fixed-case" toggle="no">DPPH</styled-content> Assay</title><p>The DPPH assay was performed following the procedure reported by Zengin &amp; Aktumsek with slight modifications (Zengin and Aktumsek <xref rid="fsn372355-bib-0047" ref-type="bibr">2014</xref>). The extracts were solubilized in MeOH:H<sub>2</sub>O 80:20, sonicated and filtered (0.45 μm). 0.2 mL of each sample was added to 2 mL of 0.1 mM DPPH solution in methanol. After an incubation at room temperature in the dark for 30 min, the absorbance was read at 517 nm. A calibration curve of Trolox (<italic toggle="yes">y</italic> = 207.91<italic toggle="yes">x</italic> − 1.8704, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.9966) was prepared in a range of concentrations of 0.1–0.4 mM plotting the % <italic toggle="yes">I</italic> (percentage of inhibition) against Trolox concentration. The % <italic toggle="yes">I</italic> was calculated as follows: 1.8704;<disp-formula id="fsn372355-disp-0002">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>%</mml:mo><mml:mi>I</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">Abs</mml:mi><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">Control</mml:mtext><mml:mo>−</mml:mo><mml:mi mathvariant="italic">Abs</mml:mi><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">Sample</mml:mtext></mml:mrow><mml:mrow><mml:mi mathvariant="italic">Abs</mml:mi><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">Control</mml:mtext></mml:mrow></mml:mfrac><mml:mo linebreak="goodbreak">×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>The results of each analysis, performed in triplicate, were expressed in μmol TE/g DW (TE: Trolox Equivalents).</p></sec><sec id="fsn372355-sec-0011"><label>2.9</label><title>
+<styled-content style="fixed-case" toggle="no">ABTS</styled-content> Assay</title><p>The ABTS assay was performed according to Re et al. with slight modifications (Re et al. <xref rid="fsn372355-bib-0035" ref-type="bibr">1999</xref>). 7 mM of ABTS solution was mixed with 2.45 mM potassium persulfate (1:1) and the mixture was kept in the dark at room temperature for 12–16 h. Before starting the experiments, the ABTS solution was diluted by adding ethanol achieving an absorbance of 0.700 ± 0.02 at 734 nm. Each dried extract was solubilized in a mixture of EtOH:H<sub>2</sub>O 80:20, sonicated, and filtered (0.45 μm). 100 μL of each sample was mixed with 900 μL of diluted ABTS solution and incubated at room temperature in the dark for 6 min. The absorbance was read at 734 nm. The calibration curve (<italic toggle="yes">y</italic> = 656.18<italic toggle="yes">x</italic> + 0.061; <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.9951) was prepared using Trolox as an external standard (0.025–0.125 mM) plotting the % I versus Trolox concentration. The results were expressed in μmol TE/g DW. Each analysis was performed in triplicate.</p></sec><sec id="fsn372355-sec-0012"><label>2.10</label><title>
+<styled-content style="fixed-case" toggle="no">FRAP</styled-content> Assay</title><p>The FRAP assay was performed as described by Benzie et al. with slight modifications (Benzie and Strain <xref rid="fsn372355-bib-0004" ref-type="bibr">1996</xref>). Firstly, a 300 mM buffer acetate pH 3.6, a solution of 10 mM TPTZ in 40 mM HCl and a solution of 20 mM FeCl<sub>3</sub> hexahydrate were prepared and mixed (10:1:1) to obtain the FRAP working reagent. Each dried extract was solubilized in MeOH:H<sub>2</sub>O 80:20, sonicated and filtered (0.45 μm). The FRAP working reagent (3 mL), kept at 37°C, was added to 100 μL of the sample. The sample was incubated in the dark for 4 min and the absorbance read at 593 nm. The calibration curve (<italic toggle="yes">y</italic> = 1.1752<italic toggle="yes">x</italic> + 0.0037, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.9997) was prepared using Trolox as external standard (0.05–0.9 mM) and the results were expressed in μmol TE/g DW. Each analysis was conducted in triplicate.</p></sec><sec id="fsn372355-sec-0013"><label>2.11</label><title>Statistical Analysis</title><p>One‐way analysis of variance (ANOVA) was applied, followed by Tukey's HSD (Honestly Significant Difference) post hoc test with a significance threshold of <italic toggle="yes">p</italic> &lt; 0.05. In Table <xref rid="fsn372355-tbl-0001" ref-type="table">1</xref>, different letters indicate statistically significant differences. HPLC and spectrophotometric analyses have been performed three times, and the results are expressed as the media of the three different experiments ± the standard deviation (SD).</p><table-wrap position="float" id="fsn372355-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>The results are reported as the media of three experiments ± the standard deviation.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Grass pea extracts</th><th align="center" valign="bottom" rowspan="1" colspan="1">TPC (mg GAE/g DW)</th><th align="center" valign="bottom" rowspan="1" colspan="1">TFC (mg RE/g DW)</th><th align="center" valign="bottom" rowspan="1" colspan="1">DPPH (μmol TE/g DW)</th><th align="center" valign="bottom" rowspan="1" colspan="1">ABTS (μmol TE/g DW)</th><th align="center" valign="bottom" rowspan="1" colspan="1">FRAP (μmol TE/g DW)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">A</td><td align="center" valign="top" rowspan="1" colspan="1">2.03 ± 0.03<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.28 ± 0.01<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">na</td><td align="center" valign="top" rowspan="1" colspan="1">2.78 ± 0.13<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">na</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">B</td><td align="center" valign="top" rowspan="1" colspan="1">2.08 ± 0.05<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.27 ± 0.03<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">na</td><td align="center" valign="top" rowspan="1" colspan="1">3.07 ± 0.48<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">na</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">C</td><td align="center" valign="top" rowspan="1" colspan="1">1.66 ± 0.05<sup>b</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.23 ± 0.01<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2.35 ± 0.10</td><td align="center" valign="top" rowspan="1" colspan="1">2.71 ± 0.21<sup>a</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2.33 ± 0.08</td></tr></tbody></table><table-wrap-foot id="fsn372355-ntgp-0002"><fn id="fsn372355-note-0002"><p>
+<italic toggle="yes">Note:</italic> Different letters indicate statistically significant differences among the samples (<italic toggle="yes">p</italic> &lt; 0.05).</p></fn><fn id="fsn372355-note-0003"><p>Abbreviations: ABTS, 2,2′‐azino‐bis(3‐ethylbenzothiazoline‐6‐solfonic acid); DPPH, 2,2‐diphenyl‐1‐picrylhydrazyl; DW, dry weight of grass pea; FRAP, ferric reducing antioxidant power; GAE, gallic acid equivalents; na, not active; RE, Rutin equivalents; TE, trolox equivalents; TFC, total flavonoid content; TPC, total phenolic content.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="fsn372355-sec-0014"><label>3</label><title>Results and Discussion</title><sec id="fsn372355-sec-0015"><label>3.1</label><title>β‐ODAP Profile</title><p>This work aimed to compare three Italian cultivars of grass pea and type of crop cultivation. Since the extended soaking of grass pea is able to reduce the content of β‐ODAP (Solovieva et al. <xref rid="fsn372355-bib-0039" ref-type="bibr">2025</xref>), water was chosen as extraction solvent, being capable of solubilizing this amino acid.</p><p>Thus, aqueous extracts of the three different cultivars of grass pea have been prepared observing the highest extraction yield for the B extract (17.9%), followed by the A extract (16.4%), and for the C extract (12.2%). The difference in extraction yields, applying the same extraction procedure, could be due to the different areas of origin, as well as different climatic and growing conditions.</p><p>In this study, a derivatization procedure using Fmoc chloride (0.2 M in acetone) has been applied following Geda et al. with slight modifications, in order to determine the β‐ODAP content in the grass pea samples by HPLC‐DAD. As previously assessed, the molar concentration of the Fmoc reagent should be at least 100 times more than the β‐ODAP concentration to complete the reaction (Geda et al. <xref rid="fsn372355-bib-0010" ref-type="bibr">1993</xref>).</p><p>As reported in 2.4, at the end of the process the aqueous layer was filtered after the separation from the organic layer (<italic toggle="yes">n</italic>‐hexane/ethyl acetate) and dried by rotary evaporation. Indeed, the Fmoc‐β‐ODAP results in being soluble in acetone and insoluble in <italic toggle="yes">n</italic>‐hexane and ethyl acetate, used to remove potential interferents insoluble in aqueous conditions (e.g., unreacted reagents or side products).</p><p>After the derivatization of the extracts, the aqueous solvent was removed by rotary evaporation and high vacuum to guarantee a higher stability, and the dry extracts were resolubilized in water before the HPLC analysis. To work under equal conditions, the analytical standard was treated using the same procedure. The calibration curve (<italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.998) was obtained considering eight concentrations between 5 and 1000 mg L<sup>−1</sup>.</p><p>As shown in Figure <xref rid="fsn372355-fig-0004" ref-type="fig">4</xref>, the peak of Fmoc‐β‐ODAP in sample A extract has a retention time (t<sub>R</sub>) of 1.6 and a peak area of 9.8. The final content of β‐ODAP is 0.01 mg/g of matrix.</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>HPLC‐DAD chromatogram of Fmoc‐derivatized sample A extract.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="FSN3-14-e72355-g008.webp"><?image-name FSN3-14-e72355-g008.webp?><?image-size 10732?><?image-md5 4d6a629af5834f31abcef2a731469896?><?image-image-server-status NEED_LOADING?><?image-original-height 422?><?image-original-width 1064?><?image-scaled-height 422?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/4d6a629af583/FSN3-14-e72355-g008.webp?><?thumb-name FSN3-14-e72355-g008.gif?><?thumb-size 2714?><?thumb-md5 3813acfc90094e238c9f0b64ba1cff97?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/3813acfc9009/FSN3-14-e72355-g008.gif?></graphic></fig><p>The peak of Fmoc‐β‐ODAP in the derivatized sample B extract has t<sub>R</sub> of 1.9 and a peak area of 35 (Figure <xref rid="fsn372355-fig-0005" ref-type="fig">5</xref>). The measured β‐ODAP content is 0.037 mg/g.</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>HPLC‐DAD chromatogram of Fmoc‐derivatized sample B extract.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="FSN3-14-e72355-g007.webp"><?image-name FSN3-14-e72355-g007.webp?><?image-size 6752?><?image-md5 772f9e8ec0ec47f49690d502b78b3b77?><?image-image-server-status NEED_LOADING?><?image-original-height 304?><?image-original-width 1064?><?image-scaled-height 304?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/772f9e8ec0ec/FSN3-14-e72355-g007.webp?><?thumb-name FSN3-14-e72355-g007.gif?><?thumb-size 2057?><?thumb-md5 42986cf14eaf6f0c456d7a76732478fe?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 57?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/42986cf14eaf/FSN3-14-e72355-g007.gif?></graphic></fig><p>As shown in Figure <xref rid="fsn372355-fig-0006" ref-type="fig">6</xref>, the peak of Fmoc‐β‐ODAP in sample C extract has a t<sub>R</sub> of 2.022 and a peak area of 18.3. The β‐ODAP content of sample C is 0.014 mg/g of matrix.</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>HPLC‐DAD chromatogram of Fmoc‐derivatized sample C extract.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="FSN3-14-e72355-g004.webp"><?image-name FSN3-14-e72355-g004.webp?><?image-size 9028?><?image-md5 94d7a925bdd8f4cf1930c8ec3249046d?><?image-image-server-status NEED_LOADING?><?image-original-height 315?><?image-original-width 1064?><?image-scaled-height 315?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/94d7a925bdd8/FSN3-14-e72355-g004.webp?><?thumb-name FSN3-14-e72355-g004.gif?><?thumb-size 2348?><?thumb-md5 68e166220c3b25b72ee37a47a58fe511?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 59?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/68e166220c3b/FSN3-14-e72355-g004.gif?></graphic></fig><p>The quantification of β‐ODAP in each sample has been done in comparison with the Fmoc‐functionalized β‐ODAP standard, at the same operational conditions (Figure <xref rid="fsn372355-fig-0007" ref-type="fig">7</xref>).</p><fig position="float" fig-type="FIGURE" id="fsn372355-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>HPLC‐DAD chromatogram of Fmoc‐derivatized β‐ODAP analytical standard.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="FSN3-14-e72355-g006.webp"><?image-name FSN3-14-e72355-g006.webp?><?image-size 10986?><?image-md5 ab71141c07f5bcb21641297294cacf86?><?image-image-server-status NEED_LOADING?><?image-original-height 315?><?image-original-width 1064?><?image-scaled-height 315?><?image-scaled-width 1064?><?image-cloudpmc-urn urn:cdn:blobs/fb52/13555400/ab71141c07f5/FSN3-14-e72355-g006.webp?><?thumb-name FSN3-14-e72355-g006.gif?><?thumb-size 2367?><?thumb-md5 412d35f80f1e408796cf0d77afadaf0a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 59?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/fb52/13555400/412d35f80f1e/FSN3-14-e72355-g006.gif?></graphic></fig><p>To summarize, the β‐ODAP content ranged from 0.01 to 0.037 mg/g of grass pea powder. The highest result was observed for the biological variety cultivated in the Umbria region. Different results have been reported in the literature regarding the levels of β‐ODAP found in grass pea; for instance, Geda et al. described a content of 0.33 g/100 g of grass pea seeds, while Tamburino et al. reported a content of 16.2 ± 0.5 g/Kg of β‐ODAP in Valle Agricola <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L. sativus</italic>
+</styled-content> seeds (Italy) (Geda et al. <xref rid="fsn372355-bib-0010" ref-type="bibr">1993</xref>; Tamburino et al. <xref rid="fsn372355-bib-0041" ref-type="bibr">2012</xref>).</p><p>Cysteine is crucial in sulfur metabolism since it contains both sulfur and nitrogen necessary for the production of essential metabolites, such as β‐ODAP (Kopriva et al. <xref rid="fsn372355-bib-0020" ref-type="bibr">2012</xref>). CAS enzyme catalyzes the transformation of this amino acid and cyanide to β‐cyanoalanine and H<sub>2</sub>S. Thus a fine regulation of cysteine biosynthesis and its degradation to H<sub>2</sub>S is requested in maintaining cysteine‐homeostasis, in regulating sulfide‐status and antioxidant defense of plants under stress (Alvarez et al. <xref rid="fsn372355-bib-0001" ref-type="bibr">2010</xref>; Xu et al. <xref rid="fsn372355-bib-0046" ref-type="bibr">2017</xref>). H<sub>2</sub>S influences seed germination, abiotic stress tolerance, and senescence, and it also competes with ROS and NO in reactions involving thiol‐containing proteins (Chen et al. <xref rid="fsn372355-bib-0007" ref-type="bibr">2011</xref>; Hancock et al. <xref rid="fsn372355-bib-0013" ref-type="bibr">2005</xref>; Hancock and Whiteman <xref rid="fsn372355-bib-0014" ref-type="bibr">2014</xref>; Lindermayr et al. <xref rid="fsn372355-bib-0023" ref-type="bibr">2005</xref>; Xu et al. <xref rid="fsn372355-bib-0046" ref-type="bibr">2017</xref>). This could be potentially related to the biosynthesis of β‐ODAP in grass pea, but further studies are due to elucidate this aspect. Nutritional deficiencies in sulfur‐containing amino acids such as methionine and cysteine may potentiate the neurotoxicity of β‐ODAP, since its biosynthetic pathway is linked to sulfur metabolism. Actually, few studies investigated the influence of sulfur assimilatory enzymes in grass pea and their role in β‐ODAP formation (Xu et al. <xref rid="fsn372355-bib-0046" ref-type="bibr">2017</xref>).</p><p>Different growing factors play a role in the changes in the β‐ODAP concentrations, indeed, the changes in its content were previously evaluated in relation with the development stage of the plant and environmental factors (e.g., drought, toxic heavy metals, nutrient deficiency and salinity) (Jiao et al. <xref rid="fsn372355-bib-0017" ref-type="bibr">2011</xref>). Generally, some processing techniques allow the reduction of β‐ODAP, anti‐nutritive factors and enzyme inhibitors, for example, germinating, soaking, boiling, fermentation, roasting, autoclaving or extrusion and breeding Low‐ODAP genotype (Solovieva et al. <xref rid="fsn372355-bib-0039" ref-type="bibr">2025</xref>).</p><p>Breeding a low‐ODAP genotype in grass pea aims to eliminate neurolathyrism while preserving the crop's drought tolerance. Traditional varieties contain 0.5%–2.5% ODAP, but breeders target levels below 0.1%. This is achieved using several primary approaches such as mutation breeding, conventional cross‐breeding, genomic tools, analytical validation (Madke et al. <xref rid="fsn372355-bib-0027" ref-type="bibr">2026</xref>). The values detected in our samples are even lower than those reported by the genetic improvement of grass pea through gamma‐ray‐induced mutagenesis, supporting the importance of crop and land in the development of specific breeding lines.</p><p>Overall the content of β‐ODAP in these extracts is lower than the safe level for human consumption (below 2 g.kg<sup>−1</sup>) and in line with other results described for grass pea seeds in Italy (Piergiovanni et al. <xref rid="fsn372355-bib-0032" ref-type="bibr">2011</xref>). However, further studies are due to investigate the correlation between their genotype and the influence of different environments and agricultural practices.</p></sec><sec id="fsn372355-sec-0016"><label>3.2</label><title>TPC, TFC, and Antioxidant Activity of Grass Pea Samples</title><p>Both non edible and edible plants represent a source of phenolic compounds which are responsible for numerous biological effects inclusive of antioxidant activity (El Gharras <xref rid="fsn372355-bib-0008" ref-type="bibr">2009</xref>). In this work, the total phenolic content was determined by performing the Folin–Ciocalteu assay, while the Aluminum chloride assay was applied to evaluate the total flavonoid content of each grass pea sample.</p><p>The presence of polyphenols in diverse grass pea seeds has been previously reported (Bouhrem et al. <xref rid="fsn372355-bib-0005" ref-type="bibr">2026</xref>; Pastor‐Cavada et al. <xref rid="fsn372355-bib-0030" ref-type="bibr">2009</xref>; Wang et al. <xref rid="fsn372355-bib-0045" ref-type="bibr">1998</xref>), but we determined their content in other cultivars. The results of these assays are in Table <xref rid="fsn372355-tbl-0001" ref-type="table">1</xref> along with those of the antioxidant assays.</p><p>Sample C shows the lowest TPC, but the best results in terms of antioxidant effect. The antioxidant properties of each sample were evaluated by applying DPPH, ABTS, and FRAP assays. DPPH and ABTS assays are radical scavenging‐based techniques, which are widely used to assess the antioxidant properties of food, beverage, and fruit and vegetable extracts. Indeed, the DPPH· and ABTS<sup>+</sup> are chromogen radicals that react with the antioxidant compounds (Gulcin and Alwasel <xref rid="fsn372355-bib-0012" ref-type="bibr">2023</xref>). FRAP assay is a method which evaluates the ferric reducing ability of antioxidant compounds in acidic conditions (Benzie and Strain <xref rid="fsn372355-bib-0004" ref-type="bibr">1996</xref>). No measurable activity was observed for the A and B samples in DPPH and FRAP assays under the applied assay conditions. On the contrary, C exhibited a good radical scavenging activity both in DPPH and ABTS, as well as a reducing effect in the FRAP assay. It is interesting to note that this cultivar shows the best antioxidant profile together with a low β‐ODAP content, which is a natural antioxidant by scavenging hydroxyl ions in plants, suggesting the major influence of other bioactive compounds on the in vitro results.</p></sec></sec><sec sec-type="conclusions" id="fsn372355-sec-0017"><label>4</label><title>Conclusion</title><p>Grass pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.) is a widely known crop, which is convenient to cultivate in terms of cost and ease of harvesting, being resistant to hard climatic conditions. Before post‐war period, grass pea seeds were consumed for centuries in Italy, especially in the Central and Southern Apennines (Puglia, Abruzzo and Toscana) where this crop was an accessible food source for the farmers. Its cultivation was abandoned for 50 years, but nowadays it was renewed due to the increased interest in crops typical of popular traditions and the importance of maintain a biological diversity (Lak and Almassi <xref rid="fsn372355-bib-0021" ref-type="bibr">2011</xref>; Tamburino et al. <xref rid="fsn372355-bib-0041" ref-type="bibr">2012</xref>). The nutritional profile of grass pea has been studied in terms of amino acids, fatty acids, total phenolic contents (Tamburino et al. <xref rid="fsn372355-bib-0041" ref-type="bibr">2012</xref>). On the other hand, the excessive human consumption of grass pea causes the ingestion of β‐ODAP, a harmful non‐protein amino acid related to the onset of neurolathyrism (Van Moorhem et al. <xref rid="fsn372355-bib-0044" ref-type="bibr">2011</xref>).</p><p>A comparison in terms of β‐ODAP content was conducted on three varieties of Italian grass pea to determine whether their consumption is safe for human health. The considered grass pea showed a relatively low concentration of this amino acid, which promotes its further cultivations. Nowadays, there aren't specific guidelines published by EFSA regarding the intake limits of the grass pea, but cultivars with lower content of β‐ODAP are recommended for human consumption along with the application of processing methods to reduce its content during cooking. Besides the β‐ODAP, grass pea contains also important bioactive compounds. In this work, the total phenolic and flavonoid content of each grass pea variety along with their antioxidant activity have been evaluated. Sample C, belonging to a non‐biological crop, presents the best result in terms of antioxidant activity in DPPH, ABTS, and FRAP assays, as well as having one of the lowest β‐ODAP content. Overall, these results open new perspectives in the potential of grass pea extracts for nutraceutical purposes and encourage further studies on the biofunctional properties of this old and resistant crop.</p></sec><sec id="fsn372355-sec-0023"><title>Author Contributions</title><p>
+<bold>Giulia Gentile:</bold> investigation, methodology. <bold>Lorenza Marinaccio:</bold> investigation, methodology. <bold>Eleonora Procino:</bold> writing – original draft. <bold>Angelo Cichelli:</bold> funding acquisition, project administration. <bold>Adriano Mollica:</bold> resources, supervision. <bold>Azzurra Stefanucci:</bold> resources, supervision, project administration, formal analysis.</p></sec><sec id="fsn372355-sec-0019"><title>Funding</title><p>This work was supported by NextGenerationEU.</p></sec><sec id="fsn372355-sec-0020"><title>Ethics Statement</title><p>The authors have nothing to report.</p></sec><sec sec-type="COI-statement" id="fsn372355-sec-0018"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="fsn372355-sec-24"><title>Acknowledgments</title><p>Open access publishing facilitated by Universita degli Studi Gabriele d'Annunzio Chieti Pescara, as part of the Wiley ‐ CRUI‐CARE agreement.</p></ack><sec sec-type="data-availability" id="fsn372355-sec-0022"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list content-type="cited-references" id="fsn372355-bibl-0001"><title>References</title><ref id="fsn372355-bib-0001"><mixed-citation publication-type="journal" id="fsn372355-cit-0001">
+<string-name name-style="western">
+<surname>Alvarez</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Calo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. C.</given-names>
+<surname>Romero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Garciݩa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gotor</surname>
+</string-name>. <year>2010</year>. “<article-title>An <italic toggle="yes">O</italic>‐Acetylserine(Thiol)lyase Homolog With <sc>l</sc>‐Cysteine Desulfhydrase Activity Regulates Cysteine Homeostasis in Arabidopsis</article-title>.” <source>Plant Physiology</source>
+<volume>152</volume>, no. <issue>2</issue>: <fpage>656</fpage>–<lpage>669</lpage>. <pub-id pub-id-type="doi">10.1104/pp.109.147975</pub-id>.<pub-id pub-id-type="pmid">19955263</pub-id>
+<pub-id pub-id-type="pmcid">PMC2815857</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0002"><mixed-citation publication-type="journal" id="fsn372355-cit-0002">
+<string-name name-style="western">
+<surname>Arvouet‐Grand</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Vennat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pourrat</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Legret</surname>
+</string-name>. <year>1994</year>. “<article-title>Standardization of Propolis Extract and Identification of Principal Constituents</article-title>.” <source>Journal de Pharmacie de Belgique</source>
+<volume>49</volume>, no. <issue>6</issue>: <fpage>462</fpage>–<lpage>468</lpage>.<pub-id pub-id-type="pmid">7884635</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0003"><mixed-citation publication-type="journal" id="fsn372355-cit-0003">
+<string-name name-style="western">
+<surname>Asrat</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Sitotaw</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. M.</given-names>
+<surname>Dawoud</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Effect of Glyphosate on the Growth and Survival of Rhizobia Isolated From Root Nodules of Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.)</article-title>.” <source>Scientific Reports</source>
+<volume>13</volume>, no. <issue>1</issue>: <elocation-id>21,535</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-023-48424-7</pub-id>.<pub-id pub-id-type="pmid">38057446</pub-id>
+<pub-id pub-id-type="pmcid">PMC10700605</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0004"><mixed-citation publication-type="journal" id="fsn372355-cit-0004">
+<string-name name-style="western">
+<surname>Benzie</surname>, <given-names>I. F. F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Strain</surname>
+</string-name>. <year>1996</year>. “<article-title>The Ferric Reducing Ability of Plasma (FRAP) as a Measure of “Antioxidant Power”: The FRAP Assay</article-title>.” <source>Analytical Biochemistry</source>
+<volume>239</volume>, no. <issue>1</issue>: <fpage>70</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1006/abio.1996.0292</pub-id>.<pub-id pub-id-type="pmid">8660627</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0005"><mixed-citation publication-type="journal" id="fsn372355-cit-0005">
+<string-name name-style="western">
+<surname>Bouhrem</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Benabdelmoumene</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Waqar</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Edaphoclimatic Modulation of Nutritional Quality, Bioactivity, and Metabolomic Profiles of Grass Pea (<italic toggle="yes">Lathyrus sativus L</italic>.) Seeds</article-title>.” <source>Legume Science</source>
+<volume>8</volume>, no. <issue>1</issue>: <elocation-id>e70100</elocation-id>. <pub-id pub-id-type="doi">10.1002/leg3.70100</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0006"><mixed-citation publication-type="journal" id="fsn372355-cit-0006">
+<string-name name-style="western">
+<surname>Chandna</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>N. K.</given-names>
+<surname>Matta</surname>
+</string-name>. <year>1994</year>. “<article-title>Studies on Changing Protein Levels in Developing and Germinating Seeds of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L</article-title>.” <source>Journal of Plant Biochemistry and Biotechnology</source>
+<volume>3</volume>, no. <issue>1</issue>: <fpage>59</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1007/BF03321950</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0007"><mixed-citation publication-type="journal" id="fsn372355-cit-0007">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.‐H.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.‐H.</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Hydrogen Sulphide Enhances Photosynthesis Through Promoting Chloroplast Biogenesis, Photosynthetic Enzyme Expression, and Thiol Redox Modification in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Spinacia oleracea</italic>
+</styled-content> Seedlings</article-title>.” <source>Journal of Experimental Botany</source>
+<volume>62</volume>, no. <issue>13</issue>: <fpage>4481</fpage>–<lpage>4493</lpage>. <pub-id pub-id-type="doi">10.1093/jxb/err145</pub-id>.<pub-id pub-id-type="pmid">21624977</pub-id>
+<pub-id pub-id-type="pmcid">PMC3170546</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0008"><mixed-citation publication-type="journal" id="fsn372355-cit-0008">
+<string-name name-style="western">
+<surname>El Gharras</surname>, <given-names>H.</given-names>
+</string-name>
+<year>2009</year>. “<article-title>Polyphenols: Food Sources, Properties and Applications—A Review</article-title>.” <source>International Journal of Food Science &amp; Technology</source>
+<volume>44</volume>, no. <issue>12</issue>: <fpage>2512</fpage>–<lpage>2518</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2621.2009.02077.x</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0009"><mixed-citation publication-type="journal" id="fsn372355-cit-0009">
+<string-name name-style="western">
+<surname>Emmrich</surname>, <given-names>P. M. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rejzek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Hill</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Linking a Rapid Throughput Plate‐Assay With High‐Sensitivity Stable‐Isotope Label LCMS Quantification Permits the Identification and Characterisation of Low β‐L‐ODAP Grass Pea Lines</article-title>.” <source>BMC Plant Biology</source>
+<volume>19</volume>, no. <issue>1</issue>: <fpage>489</fpage>. <pub-id pub-id-type="doi">10.1186/s12870-019-2091-5</pub-id>.<pub-id pub-id-type="pmid">31718544</pub-id>
+<pub-id pub-id-type="pmcid">PMC6849181</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0010"><mixed-citation publication-type="journal" id="fsn372355-cit-0010">
+<string-name name-style="western">
+<surname>Geda</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Briggs</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Venkataram</surname>
+</string-name>. <year>1993</year>. “<article-title>Determination of the Neurolathyrogen β‐N‐Oxalyl‐l‐α,β‐Diaminopropionic Acid Using High‐Performance Liquid Chromatography With Fluorometric de</article-title>.” <source>Journal of Chromatography A</source>
+<volume>635</volume>, no. <issue>2</issue>: <fpage>338</fpage>–<lpage>341</lpage>. <pub-id pub-id-type="doi">10.1016/0021-9673(93)80378-L</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0011"><mixed-citation publication-type="journal" id="fsn372355-cit-0011">
+<string-name name-style="western">
+<surname>Gentile</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Marinaccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mollica</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Stefanucci</surname>
+</string-name>. <year>2025</year>. “<article-title>Phytochemical Contents and Bioactive Compounds in Widely Consumed Cereals, Legumes, and Vegetables in Abruzzo Region, Italy: A Critical Review</article-title>.” <source>Food Safety and Health</source>
+<volume>3</volume>, no. <issue>4</issue>: <fpage>504</fpage>–<lpage>517</lpage>. <pub-id pub-id-type="doi">10.1002/fsh3.70019</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0012"><mixed-citation publication-type="journal" id="fsn372355-cit-0012">
+<string-name name-style="western">
+<surname>Gulcin</surname>, <given-names>İ.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Alwasel</surname>
+</string-name>. <year>2023</year>. “<article-title>DPPH Radical Scavenging Assay</article-title>.” <source>PRO</source>
+<volume>11</volume>, no. <issue>8</issue>: <elocation-id>2248</elocation-id>. <pub-id pub-id-type="doi">10.3390/pr11082248</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0013"><mixed-citation publication-type="journal" id="fsn372355-cit-0013">
+<string-name name-style="western">
+<surname>Hancock</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Henson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nyirenda</surname>
+</string-name>, et al. <year>2005</year>. “<article-title>Proteomic Identification of Glyceraldehyde 3‐Phosphate Dehydrogenase as an Inhibitory Target of Hydrogen Peroxide in Arabidopsis</article-title>.” <source>Plant Physiology and Biochemistry</source>
+<volume>43</volume>, no. <issue>9</issue>: <fpage>828</fpage>–<lpage>835</lpage>. <pub-id pub-id-type="doi">10.1016/j.plaphy.2005.07.012</pub-id>.<pub-id pub-id-type="pmid">16289945</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0014"><mixed-citation publication-type="journal" id="fsn372355-cit-0014">
+<string-name name-style="western">
+<surname>Hancock</surname>, <given-names>J. T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Whiteman</surname>
+</string-name>. <year>2014</year>. “<article-title>Hydrogen Sulfide and Cell Signaling: Team Player or Referee?</article-title>” <source>Plant Physiology and Biochemistry</source>
+<volume>78</volume>: <fpage>37</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1016/j.plaphy.2014.02.012</pub-id>.<pub-id pub-id-type="pmid">24607577</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0015"><mixed-citation publication-type="journal" id="fsn372355-cit-0015">
+<string-name name-style="western">
+<surname>Iqbal</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>Khalil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Ateeq</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sayyar Khan</surname>
+</string-name>. <year>2006</year>. “<article-title>Nutritional Quality of Important Food Legumes</article-title>.” <source>Food Chemistry</source>
+<volume>97</volume>, no. <issue>2</issue>: <fpage>331</fpage>–<lpage>335</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2005.05.011</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0016"><mixed-citation publication-type="journal" id="fsn372355-cit-0016">
+<string-name name-style="western">
+<surname>Jámbor</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Molnár‐Perl</surname>
+</string-name>. <year>2009</year>. “<article-title>Amino Acid Analysis by High‐Performance Liquid Chromatography After Derivatization With 9‐Fluorenylmethyloxycarbonyl Chloride</article-title>.” <source>Journal of Chromatography A</source>
+<volume>1216</volume>, no. <issue>15</issue>: <fpage>3064</fpage>–<lpage>3077</lpage>. <pub-id pub-id-type="doi">10.1016/j.chroma.2009.01.068</pub-id>.<pub-id pub-id-type="pmid">19215925</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0017"><mixed-citation publication-type="journal" id="fsn372355-cit-0017">
+<string-name name-style="western">
+<surname>Jiao</surname>, <given-names>C.‐J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐L.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.‐M.</given-names>
+<surname>Ke</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Factors Affecting β‐ODAP Content in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> and Their Possible Physiological Mechanisms</article-title>.” <source>Food and Chemical Toxicology</source>
+<volume>49</volume>, no. <issue>3</issue>: <fpage>543</fpage>–<lpage>549</lpage>. <pub-id pub-id-type="doi">10.1016/j.fct.2010.04.050</pub-id>.<pub-id pub-id-type="pmid">20510335</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0018"><mixed-citation publication-type="journal" id="fsn372355-cit-0018">
+<string-name name-style="western">
+<surname>Karetnikova</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Jarzebska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Markov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Weiss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Lentz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. N.</given-names>
+<surname>Rodionov</surname>
+</string-name>. <year>2019</year>. “<article-title>Is Homoarginine a Protective Cardiovascular Risk Factor?</article-title>” <source>Arteriosclerosis, Thrombosis, and Vascular Biology</source>
+<volume>39</volume>, no. <issue>5</issue>: <fpage>869</fpage>–<lpage>875</lpage>. <pub-id pub-id-type="doi">10.1161/ATVBAHA.118.312218</pub-id>.<pub-id pub-id-type="pmid">30866658</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0019"><mixed-citation publication-type="journal" id="fsn372355-cit-0019">
+<string-name name-style="western">
+<surname>Kebede</surname>, <given-names>E.</given-names>
+</string-name>
+<year>2021</year>. “<article-title>Contribution, Utilization, and Improvement of Legumes‐Driven Biological Nitrogen Fixation in Agricultural Systems</article-title>.” <source>Frontiers in Sustainable Food Systems</source>
+<volume>5</volume>: <elocation-id>767,998</elocation-id>. <pub-id pub-id-type="doi">10.3389/fsufs.2021.767998</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0020"><mixed-citation publication-type="journal" id="fsn372355-cit-0020">
+<string-name name-style="western">
+<surname>Kopriva</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>Mugford</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Baraniecka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.‐R.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Matthewman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koprivova</surname>
+</string-name>. <year>2012</year>. “<article-title>Control of Sulfur Partitioning Between Primary and Secondary Metabolism in Arabidopsis</article-title>.” <source>Frontiers in Plant Science</source>
+<volume>3</volume>: <elocation-id>163</elocation-id>. <pub-id pub-id-type="doi">10.3389/fpls.2012.00163</pub-id>.<pub-id pub-id-type="pmid">22833750</pub-id>
+<pub-id pub-id-type="pmcid">PMC3400089</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0021"><mixed-citation publication-type="journal" id="fsn372355-cit-0021">
+<string-name name-style="western">
+<surname>Lak</surname>, <given-names>M. B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Almassi</surname>
+</string-name>. <year>2011</year>. “<article-title>An Analytical Review of Parameters and Indices Affecting Decision Making in Agricultural Mechanization</article-title>.” <source>Australian Journal of Agricultural Engineering</source>
+<volume>2</volume>, no. <issue>5</issue>: <fpage>140</fpage>–<lpage>146</lpage>.</mixed-citation></ref><ref id="fsn372355-bib-0022"><mixed-citation publication-type="journal" id="fsn372355-cit-0022">
+<string-name name-style="western">
+<surname>Lambein</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Travella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐H.</given-names>
+<surname>Kuo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Van Montagu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Heijde</surname>
+</string-name>. <year>2019</year>. “<article-title>Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.): Orphan Crop, Nutraceutical or Just Plain Food?</article-title>” <source>Planta</source>
+<volume>250</volume>, no. <issue>3</issue>: <fpage>821</fpage>–<lpage>838</lpage>. <pub-id pub-id-type="doi">10.1007/s00425-018-03084-0</pub-id>.<pub-id pub-id-type="pmid">30719530</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0023"><mixed-citation publication-type="journal" id="fsn372355-cit-0023">
+<string-name name-style="western">
+<surname>Lindermayr</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Saalbach</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Durner</surname>
+</string-name>. <year>2005</year>. “<article-title>Proteomic Identification of <italic toggle="yes">S</italic> ‐Nitrosylated Proteins in Arabidopsis</article-title>.” <source>Plant Physiology</source>
+<volume>137</volume>, no. <issue>3</issue>: <fpage>921</fpage>–<lpage>930</lpage>. <pub-id pub-id-type="doi">10.1104/pp.104.058719</pub-id>.<pub-id pub-id-type="pmid">15734904</pub-id>
+<pub-id pub-id-type="pmcid">PMC1065393</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0024"><mixed-citation publication-type="miscellaneous" id="fsn372355-cit-0024">
+<collab collab-type="authors">Linee Guida Per Una Sana Alimentazione</collab>
+. <year>2017</year>. <article-title>“CREA, Centro di Ricerca Alimenti e Nutrizione.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://crea.gov.it" ext-link-type="uri">crea.gov.it</ext-link>.</mixed-citation></ref><ref id="fsn372355-bib-0025"><mixed-citation publication-type="journal" id="fsn372355-cit-0025">
+<string-name name-style="western">
+<surname>Llorent‐Martínez</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Zengin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Fernández‐de Córdova</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Traditionally Used Lathyrus Species: Phytochemical Composition, Antioxidant Activity, Enzyme Inhibitory Properties, Cytotoxic Effects, and In Silico Studies of L. Czeczottianus and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">L. nissolia</italic>
+</styled-content>
+</article-title>.” <source>Frontiers in Pharmacology</source>
+<volume>8</volume>: <elocation-id>83</elocation-id>. <pub-id pub-id-type="doi">10.3389/fphar.2017.00083</pub-id>.<pub-id pub-id-type="pmid">28289386</pub-id>
+<pub-id pub-id-type="pmcid">PMC5326780</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0026"><mixed-citation publication-type="journal" id="fsn372355-cit-0026">
+<string-name name-style="western">
+<surname>Ludolph</surname>, <given-names>A. C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>Spencer</surname>
+</string-name>. <year>1996</year>. “<article-title>Toxic Models of Upper Motor Neuron Disease</article-title>.” <source>Journal of the Neurological Sciences</source>
+<volume>139</volume>: <fpage>53</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.1016/0022-510X(96)00122-0</pub-id>.<pub-id pub-id-type="pmid">8899659</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0027"><mixed-citation publication-type="journal" id="fsn372355-cit-0027">
+<string-name name-style="western">
+<surname>Madke</surname>, <given-names>V. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Manwar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Nandeshwar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U. M.</given-names>
+<surname>Ali</surname>
+</string-name>. <year>2026</year>. “<article-title>Genetic Improvement of Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.) Through Gamma‐Ray‐Induced Mutagenesis: Evaluation of M<sub>4</sub> Progenies for Yield, Agronomic Traits, and Low ODAP Content</article-title>.” <source>Scientific Reports</source>
+<volume>16</volume>, no. <issue>1</issue>: <elocation-id>11453</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-026-41,769-9</pub-id>.<pub-id pub-id-type="pmid">41764357</pub-id>
+<pub-id pub-id-type="pmcid">PMC13056989</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0028"><mixed-citation publication-type="journal" id="fsn372355-cit-0028">
+<string-name name-style="western">
+<surname>Matthews</surname>, <given-names>D. E.</given-names>
+</string-name>
+<year>2020</year>. “<article-title>Review of Lysine Metabolism With a Focus on Humans</article-title>.” <source>Journal of Nutrition</source>
+<volume>150</volume>: <fpage>2548S</fpage>–<lpage>2555S</lpage>. <pub-id pub-id-type="doi">10.1093/jn/nxaa224</pub-id>.<pub-id pub-id-type="pmid">33000162</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0029"><mixed-citation publication-type="journal" id="fsn372355-cit-0029">
+<string-name name-style="western">
+<surname>Miah</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Alim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Haque</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Begum</surname>
+</string-name>. <year>2024</year>. “<article-title>Quantitative Analysis of β‐ODAP Neurotoxin Among Different Varieties of Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.) Flour: A Comparative Study</article-title>.” <source>Heliyon</source>
+<volume>10</volume>, no. <issue>18</issue>: <elocation-id>e37746</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.heliyon.2024.e37746</pub-id>.<pub-id pub-id-type="pmid">39315242</pub-id>
+<pub-id pub-id-type="pmcid">PMC11417204</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0030"><mixed-citation publication-type="journal" id="fsn372355-cit-0030">
+<string-name name-style="western">
+<surname>Pastor‐Cavada</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Juan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Pastor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Alaiz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Vioque</surname>
+</string-name>. <year>2009</year>. “<article-title>Antioxidant Activity of Seed Polyphenols in Fifteen Wild Lathyrus Species From South Spain</article-title>.” <source>LWT‐ Food Science and Technology</source>
+<volume>42</volume>, no. <issue>3</issue>: <fpage>705</fpage>–<lpage>709</lpage>. <pub-id pub-id-type="doi">10.1016/j.lwt.2008.10.006</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0031"><mixed-citation publication-type="journal" id="fsn372355-cit-0031">
+<string-name name-style="western">
+<surname>Pencheva</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Teneva</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Denev</surname>
+</string-name>. <year>2022</year>. “<article-title>Validation of HPLC Method for Analysis of Gamma‐Aminobutyric and Glutamic Acids in Plant Foods and Medicinal Plants</article-title>.” <source>Molecules</source>
+<volume>28</volume>, no. <issue>1</issue>: <elocation-id>84</elocation-id>. <pub-id pub-id-type="doi">10.3390/molecules28010084</pub-id>.<pub-id pub-id-type="pmid">36615278</pub-id>
+<pub-id pub-id-type="pmcid">PMC9822420</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0032"><mixed-citation publication-type="journal" id="fsn372355-cit-0032">
+<string-name name-style="western">
+<surname>Piergiovanni</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lupo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zaccardelli</surname>
+</string-name>. <year>2011</year>. “<article-title>Environmental Effect on Yield, Composition and Technological Seed Traits of Some Italian Ecotypes of Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.)</article-title>.” <source>Journal of the Science of Food and Agriculture</source>
+<volume>91</volume>, no. <issue>1</issue>: <fpage>122</fpage>–<lpage>129</lpage>. <pub-id pub-id-type="doi">10.1002/jsfa.4161</pub-id>.<pub-id pub-id-type="pmid">20824683</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0033"><mixed-citation publication-type="journal" id="fsn372355-cit-0033">
+<string-name name-style="western">
+<surname>Raposo</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Borja</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Gutiérrez‐González</surname>
+</string-name>. <year>2024</year>. “<article-title>A Comprehensive and Critical Review of the Unstandardized Folin–Ciocalteu Assay to Determine the Total Content of Polyphenols: The Conundrum of the Experimental Factors and Method Validation</article-title>.” <source>Talanta</source>
+<volume>272</volume>: <elocation-id>125,771</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.talanta.2024.125771</pub-id>.<pub-id pub-id-type="pmid">38394752</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0034"><mixed-citation publication-type="journal" id="fsn372355-cit-0034">
+<string-name name-style="western">
+<surname>Ravindranath</surname>, <given-names>V.</given-names>
+</string-name>
+<year>2002</year>. “<article-title>Neurolathyrism: Mitochondrial Dysfunction in Excitotoxicity Mediated by? ‐β‐Oxalyl Aminoalanine</article-title>.” <source>Neurochemistry International</source>
+<volume>40</volume>, no. <issue>6</issue>: <fpage>505</fpage>–<lpage>509</lpage>. <pub-id pub-id-type="doi">10.1016/S0197-0186(01)00121-8</pub-id>.<pub-id pub-id-type="pmid">11850107</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0035"><mixed-citation publication-type="journal" id="fsn372355-cit-0035">
+<string-name name-style="western">
+<surname>Re</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Pellegrini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Proteggente</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pannala</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Rice‐Evans</surname>
+</string-name>. <year>1999</year>. “<article-title>Antioxidant Activity Applying an Improved ABTS Radical Cation Decolorization Assay</article-title>.” <source>Free Radical Biology and Medicine</source>
+<volume>26</volume>, no. <issue>9–10</issue>: <fpage>1231</fpage>–<lpage>1237</lpage>. <pub-id pub-id-type="doi">10.1016/S0891-5849(98)00315-3</pub-id>.<pub-id pub-id-type="pmid">10381194</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0048"><mixed-citation publication-type="journal" id="fsn372355-cit-0048">
+<string-name name-style="western">
+<surname>Rybiński</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Karamać</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Sulewska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Börner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Amarowicz</surname>
+</string-name>. <year>2018</year>. “<article-title>Antioxidant Potential of Grass Pea Seeds from European Countries</article-title>.” <source>Food</source>
+<volume>7</volume>, no. <issue>9</issue>: <fpage>142</fpage>. <pub-id pub-id-type="doi">10.3390/foods7090142</pub-id>.<pub-id pub-id-type="pmcid">PMC6164006</pub-id><pub-id pub-id-type="pmid">30200463</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0036"><mixed-citation publication-type="journal" id="fsn372355-cit-0036">
+<string-name name-style="western">
+<surname>Simões</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Carrera Sanchez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Santos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Figueira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Prista</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Raymundo</surname>
+</string-name>. <year>2023</year>. “<article-title>Impact of Grass Pea Sweet Miso Incorporation in Vegan Emulsions: Rheological, Nutritional and Bioactive Properties</article-title>.” <source>Food</source>
+<volume>12</volume>, no. <issue>7</issue>: <elocation-id>1362</elocation-id>. <pub-id pub-id-type="doi">10.3390/foods12071362</pub-id>.<pub-id pub-id-type="pmcid">PMC10093471</pub-id><pub-id pub-id-type="pmid">37048181</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0037"><mixed-citation publication-type="journal" id="fsn372355-cit-0037">
+<string-name name-style="western">
+<surname>Singh</surname>, <given-names>S. S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L. N.</given-names>
+<surname>Rao</surname>
+</string-name>. <year>2013</year>. “<article-title>Lessons From Neurolathyrism: A Disease of the Past &amp; the Future of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> (Khesari Dal)</article-title>.” <source>Indian Journal of Medical Research</source>
+<volume>138</volume>, no. <issue>1</issue>: <fpage>32</fpage>–<lpage>37</lpage>.<pub-id pub-id-type="pmid">24056554</pub-id>
+<pub-id pub-id-type="pmcid">PMC3767245</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0038"><mixed-citation publication-type="journal" id="fsn372355-cit-0038">
+<string-name name-style="western">
+<surname>Singleton</surname>, <given-names>V. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Rossi</surname>
+</string-name>. <year>1965</year>. “<article-title>Colorimetry of Total Phenolics With Phosphomolybdic‐Phosphotungstic Acid Reagents</article-title>.” <source>American Journal of Enology and Viticulture</source>
+<volume>16</volume>, no. <issue>3</issue>: <fpage>144</fpage>–<lpage>158</lpage>. <pub-id pub-id-type="doi">10.5344/ajev.1965.16.3.144</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0039"><mixed-citation publication-type="journal" id="fsn372355-cit-0039">
+<string-name name-style="western">
+<surname>Solovieva</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Miteva‐Bölter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Knez</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Exploring the Potential and Challenges of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> (Grass Pea) in European Agri‐Food Value Chains: A Cross‐Country Analysis</article-title>.” <source>Sustainability</source>
+<volume>17</volume>, no. <issue>8</issue>: <elocation-id>3283</elocation-id>. <pub-id pub-id-type="doi">10.3390/su17083283</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0040"><mixed-citation publication-type="journal" id="fsn372355-cit-0040">
+<string-name name-style="western">
+<surname>Starzyńska‐Janiszewska</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Stodolak</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jamróz</surname>
+</string-name>. <year>2008</year>. “<article-title>Antioxidant Properties of Extracts From Fermented and Cooked Seeds of Polish Cultivars of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content>
+</article-title>.” <source>Food Chemistry</source>
+<volume>109</volume>, no. <issue>2</issue>: <fpage>285</fpage>–<lpage>292</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2007.12.028</pub-id>.<pub-id pub-id-type="pmid">26003349</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0041"><mixed-citation publication-type="journal" id="fsn372355-cit-0041">
+<string-name name-style="western">
+<surname>Tamburino</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Guida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pacifico</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Nutritional Values and Radical Scavenging Capacities of Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.) Seeds in Valle Agricola District, Italy</article-title>.” <source>Australian Journal of Crop Science</source>
+<volume>6</volume>, no. <issue>1</issue>: <fpage>149</fpage>–<lpage>156</lpage>.</mixed-citation></ref><ref id="fsn372355-bib-0042"><mixed-citation publication-type="journal" id="fsn372355-cit-0042">
+<string-name name-style="western">
+<surname>Thippeswamy</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Martin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Gowda</surname>
+</string-name>. <year>2007</year>. “<article-title>A Reverse Phase High Performance Liquid Chromatography Method for Analyzing of Neurotoxin β‐N‐Oxalyl‐l‐α,β‐Diaminopropanoic Acid in Legume Seeds</article-title>.” <source>Food Chemistry</source>
+<volume>101</volume>, no. <issue>3</issue>: <fpage>1290</fpage>–<lpage>1295</lpage>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2005.12.024</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0043"><mixed-citation publication-type="journal" id="fsn372355-cit-0043">
+<string-name name-style="western">
+<surname>Urga</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Fite</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Fite</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Kebede</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Kebede</surname>
+</string-name>. <year>2012</year>. “<article-title>Nutritional and Antinutritional Factors of Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content>) Germplasms</article-title>.” <source>Bulletin of the Chemical Society of Ethiopia</source>
+<volume>9</volume>, no. <issue>1</issue>: <fpage>9</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.4314/bcse.v9i1</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0044"><mixed-citation publication-type="journal" id="fsn372355-cit-0044">
+<string-name name-style="western">
+<surname>Van Moorhem</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lambein</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Leybaert</surname>
+</string-name>. <year>2011</year>. “<article-title>Unraveling the Mechanism of β‐N‐Oxalyl‐α,β‐Diaminopropionic Acid (β‐ODAP) Induced Excitotoxicity and Oxidative Stress, Relevance for Neurolathyrism Prevention</article-title>.” <source>Food and Chemical Toxicology</source>
+<volume>49</volume>, no. <issue>3</issue>: <fpage>550</fpage>–<lpage>555</lpage>. <pub-id pub-id-type="doi">10.1016/j.fct.2010.03.054</pub-id>.<pub-id pub-id-type="pmid">20510327</pub-id>
+</mixed-citation></ref><ref id="fsn372355-bib-0045"><mixed-citation publication-type="journal" id="fsn372355-cit-0045">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Warkentin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Briggs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Oomah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. G.</given-names>
+<surname>Campbell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Woods</surname>
+</string-name>. <year>1998</year>. “<article-title>Total Phenolics and Condensed Tannins in Field Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Pisum sativum</italic>
+</styled-content> L.) and Grass Pea (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content> L.)</article-title>.” <source>Euphytica</source>
+<volume>101</volume>, no. <issue>1</issue>: <fpage>97</fpage>–<lpage>102</lpage>. <pub-id pub-id-type="doi">10.1023/A:1018371604056</pub-id>.</mixed-citation></ref><ref id="fsn372355-bib-0046"><mixed-citation publication-type="journal" id="fsn372355-cit-0046">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Jez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Krishnan</surname>
+</string-name>. <year>2017</year>. “<article-title>β‐N‐Oxalyl‐l‐α,β‐Diaminopropionic Acid (β‐ODAP) Content in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Lathyrus sativus</italic>
+</styled-content>: The Integration of Nitrogen and Sulfur Metabolism Through β‐Cyanoalanine Synthase</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>18</volume>, no. <issue>3</issue>: <elocation-id>526</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijms18030526</pub-id>.<pub-id pub-id-type="pmid">28264526</pub-id>
+<pub-id pub-id-type="pmcid">PMC5372542</pub-id></mixed-citation></ref><ref id="fsn372355-bib-0047"><mixed-citation publication-type="journal" id="fsn372355-cit-0047">
+<string-name name-style="western">
+<surname>Zengin</surname>, <given-names>G.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Aktumsek</surname>
+</string-name>. <year>2014</year>. “<article-title>Investigation of Antioxidant Potentials of Solvent Extracts From Different Anatomical Parts of <italic toggle="yes">Asphodeline anatolica</italic> E. Tuzlaci: An Endemic Plant to Turkey</article-title>.” <source>African Journal of Traditional, Complementary, and Alternative Medicines</source>
+<volume>11</volume>, no. <issue>2</issue>: <fpage>481</fpage>–<lpage>488</lpage>. <pub-id pub-id-type="doi">10.4314/ajtcam.v11i2.37</pub-id>.<pub-id pub-id-type="pmcid">PMC4202661</pub-id><pub-id pub-id-type="pmid">25435637</pub-id></mixed-citation></ref></ref-list></back></article>

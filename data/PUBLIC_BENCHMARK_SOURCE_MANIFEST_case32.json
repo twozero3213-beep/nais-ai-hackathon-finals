@@ -1,0 +1,21 @@
+{
+  "benchmark_id": "V32-PALMER-PENGUINS-RJ-2022-020",
+  "article": {
+    "title": "Palmer Archipelago Penguins Data in the palmerpenguins R Package - An Alternative to Anderson's Irises",
+    "authors": ["Allison M. Horst", "Alison Presmanes Hill", "Kristen B. Gorman"],
+    "journal": "The R Journal",
+    "year": 2022,
+    "doi": "10.32614/RJ-2022-020",
+    "url": "https://journal.r-project.org/articles/RJ-2022-020/",
+    "pdf": "https://journal.r-project.org/articles/RJ-2022-020/RJ-2022-020.pdf",
+    "reuse": "CC BY 4.0 (article text/figures subject to source notes)"
+  },
+  "data": {
+    "official_repository": "https://github.com/allisonhorst/palmerpenguins/blob/main/inst/extdata/penguins.csv",
+    "article_described_license": "CC0",
+    "bundled_cache": "penguins_public_benchmark.csv",
+    "expected_shape": [344, 8],
+    "expected_missing_values": 19
+  },
+  "scope": "claim-level deterministic reproduction; not full-paper reproduction"
+}

@@ -1,0 +1,1 @@
+Upload blind02_report.pdf + blind02_raw.csv to V20. Record extraction/mapping/method/gate results before opening the answer key. Synthetic data only.

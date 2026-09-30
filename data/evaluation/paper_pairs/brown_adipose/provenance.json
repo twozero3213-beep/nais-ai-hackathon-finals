@@ -1,0 +1,45 @@
+{
+  "retrieved_at_utc": "2026-09-26T06:58:35.5016730Z",
+  "paper_doi": "10.1371/journal.pone.0149458",
+  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+  "author_repo": "https://github.com/ASBecker/BAT-Grading",
+  "author_commit": "b02a0e302e36717b095abf9b1586a7398704f014",
+  "data_license": "CC BY-NC-ND 4.0; author README governs dataset, separate from paper CC BY",
+  "files": [
+    {
+      "file": "article_extract.txt",
+      "bytes": 2314,
+      "sha256": "578aa537aeff654036895c4f874580626fab6012272179101da1f9835bc28c34",
+      "url": null,
+      "capture": "derived publisher paragraph text, not original publisher bytes"
+    },
+    {
+      "file": "bat.morphology.anonymized.csv",
+      "bytes": 129821,
+      "sha256": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+      "url": "https://raw.githubusercontent.com/ASBecker/BAT-Grading/b02a0e302e36717b095abf9b1586a7398704f014/bat.morphology.anonymized.csv",
+      "capture": "unmodified HTTP response body saved with Invoke-WebRequest -OutFile"
+    },
+    {
+      "file": "Brownfat.Morphology.Analysis.R",
+      "bytes": 8348,
+      "sha256": "56f9221a268e65010c228f2dd90300492d709f392b860357d824c752c00337a6",
+      "url": "https://raw.githubusercontent.com/ASBecker/BAT-Grading/b02a0e302e36717b095abf9b1586a7398704f014/Brownfat.Morphology.Analysis.R",
+      "capture": "unmodified HTTP response body saved with Invoke-WebRequest -OutFile"
+    },
+    {
+      "file": "publisher_article.html",
+      "bytes": 178334,
+      "sha256": "021e5f976a6678d2ba36604cfbc55bca5af2fee6132229e9b144fde25086db63",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149458",
+      "capture": "unmodified HTTP response body saved with Invoke-WebRequest -OutFile"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1052,
+      "sha256": "72477431c70124c77addfb646237be9b66540089b5d8fcba916f33824fe841e4",
+      "url": "https://raw.githubusercontent.com/ASBecker/BAT-Grading/b02a0e302e36717b095abf9b1586a7398704f014/README.md",
+      "capture": "unmodified HTTP response body saved with Invoke-WebRequest -OutFile"
+    }
+  ]
+}

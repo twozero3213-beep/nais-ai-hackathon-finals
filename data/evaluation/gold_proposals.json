@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "labels": [
+    {
+      "claim_id": "PENG-ROWS",
+      "expected_action": "EXECUTE",
+      "expected_value": 344,
+      "review_status": "PENDING_HUMAN",
+      "verified_by": null,
+      "review_note": "제안 라벨; 독립 연구자 검토 전에는 공식 성능 수치 계산 금지"
+    },
+    {
+      "claim_id": "PENG-MISSING",
+      "expected_action": "EXECUTE",
+      "expected_value": 19,
+      "review_status": "PENDING_HUMAN",
+      "verified_by": null,
+      "review_note": "제안 라벨; 독립 연구자 검토 전에는 공식 성능 수치 계산 금지"
+    },
+    {
+      "claim_id": "WINE-RED",
+      "expected_action": "EXECUTE",
+      "expected_value": 1599,
+      "review_status": "PENDING_HUMAN",
+      "verified_by": null,
+      "review_note": "제안 라벨; 독립 연구자 검토 전에는 공식 성능 수치 계산 금지"
+    },
+    {
+      "claim_id": "WINE-WHITE",
+      "expected_action": "EXECUTE",
+      "expected_value": 4898,
+      "review_status": "PENDING_HUMAN",
+      "verified_by": null,
+      "review_note": "제안 라벨; 독립 연구자 검토 전에는 공식 성능 수치 계산 금지"
+    },
+    {
+      "claim_id": "DINO-X",
+      "expected_action": "EXECUTE",
+      "expected_value": 54.26,
+      "review_status": "PENDING_HUMAN",
+      "verified_by": null,
+      "review_note": "제안 라벨; 독립 연구자 검토 전에는 공식 성능 수치 계산 금지"
+    },
+    {
+      "claim_id": "WINE-SVM",
+      "expected_action": "BLOCK",
+      "expected_value": null,
+      "review_status": "PENDING_HUMAN",
+      "verified_by": null,
+      "review_note": "제안 라벨; 독립 연구자 검토 전에는 공식 성능 수치 계산 금지"
+    }
+  ]
+}

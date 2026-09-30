@@ -1,0 +1,292 @@
+{
+  "schema": 1,
+  "executed_at": "2026-09-29T10:31:41.991454+00:00",
+  "paid_llm_calls": 0,
+  "author_code_executed": false,
+  "human_approval": false,
+  "n3_11814": [
+    {
+      "replication": 1,
+      "raw_rows": 294,
+      "analysis_rows": 264,
+      "matched_rows": 264,
+      "unmatched_analysis_rows": 0,
+      "raw_duplicate_keys": 0,
+      "rule_candidate": "점화 과제 응답 + 주의확인 일치 + 이전 참여 아님(Q7.2≠1)",
+      "rule_vs_analysis": {
+        "rule_in_and_kept": 262,
+        "rule_in_but_excluded": 3,
+        "rule_out_but_kept": 2,
+        "rule_out_and_excluded": 27
+      },
+      "ambiguous_analysis_rows": 0,
+      "ambiguous_signature_groups": 0,
+      "respondent_identity_verified": false,
+      "raw_selection_verified": false,
+      "raw_file": {
+        "name": "Raw_Replication 1 (mTurk).csv",
+        "url": "https://osf.io/92qkx/",
+        "sha256": "3d89f3783194e036e6a6e6070eeed79aff011b070851659db7ca1fa127f95364"
+      },
+      "analysis_file": {
+        "name": "Replication 1 Data Corrected.sav",
+        "sha256": "5487df45524490facff49947b3061a73bb857d0e8ee6d1f91ef74ddc291722e8"
+      },
+      "registered_csv_sha256": "a247dc1e1e98675ef8afe52ecf23cc199c64269018d8330f146ec4db3f3599e1",
+      "registered_csv_matches_sav": true
+    },
+    {
+      "replication": 2,
+      "raw_rows": 300,
+      "analysis_rows": 257,
+      "matched_rows": 257,
+      "unmatched_analysis_rows": 0,
+      "raw_duplicate_keys": 1,
+      "rule_candidate": "점화 과제 응답 + 주의확인 일치 + 이전 참여 아님(Q7.2≠1)",
+      "rule_vs_analysis": {
+        "rule_in_and_kept": 256,
+        "rule_in_but_excluded": 23,
+        "rule_out_but_kept": 1,
+        "rule_out_and_excluded": 20
+      },
+      "ambiguous_analysis_rows": 2,
+      "ambiguous_signature_groups": 1,
+      "respondent_identity_verified": false,
+      "raw_selection_verified": false,
+      "raw_file": {
+        "name": "Raw_Replication 2 (mTurk).csv",
+        "url": "https://osf.io/92qkx/",
+        "sha256": "dc69a85128282a33a248a3bacce341349f3ad9021e0de8267d3ad4be27d86435"
+      },
+      "analysis_file": {
+        "name": "Replication 2 Data.sav",
+        "sha256": "6463de685a272a341b4933fb4dbeb2733358f4a294f75fb5b73457b82824fa49"
+      },
+      "registered_csv_sha256": "534253b2197e149a9781495e5eb0febd9c32c5610d674c1f3070a15252352ad1",
+      "registered_csv_matches_sav": true
+    },
+    {
+      "replication": 3,
+      "raw_rows": 357,
+      "analysis_rows": 306,
+      "matched_rows": 301,
+      "unmatched_analysis_rows": 5,
+      "raw_duplicate_keys": 0,
+      "rule_candidate": "점화 과제 응답 + 주의확인 일치 + 이전 참여 아님(Q7.2≠1)",
+      "rule_vs_analysis": {
+        "rule_in_and_kept": 300,
+        "rule_in_but_excluded": 34,
+        "rule_out_but_kept": 1,
+        "rule_out_and_excluded": 22
+      },
+      "ambiguous_analysis_rows": 0,
+      "ambiguous_signature_groups": 0,
+      "respondent_identity_verified": false,
+      "raw_selection_verified": false,
+      "raw_file": {
+        "name": "Raw_Replication 3 (mTurk).csv",
+        "url": "https://osf.io/92qkx/",
+        "sha256": "a87989b9a0db3e9531ced96bee33a65279e35ff44c685f5d68267501e882b7ea"
+      },
+      "analysis_file": {
+        "name": "Replication 3 Data.sav",
+        "sha256": "111067f4643dd5d6ed42e15ff512259c262d4a263636f4c15e8d51ac721608ef"
+      },
+      "registered_csv_sha256": "3b66aa594c5e5ca3544f0e2e80414223dbee7aef975cdb129a6b8f4052a3cbc0",
+      "registered_csv_matches_sav": true
+    },
+    {
+      "replication": 4,
+      "raw_rows": 166,
+      "analysis_rows": 114,
+      "matched_rows": 114,
+      "unmatched_analysis_rows": 0,
+      "raw_duplicate_keys": 12,
+      "rule_candidate": "점화 과제 응답 + 주의확인 일치 + 이전 참여 아님(Q7.2≠1)",
+      "rule_vs_analysis": {
+        "rule_in_and_kept": 113,
+        "rule_in_but_excluded": 16,
+        "rule_out_but_kept": 1,
+        "rule_out_and_excluded": 36
+      },
+      "ambiguous_analysis_rows": 0,
+      "ambiguous_signature_groups": 0,
+      "respondent_identity_verified": false,
+      "raw_selection_verified": false,
+      "raw_file": {
+        "name": "Raw_Replication 4 (undergrad).csv",
+        "url": "https://osf.io/92qkx/",
+        "sha256": "facd24a457dc1132763d622da1bcff719504684b32911d3516ef1d9243c402c1"
+      },
+      "analysis_file": {
+        "name": "Replication 4 Data.sav",
+        "sha256": "c630eb51adb1765e9f8da50d2cc1c97e071713fd599e5484720f67a3107b05c1"
+      },
+      "registered_csv_sha256": "7549f70247c909e5524ef5efb618e2c03910a8ed6241dc6e11be053d230572c7",
+      "registered_csv_matches_sav": true
+    }
+  ],
+  "n3_49665": {
+    "repository": {
+      "url": "https://github.com/AndersonDrew/Primate_ARE",
+      "commit": "0217d9d103fe5829329e7abab3df08f11c6b88ac",
+      "license": "NONE (라이선스 파일 없음) → 파일 미포함, 주소·커밋·지문만",
+      "files_used": [
+        {
+          "path": "Supplemental_Table/S5-primdfall.csv",
+          "bytes": 3277,
+          "sha256": "b40a0d3a6178bacc330e22712d841f26ba5234badc3a6e60ca97525345ab8ece"
+        },
+        {
+          "path": "StuffUsed/treeall.nex",
+          "bytes": 1445,
+          "sha256": "85abccce8dcf2437f17f2566dd01f84b84ba6fda8e4d5fec96c43368a4d0659f"
+        },
+        {
+          "path": "StuffUsed/treenoT.nex",
+          "bytes": 1294,
+          "sha256": "7a3f2c36b0ff374011e6b499720e97c20f85265344838cec9175c35e873805c2"
+        },
+        {
+          "path": "StuffUsed/massresults.csv",
+          "bytes": 2027,
+          "sha256": "61252392934dc3aa49ccbef7f81c0d0277fc88d1fcd7df5181e1996adf70edba"
+        },
+        {
+          "path": "StuffUsed/canineresults.csv",
+          "bytes": 1828,
+          "sha256": "0bb9322d5c48d4e8a3103a7e9ef329d06397036d51b25f1c06a2543d91ef01e0"
+        },
+        {
+          "path": "StuffUsed/testesresults.csv",
+          "bytes": 2043,
+          "sha256": "cef8ab3db098186e37b21be13d7047a000db41af1e611da317f8cd8f02d9ad17"
+        },
+        {
+          "path": "StuffUsed/Corrected_Output/mass.results",
+          "bytes": 2487,
+          "sha256": "a18ad38ed28155a924a31a0d985805be8ec8435c8f53ae1f08541b59b5c2dec4"
+        },
+        {
+          "path": "StuffUsed/Corrected_Output/canine.results",
+          "bytes": 2318,
+          "sha256": "163bf4613a777eb00af59262b4cdf2228d55df3812c66909efb947572bf23f78"
+        },
+        {
+          "path": "StuffUsed/Corrected_Output/testes.results",
+          "bytes": 2686,
+          "sha256": "320c996c93693dd0a5e902234d91a03e7004b4fa99374e2a814fe0f445230401"
+        },
+        {
+          "path": "Rwork/3_Linear_Model_Tests.txt",
+          "bytes": 30617,
+          "sha256": "a072e10d4fc7b50efae6a4b111b58e7c81aa154ff79f3e3e30e6cf82af0dd8cd"
+        },
+        {
+          "path": "Rwork/Supplement_3_Rework.Rmd",
+          "bytes": 24667,
+          "sha256": "352305162633452857705485fd5d1885bd4b1ff9d6cff34f03dcdd996115bc96"
+        },
+        {
+          "path": "Figures/Table_Significant_ARE.xlsx",
+          "bytes": 15676,
+          "sha256": "80ba1988ef12999dd18c02a7af32c9d7839ac2672e035a4f8c6cea6886f38d68"
+        },
+        {
+          "path": "Figures/Table_Significant_ARE_Rework.xlsx",
+          "bytes": 15298,
+          "sha256": "8ad960fe4a9e07b7cc7c652d39af78857e87badfe5a5b0daf77169e63b540bac"
+        }
+      ]
+    },
+    "models": 57,
+    "original_matches": 55,
+    "corrected_matches": 57,
+    "lambda_source": "author result tables; not independently estimated",
+    "independent_solve_max_error": 6.245004513516506e-16,
+    "row_order_checks": [
+      {
+        "trait": "Mass",
+        "default": "BLOCK_ORDER_MISMATCH"
+      },
+      {
+        "trait": "Canine",
+        "default": "BLOCK_ORDER_MISMATCH"
+      },
+      {
+        "trait": "Testes",
+        "default": "BLOCK_ORDER_MISMATCH"
+      }
+    ],
+    "product_status": "BLOCK_UNSUPPORTED_METHOD",
+    "approved": false
+  },
+  "limitations": [
+    "22 response columns are signatures, not unique respondent identifiers.",
+    "N3-11814 public rule candidate disagrees; residual df definition remains unresolved.",
+    "N3-49665 uses author lambda; author R and model selection are not rerun.",
+    "No repository license; author source inputs excluded from release.",
+    "Validation venv only: pyreadstat added; inherited package compatibility warnings are not product test failures."
+  ],
+  "receipt_kind": "ARCHIVED_INDEPENDENT_LOCAL_RERUN",
+  "team_review_statement": {
+    "reviewer": "임도윤",
+    "date": "2026-09-29",
+    "status": "TEAM_STATEMENT_ONLY",
+    "independent_human_validation": false,
+    "note": "팀 README에 파일 내부 표본확인과 df 오류후보·람다 이상모형 해석에 동의했다는 진술. 원자료 직접 사람이 대조한 정답이나 승인으로 등록하지 않음"
+  },
+  "additional_team_submission": {
+    "id": "imdoyun_20260929_human_checked",
+    "zip_sha256": "4ab0c68eba26e7c82dee99ccfa6a4a364d467c6cd2879309e6a8e547f67c0d5b",
+    "scope": "TEAM_REPORTED_AGGREGATE_ATTACHMENT",
+    "new_case_count": 0,
+    "independent_execution_of_submitted_scripts": false,
+    "human_status": "CONFLICTING_TEAM_DOCUMENTS",
+    "independent_human_validation": false,
+    "approved": false,
+    "followup_tasks_completed": 0,
+    "conflict": {
+      "README": "named dated checking statement; also pre-check heading",
+      "STATUS": "human checks 0",
+      "findings": "AI candidate, before human confirmation"
+    },
+    "attachments": [
+      {
+        "task": "SEMANTIC_UNVERIFIED/rep1",
+        "variable": "EuropeanNonEuropean",
+        "evidence_type": "TEAM_REPORTED_PUBLIC_SOURCE_MISMATCH_CANDIDATE",
+        "locators": [
+          "recoding_audit.csv",
+          "findings.md:6-17",
+          "sensitivity.json"
+        ],
+        "team_reported_east_asian_match": 1.0,
+        "team_reported_european_only_match": 0.239,
+        "author_recoding_intent_verified": false,
+        "resolved": false
+      },
+      {
+        "task": "DF_DISAGREEMENT/rep1-4",
+        "locators": [
+          "df_audit.csv"
+        ],
+        "scope": "n, rank, reported df and residual df; observed patterns are not definitions",
+        "resolved": false
+      },
+      {
+        "task": "RAW_SELECTION_UNVERIFIED/rep1-4",
+        "locators": [
+          "selection_audit.json"
+        ],
+        "scope": "same existing partial row-signature counts; not respondent identity or selection rule",
+        "resolved": false
+      }
+    ],
+    "not_included": [
+      "raw participant responses",
+      "new human approval",
+      "replacement author estimates"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# [수정: 0 이영] 2026-10-01 00:26 KST — 지문으로 검증하는 공개 원문·자료·배포 스냅샷의 바이트를 운영체제별 줄바꿈 변환에서 보존한다.
+/data/** -text
+/static/** -text
+/finals/evidence/** -text
+/core/research_corpus.py -text
+/docs/intake/** -text
+# [1 이채우] Windows에서도 등록된 검산 자료의 바이트 지문을 보존한다.
+/evidence_gate/fixtures/** -text
+# [수정: 0 이영 · Claude] 2026-10-01 01:52 KST — 이채우의 fixtures 항목 외에, 명세 예시와 팀 계획 산출물(지문 목록 대상)도 바이트를 보존한다.
+/evidence_gate/examples/** -text
+/docs/finals-strategy/** -text

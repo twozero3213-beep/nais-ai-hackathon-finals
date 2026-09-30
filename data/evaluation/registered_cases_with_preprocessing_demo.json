@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "registration_scope": "Developer mappings, not human gold; 4 paper references reuse 3 independent source pairs. No claim ID code branch. Supported count/mean/missing only; dedicated PCA/GLMM paths are intentionally not treated as this registry support.",
+  "cases": [
+    {
+      "claim_id": "PENG-ROWS",
+      "paper_url": "https://journal.r-project.org/articles/RJ-2022-020/",
+      "source_location": "Main text: penguins_raw paragraph (article text line 26); Appendix B",
+      "claim_text": "penguins_raw data: 17 variables for 344 individual penguins",
+      "data_file": "data/evaluation/author_penguins_raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "method": "count_rows",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 344,
+      "tolerance": 0,
+      "source_file": "data/evaluation/penguin_article_text.txt",
+      "source_quote": "recorded completely or in part for 344 individual penguins",
+      "source_kind": "article_extract",
+      "scope_status": "EVALUATION_MAPPING",
+      "source_sha256": "dcc44d6c3f9f86d87d6644645af931699eae54ca5769944fab29ec8c4bdf209c",
+      "preprocessing_contract": {
+        "dependencies": [
+          {
+            "role": "raw_data",
+            "file": "data/evaluation/author_penguins_raw.csv",
+            "sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+          },
+          {
+            "role": "derived_data",
+            "file": "data/evaluation/author_penguins.csv",
+            "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "GORMAN2014-CHINSTRAP-N",
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081",
+      "source_location": "Results / Primer validation, second paragraph",
+      "claim_text": "Sample count: 68 adult chinstrap penguins (amplification result excluded)",
+      "data_file": "data/evaluation/author_penguins_raw.csv",
+      "data_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "method": "count_rows",
+      "column": "",
+      "filters": {
+        "Species": "Chinstrap penguin (Pygoscelis antarctica)"
+      },
+      "delimiter": ",",
+      "reported_value": 68,
+      "tolerance": 0,
+      "source_file": "data/evaluation/gorman2014_claim.txt",
+      "source_quote": "P2/P8 primers amplified in all 68 adult chinstrap penguins.",
+      "source_kind": "article_extract",
+      "scope_status": "PENDING",
+      "scope_note": "Original 2014 analysis sample vs later author package data version needs human reconciliation; same dataset reused, not an independent new dataset.",
+      "source_sha256": "4e26cc622211ca994f23b1a1ecbd9c53a3882fdfcc988627a6b06dc07c873ce8",
+      "source_capture": "manual_transcription_from_official_plos_browsing_result_not_publisher_html_bytes"
+    },
+    {
+      "claim_id": "HORSE-LOWERED-NECK-OR",
+      "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0286045",
+      "source_location": "section 3.2, printed page 9; source paraphrase in claim_spec",
+      "claim_text": "Lowered neck OR=0.05",
+      "data_file": "data/evaluation/paper_pairs/horse/Dados_Laize_ISAE2021.csv",
+      "data_sha256": "33bf5378de32b8c54c412ed4ea929f45174bc1981031f194813daed92f1fcbde",
+      "method": "mixed_logistic_regression",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 0.05,
+      "tolerance": 0,
+      "source_file": "data/evaluation/paper_pairs/horse/claim_spec.json",
+      "source_quote": "Lowered-neck odds in the positively reinforced phase relative to baseline: OR 0.05",
+      "source_kind": "curator_paraphrase",
+      "scope_status": "PENDING",
+      "scope_note": "Author mixed-model environment and diagnostics pending; existing dedicated partial audit is separate.",
+      "source_sha256": "25113bff94233cb3569c06f4704fbdacb2ca2d9140c91089cf541efea140e775"
+    },
+    {
+      "claim_id": "MONARCH-SIZE-PC1-VARIANCE",
+      "paper_url": "https://www.pnas.org/doi/10.1073/pnas.2001283117",
+      "source_location": "Author R common-garden adult PCA lines 440-461; paper Methods Data Analysis",
+      "claim_text": "Size PC1 explained variance 96.4 percent",
+      "data_file": "data/evaluation/paper_pairs/monarch/adult_morphology.csv",
+      "data_sha256": "d85aec46430c571546504a2c6b8982fd187b8d60f2d0e517f890b46bc349a39b",
+      "method": "pca_with_available_side_means",
+      "column": "",
+      "filters": {},
+      "delimiter": ",",
+      "reported_value": 96.4,
+      "tolerance": 0,
+      "source_file": "data/evaluation/paper_pairs/monarch/global_monarch_wing_morphology.R",
+      "source_quote": "96.4",
+      "source_kind": "author_code",
+      "scope_status": "PENDING",
+      "scope_note": "Paper population unspecified; left/right available-side preprocessing needs explicit contract. Existing dedicated partial audit is separate.",
+      "source_sha256": "8a25e90d0f8054c26f3fd1ac8914d46787f02816493a44f38903f85c719df308"
+    }
+  ]
+}

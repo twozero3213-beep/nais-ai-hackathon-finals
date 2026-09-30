@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "tables": {
+    "result_count": 100,
+    "table_candidates_returned": 96,
+    "example_doi": "10.1001/jamanetworkopen.2020.0265",
+    "source_locator": "body-descendant-table-wrap#1/descendant-tr#1"
+  },
+  "synonyms": {
+    "query": "재현성",
+    "expanded_terms": [
+      "reproducibility"
+    ],
+    "result_count": 10,
+    "source": "NAIS_MANUAL_TERMS_V69_1"
+  },
+  "boundary": "Synthetic unique token and adjacent-paragraph source_ranges tests pass; no real-corpus recall accuracy claim",
+  "verification": {
+    "status": "PASS",
+    "records": 900,
+    "fulltext": 644,
+    "bibliography_only": 256,
+    "passages": 50091,
+    "splits": {
+      "development": 720,
+      "validation": 180
+    },
+    "parsed_fulltext": 644,
+    "parse_failures": 0,
+    "table_candidates": 29501,
+    "content_sha256": "9d579f6947888c17a10fe856a645d9c6955ec538dbe40c68bd7754c7fe05e49d",
+    "validation_scope": "All selected source bytes hashed every request; reconstruction reused only for verified matching snapshots; not authentication or reproduction",
+    "source_files_hashed": 644,
+    "source_bytes_hashed": 98035492,
+    "reconstruction_cache_hit": true
+  }
+}

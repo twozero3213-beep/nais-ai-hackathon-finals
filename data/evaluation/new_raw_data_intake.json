@@ -1,0 +1,56 @@
+{
+  "case_id": "N3-11814",
+  "status": "RAW_FILE_DOWNLOADED_PARTIAL_DENOMINATOR_RECONSTRUCTION",
+  "original_article": {
+    "citation": "Balakrishnan et al. (2017), Scientific Data 4:160120",
+    "doi": "10.1038/sdata.2016.120",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5283063/",
+    "license": "CC BY 4.0 (article; do not infer separate dataset license)",
+    "claim": "Replication 1 N=264",
+    "claim_location": "Table 4, PMC HTML lines 213-216",
+    "conditions": "294 response records in raw export; paper reports 2 quality-check and 28 attention-probe exclusions in Table 5, lines 252-262; 294 - 2 - 28 = 264. Exclusion categories were not independently reconstructed case by case."
+  },
+  "correction": {
+    "doi": "10.1038/sdata.2017.119",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5584394/",
+    "relation": "corrected-article PMC5283063",
+    "note": "Corrects SES coding/signs in main-effect results and states OSF syntax/output were updated."
+  },
+  "data_file": {
+    "path": "Raw_Replication_1_mTurk.csv",
+    "original_name": "Raw_Replication 1 (mTurk).csv",
+    "url": "https://osf.io/download/t8dmb/",
+    "osf_project_doi": "10.17605/OSF.IO/92QKX",
+    "osf_project_url": "https://osf.io/92qkx/",
+    "osf_file_id": "5c004b33a8e38d0019552658",
+    "osf_guid": "t8dmb",
+    "version": 1,
+    "modified": "2018-11-29T20:25:23.858609",
+    "bytes": 88086,
+    "sha256": "3d89f3783194e036e6a6e6070eeed79aff011b070851659db7ca1fa127f95364",
+    "rows": 294,
+    "columns": 44,
+    "license_basis": "Article Usage Notes say data is open access and free to use for research; OSF project metadata has no separate dataset license stated."
+  },
+  "analysis": {
+    "performed": "CSV record count and arithmetic using exclusions as reported in article",
+    "reconstructed_n": 264,
+    "regression_recomputed": false,
+    "new_statistical_test": false,
+    "caveat": "Does not independently identify which raw records correspond to the published exclusion categories; not a regression reproduction.",
+    "response_records_verified": 294,
+    "header_records": 2,
+    "reported_exclusions": [
+      2,
+      28
+    ],
+    "exclusion_membership_verified": false,
+    "eligible_as_reproduction_success": false,
+    "human_approval": false,
+    "decoding": "cp1252 used for structural count; encoding inferred, not publisher confirmed; UTF-8 fails at byte3291. Text semantics not verified."
+  },
+  "distribution": {
+    "raw_in_release": false,
+    "reason": "Separate dataset redistribution license unconfirmed; source link and fingerprint only. Local raw bytes checked."
+  }
+}
