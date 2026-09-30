@@ -1,0 +1,70 @@
+{
+  "_change_note": "[0 이영] version 0; 공식 Cloud 관리화면 설정·Reboot 후 새 웹 실행 Git과 기존 CI 성공을 실제 관측 범위만 기록. 제품 수정 없음.",
+  "contributor_version": 0,
+  "contributor_name": "이영",
+  "recorded_at_kst": "2026-10-01T08:04:57.541614+09:00",
+  "recorded_at_utc": "2026-09-30T23:04:57.541614+00:00",
+  "observed_at_kst": "2026-10-01T08:03:17+09:00",
+  "observed_at_utc": "2026-09-30T23:03:17+00:00",
+  "observation_source": "부모가 외부 Chrome 공식 관리화면과 재부팅 후 새 웹 화면을 직접 관측한 결과를 인계. 본 문서 작성자는 추가 웹 조작 없이 기록.",
+  "official_repository": "https://github.com/twozero3213-beep/nais-ai-hackathon-finals",
+  "observed_product_commit": "1712f745970486b7394eb593f66834ceca6ba3df",
+  "ci": {
+    "status": "VERIFIED_SUCCESS",
+    "head_sha": "1712f745970486b7394eb593f66834ceca6ba3df",
+    "product_tests": {
+      "run_id": 36788398186,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/twozero3213-beep/nais-ai-hackathon-finals/actions/runs/36788398186",
+      "pytest_step": "success",
+      "finals_metadata_step": "success"
+    },
+    "team_metadata": {
+      "run_id": 36788398182,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/twozero3213-beep/nais-ai-hackathon-finals/actions/runs/36788398182"
+    },
+    "scope": "GitHub CI 결과. 웹에서 모든 시험·모델·과학적 재현을 실행했다는 의미가 아님."
+  },
+  "cloud_management": {
+    "official_host": "share.streamlit.io",
+    "logged_in_management_page_observed": true,
+    "repository": "twozero3213-beep/nais-ai-hackathon-finals",
+    "branch": "main",
+    "entrypoint": "0_이영_웹사이트.py",
+    "reboot_action": "EXECUTED",
+    "settings_secrets_included": false
+  },
+  "web": {
+    "url": "https://nais-evidence-gate-finals.streamlit.app/",
+    "research_path": "/research",
+    "fresh_research_screen": "NORMAL_OBSERVED",
+    "displayed_execution_git": "1712f745970486b7394eb593f66834ceca6ba3df",
+    "displayed_commit_matches_verified_ci_head": true,
+    "scope": "새 /research 화면 정상 및 표시된 실행 Git 정확 일치. 표시 Git 확인을 전체 의존성·모든 기능·원격 환경의 암호학적 인증으로 확대하지 않음.",
+    "latest_normal_verification": "pending",
+    "latest_normal_verification_note": "부모가 최신 배포에서 정상 검산 진행 중. 실제 결과 미수신이므로 이전344 관측으로 대체하지 않음."
+  },
+  "screenshot": {
+    "local_filename": "0_이영_웹_최종배포_1712f74.jpg",
+    "local_artifact_directory_name": "0_이영_최종본_20261001",
+    "status": "ROOT_SAVED_LOCAL",
+    "publicly_attached": false,
+    "scope": "로컬 경로의 개인정보는 기록하지 않음."
+  },
+  "execution_boundaries": {
+    "product_code_changes_for_this_receipt": 0,
+    "actual_llm_calls_in_this_deployment_check": 0,
+    "actual_human_approval_decisions_in_this_deployment_check": 0,
+    "new_paper_ai_end_to_end": "NOT_VERIFIED",
+    "raw_keys_tokens_private_values_included": false,
+    "all_application_flows_completed": false
+  },
+  "remaining": [
+    "최신 배포 정상 검산의 실제 결과 수신",
+    "새 논문 AI 독립 조건추출·원자료 수신·재계산·사람 판단 종단 완료는 별도 미검증"
+  ],
+  "completion_scope": "CI 두 묶음 success + Cloud main/진입점 확인 + Reboot + 새 /research 정상 화면 + 웹 표시 실행 Git1712와 검증한 CI SHA 정확 일치."
+}
