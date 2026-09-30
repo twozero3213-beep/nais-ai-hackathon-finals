@@ -11,6 +11,9 @@ CONDITION_LABELS = {"METHOD": "분석 방법", "COLUMN": "사용 열", "FILTERS"
 FIELD_LABELS = {"REPORTED_VALUE": "보고값", "SOURCE_QUOTE": "원문 인용", "SOURCE_LOCATION": "원문 위치",
                 "CLAIM_TEXT": "주장 문장", "TOLERANCE": "허용오차"}
 FIXED = {
+    "REPLAY_INPUT_UNBOUND": "저장 응답의 사례·자료·원문 지문이 없어 현재 입력에 적용하지 않았습니다.",
+    "REPLAY_INPUT_MISMATCH": "저장 응답이 현재 선택한 사례·자료·원문과 달라 적용하지 않았습니다. 응답에 맞는 사례를 선택하세요.",
+    "APPROVAL_CRITIQUE_UNRESOLVED": "해결되지 않은 검토 의견이 있어 승인할 수 없습니다. 새 검산과 검토를 진행하세요.",
     "CRITIQUE_EVIDENCE_NOT_READY": "검토에서 근거가 충분하다고 확인하지 못해 승인을 보류했습니다. 검토 의견을 확인하세요.",
     "CRITIQUE_UNRESOLVED_ISSUES": "검토에 해결되지 않은 문제가 있어 승인할 수 없습니다. 계산값 일치만으로 검토가 완료되지는 않습니다.",
     "ORIGINAL_SOURCE_UNAVAILABLE_OR_HASH_MISMATCH": "등록된 원문 출처를 확인하지 못했거나 원문 지문이 달라 계산을 보류했습니다.",
@@ -118,3 +121,18 @@ def change_summary(report: dict | None) -> list[str]:
 # [수정: 3 조지현 · 2026-10-01T02:08:17+09:00] 기준 커밋보다 뒤인 주석 시각은 원작성 시각으로 확인할 수 없어 미확인으로 표시했다. 원표기는 별도 검토 기록에 보존한다.
 
 # [3 조지현 · 2026-10-01T02:13:04+09:00] 통합 후 추가 주석의 원작성 시각을 확인할 수 없어 미확인 표시; 실제 검토 시각과 원표기를 분리 기록한다.
+
+
+# [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: AI/결정적 검토와 제안만 재생한 범위를 화면에서 읽을 수 있게 설명한다.
+def review_summary(report: dict) -> list[str]:
+    lines = []
+    replay = report.get("replay_provenance") or {}
+    if replay.get("scope") == "PROPOSAL_ONLY":
+        lines.append("과거 실제 AI의 조건 제안만 재생했습니다. 원실행의 AI 검토 의견은 포함되지 않았고, 현재 조건 검산을 다시 수행했습니다. 새 AI 호출은 없습니다.")
+    critique = report.get("critique") or {}
+    if critique.get("source") == "model_candidate":
+        if critique.get("evidence_ready") is not True or critique.get("issues"):
+            lines.append("AI 검토 보류: 계산값이 일치해도 해결되지 않은 근거 문제가 있어 승인할 수 없습니다.")
+        else:
+            lines.append("AI 검토에 남은 문제가 없습니다. 최종 원문·의미 확인과 승인은 사람이 해야 합니다.")
+    return lines

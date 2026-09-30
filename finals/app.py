@@ -18,7 +18,7 @@ for module_root in (AGENT_ROOT.parent, AGENT_ROOT):
     if str(module_root) not in sys.path:
         sys.path.insert(0, str(module_root))
 
-from finals_explain import calculation_summary, change_summary, reason_text, reasons
+from finals_explain import calculation_summary, change_summary, reason_text, reasons, review_summary
 from finals_notice import APPROVAL_PRIVACY_NOTICE, DOCUMENT_REFERENCE, LIVE_TRANSFER_NOTICE, NOTICE_POINTS, NOTICE_TITLE
 from finals_privacy import describe, sensitive_kinds
 from finals_provider import ProviderError, availability, complete_json, paid_call_allowed
@@ -47,7 +47,7 @@ web_theme.render_theme()
 web_theme.render_brand()
 
 CATEGORIES = {"normal":"정상", "mismatch":"수치 불일치", "evidence_missing":"근거 부족", "data_changed":"자료 변경"}
-STATE_NAMES = {"ARITHMETIC_MATCH":"수치 일치", "MATCH":"수치 일치", "ARITHMETIC_MISMATCH":"수치 불일치", "MISMATCH":"수치 불일치", "BLOCK":"보류", "BLOCKED":"보류", "INPUT_CHANGED":"변경 후 재사용 차단", "APPROVED":"사람 확인 완료", "PROPOSED":"후보 접수", "NOT_RUN":"미실행", "SUPPORTED_PREVIEW":"조건 검산 완료", "CONFLICT_PREVIEW":"수치 불일치", "MISSING":"근거 부족", "BLOCKED_CHANGED_INPUT":"변경 후 재사용 차단", "MODEL_BLOCKED":"AI 요청 중단", "IMPORTED_REVIEW":"불러온 기록(읽기 전용)", "GENERAL_AI_MATCH":"일반 AI 단독 응답: 일치(검산 아님)", "GENERAL_AI_MISMATCH":"일반 AI 단독 응답: 불일치(검산 아님)", "GENERAL_AI_BLOCK":"일반 AI 단독 응답: 보류(검산 아님)", "GENERAL_AI_STALE_BLOCK":"일반 AI 단독 응답: 변경 차단(검산 아님)"}
+STATE_NAMES = {"REVIEW_BLOCKED":"AI 검토 보류", "ARITHMETIC_MATCH":"수치 일치", "MATCH":"수치 일치", "ARITHMETIC_MISMATCH":"수치 불일치", "MISMATCH":"수치 불일치", "BLOCK":"보류", "BLOCKED":"보류", "INPUT_CHANGED":"변경 후 재사용 차단", "APPROVED":"사람 확인 완료", "PROPOSED":"후보 접수", "NOT_RUN":"미실행", "SUPPORTED_PREVIEW":"조건 검산 완료", "CONFLICT_PREVIEW":"수치 불일치", "MISSING":"근거 부족", "BLOCKED_CHANGED_INPUT":"변경 후 재사용 차단", "MODEL_BLOCKED":"AI 요청 중단", "IMPORTED_REVIEW":"불러온 기록(읽기 전용)", "GENERAL_AI_MATCH":"일반 AI 단독 응답: 일치(검산 아님)", "GENERAL_AI_MISMATCH":"일반 AI 단독 응답: 불일치(검산 아님)", "GENERAL_AI_BLOCK":"일반 AI 단독 응답: 보류(검산 아님)", "GENERAL_AI_STALE_BLOCK":"일반 AI 단독 응답: 변경 차단(검산 아님)"}
 MODES = {"수동 작성":"manual", "실시간 AI":"live", "저장 응답 재생":"replay"}
 SENSITIVE = {"api_key", "apikey", "authorization", "password", "secret", "access_token", "refresh_token", "credential", "credentials"}
 
@@ -282,7 +282,7 @@ with right:
             state = state_of(report)
             if state in {"ARITHMETIC_MATCH","MATCH","APPROVED","SUPPORTED_PREVIEW"}:
                 st.success(STATE_NAMES.get(state,state))
-            elif "MISMATCH" in state or state in {"BLOCK","BLOCKED","INPUT_CHANGED","MISSING","BLOCKED_CHANGED_INPUT","MODEL_BLOCKED"}:
+            elif "MISMATCH" in state or state in {"BLOCK","BLOCKED","INPUT_CHANGED","MISSING","BLOCKED_CHANGED_INPUT","MODEL_BLOCKED","REVIEW_BLOCKED"}:
                 st.warning(STATE_NAMES.get(state,state))
             else:
                 st.info(STATE_NAMES.get(state,state))
@@ -312,6 +312,9 @@ with right:
                     st.json(public_snapshot(report["calculation"]))
             if report.get("reason"):
                 st.write(str(report["reason"]))
+            # [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: 검토 보류와 과거 제안만 재생한 범위를 JSON보다 먼저 설명한다.
+            for review_line in review_summary(report):
+                st.write(review_line)
             critique = report.get("critique")
             if critique:
                 with st.expander("검토 의견",expanded=True):
