@@ -1,0 +1,109 @@
+{
+  "contributor_version": 3,
+  "recorded_at_kst": "2026-10-01T04:17:55+09:00",
+  "modification_reason": "통합본 우선순위의 실행 지문·AI 단계 기록·준비 점검·실제 브라우저 시연을 구현하고 미실행 비교와 구분",
+  "source_priority_markdown_sha256": "f60fbbf457f521bd4e1cd524425797316984d653cb99224b744424501a936aa2",
+  "review_scope": {
+    "repository_inventory_files": 1531,
+    "total_bytes": 209168379,
+    "python_count": 234,
+    "python_parse_errors": [],
+    "scope": "WHOLE_TRACKED_INVENTORY_AND_CORE_CODE_DOCUMENT_REVIEW_NOT_MODEL_WEIGHT_TRAINING"
+  },
+  "tests": {
+    "passed": 1202,
+    "skipped": 1,
+    "warnings": 1,
+    "duration_seconds": 59.21,
+    "scope": "LOCAL_PRODUCT_REGRESSION_NOT_MODEL_COMPARISON",
+    "subsequent_equivalent_fixture_edit": "210 privacy tests passed; runtime fixture value unchanged"
+  },
+  "local_browser": {
+    "executed_at_utc": "2026-09-30T19:09:02.743Z",
+    "checks": [
+      "BAT manual numeric preview visible",
+      "download 53-row report; human approval remains pending",
+      "report reopened as review-only record",
+      "changed-input reuse blocked; approval disabled"
+    ],
+    "scope": "ACTUAL_LOCAL_BROWSER_AUTOMATION_NOT_REAL_RESEARCHER_APPROVAL",
+    "paid_model_calls": 0,
+    "report_id": "ba1baa4f-6b19-4429-bf8d-2ed2a77cdcef",
+    "execution_provenance": {
+      "code_commit": "4202d122dd4747fa2afc22cee0a94c855754da91",
+      "tracked_code_matches_commit": false,
+      "code_files_sha256": {
+        "finals/app.py": "9898ecf082c10376c4ea46123886e76a7d0ea77728cd46fbab754651e1338b1f",
+        "finals/finals_pipeline.py": "c68e0745efddf604dea9181e78d50fb698eb172f02c570ccd4eef4aa1d4a38a5",
+        "finals/finals_cases.py": "c73d5c28be29f73bab70a167fb71655cd359b7d3a649a06e0d82b9cdb2190889",
+        "finals/finals_provider.py": "047b33d67910ea9eeb11581eef5101f6cc6b757d7808ece7133e2ccd8e73acf6",
+        "finals/finals_privacy.py": "bbd454e62bcb7dd5365de9756db05c251d80015918397700faccb9e25fefc4a7",
+        "finals/finals_explain.py": "3f37435c166174aefe99856f55d8dc2b2960114ae2e0bad4ce6b99ba6312c972",
+        "finals/finals_provenance.py": "83d61f5df5c1cb78561130077345614aa2bf44aff1eaef204057cc988c43d136",
+        "core/statistics.py": "a3426b318f9579a5dc4b129661a5809181254b824c47d04445240e9c3bf51a8d",
+        "core/verifier.py": "d3562f7a79d8815336ed338c9c6fb8f286f98eff32bb444836dea91cd2a61bc4",
+        "core/normalization.py": "c1044d78e790467905262802a2ec8bfc25ef51d89dd77e17faaf4b1a16d9f63e",
+        "core/typed_contracts.py": "d3132b99d08c39e5e6ca9aa9ecd8adb03876a6f0e904d0d7d0261c39b6441926",
+        "core/models.py": "b1e1885e0b8938066ffd5afe5c101b85eeffffe4567a288ed5ce4e28381a3901"
+      },
+      "execution_fingerprint": "f5aefe764e7fcc58a768a06137e17540f3dee8ffc4d757e01ad93c804251ccf1",
+      "python_version": "3.13.5",
+      "dependencies": {
+        "streamlit": "1.64.0",
+        "pandas": "2.3.3",
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "jsonschema": "4.26.0"
+      },
+      "scope": "SELECTED_EXECUTION_FILES_AND_ENVIRONMENT_NOT_IDENTITY_OR_DEPLOYMENT_ATTESTATION"
+    }
+  },
+  "video": {
+    "path": "docs/verification/3_local_browser_demo_20261001.webm",
+    "sha256": "7f50ea4e4410a5966904bde20bc2051d31fc167de268ccc69eb4e9676a027f93",
+    "duration_seconds": 12.16,
+    "prior_failed_automation_attempts": 5,
+    "scope": "SUCCESSFUL_LOCAL_AUTOMATION_VIDEO_ONLY"
+  },
+  "comparison_readiness": {
+    "contributor_version": 3,
+    "checked_at_kst": "2026-10-01T04:03:01+09:00",
+    "new_model_calls": 0,
+    "sealed_inputs": {
+      "ready": false,
+      "missing_files": [
+        "inputs/C01-source.txt",
+        "inputs/C02-source.txt",
+        "inputs/C05-source.txt",
+        "inputs/C07-source.txt",
+        "inputs/C08-source.txt",
+        "packets/C01.json",
+        "packets/C02.json",
+        "packets/C05.json",
+        "packets/C07.json",
+        "packets/C08.json"
+      ],
+      "changed_files": [],
+      "unsafe_paths": [],
+      "next_action": "복원 묶음 전체 지문 검사 후 비공개 입력 복원"
+    },
+    "claims_allowed": [
+      "등록된 제한 계산/보류/변경 동작의 검증 결과"
+    ],
+    "claims_not_established": [
+      "범용 에이전트 대비 우위",
+      "연구자 업무 시간 절감",
+      "논문 전체 타당성 검증"
+    ],
+    "comparison_contract": {
+      "same_readonly_tools": false,
+      "scope": "MODEL_ONLY_VS_TOOL_ASSISTED_SYSTEM_NOT_EQUAL_TOOL_AGENT_COMPARISON",
+      "next_action": "동일 계산·지문 도구를 제공하는 범용 에이전트 비교를 별도 프로토콜로 고정",
+      "actual_model_comparison_executed_by_this_check": false
+    },
+    "status": "BLOCKED_INPUTS"
+  },
+  "new_paid_model_calls": 0,
+  "real_researcher_approval_performed": false,
+  "cloud_deployment_confirmed": false
+}

@@ -424,6 +424,14 @@ with right:
                 except Exception as exc:
                     notice_error(exc)
 
+# [3 조지현 · 2026-10-01T03:54:48+09:00] 수정 이유: 현재 실행본과 보고서의 코드/환경을 대조할 수 있도록 과거 연결점검과 별도로 표시한다.
+with st.expander("실행 코드와 환경 확인"):
+    current = pipeline.execution_snapshot()
+    st.caption("현재 실행 코드 지문: " + current["execution_fingerprint"])
+    st.caption("실행 커밋: " + str(current["code_commit"] or "미확인"))
+    st.caption("선택 코드가 커밋과 일치: " + str(current["tracked_code_matches_commit"]))
+    st.json(current)
+
 st.divider()
 st.subheader("보고서 저장과 다시 열기")
 st.caption("실제 실행 상태, 확인 사유와 입력 지문을 보고서로 저장합니다. 다시 연 보고서는 현재 입력과의 연결을 재검사합니다.")
