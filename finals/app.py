@@ -110,6 +110,8 @@ def reset_case(case_id):
 
 # [3 조지현 · 2026-10-01T04:14:33+09:00] 수정 이유: 심사 동선에서 AI 개입 지점과 사람 판단 지점, 실제 AI 응답의 영수증을 화면에 드러낸다. 계산·승인 정책은 그대로 둔다.
 STEP_ROLES = {"load":("불러오기","코드"), "proposal":("조건 후보","AI"), "validate":("형식·근거 검사","코드"), "recompute":("재계산","코드"), "critique":("비평","AI"), "human_approval":("최종 승인","사람")}
+# [3 조지현 · 2026-10-01T05:59:35+09:00] 수정 이유: 자료 변경 재검산·재열기·오류·일반 AI 단계가 영문 기계 이름(input_change_recheck 등)으로 화면에 노출됐다. 표시 이름만 더하고 단계 판정은 그대로 둔다.
+STEP_ROLES.update({"input_change_recheck":("자료 변경 확인","코드"), "report_reopen":("보고서 다시 열기","코드"), "error":("오류 처리","코드"), "general_ai_proposal":("일반 AI 제안","AI"), "general_ai_self_review":("일반 AI 자기 검토","AI")})
 
 
 def ai_used(report):
@@ -139,7 +141,7 @@ def render_roles(report):
     st.markdown("**누가 무엇을 했나**")
     cols = st.columns(len(steps))
     for col, item in zip(cols, steps):
-        name, who = STEP_ROLES.get(item.get("step"), (str(item.get("step")), "코드"))
+        name, who = STEP_ROLES.get(item.get("step"), ("추가 단계", "코드"))
         # [수정: 0 이영 · Codex] 2026-10-01T04:35:56+09:00 — AI가 조건을 제안했어도 실제 비평이 결정적 규칙 검사라면 이 단계의 수행자를 AI로 표시하지 않는다. 영수증·계산·승인 상태는 보존한다.
         critique = report.get("critique")
         if item.get("step") == "critique" and isinstance(critique, dict) and critique.get("source") == "deterministic":
