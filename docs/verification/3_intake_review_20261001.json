@@ -1,0 +1,237 @@
+{
+  "contributor_version": 3,
+  "contributor_name": "조지현",
+  "recorded_at_kst": "2026-10-01T03:09:31+09:00",
+  "base_commit": "9d6c1effe26aba21004fa7dae4dbc37275440333",
+  "archive_sha256": "fe789c9f9e02a5135ef85b9d2f43c8debc280182bfbc5e810d5e3901265107ec",
+  "intake": [
+    {
+      "path": "docs/verification/1_web_flow_verification_20261001.json",
+      "sha256": "bdd4ca32836c97acbcb0779d0f439937aa5a0e7d825142d9ca5fe4b4484ff9b2",
+      "matches_base_main": true
+    },
+    {
+      "path": "finals/app.py",
+      "sha256": "1e317c792e205ecba634024b8cb69008c921b9f64b020473a58f9ba790c791af",
+      "matches_base_main": true
+    },
+    {
+      "path": "finals/finals_explain.py",
+      "sha256": "be9db5286419a8f4fe44068586a909cf9fa1f5f3cbe2e463ec7862ab83dd7835",
+      "matches_base_main": true
+    },
+    {
+      "path": "finals/finals_pipeline.py",
+      "sha256": "73d65bd072d94400da874825ca5678d6e0ebc0dbd83e6d5325aa9aeab67da68f",
+      "matches_base_main": true
+    },
+    {
+      "path": "finals/tests/test_1_critique_explanation.py",
+      "sha256": "bd956760b9e09148d0f5968c876ea5d15f5d34b324b6414383504cb139e81fbf",
+      "matches_base_main": true
+    },
+    {
+      "path": "finals/tests/test_finals_ui.py",
+      "sha256": "f148d90155d733c6660d8ecaa518285b66fb05c0b740bf586532157bd43b87eb",
+      "matches_base_main": true
+    },
+    {
+      "path": "1_이채우_팀전달_배포시연과승인보완.txt",
+      "sha256": "224fbec06f6761c8402ee3253ee834c3a3bb3dff0631c4087423a1c46204cee7",
+      "matches_base_main": false
+    }
+  ],
+  "manual_cases": [
+    {
+      "case_id": "NORMAL-PENG-ROWS",
+      "state": "SUPPORTED_PREVIEW",
+      "can_approve": true,
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 344.0,
+        "calculated_value": 344.0,
+        "reported_value": 344,
+        "delta": 0.0,
+        "tolerance": 0,
+        "within_tolerance": true,
+        "selected_rows": 344,
+        "expected_denominator": 344,
+        "denominator_matches": true,
+        "meta": {
+          "n": 344,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "NORMAL-BAT-MEAN",
+      "state": "SUPPORTED_PREVIEW",
+      "can_approve": true,
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 49.320754716981135,
+        "calculated_value": 49.320754716981135,
+        "reported_value": 49.32,
+        "delta": 0.0007547169811346066,
+        "tolerance": 0.005,
+        "within_tolerance": true,
+        "selected_rows": 53,
+        "expected_denominator": 53,
+        "denominator_matches": true,
+        "meta": {
+          "n": 53,
+          "expression": "mean(Age.y)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "MISMATCH-PENG-DROP1",
+      "state": "CONFLICT_PREVIEW",
+      "can_approve": false,
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 343.0,
+        "calculated_value": 343.0,
+        "reported_value": 344,
+        "delta": 1.0,
+        "tolerance": 0,
+        "within_tolerance": false,
+        "selected_rows": 343,
+        "expected_denominator": 344,
+        "denominator_matches": false,
+        "meta": {
+          "n": 343,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "MISMATCH-PENG-DROP2",
+      "state": "CONFLICT_PREVIEW",
+      "can_approve": false,
+      "calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 342.0,
+        "calculated_value": 342.0,
+        "reported_value": 344,
+        "delta": 2.0,
+        "tolerance": 0,
+        "within_tolerance": false,
+        "selected_rows": 342,
+        "expected_denominator": 344,
+        "denominator_matches": false,
+        "meta": {
+          "n": 342,
+          "expression": "row_count(all rows)",
+          "method": "row_count"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "row_count"
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "MISSING-PUBLISHER",
+      "state": "MISSING",
+      "can_approve": false,
+      "calculation": {
+        "executed": false
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "MISSING-MISSING-POLICY",
+      "state": "MISSING",
+      "can_approve": false,
+      "calculation": {
+        "executed": false
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "CHANGED-PENG-CSV",
+      "state": "BLOCKED_CHANGED_INPUT",
+      "can_approve": false,
+      "calculation": {
+        "executed": false
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    },
+    {
+      "case_id": "CHANGED-BAT-CONTRACT",
+      "state": "BLOCKED_CHANGED_INPUT",
+      "can_approve": false,
+      "calculation": {
+        "executed": false
+      },
+      "errors": [],
+      "human_approved": false,
+      "model_calls": 0
+    }
+  ],
+  "replay": {
+    "case_id": "NORMAL-PENG-ROWS",
+    "state": "SUPPORTED_PREVIEW",
+    "can_approve": true,
+    "calculated_value": 344.0,
+    "provenance": {
+      "file_sha256": "3e407673383e07a7deaab151aef65962316b7329ecc92d7bbff60ba52627ea27",
+      "request_id": "resp_0cf5f96503ddc63e016abd24ee3d8487d09035d9acfc8bd065",
+      "original_usage": {
+        "input_tokens": 26281,
+        "output_tokens": 98
+      },
+      "scope": "PROPOSAL_ONLY",
+      "original_critique_replayed": false,
+      "input_bindings_verified": true,
+      "original_recorded_at_kst": "2026-10-01T00:04:12+09:00"
+    },
+    "actual_model_output": true,
+    "new_model_calls": 0,
+    "human_approved": false
+  },
+  "scope": "로컬 등록8사례+실제 과거 첫 제안 재생. 새 유료 모델 호출·사람 승인·Cloud 배포·봉인 모델 비교는 미실행. 원실행 두번째 AI 검토 원문은 첨부/공개재생에 없어 원승인 보류 원인을 확정하지 않음.",
+  "verification": {
+    "executed_at_kst": "2026-10-01T03:12:33+09:00",
+    "test_result": "768 passed, 1 skipped, 1 warning",
+    "elapsed_seconds": 39.5,
+    "test_scope": "tests finals/tests tools/test_product_metadata_guard.py",
+    "test_log_sha256": "6dd2e28ca60b25ad926af3e96af975d932725ae347f41adafdc777e51789b137",
+    "junit_sha256": "6e340b2ea31357e059a33c78cd4ebf4661b6e95b01f78e37c6bca2df1823d62f",
+    "initial_new_boundary_tests": "8 failed before implementation; preserved as failure, not included in final pass count",
+    "metadata": "PASS",
+    "diff_check": "PASS",
+    "skipped": "A2 author file external input unavailable",
+    "warning": "overflow handling rejection test intentionally exercises sum overflow"
+  }
+}

@@ -362,8 +362,17 @@ def run_case(case_id, mode="manual", proposal_text=None, provider=None, replay_p
             if not replay_path or str(Path(replay_path).resolve()) not in paths:
                 raise ValueError("REAL_SAVED_REPLAY_UNAVAILABLE")
             replay = _strict_json(Path(replay_path).read_text(encoding="utf-8-sig"))
+        # [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: 과거 첫 제안을 전체 AI 검토 재생으로 오해하거나 다른 입력에 적용하지 않도록 결속/범위를 기록한다.
+            bindings = {"case_id": case["id"], "input_sha256": case["input_sha256"], "source_sha256": case["source_sha256"]}
+            if any(not replay.get(field) for field in bindings):
+                raise ValueError("REPLAY_INPUT_UNBOUND")
+            if any(replay[field] != current for field, current in bindings.items()):
+                raise ValueError("REPLAY_INPUT_MISMATCH")
             candidate = replay["output"]
-            report["replay_provenance"] = {"path": str(Path(replay_path).resolve()), "file_sha256": _sha(Path(replay_path).read_bytes()), "request_id": replay["request_id"], "original_usage": replay.get("usage")}
+            report["replay_provenance"] = {"path": str(Path(replay_path).resolve()), "file_sha256": _sha(Path(replay_path).read_bytes()), "request_id": replay["request_id"], "original_usage": replay.get("usage"),
+                                           "scope": "PROPOSAL_ONLY", "original_critique_replayed": False,
+                                           "input_bindings_verified": True,
+                                           "original_recorded_at_kst": replay.get("original_recorded_at_kst")}
             report["actual_model_output"] = True
         else:
             raise ValueError("UNKNOWN_MODE")
@@ -408,7 +417,11 @@ def run_case(case_id, mode="manual", proposal_text=None, provider=None, replay_p
         # 계산 preview와 승인 가능 여부는 별개이며, 이 설명 보완으로 승인 기준을 완화하지 않는다.
         critique_ready = report["critique"].get("evidence_ready") is True
         critique_issues = report["critique"].get("issues") or []
+        # [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: 수치 일치가 있어도 미해결 AI 검토는 대표 상태에 보류로 표시한다. 근거 부족/자료 변경 상태는 유지한다.
         if not critique_ready or critique_issues:
+            report["can_approve"] = False
+            if report["state"] == "SUPPORTED_PREVIEW":
+                report["state"] = report["status"] = "REVIEW_BLOCKED"
             pending = report.setdefault("remaining_issues", [])
             for code, needed in (("CRITIQUE_EVIDENCE_NOT_READY", not critique_ready),
                                  ("CRITIQUE_UNRESOLVED_ISSUES", bool(critique_issues))):
@@ -450,6 +463,10 @@ def approve_report(report: dict, reason: str, confirmed=False) -> dict:
         raise ValueError("APPROVAL_REASON_PERSONAL_DATA")
     if not report.get("can_approve") or report.get("human_approval", {}).get("approved"):
         raise ValueError("REPORT_NOT_APPROVABLE")
+    # [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: 화면 can_approve 플래그와 별개로 승인 진입점에서 미해결 검토를 다시 거절한다.
+    critique = report.get("critique") or {}
+    if critique.get("evidence_ready") is not True or critique.get("issues"):
+        raise ValueError("APPROVAL_CRITIQUE_UNRESOLVED")
     result = deepcopy(report)
     case = load_case(result["case_id"])
     if not _bindings_match(result, case):
