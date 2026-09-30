@@ -496,6 +496,9 @@ def approve_report(report: dict, reason: str, confirmed=False) -> dict:
     status, _, _, _ = auto_verify(claim, case["dataframe"], csv_bytes=case["data_bytes"])
     if status != Status.SUPPORTED:
         raise ValueError("CORE_VERIFICATION_NOT_SUPPORTED")
+    # [수정: 0 이영 · Codex] 2026-10-01T06:05:33+09:00 — 승인 성공에 사용한 새 검증·계산 전체를 반환 사본에도 반영해 변조된 과거 표시값/분모/엔진을 보존하지 않는다. 깊은 복사로 입력 보고서·후보·등록부와 파생 결과를 분리한다.
+    result["validation"] = deepcopy(validation)
+    result["calculation"] = deepcopy(calculation)
     claim.validate(reason.strip())
     claim.validated_data_hash = case["input_sha256"]
     result["claim_snapshot"] = asdict(claim)
