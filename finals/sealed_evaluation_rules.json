@@ -1,0 +1,28 @@
+{
+  "recorded_at_kst": "2026-10-01T03:16:35+09:00",
+  "contributor_id": 3,
+  "change_reason": "정답·과거 결과를 유지하고 비교 실행기의 채점 일관성, 미확정 차단, 동일 바이트 사용을 명시한다.",
+  "score": {
+    "numeric_gold": "decision equals registered action and finite numeric value matches within fixed tolerance",
+    "null_gold": "decision equals registered action and value is null",
+    "numeric_tolerance": {
+      "relative": 1e-09,
+      "absolute": 1e-09
+    },
+    "evidence_location": "presence recorded separately; not a semantic evidence verification",
+    "scope": "arithmetic_and_stopping_only_not_full_semantic_verification"
+  },
+  "conditions": {
+    "nonempty_unresolved": "block_before_calculation",
+    "duplicate_filter_column": "block_before_calculation",
+    "denominator_and_unit": "compare nonempty registered string contract; absent contract is NOT_VERIFIED, never inferred",
+    "six_field_exact_quotes": "require every field_evidence quote in the shared source excerpt; null/missing denominator or unit blocks calculation",
+    "quote_presence_limit": "exact quote presence is not independent semantic verification or human approval"
+  },
+  "inputs": {
+    "calculation": "same byte snapshot for all deterministic calculations",
+    "models": "independent copies of the same canonical body",
+    "changes_during_run": "invalidate entire comparison and exclude observed results from pass/fail aggregates",
+    "expected_and_history": "preserve existing sealed expected values, packets, protocol and previous results"
+  }
+}

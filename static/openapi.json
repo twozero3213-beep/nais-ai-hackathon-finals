@@ -5,7 +5,7 @@
   },
   "openapi": "3.1.0",
   "paths": {
-    "/app/static/agent.json": {
+    "/~/+/app/static/agent.json": {
       "get": {
         "responses": {
           "200": {
@@ -22,7 +22,7 @@
         "summary": "Read the public release snapshot agent.json"
       }
     },
-    "/app/static/examples.json": {
+    "/~/+/app/static/examples.json": {
       "get": {
         "responses": {
           "200": {
@@ -39,7 +39,7 @@
         "summary": "Read the public release snapshot examples.json"
       }
     },
-    "/app/static/llms.txt": {
+    "/~/+/app/static/llms.txt": {
       "get": {
         "responses": {
           "200": {
@@ -59,7 +59,7 @@
   },
   "servers": [
     {
-      "url": "https://nais-evidence-gate-team.streamlit.app"
+      "url": "https://nais-evidence-gate-finals.streamlit.app"
     }
   ]
 }

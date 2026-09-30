@@ -11,6 +11,9 @@ CONDITION_LABELS = {"METHOD": "분석 방법", "COLUMN": "사용 열", "FILTERS"
 FIELD_LABELS = {"REPORTED_VALUE": "보고값", "SOURCE_QUOTE": "원문 인용", "SOURCE_LOCATION": "원문 위치",
                 "CLAIM_TEXT": "주장 문장", "TOLERANCE": "허용오차"}
 FIXED = {
+    "REPLAY_INPUT_UNBOUND": "저장 응답의 사례·자료·원문 지문이 없어 현재 입력에 적용하지 않았습니다.",
+    "REPLAY_INPUT_MISMATCH": "저장 응답이 현재 선택한 사례·자료·원문과 달라 적용하지 않았습니다. 응답에 맞는 사례를 선택하세요.",
+    "APPROVAL_CRITIQUE_UNRESOLVED": "해결되지 않은 검토 의견이 있어 승인할 수 없습니다. 새 검산과 검토를 진행하세요.",
     "CRITIQUE_EVIDENCE_NOT_READY": "검토에서 근거가 충분하다고 확인하지 못해 승인을 보류했습니다. 검토 의견을 확인하세요.",
     "CRITIQUE_UNRESOLVED_ISSUES": "검토에 해결되지 않은 문제가 있어 승인할 수 없습니다. 계산값 일치만으로 검토가 완료되지는 않습니다.",
     "ORIGINAL_SOURCE_UNAVAILABLE_OR_HASH_MISMATCH": "등록된 원문 출처를 확인하지 못했거나 원문 지문이 달라 계산을 보류했습니다.",
@@ -19,8 +22,10 @@ FIXED = {
     "SENSITIVE_CONTENT_BLOCKED": "인증 값이나 개인정보(이메일·전화번호·주민등록번호) 형태의 문자열이 있어 차단했습니다.",
     "APPROVAL_REASON_PERSONAL_DATA": "승인 사유에 이메일·전화번호 같은 개인정보나 인증 값 형태가 있어 저장하지 않았습니다. 이름·연락처를 빼고 다시 적어 주세요.",
     "PERSONAL_DATA_IN_OUTBOUND_PAYLOAD": "외부 AI로 보낼 본문에 개인정보나 인증 값 형태가 있어 전송하지 않았습니다.",
-    "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED": "직접 확인 표시와 3자 이상의 승인 사유가 필요합니다.",
-    "NONFINITE_OR_BOOLEAN_NUMBER": "보고값·허용오차는 유한한 숫자여야 합니다.",
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 화면 체크 상자의 실제 문구와 승인 조건을 구체적으로 안내한다.
+    "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED": "'직접 확인했습니다'에 체크하고 3자 이상의 승인 사유를 적어 주세요.",
+    # [수정: 0 이영 · Codex] 2026-10-01T03:22:27+09:00 — 유한한 숫자의 의미와 거부되는 참·거짓 값을 구체적으로 설명한다.
+    "NONFINITE_OR_BOOLEAN_NUMBER": "보고값·허용오차는 유한한 숫자여야 합니다. 참·거짓 값이나 무한대는 쓸 수 없습니다.",
     "DUPLICATE_JSON_KEY": "JSON에 같은 키가 두 번 있습니다. 어느 값이 쓰일지 알 수 없어 거부했습니다.",
     "NONFINITE_JSON": "JSON에 NaN·무한대 같은 값이 있습니다.",
     "JSON_INPUT_TOO_LARGE": "입력이 허용 크기(256KB)를 넘었습니다.",
@@ -37,8 +42,10 @@ FIXED = {
     "CANDIDATE_OR_PROVIDER_ERROR": "후보나 AI 응답을 처리하지 못했습니다.",
     "REAL_SAVED_REPLAY_UNAVAILABLE": "저장된 실제 AI 응답을 찾지 못했습니다.",
 }
-PREFIXES = (("CONDITION_MISMATCH_", CONDITION_LABELS, "후보의 ‘{}’이(가) 등록된 조건과 다릅니다."),
-            ("REGISTERED_FIELD_MISMATCH_", FIELD_LABELS, "후보가 ‘{}’을(를) 바꿨습니다. 보고값·인용·허용오차는 후보가 바꿀 수 없습니다."))
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 조사 자동선택 자리표시자가 사용자 화면에 나오지 않게 자연스러운 문장으로 바꾼다.
+PREFIXES = (("CONDITION_MISMATCH_", CONDITION_LABELS, "후보의 ‘{}’ 항목이 등록된 조건과 다릅니다."),
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 조사 자동선택 자리표시자를 없애되 등록 필드의 이름을 보존한다.
+            ("REGISTERED_FIELD_MISMATCH_", FIELD_LABELS, "후보가 ‘{}’ 항목을 바꿨습니다. 보고값·인용·허용오차는 후보가 바꿀 수 없습니다."))
 
 
 def reason_text(code: str) -> str:
@@ -82,7 +89,8 @@ def calculation_summary(calculation: dict | None) -> str | None:
     if calculation.get("denominator_matches"):
         denominator = f"선택한 {calculation.get('selected_rows')}행이 선언한 분모와 같습니다."
     else:
-        denominator = f"선택된 행 수 {calculation.get('selected_rows')}이(가) 선언한 분모 {calculation.get('expected_denominator')}와 다릅니다."
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 숫자 뒤 조사 자리표시자를 제거하고 행 수·분모 원값은 보존한다.
+        denominator = f"선택된 행 수({calculation.get('selected_rows')})가 선언한 분모({calculation.get('expected_denominator')})와 다릅니다."
     return f"계산값 {computed} · 보고값 {reported} · 차이 {delta}(허용오차 {tolerance}) — {verdict}. {denominator}"
 
 
@@ -109,7 +117,8 @@ def change_summary(report: dict | None) -> list[str]:
         if not same_value and recalculated == reported:
             recalculated, reported = format(calculated_value, ".17g"), format(reported_value, ".17g")
         relation = "같습니다" if same_value else "다릅니다"
-        lines.append(f"바뀐 자료로 다시 계산하면 {recalculated}이고 보고값은 {reported}로 {relation}. 변경 전의 일치 결과는 더 이상 쓸 수 없습니다.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 숫자 뒤 '로/으로' 선택 오류를 없애고 팀원의 원수치 비교·정밀 표시는 보존한다.
+        lines.append(f"바뀐 자료로 다시 계산한 값 {recalculated} · 보고값 {reported} — 두 값이 {relation}. 변경 전의 일치 결과는 더 이상 쓸 수 없습니다.")
     else:
         lines.append("변경 전의 계산·승인은 더 이상 쓸 수 없습니다. 새로 검산하고 사람이 다시 확인해야 합니다.")
     previous = (report.get("human_approval") or {}).get("previous_approval") or {}
@@ -118,3 +127,18 @@ def change_summary(report: dict | None) -> list[str]:
 # [수정: 3 조지현 · 2026-10-01T02:08:17+09:00] 기준 커밋보다 뒤인 주석 시각은 원작성 시각으로 확인할 수 없어 미확인으로 표시했다. 원표기는 별도 검토 기록에 보존한다.
 
 # [3 조지현 · 2026-10-01T02:13:04+09:00] 통합 후 추가 주석의 원작성 시각을 확인할 수 없어 미확인 표시; 실제 검토 시각과 원표기를 분리 기록한다.
+
+
+# [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: AI/결정적 검토와 제안만 재생한 범위를 화면에서 읽을 수 있게 설명한다.
+def review_summary(report: dict) -> list[str]:
+    lines = []
+    replay = report.get("replay_provenance") or {}
+    if replay.get("scope") == "PROPOSAL_ONLY":
+        lines.append("과거 실제 AI의 조건 제안만 재생했습니다. 원실행의 AI 검토 의견은 포함되지 않았고, 현재 조건 검산을 다시 수행했습니다. 새 AI 호출은 없습니다.")
+    critique = report.get("critique") or {}
+    if critique.get("source") == "model_candidate":
+        if critique.get("evidence_ready") is not True or critique.get("issues"):
+            lines.append("AI 검토 보류: 계산값이 일치해도 해결되지 않은 근거 문제가 있어 승인할 수 없습니다.")
+        else:
+            lines.append("AI 검토에 남은 문제가 없습니다. 최종 원문·의미 확인과 승인은 사람이 해야 합니다.")
+    return lines

@@ -1,6 +1,6 @@
 {
   "approved": false,
-  "built_at": "2026-09-30T15:05:40.222751+00:00",
+  "built_at": "2026-10-01T03:26:21+09:00",
   "cases": [
     {
       "doi": "10.1038/sdata.2016.120",
@@ -28,12 +28,12 @@
     }
   ],
   "endpoints": {
-    "agent.json": "https://nais-evidence-gate-team.streamlit.app/app/static/agent.json",
-    "examples.json": "https://nais-evidence-gate-team.streamlit.app/app/static/examples.json",
-    "llms.txt": "https://nais-evidence-gate-team.streamlit.app/app/static/llms.txt",
-    "openapi.json": "https://nais-evidence-gate-team.streamlit.app/app/static/openapi.json"
+    "agent.json": "https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/agent.json",
+    "examples.json": "https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/examples.json",
+    "llms.txt": "https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/llms.txt",
+    "openapi.json": "https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/openapi.json"
   },
-  "examples_sha256": "8219e6b5ed97cb0382ae0a206be6449480832f354a77dc3946af9f2be1efb90b",
+  "examples_sha256": "9ee3aa61318132090fea6d6b64b61fd7b9cc15b52db7288985b43622bf2de66c",
   "limitations": [
     "These GET files are release snapshots; they do not execute a question or search.",
     "Run stdio modules from an installed project in an MCP-capable local host. No public remote MCP endpoint is provided.",

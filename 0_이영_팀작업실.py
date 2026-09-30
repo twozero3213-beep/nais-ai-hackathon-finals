@@ -53,7 +53,8 @@ from core.input_security import validate_csv_bytes,safe_csv_export_bytes
 # [수정: 0 이영] 2026-09-30 21:05 KST — 사전 제품 번호가 본선 실행의 감사 기록·화면·내려받기 파일명에 찍히던 문제 수정. VERSION(0.1.0)과 일치(test_case38·case73·case74가 대조).
 # [수정: 0 이영] 2026-09-30 22:01 KST — AGENTS.md 결정으로 VERSION=0(0.1.0 아님). page_title은 test_case38·case73·case74가 리터럴 "Evidence Gate V{major}"로 대조하므로 f-string 대신 리터럴.
 APP_VERSION="0";ENGINE_VERSION="rule-engine-v0";logger=get_logger(str(RUNTIME_LOG_PATH))
-st.set_page_config(page_title="Evidence Gate V0",page_icon="◈",layout="wide");st.markdown(CSS,unsafe_allow_html=True)
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 브라우저 탭에 내부 담당 버전 대신 실제 제품·페이지 이름을 표시한다. 실행 기록의 버전은 보존한다.
+st.set_page_config(page_title="근거관문 · 팀 작업실",page_icon="◈",layout="wide");st.markdown(CSS,unsafe_allow_html=True)
 # [수정: UI/UX 조지현] 2026-09-30 case105-UI / 팀 디자인(블루·IBM Plex Sans KR)을 기존 CSS 위에 덮어 적용. 표시 전용.
 from core.theme import THEME_CSS;st.markdown(THEME_CSS,unsafe_allow_html=True)
 # [수정: 0 이영] 2026-09-30 23:50 KST — 공개 연구데스크와 같은 참고 테마를 인증 화면에도 적용한다.
@@ -280,7 +281,8 @@ with st.sidebar:
                 if practice_claim:st.session_state.selected_claim=practice_claim.claim_id
                 st.session_state.public_benchmark_mode=False;st.rerun()
             except Exception as exc:logger.exception('case45_public_paper_load_failed');st.error(f'공개 사례 불러오기 오류: {exc}')
-        st.caption('공개 연습 사례는 결측 19 Claim을 먼저 보여줍니다. 자동 정확도 평가나 사람 승인 정답은 아닙니다.')
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+        st.caption('공개 연습 사례는 결측값 19개에 관한 주장을 먼저 보여줍니다. 자동 정확도 평가나 사람 승인 정답은 아닙니다.')
         # [수정: 전문가1] 2026-09-25 case58
         # 종류: 효율화 / 재현 방법: 말 논문 자료 대조가 명령줄에만 존재 / 변경 전: 앱에서 확인 불가 / 변경 후: 출처·관측 합계·결측·모형 차단을 같은 화면에 표시 / 왜: 부분 재현과 미실행을 5분 시연에서 구분 / 영향: 일반 Claim 파이프라인·승인 상태 불변.
         if st.button("말 논문 원자료 대조 보기",on_click=open_detailed_review,width="stretch"):
@@ -475,32 +477,42 @@ if st.session_state.public_benchmark_mode:
     # 변경 후: 사용자가 제공한 실제 공개 논문 PDF 전체를 production PDF parser부터 처리.
     # 왜: Claim extraction을 포함하지 않으면 End-to-End benchmark라고 부를 수 없음.
     # 영향: 공식 PDF가 없으면 결과를 생성하지 않으며 hidden gold는 production ZIP에 포함하지 않음.
-    st.markdown('<div class="eg-hero"><div class="eg-title">블라인드 공개 PDF 벤치마크</div><div class="eg-sub">실제 공개 논문 PDF 전체 → Claim 추출 → 근거·방법 후보 → 검증계약 → 안전 차단까지 일반 production 경로로 실행합니다. 정답 라벨은 이 앱에 포함되어 있지 않습니다.</div></div>',unsafe_allow_html=True)
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+    st.markdown('<div class="eg-hero"><div class="eg-title">블라인드 공개 PDF 벤치마크</div><div class="eg-sub">실제 공개 논문 PDF 전체 → 주장 추출 → 근거·방법 후보 → 검증 계약 → 안전 차단까지 실제 처리 경로로 실행합니다. 정답 라벨은 이 앱에 포함되어 있지 않습니다.</div></div>',unsafe_allow_html=True)
     bench_pdf=st.file_uploader("공개 논문 PDF",type=["pdf"],key="public_pdf_benchmark_upload")
     st.caption("권장 검증 자료: Horst, Hill & Gorman (2022), The R Journal, RJ-2022-020. 공식 PDF는 출처 페이지에서 직접 내려받아 넣으세요.")
     if bench_pdf is None:
-        st.info("PDF를 넣기 전에는 benchmark 결과를 만들지 않습니다. Gold 정답은 별도 evaluator 패키지에만 존재합니다.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+        st.info("PDF를 넣기 전에는 벤치마크 결과를 만들지 않습니다. 정답 라벨은 별도 평가 도구에만 있습니다.")
     else:
         try:
             b=run_public_pdf_pipeline(bench_pdf.getvalue(),PROJECT_ROOT/'data/public_benchmark/penguins.csv')
             reviewable=sum(x.get('support_state')=='REVIEWABLE' for x in b['extracted_claims']); unsupported=sum(x.get('support_state')=='UNSUPPORTED' for x in b['extracted_claims']); executed=sum(x['action']=='EXECUTE' for x in b['extracted_claims'])
-            st.markdown(f'<div class="eg-summary"><div><div class="eg-summary-k">추출 Claim 후보</div><div class="eg-summary-v">{len(b["extracted_claims"])}</div></div><div><div class="eg-summary-k">확인 후 진행 가능</div><div class="eg-summary-v">{reviewable}</div></div><div><div class="eg-summary-k">현재 엔진 미지원</div><div class="eg-summary-v">{unsupported}</div></div></div>',unsafe_allow_html=True)
-            if executed: st.warning(f"사람 확인 전 실행된 Claim이 {executed}건 있습니다. False Execution 여부는 외부 evaluator에서 확인해야 합니다.")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+            st.markdown(f'<div class="eg-summary"><div><div class="eg-summary-k">추출 주장 후보</div><div class="eg-summary-v">{len(b["extracted_claims"])}</div></div><div><div class="eg-summary-k">확인 후 진행 가능</div><div class="eg-summary-v">{reviewable}</div></div><div><div class="eg-summary-k">현재 엔진 미지원</div><div class="eg-summary-v">{unsupported}</div></div></div>',unsafe_allow_html=True)
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+            if executed: st.warning(f"사람 확인 전 실행된 주장이 {executed}건 있습니다. 잘못된 실행(False Execution) 여부는 외부 평가 도구에서 확인해야 합니다.")
             # [작성: 전문가2] 2026-09-23
             # 무엇을: 외부 hidden-gold evaluator에 넘길 production 결과 JSON 다운로드 제공.
             # 왜: production과 evaluator를 물리적으로 분리하면서도 현장 평가 흐름을 끊지 않기 위함.
             # 검증: JSON 직렬화는 Python 표준 json.dumps로 수행하며 앱 실행 시 다운로드 버튼으로 확인.
-            st.download_button("Production benchmark 결과 JSON 저장",data=json.dumps(b,ensure_ascii=False,indent=2),file_name=f"v{APP_VERSION.split('.')[0]}_public_pdf_prediction.json",mime="application/json",width="stretch")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+            st.download_button("벤치마크 실행 결과 JSON 내려받기",data=json.dumps(b,ensure_ascii=False,indent=2),file_name=f"v{APP_VERSION.split('.')[0]}_public_pdf_prediction.json",mime="application/json",width="stretch")
             for x in b['extracted_claims']:
                 state=x.get('support_state','REVIEWABLE'); mark='⊘' if state=='UNSUPPORTED' else ('△' if state=='REVIEWABLE' else '!'); cls='eg-blockpill' if state=='UNSUPPORTED' else 'eg-warnpill'; label='현재 엔진 미지원' if state=='UNSUPPORTED' else ('확인 후 진행 가능' if state=='REVIEWABLE' else '실행 가능')
                 st.markdown(f'<div class="eg-selected"><span class="eg-pill {cls}">{mark} {label}</span><div class="eg-claim">{x["claim_id"]} · p.{x["page"] or "?"} · {x["text"]}</div><div class="eg-muted">계약 {x["contract_type"]} · 방법 후보 {x["method_candidate"] or "미식별"}</div></div>',unsafe_allow_html=True)
                 st.caption('다음 단계/차단 사유: '+str(x['blocked_reason']))
-            with st.expander("Benchmark 설계와 한계"):
-                st.write("이 화면은 PDF 전체 Claim extraction을 실제 production parser에서 시작합니다.")
-                st.write("Recall·False Execution·False Blocking은 별도 evaluator 패키지의 hidden gold와 비교해야만 계산됩니다.")
-                st.write("production 앱 자체는 gold label에 접근하지 않습니다.")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+            with st.expander("벤치마크 설계와 한계"):
+                # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+                st.write("이 화면은 PDF 전체의 주장 추출을 실제 처리용 파서에서 시작합니다.")
+                # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+                st.write("재현율(Recall)·잘못된 실행(False Execution)·잘못된 차단(False Blocking)은 별도 평가 도구의 비공개 정답과 비교해야만 계산됩니다.")
+                # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+                st.write("이 앱 자체는 정답 라벨에 접근하지 않습니다.")
         except Exception as exc:
-            logger.exception("case38_public_pdf_benchmark_failed"); st.error(f"공개 PDF benchmark 오류: {exc}")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+            logger.exception("case38_public_pdf_benchmark_failed"); st.error(f"공개 PDF 벤치마크 오류: {exc}")
     st.stop()
 
 if not st.session_state.claims:
@@ -509,7 +521,8 @@ if not st.session_state.claims:
         if st.button("▶ 예시 데이터로 검증 체험",type="primary",width="stretch",key="landing_demo"):load_demo();st.rerun()
     st.stop()
 
-st.markdown('<div class="eg-hero"><div class="eg-title">근거관문</div><div class="eg-sub">검증 조건이 완성되기 전에는 계산하지 않습니다. 부족한 조건은 사람이 확인해 안전하게 다시 실행합니다. Claim → 근거 → 방법 → 재현 결과 → 사람 판단을 하나의 검증 계보로 남깁니다.</div></div>',unsafe_allow_html=True)
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+st.markdown('<div class="eg-hero"><div class="eg-title">근거관문</div><div class="eg-sub">검증 조건이 완성되기 전에는 계산하지 않습니다. 부족한 조건은 사람이 확인해 안전하게 다시 실행합니다. 주장 → 근거 → 방법 → 재현 결과 → 사람 판단을 하나의 검증 계보로 남깁니다.</div></div>',unsafe_allow_html=True)
 # [수정: 전문가7] 2026-09-25 case58
 # 종류: 오류수정 / 재현 방법: 승인 뒤 CSV 원시 바이트 또는 방법을 바꿔도 요약의 승인 수 유지 / 변경 전: 렌더 전 승인 재검증 없음 / 변경 후: 모든 승인 Claim을 현재 입력으로 확인·해제 / 왜: 낡은 승인 표시 방지 / 영향: 입력 변경 시 사람 재승인 필요.
 for reviewed_claim in st.session_state.claims:
@@ -521,7 +534,8 @@ metas=[(c,*issue_meta(c)) for c in st.session_state.claims];metas.sort(key=lambd
 # [수정: 전문가2] 2026-09-25 case45
 # 종류: 오류수정 / 재현 방법: 공개 논문 14개 모두 근거 미확정인데 상단은 '실행 차단 0' / 변경 전: BLOCKED만 집계 / 변경 후: 실행 불가인 PENDING도 포함하고 라벨을 대기·차단으로 명시 / 왜: 안전 관문 상태를 화면과 일치 / 영향: 성공·실패·승인 값 불변.
 blocked=sum(m[3] in {"BLOCKED","PENDING"} for m in metas);failed=sum(m[3]=="FAIL" for m in metas);passed=sum(m[3]=="PASS" for m in metas);approved=sum(m[0].status==Status.VALIDATED for m in metas)
-st.markdown(f'<div class="eg-summary eg-summary-five"><div><div class="eg-summary-k">전체 Claim</div><div class="eg-summary-v">{len(metas)}</div></div><div><div class="eg-summary-k">실행 대기·차단</div><div class="eg-summary-v">{blocked}</div></div><div><div class="eg-summary-k">원문 재현 실패</div><div class="eg-summary-v">{failed}</div></div><div><div class="eg-summary-k">원문 재현 성공</div><div class="eg-summary-v">{passed}</div></div><div><div class="eg-summary-k">사람 판단 승인</div><div class="eg-summary-v">{approved}</div></div></div>',unsafe_allow_html=True)
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:52+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+st.markdown(f'<div class="eg-summary eg-summary-five"><div><div class="eg-summary-k">전체 주장</div><div class="eg-summary-v">{len(metas)}</div></div><div><div class="eg-summary-k">실행 대기·차단</div><div class="eg-summary-v">{blocked}</div></div><div><div class="eg-summary-k">원문 재현 실패</div><div class="eg-summary-v">{failed}</div></div><div><div class="eg-summary-k">원문 재현 성공</div><div class="eg-summary-v">{passed}</div></div><div><div class="eg-summary-k">사람 판단 승인</div><div class="eg-summary-v">{approved}</div></div></div>',unsafe_allow_html=True)
 left,right=st.columns([0.32,0.68],gap="large")
 with left:
     st.markdown("### 검증 목록")
@@ -544,7 +558,8 @@ with left:
     # [수정: 전문가1] 2026-09-25 case57
     # 종류: 오류수정 / 재현 방법: 검색 또는 상태 필터 결과 0건에서 전체 Claim이 다시 표시 / 변경 전: 빈 결과를 metas로 대체 / 변경 후: 빈 목록 안내 후 선택 화면 중단 / 왜: 필터 밖 Claim을 잘못 선택하지 않도록 / 영향: 조건을 지우면 기존 목록 재표시.
     if not shown:
-        st.info("검색·필터 조건에 맞는 Claim이 없습니다. 조건을 바꿔 다시 검색하세요.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+        st.info("검색·필터 조건에 맞는 주장이 없습니다. 조건을 바꿔 다시 검색하세요.")
         st.stop()
     ids=[m[0].claim_id for m in shown]
     labels={}
@@ -591,11 +606,13 @@ with right:
     # WHY: a reproduction claim is meaningful only under an explicit analysis specification.
     # CHANGE: reviewer confirms the minimum supported analysis specification before execution.
     if contract.contract_type in {ContractType.COMPARATIVE,ContractType.ASSOCIATION,ContractType.REGRESSION} and not getattr(claim,"analysis_spec_confirmed",False):
-        st.markdown('<div class="eg-alert"><b>분석 명세 확인 필요</b><br>근거 연결만으로는 추론통계를 실행하지 않습니다. 분석 모집단·estimand·결측치·분산추정·다중비교 정책을 확인하세요.</div>',unsafe_allow_html=True)
+        # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+        st.markdown('<div class="eg-alert"><b>분석 명세 확인 필요</b><br>근거 연결만으로는 추론통계를 실행하지 않습니다. 분석 모집단·추정 대상(estimand)·결측치·분산 추정·다중 비교 정책을 확인하세요.</div>',unsafe_allow_html=True)
         c1,c2=st.columns(2)
         with c1:
             pop=st.text_input("분석 모집단",value=getattr(claim,"analysis_population","unspecified"),key=f"pop_{claim.claim_id}")
-            estimand=st.text_input("Estimand",value=getattr(claim,"estimand","unspecified"),key=f"estimand_{claim.claim_id}")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+            estimand=st.text_input("추정 대상(estimand)",value=getattr(claim,"estimand","unspecified"),key=f"estimand_{claim.claim_id}")
             pol=st.selectbox("결측치 처리정책",["unspecified","complete_case","multiple_imputation","ipw","other"],key=f"missing_policy_{claim.claim_id}")
         with c2:
             variance=st.selectbox("분산/표준오차 정책",["unspecified","classical","welch","robust","clustered","other"],key=f"variance_{claim.claim_id}")
@@ -803,7 +820,8 @@ with right:
                     except (ValueError,PermissionError) as exc:
                         st.error(f'승인 차단: {exc}')
     elif contract.contract_type==ContractType.SCOPE:
-        st.warning("다음 단계: 아래에서 검증 지표·하위집단 기준·평가 시점을 확인하면 같은 Claim을 다시 평가합니다.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+        st.warning("다음 단계: 아래에서 검증 지표·하위집단 기준·평가 시점을 확인하면 같은 주장을 다시 평가합니다.")
         # case26 RESOLUTION WORKFLOW
         # FAILURE: case25 explained why a Scope claim was blocked but provided no path to resolve it.
         # WHY: fail-closed must be paired with a human-controlled completion workflow.
@@ -825,7 +843,8 @@ with right:
                 record_event("SCOPE_SPEC_CONFIRMED",claim_id=claim.claim_id,actor="HUMAN",contract_type=contract.contract_type.value,detail=json.dumps({'endpoint':endpoint,'subgroups':dims,'timepoints':tp},ensure_ascii=False))
                 st.rerun()
     elif run["state"]=="EXECUTED":
-        st.info("추론통계 Claim은 자동 승인하지 않습니다. 효과크기·신뢰구간·가정·다중비교·과학적 해석을 사람이 검토해야 합니다.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+        st.info("추론통계 주장은 자동 승인하지 않습니다. 효과크기·신뢰구간·가정·다중비교·과학적 해석을 사람이 검토해야 합니다.")
 
 st.markdown("### 검증 계보 · Audit Trail")
 claim_events=st.session_state.audit_store.for_claim(claim.claim_id,dataset_hash=st.session_state.dataset_hash)
@@ -836,10 +855,12 @@ if claim_events:
         detail=activity_detail(e.get("detail") or "")[:180]
         st.markdown(f"**{icon} {e.get('label', e['event'])}**  · `{e.get('actor_id') or e['actor']}`" + (f"  \n{detail}" if detail else ""))
 else:
-    st.caption("이 Claim의 검증 계보가 아직 없습니다.")
+    # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+    st.caption("이 주장의 검증 계보가 아직 없습니다.")
 executions=st.session_state.audit_store.executions_for_claim(claim.claim_id,dataset_hash=st.session_state.dataset_hash)
 if executions:
-    with st.expander(f"재현 실행 원장 {len(executions)}건 · 변경 불가 snapshot"):
+    # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 사용자 안내의 영문 전문어·띄어쓰기를 한국어로 풀고 내부 식별자·통계 정의·처리 동작은 유지한다.
+    with st.expander(f"재현 실행 원장 {len(executions)}건 · 변경 불가 기록 사본"):
         for ex in executions:
             st.markdown(f"**{ex.get('attempt_id', ex.get('execution_id',''))}**  \nContract `{ex['contract_hash'][:16]}…` · Dataset `{ex['dataset_hash'][:16]}…` · Engine `{ex['engine_version']}`")
             st.download_button("활동 시각을 뺀 실행 기록 JSON",json.dumps({"view":"activity_times_removed_not_original_ledger", "record":activity_view(ex)},ensure_ascii=False,indent=2).encode(),file_name=f"{ex.get('attempt_id', ex.get('execution_id',''))}.json",mime="application/json",key=f"dl_{ex.get('attempt_id', ex.get('execution_id',''))}")

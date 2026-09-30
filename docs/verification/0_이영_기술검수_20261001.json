@@ -1,5 +1,5 @@
 {
-  "_change_note": "2026-10-01T03:31:19+09:00 — 담당0 안전 경계·비교 계약·패키징 수정 후 최신 원격 기반 전체 제품 회귀의 실제 결과. 모델 성능·Cloud 완료와 구분.",
+  "_change_note": "2026-10-01T03:31:19+09:00 — 담당0 안전 경계·비교 계약·패키징 수정 후 최신 원격 기반 전체 제품 회귀의 실제 결과. 모델 성능·Cloud 완료와 구분. 후속 기록: 원 업로드 대기 관측을 보존하고 실제 원격 일치 확인을 추가. 문서 줄바꿈을 LF로 정규화.",
   "recorded_at_kst": "2026-10-01T03:31:19+09:00",
   "contributor_version": 0,
   "tested_commit": "32b14efc3b647ec80413fbae5ff4eef6d453c99d",
@@ -52,5 +52,13 @@
     "정확배포SHA·최신윤리고지·전체Cloud종단 미확인",
     "바이너리전체와 자유이름/주소의 개인정보검증 미보장",
     "원봉인/기대값/과거실행/원자료지문 유지"
-  ]
+  ],
+  "publication_confirmation": {
+    "checked_at_kst": "2026-10-01T03:41:29.9277431+09:00",
+    "remote_branch": "origin/main",
+    "confirmed_commit": "ae471801e02e5b943efbed654e7542fe074c3b42",
+    "code_commit": "32b14efc3b647ec80413fbae5ff4eef6d453c99d",
+    "verified_by": "git push output and git ls-remote matching local HEAD",
+    "deployed_sha": null
+  }
 }

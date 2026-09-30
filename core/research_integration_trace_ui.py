@@ -274,7 +274,7 @@ def render_trace(state, actor):
         if isinstance(summary, dict):
             st.caption('마지막 확인 관측 · ' + str(summary.get('checked_at_kst', '시각 미확인')) + ' · 현재 입력의 재검사·승인 상태가 아닙니다.')
             if summary.get('rows'):
-                st.dataframe(summary['rows'], hide_index=True, use_container_width=True)
+                st.dataframe(summary['rows'], hide_index=True, width='stretch')
             if summary.get('error'):
                 st.warning(summary['error'])
         else:

@@ -1,4 +1,5 @@
 """case95 offline English→Korean title drafts, with verified public model bootstrap."""
+from collections import Counter
 from functools import lru_cache
 import hashlib
 import http.client
@@ -19,6 +20,50 @@ FILES = ('model/model.bin', 'model/shared_vocabulary.txt', 'sentencepiece.model'
 LOCK = threading.Lock()
 BOOTSTRAP_LOCK = threading.Lock()
 BOOTSTRAP = {}
+
+
+# [수정: 0 이영 · Codex] 2026-10-01T02:53:50+09:00 — Claude의 공개 제목 293개 번역 실측에서 의미 오류·반복·한국어 훼손이 확인됐다. 기본은 원제목을 유지하고 명시 설정에서만 검증 전 번역 초안을 제공한다. 원제목·과학 약어는 번역 전에 변경하지 않는다.
+ENABLE_ENV = 'NAIS_TITLE_TRANSLATION'
+_ENGLISH_WORDS = frozenset('the of and in for on with to a an by from at is are as its their between using via into among under toward towards after during through than or not how what why when do does can be that this these those versus vs'.split())
+_NON_LATIN = re.compile(r'[\u0370-\u03ff\u0400-\u04ff\u0590-\u06ff\u0900-\u0dff\u0e00-\u0eff\u3040-\u30ff\u3400-\u9fff]')
+_ACRONYM = re.compile(r'(?<![A-Za-z0-9])[A-Z][A-Z0-9]{1,}(?:-[0-9A-Za-z]+)?(?![A-Za-z0-9])|(?<![A-Za-z0-9])[A-Z]{1,3}[0-9]+(?:\.[0-9]+)?(?![A-Za-z0-9])')
+
+
+def enabled():
+    """기계 번역 초안은 운영자가 명시적으로 켠 경우에만 제공한다."""
+    return os.environ.get(ENABLE_ENV) == '1' or bool(os.environ.get('NAIS_TRANSLATION_MODEL'))
+
+
+def _looks_english(title):
+    """영어가 아닌 문자나 파일 식별자를 영어 번역기에 넣지 않는다."""
+    if _NON_LATIN.search(title) or re.fullmatch(r'[A-Za-z0-9_.:/\\-]+', title):
+        return False
+    letters = [char for char in title if char.isalpha()]
+    if not letters or sum(ord(char) > 127 for char in letters) / len(letters) > 0.04:
+        return False
+    words = re.findall(r"[A-Za-z][A-Za-z'\-]*", title)
+    return not (len(words) >= 5 and not (_ENGLISH_WORDS & {word.lower() for word in words}))
+
+
+def _accept(title, korean):
+    """반복·한국어 부재·과도한 영어 잔존을 걸러낸다. 의미 정확성은 보증하지 않는다."""
+    if not isinstance(korean, str) or not re.search(r'[가-힣]', korean):
+        return None
+    korean = re.sub(r'인공\s+지능', '인공지능', korean.strip())
+    tokens = korean.split()
+    if len(tokens) >= 3:
+        if any(tokens[i] == tokens[i + 1] == tokens[i + 2] for i in range(len(tokens) - 2)):
+            return None
+        count = Counter(tokens).most_common(1)[0][1]
+        if (count >= 4 and count / len(tokens) >= 0.25) or Counter(zip(tokens, tokens[1:])).most_common(1)[0][1] >= 3:
+            return None
+    if len(korean) > max(80, 1.8 * len(title)):
+        return None
+    body = _ACRONYM.sub(' ', re.sub(r'\([^)]*\)', ' ', korean))
+    letters = [char for char in body if char.isalpha()]
+    if letters and sum(char.isascii() for char in letters) / len(letters) >= 0.35:
+        return None
+    return korean
 
 
 def _valid_model(path):
@@ -178,15 +223,21 @@ def _translate(title, path_string):
 
 
 # [작성: 무료번역 담당] 2026-09-29 case95 / 유효짧은공개제목→로컬번역초안 / 검증: 비밀·제어문자·초장문은 모델/네트워크0.
-def korean_title(title):
+def korean_title(title, *, stored_draft=None):
     if (not isinstance(title, str) or not title.strip() or len(title) > 600
             or any(ord(char) < 32 or ord(char) == 127 for char in title)
             or SECRET_PATTERN.search(title)):
         return None
     title = title.strip()
-    if not re.search(r'[A-Za-z]', title):
-        return title if re.search(r'[가-힣]', title) else None
+    # [수정: 0 이영 · Codex] 2026-10-01T02:53:50+09:00 — 한국어 제목 안의 AI·DNA 약어는 영어 제목의 근거가 아니다. 이미 한국어인 원제목은 그대로 보존한다.
+    if re.search(r'[가-힣]', title):
+        return title
+    if not re.search(r'[A-Za-z]', title) or not enabled() or not _looks_english(title):
+        return None
+    # [수정: 0 이영 · Codex] 2026-10-01T03:19:13+09:00 — 저장된 title_ko도 기본 꺼짐·출력 검사를 우회하지 않는다. 저장 번역의 품질을 사람이 확인했다고 가정하지 않는다.
+    if stored_draft is not None:
+        return _accept(title, stored_draft)
     path_string = str(_model_path())
     if not _model_ready(path_string):
         return None
-    return _translate(title, path_string)
+    return _accept(title, _translate(title, path_string))

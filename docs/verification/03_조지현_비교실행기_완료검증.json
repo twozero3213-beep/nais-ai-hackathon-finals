@@ -1,0 +1,121 @@
+{
+  "recorded_at_kst": "2026-10-01T04:06:37+09:00",
+  "contributor_version": 3,
+  "reviewer": "조지현",
+  "verified_code_commit": "f0746f8dd190b044f5c365d236867b10c7e44db4",
+  "integrated_team_base_commit": "c96d613729623e4e18beb74d35101cc4fa59e082",
+  "previous_review_base_commit": "9d6c1effe26aba21004fa7dae4dbc37275440333",
+  "actual_paid_model_calls": 0,
+  "full_tests": {
+    "passed": 1232,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "seconds": 76.67,
+    "scope": "tests finals/tests tools/test_product_metadata_guard.py; 로컬 저자 A2 파일 제공"
+  },
+  "focused_tests": {
+    "passed": 287,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 2.49,
+    "scope": "03 입력·채점 회귀, 0 여섯 조건 인용·출력 개인정보, 비교 실행기, 공급자/영구 로그 개인정보"
+  },
+  "independent_crossvalidation": {
+    "all_five_fixes_verified": true,
+    "result_file": "docs/verification/03_조지현_비교실행기_교차검증.json",
+    "scope": "공개 합성 C03·C04·C06 및 임시 자료 변경. 모두 모의 공급자"
+  },
+  "preserved_originals": {
+    "original_files_count": 18,
+    "all_unchanged": true,
+    "files": {
+      "registry.json": "d189fd2320c218836b1dbef2318d1150832fe494746916976bbdced778d4a9c9",
+      "expected.json": "12f13d21dc88e19c38cda5fce5c676f35e6baeb9e10d55418cfbb3f9ae40a9a7",
+      "seal.json": "58aab80952a8a1e02d5ebab80e7b4452ecb94be0db088720290e96c157f873bb",
+      "protocol.json": "ab8965b7323835c59d6fa3e2b90d0c2b35ed4ee722caa9b238eed13e2ff25b19",
+      "packets/C03.json": "e0bb00fe3a10c2a9c24809413b467611592db3853230841ec01cee8d07b7f026",
+      "packets/C04.json": "a08e66ba1d914b47b039621c518ea404368a8985bea3e2806f1953ea473a6ab5",
+      "packets/C06.json": "e69dbb6695b1c4fb1c53a10b6d85df0c6929540e5031559761610777e12a8f25",
+      "inputs/C03-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+      "inputs/C01-data.csv": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+      "inputs/C06-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+      "inputs/C07-data.csv": "b5c1aa1f4f62f84059c51501a003fbe96e710d61ad6d4cd3de230fe33714ebac",
+      "inputs/C06-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593",
+      "inputs/C04-source.txt": "aa12352250c297f4d8f4e969151dfe4def779227eae800bca088b62346808c80",
+      "inputs/C03-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593",
+      "inputs/C02-data.csv": "a3771cdaaecb24adedb61df55537c4c0d670456182b8e0f286e56182e3349c28",
+      "inputs/C08-data.csv": "e7d0a4b89454c37c229b59aaf13d331f3842541b1bfd49edba2d956b98c60131",
+      "inputs/C04-data.csv": "c44683fc39b0266a5f7a01187ac9fd8e1e3c094fc6c44666cb78279759fda593",
+      "inputs/C05-data.csv": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    }
+  },
+  "metadata_after_code_commit": {
+    "contributor_version": 3,
+    "checked_at_kst": "2026-10-01T04:02:20+09:00",
+    "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크·현재 제품 표기",
+    "json_files_checked": 36,
+    "status": "PASS",
+    "failures": [],
+    "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님"
+  },
+  "hygiene": {
+    "status": "PASS",
+    "findings": 0
+  },
+  "source_sha256": {
+    "finals/sealed_runner.py": "756dfcccc2523860fb5d4873fcd950cd5c2e124dd5f24e01457acf464ba103d5",
+    "finals/sealed_evaluation_rules.json": "384b44fb6762fd9efd478ebad8b4699cd27e2852140a565312c5e5d7e8228196",
+    "finals/tests/test_03_sealed_invariants.py": "74a531543762f71805bb7fcfd4a8fe53c6942dc639eda3f69987252ae7145587",
+    "finals/tests/test_sealed_runner.py": "9eca02409774e519c7012499560a88553d879c880a9f3e31c1188218de18d70b",
+    "tests/test_0_이영_privacy_boundaries.py": "7c3d7315cc1ac61b74c010c7058070aa568ec248db617c0eb43b7f108fe70eff",
+    "tools/03_조지현_비교실행기_교차검증.py": "5115e8e2682ac902f866efdfd3723c80d41d87cf261d71a92edf1e987e714458"
+  },
+  "raw_log_sha256": "522acf1ccc5c9fc0576fa30f01276dbe62cc3f6d3a709786632c99242dd81fa2",
+  "raw_junit_sha256": "c85b5b4909c033066d7caa9965de01338bc886a54e71c75d20b51e4be0bd5296",
+  "original_input_gold_or_history_rewritten": false,
+  "human_approval_created": false,
+  "limits": [
+    "실제 AI16칸 비교 미실행",
+    "새 스코어는 산술·멈춤 평가이며 의미 전체 검증 아님",
+    "원문 인용 존재는 올바른 의미 해석·사람 승인과 다름",
+    "단위·분모 등록 계약이 없으면 NOT_VERIFIED",
+    "공개 사본의 전체 봉인 확인은 비공개 입력 누락으로 차단",
+    "배포 최신SHA·전체 Cloud 시연 미확인",
+    "요금은 영수증 아닌 코드 단가 가정"
+  ],
+  "publication_status": "COMMITTED_CODE_PENDING_PUSH",
+  "post_intake_integration": {
+    "recorded_at_kst": "2026-10-01T04:14:05+09:00",
+    "tested_commit": "ff2a7b7347284f628bb3f5ed74d45e6b2d486142",
+    "integrated_remote_commit": "4202d122dd4747fa2afc22cee0a94c855754da91",
+    "reason": "업로드 준비 중 추가된 담당3의 검토 보류·승인 재확인·재생 결속 구현을 보존하고 다시 검사",
+    "full_tests": {
+      "passed": 1240,
+      "failures": 0,
+      "skipped": 0,
+      "warnings": 1,
+      "seconds": 39.1
+    },
+    "metadata": {
+      "contributor_version": 3,
+      "checked_at_kst": "2026-10-01T04:10:52+09:00",
+      "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크·현재 제품 표기",
+      "json_files_checked": 39,
+      "status": "PASS",
+      "failures": [],
+      "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님"
+    },
+    "raw_log_sha256": "230cf004000701b28e01ac32e6d8ad83967c488f7670b3a95ad9a564d3c3c654",
+    "raw_junit_sha256": "e795af0434acb4aaf8a63906c864f6042c8e3b3f78bde1b8944c7fa9fe95cf96",
+    "independent_crossvalidation_result": "docs/verification/03_조지현_비교실행기_교차검증.json",
+    "actual_paid_model_calls": 0,
+    "source_code_sha256": {
+      "finals/sealed_runner.py": "756dfcccc2523860fb5d4873fcd950cd5c2e124dd5f24e01457acf464ba103d5",
+      "finals/finals_pipeline.py": "45ce44d21ccc0a25d93414775008bb83da764a00b350476290017fea8343ee4b",
+      "finals/finals_explain.py": "3f37435c166174aefe99856f55d8dc2b2960114ae2e0bad4ce6b99ba6312c972",
+      "finals/app.py": "a41243d96399422fa0d7367fc0c740f6fd88be41bee65df2fa07cf21c35e6ba7"
+    }
+  }
+}

@@ -7,7 +7,7 @@ import streamlit as st
 
 from core.research_tasks_ui import scoped_key
 from core.research_fields import FIELDS
-from core.paper_discovery_ui import korean_title, PROVIDER_LABELS
+from core.paper_discovery_ui import korean_title, translation_enabled, PROVIDER_LABELS
 
 ENTRY_LABELS = {'papers:' + key: field['group'] + ' · ' + field['label'] for key, field in FIELDS.items()}
 ENTRY_LABELS.update({'news:mit': 'MIT 연구 소식', 'news:kaist': 'KAIST 연구 소식', 'news:harvard': 'Harvard 연구 소식'})
@@ -126,12 +126,14 @@ def render_digest(actor, kind='papers'):
         with st.container(border=True):
             st.text(str(row.get('title') or '제목 미확인'))
             if kind == 'papers':
-                translated = row.get('title_ko') or korean_title(row.get('title', ''))
-                if translated:
-                    st.caption("한국어 참고 번역 · 학술 용어 확인 필요")
+                # [수정: 0 이영 · Codex] 2026-10-01T03:19:13+09:00 — 보관 응답의 title_ko도 기본 꺼짐과 출력 검사를 우회하지 않게 한다.
+                translated = korean_title(row.get('title', ''), stored_draft=row.get('title_ko'))
+                # [수정: 0 이영 · Codex] 2026-10-01T02:53:50+09:00 — 미실행 번역을 준비 중으로 안내하지 않고 원제목과 기계 번역 초안을 구분한다.
+                if translated and translated != row.get('title'):
+                    st.caption("기계 번역 초안 · 오역 가능성이 있으니 원제목과 대조하세요")
                     st.write(translated)
-                else:
-                    st.caption('한국어 번역 준비 중')
+                elif translation_enabled() and not translated:
+                    st.caption('한국어 번역 없음 · 원제목 기준으로 확인하세요')
                 st.caption('발행일 ' + _paper_date(row.get('published')) + ' · ' + str(row.get('journal') or '학술지 미확인'))
                 count = row.get('citations')
                 provider = PROVIDER_LABELS.get(data.get('provider', 'crossref'), '공개 출처')

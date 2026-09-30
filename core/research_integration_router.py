@@ -78,7 +78,7 @@ def _remember(result):
     if result.get("provider"):
         with _LOCK:
             _HEALTH[result["provider"]] = {key: deepcopy(result.get(key)) for key in
-                ("status", "error", "retrieved_at_kst", "response_sha256", "http_status")}
+                ("status", "error", "retrieved_at_kst", "response_sha256", "response_sha256_scope", "http_status")}
     return result
 
 
@@ -141,6 +141,45 @@ def _aes_available():
         return False
 
 
+def _scienceon_public_xml(raw, secrets):
+    """Consume only the gateway's exact request-auth text; retain every other guard."""
+    # [수정: 0 이영 · Codex] 2026-10-01 05:49 KST — 실제 MetaData/parameterData의 예상 client_id/token 두 echo만 내부소비한다. 다른 위치·댓글·PI·속성·tail의 credential echo는 계속 차단한다.
+    try:
+        decoded = raw.decode("utf-8-sig")
+    except UnicodeError:
+        raise ValueError("INVALID_RESPONSE") from None
+    if "\x00" in decoded or "<!DOCTYPE" in decoded.upper() or "<!ENTITY" in decoded.upper():
+        raise ValueError("INVALID_RESPONSE")
+    try:
+        root = ET.fromstring(raw, parser=ET.XMLParser(target=ET.TreeBuilder(insert_comments=True, insert_pis=True)))
+    except (ET.ParseError, ValueError):
+        raise ValueError("INVALID_RESPONSE") from None
+    if any(node.tag in {"{http://www.w3.org/2001/XInclude}include", "{http://www.w3.org/2001/XInclude}fallback"} for node in root.iter()):
+        raise ValueError("INVALID_RESPONSE")
+    if root.tag == "MetaData":
+        children = list(root)
+        if (len(children) != 3 or {node.tag for node in children} != {"parameterData", "recordList", "resultSummary"}
+                or len(secrets) != 5):
+            raise ValueError("INVALID_RESPONSE")
+        parameter = root.find("parameterData")
+        expected = {"client_id": secrets[1], "token": secrets[4]}
+        for name, value in expected.items():
+            nodes = list(parameter.iter(name))
+            if (len(nodes) != 1 or nodes[0] not in list(parameter) or nodes[0].attrib or list(nodes[0])
+                    or not isinstance(value, str) or not value or nodes[0].text != value
+                    or (nodes[0].tail is not None and nodes[0].tail.strip())):
+                raise ValueError("INVALID_RESPONSE")
+            nodes[0].text = None
+        # All unconsumed nodes remain, including comments/PI and decoded character references.
+        public_xml = ET.tostring(root, encoding="utf-8")
+    else:
+        public_xml = raw  # Preserve the existing legacy metadata parser contract.
+    text = public_xml.decode("utf-8")
+    if any(value and (value in text or value in __import__("html").unescape(text)) for value in secrets):
+        raise ValueError("PRIVATE_RESPONSE")
+    return public_xml
+
+
 def _scienceon_get(path, secrets):
     """Private auth query remains only inside this fixed HTTPS request, never provenance."""
     if not path.startswith(("/tokenrequest.do?", "/openapicall.do?")) or len(path) > 4000 or any(ord(c) < 32 for c in path):
@@ -169,11 +208,7 @@ def _scienceon_get(path, secrets):
                 raise ValueError("AUTH_REQUIRED")
             # Private token envelope only: never hash/persist auth raw or forward arbitrary auth fields.
             return json.dumps({"access_token": token}, separators=(",", ":")).encode("ascii")
-        # Do not surface auth echoes, including credentials escaped in JSON/XML.
-        text = raw.decode("utf-8")
-        if any(value and (value in text or value in __import__("html").unescape(text)) for value in secrets):
-            raise ValueError("PRIVATE_RESPONSE")
-        return raw
+        return _scienceon_public_xml(raw, secrets)
     finally:
         if connection is not None:
             connection.close()
@@ -208,6 +243,9 @@ def _scienceon_search(query, limit):
         if b"<!ENTITY" in raw.upper() or b"<!DOCTYPE" in raw.upper():
             raise ValueError("INVALID_RESPONSE")
         root = ET.fromstring(raw)
+        if (len(root.findall(".//statusCode")) > 1 or len(root.findall(".//TotalCount")) != 1
+                or (root.tag == "MetaData" and len(root.findall(".//statusCode")) != 1)):
+            raise ValueError("INVALID_RESPONSE")
         status = root.findtext(".//statusCode")
         if status not in (None, "200"):
             raise ValueError("PROVIDER_REJECTED")
@@ -215,6 +253,8 @@ def _scienceon_search(query, limit):
         if total is None or not total.isascii() or not total.isdigit():
             raise ValueError("INVALID_RESPONSE")
         records = root.findall(".//record")
+        if root.tag == "MetaData" and records != root.find("recordList").findall(".//record"):
+            raise ValueError("INVALID_RESPONSE")
         if len(records) > limit or int(total) < len(records) or (int(total) > 0 and not records):
             raise ValueError("INVALID_RESPONSE")
         for record in records:
@@ -235,10 +275,17 @@ def _scienceon_search(query, limit):
                 "published_at": fields.get("Pubyear"), "journal": fields.get("JournalName"),
                 "url": "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=" + quote(cn),
                 "publication_form": "UNCONFIRMED", "license": None, "access": "NOT_CHECKED", "verified": False, "approved": False})
+        # [수정: 0 이영 · Codex] 2026-10-01 05:49 KST — 토큰을 포함한 원응답 지문은 공개하지 않고 실제 선택한 공공 정규메타의 지문과 범위만 기록한다.
+        normalized = json.dumps({"provider": "scienceon", "operation": "search", "total": int(total), "items": result["items"]},
+                                ensure_ascii=False, sort_keys=True, separators=(",", ":"), allow_nan=False).encode("utf-8")
+        if any(value and value in normalized.decode("utf-8") for value in private + [token]):
+            raise ValueError("PRIVATE_RESPONSE")
         result.update(ok=True, status="SUCCESS" if result["items"] else "EMPTY", http_status=200,
-                      total=int(total), retrieved_at_kst=web.now(), response_sha256=hashlib.sha256(raw).hexdigest())
+                      total=int(total), retrieved_at_kst=web.now(), response_sha256=hashlib.sha256(normalized).hexdigest(),
+                      response_sha256_scope="PUBLIC_NORMALIZED_METADATA")
+        result["limitations"].append("ScienceON 지문은 선택한 공공 정규메타의 지문입니다. 인증 정보를 포함한 원응답 바이트 지문은 공개하지 않습니다.")
         for item in result["items"]:
-            item["provenance"] = {key: result[key] for key in ("provider", "source_url", "retrieved_at_kst", "response_sha256", "http_status")}
+            item["provenance"] = {key: result[key] for key in ("provider", "source_url", "retrieved_at_kst", "response_sha256", "response_sha256_scope", "http_status")}
     except TimeoutError:
         result.update(status="TIMEOUT", error="TIMEOUT")
     except ValueError as error:

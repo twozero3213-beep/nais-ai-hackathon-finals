@@ -72,7 +72,8 @@ def render_result(result, index):
         # [작성: 전문가4·7] 2026-09-27 case69 / 무엇·왜: 확장검색 근거와 원위치 공개 / 입력·출력: result→표시 / 검증: test_case69_ui.
         if result.get('retrieval_options'):
             st.json({key:result.get(key) for key in ['retrieval_options','source_locators','source_ranges','expanded_terms','synonym_source','match_basis','table_interpretation']})
-        st.caption('표시한 파일·위치·해시는 검색 시 대조한 출처입니다. 원자료 다운로드·분석 재현·Claim 승인이 아닙니다.')
+        # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 논문 검색 안내의 전문어를 한국어 주장으로 통일한다.
+        st.caption('표시한 파일·위치·해시는 검색 시 대조한 출처입니다. 원자료 다운로드·분석 재현·주장 승인이 아닙니다.')
 
 
 # [작성:전문가1·4] 2026-09-27 case68 목적: 실제900 자료를 읽기 검색에 연결; 입력: 사용자 검색어/자료구분; 출력: 검증된 후보; 검증: 기본 development·오류 시 이전 결과 폐기·Claim 상태 불변.
@@ -115,7 +116,8 @@ def _correction_pairs():
 # 종류: 검증방법추가 / 재현 방법: 별도 팀 자료 미노출 / 변경 전: 서지 후보만 / 변경 후: 공지 쌍 읽기 기능 / 왜: 원문 추적 활용 / 영향: 기존 색인·실행 경로 불변.
 def render_paper_library():
     st.title('논문 근거 검색')
-    st.caption('검색은 원문 또는 서지 후보를 찾는 기능입니다. Claim 생성·승인이나 분석을 자동 실행하지 않습니다.')
+    # [수정: 0 이영 · Codex] 2026-10-01T03:04:44+09:00 — 논문 검색 기능의 실행 경계를 한국어로 설명한다.
+    st.caption('검색은 원문 또는 서지 후보를 찾는 기능입니다. 주장 생성·승인이나 분석을 자동 실행하지 않습니다.')
     # [수정: 자료통합 담당] 2026-09-28 case83 / 종류: 효율화 / 재현: 후보문서 분산 / 전후: 파일보관→별도 후보목록 / 왜: 원문과 분리 / 영향: 기존 색인 불변.
     _team_candidates()
     _correction_pairs()

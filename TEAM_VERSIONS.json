@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "recorded_at_kst": "2026-10-01T03:51:17+09:00",
+  "recorded_at_kst": "2026-10-01T05:44:30+09:00",
   "finals_started_at_kst": "2026-09-30T17:55:37+09:00",
   "version_meaning": "담당자별 고정 작업 번호; 기능 릴리스나 의존성 버전과 별개",
   "contributors": [
@@ -34,12 +34,24 @@
     "imported_at": "자료를 작업에 실제 반영한 시각"
   },
   "upload_not_before_kst": "2026-09-30T17:40:00+09:00",
-  "_change_note": "2026-10-01T03:51:17+09:00 — 전체연동·UI와 최신 기술검수 일반 병합. 원작성 실행기록과 담당번호 유지.",
+  "_change_note": "2026-10-01T05:44:30+09:00 — 전체연동·효율 구현과 최신 main의 팀 검수/역할/승인/실행근거 보존. 이번 업로드 담당0.",
   "official_project_started_at_kst": "2026-09-30T17:40:00+09:00",
   "submission_deadline_kst": "2026-10-01T09:20:00+09:00",
   "last_public_reference_upload": {
     "name": "이영",
     "version": 0,
     "uploaded_at_kst": "2026-10-01T01:37:44+09:00"
-  }
+  },
+  "change_history": [
+    {
+      "previous_change_note": "2026-10-01T03:17:10+09:00 — 담당0 기술검수: 개인정보/권한/비교계약/실패상태/스키마패키징을 검증 반영. 타 담당·원자료·봉인·실제 기록 보존.",
+      "superseded_at_kst": "2026-10-01T03:59:30+09:00",
+      "reason": "담당3의 비교 실행기 입력 고정·무효 처리·의미 상태 보완 업로드"
+    },
+    {
+      "previous_change_note": "2026-10-01T04:18:20+09:00 — 最新 main의 조지현3 봉인/AI검토/재생 경계와 실제 검증기록을 보존하고 이번 문구·번역·공개 링크 업로드 식별자만 이영0으로 갱신. VERSION 사유는 CHANGELOG 문구 항목에 연결.",
+      "superseded_at_kst": "2026-10-01T05:44:30+09:00",
+      "reason": "원문근거·화면 효율과 최신 팀 UI 일반 통합"
+    }
+  ]
 }

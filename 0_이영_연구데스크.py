@@ -19,7 +19,8 @@ SNAPSHOT = ROOT / "data/0_이영_연구데스크_스냅샷.json"
 KST = timezone(timedelta(hours=9))
 EMAIL = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
 TABS = ["논문 둘러보기", "공공·위성 데이터", "연구 과제", "대학 연구 소식", "연구 관심 순위", "다른 AI와 연결"]
-PROMPT = "첨부한 공개 설명·예제의 지원 범위와 미확인 조건을 먼저 설명해 주세요. 입력 변경이 재검산을 요구하는 주장과 영향받지 않은 주장을 구분해 주세요. 연구자가 최종 판단합니다."
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 번역투와 '영향받지'의 띄어쓰기를 바로잡는다.
+PROMPT = "첨부한 공개 설명·예제의 지원 범위와 미확인 조건을 먼저 설명해 주세요. 입력이 바뀌어 다시 검산해야 하는 주장과 영향을 받지 않은 주장을 구분해 주세요. 연구자가 최종 판단합니다."
 
 
 def _clean(value, limit=1000):
@@ -99,9 +100,16 @@ def _public_zip():
     return public_agent.public_download_zip()
 
 
+_VERIFY_LINKS = []
+
+
 def _verify_link():
+    _VERIFY_LINKS.append(1)
     if (ROOT / "finals/app.py").is_file():
-        st.page_link(str(ROOT / "finals/app.py"), label="90초 근거 검증 체험 해볼게요", icon=":material/play_arrow:")
+        # [3 조지현 · 2026-10-01T04:14:33+09:00] 수정 이유: 이 링크는 90초 체험이 아니라 핵심 기능인 근거 검산 화면으로 간다. 이름과 강조를 실제 목적지에 맞춘다.
+        if st.button("근거 검산 시작할게요", key=f"desk_go_verify_{len(_VERIFY_LINKS)}", type="primary" if len(_VERIFY_LINKS) == 1 else "secondary", icon=":material/fact_check:"):
+            st.switch_page(str(ROOT / "finals/app.py"))
+        st.caption("원문 확인 → AI 조건 후보 → 코드 재계산 → 사람 승인")
     else:
         st.info("본선 검산은 공개 검산 페이지에서 실행할 수 있어요.")
 
@@ -207,7 +215,8 @@ def _data_screen(snapshot):
                 st.caption("자료 시점 · " + _clean(item.get("temporal") or "미확인"))
                 if link := _safe_url(item.get("url")):
                     st.link_button("원래 제공처에서 보기", link)
-    st.caption("데이터 설명과 일부 관측값이에요. 원자료 다운로드·이용 승인·연구 결론의 검증은 별도로 확인해요.")
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 같은 화면의 내려받기 용어를 통일한다.
+    st.caption("데이터 설명과 일부 관측값이에요. 원자료 내려받기·이용 승인·연구 결론의 검증은 별도로 확인해요.")
 
 
 def _task_screen():
@@ -277,7 +286,8 @@ def _ai_screen():
         st.download_button("공개 설명·예제 ZIP 내려받기", _public_zip(), file_name="0_이영_공개설명예제.zip",
                            mime="application/zip", type="primary", use_container_width=True, on_click="ignore")
     except (OSError, ValueError, KeyError, TypeError):
-        st.error("공개 파일 검증을 완료하지 못해 다운로드를 중단했어요. 본선 검산 페이지의 공개 결과를 확인해 주세요.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 같은 화면의 내려받기 버튼과 실패 안내의 용어를 맞춘다.
+        st.error("공개 파일 검증을 완료하지 못해 내려받기를 중단했어요. 본선 검산 페이지의 공개 결과를 확인해 주세요.")
     st.code(PROMPT, language=None, wrap_lines=True)
     st.caption("코드 오른쪽 복사 버튼으로 요청 문구를 가져갈 수 있어요.")
     st.write("프로젝트를 설치한 PC에서는 MCP를 지원하는 AI 도구에 stdio 서버를 등록할 수 있어요.")

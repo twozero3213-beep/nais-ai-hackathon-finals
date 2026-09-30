@@ -127,9 +127,13 @@ def test_screen_shows_the_notice_and_blocks_an_approval_reason_with_personal_dat
     normal = next(item for item in cases.list_cases() if item["category"] == "normal")
     if app.selectbox(key="fin_case_select").value != normal["id"]:
         app.selectbox(key="fin_case_select").set_value(normal["id"]).run()
+    # [수정: 0 이영] 2026-10-01 05:57 KST — 새 화면 동선으로 계산·검토에 진입하고 민감 사유 거절/정상 승인 준비 assertion은 보존한다.
+    app.button(key="fin_source_next").click().run()
     app.button(key="fin_manual_load").click().run()
+    app.button(key="fin_conditions_next").click().run()
     app.button(key="fin_compute").click().run()
     assert not app.exception
+    app.button(key="fin_result_next").click().run()
     app.checkbox(key="fin_human_confirm").set_value(True).run()
     app.text_area(key="fin_reason").set_value("원문과 조건을 확인했습니다 " + EMAIL).run()
     assert app.button(key="fin_approve").disabled                                          # 개인정보 형태가 있으면 승인 버튼이 막힌다
