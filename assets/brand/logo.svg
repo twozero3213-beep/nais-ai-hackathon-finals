@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48">
+  <rect x="0" y="2" width="44" height="44" rx="12" fill="#246FE0"/>
+  <path d="M13 34V17l9-6 9 6v17" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M17 34V23h10v11" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M19.5 28.5l2 2 4-4.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="56" y="25" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="21" font-weight="800" fill="#191F28" letter-spacing="-0.8">근거관문</text>
+  <text x="57" y="42" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10.5" font-weight="600" fill="#667381" letter-spacing="2">EVIDENCE GATE</text>
+</svg>
