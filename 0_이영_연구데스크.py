@@ -99,9 +99,16 @@ def _public_zip():
     return public_agent.public_download_zip()
 
 
+_VERIFY_LINKS = []
+
+
 def _verify_link():
+    _VERIFY_LINKS.append(1)
     if (ROOT / "finals/app.py").is_file():
-        st.page_link(str(ROOT / "finals/app.py"), label="90초 근거 검증 체험 해볼게요", icon=":material/play_arrow:")
+        # [3 조지현 · 2026-10-01T04:14:33+09:00] 수정 이유: 이 링크는 90초 체험이 아니라 핵심 기능인 근거 검산 화면으로 간다. 이름과 강조를 실제 목적지에 맞춘다.
+        if st.button("근거 검산 시작할게요", key=f"desk_go_verify_{len(_VERIFY_LINKS)}", type="primary" if len(_VERIFY_LINKS) == 1 else "secondary", icon=":material/fact_check:"):
+            st.switch_page(str(ROOT / "finals/app.py"))
+        st.caption("원문 확인 → AI 조건 후보 → 코드 재계산 → 사람 승인")
     else:
         st.info("본선 검산은 공개 검산 페이지에서 실행할 수 있어요.")
 

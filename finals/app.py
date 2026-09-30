@@ -104,6 +104,46 @@ def reset_case(case_id):
     st.session_state["fin_case_id"] = case_id
 
 
+# [3 조지현 · 2026-10-01T04:14:33+09:00] 수정 이유: 심사 동선에서 AI 개입 지점과 사람 판단 지점, 실제 AI 응답의 영수증을 화면에 드러낸다. 계산·승인 정책은 그대로 둔다.
+STEP_ROLES = {"load":("불러오기","코드"), "proposal":("조건 후보","AI"), "validate":("형식·근거 검사","코드"), "recompute":("재계산","코드"), "critique":("비평","AI"), "human_approval":("최종 승인","사람")}
+
+
+def ai_used(report):
+    return bool(report and (report.get("actual_model_output") or report.get("llm_executed")))
+
+
+def ai_receipt(report):
+    """재생·실시간 AI 응답의 모델·요청·토큰. 키·원문 응답은 표시하지 않는다."""
+    prov = report.get("replay_provenance") or {}
+    model = None
+    try:
+        model = json.loads(Path(str(prov.get("path", ""))).read_text(encoding="utf-8")).get("model") if prov.get("path") else None
+    except (OSError, ValueError, TypeError):
+        model = None
+    calls = report.get("provider_calls") or []
+    if not model and calls and isinstance(calls[0], dict):
+        model = calls[0].get("model")
+    usage = prov.get("original_usage") or report.get("usage") or {}
+    return {"model": model or "모델 확인 필요", "request": str(prov.get("request_id") or (calls[0].get("request_id") if calls and isinstance(calls[0], dict) else "") or "기록 없음"),
+            "tokens": f"입력 {int(usage.get('input_tokens') or 0):,} · 출력 {int(usage.get('output_tokens') or 0):,}", "replay": bool(prov), "file": str(prov.get("file_sha256") or "")[:12]}
+
+
+def render_roles(report):
+    steps = report.get("steps") or []
+    if not steps:
+        return
+    st.markdown("**누가 무엇을 했나**")
+    cols = st.columns(len(steps))
+    for col, item in zip(cols, steps):
+        name, who = STEP_ROLES.get(item.get("step"), (str(item.get("step")), "코드"))
+        if who == "AI" and not ai_used(report):
+            who = "사람(수동)" if item.get("step") == "proposal" else "규칙"
+        mark = "대기" if item.get("status") == "PENDING" else ("통과" if item.get("status") == "PASS" else str(item.get("status")))
+        col.caption(who)
+        col.write(f"{'⏳' if mark == '대기' else '✓'} {name}")
+        col.caption(mark)
+
+
 def health_record():
     try:
         data = json.loads((AGENT_ROOT.parent / "docs/0_이영_AI연결점검.json").read_text(encoding="utf-8"))
@@ -202,7 +242,8 @@ with left:
         except (ValueError,TypeError):
             pass
         fields = [("분석 방법","method"),("사용 열","column"),("포함·제외 조건","filters"),("분모","denominator"),("결측 처리","missing_policy"),("단위","unit")]
-        rows = [{"검토 항목":label,"후보 조건":json.dumps(candidate.get(key),ensure_ascii=False) if candidate.get(key) is not None else "미확인","원문 확인":"직접 대조 필요"} for label,key in fields]
+        source_label = ("AI 제안 · " + ai_receipt(report)["model"]) if ai_used(report) else ("사람 작성" if candidate else "—")
+        rows = [{"검토 항목":label,"후보 조건":json.dumps(candidate.get(key),ensure_ascii=False) if candidate.get(key) is not None else "미확인","후보 출처":source_label if candidate.get(key) is not None else "—","원문 확인":"사람이 직접 대조"} for label,key in fields]
         st.dataframe(pd.DataFrame(rows),width="stretch",hide_index=True)
         if report and report.get("validation"):
             with st.expander("조건 검사 상세"):
@@ -259,7 +300,11 @@ with right:
             replay_path = st.selectbox("실제 응답 파일",[item["path"] for item in replays],format_func=lambda path:Path(path).name,key="fin_replay_file",disabled=not replays) if replays else None
             if st.button("저장 응답으로 검토",key="fin_replay_run",disabled=not replays,width="stretch"):
                 try:
-                    st.session_state["fin_report"] = public_snapshot(pipeline.run_case(case_id,mode="replay",replay_path=replay_path))
+                    replayed = pipeline.run_case(case_id,mode="replay",replay_path=replay_path)
+                    st.session_state["fin_report"] = public_snapshot(replayed)
+                    proposed = replayed.get("candidate",replayed.get("proposal"))
+                    if proposed is not None:
+                        st.session_state["fin_candidate_text"] = json.dumps(proposed,ensure_ascii=False,indent=2)
                     st.rerun()
                 except Exception as exc:
                     notice_error(exc)
@@ -287,6 +332,18 @@ with right:
             else:
                 st.info(STATE_NAMES.get(state,state))
             # [수정: 0 이영 · Claude] 2026-10-01 01:05 KST — 판정 이유가 JSON 안의 영문 코드로만 보였다. 한 문장 요약과 이유 목록을 먼저 보여 주고 JSON은 그대로 둔다.
+            render_roles(report)
+            if ai_used(report):
+                receipt = ai_receipt(report)
+                st.markdown(f"**AI가 한 일** · {receipt['model']}가 원문에서 조건 후보를 제안했습니다. 계산과 승인은 AI가 하지 않습니다.")
+                st.caption(f"요청 {receipt['request'][:18]}… · 토큰 {receipt['tokens']}" + (f" · 저장된 실제 응답 재생(이번 실행 새 호출 0회) · 응답 파일 지문 {receipt['file']}…" if receipt["replay"] else ""))
+            calc = report.get("calculation") or {}
+            if isinstance(calc, dict) and calc.get("calculated_value") is not None and not change_summary(report):
+                m = st.columns(4)
+                m[0].metric("보고값", calc.get("reported_value"))
+                m[1].metric("재계산 값", calc.get("calculated_value"))
+                m[2].metric("차이", calc.get("delta"))
+                m[3].metric("선택 행 / 분모", f"{calc.get('selected_rows','—')} / {calc.get('expected_denominator','—')}")
             summary_line = calculation_summary(report.get("calculation"))
             # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:13:04+09:00 — 배포본 직접 확인: 자료 변경 뒤에도 "허용오차 안에서 일치합니다"가 그대로 남아 차단 판정과 모순돼 보였고
             # 무엇이 바뀌었는지는 어디에도 없었다. 변경이 있으면 변경 설명을 먼저 쓰고, 변경 전 계산은 '사용 불가' 참고용으로만 보여 준다.
@@ -309,7 +366,8 @@ with right:
                     with st.expander("변경 전 계산 상세(참고용)"):
                         st.json(public_snapshot(report["calculation"]))
                 else:
-                    st.json(public_snapshot(report["calculation"]))
+                    with st.expander("계산 상세(JSON)"):
+                        st.json(public_snapshot(report["calculation"]))
             if report.get("reason"):
                 st.write(str(report["reason"]))
             # [3 조지현 · 2026-10-01T03:07:54+09:00] 수정 이유: 검토 보류와 과거 제안만 재생한 범위를 JSON보다 먼저 설명한다.
@@ -317,7 +375,9 @@ with right:
                 st.write(review_line)
             critique = report.get("critique")
             if critique:
-                with st.expander("검토 의견",expanded=True):
+                if isinstance(critique, dict) and critique.get("source") == "deterministic":
+                    st.caption(f"비평: 규칙 검사(AI 아님) · 발견한 문제 {len(critique.get('issues') or [])}건 · 사람 승인을 대신하지 않음")
+                with st.expander("검토 의견 상세"):
                     # [수정: 0 이영] 2026-10-01 00:52 KST — 검토 의견 호출의 반환 객체가 화면에 출력되는 현상을 방지한다.
                     if isinstance(critique, (dict, list)):
                         st.json(public_snapshot(critique))
