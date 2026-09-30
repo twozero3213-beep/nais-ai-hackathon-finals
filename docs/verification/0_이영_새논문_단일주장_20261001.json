@@ -1,0 +1,64 @@
+{
+  "contributor_version": 0,
+  "recorded_at_kst": "2026-10-01T08:13:08.824157+09:00",
+  "_change_note": "2026-10-01 실제 공개 논문 단일 주장 추출/공개자료 행수 검산; 초기 실패와 재실행은 별도 보존. 제품/등록/Cloud 변경0; 사람이 선정한 인용문의 기능검증이며 전체 재현/성능 비교 아님.",
+  "paper_url": "https://link.springer.com/article/10.1186/s12911-020-1023-5",
+  "paper_quote": "table having 299 rows (patients) and 13 columns (features)",
+  "quote_provenance": "Publisher Dataset section, independently read by primary-source reviewer through web tool",
+  "data_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/00519/heart_failure_clinical_records_dataset.csv",
+  "data_license": "CC BY 4.0 per UCI519 and publisher data availability",
+  "expected_rows": 299,
+  "model_calls_attempted": 1,
+  "actual_model_output": true,
+  "human_approval": {
+    "approved": false,
+    "status": "PENDING_REAL_USER"
+  },
+  "full_paper_reproduction": false,
+  "data_sha256": "9c73cea7468ff5d517801ec050fe9993da5912fce4b56f296f8df3b38dd75912",
+  "data_rows": 299,
+  "data_columns": 13,
+  "missing_cells": 0,
+  "deterministic": {
+    "value": 299.0,
+    "reported_value": 299,
+    "delta": 0.0,
+    "within_tolerance": true,
+    "meta": {
+      "n": 299,
+      "expression": "row_count(all rows)",
+      "method": "row_count"
+    },
+    "engine": "core.statistics.descriptive"
+  },
+  "data_scope": "Published clinical analysis feature table; no raw source records or medical prediction reproduction",
+  "model_output": {
+    "reported_rows": 299,
+    "source_quote": "table having 299 rows (patients) and 13 columns (features)",
+    "method": "row_count",
+    "can_approve": false
+  },
+  "provider_receipt": {
+    "output": {
+      "reported_rows": 299,
+      "source_quote": "table having 299 rows (patients) and 13 columns (features)",
+      "method": "row_count",
+      "can_approve": false
+    },
+    "usage": {
+      "input_tokens": 235,
+      "output_tokens": 37
+    },
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "request_id": "resp_0531c4a54d127b5a016abd978555e887d0bd6a3b3649ba2e9c",
+    "elapsed_ms": 2231.47,
+    "raw_sha256": "da3dd5f2e8c955483627d8e5758da60617d9c2c4cf6fbc3cca9e435028c69e54",
+    "cost_usd": null,
+    "cost_status": "NOT_MEASURED"
+  },
+  "ai_extraction_matches": true,
+  "finished_at_kst": "2026-10-01T08:13:11.73409+09:00",
+  "total_provider_requests": 2,
+  "initial_attempt_note": "첫 공급자 반환을 tuple로 오해해 실험기 ValueError. 첫 응답 내용/사용량은 미보존. 두번째 요청의 실제 응답만 보존."
+}
