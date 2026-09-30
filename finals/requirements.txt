@@ -6,3 +6,6 @@ statsmodels==0.15.0
 jsonschema==4.26.0
 pypdf==6.19.0
 pytest==8.4.2
+
+# [0 이영] ScienceON 공식 accounts AES 프로토콜 지원; 환경·키/IP 권한은 별도 확인.
+pycryptodome==3.23.0

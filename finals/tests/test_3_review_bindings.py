@@ -64,7 +64,11 @@ def test_screen_displays_all_three_bindings_after_real_bat_calculation(monkeypat
     monkeypatch.chdir(FINALS.parent)
     app=AppTest.from_file(str(FINALS/'app.py'),default_timeout=60).run()
     app.selectbox(key='fin_case_select').set_value('NORMAL-BAT-MEAN').run()
-    app.button(key='fin_manual_load').click().run();app.button(key='fin_compute').click().run()
+    # [수정: 0 이영 · Codex] 2026-10-01 03:29 KST — 3 조지현의 세 지문 검증을 실제 네 단계 사용자 경로에 맞추고 계산 전 확인을 우회하지 않는다.
+    app.button(key='fin_source_next').click().run()
+    app.button(key='fin_manual_load').click().run()
+    app.button(key='fin_conditions_next').click().run()
+    app.button(key='fin_compute').click().run()
     assert not app.exception
     report=app.session_state['fin_report']
     assert set(report['input_bindings'])=={'data_sha256','source_sha256','proposal_sha256'}

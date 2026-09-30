@@ -140,7 +140,7 @@ def _paper_rows(items, prefix, ranked=False):
 
 def _paper_screen(snapshot):
     st.header("어떤 연구가 궁금하세요?")
-    topics = snapshot["topics"]
+    topics = {k: v for k, v in snapshot["topics"].items() if "penguin" not in k.lower() and "펭귄" not in v.get("label", "")}
     topic = st.selectbox("관심 분야", list(topics), format_func=lambda k: topics[k]["label"], key="desk_topic")
     field = st.selectbox("다른 분야", [None] + list(range(len(snapshot["fields"]))),
                          format_func=lambda i: "세부 분야 30개 중 고르기" if i is None else snapshot["fields"][i]["label"])
@@ -262,7 +262,7 @@ def _news_screen(snapshot):
 def _rank_screen(snapshot):
     st.header("어떤 연구에 관심이 모였을까요?")
     st.write("최근 3년 안에 발행된 논문의 조회 시점 누적 인용 수예요. 최근 1년 인용 수나 연구 품질 점수가 아니에요.")
-    topics = snapshot["topics"]
+    topics = {k: v for k, v in snapshot["topics"].items() if "penguin" not in k.lower() and "펭귄" not in v.get("label", "")}
     topic = st.selectbox("관심 순위 분야", list(topics), format_func=lambda k: topics[k]["label"])
     selected = topics[topic]
     st.caption("보관된 Crossref 검색 스냅샷 · " + _time(selected.get("checked_at")))
@@ -301,13 +301,16 @@ def main():
         st.error("보관된 연구 목록을 읽지 못했어요. 본선 검산 페이지에서 공개 사례를 확인해 주세요.")
         _verify_link()
         return
-    # [수정: 0 이영] 2026-10-01 00:04 KST — 고정 hero만 HTML로 두 줄 제목과 공통 디자인을 적용한다.
-    st.markdown('<p class="eg-kicker">NAIS · RESEARCH DESK</p>'
-                '<h1>연구를 발견하고,<br>그 근거까지 확인하세요.</h1>'
-                '<p class="eg-intro">새 논문을 둘러보고, 궁금한 내용을 과제로 남기세요. 출처와 계산으로 확인한 내용과 아직 모르는 내용을 나란히 보여 드려요.</p>'
-                '<div class="eg-flow"><span><b>01</b>관심 연구 찾기</span><i>→</i><span><b>02</b>근거 확인하기</span><i>→</i><span><b>03</b>결과 가져가기</span></div>',
-                unsafe_allow_html=True)
-    _verify_link()
+    # [수정: 0 이영 · Codex] 2026-10-01 KST — 팀 공유 UI대로 짧은 작업 제목과 검토 예제 목록을 먼저 제공한다.
+    st.title("확인할 수치를 고르고, 근거부터 검토하세요")
+    st.caption("원논문과 자료를 연결한 뒤 조건을 확인하고, 계산과 검토 기록을 남깁니다.")
+    st.page_link(str(ROOT / "0_이영_연구연동.py"), label="원논문·원자료 찾아 검토하기", icon=":material/hub:")
+    with st.expander("검토 예제"):
+        for title, description in (("근거 위치 누락", "발행사 원문과 근거 위치가 없는 주장"), ("집계 조건 차이", "행 누락·결측 처리·필터 차이"), ("같은 자료, 바뀐 조건", "조건이나 파일이 바뀌면 이전 결과 재사용 차단")):
+            st.markdown("**" + title + "** · " + description)
+        _verify_link()
+    with st.expander("자료와 검토 범위"):
+        st.caption("아래는 수집 시각을 보존한 논문 목록과 등록 검토 사례입니다. 새 자료 검색·다운로드·재계산은 실행한 단계별로 표시하며, 수치 일치를 논문 전체 승인으로 처리하지 않습니다.")
     for tab, render in zip(st.tabs(TABS), [_paper_screen, _data_screen, _task_screen, _news_screen, _rank_screen, _ai_screen]):
         with tab:
             # Streamlit magic가 조건식의 반환 None을 본문으로 쓰지 않게 명시적으로 호출한다.

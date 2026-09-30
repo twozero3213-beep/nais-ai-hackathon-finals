@@ -173,13 +173,18 @@ def _parse_items(root, source, observed, limit):
         # Atom updated is a revision timestamp, never silently treated as publication.
         updated = _published(_text(entry, "updated", 100)) if atom else None
         announce_type = _text(entry, "announce_type", 50) or None
+        # [수정: 0 이영] 2026-10-01 KST — 공식 arXiv RSS의 선택 DOI를 보존해
+        # 통합 발견 단계에서 같은 DOI의 같은 명시 버전만 중복 제거한다.
+        doi = (_text(entry, "DOI", 300) or _text(entry, "doi", 300)).strip()
+        doi = doi.casefold() if re.fullmatch(r"10\.\d{4,9}/[A-Za-z0-9._;()/:+-]+", doi) else None
         metadata = {
             "reference_only": True, "assessment": "판정불가",
             "publication_meaning": source["publication_meaning"],
             "updated": updated, "announce_type": announce_type,
+            "doi": doi,
         }
         digest = sha256(json.dumps({"id": identifier, "link": link, "title": title,
-                                   "published": published_raw, "updated": updated},
+                                   "published": published_raw, "updated": updated, "doi": doi},
                                   ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
         items.append({"title": title, "link": link, "id": identifier,
                       "published": _published(published_raw), "source": source["label"],

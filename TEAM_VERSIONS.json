@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "recorded_at_kst": "2026-10-01T02:29:36+09:00",
+  "recorded_at_kst": "2026-10-01T03:36:53+09:00",
   "finals_started_at_kst": "2026-09-30T17:55:37+09:00",
   "version_meaning": "담당자별 고정 작업 번호; 기능 릴리스나 의존성 버전과 별개",
   "contributors": [
@@ -22,9 +22,9 @@
     }
   ],
   "this_chat": {
-    "name": "조지현",
-    "version": 3,
-    "commit_prefix": "[3 조지현]"
+    "name": "이영",
+    "version": 0,
+    "commit_prefix": "[0 이영]"
   },
   "timestamp_meaning": {
     "finals_started_at_kst": "본선 작업 기준 시각",
@@ -34,7 +34,7 @@
     "imported_at": "자료를 작업에 실제 반영한 시각"
   },
   "upload_not_before_kst": "2026-09-30T17:40:00+09:00",
-  "_change_note": "2026-10-01T02:29:36+09:00 — 담당3의 최신 팀 서버·모델 정책·재생 경로까지 통합한 실제746시험과 공유 전 검증. 공식 일정·원출처·타 담당 기록 유지.",
+  "_change_note": "2026-10-01T03:36:53+09:00 — 담당0 전체연동과4단계UI 새main반영. 원담당자 실행과 원출처 기록은 보존.",
   "official_project_started_at_kst": "2026-09-30T17:40:00+09:00",
   "submission_deadline_kst": "2026-10-01T09:20:00+09:00",
   "last_public_reference_upload": {

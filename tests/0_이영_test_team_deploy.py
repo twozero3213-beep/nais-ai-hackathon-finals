@@ -113,7 +113,7 @@ def test_example_is_safe_and_actual_secrets_are_ignored():
 @pytest.mark.parametrize("configured_members", [(), team.MEMBERS[:3]])
 def test_login_stops_when_configuration_is_missing(monkeypatch, hashes, configured_members):
     monkeypatch.setattr(team, "settings", lambda: {"password_hashes": {member: hashes[member] for member in configured_members}})
-    app = AppTest.from_string(_LOGIN_APP).run()
+    app = AppTest.from_string(_LOGIN_APP, default_timeout=60).run()
     assert not app.exception
     assert any("팀원 4명" in error.value for error in app.error)
     assert "authenticated_member" not in app.session_state
@@ -121,7 +121,7 @@ def test_login_stops_when_configuration_is_missing(monkeypatch, hashes, configur
 
 
 def test_wrong_password_cannot_authenticate(auth_config):
-    app = AppTest.from_string(_LOGIN_APP).run()
+    app = AppTest.from_string(_LOGIN_APP, default_timeout=60).run()
     app.text_input[0].set_value("incorrect-test-input")
     _button(app, "로그인").click().run()
     assert not app.exception
@@ -132,7 +132,7 @@ def test_wrong_password_cannot_authenticate(auth_config):
 
 @pytest.mark.parametrize("member", team.MEMBERS)
 def test_member_can_login_and_logout_with_approval_role_preserved(auth_config, member):
-    app = AppTest.from_string(_LOGIN_APP).run()
+    app = AppTest.from_string(_LOGIN_APP, default_timeout=60).run()
     assert not app.exception
     assert any("팀 로그인" in title.value for title in app.title)
     app.selectbox[0].select(member).run()

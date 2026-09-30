@@ -1,0 +1,67 @@
+{
+  "_change_note": "검색·수신·계산·사람검토를 별도 단계로 실제 연결한 신규 구현 검증. 과거 시험과 합산하지 않음. 원문 전체재현·범용 AI 우위 아님.",
+  "recorded_at_kst": "2026-10-01T03:36:53+09:00",
+  "version": 0,
+  "baseline_main": "9d6c1effe26aba21004fa7dae4dbc37275440333",
+  "related_regression": {
+    "passed": 255,
+    "failed": 0,
+    "elapsed_seconds": 9.49
+  },
+  "ui_approval_regression": {
+    "passed": 33,
+    "failed": 0,
+    "elapsed_seconds": 80.86
+  },
+  "actual_public_data": {
+    "received_at_kst": "2026-10-01T03:10:53+09:00",
+    "size": 53098,
+    "calculated_sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd",
+    "row_count": 344,
+    "reported": 344,
+    "state": "NEEDS_HUMAN_REVIEW",
+    "approved": false,
+    "verified": false,
+    "paper_capture_kind": "CONTACTS_REMOVED_PUBLIC_DERIVATIVE",
+    "original_publisher_response_sha256": null
+  },
+  "remote_mcp": {
+    "exa": "TOOLS_CALL_SUCCESS",
+    "parallel": "TOOLS_CALL_SUCCESS",
+    "you": "TOOLS_CALL_SUCCESS",
+    "tavily": "PUBLIC_QUOTA_LIMIT",
+    "firecrawl": "REMOTE_TOOL_ERROR"
+  },
+  "feeds": {
+    "providers": [
+      "arxiv",
+      "biorxiv",
+      "kisti",
+      "mit",
+      "harvard",
+      "kaist",
+      "trends_kr",
+      "trends_us"
+    ],
+    "actual_http_success_count": 8,
+    "automatic_schedule": false
+  },
+  "current_process_auth": {
+    "scienceon": "NOT_CONFIGURED",
+    "aihub": "NOT_CONFIGURED",
+    "ntis": "NOT_CONFIGURED"
+  },
+  "cloud_new_ui": "AWAITING_PUSH_AND_BROWSER_VERIFICATION",
+  "paid_calls_this_implementation": 0,
+  "actual_human_review_this_implementation": false,
+  "teammate_packet": {
+    "sha256": "fe789c9f9e02a5135ef85b9d2f43c8debc280182bfbc5e810d5e3901265107ec",
+    "pipeline_is_already_in_baseline": true
+  },
+  "pending": [
+    "원문 실제바이트 확보·AI후보 추출·같은run_id 재개 보강 진행",
+    "현재 Cloud 최신 코드/대표 동선 재확인",
+    "원문·자료 관계조회 보강 진행",
+    "서비스별 배포 인증과 ScienceON IP/MAC 확인"
+  ]
+}

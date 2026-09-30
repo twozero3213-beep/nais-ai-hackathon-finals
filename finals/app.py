@@ -38,7 +38,7 @@ def _int_env(name, default):
     except ValueError:
         return default
 
-st.set_page_config(page_title="근거관문 · 근거 검산", page_icon=":material/fact_check:", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="근거관문 · 근거 검산", page_icon=":material/fact_check:", layout="wide", initial_sidebar_state="expanded")
 
 # [수정: 0 이영] 2026-09-30 23:50 KST — 사용자 HTML 참고 공통 테마로 검산 화면을 맞추며 계산·확인 정책은 유지한다.
 from importlib import import_module
@@ -80,6 +80,7 @@ def invalidate_review():
     st.session_state.pop("fin_exported_report", None)
     st.session_state["fin_human_confirm"] = False
     st.session_state["fin_reason"] = ""
+    st.session_state["fin_step"] = 1 if "fin_source_locator" in st.session_state and not st.session_state["fin_source_locator"].strip() else 2
 
 
 def notice_error(error):
@@ -99,9 +100,10 @@ def notice_error(error):
 
 def reset_case(case_id):
     # 수정 이유: 사례·입력이 바뀌면 후보, 검산, 직접 확인과 승인 사유를 함께 초기화한다.
-    for key in ("fin_report", "fin_candidate_text", "fin_human_confirm", "fin_reason", "fin_action_error", "fin_reopened", "fin_exported_report"):
+    for key in ("fin_report", "fin_candidate_text", "fin_human_confirm", "fin_reason", "fin_action_error", "fin_reopened", "fin_exported_report", "fin_source_locator"):
         st.session_state.pop(key, None)
     st.session_state["fin_case_id"] = case_id
+    st.session_state["fin_step"] = 1
 
 
 def health_record():
@@ -113,9 +115,8 @@ def health_record():
 
 
 st.markdown('<div class="final-kicker">EVIDENCE GATE · 근거 검산</div>', unsafe_allow_html=True)
-st.title("발견한 근거, 다시 계산해 볼까요?")
+st.title("확인할 수치를 고르고, 근거부터 검토하세요")
 st.caption("원문 · 분석 조건 · 자료 지문 · 사람 확인")
-st.markdown('<div class="final-summary">원문에서 조건을 확인하고, 데이터로 다시 계산합니다.<br>근거와 결과를 검토한 뒤 사람이 직접 승인합니다.</div><div class="final-rule"></div>', unsafe_allow_html=True)
 # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:08:17+09:00 — 모의 심사 피드백: AI 윤리 원칙(편향·공정성·투명성)과 개인정보 처리를 화면에 명시한다. 문장은 finals_notice 한 곳에서 관리한다.
 with st.expander(NOTICE_TITLE):
     for notice_title, notice_body in NOTICE_POINTS:
@@ -159,6 +160,19 @@ with st.container(border=True):
         st.info("AI 연결 설정이 없습니다. 수동 작성으로 검토할 수 있습니다.")
     st.markdown("<kbd>Tab</kbd> 이동 · <kbd>Enter</kbd> 실행", unsafe_allow_html=True)
 
+with st.expander("저장한 보고서 다시 열기"):
+    uploaded = st.file_uploader("검산 보고서 JSON 파일",type=["json"],key="fin_report_upload")
+    pasted = st.text_area("보고서 JSON 붙여넣기",key="fin_reopen_text",height=140)
+    if st.button("보고서 다시 열기",key="fin_reopen",disabled=uploaded is None and not pasted.strip()):
+        try:
+            text = uploaded.getvalue().decode("utf-8") if uploaded is not None else pasted
+            st.session_state["fin_reopened"] = public_snapshot(pipeline.reopen_report(text))
+        except Exception as exc:
+            notice_error(exc)
+    if st.session_state.get("fin_reopened"):
+        st.json(st.session_state["fin_reopened"])
+        st.caption("불러온 기록은 새로운 사람 승인으로 처리하지 않습니다.")
+
 context = cases.load_case(case_id)
 report = st.session_state.get("fin_report")
 summary = st.columns([1.3,1,1])
@@ -170,11 +184,12 @@ summary[2].caption("사람 확인")
 summary[2].write("직접 승인 완료" if approved(report) else "미승인")
 st.divider()
 
-# [수정: 0 이영] 세로 카드 흐름으로 참고 화면의 좁은 읽기 폭을 유지한다.
-left = st.container()
-right = st.container()
-with left:
-    with st.container(border=True):
+# [수정: 0 이영 · Codex] 2026-10-01 KST — 조지현 UI의 네 단계와 입력 변경 시 검토 해제를 실제 동선에 연결한다.
+from core.review_steps_ui import render_steps, move_step
+step = st.session_state.setdefault("fin_step", 1)
+render_steps(step)
+with st.expander("1 근거 연결", expanded=step == 1):
+    with st.container():
         st.markdown('<div class="final-step">01 / SOURCE</div>', unsafe_allow_html=True)
         st.subheader("원문과 자료")
         st.caption(str(context.get("source_location", "원문 위치 확인 필요")))
@@ -192,6 +207,11 @@ with left:
         else:
             st.info("원자료 미리보기가 제공되지 않았습니다.")
 
+    locator = st.text_input("확인한 원문 위치", value=str(context.get("source_location") or ""), key="fin_source_locator", on_change=invalidate_review)
+    if st.button("조건 확인으로", key="fin_source_next", type="primary", disabled=not locator.strip()):
+        move_step("fin_step", 2)
+
+with st.expander("2 조건 확인", expanded=step == 2):
     with st.container(border=True):
         st.markdown('<div class="final-step">02 / CONDITIONS</div>', unsafe_allow_html=True)
         st.subheader("분석 조건 검토")
@@ -208,8 +228,8 @@ with left:
             with st.expander("조건 검사 상세"):
                 st.json(public_snapshot(report["validation"]))
 
-with right:
-    with st.container(border=True):
+    # 후보 작성은 같은 조건 확인 단계에 둔다.
+    with st.container():
         st.markdown('<div class="final-step">03 / CANDIDATE</div>', unsafe_allow_html=True)
         st.subheader("계산 후보")
         mode = MODES[mode_label]
@@ -264,15 +284,22 @@ with right:
                 except Exception as exc:
                     notice_error(exc)
         candidate_text = st.text_area("후보 JSON", key="fin_candidate_text",height=240,on_change=invalidate_review,help="원문 보고값과 자료 지문을 유지하고, 알 수 없는 조건은 추측하지 않습니다.")
-        if st.button("조건 검산",key="fin_compute",type="primary",disabled=not candidate_text.strip(),width="stretch"):
-            try:
-                with st.spinner("조건과 원문을 대조하고 다시 계산하고 있습니다…"):
-                    st.session_state["fin_report"] = public_snapshot(pipeline.run_case(case_id,mode="manual",proposal_text=candidate_text))
-                st.session_state["fin_human_confirm"] = False
-                st.session_state["fin_reason"] = ""
-                st.rerun()
-            except Exception as exc:
-                notice_error(exc)
+        if st.button("지원 계산으로", key="fin_conditions_next", type="primary", disabled=not candidate_text.strip() or not locator.strip()):
+            move_step("fin_step", 3)
+
+with st.expander("3 지원 계산", expanded=step == 3):
+    st.caption("원문 대상·분모와 선택한 조건을 대조한 뒤 계산합니다. 계산 가능한 범위 밖의 조건은 보류합니다.")
+    if st.button("조건 검산",key="fin_compute",type="primary",disabled=step != 3 or not candidate_text.strip() or not locator.strip(),width="stretch"):
+        try:
+            if st.session_state.get("fin_step") != 3 or not locator.strip() or cases.text_key(locator) != cases.text_key(context.get("source_location")):
+                raise ValueError("SOURCE_OR_STAGE_REQUIRED")
+            with st.spinner("조건과 원문을 대조하고 다시 계산하고 있습니다…"):
+                st.session_state["fin_report"] = public_snapshot(pipeline.run_case(case_id,mode="manual",proposal_text=candidate_text))
+            st.session_state["fin_human_confirm"] = False
+            st.session_state["fin_reason"] = ""
+            st.rerun()
+        except Exception as exc:
+            notice_error(exc)
 
     report = st.session_state.get("fin_report")
     if report:
@@ -323,12 +350,19 @@ with right:
             if st.button("자료 변경 후 재검산",key="fin_change",width="stretch"):
                 try:
                     st.session_state["fin_report"] = public_snapshot(pipeline.recheck_changed_input(report))
+                    st.session_state["fin_step"] = 2
                     st.session_state["fin_human_confirm"] = False
                     st.session_state["fin_reason"] = ""
                     st.rerun()
                 except Exception as exc:
                     notice_error(exc)
 
+        if st.button("검토 기록으로", key="fin_result_next", disabled=not report.get("can_approve")):
+            move_step("fin_step", 4)
+
+with st.expander("4 검토 기록", expanded=step == 4):
+    report = st.session_state.get("fin_report")
+    if report:
         with st.container(border=True):
             st.markdown('<div class="final-step">05 / HUMAN REVIEW</div>', unsafe_allow_html=True)
             st.subheader("사람의 최종 확인")
@@ -346,7 +380,7 @@ with right:
             reason_kinds = sensitive_kinds(reason)
             if reason_kinds:
                 st.warning(f"승인 사유에 {describe(reason_kinds)} 형태가 있습니다. 보고서 파일에 그대로 저장되므로 지우고 다시 적어 주세요.")
-            can_approve = report.get("can_approve") is True and not approved(report) and not reason_kinds
+            can_approve = step == 4 and report.get("can_approve") is True and not approved(report) and not reason_kinds
             # [01 이채우][작업번호 1] 승인 완료 후의 중복 승인 방지를 오류·근거 부족 안내와 구분한다.
             if approved(report):
                 st.success("이미 직접 승인한 보고서입니다. 아래에서 보고서를 저장할 수 있습니다. 중복 승인은 막습니다.")
@@ -356,33 +390,30 @@ with right:
                 st.caption("현재 상태에서는 승인할 수 없습니다. 근거·검산·변경 상태를 먼저 확인하세요.")
             if st.button("직접 확인하고 승인",key="fin_approve",disabled=not(can_approve and confirmed and reason.strip()),width="stretch"):
                 try:
+                    if st.session_state.get("fin_step") != 4:
+                        raise ValueError("REVIEW_STAGE_REQUIRED")
                     st.session_state["fin_report"] = public_snapshot(pipeline.approve_report(report,reason=reason,confirmed=confirmed))
                     st.rerun()
                 except Exception as exc:
                     notice_error(exc)
 
-st.divider()
-st.subheader("보고서 저장과 다시 열기")
-st.caption("실제 실행 상태, 확인 사유와 입력 지문을 보고서로 저장합니다. 다시 연 보고서는 현재 입력과의 연결을 재검사합니다.")
-report = st.session_state.get("fin_report")
-if report:
-    payload = pipeline.export_report(public_snapshot(report))
-    st.session_state["fin_exported_report"] = payload
-    st.download_button("검산 보고서 JSON 내려받기",payload,file_name=f"0_이영_{case_id}_검산보고서.json",mime="application/json",key="fin_report_download")
-    with st.expander("보고서 상세 보기"):
-        st.json(public_snapshot(report))
-with st.expander("저장한 보고서 다시 열기"):
-    uploaded = st.file_uploader("검산 보고서 JSON 파일",type=["json"],key="fin_report_upload")
-    pasted = st.text_area("보고서 JSON 붙여넣기",key="fin_reopen_text",height=140)
-    if st.button("보고서 다시 열기",key="fin_reopen",disabled=uploaded is None and not pasted.strip()):
-        try:
-            text = uploaded.getvalue().decode("utf-8") if uploaded is not None else pasted
-            st.session_state["fin_reopened"] = public_snapshot(pipeline.reopen_report(text))
-        except Exception as exc:
-            notice_error(exc)
-    if st.session_state.get("fin_reopened"):
-        st.json(st.session_state["fin_reopened"])
-        st.caption("불러온 기록은 새로운 사람 승인으로 처리하지 않습니다.")
-# [수정: 3 조지현 · 2026-10-01T02:08:17+09:00] 기준 커밋보다 뒤인 주석 시각은 원작성 시각으로 확인할 수 없어 미확인으로 표시했다. 원표기는 별도 검토 기록에 보존한다.
+    # [수정: 0 이영 · Codex] 계산 영수증은 미승인 상태도 내보내며 검토 완료와 구분한다.
+    st.divider()
+    st.subheader("보고서 저장과 다시 열기")
+    st.caption("실제 실행 상태, 확인 사유와 입력 지문을 보고서로 저장합니다. 다시 연 보고서는 현재 입력과의 연결을 재검사합니다.")
+    report = st.session_state.get("fin_report")
+    if report:
+        payload = pipeline.export_report(public_snapshot(report))
+        st.session_state["fin_exported_report"] = payload
+        st.download_button("검산 보고서 JSON 내려받기",payload,file_name=f"0_이영_{case_id}_검산보고서.json",mime="application/json",key="fin_report_download")
+        with st.expander("보고서 상세 보기"):
+            st.json(public_snapshot(report))
 
+with st.expander("검토 초기화"):
+    reset_confirm = st.checkbox("현재 세션의 작성 내용과 검산 결과를 초기화합니다", key="fin_reset_confirm")
+    if st.button("초기화", key="fin_reset", disabled=not reset_confirm):
+        reset_case(case_id)
+        st.rerun()
+# [수정: 0 이영 · Codex] 2026-10-01 03:21 KST — 새 main 승인 안내·세 입력 지문은 보존하고 불러오기는 위, 저장은 검토 뒤로 통합한다.
+# [수정: 3 조지현 · 2026-10-01T02:08:17+09:00] 기준 커밋보다 뒤인 주석 시각은 원작성 시각으로 확인할 수 없어 미확인으로 표시했다. 원표기는 별도 검토 기록에 보존한다.
 # [3 조지현 · 2026-10-01T02:13:04+09:00] 통합 후 추가 주석의 원작성 시각을 확인할 수 없어 미확인 표시; 실제 검토 시각과 원표기를 분리 기록한다.

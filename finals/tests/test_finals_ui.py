@@ -37,15 +37,18 @@ def app_factory(monkeypatch):
 
 
 def compute(app):
+    app.button(key="fin_source_next").click().run()
     app.button(key="fin_manual_load").click().run()
     assert not app.exception
     assert app.text_area(key="fin_candidate_text").value.strip()
+    app.button(key="fin_conditions_next").click().run()
     app.button(key="fin_compute").click().run()
     assert not app.exception
     return app.session_state["fin_report"]
 
 
 def approve(app):
+    app.button(key="fin_result_next").click().run()
     assert app.button(key="fin_approve").disabled
     app.checkbox(key="fin_human_confirm").set_value(True).run()
     assert app.button(key="fin_approve").disabled
@@ -60,7 +63,7 @@ def test_registered_cases_visible_and_unavailable_ai_keeps_manual_path(app_facto
     app = app_factory()
     assert len(finals_cases.list_cases()) == 8
     # [수정: 0 이영] 2026-09-30 23:54 KST — 참고 UI를 적용한 실제 검산 화면 제목·조건 안내를 확인한다.
-    assert "다시 계산해 볼까요" in app.title[0].value
+    assert "근거부터 검토" in app.title[0].value
     assert any("분석 조건" in item.value for item in app.caption)
     assert not app.button(key="fin_manual_load").disabled
     assert app.button(key="fin_compute").disabled
@@ -124,6 +127,7 @@ def test_changed_input_blocks_reuse_after_approval(app_factory):
     assert report["human_approval"]["status"] != "APPROVED"
     assert app.checkbox(key="fin_human_confirm").value is False
     assert app.button(key="fin_approve").disabled
+    assert app.session_state["fin_step"] == 2
 
 
 def test_report_reopens_as_record_without_new_approval(app_factory):
