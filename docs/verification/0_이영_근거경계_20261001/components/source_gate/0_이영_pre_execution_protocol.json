@@ -1,0 +1,330 @@
+{
+  "version": 0,
+  "created_at_kst": "2026-10-01T05:25:15.305457+09:00",
+  "git_revision": "d8d952b43eff8ab416421da8f0f431a64e8b9241",
+  "function": "finals/finals_cases.py::load_case",
+  "method": "unchanged AST function nodes and exact normalization module",
+  "fixture_registration_author": "0 이영; synthetic manifest authored by auditor before execution",
+  "code_snapshot": {
+    "_change_note": "Pinned public Git blobs; saved paths are relative to the audit output.",
+    "code_source": "git object",
+    "files": [
+      {
+        "bytes": 8476,
+        "git_path": "finals/finals_cases.py",
+        "saved_path": "code_snapshot/finals/finals_cases.py",
+        "sha256": "c73d5c28be29f73bab70a167fb71655cd359b7d3a649a06e0d82b9cdb2190889"
+      },
+      {
+        "bytes": 2429,
+        "git_path": "core/normalization.py",
+        "saved_path": "code_snapshot/core/normalization.py",
+        "sha256": "c1044d78e790467905262802a2ec8bfc25ef51d89dd77e17faaf4b1a16d9f63e"
+      },
+      {
+        "bytes": 40097,
+        "git_path": "finals/finals_pipeline.py",
+        "saved_path": "code_snapshot/finals/finals_pipeline.py",
+        "sha256": "c68e0745efddf604dea9181e78d50fb698eb172f02c570ccd4eef4aa1d4a38a5"
+      }
+    ],
+    "git_revision": "d8d952b43eff8ab416421da8f0f431a64e8b9241",
+    "network_calls": 0,
+    "paid_calls": 0,
+    "snapshot_at_kst": "2026-10-01T05:25:14+09:00",
+    "version": 0
+  },
+  "inputs": [
+    {
+      "relative_path": "source/document.txt",
+      "sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982"
+    },
+    {
+      "relative_path": "data/experiment_a.csv",
+      "sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5"
+    },
+    {
+      "relative_path": "data/experiment_b.csv",
+      "sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7"
+    },
+    {
+      "relative_path": "data/repeated_visits.csv",
+      "sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26"
+    },
+    {
+      "relative_path": "source_locations.json",
+      "sha256": "278dc438be88e4973eb22cf936b5eced0d4a96361725849b3479eb94b0506202"
+    },
+    {
+      "relative_path": "data/evaluation/public_reproduction_cases.json",
+      "sha256": "9f2e304c6aeee2152909643a9cc4b3d24d10f00876017335c9a6b485b30d8e8c"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "SG-NORMAL-PARAGRAPH",
+      "kind": "normal",
+      "desired_gate_if_semantic_location_is_claimed": true,
+      "meaning": "Exact quote at exact paragraph",
+      "manifest": {
+        "claim_id": "SG-NORMAL-PARAGRAPH",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": true,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-NORMAL-TABLE",
+      "kind": "normal",
+      "desired_gate_if_semantic_location_is_claimed": true,
+      "meaning": "Exact quote at target table caption",
+      "manifest": {
+        "claim_id": "SG-NORMAL-TABLE",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Table/T-A/caption",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": true,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-WRONG-LOCATION",
+      "kind": "attack",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "A quote exists globally but is absent at claimed B paragraph",
+      "manifest": {
+        "claim_id": "SG-WRONG-LOCATION",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-B",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": false,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-OTHER-TABLE-QUOTE",
+      "kind": "attack",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "B quote exists at B table while claim and location target A",
+      "manifest": {
+        "claim_id": "SG-OTHER-TABLE-QUOTE",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment B, the mean age of two individual participants was 15 years.",
+        "source_location": "Table/T-A/caption",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": false,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-WRONG-SOURCE-HASH",
+      "kind": "negative_control",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "Incorrect source hash must block",
+      "manifest": {
+        "claim_id": "SG-WRONG-SOURCE-HASH",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": true,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-QUOTE-ABSENT",
+      "kind": "negative_control",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "Quote absent everywhere must block",
+      "manifest": {
+        "claim_id": "SG-QUOTE-ABSENT",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "ABSENT QUOTE: the true value is 999 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": false,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-WRONG-DATA-HASH",
+      "kind": "negative_control",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "Incorrect data hash must block",
+      "manifest": {
+        "claim_id": "SG-WRONG-DATA-HASH",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": true,
+      "data_semantic_origin": "A",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-WRONG-EXPERIMENT",
+      "kind": "provenance_boundary",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "Exact registered hash of B CSV is not evidence that it belongs to A experiment",
+      "manifest": {
+        "claim_id": "SG-WRONG-EXPERIMENT",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_b.csv",
+        "data_sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": true,
+      "data_semantic_origin": "B",
+      "unique_person_count": 2
+    },
+    {
+      "case_id": "SG-ROWS-NOT-PEOPLE",
+      "kind": "unit_boundary",
+      "desired_gate_if_semantic_location_is_claimed": false,
+      "meaning": "Two visit rows belong to one person; proposal unit must not imply count_rows proves individuals",
+      "manifest": {
+        "claim_id": "SG-ROWS-NOT-PEOPLE",
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "method": "count_rows",
+        "reported_value": 2,
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/repeated_visits.csv",
+        "data_sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26",
+        "source_file": "source/document.txt",
+        "source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_REGISTRATION_FOR_AUDIT",
+        "paper_url": "https://example.invalid/synthetic-a"
+      },
+      "quote_at_declared_location": true,
+      "data_semantic_origin": "A",
+      "unique_person_count": 1
+    }
+  ],
+  "paid_calls": 0,
+  "network_calls": 0,
+  "scope": "load_case source_gate and generated proposal only; no pipeline final approval, UI mutation, model, provider or private DB",
+  "interpretation": "Desired gates test a stronger semantic/location claim, not an assumption that existing source_gate promised that scope."
+}

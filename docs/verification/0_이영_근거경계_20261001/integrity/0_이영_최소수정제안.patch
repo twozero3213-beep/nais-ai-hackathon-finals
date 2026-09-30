@@ -1,0 +1,13 @@
+diff --git a/finals/finals_pipeline.py b/finals/finals_pipeline.py
+--- a/finals/finals_pipeline.py
++++ b/finals/finals_pipeline.py
+@@ -495,5 +495,9 @@ def approve_report(report: dict, reason: str, confirmed=False) -> dict:
+     if status != Status.SUPPORTED:
+         raise ValueError("CORE_VERIFICATION_NOT_SUPPORTED")
++    # [수정 제안: 0 이영] version 0; 2026-10-01T05:37:39.632560+09:00.
++    # 이유: 승인 진입점에서 새로 확인한 검증/계산을 출력에도 반영해 이전 report 필드 변조를 보존하지 않는다.
++    result["validation"] = validation
++    result["calculation"] = calculation
+     claim.validate(reason.strip())
+     claim.validated_data_hash = case["input_sha256"]
+     result["claim_snapshot"] = asdict(claim)

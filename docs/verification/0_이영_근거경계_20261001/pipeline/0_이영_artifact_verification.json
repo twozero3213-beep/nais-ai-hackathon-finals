@@ -1,0 +1,15 @@
+{
+  "version": 0,
+  "verified_at_kst": "2026-10-01T05:33:12.3128547+09:00",
+  "verification_scope": "artifact hashes and JSON parse/private-form scan; no rerun of pipeline",
+  "json_files_parsed_before_receipt": 11,
+  "report_hashes_verified": 7,
+  "runner_hash_unchanged": true,
+  "protocol_sha256": "d8f526a363bd55a3bc1a48a9878cd6f0c6c7164fa4bd6709164e770a1c9804eb",
+  "private_absolute_path_email_key_forms": 0,
+  "code_before_equals_after": true,
+  "model_calls": 0,
+  "external_api_calls": 0,
+  "human_approval_calls": 0,
+  "_change_note": "Public artifact checks after actual manual pipeline execution; original protocol and results preserved."
+}

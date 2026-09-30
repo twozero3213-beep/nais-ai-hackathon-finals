@@ -1,0 +1,388 @@
+{
+  "_change_note": "[0 이영] version 0; freeze synthetic inputs/independent boundary expectations before invoking actual product functions.",
+  "created_at_kst": "2026-10-01T05:29:03.883776+09:00",
+  "product_commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "source_file_sha256": {
+    "finals/finals_pipeline.py": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+    "finals/finals_cases.py": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+    "finals/finals_provenance.py": "c4d796df61295084d0f5b3232c441b8e7e70100041f37e175fbfe51b7930718c",
+    "finals/finals_privacy.py": "90f115611e0d035c425b42a27b4dbfa56b11bcb83f925624f0442d04b8875435",
+    "finals/finals_provider.py": "912b700eb63b6113acb54aaddb454bd3fa1ea8463e7b233a9880b299c74efe0d",
+    "core/models.py": "2f0526bb3366c410dd6834368cf3d4fa1f0244de9199e49eed8baadd15fdf9f4",
+    "core/verifier.py": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+    "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+    "core/normalization.py": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+    "core/typed_contracts.py": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04"
+  },
+  "fixture": {
+    "csv": "group,age\nA,10\nA,30\nB,40\n",
+    "source": "SYNTHETIC LOCAL FIXTURE. Group A has two records, with mean age 20 years. All selected ages are observed. This is not a published scientific claim.\n",
+    "registry": {
+      "cases": [
+        {
+          "claim_id": "SYNTHETIC-INTEGRITY-MEAN",
+          "claim_text": "Synthetic group A mean age is 20 years",
+          "reported_value": 20,
+          "source_quote": "Group A has two records, with mean age 20 years.",
+          "source_location": "synthetic paragraph 1",
+          "source_file": "source.txt",
+          "source_sha256": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+          "data_file": "data.csv",
+          "data_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+          "delimiter": ",",
+          "method": "mean",
+          "column": "age",
+          "filters": {
+            "group": "A"
+          },
+          "missing_policy": "error",
+          "tolerance": 0.01,
+          "source_kind": "article_extract",
+          "evidence_status": "SYNTHETIC_LOCAL_TEST",
+          "paper_url": "https://example.invalid/synthetic-integrity",
+          "license": "Synthetic test fixture",
+          "scope_note": "Synthetic only; not an actual paper or actual human approval."
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "id": "N01-normal-approval-export-reopen",
+      "operation": "roundtrip",
+      "report_changes": {},
+      "fixture_changes": {},
+      "expected": {
+        "approval_state": "APPROVED",
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "calculation": 20
+      }
+    },
+    {
+      "id": "R01-calculation-value-tamper",
+      "operation": "approve",
+      "report_changes": {
+        "calculation.value": 999,
+        "calculation.calculated_value": 999,
+        "calculation.delta": 979
+      },
+      "fixture_changes": {},
+      "expected": {
+        "safe_calculation": 20
+      }
+    },
+    {
+      "id": "R02-within-tolerance-tamper",
+      "operation": "approve",
+      "report_changes": {
+        "calculation.within_tolerance": false
+      },
+      "fixture_changes": {},
+      "expected": {
+        "safe_within_tolerance": true
+      }
+    },
+    {
+      "id": "R03-calculation-envelope-tamper",
+      "operation": "approve",
+      "report_changes": {
+        "calculation.executed": false,
+        "calculation.reported_value": 999,
+        "calculation.selected_rows": 999,
+        "calculation.denominator_matches": false,
+        "calculation.engine": "synthetic untrusted engine label",
+        "calculation.meta": {
+          "untrusted_marker": true
+        }
+      },
+      "fixture_changes": {},
+      "expected": {
+        "safe_calculation_envelope": true
+      }
+    },
+    {
+      "id": "A01-can-approve-false",
+      "operation": "approve",
+      "report_changes": {
+        "can_approve": false
+      },
+      "fixture_changes": {},
+      "expected": {
+        "error": "REPORT_NOT_APPROVABLE"
+      }
+    },
+    {
+      "id": "A02-can-approve-true-on-real-conflict",
+      "operation": "approve",
+      "report_changes": {
+        "can_approve": true
+      },
+      "fixture_changes": {
+        "before_run": {
+          "reported_value": 999
+        }
+      },
+      "expected": {
+        "error": "APPROVAL_ARITHMETIC_CONFLICT"
+      }
+    },
+    {
+      "id": "A03-unresolved-critique",
+      "operation": "approve",
+      "report_changes": {
+        "critique.issues": [
+          "synthetic unresolved evidence issue"
+        ]
+      },
+      "fixture_changes": {},
+      "expected": {
+        "error": "APPROVAL_CRITIQUE_UNRESOLVED"
+      }
+    },
+    {
+      "id": "A04-critique-not-ready",
+      "operation": "approve",
+      "report_changes": {
+        "critique.evidence_ready": false
+      },
+      "fixture_changes": {},
+      "expected": {
+        "error": "APPROVAL_CRITIQUE_UNRESOLVED"
+      }
+    },
+    {
+      "id": "A05-pending-approval-metadata-tamper",
+      "operation": "approve",
+      "report_changes": {
+        "human_approval.reason": "untrusted pending reason",
+        "human_approval.actor": "untrusted pending actor"
+      },
+      "fixture_changes": {},
+      "expected": {
+        "approval_state": "APPROVED",
+        "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+        "actor": "HUMAN_USER"
+      }
+    },
+    {
+      "id": "A06-no-explicit-confirmation",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {},
+      "expected": {
+        "error": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED"
+      },
+      "confirmed": false
+    },
+    {
+      "id": "A07-empty-reason",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {},
+      "expected": {
+        "error": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED"
+      },
+      "reason": ""
+    },
+    {
+      "id": "A08-second-reason-binding",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {},
+      "expected": {
+        "approval_state": "APPROVED",
+        "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision; alternate synthetic reason",
+        "actor": "HUMAN_USER"
+      },
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision; alternate synthetic reason"
+    },
+    {
+      "id": "B01-proposal-mutated-hash-unchanged",
+      "operation": "approve",
+      "report_changes": {
+        "proposal.source_location": "synthetic different location"
+      },
+      "fixture_changes": {},
+      "expected": {
+        "error": "APPROVAL_INPUT_CHANGED"
+      }
+    },
+    {
+      "id": "B02-proposal-rehashed-but-wrong",
+      "operation": "approve",
+      "report_changes": {
+        "proposal.filters.0.value": "B"
+      },
+      "fixture_changes": {},
+      "expected": {
+        "error": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "rebind": true
+    },
+    {
+      "id": "B03-csv-bytes-changed",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {
+        "after_run": {
+          "csv_append": "B,50\n"
+        }
+      },
+      "expected": {
+        "error": "APPROVAL_INPUT_CHANGED"
+      }
+    },
+    {
+      "id": "B04-source-bytes-changed",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {
+        "after_run": {
+          "source_append": "Additional synthetic note.\n"
+        }
+      },
+      "expected": {
+        "error": "APPROVAL_INPUT_CHANGED"
+      }
+    },
+    {
+      "id": "B05-registered-source-location-changed",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {
+        "after_run": {
+          "source_location": "synthetic paragraph 2"
+        }
+      },
+      "expected": {
+        "error": "APPROVAL_EVIDENCE_INVALID"
+      }
+    },
+    {
+      "id": "B06-registered-filters-changed",
+      "operation": "approve",
+      "report_changes": {},
+      "fixture_changes": {
+        "after_run": {
+          "filters": {
+            "group": "B"
+          }
+        }
+      },
+      "expected": {
+        "error": "APPROVAL_EVIDENCE_INVALID"
+      }
+    },
+    {
+      "id": "B07-recorded-engine-metadata-tamper",
+      "operation": "approve",
+      "report_changes": {
+        "code_commit": "synthetic untrusted recorded commit",
+        "code_worktree_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "execution_provenance.execution_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+        "execution_provenance.code_files_sha256": {
+          "core/statistics.py": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "fixture_changes": {},
+      "expected": {
+        "approval_state": "APPROVED"
+      },
+      "scope": "Recorded provenance metadata only; actual loaded engine code is unchanged."
+    },
+    {
+      "id": "E01-saved-body-edited-with-old-digest",
+      "operation": "export_edit",
+      "report_changes": {
+        "calculation.calculated_value": 999
+      },
+      "fixture_changes": {},
+      "expected": {
+        "error": "REPORT_INTEGRITY_MISMATCH"
+      }
+    },
+    {
+      "id": "E02-edited-body-reexported",
+      "operation": "reexport",
+      "report_changes": {
+        "calculation.calculated_value": 999
+      },
+      "fixture_changes": {},
+      "expected": {
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "reopen_calculation": 20
+      }
+    },
+    {
+      "id": "E03-edited-body-unsigned",
+      "operation": "unsigned",
+      "report_changes": {
+        "calculation.calculated_value": 999
+      },
+      "fixture_changes": {},
+      "expected": {
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "reopen_calculation": 20,
+        "import_integrity": "UNSIGNED_RECORD_ONLY"
+      }
+    },
+    {
+      "id": "E04-historical-reason-edited-reexported",
+      "operation": "reexport",
+      "report_changes": {
+        "human_approval.reason": "synthetic edited historical reason"
+      },
+      "fixture_changes": {},
+      "expected": {
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "historical_reason": "synthetic edited historical reason"
+      }
+    },
+    {
+      "id": "E05-current-csv-changed-before-reopen",
+      "operation": "roundtrip",
+      "report_changes": {},
+      "fixture_changes": {
+        "before_reopen": {
+          "csv_append": "B,50\n"
+        }
+      },
+      "expected": {
+        "approval_state": "APPROVED",
+        "reopen_state": "BLOCKED_CHANGED_INPUT",
+        "reopen_active": false
+      }
+    },
+    {
+      "id": "E06-real-in-memory-input-change",
+      "operation": "recheck",
+      "report_changes": {},
+      "fixture_changes": {},
+      "expected": {
+        "recheck_state": "BLOCKED_CHANGED_INPUT",
+        "recheck_active": false
+      }
+    }
+  ],
+  "scope": {
+    "actual_functions": [
+      "run_case_manual",
+      "approve_report",
+      "export_report",
+      "reopen_report",
+      "recheck_changed_input"
+    ],
+    "save_report_function": "absent; UI downloads export_report output",
+    "network": 0,
+    "real_model_calls": 0,
+    "actual_human_decisions": 0,
+    "product_mutations": 0,
+    "synthetic_reviewer": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+    "isolation": "finals_cases.REPO_ROOT and finals_cases.REGISTRY point to experiment fixture only. No business-function replacement. Actual code/engine changes are not performed; B07 changes only report metadata.",
+    "expected": "Manual independent integrity boundary expectations, not model comparison or scientific correctness scoring."
+  }
+}

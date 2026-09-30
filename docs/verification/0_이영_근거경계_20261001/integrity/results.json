@@ -1,0 +1,2004 @@
+{
+  "_change_note": "[0 이영] version 0; actual function outputs from synthetic local fixtures; not real human approval or LLM experiment.",
+  "product_commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "source_file_sha256": {
+    "finals/finals_pipeline.py": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+    "finals/finals_cases.py": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+    "finals/finals_provenance.py": "c4d796df61295084d0f5b3232c441b8e7e70100041f37e175fbfe51b7930718c",
+    "finals/finals_privacy.py": "90f115611e0d035c425b42a27b4dbfa56b11bcb83f925624f0442d04b8875435",
+    "finals/finals_provider.py": "912b700eb63b6113acb54aaddb454bd3fa1ea8463e7b233a9880b299c74efe0d",
+    "core/models.py": "2f0526bb3366c410dd6834368cf3d4fa1f0244de9199e49eed8baadd15fdf9f4",
+    "core/verifier.py": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+    "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+    "core/normalization.py": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+    "core/typed_contracts.py": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04"
+  },
+  "protocol_file_sha256": "f6899761ff2ddbb1a3c580659977fe5733cd6ab44c7a263b7b291756807c9b0c",
+  "runner_file_sha256": "91f59097010ebe329e9b38e4bec10a9a1ed400369beb1887a34ff4e84bd6b3d1",
+  "started_at_kst": "2026-10-01T05:29:21.365905+09:00",
+  "finished_at_kst": "2026-10-01T05:29:50.785386+09:00",
+  "actual_functions": {
+    "run_case_manual": {
+      "file": "finals/finals_pipeline.py",
+      "first_line": 458,
+      "function_source_sha256": "24e5eb02dda49478cef73d449e0d2d250484f1cc04f9c80c902a73243f26b8e2"
+    },
+    "approve_report": {
+      "file": "finals/finals_pipeline.py",
+      "first_line": 466,
+      "function_source_sha256": "49141481d556fe4b1bd2ae359e01017a6d7d8ef3fe76398351443a939c83581f"
+    },
+    "export_report": {
+      "file": "finals/finals_pipeline.py",
+      "first_line": 537,
+      "function_source_sha256": "db215e87fc4731c240dd9ce45f0c4ed9b2a76111b8458317d7e0ae6b0a247803"
+    },
+    "reopen_report": {
+      "file": "finals/finals_pipeline.py",
+      "first_line": 546,
+      "function_source_sha256": "f92a8e886b59604048a1fcef46a6d3fbc3a2e6b79cb43e7df3285450a5fc072d"
+    },
+    "recheck_changed_input": {
+      "file": "finals/finals_pipeline.py",
+      "first_line": 510,
+      "function_source_sha256": "793a9897691e361e252a93381976d3ce19d5506d784235f2d4229d627733f4ef"
+    }
+  },
+  "network_attempts": [],
+  "model_calls": 0,
+  "actual_human_decisions": 0,
+  "product_mutations": 0,
+  "business_function_replacements": 0,
+  "isolation": "finals_cases.REPO_ROOT and finals_cases.REGISTRY point to experiment fixture only. No business-function replacement. Actual code/engine changes are not performed; B07 changes only report metadata.",
+  "cases": [
+    {
+      "id": "N01-normal-approval-export-reopen",
+      "operation": "roundtrip",
+      "started_at_kst": "2026-10-01T05:29:21.365992+09:00",
+      "expected": {
+        "approval_state": "APPROVED",
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "calculation": 20
+      },
+      "inputs": [
+        {
+          "path": "inputs/N01-normal-approval-export-reopen-approve.json",
+          "sha256": "36989c1e7520afda19a1f604bc7669d097bc8702c5d3834f2dfb44d4601f4b99",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:23.002528+09:00"
+        },
+        {
+          "path": "inputs/N01-normal-approval-export-reopen-export.json",
+          "sha256": "c0669382cafa8b239d4f9358130a04250606c974265acdecfbfc0025806b0a2b",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:23.069656+09:00"
+        },
+        {
+          "path": "inputs/N01-normal-approval-export-reopen-reopen.json",
+          "sha256": "c3c0a2be3c02b1f2f7c857d3e05e298ab366c2fc0406fbdca59223659724fa91",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:23.116414+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "reopen_state": "IMPORTED_REVIEW",
+      "reopen_active": false,
+      "reopen_calculation": 20.0,
+      "import_integrity": "SHA256_MATCH",
+      "historical_reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "boundary_checks": {
+        "approval_state": {
+          "actual": "APPROVED",
+          "expected": "APPROVED",
+          "matches": true
+        },
+        "reopen_state": {
+          "actual": "IMPORTED_REVIEW",
+          "expected": "IMPORTED_REVIEW",
+          "matches": true
+        },
+        "reopen_active": {
+          "actual": false,
+          "expected": false,
+          "matches": true
+        },
+        "calculation": {
+          "actual": 20.0,
+          "expected": 20,
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:23.144208+09:00"
+    },
+    {
+      "id": "R01-calculation-value-tamper",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:23.148154+09:00",
+      "expected": {
+        "safe_calculation": 20
+      },
+      "inputs": [
+        {
+          "path": "inputs/R01-calculation-value-tamper-approve.json",
+          "sha256": "ed63d5e97301237785cb1d12673726f3308b4b260468c66621221d3e82b08652",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:24.314459+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 999,
+        "calculated_value": 999,
+        "reported_value": 20,
+        "delta": 979,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "safe_calculation": {
+          "actual": 999,
+          "expected": 20,
+          "matches": false
+        }
+      },
+      "all_expected_boundaries_match": false,
+      "finished_at_kst": "2026-10-01T05:29:24.357311+09:00"
+    },
+    {
+      "id": "R02-within-tolerance-tamper",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:24.360649+09:00",
+      "expected": {
+        "safe_within_tolerance": true
+      },
+      "inputs": [
+        {
+          "path": "inputs/R02-within-tolerance-tamper-approve.json",
+          "sha256": "b1b33a68a5b8e615fecdd4ad44e46619ac67a0ca6d9b3532b804ab45b14b47b5",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:25.478025+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": false,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "safe_within_tolerance": {
+          "actual": false,
+          "expected": true,
+          "matches": false
+        }
+      },
+      "all_expected_boundaries_match": false,
+      "finished_at_kst": "2026-10-01T05:29:25.515253+09:00"
+    },
+    {
+      "id": "R03-calculation-envelope-tamper",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:25.518521+09:00",
+      "expected": {
+        "safe_calculation_envelope": true
+      },
+      "inputs": [
+        {
+          "path": "inputs/R03-calculation-envelope-tamper-approve.json",
+          "sha256": "90417ccbb3e8b2da889a57772faaa9f995dcc2288f9044c08db12f827fbf0939",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:26.726445+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": false,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 999,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 999,
+        "expected_denominator": 2,
+        "denominator_matches": false,
+        "meta": {
+          "untrusted_marker": true
+        },
+        "engine": "synthetic untrusted engine label",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "safe_calculation_envelope": {
+          "actual": false,
+          "expected": true,
+          "matches": false
+        }
+      },
+      "all_expected_boundaries_match": false,
+      "finished_at_kst": "2026-10-01T05:29:26.761640+09:00"
+    },
+    {
+      "id": "A01-can-approve-false",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:26.764910+09:00",
+      "expected": {
+        "error": "REPORT_NOT_APPROVABLE"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A01-can-approve-false-approve.json",
+          "sha256": "a3c046e2b3e487d5736e42285dd0a59a857732ba23289ed609ebb4598c09abbf",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:27.877799+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "REPORT_NOT_APPROVABLE"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "REPORT_NOT_APPROVABLE",
+          "expected": "REPORT_NOT_APPROVABLE",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:27.878041+09:00"
+    },
+    {
+      "id": "A02-can-approve-true-on-real-conflict",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:27.882365+09:00",
+      "expected": {
+        "error": "APPROVAL_ARITHMETIC_CONFLICT"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A02-can-approve-true-on-real-conflict-approve.json",
+          "sha256": "a743f33997472e99185b22c1b3723664759f7355b3aa772bdbd019b3204c521e",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:29.059289+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_ARITHMETIC_CONFLICT"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "2b9754e8260c88cbe244742e6eb393dfcf1e126bd905c9dda410a4ca2bfa6f7f"
+      },
+      "baseline": {
+        "state": "CONFLICT_PREVIEW",
+        "can_approve": false,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 999,
+          "delta": 979.0,
+          "tolerance": 0.01,
+          "within_tolerance": false,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_ARITHMETIC_CONFLICT",
+          "expected": "APPROVAL_ARITHMETIC_CONFLICT",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:29.077823+09:00"
+    },
+    {
+      "id": "A03-unresolved-critique",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:29.080736+09:00",
+      "expected": {
+        "error": "APPROVAL_CRITIQUE_UNRESOLVED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A03-unresolved-critique-approve.json",
+          "sha256": "fd6924b06408aeb8a8a71cdd2b00832bedcc6efceb690cd1f92b1f53b08bb1f2",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:30.155177+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_CRITIQUE_UNRESOLVED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_CRITIQUE_UNRESOLVED",
+          "expected": "APPROVAL_CRITIQUE_UNRESOLVED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:30.155317+09:00"
+    },
+    {
+      "id": "A04-critique-not-ready",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:30.158136+09:00",
+      "expected": {
+        "error": "APPROVAL_CRITIQUE_UNRESOLVED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A04-critique-not-ready-approve.json",
+          "sha256": "78d5301e9149d8e6a433466806e2cf955f7de106593e40a4a0e18ee46662c02a",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:31.163240+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_CRITIQUE_UNRESOLVED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_CRITIQUE_UNRESOLVED",
+          "expected": "APPROVAL_CRITIQUE_UNRESOLVED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:31.163408+09:00"
+    },
+    {
+      "id": "A05-pending-approval-metadata-tamper",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:31.167669+09:00",
+      "expected": {
+        "approval_state": "APPROVED",
+        "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+        "actor": "HUMAN_USER"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A05-pending-approval-metadata-tamper-approve.json",
+          "sha256": "4ef0ac6d3aa20637a5b58720ca5207e4b407ac2c13cb1c2fe615377a138d7033",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:32.259049+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "approval_state": {
+          "actual": "APPROVED",
+          "expected": "APPROVED",
+          "matches": true
+        },
+        "reason": {
+          "actual": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+          "expected": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+          "matches": true
+        },
+        "actor": {
+          "actual": "HUMAN_USER",
+          "expected": "HUMAN_USER",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:32.300717+09:00"
+    },
+    {
+      "id": "A06-no-explicit-confirmation",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:32.304559+09:00",
+      "expected": {
+        "error": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A06-no-explicit-confirmation-approve.json",
+          "sha256": "b63892c1b507caf396dfe419e6981045860f242b4310c45d4fa8ff74d6591a5a",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:33.364691+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED",
+          "expected": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:33.364771+09:00"
+    },
+    {
+      "id": "A07-empty-reason",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:33.368375+09:00",
+      "expected": {
+        "error": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A07-empty-reason-approve.json",
+          "sha256": "d9b981acab9bc0025304f948526376d72d045c68d916711c28e2ecf08e2f5241",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:34.531588+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED",
+          "expected": "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:34.531676+09:00"
+    },
+    {
+      "id": "A08-second-reason-binding",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:34.535389+09:00",
+      "expected": {
+        "approval_state": "APPROVED",
+        "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision; alternate synthetic reason",
+        "actor": "HUMAN_USER"
+      },
+      "inputs": [
+        {
+          "path": "inputs/A08-second-reason-binding-approve.json",
+          "sha256": "c0c3130cb95b8b0dd6744616cca9b91910abcb0cd3cfdef7a259c65aabbd95cc",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:35.759445+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision; alternate synthetic reason",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "approval_state": {
+          "actual": "APPROVED",
+          "expected": "APPROVED",
+          "matches": true
+        },
+        "reason": {
+          "actual": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision; alternate synthetic reason",
+          "expected": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision; alternate synthetic reason",
+          "matches": true
+        },
+        "actor": {
+          "actual": "HUMAN_USER",
+          "expected": "HUMAN_USER",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:35.799979+09:00"
+    },
+    {
+      "id": "B01-proposal-mutated-hash-unchanged",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:35.804636+09:00",
+      "expected": {
+        "error": "APPROVAL_INPUT_CHANGED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B01-proposal-mutated-hash-unchanged-approve.json",
+          "sha256": "316828c9aa26a5bf5e343e9b38a047b999f30c680a529338f75ed7ff686197df",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:36.856800+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_INPUT_CHANGED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_INPUT_CHANGED",
+          "expected": "APPROVAL_INPUT_CHANGED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:36.869006+09:00"
+    },
+    {
+      "id": "B02-proposal-rehashed-but-wrong",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:36.872699+09:00",
+      "expected": {
+        "error": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B02-proposal-rehashed-but-wrong-approve.json",
+          "sha256": "43bb83bd2fc0d87d26af1ca12f56b281d084744a4e6de72a5f867d2df748c27d",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:37.964989+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_EVIDENCE_INVALID",
+          "expected": "APPROVAL_EVIDENCE_INVALID",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:37.979372+09:00"
+    },
+    {
+      "id": "B03-csv-bytes-changed",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:37.982436+09:00",
+      "expected": {
+        "error": "APPROVAL_INPUT_CHANGED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B03-csv-bytes-changed-approve.json",
+          "sha256": "ef7f45768e3456fa84f90bcafe41b7dfb0494fb968a6f654b2372bb4e0938560",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:38.980057+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_INPUT_CHANGED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_INPUT_CHANGED",
+          "expected": "APPROVAL_INPUT_CHANGED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:38.992682+09:00"
+    },
+    {
+      "id": "B04-source-bytes-changed",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:38.997979+09:00",
+      "expected": {
+        "error": "APPROVAL_INPUT_CHANGED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B04-source-bytes-changed-approve.json",
+          "sha256": "600ee76f8bca771df0785353ae46bb9bfb29aa6bf2512c469a750d5299746949",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:40.022788+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_INPUT_CHANGED"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_INPUT_CHANGED",
+          "expected": "APPROVAL_INPUT_CHANGED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:40.037332+09:00"
+    },
+    {
+      "id": "B05-registered-source-location-changed",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:40.040894+09:00",
+      "expected": {
+        "error": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B05-registered-source-location-changed-approve.json",
+          "sha256": "5c19fa200d949447959c94a5c2cda5fa9f6614e7827a31167b64104e7998d885",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:41.000018+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_EVIDENCE_INVALID",
+          "expected": "APPROVAL_EVIDENCE_INVALID",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:41.013575+09:00"
+    },
+    {
+      "id": "B06-registered-filters-changed",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:41.017828+09:00",
+      "expected": {
+        "error": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B06-registered-filters-changed-approve.json",
+          "sha256": "44c035beda46237c24c16f926f125ac1d7d5c97ec05df8d5722ed8ebb350f5a9",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:41.961726+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "APPROVAL_EVIDENCE_INVALID"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "boundary_checks": {
+        "error": {
+          "actual": "APPROVAL_EVIDENCE_INVALID",
+          "expected": "APPROVAL_EVIDENCE_INVALID",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:41.973730+09:00"
+    },
+    {
+      "id": "B07-recorded-engine-metadata-tamper",
+      "operation": "approve",
+      "started_at_kst": "2026-10-01T05:29:41.977060+09:00",
+      "expected": {
+        "approval_state": "APPROVED"
+      },
+      "inputs": [
+        {
+          "path": "inputs/B07-recorded-engine-metadata-tamper-approve.json",
+          "sha256": "c23d29fd4e5b4d971390c6edd7266306bcd4b4c068232f47d45d8ebee5af1f48",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:42.969415+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "approval_state": {
+          "actual": "APPROVED",
+          "expected": "APPROVED",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:42.996601+09:00"
+    },
+    {
+      "id": "E01-saved-body-edited-with-old-digest",
+      "operation": "export_edit",
+      "started_at_kst": "2026-10-01T05:29:43.000768+09:00",
+      "expected": {
+        "error": "REPORT_INTEGRITY_MISMATCH"
+      },
+      "inputs": [
+        {
+          "path": "inputs/E01-saved-body-edited-with-old-digest-approve.json",
+          "sha256": "3554b8e45193fe14592e3e12a5d09b6139fa4fd9ba663a83625d53deed64f8c3",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:43.892681+09:00"
+        },
+        {
+          "path": "inputs/E01-saved-body-edited-with-old-digest-export.json",
+          "sha256": "e047f0d2781425bf7de8bf6119f6110cf69ab14a1dd9bff6631be2861208aa78",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:43.947010+09:00"
+        },
+        {
+          "path": "inputs/E01-saved-body-edited-with-old-digest-reopen.json",
+          "sha256": "51cd62522f8632146c3801afcd5c1a64c66536925ba43ab2d42cb799083473f9",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:43.990115+09:00"
+        }
+      ],
+      "error": {
+        "type": "ValueError",
+        "code": "REPORT_INTEGRITY_MISMATCH"
+      },
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "boundary_checks": {
+        "error": {
+          "actual": "REPORT_INTEGRITY_MISMATCH",
+          "expected": "REPORT_INTEGRITY_MISMATCH",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:43.994433+09:00"
+    },
+    {
+      "id": "E02-edited-body-reexported",
+      "operation": "reexport",
+      "started_at_kst": "2026-10-01T05:29:43.999469+09:00",
+      "expected": {
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "reopen_calculation": 20
+      },
+      "inputs": [
+        {
+          "path": "inputs/E02-edited-body-reexported-approve.json",
+          "sha256": "5ab6c5fdc8d9f18ef64db80b08c5b85c669aca54f164c853c6c507297aea4d39",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:45.612926+09:00"
+        },
+        {
+          "path": "inputs/E02-edited-body-reexported-export.json",
+          "sha256": "5d7b6c77d2716745230ac4594583ed4a3d55d6b30a3504bc8061ff5b2f3b389a",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:45.687356+09:00"
+        },
+        {
+          "path": "inputs/E02-edited-body-reexported-reopen.json",
+          "sha256": "6fc4ec83895813a3fd8fc82800c56c1ae2d0ca8e1fd7326440256815cb493e57",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:45.736213+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "reopen_state": "IMPORTED_REVIEW",
+      "reopen_active": false,
+      "reopen_calculation": 20.0,
+      "import_integrity": "SHA256_MATCH",
+      "historical_reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "boundary_checks": {
+        "reopen_state": {
+          "actual": "IMPORTED_REVIEW",
+          "expected": "IMPORTED_REVIEW",
+          "matches": true
+        },
+        "reopen_active": {
+          "actual": false,
+          "expected": false,
+          "matches": true
+        },
+        "reopen_calculation": {
+          "actual": 20.0,
+          "expected": 20,
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:45.766665+09:00"
+    },
+    {
+      "id": "E03-edited-body-unsigned",
+      "operation": "unsigned",
+      "started_at_kst": "2026-10-01T05:29:45.771359+09:00",
+      "expected": {
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "reopen_calculation": 20,
+        "import_integrity": "UNSIGNED_RECORD_ONLY"
+      },
+      "inputs": [
+        {
+          "path": "inputs/E03-edited-body-unsigned-approve.json",
+          "sha256": "2c9551f42e25c9835e749f74e4737b94028d78d9484da63c337780d6dc6fe800",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:46.844458+09:00"
+        },
+        {
+          "path": "inputs/E03-edited-body-unsigned-export.json",
+          "sha256": "1748ab7dc5f500ebdafd70ad864ddfa00d603c47222058a958362849deba5a0e",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:46.902564+09:00"
+        },
+        {
+          "path": "inputs/E03-edited-body-unsigned-reopen.json",
+          "sha256": "5cbab49fd2c42556039c3db4227f00eba5c014015b2019039dc8819ebe1a8dc8",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:46.957749+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "reopen_state": "IMPORTED_REVIEW",
+      "reopen_active": false,
+      "reopen_calculation": 20.0,
+      "import_integrity": "UNSIGNED_RECORD_ONLY",
+      "historical_reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "boundary_checks": {
+        "reopen_state": {
+          "actual": "IMPORTED_REVIEW",
+          "expected": "IMPORTED_REVIEW",
+          "matches": true
+        },
+        "reopen_active": {
+          "actual": false,
+          "expected": false,
+          "matches": true
+        },
+        "reopen_calculation": {
+          "actual": 20.0,
+          "expected": 20,
+          "matches": true
+        },
+        "import_integrity": {
+          "actual": "UNSIGNED_RECORD_ONLY",
+          "expected": "UNSIGNED_RECORD_ONLY",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:46.992103+09:00"
+    },
+    {
+      "id": "E04-historical-reason-edited-reexported",
+      "operation": "reexport",
+      "started_at_kst": "2026-10-01T05:29:46.997302+09:00",
+      "expected": {
+        "reopen_state": "IMPORTED_REVIEW",
+        "reopen_active": false,
+        "historical_reason": "synthetic edited historical reason"
+      },
+      "inputs": [
+        {
+          "path": "inputs/E04-historical-reason-edited-reexported-approve.json",
+          "sha256": "fdb3622dc81b83fd8ec3f0b733539aa1b42b408f003a62bd35b22261a737e868",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:48.233619+09:00"
+        },
+        {
+          "path": "inputs/E04-historical-reason-edited-reexported-export.json",
+          "sha256": "6814d23921a162bb73ba6c96aa643cae6811b514d8e0b51c4273d684a207d57d",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:48.290099+09:00"
+        },
+        {
+          "path": "inputs/E04-historical-reason-edited-reexported-reopen.json",
+          "sha256": "d4f827d26e84343acc69b6a68e86427f648b66271fa97eaec7aad57c62843714",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:48.335750+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "reopen_state": "IMPORTED_REVIEW",
+      "reopen_active": false,
+      "reopen_calculation": 20.0,
+      "import_integrity": "SHA256_MATCH",
+      "historical_reason": "synthetic edited historical reason",
+      "boundary_checks": {
+        "reopen_state": {
+          "actual": "IMPORTED_REVIEW",
+          "expected": "IMPORTED_REVIEW",
+          "matches": true
+        },
+        "reopen_active": {
+          "actual": false,
+          "expected": false,
+          "matches": true
+        },
+        "historical_reason": {
+          "actual": "synthetic edited historical reason",
+          "expected": "synthetic edited historical reason",
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:48.365569+09:00"
+    },
+    {
+      "id": "E05-current-csv-changed-before-reopen",
+      "operation": "roundtrip",
+      "started_at_kst": "2026-10-01T05:29:48.370222+09:00",
+      "expected": {
+        "approval_state": "APPROVED",
+        "reopen_state": "BLOCKED_CHANGED_INPUT",
+        "reopen_active": false
+      },
+      "inputs": [
+        {
+          "path": "inputs/E05-current-csv-changed-before-reopen-approve.json",
+          "sha256": "a2b67311792d7828b3af96c675bb608a598ea0c0874607469b5d705eae7201de",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:49.530443+09:00"
+        },
+        {
+          "path": "inputs/E05-current-csv-changed-before-reopen-export.json",
+          "sha256": "9f8f8e76a4a2deb4d2493558456110c61bdd43ec74004e0bc01ef2409ab86b34",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:49.585477+09:00"
+        },
+        {
+          "path": "inputs/E05-current-csv-changed-before-reopen-reopen.json",
+          "sha256": "7d1d4526cbbcd24c2168cfb04e32d2e209c1a2e24a6d1654f8b0b3b108fa42bc",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:49.627290+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "reopen_state": "BLOCKED_CHANGED_INPUT",
+      "reopen_active": false,
+      "reopen_calculation": 20.0,
+      "import_integrity": "SHA256_MATCH",
+      "historical_reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "boundary_checks": {
+        "approval_state": {
+          "actual": "APPROVED",
+          "expected": "APPROVED",
+          "matches": true
+        },
+        "reopen_state": {
+          "actual": "BLOCKED_CHANGED_INPUT",
+          "expected": "BLOCKED_CHANGED_INPUT",
+          "matches": true
+        },
+        "reopen_active": {
+          "actual": false,
+          "expected": false,
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:49.647378+09:00"
+    },
+    {
+      "id": "E06-real-in-memory-input-change",
+      "operation": "recheck",
+      "started_at_kst": "2026-10-01T05:29:49.652210+09:00",
+      "expected": {
+        "recheck_state": "BLOCKED_CHANGED_INPUT",
+        "recheck_active": false
+      },
+      "inputs": [
+        {
+          "path": "inputs/E06-real-in-memory-input-change-approve.json",
+          "sha256": "4f4edc830cb64c66d2d4c413e82354705b3d09221530cfa642b5aff81f810826",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:50.678334+09:00"
+        },
+        {
+          "path": "inputs/E06-real-in-memory-input-change-recheck.json",
+          "sha256": "1f1bcdfbf91e290172b075990c3216b667cd0113c22547d2ce5c05ba6bf9beed",
+          "frozen_before_call_at_kst": "2026-10-01T05:29:50.733149+09:00"
+        }
+      ],
+      "error": null,
+      "fixture_before_run": {
+        "data.csv": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+        "source.txt": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+        "registry.json": "60f748d3b4f3b1104a10c2391644d698419ef291b24a4cb64cc72a450a6c711e"
+      },
+      "baseline": {
+        "state": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "calculation": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0.01,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "errors": []
+      },
+      "approval_state": "APPROVED",
+      "approved": true,
+      "approval_active": true,
+      "approved_calculation": {
+        "executed": true,
+        "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+        "value": 20.0,
+        "calculated_value": 20.0,
+        "reported_value": 20,
+        "delta": 0.0,
+        "tolerance": 0.01,
+        "within_tolerance": true,
+        "selected_rows": 2,
+        "expected_denominator": 2,
+        "denominator_matches": true,
+        "meta": {
+          "n": 2,
+          "expression": "mean(age)",
+          "method": "mean"
+        },
+        "engine": "core.statistics.descriptive",
+        "method": "mean"
+      },
+      "approved_claim_current_value": 20,
+      "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+      "actor": "HUMAN_USER",
+      "recheck_state": "BLOCKED_CHANGED_INPUT",
+      "recheck_active": false,
+      "boundary_checks": {
+        "recheck_state": {
+          "actual": "BLOCKED_CHANGED_INPUT",
+          "expected": "BLOCKED_CHANGED_INPUT",
+          "matches": true
+        },
+        "recheck_active": {
+          "actual": false,
+          "expected": false,
+          "matches": true
+        }
+      },
+      "all_expected_boundaries_match": true,
+      "finished_at_kst": "2026-10-01T05:29:50.760580+09:00"
+    }
+  ],
+  "counts": {
+    "cases": 25,
+    "boundary_matches": 22,
+    "boundary_mismatches": 3
+  }
+}

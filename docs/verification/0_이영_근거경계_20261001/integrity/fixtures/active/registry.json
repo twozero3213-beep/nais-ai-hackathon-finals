@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "claim_id": "SYNTHETIC-INTEGRITY-MEAN",
+      "claim_text": "Synthetic group A mean age is 20 years",
+      "reported_value": 20,
+      "source_quote": "Group A has two records, with mean age 20 years.",
+      "source_location": "synthetic paragraph 1",
+      "source_file": "source.txt",
+      "source_sha256": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+      "data_file": "data.csv",
+      "data_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+      "delimiter": ",",
+      "method": "mean",
+      "column": "age",
+      "filters": {
+        "group": "A"
+      },
+      "missing_policy": "error",
+      "tolerance": 0.01,
+      "source_kind": "article_extract",
+      "evidence_status": "SYNTHETIC_LOCAL_TEST",
+      "paper_url": "https://example.invalid/synthetic-integrity",
+      "license": "Synthetic test fixture",
+      "scope_note": "Synthetic only; not an actual paper or actual human approval."
+    }
+  ]
+}

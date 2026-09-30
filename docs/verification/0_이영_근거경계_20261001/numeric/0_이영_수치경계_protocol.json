@@ -1,0 +1,599 @@
+{
+  "_change_note": "[0 이영] 버전0: 공개 합성 데이터의 의미 예상·정상 반례를 실제 함수 실행 전에 고정한다.",
+  "sealed_at_kst": "2026-10-01T05:26:36+09:00",
+  "commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "source_sha256": {
+    "core/normalization.py": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+    "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+    "core/typed_contracts.py": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04",
+    "core/models.py": "2f0526bb3366c410dd6834368cf3d4fa1f0244de9199e49eed8baadd15fdf9f4",
+    "core/verifier.py": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+    "core/semantic.py": "79680c81bdd52513a8684e63d672e600859e5f43b9c528edcd861f62a8989c4c",
+    "core/decision_provenance.py": "f78ed0772ff0d710bc3045ad5da2c98fae1bcd03229602dceb2ced905a545fb8",
+    "finals/finals_pipeline.py": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+    "finals/finals_cases.py": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+    "finals/finals_privacy.py": "90f115611e0d035c425b42a27b4dbfa56b11bcb83f925624f0442d04b8875435",
+    "finals/finals_provider.py": "912b700eb63b6113acb54aaddb454bd3fa1ea8463e7b233a9880b299c74efe0d",
+    "finals/finals_provenance.py": "c4d796df61295084d0f5b3232c441b8e7e70100041f37e175fbfe51b7930718c"
+  },
+  "scope": "pure_real_functions_with_synthetic_case_inputs; no loader/UI/approval/LLM/API execution",
+  "oracle": "literal code/binary dictionary and exact decimal/rational expectation, not function output",
+  "pairs": [
+    {
+      "id": "N01",
+      "topic": "문자 코드의 앞자리 0",
+      "severity_if_observed": "P1 계산 조건 의미 경계",
+      "attack": {
+        "name": "distinct_codes",
+        "data": {
+          "group": [
+            "01",
+            "1"
+          ],
+          "age": [
+            10,
+            30
+          ]
+        },
+        "filter_target": "01",
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "10",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "exact_code"
+      },
+      "normal": {
+        "name": "numeric_representation",
+        "data": {
+          "group": [
+            1,
+            1.0
+          ],
+          "age": [
+            10,
+            30
+          ]
+        },
+        "filter_target": "1",
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "20",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "numeric_measure"
+      }
+    },
+    {
+      "id": "N02",
+      "topic": "퍼센트 문자열과 수치 1 혼용",
+      "severity_if_observed": "P1 계산 조건 의미 경계",
+      "attack": {
+        "name": "percent_is_distinct_code",
+        "data": {
+          "group": [
+            "1%",
+            1
+          ],
+          "age": [
+            10,
+            30
+          ]
+        },
+        "filter_target": "1%",
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "10",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "exact_code"
+      },
+      "normal": {
+        "name": "same_numeric_group",
+        "data": {
+          "group": [
+            "1.0",
+            1
+          ],
+          "age": [
+            10,
+            30
+          ]
+        },
+        "filter_target": "1",
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "20",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "numeric_measure"
+      }
+    },
+    {
+      "id": "N03",
+      "topic": "2^53 이후 정수 식별자 충돌",
+      "severity_if_observed": "P1 결정적 잘못된 표본 선택",
+      "attack": {
+        "name": "large_integer_codes",
+        "data": {
+          "group": [
+            "9007199254740992",
+            "9007199254740993"
+          ],
+          "age": [
+            10,
+            30
+          ]
+        },
+        "filter_target": "9007199254740992",
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "10",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "exact_code"
+      },
+      "normal": {
+        "name": "small_integer_codes",
+        "data": {
+          "group": [
+            "2",
+            "3"
+          ],
+          "age": [
+            10,
+            30
+          ]
+        },
+        "filter_target": "2",
+        "reported_value": 10,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "10",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "exact_code"
+      }
+    },
+    {
+      "id": "N04",
+      "topic": "boolean alias와 고유 문자열 코드",
+      "severity_if_observed": "P1 계산 조건 의미 경계",
+      "attack": {
+        "name": "three_distinct_codes",
+        "data": {
+          "group": [
+            "true",
+            "1",
+            "yes"
+          ],
+          "age": [
+            10,
+            20,
+            30
+          ]
+        },
+        "filter_target": "true",
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "10",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "exact_code"
+      },
+      "normal": {
+        "name": "confirmed_binary_alias",
+        "data": {
+          "group": [
+            true,
+            1,
+            "yes"
+          ],
+          "age": [
+            10,
+            20,
+            30
+          ]
+        },
+        "filter_target": true,
+        "reported_value": 20,
+        "expected_selected_indices": [
+          0,
+          1,
+          2
+        ],
+        "semantic_expected_value": "20",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "binary_alias"
+      }
+    },
+    {
+      "id": "N05",
+      "topic": "null/NaN/inf 평균 보호 경계",
+      "severity_if_observed": "보호 동작 확인",
+      "attack": {
+        "name": "null_value",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "age": [
+            10,
+            null
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 10,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": null,
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "should_block": true
+      },
+      "attack_variants": [
+        {
+          "name": "nan_value",
+          "data": {
+            "group": [
+              "A",
+              "A"
+            ],
+            "age": [
+              10,
+              {
+                "special": "nan"
+              }
+            ]
+          },
+          "filter_target": "A",
+          "reported_value": 10,
+          "expected_selected_indices": [
+            0,
+            1
+          ],
+          "semantic_expected_value": null,
+          "method": "mean",
+          "tolerance": 0,
+          "missing_policy": "error",
+          "should_block": true
+        },
+        {
+          "name": "inf_value",
+          "data": {
+            "group": [
+              "A",
+              "A"
+            ],
+            "age": [
+              10,
+              {
+                "special": "inf"
+              }
+            ]
+          },
+          "filter_target": "A",
+          "reported_value": 10,
+          "expected_selected_indices": [
+            0,
+            1
+          ],
+          "semantic_expected_value": null,
+          "method": "mean",
+          "tolerance": 0,
+          "missing_policy": "error",
+          "should_block": true
+        }
+      ],
+      "normal": {
+        "name": "finite_mean",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "age": [
+            10,
+            20
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 15,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "15",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error"
+      }
+    },
+    {
+      "id": "N06",
+      "topic": "빈 집단의 row_count=0 범위",
+      "severity_if_observed": "P2 정상 0건 처리 정책 차이",
+      "attack": {
+        "name": "zero_selected_rows",
+        "data": {
+          "group": [
+            "A"
+          ],
+          "age": [
+            10
+          ]
+        },
+        "filter_target": "B",
+        "reported_value": 0,
+        "expected_selected_indices": [],
+        "semantic_expected_value": "0",
+        "method": "row_count",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "zero_is_valid_for_defined_row_count": true
+      },
+      "normal": {
+        "name": "one_selected_row",
+        "data": {
+          "group": [
+            "A"
+          ],
+          "age": [
+            10
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 1,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "1",
+        "method": "row_count",
+        "tolerance": 0,
+        "missing_policy": "error"
+      }
+    },
+    {
+      "id": "N07",
+      "topic": "유한 입력 평균의 중간 합 overflow",
+      "severity_if_observed": "P2 계산 가능 입력 거절",
+      "attack": {
+        "name": "finite_true_mean_overflow",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "age": [
+            1e+308,
+            1e+308
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 1e+308,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "1E+308",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error"
+      },
+      "normal": {
+        "name": "finite_without_overflow",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "age": [
+            1e+307,
+            1e+307
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 1e+307,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "1E+307",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error"
+      }
+    },
+    {
+      "id": "N08",
+      "topic": "거대 정수 평균과 보고 정수의 float 비교",
+      "severity_if_observed": "P1 정확 오차 1을 차이 0으로 계산",
+      "attack": {
+        "name": "integer_exact_mean",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "age": [
+            9007199254740992,
+            9007199254740994
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 9007199254740993,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "9007199254740993",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error"
+      },
+      "normal": {
+        "name": "small_integer_exact_mean",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "age": [
+            2,
+            4
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 3,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "3",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error"
+      }
+    },
+    {
+      "id": "N09",
+      "topic": "동일 참가자 중복행의 평균 가중 변화",
+      "severity_if_observed": "P1 관측 단위 입력 위험",
+      "attack": {
+        "name": "duplicate_person_weight",
+        "data": {
+          "group": [
+            "A",
+            "A",
+            "A"
+          ],
+          "person": [
+            "p1",
+            "p1",
+            "p2"
+          ],
+          "age": [
+            10,
+            10,
+            20
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 13.333333333333334,
+        "expected_selected_indices": [
+          0,
+          1,
+          2
+        ],
+        "semantic_expected_value": "15",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "one_record_per_individual"
+      },
+      "normal": {
+        "name": "one_row_each_person",
+        "data": {
+          "group": [
+            "A",
+            "A"
+          ],
+          "person": [
+            "p1",
+            "p2"
+          ],
+          "age": [
+            10,
+            20
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 15,
+        "expected_selected_indices": [
+          0,
+          1
+        ],
+        "semantic_expected_value": "15",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "semantics": "one_record_per_individual"
+      }
+    },
+    {
+      "id": "N10",
+      "topic": "명시 허용오차 0과 숨은 절대오차 1e-12",
+      "severity_if_observed": "P2 허용오차 계약 정책",
+      "attack": {
+        "name": "nonzero_with_zero_tolerance",
+        "data": {
+          "group": [
+            "A"
+          ],
+          "age": [
+            5e-13
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 0,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "5E-13",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "expected_within_tolerance": false
+      },
+      "normal": {
+        "name": "exact_zero",
+        "data": {
+          "group": [
+            "A"
+          ],
+          "age": [
+            0
+          ]
+        },
+        "filter_target": "A",
+        "reported_value": 0,
+        "expected_selected_indices": [
+          0
+        ],
+        "semantic_expected_value": "0",
+        "method": "mean",
+        "tolerance": 0,
+        "missing_policy": "error",
+        "expected_within_tolerance": true
+      }
+    }
+  ]
+}

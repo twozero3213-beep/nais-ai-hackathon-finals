@@ -1,0 +1,403 @@
+{
+  "version": 0,
+  "git_revision": "d8d952b43eff8ab416421da8f0f431a64e8b9241",
+  "started_at_kst": "2026-10-01T05:25:15.405275+09:00",
+  "finished_at_kst": "2026-10-01T05:25:25.279809+09:00",
+  "protocol_sha256": "80e4d01550b28fb70d2a555585f88a090dc42c6335150f2d0f7b656f58cad436",
+  "actual_module_sha256": "c73d5c28be29f73bab70a167fb71655cd359b7d3a649a06e0d82b9cdb2190889",
+  "actual_function_nodes": {
+    "_sha": {
+      "start_line": 37,
+      "end_line": 38,
+      "ast_sha256": "46a5b25d6b63bab3cc8677273328d9eb914226789175ce27b78c93c1ad7bb6d8"
+    },
+    "_canonical": {
+      "start_line": 41,
+      "end_line": 42,
+      "ast_sha256": "9cd7e2295f695acdee4e0b1377c518bbe2410f1cb90a5789fdb5891554ba13db"
+    },
+    "text_key": {
+      "start_line": 48,
+      "end_line": 56,
+      "ast_sha256": "38b77569a8966c1d69127c585dd4ab8158211edad0282532c6c0f60bee391943"
+    },
+    "_safe_path": {
+      "start_line": 59,
+      "end_line": 63,
+      "ast_sha256": "68c57854b9eafedd3301ae739cd7eadc4777c2cc5e50b4c95eceab4f51e00767"
+    },
+    "_registered_claims": {
+      "start_line": 66,
+      "end_line": 68,
+      "ast_sha256": "907ce437c0a7d6170d63fa5a795b4a7bb2e15e7c6621271c9d0efeadae69bb93"
+    },
+    "_selected_count": {
+      "start_line": 71,
+      "end_line": 78,
+      "ast_sha256": "8a6b32542716b1e4c584d09ba37e800479a0350d406188cd4b152eb4b268e430"
+    },
+    "_proposal": {
+      "start_line": 81,
+      "end_line": 92,
+      "ast_sha256": "0b1b7a2d48c527ca09ec54518aa95f7ab8fb73c6dd265474632f6d42f016b5cf"
+    },
+    "load_case": {
+      "start_line": 99,
+      "end_line": 143,
+      "ast_sha256": "9e22b19a4e04fac87b4dd30bc76f2865b59fa3aeb3d0fbbef52e618d67911640"
+    }
+  },
+  "execution_method": "Unmodified AST nodes compiled with source line numbers; synthetic REPO_ROOT only; exact core.normalization import",
+  "network_calls": 0,
+  "paid_calls": 0,
+  "cases": [
+    {
+      "case_id": "SG-NORMAL-PARAGRAPH",
+      "kind": "normal",
+      "executed_at_kst": "2026-10-01T05:25:24.916840+09:00",
+      "actual_source_gate": true,
+      "desired_stronger_gate": true,
+      "meets_stronger_location_semantic_expectation": true,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "source_location": "Methods/p-A",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": true,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-NORMAL-TABLE",
+      "kind": "normal",
+      "executed_at_kst": "2026-10-01T05:25:25.009256+09:00",
+      "actual_source_gate": true,
+      "desired_stronger_gate": true,
+      "meets_stronger_location_semantic_expectation": true,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "source_location": "Table/T-A/caption",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": true,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Table/T-A/caption",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-WRONG-LOCATION",
+      "kind": "attack",
+      "executed_at_kst": "2026-10-01T05:25:25.043479+09:00",
+      "actual_source_gate": true,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": false,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "source_location": "Methods/p-B",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": false,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-B",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-OTHER-TABLE-QUOTE",
+      "kind": "attack",
+      "executed_at_kst": "2026-10-01T05:25:25.119098+09:00",
+      "actual_source_gate": true,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": false,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "source_location": "Table/T-A/caption",
+      "source_quote": "For Experiment B, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": false,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment B, the mean age of two individual participants was 15 years.",
+        "source_location": "Table/T-A/caption",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-WRONG-SOURCE-HASH",
+      "kind": "negative_control",
+      "executed_at_kst": "2026-10-01T05:25:25.136333+09:00",
+      "actual_source_gate": false,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": true,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "source_location": "Methods/p-A",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": true,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-QUOTE-ABSENT",
+      "kind": "negative_control",
+      "executed_at_kst": "2026-10-01T05:25:25.168708+09:00",
+      "actual_source_gate": false,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": true,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "source_location": "Methods/p-A",
+      "source_quote": "ABSENT QUOTE: the true value is 999 years.",
+      "quote_at_declared_location_by_presealed_fixture": false,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "ABSENT QUOTE: the true value is 999 years.",
+        "source_location": "Methods/p-A",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-WRONG-DATA-HASH",
+      "kind": "negative_control",
+      "executed_at_kst": "2026-10-01T05:25:25.186487+09:00",
+      "actual_source_gate": false,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": true,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "registered_data_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "source_location": "Methods/p-A",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": true,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-WRONG-EXPERIMENT",
+      "kind": "provenance_boundary",
+      "executed_at_kst": "2026-10-01T05:25:25.225401+09:00",
+      "actual_source_gate": true,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": false,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7",
+      "registered_data_sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7",
+      "source_location": "Methods/p-A",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": true,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 15,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "method": "mean",
+        "column": "age_years",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "years",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 2,
+      "actual_experiments": [
+        "B"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    },
+    {
+      "case_id": "SG-ROWS-NOT-PEOPLE",
+      "kind": "unit_boundary",
+      "executed_at_kst": "2026-10-01T05:25:25.278451+09:00",
+      "actual_source_gate": true,
+      "desired_stronger_gate": false,
+      "meets_stronger_location_semantic_expectation": false,
+      "actual_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "registered_source_sha256": "864254f8f86c7b97c397bf3cdbea5fbc64a3834b7ef85c589a5d5cf66e9cb982",
+      "actual_data_sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26",
+      "registered_data_sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26",
+      "source_location": "Methods/p-A",
+      "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+      "quote_at_declared_location_by_presealed_fixture": true,
+      "manual_proposal": {
+        "claim_text": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "reported_value": 2,
+        "source_quote": "For Experiment A, the mean age of two individual participants was 15 years.",
+        "source_location": "Methods/p-A",
+        "method": "row_count",
+        "column": "__dataset__",
+        "filters": [],
+        "denominator": {
+          "rule": "all_rows",
+          "expected_n": 2
+        },
+        "missing_policy": "error",
+        "unit": "individuals",
+        "tolerance": 0
+      },
+      "original_rows": 2,
+      "actual_unique_people": 1,
+      "actual_experiments": [
+        "A"
+      ],
+      "model_called": false,
+      "human_approval_called": false
+    }
+  ],
+  "scope": "load_case source_gate and generated proposal only; no pipeline final approval, UI mutation, model, provider or private DB",
+  "limitations": [
+    "Synthetic new registry authored by auditor, not existing UI registration mutation.",
+    "source_gate=True is not final scientific validation or human approval.",
+    "No final approval function, model, existing registered case, private database or secret file was invoked/read."
+  ]
+}

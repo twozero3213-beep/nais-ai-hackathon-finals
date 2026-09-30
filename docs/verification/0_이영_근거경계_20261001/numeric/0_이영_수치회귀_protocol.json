@@ -1,0 +1,23 @@
+{
+  "_change_note": "[0 이영] 버전0: 수정 전 실패해야 하는 정밀도 교정 기대를 실행 전 봉인한다.",
+  "sealed_at_kst": "2026-10-01T05:33:32+09:00",
+  "commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "source_sha256": {
+    "core/normalization.py": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+    "core/verifier.py": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+    "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+    "core/typed_contracts.py": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04",
+    "finals/finals_pipeline.py": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97"
+  },
+  "script_sha256": "fba0526c81b3a893a6ba0ab8db5d63801d42dbf7de9a009fc4cac284b13fb659",
+  "expected_current_source": {
+    "large_odd_mean_tests": 2,
+    "zero_tolerance_tests": 2,
+    "sub_floor_tolerance_tests": 2,
+    "distinct_large_integer_filter_test": 1,
+    "normal_controls": 5,
+    "expected_current_failures": 7,
+    "expected_current_passes": 5
+  },
+  "limits": "synthetic source_gate/human-confirmed inputs only; no loader/UI/approval/model/network/key execution"
+}

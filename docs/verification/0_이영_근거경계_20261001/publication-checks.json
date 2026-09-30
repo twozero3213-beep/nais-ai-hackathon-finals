@@ -1,0 +1,19 @@
+{
+  "_change_note": "[0 이영] Public synthetic package validation; product behavior is covered only by the linked experiments.",
+  "contributor_version": 0,
+  "checked_at_kst": "2026-10-01T05:44:31.645276+09:00",
+  "files_checked": 128,
+  "json_files_checked": 104,
+  "status": "PASS",
+  "failures": [],
+  "checks": [
+    "JSON parse",
+    "Python parse",
+    "selected private path/secret patterns",
+    "local Markdown links",
+    "published manifests",
+    "sealed protocol",
+    "component runner",
+    "exact staged Git bytes"
+  ]
+}

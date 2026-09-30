@@ -1,0 +1,135 @@
+{
+  "version": 0,
+  "created_at_kst": "2026-10-01T05:35:07.5032632+09:00",
+  "publication_status": "public-copy eligible, not published by this agent",
+  "scope": "pipeline folder only; newly authored synthetic fixtures and actual manual observations",
+  "private_absolute_paths_email_key_forms": 0,
+  "git_revision": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "model_calls": 0,
+  "external_api_calls": 0,
+  "human_approval_calls": 0,
+  "byte_preservation": "Original Windows CRLF in executed JSON/sidecar must be preserved; use no-text-transform for public artifact subtree and compare actual Git blob SHA256.",
+  "files": [
+    {
+      "relative_path": "0_이영_artifact_verification.json",
+      "sha256": "fe58a45bf7370b8a3d1bb16f5102d0cd98a84f2c02f52e2e021f4361e4498ab6",
+      "bytes": 666,
+      "crlf_occurrences": 14
+    },
+    {
+      "relative_path": "0_이영_pipeline_audit.py",
+      "sha256": "47e481592b75379c310e3bf774a0ed767380cc774a9fd6e159027117066945e8",
+      "bytes": 15870,
+      "crlf_occurrences": 0
+    },
+    {
+      "relative_path": "0_이영_pipeline_protocol.json",
+      "sha256": "d8f526a363bd55a3bc1a48a9878cd6f0c6c7164fa4bd6709164e770a1c9804eb",
+      "bytes": 18479,
+      "crlf_occurrences": 398
+    },
+    {
+      "relative_path": "0_이영_pipeline_protocol.sha256",
+      "sha256": "2c0ab9e29fb8d3b45857c55726398e1911e6cef4bef6f5830399528ab8e99b2a",
+      "bytes": 66,
+      "crlf_occurrences": 1
+    },
+    {
+      "relative_path": "0_이영_pipeline_results.json",
+      "sha256": "fcf657ebec2b7ab30b8776ebd4f05bfe36853a06b8d5d663022fb2998c61ec9c",
+      "bytes": 51376,
+      "crlf_occurrences": 1426
+    },
+    {
+      "relative_path": "CHANGELOG.md",
+      "sha256": "1de87fce247899d0837221dfcac57a51442fed68033df57a2eac926702f57a10",
+      "bytes": 1286,
+      "crlf_occurrences": 0
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "5869a12091e05843c84979131b62022e1aab795d305d29089d9fe290a9829211",
+      "bytes": 8477,
+      "crlf_occurrences": 0
+    },
+    {
+      "relative_path": "reports/PL-NORMAL-PARAGRAPH.json",
+      "sha256": "51fbc6a5600f0bfcf5268c2e5b236fa31f9738bc580ccf726cd24d947ff597d3",
+      "bytes": 10024,
+      "crlf_occurrences": 283
+    },
+    {
+      "relative_path": "reports/PL-NORMAL-TABLE.json",
+      "sha256": "b4ce1dc72585dbb9a2c37ab61c4a65d20d4ddd67ac06158d42dea6e6e5b64cc1",
+      "bytes": 10030,
+      "crlf_occurrences": 283
+    },
+    {
+      "relative_path": "reports/PL-OTHER-TABLE-QUOTE.json",
+      "sha256": "09a05474582be44509f69f754ef41baed10bf64f0839ccd588fadeac6d299e7a",
+      "bytes": 10045,
+      "crlf_occurrences": 283
+    },
+    {
+      "relative_path": "reports/PL-REGISTERED-LOCATION-CANDIDATE-CONTROL.json",
+      "sha256": "62ea28986731f52d17373eac88f2430d0adc053091a4b424de28b5cbea9dc666",
+      "bytes": 9745,
+      "crlf_occurrences": 271
+    },
+    {
+      "relative_path": "reports/PL-ROWS-NOT-PEOPLE.json",
+      "sha256": "f41ba97113d50874b7431aa1b86fbc448d3b840c205873ad9ddee908672bbb73",
+      "bytes": 9954,
+      "crlf_occurrences": 283
+    },
+    {
+      "relative_path": "reports/PL-WRONG-EXPERIMENT.json",
+      "sha256": "e55bc8ce273819aa4c98a592ff736593703005b3fc159c07ed741fcf70d4dbaa",
+      "bytes": 10024,
+      "crlf_occurrences": 283
+    },
+    {
+      "relative_path": "reports/PL-WRONG-LOCATION.json",
+      "sha256": "5a54068b35de40a5a61d3ae54c153174de03b26b620d0780341c8f5d6266b399",
+      "bytes": 10018,
+      "crlf_occurrences": 283
+    },
+    {
+      "relative_path": "synthetic_fixture/source_locations.json",
+      "sha256": "ffce299abef04e827cbcc4fee9d3b3267f8a9e76a8680ba149427d9eeaa1c435",
+      "bytes": 470,
+      "crlf_occurrences": 7
+    },
+    {
+      "relative_path": "synthetic_fixture/data/experiment_a.csv",
+      "sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+      "bytes": 52,
+      "crlf_occurrences": 0
+    },
+    {
+      "relative_path": "synthetic_fixture/data/experiment_b.csv",
+      "sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7",
+      "bytes": 51,
+      "crlf_occurrences": 0
+    },
+    {
+      "relative_path": "synthetic_fixture/data/repeated_visits.csv",
+      "sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26",
+      "bytes": 62,
+      "crlf_occurrences": 0
+    },
+    {
+      "relative_path": "synthetic_fixture/data/evaluation/public_reproduction_cases.json",
+      "sha256": "8d88f264a49673d47e16295e195e180e5eb0bac2c19e05378e9aff425d6346f5",
+      "bytes": 7409,
+      "crlf_occurrences": 152
+    },
+    {
+      "relative_path": "synthetic_fixture/source/document.txt",
+      "sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+      "bytes": 674,
+      "crlf_occurrences": 0
+    }
+  ],
+  "_change_note": "Post-execution public copy inventory only. Original protocol/results unchanged; no rerun or new model call."
+}

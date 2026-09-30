@@ -9,3 +9,9 @@
 # [수정: 0 이영 · Claude] 2026-10-01 01:52 KST — 이채우의 fixtures 항목 외에, 명세 예시와 팀 계획 산출물(지문 목록 대상)도 바이트를 보존한다.
 /evidence_gate/examples/** -text
 /docs/finals-strategy/** -text
+
+# [추가: 0 이영] 2026-10-01T05:42:25.043232+09:00 — 공개 합성 검증의 원 봉인 바이트와 이 파일의 기존 줄바꿈을 보존한다.
+/.gitattributes -text
+"/docs/verification/0_이영_근거경계_20261001/**" -text
+"/tools/0_이영_근거경계_재현.py" -text
+/tools/evidence_boundary_audit/** -text
