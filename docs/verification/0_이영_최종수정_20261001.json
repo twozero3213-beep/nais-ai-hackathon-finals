@@ -1,0 +1,47 @@
+{
+  "contributor_version": 0,
+  "recorded_at_kst": "2026-10-01T07:51:16.8574968+09:00",
+  "_change_note": "최종10분+연장 검증 실제 결과를 각각 기록; 실패 원로그와 시험 교정 이유 보존",
+  "approval_fix_commit": "2f7400b",
+  "core_numeric": {
+    "seconds": 16.53,
+    "passed": 36
+  },
+  "finals_numeric": {
+    "seconds": 6.98,
+    "passed": 5
+  },
+  "approval_pipeline_provenance": {
+    "files": [
+      "finals/tests/test_0_이영_approval_result_integrity.py",
+      "finals/tests/test_0_이영_approved_payload_refresh.py",
+      "finals/tests/test_finals_pipeline.py",
+      "finals/tests/test_3_stage_provenance.py"
+    ],
+    "seconds": 198.93,
+    "passed": 61
+  },
+  "metadata": {
+    "json_files": 149,
+    "status": "PASS",
+    "checked_at_kst": "2026-10-01T07:51:38+09:00"
+  },
+  "test_corrections": [
+    "Decimal counterexample expected exception corrected to preserved false decision; original35pass1fail",
+    "policy field corrected to numeric_policy; original37pass4fail"
+  ],
+  "model_calls": 0,
+  "real_human_decisions": 0,
+  "web_observation": {
+    "value": 344,
+    "reported": 344,
+    "code_commit": "9d6c1effe26aba21004fa7dae4dbc37275440333",
+    "final_patch_deployment": "PENDING",
+    "delta": 0,
+    "human_approved": false,
+    "at_kst": "2026-10-01T07:47:50+09:00"
+  },
+  "limits": "Separate test batches; no summed score, full current-suite rerun, semantic proof, AI16 or paper-wide reproduction claim",
+  "product_fix_commit": "c9d96f5",
+  "verified_remote_commit": "e13beadf606d5c3c341327e98b3ac48c95aee9aa"
+}
