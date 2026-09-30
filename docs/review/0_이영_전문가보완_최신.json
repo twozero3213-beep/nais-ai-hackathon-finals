@@ -1,8 +1,8 @@
 {
-  "_change_note": "2026-10-01T06:05:50+09:00 0 이영 Codex: 사용자65분 최종화 한도 및 새 합성 경계 검증의 조치 반영. 기존 모의점수는 새 공격 전체 재채점 전 기준으로 보존.",
+  "_change_note": "2026-10-01T07:43:18+09:00 0 이영 Codex: 기존 내부척도 유지. 보호/발표 증거 가점과 승인/수치 결함 감점을 함께 반영. 공식 점수 아님.",
   "recorded_at_kst": "2026-10-01T05:38:43+09:00",
-  "document_updated_at_kst": "2026-10-01T06:05:50+09:00",
-  "reviewed_commit": "68cee569a6cc0a00103ff0d85b6b3d713634b928",
+  "document_updated_at_kst": "2026-10-01T07:43:18+09:00",
+  "reviewed_commit": "c4de607675c22730fcbe0f2d0e8805b45cb7bce9",
   "contributor": {
     "name": "이영",
     "version": 0
@@ -20,7 +20,7 @@
   "official_notice_page": 3,
   "scoring_assumption": "공식 세부문항 배점은 제공되지 않음. 내부0~5점·0.5단위 평점, 항목 내 균등 가중 후 공식배점 환산. 문서/기능 추가만으로 자동 가점하지 않음.",
   "score": 66.0,
-  "score_as_of_kst": "2026-10-01T05:52:29+09:00",
+  "score_as_of_kst": "2026-10-01T07:43:18+09:00",
   "delta_from_previous": 0.0,
   "categories": [
     {
@@ -118,8 +118,8 @@
       "category": "활용성",
       "official_question": "개인정보 및 데이터 보호, 오남용 방지 장치나 안전장치가 마련되었는가?",
       "display_question": "개인정보 및 데이터 보호, 오남용 방지 장치나 안전장치가 마련되었는가?",
-      "rating_out_of_5": 3.0,
-      "current_reason": "68cee56에 후보/전송/승인/보고서/봉인 입력의 공통 인증값 검사와 실행지문 결속 반영. 코드 diff 직접확인. 05:50:58 원격 metadata 성공·제품CI 진행중, 정확한 배포반영 미확인. 통합 검증 대조 후 U2 재평가 예정.",
+      "rating_out_of_5": 3.5,
+      "current_reason": "68cee 공통 인증값 검사 원격 반영 및 통합 CI 성공 확인. 최신 main c4de607 CI도 성공. 실제 배포 보호 경계 전체 확인과 일반 개인정보 DLP는 미확인.",
       "required_evidence": "키 비노출, 공개 입력 범위·저장 정책, 호출 상한·권한, 임의 실행 금지, 승인 무효화 반례",
       "actions": [
         "R02"
@@ -143,8 +143,8 @@
       "category": "활용성",
       "official_question": "AI 활용의 차별성과 기술의 완성도가 우수한가?",
       "display_question": "AI 활용의 차별성과 기술의 완성도가 우수한가?",
-      "rating_out_of_5": 4,
-      "current_reason": "결정적 계산·원문/6조건 대조·지문 변경 차단을 구현. Cloud 저장/재열기 완주·실패복구 검증 부족.",
+      "rating_out_of_5": 3.5,
+      "current_reason": "결정적 검산·변경 차단은 실제 공개웹에서 재확인. d1 공개 합성 검증의 승인 반환 calculation/validation 변조 잔존은 c4de607까지 수정 미반영. 기존 수동 BAT 저장·재열기 기록은 있으나 최신 배포 동일성 미확인.",
       "required_evidence": "스키마·근거 검사·실패 복구·저장 재열기 완주, 입력 변경 시 승인 차단",
       "actions": [
         "R01",
@@ -206,8 +206,8 @@
       "category": "실현가능성",
       "official_question": "기술 구현 수준이 목표에 부합하는가?",
       "display_question": "기술 구현 수준이 목표에 부합하는가?",
-      "rating_out_of_5": 4.0,
-      "current_reason": "미확정 분모/단위/unresolved 보류·재열기 초기화·검토 결속 수정 유지. 통합240·후속55·결속11·UI20·상태9시험은 별개 PASS. a672 원격 Product/Team CI 둘 다 성공. 새 논문 종단/AI16 실측은 별도 미확인.",
+      "rating_out_of_5": 3.5,
+      "current_reason": "합성 정상 회귀와 보호 검사는 존재하나 큰 정수 정밀도·선언 허용오차 확대가 공개 검증에서 확인됨. c4de607까지 관련 함수 변경 없음. 수정후 정상/경계 회귀 영수증이 필요.",
       "required_evidence": "계약과 두 계산 경로의 정책 대응, 원문 위치·지문·방법 범위 및 회귀검증",
       "actions": [
         "R01",
@@ -219,8 +219,8 @@
       "category": "실현가능성",
       "official_question": "제한된 기간 내 구현 가능한 결과물을 제시하였는가?",
       "display_question": "제한된 기간 내 구현 가능한 결과물을 제시하였는가?",
-      "rating_out_of_5": 3,
-      "current_reason": "본선 작업기록·대본 및 main의 로컬 브라우저 데모 WEBM2개 존재. 영상 실제 재생/최종 제출 채택·최종 PPT/PDF·제출 영수증·실측 리허설·운영진 재사용 해석은 미확인.",
+      "rating_out_of_5": 3.5,
+      "current_reason": "c4de607에 6장/7장 PPTX·PDF 및 발표 대본 존재. 팀의7쪽 PDF 검수 PASS 영수증 확인. 직접 영상재생·실제 제출·발표 리허설은 미확인.",
       "required_evidence": "본선 중 실제 구현·통합·실행·제출 산출물과 과거 자료 원출처의 구분",
       "actions": [
         "R07"
@@ -309,7 +309,7 @@
         "U1"
       ],
       "title": "공통 인증값 검사 연결 후 통합 회귀·배포 확인",
-      "current_evidence": "68cee56에 후보/전송/승인/보고서/봉인 입력의 공통 인증값 검사와 실행지문 결속 반영. 코드 diff 직접확인. 05:50:58 원격 metadata 성공·제품CI 진행중, 정확한 배포반영 미확인. 통합 검증 대조 후 U2 재평가 예정. 담당 CHANGELOG는 전체1408PASS/1SKIP/1warning과 원격통합후UI41PASS를 각각 기록한다. 이번 심사위원이 재실행한 결과는 아니다.",
+      "current_evidence": "68cee 공통 인증값 검사 원격 반영 및 통합 CI 성공 확인. 최신 main c4de607 CI도 성공. 실제 배포 보호 경계 전체 확인과 일반 개인정보 DLP는 미확인.",
       "repository_paths": [
         "core/input_security.py",
         "finals/finals_pipeline.py",
@@ -318,7 +318,7 @@
         "finals/app.py",
         "finals/finals_provenance.py"
       ],
-      "status": "원격 코드 반영 확인 · 제품CI 진행중 관측 · 배포 미확인",
+      "status": "원격 코드·CI 성공 확인 · 실제 배포 보호 경계 전체 확인 대기",
       "minimum_changes": [
         "새 공통 검사 결속과 입력보안 실행지문 의존성을 유지한다. 기존 담당의 원회귀 영수증을 정확한 코드지문과 대조하고 진행 중 CI를 확인한다.",
         "새 배포에서 허용 공개입력·합성 차단·승인/보고서 경계를 확인하고 실제 비밀값은 사용하지 않는다."
@@ -485,14 +485,14 @@
         "F3"
       ],
       "title": "구현 증거에 맞는 발표3종과 짧은 실제 사용자 검증",
-      "current_evidence": "대본과 현재 main의 로컬 브라우저 WEBM2개 존재. 최종 PPT/PDF·영상 제출 채택·제출 영수증·5분발표/3분질의 실측·연구자 효과 측정은 미확인.",
+      "current_evidence": "c4de607에 6장/7장 PPTX·PDF 및 발표 대본 존재. 팀의7쪽 PDF 검수 PASS 영수증 확인. 직접 영상재생·실제 제출·발표 리허설은 미확인.",
       "repository_paths": [
         "docs/0_이영_본선실행안.md",
         "docs/verification/3_local_browser_demo_20261001.webm",
         "docs/verification/3_local_browser_demo_latest_main_20261001.webm",
         "docs/0_이영_출처기록.md"
       ],
-      "status": "자료 일부 존재 · 최종 제출/실측 미확인",
+      "status": "PPTX/PDF·대본 원격 존재 확인 · 실제 제출/리허설 미확인",
       "minimum_changes": [
         "연구문제→AI 개입→검산/보류→사람 판단→남은 범위를 최종 화면과 1:1로 연결한다.",
         "프로토타입·최종 발표파일·최종 영상의 경로/지문을 확정하고 발표기기에서 열림/재생/5분/3분을 실제 측정한다.",
@@ -612,10 +612,11 @@
   },
   "cadence": {
     "minutes": 3,
-    "until_kst": "2026-10-01T06:58:56+09:00",
+    "until_kst": "2026-10-01T07:45:25+09:00",
     "publish_when": "근거·상태·평가·보완안이 달라지면 검증 후 일반 push; 시각만 바뀌면 로컬/채팅 갱신",
     "official_submission_kst": "2026-10-01T09:20:00+09:00",
-    "finalization_start_kst": "2026-10-01T06:50:00+09:00"
+    "finalization_start_kst": "2026-10-01T07:35:25+09:00",
+    "status": "최종 점검 후 중지"
   },
   "review_boundaries": [
     "새 제품/모델 시험 없음",
@@ -740,6 +741,43 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  "final_review": {
+    "recorded_at_kst": "2026-10-01T07:43:18+09:00",
+    "reviewed_commit": "c4de607675c22730fcbe0f2d0e8805b45cb7bce9",
+    "public_web": "정상344·변경후재사용차단 직접 확인(07:40경)",
+    "deployment_sha": "미확인",
+    "remaining": [
+      "수치 정밀도·선언 허용오차 및 승인 반환 표시 보완",
+      "최신 main 배포 동일성 확인",
+      "봉인 AI16칸·최종 제출·실측 리허설"
+    ],
+    "score_changes": [
+      {
+        "id": "U2",
+        "before": 3.0,
+        "after": 3.5,
+        "reason": "68cee 공통 인증값 검사 원격 반영 및 통합 CI 성공 확인. 최신 main c4de607 CI도 성공. 실제 배포 보호 경계 전체 확인과 일반 개인정보 DLP는 미확인."
+      },
+      {
+        "id": "U4",
+        "before": 4,
+        "after": 3.5,
+        "reason": "결정적 검산·변경 차단은 실제 공개웹에서 재확인. d1 공개 합성 검증의 승인 반환 calculation/validation 변조 잔존은 c4de607까지 수정 미반영. 기존 수동 BAT 저장·재열기 기록은 있으나 최신 배포 동일성 미확인."
+      },
+      {
+        "id": "F2",
+        "before": 4.0,
+        "after": 3.5,
+        "reason": "합성 정상 회귀와 보호 검사는 존재하나 큰 정수 정밀도·선언 허용오차 확대가 공개 검증에서 확인됨. c4de607까지 관련 함수 변경 없음. 수정후 정상/경계 회귀 영수증이 필요."
+      },
+      {
+        "id": "F3",
+        "before": 3,
+        "after": 3.5,
+        "reason": "c4de607에 6장/7장 PPTX·PDF 및 발표 대본 존재. 팀의7쪽 PDF 검수 PASS 영수증 확인. 직접 영상재생·실제 제출·발표 리허설은 미확인."
       }
     ]
   }
