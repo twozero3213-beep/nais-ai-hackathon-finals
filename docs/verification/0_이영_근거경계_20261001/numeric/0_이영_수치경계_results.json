@@ -1,0 +1,4130 @@
+{
+  "_change_note": "[0 이영] 버전0: 사전 봉인 후 수정 없는 실제 함수 실행 결과. 합성 source_gate/human-confirmed 입력 전제를 최종 UI/실승인 결과로 전이하지 않는다.",
+  "started_at_kst": "2026-10-01T05:27:02+09:00",
+  "ended_at_kst": "2026-10-01T05:27:03+09:00",
+  "commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "protocol_sha256": "70c9b98f254a4c8663716d21f8978441e44918ed426e4fe183a96e2d3d27c713",
+  "script_sha256": "7fa5f9d79fe3eeffdb560fc6c7a23d08fd49faa2a3e865265ec45461f639fcaa",
+  "source_sha256": {
+    "core/normalization.py": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+    "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+    "core/typed_contracts.py": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04",
+    "core/models.py": "2f0526bb3366c410dd6834368cf3d4fa1f0244de9199e49eed8baadd15fdf9f4",
+    "core/verifier.py": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+    "core/semantic.py": "79680c81bdd52513a8684e63d672e600859e5f43b9c528edcd861f62a8989c4c",
+    "core/decision_provenance.py": "f78ed0772ff0d710bc3045ad5da2c98fae1bcd03229602dceb2ced905a545fb8",
+    "finals/finals_pipeline.py": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+    "finals/finals_cases.py": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+    "finals/finals_privacy.py": "90f115611e0d035c425b42a27b4dbfa56b11bcb83f925624f0442d04b8875435",
+    "finals/finals_provider.py": "912b700eb63b6113acb54aaddb454bd3fa1ea8463e7b233a9880b299c74efe0d",
+    "finals/finals_provenance.py": "c4d796df61295084d0f5b3232c441b8e7e70100041f37e175fbfe51b7930718c"
+  },
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "pandas": "3.0.4",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "jsonschema": "4.23.0"
+    }
+  },
+  "limits": {
+    "network_calls": 0,
+    "paid_ai_calls": 0,
+    "key_reads": 0,
+    "database_reads": 0,
+    "product_changes": 0,
+    "monkeypatches": 0,
+    "ui_executions": 0,
+    "approval_executions": 0,
+    "source_gate": "provided true as synthetic function precondition, not actual source verification",
+    "human_confirmation": "explicit Claim input precondition, not a real human approval event"
+  },
+  "source_hashes_unchanged": true,
+  "results": [
+    {
+      "pair_id": "N01",
+      "arm": "attack",
+      "name": "distinct_codes",
+      "topic": "문자 코드의 앞자리 0",
+      "at_kst": "2026-10-01T05:27:02+09:00",
+      "input_sha256": "a9c1b92b21b7edef5793afbc02480be63b8ecdc4f0c08bc7adc699641e4c2406",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": false,
+      "semantic_expected_value": "10",
+      "value_exactly_matches_semantic_oracle": false,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "01"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "01"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N01",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "a9c1b92b21b7edef5793afbc02480be63b8ecdc4f0c08bc7adc699641e4c2406",
+            "filters": [
+              {
+                "column": "group",
+                "value": "01"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 1,
+          "denominator_matches": false,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=01] · mean(age) · n=2 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N01",
+      "arm": "normal",
+      "name": "numeric_representation",
+      "topic": "문자 코드의 앞자리 0",
+      "at_kst": "2026-10-01T05:27:02+09:00",
+      "input_sha256": "1b556dca439dc43756b12427a5c27a25c47ceddcb1fc7ffe9bff926171a8cdac",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "20",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "1"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "1"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N01",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "1b556dca439dc43756b12427a5c27a25c47ceddcb1fc7ffe9bff926171a8cdac",
+            "filters": [
+              {
+                "column": "group",
+                "value": "1"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=1] · mean(age) · n=2 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N02",
+      "arm": "attack",
+      "name": "percent_is_distinct_code",
+      "topic": "퍼센트 문자열과 수치 1 혼용",
+      "at_kst": "2026-10-01T05:27:02+09:00",
+      "input_sha256": "f3aea742b081843ad84fae1bf1518034534efc33974c23f5383666e7b3a9e875",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": false,
+      "semantic_expected_value": "10",
+      "value_exactly_matches_semantic_oracle": false,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "1%"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "1%"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N02",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "f3aea742b081843ad84fae1bf1518034534efc33974c23f5383666e7b3a9e875",
+            "filters": [
+              {
+                "column": "group",
+                "value": "1%"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 1,
+          "denominator_matches": false,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=1%] · mean(age) · n=2 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N02",
+      "arm": "normal",
+      "name": "same_numeric_group",
+      "topic": "퍼센트 문자열과 수치 1 혼용",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "4946162dcca0cdfcfe3b99b802c8d3829d7b13fef1b642b030b0cb92374b5566",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "20",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "1"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "1"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N02",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "4946162dcca0cdfcfe3b99b802c8d3829d7b13fef1b642b030b0cb92374b5566",
+            "filters": [
+              {
+                "column": "group",
+                "value": "1"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=1] · mean(age) · n=2 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N03",
+      "arm": "attack",
+      "name": "large_integer_codes",
+      "topic": "2^53 이후 정수 식별자 충돌",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "4f3d1e9214913bade7200e16f1e43ea007b9677b1b38d4afbbfd382e5c04b951",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": false,
+      "semantic_expected_value": "10",
+      "value_exactly_matches_semantic_oracle": false,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "9007199254740992"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "9007199254740992"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N03",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "4f3d1e9214913bade7200e16f1e43ea007b9677b1b38d4afbbfd382e5c04b951",
+            "filters": [
+              {
+                "column": "group",
+                "value": "9007199254740992"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 1,
+          "denominator_matches": false,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=9007199254740992] · mean(age) · n=2 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N03",
+      "arm": "normal",
+      "name": "small_integer_codes",
+      "topic": "2^53 이후 정수 식별자 충돌",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "a61ef63a01f6adbe5204a957ac855f510da59fc410dbec624a8073fd0056ab17",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "10",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "2"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "2"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N03",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "a61ef63a01f6adbe5204a957ac855f510da59fc410dbec624a8073fd0056ab17",
+            "filters": [
+              {
+                "column": "group",
+                "value": "2"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          10.0,
+          {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 10.0,
+          "calculated_value": 10.0,
+          "reported_value": 10,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 1,
+          "expected_denominator": 1,
+          "denominator_matches": true,
+          "meta": {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=2] · mean(age) · n=1 · 보고 10 ↔ 재계산 10; 차이 0 ≤ 허용오차 0",
+          10.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N04",
+      "arm": "attack",
+      "name": "three_distinct_codes",
+      "topic": "boolean alias와 고유 문자열 코드",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "e0f22da7df34a78d8982682db9089e39ef0e7f3e6715c71c7b0d928b80c97405",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": false,
+      "semantic_expected_value": "10",
+      "value_exactly_matches_semantic_oracle": false,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "true"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "true"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N04",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "e0f22da7df34a78d8982682db9089e39ef0e7f3e6715c71c7b0d928b80c97405",
+            "filters": [
+              {
+                "column": "group",
+                "value": "true"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 3,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 3,
+          "expected_denominator": 1,
+          "denominator_matches": false,
+          "meta": {
+            "n": 3,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=true] · mean(age) · n=3 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N04",
+      "arm": "normal",
+      "name": "confirmed_binary_alias",
+      "topic": "boolean alias와 고유 문자열 코드",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "45768024149dd317dbc900bb10d447dc0613d2d497d8df024222928d3ac6dac7",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "expected_selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "20",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": true
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": true
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 3
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 3
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N04",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "45768024149dd317dbc900bb10d447dc0613d2d497d8df024222928d3ac6dac7",
+            "filters": [
+              {
+                "column": "group",
+                "value": true
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          20.0,
+          {
+            "n": 3,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 20.0,
+          "calculated_value": 20.0,
+          "reported_value": 20,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 3,
+          "expected_denominator": 3,
+          "denominator_matches": true,
+          "meta": {
+            "n": 3,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=True] · mean(age) · n=3 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0",
+          20.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N05",
+      "arm": "attack",
+      "name": "null_value",
+      "topic": "null/NaN/inf 평균 보호 경계",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "b1edad01c7d3965f1b42daaf9eae0931c0307ebc9e40a50ec14a8093199de1b2",
+      "input_dtypes": {
+        "group": "object",
+        "age": "float64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": null,
+      "value_exactly_matches_semantic_oracle": null,
+      "should_block": true,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N05",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "b1edad01c7d3965f1b42daaf9eae0931c0307ebc9e40a50ec14a8093199de1b2",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          10.0,
+          {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "MISSING_OR_NONNUMERIC_OBSERVATION",
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=1 · 보고 10 ↔ 재계산 10; 차이 0 ≤ 허용오차 0",
+          10.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N05",
+      "arm": "attack_variant",
+      "name": "nan_value",
+      "topic": "null/NaN/inf 평균 보호 경계",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "b1edad01c7d3965f1b42daaf9eae0931c0307ebc9e40a50ec14a8093199de1b2",
+      "input_dtypes": {
+        "group": "object",
+        "age": "float64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": null,
+      "value_exactly_matches_semantic_oracle": null,
+      "should_block": true,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N05",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "b1edad01c7d3965f1b42daaf9eae0931c0307ebc9e40a50ec14a8093199de1b2",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          10.0,
+          {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "MISSING_OR_NONNUMERIC_OBSERVATION",
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=1 · 보고 10 ↔ 재계산 10; 차이 0 ≤ 허용오차 0",
+          10.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N05",
+      "arm": "attack_variant",
+      "name": "inf_value",
+      "topic": "null/NaN/inf 평균 보호 경계",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "84ef53fbf64a847b408b7555f53fb5537038440386acf5358db0bbcaeaca5bb2",
+      "input_dtypes": {
+        "group": "object",
+        "age": "float64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": null,
+      "value_exactly_matches_semantic_oracle": null,
+      "should_block": true,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N05",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "84ef53fbf64a847b408b7555f53fb5537038440386acf5358db0bbcaeaca5bb2",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "수치형 입력에 무한대가 포함되어 있습니다.",
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "NONFINITE_OBSERVATION",
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "REVIEW",
+          "통계 재계산 실패: 수치형 입력에 무한대가 포함되어 있습니다.",
+          null
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N05",
+      "arm": "normal",
+      "name": "finite_mean",
+      "topic": "null/NaN/inf 평균 보호 경계",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "28109cbb20561e4f59237d4793c88539718f33621ceda01b0e1f0ac19eb4360e",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "15",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N05",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "28109cbb20561e4f59237d4793c88539718f33621ceda01b0e1f0ac19eb4360e",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          15.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 15.0,
+          "calculated_value": 15.0,
+          "reported_value": 15,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=2 · 보고 15 ↔ 재계산 15; 차이 0 ≤ 허용오차 0",
+          15.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N06",
+      "arm": "attack",
+      "name": "zero_selected_rows",
+      "topic": "빈 집단의 row_count=0 범위",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "365632b3a7123d5b2ae6bb50373c7de88e56a0e8feddb65173211ca293bb9f39",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [],
+      "expected_selected_indices": [],
+      "selection_matches": true,
+      "semantic_expected_value": "0",
+      "value_exactly_matches_semantic_oracle": null,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "row_count",
+              "registered": "row_count",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "__dataset__",
+              "registered": "__dataset__",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "B"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "B"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 0
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 0
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "individuals",
+              "registered": "individuals",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N06",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "365632b3a7123d5b2ae6bb50373c7de88e56a0e8feddb65173211ca293bb9f39",
+            "filters": [
+              {
+                "column": "group",
+                "value": "B"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "row_count",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "__dataset__",
+            "aggregation": "row_count",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          0.0,
+          {
+            "n": 0,
+            "expression": "row_count(all rows)",
+            "method": "row_count"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "NO_OBSERVATIONS_AFTER_FILTER",
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=B] · row_count(all rows) · n=0 · 보고 0 ↔ 재계산 0; 차이 0 ≤ 허용오차 0",
+          0.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N06",
+      "arm": "normal",
+      "name": "one_selected_row",
+      "topic": "빈 집단의 row_count=0 범위",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "365632b3a7123d5b2ae6bb50373c7de88e56a0e8feddb65173211ca293bb9f39",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "1",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "row_count",
+              "registered": "row_count",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "__dataset__",
+              "registered": "__dataset__",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "individuals",
+              "registered": "individuals",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N06",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "365632b3a7123d5b2ae6bb50373c7de88e56a0e8feddb65173211ca293bb9f39",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "row_count",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "__dataset__",
+            "aggregation": "row_count",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          1.0,
+          {
+            "n": 1,
+            "expression": "row_count(all rows)",
+            "method": "row_count"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 1.0,
+          "calculated_value": 1.0,
+          "reported_value": 1,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 1,
+          "expected_denominator": 1,
+          "denominator_matches": true,
+          "meta": {
+            "n": 1,
+            "expression": "row_count(all rows)",
+            "method": "row_count"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "row_count"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · row_count(all rows) · n=1 · 보고 1 ↔ 재계산 1; 차이 0 ≤ 허용오차 0",
+          1.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N07",
+      "arm": "attack",
+      "name": "finite_true_mean_overflow",
+      "topic": "유한 입력 평균의 중간 합 overflow",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "9389259117efa2ed82a685567a3911eaa2a113db554f064a3c0fb86f4ec6c0a3",
+      "input_dtypes": {
+        "group": "object",
+        "age": "float64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "1E+308",
+      "value_exactly_matches_semantic_oracle": null,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N07",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "9389259117efa2ed82a685567a3911eaa2a113db554f064a3c0fb86f4ec6c0a3",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "기술통계 결과를 유한하게 계산할 수 없습니다.",
+        "warnings": [
+          {
+            "category": "RuntimeWarning",
+            "message": "overflow encountered in reduce"
+          }
+        ]
+      },
+      "finals_calculate": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "기술통계 결과를 유한하게 계산할 수 없습니다.",
+        "warnings": [
+          {
+            "category": "RuntimeWarning",
+            "message": "overflow encountered in reduce"
+          }
+        ]
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "REVIEW",
+          "통계 재계산 실패: 기술통계 결과를 유한하게 계산할 수 없습니다.",
+          null
+        ],
+        "warnings": [
+          {
+            "category": "RuntimeWarning",
+            "message": "overflow encountered in reduce"
+          }
+        ]
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N07",
+      "arm": "normal",
+      "name": "finite_without_overflow",
+      "topic": "유한 입력 평균의 중간 합 overflow",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "ddf87cdeeca0750f19eb888f6ad2fdbb0f1aeb120bd3fda58019ac379a65b60f",
+      "input_dtypes": {
+        "group": "object",
+        "age": "float64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "1E+307",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N07",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "ddf87cdeeca0750f19eb888f6ad2fdbb0f1aeb120bd3fda58019ac379a65b60f",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          1e+307,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 1e+307,
+          "calculated_value": 1e+307,
+          "reported_value": 1e+307,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=2 · 보고 1e+307 ↔ 재계산 1e+307; 차이 0 ≤ 허용오차 0",
+          1e+307
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N08",
+      "arm": "attack",
+      "name": "integer_exact_mean",
+      "topic": "거대 정수 평균과 보고 정수의 float 비교",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "a37c66c229432e92ade0c44c156a00d9bd75bfd92dc7e06712aff3ce0b0bb375",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "9007199254740993",
+      "value_exactly_matches_semantic_oracle": false,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N08",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "a37c66c229432e92ade0c44c156a00d9bd75bfd92dc7e06712aff3ce0b0bb375",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          9007199254740992.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 9007199254740992.0,
+          "calculated_value": 9007199254740992.0,
+          "reported_value": 9007199254740993,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=2 · 보고 9.0072e+15 ↔ 재계산 9.0072e+15; 차이 0 ≤ 허용오차 0",
+          9007199254740992.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N08",
+      "arm": "normal",
+      "name": "small_integer_exact_mean",
+      "topic": "거대 정수 평균과 보고 정수의 float 비교",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "a618b1e6813b1cc09963d2fb819a71763b69ecf83516e2b2a7814dd5498ac905",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "3",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N08",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "a618b1e6813b1cc09963d2fb819a71763b69ecf83516e2b2a7814dd5498ac905",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          3.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 3.0,
+          "calculated_value": 3.0,
+          "reported_value": 3,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=2 · 보고 3 ↔ 재계산 3; 차이 0 ≤ 허용오차 0",
+          3.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N09",
+      "arm": "attack",
+      "name": "duplicate_person_weight",
+      "topic": "동일 참가자 중복행의 평균 가중 변화",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "53924f15118538901f1755d4be475af013c6c117bc9e08d6e8fe1ed86d61c58d",
+      "input_dtypes": {
+        "group": "object",
+        "person": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "expected_selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "15",
+      "value_exactly_matches_semantic_oracle": false,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 3
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 3
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N09",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "53924f15118538901f1755d4be475af013c6c117bc9e08d6e8fe1ed86d61c58d",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          13.333333333333334,
+          {
+            "n": 3,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 13.333333333333334,
+          "calculated_value": 13.333333333333334,
+          "reported_value": 13.333333333333334,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 3,
+          "expected_denominator": 3,
+          "denominator_matches": true,
+          "meta": {
+            "n": 3,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=3 · 보고 13.3333 ↔ 재계산 13.3333; 차이 0 ≤ 허용오차 0",
+          13.333333333333334
+        ],
+        "warnings": []
+      },
+      "individual_count": 2
+    },
+    {
+      "pair_id": "N09",
+      "arm": "normal",
+      "name": "one_row_each_person",
+      "topic": "동일 참가자 중복행의 평균 가중 변화",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "305152e889c24c9876e554374330b0cc0955c8f6aeb2bd9b38319a8fea6aad1a",
+      "input_dtypes": {
+        "group": "object",
+        "person": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0,
+        1
+      ],
+      "expected_selected_indices": [
+        0,
+        1
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "15",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": null,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 2
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N09",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "305152e889c24c9876e554374330b0cc0955c8f6aeb2bd9b38319a8fea6aad1a",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          15.0,
+          {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 15.0,
+          "calculated_value": 15.0,
+          "reported_value": 15,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 2,
+          "expected_denominator": 2,
+          "denominator_matches": true,
+          "meta": {
+            "n": 2,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=2 · 보고 15 ↔ 재계산 15; 차이 0 ≤ 허용오차 0",
+          15.0
+        ],
+        "warnings": []
+      },
+      "individual_count": 2
+    },
+    {
+      "pair_id": "N10",
+      "arm": "attack",
+      "name": "nonzero_with_zero_tolerance",
+      "topic": "명시 허용오차 0과 숨은 절대오차 1e-12",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "4b059919c8fe40cf38104387ae7df2eaf4afc2eeab74a2ed238f9e0b38fe41ee",
+      "input_dtypes": {
+        "group": "object",
+        "age": "float64"
+      },
+      "selected_indices": [
+        0
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "5E-13",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": false,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N10",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "4b059919c8fe40cf38104387ae7df2eaf4afc2eeab74a2ed238f9e0b38fe41ee",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          5e-13,
+          {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 5e-13,
+          "calculated_value": 5e-13,
+          "reported_value": 0,
+          "delta": 5e-13,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 1,
+          "expected_denominator": 1,
+          "denominator_matches": true,
+          "meta": {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=1 · 보고 0 ↔ 재계산 5e-13; 차이 5e-13 ≤ 허용오차 0",
+          5e-13
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    },
+    {
+      "pair_id": "N10",
+      "arm": "normal",
+      "name": "exact_zero",
+      "topic": "명시 허용오차 0과 숨은 절대오차 1e-12",
+      "at_kst": "2026-10-01T05:27:03+09:00",
+      "input_sha256": "6220905fd072f07c17acdc14118e006448d459b100e9bed49eaaf920b5745716",
+      "input_dtypes": {
+        "group": "object",
+        "age": "int64"
+      },
+      "selected_indices": [
+        0
+      ],
+      "expected_selected_indices": [
+        0
+      ],
+      "selection_matches": true,
+      "semantic_expected_value": "0",
+      "value_exactly_matches_semantic_oracle": true,
+      "should_block": false,
+      "expected_within_tolerance": true,
+      "typed_contract_with_explicit_human_confirmation": {
+        "executable": true,
+        "missing": [],
+        "reason": "검증 계약 완성"
+      },
+      "case_source_gate_input_assumed": true,
+      "synthetic_case_validation": {
+        "ok": true,
+        "data": {
+          "valid": true,
+          "source_valid": true,
+          "schema_valid": true,
+          "six_conditions": [
+            {
+              "condition": "method",
+              "candidate": "mean",
+              "registered": "mean",
+              "match": true
+            },
+            {
+              "condition": "column",
+              "candidate": "age",
+              "registered": "age",
+              "match": true
+            },
+            {
+              "condition": "filters",
+              "candidate": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "registered": [
+                {
+                  "column": "group",
+                  "value": "A"
+                }
+              ],
+              "match": true
+            },
+            {
+              "condition": "denominator",
+              "candidate": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "registered": {
+                "rule": "filtered_rows",
+                "expected_n": 1
+              },
+              "match": true
+            },
+            {
+              "condition": "missing_policy",
+              "candidate": "error",
+              "registered": "error",
+              "match": true
+            },
+            {
+              "condition": "unit",
+              "candidate": "years",
+              "registered": "years",
+              "match": true
+            }
+          ],
+          "errors": [],
+          "human_semantic_confirmed": false,
+          "typed_contract": {
+            "claim_id": "N10",
+            "contract_type": "DESCRIPTIVE",
+            "source_page": null,
+            "source_quote": "Synthetic registered descriptive claim. Group and row meaning are defined by the sealed input dictionary.",
+            "dataset_name": "synthetic.csv",
+            "dataset_hash": "6220905fd072f07c17acdc14118e006448d459b100e9bed49eaaf920b5745716",
+            "filters": [
+              {
+                "column": "group",
+                "value": "A"
+              }
+            ],
+            "human_confirmed": false,
+            "method": "mean",
+            "method_confirmed": true,
+            "missing_policy": "error",
+            "missing_policy_confirmed": true,
+            "analysis_spec": {
+              "population": "unspecified",
+              "estimand": "unspecified",
+              "missing_policy": "error",
+              "variance_estimator": "unspecified",
+              "multiplicity_policy": "unspecified",
+              "multiplicity_count": 0,
+              "multiplicity_p_values": [],
+              "multiplicity_target_index": null,
+              "multiplicity_family_definition": "",
+              "reference_levels": {},
+              "interactions": [],
+              "transforms": {},
+              "human_confirmed": false
+            },
+            "variable": "age",
+            "aggregation": "mean",
+            "tolerance": 0,
+            "weight_column": "",
+            "success_value": "1",
+            "reference_value": 0.0,
+            "alpha": 0.05
+          },
+          "formal_contract": {
+            "executable": false,
+            "missing": [
+              "human semantic confirmation"
+            ],
+            "reason": "필수 근거 부족: human semantic confirmation"
+          }
+        },
+        "warnings": []
+      },
+      "pure_descriptive": {
+        "ok": true,
+        "data": [
+          0.0,
+          {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          }
+        ],
+        "warnings": []
+      },
+      "finals_calculate": {
+        "ok": true,
+        "data": {
+          "executed": true,
+          "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+          "value": 0.0,
+          "calculated_value": 0.0,
+          "reported_value": 0,
+          "delta": 0.0,
+          "tolerance": 0,
+          "within_tolerance": true,
+          "selected_rows": 1,
+          "expected_denominator": 1,
+          "denominator_matches": true,
+          "meta": {
+            "n": 1,
+            "expression": "mean(age)",
+            "method": "mean"
+          },
+          "engine": "core.statistics.descriptive",
+          "method": "mean"
+        },
+        "warnings": []
+      },
+      "core_verify_with_human_confirmation": {
+        "ok": true,
+        "data": [
+          "SUPPORTED",
+          "필터[group=A] · mean(age) · n=1 · 보고 0 ↔ 재계산 0; 차이 0 ≤ 허용오차 0",
+          0.0
+        ],
+        "warnings": []
+      },
+      "individual_count": null
+    }
+  ]
+}

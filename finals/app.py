@@ -20,7 +20,9 @@ for module_root in (AGENT_ROOT.parent, AGENT_ROOT):
 
 from finals_explain import calculation_summary, change_summary, reason_text, reasons, review_summary
 from finals_notice import APPROVAL_PRIVACY_NOTICE, DOCUMENT_REFERENCE, LIVE_TRANSFER_NOTICE, NOTICE_POINTS, NOTICE_TITLE
-from finals_privacy import describe, sensitive_kinds
+from finals_privacy import describe
+# [수정: 0 이영 · Codex] 2026-10-01T05:06:33+09:00 — 승인 사유의 명시 라벨 인증값도 백엔드와 같은 공통 검사로 차단한다. 원값은 화면에 표시하지 않는다.
+from core.input_security import sensitive_content_kinds
 from finals_provider import ProviderError, availability, complete_json, paid_call_allowed
 
 # [수정: 0 이영 · Claude] 2026-10-01 01:05 KST — 실행 기록(finals.pipeline)과 모듈 불러오기 오류를 서버 로그(Cloud 콘솔)로 내보낸다. 스크립트가 다시 실행돼도 핸들러는 한 번만 붙인다.
@@ -110,6 +112,8 @@ def reset_case(case_id):
 
 # [3 조지현 · 2026-10-01T04:14:33+09:00] 수정 이유: 심사 동선에서 AI 개입 지점과 사람 판단 지점, 실제 AI 응답의 영수증을 화면에 드러낸다. 계산·승인 정책은 그대로 둔다.
 STEP_ROLES = {"load":("불러오기","코드"), "proposal":("조건 후보","AI"), "validate":("형식·근거 검사","코드"), "recompute":("재계산","코드"), "critique":("비평","AI"), "human_approval":("최종 승인","사람")}
+# [3 조지현 · 2026-10-01T05:59:35+09:00] 수정 이유: 자료 변경 재검산·재열기·오류·일반 AI 단계가 영문 기계 이름(input_change_recheck 등)으로 화면에 노출됐다. 표시 이름만 더하고 단계 판정은 그대로 둔다.
+STEP_ROLES.update({"input_change_recheck":("자료 변경 확인","코드"), "report_reopen":("보고서 다시 열기","코드"), "error":("오류 처리","코드"), "general_ai_proposal":("일반 AI 제안","AI"), "general_ai_self_review":("일반 AI 자기 검토","AI")})
 
 
 def ai_used(report):
@@ -139,7 +143,7 @@ def render_roles(report):
     st.markdown("**누가 무엇을 했나**")
     cols = st.columns(len(steps))
     for col, item in zip(cols, steps):
-        name, who = STEP_ROLES.get(item.get("step"), (str(item.get("step")), "코드"))
+        name, who = STEP_ROLES.get(item.get("step"), ("추가 단계", "코드"))
         # [수정: 0 이영 · Codex] 2026-10-01T04:35:56+09:00 — AI가 조건을 제안했어도 실제 비평이 결정적 규칙 검사라면 이 단계의 수행자를 AI로 표시하지 않는다. 영수증·계산·승인 상태는 보존한다.
         critique = report.get("critique")
         if item.get("step") == "critique" and isinstance(critique, dict) and critique.get("source") == "deterministic":
@@ -150,6 +154,13 @@ def render_roles(report):
         status = item.get("status")
         mark = {"PENDING":"대기", "PASS":"통과", "BLOCKED":"보류", "FAIL":"실패", "NOT_RUN":"미실행", "INVALIDATED":"무효"}.get(status, str(status))
         icon = "✓" if status == "PASS" else ("⏳" if status == "PENDING" else ("!" if status in {"BLOCKED", "FAIL"} else "○"))
+        # [수정: 0 이영 · Codex] 2026-10-01T05:15:19+09:00 — 원격의 보류/실패 표시를 보존하면서 사람 확인 완료와 검토 필요를 따로 표시한다.
+        if status == "APPROVED":
+            mark, icon = "사람 확인 완료", "👤"
+        elif status == "REVIEW":
+            mark, icon = "검토 필요", "🔎"
+        elif status == "ERROR":
+            mark, icon = "오류", "!"
         col.caption(who)
         col.write(f"{icon} {name}")
         col.caption(mark)
@@ -457,9 +468,10 @@ with st.expander("4 검토 기록", expanded=step == 4):
             reason = st.text_area("승인 사유",key="fin_reason",height=100,placeholder="어떤 근거와 조건을 확인했는지 적어 주세요.")
             st.caption(APPROVAL_PRIVACY_NOTICE)
             # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:08:17+09:00 — 승인 사유의 개인정보 형태를 누르기 전에 알리고 승인 버튼을 막는다(파이프라인도 같은 검사로 거부한다).
-            reason_kinds = sensitive_kinds(reason)
+            reason_kinds = sensitive_content_kinds(reason)
             if reason_kinds:
-                st.warning(f"승인 사유에 {describe(reason_kinds)} 형태가 있습니다. 보고서 파일에 그대로 저장되므로 지우고 다시 적어 주세요.")
+                reason_description = "·".join("인증 값" if kind == "CREDENTIAL_ASSIGNMENT" else describe((kind,)) for kind in reason_kinds)
+                st.warning(f"승인 사유에 {reason_description} 형태가 있습니다. 보고서 파일에 그대로 저장되므로 지우고 다시 적어 주세요.")
             can_approve = step == 4 and report.get("can_approve") is True and not approved(report) and not reason_kinds
             # [01 이채우][작업번호 1] 승인 완료 후의 중복 승인 방지를 오류·근거 부족 안내와 구분한다.
             if approved(report):

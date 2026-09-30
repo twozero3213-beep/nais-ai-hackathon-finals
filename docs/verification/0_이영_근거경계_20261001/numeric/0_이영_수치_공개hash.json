@@ -1,0 +1,60 @@
+{
+  "_change_note": "[0 이영] 버전0: 공개할 숫자 실험 파일만 명시적으로 열거한다. 원 회귀 traceback 결과는 로컬 보존하고 공개 목록에서 제외한다.",
+  "generated_at_kst": "2026-10-01T05:41:05+09:00",
+  "commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "files": [
+    {
+      "path": "numeric/0_이영_수치경계_검증.py",
+      "sha256": "7fa5f9d79fe3eeffdb560fc6c7a23d08fd49faa2a3e865265ec45461f639fcaa",
+      "bytes": 18353
+    },
+    {
+      "path": "numeric/0_이영_수치경계_protocol.json",
+      "sha256": "70c9b98f254a4c8663716d21f8978441e44918ed426e4fe183a96e2d3d27c713",
+      "bytes": 15460
+    },
+    {
+      "path": "numeric/0_이영_수치경계_hash.json",
+      "sha256": "429ad32d25b199b04dac62ecafc307601f67c3c71d9a20e25bd82ddd84ca5c88",
+      "bytes": 329
+    },
+    {
+      "path": "numeric/0_이영_수치경계_results.json",
+      "sha256": "5c6001ab19c3a8467a12be854c24e86e6d71d2832c7c0791c32ac75f01397be7",
+      "bytes": 129256
+    },
+    {
+      "path": "numeric/0_이영_수치회귀_제안.py",
+      "sha256": "fba0526c81b3a893a6ba0ab8db5d63801d42dbf7de9a009fc4cac284b13fb659",
+      "bytes": 8107
+    },
+    {
+      "path": "numeric/0_이영_수치회귀_protocol.json",
+      "sha256": "33a8365476e44fc0184d3a9009cedb6e993a650588116121585ad69861248ace",
+      "bytes": 1239
+    },
+    {
+      "path": "numeric/0_이영_수치회귀_results_public.json",
+      "sha256": "3ab254a6bda7ef70ebfc5466d6c4ab2d8e4753d06905fe589f5b4c509a6d119e",
+      "bytes": 17499
+    },
+    {
+      "path": "numeric/0_이영_수치_공개준비.py",
+      "sha256": "7f5908099bdd55529c724479b70223ff451c706710ad367c38d34b62c8cc8acd",
+      "bytes": 3696
+    },
+    {
+      "path": "numeric/0_이영_수치경계_report.md",
+      "sha256": "ebb0d37357620e2744a53d0614521287c42a43b92ece28103861bab507a93dd4",
+      "bytes": 4571
+    },
+    {
+      "path": "numeric/0_이영_수치경계_패치제안.md",
+      "sha256": "022b03e634c2ad09005e45f55ac2446a40c29b9ac3a625102b710c810d807096",
+      "bytes": 9591
+    }
+  ],
+  "absolute_windows_paths_in_selected_files": 0,
+  "environment_fields": "Python implementation/version, Windows version, pandas/numpy/scipy/jsonschema versions; no hostname or username",
+  "raw_regression_result_excluded": true
+}

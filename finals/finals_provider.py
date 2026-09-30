@@ -12,10 +12,13 @@ import threading
 from time import perf_counter
 
 # [수정: 0 이영] 2026-10-01 02:08 KST — 같은 개인정보 검사를 package 연구 도우미와 standalone 본선 화면 모두에서 재사용한다.
-if __package__:
-    from .finals_privacy import sensitive_kinds
-else:
-    from finals_privacy import sensitive_kinds
+# [수정: 0 이영 · Codex] 2026-10-01T05:04:28+09:00 — package·standalone 진입점 모두 공통 라벨 인증값 검사를 불러온다. standalone에서는 저장소 루트만 모듈 검색 경로에 추가한다.
+if not __package__:
+    import sys
+    _REPO_ROOT = str(Path(__file__).resolve().parent.parent)
+    if _REPO_ROOT not in sys.path:
+        sys.path.insert(0, _REPO_ROOT)
+from core.input_security import sensitive_content_kinds
 
 PROVIDER = "openai"
 MODEL = "gpt-4.1-mini"
@@ -190,7 +193,8 @@ def complete_json(system, payload, schema=None, timeout=45, *, api_key=None, max
         raise ProviderError("INVALID_LOCAL_REQUEST")
     # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:08:17+09:00 — 외부 AI로 나가는 모든 본문의 단일 길목이다. 이메일·전화번호·주민등록번호·인증 값 형태가 있으면
     # 연결 전에 멈춘다(사용자가 붙여 넣은 원문·자료 때문에 개인정보가 제3자 API로 전송되는 것을 막는다). 값은 오류에 담지 않는다.
-    if sensitive_kinds(payload) or sensitive_kinds(system):
+    # [수정: 0 이영 · Codex] 2026-10-01T05:04:28+09:00 — password=/JSON 인증 라벨도 공통 판정으로 연결·예산 소비 전에 차단한다. 오류 코드는 고정하고 원문은 보존하지 않는다.
+    if sensitive_content_kinds(payload) or sensitive_content_kinds(system):
         raise ProviderError("PERSONAL_DATA_IN_OUTBOUND_PAYLOAD")
     text = json.dumps(payload, ensure_ascii=False, allow_nan=False, separators=(",", ":"))
     if key in text or key in system:

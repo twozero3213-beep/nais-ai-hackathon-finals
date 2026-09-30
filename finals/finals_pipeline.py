@@ -28,7 +28,8 @@ from finals_provenance import execution_snapshot
 # [수정: 0 이영 · Claude] 2026-09-30 23:56 KST — 공급자·모델 이름은 finals_provider 한 곳에서만 정한다(영수증 검사가 별도 상수를 들고 있어 모델을 바꾸면 모든 응답이 MODEL_RECEIPT_INVALID가 됐다).
 from finals_provider import MODEL, PROVIDER
 # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:08:17+09:00 — 개인정보·인증 값 탐지는 finals_privacy 한 곳에서 한다(후보·승인 사유·모델 출력·보고서 공통).
-from finals_privacy import is_public_text
+# [수정: 0 이영 · Codex] 2026-10-01T05:04:28+09:00 — 기존 형태 검사와 라벨 인증값을 합친 공통 입력 보안 경계를 재사용한다.
+from core.input_security import sensitive_content_kinds
 from core.models import Claim, Status
 from core.normalization import filter_mask
 from core.statistics import descriptive
@@ -109,7 +110,8 @@ def _strict_json(text: str):
 def _public_text(value) -> bool:
     # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:08:17+09:00 — 인증 값(sk-·Bearer)만 보던 검사를 이메일·전화번호·주민등록번호까지 넓혔다(finals_privacy).
     # 'task-…'처럼 단어 안의 sk-를 키로 오인하지 않는다.
-    return is_public_text(value)
+    # [수정: 0 이영 · Codex] 2026-10-01T05:04:28+09:00 — 라벨 인증값이 후보·모델 응답·승인 사유·보고서 반출입을 통과하지 않도록 기존 공통 검사를 재사용한다. 판정만 반환해 원문을 오류에 반사하지 않는다.
+    return not sensitive_content_kinds(value)
 
 
 def _commit() -> str:

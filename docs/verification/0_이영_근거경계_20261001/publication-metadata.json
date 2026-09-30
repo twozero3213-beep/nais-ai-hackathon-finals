@@ -1,0 +1,9 @@
+{
+  "contributor_version": 0,
+  "checked_at_kst": "2026-10-01T05:42:31+09:00",
+  "scope": "담당 번호·JSON 형식·선택된 KST 작업 필드·핵심 문서 링크·현재 제품 표기",
+  "json_files_checked": 144,
+  "status": "PASS",
+  "failures": [],
+  "limits": "앱 동작·날짜의 사실성·논문·LLM 성능을 검증한 결과가 아님"
+}

@@ -1,0 +1,398 @@
+{
+  "version": 0,
+  "created_at_kst": "2026-10-01T05:24:31.384588+09:00",
+  "code": {
+    "git_revision": "a6729178963392249b14c9dfbd93bf28704262a4",
+    "code_files": [
+      {
+        "git_path": "finals/finals_pipeline.py",
+        "sha256": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+        "git_object_sha256": "c68e0745efddf604dea9181e78d50fb698eb172f02c570ccd4eef4aa1d4a38a5",
+        "bytes": 40678,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "finals/finals_cases.py",
+        "sha256": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+        "git_object_sha256": "c73d5c28be29f73bab70a167fb71655cd359b7d3a649a06e0d82b9cdb2190889",
+        "bytes": 8635,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "finals/finals_provenance.py",
+        "sha256": "c4d796df61295084d0f5b3232c441b8e7e70100041f37e175fbfe51b7930718c",
+        "git_object_sha256": "83d61f5df5c1cb78561130077345614aa2bf44aff1eaef204057cc988c43d136",
+        "bytes": 2121,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "finals/finals_provider.py",
+        "sha256": "912b700eb63b6113acb54aaddb454bd3fa1ea8463e7b233a9880b299c74efe0d",
+        "git_object_sha256": "047b33d67910ea9eeb11581eef5101f6cc6b757d7808ece7133e2ccd8e73acf6",
+        "bytes": 14762,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "finals/finals_privacy.py",
+        "sha256": "90f115611e0d035c425b42a27b4dbfa56b11bcb83f925624f0442d04b8875435",
+        "git_object_sha256": "bbd454e62bcb7dd5365de9756db05c251d80015918397700faccb9e25fefc4a7",
+        "bytes": 3511,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/models.py",
+        "sha256": "2f0526bb3366c410dd6834368cf3d4fa1f0244de9199e49eed8baadd15fdf9f4",
+        "git_object_sha256": "b1e1885e0b8938066ffd5afe5c101b85eeffffe4567a288ed5ce4e28381a3901",
+        "bytes": 7332,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/normalization.py",
+        "sha256": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+        "git_object_sha256": "c1044d78e790467905262802a2ec8bfc25ef51d89dd77e17faaf4b1a16d9f63e",
+        "bytes": 2492,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/statistics.py",
+        "sha256": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+        "git_object_sha256": "a3426b318f9579a5dc4b129661a5809181254b824c47d04445240e9c3bf51a8d",
+        "bytes": 21732,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/typed_contracts.py",
+        "sha256": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04",
+        "git_object_sha256": "d3132b99d08c39e5e6ca9aa9ecd8adb03876a6f0e904d0d7d0261c39b6441926",
+        "bytes": 18418,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/verifier.py",
+        "sha256": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+        "git_object_sha256": "d3562f7a79d8815336ed338c9c6fb8f286f98eff32bb444836dea91cd2a61bc4",
+        "bytes": 9049,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/semantic.py",
+        "sha256": "79680c81bdd52513a8684e63d672e600859e5f43b9c528edcd861f62a8989c4c",
+        "git_object_sha256": "94a6e994f684899e0f215bf3d74eb23e1e7bbd72ce16ac1ab0b1b37b44e3b56c",
+        "bytes": 11780,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/provenance.py",
+        "sha256": "5470d3c3c9de6b1c05291b0a57536b8aecd08c0e1bd9d26b31f1c8d447019c9e",
+        "git_object_sha256": "07fca6cd1464b0c26f57b491aa8b2482bba4815c00d2c3eb6aee39e6cd95cf99",
+        "bytes": 1574,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/decision_provenance.py",
+        "sha256": "f78ed0772ff0d710bc3045ad5da2c98fae1bcd03229602dceb2ced905a545fb8",
+        "git_object_sha256": "5f41b1777d719f33b55e35771bc491db2cde11a5e4a9b841dbce1f25ae0d2b49",
+        "bytes": 1322,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      },
+      {
+        "git_path": "core/input_security.py",
+        "sha256": "244136f005fb5cd3718c96b2e72313dffcecbfe9f8683d4f2ee2bdda3ea61946",
+        "git_object_sha256": "a90a162439d7dc9619e83193c11686112e7ad13f3ab67ec32d208afa96707535",
+        "bytes": 3715,
+        "exact_git_object_bytes": false,
+        "checkout_difference": "CRLF_CHECKOUT_ONLY"
+      }
+    ],
+    "tracked_status_before": []
+  },
+  "environment": {
+    "python_version": "3.13.5",
+    "platform": "Windows",
+    "dependencies": {
+      "pandas": "3.0.4",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "jsonschema": "4.23.0",
+      "streamlit": "1.45.1",
+      "numexpr": "2.10.1"
+    },
+    "bytecode_writes_disabled": true
+  },
+  "runner_sha256": "47e481592b75379c310e3bf774a0ed767380cc774a9fd6e159027117066945e8",
+  "tests": [
+    {
+      "case_id": "PL-NORMAL-PARAGRAPH",
+      "kind": "normal",
+      "registered_item": {
+        "claim_text": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-NORMAL-PARAGRAPH"
+      },
+      "candidate_overrides": {},
+      "semantic_expectation": "NORMAL_SUPPORTED_PREVIEW",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": true,
+      "registered_quote_at_registered_location": true,
+      "data_actual_experiment": "A",
+      "data_actual_unique_people": 2
+    },
+    {
+      "case_id": "PL-NORMAL-TABLE",
+      "kind": "normal",
+      "registered_item": {
+        "claim_text": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "source_location": "Table/T-A/caption",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-NORMAL-TABLE"
+      },
+      "candidate_overrides": {},
+      "semantic_expectation": "NORMAL_SUPPORTED_PREVIEW",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": true,
+      "registered_quote_at_registered_location": true,
+      "data_actual_experiment": "A",
+      "data_actual_unique_people": 2
+    },
+    {
+      "case_id": "PL-WRONG-LOCATION",
+      "kind": "registration_boundary",
+      "registered_item": {
+        "claim_text": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "source_location": "Methods/p-B",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-WRONG-LOCATION"
+      },
+      "candidate_overrides": {},
+      "semantic_expectation": "LOCATION_SHOULD_NOT_CONFIRM_MEANING",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": false,
+      "registered_quote_at_registered_location": false,
+      "data_actual_experiment": "A",
+      "data_actual_unique_people": 2
+    },
+    {
+      "case_id": "PL-OTHER-TABLE-QUOTE",
+      "kind": "registration_boundary",
+      "registered_item": {
+        "claim_text": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "In Experiment B, two individual participants had a mean age of 15 years.",
+        "source_location": "Table/T-A/caption",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-OTHER-TABLE-QUOTE"
+      },
+      "candidate_overrides": {},
+      "semantic_expectation": "OTHER_TABLE_SHOULD_NOT_CONFIRM_TARGET_ANALYSIS",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": false,
+      "registered_quote_at_registered_location": false,
+      "data_actual_experiment": "A",
+      "data_actual_unique_people": 2
+    },
+    {
+      "case_id": "PL-WRONG-EXPERIMENT",
+      "kind": "registration_boundary",
+      "registered_item": {
+        "claim_text": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_b.csv",
+        "data_sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-WRONG-EXPERIMENT"
+      },
+      "candidate_overrides": {},
+      "semantic_expectation": "EXACT_B_HASH_DOES_NOT_BIND_A_EXPERIMENT",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": false,
+      "registered_quote_at_registered_location": true,
+      "data_actual_experiment": "B",
+      "data_actual_unique_people": 2
+    },
+    {
+      "case_id": "PL-ROWS-NOT-PEOPLE",
+      "kind": "registration_boundary",
+      "registered_item": {
+        "claim_text": "Experiment A contained 2 individual participants.",
+        "method": "count_rows",
+        "reported_value": 2,
+        "column": "",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/repeated_visits.csv",
+        "data_sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "Experiment A contained 2 individual participants.",
+        "source_location": "Methods/p-A-count",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-ROWS-NOT-PEOPLE"
+      },
+      "candidate_overrides": {},
+      "semantic_expectation": "TWO_VISIT_ROWS_DO_NOT_PROVE_TWO_PEOPLE",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": false,
+      "registered_quote_at_registered_location": true,
+      "data_actual_experiment": "A",
+      "data_actual_unique_people": 1
+    },
+    {
+      "case_id": "PL-REGISTERED-LOCATION-CANDIDATE-CONTROL",
+      "kind": "candidate_control",
+      "registered_item": {
+        "claim_text": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "method": "mean",
+        "reported_value": 15,
+        "column": "age_years",
+        "filters": {},
+        "delimiter": ",",
+        "missing_policy": "error",
+        "tolerance": 0,
+        "data_file": "data/experiment_a.csv",
+        "data_sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5",
+        "source_file": "source/document.txt",
+        "source_sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c",
+        "source_quote": "In Experiment A, two individual participants had a mean age of 15 years.",
+        "source_location": "Methods/p-A",
+        "source_kind": "article_extract",
+        "evidence_status": "SYNTHETIC_AUDITOR_DECLARED_REGISTRATION",
+        "paper_url": "https://example.invalid/synthetic-a",
+        "scope_note": "Synthetic registration written by auditor; no external acquisition or publisher authority.",
+        "claim_id": "PL-REGISTERED-LOCATION-CANDIDATE-CONTROL"
+      },
+      "candidate_overrides": {
+        "source_location": "Methods/p-B"
+      },
+      "semantic_expectation": "CANDIDATE_LOCATION_DIFFERS_FROM_ACCURATE_REGISTRY",
+      "desired_can_approve_if_location_and_data_meaning_are_claimed": false,
+      "registered_quote_at_registered_location": true,
+      "data_actual_experiment": "A",
+      "data_actual_unique_people": 2
+    }
+  ],
+  "input_files": [
+    {
+      "relative_path": "source/document.txt",
+      "sha256": "cf2a5834e421dfcb1b7f9cd2ec20994b1ef680652677c8cfc273347c78076b3c"
+    },
+    {
+      "relative_path": "data/experiment_a.csv",
+      "sha256": "4e91b494ddc603161faf640a8b137fa4f1a9b68d33bd7c8d5075517cfd3b18a5"
+    },
+    {
+      "relative_path": "data/experiment_b.csv",
+      "sha256": "12f3bd83c36a95419b1109fd6130b220b5ed34bd365ccef9d375b615cf404bd7"
+    },
+    {
+      "relative_path": "data/repeated_visits.csv",
+      "sha256": "deb9096215c168437aaa48fdd5fe44a6da46c05f2604dae39883fa107d5cee26"
+    },
+    {
+      "relative_path": "source_locations.json",
+      "sha256": "ffce299abef04e827cbcc4fee9d3b3267f8a9e76a8680ba149427d9eeaa1c435"
+    },
+    {
+      "relative_path": "data/evaluation/public_reproduction_cases.json",
+      "sha256": "8d88f264a49673d47e16295e195e180e5eb0bac2c19e05378e9aff425d6346f5"
+    }
+  ],
+  "data_root_overrides": {
+    "finals_cases.REPO_ROOT": "synthetic_fixture",
+    "finals_cases.AGENT_ROOT": "synthetic_fixture/finals",
+    "finals_cases.REGISTRY": "synthetic_fixture/data/evaluation/public_reproduction_cases.json",
+    "finals_pipeline.REPO_ROOT": "synthetic_fixture",
+    "finals_pipeline.AGENT_ROOT": "synthetic_fixture/finals"
+  },
+  "overrides_are_only_data_roots": true,
+  "business_functions_replaced": [],
+  "scope": "Actual run_case(mode=manual), computation/state/can_approve only; approve_report never invoked.",
+  "synthetic_registration_assumption": "Auditor authored source_kind=article_extract, evidence_status, hashes and locators. Not a public UI registration exploit or external paper acquisition.",
+  "earlier_audit_relation": "Same four mechanisms as prior source_gate audit; fresh presealed coherent fixture. Row-count claim is now an exact separate source sentence, not a mean/count metadata mismatch.",
+  "model_calls": 0,
+  "external_api_calls": 0,
+  "_change_note": "Prespecify semantic boundary and accurate-registry candidate control before executing actual pipeline."
+}

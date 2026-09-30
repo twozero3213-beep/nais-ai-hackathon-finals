@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "report_id": "a0433cb5-88d7-44cc-87ab-7f54b93e518a",
+  "case_id": "SYNTHETIC-INTEGRITY-MEAN",
+  "case_label": "Synthetic group A mean age is 20 years",
+  "category": "normal",
+  "mode": "manual",
+  "evaluation_scope": "FUNCTIONAL_REGRESSION_CASES_NOT_SEALED_COMPARISON_C01_C08",
+  "contributor_version": 0,
+  "contributor_name": "이영",
+  "recorded_at_kst": "2026-10-01T05:29:21+09:00",
+  "code_commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+  "code_worktree_sha256": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+  "input_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+  "source_sha256": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+  "registered_data_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+  "source": {
+    "claim_id": "SYNTHETIC-INTEGRITY-MEAN",
+    "paper_url": "https://example.invalid/synthetic-integrity",
+    "source_location": "synthetic paragraph 1",
+    "source_file": "source.txt",
+    "source_sha256": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+    "source_quote": "Group A has two records, with mean age 20 years.",
+    "source_kind": "article_extract",
+    "collected_at": null,
+    "source_retrieved_at": null,
+    "license": "Synthetic test fixture",
+    "license_url": null,
+    "scope_note": "Synthetic only; not an actual paper or actual human approval."
+  },
+  "state": "APPROVED",
+  "status": "APPROVED",
+  "candidate": {
+    "claim_text": "Synthetic group A mean age is 20 years",
+    "reported_value": 20,
+    "source_quote": "Group A has two records, with mean age 20 years.",
+    "source_location": "synthetic paragraph 1",
+    "method": "mean",
+    "column": "age",
+    "filters": [
+      {
+        "column": "group",
+        "value": "A"
+      }
+    ],
+    "denominator": {
+      "rule": "filtered_rows",
+      "expected_n": 2
+    },
+    "missing_policy": "error",
+    "unit": "years",
+    "tolerance": 0.01
+  },
+  "proposal": {
+    "claim_text": "Synthetic group A mean age is 20 years",
+    "reported_value": 20,
+    "source_quote": "Group A has two records, with mean age 20 years.",
+    "source_location": "synthetic paragraph 1",
+    "method": "mean",
+    "column": "age",
+    "filters": [
+      {
+        "column": "group",
+        "value": "A"
+      }
+    ],
+    "denominator": {
+      "rule": "filtered_rows",
+      "expected_n": 2
+    },
+    "missing_policy": "error",
+    "unit": "years",
+    "tolerance": 0.01
+  },
+  "validation": {
+    "valid": true,
+    "source_valid": true,
+    "schema_valid": true,
+    "six_conditions": [
+      {
+        "condition": "method",
+        "candidate": "mean",
+        "registered": "mean",
+        "match": true
+      },
+      {
+        "condition": "column",
+        "candidate": "age",
+        "registered": "age",
+        "match": true
+      },
+      {
+        "condition": "filters",
+        "candidate": [
+          {
+            "column": "group",
+            "value": "A"
+          }
+        ],
+        "registered": [
+          {
+            "column": "group",
+            "value": "A"
+          }
+        ],
+        "match": true
+      },
+      {
+        "condition": "denominator",
+        "candidate": {
+          "rule": "filtered_rows",
+          "expected_n": 2
+        },
+        "registered": {
+          "rule": "filtered_rows",
+          "expected_n": 2
+        },
+        "match": true
+      },
+      {
+        "condition": "missing_policy",
+        "candidate": "error",
+        "registered": "error",
+        "match": true
+      },
+      {
+        "condition": "unit",
+        "candidate": "years",
+        "registered": "years",
+        "match": true
+      }
+    ],
+    "errors": [],
+    "human_semantic_confirmed": true,
+    "typed_contract": {
+      "claim_id": "SYNTHETIC-INTEGRITY-MEAN",
+      "contract_type": "DESCRIPTIVE",
+      "source_page": null,
+      "source_quote": "Group A has two records, with mean age 20 years.",
+      "dataset_name": "data.csv",
+      "dataset_hash": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+      "filters": [
+        {
+          "column": "group",
+          "value": "A"
+        }
+      ],
+      "human_confirmed": false,
+      "method": "mean",
+      "method_confirmed": true,
+      "missing_policy": "error",
+      "missing_policy_confirmed": true,
+      "analysis_spec": {
+        "population": "unspecified",
+        "estimand": "unspecified",
+        "missing_policy": "error",
+        "variance_estimator": "unspecified",
+        "multiplicity_policy": "unspecified",
+        "multiplicity_count": 0,
+        "multiplicity_p_values": [],
+        "multiplicity_target_index": null,
+        "multiplicity_family_definition": "",
+        "reference_levels": {},
+        "interactions": [],
+        "transforms": {},
+        "human_confirmed": false
+      },
+      "variable": "age",
+      "aggregation": "mean",
+      "tolerance": 0.01,
+      "weight_column": "",
+      "success_value": "1",
+      "reference_value": 0.0,
+      "alpha": 0.05
+    },
+    "formal_contract": {
+      "executable": false,
+      "missing": [
+        "human semantic confirmation"
+      ],
+      "reason": "필수 근거 부족: human semantic confirmation"
+    }
+  },
+  "calculation": {
+    "executed": true,
+    "scope": "ARITHMETIC_PREVIEW_NOT_HUMAN_APPROVAL",
+    "value": 20.0,
+    "calculated_value": 20.0,
+    "reported_value": 20,
+    "delta": 0.0,
+    "tolerance": 0.01,
+    "within_tolerance": true,
+    "selected_rows": 2,
+    "expected_denominator": 2,
+    "denominator_matches": true,
+    "meta": {
+      "n": 2,
+      "expression": "mean(age)",
+      "method": "mean"
+    },
+    "engine": "core.statistics.descriptive",
+    "method": "mean"
+  },
+  "critique": {
+    "source": "deterministic",
+    "evidence_ready": true,
+    "issues": [],
+    "human_approval": false
+  },
+  "human_approval": {
+    "status": "APPROVED",
+    "approved": true,
+    "active": true,
+    "at_kst": "2026-10-01T05:29:23+09:00",
+    "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+    "actor": "HUMAN_USER",
+    "input_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+    "proposal_sha256": "9d6aebc39cb63c455604f735a0ff571fbcc0db02c5a0f828b2cb4e6755d34938",
+    "input_bindings": {
+      "data_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+      "source_sha256": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+      "proposal_sha256": "9d6aebc39cb63c455604f735a0ff571fbcc0db02c5a0f828b2cb4e6755d34938"
+    },
+    "verification_signature": "bd40e10c3b2ce285de26bd42b6763483f730e648888d52d0207cf6784b21f5c6"
+  },
+  "can_approve": false,
+  "execution_provenance": {
+    "code_commit": "a6729178963392249b14c9dfbd93bf28704262a4",
+    "tracked_code_matches_commit": true,
+    "code_files_sha256": {
+      "finals/app.py": "0973ac79cfbdaf0bb688811dbe4c0a8bf93f4c85b95e04a79dad239f5490a2c3",
+      "finals/finals_pipeline.py": "b4019c3524875dcc89b4d46bbd1528d13d10f605436a5a9a40ea0d3251bf2d97",
+      "finals/finals_cases.py": "3e314ec7547b19f6753ca6cc07dd6ad33a4fc568efa7422107b621723f2fdd38",
+      "finals/finals_provider.py": "912b700eb63b6113acb54aaddb454bd3fa1ea8463e7b233a9880b299c74efe0d",
+      "finals/finals_privacy.py": "90f115611e0d035c425b42a27b4dbfa56b11bcb83f925624f0442d04b8875435",
+      "finals/finals_explain.py": "c813f9ae8b03e130633e71904c83423d31e363c23f5b4db52fd5610f77d1bba5",
+      "finals/finals_provenance.py": "c4d796df61295084d0f5b3232c441b8e7e70100041f37e175fbfe51b7930718c",
+      "core/statistics.py": "5d93f5178f5dbe8a908a8a5bfb82a1e1f64b82225eb763991dc32dc7da089045",
+      "core/verifier.py": "e6f15be226101cc6b35985952e3feb4b96fc48de58c0c986725479d0ac3f018b",
+      "core/normalization.py": "11011d0da67fd79edf426541701ab0ce22df4eedf50aeb933396cc9e19ec60f6",
+      "core/typed_contracts.py": "f54a1e28792944aca7235d14bf252ce63f40040f25615848703984c560a17b04",
+      "core/models.py": "2f0526bb3366c410dd6834368cf3d4fa1f0244de9199e49eed8baadd15fdf9f4"
+    },
+    "execution_fingerprint": "292a69503b67e005ecbd4ae528a5f01ce50cae9e39e7c01279051df967e5d5b1",
+    "python_version": "3.13.5",
+    "dependencies": {
+      "streamlit": "1.45.1",
+      "pandas": "3.0.4",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "jsonschema": "4.23.0"
+    },
+    "scope": "SELECTED_EXECUTION_FILES_AND_ENVIRONMENT_NOT_IDENTITY_OR_DEPLOYMENT_ATTESTATION"
+  },
+  "model_stage_records": [],
+  "provider_calls": [],
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "llm_executed": false,
+  "actual_model_output": false,
+  "steps": [
+    {
+      "step": "load",
+      "status": "PASS",
+      "at_kst": "2026-10-01T05:29:22+09:00",
+      "detail": "등록 원문/CSV 바이트와 입력 지문 연결"
+    },
+    {
+      "step": "proposal",
+      "status": "PASS",
+      "at_kst": "2026-10-01T05:29:22+09:00",
+      "detail": "모델/수동 후보이며 사람 확정 아님"
+    },
+    {
+      "step": "validate",
+      "status": "PASS",
+      "at_kst": "2026-10-01T05:29:22+09:00",
+      "detail": ""
+    },
+    {
+      "step": "recompute",
+      "status": "PASS",
+      "at_kst": "2026-10-01T05:29:22+09:00",
+      "detail": "결정론 산술 preview; 최종 의미 판정은 사람 대기"
+    },
+    {
+      "step": "critique",
+      "status": "PASS",
+      "at_kst": "2026-10-01T05:29:22+09:00",
+      "detail": "검토 결과는 후보이며 사람 승인 대체 불가"
+    },
+    {
+      "step": "human_approval",
+      "status": "PENDING",
+      "at_kst": "2026-10-01T05:29:22+09:00",
+      "detail": ""
+    },
+    {
+      "step": "human_approval",
+      "status": "APPROVED",
+      "at_kst": "2026-10-01T05:29:23+09:00",
+      "detail": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision"
+    }
+  ],
+  "errors": [],
+  "change_reason": "본선 원문·조건·결정론 계산·사람 승인 경계를 연결하고 입력 변경 재사용을 차단한다.",
+  "validation_scope": "등록 원문 출처/6조건/기술통계; 저자 코드·논문 전체 재현과 사람 승인은 별도",
+  "remaining_issues": [
+    "등록 기술통계 검산과 사용자 의미 확인 범위; 논문 전체 과학적 타당성 판정은 별도"
+  ],
+  "proposal_sha256": "9d6aebc39cb63c455604f735a0ff571fbcc0db02c5a0f828b2cb4e6755d34938",
+  "input_bindings": {
+    "data_sha256": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+    "source_sha256": "1533729c2a88cdf31760f126e8f0a9ad18066b4f84b6fcaffdeaf0b2f652338c",
+    "proposal_sha256": "9d6aebc39cb63c455604f735a0ff571fbcc0db02c5a0f828b2cb4e6755d34938"
+  },
+  "formal_verification": {
+    "status": "VALIDATED",
+    "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+    "human_semantic_confirmed": true
+  },
+  "elapsed_ms": 18.39,
+  "finished_at_kst": "2026-10-01T05:29:22+09:00",
+  "claim_snapshot": {
+    "claim_id": "SYNTHETIC-INTEGRITY-MEAN",
+    "text": "Synthetic group A mean age is 20 years",
+    "original_value": 20,
+    "column": "age",
+    "aggregation": "mean",
+    "tolerance": 0.01,
+    "qualifier": "",
+    "current_value": 20,
+    "status": "VALIDATED",
+    "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision",
+    "revision_count": 0,
+    "validated_signature": "bd40e10c3b2ce285de26bd42b6763483f730e648888d52d0207cf6784b21f5c6",
+    "last_auto_signature": "bd40e10c3b2ce285de26bd42b6763483f730e648888d52d0207cf6784b21f5c6",
+    "history": [
+      {
+        "at": "2026-09-30T20:29:23+00:00",
+        "actor": "HUMAN",
+        "action": "APPROVE",
+        "from": "SUPPORTED",
+        "to": "VALIDATED",
+        "reason": "synthetic local test reviewer: checked fixture source and arithmetic; not a real human decision"
+      }
+    ],
+    "decomposition": {},
+    "evidence_candidates": [],
+    "filters": [
+      {
+        "column": "group",
+        "value": "A"
+      }
+    ],
+    "semantic_confirmed": true,
+    "source_page": null,
+    "source_quote": "Group A has two records, with mean age 20 years.",
+    "claim_type": "descriptive",
+    "analysis_method": "mean",
+    "weight_column": "",
+    "success_value": "1",
+    "group_column": "",
+    "group_a": "",
+    "group_b": "",
+    "x_column": "",
+    "mu0": 0.0,
+    "alpha": 0.05,
+    "reported_p_value": null,
+    "reported_p_operator": "",
+    "reported_effect": null,
+    "effect_kind": "",
+    "reported_ci95": null,
+    "missing_policy": "error",
+    "missing_policy_confirmed": true,
+    "analysis_population": "unspecified",
+    "estimand": "unspecified",
+    "variance_estimator": "unspecified",
+    "multiplicity_policy": "unspecified",
+    "reference_levels": {},
+    "interaction_terms": [],
+    "transform_spec": {},
+    "analysis_spec_confirmed": false,
+    "scope_endpoint": "",
+    "scope_subgroup_dimensions": [],
+    "scope_timepoints": [],
+    "scope_confirmed": false,
+    "method_candidate": "",
+    "method_candidate_source": "",
+    "method_confirmed": false,
+    "evidence_source": "system_candidate",
+    "evidence_provenance": {},
+    "method_provenance": {},
+    "validated_data_hash": "cd0e6f882b41313547549afd993305b35706ef7063964f577889c63c98f4fe18",
+    "reported_status": "SUPPORTED",
+    "reported_reason": "필터[group=A] · mean(age) · n=2 · 보고 20 ↔ 재계산 20; 차이 0 ≤ 허용오차 0.01",
+    "amendment_status": "REVIEW",
+    "amendment_reason": "",
+    "multiplicity_count": 0,
+    "multiplicity_p_values": [],
+    "multiplicity_target_index": null,
+    "multiplicity_family_definition": ""
+  }
+}

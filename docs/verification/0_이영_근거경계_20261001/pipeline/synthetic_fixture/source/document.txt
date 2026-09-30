@@ -1,0 +1,21 @@
+SYNTHETIC PAPER; NOT AN EXTERNAL PUBLICATION
+[Methods/p-A]
+In Experiment A, two individual participants had a mean age of 15 years.
+[Methods/p-B]
+In Experiment B, two individual participants had a mean age of 15 years.
+[Methods/p-A-count]
+Experiment A contained 2 individual participants.
+[Table/T-A/caption]
+In Experiment A, two individual participants had a mean age of 15 years.
+[Table/T-A/header]
+participant_id | experiment | age_years
+[Table/T-A/rows]
+A1 | A | 10
+A2 | A | 20
+[Table/T-B/caption]
+In Experiment B, two individual participants had a mean age of 15 years.
+[Table/T-B/header]
+participant_id | experiment | age_years
+[Table/T-B/rows]
+B1 | B | 5
+B2 | B | 25
