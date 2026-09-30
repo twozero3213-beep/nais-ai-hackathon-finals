@@ -347,7 +347,12 @@ with right:
             if reason_kinds:
                 st.warning(f"승인 사유에 {describe(reason_kinds)} 형태가 있습니다. 보고서 파일에 그대로 저장되므로 지우고 다시 적어 주세요.")
             can_approve = report.get("can_approve") is True and not approved(report) and not reason_kinds
-            if not can_approve:
+            # [01 이채우][작업번호 1] 승인 완료 후의 중복 승인 방지를 오류·근거 부족 안내와 구분한다.
+            if approved(report):
+                st.success("이미 직접 승인한 보고서입니다. 아래에서 보고서를 저장할 수 있습니다. 중복 승인은 막습니다.")
+            elif reason_kinds:
+                st.caption("승인 사유의 개인정보·인증 값 형태를 지운 뒤 다시 확인해 주세요.")
+            elif not can_approve:
                 st.caption("현재 상태에서는 승인할 수 없습니다. 근거·검산·변경 상태를 먼저 확인하세요.")
             if st.button("직접 확인하고 승인",key="fin_approve",disabled=not(can_approve and confirmed and reason.strip()),width="stretch"):
                 try:

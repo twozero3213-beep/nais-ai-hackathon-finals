@@ -404,7 +404,19 @@ def run_case(case_id, mode="manual", proposal_text=None, provider=None, replay_p
             jsonschema.Draft202012Validator(CRITIQUE_SCHEMA).validate(critique)
             report["critique"] = {**critique, "source": "model_candidate", "human_approval": False}
             report["can_approve"] = report["can_approve"] and critique["evidence_ready"] and not critique["issues"]
-        _step(report, "critique", "PASS", "검토 결과는 후보이며 사람 승인 대체 불가")
+        # [01 이채우][작업번호 1] 2026-10-01 02:10 KST — 검토가 승인을 차단하면 단계 기록과 화면 이유에도 이를 표시한다.
+        # 계산 preview와 승인 가능 여부는 별개이며, 이 설명 보완으로 승인 기준을 완화하지 않는다.
+        critique_ready = report["critique"].get("evidence_ready") is True
+        critique_issues = report["critique"].get("issues") or []
+        if not critique_ready or critique_issues:
+            pending = report.setdefault("remaining_issues", [])
+            for code, needed in (("CRITIQUE_EVIDENCE_NOT_READY", not critique_ready),
+                                 ("CRITIQUE_UNRESOLVED_ISSUES", bool(critique_issues))):
+                if needed and code not in pending:
+                    pending.append(code)
+            _step(report, "critique", "BLOCKED", "검토 미해결: 승인 차단 사유와 검토 의견 확인 필요")
+        else:
+            _step(report, "critique", "PASS", "검토 결과는 후보이며 사람 승인 대체 불가")
         _step(report, "human_approval", "PENDING")
     except Exception as exc:
         error = _safe_error(exc)

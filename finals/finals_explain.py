@@ -11,6 +11,8 @@ CONDITION_LABELS = {"METHOD": "분석 방법", "COLUMN": "사용 열", "FILTERS"
 FIELD_LABELS = {"REPORTED_VALUE": "보고값", "SOURCE_QUOTE": "원문 인용", "SOURCE_LOCATION": "원문 위치",
                 "CLAIM_TEXT": "주장 문장", "TOLERANCE": "허용오차"}
 FIXED = {
+    "CRITIQUE_EVIDENCE_NOT_READY": "검토에서 근거가 충분하다고 확인하지 못해 승인을 보류했습니다. 검토 의견을 확인하세요.",
+    "CRITIQUE_UNRESOLVED_ISSUES": "검토에 해결되지 않은 문제가 있어 승인할 수 없습니다. 계산값 일치만으로 검토가 완료되지는 않습니다.",
     "ORIGINAL_SOURCE_UNAVAILABLE_OR_HASH_MISMATCH": "등록된 원문 출처를 확인하지 못했거나 원문 지문이 달라 계산을 보류했습니다.",
     "SCHEMA_INVALID": "후보 JSON이 허용된 형식이 아닙니다. 필드 이름·형식·값의 범위를 확인하세요.",
     # [수정: 0 이영 · Claude] 작성 시각 미확인; 03 검토 2026-10-01T02:08:17+09:00 — 개인정보 보호 안전장치(finals_privacy) 코드의 설명. 값은 어디에도 싣지 않고 종류만 안내한다.
