@@ -1,0 +1,52 @@
+{
+  "_change_note": "2026-10-01T03:53:44+09:00 0 이영 Codex: 최신 기술검수와 문구 최소diff 통합의 실제 회귀/metadata 결과를 공개 검증 기록에 추가; 2026-10-01T04:35:56+09:00 최신 팀원 UI 유지·규칙비평을 AI로 표시하는 의미오류 교정·최종 집중검증 추가",
+  "recorded_at_kst": "2026-10-01T03:53:44+09:00",
+  "contributor": {
+    "name": "이영",
+    "version": 0
+  },
+  "tested_base": "ae471801e02e5b943efbed654e7542fe074c3b42",
+  "regression": {
+    "status": "PASS",
+    "passed": 240,
+    "pytest_seconds": 421.98,
+    "process_wall_seconds": 478.91,
+    "scope": [
+      "team login boundaries",
+      "title translation original/cached draft guard",
+      "public links/files",
+      "public entrypoint",
+      "finals/tests",
+      "product metadata guard"
+    ]
+  },
+  "metadata": {
+    "status": "PASS",
+    "json_files_checked": 36,
+    "observed_at_kst": "2026-10-01T03:50:53+09:00"
+  },
+  "independent_diff_review": "원제목·과학 약어·원수치·기계키 보존·중복표시 제거 확인",
+  "live_ai_calls": 0,
+  "translation_model_calls": 0,
+  "limits": "240·55·11·20 묶음은 각각 다른 변경/범위의 실제 회귀이며 통과수를 합산하지 않는다. 번역 의미 전수 보증·봉인 AI16칸 실측·Cloud 전체배포·사람승인 완료의 증거가 아니다.",
+  "document_updated_at_kst": "2026-10-01T04:35:56+09:00",
+  "after_remote_integration": {
+    "tested_source_commit": "99fd81cbe9e2ded3e0a319fac61fe86ef3b45949",
+    "passed": 55,
+    "pytest_seconds": 160.62,
+    "scope": "신규 AI 검토/재생·explain/UI·번역/공개입구",
+    "ci_mode_metadata": "PASS 38JSON"
+  },
+  "approval_bindings": {
+    "passed": 11,
+    "pytest_seconds": 22.86,
+    "scope": "test_3_review_bindings.py"
+  },
+  "latest_ui_integration": {
+    "tested_base": "f67db7ad9440182ff86ba4671c1b71ba4a86158b",
+    "passed": 20,
+    "pytest_seconds": 110.38,
+    "scope": "규칙비평/모델비평/수동 수행자 표시3경계·기존 검산UI·공개입구",
+    "meaning_fix": "AI 조건제안과 결정적 규칙비평은 수행자가 다르다. 원 계산·승인·새 모델 호출수 변화 없음."
+  }
+}

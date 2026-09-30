@@ -1,9 +1,9 @@
 # NAIS Evidence Gate 0
 
 Public research verification discovery files. No sign-in or key needed for these files.
-- Catalog: https://nais-evidence-gate-team.streamlit.app/app/static/agent.json
-- Reproducible example results: https://nais-evidence-gate-team.streamlit.app/app/static/examples.json
-- GET contract: https://nais-evidence-gate-team.streamlit.app/app/static/openapi.json
+- Catalog: https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/agent.json
+- Reproducible example results: https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/examples.json
+- GET contract: https://nais-evidence-gate-finals.streamlit.app/~/+/app/static/openapi.json
 
 Read examples_sha256 in agent.json to verify examples.json bytes. Check version and built_at.
 The example re-runs a fixed public penguin row-count and synthetic changes with an unaffected control.

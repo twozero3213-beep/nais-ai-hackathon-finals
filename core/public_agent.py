@@ -11,7 +11,9 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from core.paths import PROJECT_ROOT
 
-BASE_URL = 'https://nais-evidence-gate-team.streamlit.app'
+# [수정: 0 이영 · Codex] 2026-10-01T03:19:13+09:00 — 실제 배포의 네 공개 파일은 finals /~/+/app/static/에서 HTTP200이며 기존 team 주소·/app/static 경로는 제공 주소와 다르다. 카탈로그·OpenAPI·AI 요청문·화면 링크를 한 경로로 맞춘다.
+BASE_URL = 'https://nais-evidence-gate-finals.streamlit.app'
+STATIC_PATH = '/~/+/app/static/'
 PUBLIC_FILES = {'agent.json', 'examples.json', 'openapi.json', 'llms.txt'}
 MAX_FILE_BYTES = 96 * 1024
 
@@ -59,7 +61,7 @@ def public_catalog(examples, built_at):
         'name': 'NAIS Evidence Gate', 'built_at': built_at,
         'purpose': 'Read located evidence, understand unresolved conditions, and re-run supported research calculations.',
         'approved': False, 'transport': 'PUBLIC_STATIC_HTTPS_GET',
-        'endpoints': {name: BASE_URL+'/app/static/'+name for name in sorted(PUBLIC_FILES)},
+        'endpoints': {name: BASE_URL+STATIC_PATH+name for name in sorted(PUBLIC_FILES)},
         'examples_sha256': hashlib.sha256(raw).hexdigest(),
         'cases': cases,
         'mcp': [
@@ -113,7 +115,7 @@ def _openapi(version):
            'servers':[{'url':BASE_URL}], 'paths':{}}
     for name in sorted(PUBLIC_FILES - {'openapi.json'}):
         mime = 'application/json' if name.endswith('.json') else 'text/plain'
-        api['paths']['/app/static/'+name] = {'get': {
+        api['paths'][STATIC_PATH+name] = {'get': {
             'summary': 'Read the public release snapshot '+name,
             'responses': {'200': {'description': 'Static public snapshot; no calculation or user-task access',
                                   'content': {mime: {'schema': {'type': 'object' if name.endswith('.json') else 'string'}}}}}}}
@@ -157,7 +159,8 @@ def validate_public_directory(directory, *, require_complete=True, check_schema=
                     for child in value: inspect(child)
                 elif isinstance(value, str) and value.startswith(('http://','https://')):
                     url = urlsplit(value)
-                    if url.scheme != 'https' or url.hostname not in {'nais-evidence-gate-team.streamlit.app','journal.r-project.org','creativecommons.org','raw.githubusercontent.com'} or url.username or url.password or url.query or url.fragment:
+                    # [수정: 0 이영 · Codex] 2026-10-01T03:24:13+09:00 — 검증한 현재 배포 호스트만 허용한다. 임의 호스트·인증 URL·쿼리·조각 차단은 유지한다.
+                    if url.scheme != 'https' or url.hostname not in {'nais-evidence-gate-finals.streamlit.app','journal.r-project.org','creativecommons.org','raw.githubusercontent.com'} or url.username or url.password or url.query or url.fragment:
                         raise ValueError('UNSAFE_PUBLIC_URL')
             inspect(obj)
     if require_complete:
@@ -180,9 +183,9 @@ def build_public_files(directory=None, *, built_at=None):
     text = f'''# NAIS Evidence Gate {catalog['version']}
 
 Public research verification discovery files. No sign-in or key needed for these files.
-- Catalog: {BASE_URL}/app/static/agent.json
-- Reproducible example results: {BASE_URL}/app/static/examples.json
-- GET contract: {BASE_URL}/app/static/openapi.json
+- Catalog: {BASE_URL}{STATIC_PATH}agent.json
+- Reproducible example results: {BASE_URL}{STATIC_PATH}examples.json
+- GET contract: {BASE_URL}{STATIC_PATH}openapi.json
 
 Read examples_sha256 in agent.json to verify examples.json bytes. Check version and built_at.
 The example re-runs a fixed public penguin row-count and synthetic changes with an unaffected control.
@@ -264,9 +267,9 @@ def render_public_delivery(*, key_prefix='public_delivery'):
             st.caption('붙여 넣기 전달은 웹 주소 조회 성공이나 원격 MCP 실행이 아닙니다. AI가 지원 범위와 미확인 조건부터 설명하도록 요청하세요.')
             st.code(handoff, language='json', wrap_lines=True)
     with st.expander('공개 웹 주소 · 성공 여부 별도 확인 필요'):
-        st.code(BASE_URL+'/app/static/agent.json', language=None)
-        st.link_button('공개 설명 주소 확인', BASE_URL+'/app/static/llms.txt')
-        st.link_button('공개 예제 주소 확인', BASE_URL+'/app/static/examples.json')
+        st.code(BASE_URL+STATIC_PATH+'agent.json', language=None)
+        st.link_button('공개 설명 주소 확인', BASE_URL+STATIC_PATH+'llms.txt')
+        st.link_button('공개 예제 주소 확인', BASE_URL+STATIC_PATH+'examples.json')
     with st.expander('공개 파일 제공 진단 · 비공개 설정 제외'):
         st.json({'enableStaticServing': st.get_option('server.enableStaticServing'),
                  'version': (PROJECT_ROOT/'VERSION').read_text().strip(),
@@ -279,7 +282,8 @@ def render_public_agent():
     render_public_delivery()
     st.info('예제는 공개 펭귄 자료의 행 수와 의도적으로 바꾼 입력을 검사합니다. 개인 과제는 공유되지 않습니다. 웹 파일 조회만으로 새 질문의 계산이 실행되지는 않습니다.')
     with st.expander('AI에 붙여 넣을 요청 예시'):
-        st.code('내려받은 ZIP의 공개 설명·예제 파일을 첨부합니다. 지원 범위와 미확인 조건을 먼저 설명해 줘. 예제에서 어떤 입력 변경이 재검산을 요구하는지, 영향받지 않은 주장도 함께 알려 줘. 논문 전체 승인으로 해석하지 마.', language=None)
+        # [수정: 0 이영 · Codex] 2026-10-01T03:22:27+09:00 — 외부 AI 요청문구의 번역투·띄어쓰기·어조를 바로잡는다. 하나의 외부 AI 요청문구 안에서 존댓말을 통일한다. 외부 AI 요청문구의 존댓말을 통일하고 기존 제한 의미를 보존한다.
+        st.code('내려받은 ZIP의 공개 설명·예제 파일을 첨부합니다. 지원 범위와 미확인 조건을 먼저 설명해 주세요. 예제에서 입력이 바뀌면 어떤 주장을 다시 검산해야 하는지, 영향을 받지 않은 주장도 함께 알려 주세요. 논문 전체 승인으로 해석하지 마세요.', language=None)
     with st.expander('MCP로 직접 실행하려면'):
         st.write('프로젝트를 설치한 PC에서 MCP를 지원하는 AI 도구에 stdio 서버를 등록합니다. 작업 폴더는 압축을 푼 프로젝트입니다.')
         st.code('python -m tools.research_mcp', language='shell')

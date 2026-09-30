@@ -86,13 +86,15 @@ def render_rankings(actor):
         with st.container(border=True):
             st.caption(f"제공값 {rank}위 · 30일 조회 필드 {item['views_30_days']:,}회")
             st.write(item['title'])
-            from core.title_translation import korean_title
+            from core.title_translation import enabled as translation_enabled, korean_title
             translated=korean_title(item['title'])
             # [수정: 0 이영 · Claude] 2026-10-01 01:32 KST — 식 문장 `a() if c else b()`은 Streamlit 매직이 반환값(DeltaGenerator)을 화면에 다시 써서 내부 문서가 노출됐다. if/else 문장으로 바꾼다.
-            if translated:
+            # [수정: 0 이영 · Codex] 2026-10-01T02:53:50+09:00 — 번역 초안에는 원제목 대조 안내를 붙이고 원제목 중복·실행되지 않는 준비 중 표시는 제거한다.
+            if translated and translated != item['title']:
+                st.caption('기계 번역 초안 · 오역 가능성이 있으니 원제목과 대조하세요')
                 st.write(translated)
-            else:
-                st.caption('한국어 번역 준비 중')
+            elif translation_enabled() and not translated:
+                st.caption('한국어 번역 없음 · 원제목 기준으로 확인하세요')
             st.caption('최종 색인: '+str(item['indexed_at'] or '미제공'))
             if not item['freshness_verified']:st.caption('오래되었거나 날짜가 불명확한 지표 · 현재 순위 확인 불가')
             st.link_button('논문 원문 보기',item['url'],key=key+'_doi_'+str(index))

@@ -25,11 +25,13 @@ import finals_provider
 
 def test_known_codes_become_plain_korean_and_unknown_codes_are_kept_verbatim():
     assert "원문 지문이 달라" in explain.reason_text("ORIGINAL_SOURCE_UNAVAILABLE_OR_HASH_MISMATCH")
-    assert explain.reason_text("CONDITION_MISMATCH_MISSING_POLICY") == "후보의 ‘결측 처리’이(가) 등록된 조건과 다릅니다."
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 기존 설명 회귀시험의 기대 문구를 조사 오류 수정에 맞춘다.
+    assert explain.reason_text("CONDITION_MISMATCH_MISSING_POLICY") == "후보의 ‘결측 처리’ 항목이 등록된 조건과 다릅니다."
     assert "‘보고값’" in explain.reason_text("REGISTERED_FIELD_MISMATCH_REPORTED_VALUE")
     assert "(503)" in explain.reason_text("MODEL_HTTP_503")
     assert explain.reason_text("SOMETHING_NEW_AND_UNKNOWN") == "SOMETHING_NEW_AND_UNKNOWN"
-    assert explain.reason_text("CONDITION_MISMATCH_UNSEEN") == "후보의 ‘UNSEEN’이(가) 등록된 조건과 다릅니다."
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 알 수 없는 필드 이름을 보존하는 기존 설명 시험의 문구를 맞춘다.
+    assert explain.reason_text("CONDITION_MISMATCH_UNSEEN") == "후보의 ‘UNSEEN’ 항목이 등록된 조건과 다릅니다."
 
 
 def test_reasons_are_deduplicated_in_order_across_report_sections():
@@ -46,7 +48,8 @@ def test_calculation_summary_covers_match_conflict_and_denominator_mismatch():
     assert explain.calculation_summary(base) == "계산값 344 · 보고값 344 · 차이 0(허용오차 0) — 허용오차 안에서 일치합니다. 선택한 344행이 선언한 분모와 같습니다."
     conflict = dict(base, calculated_value=343.0, delta=1.0, within_tolerance=False, selected_rows=343, denominator_matches=False)
     text = explain.calculation_summary(conflict)
-    assert "계산값 343" in text and "허용오차를 벗어났습니다" in text and "분모 344와 다릅니다" in text
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 기존 분모 불일치 설명 시험의 기대 문구를 맞춘다.
+    assert "계산값 343" in text and "허용오차를 벗어났습니다" in text and "분모(344)와 다릅니다" in text
     assert explain.calculation_summary({"executed": False}) is None
     assert explain.calculation_summary(None) is None
     assert explain.calculation_summary(dict(base, calculated_value="x")) is None

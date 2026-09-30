@@ -46,8 +46,10 @@ web_theme = import_module("core.0_이영_웹테마")
 web_theme.render_theme()
 web_theme.render_brand()
 
+# [통합: 0 이영 · Codex] 2026-10-01T04:09:59+09:00 — 조지현3의 AI 검토 보류 상태와 문구 검수의 수치 불일치 경고/직접 승인 이름을 함께 보존한다.
 CATEGORIES = {"normal":"정상", "mismatch":"수치 불일치", "evidence_missing":"근거 부족", "data_changed":"자료 변경"}
-STATE_NAMES = {"REVIEW_BLOCKED":"AI 검토 보류", "ARITHMETIC_MATCH":"수치 일치", "MATCH":"수치 일치", "ARITHMETIC_MISMATCH":"수치 불일치", "MISMATCH":"수치 불일치", "BLOCK":"보류", "BLOCKED":"보류", "INPUT_CHANGED":"변경 후 재사용 차단", "APPROVED":"사람 확인 완료", "PROPOSED":"후보 접수", "NOT_RUN":"미실행", "SUPPORTED_PREVIEW":"조건 검산 완료", "CONFLICT_PREVIEW":"수치 불일치", "MISSING":"근거 부족", "BLOCKED_CHANGED_INPUT":"변경 후 재사용 차단", "MODEL_BLOCKED":"AI 요청 중단", "IMPORTED_REVIEW":"불러온 기록(읽기 전용)", "GENERAL_AI_MATCH":"일반 AI 단독 응답: 일치(검산 아님)", "GENERAL_AI_MISMATCH":"일반 AI 단독 응답: 불일치(검산 아님)", "GENERAL_AI_BLOCK":"일반 AI 단독 응답: 보류(검산 아님)", "GENERAL_AI_STALE_BLOCK":"일반 AI 단독 응답: 변경 차단(검산 아님)"}
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 결과 상태와 승인 버튼의 완료 표현을 통일한다.
+STATE_NAMES = {"REVIEW_BLOCKED":"AI 검토 보류", "ARITHMETIC_MATCH":"수치 일치", "MATCH":"수치 일치", "ARITHMETIC_MISMATCH":"수치 불일치", "MISMATCH":"수치 불일치", "BLOCK":"보류", "BLOCKED":"보류", "INPUT_CHANGED":"변경 후 재사용 차단", "APPROVED":"직접 승인 완료", "PROPOSED":"후보 접수", "NOT_RUN":"미실행", "SUPPORTED_PREVIEW":"조건 검산 완료", "CONFLICT_PREVIEW":"수치 불일치", "MISSING":"근거 부족", "BLOCKED_CHANGED_INPUT":"변경 후 재사용 차단", "MODEL_BLOCKED":"AI 요청 중단", "IMPORTED_REVIEW":"불러온 기록(읽기 전용)", "GENERAL_AI_MATCH":"일반 AI 단독 응답: 일치(검산 아님)", "GENERAL_AI_MISMATCH":"일반 AI 단독 응답: 불일치(검산 아님)", "GENERAL_AI_BLOCK":"일반 AI 단독 응답: 보류(검산 아님)", "GENERAL_AI_STALE_BLOCK":"일반 AI 단독 응답: 변경 차단(검산 아님)"}
 MODES = {"수동 작성":"manual", "실시간 AI":"live", "저장 응답 재생":"replay"}
 SENSITIVE = {"api_key", "apikey", "authorization", "password", "secret", "access_token", "refresh_token", "credential", "credentials"}
 
@@ -136,6 +138,10 @@ def render_roles(report):
     cols = st.columns(len(steps))
     for col, item in zip(cols, steps):
         name, who = STEP_ROLES.get(item.get("step"), (str(item.get("step")), "코드"))
+        # [수정: 0 이영 · Codex] 2026-10-01T04:35:56+09:00 — AI가 조건을 제안했어도 실제 비평이 결정적 규칙 검사라면 이 단계의 수행자를 AI로 표시하지 않는다. 영수증·계산·승인 상태는 보존한다.
+        critique = report.get("critique")
+        if item.get("step") == "critique" and isinstance(critique, dict) and critique.get("source") == "deterministic":
+            who = "규칙"
         if who == "AI" and not ai_used(report):
             who = "사람(수동)" if item.get("step") == "proposal" else "규칙"
         mark = "대기" if item.get("status") == "PENDING" else ("통과" if item.get("status") == "PASS" else str(item.get("status")))
@@ -174,7 +180,8 @@ except ImportError as error:
 catalog = cases.list_cases()
 # [수정: 0 이영] 2026-09-30 23:54 KST — 사례와 작성 방법을 읽기 흐름에 보여 모바일에서도 바로 검토를 시작할 수 있게 한다.
 with st.container(border=True):
-    st.caption("본선 작업 · 담당 0 · 이영")
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 내부 작업 번호 대신 처음 방문한 사람에게 화면의 목적을 설명한다.
+    st.caption("NAIS AI 해커톤 본선 · 공개 논문 등록 사례 검산")
     st.subheader("검토할 사례")
     category = st.selectbox("사례 유형", ["전체",*CATEGORIES.values()], key="fin_category")
     selected = [item for item in catalog if category == "전체" or CATEGORIES.get(item.get("category")) == category]
@@ -217,7 +224,10 @@ with left:
     with st.container(border=True):
         st.markdown('<div class="final-step">01 / SOURCE</div>', unsafe_allow_html=True)
         st.subheader("원문과 자료")
-        st.caption(str(context.get("source_location", "원문 위치 확인 필요")))
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 원문 위치의 출처 언어는 보존하고 위치 이름표를 붙인다.
+        st.caption("원문 위치 · " + str(context.get("source_location", "확인 필요")))
+        # [수정: 0 이영 · Codex] 2026-10-01T03:22:27+09:00 — 원문 인용 이름표를 한 번 표시하고 인용 자체는 변경하지 않는다.
+        st.caption("원문 인용 · 원문 그대로")
         quote = str(context.get("source_quote", ""))
         st.markdown('<div class="final-note">' + html.escape(quote or "확인 가능한 인용이 없습니다.") + '</div>', unsafe_allow_html=True)
         if context.get("paper_url"):
@@ -255,7 +265,8 @@ with right:
         st.subheader("계산 후보")
         mode = MODES[mode_label]
         if mode == "manual":
-            st.caption("등록된 조건을 불러온 뒤 JSON 후보를 수정할 수 있습니다. 불러오기만으로 실행하거나 승인하지 않습니다.")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 문장 주어를 명확히 하여 불러오기와 계산·승인 실행을 구분한다.
+            st.caption("등록된 조건을 불러온 뒤 JSON 후보를 수정할 수 있습니다. 불러오기만으로는 계산이 실행되거나 승인되지 않습니다.")
             if st.button("수동 후보 불러오기", key="fin_manual_load", width="stretch"):
                 invalidate_review()
                 st.session_state["fin_candidate_text"] = json.dumps(context["manual_proposal"],ensure_ascii=False,indent=2)
@@ -327,7 +338,8 @@ with right:
             state = state_of(report)
             if state in {"ARITHMETIC_MATCH","MATCH","APPROVED","SUPPORTED_PREVIEW"}:
                 st.success(STATE_NAMES.get(state,state))
-            elif "MISMATCH" in state or state in {"BLOCK","BLOCKED","INPUT_CHANGED","MISSING","BLOCKED_CHANGED_INPUT","MODEL_BLOCKED","REVIEW_BLOCKED"}:
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 실제 수치 불일치 상태를 경고로 표시하여 상태 문구와 안내 색을 맞춘다.
+            elif "MISMATCH" in state or state in {"BLOCK","BLOCKED","INPUT_CHANGED","MISSING","BLOCKED_CHANGED_INPUT","MODEL_BLOCKED","CONFLICT_PREVIEW","REVIEW_BLOCKED"}:
                 st.warning(STATE_NAMES.get(state,state))
             else:
                 st.info(STATE_NAMES.get(state,state))

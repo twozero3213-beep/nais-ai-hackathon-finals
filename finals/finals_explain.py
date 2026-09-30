@@ -22,8 +22,10 @@ FIXED = {
     "SENSITIVE_CONTENT_BLOCKED": "인증 값이나 개인정보(이메일·전화번호·주민등록번호) 형태의 문자열이 있어 차단했습니다.",
     "APPROVAL_REASON_PERSONAL_DATA": "승인 사유에 이메일·전화번호 같은 개인정보나 인증 값 형태가 있어 저장하지 않았습니다. 이름·연락처를 빼고 다시 적어 주세요.",
     "PERSONAL_DATA_IN_OUTBOUND_PAYLOAD": "외부 AI로 보낼 본문에 개인정보나 인증 값 형태가 있어 전송하지 않았습니다.",
-    "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED": "직접 확인 표시와 3자 이상의 승인 사유가 필요합니다.",
-    "NONFINITE_OR_BOOLEAN_NUMBER": "보고값·허용오차는 유한한 숫자여야 합니다.",
+    # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 화면 체크 상자의 실제 문구와 승인 조건을 구체적으로 안내한다.
+    "EXPLICIT_HUMAN_CONFIRMATION_AND_REASON_REQUIRED": "'직접 확인했습니다'에 체크하고 3자 이상의 승인 사유를 적어 주세요.",
+    # [수정: 0 이영 · Codex] 2026-10-01T03:22:27+09:00 — 유한한 숫자의 의미와 거부되는 참·거짓 값을 구체적으로 설명한다.
+    "NONFINITE_OR_BOOLEAN_NUMBER": "보고값·허용오차는 유한한 숫자여야 합니다. 참·거짓 값이나 무한대는 쓸 수 없습니다.",
     "DUPLICATE_JSON_KEY": "JSON에 같은 키가 두 번 있습니다. 어느 값이 쓰일지 알 수 없어 거부했습니다.",
     "NONFINITE_JSON": "JSON에 NaN·무한대 같은 값이 있습니다.",
     "JSON_INPUT_TOO_LARGE": "입력이 허용 크기(256KB)를 넘었습니다.",
@@ -40,8 +42,10 @@ FIXED = {
     "CANDIDATE_OR_PROVIDER_ERROR": "후보나 AI 응답을 처리하지 못했습니다.",
     "REAL_SAVED_REPLAY_UNAVAILABLE": "저장된 실제 AI 응답을 찾지 못했습니다.",
 }
-PREFIXES = (("CONDITION_MISMATCH_", CONDITION_LABELS, "후보의 ‘{}’이(가) 등록된 조건과 다릅니다."),
-            ("REGISTERED_FIELD_MISMATCH_", FIELD_LABELS, "후보가 ‘{}’을(를) 바꿨습니다. 보고값·인용·허용오차는 후보가 바꿀 수 없습니다."))
+# [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 조사 자동선택 자리표시자가 사용자 화면에 나오지 않게 자연스러운 문장으로 바꾼다.
+PREFIXES = (("CONDITION_MISMATCH_", CONDITION_LABELS, "후보의 ‘{}’ 항목이 등록된 조건과 다릅니다."),
+            # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 조사 자동선택 자리표시자를 없애되 등록 필드의 이름을 보존한다.
+            ("REGISTERED_FIELD_MISMATCH_", FIELD_LABELS, "후보가 ‘{}’ 항목을 바꿨습니다. 보고값·인용·허용오차는 후보가 바꿀 수 없습니다."))
 
 
 def reason_text(code: str) -> str:
@@ -85,7 +89,8 @@ def calculation_summary(calculation: dict | None) -> str | None:
     if calculation.get("denominator_matches"):
         denominator = f"선택한 {calculation.get('selected_rows')}행이 선언한 분모와 같습니다."
     else:
-        denominator = f"선택된 행 수 {calculation.get('selected_rows')}이(가) 선언한 분모 {calculation.get('expected_denominator')}와 다릅니다."
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 숫자 뒤 조사 자리표시자를 제거하고 행 수·분모 원값은 보존한다.
+        denominator = f"선택된 행 수({calculation.get('selected_rows')})가 선언한 분모({calculation.get('expected_denominator')})와 다릅니다."
     return f"계산값 {computed} · 보고값 {reported} · 차이 {delta}(허용오차 {tolerance}) — {verdict}. {denominator}"
 
 
@@ -112,7 +117,8 @@ def change_summary(report: dict | None) -> list[str]:
         if not same_value and recalculated == reported:
             recalculated, reported = format(calculated_value, ".17g"), format(reported_value, ".17g")
         relation = "같습니다" if same_value else "다릅니다"
-        lines.append(f"바뀐 자료로 다시 계산하면 {recalculated}이고 보고값은 {reported}로 {relation}. 변경 전의 일치 결과는 더 이상 쓸 수 없습니다.")
+        # [수정: 0 이영 · Codex] 2026-10-01T03:02:04+09:00 — 숫자 뒤 '로/으로' 선택 오류를 없애고 팀원의 원수치 비교·정밀 표시는 보존한다.
+        lines.append(f"바뀐 자료로 다시 계산한 값 {recalculated} · 보고값 {reported} — 두 값이 {relation}. 변경 전의 일치 결과는 더 이상 쓸 수 없습니다.")
     else:
         lines.append("변경 전의 계산·승인은 더 이상 쓸 수 없습니다. 새로 검산하고 사람이 다시 확인해야 합니다.")
     previous = (report.get("human_approval") or {}).get("previous_approval") or {}

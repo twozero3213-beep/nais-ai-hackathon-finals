@@ -47,11 +47,20 @@ def validate_query(query):
     return validate(query)
 
 
-def korean_title(title):
+# [수정: 0 이영 · Codex] 2026-10-01T02:53:50+09:00 — 번역을 끈 경우에는 준비 중이라고 표시하지 않는다. 출처 제목과 번역 초안의 역할을 구분한다.
+def translation_enabled():
+    try:
+        from core.title_translation import enabled
+        return enabled()
+    except ImportError:
+        return False
+
+
+def korean_title(title, *, stored_draft=None):
     """Optional offline translation; keep the source title readable without it."""
     try:
         from core.title_translation import korean_title as translate
-        return translate(title)
+        return translate(title, stored_draft=stored_draft)
     except (ImportError, ValueError, OSError, TypeError):
         return None
 
@@ -166,12 +175,14 @@ def render_paper_discovery(actor, on_task=None):
             if mode == 'cited':
                 st.caption(f'{position}위 · 이번 {provider} 응답 안에서의 누적 인용순')
             st.subheader(item['title'])
-            translated = item.get('title_ko') or korean_title(item['title'])
-            if translated:
-                st.caption("한국어 참고 번역 · 학술 용어 확인 필요")
+            # [수정: 0 이영 · Codex] 2026-10-01T03:19:13+09:00 — 저장된 번역도 같은 운영 설정·깨진 출력 검사를 거친다. 원제목은 위에 그대로 표시한다.
+            translated = korean_title(item['title'], stored_draft=item.get('title_ko'))
+            # [수정: 0 이영 · Codex] 2026-10-01T02:53:50+09:00 — 원제목을 중복 표시하거나 미실행 번역을 준비 중으로 안내하지 않는다. 출력 검사는 의미 정확성을 보증하지 않는다.
+            if translated and translated != item['title']:
+                st.caption("기계 번역 초안 · 오역 가능성이 있으니 원제목과 대조하세요")
                 st.write(translated)
-            else:
-                st.caption('한국어 번역 준비 중')
+            elif translation_enabled() and not translated:
+                st.caption('한국어 번역 없음 · 원제목 기준으로 확인하세요')
             st.caption('발행일 ' + str(item.get('published') or '미확인') + ' · ' + str(item.get('journal') or '학술지 미확인'))
             if item.get('registered_at'):
                 st.caption(provider + ' 등록 시각: ' + _time(item['registered_at']))
