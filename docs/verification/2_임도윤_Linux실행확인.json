@@ -1,0 +1,171 @@
+{
+  "contributor_id": "2 임도윤",
+  "recorded_at_kst": "2026-10-01T01:12:29+09:00",
+  "evidence_level": "직접 실행",
+  "commit": "50c5460",
+  "environment": {
+    "os": "Linux (cloud container)",
+    "python": "3.13.13",
+    "install": "requirements.txt 고정 버전 그대로",
+    "ui_test": "streamlit.testing AppTest(헤드리스), 모델 호출 없음(수동 후보)"
+  },
+  "pytest": "478 passed, 1 skipped, 72.50s",
+  "previous_run": {
+    "commit": "57c1295",
+    "pytest": "89 passed, 1 skipped, 11.02s",
+    "recorded_at_kst": "2026-10-01T00:39:00+09:00"
+  },
+  "flow_check": {
+    "cases": 8,
+    "steps": "수동 후보 불러오기 → 조건 검산 → (가능 시) 확인+사유 입력 후 승인 → 보고서 다시 열기 → 수치를 바꾼 보고서 다시 열기 → 자료 변경 후 재검산",
+    "rows": [
+      {
+        "case": "정상 · 펭귄 344개체",
+        "exc_compute": [],
+        "1_검산": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "APPROVED",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "IMPORTED_REVIEW",
+        "4_errors": [
+          "보고서 검증 지문이 맞지 않습니다. 화면에서 내려받은 파일을 그대로 다시 열어 주세요."
+        ],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "정상 · BAT 양성 평균 연령",
+        "exc_compute": [],
+        "1_검산": "SUPPORTED_PREVIEW",
+        "can_approve": true,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "APPROVED",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "IMPORTED_REVIEW",
+        "4_errors": [
+          "보고서 검증 지문이 맞지 않습니다. 화면에서 내려받은 파일을 그대로 다시 열어 주세요."
+        ],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "수치 불일치 · 펭귄 한 행 누락",
+        "exc_compute": [],
+        "1_검산": "CONFLICT_PREVIEW",
+        "can_approve": false,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "승인 불가(버튼 비활성)",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "IMPORTED_REVIEW",
+        "4_errors": [
+          "보고서 검증 지문이 맞지 않습니다. 화면에서 내려받은 파일을 그대로 다시 열어 주세요."
+        ],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "수치 불일치 · 펭귄 두 행 누락",
+        "exc_compute": [],
+        "1_검산": "CONFLICT_PREVIEW",
+        "can_approve": false,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "승인 불가(버튼 비활성)",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "IMPORTED_REVIEW",
+        "4_errors": [
+          "보고서 검증 지문이 맞지 않습니다. 화면에서 내려받은 파일을 그대로 다시 열어 주세요."
+        ],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "근거 부족 · 발행사 원문 미확보",
+        "exc_compute": [],
+        "1_검산": "MISSING",
+        "can_approve": false,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "승인 불가(버튼 비활성)",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "변조대상없음",
+        "4_errors": [],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "근거 부족 · 결측 처리 명세 미확정",
+        "exc_compute": [],
+        "1_검산": "MISSING",
+        "can_approve": false,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "승인 불가(버튼 비활성)",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "변조대상없음",
+        "4_errors": [],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "자료 변경 · 등록 결과와 CSV 지문 상이",
+        "exc_compute": [],
+        "1_검산": "BLOCKED_CHANGED_INPUT",
+        "can_approve": false,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "승인 불가(버튼 비활성)",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "변조대상없음",
+        "4_errors": [],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      },
+      {
+        "case": "명세 변경 · 등록 필터 지문 상이",
+        "exc_compute": [],
+        "1_검산": "BLOCKED_CHANGED_INPUT",
+        "can_approve": false,
+        "approve_btn_disabled_before_input": true,
+        "2_승인": "승인 불가(버튼 비활성)",
+        "3_재열기": "IMPORTED_REVIEW",
+        "4_변조보고서": "변조대상없음",
+        "4_errors": [],
+        "5_자료변경": "BLOCKED_CHANGED_INPUT",
+        "5_can_approve": false,
+        "5_approved_after_change": false,
+        "exceptions": []
+      }
+    ]
+  },
+  "summary": {
+    "exceptions": 0,
+    "approve_only_normal_cases": "정상 2건만 승인 가능, 나머지 6건은 승인 버튼 비활성",
+    "approve_button_needs_check_and_reason": "8/8 확인·사유 입력 전 비활성",
+    "tampered_report_detected": "수치 변경 대상이 있는 4건 모두 '보고서 검증 지문이 맞지 않습니다' 오류 표시(나머지 4건은 바꿀 수치 필드 없음)",
+    "change_blocks_reuse": "8/8 자료 변경 후 BLOCKED_CHANGED_INPUT, 승인 불가, 승인 해제"
+  },
+  "findings": [
+    "변조 보고서 오류가 난 뒤에도 직전에 정상으로 다시 연 보고서 내용이 아래에 그대로 표시됨(finals/app.py 보고서 다시 열기 영역) — 사용자가 변조본이 열린 것으로 오해할 수 있음. 수정안: 오류 시 fin_reopened 비우기",
+    "Python 3.11에서는 numpy==2.5.3 설치 실패 — 배포 시 Python 3.12 이상 지정",
+    "use_container_width 폐기 예정 경고"
+  ],
+  "not_run": [
+    "실시간 AI·저장 응답 재생 모드(키·응답 파일 없음)",
+    "브라우저 실제 클릭(헤드리스 AppTest로 대신함)",
+    "파일 업로드로 보고서 다시 열기(붙여넣기로 대신함)",
+    "Cloud 배포 주소"
+  ],
+  "_change_note": "0 이영 심사위원평가(00:26)의 R10(실조작 완주 미확인)·Linux 미확인 항목에 대한 실제 실행 결과"
+}
